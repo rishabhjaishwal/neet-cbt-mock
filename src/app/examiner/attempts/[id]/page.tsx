@@ -72,6 +72,20 @@ export default async function ExaminerAttemptPage({
             {attempt.wrongCount} · Unattempted {attempt.unattemptedCount} · Est. rank{" "}
             {attempt.estimatedRank?.toLocaleString()} ({attempt.percentile} %ile)
           </p>
+          <p className="mt-2 rounded-md bg-amber-50 px-3 py-2 text-sm text-amber-900">
+            Screen switches: <strong>{attempt.screenSwitchCount ?? 0}</strong>
+            {(attempt.screenSwitchEvents?.length ?? 0) > 0 && (
+              <span className="ml-2 text-xs text-amber-800">
+                (latest:{" "}
+                {String(
+                  (attempt.screenSwitchEvents as { reason?: string }[])[
+                    (attempt.screenSwitchEvents as unknown[]).length - 1
+                  ]?.reason ?? "—",
+                ).replaceAll("_", " ")}
+                )
+              </span>
+            )}
+          </p>
         </div>
         {attempt.status === "submitted" ? (
           <ApproveButton attemptId={String(attempt._id)} />

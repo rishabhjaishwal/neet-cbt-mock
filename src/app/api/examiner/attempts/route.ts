@@ -35,6 +35,7 @@ export async function GET() {
         unattempted_count: a.unattemptedCount ?? null,
         percentile: a.percentile ?? null,
         estimated_rank: a.estimatedRank ?? null,
+        screenSwitchCount: a.screenSwitchCount ?? 0,
         student_name: u?.name ?? "Unknown",
         student_email: u?.email ?? "",
       };

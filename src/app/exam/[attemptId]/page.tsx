@@ -64,6 +64,7 @@ export default async function ExamPage({
       title={paper.title}
       endsAt={new Date(attempt.endsAt).toISOString()}
       questions={merged}
+      initialScreenSwitchCount={attempt.screenSwitchCount ?? 0}
     />
   );
 }

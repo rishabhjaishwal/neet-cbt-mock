@@ -75,6 +75,8 @@ export async function GET(_req: Request, { params }: Params) {
       topic_stats: attempt.topicStats ?? null,
       percentile: attempt.percentile ?? null,
       estimated_rank: attempt.estimatedRank ?? null,
+      screenSwitchCount: attempt.screenSwitchCount ?? 0,
+      screenSwitchEvents: attempt.screenSwitchEvents ?? [],
     },
     questions: merged,
   });

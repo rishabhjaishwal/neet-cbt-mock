@@ -43,6 +43,7 @@ export default async function ExaminerPage() {
               <th className="px-4 py-3">Year</th>
               <th className="px-4 py-3">Score</th>
               <th className="px-4 py-3">C/W</th>
+              <th className="px-4 py-3">Switches</th>
               <th className="px-4 py-3">Status</th>
               <th className="px-4 py-3">Open</th>
             </tr>
@@ -50,7 +51,7 @@ export default async function ExaminerPage() {
           <tbody>
             {attempts.length === 0 && (
               <tr>
-                <td colSpan={6} className="px-4 py-8 text-center text-slate-500">
+                <td colSpan={7} className="px-4 py-8 text-center text-slate-500">
                   No submitted attempts yet.
                 </td>
               </tr>
@@ -67,6 +68,9 @@ export default async function ExaminerPage() {
                   <td className="px-4 py-3">{a.score ?? "—"}</td>
                   <td className="px-4 py-3">
                     {a.correctCount}/{a.wrongCount}
+                  </td>
+                  <td className="px-4 py-3 font-semibold text-amber-800">
+                    {a.screenSwitchCount ?? 0}
                   </td>
                   <td className="px-4 py-3 capitalize">{a.status}</td>
                   <td className="px-4 py-3">

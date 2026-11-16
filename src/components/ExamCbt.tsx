@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 
 type Q = {
@@ -21,6 +21,7 @@ type Props = {
   title: string;
   endsAt: string;
   questions: Q[];
+  initialScreenSwitchCount?: number;
 };
 
 function formatRemain(ms: number) {
@@ -32,14 +33,38 @@ function formatRemain(ms: number) {
   return `${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
 }
 
-export function ExamCbt({ attemptId, year, title, endsAt, questions: initial }: Props) {
+function isFullscreen() {
+  return Boolean(document.fullscreenElement);
+}
+
+async function enterFullscreen(el: HTMLElement) {
+  if (!document.fullscreenElement && el.requestFullscreen) {
+    await el.requestFullscreen();
+  }
+}
+
+export function ExamCbt({
+  attemptId,
+  year,
+  title,
+  endsAt,
+  questions: initial,
+  initialScreenSwitchCount = 0,
+}: Props) {
   const router = useRouter();
+  const shellRef = useRef<HTMLDivElement>(null);
   const [questions, setQuestions] = useState(initial);
   const [index, setIndex] = useState(0);
   const [remain, setRemain] = useState(() => new Date(endsAt).getTime() - Date.now());
   const [busy, setBusy] = useState(false);
   const [filter, setFilter] = useState<"ALL" | "Physics" | "Chemistry" | "Biology">("ALL");
   const [msg, setMsg] = useState("");
+  const [examStarted, setExamStarted] = useState(false);
+  const [showLockPopup, setShowLockPopup] = useState(false);
+  const [popupReason, setPopupReason] = useState("");
+  const [switchCount, setSwitchCount] = useState(initialScreenSwitchCount);
+  const cooldownRef = useRef(0);
+  const recordingRef = useRef(false);
 
   const current = questions[index];
   const filteredIndexes = useMemo(() => {
@@ -48,6 +73,62 @@ export function ExamCbt({ attemptId, year, title, endsAt, questions: initial }: 
       .filter(({ q }) => filter === "ALL" || q.subject === filter)
       .map(({ i }) => i);
   }, [questions, filter]);
+
+  const recordSwitch = useCallback(
+    async (reason: "escape" | "fullscreen_exit" | "tab_switch" | "window_blur") => {
+      if (!examStarted) return;
+      const now = Date.now();
+      if (now - cooldownRef.current < 1500) return;
+      if (recordingRef.current) return;
+      cooldownRef.current = now;
+      recordingRef.current = true;
+      try {
+        const res = await fetch(`/api/attempts/${attemptId}/proctor`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ reason }),
+        });
+        const data = await res.json();
+        if (res.ok && typeof data.screenSwitchCount === "number") {
+          setSwitchCount(data.screenSwitchCount);
+        } else {
+          setSwitchCount((c) => c + 1);
+        }
+      } catch {
+        setSwitchCount((c) => c + 1);
+      } finally {
+        recordingRef.current = false;
+      }
+      const labels: Record<string, string> = {
+        escape: "Escape key was pressed.",
+        fullscreen_exit: "You left full-screen mode.",
+        tab_switch: "You switched away from the exam tab.",
+        window_blur: "The exam window lost focus.",
+      };
+      setPopupReason(labels[reason] || "Screen change detected.");
+      setShowLockPopup(true);
+    },
+    [attemptId, examStarted],
+  );
+
+  async function startFullscreenExam() {
+    try {
+      if (shellRef.current) await enterFullscreen(shellRef.current);
+      setExamStarted(true);
+      setShowLockPopup(false);
+    } catch {
+      setMsg("Could not enter full screen. Allow full screen and try again.");
+    }
+  }
+
+  async function returnToFullscreen() {
+    try {
+      if (shellRef.current) await enterFullscreen(shellRef.current);
+      setShowLockPopup(false);
+    } catch {
+      setPopupReason("Full screen is required. Click the button again and allow permission.");
+    }
+  }
 
   useEffect(() => {
     const t = setInterval(() => {
@@ -61,6 +142,43 @@ export function ExamCbt({ attemptId, year, title, endsAt, questions: initial }: 
     return () => clearInterval(t);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [endsAt]);
+
+  useEffect(() => {
+    if (!examStarted) return;
+
+    const onFullscreen = () => {
+      if (!isFullscreen()) void recordSwitch("fullscreen_exit");
+    };
+    const onVisibility = () => {
+      if (document.hidden) void recordSwitch("tab_switch");
+    };
+    const onBlur = () => {
+      if (!document.hidden) void recordSwitch("window_blur");
+    };
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape" || e.key === "Esc") {
+        e.preventDefault();
+        void recordSwitch("escape");
+      }
+      // Block common leave shortcuts where possible
+      if (e.key === "F11") {
+        e.preventDefault();
+        void recordSwitch("fullscreen_exit");
+      }
+    };
+
+    document.addEventListener("fullscreenchange", onFullscreen);
+    document.addEventListener("visibilitychange", onVisibility);
+    window.addEventListener("blur", onBlur);
+    window.addEventListener("keydown", onKeyDown, true);
+
+    return () => {
+      document.removeEventListener("fullscreenchange", onFullscreen);
+      document.removeEventListener("visibilitychange", onVisibility);
+      window.removeEventListener("blur", onBlur);
+      window.removeEventListener("keydown", onKeyDown, true);
+    };
+  }, [examStarted, recordSwitch]);
 
   async function persist(next: Q) {
     await fetch(`/api/attempts/${attemptId}/answer`, {
@@ -88,6 +206,13 @@ export function ExamCbt({ attemptId, year, title, endsAt, questions: initial }: 
       return;
     }
     setBusy(true);
+    if (document.fullscreenElement) {
+      try {
+        await document.exitFullscreen();
+      } catch {
+        /* ignore */
+      }
+    }
     const res = await fetch(`/api/attempts/${attemptId}/submit`, { method: "POST" });
     const data = await res.json();
     setBusy(false);
@@ -109,7 +234,55 @@ export function ExamCbt({ attemptId, year, title, endsAt, questions: initial }: 
   if (!current) return null;
 
   return (
-    <div className="cbt-shell flex min-h-screen flex-col">
+    <div ref={shellRef} className="cbt-shell flex min-h-screen flex-col bg-[var(--cbt-bg)]">
+      {!examStarted && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/80 p-6">
+          <div className="max-w-lg rounded-xl bg-white p-6 shadow-xl">
+            <h2 className="font-[family-name:var(--font-display)] text-2xl font-bold text-[var(--header)]">
+              Full screen required
+            </h2>
+            <p className="mt-3 text-sm leading-relaxed text-slate-700">
+              This NEET CBT must run in <strong>full screen</strong>. Leaving full screen,
+              switching tabs/windows, or pressing <strong>Esc</strong> is tracked and shown
+              to the examiner. You cannot freely change the screen during the test.
+            </p>
+            <button
+              type="button"
+              className="mt-5 w-full rounded-md bg-[var(--cbt-accent)] px-4 py-3 font-semibold text-white hover:bg-[var(--cbt-accent-dark)]"
+              onClick={() => void startFullscreenExam()}
+            >
+              Start exam in full screen
+            </button>
+            {msg && <p className="mt-3 text-sm text-[var(--danger)]">{msg}</p>}
+          </div>
+        </div>
+      )}
+
+      {showLockPopup && (
+        <div className="fixed inset-0 z-[60] flex items-center justify-center bg-black/70 p-6">
+          <div className="max-w-md rounded-xl border-2 border-amber-500 bg-white p-6 shadow-2xl">
+            <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-[var(--danger)]">
+              Screen change recorded
+            </h2>
+            <p className="mt-3 text-sm text-slate-700">
+              You cannot change the screen during the exam. {popupReason} This event has been
+              logged. Screen switches so far: <strong>{switchCount}</strong>.
+            </p>
+            <p className="mt-2 text-sm text-slate-600">
+              Return to full screen to continue. The examiner can see how many times the
+              screen was switched.
+            </p>
+            <button
+              type="button"
+              className="mt-5 w-full rounded-md bg-[var(--cbt-accent)] px-4 py-3 font-semibold text-white"
+              onClick={() => void returnToFullscreen()}
+            >
+              Return to full screen
+            </button>
+          </div>
+        </div>
+      )}
+
       <header className="flex flex-wrap items-center justify-between gap-3 bg-[var(--header)] px-4 py-3 text-white">
         <div>
           <div className="font-[family-name:var(--font-display)] text-lg font-semibold">
@@ -117,8 +290,13 @@ export function ExamCbt({ attemptId, year, title, endsAt, questions: initial }: 
           </div>
           <div className="text-sm text-blue-100">{title}</div>
         </div>
-        <div className="rounded bg-black/25 px-4 py-2 font-mono text-xl tracking-wide">
-          Time Left: {formatRemain(remain)}
+        <div className="flex flex-wrap items-center gap-3">
+          <div className="rounded bg-black/25 px-3 py-1.5 text-sm">
+            Screen switches: {switchCount}
+          </div>
+          <div className="rounded bg-black/25 px-4 py-2 font-mono text-xl tracking-wide">
+            Time Left: {formatRemain(remain)}
+          </div>
         </div>
       </header>
 

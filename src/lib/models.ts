@@ -84,6 +84,16 @@ const AttemptSchema = new Schema(
     topicStats: { type: Schema.Types.Mixed },
     percentile: { type: Number },
     estimatedRank: { type: Number },
+    screenSwitchCount: { type: Number, default: 0 },
+    screenSwitchEvents: {
+      type: [
+        {
+          at: { type: Date, default: Date.now },
+          reason: { type: String, required: true },
+        },
+      ],
+      default: [],
+    },
     answers: { type: [AttemptAnswerSchema], default: [] },
   },
   { timestamps: false },
