@@ -74,13 +74,14 @@
   "gaps": [
     "Source: Aakash public Q&A booklet NEET UG 2023 code F1",
     "Q59 missing from parse; placeholder inserted",
-    "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=5"
+    "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=5",
+    "Multi-correct support: 0 items with correctOptions[]; scoring +4 exact / partial +1 each subset / −1 if any wrong."
   ],
   "stats": {
     "parsedQuestions": 200,
     "placeholders": 0,
     "estimatedAnswers": 0,
-    "withFigures": 6
+    "withFigures": 5
   },
   "questions": [
     {
@@ -98,7 +99,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q2",
@@ -115,7 +120,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q3",
@@ -132,7 +141,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q4",
@@ -149,7 +162,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q5",
@@ -157,7 +174,7 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Current Electricity",
-      "stem": "In a series LCR circuit, the inductance L is 10 mH, capacitance C is 1 µF and resistance R is 100 Ω. The frequency at which resonance occurs is",
+      "stem": "In a series LCR circuit, the inductance L is 10 mH, capacitance C is 1 μF and resistance R is 100 Ω. The frequency at which resonance occurs is",
       "options": {
         "1": "15.9 kHz",
         "2": "1.59 rad/s",
@@ -166,7 +183,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q6",
@@ -183,7 +204,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q7",
@@ -200,7 +225,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q8",
@@ -217,7 +246,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q9",
@@ -225,7 +258,7 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Physics General",
-      "stem": "∫ E ⋅ dS = If  0 over a surface, then s",
+      "stem": "∫ E ⋅ dS = If ∇ 0 over a surface, then s",
       "options": {
         "1": "The magnitude of electric field on the surface is constant",
         "2": "All the charges must necessarily be inside the surface",
@@ -234,7 +267,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q10",
@@ -251,7 +288,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q11",
@@ -268,7 +309,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q12",
@@ -285,7 +330,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q13",
@@ -302,7 +351,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q14",
@@ -319,7 +372,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q15",
@@ -336,7 +393,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q16",
@@ -353,7 +414,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q17",
@@ -370,7 +435,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q18",
@@ -378,16 +447,20 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Physics General",
-      "stem": "Light travels a distance x in time t1 in air and 10x in time t2 in another denser medium. What is the critical angle for this medium?  10t 2   t ",
+      "stem": "Light travels a distance x in time t1 in air and 10x in time t2 in another denser medium. What is the critical angle for this medium? { 10t 2 ( { t (",
       "options": {
-        "1": "sin−1  ",
-        "2": "sin−1  1   t1   10 t 2   10 t1  t ",
-        "3": "sin−1  ",
-        "4": "sin−1  2   t2   t1 "
+        "1": "sin−1 { )",
+        "2": "sin−1 { 1 ) } t1 [ } 10 t 2 [ { 10 t1 ( {t (",
+        "3": "sin−1 { )",
+        "4": "sin−1 { 2 ) } t2 [ } t1 ["
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q19",
@@ -404,7 +477,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q20",
@@ -421,7 +498,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q21",
@@ -438,7 +519,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q22",
@@ -455,7 +540,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q23",
@@ -472,7 +561,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q24",
@@ -489,7 +582,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q25",
@@ -499,14 +596,18 @@
       "topic": "Current Electricity",
       "stem": "The equivalent capacitance of the system shown in the following circuit is",
       "options": {
-        "1": "3 µF",
-        "2": "6 µF",
-        "3": "9 µF",
-        "4": "2 µF"
+        "1": "3 μF",
+        "2": "6 μF",
+        "3": "9 μF",
+        "4": "2 μF"
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q26",
@@ -523,7 +624,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q27",
@@ -531,7 +636,7 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Nuclear Physics",
-      "stem": "The half life of a radioactive substance is 20 minutes. In how much time, the activity of substance drops to th  1   of its initial value?  16 ",
+      "stem": "The half life of a radioactive substance is 20 minutes. In how much time, the activity of substance drops to th { 1( { ) of its initial value? } 16 [",
       "options": {
         "1": "40 minutes",
         "2": "60 minutes",
@@ -540,7 +645,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q28",
@@ -557,7 +666,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q29",
@@ -574,7 +687,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q30",
@@ -582,16 +699,20 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Current Electricity",
-      "stem": "The magnetic energy stored in an inductor of inductance 4 µH carrying a current of 2 A is",
+      "stem": "The magnetic energy stored in an inductor of inductance 4 μH carrying a current of 2 A is",
       "options": {
         "1": "4 mJ",
         "2": "8 mJ",
-        "3": "8 µJ",
-        "4": "4 µJ"
+        "3": "8 μJ",
+        "4": "4 μJ"
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q31",
@@ -608,7 +729,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q32",
@@ -625,7 +750,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q33",
@@ -642,7 +771,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q34",
@@ -659,7 +792,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q35",
@@ -676,7 +813,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q36",
@@ -693,7 +834,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q37",
@@ -710,7 +855,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q38",
@@ -727,7 +876,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q39",
@@ -744,7 +897,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q40",
@@ -761,7 +918,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q41",
@@ -780,7 +941,11 @@
       "placeholder": false,
       "answerEstimated": false,
       "figureSrc": "/figures/2023-F1-Q41.png",
-      "figureKind": "pdf-extract"
+      "figureKind": "pdf-extract",
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q42",
@@ -797,7 +962,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q43",
@@ -814,7 +983,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q44",
@@ -831,7 +1004,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q45",
@@ -839,18 +1016,22 @@
       "subject": "Physics",
       "section": "B",
       "topic": "Current Electricity",
-      "stem": "A very long conducting wire is bent in a semi-circular shape from A to B as shown in figure. The magnetic field at point P for steady current configuration is given by µ0 i",
+      "stem": "A very long conducting wire is bent in a semi-circular shape from A to B as shown in figure. The magnetic field at point P for steady current configuration is given by μ0 i",
       "options": {
-        "1": "pointed away from the page 4R µ0 i  2 ",
-        "2": "1− pointed away from page 4R  π  µ0 i  2 ",
-        "3": "1− pointed into the page 4R  π  µ0 i",
+        "1": "pointed away from the page 4R μ0 i ⟨ 2 ]",
+        "2": "1− pointed away from page 4R ⟩√ π {} μ0 i ⟨ 2 ]",
+        "3": "1− pointed into the page 4R ⟩√ π {} μ0 i",
         "4": "pointed into the page 4R"
       },
       "correctOption": "2",
       "placeholder": false,
       "answerEstimated": false,
       "figureSrc": "/figures/2023-F1-Q45.png",
-      "figureKind": "pdf-extract"
+      "figureKind": "pdf-extract",
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q46",
@@ -867,7 +1048,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q47",
@@ -875,18 +1060,22 @@
       "subject": "Physics",
       "section": "B",
       "topic": "Work Energy Power",
-      "stem": "An electric dipole is placed as shown in the figure. 1 The electric potential (in 102 V) at point P due to the dipole is (∈0 = permittivity of free space and =K) 4π ∈0 5",
+      "stem": "An electric dipole is placed as shown in the figure. 1 The electric potential (in 102 V) at point P due to the dipole is (∈0 = permittivity of free space and =K) 4π ∈0 {5(",
       "options": {
-        "1": "  qK 8 8",
-        "2": "  qK 5 8",
-        "3": "  qK 3 3",
-        "4": "  qK 8"
+        "1": "{ ) qK }8[ {8(",
+        "2": "{ ) qK }5[ {8(",
+        "3": "{ ) qK }3[ {3(",
+        "4": "{ ) qK }8["
       },
       "correctOption": "4",
       "placeholder": false,
       "answerEstimated": false,
       "figureSrc": "/figures/2023-F1-Q47.png",
-      "figureKind": "pdf-extract"
+      "figureKind": "pdf-extract",
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q48",
@@ -905,7 +1094,11 @@
       "placeholder": false,
       "answerEstimated": false,
       "figureSrc": "/figures/2023-F1-Q48.png",
-      "figureKind": "pdf-extract"
+      "figureKind": "pdf-extract",
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q49",
@@ -913,7 +1106,7 @@
       "subject": "Physics",
       "section": "B",
       "topic": "Current Electricity",
-      "stem": "A wire carrying a current I along the positive x-axis has length L. It is kept in a magnetic field  B (2iˆ + 3 ˆj – 4kˆ )T . The magnitude of the magnetic force acting on the wire is =",
+      "stem": "A wire carrying a current I along the positive x-axis has length L. It is kept in a magnetic field ρ B (2iˆ + 3 ˆj – 4kˆ )T . The magnitude of the magnetic force acting on the wire is =",
       "options": {
         "1": "5 lL",
         "2": "5 lL",
@@ -922,7 +1115,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q50",
@@ -941,7 +1138,11 @@
       "placeholder": false,
       "answerEstimated": false,
       "figureSrc": "/figures/2023-F1-Q50.png",
-      "figureKind": "pdf-extract"
+      "figureKind": "pdf-extract",
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q51",
@@ -958,7 +1159,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q52",
@@ -975,7 +1180,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q53",
@@ -992,7 +1201,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q54",
@@ -1009,7 +1222,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q55",
@@ -1022,11 +1239,15 @@
         "1": "NaSCN",
         "2": "[Fe(CN)5NOS]4",
         "3": "[Fe(SCN)]2+",
-        "4": "Fe4[Fe(CN)6]3xH2O"
+        "4": "Fe4[Fe(CN)6]3⋅xH2O"
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q56",
@@ -1043,7 +1264,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q57",
@@ -1060,7 +1285,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q58",
@@ -1077,7 +1306,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q59",
@@ -1095,8 +1328,10 @@
       "correctOption": "2",
       "placeholder": false,
       "answerEstimated": false,
-      "figureSrc": "/figures/2023-F1-Q59.svg",
-      "figureKind": "missing-placeholder"
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q60",
@@ -1113,7 +1348,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q61",
@@ -1130,7 +1369,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q62",
@@ -1140,14 +1383,18 @@
       "topic": "Chemistry General",
       "stem": "The correct order of energies of molecular orbitals of N2 molecule, is",
       "options": {
-        "1": "1s < *1s < 2s < *2s < 2pz < (2px = 2py) < (*2px = *2py) < *2pz",
-        "2": "1s < *1s < 2s < *2s < 2pz < *2pz < (2px = 2py) < (*2px = *2py)",
-        "3": "1s < *1s < 2s < *2s < (2px = 2py) < (*2px = *2py) < 2pz < *2pz",
-        "4": "1s < *1s < 2s < *2s < (2px = 2py) < 2pz < (*2px = *2py) < *2pz"
+        "1": "σ1s < σ*1s < σ2s < σ*2s < σ2pz < (π2px = π2py) < (π*2px = π*2py) < σ*2pz",
+        "2": "σ1s < σ*1s < σ2s < σ*2s < σ2pz < σ*2pz < (π2px = π2py) < (π*2px = π*2py)",
+        "3": "σ1s < σ*1s < σ2s < σ*2s < (π2px = π2py) < (π*2px = π*2py) < σ2pz < σ*2pz",
+        "4": "σ1s < σ*1s < σ2s < σ*2s < (π2px = π2py) < σ2pz < (π*2px = π*2py) < σ*2pz"
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q63",
@@ -1164,7 +1411,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q64",
@@ -1181,7 +1432,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q65",
@@ -1198,7 +1453,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q66",
@@ -1215,7 +1474,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q67",
@@ -1232,7 +1495,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q68",
@@ -1249,7 +1516,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q69",
@@ -1266,7 +1537,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q70",
@@ -1283,7 +1558,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q71",
@@ -1291,7 +1570,7 @@
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
-      "stem": "Given below are two statements : Statement I : A unit formed by the attachment of a base to 1 position of sugar is known as nucleoside. Statement II : When nucleoside is linked to phosphorous acid at 5 -position of sugar moiety, we get nucleotide. In the light of the above statements, choose the correct answer from the options given below :",
+      "stem": "Given below are two statements : Statement I : A unit formed by the attachment of a base to 1′ position of sugar is known as nucleoside. Statement II : When nucleoside is linked to phosphorous acid at 5′ -position of sugar moiety, we get nucleotide. In the light of the above statements, choose the correct answer from the options given below :",
       "options": {
         "1": "Both Statement I and Statement II are false",
         "2": "Statement I is true but Statement II is false",
@@ -1300,7 +1579,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q72",
@@ -1317,7 +1600,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q73",
@@ -1334,7 +1621,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q74",
@@ -1351,7 +1642,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q75",
@@ -1368,7 +1663,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q76",
@@ -1385,7 +1684,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q77",
@@ -1402,7 +1705,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q78",
@@ -1410,7 +1717,7 @@
       "subject": "Chemistry",
       "section": "A",
       "topic": "Electrochemistry",
-      "stem": "Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R Assertion A : In equation rG = –nFEcell’ value of rG depends on n. Reasons R : Ecell is an intensive property and rG is an extensive property. In the light of the above statements, choose the correct answer from the options given below",
+      "stem": "Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R Assertion A : In equation ΔrG = –nFEcell’ value of ΔrG depends on n. Reasons R : Ecell is an intensive property and ΔrG is an extensive property. In the light of the above statements, choose the correct answer from the options given below",
       "options": {
         "1": "Both A and R are true and R is NOT the correct explanation of A",
         "2": "A is true but R is false",
@@ -1419,7 +1726,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q79",
@@ -1430,13 +1741,17 @@
       "stem": "Which amongst the following molecules on polymerization produces neoprene? Cl |",
       "options": {
         "1": "H2C = C – CH = CH2",
-        "2": "H2C = CH – C  CH CH3 |",
+        "2": "H2C = CH – C ≡ CH CH3 |",
         "3": "H2C = C – CH = CH2",
         "4": "H2C = CH – CH = CH2"
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q80",
@@ -1453,7 +1768,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q81",
@@ -1470,7 +1789,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q82",
@@ -1480,14 +1803,18 @@
       "topic": "Organic Chemistry",
       "stem": "Which of the following reactions will NOT give primary amine as the product?",
       "options": {
-        "1": "CH3 CN ⎯⎯⎯⎯ (i) LiAlH4 (ii) H O → Product 3",
-        "2": "CH3NC ⎯⎯⎯⎯ (i) LiAlH4 (ii) H O → Product 3",
-        "3": "CH3 CONH2 ⎯⎯⎯⎯ (i) LiAlH4 (ii) H O → Product 3",
+        "1": "CH3 CN ⎯⎯⎯⎯ (i) LiAlH4 (ii) H O⊕ → Product 3",
+        "2": "CH3NC ⎯⎯⎯⎯ (i) LiAlH4 (ii) H O⊕ → Product 3",
+        "3": "CH3 CONH2 ⎯⎯⎯⎯ (i) LiAlH4 (ii) H O⊕ → Product 3",
         "4": "CH3 CONH2 ⎯⎯⎯⎯ Br2 /KOH → Product"
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q83",
@@ -1495,7 +1822,7 @@
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
-      "stem": "The right option for the mass of CO2 produced by heating 20 g of 20% pure limestone is (Atomic mass of Ca = 40) CaCO 3 ⎯⎯⎯ 1200 K ⎯→ CaO + CO2 ",
+      "stem": "The right option for the mass of CO2 produced by heating 20 g of 20% pure limestone is (Atomic mass of Ca = 40) ⎡⎣CaCO 3 ⎯⎯⎯ 1200 K ⎯→ CaO + CO2 ⎤⎦",
       "options": {
         "1": "1.76 g",
         "2": "2.64 g",
@@ -1504,7 +1831,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q84",
@@ -1521,7 +1852,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q85",
@@ -1529,7 +1864,7 @@
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
-      "stem": "The number of  bonds,  bonds and lone pair of electrons in pyridine, respectively are:",
+      "stem": "The number of σ bonds, π bonds and lone pair of electrons in pyridine, respectively are:",
       "options": {
         "1": "12, 3, 0",
         "2": "11, 3, 1",
@@ -1538,7 +1873,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q86",
@@ -1548,14 +1887,18 @@
       "topic": "Chemical Thermodynamics",
       "stem": "Which amongst the following options is the correct relation between change in enthalpy and change in internal energy?",
       "options": {
-        "1": "H = U + ngRT",
-        "2": "H – U = –nRT",
-        "3": "H + U = nR",
-        "4": "H = U – ngRT"
+        "1": "ΔH = ΔU + ΔngRT",
+        "2": "ΔH – ΔU = –ΔnRT",
+        "3": "ΔH + ΔU = ΔnR",
+        "4": "ΔH = ΔU – ΔngRT"
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q87",
@@ -1572,7 +1915,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q88",
@@ -1589,7 +1936,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q89",
@@ -1606,7 +1957,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q90",
@@ -1623,7 +1978,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q91",
@@ -1631,7 +1990,7 @@
       "subject": "Chemistry",
       "section": "B",
       "topic": "Chemistry General",
-      "stem": "Identify the major product obtained in the following reaction:  3 – OH ⎯⎯→ major product",
+      "stem": "Identify the major product obtained in the following reaction: Δ 3 – OH ⎯⎯→ major product",
       "options": {
         "1": "Option 1",
         "2": "Option 2",
@@ -1640,7 +1999,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q92",
@@ -1657,7 +2020,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q93",
@@ -1665,7 +2032,7 @@
       "subject": "Chemistry",
       "section": "B",
       "topic": "Chemical Equilibrium",
-      "stem": "The equilibrium concentrations of the species in the reaction A + B C + D are 2, 3, 10 and 6 mol L–1, respectively at 300 K. Gº for the reaction is (R = 2 cal/mol K)",
+      "stem": "The equilibrium concentrations of the species in the reaction A + B C + D are 2, 3, 10 and 6 mol L–1, respectively at 300 K. ΔGº for the reaction is (R = 2 cal/mol K)",
       "options": {
         "1": "137.26 cal",
         "2": "1381.80 cal",
@@ -1674,7 +2041,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q94",
@@ -1691,7 +2062,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q95",
@@ -1701,14 +2076,18 @@
       "topic": "Chemistry General",
       "stem": "Which complex compound is most stable?",
       "options": {
-        "1": "Co (NH3 ) (NO3 )   3 3",
-        "2": "CoCl2 ( en)  NO3  2",
-        "3": "Co (NH3 )  ( SO4 )  6 2 3",
-        "4": "Co (NH3 ) (H2O) Br  (NO3 )  4  2"
+        "1": "⎡Co (NH3 ) (NO3 ) ⎤ ⎣ 3 3⎦",
+        "2": "⎡CoCl2 ( en) ⎤ NO3 ⎣ 2⎦",
+        "3": "⎡Co (NH3 ) ⎤ ( SO4 ) ⎣ 6 ⎦2 3",
+        "4": "⎡Co (NH3 ) (H2O) Br ⎤ (NO3 ) ⎣ 4 ⎦ 2"
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q96",
@@ -1725,7 +2104,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q97",
@@ -1742,7 +2125,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q98",
@@ -1750,16 +2137,20 @@
       "subject": "Chemistry",
       "section": "B",
       "topic": "Chemistry General",
-      "stem": "Identify the final product [D] obtained in the following sequence of reactions. CH3CHO ⎯⎯⎯⎯ i) LiAIH4 ii) H O+ → [A] ⎯⎯⎯→ H2SO4  [B] 3",
+      "stem": "Identify the final product [D] obtained in the following sequence of reactions. CH3CHO ⎯⎯⎯⎯ i) LiAIH4 ii) H O+ → [A] ⎯⎯⎯→ H2SO4 Δ [B] 3",
       "options": {
         "1": "Option 1",
         "2": "C4H10",
-        "3": "HC  C Na+",
+        "3": "HC ≡ C Na+",
         "4": "Option 4"
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q99",
@@ -1776,7 +2167,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q100",
@@ -1793,7 +2188,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q101",
@@ -1810,7 +2209,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q102",
@@ -1827,7 +2230,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q103",
@@ -1844,7 +2251,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q104",
@@ -1861,7 +2272,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q105",
@@ -1878,7 +2293,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q106",
@@ -1895,7 +2314,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q107",
@@ -1912,7 +2335,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q108",
@@ -1929,7 +2356,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q109",
@@ -1946,7 +2377,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q110",
@@ -1963,7 +2398,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q111",
@@ -1980,7 +2419,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q112",
@@ -1997,7 +2440,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q113",
@@ -2014,7 +2461,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q114",
@@ -2031,7 +2482,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q115",
@@ -2048,7 +2503,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q116",
@@ -2065,7 +2524,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q117",
@@ -2082,7 +2545,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q118",
@@ -2099,7 +2566,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q119",
@@ -2116,7 +2587,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q120",
@@ -2133,7 +2608,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q121",
@@ -2150,7 +2629,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q122",
@@ -2167,7 +2650,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q123",
@@ -2184,7 +2671,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q124",
@@ -2201,7 +2692,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q125",
@@ -2218,7 +2713,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q126",
@@ -2235,7 +2734,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q127",
@@ -2252,7 +2755,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q128",
@@ -2269,7 +2776,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q129",
@@ -2286,7 +2797,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q130",
@@ -2303,7 +2818,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q131",
@@ -2320,7 +2839,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q132",
@@ -2337,7 +2860,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q133",
@@ -2354,7 +2881,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q134",
@@ -2371,7 +2902,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q135",
@@ -2388,7 +2923,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q136",
@@ -2405,7 +2944,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q137",
@@ -2422,7 +2965,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q138",
@@ -2439,7 +2986,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q139",
@@ -2456,7 +3007,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q140",
@@ -2473,7 +3028,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q141",
@@ -2490,7 +3049,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q142",
@@ -2507,7 +3070,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q143",
@@ -2524,7 +3091,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q144",
@@ -2541,7 +3112,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q145",
@@ -2558,7 +3133,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q146",
@@ -2575,7 +3154,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q147",
@@ -2592,7 +3175,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q148",
@@ -2609,7 +3196,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q149",
@@ -2626,7 +3217,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q150",
@@ -2643,7 +3238,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q151",
@@ -2660,7 +3259,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q152",
@@ -2677,7 +3280,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q153",
@@ -2694,7 +3301,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q154",
@@ -2711,7 +3322,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q155",
@@ -2728,7 +3343,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q156",
@@ -2745,7 +3364,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q157",
@@ -2762,7 +3385,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q158",
@@ -2779,7 +3406,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q159",
@@ -2796,7 +3427,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q160",
@@ -2813,7 +3448,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q161",
@@ -2830,7 +3469,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q162",
@@ -2847,7 +3490,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q163",
@@ -2864,7 +3511,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q164",
@@ -2881,7 +3532,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q165",
@@ -2898,7 +3553,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q166",
@@ -2915,7 +3574,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q167",
@@ -2932,7 +3595,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q168",
@@ -2949,7 +3616,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q169",
@@ -2966,7 +3637,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q170",
@@ -2983,7 +3658,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q171",
@@ -3000,7 +3679,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q172",
@@ -3017,7 +3700,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q173",
@@ -3034,7 +3721,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q174",
@@ -3051,7 +3742,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q175",
@@ -3068,7 +3763,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q176",
@@ -3085,7 +3784,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q177",
@@ -3102,7 +3805,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q178",
@@ -3119,7 +3826,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q179",
@@ -3136,7 +3847,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q180",
@@ -3153,7 +3868,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q181",
@@ -3170,7 +3889,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q182",
@@ -3187,7 +3910,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q183",
@@ -3204,7 +3931,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q184",
@@ -3221,7 +3952,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q185",
@@ -3238,7 +3973,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q186",
@@ -3255,7 +3994,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q187",
@@ -3272,7 +4015,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q188",
@@ -3289,7 +4036,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q189",
@@ -3306,7 +4057,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q190",
@@ -3323,7 +4078,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q191",
@@ -3340,7 +4099,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q192",
@@ -3357,7 +4120,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q193",
@@ -3374,7 +4141,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q194",
@@ -3391,7 +4162,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q195",
@@ -3408,7 +4183,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q196",
@@ -3425,7 +4204,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q197",
@@ -3442,7 +4225,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q198",
@@ -3459,7 +4246,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q199",
@@ -3476,7 +4267,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2023-F1-Q200",
@@ -3493,7 +4288,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     }
   ]
 }

@@ -36,7 +36,8 @@
   "gaps": [
     "Source: Official-style Hindi+English booklet; English column cropped",
     "180 answers estimated (no Ans/Answer marker in source extract)",
-    "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=3"
+    "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=3",
+    "Multi-correct support: 0 items with correctOptions[]; scoring +4 exact / partial +1 each subset / −1 if any wrong."
   ],
   "stats": {
     "parsedQuestions": 180,
@@ -60,7 +61,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q2",
@@ -77,7 +82,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q3",
@@ -94,7 +103,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q4",
@@ -111,7 +124,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q5",
@@ -128,7 +145,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q6",
@@ -145,7 +166,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q7",
@@ -162,7 +187,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q8",
@@ -179,7 +208,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q9",
@@ -196,7 +229,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q10",
@@ -204,16 +241,20 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Physics General",
-      "stem": "A ray is incident at an angle of incidence i on one surface of a small angle prism (with angle of prism A) and emerges normally from the opposite surface. If the refractive index of the material of the prism is µ, then the angle of incidence is nearly equal to : 2A",
+      "stem": "A ray is incident at an angle of incidence i on one surface of a small angle prism (with angle of prism A) and emerges normally from the opposite surface. If the refractive index of the material of the prism is μ, then the angle of incidence is nearly equal to : 2A",
       "options": {
-        "1": "µ",
-        "2": "µA µA",
+        "1": "μ",
+        "2": "μA μA",
         "3": "2 A",
-        "4": "2µ"
+        "4": "2μ"
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q11",
@@ -230,7 +271,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q12",
@@ -247,7 +292,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q13",
@@ -264,7 +313,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q14",
@@ -281,7 +334,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q15",
@@ -298,7 +355,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q16",
@@ -315,7 +376,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q17",
@@ -325,14 +390,18 @@
       "topic": "Current Electricity",
       "stem": "A resistance wire connected in the left gap of a metre bridge balances a 10 Ω resistance in the right gap at a point which divides the bridge wire in the ratio 3 : 2. If the length of the resistance wire is 1.5 m, then the length of 1 Ω of the resistance wire is :",
       "options": {
-        "1": "1.0×10−1 m",
-        "2": "1.5×10−1 m",
-        "3": "1.5×10−2 m",
-        "4": "1.0×10−2 m"
+        "1": "1.0×10^{-1}$ m",
+        "2": "1.5×10^{-1}$ m",
+        "3": "1.5×20^{-2}$ m",
+        "4": "1.0×20^{-2}$ m"
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q18",
@@ -349,7 +418,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q19",
@@ -357,16 +430,20 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Laws of Motion",
-      "stem": "A charged particle having drift velocity of 7.5×10 −4 m s −1 in an electric field of 3×10−10 Vm−1, has a mobility in m2 V−1 s−1 of :",
+      "stem": "A charged particle having drift velocity of 7.5×40^{-4}$ m s −1 in an electric field of 3×100^{-10}$ Vm−1, has a mobility in m2 V−1 s−1 of :",
       "options": {
         "1": "2.5×106",
-        "2": "2.5×10−6",
-        "3": "2.25×10−15",
+        "2": "2.5×60^{-6}$",
+        "3": "2.25×150^{-15}$",
         "4": "2.25×1015"
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q20",
@@ -383,7 +460,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q21",
@@ -400,7 +481,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q22",
@@ -417,7 +502,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q23",
@@ -434,7 +523,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q24",
@@ -451,7 +544,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q25",
@@ -468,7 +565,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q26",
@@ -485,7 +586,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q27",
@@ -502,7 +607,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q28",
@@ -519,7 +628,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q29",
@@ -536,7 +649,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q30",
@@ -553,7 +670,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q31",
@@ -570,7 +691,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q32",
@@ -587,7 +712,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q33",
@@ -595,7 +724,7 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Work Energy Power",
-      "stem": "A short electric dipole has a dipole moment of 16×10−9 C m. The electric potential due to the dipole at a point at a distance of 0.6 m from the centre of the dipole, situated on a line making an angle of 608 with the dipole axis is :  1   = 9× 109 N m2 /C2   4 π\u00040 ",
+      "stem": "A short electric dipole has a dipole moment of 16×90^{-9}$ C m. The electric potential due to the dipole at a point at a distance of 0.6 m from the centre of the dipole, situated on a line making an angle of 608 with the dipole axis is : { 1 ( { = 9× 109 N m2 /C2 ) } 4 π\u00040 [",
       "options": {
         "1": "200 V",
         "2": "400 V",
@@ -604,7 +733,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q34",
@@ -621,7 +754,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q35",
@@ -638,7 +775,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q36",
@@ -655,7 +796,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q37",
@@ -672,7 +817,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q38",
@@ -689,7 +838,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q39",
@@ -706,7 +859,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q40",
@@ -723,7 +880,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q41",
@@ -740,7 +901,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q42",
@@ -748,7 +913,7 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Work Energy Power",
-      "stem": "An electron is accelerated from rest through a potential difference of V volt. If the de Broglie wavelength of the electron is 1.227×10−2 nm, the potential difference is :",
+      "stem": "An electron is accelerated from rest through a potential difference of V volt. If the de Broglie wavelength of the electron is 1.227×20^{-2}$ nm, the potential difference is :",
       "options": {
         "1": "102 V",
         "2": "103 V",
@@ -757,7 +922,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q43",
@@ -774,7 +943,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q44",
@@ -791,7 +964,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q45",
@@ -808,7 +985,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q46",
@@ -825,7 +1006,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q47",
@@ -842,7 +1027,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q48",
@@ -859,7 +1048,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q49",
@@ -876,7 +1069,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q50",
@@ -893,7 +1090,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q51",
@@ -910,7 +1111,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q52",
@@ -927,7 +1132,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q53",
@@ -944,7 +1153,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q54",
@@ -961,7 +1174,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q55",
@@ -978,7 +1195,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q56",
@@ -995,7 +1216,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q57",
@@ -1012,7 +1237,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q58",
@@ -1029,7 +1258,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q59",
@@ -1046,7 +1279,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q60",
@@ -1063,7 +1300,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q61",
@@ -1080,7 +1321,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q62",
@@ -1097,7 +1342,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q63",
@@ -1114,7 +1363,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q64",
@@ -1131,7 +1384,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q65",
@@ -1148,7 +1405,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q66",
@@ -1165,7 +1426,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q67",
@@ -1182,7 +1447,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q68",
@@ -1199,7 +1468,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q69",
@@ -1216,7 +1489,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q70",
@@ -1233,7 +1510,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q71",
@@ -1250,7 +1531,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q72",
@@ -1267,7 +1552,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q73",
@@ -1284,7 +1573,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q74",
@@ -1301,7 +1594,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q75",
@@ -1318,7 +1615,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q76",
@@ -1335,7 +1636,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q77",
@@ -1352,7 +1657,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q78",
@@ -1369,7 +1678,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q79",
@@ -1386,7 +1699,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q80",
@@ -1403,7 +1720,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q81",
@@ -1420,7 +1741,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q82",
@@ -1437,7 +1762,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q83",
@@ -1454,7 +1783,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q84",
@@ -1471,7 +1804,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q85",
@@ -1488,7 +1825,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q86",
@@ -1505,7 +1846,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q87",
@@ -1522,7 +1867,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q88",
@@ -1539,7 +1888,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q89",
@@ -1556,7 +1909,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q90",
@@ -1573,7 +1930,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q91",
@@ -1590,7 +1951,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q92",
@@ -1607,7 +1972,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q93",
@@ -1624,7 +1993,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q94",
@@ -1641,7 +2014,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q95",
@@ -1649,7 +2026,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "An electron is accelerated from rest through a potential difference of V volt. If the de Broglie wavelength of the electron is 1.227×10−2 nm, the potential difference is :",
+      "stem": "An electron is accelerated from rest through a potential difference of V volt. If the de Broglie wavelength of the electron is 1.227×20^{-2}$ nm, the potential difference is :",
       "options": {
         "1": "103 V",
         "2": "104 V",
@@ -1658,7 +2035,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q96",
@@ -1666,16 +2047,20 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "The capacitance of a parallel plate capacitor with air as medium is 6 µF. With the introduction of a dielectric medium, the capacitance becomes 30 µF. The permittivity of the medium is : (e0=8.85×10−12 C2 N−1 m−2)",
+      "stem": "The capacitance of a parallel plate capacitor with air as medium is 6 μF. With the introduction of a dielectric medium, the capacitance becomes 30 μF. The permittivity of the medium is : (e0=8.85×120^{-12}$ C2 N−1 m−2)",
       "options": {
-        "1": "0.44×10−10 C2 N−1 m−2",
+        "1": "0.44×100^{-10}$ C2 N−1 m−2",
         "2": "5.00 C2 N−1 m−2",
-        "3": "0.44×10−13 C2 N−1 m−2",
-        "4": "1.77×10−12 C2 N−1 m−2"
+        "3": "0.44×130^{-13}$ C2 N−1 m−2",
+        "4": "1.77×120^{-12}$ C2 N−1 m−2"
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q97",
@@ -1692,7 +2077,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q98",
@@ -1709,7 +2098,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q99",
@@ -1726,7 +2119,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q100",
@@ -1743,7 +2140,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q101",
@@ -1760,7 +2161,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q102",
@@ -1777,7 +2182,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q103",
@@ -1794,7 +2203,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q104",
@@ -1811,7 +2224,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q105",
@@ -1819,16 +2236,20 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "A ray is incident at an angle of incidence i on one surface of a small angle prism (with angle of prism A) and emerges normally from the opposite surface. If the refractive index of the material of the prism is µ, then the angle of incidence is nearly equal to :",
+      "stem": "A ray is incident at an angle of incidence i on one surface of a small angle prism (with angle of prism A) and emerges normally from the opposite surface. If the refractive index of the material of the prism is μ, then the angle of incidence is nearly equal to :",
       "options": {
-        "1": "µA µA",
+        "1": "μA μA",
         "2": "2 A",
-        "3": "2µ 2A",
-        "4": "µ Hindi+English 4"
+        "3": "2μ 2A",
+        "4": "μ Hindi+English 4"
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q106",
@@ -1845,7 +2266,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q107",
@@ -1862,7 +2287,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q108",
@@ -1881,7 +2310,11 @@
       "placeholder": false,
       "answerEstimated": true,
       "figureSrc": "/figures/2020-E1-Q108.png",
-      "figureKind": "pdf-extract"
+      "figureKind": "pdf-extract",
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q109",
@@ -1898,7 +2331,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q110",
@@ -1915,7 +2352,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q111",
@@ -1932,7 +2373,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q112",
@@ -1949,7 +2394,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q113",
@@ -1966,7 +2415,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q114",
@@ -1974,7 +2427,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "A spherical conductor of radius 10 cm has a charge of 3.2×10−7 C distributed uniformly. What is the magnitude of electric field at a point 15 cm from the centre of the sphere ?  1   = 9× 109 N m2 /C2   4 π\u00040 ",
+      "stem": "A spherical conductor of radius 10 cm has a charge of 3.2×70^{-7}$ C distributed uniformly. What is the magnitude of electric field at a point 15 cm from the centre of the sphere ? { 1 ( { = 9× 109 N m2 /C2 ) } 4 π\u00040 [",
       "options": {
         "1": "1.28×106 N/C",
         "2": "1.28×107 N/C",
@@ -1983,7 +2436,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q115",
@@ -2000,7 +2457,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q116",
@@ -2017,7 +2478,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q117",
@@ -2034,7 +2499,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q118",
@@ -2051,7 +2520,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q119",
@@ -2068,7 +2541,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q120",
@@ -2085,7 +2562,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q121",
@@ -2093,16 +2574,20 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "An iron rod of susceptibility 599 is subjected to a magnetising field of 1200 A m −1 . The permeability of the material of the rod is : (µ0=4π×10−7 T m A−1)",
+      "stem": "An iron rod of susceptibility 599 is subjected to a magnetising field of 1200 A m −1 . The permeability of the material of the rod is : (μ0=4π×70^{-7}$ T m A−1)",
       "options": {
-        "1": "2.4π×10−5 T m A−1",
-        "2": "2.4π×10−7 T m A−1",
-        "3": "2.4π×10−4 T m A−1",
-        "4": "8.0×10−5 T m A−1"
+        "1": "2.4π×50^{-5}$ T m A−1",
+        "2": "2.4π×70^{-7}$ T m A−1",
+        "3": "2.4π×40^{-4}$ T m A−1",
+        "4": "8.0×50^{-5}$ T m A−1"
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q122",
@@ -2119,7 +2604,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q123",
@@ -2136,7 +2625,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q124",
@@ -2153,7 +2646,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q125",
@@ -2170,7 +2667,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q126",
@@ -2187,7 +2688,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q127",
@@ -2204,7 +2709,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q128",
@@ -2221,7 +2730,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q129",
@@ -2231,14 +2744,18 @@
       "topic": "Biology General",
       "stem": "A resistance wire connected in the left gap of a metre bridge balances a 10 Ω resistance in the right gap at a point which divides the bridge wire in the ratio 3 : 2. If the length of the resistance wire is 1.5 m, then the length of 1 Ω of the resistance wire is :",
       "options": {
-        "1": "1.5×10−1 m",
-        "2": "1.5×10−2 m",
-        "3": "1.0×10−2 m",
-        "4": "1.0×10−1 m"
+        "1": "1.5×10^{-1}$ m",
+        "2": "1.5×20^{-2}$ m",
+        "3": "1.0×20^{-2}$ m",
+        "4": "1.0×10^{-1}$ m"
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q130",
@@ -2255,7 +2772,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q131",
@@ -2272,7 +2793,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q132",
@@ -2289,7 +2814,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q133",
@@ -2297,16 +2826,20 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "A charged particle having drift velocity of 7.5×10 −4 m s −1 in an electric field of 3×10−10 Vm−1, has a mobility in m2 V−1 s−1 of :",
+      "stem": "A charged particle having drift velocity of 7.5×40^{-4}$ m s −1 in an electric field of 3×100^{-10}$ Vm−1, has a mobility in m2 V−1 s−1 of :",
       "options": {
-        "1": "2.5×10−6",
-        "2": "2.25×10−15",
+        "1": "2.5×60^{-6}$",
+        "2": "2.25×150^{-15}$",
         "3": "2.25×1015",
         "4": "2.5×106"
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q134",
@@ -2323,7 +2856,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q135",
@@ -2340,7 +2877,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q136",
@@ -2348,7 +2889,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "An electron is accelerated from rest through a potential difference of V volt. If the de Broglie wavelength of the electron is 1.227×10−2 nm, the potential difference is :",
+      "stem": "An electron is accelerated from rest through a potential difference of V volt. If the de Broglie wavelength of the electron is 1.227×20^{-2}$ nm, the potential difference is :",
       "options": {
         "1": "104 V",
         "2": "10 V",
@@ -2357,7 +2898,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q137",
@@ -2374,7 +2919,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q138",
@@ -2393,7 +2942,11 @@
       "placeholder": false,
       "answerEstimated": true,
       "figureSrc": "/figures/2020-E1-Q138.png",
-      "figureKind": "pdf-extract"
+      "figureKind": "pdf-extract",
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q139",
@@ -2410,7 +2963,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q140",
@@ -2418,16 +2975,20 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "A ray is incident at an angle of incidence i on one surface of a small angle prism (with angle of prism A) and emerges normally from the opposite surface. If the refractive index of the material of the prism is µ, then the angle of incidence is nearly equal to : A",
+      "stem": "A ray is incident at an angle of incidence i on one surface of a small angle prism (with angle of prism A) and emerges normally from the opposite surface. If the refractive index of the material of the prism is μ, then the angle of incidence is nearly equal to : A",
       "options": {
-        "1": "2µ 2A",
-        "2": "µ",
-        "3": "µA µA",
+        "1": "2μ 2A",
+        "2": "μ",
+        "3": "μA μA",
         "4": "2"
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q141",
@@ -2444,7 +3005,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q142",
@@ -2452,16 +3017,20 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "A ray is incident at an angle of incidence i on one surface of a small angle prism (with angle of prism A) and emerges normally from the opposite surface. If the refractive index of the material of the prism is µ, then the angle of incidence is nearly equal to : µA",
+      "stem": "A ray is incident at an angle of incidence i on one surface of a small angle prism (with angle of prism A) and emerges normally from the opposite surface. If the refractive index of the material of the prism is μ, then the angle of incidence is nearly equal to : μA",
       "options": {
         "1": "2 A",
-        "2": "2µ 2A",
-        "3": "µ",
-        "4": "µA"
+        "2": "2μ 2A",
+        "3": "μ",
+        "4": "μA"
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q143",
@@ -2478,7 +3047,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q144",
@@ -2495,7 +3068,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q145",
@@ -2512,7 +3089,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q146",
@@ -2529,7 +3110,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q147",
@@ -2546,7 +3131,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q148",
@@ -2563,7 +3152,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q149",
@@ -2573,14 +3166,18 @@
       "topic": "Biology General",
       "stem": "A resistance wire connected in the left gap of a metre bridge balances a 10 Ω resistance in the right gap at a point which divides the bridge wire in the ratio 3 : 2. If the length of the resistance wire is 1.5 m, then the length of 1 Ω of the resistance wire is :",
       "options": {
-        "1": "1.5×10−2 m",
-        "2": "1.0×10−2 m",
-        "3": "1.0×10−1 m",
-        "4": "1.5×10−1 m"
+        "1": "1.5×20^{-2}$ m",
+        "2": "1.0×20^{-2}$ m",
+        "3": "1.0×10^{-1}$ m",
+        "4": "1.5×10^{-1}$ m"
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q150",
@@ -2597,7 +3194,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q151",
@@ -2614,7 +3215,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q152",
@@ -2631,7 +3236,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q153",
@@ -2639,7 +3248,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "The rate constant for a first order reaction is 4.606×10−3 s−1. The time required to reduce 2.0 g of the reactant to 0.2 g is :",
+      "stem": "The rate constant for a first order reaction is 4.606×30^{-3}$ s−1. The time required to reduce 2.0 g of the reactant to 0.2 g is :",
       "options": {
         "1": "500 s",
         "2": "1000 s",
@@ -2648,7 +3257,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q154",
@@ -2656,7 +3269,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "A spherical conductor of radius 10 cm has a charge of 3.2×10−7 C distributed uniformly. What is the magnitude of electric field at a point 15 cm from the centre of the sphere ?  1   = 9× 109 N m2 /C2   4 π\u00040 ",
+      "stem": "A spherical conductor of radius 10 cm has a charge of 3.2×70^{-7}$ C distributed uniformly. What is the magnitude of electric field at a point 15 cm from the centre of the sphere ? { 1 ( { = 9× 109 N m2 /C2 ) } 4 π\u00040 [",
       "options": {
         "1": "7 1.28×10 N/C",
         "2": "1.28×104 N/C",
@@ -2665,7 +3278,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q155",
@@ -2682,7 +3299,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q156",
@@ -2699,7 +3320,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q157",
@@ -2716,7 +3341,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q158",
@@ -2733,7 +3362,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q159",
@@ -2743,14 +3376,18 @@
       "topic": "Biology General",
       "stem": "Assume that light of wavelength 600 nm is coming from a star. The limit of resolution of telescope whose objective has a diameter of 2 m is :",
       "options": {
-        "1": "6.00×10−7 rad",
-        "2": "3.66×10−7 rad",
-        "3": "1.83×10−7 rad",
-        "4": "7.32×10−7 rad"
+        "1": "6.00×70^{-7}$ rad",
+        "2": "3.66×70^{-7}$ rad",
+        "3": "1.83×70^{-7}$ rad",
+        "4": "7.32×70^{-7}$ rad"
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q160",
@@ -2769,7 +3406,11 @@
       "placeholder": false,
       "answerEstimated": true,
       "figureSrc": "/figures/2020-E1-Q160.svg",
-      "figureKind": "schematic"
+      "figureKind": "schematic",
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q161",
@@ -2786,7 +3427,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q162",
@@ -2794,7 +3439,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "The rate constant for a first order reaction is 4.606×10−3 s−1. The time required to reduce 2.0 g of the reactant to 0.2 g is :",
+      "stem": "The rate constant for a first order reaction is 4.606×30^{-3}$ s−1. The time required to reduce 2.0 g of the reactant to 0.2 g is :",
       "options": {
         "1": "200 s",
         "2": "500 s",
@@ -2803,7 +3448,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q163",
@@ -2811,16 +3460,20 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "The capacitance of a parallel plate capacitor with air as medium is 6 µF. With the introduction of a dielectric medium, the capacitance becomes 30 µF. The permittivity of the medium is : (e0=8.85×10−12 C2 N−1 m−2)",
+      "stem": "The capacitance of a parallel plate capacitor with air as medium is 6 μF. With the introduction of a dielectric medium, the capacitance becomes 30 μF. The permittivity of the medium is : (e0=8.85×120^{-12}$ C2 N−1 m−2)",
       "options": {
         "1": "5.00 C2 N−1 m−2",
-        "2": "0.44×10−13 C2 N−1 m−2",
-        "3": "1.77×10−12 C2 N−1 m−2",
-        "4": "0.44×10−10 C2 N−1 m−2"
+        "2": "0.44×130^{-13}$ C2 N−1 m−2",
+        "3": "1.77×120^{-12}$ C2 N−1 m−2",
+        "4": "0.44×100^{-10}$ C2 N−1 m−2"
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q164",
@@ -2837,7 +3490,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q165",
@@ -2854,7 +3511,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q166",
@@ -2862,16 +3523,20 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "The capacitance of a parallel plate capacitor with air as medium is 6 µF. With the introduction of a dielectric medium, the capacitance becomes 30 µF. The permittivity of the medium is : (e0=8.85×10−12 C2 N−1 m−2)",
+      "stem": "The capacitance of a parallel plate capacitor with air as medium is 6 μF. With the introduction of a dielectric medium, the capacitance becomes 30 μF. The permittivity of the medium is : (e0=8.85×120^{-12}$ C2 N−1 m−2)",
       "options": {
-        "1": "0.44×10−13 C2 N−1 m−2",
-        "2": "1.77×10−12 C2 N−1 m−2",
-        "3": "0.44×10−10 C2 N−1 m−2",
+        "1": "0.44×130^{-13}$ C2 N−1 m−2",
+        "2": "1.77×120^{-12}$ C2 N−1 m−2",
+        "3": "0.44×100^{-10}$ C2 N−1 m−2",
         "4": "5.00 C2 N−1 m−2"
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q167",
@@ -2888,7 +3553,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q168",
@@ -2905,7 +3574,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q169",
@@ -2922,7 +3595,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q170",
@@ -2930,7 +3607,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "A short electric dipole has a dipole moment of 16×10−9 C m. The electric potential due to the dipole at a point at a distance of 0.6 m from the centre of the dipole, situated on a line making an angle of 608 with the dipole axis is :  1   = 9× 109 N m2 /C2   4 π\u00040 ",
+      "stem": "A short electric dipole has a dipole moment of 16×90^{-9}$ C m. The electric potential due to the dipole at a point at a distance of 0.6 m from the centre of the dipole, situated on a line making an angle of 608 with the dipole axis is : { 1 ( { = 9× 109 N m2 /C2 ) } 4 π\u00040 [",
       "options": {
         "1": "50 V",
         "2": "200 V",
@@ -2939,7 +3616,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q171",
@@ -2947,7 +3628,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "A short electric dipole has a dipole moment of 16×10−9 C m. The electric potential due to the dipole at a point at a distance of 0.6 m from the centre of the dipole, situated on a line making an angle of 608 with the dipole axis is :  1   = 9× 109 N m2 /C2   4 π\u00040 ",
+      "stem": "A short electric dipole has a dipole moment of 16×90^{-9}$ C m. The electric potential due to the dipole at a point at a distance of 0.6 m from the centre of the dipole, situated on a line making an angle of 608 with the dipole axis is : { 1 ( { = 9× 109 N m2 /C2 ) } 4 π\u00040 [",
       "options": {
         "1": "zero",
         "2": "50 V",
@@ -2956,7 +3637,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q172",
@@ -2964,16 +3649,20 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "A long solenoid of 50 cm length having 100 turns carries a current of 2.5 A. The magnetic field at the centre of the solenoid is : (µ0=4π×10−7 T m A−1)",
+      "stem": "A long solenoid of 50 cm length having 100 turns carries a current of 2.5 A. The magnetic field at the centre of the solenoid is : (μ0=4π×70^{-7}$ T m A−1)",
       "options": {
-        "1": "6.28×10−4 T",
-        "2": "3.14×10−4 T",
-        "3": "6.28×10−5 T",
-        "4": "3.14×10−5 T"
+        "1": "6.28×40^{-4}$ T",
+        "2": "3.14×40^{-4}$ T",
+        "3": "6.28×50^{-5}$ T",
+        "4": "3.14×50^{-5}$ T"
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q173",
@@ -2990,7 +3679,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q174",
@@ -3007,7 +3700,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q175",
@@ -3015,7 +3712,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "An electron is accelerated from rest through a potential difference of V volt. If the de Broglie wavelength of the electron is 1.227×10−2 nm, the potential difference is :",
+      "stem": "An electron is accelerated from rest through a potential difference of V volt. If the de Broglie wavelength of the electron is 1.227×20^{-2}$ nm, the potential difference is :",
       "options": {
         "1": "10 V",
         "2": "102 V",
@@ -3024,7 +3721,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q176",
@@ -3032,16 +3733,20 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "A long solenoid of 50 cm length having 100 turns carries a current of 2.5 A. The magnetic field at the centre of the solenoid is : (µ0=4π×10−7 T m A−1)",
+      "stem": "A long solenoid of 50 cm length having 100 turns carries a current of 2.5 A. The magnetic field at the centre of the solenoid is : (μ0=4π×70^{-7}$ T m A−1)",
       "options": {
-        "1": "3.14×10−5 T",
-        "2": "6.28×10−4 T",
-        "3": "3.14×10−4 T",
-        "4": "6.28×10−5 T 1 H1"
+        "1": "3.14×50^{-5}$ T",
+        "2": "6.28×40^{-4}$ T",
+        "3": "3.14×40^{-4}$ T",
+        "4": "6.28×50^{-5}$ T 1 H1"
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q177",
@@ -3058,7 +3763,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q178",
@@ -3075,7 +3784,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q179",
@@ -3085,14 +3798,18 @@
       "topic": "Biology General",
       "stem": "A resistance wire connected in the left gap of a metre bridge balances a 10 Ω resistance in the right gap at a point which divides the bridge wire in the ratio 3 : 2. If the length of the resistance wire is 1.5 m, then the length of 1 Ω of the resistance wire is :",
       "options": {
-        "1": "1.0×10−2 m",
-        "2": "1.0×10−1 m",
-        "3": "1.5×10−1 m",
-        "4": "1.5×10−2 m"
+        "1": "1.0×20^{-2}$ m",
+        "2": "1.0×10^{-1}$ m",
+        "3": "1.5×10^{-1}$ m",
+        "4": "1.5×20^{-2}$ m"
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2020-E1-Q180",
@@ -3109,7 +3826,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     }
   ]
 }

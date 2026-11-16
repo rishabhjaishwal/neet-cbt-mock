@@ -44,7 +44,8 @@
     "Q174 missing from parse; placeholder inserted",
     "173 answers estimated (no Ans/Answer marker in source extract)",
     "4 questions had incomplete options in PDF extract",
-    "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=4"
+    "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=4",
+    "Multi-correct support: 0 items with correctOptions[]; scoring +4 exact / partial +1 each subset / −1 if any wrong."
   ],
   "stats": {
     "parsedQuestions": 180,
@@ -68,7 +69,11 @@
       },
       "correctOption": "1",
       "placeholder": true,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q2",
@@ -85,7 +90,11 @@
       },
       "correctOption": "1",
       "placeholder": true,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q3",
@@ -102,7 +111,11 @@
       },
       "correctOption": "1",
       "placeholder": true,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q4",
@@ -119,7 +132,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q5",
@@ -127,7 +144,7 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Laws of Motion",
-      "stem": "A tuning fork is used to produce resonance in a glass tube. The length of the air column in this tube can be adjusted by a variable piston. At room temperature of 27C two successive resonances are produced at 20 cm and 73 cm of column length. If the frequency of the tuning fork is 320 Hz, the velocity of sound in air at 27C is",
+      "stem": "A tuning fork is used to produce resonance in a glass tube. The length of the air column in this tube can be adjusted by a variable piston. At room temperature of 27°C two successive resonances are produced at 20 cm and 73 cm of column length. If the frequency of the tuning fork is 320 Hz, the velocity of sound in air at 27°C is",
       "options": {
         "1": "330 m/s",
         "2": "339 m/s",
@@ -136,7 +153,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q6",
@@ -153,7 +174,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q7",
@@ -170,7 +195,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q8",
@@ -187,7 +216,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q9",
@@ -204,7 +237,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q10",
@@ -221,7 +258,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q11",
@@ -238,7 +279,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q12",
@@ -246,16 +291,20 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Modern Physics",
-      "stem": "An electron of mass m with an initial velocity  ^ V = V0 i (V0 > 0) enters an electric field  ^ E = – E0 i (E0 = constant > 0) at t = 0. If 0 is its de-Broglie wavelength initially, then its de-Broglie wavelength at time t is",
+      "stem": "An electron of mass m with an initial velocity → ^ V = V0 i (V0 > 0) enters an electric field → ^ E = – E0 i (E0 = constant > 0) at t = 0. If λ0 is its de-Broglie wavelength initially, then its de-Broglie wavelength at time t is",
       "options": {
-        "1": "0 t  eE0 ",
-        "2": "0  1  t   mV0  0",
-        "3": " eE0  1  t  mV0  ",
-        "4": "0"
+        "1": "λ0 t ⎛ eE0 ⎞",
+        "2": "λ0 ⎜⎜ 1 + t ⎟⎟ ⎝ mV0 ⎠ λ0",
+        "3": "⎛ eE0 ⎞ ⎜1 + t⎟ ⎜ mV0 ⎟⎠ ⎝",
+        "4": "λ0"
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q13",
@@ -272,7 +321,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q14",
@@ -289,7 +342,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q15",
@@ -306,7 +363,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q16",
@@ -323,7 +384,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q17",
@@ -340,7 +405,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q18",
@@ -348,7 +417,7 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Magnetism",
-      "stem": "An em wave is propagating in a medium with a  ^ velocity V = V i . The instantaneous oscillating electric field of this em wave is along +y axis. Then the direction of oscillating magnetic field of the em wave will be along",
+      "stem": "An em wave is propagating in a medium with a → ^ velocity V = V i . The instantaneous oscillating electric field of this em wave is along +y axis. Then the direction of oscillating magnetic field of the em wave will be along",
       "options": {
         "1": "y direction",
         "2": "+ z direction",
@@ -357,7 +426,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q19",
@@ -365,16 +438,20 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Optics",
-      "stem": "The refractive index of the material of a prism is 2 and the angle of the prism is 30. One of the two refracting surfaces of the prism is made a mirror inwards, by silver coating. A beam of monochromatic light entering the prism from the other face will retrace its path (after reflection from the silvered surface) if its angle of incidence on the prism is",
+      "stem": "The refractive index of the material of a prism is 2 and the angle of the prism is 30°. One of the two refracting surfaces of the prism is made a mirror inwards, by silver coating. A beam of monochromatic light entering the prism from the other face will retrace its path (after reflection from the silvered surface) if its angle of incidence on the prism is",
       "options": {
-        "1": "30",
-        "2": "45",
-        "3": "60",
+        "1": "30°",
+        "2": "45°",
+        "3": "60°",
         "4": "zero"
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q20",
@@ -382,7 +459,7 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Laws of Motion",
-      "stem": "A toy car with charge q moves on a frictionless horizontal plane surface under the influence of a   uniform electric field E . Due to the force q E , its velocity increases from 0 to 6 m/s in one second duration. At that instant the direction of the field is reversed. The car continues to move for two more seconds under the influence of this field. The average velocity and the average speed of the toy car between 0 to 3 seconds are respectively",
+      "stem": "A toy car with charge q moves on a frictionless horizontal plane surface under the influence of a → → uniform electric field E . Due to the force q E , its velocity increases from 0 to 6 m/s in one second duration. At that instant the direction of the field is reversed. The car continues to move for two more seconds under the influence of this field. The average velocity and the average speed of the toy car between 0 to 3 seconds are respectively",
       "options": {
         "1": "2 m/s, 4 m/s",
         "2": "1 m/s, 3 m/s",
@@ -391,7 +468,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q21",
@@ -408,7 +489,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q22",
@@ -425,7 +510,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q23",
@@ -435,14 +524,18 @@
       "topic": "Physics General",
       "stem": "The difference between amylose and amylopectin is",
       "options": {
-        "1": "Amylopectin have 1  4 -linkage and 1  6 -linkage",
+        "1": "Amylopectin have 1 → 4 α-linkage and 1 → 6 α-linkage",
         "2": "Amylose is made up of glucose and galactose",
-        "3": "Amylopectin have 1  4 -linkage and 1  6 -linkage",
-        "4": "Amylose have 14 -linkage and 1  6 -linkage"
+        "3": "Amylopectin have 1 → 4 α-linkage and 1 → 6 β-linkage",
+        "4": "Amylose have 1→4 α-linkage and 1 → 6 β-linkage"
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q24",
@@ -459,7 +552,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q25",
@@ -476,7 +573,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q26",
@@ -484,7 +585,7 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Current Electricity",
-      "stem": "A metallic rod of mass per unit length –1 0·5 kg m is lying horizontally on a smooth inclined plane which makes an angle of 30 with the horizontal. The rod is not allowed to slide down by flowing a current through it when a magnetic field of induction 0·25 T is acting on it in the vertical direction. The current flowing in the rod to keep it stationary is",
+      "stem": "A metallic rod of mass per unit length –1 0·5 kg m is lying horizontally on a smooth inclined plane which makes an angle of 30° with the horizontal. The rod is not allowed to slide down by flowing a current through it when a magnetic field of induction 0·25 T is acting on it in the vertical direction. The current flowing in the rod to keep it stationary is",
       "options": {
         "1": "14·76 A",
         "2": "5·98 A",
@@ -493,7 +594,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q27",
@@ -510,7 +615,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q28",
@@ -518,7 +627,7 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Optics",
-      "stem": "In Young’s double slit experiment the separation d between the slits is 2 mm, the wavelength  of the light used is 5896 Å and distance D between the screen and slits is 100 cm. It is found that the angular width of the fringes is 0·20. To increase the fringe angular width to 0·21 (with same  and D) the separation between the slits needs to be changed to",
+      "stem": "In Young’s double slit experiment the separation d between the slits is 2 mm, the wavelength λ of the light used is 5896 Å and distance D between the screen and slits is 100 cm. It is found that the angular width of the fringes is 0·20°. To increase the fringe angular width to 0·21° (with same λ and D) the separation between the slits needs to be changed to",
       "options": {
         "1": "1·8 mm",
         "2": "1·9 mm",
@@ -527,7 +636,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q29",
@@ -544,7 +657,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q30",
@@ -561,7 +678,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q31",
@@ -578,7 +699,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q32",
@@ -586,16 +711,20 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Physics General",
-      "stem": "The solubility of BaSO4 in water is –3 –1 2·42  10 gL at 298 K. The value of its solubility product (Ksp) will be –1 (Given molar mass of BaSO4 = 233 g mol ) –10 2 –2",
+      "stem": "The solubility of BaSO4 in water is –3 –1 2·42 × 10 gL at 298 K. The value of its solubility product (Ksp) will be –1 (Given molar mass of BaSO4 = 233 g mol ) –10 2 –2",
       "options": {
-        "1": "1·08  10 mol L –8 2 –2",
-        "2": "1·08  10 mol L –14 2 –2",
-        "3": "1·08  10 mol L –12 2 –2",
-        "4": "1·08  10 mol L OUGH WORK English"
+        "1": "1·08 × 10 mol L –8 2 –2",
+        "2": "1·08 × 10 mol L –14 2 –2",
+        "3": "1·08 × 10 mol L –12 2 –2",
+        "4": "1·08 × 10 mol L OUGH WORK English"
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q33",
@@ -612,7 +741,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q34",
@@ -620,7 +753,7 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Laws of Motion",
-      "stem": "A toy car with charge q moves on a frictionless horizontal plane surface under the influence of a   uniform electric field E . Due to the force q E , its velocity increases from 0 to 6 m/s in one second duration. At that instant the direction of the field is reversed. The car continues to move for two more seconds under the influence of this field. The average velocity and the average speed of the toy car between 0 to 3 seconds are respectively",
+      "stem": "A toy car with charge q moves on a frictionless horizontal plane surface under the influence of a → → uniform electric field E . Due to the force q E , its velocity increases from 0 to 6 m/s in one second duration. At that instant the direction of the field is reversed. The car continues to move for two more seconds under the influence of this field. The average velocity and the average speed of the toy car between 0 to 3 seconds are respectively",
       "options": {
         "1": "1 m/s, 3·5 m/s",
         "2": "1 m/s, 3 m/s",
@@ -629,7 +762,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q35",
@@ -637,7 +774,7 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Current Electricity",
-      "stem": "A metallic rod of mass per unit length –1 0·5 kg m is lying horizontally on a smooth inclined plane which makes an angle of 30 with the horizontal. The rod is not allowed to slide down by flowing a current through it when a magnetic field of induction 0·25 T is acting on it in the vertical direction. The current flowing in the rod to keep it stationary is",
+      "stem": "A metallic rod of mass per unit length –1 0·5 kg m is lying horizontally on a smooth inclined plane which makes an angle of 30° with the horizontal. The rod is not allowed to slide down by flowing a current through it when a magnetic field of induction 0·25 T is acting on it in the vertical direction. The current flowing in the rod to keep it stationary is",
       "options": {
         "1": "7·14 A",
         "2": "5·98 A",
@@ -646,7 +783,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q36",
@@ -654,7 +795,7 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Current Electricity",
-      "stem": "An inductor 20 mH, a capacitor 100 F and a resistor 50  are connected in series across a source of emf, V = 10 sin 314 t. The power loss in the circuit is",
+      "stem": "An inductor 20 mH, a capacitor 100 μF and a resistor 50 Ω are connected in series across a source of emf, V = 10 sin 314 t. The power loss in the circuit is",
       "options": {
         "1": "0·79 W",
         "2": "0·43 W",
@@ -663,7 +804,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q37",
@@ -680,7 +825,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q38",
@@ -697,7 +846,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q39",
@@ -714,7 +867,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q40",
@@ -731,7 +888,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q41",
@@ -748,7 +909,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q42",
@@ -765,7 +930,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q43",
@@ -773,7 +942,7 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Work Energy Power",
-      "stem": "The power radiated by a black body is P and it radiates maximum energy at wavelength, 0. If the temperature of the black body is now changed so that it radiates maximum energy at 3 wavelength  , the power radiated by it 4 0 becomes nP. The value of n is 256",
+      "stem": "The power radiated by a black body is P and it radiates maximum energy at wavelength, λ0. If the temperature of the black body is now changed so that it radiates maximum energy at 3 wavelength λ , the power radiated by it 4 0 becomes nP. The value of n is 256",
       "options": {
         "1": "81 4",
         "2": "3 3",
@@ -782,7 +951,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q44",
@@ -790,7 +963,7 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Physics General",
-      "stem": "Two wires are made of the same material and have the same volume. The first wire has cross-sectional area A and the second wire has cross-sectional area 3A. If the length of the first wire is increased by  l on applying a force F, how much force is needed to stretch the second wire by the same amount ?",
+      "stem": "Two wires are made of the same material and have the same volume. The first wire has cross-sectional area A and the second wire has cross-sectional area 3A. If the length of the first wire is increased by Δ l on applying a force F, how much force is needed to stretch the second wire by the same amount ?",
       "options": {
         "1": "4 F",
         "2": "6 F",
@@ -799,7 +972,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q45",
@@ -807,7 +984,7 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Work Energy Power",
-      "stem": "A sample of 0·1 g of water at 100C and normal 5 –2 pressure (1·013  10 Nm ) requires 54 cal of heat energy to convert to steam at 100C. If the volume of the steam produced is 167·1 cc, the change in internal energy of the sample, is",
+      "stem": "A sample of 0·1 g of water at 100°C and normal 5 –2 pressure (1·013 × 10 Nm ) requires 54 cal of heat energy to convert to steam at 100°C. If the volume of the steam produced is 167·1 cc, the change in internal energy of the sample, is",
       "options": {
         "1": "42·2 J",
         "2": "208·7 J",
@@ -816,7 +993,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q46",
@@ -833,7 +1014,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q47",
@@ -850,7 +1035,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q48",
@@ -867,7 +1056,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q49",
@@ -884,7 +1077,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q50",
@@ -901,7 +1098,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q51",
@@ -918,7 +1119,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q52",
@@ -935,7 +1140,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q53",
@@ -952,7 +1161,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q54",
@@ -969,7 +1182,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q55",
@@ -986,7 +1203,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q56",
@@ -1003,7 +1224,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q57",
@@ -1020,7 +1245,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q58",
@@ -1037,7 +1266,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q59",
@@ -1054,7 +1287,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q60",
@@ -1071,7 +1308,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q61",
@@ -1088,7 +1329,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q62",
@@ -1100,12 +1345,16 @@
       "options": {
         "1": "CH3 – CH3",
         "2": "CH2 = CH2",
-        "3": "CH  CH",
+        "3": "CH ≡ CH",
         "4": "CH4 OUGH WORK English"
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q63",
@@ -1122,7 +1371,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q64",
@@ -1139,7 +1392,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q65",
@@ -1156,7 +1413,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q66",
@@ -1173,7 +1434,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q67",
@@ -1190,7 +1455,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q68",
@@ -1207,7 +1476,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q69",
@@ -1224,7 +1497,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q70",
@@ -1241,7 +1518,11 @@
       },
       "correctOption": "1",
       "placeholder": true,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q71",
@@ -1258,7 +1539,11 @@
       },
       "correctOption": "1",
       "placeholder": true,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q72",
@@ -1275,7 +1560,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q73",
@@ -1292,7 +1581,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q74",
@@ -1309,7 +1602,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q75",
@@ -1326,7 +1623,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q76",
@@ -1343,7 +1644,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q77",
@@ -1360,7 +1665,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q78",
@@ -1377,7 +1686,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q79",
@@ -1394,7 +1707,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q80",
@@ -1411,7 +1728,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q81",
@@ -1428,7 +1749,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q82",
@@ -1436,7 +1761,7 @@
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
-      "stem": "For the redox reaction – + 2+ Mn O 4– + C2 O42 + H  Mn + CO2 + H2O the correct coefficients of the reactants for the balanced equation are + Mn O 4– C 2O 2 – H 4",
+      "stem": "For the redox reaction – + 2+ Mn O 4– + C2 O42 + H ⎯⎯→ Mn + CO2 + H2O the correct coefficients of the reactants for the balanced equation are + Mn O 4– C 2O 2 – H 4",
       "options": {
         "1": "2 16 5",
         "2": "2 5 16",
@@ -1445,7 +1770,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q83",
@@ -1462,7 +1791,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q84",
@@ -1479,7 +1812,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q85",
@@ -1487,7 +1824,7 @@
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
-      "stem": "The bond dissociation energies of X2, Y2 and XY are in the ratio of 1 : 0·5 : 1. H for the formation –1 of XY is – 200 kJ mol . The bond dissociation energy of X2 will be –1",
+      "stem": "The bond dissociation energies of X2, Y2 and XY are in the ratio of 1 : 0·5 : 1. ΔH for the formation –1 of XY is – 200 kJ mol . The bond dissociation energy of X2 will be –1",
       "options": {
         "1": "800 kJ mol –1",
         "2": "100 kJ mol –1",
@@ -1496,7 +1833,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q86",
@@ -1513,7 +1854,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q87",
@@ -1530,7 +1875,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q88",
@@ -1547,7 +1896,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q89",
@@ -1564,7 +1917,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q90",
@@ -1581,7 +1938,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q91",
@@ -1589,7 +1950,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "A carbon resistor of (47  4·7) k is to be marked with rings of different colours for its identification. The colour code sequence will be",
+      "stem": "A carbon resistor of (47 ± 4·7) kΩ is to be marked with rings of different colours for its identification. The colour code sequence will be",
       "options": {
         "1": "Green – Orange – Violet – Gold",
         "2": "Yellow – Green – Violet – Gold",
@@ -1598,7 +1959,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q92",
@@ -1615,7 +1980,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q93",
@@ -1623,7 +1992,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Genetics",
-      "stem": "A battery consists of a variable number ‘n’ of identical cells (having internal resistance ‘r’ each) which are connected in series. The terminals of the battery are short-circuited and the current I is measured. Which of the graphs shows the correct relationship between I and n ? OUGH WORK English  ^ ^ ^",
+      "stem": "A battery consists of a variable number ‘n’ of identical cells (having internal resistance ‘r’ each) which are connected in series. The terminals of the battery are short-circuited and the current I is measured. Which of the graphs shows the correct relationship between I and n ? OUGH WORK English → ^ ^ ^",
       "options": {
         "1": "[Option 1 incomplete in source PDF]",
         "2": "[Option 2 incomplete in source PDF]",
@@ -1632,7 +2001,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q94",
@@ -1642,14 +2015,18 @@
       "topic": "Biology General",
       "stem": "Pollen grains can be stored for several years in liquid nitrogen having a temperature of",
       "options": {
-        "1": "196C",
-        "2": "80C",
-        "3": "120C",
-        "4": "160C"
+        "1": "196°C",
+        "2": "80°C",
+        "3": "120°C",
+        "4": "160°C"
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q95",
@@ -1666,7 +2043,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q96",
@@ -1683,7 +2064,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q97",
@@ -1700,7 +2085,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q98",
@@ -1717,7 +2106,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q99",
@@ -1734,7 +2127,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q100",
@@ -1742,7 +2139,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "A toy car with charge q moves on a frictionless horizontal plane surface under the influence of a   uniform electric field E . Due to the force q E , its velocity increases from 0 to 6 m/s in one second duration. At that instant the direction of the field is reversed. The car continues to move for two more seconds under the influence of this field. The average velocity and the average speed of the toy car between 0 to 3 seconds are respectively",
+      "stem": "A toy car with charge q moves on a frictionless horizontal plane surface under the influence of a → → uniform electric field E . Due to the force q E , its velocity increases from 0 to 6 m/s in one second duration. At that instant the direction of the field is reversed. The car continues to move for two more seconds under the influence of this field. The average velocity and the average speed of the toy car between 0 to 3 seconds are respectively",
       "options": {
         "1": "1·5 m/s, 3 m/s",
         "2": "1 m/s, 3·5 m/s",
@@ -1751,7 +2148,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q101",
@@ -1759,18 +2160,22 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "A block of mass m is placed on a smooth inclined wedge ABC of inclination  as shown in the figure. The wedge is given an acceleration ‘a’ towards the right. The relation between a and  for the block to remain stationary on the wedge is",
+      "stem": "A block of mass m is placed on a smooth inclined wedge ABC of inclination θ as shown in the figure. The wedge is given an acceleration ‘a’ towards the right. The relation between a and θ for the block to remain stationary on the wedge is",
       "options": {
-        "1": "a = g tan ",
-        "2": "a = g cos  g",
-        "3": "a= sin  g",
-        "4": "a= cosec  OUGH WORK English"
+        "1": "a = g tan θ",
+        "2": "a = g cos θ g",
+        "3": "a= sin θ g",
+        "4": "a= cosec θ OUGH WORK English"
       },
       "correctOption": "1",
       "placeholder": false,
       "answerEstimated": true,
       "figureSrc": "/figures/2018-AA-Q101.png",
-      "figureKind": "pdf-extract"
+      "figureKind": "pdf-extract",
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q102",
@@ -1781,13 +2186,17 @@
       "stem": "Select the correct match :",
       "options": {
         "1": "Ribozyme – Nucleic acid",
-        "2": "F2  Recessive parent – Dihybrid cross",
+        "2": "F2 × Recessive parent – Dihybrid cross",
         "3": "T.H. Morgan – Transduction",
         "4": "G. Mendel – Transformation"
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q103",
@@ -1804,7 +2213,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q104",
@@ -1821,7 +2234,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q105",
@@ -1838,7 +2255,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q106",
@@ -1855,7 +2276,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q107",
@@ -1863,16 +2288,20 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "An electron of mass m with an initial velocity  ^ V = V0 i (V0 > 0) enters an electric field  ^ E = – E0 i (E0 = constant > 0) at t = 0. If 0 is its de-Broglie wavelength initially, then its de-Broglie wavelength at time t is",
+      "stem": "An electron of mass m with an initial velocity → ^ V = V0 i (V0 > 0) enters an electric field → ^ E = – E0 i (E0 = constant > 0) at t = 0. If λ0 is its de-Broglie wavelength initially, then its de-Broglie wavelength at time t is",
       "options": {
-        "1": "0",
-        "2": "0 t  eE0 ",
-        "3": "0  1  t   mV0  0",
-        "4": " eE0  1  t  mV0  "
+        "1": "λ0",
+        "2": "λ0 t ⎛ eE0 ⎞",
+        "3": "λ0 ⎜⎜ 1 + t ⎟⎟ ⎝ mV0 ⎠ λ0",
+        "4": "⎛ eE0 ⎞ ⎜1 + t⎟ ⎜ mV0 ⎟⎠ ⎝"
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q108",
@@ -1889,7 +2318,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q109",
@@ -1906,7 +2339,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q110",
@@ -1923,7 +2360,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q111",
@@ -1940,7 +2381,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q112",
@@ -1957,7 +2402,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q113",
@@ -1974,7 +2423,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q114",
@@ -1982,16 +2435,20 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "Unpolarised light is incident from air on a plane surface of a material of refractive index ‘’. At a particular angle of incidence ‘i’, it is found that the reflected and refracted rays are perpendicular to each other. Which of the following options is correct for this situation ? –1  1 ",
+      "stem": "Unpolarised light is incident from air on a plane surface of a material of refractive index ‘μ’. At a particular angle of incidence ‘i’, it is found that the reflected and refracted rays are perpendicular to each other. Which of the following options is correct for this situation ? –1 ⎛ 1 ⎞",
       "options": {
-        "1": "i = tan    –1  1 ",
-        "2": "i = sin   ",
+        "1": "i = tan ⎜⎜ ⎟⎟ ⎝μ⎠ –1 ⎛ 1 ⎞",
+        "2": "i = sin ⎜⎜ ⎟⎟ ⎝μ⎠",
         "3": "Reflected light is polarised with its electric vector perpendicular to the plane of incidence",
         "4": "Reflected light is polarised with its electric vector parallel to the plane of incidence"
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q115",
@@ -1999,7 +2456,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "In Young’s double slit experiment the separation d between the slits is 2 mm, the wavelength  of the light used is 5896 Å and distance D between the screen and slits is 100 cm. It is found that the angular width of the fringes is 0·20. To increase the fringe angular width to 0·21 (with same  and D) the separation between the slits needs to be changed to",
+      "stem": "In Young’s double slit experiment the separation d between the slits is 2 mm, the wavelength λ of the light used is 5896 Å and distance D between the screen and slits is 100 cm. It is found that the angular width of the fringes is 0·20°. To increase the fringe angular width to 0·21° (with same λ and D) the separation between the slits needs to be changed to",
       "options": {
         "1": "1·7 mm",
         "2": "2·1 mm",
@@ -2008,7 +2465,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q116",
@@ -2025,7 +2486,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q117",
@@ -2042,7 +2507,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q118",
@@ -2059,7 +2528,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q119",
@@ -2076,7 +2549,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q120",
@@ -2084,7 +2561,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "A metallic rod of mass per unit length –1 0·5 kg m is lying horizontally on a smooth inclined plane which makes an angle of 30 with the horizontal. The rod is not allowed to slide down by flowing a current through it when a magnetic field of induction 0·25 T is acting on it in the vertical direction. The current flowing in the rod to keep it stationary is",
+      "stem": "A metallic rod of mass per unit length –1 0·5 kg m is lying horizontally on a smooth inclined plane which makes an angle of 30° with the horizontal. The rod is not allowed to slide down by flowing a current through it when a magnetic field of induction 0·25 T is acting on it in the vertical direction. The current flowing in the rod to keep it stationary is",
       "options": {
         "1": "11·32 A",
         "2": "14·76 A",
@@ -2093,7 +2570,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q121",
@@ -2101,7 +2582,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "An inductor 20 mH, a capacitor 100 F and a resistor 50  are connected in series across a source of emf, V = 10 sin 314 t. The power loss in the circuit is",
+      "stem": "An inductor 20 mH, a capacitor 100 μF and a resistor 50 Ω are connected in series across a source of emf, V = 10 sin 314 t. The power loss in the circuit is",
       "options": {
         "1": "1·13 W",
         "2": "2·74 W",
@@ -2110,7 +2591,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q122",
@@ -2127,7 +2612,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q123",
@@ -2137,14 +2626,18 @@
       "topic": "Biology General",
       "stem": "Current sensitivity of a moving coil galvanometer is 5 div/mA and its voltage sensitivity (angular deflection per unit voltage applied) is 20 div/V. The resistance of the galvanometer is",
       "options": {
-        "1": "500 ",
-        "2": "250 ",
-        "3": "25 ",
-        "4": "40  OUGH WORK English"
+        "1": "500 Ω",
+        "2": "250 Ω",
+        "3": "25 Ω",
+        "4": "40 Ω OUGH WORK English"
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q124",
@@ -2161,7 +2654,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q125",
@@ -2178,7 +2675,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q126",
@@ -2195,7 +2696,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q127",
@@ -2212,7 +2717,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q128",
@@ -2231,7 +2740,11 @@
       "placeholder": false,
       "answerEstimated": true,
       "figureSrc": "/figures/2018-AA-Q128.png",
-      "figureKind": "pdf-extract"
+      "figureKind": "pdf-extract",
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q129",
@@ -2248,7 +2761,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q130",
@@ -2265,7 +2782,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q131",
@@ -2282,7 +2803,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q132",
@@ -2299,7 +2824,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q133",
@@ -2316,7 +2845,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q134",
@@ -2333,7 +2866,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q135",
@@ -2350,7 +2887,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q136",
@@ -2367,7 +2908,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q137",
@@ -2384,7 +2929,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q138",
@@ -2401,7 +2950,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q139",
@@ -2418,7 +2971,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q140",
@@ -2426,16 +2983,20 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "Unpolarised light is incident from air on a plane surface of a material of refractive index ‘’. At a particular angle of incidence ‘i’, it is found that the reflected and refracted rays are perpendicular to each other. Which of the following options is correct for this situation ?",
+      "stem": "Unpolarised light is incident from air on a plane surface of a material of refractive index ‘μ’. At a particular angle of incidence ‘i’, it is found that the reflected and refracted rays are perpendicular to each other. Which of the following options is correct for this situation ?",
       "options": {
-        "1": "Reflected light is polarised with its electric vector parallel to the plane of incidence –1  1 ",
-        "2": "i = tan    –1  1 ",
-        "3": "i = sin   ",
+        "1": "Reflected light is polarised with its electric vector parallel to the plane of incidence –1 ⎛ 1 ⎞",
+        "2": "i = tan ⎜⎜ ⎟⎟ ⎝μ⎠ –1 ⎛ 1 ⎞",
+        "3": "i = sin ⎜⎜ ⎟⎟ ⎝μ⎠",
         "4": "Reflected light is polarised with its electric vector perpendicular to the plane of incidence"
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q141",
@@ -2443,7 +3004,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "In Young’s double slit experiment the separation d between the slits is 2 mm, the wavelength  of the light used is 5896 Å and distance D between the screen and slits is 100 cm. It is found that the angular width of the fringes is 0·20. To increase the fringe angular width to 0·21 (with same  and D) the separation between the slits needs to be changed to",
+      "stem": "In Young’s double slit experiment the separation d between the slits is 2 mm, the wavelength λ of the light used is 5896 Å and distance D between the screen and slits is 100 cm. It is found that the angular width of the fringes is 0·20°. To increase the fringe angular width to 0·21° (with same λ and D) the separation between the slits needs to be changed to",
       "options": {
         "1": "1·8 mm",
         "2": "1·7 mm",
@@ -2452,7 +3013,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q142",
@@ -2469,7 +3034,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q143",
@@ -2477,7 +3046,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "For the redox reaction – + 2+ Mn O 4– + C2 O42 + H  Mn + CO2 + H2O the correct coefficients of the reactants for the balanced equation are + Mn O 4– C 2O 2 – H 4",
+      "stem": "For the redox reaction – + 2+ Mn O 4– + C2 O42 + H ⎯⎯→ Mn + CO2 + H2O the correct coefficients of the reactants for the balanced equation are + Mn O 4– C 2O 2 – H 4",
       "options": {
         "1": "5 16 2",
         "2": "2 16 5",
@@ -2486,7 +3055,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q144",
@@ -2503,7 +3076,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q145",
@@ -2511,7 +3088,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "Which one of the following conditions will favour maximum formation of the product in the reaction, A2 (g) + B2 (g)  X2 (g) rH = – X kJ ?",
+      "stem": "Which one of the following conditions will favour maximum formation of the product in the reaction, A2 (g) + B2 (g) λ X2 (g) ΔrH = – X kJ ?",
       "options": {
         "1": "High temperature and low pressure",
         "2": "High temperature and high pressure",
@@ -2520,7 +3097,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q146",
@@ -2537,7 +3118,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q147",
@@ -2554,7 +3139,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q148",
@@ -2573,7 +3162,11 @@
       "placeholder": false,
       "answerEstimated": true,
       "figureSrc": "/figures/2018-AA-Q148.svg",
-      "figureKind": "missing-placeholder"
+      "figureKind": "missing-placeholder",
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q149",
@@ -2581,7 +3174,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "Three objects, A : (a solid sphere), B : (a thin circular disk) and C : (a circular ring), each have the same mass M and radius R. They all spin with the same angular speed  about their own symmetry axes. The amounts of work (W) required to bring them to rest, would satisfy the relation",
+      "stem": "Three objects, A : (a solid sphere), B : (a thin circular disk) and C : (a circular ring), each have the same mass M and radius R. They all spin with the same angular speed ω about their own symmetry axes. The amounts of work (W) required to bring them to rest, would satisfy the relation",
       "options": {
         "1": "WC > WB > WA",
         "2": "WA > WC > WB",
@@ -2590,7 +3183,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q150",
@@ -2607,7 +3204,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q151",
@@ -2624,7 +3225,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q152",
@@ -2641,7 +3246,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q153",
@@ -2658,7 +3267,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q154",
@@ -2675,7 +3288,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q155",
@@ -2692,7 +3309,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q156",
@@ -2700,7 +3321,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "A carbon resistor of (47  4·7) k is to be marked with rings of different colours for its identification. The colour code sequence will be",
+      "stem": "A carbon resistor of (47 ± 4·7) kΩ is to be marked with rings of different colours for its identification. The colour code sequence will be",
       "options": {
         "1": "Violet – Yellow – Orange – Silver",
         "2": "Green – Orange – Violet – Gold",
@@ -2709,7 +3330,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q157",
@@ -2726,7 +3351,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q158",
@@ -2743,7 +3372,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q159",
@@ -2760,7 +3393,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q160",
@@ -2777,7 +3414,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q161",
@@ -2785,7 +3426,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "Iron exhibits bcc structure at room temperature. Above 900C, it transforms to fcc structure. The ratio of density of iron at room temperature to that at 900C (assuming molar mass and atomic radii of iron remains constant with temperature) is 3",
+      "stem": "Iron exhibits bcc structure at room temperature. Above 900°C, it transforms to fcc structure. The ratio of density of iron at room temperature to that at 900°C (assuming molar mass and atomic radii of iron remains constant with temperature) is 3",
       "options": {
         "1": "2 4 3",
         "2": "3 2 3 3",
@@ -2794,7 +3435,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q162",
@@ -2811,7 +3456,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q163",
@@ -2828,7 +3477,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q164",
@@ -2845,7 +3498,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q165",
@@ -2862,7 +3519,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q166",
@@ -2879,7 +3540,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q167",
@@ -2896,7 +3561,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q168",
@@ -2913,7 +3582,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q169",
@@ -2921,7 +3594,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "Iron exhibits bcc structure at room temperature. Above 900C, it transforms to fcc structure. The ratio of density of iron at room temperature to that at 900C (assuming molar mass and atomic radii of iron remains constant with temperature) is 1",
+      "stem": "Iron exhibits bcc structure at room temperature. Above 900°C, it transforms to fcc structure. The ratio of density of iron at room temperature to that at 900°C (assuming molar mass and atomic radii of iron remains constant with temperature) is 1",
       "options": {
         "1": "2 3 3",
         "2": "4 2 4 3",
@@ -2930,7 +3603,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q170",
@@ -2947,7 +3624,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q171",
@@ -2955,16 +3636,20 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "At what temperature will the rms speed of oxygen molecules become just sufficient for escaping from the Earth’s atmosphere ? (Given : –26 Mass of oxygen molecule (m) = 2·76  10 kg –23 –1 Boltzmann’s constant kB = 1·38  10 JK ) 4",
+      "stem": "At what temperature will the rms speed of oxygen molecules become just sufficient for escaping from the Earth’s atmosphere ? (Given : –26 Mass of oxygen molecule (m) = 2·76 × 10 kg –23 –1 Boltzmann’s constant kB = 1·38 × 10 JK ) 4",
       "options": {
-        "1": "2·508  10 K 4",
-        "2": "1·254  10 K 4",
-        "3": "5·016  10 K 4",
-        "4": "8·360  10 K"
+        "1": "2·508 × 10 K 4",
+        "2": "1·254 × 10 K 4",
+        "3": "5·016 × 10 K 4",
+        "4": "8·360 × 10 K"
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q172",
@@ -2981,7 +3666,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q173",
@@ -2998,7 +3687,11 @@
       },
       "correctOption": "1",
       "placeholder": true,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q174",
@@ -3015,7 +3708,11 @@
       },
       "correctOption": "1",
       "placeholder": true,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q175",
@@ -3032,7 +3729,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q176",
@@ -3040,7 +3741,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "For the redox reaction – + 2+ Mn O 4– + C2 O42 + H  Mn + CO2 + H2O the correct coefficients of the reactants for the balanced equation are + Mn O 4– C 2O 2 – H 4",
+      "stem": "For the redox reaction – + 2+ Mn O 4– + C2 O42 + H ⎯⎯→ Mn + CO2 + H2O the correct coefficients of the reactants for the balanced equation are + Mn O 4– C 2O 2 – H 4",
       "options": {
         "1": "16 5 2",
         "2": "2 5 16",
@@ -3049,7 +3750,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q177",
@@ -3066,7 +3771,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q178",
@@ -3083,7 +3792,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q179",
@@ -3102,7 +3815,11 @@
       "placeholder": false,
       "answerEstimated": true,
       "figureSrc": "/figures/2018-AA-Q179.svg",
-      "figureKind": "missing-placeholder"
+      "figureKind": "missing-placeholder",
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2018-AA-Q180",
@@ -3119,7 +3836,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     }
   ]
 }

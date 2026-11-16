@@ -23,11 +23,11 @@ export type AttemptLimitInfo = {
   canAttempt: (questionId: string) => { ok: boolean; reason?: string };
 };
 
-function isAttempted(q: RuleQuestion) {
+function isAttempted(q: RuleQuestion & { selectedOptions?: string[] }) {
+  const multi = q.selectedOptions && q.selectedOptions.length > 0;
   return (
     q.status !== "not_attempted" &&
-    q.selectedOption != null &&
-    q.selectedOption !== ""
+    (multi || (q.selectedOption != null && q.selectedOption !== ""))
   );
 }
 

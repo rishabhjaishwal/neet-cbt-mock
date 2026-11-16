@@ -40,6 +40,9 @@ const QuestionSchema = new Schema(
       required: true,
     },
     correctOption: { type: String, required: true },
+    /** All correct option codes for multi-correct items (e.g. ["1","3"]). */
+    correctOptions: { type: [String], default: undefined },
+    multiCorrect: { type: Boolean, default: false },
     isPlaceholder: { type: Boolean, default: false },
     answerEstimated: { type: Boolean, default: false },
     figureSrc: { type: String },
@@ -54,6 +57,7 @@ const AttemptAnswerSchema = new Schema(
     questionId: { type: Schema.Types.ObjectId, required: true },
     questionKey: { type: String, required: true },
     selectedOption: { type: String, default: null },
+    selectedOptions: { type: [String], default: [] },
     status: {
       type: String,
       enum: ["not_attempted", "attempted", "marked"],

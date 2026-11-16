@@ -75,7 +75,8 @@
     "NEET 2025 PDFs in public mirrors are scanned image-only (no extractable text).",
     "OCR of cover pages succeeded but full-booklet OCR quality was insufficient for reliable MCQ parsing in this build.",
     "Paper scaffold uses 2024 parsed items reshaped to 2025 pattern as interim content; replace with official transcription.",
-    "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=11"
+    "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=11",
+    "Multi-correct support: 1 items with correctOptions[]; scoring +4 exact / partial +1 each subset / −1 if any wrong."
   ],
   "stats": {
     "parsedQuestions": 200,
@@ -90,7 +91,7 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Physics General",
-      "stem": "A wheel of a bullock cart is rolling on a level road as shown in the figure below. If its linear speed is  in the direction shown, which one of the following options is correct (P and Q are any highest and lowest points on the wheel, respectively)?",
+      "stem": "A wheel of a bullock cart is rolling on a level road as shown in the figure below. If its linear speed is ν in the direction shown, which one of the following options is correct (P and Q are any highest and lowest points on the wheel, respectively)?",
       "options": {
         "1": "Point P moves faster than point Q",
         "2": "Both the points P and Q move with equal speed",
@@ -101,7 +102,11 @@
       "placeholder": false,
       "answerEstimated": false,
       "figureSrc": "/figures/2025-INTERIM-Q1.png",
-      "figureKind": "pdf-extract"
+      "figureKind": "pdf-extract",
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q2",
@@ -118,7 +123,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q3",
@@ -135,7 +144,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q4",
@@ -143,7 +156,7 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Current Electricity",
-      "stem": "The terminal voltage of the battery, whose emf is 10 V and internal resistance 1 , when connected through an external resistance of 4  as shown in the figure is:",
+      "stem": "The terminal voltage of the battery, whose emf is 10 V and internal resistance 1 Ω, when connected through an external resistance of 4 Ω as shown in the figure is:",
       "options": {
         "1": "6V",
         "2": "8V",
@@ -154,7 +167,11 @@
       "placeholder": false,
       "answerEstimated": false,
       "figureSrc": "/figures/2025-INTERIM-Q4.png",
-      "figureKind": "pdf-extract"
+      "figureKind": "pdf-extract",
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q5",
@@ -171,7 +188,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q6",
@@ -190,7 +211,11 @@
       "placeholder": false,
       "answerEstimated": false,
       "figureSrc": "/figures/2025-INTERIM-Q6.png",
-      "figureKind": "pdf-extract"
+      "figureKind": "pdf-extract",
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q7",
@@ -207,7 +232,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q8",
@@ -224,7 +253,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q9",
@@ -232,7 +265,7 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Work Energy Power",
-      "stem": "Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R. Assertion A: The potential (V) at any axial point, at 2 m distance (r) from the centre of the dipole of dipole moment vector P of magnitude, 4 × 10–6 C m, is ± 9 × 103 V. 1 (Take = 9 × 109 SI units) 4 0 2P Reason R: V =  , where r is the distance of any axial point, situated at 2 m from the centre of the 4 0 r 2 dipole. In the light of the above statements, choose the correct answer from the options given below: -5- NEET (UG)-2024 (Code-R1)",
+      "stem": "Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R. Assertion A: The potential (V) at any axial point, at 2 m distance (r) from the centre of the dipole of dipole moment vector P of magnitude, 4 × 10–6 C m, is ± 9 × 103 V. 1 (Take = 9 × 109 SI units) 4π ∈0 2P Reason R: V = ± , where r is the distance of any axial point, situated at 2 m from the centre of the 4π ∈0 r 2 dipole. In the light of the above statements, choose the correct answer from the options given below: -5- NEET (UG)-2024 (Code-R1)",
       "options": {
         "1": "Both A and R are true and R is NOT the correct explanation of A.",
         "2": "A is true but R is false.",
@@ -241,7 +274,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q10",
@@ -251,14 +288,18 @@
       "topic": "Magnetism",
       "stem": "In a uniform magnetic field of 0.049 T, a magnetic needle performs 20 complete oscillations in 5 seconds as shown. The moment of inertia of the needle is 9.8 x 10–6 kg m2. If the magnitude of magnetic moment of the needle is x × 10–5 Am2, then the value of ‘x’ is :",
       "options": {
-        "1": "1282",
-        "2": "502",
-        "3": "12802",
-        "4": "52"
+        "1": "128π2",
+        "2": "50π2",
+        "3": "1280π2",
+        "4": "5π2"
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q11",
@@ -275,7 +316,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q12",
@@ -292,7 +337,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q13",
@@ -309,7 +358,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q14",
@@ -317,7 +370,7 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Current Electricity",
-      "stem": "Consider the following statements A and B and identify the correct answer: A. For a solar-cell, the I-V characteristics lies in the IV quadrant of the given graph. B. In a reverse biased pn junction diode, the current measured in (A), is due to majority charge carriers.",
+      "stem": "Consider the following statements A and B and identify the correct answer: A. For a solar-cell, the I-V characteristics lies in the IV quadrant of the given graph. B. In a reverse biased pn junction diode, the current measured in (μA), is due to majority charge carriers.",
       "options": {
         "1": "A is incorrect but B is correct",
         "2": "Both A and B are correct",
@@ -326,7 +379,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q15",
@@ -343,7 +400,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q16",
@@ -351,7 +412,7 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Modern Physics",
-      "stem": "If c is the velocity of light in free space, the correct statements about photon among the following are: A. The energy of a photon is E = h. B. The velocity of a photon is c. h C. The momentum of a photon, p = . c D. In a photon-electron collision, both total energy and total momentum are conserved. E. Photon possesses positive charge. Choose the correct answer from the options given below:",
+      "stem": "If c is the velocity of light in free space, the correct statements about photon among the following are: A. The energy of a photon is E = hν. B. The velocity of a photon is c. hν C. The momentum of a photon, p = . c D. In a photon-electron collision, both total energy and total momentum are conserved. E. Photon possesses positive charge. Choose the correct answer from the options given below:",
       "options": {
         "1": "A, B, C and D only",
         "2": "A, C and D only",
@@ -360,7 +421,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q17",
@@ -377,7 +442,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q18",
@@ -385,7 +454,7 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Work Energy Power",
-      "stem": " 1  The graph which shows the variation of   and its kinetic energy, E is (where  is de Broglie wavelength  2  of a free particle):",
+      "stem": "⎛ 1 ⎞ The graph which shows the variation of ⎜ ⎟ and its kinetic energy, E is (where λ is de Broglie wavelength ⎝ λ2 ⎠ of a free particle):",
       "options": {
         "1": "Option 1",
         "2": "Option 2",
@@ -394,7 +463,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q19",
@@ -409,9 +482,14 @@
         "3": "The reflected light will be completely polarised but the refracted light will be partially polarised.",
         "4": "The reflected light will be partially polarised."
       },
-      "correctOption": "3",
+      "correctOption": "1,3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1",
+        "3"
+      ],
+      "multiCorrect": true
     },
     {
       "id": "2025-INTERIM-Q20",
@@ -428,7 +506,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q21",
@@ -436,7 +518,7 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Current Electricity",
-      "stem": "A tightly wound 100 turns coil of radius 10 cm carries a current of 7 A. The magnitude of the magnetic field at the centre of the coil is (Take permeability of free space as 4 × 10–7 SI units):",
+      "stem": "A tightly wound 100 turns coil of radius 10 cm carries a current of 7 A. The magnitude of the magnetic field at the centre of the coil is (Take permeability of free space as 4π × 10–7 SI units):",
       "options": {
         "1": "4.4 T",
         "2": "4.4 mT",
@@ -445,7 +527,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q22",
@@ -462,7 +548,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q23",
@@ -470,7 +560,7 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Waves",
-      "stem": "A bob is whirled in a horizontal plane by means of a string with an initial speed of  rpm. The tension in the string is T. If speed becomes 2 while keeping the same radius, the tension in the string becomes: T",
+      "stem": "A bob is whirled in a horizontal plane by means of a string with an initial speed of ω rpm. The tension in the string is T. If speed becomes 2ω while keeping the same radius, the tension in the string becomes: T",
       "options": {
         "1": "4T",
         "2": "4",
@@ -479,7 +569,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q24",
@@ -487,7 +581,7 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Magnetism",
-      "stem": "Match List-I with List-II. List-I List-II (Material) (Susceptibility ()) A. Diamagnetic I. =0 B. Ferromagnetic II. 0    –1 C. Paramagnetic III.   1 D. Non-magnetic IV. 0     (a small positive number) Choose the correct answer from the options given below",
+      "stem": "Match List-I with List-II. List-I List-II (Material) (Susceptibility (χ)) A. Diamagnetic I. χ=0 B. Ferromagnetic II. 0 > χ ≥ –1 C. Paramagnetic III. χ >> 1 D. Non-magnetic IV. 0 < χ < ε (a small positive number) Choose the correct answer from the options given below",
       "options": {
         "1": "A-II, B-I, C-III, D-IV",
         "2": "A-III, B-II, C-I, D-IV",
@@ -496,7 +590,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q25",
@@ -506,14 +604,18 @@
       "topic": "Current Electricity",
       "stem": "In the following circuit, the equivalent capacitance between terminal A and terminal B is :",
       "options": {
-        "1": "1 F",
-        "2": "0.5 F",
-        "3": "4 F",
-        "4": "2 F"
+        "1": "1 μF",
+        "2": "0.5 μF",
+        "3": "4 μF",
+        "4": "2 μF"
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q26",
@@ -532,7 +634,11 @@
       "placeholder": false,
       "answerEstimated": false,
       "figureSrc": "/figures/2025-INTERIM-Q26.png",
-      "figureKind": "pdf-extract"
+      "figureKind": "pdf-extract",
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q27",
@@ -540,7 +646,7 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Nuclear Physics",
-      "stem": "290  e+ − e− 82 X ⎯⎯→Y ⎯⎯⎯ →Z ⎯⎯⎯ →P ⎯⎯⎯ →Q In the nuclear emission stated above, the mass number and atomic number of the product Q respectively, are",
+      "stem": "290 α e+ β− e− 82 X ⎯⎯→Y ⎯⎯⎯ →Z ⎯⎯⎯ →P ⎯⎯⎯ →Q In the nuclear emission stated above, the mass number and atomic number of the product Q respectively, are",
       "options": {
         "1": "286, 80",
         "2": "288, 82",
@@ -549,7 +655,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q28",
@@ -566,7 +676,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q29",
@@ -574,7 +688,7 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Laws of Motion",
-      "stem": "If x = 5sin  t +  m represents the motion of a particle executing simple harmonic motion, the amplitude  3  and time period of motion, respectively, are",
+      "stem": "If x = 5sin ⎜ πt + ⎟ m represents the motion of a particle executing simple harmonic motion, the amplitude ⎝ 3 ⎠ and time period of motion, respectively, are",
       "options": {
         "1": "5 m, 2 s",
         "2": "5 cm, 1 s",
@@ -583,7 +697,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q30",
@@ -600,7 +718,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q31",
@@ -617,7 +739,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q32",
@@ -625,16 +751,20 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Current Electricity",
-      "stem": "A wire of length ‘l’ and resistance 100  is divided into 10 equal parts. The first 5 parts are connected in series while the next 5 parts are connected in parallel. The two combinations are again connected in series. The resistance of this final combination is:",
+      "stem": "A wire of length ‘l’ and resistance 100 Ω is divided into 10 equal parts. The first 5 parts are connected in series while the next 5 parts are connected in parallel. The two combinations are again connected in series. The resistance of this final combination is:",
       "options": {
-        "1": "52 ",
-        "2": "55 ",
-        "3": "60 ",
-        "4": "26 "
+        "1": "52 Ω",
+        "2": "55 Ω",
+        "3": "60 Ω",
+        "4": "26 Ω"
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q33",
@@ -651,7 +781,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q34",
@@ -659,7 +793,7 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Work Energy Power",
-      "stem": "A thin spherical shell is charged by some source. The potential difference between the two points C and P (in V) shown in the figure is: 1 (Take = 9  109 SI units) 40",
+      "stem": "A thin spherical shell is charged by some source. The potential difference between the two points C and P (in V) shown in the figure is: 1 (Take = 9 × 109 SI units) 4πε0",
       "options": {
         "1": "1 × 105",
         "2": "0.5 × 105",
@@ -670,7 +804,11 @@
       "placeholder": false,
       "answerEstimated": false,
       "figureSrc": "/figures/2025-INTERIM-Q34.png",
-      "figureKind": "pdf-extract"
+      "figureKind": "pdf-extract",
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q35",
@@ -687,7 +825,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q36",
@@ -704,7 +846,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q37",
@@ -721,7 +867,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q38",
@@ -738,7 +888,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q39",
@@ -755,7 +909,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q40",
@@ -763,16 +921,20 @@
       "subject": "Physics",
       "section": "B",
       "topic": "Physics General",
-      "stem": "A force defined by F = t2 + t acts on a particle at a given time t. The factor which is dimensionless, if  and  are constants, is:",
+      "stem": "A force defined by F = αt2 + βt acts on a particle at a given time t. The factor which is dimensionless, if α and β are constants, is:",
       "options": {
-        "1": "t",
-        "2": "t ",
-        "3": "",
-        "4": "t t "
+        "1": "αt",
+        "2": "αβt β",
+        "3": "αβ",
+        "4": "βt t α"
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q41",
@@ -780,7 +942,7 @@
       "subject": "Physics",
       "section": "B",
       "topic": "Current Electricity",
-      "stem": "A 10 F capacitor is connected to a 210 V, 50 Hz source as shown in figure. The peak current in the circuit is nearly ( = 3.14):",
+      "stem": "A 10 μF capacitor is connected to a 210 V, 50 Hz source as shown in figure. The peak current in the circuit is nearly (π = 3.14):",
       "options": {
         "1": "0.93 A",
         "2": "1.20 A",
@@ -791,7 +953,11 @@
       "placeholder": false,
       "answerEstimated": false,
       "figureSrc": "/figures/2025-INTERIM-Q41.png",
-      "figureKind": "pdf-extract"
+      "figureKind": "pdf-extract",
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q42",
@@ -808,7 +974,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q43",
@@ -825,7 +995,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q44",
@@ -842,7 +1016,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q45",
@@ -859,7 +1037,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q46",
@@ -876,7 +1058,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q47",
@@ -893,7 +1079,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q48",
@@ -904,13 +1094,17 @@
       "stem": "The property which is not of an electromagnetic wave travelling in free space is that:",
       "options": {
         "1": "The energy density in electric field is equal to energy density in magnetic field 1",
-        "2": "They travel with a speed equal to 0  0",
+        "2": "They travel with a speed equal to μ0 ε 0",
         "3": "They originate from charges moving with uniform speed",
         "4": "They are transverse in nature"
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q49",
@@ -927,7 +1121,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q50",
@@ -944,7 +1142,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q51",
@@ -961,7 +1163,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q52",
@@ -978,7 +1184,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q53",
@@ -995,7 +1205,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q54",
@@ -1012,7 +1226,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q55",
@@ -1029,7 +1247,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q56",
@@ -1046,7 +1268,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q57",
@@ -1063,7 +1289,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q58",
@@ -1073,14 +1303,18 @@
       "topic": "Chemistry General",
       "stem": "Identify the correct reagents that would bring about the following transformation.",
       "options": {
-        "1": "(i) BH3  (ii) H2O2 / OH (iii) PCC",
-        "2": "(i) BH3  (ii) H2O2 / OH (iii) alk.KMnO4 (iv) H3 O⊕",
+        "1": "(i) BH3 ψ (ii) H2O2 / OH (iii) PCC",
+        "2": "(i) BH3 ψ (ii) H2O2 / OH (iii) alk.KMnO4 (iv) H3 O⊕",
         "3": "(i) H2O/H+ (ii) PCC",
         "4": "(i) H2O/H+ (ii) CrO3"
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q59",
@@ -1097,7 +1331,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q60",
@@ -1114,7 +1352,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q61",
@@ -1131,7 +1373,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q62",
@@ -1148,7 +1394,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q63",
@@ -1165,7 +1415,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q64",
@@ -1182,7 +1436,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q65",
@@ -1199,7 +1457,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q66",
@@ -1216,7 +1478,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q67",
@@ -1233,7 +1499,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q68",
@@ -1250,7 +1520,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q69",
@@ -1267,7 +1541,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q70",
@@ -1284,7 +1562,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q71",
@@ -1301,7 +1583,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q72",
@@ -1318,7 +1604,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q73",
@@ -1335,7 +1625,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q74",
@@ -1352,7 +1646,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q75",
@@ -1369,7 +1667,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q76",
@@ -1386,7 +1688,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q77",
@@ -1403,7 +1709,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q78",
@@ -1420,7 +1730,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q79",
@@ -1437,7 +1751,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q80",
@@ -1454,7 +1772,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q81",
@@ -1471,7 +1793,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q82",
@@ -1488,7 +1814,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q83",
@@ -1505,7 +1835,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q84",
@@ -1522,7 +1856,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q85",
@@ -1539,7 +1877,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q86",
@@ -1556,7 +1898,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q87",
@@ -1573,7 +1919,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q88",
@@ -1590,7 +1940,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q89",
@@ -1607,7 +1961,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q90",
@@ -1624,7 +1982,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q91",
@@ -1641,7 +2003,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q92",
@@ -1658,7 +2024,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q93",
@@ -1675,7 +2045,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q94",
@@ -1692,7 +2066,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q95",
@@ -1700,7 +2078,7 @@
       "subject": "Chemistry",
       "section": "B",
       "topic": "Chemistry General",
-      "stem": "Identify the major product C formed in the following reaction sequence: NaCN CH3 − CH2 − CH2 − I  →A − OH NaOH  Partial hydrolysis → B  Br → C 2 (major )",
+      "stem": "Identify the major product C formed in the following reaction sequence: NaCN CH3 − CH2 − CH2 − I (((( →A − OH NaOH ((((((( Partial hydrolysis → B (((( Br → C 2 (major )",
       "options": {
         "1": "butylamine",
         "2": "butanamide",
@@ -1709,7 +2087,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q96",
@@ -1726,7 +2108,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q97",
@@ -1743,7 +2129,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q98",
@@ -1760,7 +2150,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q99",
@@ -1777,7 +2171,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q100",
@@ -1794,7 +2192,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q101",
@@ -1811,7 +2213,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q102",
@@ -1828,7 +2234,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q103",
@@ -1845,7 +2255,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q104",
@@ -1862,7 +2276,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q105",
@@ -1879,7 +2297,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q106",
@@ -1896,7 +2318,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q107",
@@ -1913,7 +2339,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q108",
@@ -1930,7 +2360,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q109",
@@ -1947,7 +2381,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q110",
@@ -1964,7 +2402,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q111",
@@ -1983,7 +2425,11 @@
       "placeholder": false,
       "answerEstimated": false,
       "figureSrc": "/figures/2025-INTERIM-Q111.png",
-      "figureKind": "pdf-extract"
+      "figureKind": "pdf-extract",
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q112",
@@ -2000,7 +2446,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q113",
@@ -2019,7 +2469,11 @@
       "placeholder": false,
       "answerEstimated": false,
       "figureSrc": "/figures/2025-INTERIM-Q113.png",
-      "figureKind": "pdf-extract"
+      "figureKind": "pdf-extract",
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q114",
@@ -2036,7 +2490,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q115",
@@ -2053,7 +2511,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q116",
@@ -2061,7 +2523,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "dN K − N  The equation of Verhulst-Pearl logistic growth is = rN  . dt  K  From this equation, K indicates:",
+      "stem": "dN ⎡K − N ⎤ The equation of Verhulst-Pearl logistic growth is = rN ⎢ ⎥. dt ⎣ K ⎦ From this equation, K indicates:",
       "options": {
         "1": "Biotic potential",
         "2": "Carrying capacity",
@@ -2070,7 +2532,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q117",
@@ -2087,7 +2553,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q118",
@@ -2104,7 +2574,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q119",
@@ -2121,7 +2595,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q120",
@@ -2138,7 +2616,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q121",
@@ -2155,7 +2637,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q122",
@@ -2172,7 +2658,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q123",
@@ -2189,7 +2679,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q124",
@@ -2206,7 +2700,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q125",
@@ -2223,7 +2721,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q126",
@@ -2240,7 +2742,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q127",
@@ -2257,7 +2763,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q128",
@@ -2276,7 +2786,11 @@
       "placeholder": false,
       "answerEstimated": false,
       "figureSrc": "/figures/2025-INTERIM-Q128.png",
-      "figureKind": "pdf-extract"
+      "figureKind": "pdf-extract",
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q129",
@@ -2293,7 +2807,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q130",
@@ -2310,7 +2828,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q131",
@@ -2327,7 +2849,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q132",
@@ -2344,7 +2870,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q133",
@@ -2361,7 +2891,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q134",
@@ -2378,7 +2912,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q135",
@@ -2395,7 +2933,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q136",
@@ -2412,7 +2954,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q137",
@@ -2429,7 +2975,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q138",
@@ -2446,7 +2996,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q139",
@@ -2463,7 +3017,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q140",
@@ -2480,7 +3038,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q141",
@@ -2497,7 +3059,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q142",
@@ -2514,7 +3080,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q143",
@@ -2531,7 +3101,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q144",
@@ -2548,7 +3122,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q145",
@@ -2567,7 +3145,11 @@
       "placeholder": false,
       "answerEstimated": false,
       "figureSrc": "/figures/2025-INTERIM-Q145.png",
-      "figureKind": "pdf-extract"
+      "figureKind": "pdf-extract",
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q146",
@@ -2584,7 +3166,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q147",
@@ -2596,12 +3182,16 @@
       "options": {
         "1": "Succinic acid → Malic acid",
         "2": "Succinyl-CoA → Succinic acid",
-        "3": "Isocitrate → -ketoglutaric acid",
+        "3": "Isocitrate → α-ketoglutaric acid",
         "4": "Malic acid → Oxaloacetic acid"
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q148",
@@ -2618,7 +3208,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q149",
@@ -2635,7 +3229,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q150",
@@ -2652,7 +3250,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q151",
@@ -2669,7 +3271,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q152",
@@ -2686,7 +3292,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q153",
@@ -2703,7 +3313,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q154",
@@ -2720,7 +3334,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q155",
@@ -2737,7 +3355,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q156",
@@ -2754,7 +3376,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q157",
@@ -2771,7 +3397,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q158",
@@ -2788,7 +3418,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q159",
@@ -2805,7 +3439,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q160",
@@ -2822,7 +3460,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q161",
@@ -2839,7 +3481,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q162",
@@ -2856,7 +3502,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q163",
@@ -2873,7 +3523,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q164",
@@ -2881,7 +3535,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "Match List I with List II : List I List II A. Down’s syndrome I. 11th chromosome B. -Thalassemia II. ‘X’ chromosome C. -Thalassemia III. 21st chromosome D. Klinefelter’s syndrome IV. 16th chromosome Choose the correct answer from the options given below :",
+      "stem": "Match List I with List II : List I List II A. Down’s syndrome I. 11th chromosome B. α-Thalassemia II. ‘X’ chromosome C. β-Thalassemia III. 21st chromosome D. Klinefelter’s syndrome IV. 16th chromosome Choose the correct answer from the options given below :",
       "options": {
         "1": "A-II, B-III, C-IV, D-I",
         "2": "A-III, B-IV, C-I, D-II",
@@ -2890,7 +3544,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q165",
@@ -2907,7 +3565,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q166",
@@ -2924,7 +3586,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q167",
@@ -2943,7 +3609,11 @@
       "placeholder": false,
       "answerEstimated": false,
       "figureSrc": "/figures/2025-INTERIM-Q167.png",
-      "figureKind": "pdf-extract"
+      "figureKind": "pdf-extract",
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q168",
@@ -2960,7 +3630,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q169",
@@ -2977,7 +3651,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q170",
@@ -2994,7 +3672,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q171",
@@ -3011,7 +3693,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q172",
@@ -3028,7 +3714,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q173",
@@ -3045,7 +3735,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q174",
@@ -3062,7 +3756,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q175",
@@ -3079,7 +3777,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q176",
@@ -3096,7 +3798,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q177",
@@ -3113,7 +3819,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q178",
@@ -3130,7 +3840,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q179",
@@ -3147,7 +3861,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q180",
@@ -3164,7 +3882,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q181",
@@ -3181,7 +3903,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q182",
@@ -3189,7 +3915,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "Match List I with List II : List I List II A.  –I antitrypsin I. Cotton bollworm B. Cry IAb II. ADA deficiency C. Cry IAc III. Emphysema D Enzyme replacement therapy IV Corn borer Choose the correct answer form the options given below:",
+      "stem": "Match List I with List II : List I List II A. α –I antitrypsin I. Cotton bollworm B. Cry IAb II. ADA deficiency C. Cry IAc III. Emphysema D Enzyme replacement therapy IV Corn borer Choose the correct answer form the options given below:",
       "options": {
         "1": "A-III, B-I, C-II, D-IV",
         "2": "A-III, B-IV, C-I, D-II",
@@ -3198,7 +3924,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q183",
@@ -3215,7 +3945,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q184",
@@ -3232,7 +3966,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q185",
@@ -3249,7 +3987,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q186",
@@ -3266,7 +4008,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q187",
@@ -3283,7 +4029,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q188",
@@ -3300,7 +4050,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q189",
@@ -3317,7 +4071,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q190",
@@ -3334,7 +4092,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q191",
@@ -3351,7 +4113,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q192",
@@ -3368,7 +4134,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q193",
@@ -3385,7 +4155,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q194",
@@ -3402,7 +4176,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q195",
@@ -3419,7 +4197,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q196",
@@ -3436,7 +4218,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q197",
@@ -3453,7 +4239,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q198",
@@ -3470,7 +4260,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q199",
@@ -3487,7 +4281,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2025-INTERIM-Q200",
@@ -3504,7 +4302,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     }
   ]
 }

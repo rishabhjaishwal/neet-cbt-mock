@@ -157,3 +157,11 @@ button.palette-btn[data-status="marked_answered"],
   display: inline;
   margin: 0;
 }
+
+.q-md .katex {
+  font-size: 1.05em;
+}
+
+.q-figure img {
+  background: #fff;
+}

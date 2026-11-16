@@ -16,7 +16,9 @@ type Q = {
   stem: string;
   options: Record<string, string>;
   selectedOption: string | null;
+  selectedOptions: string[];
   status: "not_attempted" | "attempted" | "marked";
+  multiCorrect?: boolean;
   figureSrc?: string | null;
   figureKind?: string | null;
   needsFigure?: boolean;
@@ -28,6 +30,7 @@ type SectionFilter = "ALL" | "A" | "B";
 type PendingAnswer = {
   questionId: string;
   selectedOption: string | null;
+  selectedOptions: string[];
   status: Q["status"];
 };
 
@@ -120,14 +123,34 @@ export function ExamCbt({
   const i18n = t(lang);
 
   const [questions, setQuestions] = useState(() => {
-    const base = initial.map((q) => ({ ...q, subject: normalizeSubject(q.subject) }));
+    const base = initial.map((q) => ({
+      ...q,
+      subject: normalizeSubject(q.subject),
+      selectedOptions:
+        q.selectedOptions?.length
+          ? q.selectedOptions
+          : q.selectedOption
+            ? [q.selectedOption]
+            : [],
+    }));
     if (typeof window === "undefined") return base;
     const pending = loadPending(attemptId);
     if (!Object.keys(pending).length) return base;
     return base.map((q) => {
       const p = pending[q.id];
       if (!p) return q;
-      return { ...q, selectedOption: p.selectedOption, status: p.status };
+      const selectedOptions =
+        p.selectedOptions?.length
+          ? p.selectedOptions
+          : p.selectedOption
+            ? [p.selectedOption]
+            : [];
+      return {
+        ...q,
+        selectedOption: selectedOptions[0] ?? null,
+        selectedOptions,
+        status: p.status,
+      };
     });
   });
 
@@ -328,13 +351,31 @@ export function ExamCbt({
           prev.map((q) => {
             const local = pendingRef.current[q.id];
             if (local) {
-              return { ...q, selectedOption: local.selectedOption, status: local.status };
+              const selectedOptions =
+                local.selectedOptions?.length
+                  ? local.selectedOptions
+                  : local.selectedOption
+                    ? [local.selectedOption]
+                    : [];
+              return {
+                ...q,
+                selectedOption: selectedOptions[0] ?? null,
+                selectedOptions,
+                status: local.status,
+              };
             }
             const s = byId.get(q.id);
             if (!s) return q;
+            const selectedOptions =
+              s.selectedOptions?.length
+                ? s.selectedOptions
+                : s.selectedOption
+                  ? [s.selectedOption]
+                  : [];
             return {
               ...q,
-              selectedOption: s.selectedOption,
+              selectedOption: selectedOptions[0] ?? null,
+              selectedOptions,
               status: s.status,
             };
           }),
@@ -522,19 +563,40 @@ export function ExamCbt({
       const base = prev[at];
       if (!base) return prev;
       const next: Q = { ...base, ...patch };
-      if (patch.selectedOption && next.status !== "marked") {
-        next.status = "attempted";
+      if (patch.selectedOptions) {
+        next.selectedOptions = [...patch.selectedOptions].sort();
+        next.selectedOption = next.selectedOptions[0] ?? null;
+      } else if (patch.selectedOption !== undefined) {
+        if (patch.selectedOption == null) {
+          next.selectedOptions = [];
+          next.selectedOption = null;
+        } else if (base.multiCorrect) {
+          const set = new Set(base.selectedOptions ?? []);
+          if (set.has(patch.selectedOption)) set.delete(patch.selectedOption);
+          else set.add(patch.selectedOption);
+          next.selectedOptions = [...set].sort();
+          next.selectedOption = next.selectedOptions[0] ?? null;
+        } else {
+          next.selectedOptions = [patch.selectedOption];
+          next.selectedOption = patch.selectedOption;
+        }
+      }
+      if ((next.selectedOptions?.length || next.selectedOption) && next.status !== "marked") {
+        if (patch.status !== "marked") next.status = "attempted";
       }
       if (patch.status === "not_attempted") {
         next.selectedOption = null;
+        next.selectedOptions = [];
         next.status = "not_attempted";
       }
 
-      const selecting =
-        patch.selectedOption != null &&
-        patch.selectedOption !== "" &&
-        !(base.selectedOption != null && base.selectedOption !== "");
-      if (selecting || (patch.status === "attempted" && !base.selectedOption)) {
+      const had =
+        (base.selectedOptions && base.selectedOptions.length > 0) ||
+        (base.selectedOption != null && base.selectedOption !== "");
+      const has =
+        (next.selectedOptions && next.selectedOptions.length > 0) ||
+        (next.selectedOption != null && next.selectedOption !== "");
+      if (has && !had) {
         const limits = buildAttemptLimitInfo(prev, attemptLimit, totalQuestions);
         const gate = limits.canAttempt(base.id);
         if (!gate.ok) {
@@ -543,12 +605,17 @@ export function ExamCbt({
         }
       }
 
+      const normalized: Q = {
+        ...next,
+        selectedOptions: next.selectedOptions ?? [],
+      };
       const copy = [...prev];
-      copy[at] = next;
+      copy[at] = normalized;
       queuePending({
-        questionId: next.id,
-        selectedOption: next.selectedOption,
-        status: next.status,
+        questionId: normalized.id,
+        selectedOption: normalized.selectedOption,
+        selectedOptions: normalized.selectedOptions ?? [],
+        status: normalized.status,
       });
       scheduleCheckpoint();
       setMsg("");
@@ -806,35 +873,44 @@ export function ExamCbt({
           )}
 
           <QuestionStemMarkdown stem={current.stem} className="mb-5" />
+          {current.multiCorrect && (
+            <p className="mb-3 text-xs font-medium text-amber-800">
+              Multi-correct: select all that apply. Exact set = +4; subset only = +1 each; any wrong
+              option = −1.
+            </p>
+          )}
 
           <div className="space-y-3">
-            {(["1", "2", "3", "4"] as const).map((opt) => (
-              <label
-                key={opt}
-                className={`flex cursor-pointer items-start gap-3 rounded-md border px-3 py-3 ${
-                  current.selectedOption === opt
-                    ? "border-[var(--cbt-accent)] bg-blue-50"
-                    : "border-slate-200 hover:bg-slate-50"
-                }`}
-              >
-                <input
-                  type="radio"
-                  name={`option-${current.id}`}
-                  className="mt-1 shrink-0"
-                  checked={current.selectedOption === opt}
-                  onChange={() =>
-                    updateCurrent({
-                      selectedOption: opt,
-                      status: current.status === "marked" ? "marked" : "attempted",
-                    })
-                  }
-                />
-                <span className="q-option-row min-w-0 flex-1">
-                  <strong className="mr-2 shrink-0">({opt})</strong>
-                  <QuestionOptionMarkdown option={current.options[opt] ?? ""} />
-                </span>
-              </label>
-            ))}
+            {(["1", "2", "3", "4"] as const).map((opt) => {
+              const selected = (current.selectedOptions ?? []).includes(opt);
+              return (
+                <label
+                  key={opt}
+                  className={`flex cursor-pointer items-start gap-3 rounded-md border px-3 py-3 ${
+                    selected
+                      ? "border-[var(--cbt-accent)] bg-blue-50"
+                      : "border-slate-200 hover:bg-slate-50"
+                  }`}
+                >
+                  <input
+                    type={current.multiCorrect ? "checkbox" : "radio"}
+                    name={`option-${current.id}`}
+                    className="mt-1 shrink-0"
+                    checked={selected}
+                    onChange={() =>
+                      updateCurrent({
+                        selectedOption: opt,
+                        status: current.status === "marked" ? "marked" : "attempted",
+                      })
+                    }
+                  />
+                  <span className="q-option-row min-w-0 flex-1">
+                    <strong className="mr-2 shrink-0">({opt})</strong>
+                    <QuestionOptionMarkdown option={current.options[opt] ?? ""} />
+                  </span>
+                </label>
+              );
+            })}
           </div>
 
           <div className="mt-6 flex flex-wrap gap-2">
@@ -856,6 +932,7 @@ export function ExamCbt({
               onClick={() =>
                 updateCurrent({
                   status: "marked",
+                  selectedOptions: current.selectedOptions ?? [],
                   selectedOption: current.selectedOption,
                 })
               }
@@ -868,6 +945,7 @@ export function ExamCbt({
               onClick={() =>
                 updateCurrent({
                   selectedOption: null,
+                  selectedOptions: [],
                   status: "not_attempted",
                 })
               }
@@ -927,7 +1005,10 @@ export function ExamCbt({
           <div className="grid grid-cols-5 gap-2 sm:grid-cols-6 lg:grid-cols-5">
             {paletteIndexes.map((i) => {
               const q = questions[i];
-              const status = paletteStatus(q.status, q.selectedOption);
+              const status = paletteStatus(
+                q.status,
+                (q.selectedOptions && q.selectedOptions[0]) || q.selectedOption,
+              );
               return (
                 <button
                   key={q.id}

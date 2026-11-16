@@ -4,10 +4,12 @@ import { Types } from "mongoose";
 import { getSession } from "@/lib/auth";
 import { ensureSeeded } from "@/lib/seed";
 import { Attempt } from "@/lib/models";
+import { parseOptionList } from "@/lib/multi-correct";
 
 const schema = z.object({
   questionId: z.string().min(1),
-  selectedOption: z.enum(["1", "2", "3", "4"]).nullable(),
+  selectedOption: z.enum(["1", "2", "3", "4"]).nullable().optional(),
+  selectedOptions: z.array(z.enum(["1", "2", "3", "4"])).optional(),
   status: z.enum(["not_attempted", "attempted", "marked"]),
 });
 
@@ -37,20 +39,30 @@ export async function POST(req: Request, { params }: Params) {
   }
 
   let status = body.status;
-  let selected = body.selectedOption;
+  let selectedOptions = parseOptionList(
+    body.selectedOptions?.length
+      ? body.selectedOptions
+      : body.selectedOption
+        ? [body.selectedOption]
+        : [],
+  );
+
   if (status === "not_attempted") {
-    selected = null;
-  } else if (selected) {
+    selectedOptions = [];
+  } else if (selectedOptions.length) {
     if (status !== "marked") status = "attempted";
   } else if (status === "marked") {
-    selected = null;
+    selectedOptions = [];
   }
 
-  const ans = attempt.answers.find((a: { questionId: unknown; selectedOption?: string | null; status: string }) => String(a.questionId) === body.questionId);
+  const ans = attempt.answers.find(
+    (a: { questionId: unknown }) => String(a.questionId) === body.questionId,
+  );
   if (!ans) {
     return NextResponse.json({ error: "Question not in attempt" }, { status: 404 });
   }
-  ans.selectedOption = selected;
+  ans.selectedOptions = selectedOptions;
+  ans.selectedOption = selectedOptions[0] ?? null;
   ans.status = status;
   attempt.checkpointAt = new Date();
   await attempt.save();

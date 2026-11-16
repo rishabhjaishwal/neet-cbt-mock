@@ -29,9 +29,20 @@ export default async function ExamPage({
   const byId = Object.fromEntries(questions.map((q) => [String(q._id), q]));
 
   const merged = attempt.answers
-    .map((a: { questionId: unknown; selectedOption?: string | null; status: string }) => {
+    .map((a: {
+      questionId: unknown;
+      selectedOption?: string | null;
+      selectedOptions?: string[];
+      status: string;
+    }) => {
       const q = byId[String(a.questionId)];
       if (!q) return null;
+      const selectedOptions =
+        Array.isArray(a.selectedOptions) && a.selectedOptions.length > 0
+          ? [...a.selectedOptions]
+          : a.selectedOption
+            ? [a.selectedOption]
+            : [];
       return {
         id: String(q._id),
         number: q.number,
@@ -40,8 +51,10 @@ export default async function ExamPage({
         topic: q.topic,
         stem: q.stem,
         options: (q.options ?? {}) as Record<string, string>,
-        selectedOption: a.selectedOption ?? null,
+        selectedOption: selectedOptions[0] ?? null,
+        selectedOptions,
         status: a.status as "not_attempted" | "attempted" | "marked",
+        multiCorrect: Boolean((q as { multiCorrect?: boolean }).multiCorrect),
         figureSrc: (q as { figureSrc?: string }).figureSrc ?? null,
         figureKind: (q as { figureKind?: string }).figureKind ?? null,
         needsFigure: /see figure|as shown in (the )?figure|shown in (the )?figure|following diagram|given figure|in the figure|as shown in figure|shown in figure|given figures/i.test(
@@ -59,7 +72,9 @@ export default async function ExamPage({
     stem: string;
     options: Record<string, string>;
     selectedOption: string | null;
+    selectedOptions: string[];
     status: "not_attempted" | "attempted" | "marked";
+    multiCorrect: boolean;
     figureSrc: string | null;
     figureKind: string | null;
     needsFigure: boolean;

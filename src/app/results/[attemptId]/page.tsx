@@ -3,9 +3,16 @@ import { redirect } from "next/navigation";
 import { Types } from "mongoose";
 import { getSession } from "@/lib/auth";
 import { ensureSeeded } from "@/lib/seed";
-import { Attempt } from "@/lib/models";
+import { Attempt, Question } from "@/lib/models";
 import { getPaper } from "@/lib/papers";
 import { scoreBands } from "@/lib/rank";
+import {
+  isMultiCorrectQuestion,
+  resolveCorrectOptions,
+  scoreSelection,
+} from "@/lib/multi-correct";
+import { ResultsMetrics } from "@/components/ResultsMetrics";
+import { QuestionReviewList, type ReviewItem } from "@/components/QuestionReviewList";
 
 export default async function ResultsPage({
   params,
@@ -30,10 +37,26 @@ export default async function ResultsPage({
   const paper = await getPaper(attempt.year);
   const subjectStats = (attempt.subjectStats ?? {}) as Record<
     string,
-    { correct: number; wrong: number; unattempted: number; accuracy: number }
+    {
+      correct: number;
+      wrong: number;
+      unattempted: number;
+      partial?: number;
+      accuracy: number;
+    }
   >;
   const topicBundle = (attempt.topicStats ?? {}) as {
+    topics?: Array<{
+      topic: string;
+      subject: string;
+      correct: number;
+      wrong: number;
+      unattempted: number;
+      partial?: number;
+      accuracy: number;
+    }>;
     weakTopics?: string[];
+    strongTopics?: string[];
     improvements?: string[];
   };
   const bands = scoreBands(paper?.candidate_count ?? 2_000_000);
@@ -47,6 +70,71 @@ export default async function ResultsPage({
           .sort({ year: 1, attemptNumber: 1 })
           .lean()
       : [];
+
+  const qids = attempt.answers.map((a: { questionId: unknown }) => a.questionId);
+  const questions = await Question.find({ _id: { $in: qids } }).lean();
+  const byId = Object.fromEntries(questions.map((q) => [String(q._id), q]));
+
+  const reviewItems: ReviewItem[] = attempt.answers
+    .map(
+      (a: {
+        questionId: unknown;
+        selectedOption?: string | null;
+        selectedOptions?: string[];
+        status: string;
+      }) => {
+        const q = byId[String(a.questionId)] as
+          | {
+              number: number;
+              subject: string;
+              section: string;
+              topic: string;
+              stem: string;
+              options: Record<string, string>;
+              correctOption?: string;
+              correctOptions?: string[];
+              multiCorrect?: boolean;
+              figureSrc?: string;
+              figureKind?: string;
+            }
+          | undefined;
+        if (!q) return null;
+        const correct = resolveCorrectOptions(q);
+        const multi = isMultiCorrectQuestion(q);
+        const selected =
+          a.status === "not_attempted"
+            ? []
+            : a.selectedOptions?.length
+              ? a.selectedOptions
+              : a.selectedOption
+                ? [a.selectedOption]
+                : [];
+        const { marks, outcome } = scoreSelection(selected, correct, multi);
+        const needsFigure =
+          /see figure|as shown in (the )?figure|shown in (the )?figure|following diagram|given figure|in the figure|as shown in figure|shown in figure|given figures/i.test(
+            q.stem,
+          );
+        return {
+          id: String(a.questionId),
+          number: q.number,
+          subject: q.subject,
+          section: q.section,
+          topic: q.topic,
+          stem: q.stem,
+          options: (q.options ?? {}) as Record<string, string>,
+          selected,
+          correct,
+          outcome,
+          marks,
+          multiCorrect: multi,
+          figureSrc: q.figureSrc ?? null,
+          figureKind: q.figureKind ?? null,
+          needsFigure,
+        } satisfies ReviewItem;
+      },
+    )
+    .filter((x: ReviewItem | null): x is ReviewItem => x != null)
+    .sort((a: ReviewItem, b: ReviewItem) => a.number - b.number);
 
   return (
     <main className="mx-auto max-w-4xl px-4 py-8">
@@ -73,13 +161,22 @@ export default async function ResultsPage({
           ["Est. percentile", String(attempt.percentile)],
           ["Est. rank", attempt.estimatedRank?.toLocaleString() ?? "—"],
           ["Candidates", paper?.candidate_count.toLocaleString() ?? "—"],
-          ["Marking", "+4 / −1 / 0"],
+          ["Marking", "+4 / −1 / 0 (+partial multi)"],
         ].map(([k, v]) => (
           <div key={k} className="rounded-xl border border-slate-200 bg-white p-4">
             <div className="text-xs uppercase tracking-wide text-slate-500">{k}</div>
             <div className="mt-1 text-2xl font-semibold">{v}</div>
           </div>
         ))}
+      </div>
+
+      <div className="mt-8">
+        <ResultsMetrics
+          subjectStats={subjectStats}
+          topicStats={topicBundle.topics ?? []}
+          weakTopics={topicBundle.weakTopics ?? []}
+          strongTopics={topicBundle.strongTopics ?? []}
+        />
       </div>
 
       <section className="mt-8 rounded-xl border border-slate-200 bg-white p-5">
@@ -138,36 +235,6 @@ export default async function ResultsPage({
         </section>
       )}
 
-      <section className="mt-8 rounded-xl border border-slate-200 bg-white p-5">
-        <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold">
-          Subject-wise accuracy
-        </h2>
-        <div className="mt-3 space-y-2">
-          {Object.entries(subjectStats).map(([subject, s]) => (
-            <div key={subject} className="flex items-center justify-between text-sm">
-              <span className="font-medium">{subject}</span>
-              <span>
-                {s.accuracy}% · C {s.correct} / W {s.wrong} / U {s.unattempted}
-              </span>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section className="mt-6 rounded-xl border border-slate-200 bg-white p-5">
-        <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold">
-          Weak topics
-        </h2>
-        <ul className="mt-2 list-disc space-y-1 pl-5 text-sm">
-          {(topicBundle.weakTopics?.length
-            ? topicBundle.weakTopics
-            : ["No clear weak-topic signal from this attempt."]
-          ).map((t) => (
-            <li key={t}>{t}</li>
-          ))}
-        </ul>
-      </section>
-
       <section className="mt-6 rounded-xl border border-slate-200 bg-white p-5">
         <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold">
           What to improve
@@ -178,6 +245,8 @@ export default async function ResultsPage({
           ))}
         </ul>
       </section>
+
+      <QuestionReviewList items={reviewItems} />
 
       {user.role === "examiner" && (
         <p className="mt-6 text-sm">

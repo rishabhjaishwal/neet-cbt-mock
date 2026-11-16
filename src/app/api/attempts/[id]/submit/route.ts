@@ -5,6 +5,7 @@ import { ensureSeeded } from "@/lib/seed";
 import { Attempt, Question } from "@/lib/models";
 import { getPaper } from "@/lib/papers";
 import { scoreAttempt } from "@/lib/scoring";
+import { isMultiCorrectQuestion, resolveCorrectOptions } from "@/lib/multi-correct";
 
 type Params = { params: Promise<{ id: string }> };
 
@@ -37,18 +38,51 @@ export async function POST(_req: Request, { params }: Params) {
   const byId = Object.fromEntries(questions.map((q) => [String(q._id), q]));
 
   const result = scoreAttempt(
-    attempt.answers.map((a: { questionId: unknown; selectedOption?: string | null; status: string }) => {
-      const q = byId[String(a.questionId)];
-      return {
-        questionId: String(a.questionId),
-        number: q?.number ?? 0,
-        subject: q?.subject ?? "Unknown",
-        topic: q?.topic ?? "General",
-        correctOption: q?.correctOption ?? "1",
-        selectedOption: a.selectedOption ?? null,
-        status: a.status as "not_attempted" | "attempted" | "marked",
-      };
-    }),
+    attempt.answers.map(
+      (a: {
+        questionId: unknown;
+        selectedOption?: string | null;
+        selectedOptions?: string[];
+        status: string;
+      }) => {
+        const q = byId[String(a.questionId)] as
+          | {
+              number?: number;
+              subject?: string;
+              topic?: string;
+              correctOption?: string;
+              correctOptions?: string[];
+              multiCorrect?: boolean;
+            }
+          | undefined;
+        const correctOptions = resolveCorrectOptions({
+          correctOption: q?.correctOption,
+          correctOptions: q?.correctOptions,
+        });
+        const selectedOptions =
+          a.selectedOptions && a.selectedOptions.length
+            ? a.selectedOptions
+            : a.selectedOption
+              ? [a.selectedOption]
+              : [];
+        return {
+          questionId: String(a.questionId),
+          number: q?.number ?? 0,
+          subject: q?.subject ?? "Unknown",
+          topic: q?.topic ?? "General",
+          correctOption: correctOptions.join(",") || "1",
+          correctOptions,
+          multiCorrect: isMultiCorrectQuestion({
+            multiCorrect: q?.multiCorrect,
+            correctOptions,
+            correctOption: q?.correctOption,
+          }),
+          selectedOption: selectedOptions[0] ?? null,
+          selectedOptions,
+          status: a.status as "not_attempted" | "attempted" | "marked",
+        };
+      },
+    ),
     paper.candidate_count,
   );
 
@@ -62,7 +96,9 @@ export async function POST(_req: Request, { params }: Params) {
   attempt.topicStats = {
     topics: result.topicStats,
     weakTopics: result.weakTopics,
+    strongTopics: result.strongTopics,
     improvements: result.improvements,
+    partialCount: result.partialCount,
   };
   attempt.percentile = result.percentile;
   attempt.estimatedRank = result.estimatedRank;

@@ -74,7 +74,8 @@
   "gaps": [
     "Source: Public Hindi+English booklet code M1; English column cropped",
     "200 answers estimated (no Ans/Answer marker in source extract)",
-    "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=8"
+    "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=8",
+    "Multi-correct support: 0 items with correctOptions[]; scoring +4 exact / partial +1 each subset / −1 if any wrong."
   ],
   "stats": {
     "parsedQuestions": 200,
@@ -98,7 +99,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q2",
@@ -115,7 +120,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q3",
@@ -125,14 +134,18 @@
       "topic": "Current Electricity",
       "stem": "An infinitely long straight conductor carries a current of 5 A as shown. An electron is moving with a speed of 105 m/s parallel to the conductor. The perpendicular distance between the electron and the conductor is 20 cm at an instant. Calculate the magnitude of the force experienced by the electron at that instant.",
       "options": {
-        "1": "4×10−20 N",
-        "2": "8π×10−20 N",
-        "3": "4π×10−20 N",
-        "4": "8×10−20 N 3 M1"
+        "1": "4×200^{-20}$ N",
+        "2": "8π×200^{-20}$ N",
+        "3": "4π×200^{-20}$ N",
+        "4": "8×200^{-20}$ N 3 M1"
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q4",
@@ -149,7 +162,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q5",
@@ -166,7 +183,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q6",
@@ -183,7 +204,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q7",
@@ -202,7 +227,11 @@
       "placeholder": false,
       "answerEstimated": true,
       "figureSrc": "/figures/2021-M1-Q7.svg",
-      "figureKind": "schematic"
+      "figureKind": "schematic",
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q8",
@@ -219,7 +248,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q9",
@@ -236,7 +269,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q10",
@@ -253,7 +290,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q11",
@@ -270,7 +311,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q12",
@@ -287,7 +332,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q13",
@@ -304,7 +353,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q14",
@@ -321,7 +374,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q15",
@@ -338,7 +395,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q16",
@@ -355,7 +416,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q17",
@@ -372,7 +437,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q18",
@@ -389,7 +458,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q19",
@@ -406,7 +479,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q20",
@@ -423,7 +500,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q21",
@@ -440,7 +521,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q22",
@@ -457,7 +542,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q23",
@@ -474,7 +563,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q24",
@@ -493,7 +586,11 @@
       "placeholder": false,
       "answerEstimated": true,
       "figureSrc": "/figures/2021-M1-Q24.svg",
-      "figureKind": "schematic"
+      "figureKind": "schematic",
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q25",
@@ -510,7 +607,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q26",
@@ -527,7 +628,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q27",
@@ -544,7 +649,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q28",
@@ -561,7 +670,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q29",
@@ -578,7 +691,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q30",
@@ -595,7 +712,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q31",
@@ -614,7 +735,11 @@
       "placeholder": false,
       "answerEstimated": true,
       "figureSrc": "/figures/2021-M1-Q31.svg",
-      "figureKind": "schematic"
+      "figureKind": "schematic",
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q32",
@@ -631,7 +756,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q33",
@@ -648,7 +777,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q34",
@@ -667,7 +800,11 @@
       "placeholder": false,
       "answerEstimated": true,
       "figureSrc": "/figures/2021-M1-Q34.svg",
-      "figureKind": "schematic"
+      "figureKind": "schematic",
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q35",
@@ -675,16 +812,20 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Magnetism",
-      "stem": "An electromagnetic wave of wavelength ‘λ’ is incident on a photosensitive surface of negligible work function. If ‘m’ mass is of photoelectron emitted from the surface has de-Broglie wavelength λd, then :  2h  2",
+      "stem": "An electromagnetic wave of wavelength ‘λ’ is incident on a photosensitive surface of negligible work function. If ‘m’ mass is of photoelectron emitted from the surface has de-Broglie wavelength λd, then : { 2h ( 2",
       "options": {
-        "1": "λ= λd  mc   2m  2",
-        "2": "λ= λd  hc   2mc  2",
-        "3": "λd= λ  h   2mc  2",
-        "4": "λ= λd  h  Section - B (Physics)"
+        "1": "λ={ )λd } mc [ { 2m ( 2",
+        "2": "λ={ )λd } hc [ { 2mc ( 2",
+        "3": "λd={ )λ } h [ { 2mc ( 2",
+        "4": "λ={ )λd } h [ Section - B (Physics)"
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q36",
@@ -692,16 +833,20 @@
       "subject": "Physics",
       "section": "B",
       "topic": "Physics General",
-      "stem": "A particle moving in a circle of radius R with a uniform speed takes a time T to complete one revolution. If this particle were projected with the same speed at an angle ‘θ’ to the horizontal, the maximum height attained by it equals 4R. The angle of projection, θ, is then given by : 1  2R  2 −1  π",
+      "stem": "A particle moving in a circle of radius R with a uniform speed takes a time T to complete one revolution. If this particle were projected with the same speed at an angle ‘θ’ to the horizontal, the maximum height attained by it equals 4R. The angle of projection, θ, is then given by : 1 { 2R ( 2 −1 { π",
       "options": {
-        "1": "θ=cos   gT2    1  π2 R  2",
-        "2": "θ=sin−1    gT2    1 −1  2gT2  2",
-        "3": "θ=sin    π2 R    1  gT2  2",
-        "4": "θ=cos−1    π2 R   "
+        "1": "θ=cos ) { gT2 ) } [ 1 { π2 R ( 2",
+        "2": "θ=sin−1 { ) { gT2 ) } [ 1 −1 { 2gT2 ( 2",
+        "3": "θ=sin { ) { π2 R ) } [ 1 { gT2 ( 2",
+        "4": "θ=cos−1 { ) { π2 R ) } ["
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q37",
@@ -709,7 +854,7 @@
       "subject": "Physics",
       "section": "B",
       "topic": "Current Electricity",
-      "stem": "A series LCR circuit containing 5.0 H inductor, 80 µF capacitor and 40 Ω resistor is connected to 230 V variable frequency ac source. The angular frequencies of the source at which power transferred to the circuit is half the power at the resonant angular frequency are likely to be :",
+      "stem": "A series LCR circuit containing 5.0 H inductor, 80 μF capacitor and 40 Ω resistor is connected to 230 V variable frequency ac source. The angular frequencies of the source at which power transferred to the circuit is half the power at the resonant angular frequency are likely to be :",
       "options": {
         "1": "46 rad/s and 54 rad/s",
         "2": "42 rad/s and 58 rad/s",
@@ -718,7 +863,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q38",
@@ -735,7 +884,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q39",
@@ -752,7 +905,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q40",
@@ -771,7 +928,11 @@
       "placeholder": false,
       "answerEstimated": true,
       "figureSrc": "/figures/2021-M1-Q40.svg",
-      "figureKind": "missing-placeholder"
+      "figureKind": "missing-placeholder",
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q41",
@@ -788,7 +949,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q42",
@@ -796,16 +961,20 @@
       "subject": "Physics",
       "section": "B",
       "topic": "Laws of Motion",
-      "stem": "A particle of mass ‘m’ is projected with a velocity v=kVe(k < 1) from the surface of the earth. (Ve=escape velocity) The maximum height above the surface reached by the particle is : 2  k ",
+      "stem": "A particle of mass ‘m’ is projected with a velocity v=kVe(k < 1) from the surface of the earth. (Ve=escape velocity) The maximum height above the surface reached by the particle is : 2 { k (",
       "options": {
-        "1": "R   1−k  2  k ",
-        "2": "R   1+k  R2 k",
+        "1": "R{ ) } 1−k [ 2 { k (",
+        "2": "R{ ) } 1+k [ R2 k",
         "3": "1+k Rk2",
         "4": "1−k2 Hindi+English 4"
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q43",
@@ -824,7 +993,11 @@
       "placeholder": false,
       "answerEstimated": true,
       "figureSrc": "/figures/2021-M1-Q43.svg",
-      "figureKind": "missing-placeholder"
+      "figureKind": "missing-placeholder",
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q44",
@@ -843,7 +1016,11 @@
       "placeholder": false,
       "answerEstimated": true,
       "figureSrc": "/figures/2021-M1-Q44.svg",
-      "figureKind": "missing-placeholder"
+      "figureKind": "missing-placeholder",
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q45",
@@ -851,16 +1028,20 @@
       "subject": "Physics",
       "section": "B",
       "topic": "Physics General",
-      "stem": "A particle moving in a circle of radius R with a uniform speed takes a time T to complete one revolution. If this particle were projected with the same speed at an angle ‘θ’ to the horizontal, the maximum height attained by it equals 4R. The angle of projection, θ, is then given by : 1  π2 R  2",
+      "stem": "A particle moving in a circle of radius R with a uniform speed takes a time T to complete one revolution. If this particle were projected with the same speed at an angle ‘θ’ to the horizontal, the maximum height attained by it equals 4R. The angle of projection, θ, is then given by : 1 { π2 R ( 2",
       "options": {
-        "1": "θ=sin−1    gT2    1  2gT2  2",
-        "2": "θ=sin−1    π2 R    1  gT2  2",
-        "3": "θ=cos−1    π2 R    1  π2 R  2",
-        "4": "θ=cos−1    gT2    Hindi+English 4"
+        "1": "θ=sin−1 { ) { gT2 ) } [ 1 { 2gT2 ( 2",
+        "2": "θ=sin−1 { ) { π2 R ) } [ 1 { gT2 ( 2",
+        "3": "θ=cos−1 { ) { π2 R ) } [ 1 { π2 R ( 2",
+        "4": "θ=cos−1 { ) { gT2 ) } [ Hindi+English 4"
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q46",
@@ -868,7 +1049,7 @@
       "subject": "Physics",
       "section": "B",
       "topic": "Current Electricity",
-      "stem": "A series LCR circuit containing 5.0 H inductor, 80 µF capacitor and 40 Ω resistor is connected to 230 V variable frequency ac source. The angular frequencies of the source at which power transferred to the circuit is half the power at the resonant angular frequency are likely to be :",
+      "stem": "A series LCR circuit containing 5.0 H inductor, 80 μF capacitor and 40 Ω resistor is connected to 230 V variable frequency ac source. The angular frequencies of the source at which power transferred to the circuit is half the power at the resonant angular frequency are likely to be :",
       "options": {
         "1": "42 rad/s and 58 rad/s",
         "2": "25 rad/s and 75 rad/s",
@@ -877,7 +1058,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q47",
@@ -894,7 +1079,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q48",
@@ -913,7 +1102,11 @@
       "placeholder": false,
       "answerEstimated": true,
       "figureSrc": "/figures/2021-M1-Q48.svg",
-      "figureKind": "missing-placeholder"
+      "figureKind": "missing-placeholder",
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q49",
@@ -930,7 +1123,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q50",
@@ -938,16 +1135,20 @@
       "subject": "Physics",
       "section": "B",
       "topic": "Physics General",
-      "stem": "A particle moving in a circle of radius R with a uniform speed takes a time T to complete one revolution. If this particle were projected with the same speed at an angle ‘θ’ to the horizontal, the maximum height attained by it equals 4R. The angle of projection, θ, is then given by : 1 −1  2gT2  2",
+      "stem": "A particle moving in a circle of radius R with a uniform speed takes a time T to complete one revolution. If this particle were projected with the same speed at an angle ‘θ’ to the horizontal, the maximum height attained by it equals 4R. The angle of projection, θ, is then given by : 1 −1 { 2gT2 ( 2",
       "options": {
-        "1": "θ=sin    π2 R    1 −1  gT2  2",
-        "2": "θ=cos    π2 R    1 −1  π2 R  2",
-        "3": "θ=cos    gT2    1  π2 R  2",
-        "4": "θ=sin−1    gT2    Hindi+English 6 Section - A (Chemistry)"
+        "1": "θ=sin { ) { π2 R ) } [ 1 −1 { gT2 ( 2",
+        "2": "θ=cos { ) { π2 R ) } [ 1 −1 { π2 R ( 2",
+        "3": "θ=cos { ) { gT2 ) } [ 1 { π2 R ( 2",
+        "4": "θ=sin−1 { ) { gT2 ) } [ Hindi+English 6 Section - A (Chemistry)"
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q51",
@@ -964,7 +1165,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q52",
@@ -981,7 +1186,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q53",
@@ -998,7 +1207,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q54",
@@ -1015,7 +1228,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q55",
@@ -1032,7 +1249,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q56",
@@ -1049,7 +1270,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q57",
@@ -1066,7 +1291,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q58",
@@ -1083,7 +1312,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q59",
@@ -1100,7 +1333,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q60",
@@ -1108,7 +1345,7 @@
       "subject": "Chemistry",
       "section": "A",
       "topic": "Organic Chemistry",
-      "stem": "What is the IUPAC name of the organic compound formed in the following chemical reaction ? (i) C2H5MgBr , dry Ether Product Acetone  → (ii) H2O, H+",
+      "stem": "What is the IUPAC name of the organic compound formed in the following chemical reaction ? (i) C2H5MgBr , dry Ether Product Acetone ((((((((((((( → (ii) H2O, H+",
       "options": {
         "1": "2-methyl propan-2-ol",
         "2": "pentan-2-ol",
@@ -1117,7 +1354,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q61",
@@ -1134,7 +1375,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q62",
@@ -1151,7 +1396,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q63",
@@ -1168,7 +1417,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q64",
@@ -1185,7 +1438,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q65",
@@ -1202,7 +1459,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q66",
@@ -1219,7 +1480,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q67",
@@ -1236,7 +1501,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q68",
@@ -1253,7 +1522,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q69",
@@ -1270,7 +1543,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q70",
@@ -1287,7 +1564,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q71",
@@ -1304,7 +1585,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q72",
@@ -1321,7 +1606,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q73",
@@ -1338,7 +1627,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q74",
@@ -1355,7 +1648,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q75",
@@ -1372,7 +1669,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q76",
@@ -1389,7 +1690,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q77",
@@ -1406,7 +1711,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q78",
@@ -1423,7 +1732,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q79",
@@ -1440,7 +1753,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q80",
@@ -1457,7 +1774,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q81",
@@ -1474,7 +1795,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q82",
@@ -1491,7 +1816,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q83",
@@ -1508,7 +1837,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q84",
@@ -1525,7 +1858,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q85",
@@ -1542,7 +1879,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q86",
@@ -1550,7 +1891,7 @@
       "subject": "Chemistry",
       "section": "B",
       "topic": "Chemistry General",
-      "stem": "Match List - I with List - II. List - I List - II (a) 2SO2(g)+O2(g) → (i) Acid rain 2SO3(g) (b) hν HOCl(g)  (ii) Smog → i i OH+C l (c) CaCO3+H2SO4→ (iii) Ozone CaSO4+H2O+CO2 depletion (d) hν NO2(g)  (iv) Tropospheric → NO(g)+O(g) pollution Choose the correct answer from the options given below.",
+      "stem": "Match List - I with List - II. List - I List - II (a) 2SO2(g)+O2(g) → (i) Acid rain 2SO3(g) (b) hν HOCl(g) ((( (ii) Smog → i i OH+C l (c) CaCO3+H2SO4→ (iii) Ozone CaSO4+H2O+CO2 depletion (d) hν NO2(g) ((( (iv) Tropospheric → NO(g)+O(g) pollution Choose the correct answer from the options given below.",
       "options": {
         "1": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
         "2": "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)",
@@ -1559,7 +1900,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q87",
@@ -1567,7 +1912,7 @@
       "subject": "Chemistry",
       "section": "B",
       "topic": "Chemistry General",
-      "stem": "Match List - I with List - II. List - I List - II (a) 2SO2(g)+O2(g) → (i) Acid rain 2SO3(g) (b) hν HOCl(g)  (ii) Smog → i i OH+Cl (c) CaCO3+H2SO4→ (iii) Ozone CaSO4+H2O+CO2 depletion (d) hν NO2(g)  (iv) Tropospheric → NO(g)+O(g) pollution Choose the correct answer from the options given below.",
+      "stem": "Match List - I with List - II. List - I List - II (a) 2SO2(g)+O2(g) → (i) Acid rain 2SO3(g) (b) hν HOCl(g) ((( (ii) Smog → i i OH+Cl (c) CaCO3+H2SO4→ (iii) Ozone CaSO4+H2O+CO2 depletion (d) hν NO2(g) ((( (iv) Tropospheric → NO(g)+O(g) pollution Choose the correct answer from the options given below.",
       "options": {
         "1": "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)",
         "2": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
@@ -1576,7 +1921,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q88",
@@ -1584,7 +1933,7 @@
       "subject": "Chemistry",
       "section": "B",
       "topic": "Organic Chemistry",
-      "stem": "Match List - I with List - II. List - I List - II (a) (i) Hell-Volhard- Zelinsky reaction (b) (ii) Gattermann-Koch reaction (c) R−CH2−OH (iii) Haloform +R'COOH reaction Conc. H SO → 2 4 (d) R−CH2COOH (iv) Esterification (i) X /Red P  2 → (ii) H2O Choose the correct answer from the options given below.",
+      "stem": "Match List - I with List - II. List - I List - II (a) (i) Hell-Volhard- Zelinsky reaction (b) (ii) Gattermann-Koch reaction (c) R−CH2−OH (iii) Haloform +R'COOH reaction Conc. H SO ((((((→ 2 4 (d) R−CH2COOH (iv) Esterification (i) X /Red P (((((( 2 → (ii) H2O Choose the correct answer from the options given below.",
       "options": {
         "1": "(a)-(i), (b)-(iv), (c)-(iii), (d)-(ii)",
         "2": "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
@@ -1593,7 +1942,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q89",
@@ -1601,7 +1954,7 @@
       "subject": "Chemistry",
       "section": "B",
       "topic": "Organic Chemistry",
-      "stem": "Match List - I with List - II. List - I List - II (a) (i) Hell-Volhard- Zelinsky reaction (b) (ii) Gattermann-Koch reaction (c) R−CH2−OH (iii) Haloform +R'COOH reaction Conc. H SO → 2 4 (d) R−CH2COOH (iv) Esterification (i) X /Red P  2 → (ii) H2O Choose the correct answer from the options given below.",
+      "stem": "Match List - I with List - II. List - I List - II (a) (i) Hell-Volhard- Zelinsky reaction (b) (ii) Gattermann-Koch reaction (c) R−CH2−OH (iii) Haloform +R'COOH reaction Conc. H SO ((((((→ 2 4 (d) R−CH2COOH (iv) Esterification (i) X /Red P (((((( 2 → (ii) H2O Choose the correct answer from the options given below.",
       "options": {
         "1": "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
         "2": "(a)-(i), (b)-(iv), (c)-(iii), (d)-(ii)",
@@ -1610,7 +1963,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q90",
@@ -1618,16 +1975,20 @@
       "subject": "Chemistry",
       "section": "B",
       "topic": "Chemistry General",
-      "stem": "The molar conductivity of 0.007 M acetic acid is 20 S cm 2 mol −1 . What is the dissociation constant of acetic acid ? Choose the correct option.  Λ \u0001 = 350 S cm2 mol −1   H+  Λ\u0001 50 S cm 2 mol −1   CH COO− =  3",
+      "stem": "The molar conductivity of 0.007 M acetic acid is 20 S cm 2 mol −1 . What is the dissociation constant of acetic acid ? Choose the correct option. ⟨ Λ \u0001 = 350 S cm2 mol −1 ] ⟩ H+ { ⟩Λ\u0001 50 S cm 2 mol −1 { ⟩√ CH COO− = {} 3",
       "options": {
-        "1": "2.50×10−5 mol L−1",
-        "2": "1.75×10−4 mol L−1",
-        "3": "2.50×10−4 mol L−1",
-        "4": "1.75×10−5 mol L−1"
+        "1": "2.50×50^{-5}$ mol L−1",
+        "2": "1.75×40^{-4}$ mol L−1",
+        "3": "2.50×40^{-4}$ mol L−1",
+        "4": "1.75×50^{-5}$ mol L−1"
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q91",
@@ -1644,7 +2005,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q92",
@@ -1661,7 +2026,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q93",
@@ -1678,7 +2047,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q94",
@@ -1691,11 +2064,15 @@
         "1": "(a)-(ii), (b)-(iv), (c)-(iii), (d)-(i)",
         "2": "(a)-(i), (b)-(iii), (c)-(iv), (d)-(ii)",
         "3": "(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)",
-        "4": "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)  1"
+        "4": "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii) { 1("
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q95",
@@ -1703,7 +2080,7 @@
       "subject": "Chemistry",
       "section": "B",
       "topic": "Chemistry General",
-      "stem": "The slope of Arrhenius Plot  ln k v/s  of first  T  order reaction is −5×103 K. The value of Ea of the reaction is. Choose the correct option for your answer. [Given R=8.314 JK−1mol−1]",
+      "stem": "The slope of Arrhenius Plot { ln k v/s ) of first } T [ order reaction is −5×103 K. The value of Ea of the reaction is. Choose the correct option for your answer. [Given R=8.314 JK−1mol−1]",
       "options": {
         "1": "83.0 kJ mol−1",
         "2": "166 kJ mol−1",
@@ -1712,7 +2089,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q96",
@@ -1720,7 +2101,7 @@
       "subject": "Chemistry",
       "section": "B",
       "topic": "Organic Chemistry",
-      "stem": "Match List - I with List - II. List - I List - II (a) (i) Hell-Volhard- Zelinsky reaction (b) (ii) Gattermann-Koch reaction (c) R−CH2−OH (iii) Haloform +R'COOH reaction Conc. H SO → 2 4 (d) R−CH2COOH (iv) Esterification (i) X 2 /Red P  → (ii) H2O Choose the correct answer from the options given below.",
+      "stem": "Match List - I with List - II. List - I List - II (a) (i) Hell-Volhard- Zelinsky reaction (b) (ii) Gattermann-Koch reaction (c) R−CH2−OH (iii) Haloform +R'COOH reaction Conc. H SO ((((((→ 2 4 (d) R−CH2COOH (iv) Esterification (i) X 2 /Red P (((((( → (ii) H2O Choose the correct answer from the options given below.",
       "options": {
         "1": "(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)",
         "2": "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
@@ -1729,7 +2110,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q97",
@@ -1746,7 +2131,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q98",
@@ -1754,7 +2143,7 @@
       "subject": "Chemistry",
       "section": "B",
       "topic": "Chemistry General",
-      "stem": "The slope of Arrhenius Plot  ln k v/s  of first  T  order reaction is −5×103 K. The value of Ea of the reaction is. Choose the correct option for your answer. [Given R=8.314 JK−1mol−1]",
+      "stem": "The slope of Arrhenius Plot { ln k v/s ) of first } T [ order reaction is −5×103 K. The value of Ea of the reaction is. Choose the correct option for your answer. [Given R=8.314 JK−1mol−1]",
       "options": {
         "1": "166 kJ mol−1",
         "2": "−83 kJ mol−1",
@@ -1763,7 +2152,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q99",
@@ -1771,7 +2164,7 @@
       "subject": "Chemistry",
       "section": "B",
       "topic": "Chemistry General",
-      "stem": "Match List - I with List - II. List - I List - II (a) 2SO2(g)+O2(g) → (i) Acid rain 2SO3(g) (b) hν HOCl(g)  (ii) Smog → i i OH+Cl (c) CaCO3+H2SO4→ (iii) Ozone CaSO4+H2O+CO2 depletion (d) hν NO2(g)  (iv) Tropospheric → NO(g)+O(g) pollution Choose the correct answer from the options given below.",
+      "stem": "Match List - I with List - II. List - I List - II (a) 2SO2(g)+O2(g) → (i) Acid rain 2SO3(g) (b) hν HOCl(g) ((( (ii) Smog → i i OH+Cl (c) CaCO3+H2SO4→ (iii) Ozone CaSO4+H2O+CO2 depletion (d) hν NO2(g) ((( (iv) Tropospheric → NO(g)+O(g) pollution Choose the correct answer from the options given below.",
       "options": {
         "1": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
         "2": "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
@@ -1780,7 +2173,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q100",
@@ -1797,7 +2194,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q101",
@@ -1814,7 +2215,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q102",
@@ -1831,7 +2236,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q103",
@@ -1848,7 +2257,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q104",
@@ -1865,7 +2278,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q105",
@@ -1882,7 +2299,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q106",
@@ -1899,7 +2320,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q107",
@@ -1916,7 +2341,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q108",
@@ -1933,7 +2362,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q109",
@@ -1950,7 +2383,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q110",
@@ -1967,7 +2404,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q111",
@@ -1984,7 +2425,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q112",
@@ -2001,7 +2446,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q113",
@@ -2018,7 +2467,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q114",
@@ -2035,7 +2488,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q115",
@@ -2052,7 +2509,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q116",
@@ -2069,7 +2530,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q117",
@@ -2086,7 +2551,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q118",
@@ -2103,7 +2572,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q119",
@@ -2120,7 +2593,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q120",
@@ -2137,7 +2614,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q121",
@@ -2154,7 +2635,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q122",
@@ -2171,7 +2656,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q123",
@@ -2188,7 +2677,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q124",
@@ -2205,7 +2698,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q125",
@@ -2222,7 +2719,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q126",
@@ -2239,7 +2740,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q127",
@@ -2256,7 +2761,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q128",
@@ -2273,7 +2782,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q129",
@@ -2290,7 +2803,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q130",
@@ -2307,7 +2824,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q131",
@@ -2324,7 +2845,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q132",
@@ -2341,7 +2866,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q133",
@@ -2358,7 +2887,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q134",
@@ -2375,7 +2908,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q135",
@@ -2392,7 +2929,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q136",
@@ -2409,7 +2950,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q137",
@@ -2426,7 +2971,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q138",
@@ -2443,7 +2992,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q139",
@@ -2460,7 +3013,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q140",
@@ -2477,7 +3034,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q141",
@@ -2494,7 +3055,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q142",
@@ -2511,7 +3076,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q143",
@@ -2528,7 +3097,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q144",
@@ -2545,7 +3118,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q145",
@@ -2562,7 +3139,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q146",
@@ -2579,7 +3160,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q147",
@@ -2596,7 +3181,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q148",
@@ -2613,7 +3202,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q149",
@@ -2630,7 +3223,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q150",
@@ -2647,7 +3244,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q151",
@@ -2664,7 +3265,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q152",
@@ -2681,7 +3286,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q153",
@@ -2698,7 +3307,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q154",
@@ -2715,7 +3328,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q155",
@@ -2732,7 +3349,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q156",
@@ -2749,7 +3370,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q157",
@@ -2766,7 +3391,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q158",
@@ -2783,7 +3412,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q159",
@@ -2800,7 +3433,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q160",
@@ -2817,7 +3454,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q161",
@@ -2834,7 +3475,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q162",
@@ -2851,7 +3496,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q163",
@@ -2868,7 +3517,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q164",
@@ -2885,7 +3538,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q165",
@@ -2902,7 +3559,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q166",
@@ -2919,7 +3580,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q167",
@@ -2936,7 +3601,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q168",
@@ -2953,7 +3622,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q169",
@@ -2970,7 +3643,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q170",
@@ -2987,7 +3664,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q171",
@@ -3004,7 +3685,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q172",
@@ -3021,7 +3706,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q173",
@@ -3038,7 +3727,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q174",
@@ -3055,7 +3748,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q175",
@@ -3072,7 +3769,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q176",
@@ -3089,7 +3790,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q177",
@@ -3106,7 +3811,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q178",
@@ -3123,7 +3832,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q179",
@@ -3140,7 +3853,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q180",
@@ -3157,7 +3874,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q181",
@@ -3174,7 +3895,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q182",
@@ -3191,7 +3916,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q183",
@@ -3208,7 +3937,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q184",
@@ -3225,7 +3958,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q185",
@@ -3242,7 +3979,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q186",
@@ -3259,7 +4000,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q187",
@@ -3276,7 +4021,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q188",
@@ -3293,7 +4042,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q189",
@@ -3310,7 +4063,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q190",
@@ -3327,7 +4084,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q191",
@@ -3344,7 +4105,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q192",
@@ -3361,7 +4126,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q193",
@@ -3378,7 +4147,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q194",
@@ -3395,7 +4168,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q195",
@@ -3412,7 +4189,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q196",
@@ -3429,7 +4210,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q197",
@@ -3446,7 +4231,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q198",
@@ -3463,7 +4252,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q199",
@@ -3480,7 +4273,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2021-M1-Q200",
@@ -3497,7 +4294,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     }
   ]
 }

@@ -3,6 +3,7 @@ import path from "node:path";
 import bcrypt from "bcryptjs";
 import { connectDb } from "./db";
 import { Attempt, Paper, Question, User } from "./models";
+import { normalizeScientificText } from "./symbol-normalize";
 
 type PaperFile = {
   year: number;
@@ -24,6 +25,8 @@ type PaperFile = {
     stem: string;
     options: Record<string, string>;
     correctOption: string;
+    correctOptions?: string[];
+    multiCorrect?: boolean;
     placeholder?: boolean;
     answerEstimated?: boolean;
     figureSrc?: string;
@@ -31,7 +34,7 @@ type PaperFile = {
   }>;
 };
 
-const CONTENT_VERSION = 5;
+const CONTENT_VERSION = 7;
 let syncedVersion = 0;
 
 async function hashPassword(password: string) {
@@ -108,9 +111,25 @@ export async function seedDatabase() {
             subject: q.subject,
             section: q.section,
             topic: q.topic,
-            stem: q.stem,
-            options: q.options,
+            stem: normalizeScientificText(q.stem),
+            options: Object.fromEntries(
+              Object.entries(q.options || {}).map(([k, v]) => [
+                k,
+                normalizeScientificText(String(v)),
+              ]),
+            ),
             correctOption: q.correctOption,
+            correctOptions:
+              q.correctOptions && q.correctOptions.length
+                ? q.correctOptions
+                : String(q.correctOption || "")
+                    .split(/[,/\s]+/)
+                    .filter((x) => /^[1-4]$/.test(x)),
+            multiCorrect: Boolean(
+              q.multiCorrect ||
+                (q.correctOptions && q.correctOptions.length > 1) ||
+                String(q.correctOption || "").includes(","),
+            ),
             isPlaceholder: Boolean(q.placeholder),
             answerEstimated: Boolean(q.answerEstimated),
             figureSrc: q.figureSrc ?? null,

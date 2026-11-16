@@ -75,7 +75,8 @@
     "Official 2022 booklet in ALL-PYQ-Papers 'main' is a Career360 sample ebook, not NTA paper.",
     "2022 paper reconstructed from adjacent-year public PYQ extracts (2019, 2021, 2023) with NEET 2022 structure.",
     "2 questions had incomplete options in PDF extract",
-    "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=4"
+    "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=4",
+    "Multi-correct support: 0 items with correctOptions[]; scoring +4 exact / partial +1 each subset / −1 if any wrong."
   ],
   "stats": {
     "parsedQuestions": 200,
@@ -99,7 +100,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q2",
@@ -116,7 +121,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q3",
@@ -133,7 +142,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q4",
@@ -150,7 +163,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q5",
@@ -167,7 +184,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q6",
@@ -184,7 +205,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q7",
@@ -201,7 +226,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q8",
@@ -218,7 +247,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q9",
@@ -228,14 +261,18 @@
       "topic": "Physics General",
       "stem": "Select the correct sequence of events.",
       "options": {
-        "1": "Gametogenesis  Gamete transfer  Syngamy  Zygote  Cell division (Cleavage)  Cell differentiation  Organogenesis",
-        "2": "Gametogenesis  Gamete transfer  Syngamy  Zygote  Cell division (Cleavage)  Organogenesis  Cell differentiation",
-        "3": "Gametogenesis  Syngamy  Gamete transfer  Zygote  Cell division (Cleavage)  Cell differentiation  Organogenesis",
-        "4": "Gametogenesis  Gamete transfer  Syngamy  Zygote  Cell differentiation  Cell division (Cleavage)  Organogenesis"
+        "1": "Gametogenesis → Gamete transfer → Syngamy → Zygote → Cell division (Cleavage) → Cell differentiation → Organogenesis",
+        "2": "Gametogenesis → Gamete transfer → Syngamy → Zygote → Cell division (Cleavage) → Organogenesis → Cell differentiation",
+        "3": "Gametogenesis → Syngamy → Gamete transfer → Zygote → Cell division (Cleavage) → Cell differentiation → Organogenesis",
+        "4": "Gametogenesis → Gamete transfer → Syngamy → Zygote → Cell differentiation → Cell division (Cleavage) → Organogenesis"
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q10",
@@ -252,7 +289,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q11",
@@ -269,7 +310,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q12",
@@ -286,7 +331,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q13",
@@ -303,7 +352,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q14",
@@ -320,7 +373,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q15",
@@ -337,7 +394,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q16",
@@ -354,7 +415,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q17",
@@ -371,7 +436,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q18",
@@ -388,7 +457,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q19",
@@ -405,7 +478,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q20",
@@ -422,7 +499,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q21",
@@ -439,7 +520,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q22",
@@ -456,7 +541,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q23",
@@ -473,7 +562,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q24",
@@ -490,7 +583,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q25",
@@ -507,7 +604,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q26",
@@ -524,7 +625,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q27",
@@ -541,7 +646,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q28",
@@ -558,7 +667,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q29",
@@ -575,7 +688,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q30",
@@ -592,7 +709,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q31",
@@ -609,7 +730,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q32",
@@ -626,7 +751,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q33",
@@ -643,7 +772,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q34",
@@ -660,7 +793,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q35",
@@ -677,7 +814,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q36",
@@ -694,7 +835,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q37",
@@ -711,7 +856,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q38",
@@ -728,7 +877,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q39",
@@ -745,7 +898,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q40",
@@ -762,7 +919,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q41",
@@ -779,7 +940,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q42",
@@ -796,7 +961,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q43",
@@ -813,7 +982,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q44",
@@ -830,7 +1003,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q45",
@@ -847,7 +1024,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q46",
@@ -864,7 +1045,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q47",
@@ -881,7 +1066,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q48",
@@ -891,14 +1080,18 @@
       "topic": "Current Electricity",
       "stem": "An infinitely long straight conductor carries a current of 5 A as shown. An electron is moving with a speed of 105 m/s parallel to the conductor. The perpendicular distance between the electron and the conductor is 20 cm at an instant. Calculate the magnitude of the force experienced by the electron at that instant.",
       "options": {
-        "1": "4×10−20 N",
-        "2": "8π×10−20 N",
-        "3": "4π×10−20 N",
-        "4": "8×10−20 N 3 M1"
+        "1": "4×200^{-20}$ N",
+        "2": "8π×200^{-20}$ N",
+        "3": "4π×200^{-20}$ N",
+        "4": "8×200^{-20}$ N 3 M1"
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q49",
@@ -915,7 +1108,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q50",
@@ -932,7 +1129,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q51",
@@ -949,7 +1150,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q52",
@@ -966,7 +1171,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q53",
@@ -983,7 +1192,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q54",
@@ -1000,7 +1213,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q55",
@@ -1017,7 +1234,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q56",
@@ -1034,7 +1255,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q57",
@@ -1051,7 +1276,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q58",
@@ -1068,7 +1297,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q59",
@@ -1085,7 +1318,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q60",
@@ -1102,7 +1339,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q61",
@@ -1119,7 +1360,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q62",
@@ -1136,7 +1381,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q63",
@@ -1153,7 +1402,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q64",
@@ -1163,14 +1416,18 @@
       "topic": "Chemistry General",
       "stem": "What initiation and termination factors are involved in transcription in Eukaryotes ?",
       "options": {
-        "1": " and , respectively",
-        "2": " and , respectively",
-        "3": " and , respectively",
-        "4": " and , respectively"
+        "1": "σ and ρ, respectively",
+        "2": "α and β, respectively",
+        "3": "β and γ, respectively",
+        "4": "α and σ, respectively"
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q65",
@@ -1187,7 +1444,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q66",
@@ -1204,7 +1465,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q67",
@@ -1221,7 +1486,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q68",
@@ -1238,7 +1507,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q69",
@@ -1255,7 +1528,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q70",
@@ -1272,7 +1549,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q71",
@@ -1289,7 +1570,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q72",
@@ -1300,13 +1585,17 @@
       "stem": "Which of the following bacteria reduce nitrate in soil into nitrogen ?",
       "options": {
         "1": "Nitrobacter",
+        "2": "[Option 2 incomplete in source PDF]",
         "3": "Nitrococcus",
-        "4": "Nitrosomonas",
-        "2": "[Option 2 incomplete in source PDF]"
+        "4": "Nitrosomonas"
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q73",
@@ -1323,7 +1612,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q74",
@@ -1340,7 +1633,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q75",
@@ -1357,7 +1654,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q76",
@@ -1374,7 +1675,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q77",
@@ -1391,7 +1696,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q78",
@@ -1408,7 +1717,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q79",
@@ -1425,7 +1738,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q80",
@@ -1442,7 +1759,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q81",
@@ -1459,7 +1780,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q82",
@@ -1476,7 +1801,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q83",
@@ -1493,7 +1822,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q84",
@@ -1510,7 +1843,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q85",
@@ -1527,7 +1864,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q86",
@@ -1544,7 +1885,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q87",
@@ -1561,7 +1906,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q88",
@@ -1578,7 +1927,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q89",
@@ -1595,7 +1948,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q90",
@@ -1612,7 +1969,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q91",
@@ -1629,7 +1990,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q92",
@@ -1646,7 +2011,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q93",
@@ -1663,7 +2032,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q94",
@@ -1675,12 +2048,16 @@
       "options": {
         "1": "DNA ligase",
         "2": "Exonuclease",
-        "4": "Protease",
-        "3": "[Option 3 incomplete in source PDF]"
+        "3": "[Option 3 incomplete in source PDF]",
+        "4": "Protease"
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q95",
@@ -1697,7 +2074,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q96",
@@ -1714,7 +2095,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q97",
@@ -1731,7 +2116,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q98",
@@ -1748,7 +2137,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q99",
@@ -1765,7 +2158,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q100",
@@ -1782,7 +2179,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q101",
@@ -1792,14 +2193,18 @@
       "topic": "Biology General",
       "stem": "The reaction that does not give benzoic acid as the major product is - CH2OH COCH3 K 2 Cr2 O7 (i)NaOCl",
       "options": {
-        "1": " ",
-        "2": " (ii)H O  3 CH2OH CH2OH  PCC KMnO4 / H",
-        "3": " Pyridinium  ",
-        "4": "  Chlorochromate "
+        "1": "⎯⎯⎯⎯ →",
+        "2": "⎯⎯⎯⎯ (ii)H O+ → 3 CH2OH CH2OH + PCC KMnO4 / H",
+        "3": "⎯⎯⎯⎯⎯⎯ ⎡Pyridinium ⎤ →",
+        "4": "⎯⎯⎯⎯⎯ → ⎣⎢Chlorochromate ⎦⎥"
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q102",
@@ -1816,7 +2221,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q103",
@@ -1833,7 +2242,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q104",
@@ -1850,7 +2263,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q105",
@@ -1867,7 +2284,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q106",
@@ -1884,7 +2305,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q107",
@@ -1894,14 +2319,18 @@
       "topic": "Biology General",
       "stem": "The hydrolysis reaction that takes palce at the slowest rate. among the following is – + aq.NaOH",
       "options": {
-        "1": "Cl   ONa CH3 CH3 aq.NaOH",
-        "2": "H3C–CH2–Cl   H3C–CH2–OH aq.NaOH",
-        "3": "H2CCH–CH2Cl   H2C=CH–CH2OH aq.NaOH",
-        "4": "CH2Cl   CH2OH"
+        "1": "Cl ⎯⎯⎯⎯ → ONa CH3 CH3 aq.NaOH",
+        "2": "H3C–CH2–Cl ⎯⎯⎯⎯ → H3C–CH2–OH aq.NaOH",
+        "3": "H2C=CH–CH2Cl ⎯⎯⎯⎯ → H2C=CH–CH2OH aq.NaOH",
+        "4": "CH2Cl ⎯⎯⎯⎯ → CH2OH"
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q108",
@@ -1918,7 +2347,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q109",
@@ -1926,7 +2359,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "The major product C and D formed in the following reaction respectively are : excess HI H3C–CH2–CH2–OC(CH3)2  C + D ",
+      "stem": "The major product C and D formed in the following reaction respectively are : excess HI H3C–CH2–CH2–OC(CH3)2 ⎯⎯⎯⎯ →C + D Δ",
       "options": {
         "1": "H3C–CH2–CH2–I and I–C(CH3)3",
         "2": "H3C–CH2–CH2–OH and I–C(CH3)3",
@@ -1935,7 +2368,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q110",
@@ -1952,7 +2389,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q111",
@@ -1969,7 +2410,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q112",
@@ -1986,7 +2431,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q113",
@@ -2003,7 +2452,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q114",
@@ -2011,7 +2464,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "In the following reaction Red Hot Iron Tube H3C–CCH  873K A number of () bond present in product (A) is -",
+      "stem": "In the following reaction Red Hot Iron Tube H3C–C≡CH ⎯⎯⎯⎯⎯⎯ 873K →A number of (σ) bond present in product (A) is -",
       "options": {
         "1": "21",
         "2": "9",
@@ -2020,7 +2473,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q115",
@@ -2028,16 +2485,20 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "Aluminium chloride in acidified aqueous solution forms a complex ‘A’, in which hybridisation state of Al is ‘B’. What are ‘A’ and ‘B’ respectively ? 3 3 2 3 3",
+      "stem": "Aluminium chloride in acidified aqueous solution forms a complex ‘A’, in which hybridisation state of Al is ‘B’. What are ‘A’ and ‘B’ respectively ? 3+ 3 2 3+ 3",
       "options": {
         "1": "[Al(H 2 O) 6 ] , sp d",
-        "2": "[Al(H 2 O) 4 ] , sp 3 2 3 2 3",
+        "2": "[Al(H 2 O) 4 ] , sp 3+ 2 3+ 2 3",
         "3": "[Al(H 2 O) 4 ] , dsp",
         "4": "[Al(H 2 O) 6 ] , d sp"
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q116",
@@ -2054,7 +2515,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q117",
@@ -2071,7 +2536,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q118",
@@ -2088,7 +2557,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q119",
@@ -2105,7 +2578,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q120",
@@ -2122,7 +2599,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q121",
@@ -2132,14 +2613,18 @@
       "topic": "Biology General",
       "stem": "When neutral or faintly alkaline KMnO4 is treated with potassium iodide, iodide ion is converted into ‘X’, ‘X’ is - – –",
       "options": {
+        "1": "I2",
         "2": "IO 4",
         "3": "IO 3",
-        "1": "I2",
         "4": "IO"
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q122",
@@ -2156,7 +2641,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q123",
@@ -2164,16 +2653,20 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "following limiting molar conductivities are given as  m0 H2 SO4   x S cm2 mol–1  m0 K 2SO 4   y S cm2 mol–1  m0  CH3 COOK   z Scm2 mol–1  m0 inScm2 mol–1 for CH3COOH will be -   x  y",
+      "stem": "following limiting molar conductivities are given as λ m0 (H2 SO4 ) = x S cm2 mol–1 λ m0 (K 2SO 4 ) = y S cm2 mol–1 λ m0 ( CH3 COOK ) = z Scm2 mol–1 λ m0 inScm2 mol–1 for CH3COOH will be - ( ) (x − y)",
       "options": {
         "1": "x – y + 2z",
         "2": "x + y + z",
         "3": "x – y + z",
-        "4": "z 2"
+        "4": "+z 2"
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q124",
@@ -2190,7 +2683,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q125",
@@ -2207,7 +2704,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q126",
@@ -2217,14 +2718,18 @@
       "topic": "Biology General",
       "stem": "The correct option representing a Freundlich adsorption isotherm is - x x",
       "options": {
-        "1": " kp0.3",
-        "2": " kp2.5 m m x x",
-        "3": " kp –0.5",
-        "4": " kp –1 m m"
+        "1": "= kp0.3",
+        "2": "= kp2.5 m m x x",
+        "3": "= kp –0.5",
+        "4": "= kp –1 m m"
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q127",
@@ -2241,7 +2746,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q128",
@@ -2258,7 +2767,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q129",
@@ -2275,7 +2788,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q130",
@@ -2292,7 +2809,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q131",
@@ -2309,7 +2830,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q132",
@@ -2326,7 +2851,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q133",
@@ -2343,7 +2872,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q134",
@@ -2360,7 +2893,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q135",
@@ -2377,7 +2914,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q136",
@@ -2394,7 +2935,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q137",
@@ -2405,13 +2950,17 @@
       "stem": "Which of the following statements is correct regarding a solution of two component A and B exhibiting positive deviation from idea behavior ?",
       "options": {
         "1": "Intermolecular attractive force between A-A and B-B are stronger than those between A-B.",
-        "2": "mix H = 0 at constant T and P.",
-        "3": "mix V = 0 at constant . T and P.",
+        "2": "Δmix H = 0 at constant T and P.",
+        "3": "Δmix V = 0 at constant . T and P.",
         "4": "Intermolecular attractive forces between A-A and B-B are equal to those between A-B."
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q138",
@@ -2428,7 +2977,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q139",
@@ -2436,7 +2989,7 @@
       "subject": "Biology",
       "section": "B",
       "topic": "Biology General",
-      "stem": "The standard electrode potential E   value of Al3+/Al, Ag+/Ag, K+/K and Cr3+/Cr are –1.66 V, 0.80 V, –2.93 V & – 0.79 V respectively. The correct decreasing order of reducing power of the metal is -",
+      "stem": "The standard electrode potential Eε ( ) value of Al3+/Al, Ag+/Ag, K+/K and Cr3+/Cr are –1.66 V, 0.80 V, –2.93 V & – 0.79 V respectively. The correct decreasing order of reducing power of the metal is -",
       "options": {
         "1": "Ag > Cr > Al > K",
         "2": "K > Al > Cr > Ag",
@@ -2445,7 +2998,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q140",
@@ -2462,7 +3019,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q141",
@@ -2479,7 +3040,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q142",
@@ -2490,13 +3055,17 @@
       "stem": "In hydrogen atom, the de Broglie wavelength of an electron in the second Bohr orbit is: [Given that Bohr radius, a0 = 52.9 pm]",
       "options": {
         "1": "211.6 pm",
-        "2": "211.6  pm",
-        "3": "52.9  pm",
+        "2": "211.6 π pm",
+        "3": "52.9 π pm",
         "4": "105.8 pm"
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q143",
@@ -2513,7 +3082,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q144",
@@ -2530,7 +3103,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q145",
@@ -2538,9 +3115,9 @@
       "subject": "Biology",
       "section": "B",
       "topic": "Biology General",
-      "stem": "Reversible expansion of an ideal gas under isothermal and adiabatic conditions are as shown in the figure : A (PA, VA, TA) B (PB, VB, TB) P C (PC, VC, TC) V AB  Isothermal expansion AC  Adiabatic expansion Which of the following options is not correct?",
+      "stem": "Reversible expansion of an ideal gas under isothermal and adiabatic conditions are as shown in the figure : A (PA, VA, TA) B (PB, VB, TB) P C (PC, VC, TC) V AB ⎯⎯→ Isothermal expansion AC ⎯⎯→ Adiabatic expansion Which of the following options is not correct?",
       "options": {
-        "1": "Sisothermal > Sadiabatic",
+        "1": "ΔSisothermal > ΔSadiabatic",
         "2": "TA = TB",
         "3": "W isothermal > W adiabatic",
         "4": "TC > TA"
@@ -2549,7 +3126,11 @@
       "placeholder": false,
       "answerEstimated": false,
       "figureSrc": "/figures/2022-RECON-Q145.svg",
-      "figureKind": "missing-placeholder"
+      "figureKind": "missing-placeholder",
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q146",
@@ -2557,16 +3138,20 @@
       "subject": "Biology",
       "section": "B",
       "topic": "Biology General",
-      "stem": "Two metal spheres, one of radius R and the other of radius 2R respectively have the same surface charge density . They are brought in contact and separated. What will be the new surface charge densities on them? 5 5 5 5",
+      "stem": "Two metal spheres, one of radius R and the other of radius 2R respectively have the same surface charge density σ. They are brought in contact and separated. What will be the new surface charge densities on them? 5 5 5 5",
       "options": {
-        "1": "1  ,  2  ",
-        "2": "1  ,  2   6 6 2 6 5 5 5 5",
-        "3": "1  ,  2  ",
-        "4": "1  ,  2   2 3 3 6"
+        "1": "σ1 = σ, σ 2 = σ",
+        "2": "σ1 = σ, σ 2 = σ 6 6 2 6 5 5 5 5",
+        "3": "σ1 = σ, σ 2 = σ",
+        "4": "σ1 = σ, σ 2 = σ 2 3 3 6"
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q147",
@@ -2583,7 +3168,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q148",
@@ -2593,14 +3182,18 @@
       "topic": "Biology General",
       "stem": "A mass falls from a height 'h' and its time of fall 't' is recorded in terms of time period T of a simple pendulum. On the surface of earth it is found that t = 2T. The entire set up is taken on the surface of another planet whose mass is half of that of earth and radius the same. Same experiment is repeated and corresponding times noted as t' and T'. Then we can say",
       "options": {
-        "1": "t'  2T '",
-        "2": "t'  2T '",
-        "3": "t'  2T'",
-        "4": "t'  2T '"
+        "1": "t' = 2T '",
+        "2": "t' > 2T '",
+        "3": "t' < 2T'",
+        "4": "t' = 2T '"
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q149",
@@ -2617,7 +3210,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q150",
@@ -2625,16 +3222,20 @@
       "subject": "Biology",
       "section": "B",
       "topic": "Biology General",
-      "stem": "  An object flying in air with velocity 20 î  25 ĵ – 12k̂ suddenly breaks into two pieces whose masses   are in the ratio 1 : 5. The smaller mass flies off with a velocity 100 î  35 ĵ  8k̂ . The velocity of the larger piece will be.",
+      "stem": "( ) An object flying in air with velocity 20 î + 25 ĵ – 12k̂ suddenly breaks into two pieces whose masses ( ) are in the ratio 1 : 5. The smaller mass flies off with a velocity 100 î + 35 ĵ + 8k̂ . The velocity of the larger piece will be.",
       "options": {
-        "1": "4 î  23 ĵ – 16k̂",
+        "1": "4 î + 23 ĵ – 16k̂",
         "2": "100 î – 35 ĵ – 8k̂",
-        "3": "20 î  15 ĵ – 80k̂",
+        "3": "20 î + 15 ĵ – 80k̂",
         "4": "20 î – 15 ĵ – 80k̂"
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q151",
@@ -2651,7 +3252,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q152",
@@ -2659,7 +3264,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "Two small spherical metal balls, having equal masses, are made from materials of densities 1 and 2 (1 = 82) and having radii of 1 mm and 2 mm, respectively. They are made to fall vertically (from rest) in a viscous medium whose coefficient of viscosity equals  and whose density is 0.12. The ratio of their terminal velocities would be, 79 19 39 79",
+      "stem": "Two small spherical metal balls, having equal masses, are made from materials of densities ρ1 and ρ2 (ρ1 = 8ρ2) and having radii of 1 mm and 2 mm, respectively. They are made to fall vertically (from rest) in a viscous medium whose coefficient of viscosity equals η and whose density is 0.1ρ2. The ratio of their terminal velocities would be, 79 19 39 79",
       "options": {
         "1": "Option 1",
         "2": "Option 2",
@@ -2668,7 +3273,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q153",
@@ -2681,11 +3290,15 @@
         "1": "rad/s",
         "2": "2 rad/s",
         "3": "rad/s",
-        "4": "rad/s n 2nr 4nr 2 4nr"
+        "4": "rad/s n 2πnr 4πnr 2 4πnr"
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q154",
@@ -2702,7 +3315,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q155",
@@ -2710,16 +3327,20 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "A truck is stationary and has a bob suspended by a light string, in a frame attached to the truck. The truck, suddenly moves to the right with an acceleration of a. The pendulum will tilt –1  g ",
+      "stem": "A truck is stationary and has a bob suspended by a light string, in a frame attached to the truck. The truck, suddenly moves to the right with an acceleration of a. The pendulum will tilt –1 ⎛ g ⎞",
       "options": {
-        "1": "to the left and angle of inclination of the pendulum with the vertical is sin   a –1  a ",
-        "2": "to the left and angle of inclination of the pendulum with the vertical is tan   g –1  a ",
-        "3": "to the left and angle of inclination of the pendulum with the vertical is sin   g –1  g ",
-        "4": "to the left and angle of inclination of the pendulum with the vertical is tan   a"
+        "1": "to the left and angle of inclination of the pendulum with the vertical is sin ⎜ ⎟ ⎝a⎠ –1 ⎛ a ⎞",
+        "2": "to the left and angle of inclination of the pendulum with the vertical is tan ⎜⎜ ⎟⎟ ⎝g⎠ –1 ⎛ a ⎞",
+        "3": "to the left and angle of inclination of the pendulum with the vertical is sin ⎜⎜ ⎟⎟ ⎝g⎠ –1 ⎛ g ⎞",
+        "4": "to the left and angle of inclination of the pendulum with the vertical is tan ⎜ ⎟ ⎝a⎠"
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q156",
@@ -2727,7 +3348,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "In a u-tube as shown in the figure water and oil are in the left side and right side of the tube respectively. The heights from the bottom for water and oil columns are 15 cm and 20 cm respectively. The density of the oil is: 3 [take water = 1000 kg/m ] 3 3 3 3",
+      "stem": "In a u-tube as shown in the figure water and oil are in the left side and right side of the tube respectively. The heights from the bottom for water and oil columns are 15 cm and 20 cm respectively. The density of the oil is: 3 [take ρwater = 1000 kg/m ] 3 3 3 3",
       "options": {
         "1": "1200 kg/m",
         "2": "750 kg/m",
@@ -2738,7 +3359,11 @@
       "placeholder": false,
       "answerEstimated": false,
       "figureSrc": "/figures/2022-RECON-Q156.svg",
-      "figureKind": "missing-placeholder"
+      "figureKind": "missing-placeholder",
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q157",
@@ -2746,16 +3371,20 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "A deep rectangular pond of surface area A, containing water (density = , specific heat capacity = s), is located in a region where the outside air temperature is at a steady value of –26ºC. The thickness of the frozen ice layer in this pond, at a certain instant is x. Taking the thermal conductivity of ice as K, and its specific latent heat of fusion as L, the rate of increase of the thickness of ice layer, at this instant, would be given by 2",
+      "stem": "A deep rectangular pond of surface area A, containing water (density = ρ, specific heat capacity = s), is located in a region where the outside air temperature is at a steady value of –26ºC. The thickness of the frozen ice layer in this pond, at a certain instant is x. Taking the thermal conductivity of ice as K, and its specific latent heat of fusion as L, the rate of increase of the thickness of ice layer, at this instant, would be given by 2",
       "options": {
-        "1": "26K/x(L-4s)",
-        "2": "26K/(x L)",
-        "3": "26K/(xL)",
-        "4": "26K/x(L+4s)"
+        "1": "26K/ρx(L-4s)",
+        "2": "26K/(ρx L)",
+        "3": "26K/(ρxL)",
+        "4": "26K/ρx(L+4s)"
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q158",
@@ -2772,7 +3401,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q159",
@@ -2789,7 +3422,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q160",
@@ -2797,7 +3434,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "The value of    , for hydrogen helium and another ideal diatomic gas X (whose molecules are not   Cv  rigid but have an additional vibrational mode), are respectively equal to, 7 5 9 5 7 9 5 7 7 7 5 7",
+      "stem": "The value of γ⎜⎜ = ⎟ , for hydrogen helium and another ideal diatomic gas X (whose molecules are not ⎟ ⎝ Cv ⎠ rigid but have an additional vibrational mode), are respectively equal to, 7 5 9 5 7 9 5 7 7 7 5 7",
       "options": {
         "1": ", ,",
         "2": ", ,",
@@ -2806,7 +3443,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q161",
@@ -2823,7 +3464,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q162",
@@ -2831,7 +3476,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "In Young's double slit experiment, if there is no initial phase difference between the light from the two slits, a point on the screen corresponding to the fifth minimum has path difference    ",
+      "stem": "In Young's double slit experiment, if there is no initial phase difference between the light from the two slits, a point on the screen corresponding to the fifth minimum has path difference λ λ λ λ",
       "options": {
         "1": "5",
         "2": "10",
@@ -2840,7 +3485,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q163",
@@ -2857,7 +3506,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q164",
@@ -2874,7 +3527,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q165",
@@ -2891,7 +3548,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q166",
@@ -2899,16 +3560,20 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "A body of mass m is kept on a rough horizontal surface (coefficient of friction = ). A horizontal force is applied on the body, but it does not move. The resultant of normal reaction and the frictional force acting on the object is given by F, where F is,    2 ",
+      "stem": "A body of mass m is kept on a rough horizontal surface (coefficient of friction = μ). A horizontal force is applied on the body, but it does not move. The resultant of normal reaction and the frictional force acting on the object is given by F, where F is, ρ ρ ρ 2 ρ",
       "options": {
-        "1": "| F | mg  mg",
-        "2": "| F | mg",
-        "3": "| F |  mg 1  ",
-        "4": "| F |  mg"
+        "1": "| F |= mg + μmg",
+        "2": "| F |= μmg",
+        "3": "| F | ≤ mg 1 + μ",
+        "4": "| F | = mg"
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q167",
@@ -2925,7 +3590,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q168",
@@ -2942,7 +3611,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q169",
@@ -2959,7 +3632,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q170",
@@ -2976,7 +3653,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q171",
@@ -2984,18 +3665,22 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "A straight conductor carrying current I splits into two parts as shown in the figure. The radius of the circular loop is R. The total magnetic field at the centre P of the loop is,  0i",
+      "stem": "A straight conductor carrying current I splits into two parts as shown in the figure. The radius of the circular loop is R. The total magnetic field at the centre P of the loop is, μ 0i",
       "options": {
         "1": "zero",
-        "2": "30i / 32R, outward",
-        "3": "30i / 32R, inward",
+        "2": "3μ0i / 32R, outward",
+        "3": "3μ0i / 32R, inward",
         "4": ", inward 2R"
       },
       "correctOption": "1",
       "placeholder": false,
       "answerEstimated": false,
       "figureSrc": "/figures/2022-RECON-Q171.svg",
-      "figureKind": "missing-placeholder"
+      "figureKind": "missing-placeholder",
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q172",
@@ -3014,7 +3699,11 @@
       "placeholder": false,
       "answerEstimated": false,
       "figureSrc": "/figures/2022-RECON-Q172.svg",
-      "figureKind": "missing-placeholder"
+      "figureKind": "missing-placeholder",
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q173",
@@ -3022,7 +3711,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "The radius of the first permitted Bohr orbit, for the electron, in a hydrogen atom equals 0.51Å and its – ground state energy equals –13.6 eV. If the electron in the hydrogen atom is replaced by muon ( ) [charge same as electron and mass 207 me], the first Bohr radius and ground state energy will be –13 –13",
+      "stem": "The radius of the first permitted Bohr orbit, for the electron, in a hydrogen atom equals 0.51Å and its – ground state energy equals –13.6 eV. If the electron in the hydrogen atom is replaced by muon (μ ) [charge same as electron and mass 207 me], the first Bohr radius and ground state energy will be –13 –13",
       "options": {
         "1": "0.53 × 10 m, – 3.6 eV",
         "2": "25.6 × 10 m, – 2.8 eV –13 –13",
@@ -3031,7 +3720,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q174",
@@ -3048,7 +3741,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q175",
@@ -3056,16 +3753,20 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Cell Biology",
-      "stem": "The metre bridge shown is in balance position with  . If we now interchange the positions of Q 2 galvanometer and cell, will the bridge work ? If yes, what will be balance condition ? P 1 – 1 P 2 P 1",
+      "stem": "The metre bridge shown is in balance position with = . If we now interchange the positions of Q λ2 galvanometer and cell, will the bridge work ? If yes, what will be balance condition ? P λ1 – λ1 P λ2 P λ1",
       "options": {
-        "1": "yes, ",
+        "1": "yes, =",
         "2": "no, no null point",
-        "3": "yes, ",
-        "4": "yes,  Q  2  1 Q 1 Q 2"
+        "3": "yes, =",
+        "4": "yes, = Q λ 2 + λ1 Q λ1 Q λ2"
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q176",
@@ -3073,16 +3774,20 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "The relations amongst the three elements of earth's magnetic field, namely horizontal component H, vertical component V and dip  are, (BE = total magnetic field)",
+      "stem": "The relations amongst the three elements of earth's magnetic field, namely horizontal component H, vertical component V and dip δ are, (BE = total magnetic field)",
       "options": {
-        "1": "V = BE tan , H = BE",
-        "2": "V = BE sin , H = BE cos",
-        "3": "V = BE cos , H = BE sin",
-        "4": "V = BE, H = BE tan "
+        "1": "V = BE tan δ, H = BE",
+        "2": "V = BE sin δ, H = BE cosδ",
+        "3": "V = BE cos δ, H = BE sinδ",
+        "4": "V = BE, H = BE tan δ"
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q177",
@@ -3099,7 +3804,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q178",
@@ -3116,7 +3825,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q179",
@@ -3133,7 +3846,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q180",
@@ -3150,7 +3867,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q181",
@@ -3158,7 +3879,7 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "For a transparent medium, relative permeability and permittivity, r and r are 1.0 and 1.44 respectively. The velocity of light in this medium would be : 8 8 8 8",
+      "stem": "For a transparent medium, relative permeability and permittivity, μr and ∈r are 1.0 and 1.44 respectively. The velocity of light in this medium would be : 8 8 8 8",
       "options": {
         "1": "2.5 × 10",
         "2": "3 × 10",
@@ -3167,7 +3888,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q182",
@@ -3184,7 +3909,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q183",
@@ -3201,7 +3930,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q184",
@@ -3211,14 +3944,18 @@
       "topic": "Biology General",
       "stem": "The main scale of a vermier calipers has n divisions/cm. n division of the vermier scale coincide with (n – 1) divisions of main scale. The least count of the vernier calipers is : 1 1 1 1 cm cm",
       "options": {
-        "1": "(n  1)(n  1)",
+        "1": "(n + 1)(n − 1)",
         "2": "n cm",
         "3": "n2 cm",
-        "4": "n(n  1)"
+        "4": "n(n + 1)"
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q185",
@@ -3226,16 +3963,20 @@
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
-      "stem": "A person traveling in a straight line moves with a constant velocity v1 for certain distance 'x' and with a constant velocity v2 for next equal distance. The average velocity v is given by the relation : 1 1 1 2 1 1 v v1  v 2",
+      "stem": "A person traveling in a straight line moves with a constant velocity v1 for certain distance 'x' and with a constant velocity v2 for next equal distance. The average velocity v is given by the relation : 1 1 1 2 1 1 v v1 + v 2",
       "options": {
-        "1": "v  v1  v 2",
-        "2": "v  v1  v 2",
-        "3": "",
-        "4": "v  v 1v 2 2 2"
+        "1": "v = v1 + v 2",
+        "2": "v = v1 + v 2",
+        "3": "=",
+        "4": "v = v 1v 2 2 2"
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q186",
@@ -3245,14 +3986,18 @@
       "topic": "Biology General",
       "stem": "Assuming that the gravitational potential energy of an object at infinity is zero, the change in potential energy (final – initial) of an object of mass m, when taken to a height h from the surface of earth (of radius R), is given by : GMm GMm h GMm",
       "options": {
-        "1": " R  h",
+        "1": "− R + h",
         "2": "Option 2",
         "3": "mgh",
-        "4": "R  h R(R  h)"
+        "4": "R + h R(R + h)"
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q187",
@@ -3260,7 +4005,7 @@
       "subject": "Biology",
       "section": "B",
       "topic": "Genetics",
-      "stem": "1 g of water, of volume 1 cm at 100ºC, is converted into steam at same temperature under normal 5 3 atmospheric pressure ~  1 10 Pa . The volume of steam formed equals 1671 cm . If the specific latent heat of vaporization of water is 2256 J/g, the change in internal energy is :",
+      "stem": "1 g of water, of volume 1 cm at 100ºC, is converted into steam at same temperature under normal 5 3 atmospheric pressure ~ − 1× 10 Pa . The volume of steam formed equals 1671 cm . If the specific latent heat of vaporization of water is 2256 J/g, the change in internal energy is :",
       "options": {
         "1": "2423 J",
         "2": "2089 J",
@@ -3269,7 +4014,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q188",
@@ -3277,7 +4026,7 @@
       "subject": "Biology",
       "section": "B",
       "topic": "Biology General",
-      "stem": "Angular width of the central maximum in the Fraunhofer diffraction for  = 6000 Å is 0. When the same slit is illuminated by another monochromatic light, the angular width decreases by 30%. The wavelength of this light is :",
+      "stem": "Angular width of the central maximum in the Fraunhofer diffraction for λ = 6000 Å is θ0. When the same slit is illuminated by another monochromatic light, the angular width decreases by 30%. The wavelength of this light is :",
       "options": {
         "1": "1800 Å",
         "2": "4200 Å",
@@ -3286,7 +4035,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q189",
@@ -3303,7 +4056,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q190",
@@ -3311,7 +4068,7 @@
       "subject": "Biology",
       "section": "B",
       "topic": "Biology General",
-      "stem": "A proton and an -particle are accelerated from rest to the same energy. The de Broglie wavelength p and  are in the ratio :",
+      "stem": "A proton and an α-particle are accelerated from rest to the same energy. The de Broglie wavelength λp and λα are in the ratio :",
       "options": {
         "1": "2 : 1",
         "2": "1 : 1",
@@ -3320,7 +4077,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q191",
@@ -3337,7 +4098,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q192",
@@ -3354,7 +4119,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q193",
@@ -3371,7 +4140,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q194",
@@ -3388,7 +4161,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q195",
@@ -3405,7 +4182,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q196",
@@ -3422,7 +4203,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q197",
@@ -3439,7 +4224,11 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q198",
@@ -3456,7 +4245,11 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q199",
@@ -3473,7 +4266,11 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
     },
     {
       "id": "2022-RECON-Q200",
@@ -3490,7 +4287,11 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
     }
   ]
 }

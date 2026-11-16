@@ -4,10 +4,12 @@ import { Types } from "mongoose";
 import { getSession } from "@/lib/auth";
 import { ensureSeeded } from "@/lib/seed";
 import { Attempt } from "@/lib/models";
+import { parseOptionList } from "@/lib/multi-correct";
 
 const answerSchema = z.object({
   questionId: z.string().min(1),
-  selectedOption: z.enum(["1", "2", "3", "4"]).nullable(),
+  selectedOption: z.enum(["1", "2", "3", "4"]).nullable().optional(),
+  selectedOptions: z.array(z.enum(["1", "2", "3", "4"])).optional(),
   status: z.enum(["not_attempted", "attempted", "marked"]),
 });
 
@@ -59,19 +61,27 @@ export async function POST(req: Request, { params }: Params) {
       const idx = byId.get(item.questionId);
       if (idx === undefined) continue;
       let status = item.status;
-      let selected = item.selectedOption;
+      let selectedOptions = parseOptionList(
+        item.selectedOptions?.length
+          ? item.selectedOptions
+          : item.selectedOption
+            ? [item.selectedOption]
+            : [],
+      );
       if (status === "not_attempted") {
-        selected = null;
-      } else if (selected) {
+        selectedOptions = [];
+      } else if (selectedOptions.length) {
         if (status !== "marked") status = "attempted";
       } else if (status === "marked") {
-        selected = null;
+        selectedOptions = [];
       }
       const row = attempt.answers[idx] as {
         selectedOption: string | null;
+        selectedOptions?: string[];
         status: string;
       };
-      row.selectedOption = selected;
+      row.selectedOptions = selectedOptions;
+      row.selectedOption = selectedOptions[0] ?? null;
       row.status = status;
     }
   }
@@ -131,9 +141,15 @@ export async function GET(_req: Request, { params }: Params) {
       ? new Date(attempt.checkpointAt).toISOString()
       : null,
     answers: attempt.answers.map(
-      (a: { questionId: unknown; selectedOption?: string | null; status: string }) => ({
+      (a: {
+        questionId: unknown;
+        selectedOption?: string | null;
+        selectedOptions?: string[];
+        status: string;
+      }) => ({
         questionId: String(a.questionId),
         selectedOption: a.selectedOption ?? null,
+        selectedOptions: a.selectedOptions ?? (a.selectedOption ? [a.selectedOption] : []),
         status: a.status,
       }),
     ),
