@@ -77,6 +77,12 @@ export async function GET(_req: Request, { params }: Params) {
       estimated_rank: attempt.estimatedRank ?? null,
       screenSwitchCount: attempt.screenSwitchCount ?? 0,
       screenSwitchEvents: attempt.screenSwitchEvents ?? [],
+      currentQuestionIndex: attempt.currentQuestionIndex ?? 0,
+      subjectFilter: attempt.subjectFilter ?? "ALL",
+      sectionFilter: attempt.sectionFilter ?? "ALL",
+      checkpointAt: attempt.checkpointAt
+        ? new Date(attempt.checkpointAt).toISOString()
+        : null,
     },
     questions: merged,
   });

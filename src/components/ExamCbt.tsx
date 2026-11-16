@@ -16,6 +16,15 @@ type Q = {
   status: "not_attempted" | "attempted" | "marked";
 };
 
+type SubjectFilter = "ALL" | "Physics" | "Chemistry" | "Biology";
+type SectionFilter = "ALL" | "A" | "B";
+
+type PendingAnswer = {
+  questionId: string;
+  selectedOption: string | null;
+  status: Q["status"];
+};
+
 type Props = {
   attemptId: string;
   year: number;
@@ -23,10 +32,11 @@ type Props = {
   endsAt: string;
   questions: Q[];
   initialScreenSwitchCount?: number;
+  initialQuestionIndex?: number;
+  initialSubjectFilter?: SubjectFilter;
+  initialSectionFilter?: SectionFilter;
+  initialCheckpointAt?: string | null;
 };
-
-type SubjectFilter = "ALL" | "Physics" | "Chemistry" | "Biology";
-type SectionFilter = "ALL" | "A" | "B";
 
 function formatRemain(ms: number) {
   if (ms < 0) ms = 0;
@@ -55,31 +65,105 @@ function normalizeSubject(s: string): string {
   return s;
 }
 
+function pendingStorageKey(attemptId: string) {
+  return `neet-cbt-pending:${attemptId}`;
+}
+
+function loadPending(attemptId: string): Record<string, PendingAnswer> {
+  try {
+    const raw = localStorage.getItem(pendingStorageKey(attemptId));
+    if (!raw) return {};
+    const parsed = JSON.parse(raw) as Record<string, PendingAnswer>;
+    return parsed && typeof parsed === "object" ? parsed : {};
+  } catch {
+    return {};
+  }
+}
+
+function savePending(attemptId: string, pending: Record<string, PendingAnswer>) {
+  try {
+    if (Object.keys(pending).length === 0) {
+      localStorage.removeItem(pendingStorageKey(attemptId));
+    } else {
+      localStorage.setItem(pendingStorageKey(attemptId), JSON.stringify(pending));
+    }
+  } catch {
+    /* quota / private mode */
+  }
+}
+
 export function ExamCbt({
   attemptId,
   year,
   title,
-  endsAt,
+  endsAt: endsAtProp,
   questions: initial,
   initialScreenSwitchCount = 0,
+  initialQuestionIndex = 0,
+  initialSubjectFilter = "ALL",
+  initialSectionFilter = "ALL",
+  initialCheckpointAt = null,
 }: Props) {
   const router = useRouter();
   const shellRef = useRef<HTMLDivElement>(null);
-  const [questions, setQuestions] = useState(() =>
-    initial.map((q) => ({ ...q, subject: normalizeSubject(q.subject) })),
+
+  const [questions, setQuestions] = useState(() => {
+    const base = initial.map((q) => ({ ...q, subject: normalizeSubject(q.subject) }));
+    if (typeof window === "undefined") return base;
+    const pending = loadPending(attemptId);
+    if (!Object.keys(pending).length) return base;
+    return base.map((q) => {
+      const p = pending[q.id];
+      if (!p) return q;
+      return { ...q, selectedOption: p.selectedOption, status: p.status };
+    });
+  });
+
+  const clampedInitial = Math.min(
+    Math.max(0, initialQuestionIndex),
+    Math.max(0, initial.length - 1),
   );
-  const [index, setIndex] = useState(0);
-  const [remain, setRemain] = useState(() => new Date(endsAt).getTime() - Date.now());
+  const [index, setIndex] = useState(clampedInitial);
+  /** Server clock only — never extended from client remaining time. */
+  const [endsAt, setEndsAt] = useState(endsAtProp);
+  const [remain, setRemain] = useState(() => new Date(endsAtProp).getTime() - Date.now());
   const [busy, setBusy] = useState(false);
-  const [subjectFilter, setSubjectFilter] = useState<SubjectFilter>("ALL");
-  const [sectionFilter, setSectionFilter] = useState<SectionFilter>("ALL");
+  const [subjectFilter, setSubjectFilter] = useState<SubjectFilter>(initialSubjectFilter);
+  const [sectionFilter, setSectionFilter] = useState<SectionFilter>(initialSectionFilter);
   const [msg, setMsg] = useState("");
   const [examStarted, setExamStarted] = useState(false);
   const [showLockPopup, setShowLockPopup] = useState(false);
   const [popupReason, setPopupReason] = useState("");
   const [switchCount, setSwitchCount] = useState(initialScreenSwitchCount);
+  const [online, setOnline] = useState(true);
+  const [syncState, setSyncState] = useState<"idle" | "syncing" | "saved" | "error">("idle");
+  const [checkpointAt, setCheckpointAt] = useState<string | null>(initialCheckpointAt);
+  const [pendingCount, setPendingCount] = useState(0);
+
   const cooldownRef = useRef(0);
   const recordingRef = useRef(false);
+  const pendingRef = useRef<Record<string, PendingAnswer>>({});
+  const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const syncingRef = useRef(false);
+  const indexRef = useRef(index);
+  const subjectRef = useRef(subjectFilter);
+  const sectionRef = useRef(sectionFilter);
+
+  useEffect(() => {
+    indexRef.current = index;
+  }, [index]);
+  useEffect(() => {
+    subjectRef.current = subjectFilter;
+  }, [subjectFilter]);
+  useEffect(() => {
+    sectionRef.current = sectionFilter;
+  }, [sectionFilter]);
+
+  useEffect(() => {
+    pendingRef.current = loadPending(attemptId);
+    setPendingCount(Object.keys(pendingRef.current).length);
+    setOnline(typeof navigator !== "undefined" ? navigator.onLine : true);
+  }, [attemptId]);
 
   const availableSections = useMemo(() => {
     const set = new Set<string>();
@@ -123,16 +207,153 @@ export function ExamCbt({
     [questions],
   );
 
+  const queuePending = useCallback(
+    (item: PendingAnswer) => {
+      pendingRef.current = { ...pendingRef.current, [item.questionId]: item };
+      savePending(attemptId, pendingRef.current);
+      setPendingCount(Object.keys(pendingRef.current).length);
+    },
+    [attemptId],
+  );
+
+  const flushCheckpoint = useCallback(
+    async (opts?: { force?: boolean }) => {
+      if (syncingRef.current && !opts?.force) return false;
+      if (typeof navigator !== "undefined" && !navigator.onLine) {
+        setOnline(false);
+        setSyncState("error");
+        return false;
+      }
+
+      syncingRef.current = true;
+      setSyncState("syncing");
+      try {
+        const pending = Object.values(pendingRef.current);
+        const res = await fetch(`/api/attempts/${attemptId}/checkpoint`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            answers: pending.length ? pending : undefined,
+            currentQuestionIndex: indexRef.current,
+            subjectFilter: subjectRef.current,
+            sectionFilter: sectionRef.current,
+          }),
+        });
+        const data = await res.json();
+        if (!res.ok) {
+          setSyncState("error");
+          setOnline(navigator.onLine);
+          return false;
+        }
+
+        // Apply server clock — never trust client to extend time
+        if (typeof data.endsAt === "string") {
+          setEndsAt(data.endsAt);
+          setRemain(Math.max(0, new Date(data.endsAt).getTime() - Date.now()));
+        } else if (typeof data.remainingMs === "number") {
+          setRemain(Math.max(0, data.remainingMs));
+        }
+        if (typeof data.screenSwitchCount === "number") {
+          setSwitchCount(data.screenSwitchCount);
+        }
+        if (typeof data.checkpointAt === "string") {
+          setCheckpointAt(data.checkpointAt);
+        }
+
+        pendingRef.current = {};
+        savePending(attemptId, {});
+        setPendingCount(0);
+        setOnline(true);
+        setSyncState("saved");
+        return true;
+      } catch {
+        setOnline(false);
+        setSyncState("error");
+        return false;
+      } finally {
+        syncingRef.current = false;
+      }
+    },
+    [attemptId],
+  );
+
+  const scheduleCheckpoint = useCallback(() => {
+    if (debounceRef.current) clearTimeout(debounceRef.current);
+    debounceRef.current = setTimeout(() => {
+      void flushCheckpoint();
+    }, 600);
+  }, [flushCheckpoint]);
+
+  const restoreFromServer = useCallback(async () => {
+    try {
+      const res = await fetch(`/api/attempts/${attemptId}/checkpoint`);
+      if (!res.ok) return;
+      const data = await res.json();
+      if (typeof data.endsAt === "string") {
+        setEndsAt(data.endsAt);
+        setRemain(Math.max(0, new Date(data.endsAt).getTime() - Date.now()));
+      }
+      if (typeof data.currentQuestionIndex === "number") {
+        setIndex(data.currentQuestionIndex);
+      }
+      if (data.subjectFilter === "ALL" || data.subjectFilter === "Physics" || data.subjectFilter === "Chemistry" || data.subjectFilter === "Biology") {
+        setSubjectFilter(data.subjectFilter);
+      }
+      if (data.sectionFilter === "ALL" || data.sectionFilter === "A" || data.sectionFilter === "B") {
+        setSectionFilter(data.sectionFilter);
+      }
+      if (typeof data.screenSwitchCount === "number") {
+        setSwitchCount(data.screenSwitchCount);
+      }
+      if (data.checkpointAt) setCheckpointAt(data.checkpointAt);
+
+      if (Array.isArray(data.answers)) {
+        const byId = new Map<string, PendingAnswer>();
+        for (const a of data.answers as PendingAnswer[]) {
+          if (a?.questionId) byId.set(a.questionId, a);
+        }
+        setQuestions((prev) =>
+          prev.map((q) => {
+            const local = pendingRef.current[q.id];
+            if (local) {
+              return { ...q, selectedOption: local.selectedOption, status: local.status };
+            }
+            const s = byId.get(q.id);
+            if (!s) return q;
+            return {
+              ...q,
+              selectedOption: s.selectedOption,
+              status: s.status,
+            };
+          }),
+        );
+      }
+      setOnline(true);
+    } catch {
+      setOnline(false);
+    }
+  }, [attemptId]);
+
   function selectSubject(s: SubjectFilter) {
     setSubjectFilter(s);
     setSectionFilter("ALL");
     jumpToFilter(s, "ALL");
+    scheduleCheckpoint();
   }
 
   function selectSection(sec: SectionFilter) {
     setSectionFilter(sec);
     jumpToFilter(subjectFilter, sec);
+    scheduleCheckpoint();
   }
+
+  const goToIndex = useCallback(
+    (i: number) => {
+      setIndex(i);
+      scheduleCheckpoint();
+    },
+    [scheduleCheckpoint],
+  );
 
   const recordSwitch = useCallback(
     async (reason: "escape" | "fullscreen_exit" | "tab_switch" | "window_blur") => {
@@ -176,6 +397,7 @@ export function ExamCbt({
       if (shellRef.current) await enterFullscreen(shellRef.current);
       setExamStarted(true);
       setShowLockPopup(false);
+      void flushCheckpoint({ force: true });
     } catch {
       setMsg("Could not enter full screen. Allow full screen and try again.");
     }
@@ -190,6 +412,7 @@ export function ExamCbt({
     }
   }
 
+  // Timer from server endsAt only
   useEffect(() => {
     const t = setInterval(() => {
       const left = new Date(endsAt).getTime() - Date.now();
@@ -211,6 +434,9 @@ export function ExamCbt({
     };
     const onVisibility = () => {
       if (document.hidden) void recordSwitch("tab_switch");
+      else {
+        void restoreFromServer().then(() => flushCheckpoint({ force: true }));
+      }
     };
     const onBlur = () => {
       if (!document.hidden) void recordSwitch("window_blur");
@@ -237,9 +463,40 @@ export function ExamCbt({
       window.removeEventListener("blur", onBlur);
       window.removeEventListener("keydown", onKeyDown, true);
     };
-  }, [examStarted, recordSwitch]);
+  }, [examStarted, recordSwitch, restoreFromServer, flushCheckpoint]);
 
-  // Keep index valid when filters change
+  // Online / offline + periodic checkpoint
+  useEffect(() => {
+    const onOffline = () => {
+      setOnline(false);
+      setSyncState("error");
+    };
+    const onOnline = () => {
+      setOnline(true);
+      void (async () => {
+        await flushCheckpoint({ force: true });
+        await restoreFromServer();
+        setSyncState("saved");
+      })();
+    };
+    window.addEventListener("offline", onOffline);
+    window.addEventListener("online", onOnline);
+
+    const periodic = setInterval(() => {
+      void flushCheckpoint();
+    }, 20_000);
+
+    // Initial flush of any local pending after mount
+    void flushCheckpoint({ force: true });
+
+    return () => {
+      window.removeEventListener("offline", onOffline);
+      window.removeEventListener("online", onOnline);
+      clearInterval(periodic);
+      if (debounceRef.current) clearTimeout(debounceRef.current);
+    };
+  }, [flushCheckpoint, restoreFromServer]);
+
   useEffect(() => {
     if (filteredIndexes.length === 0) return;
     if (!filteredIndexes.includes(index)) {
@@ -247,25 +504,12 @@ export function ExamCbt({
     }
   }, [filteredIndexes, index]);
 
-  async function persist(next: Q) {
-    await fetch(`/api/attempts/${attemptId}/answer`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        questionId: next.id,
-        selectedOption: next.selectedOption,
-        status: next.status,
-      }),
-    });
-  }
-
   function updateCurrent(patch: Partial<Q>) {
     const at = index;
     setQuestions((prev) => {
       const base = prev[at];
       if (!base) return prev;
       const next: Q = { ...base, ...patch };
-      // Selecting an option always marks attempted unless already marked-for-review
       if (patch.selectedOption && next.status !== "marked") {
         next.status = "attempted";
       }
@@ -275,7 +519,12 @@ export function ExamCbt({
       }
       const copy = [...prev];
       copy[at] = next;
-      void persist(next);
+      queuePending({
+        questionId: next.id,
+        selectedOption: next.selectedOption,
+        status: next.status,
+      });
+      scheduleCheckpoint();
       return copy;
     });
   }
@@ -286,6 +535,7 @@ export function ExamCbt({
       return;
     }
     setBusy(true);
+    await flushCheckpoint({ force: true });
     if (document.fullscreenElement) {
       try {
         await document.exitFullscreen();
@@ -293,16 +543,25 @@ export function ExamCbt({
         /* ignore */
       }
     }
-    const res = await fetch(`/api/attempts/${attemptId}/submit`, { method: "POST" });
-    const data = await res.json();
-    setBusy(false);
-    if (!res.ok) {
-      setMsg(data.error || "Submit failed");
-      return;
+    try {
+      const res = await fetch(`/api/attempts/${attemptId}/submit`, { method: "POST" });
+      const data = await res.json();
+      setBusy(false);
+      if (!res.ok) {
+        setMsg(data.error || "Submit failed — check network and retry");
+        setSyncState("error");
+        return;
+      }
+      savePending(attemptId, {});
+      setMsg(data.message || "Submitted");
+      router.push("/dashboard?submitted=1");
+      router.refresh();
+    } catch {
+      setBusy(false);
+      setMsg("Submit failed — you appear offline. Progress is kept locally; retry when online.");
+      setOnline(false);
+      setSyncState("error");
     }
-    setMsg(data.message || "Submitted");
-    router.push("/dashboard?submitted=1");
-    router.refresh();
   }
 
   const counts = useMemo(() => {
@@ -315,8 +574,42 @@ export function ExamCbt({
 
   if (!current) return null;
 
+  const syncLabel =
+    !online || syncState === "error"
+      ? pendingCount > 0
+        ? `Offline — ${pendingCount} answer(s) queued · auto-retrying`
+        : "Offline — reconnecting…"
+      : syncState === "syncing"
+        ? "Saving checkpoint…"
+        : syncState === "saved"
+          ? checkpointAt
+            ? `Checkpoint saved ${new Date(checkpointAt).toLocaleTimeString("en-IN", { timeZone: "Asia/Calcutta" })} IST`
+            : "Checkpoint saved"
+          : pendingCount > 0
+            ? "Pending sync…"
+            : "Synced";
+
   return (
     <div ref={shellRef} className="cbt-shell flex min-h-screen flex-col bg-[var(--cbt-bg)]">
+      {(!online || syncState === "error") && (
+        <div className="z-[70] bg-amber-600 px-4 py-2 text-center text-sm font-medium text-white">
+          Network issue detected. Your answers stay on this device and will sync to the server
+          automatically. The exam timer continues from the server clock (not reset).{" "}
+          <button
+            type="button"
+            className="ml-2 underline"
+            onClick={() => void flushCheckpoint({ force: true })}
+          >
+            Retry sync now
+          </button>
+        </div>
+      )}
+      {online && syncState !== "error" && (
+        <div className="bg-slate-800/90 px-4 py-1 text-center text-xs text-slate-100">
+          {syncLabel}
+        </div>
+      )}
+
       {!examStarted && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/80 p-6">
           <div className="max-w-lg rounded-xl bg-white p-6 shadow-xl">
@@ -326,7 +619,8 @@ export function ExamCbt({
             <p className="mt-3 text-sm leading-relaxed text-slate-700">
               This NEET CBT must run in <strong>full screen</strong>. Leaving full screen,
               switching tabs/windows, or pressing <strong>Esc</strong> is tracked and shown
-              to the examiner. You cannot freely change the screen during the test.
+              to the examiner. Progress is checkpointed on the server so a network drop or
+              reload will restore your answers and remaining time.
             </p>
             <button
               type="button"
@@ -481,7 +775,7 @@ export function ExamCbt({
               onClick={() => {
                 const pos = paletteIndexes.indexOf(index);
                 const prev = paletteIndexes[pos - 1];
-                if (prev !== undefined) setIndex(prev);
+                if (prev !== undefined) goToIndex(prev);
               }}
               disabled={paletteIndexes.indexOf(index) <= 0}
             >
@@ -517,7 +811,8 @@ export function ExamCbt({
               onClick={() => {
                 const pos = paletteIndexes.indexOf(index);
                 const next = paletteIndexes[pos + 1];
-                if (next !== undefined) setIndex(next);
+                if (next !== undefined) goToIndex(next);
+                else void flushCheckpoint({ force: true });
               }}
             >
               Save & Next
@@ -566,7 +861,7 @@ export function ExamCbt({
                   className="palette-btn"
                   data-status={q.status}
                   data-current={i === index ? "true" : "false"}
-                  onClick={() => setIndex(i)}
+                  onClick={() => goToIndex(i)}
                   title={`Q${q.number} ${q.subject} · ${q.status.replaceAll("_", " ")}`}
                 >
                   {q.number}

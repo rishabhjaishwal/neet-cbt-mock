@@ -52,6 +52,13 @@ export async function POST(req: Request, { params }: Params) {
   }
   ans.selectedOption = selected;
   ans.status = status;
+  attempt.checkpointAt = new Date();
   await attempt.save();
-  return NextResponse.json({ ok: true });
+  const endsAt = new Date(attempt.endsAt);
+  return NextResponse.json({
+    ok: true,
+    checkpointAt: attempt.checkpointAt.toISOString(),
+    endsAt: endsAt.toISOString(),
+    remainingMs: Math.max(0, endsAt.getTime() - Date.now()),
+  });
 }

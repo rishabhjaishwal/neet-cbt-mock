@@ -25,10 +25,14 @@ export async function POST(req: Request) {
     const existing = await Attempt.findOne({ userId, year }).lean();
     if (existing) {
       if (existing.status === "in_progress") {
+        const endsAt = new Date(existing.endsAt);
         return NextResponse.json({
           attemptId: String(existing._id),
           resumed: true,
-          endsAt: existing.endsAt,
+          endsAt: endsAt.toISOString(),
+          remainingMs: Math.max(0, endsAt.getTime() - Date.now()),
+          currentQuestionIndex: existing.currentQuestionIndex ?? 0,
+          screenSwitchCount: existing.screenSwitchCount ?? 0,
         });
       }
       return NextResponse.json(

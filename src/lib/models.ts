@@ -94,6 +94,11 @@ const AttemptSchema = new Schema(
       ],
       default: [],
     },
+    /** CBT resume position — timer always uses endsAt (never extended by client). */
+    currentQuestionIndex: { type: Number, default: 0 },
+    subjectFilter: { type: String, default: "ALL" },
+    sectionFilter: { type: String, default: "ALL" },
+    checkpointAt: { type: Date },
     answers: { type: [AttemptAnswerSchema], default: [] },
   },
   { timestamps: false },

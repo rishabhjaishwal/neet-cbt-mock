@@ -65,6 +65,12 @@ export default async function ExamPage({
       endsAt={new Date(attempt.endsAt).toISOString()}
       questions={merged}
       initialScreenSwitchCount={attempt.screenSwitchCount ?? 0}
+      initialQuestionIndex={attempt.currentQuestionIndex ?? 0}
+      initialSubjectFilter={(attempt.subjectFilter as "ALL" | "Physics" | "Chemistry" | "Biology") ?? "ALL"}
+      initialSectionFilter={(attempt.sectionFilter as "ALL" | "A" | "B") ?? "ALL"}
+      initialCheckpointAt={
+        attempt.checkpointAt ? new Date(attempt.checkpointAt).toISOString() : null
+      }
     />
   );
 }
