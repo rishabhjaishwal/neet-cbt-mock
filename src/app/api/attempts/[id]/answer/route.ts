@@ -46,7 +46,7 @@ export async function POST(req: Request, { params }: Params) {
     selected = null;
   }
 
-  const ans = attempt.answers.find((a) => String(a.questionId) === body.questionId);
+  const ans = attempt.answers.find((a: { questionId: unknown; selectedOption?: string | null; status: string }) => String(a.questionId) === body.questionId);
   if (!ans) {
     return NextResponse.json({ error: "Question not in attempt" }, { status: 404 });
   }

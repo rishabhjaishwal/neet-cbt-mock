@@ -25,13 +25,13 @@ export async function GET(_req: Request, { params }: Params) {
     return NextResponse.json({ error: "Forbidden" }, { status: 403 });
   }
 
-  const qids = attempt.answers.map((a) => a.questionId);
+  const qids = attempt.answers.map((a: { questionId: unknown }) => a.questionId);
   const questions = await Question.find({ _id: { $in: qids } }).lean();
   const byId = Object.fromEntries(questions.map((q) => [String(q._id), q]));
   const revealKeys = user.role === "examiner" || attempt.status === "approved";
 
   const merged = attempt.answers
-    .map((a) => {
+    .map((a: { questionId: unknown; selectedOption?: string | null; status: string }) => {
       const q = byId[String(a.questionId)];
       if (!q) return null;
       return {
@@ -56,7 +56,7 @@ export async function GET(_req: Request, { params }: Params) {
       };
     })
     .filter(Boolean)
-    .sort((a, b) => (a!.number as number) - (b!.number as number));
+    .sort((a: { number?: number } | null, b: { number?: number } | null) => (a!.number as number) - (b!.number as number));
 
   return NextResponse.json({
     attempt: {

@@ -32,12 +32,12 @@ export async function POST(_req: Request, { params }: Params) {
     return NextResponse.json({ error: "Paper missing" }, { status: 500 });
   }
 
-  const qids = attempt.answers.map((a) => a.questionId);
+  const qids = attempt.answers.map((a: { questionId: unknown }) => a.questionId);
   const questions = await Question.find({ _id: { $in: qids } }).lean();
   const byId = Object.fromEntries(questions.map((q) => [String(q._id), q]));
 
   const result = scoreAttempt(
-    attempt.answers.map((a) => {
+    attempt.answers.map((a: { questionId: unknown; selectedOption?: string | null; status: string }) => {
       const q = byId[String(a.questionId)];
       return {
         questionId: String(a.questionId),

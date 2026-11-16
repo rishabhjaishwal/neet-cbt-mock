@@ -24,12 +24,12 @@ export default async function ExamPage({
   const paper = await getPaper(attempt.year);
   if (!paper) redirect("/dashboard");
 
-  const qids = attempt.answers.map((a) => a.questionId);
+  const qids = attempt.answers.map((a: { questionId: unknown }) => a.questionId);
   const questions = await Question.find({ _id: { $in: qids } }).lean();
   const byId = Object.fromEntries(questions.map((q) => [String(q._id), q]));
 
   const merged = attempt.answers
-    .map((a) => {
+    .map((a: { questionId: unknown; selectedOption?: string | null; status: string }) => {
       const q = byId[String(a.questionId)];
       if (!q) return null;
       return {
@@ -45,7 +45,7 @@ export default async function ExamPage({
       };
     })
     .filter(Boolean)
-    .sort((a, b) => a!.number - b!.number) as Array<{
+    .sort((a: { number: number } | null, b: { number: number } | null) => a!.number - b!.number) as Array<{
     id: string;
     number: number;
     subject: string;
