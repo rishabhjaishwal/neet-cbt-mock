@@ -93,13 +93,16 @@
     "25 answers estimated (no Ans/Answer marker in source extract)",
     "68 questions had incomplete options in PDF extract",
     "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=3",
-    "Multi-correct support: 0 items with correctOptions[]; scoring +4 exact / partial +1 each subset / −1 if any wrong."
+    "Multi-correct support: 0 items with correctOptions[]; scoring +4 exact / partial +1 each subset / −1 if any wrong.",
+    "Figure remap v4: matched=1 placeholder=2 (cropped diagram boxes only; logos/headers/full-page bands rejected)."
   ],
   "stats": {
     "parsedQuestions": 180,
     "placeholders": 55,
     "estimatedAnswers": 25,
-    "withFigures": 3
+    "withFigures": 3,
+    "figuresMatched": 1,
+    "figuresPlaceholder": 2
   },
   "questions": [
     {
@@ -328,12 +331,12 @@
       "correctOption": "3",
       "placeholder": false,
       "answerEstimated": false,
-      "figureSrc": "/figures/2017-A-Q11.png",
-      "figureKind": "pdf-extract",
       "correctOptions": [
         "3"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2017-A-Q11.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2017-A-Q12",
@@ -435,12 +438,12 @@
       "correctOption": "4",
       "placeholder": false,
       "answerEstimated": false,
-      "figureSrc": "/figures/2017-A-Q16.png",
-      "figureKind": "pdf-extract",
       "correctOptions": [
         "4"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2017-A-Q16.png",
+      "figureKind": "page-diagram-crop"
     },
     {
       "id": "2017-A-Q17",
@@ -857,12 +860,12 @@
       "correctOption": "3",
       "placeholder": false,
       "answerEstimated": false,
-      "figureSrc": "/figures/2017-A-Q36.png",
-      "figureKind": "pdf-extract",
       "correctOptions": [
         "3"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2017-A-Q36.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2017-A-Q37",

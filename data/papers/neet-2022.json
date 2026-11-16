@@ -76,13 +76,17 @@
     "2022 paper reconstructed from adjacent-year public PYQ extracts (2019, 2021, 2023) with NEET 2022 structure.",
     "2 questions had incomplete options in PDF extract",
     "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=4",
-    "Multi-correct support: 0 items with correctOptions[]; scoring +4 exact / partial +1 each subset / −1 if any wrong."
+    "Multi-correct support: 0 items with correctOptions[]; scoring +4 exact / partial +1 each subset / −1 if any wrong.",
+    "Figure remap v4: matched=0 placeholder=7 (cropped diagram boxes only; logos/headers/full-page bands rejected).",
+    "Figure stem-match fill: 6 placeholders filled from [2019, 2023, 2024]."
   ],
   "stats": {
     "parsedQuestions": 200,
     "placeholders": 0,
     "estimatedAnswers": 0,
-    "withFigures": 4
+    "withFigures": 7,
+    "figuresMatched": 6,
+    "figuresPlaceholder": 1
   },
   "questions": [
     {
@@ -3125,12 +3129,12 @@
       "correctOption": "4",
       "placeholder": false,
       "answerEstimated": false,
-      "figureSrc": "/figures/2022-RECON-Q145.svg",
-      "figureKind": "missing-placeholder",
       "correctOptions": [
         "4"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2022-RECON-Q145.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2022-RECON-Q146",
@@ -3358,12 +3362,12 @@
       "correctOption": "2",
       "placeholder": false,
       "answerEstimated": false,
-      "figureSrc": "/figures/2022-RECON-Q156.svg",
-      "figureKind": "missing-placeholder",
       "correctOptions": [
         "2"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2022-RECON-Q156.png",
+      "figureKind": "pdf-crop+from-2019-stem-match"
     },
     {
       "id": "2022-RECON-Q157",
@@ -3426,7 +3430,9 @@
       "correctOptions": [
         "1"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2022-RECON-Q159.png",
+      "figureKind": "pdf-crop+from-2019-stem-match"
     },
     {
       "id": "2022-RECON-Q160",
@@ -3675,12 +3681,12 @@
       "correctOption": "1",
       "placeholder": false,
       "answerEstimated": false,
-      "figureSrc": "/figures/2022-RECON-Q171.svg",
-      "figureKind": "missing-placeholder",
       "correctOptions": [
         "1"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2022-RECON-Q171.png",
+      "figureKind": "pdf-crop+from-2019-stem-match"
     },
     {
       "id": "2022-RECON-Q172",
@@ -3698,12 +3704,12 @@
       "correctOption": "2",
       "placeholder": false,
       "answerEstimated": false,
-      "figureSrc": "/figures/2022-RECON-Q172.svg",
-      "figureKind": "missing-placeholder",
       "correctOptions": [
         "2"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2022-RECON-Q172.png",
+      "figureKind": "pdf-crop+from-2019-stem-match"
     },
     {
       "id": "2022-RECON-Q173",
@@ -3745,7 +3751,9 @@
       "correctOptions": [
         "4"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2022-RECON-Q174.png",
+      "figureKind": "pdf-crop+from-2019-stem-match"
     },
     {
       "id": "2022-RECON-Q175",
@@ -3934,7 +3942,9 @@
       "correctOptions": [
         "3"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2022-RECON-Q183.png",
+      "figureKind": "pdf-crop+from-2019-stem-match"
     },
     {
       "id": "2022-RECON-Q184",

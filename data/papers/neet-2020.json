@@ -37,13 +37,17 @@
     "Source: Official-style Hindi+English booklet; English column cropped",
     "180 answers estimated (no Ans/Answer marker in source extract)",
     "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=3",
-    "Multi-correct support: 0 items with correctOptions[]; scoring +4 exact / partial +1 each subset / −1 if any wrong."
+    "Multi-correct support: 0 items with correctOptions[]; scoring +4 exact / partial +1 each subset / −1 if any wrong.",
+    "Figure remap v4: matched=0 placeholder=3 (cropped diagram boxes only; logos/headers/full-page bands rejected).",
+    "Figure stem-match fill: 0 placeholders filled from [2019, 2023, 2024]."
   ],
   "stats": {
     "parsedQuestions": 180,
     "placeholders": 0,
     "estimatedAnswers": 180,
-    "withFigures": 3
+    "withFigures": 3,
+    "figuresMatched": 0,
+    "figuresPlaceholder": 3
   },
   "questions": [
     {
@@ -2309,12 +2313,12 @@
       "correctOption": "4",
       "placeholder": false,
       "answerEstimated": true,
-      "figureSrc": "/figures/2020-E1-Q108.png",
-      "figureKind": "pdf-extract",
       "correctOptions": [
         "4"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2020-E1-Q108.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2020-E1-Q109",
@@ -2941,12 +2945,12 @@
       "correctOption": "2",
       "placeholder": false,
       "answerEstimated": true,
-      "figureSrc": "/figures/2020-E1-Q138.png",
-      "figureKind": "pdf-extract",
       "correctOptions": [
         "2"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2020-E1-Q138.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2020-E1-Q139",
@@ -3405,12 +3409,12 @@
       "correctOption": "4",
       "placeholder": false,
       "answerEstimated": true,
-      "figureSrc": "/figures/2020-E1-Q160.svg",
-      "figureKind": "schematic",
       "correctOptions": [
         "4"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2020-E1-Q160.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2020-E1-Q161",

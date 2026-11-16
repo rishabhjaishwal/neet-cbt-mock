@@ -1,0 +1,636 @@
+[
+  {
+    "year": 2016,
+    "pdf": null,
+    "figure_questions": 1,
+    "matched": 0,
+    "placeholder": 1,
+    "cleared": 1,
+    "details": []
+  },
+  {
+    "year": 2017,
+    "pdf": "/agent/neet-cbt/data/raw/pdfs/NEET2017_A.pdf",
+    "figure_questions": 3,
+    "matched": 1,
+    "placeholder": 2,
+    "cleared": 3,
+    "details": [
+      {
+        "q": 11,
+        "page": 1,
+        "status": "placeholder"
+      },
+      {
+        "q": 16,
+        "page": 5,
+        "status": "page-diagram-crop",
+        "file": "2017-A-Q16.png",
+        "pixels": [
+          384,
+          131
+        ]
+      },
+      {
+        "q": 36,
+        "page": 10,
+        "status": "placeholder"
+      }
+    ]
+  },
+  {
+    "year": 2018,
+    "pdf": "/agent/neet-cbt/data/raw/pdfs/NEET2018_main.pdf",
+    "figure_questions": 4,
+    "matched": 0,
+    "placeholder": 4,
+    "cleared": 4,
+    "details": [
+      {
+        "q": 101,
+        "page": 15,
+        "status": "placeholder"
+      },
+      {
+        "q": 179,
+        "page": 22,
+        "status": "placeholder"
+      },
+      {
+        "q": 128,
+        "page": 66,
+        "status": "placeholder"
+      },
+      {
+        "q": 148,
+        "page": 69,
+        "status": "placeholder"
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "pdf": "/agent/neet-cbt/data/raw/pdfs/NEET2019_G1.pdf",
+    "figure_questions": 7,
+    "matched": 6,
+    "placeholder": 1,
+    "cleared": 7,
+    "details": [
+      {
+        "q": 135,
+        "page": 20,
+        "status": "placeholder"
+      },
+      {
+        "q": 146,
+        "page": 22,
+        "box": [
+          342.0,
+          728.0,
+          208.0,
+          154.0
+        ],
+        "file": "2019-G1-Q146.png",
+        "pixels": [
+          252,
+          172
+        ],
+        "kind": "pdf-crop"
+      },
+      {
+        "q": 149,
+        "page": 23,
+        "box": [
+          322.0,
+          189.0,
+          250.0,
+          215.0
+        ],
+        "file": "2019-G1-Q149.png",
+        "pixels": [
+          281,
+          251
+        ],
+        "kind": "pdf-crop"
+      },
+      {
+        "q": 161,
+        "page": 25,
+        "box": [
+          130.0,
+          106.0,
+          190.0,
+          219.0
+        ],
+        "file": "2019-G1-Q161.png",
+        "pixels": [
+          248,
+          286
+        ],
+        "kind": "pdf-crop"
+      },
+      {
+        "q": 162,
+        "page": 25,
+        "box": [
+          130.0,
+          455.0,
+          169.0,
+          160.0
+        ],
+        "file": "2019-G1-Q162.png",
+        "pixels": [
+          150,
+          142
+        ],
+        "kind": "pdf-crop"
+      },
+      {
+        "q": 164,
+        "page": 25,
+        "box": [
+          130.0,
+          846.0,
+          220.0,
+          164.0
+        ],
+        "file": "2019-G1-Q164.png",
+        "pixels": [
+          290,
+          217
+        ],
+        "kind": "pdf-crop"
+      },
+      {
+        "q": 173,
+        "page": 27,
+        "box": [
+          346.0,
+          148.0,
+          200.0,
+          130.0
+        ],
+        "file": "2019-G1-Q173.png",
+        "pixels": [
+          475,
+          309
+        ],
+        "kind": "pdf-crop"
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "pdf": "/agent/neet-cbt/data/raw/pdfs/NEET2020_E1.pdf",
+    "figure_questions": 3,
+    "matched": 0,
+    "placeholder": 3,
+    "cleared": 3,
+    "details": [
+      {
+        "q": 160,
+        "page": 38,
+        "status": "placeholder"
+      },
+      {
+        "q": 108,
+        "page": 69,
+        "status": "placeholder"
+      },
+      {
+        "q": 138,
+        "page": 76,
+        "status": "placeholder"
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "pdf": "/agent/neet-cbt/data/raw/pdfs/NEET2021_M1.pdf",
+    "figure_questions": 8,
+    "matched": 1,
+    "placeholder": 7,
+    "cleared": 8,
+    "details": [
+      {
+        "q": 24,
+        "page": 7,
+        "status": "page-diagram-crop",
+        "file": "2021-M1-Q24.png",
+        "pixels": [
+          663,
+          53
+        ]
+      },
+      {
+        "q": 43,
+        "page": 14,
+        "status": "placeholder"
+      },
+      {
+        "q": 7,
+        "page": 51,
+        "status": "placeholder"
+      },
+      {
+        "q": 34,
+        "page": 58,
+        "status": "placeholder"
+      },
+      {
+        "q": 40,
+        "page": 61,
+        "status": "placeholder"
+      },
+      {
+        "q": 31,
+        "page": 105,
+        "status": "placeholder"
+      },
+      {
+        "q": 44,
+        "page": 158,
+        "status": "placeholder"
+      },
+      {
+        "q": 48,
+        "page": 159,
+        "status": "placeholder"
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "pdf": "/agent/neet-cbt/data/raw/pdfs/TRY_NEET2022_main.pdf",
+    "figure_questions": 7,
+    "matched": 0,
+    "placeholder": 7,
+    "cleared": 7,
+    "details": []
+  },
+  {
+    "year": 2023,
+    "pdf": "/agent/neet-cbt/data/raw/pdfs/TRY_NEET2023_F1.pdf",
+    "figure_questions": 8,
+    "matched": 8,
+    "placeholder": 0,
+    "cleared": 8,
+    "details": [
+      {
+        "q": 10,
+        "page": 3,
+        "box": [
+          114.0,
+          370.0,
+          380.0,
+          157.0
+        ],
+        "file": "2023-F1-Q10.png",
+        "pixels": [
+          774,
+          319
+        ],
+        "kind": "pdf-crop"
+      },
+      {
+        "q": 21,
+        "page": 5,
+        "box": [
+          114.0,
+          107.0,
+          192.0,
+          99.0
+        ],
+        "file": "2023-F1-Q21.png",
+        "pixels": [
+          391,
+          202
+        ],
+        "kind": "pdf-crop"
+      },
+      {
+        "q": 25,
+        "page": 5,
+        "box": [
+          114.0,
+          701.0,
+          139.0,
+          100.0
+        ],
+        "file": "2023-F1-Q25.png",
+        "pixels": [
+          282,
+          203
+        ],
+        "kind": "pdf-crop"
+      },
+      {
+        "q": 41,
+        "page": 8,
+        "box": [
+          372.0,
+          233.0,
+          201.0,
+          117.0
+        ],
+        "file": "2023-F1-Q41.png",
+        "pixels": [
+          277,
+          161
+        ],
+        "kind": "pdf-crop"
+      },
+      {
+        "q": 45,
+        "page": 9,
+        "box": [
+          372.0,
+          132.0,
+          203.0,
+          106.0
+        ],
+        "file": "2023-F1-Q45.png",
+        "pixels": [
+          365,
+          190
+        ],
+        "kind": "pdf-crop"
+      },
+      {
+        "q": 47,
+        "page": 9,
+        "box": [
+          114.0,
+          712.0,
+          253.0,
+          71.0
+        ],
+        "file": "2023-F1-Q47.png",
+        "pixels": [
+          516,
+          145
+        ],
+        "kind": "pdf-crop"
+      },
+      {
+        "q": 48,
+        "page": 10,
+        "box": [
+          114.0,
+          138.0,
+          267.0,
+          108.0
+        ],
+        "file": "2023-F1-Q48.png",
+        "pixels": [
+          545,
+          221
+        ],
+        "kind": "pdf-crop"
+      },
+      {
+        "q": 50,
+        "page": 10,
+        "box": [
+          114.0,
+          714.0,
+          264.0,
+          97.0
+        ],
+        "file": "2023-F1-Q50.png",
+        "pixels": [
+          538,
+          197
+        ],
+        "kind": "pdf-crop"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "pdf": "/agent/neet-cbt/data/raw/pdfs/TRY_NEET2024_R1.pdf",
+    "figure_questions": 13,
+    "matched": 13,
+    "placeholder": 0,
+    "cleared": 13,
+    "details": [
+      {
+        "q": 1,
+        "page": 2,
+        "box": [
+          351.0,
+          245.0,
+          245.0,
+          163.0
+        ],
+        "file": "2024-R1-Q1.png",
+        "pixels": [
+          499,
+          332
+        ],
+        "kind": "pdf-crop"
+      },
+      {
+        "q": 4,
+        "page": 3,
+        "box": [
+          114.0,
+          705.0,
+          272.0,
+          137.0
+        ],
+        "file": "2024-R1-Q4.png",
+        "pixels": [
+          555,
+          277
+        ],
+        "kind": "pdf-crop"
+      },
+      {
+        "q": 6,
+        "page": 4,
+        "box": [
+          114.0,
+          508.0,
+          188.0,
+          105.0
+        ],
+        "file": "2024-R1-Q6.png",
+        "pixels": [
+          384,
+          213
+        ],
+        "kind": "pdf-crop"
+      },
+      {
+        "q": 25,
+        "page": 12,
+        "box": [
+          114.0,
+          107.0,
+          329.0,
+          118.0
+        ],
+        "file": "2024-R1-Q25.png",
+        "pixels": [
+          671,
+          241
+        ],
+        "kind": "pdf-crop"
+      },
+      {
+        "q": 26,
+        "page": 12,
+        "box": [
+          317.0,
+          676.0,
+          312.0,
+          84.0
+        ],
+        "file": "2024-R1-Q26.png",
+        "pixels": [
+          637,
+          172
+        ],
+        "kind": "pdf-crop"
+      },
+      {
+        "q": 30,
+        "page": 14,
+        "box": [
+          114.0,
+          86.0,
+          343.0,
+          130.0
+        ],
+        "file": "2024-R1-Q30.png",
+        "pixels": [
+          697,
+          265
+        ],
+        "kind": "pdf-crop"
+      },
+      {
+        "q": 34,
+        "page": 16,
+        "box": [
+          114.0,
+          344.0,
+          168.0,
+          180.0
+        ],
+        "file": "2024-R1-Q34.png",
+        "pixels": [
+          342,
+          367
+        ],
+        "kind": "pdf-crop"
+      },
+      {
+        "q": 41,
+        "page": 19,
+        "box": [
+          409.0,
+          479.0,
+          128.0,
+          120.0
+        ],
+        "file": "2024-R1-Q41.png",
+        "pixels": [
+          262,
+          245
+        ],
+        "kind": "pdf-crop"
+      },
+      {
+        "q": 111,
+        "page": 51,
+        "box": [
+          360.0,
+          484.0,
+          232.0,
+          122.0
+        ],
+        "file": "2024-R1-Q111.png",
+        "pixels": [
+          472,
+          249
+        ],
+        "kind": "pdf-crop"
+      },
+      {
+        "q": 113,
+        "page": 52,
+        "box": [
+          351.0,
+          139.0,
+          249.0,
+          163.0
+        ],
+        "file": "2024-R1-Q113.png",
+        "pixels": [
+          508,
+          334
+        ],
+        "kind": "pdf-crop"
+      },
+      {
+        "q": 128,
+        "page": 56,
+        "box": [
+          400.0,
+          756.0,
+          151.0,
+          186.0
+        ],
+        "file": "2024-R1-Q128.png",
+        "pixels": [
+          308,
+          380
+        ],
+        "kind": "pdf-crop"
+      },
+      {
+        "q": 145,
+        "page": 62,
+        "box": [
+          388.0,
+          669.0,
+          174.0,
+          285.0
+        ],
+        "file": "2024-R1-Q145.png",
+        "pixels": [
+          355,
+          581
+        ],
+        "kind": "pdf-crop"
+      },
+      {
+        "q": 167,
+        "page": 71,
+        "box": [
+          344.0,
+          256.0,
+          263.0,
+          195.0
+        ],
+        "file": "2024-R1-Q167.png",
+        "pixels": [
+          483,
+          358
+        ],
+        "kind": "pdf-crop"
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "pdf": "/agent/neet-cbt/data/raw/pdfs/NEET2025_46.pdf",
+    "figure_questions": 13,
+    "matched": 0,
+    "placeholder": 13,
+    "cleared": 13,
+    "details": []
+  }
+]

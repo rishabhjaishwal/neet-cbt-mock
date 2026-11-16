@@ -45,13 +45,17 @@
     "173 answers estimated (no Ans/Answer marker in source extract)",
     "4 questions had incomplete options in PDF extract",
     "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=4",
-    "Multi-correct support: 0 items with correctOptions[]; scoring +4 exact / partial +1 each subset / −1 if any wrong."
+    "Multi-correct support: 0 items with correctOptions[]; scoring +4 exact / partial +1 each subset / −1 if any wrong.",
+    "Figure remap v4: matched=0 placeholder=4 (cropped diagram boxes only; logos/headers/full-page bands rejected).",
+    "Figure stem-match fill: 0 placeholders filled from [2019, 2023, 2024]."
   ],
   "stats": {
     "parsedQuestions": 180,
     "placeholders": 7,
     "estimatedAnswers": 173,
-    "withFigures": 4
+    "withFigures": 4,
+    "figuresMatched": 0,
+    "figuresPlaceholder": 4
   },
   "questions": [
     {
@@ -2170,12 +2174,12 @@
       "correctOption": "1",
       "placeholder": false,
       "answerEstimated": true,
-      "figureSrc": "/figures/2018-AA-Q101.png",
-      "figureKind": "pdf-extract",
       "correctOptions": [
         "1"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2018-AA-Q101.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2018-AA-Q102",
@@ -2739,12 +2743,12 @@
       "correctOption": "4",
       "placeholder": false,
       "answerEstimated": true,
-      "figureSrc": "/figures/2018-AA-Q128.png",
-      "figureKind": "pdf-extract",
       "correctOptions": [
         "4"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2018-AA-Q128.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2018-AA-Q129",
@@ -3161,12 +3165,12 @@
       "correctOption": "4",
       "placeholder": false,
       "answerEstimated": true,
-      "figureSrc": "/figures/2018-AA-Q148.svg",
-      "figureKind": "missing-placeholder",
       "correctOptions": [
         "4"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2018-AA-Q148.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2018-AA-Q149",
@@ -3814,12 +3818,12 @@
       "correctOption": "3",
       "placeholder": false,
       "answerEstimated": true,
-      "figureSrc": "/figures/2018-AA-Q179.svg",
-      "figureKind": "missing-placeholder",
       "correctOptions": [
         "3"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2018-AA-Q179.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2018-AA-Q180",

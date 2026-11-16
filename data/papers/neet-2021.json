@@ -75,13 +75,17 @@
     "Source: Public Hindi+English booklet code M1; English column cropped",
     "200 answers estimated (no Ans/Answer marker in source extract)",
     "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=8",
-    "Multi-correct support: 0 items with correctOptions[]; scoring +4 exact / partial +1 each subset / −1 if any wrong."
+    "Multi-correct support: 0 items with correctOptions[]; scoring +4 exact / partial +1 each subset / −1 if any wrong.",
+    "Figure remap v4: matched=1 placeholder=7 (cropped diagram boxes only; logos/headers/full-page bands rejected).",
+    "Figure stem-match fill: 0 placeholders filled from [2019, 2023, 2024]."
   ],
   "stats": {
     "parsedQuestions": 200,
     "placeholders": 0,
     "estimatedAnswers": 153,
-    "withFigures": 8
+    "withFigures": 8,
+    "figuresMatched": 0,
+    "figuresPlaceholder": 8
   },
   "questions": [
     {
@@ -226,12 +230,12 @@
       "correctOption": "3",
       "placeholder": false,
       "answerEstimated": true,
-      "figureSrc": "/figures/2021-M1-Q7.svg",
-      "figureKind": "schematic",
       "correctOptions": [
         "3"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2021-M1-Q7.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2021-M1-Q8",
@@ -585,12 +589,12 @@
       "correctOption": "4",
       "placeholder": false,
       "answerEstimated": true,
-      "figureSrc": "/figures/2021-M1-Q24.svg",
-      "figureKind": "schematic",
       "correctOptions": [
         "4"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2021-M1-Q24.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2021-M1-Q25",
@@ -734,12 +738,12 @@
       "correctOption": "3",
       "placeholder": false,
       "answerEstimated": true,
-      "figureSrc": "/figures/2021-M1-Q31.svg",
-      "figureKind": "schematic",
       "correctOptions": [
         "3"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2021-M1-Q31.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2021-M1-Q32",
@@ -799,12 +803,12 @@
       "correctOption": "2",
       "placeholder": false,
       "answerEstimated": true,
-      "figureSrc": "/figures/2021-M1-Q34.svg",
-      "figureKind": "schematic",
       "correctOptions": [
         "2"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2021-M1-Q34.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2021-M1-Q35",
@@ -927,12 +931,12 @@
       "correctOption": "4",
       "placeholder": false,
       "answerEstimated": true,
-      "figureSrc": "/figures/2021-M1-Q40.svg",
-      "figureKind": "missing-placeholder",
       "correctOptions": [
         "4"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2021-M1-Q40.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2021-M1-Q41",
@@ -992,12 +996,12 @@
       "correctOption": "3",
       "placeholder": false,
       "answerEstimated": true,
-      "figureSrc": "/figures/2021-M1-Q43.svg",
-      "figureKind": "missing-placeholder",
       "correctOptions": [
         "3"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2021-M1-Q43.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2021-M1-Q44",
@@ -1015,12 +1019,12 @@
       "correctOption": "4",
       "placeholder": false,
       "answerEstimated": true,
-      "figureSrc": "/figures/2021-M1-Q44.svg",
-      "figureKind": "missing-placeholder",
       "correctOptions": [
         "4"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2021-M1-Q44.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2021-M1-Q45",
@@ -1101,12 +1105,12 @@
       "correctOption": "4",
       "placeholder": false,
       "answerEstimated": true,
-      "figureSrc": "/figures/2021-M1-Q48.svg",
-      "figureKind": "missing-placeholder",
       "correctOptions": [
         "4"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2021-M1-Q48.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2021-M1-Q49",

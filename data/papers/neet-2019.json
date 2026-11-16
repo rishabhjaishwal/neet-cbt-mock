@@ -37,13 +37,16 @@
     "Source: Resonance public solution booklet code G1",
     "2 questions had incomplete options in PDF extract",
     "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=4",
-    "Multi-correct support: 0 items with correctOptions[]; scoring +4 exact / partial +1 each subset / −1 if any wrong."
+    "Multi-correct support: 0 items with correctOptions[]; scoring +4 exact / partial +1 each subset / −1 if any wrong.",
+    "Figure remap v4: matched=6 placeholder=1 (cropped diagram boxes only; logos/headers/full-page bands rejected)."
   ],
   "stats": {
     "parsedQuestions": 180,
     "placeholders": 0,
     "estimatedAnswers": 0,
-    "withFigures": 4
+    "withFigures": 7,
+    "figuresMatched": 6,
+    "figuresPlaceholder": 1
   },
   "questions": [
     {
@@ -2876,12 +2879,12 @@
       "correctOption": "4",
       "placeholder": false,
       "answerEstimated": false,
-      "figureSrc": "/figures/2019-G1-Q135.png",
-      "figureKind": "pdf-extract",
       "correctOptions": [
         "4"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2019-G1-Q135.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2019-G1-Q136",
@@ -3109,12 +3112,12 @@
       "correctOption": "2",
       "placeholder": false,
       "answerEstimated": false,
-      "figureSrc": "/figures/2019-G1-Q146.png",
-      "figureKind": "pdf-extract",
       "correctOptions": [
         "2"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2019-G1-Q146.png",
+      "figureKind": "pdf-crop"
     },
     {
       "id": "2019-G1-Q147",
@@ -3177,7 +3180,9 @@
       "correctOptions": [
         "1"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2019-G1-Q149.png",
+      "figureKind": "pdf-crop"
     },
     {
       "id": "2019-G1-Q150",
@@ -3426,12 +3431,12 @@
       "correctOption": "1",
       "placeholder": false,
       "answerEstimated": false,
-      "figureSrc": "/figures/2019-G1-Q161.png",
-      "figureKind": "pdf-extract",
       "correctOptions": [
         "1"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2019-G1-Q161.png",
+      "figureKind": "pdf-crop"
     },
     {
       "id": "2019-G1-Q162",
@@ -3449,12 +3454,12 @@
       "correctOption": "2",
       "placeholder": false,
       "answerEstimated": false,
-      "figureSrc": "/figures/2019-G1-Q162.png",
-      "figureKind": "pdf-extract",
       "correctOptions": [
         "2"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2019-G1-Q162.png",
+      "figureKind": "pdf-crop"
     },
     {
       "id": "2019-G1-Q163",
@@ -3496,7 +3501,9 @@
       "correctOptions": [
         "4"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2019-G1-Q164.png",
+      "figureKind": "pdf-crop"
     },
     {
       "id": "2019-G1-Q165",
@@ -3685,7 +3692,9 @@
       "correctOptions": [
         "3"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2019-G1-Q173.png",
+      "figureKind": "pdf-crop"
     },
     {
       "id": "2019-G1-Q174",

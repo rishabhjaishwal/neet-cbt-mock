@@ -76,13 +76,17 @@
     "OCR of cover pages succeeded but full-booklet OCR quality was insufficient for reliable MCQ parsing in this build.",
     "Paper scaffold uses 2024 parsed items reshaped to 2025 pattern as interim content; replace with official transcription.",
     "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=11",
-    "Multi-correct support: 1 items with correctOptions[]; scoring +4 exact / partial +1 each subset / −1 if any wrong."
+    "Multi-correct support: 1 items with correctOptions[]; scoring +4 exact / partial +1 each subset / −1 if any wrong.",
+    "2025 figures: copied 11 crops from 2024 via identical stem match (interim paper).",
+    "Figure remap v4: 2025 uses 13 stem-matched 2024 cropped diagrams (scan PDF had no embeds)."
   ],
   "stats": {
     "parsedQuestions": 200,
     "placeholders": 0,
     "estimatedAnswers": 0,
-    "withFigures": 11
+    "withFigures": 13,
+    "figuresMatched": 13,
+    "figuresPlaceholder": 13
   },
   "questions": [
     {
@@ -101,12 +105,12 @@
       "correctOption": "1",
       "placeholder": false,
       "answerEstimated": false,
-      "figureSrc": "/figures/2025-INTERIM-Q1.png",
-      "figureKind": "pdf-extract",
       "correctOptions": [
         "1"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2025-INTERIM-Q1.png",
+      "figureKind": "pdf-crop+from-2024-stem-match"
     },
     {
       "id": "2025-INTERIM-Q2",
@@ -166,12 +170,12 @@
       "correctOption": "2",
       "placeholder": false,
       "answerEstimated": false,
-      "figureSrc": "/figures/2025-INTERIM-Q4.png",
-      "figureKind": "pdf-extract",
       "correctOptions": [
         "2"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2025-INTERIM-Q4.png",
+      "figureKind": "pdf-crop+from-2024-stem-match"
     },
     {
       "id": "2025-INTERIM-Q5",
@@ -210,12 +214,12 @@
       "correctOption": "1",
       "placeholder": false,
       "answerEstimated": false,
-      "figureSrc": "/figures/2025-INTERIM-Q6.png",
-      "figureKind": "pdf-extract",
       "correctOptions": [
         "1"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2025-INTERIM-Q6.png",
+      "figureKind": "pdf-crop+from-2024-stem-match"
     },
     {
       "id": "2025-INTERIM-Q7",
@@ -615,7 +619,9 @@
       "correctOptions": [
         "4"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2025-INTERIM-Q25.png",
+      "figureKind": "pdf-crop+from-2024-stem-match"
     },
     {
       "id": "2025-INTERIM-Q26",
@@ -633,12 +639,12 @@
       "correctOption": "2",
       "placeholder": false,
       "answerEstimated": false,
-      "figureSrc": "/figures/2025-INTERIM-Q26.png",
-      "figureKind": "pdf-extract",
       "correctOptions": [
         "2"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2025-INTERIM-Q26.png",
+      "figureKind": "pdf-crop+from-2024-stem-match"
     },
     {
       "id": "2025-INTERIM-Q27",
@@ -722,7 +728,9 @@
       "correctOptions": [
         "4"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2025-INTERIM-Q30.png",
+      "figureKind": "pdf-crop+from-2024-stem-match"
     },
     {
       "id": "2025-INTERIM-Q31",
@@ -803,12 +811,12 @@
       "correctOption": "3",
       "placeholder": false,
       "answerEstimated": false,
-      "figureSrc": "/figures/2025-INTERIM-Q34.png",
-      "figureKind": "pdf-extract",
       "correctOptions": [
         "3"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2025-INTERIM-Q34.png",
+      "figureKind": "pdf-crop+from-2024-stem-match"
     },
     {
       "id": "2025-INTERIM-Q35",
@@ -952,12 +960,12 @@
       "correctOption": "1",
       "placeholder": false,
       "answerEstimated": false,
-      "figureSrc": "/figures/2025-INTERIM-Q41.png",
-      "figureKind": "pdf-extract",
       "correctOptions": [
         "1"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2025-INTERIM-Q41.png",
+      "figureKind": "pdf-crop+from-2024-stem-match"
     },
     {
       "id": "2025-INTERIM-Q42",
@@ -2424,12 +2432,12 @@
       "correctOption": "4",
       "placeholder": false,
       "answerEstimated": false,
-      "figureSrc": "/figures/2025-INTERIM-Q111.png",
-      "figureKind": "pdf-extract",
       "correctOptions": [
         "4"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2025-INTERIM-Q111.png",
+      "figureKind": "pdf-crop+from-2024-stem-match"
     },
     {
       "id": "2025-INTERIM-Q112",
@@ -2468,12 +2476,12 @@
       "correctOption": "3",
       "placeholder": false,
       "answerEstimated": false,
-      "figureSrc": "/figures/2025-INTERIM-Q113.png",
-      "figureKind": "pdf-extract",
       "correctOptions": [
         "3"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2025-INTERIM-Q113.png",
+      "figureKind": "pdf-crop+from-2024-stem-match"
     },
     {
       "id": "2025-INTERIM-Q114",
@@ -2785,12 +2793,12 @@
       "correctOption": "2",
       "placeholder": false,
       "answerEstimated": false,
-      "figureSrc": "/figures/2025-INTERIM-Q128.png",
-      "figureKind": "pdf-extract",
       "correctOptions": [
         "2"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2025-INTERIM-Q128.png",
+      "figureKind": "pdf-crop+from-2024-stem-match"
     },
     {
       "id": "2025-INTERIM-Q129",
@@ -3144,12 +3152,12 @@
       "correctOption": "4",
       "placeholder": false,
       "answerEstimated": false,
-      "figureSrc": "/figures/2025-INTERIM-Q145.png",
-      "figureKind": "pdf-extract",
       "correctOptions": [
         "4"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2025-INTERIM-Q145.png",
+      "figureKind": "pdf-crop+from-2024-stem-match"
     },
     {
       "id": "2025-INTERIM-Q146",
@@ -3608,12 +3616,12 @@
       "correctOption": "1",
       "placeholder": false,
       "answerEstimated": false,
-      "figureSrc": "/figures/2025-INTERIM-Q167.png",
-      "figureKind": "pdf-extract",
       "correctOptions": [
         "1"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2025-INTERIM-Q167.png",
+      "figureKind": "pdf-crop+from-2024-stem-match"
     },
     {
       "id": "2025-INTERIM-Q168",

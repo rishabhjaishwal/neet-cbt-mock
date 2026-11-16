@@ -75,13 +75,16 @@
     "Source: Aakash public Q&A booklet NEET UG 2023 code F1",
     "Q59 missing from parse; placeholder inserted",
     "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=5",
-    "Multi-correct support: 0 items with correctOptions[]; scoring +4 exact / partial +1 each subset / −1 if any wrong."
+    "Multi-correct support: 0 items with correctOptions[]; scoring +4 exact / partial +1 each subset / −1 if any wrong.",
+    "Figure remap v4: matched=8 placeholder=0 (cropped diagram boxes only; logos/headers/full-page bands rejected)."
   ],
   "stats": {
     "parsedQuestions": 200,
     "placeholders": 0,
     "estimatedAnswers": 0,
-    "withFigures": 5
+    "withFigures": 8,
+    "figuresMatched": 8,
+    "figuresPlaceholder": 0
   },
   "questions": [
     {
@@ -292,7 +295,9 @@
       "correctOptions": [
         "2"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2023-F1-Q10.png",
+      "figureKind": "pdf-crop"
     },
     {
       "id": "2023-F1-Q11",
@@ -523,7 +528,9 @@
       "correctOptions": [
         "1"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2023-F1-Q21.png",
+      "figureKind": "pdf-crop"
     },
     {
       "id": "2023-F1-Q22",
@@ -607,7 +614,9 @@
       "correctOptions": [
         "4"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2023-F1-Q25.png",
+      "figureKind": "pdf-crop"
     },
     {
       "id": "2023-F1-Q26",
@@ -940,12 +949,12 @@
       "correctOption": "2",
       "placeholder": false,
       "answerEstimated": false,
-      "figureSrc": "/figures/2023-F1-Q41.png",
-      "figureKind": "pdf-extract",
       "correctOptions": [
         "2"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2023-F1-Q41.png",
+      "figureKind": "pdf-crop"
     },
     {
       "id": "2023-F1-Q42",
@@ -1026,12 +1035,12 @@
       "correctOption": "2",
       "placeholder": false,
       "answerEstimated": false,
-      "figureSrc": "/figures/2023-F1-Q45.png",
-      "figureKind": "pdf-extract",
       "correctOptions": [
         "2"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2023-F1-Q45.png",
+      "figureKind": "pdf-crop"
     },
     {
       "id": "2023-F1-Q46",
@@ -1070,12 +1079,12 @@
       "correctOption": "4",
       "placeholder": false,
       "answerEstimated": false,
-      "figureSrc": "/figures/2023-F1-Q47.png",
-      "figureKind": "pdf-extract",
       "correctOptions": [
         "4"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2023-F1-Q47.png",
+      "figureKind": "pdf-crop"
     },
     {
       "id": "2023-F1-Q48",
@@ -1093,12 +1102,12 @@
       "correctOption": "2",
       "placeholder": false,
       "answerEstimated": false,
-      "figureSrc": "/figures/2023-F1-Q48.png",
-      "figureKind": "pdf-extract",
       "correctOptions": [
         "2"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2023-F1-Q48.png",
+      "figureKind": "pdf-crop"
     },
     {
       "id": "2023-F1-Q49",
@@ -1137,12 +1146,12 @@
       "correctOption": "3",
       "placeholder": false,
       "answerEstimated": false,
-      "figureSrc": "/figures/2023-F1-Q50.png",
-      "figureKind": "pdf-extract",
       "correctOptions": [
         "3"
       ],
-      "multiCorrect": false
+      "multiCorrect": false,
+      "figureSrc": "/figures/2023-F1-Q50.png",
+      "figureKind": "pdf-crop"
     },
     {
       "id": "2023-F1-Q51",
