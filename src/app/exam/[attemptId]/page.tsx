@@ -57,9 +57,10 @@ export default async function ExamPage({
         multiCorrect: Boolean((q as { multiCorrect?: boolean }).multiCorrect),
         figureSrc: (q as { figureSrc?: string }).figureSrc ?? null,
         figureKind: (q as { figureKind?: string }).figureKind ?? null,
-        needsFigure: /see figure|as shown in (the )?figure|shown in (the )?figure|following diagram|given figure|in the figure|as shown in figure|shown in figure|given figures/i.test(
-          q.stem,
-        ),
+        needsFigure:
+          /see figure|as shown in (the )?figure|shown in (the )?figure|following diagram|given figure|in the figure|as shown in figure|shown in figure|given figures|above diagram|following circuit|circuit (diagram )?shown|from the given figure|figure below/i.test(
+            q.stem,
+          ),
       };
     })
     .filter(Boolean)

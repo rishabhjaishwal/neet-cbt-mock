@@ -44,6 +44,12 @@ export async function GET(_req: Request, { params }: Params) {
         options: q.options as Record<string, string>,
         selectedOption: a.selectedOption,
         status: a.status,
+        figureSrc: (q as { figureSrc?: string | null }).figureSrc ?? null,
+        figureKind: (q as { figureKind?: string | null }).figureKind ?? null,
+        needsFigure:
+          /see figure|as shown in (the )?figure|shown in (the )?figure|following diagram|given figure|in the figure|as shown in figure|shown in figure|given figures|above diagram|following circuit|circuit (diagram )?shown/i.test(
+            q.stem,
+          ),
         ...(revealKeys
           ? {
               correctOption: q.correctOption,
