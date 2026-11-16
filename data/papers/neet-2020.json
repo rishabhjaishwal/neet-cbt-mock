@@ -35,12 +35,14 @@
   ],
   "gaps": [
     "Source: Official-style Hindi+English booklet; English column cropped",
-    "180 answers estimated (no Ans/Answer marker in source extract)"
+    "180 answers estimated (no Ans/Answer marker in source extract)",
+    "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=3"
   ],
   "stats": {
     "parsedQuestions": 180,
     "placeholders": 0,
-    "estimatedAnswers": 180
+    "estimatedAnswers": 180,
+    "withFigures": 3
   },
   "questions": [
     {
@@ -1877,7 +1879,9 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "figureSrc": "/figures/2020-E1-Q108.png",
+      "figureKind": "pdf-extract"
     },
     {
       "id": "2020-E1-Q109",
@@ -2387,7 +2391,9 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "figureSrc": "/figures/2020-E1-Q138.png",
+      "figureKind": "pdf-extract"
     },
     {
       "id": "2020-E1-Q139",
@@ -2761,7 +2767,9 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "figureSrc": "/figures/2020-E1-Q160.svg",
+      "figureKind": "schematic"
     },
     {
       "id": "2020-E1-Q161",

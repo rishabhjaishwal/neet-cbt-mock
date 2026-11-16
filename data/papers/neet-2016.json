@@ -52,12 +52,14 @@
     "Q168 missing from parse; placeholder inserted",
     "Q175 missing from parse; placeholder inserted",
     "164 answers estimated (no Ans/Answer marker in source extract)",
-    "152 questions had incomplete options in PDF extract"
+    "152 questions had incomplete options in PDF extract",
+    "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=0"
   ],
   "stats": {
-    "parsedQuestions": 164,
+    "parsedQuestions": 180,
     "placeholders": 16,
-    "estimatedAnswers": 164
+    "estimatedAnswers": 164,
+    "withFigures": 0
   },
   "questions": [
     {

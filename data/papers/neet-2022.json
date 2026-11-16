@@ -74,12 +74,14 @@
   "gaps": [
     "Official 2022 booklet in ALL-PYQ-Papers 'main' is a Career360 sample ebook, not NTA paper.",
     "2022 paper reconstructed from adjacent-year public PYQ extracts (2019, 2021, 2023) with NEET 2022 structure.",
-    "2 questions had incomplete options in PDF extract"
+    "2 questions had incomplete options in PDF extract",
+    "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=4"
   ],
   "stats": {
     "parsedQuestions": 200,
     "placeholders": 0,
-    "estimatedAnswers": 0
+    "estimatedAnswers": 0,
+    "withFigures": 4
   },
   "questions": [
     {
@@ -2545,7 +2547,9 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "figureSrc": "/figures/2022-RECON-Q145.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2022-RECON-Q146",
@@ -2732,7 +2736,9 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "figureSrc": "/figures/2022-RECON-Q156.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2022-RECON-Q157",
@@ -2987,7 +2993,9 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "figureSrc": "/figures/2022-RECON-Q171.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2022-RECON-Q172",
@@ -3004,7 +3012,9 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "figureSrc": "/figures/2022-RECON-Q172.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2022-RECON-Q173",

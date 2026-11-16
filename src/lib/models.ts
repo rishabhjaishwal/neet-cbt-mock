@@ -42,6 +42,8 @@ const QuestionSchema = new Schema(
     correctOption: { type: String, required: true },
     isPlaceholder: { type: Boolean, default: false },
     answerEstimated: { type: Boolean, default: false },
+    figureSrc: { type: String },
+    figureKind: { type: String },
   },
   { timestamps: false },
 );
@@ -65,6 +67,7 @@ const AttemptSchema = new Schema(
   {
     userId: { type: Schema.Types.ObjectId, ref: "User", required: true, index: true },
     year: { type: Number, required: true, index: true },
+    attemptNumber: { type: Number, default: 1, index: true },
     status: {
       type: String,
       enum: ["in_progress", "submitted", "approved"],
@@ -103,7 +106,8 @@ const AttemptSchema = new Schema(
   },
   { timestamps: false },
 );
-AttemptSchema.index({ userId: 1, year: 1 }, { unique: true });
+AttemptSchema.index({ userId: 1, year: 1, attemptNumber: 1 }, { unique: true });
+AttemptSchema.index({ userId: 1, status: 1 });
 
 export type UserDoc = InferSchemaType<typeof UserSchema> & { _id: Types.ObjectId };
 export type PaperDoc = InferSchemaType<typeof PaperSchema> & { _id: Types.ObjectId };

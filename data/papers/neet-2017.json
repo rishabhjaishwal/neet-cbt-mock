@@ -91,12 +91,14 @@
     "Q174 missing from parse; placeholder inserted",
     "Q178 missing from parse; placeholder inserted",
     "25 answers estimated (no Ans/Answer marker in source extract)",
-    "68 questions had incomplete options in PDF extract"
+    "68 questions had incomplete options in PDF extract",
+    "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=3"
   ],
   "stats": {
-    "parsedQuestions": 125,
+    "parsedQuestions": 180,
     "placeholders": 55,
-    "estimatedAnswers": 25
+    "estimatedAnswers": 25,
+    "withFigures": 3
   },
   "questions": [
     {
@@ -284,7 +286,9 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "figureSrc": "/figures/2017-A-Q11.png",
+      "figureKind": "pdf-extract"
     },
     {
       "id": "2017-A-Q12",
@@ -369,7 +373,9 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "figureSrc": "/figures/2017-A-Q16.png",
+      "figureKind": "pdf-extract"
     },
     {
       "id": "2017-A-Q17",
@@ -709,7 +715,9 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "figureSrc": "/figures/2017-A-Q36.png",
+      "figureKind": "pdf-extract"
     },
     {
       "id": "2017-A-Q37",

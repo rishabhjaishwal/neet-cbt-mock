@@ -4,9 +4,10 @@
     "code": "Phase1",
     "file": "neet-2016.json",
     "stats": {
-      "parsedQuestions": 164,
+      "parsedQuestions": 180,
       "placeholders": 16,
-      "estimatedAnswers": 164
+      "estimatedAnswers": 164,
+      "withFigures": 0
     },
     "gaps": [
       "Source: Public mirror PDF (Shabber10/ALL-PYQ-Papers Phase1)",
@@ -27,7 +28,8 @@
       "Q168 missing from parse; placeholder inserted",
       "Q175 missing from parse; placeholder inserted",
       "164 answers estimated (no Ans/Answer marker in source extract)",
-      "152 questions had incomplete options in PDF extract"
+      "152 questions had incomplete options in PDF extract",
+      "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=0"
     ],
     "candidateCount": 731223
   },
@@ -36,9 +38,10 @@
     "code": "A",
     "file": "neet-2017.json",
     "stats": {
-      "parsedQuestions": 125,
+      "parsedQuestions": 180,
       "placeholders": 55,
-      "estimatedAnswers": 25
+      "estimatedAnswers": 25,
+      "withFigures": 3
     },
     "gaps": [
       "Source: Vedantu-style solved public PDF (code A)",
@@ -98,7 +101,8 @@
       "Q174 missing from parse; placeholder inserted",
       "Q178 missing from parse; placeholder inserted",
       "25 answers estimated (no Ans/Answer marker in source extract)",
-      "68 questions had incomplete options in PDF extract"
+      "68 questions had incomplete options in PDF extract",
+      "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=3"
     ],
     "candidateCount": 1138890
   },
@@ -107,9 +111,10 @@
     "code": "AA",
     "file": "neet-2018.json",
     "stats": {
-      "parsedQuestions": 173,
+      "parsedQuestions": 180,
       "placeholders": 7,
-      "estimatedAnswers": 173
+      "estimatedAnswers": 173,
+      "withFigures": 4
     },
     "gaps": [
       "Source: Public NEET 2018 paper+key mirror",
@@ -121,7 +126,8 @@
       "Q173 missing from parse; placeholder inserted",
       "Q174 missing from parse; placeholder inserted",
       "173 answers estimated (no Ans/Answer marker in source extract)",
-      "4 questions had incomplete options in PDF extract"
+      "4 questions had incomplete options in PDF extract",
+      "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=4"
     ],
     "candidateCount": 1326466
   },
@@ -132,11 +138,13 @@
     "stats": {
       "parsedQuestions": 180,
       "placeholders": 0,
-      "estimatedAnswers": 0
+      "estimatedAnswers": 0,
+      "withFigures": 4
     },
     "gaps": [
       "Source: Resonance public solution booklet code G1",
-      "2 questions had incomplete options in PDF extract"
+      "2 questions had incomplete options in PDF extract",
+      "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=4"
     ],
     "candidateCount": 1519375
   },
@@ -147,11 +155,13 @@
     "stats": {
       "parsedQuestions": 180,
       "placeholders": 0,
-      "estimatedAnswers": 180
+      "estimatedAnswers": 180,
+      "withFigures": 3
     },
     "gaps": [
       "Source: Official-style Hindi+English booklet; English column cropped",
-      "180 answers estimated (no Ans/Answer marker in source extract)"
+      "180 answers estimated (no Ans/Answer marker in source extract)",
+      "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=3"
     ],
     "candidateCount": 1597435
   },
@@ -162,11 +172,13 @@
     "stats": {
       "parsedQuestions": 200,
       "placeholders": 0,
-      "estimatedAnswers": 200
+      "estimatedAnswers": 153,
+      "withFigures": 8
     },
     "gaps": [
       "Source: Public Hindi+English booklet code M1; English column cropped",
-      "200 answers estimated (no Ans/Answer marker in source extract)"
+      "200 answers estimated (no Ans/Answer marker in source extract)",
+      "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=8"
     ],
     "candidateCount": 1614777
   },
@@ -177,12 +189,14 @@
     "stats": {
       "parsedQuestions": 200,
       "placeholders": 0,
-      "estimatedAnswers": 0
+      "estimatedAnswers": 0,
+      "withFigures": 4
     },
     "gaps": [
       "Official 2022 booklet in ALL-PYQ-Papers 'main' is a Career360 sample ebook, not NTA paper.",
       "2022 paper reconstructed from adjacent-year public PYQ extracts (2019, 2021, 2023) with NEET 2022 structure.",
-      "2 questions had incomplete options in PDF extract"
+      "2 questions had incomplete options in PDF extract",
+      "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=4"
     ],
     "candidateCount": 1872343
   },
@@ -191,13 +205,15 @@
     "code": "F1",
     "file": "neet-2023.json",
     "stats": {
-      "parsedQuestions": 199,
+      "parsedQuestions": 200,
       "placeholders": 1,
-      "estimatedAnswers": 0
+      "estimatedAnswers": 0,
+      "withFigures": 5
     },
     "gaps": [
       "Source: Aakash public Q&A booklet NEET UG 2023 code F1",
-      "Q59 missing from parse; placeholder inserted"
+      "Q59 missing from parse; placeholder inserted",
+      "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=5"
     ],
     "candidateCount": 2087462
   },
@@ -208,10 +224,12 @@
     "stats": {
       "parsedQuestions": 200,
       "placeholders": 0,
-      "estimatedAnswers": 0
+      "estimatedAnswers": 0,
+      "withFigures": 11
     },
     "gaps": [
-      "Source: Aakash public answers & solutions NEET UG 2024 code R1"
+      "Source: Aakash public answers & solutions NEET UG 2024 code R1",
+      "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=11"
     ],
     "candidateCount": 2406079
   },
@@ -222,12 +240,14 @@
     "stats": {
       "parsedQuestions": 200,
       "placeholders": 0,
-      "estimatedAnswers": 0
+      "estimatedAnswers": 0,
+      "withFigures": 11
     },
     "gaps": [
       "NEET 2025 PDFs in public mirrors are scanned image-only (no extractable text).",
       "OCR of cover pages succeeded but full-booklet OCR quality was insufficient for reliable MCQ parsing in this build.",
-      "Paper scaffold uses 2024 parsed items reshaped to 2025 pattern as interim content; replace with official transcription."
+      "Paper scaffold uses 2024 parsed items reshaped to 2025 pattern as interim content; replace with official transcription.",
+      "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=11"
     ],
     "candidateCount": 2209238
   }

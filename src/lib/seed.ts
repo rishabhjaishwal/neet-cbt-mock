@@ -26,10 +26,13 @@ type PaperFile = {
     correctOption: string;
     placeholder?: boolean;
     answerEstimated?: boolean;
+    figureSrc?: string;
+    figureKind?: string;
   }>;
 };
 
-let seeded = false;
+const CONTENT_VERSION = 5;
+let syncedVersion = 0;
 
 async function hashPassword(password: string) {
   return bcrypt.hash(password, 10);
@@ -37,15 +40,9 @@ async function hashPassword(password: string) {
 
 export async function ensureSeeded() {
   await connectDb();
-  if (seeded) return;
-  const userCount = await User.countDocuments();
-  const questionCount = await Question.countDocuments();
-  if (userCount > 0 && questionCount > 100) {
-    seeded = true;
-    return;
-  }
+  if (syncedVersion === CONTENT_VERSION) return;
   await seedDatabase();
-  seeded = true;
+  syncedVersion = CONTENT_VERSION;
 }
 
 export async function seedDatabase() {
@@ -116,6 +113,8 @@ export async function seedDatabase() {
             correctOption: q.correctOption,
             isPlaceholder: Boolean(q.placeholder),
             answerEstimated: Boolean(q.answerEstimated),
+            figureSrc: q.figureSrc ?? null,
+            figureKind: q.figureKind ?? null,
           },
         },
         upsert: true,
@@ -127,5 +126,10 @@ export async function seedDatabase() {
     }
   }
 
+  try {
+    await Attempt.collection.dropIndex("userId_1_year_1");
+  } catch {
+    /* old unique index may already be gone */
+  }
   await Attempt.createIndexes();
 }

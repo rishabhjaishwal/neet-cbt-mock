@@ -43,12 +43,14 @@
     "Q173 missing from parse; placeholder inserted",
     "Q174 missing from parse; placeholder inserted",
     "173 answers estimated (no Ans/Answer marker in source extract)",
-    "4 questions had incomplete options in PDF extract"
+    "4 questions had incomplete options in PDF extract",
+    "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=4"
   ],
   "stats": {
-    "parsedQuestions": 173,
+    "parsedQuestions": 180,
     "placeholders": 7,
-    "estimatedAnswers": 173
+    "estimatedAnswers": 173,
+    "withFigures": 4
   },
   "questions": [
     {
@@ -1766,7 +1768,9 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "figureSrc": "/figures/2018-AA-Q101.png",
+      "figureKind": "pdf-extract"
     },
     {
       "id": "2018-AA-Q102",
@@ -2225,7 +2229,9 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "figureSrc": "/figures/2018-AA-Q128.png",
+      "figureKind": "pdf-extract"
     },
     {
       "id": "2018-AA-Q129",
@@ -2565,7 +2571,9 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "figureSrc": "/figures/2018-AA-Q148.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2018-AA-Q149",
@@ -3092,7 +3100,9 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "figureSrc": "/figures/2018-AA-Q179.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2018-AA-Q180",

@@ -42,6 +42,11 @@ export default async function ExamPage({
         options: (q.options ?? {}) as Record<string, string>,
         selectedOption: a.selectedOption ?? null,
         status: a.status as "not_attempted" | "attempted" | "marked",
+        figureSrc: (q as { figureSrc?: string }).figureSrc ?? null,
+        figureKind: (q as { figureKind?: string }).figureKind ?? null,
+        needsFigure: /see figure|as shown in (the )?figure|shown in (the )?figure|following diagram|given figure|in the figure|as shown in figure|shown in figure|given figures/i.test(
+          q.stem,
+        ),
       };
     })
     .filter(Boolean)
@@ -55,6 +60,9 @@ export default async function ExamPage({
     options: Record<string, string>;
     selectedOption: string | null;
     status: "not_attempted" | "attempted" | "marked";
+    figureSrc: string | null;
+    figureKind: string | null;
+    needsFigure: boolean;
   }>;
 
   return (
@@ -64,6 +72,8 @@ export default async function ExamPage({
       title={paper.title}
       endsAt={new Date(attempt.endsAt).toISOString()}
       questions={merged}
+      attemptLimit={paper.attempt_limit}
+      totalQuestions={paper.total_questions}
       initialScreenSwitchCount={attempt.screenSwitchCount ?? 0}
       initialQuestionIndex={attempt.currentQuestionIndex ?? 0}
       initialSubjectFilter={(attempt.subjectFilter as "ALL" | "Physics" | "Chemistry" | "Biology") ?? "ALL"}

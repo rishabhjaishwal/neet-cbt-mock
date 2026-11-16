@@ -3,6 +3,9 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { QuestionOptionMarkdown, QuestionStemMarkdown } from "@/components/QuestionMarkdown";
+import { QuestionFigure } from "@/components/QuestionFigure";
+import { buildAttemptLimitInfo, paletteStatus } from "@/lib/attempt-rules";
+import { t, type Lang } from "@/lib/i18n";
 
 type Q = {
   id: string;
@@ -14,6 +17,9 @@ type Q = {
   options: Record<string, string>;
   selectedOption: string | null;
   status: "not_attempted" | "attempted" | "marked";
+  figureSrc?: string | null;
+  figureKind?: string | null;
+  needsFigure?: boolean;
 };
 
 type SubjectFilter = "ALL" | "Physics" | "Chemistry" | "Biology";
@@ -31,6 +37,8 @@ type Props = {
   title: string;
   endsAt: string;
   questions: Q[];
+  attemptLimit?: number;
+  totalQuestions?: number;
   initialScreenSwitchCount?: number;
   initialQuestionIndex?: number;
   initialSubjectFilter?: SubjectFilter;
@@ -98,6 +106,8 @@ export function ExamCbt({
   title,
   endsAt: endsAtProp,
   questions: initial,
+  attemptLimit = 180,
+  totalQuestions = 180,
   initialScreenSwitchCount = 0,
   initialQuestionIndex = 0,
   initialSubjectFilter = "ALL",
@@ -106,6 +116,8 @@ export function ExamCbt({
 }: Props) {
   const router = useRouter();
   const shellRef = useRef<HTMLDivElement>(null);
+  const [lang, setLang] = useState<Lang>("en");
+  const i18n = t(lang);
 
   const [questions, setQuestions] = useState(() => {
     const base = initial.map((q) => ({ ...q, subject: normalizeSubject(q.subject) }));
@@ -517,6 +529,20 @@ export function ExamCbt({
         next.selectedOption = null;
         next.status = "not_attempted";
       }
+
+      const selecting =
+        patch.selectedOption != null &&
+        patch.selectedOption !== "" &&
+        !(base.selectedOption != null && base.selectedOption !== "");
+      if (selecting || (patch.status === "attempted" && !base.selectedOption)) {
+        const limits = buildAttemptLimitInfo(prev, attemptLimit, totalQuestions);
+        const gate = limits.canAttempt(base.id);
+        if (!gate.ok) {
+          setMsg(gate.reason || "Attempt limit reached");
+          return prev;
+        }
+      }
+
       const copy = [...prev];
       copy[at] = next;
       queuePending({
@@ -525,9 +551,15 @@ export function ExamCbt({
         status: next.status,
       });
       scheduleCheckpoint();
+      setMsg("");
       return copy;
     });
   }
+
+  const limitInfo = useMemo(
+    () => buildAttemptLimitInfo(questions, attemptLimit, totalQuestions),
+    [questions, attemptLimit, totalQuestions],
+  );
 
   async function submit(auto = false) {
     if (busy) return;
@@ -614,20 +646,15 @@ export function ExamCbt({
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/80 p-6">
           <div className="max-w-lg rounded-xl bg-white p-6 shadow-xl">
             <h2 className="font-[family-name:var(--font-display)] text-2xl font-bold text-[var(--header)]">
-              Full screen required
+              {i18n.fullscreenTitle}
             </h2>
-            <p className="mt-3 text-sm leading-relaxed text-slate-700">
-              This NEET CBT must run in <strong>full screen</strong>. Leaving full screen,
-              switching tabs/windows, or pressing <strong>Esc</strong> is tracked and shown
-              to the examiner. Progress is checkpointed on the server so a network drop or
-              reload will restore your answers and remaining time.
-            </p>
+            <p className="mt-3 text-sm leading-relaxed text-slate-700">{i18n.fullscreenBody}</p>
             <button
               type="button"
               className="mt-5 w-full rounded-md bg-[var(--cbt-accent)] px-4 py-3 font-semibold text-white hover:bg-[var(--cbt-accent-dark)]"
               onClick={() => void startFullscreenExam()}
             >
-              Start exam in full screen
+              {i18n.startFullscreen}
             </button>
             {msg && <p className="mt-3 text-sm text-[var(--danger)]">{msg}</p>}
           </div>
@@ -667,11 +694,30 @@ export function ExamCbt({
           <div className="text-sm text-blue-100">{title}</div>
         </div>
         <div className="flex flex-wrap items-center gap-3">
+          <div className="flex rounded bg-black/25 p-1 text-sm">
+            <button
+              type="button"
+              className={`rounded px-2 py-1 ${lang === "en" ? "bg-white text-slate-900" : ""}`}
+              onClick={() => setLang("en")}
+            >
+              EN
+            </button>
+            <button
+              type="button"
+              className={`rounded px-2 py-1 ${lang === "hi" ? "bg-white text-slate-900" : ""}`}
+              onClick={() => setLang("hi")}
+            >
+              हिं
+            </button>
+          </div>
           <div className="rounded bg-black/25 px-3 py-1.5 text-sm">
-            Screen switches: {switchCount}
+            {i18n.attemptSlots}: {limitInfo.attemptedCount}/{limitInfo.attemptLimit}
+          </div>
+          <div className="rounded bg-black/25 px-3 py-1.5 text-sm">
+            {i18n.screenSwitches}: {switchCount}
           </div>
           <div className="rounded bg-black/25 px-4 py-2 font-mono text-xl tracking-wide">
-            Time Left: {formatRemain(remain)}
+            {i18n.timeLeft}: {formatRemain(remain)}
           </div>
         </div>
       </header>
@@ -690,14 +736,15 @@ export function ExamCbt({
                     : "bg-slate-100 text-slate-700 hover:bg-slate-200"
                 }`}
               >
-                {s === "ALL" ? "All subjects" : s}
+                {s === "ALL" ? i18n.allSubjects : s}
               </button>
             ))}
           </div>
+          <p className="mb-3 text-xs text-slate-500">{i18n.paperLangNote}</p>
 
           {availableSections.length > 1 && (
             <div className="mb-4 flex flex-wrap items-center gap-2 text-sm">
-              <span className="text-slate-500">Section:</span>
+              <span className="text-slate-500">{i18n.section}:</span>
               <button
                 type="button"
                 onClick={() => selectSection("ALL")}
@@ -707,7 +754,7 @@ export function ExamCbt({
                     : "bg-slate-100 text-slate-700 hover:bg-slate-200"
                 }`}
               >
-                All
+                {i18n.all}
               </button>
               {availableSections.map((sec) => (
                 <button
@@ -720,8 +767,21 @@ export function ExamCbt({
                       : "bg-slate-100 text-slate-700 hover:bg-slate-200"
                   }`}
                 >
-                  Section {sec}
+                  {i18n.section} {sec}
                 </button>
+              ))}
+            </div>
+          )}
+
+          {limitInfo.sectionBCaps.length > 0 && (
+            <div className="mb-3 flex flex-wrap gap-2 text-xs text-slate-600">
+              {limitInfo.sectionBCaps.map((c) => (
+                <span
+                  key={c.subject}
+                  className={`rounded px-2 py-1 ${c.over ? "bg-rose-100 text-rose-800" : "bg-slate-100"}`}
+                >
+                  {c.subject} B: {c.attempted}/{c.cap}
+                </span>
               ))}
             </div>
           )}
@@ -730,11 +790,20 @@ export function ExamCbt({
             <h2 className="font-[family-name:var(--font-display)] text-xl font-semibold">
               Q{current.number}.{" "}
               <span className="text-base font-medium text-slate-500">
-                {current.subject} · Section {current.section}
+                {current.subject} · {i18n.section} {current.section}
               </span>
             </h2>
             <span className="text-xs text-slate-500">{current.topic}</span>
           </div>
+
+          {(current.needsFigure || current.figureSrc) && (
+            <QuestionFigure
+              figureSrc={current.figureSrc}
+              figureKind={current.figureKind}
+              missingLabel={i18n.figureMissing}
+              schematicLabel={i18n.figureSchematic}
+            />
+          )}
 
           <QuestionStemMarkdown stem={current.stem} className="mb-5" />
 
@@ -779,7 +848,7 @@ export function ExamCbt({
               }}
               disabled={paletteIndexes.indexOf(index) <= 0}
             >
-              Previous
+              {i18n.previous}
             </button>
             <button
               type="button"
@@ -791,7 +860,7 @@ export function ExamCbt({
                 })
               }
             >
-              Mark for review
+              {i18n.markReview}
             </button>
             <button
               type="button"
@@ -803,7 +872,7 @@ export function ExamCbt({
                 })
               }
             >
-              Clear response
+              {i18n.clear}
             </button>
             <button
               type="button"
@@ -815,7 +884,7 @@ export function ExamCbt({
                 else void flushCheckpoint({ force: true });
               }}
             >
-              Save & Next
+              {i18n.saveNext}
             </button>
             <button
               type="button"
@@ -823,7 +892,7 @@ export function ExamCbt({
               onClick={() => void submit(false)}
               disabled={busy}
             >
-              Submit test
+              {i18n.submit}
             </button>
           </div>
           {msg && <p className="mt-3 text-sm text-[var(--danger)]">{msg}</p>}
@@ -831,38 +900,43 @@ export function ExamCbt({
 
         <aside className="border-l border-slate-200 bg-[#f7fafc] p-4">
           <h3 className="mb-3 font-[family-name:var(--font-display)] font-semibold">
-            Question palette
+            {i18n.palette}
           </h3>
           <p className="mb-2 text-xs text-slate-500">
-            {subjectFilter === "ALL" ? "All subjects" : subjectFilter}
-            {sectionFilter !== "ALL" ? ` · Section ${sectionFilter}` : ""}
+            {subjectFilter === "ALL" ? i18n.allSubjects : subjectFilter}
+            {sectionFilter !== "ALL" ? ` · ${i18n.section} ${sectionFilter}` : ""}
           </p>
-          <div className="mb-4 grid grid-cols-2 gap-2 text-xs">
+          <div className="mb-4 grid grid-cols-1 gap-2 text-xs">
             <div className="flex items-center gap-2">
               <span className="palette-btn" data-status="attempted" aria-hidden />
-              Attempted ({counts.attempted})
+              {i18n.attempted} ({counts.attempted})
             </div>
             <div className="flex items-center gap-2">
               <span className="palette-btn" data-status="not_attempted" aria-hidden />
-              Not attempted ({counts.not_attempted})
+              {i18n.notAttempted} ({counts.not_attempted})
             </div>
             <div className="flex items-center gap-2">
               <span className="palette-btn" data-status="marked" aria-hidden />
-              Marked ({counts.marked})
+              {i18n.marked} ({counts.marked})
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="palette-btn" data-status="marked_answered" aria-hidden />
+              {i18n.markedAnswered}
             </div>
           </div>
           <div className="grid grid-cols-5 gap-2 sm:grid-cols-6 lg:grid-cols-5">
             {paletteIndexes.map((i) => {
               const q = questions[i];
+              const status = paletteStatus(q.status, q.selectedOption);
               return (
                 <button
                   key={q.id}
                   type="button"
                   className="palette-btn"
-                  data-status={q.status}
+                  data-status={status}
                   data-current={i === index ? "true" : "false"}
                   onClick={() => goToIndex(i)}
-                  title={`Q${q.number} ${q.subject} · ${q.status.replaceAll("_", " ")}`}
+                  title={`Q${q.number} ${q.subject} · ${status.replaceAll("_", " ")}`}
                 >
                   {q.number}
                 </button>

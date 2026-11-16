@@ -83,9 +83,16 @@ button.palette-btn[data-status="not_attempted"],
 
 button.palette-btn[data-status="marked"],
 .palette-btn[data-status="marked"] {
-  background-color: var(--status-marked) !important;
+  background-color: #6d28d9 !important;
   color: #fff !important;
-  border-color: #9a6a00;
+  border-color: #5b21b6;
+}
+
+button.palette-btn[data-status="marked_answered"],
+.palette-btn[data-status="marked_answered"] {
+  background: linear-gradient(135deg, #6d28d9 55%, var(--status-attempted) 55%) !important;
+  color: #fff !important;
+  border-color: #5b21b6;
 }
 
 .palette-btn[data-current="true"] {

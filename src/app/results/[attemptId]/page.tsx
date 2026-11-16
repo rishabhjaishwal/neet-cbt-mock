@@ -5,6 +5,7 @@ import { getSession } from "@/lib/auth";
 import { ensureSeeded } from "@/lib/seed";
 import { Attempt } from "@/lib/models";
 import { getPaper } from "@/lib/papers";
+import { scoreBands } from "@/lib/rank";
 
 export default async function ResultsPage({
   params,
@@ -35,6 +36,17 @@ export default async function ResultsPage({
     weakTopics?: string[];
     improvements?: string[];
   };
+  const bands = scoreBands(paper?.candidate_count ?? 2_000_000);
+  const peerHistory =
+    user.role === "student"
+      ? await Attempt.find({
+          userId: attempt.userId,
+          status: "approved",
+          score: { $ne: null },
+        })
+          .sort({ year: 1, attemptNumber: 1 })
+          .lean()
+      : [];
 
   return (
     <main className="mx-auto max-w-4xl px-4 py-8">
@@ -47,7 +59,10 @@ export default async function ResultsPage({
       <h1 className="mt-3 font-[family-name:var(--font-display)] text-3xl font-bold text-[var(--header)]">
         Results — NEET {attempt.year}
       </h1>
-      <p className="text-slate-600">{paper?.title}</p>
+      <p className="text-slate-600">
+        {paper?.title}
+        {attempt.attemptNumber ? ` · Attempt #${attempt.attemptNumber}` : ""}
+      </p>
 
       <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {[
@@ -66,6 +81,62 @@ export default async function ResultsPage({
           </div>
         ))}
       </div>
+
+      <section className="mt-8 rounded-xl border border-slate-200 bg-white p-5">
+        <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold">
+          Rank realism vs {attempt.year} candidature
+        </h2>
+        <p className="mt-1 text-sm text-slate-600">
+          Modelled score bands using {paper?.candidate_count.toLocaleString()} candidates —
+          not an official NTA rank list.
+        </p>
+        <div className="mt-3 overflow-x-auto">
+          <table className="w-full text-left text-sm">
+            <thead className="bg-slate-50 text-slate-600">
+              <tr>
+                <th className="px-3 py-2">Score</th>
+                <th className="px-3 py-2">Est. %ile</th>
+                <th className="px-3 py-2">Est. rank</th>
+              </tr>
+            </thead>
+            <tbody>
+              {bands.map((b) => (
+                <tr
+                  key={b.score}
+                  className={`border-t border-slate-100 ${
+                    attempt.score != null && Math.abs((attempt.score as number) - b.score) <= 25
+                      ? "bg-blue-50 font-semibold"
+                      : ""
+                  }`}
+                >
+                  <td className="px-3 py-2">{b.score}</td>
+                  <td className="px-3 py-2">{b.percentile}</td>
+                  <td className="px-3 py-2">{b.estimatedRank.toLocaleString()}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      {peerHistory.length > 1 && (
+        <section className="mt-6 rounded-xl border border-slate-200 bg-white p-5">
+          <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold">
+            Your attempt history
+          </h2>
+          <ul className="mt-2 space-y-1 text-sm">
+            {peerHistory.map((a) => (
+              <li key={String(a._id)}>
+                <Link href={`/results/${String(a._id)}`} className="text-[var(--cbt-accent)]">
+                  {a.year} #{a.attemptNumber ?? 1}
+                </Link>
+                : score {a.score} · {a.percentile}%ile · rank ~
+                {a.estimatedRank?.toLocaleString()}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section className="mt-8 rounded-xl border border-slate-200 bg-white p-5">
         <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold">

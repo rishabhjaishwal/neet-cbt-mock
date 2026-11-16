@@ -31,22 +31,8 @@ export type ScoreResult = {
   estimatedRank: number;
 };
 
-function clamp(n: number, min: number, max: number) {
-  return Math.max(min, Math.min(max, n));
-}
-
-/** Approximate NEET score→percentile using a skewed distribution against published candidate count. */
-export function estimateRankPercentile(score: number, candidateCount: number) {
-  const max = 720;
-  const s = clamp(score, 0, max) / max;
-  // Logistic-ish curve: high scores rare
-  const percentile = clamp(100 * Math.pow(s, 1.65), 0.01, 99.99);
-  const estimatedRank = Math.max(
-    1,
-    Math.round(candidateCount * (1 - percentile / 100)),
-  );
-  return { percentile: Math.round(percentile * 100) / 100, estimatedRank };
-}
+export { estimateRankPercentile } from "./rank";
+import { estimateRankPercentile } from "./rank";
 
 export function scoreAttempt(
   answers: AnswerRow[],

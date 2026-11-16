@@ -73,12 +73,14 @@
   ],
   "gaps": [
     "Source: Public Hindi+English booklet code M1; English column cropped",
-    "200 answers estimated (no Ans/Answer marker in source extract)"
+    "200 answers estimated (no Ans/Answer marker in source extract)",
+    "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=8"
   ],
   "stats": {
     "parsedQuestions": 200,
     "placeholders": 0,
-    "estimatedAnswers": 200
+    "estimatedAnswers": 153,
+    "withFigures": 8
   },
   "questions": [
     {
@@ -96,7 +98,7 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q2",
@@ -113,7 +115,7 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q3",
@@ -130,7 +132,7 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q4",
@@ -145,9 +147,9 @@
         "3": "(A)-(R), (B)-(S), (C)-(P), (D)-(Q)",
         "4": "(A)-(R), (B)-(S), (C)-(Q), (D)-(P) 3 O1"
       },
-      "correctOption": "4",
+      "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q5",
@@ -164,7 +166,7 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q6",
@@ -198,7 +200,9 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "figureSrc": "/figures/2021-M1-Q7.svg",
+      "figureKind": "schematic"
     },
     {
       "id": "2021-M1-Q8",
@@ -213,9 +217,9 @@
         "3": "t 10 13",
         "4": "t 5"
       },
-      "correctOption": "4",
+      "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q9",
@@ -247,9 +251,9 @@
         "3": "t 13 13",
         "4": "t 10"
       },
-      "correctOption": "2",
+      "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q11",
@@ -281,9 +285,9 @@
         "3": "(A)-(R), (B)-(P), (C)-(S), (D)-(Q)",
         "4": "(A)-(R), (B)-(Q), (C)-(S), (D)-(P)"
       },
-      "correctOption": "4",
+      "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q13",
@@ -385,7 +389,7 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q19",
@@ -487,7 +491,9 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "figureSrc": "/figures/2021-M1-Q24.svg",
+      "figureKind": "schematic"
     },
     {
       "id": "2021-M1-Q25",
@@ -606,7 +612,9 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "figureSrc": "/figures/2021-M1-Q31.svg",
+      "figureKind": "schematic"
     },
     {
       "id": "2021-M1-Q32",
@@ -657,7 +665,9 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "figureSrc": "/figures/2021-M1-Q34.svg",
+      "figureKind": "schematic"
     },
     {
       "id": "2021-M1-Q35",
@@ -759,7 +769,9 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "figureSrc": "/figures/2021-M1-Q40.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2021-M1-Q41",
@@ -810,7 +822,9 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "figureSrc": "/figures/2021-M1-Q43.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2021-M1-Q44",
@@ -827,7 +841,9 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "figureSrc": "/figures/2021-M1-Q44.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2021-M1-Q45",
@@ -895,7 +911,9 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": true,
+      "figureSrc": "/figures/2021-M1-Q48.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2021-M1-Q49",
@@ -946,7 +964,7 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q52",
@@ -963,7 +981,7 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q53",
@@ -980,7 +998,7 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q54",
@@ -997,7 +1015,7 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q55",
@@ -1014,7 +1032,7 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q56",
@@ -1046,9 +1064,9 @@
         "3": "219.3 m",
         "4": "219.2 m 7 O1"
       },
-      "correctOption": "1",
+      "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q58",
@@ -1114,9 +1132,9 @@
         "3": "Statement I is correct but Statement II is false.",
         "4": "Statement I is incorrect but Statement II is true."
       },
-      "correctOption": "1",
+      "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q62",
@@ -1131,9 +1149,9 @@
         "3": "201.28 S cm2 mol−1",
         "4": "390.71 S cm2 mol−1"
       },
-      "correctOption": "2",
+      "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q63",
@@ -1165,9 +1183,9 @@
         "3": "P2 > P3 > P1",
         "4": "P3 > P1 > P2"
       },
-      "correctOption": "4",
+      "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q65",
@@ -1201,7 +1219,7 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q67",
@@ -1233,9 +1251,9 @@
         "3": "P3 > P1 > P2",
         "4": "P2 > P1 > P3"
       },
-      "correctOption": "4",
+      "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q69",
@@ -1267,9 +1285,9 @@
         "3": "698.28 S cm2 mol−1",
         "4": "540.48 S cm2 mol−1"
       },
-      "correctOption": "2",
+      "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q71",
@@ -1284,9 +1302,9 @@
         "3": "219.2 m",
         "4": "2192 m"
       },
-      "correctOption": "3",
+      "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q72",
@@ -1318,9 +1336,9 @@
         "3": "Both Statement I and Statement II are true.",
         "4": "Both Statement I and Statement II are false."
       },
-      "correctOption": "1",
+      "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q74",
@@ -1403,9 +1421,9 @@
         "3": "Both Statement I and Statement II are false.",
         "4": "Statement I is correct but Statement II is false."
       },
-      "correctOption": "2",
+      "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q79",
@@ -1422,7 +1440,7 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q80",
@@ -1524,7 +1542,7 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q86",
@@ -1796,7 +1814,7 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q102",
@@ -1813,7 +1831,7 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q103",
@@ -1830,7 +1848,7 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q104",
@@ -1847,7 +1865,7 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q105",
@@ -1864,7 +1882,7 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q106",
@@ -1881,7 +1899,7 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q107",
@@ -1898,7 +1916,7 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q108",
@@ -1915,7 +1933,7 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q109",
@@ -1932,7 +1950,7 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q110",
@@ -1949,7 +1967,7 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q111",
@@ -1964,9 +1982,9 @@
         "3": "Predation",
         "4": "Resource partitioning"
       },
-      "correctOption": "3",
+      "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q112",
@@ -1981,9 +1999,9 @@
         "3": "Net square",
         "4": "Bullet square"
       },
-      "correctOption": "4",
+      "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q113",
@@ -2068,7 +2086,7 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q118",
@@ -2117,9 +2135,9 @@
         "3": "Climax",
         "4": "Climax community"
       },
-      "correctOption": "4",
+      "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q121",
@@ -2134,9 +2152,9 @@
         "3": "Xenogamy",
         "4": "Geitonogamy 1 O1"
       },
-      "correctOption": "1",
+      "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q122",
@@ -2151,9 +2169,9 @@
         "3": "(iv) (i) (iii) (ii)",
         "4": "(iii) (i) (iv) (ii)"
       },
-      "correctOption": "2",
+      "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q123",
@@ -2170,7 +2188,7 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q124",
@@ -2202,9 +2220,9 @@
         "3": "(ii) (iii) (iv) (i)",
         "4": "(iv) (ii) (i) (iii)"
       },
-      "correctOption": "1",
+      "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q126",
@@ -2238,7 +2256,7 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q128",
@@ -2355,9 +2373,9 @@
         "3": "(i) (ii) (iii) (iv)",
         "4": "(iii) (ii) (iv) (i) Hindi+English 4"
       },
-      "correctOption": "2",
+      "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q135",
@@ -2389,9 +2407,9 @@
         "3": "ATP is synthesized through complex V.",
         "4": "Oxidation-reduction reactions produce proton gradient in respiration."
       },
-      "correctOption": "4",
+      "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": true
+      "answerEstimated": false
     },
     {
       "id": "2021-M1-Q137",

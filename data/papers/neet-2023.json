@@ -73,12 +73,14 @@
   ],
   "gaps": [
     "Source: Aakash public Q&A booklet NEET UG 2023 code F1",
-    "Q59 missing from parse; placeholder inserted"
+    "Q59 missing from parse; placeholder inserted",
+    "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=5"
   ],
   "stats": {
-    "parsedQuestions": 199,
-    "placeholders": 1,
-    "estimatedAnswers": 0
+    "parsedQuestions": 200,
+    "placeholders": 0,
+    "estimatedAnswers": 0,
+    "withFigures": 6
   },
   "questions": [
     {
@@ -776,7 +778,9 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "figureSrc": "/figures/2023-F1-Q41.png",
+      "figureKind": "pdf-extract"
     },
     {
       "id": "2023-F1-Q42",
@@ -844,7 +848,9 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "figureSrc": "/figures/2023-F1-Q45.png",
+      "figureKind": "pdf-extract"
     },
     {
       "id": "2023-F1-Q46",
@@ -878,7 +884,9 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "figureSrc": "/figures/2023-F1-Q47.png",
+      "figureKind": "pdf-extract"
     },
     {
       "id": "2023-F1-Q48",
@@ -895,7 +903,9 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "figureSrc": "/figures/2023-F1-Q48.png",
+      "figureKind": "pdf-extract"
     },
     {
       "id": "2023-F1-Q49",
@@ -929,7 +939,9 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "figureSrc": "/figures/2023-F1-Q50.png",
+      "figureKind": "pdf-extract"
     },
     {
       "id": "2023-F1-Q51",
@@ -1072,17 +1084,19 @@
       "number": 59,
       "subject": "Chemistry",
       "section": "A",
-      "topic": "Chemistry General",
-      "stem": "[PLACEHOLDER] NEET 2023 Question 59 could not be recovered from the public PDF text extract. Replace after manual transcription.",
+      "topic": "Organic Chemistry",
+      "stem": "Identify the product in the following reaction:",
       "options": {
-        "1": "Placeholder option 1",
-        "2": "Placeholder option 2",
-        "3": "Placeholder option 3",
-        "4": "Placeholder option 4"
+        "1": "Option (1) — see figure",
+        "2": "Option (2) — see figure",
+        "3": "Option (3) — see figure",
+        "4": "Option (4) — see figure"
       },
-      "correctOption": "1",
-      "placeholder": true,
-      "answerEstimated": false
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": false,
+      "figureSrc": "/figures/2023-F1-Q59.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2023-F1-Q60",

@@ -22,20 +22,37 @@ export default async function DashboardPage({
   const papers = await listPapers();
   const attempts = await Attempt.find({
     userId: new Types.ObjectId(user.id),
-  }).lean();
-  const byYear = Object.fromEntries(
-    attempts.map((a) => [
-      a.year,
-      {
-        id: String(a._id),
-        year: a.year,
-        status: a.status,
-        score: a.score ?? null,
-        percentile: a.percentile ?? null,
-        estimated_rank: a.estimatedRank ?? null,
-      },
-    ]),
-  );
+  })
+    .sort({ year: -1, attemptNumber: -1 })
+    .lean();
+
+  const latestByYear: Record<
+    number,
+    {
+      id: string;
+      year: number;
+      status: string;
+      score: number | null;
+      percentile: number | null;
+      estimated_rank: number | null;
+      attemptNumber: number;
+    }
+  > = {};
+  for (const a of attempts) {
+    const y = a.year;
+    if (latestByYear[y]) continue;
+    latestByYear[y] = {
+      id: String(a._id),
+      year: a.year,
+      status: a.status,
+      score: a.score ?? null,
+      percentile: a.percentile ?? null,
+      estimated_rank: a.estimatedRank ?? null,
+      attemptNumber: a.attemptNumber ?? 1,
+    };
+  }
+
+  const history = attempts.filter((a) => a.status === "approved" && a.score != null);
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-8">
@@ -58,6 +75,70 @@ export default async function DashboardPage({
         </div>
       )}
 
+      {history.length > 0 && (
+        <section className="mb-8 rounded-xl border border-slate-200 bg-white p-5">
+          <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold">
+            Multi-attempt analytics
+          </h2>
+          <p className="mt-1 text-sm text-slate-600">
+            Approved attempts across years — percentile uses that year&apos;s published
+            candidature (modelled, not official NTA rank).
+          </p>
+          <div className="mt-4 overflow-x-auto">
+            <table className="w-full text-left text-sm">
+              <thead className="bg-slate-50 text-slate-600">
+                <tr>
+                  <th className="px-3 py-2">Year</th>
+                  <th className="px-3 py-2">#</th>
+                  <th className="px-3 py-2">Score</th>
+                  <th className="px-3 py-2">%ile</th>
+                  <th className="px-3 py-2">Est. rank</th>
+                  <th className="px-3 py-2" />
+                </tr>
+              </thead>
+              <tbody>
+                {history.map((a) => (
+                  <tr key={String(a._id)} className="border-t border-slate-100">
+                    <td className="px-3 py-2 font-semibold">{a.year}</td>
+                    <td className="px-3 py-2">{a.attemptNumber ?? 1}</td>
+                    <td className="px-3 py-2">{a.score}</td>
+                    <td className="px-3 py-2">{a.percentile}</td>
+                    <td className="px-3 py-2">
+                      {a.estimatedRank?.toLocaleString() ?? "—"}
+                    </td>
+                    <td className="px-3 py-2">
+                      <Link
+                        href={`/results/${String(a._id)}`}
+                        className="font-semibold text-[var(--cbt-accent)]"
+                      >
+                        Open
+                      </Link>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          {history.length >= 2 && (
+            <div className="mt-4 flex h-28 items-end gap-2">
+              {[...history].reverse().map((a) => {
+                const h = Math.max(8, Math.round(((a.score ?? 0) + 180) / 900 * 100));
+                return (
+                  <div key={String(a._id)} className="flex flex-1 flex-col items-center gap-1">
+                    <div
+                      className="w-full max-w-[48px] rounded-t bg-[var(--cbt-accent)]"
+                      style={{ height: `${h}%` }}
+                      title={`${a.year}: ${a.score}`}
+                    />
+                    <span className="text-[10px] text-slate-500">{a.year}</span>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </section>
+      )}
+
       <h2 className="mb-3 font-[family-name:var(--font-display)] text-xl font-semibold">
         Choose a year (last 10 years)
       </h2>
@@ -74,15 +155,7 @@ export default async function DashboardPage({
           </thead>
           <tbody>
             {papers.map((p) => {
-              const a = byYear[p.year] as
-                | {
-                    id: string;
-                    status: string;
-                    score: number | null;
-                    percentile: number | null;
-                    estimated_rank: number | null;
-                  }
-                | undefined;
+              const a = latestByYear[p.year];
               return (
                 <tr key={p.year} className="border-t border-slate-100">
                   <td className="px-4 py-3 font-semibold">{p.year}</td>
@@ -96,6 +169,9 @@ export default async function DashboardPage({
                   <td className="px-4 py-3">{p.duration_minutes} min</td>
                   <td className="px-4 py-3 capitalize">
                     {a?.status?.replace("_", " ") ?? "Not started"}
+                    {a?.attemptNumber ? (
+                      <div className="text-xs text-slate-500">Attempt #{a.attemptNumber}</div>
+                    ) : null}
                     {a?.status === "approved" && a.score != null && (
                       <div className="text-xs text-emerald-700">
                         Score {a.score} · ~percentile {a.percentile} · rank ~
@@ -104,18 +180,23 @@ export default async function DashboardPage({
                     )}
                   </td>
                   <td className="px-4 py-3">
-                    {!a || a.status === "in_progress" ? (
-                      <StartAttemptButton year={p.year} />
-                    ) : a.status === "submitted" ? (
-                      <span className="text-xs text-amber-700">Awaiting approval</span>
-                    ) : (
-                      <Link
-                        href={`/results/${a.id}`}
-                        className="text-sm font-semibold text-[var(--cbt-accent)]"
-                      >
-                        View results
-                      </Link>
-                    )}
+                    <div className="flex flex-col gap-2">
+                      {!a || a.status === "in_progress" ? (
+                        <StartAttemptButton year={p.year} />
+                      ) : a.status === "submitted" ? (
+                        <span className="text-xs text-amber-700">Awaiting approval</span>
+                      ) : (
+                        <>
+                          <Link
+                            href={`/results/${a.id}`}
+                            className="text-sm font-semibold text-[var(--cbt-accent)]"
+                          >
+                            View results
+                          </Link>
+                          <StartAttemptButton year={p.year} mode="retake" />
+                        </>
+                      )}
+                    </div>
                   </td>
                 </tr>
               );

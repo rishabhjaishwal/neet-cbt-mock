@@ -72,12 +72,14 @@
     }
   ],
   "gaps": [
-    "Source: Aakash public answers & solutions NEET UG 2024 code R1"
+    "Source: Aakash public answers & solutions NEET UG 2024 code R1",
+    "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=11"
   ],
   "stats": {
     "parsedQuestions": 200,
     "placeholders": 0,
-    "estimatedAnswers": 0
+    "estimatedAnswers": 0,
+    "withFigures": 11
   },
   "questions": [
     {
@@ -95,7 +97,9 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "figureSrc": "/figures/2024-R1-Q1.png",
+      "figureKind": "pdf-extract"
     },
     {
       "id": "2024-R1-Q2",
@@ -146,7 +150,9 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "figureSrc": "/figures/2024-R1-Q4.png",
+      "figureKind": "pdf-extract"
     },
     {
       "id": "2024-R1-Q5",
@@ -180,7 +186,9 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "figureSrc": "/figures/2024-R1-Q6.png",
+      "figureKind": "pdf-extract"
     },
     {
       "id": "2024-R1-Q7",
@@ -520,7 +528,9 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "figureSrc": "/figures/2024-R1-Q26.png",
+      "figureKind": "pdf-extract"
     },
     {
       "id": "2024-R1-Q27",
@@ -656,7 +666,9 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "figureSrc": "/figures/2024-R1-Q34.png",
+      "figureKind": "pdf-extract"
     },
     {
       "id": "2024-R1-Q35",
@@ -775,7 +787,9 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "figureSrc": "/figures/2024-R1-Q41.png",
+      "figureKind": "pdf-extract"
     },
     {
       "id": "2024-R1-Q42",
@@ -1965,7 +1979,9 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "figureSrc": "/figures/2024-R1-Q111.png",
+      "figureKind": "pdf-extract"
     },
     {
       "id": "2024-R1-Q112",
@@ -1999,7 +2015,9 @@
       },
       "correctOption": "3",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "figureSrc": "/figures/2024-R1-Q113.png",
+      "figureKind": "pdf-extract"
     },
     {
       "id": "2024-R1-Q114",
@@ -2254,7 +2272,9 @@
       },
       "correctOption": "2",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "figureSrc": "/figures/2024-R1-Q128.png",
+      "figureKind": "pdf-extract"
     },
     {
       "id": "2024-R1-Q129",
@@ -2543,7 +2563,9 @@
       },
       "correctOption": "4",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "figureSrc": "/figures/2024-R1-Q145.png",
+      "figureKind": "pdf-extract"
     },
     {
       "id": "2024-R1-Q146",
@@ -2917,7 +2939,9 @@
       },
       "correctOption": "1",
       "placeholder": false,
-      "answerEstimated": false
+      "answerEstimated": false,
+      "figureSrc": "/figures/2024-R1-Q167.png",
+      "figureKind": "pdf-extract"
     },
     {
       "id": "2024-R1-Q168",
