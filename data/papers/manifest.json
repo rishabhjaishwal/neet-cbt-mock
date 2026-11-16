@@ -1,0 +1,234 @@
+[
+  {
+    "year": 2016,
+    "code": "Phase1",
+    "file": "neet-2016.json",
+    "stats": {
+      "parsedQuestions": 164,
+      "placeholders": 16,
+      "estimatedAnswers": 164
+    },
+    "gaps": [
+      "Source: Public mirror PDF (Shabber10/ALL-PYQ-Papers Phase1)",
+      "Q13 missing from parse; placeholder inserted",
+      "Q20 missing from parse; placeholder inserted",
+      "Q37 missing from parse; placeholder inserted",
+      "Q46 missing from parse; placeholder inserted",
+      "Q53 missing from parse; placeholder inserted",
+      "Q56 missing from parse; placeholder inserted",
+      "Q68 missing from parse; placeholder inserted",
+      "Q80 missing from parse; placeholder inserted",
+      "Q85 missing from parse; placeholder inserted",
+      "Q86 missing from parse; placeholder inserted",
+      "Q90 missing from parse; placeholder inserted",
+      "Q99 missing from parse; placeholder inserted",
+      "Q101 missing from parse; placeholder inserted",
+      "Q147 missing from parse; placeholder inserted",
+      "Q168 missing from parse; placeholder inserted",
+      "Q175 missing from parse; placeholder inserted",
+      "164 answers estimated (no Ans/Answer marker in source extract)",
+      "152 questions had incomplete options in PDF extract"
+    ],
+    "candidateCount": 731223
+  },
+  {
+    "year": 2017,
+    "code": "A",
+    "file": "neet-2017.json",
+    "stats": {
+      "parsedQuestions": 125,
+      "placeholders": 55,
+      "estimatedAnswers": 25
+    },
+    "gaps": [
+      "Source: Vedantu-style solved public PDF (code A)",
+      "Q5 missing from parse; placeholder inserted",
+      "Q8 missing from parse; placeholder inserted",
+      "Q17 missing from parse; placeholder inserted",
+      "Q23 missing from parse; placeholder inserted",
+      "Q28 missing from parse; placeholder inserted",
+      "Q29 missing from parse; placeholder inserted",
+      "Q34 missing from parse; placeholder inserted",
+      "Q40 missing from parse; placeholder inserted",
+      "Q41 missing from parse; placeholder inserted",
+      "Q47 missing from parse; placeholder inserted",
+      "Q50 missing from parse; placeholder inserted",
+      "Q51 missing from parse; placeholder inserted",
+      "Q52 missing from parse; placeholder inserted",
+      "Q62 missing from parse; placeholder inserted",
+      "Q66 missing from parse; placeholder inserted",
+      "Q71 missing from parse; placeholder inserted",
+      "Q72 missing from parse; placeholder inserted",
+      "Q73 missing from parse; placeholder inserted",
+      "Q74 missing from parse; placeholder inserted",
+      "Q83 missing from parse; placeholder inserted",
+      "Q96 missing from parse; placeholder inserted",
+      "Q97 missing from parse; placeholder inserted",
+      "Q99 missing from parse; placeholder inserted",
+      "Q101 missing from parse; placeholder inserted",
+      "Q103 missing from parse; placeholder inserted",
+      "Q104 missing from parse; placeholder inserted",
+      "Q108 missing from parse; placeholder inserted",
+      "Q109 missing from parse; placeholder inserted",
+      "Q110 missing from parse; placeholder inserted",
+      "Q111 missing from parse; placeholder inserted",
+      "Q117 missing from parse; placeholder inserted",
+      "Q120 missing from parse; placeholder inserted",
+      "Q121 missing from parse; placeholder inserted",
+      "Q124 missing from parse; placeholder inserted",
+      "Q130 missing from parse; placeholder inserted",
+      "Q131 missing from parse; placeholder inserted",
+      "Q134 missing from parse; placeholder inserted",
+      "Q138 missing from parse; placeholder inserted",
+      "Q139 missing from parse; placeholder inserted",
+      "Q140 missing from parse; placeholder inserted",
+      "Q141 missing from parse; placeholder inserted",
+      "Q146 missing from parse; placeholder inserted",
+      "Q147 missing from parse; placeholder inserted",
+      "Q153 missing from parse; placeholder inserted",
+      "Q154 missing from parse; placeholder inserted",
+      "Q155 missing from parse; placeholder inserted",
+      "Q161 missing from parse; placeholder inserted",
+      "Q162 missing from parse; placeholder inserted",
+      "Q163 missing from parse; placeholder inserted",
+      "Q169 missing from parse; placeholder inserted",
+      "Q170 missing from parse; placeholder inserted",
+      "Q171 missing from parse; placeholder inserted",
+      "Q172 missing from parse; placeholder inserted",
+      "Q174 missing from parse; placeholder inserted",
+      "Q178 missing from parse; placeholder inserted",
+      "25 answers estimated (no Ans/Answer marker in source extract)",
+      "68 questions had incomplete options in PDF extract"
+    ],
+    "candidateCount": 1138890
+  },
+  {
+    "year": 2018,
+    "code": "AA",
+    "file": "neet-2018.json",
+    "stats": {
+      "parsedQuestions": 173,
+      "placeholders": 7,
+      "estimatedAnswers": 173
+    },
+    "gaps": [
+      "Source: Public NEET 2018 paper+key mirror",
+      "Q1 missing from parse; placeholder inserted",
+      "Q2 missing from parse; placeholder inserted",
+      "Q3 missing from parse; placeholder inserted",
+      "Q70 missing from parse; placeholder inserted",
+      "Q71 missing from parse; placeholder inserted",
+      "Q173 missing from parse; placeholder inserted",
+      "Q174 missing from parse; placeholder inserted",
+      "173 answers estimated (no Ans/Answer marker in source extract)",
+      "4 questions had incomplete options in PDF extract"
+    ],
+    "candidateCount": 1326466
+  },
+  {
+    "year": 2019,
+    "code": "G1",
+    "file": "neet-2019.json",
+    "stats": {
+      "parsedQuestions": 180,
+      "placeholders": 0,
+      "estimatedAnswers": 0
+    },
+    "gaps": [
+      "Source: Resonance public solution booklet code G1",
+      "2 questions had incomplete options in PDF extract"
+    ],
+    "candidateCount": 1519375
+  },
+  {
+    "year": 2020,
+    "code": "E1",
+    "file": "neet-2020.json",
+    "stats": {
+      "parsedQuestions": 180,
+      "placeholders": 0,
+      "estimatedAnswers": 180
+    },
+    "gaps": [
+      "Source: Official-style Hindi+English booklet; English column cropped",
+      "180 answers estimated (no Ans/Answer marker in source extract)"
+    ],
+    "candidateCount": 1597435
+  },
+  {
+    "year": 2021,
+    "code": "M1",
+    "file": "neet-2021.json",
+    "stats": {
+      "parsedQuestions": 200,
+      "placeholders": 0,
+      "estimatedAnswers": 200
+    },
+    "gaps": [
+      "Source: Public Hindi+English booklet code M1; English column cropped",
+      "200 answers estimated (no Ans/Answer marker in source extract)"
+    ],
+    "candidateCount": 1614777
+  },
+  {
+    "year": 2022,
+    "code": "RECON",
+    "file": "neet-2022.json",
+    "stats": {
+      "parsedQuestions": 200,
+      "placeholders": 0,
+      "estimatedAnswers": 0
+    },
+    "gaps": [
+      "Official 2022 booklet in ALL-PYQ-Papers 'main' is a Career360 sample ebook, not NTA paper.",
+      "2022 paper reconstructed from adjacent-year public PYQ extracts (2019, 2021, 2023) with NEET 2022 structure.",
+      "2 questions had incomplete options in PDF extract"
+    ],
+    "candidateCount": 1872343
+  },
+  {
+    "year": 2023,
+    "code": "F1",
+    "file": "neet-2023.json",
+    "stats": {
+      "parsedQuestions": 199,
+      "placeholders": 1,
+      "estimatedAnswers": 0
+    },
+    "gaps": [
+      "Source: Aakash public Q&A booklet NEET UG 2023 code F1",
+      "Q59 missing from parse; placeholder inserted"
+    ],
+    "candidateCount": 2087462
+  },
+  {
+    "year": 2024,
+    "code": "R1",
+    "file": "neet-2024.json",
+    "stats": {
+      "parsedQuestions": 200,
+      "placeholders": 0,
+      "estimatedAnswers": 0
+    },
+    "gaps": [
+      "Source: Aakash public answers & solutions NEET UG 2024 code R1"
+    ],
+    "candidateCount": 2406079
+  },
+  {
+    "year": 2025,
+    "code": "INTERIM",
+    "file": "neet-2025.json",
+    "stats": {
+      "parsedQuestions": 200,
+      "placeholders": 0,
+      "estimatedAnswers": 0
+    },
+    "gaps": [
+      "NEET 2025 PDFs in public mirrors are scanned image-only (no extractable text).",
+      "OCR of cover pages succeeded but full-booklet OCR quality was insufficient for reliable MCQ parsing in this build.",
+      "Paper scaffold uses 2024 parsed items reshaped to 2025 pattern as interim content; replace with official transcription."
+    ],
+    "candidateCount": 2209238
+  }
+]

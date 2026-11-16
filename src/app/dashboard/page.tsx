@@ -1,0 +1,128 @@
+import Link from "next/link";
+import { redirect } from "next/navigation";
+import { Types } from "mongoose";
+import { getSession } from "@/lib/auth";
+import { ensureSeeded } from "@/lib/seed";
+import { Attempt } from "@/lib/models";
+import { listPapers } from "@/lib/papers";
+import { LogoutButton } from "@/components/LogoutButton";
+import { StartAttemptButton } from "@/components/StartAttemptButton";
+
+export default async function DashboardPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ submitted?: string }>;
+}) {
+  const user = await getSession();
+  if (!user) redirect("/login");
+  if (user.role === "examiner") redirect("/examiner");
+  await ensureSeeded();
+  const params = await searchParams;
+
+  const papers = await listPapers();
+  const attempts = await Attempt.find({
+    userId: new Types.ObjectId(user.id),
+  }).lean();
+  const byYear = Object.fromEntries(
+    attempts.map((a) => [
+      a.year,
+      {
+        id: String(a._id),
+        year: a.year,
+        status: a.status,
+        score: a.score ?? null,
+        percentile: a.percentile ?? null,
+        estimated_rank: a.estimatedRank ?? null,
+      },
+    ]),
+  );
+
+  return (
+    <main className="mx-auto max-w-5xl px-4 py-8">
+      <header className="mb-8 flex flex-wrap items-center justify-between gap-3 rounded-xl bg-[var(--header)] px-5 py-4 text-white">
+        <div>
+          <h1 className="font-[family-name:var(--font-display)] text-2xl font-semibold">
+            Student dashboard
+          </h1>
+          <p className="text-sm text-blue-100">
+            {user.name} · {user.email}
+          </p>
+        </div>
+        <LogoutButton />
+      </header>
+
+      {params.submitted && (
+        <div className="mb-6 rounded-lg border border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-900">
+          Attempt submitted and locked. An examiner must approve before marks,
+          rank, and statistics appear.
+        </div>
+      )}
+
+      <h2 className="mb-3 font-[family-name:var(--font-display)] text-xl font-semibold">
+        Choose a year (last 10 years)
+      </h2>
+      <div className="overflow-hidden rounded-xl border border-slate-200 bg-white">
+        <table className="w-full text-left text-sm">
+          <thead className="bg-slate-50 text-slate-600">
+            <tr>
+              <th className="px-4 py-3">Year</th>
+              <th className="px-4 py-3">Paper</th>
+              <th className="px-4 py-3">Duration</th>
+              <th className="px-4 py-3">Status</th>
+              <th className="px-4 py-3">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            {papers.map((p) => {
+              const a = byYear[p.year] as
+                | {
+                    id: string;
+                    status: string;
+                    score: number | null;
+                    percentile: number | null;
+                    estimated_rank: number | null;
+                  }
+                | undefined;
+              return (
+                <tr key={p.year} className="border-t border-slate-100">
+                  <td className="px-4 py-3 font-semibold">{p.year}</td>
+                  <td className="px-4 py-3">
+                    <div>{p.title}</div>
+                    <div className="text-xs text-slate-500">
+                      {p.total_questions} Q · attempt {p.attempt_limit} ·{" "}
+                      {p.candidate_count.toLocaleString()} candidates
+                    </div>
+                  </td>
+                  <td className="px-4 py-3">{p.duration_minutes} min</td>
+                  <td className="px-4 py-3 capitalize">
+                    {a?.status?.replace("_", " ") ?? "Not started"}
+                    {a?.status === "approved" && a.score != null && (
+                      <div className="text-xs text-emerald-700">
+                        Score {a.score} · ~percentile {a.percentile} · rank ~
+                        {a.estimated_rank?.toLocaleString()}
+                      </div>
+                    )}
+                  </td>
+                  <td className="px-4 py-3">
+                    {!a || a.status === "in_progress" ? (
+                      <StartAttemptButton year={p.year} />
+                    ) : a.status === "submitted" ? (
+                      <span className="text-xs text-amber-700">Awaiting approval</span>
+                    ) : (
+                      <Link
+                        href={`/results/${a.id}`}
+                        className="text-sm font-semibold text-[var(--cbt-accent)]"
+                      >
+                        View results
+                      </Link>
+                    )}
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </main>
+  );
+}

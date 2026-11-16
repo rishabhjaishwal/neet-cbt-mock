@@ -1,0 +1,123 @@
+import Link from "next/link";
+import { redirect } from "next/navigation";
+import { Types } from "mongoose";
+import { getSession } from "@/lib/auth";
+import { ensureSeeded } from "@/lib/seed";
+import { Attempt } from "@/lib/models";
+import { getPaper } from "@/lib/papers";
+
+export default async function ResultsPage({
+  params,
+}: {
+  params: Promise<{ attemptId: string }>;
+}) {
+  const user = await getSession();
+  if (!user) redirect("/login");
+  await ensureSeeded();
+  const { attemptId } = await params;
+  if (!Types.ObjectId.isValid(attemptId)) redirect("/dashboard");
+
+  const attempt = await Attempt.findById(attemptId).lean();
+  if (!attempt) redirect("/dashboard");
+  if (user.role === "student" && String(attempt.userId) !== user.id) {
+    redirect("/dashboard");
+  }
+  if (user.role === "student" && attempt.status !== "approved") {
+    redirect("/dashboard?submitted=1");
+  }
+
+  const paper = await getPaper(attempt.year);
+  const subjectStats = (attempt.subjectStats ?? {}) as Record<
+    string,
+    { correct: number; wrong: number; unattempted: number; accuracy: number }
+  >;
+  const topicBundle = (attempt.topicStats ?? {}) as {
+    weakTopics?: string[];
+    improvements?: string[];
+  };
+
+  return (
+    <main className="mx-auto max-w-4xl px-4 py-8">
+      <Link
+        href={user.role === "examiner" ? "/examiner" : "/dashboard"}
+        className="text-sm text-[var(--cbt-accent)]"
+      >
+        ← Back
+      </Link>
+      <h1 className="mt-3 font-[family-name:var(--font-display)] text-3xl font-bold text-[var(--header)]">
+        Results — NEET {attempt.year}
+      </h1>
+      <p className="text-slate-600">{paper?.title}</p>
+
+      <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        {[
+          ["Score", `${attempt.score}/720`],
+          ["Correct", String(attempt.correctCount)],
+          ["Wrong", String(attempt.wrongCount)],
+          ["Unattempted", String(attempt.unattemptedCount)],
+          ["Est. percentile", String(attempt.percentile)],
+          ["Est. rank", attempt.estimatedRank?.toLocaleString() ?? "—"],
+          ["Candidates", paper?.candidate_count.toLocaleString() ?? "—"],
+          ["Marking", "+4 / −1 / 0"],
+        ].map(([k, v]) => (
+          <div key={k} className="rounded-xl border border-slate-200 bg-white p-4">
+            <div className="text-xs uppercase tracking-wide text-slate-500">{k}</div>
+            <div className="mt-1 text-2xl font-semibold">{v}</div>
+          </div>
+        ))}
+      </div>
+
+      <section className="mt-8 rounded-xl border border-slate-200 bg-white p-5">
+        <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold">
+          Subject-wise accuracy
+        </h2>
+        <div className="mt-3 space-y-2">
+          {Object.entries(subjectStats).map(([subject, s]) => (
+            <div key={subject} className="flex items-center justify-between text-sm">
+              <span className="font-medium">{subject}</span>
+              <span>
+                {s.accuracy}% · C {s.correct} / W {s.wrong} / U {s.unattempted}
+              </span>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="mt-6 rounded-xl border border-slate-200 bg-white p-5">
+        <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold">
+          Weak topics
+        </h2>
+        <ul className="mt-2 list-disc space-y-1 pl-5 text-sm">
+          {(topicBundle.weakTopics?.length
+            ? topicBundle.weakTopics
+            : ["No clear weak-topic signal from this attempt."]
+          ).map((t) => (
+            <li key={t}>{t}</li>
+          ))}
+        </ul>
+      </section>
+
+      <section className="mt-6 rounded-xl border border-slate-200 bg-white p-5">
+        <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold">
+          What to improve
+        </h2>
+        <ul className="mt-2 list-disc space-y-1 pl-5 text-sm">
+          {(topicBundle.improvements ?? []).map((t) => (
+            <li key={t}>{t}</li>
+          ))}
+        </ul>
+      </section>
+
+      {user.role === "examiner" && (
+        <p className="mt-6 text-sm">
+          <Link
+            href={`/examiner/attempts/${String(attempt._id)}`}
+            className="font-semibold text-[var(--cbt-accent)]"
+          >
+            Open examiner review (per-question)
+          </Link>
+        </p>
+      )}
+    </main>
+  );
+}
