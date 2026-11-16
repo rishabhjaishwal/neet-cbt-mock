@@ -53,6 +53,9 @@ input {
 }
 
 .palette-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 2.1rem;
   height: 2.1rem;
   border-radius: 0.35rem;
@@ -60,26 +63,90 @@ input {
   font-size: 0.75rem;
   font-weight: 700;
   cursor: pointer;
-}
-
-.palette-btn[data-status="attempted"] {
-  background: var(--status-attempted);
-  color: white;
-  border-color: #166b3a;
-}
-
-.palette-btn[data-status="not_attempted"] {
-  background: var(--status-not);
+  background-color: var(--status-not);
   color: #334155;
 }
 
+button.palette-btn[data-status="attempted"],
+.palette-btn[data-status="attempted"] {
+  background-color: var(--status-attempted) !important;
+  color: #fff !important;
+  border-color: #166b3a;
+}
+
+button.palette-btn[data-status="not_attempted"],
+.palette-btn[data-status="not_attempted"] {
+  background-color: var(--status-not) !important;
+  color: #334155 !important;
+  border-color: #8aa0b5;
+}
+
+button.palette-btn[data-status="marked"],
 .palette-btn[data-status="marked"] {
-  background: var(--status-marked);
-  color: white;
+  background-color: var(--status-marked) !important;
+  color: #fff !important;
   border-color: #9a6a00;
 }
 
 .palette-btn[data-current="true"] {
   outline: 2px solid var(--status-current);
   outline-offset: 2px;
+}
+
+/* Question Markdown presentation (CBT) */
+.q-md-stem {
+  font-size: 1.05rem;
+  line-height: 1.55;
+  color: var(--cbt-ink);
+}
+
+.q-md-stem p {
+  margin: 0 0 0.75rem;
+}
+
+.q-md-stem p:last-child {
+  margin-bottom: 0;
+}
+
+.q-md-stem table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.75rem 0 1rem;
+  font-size: 0.98rem;
+  background: #f8fafc;
+}
+
+.q-md-stem th,
+.q-md-stem td {
+  border: 1px solid #cbd5e1;
+  padding: 0.55rem 0.75rem;
+  text-align: left;
+  vertical-align: top;
+  white-space: normal;
+}
+
+.q-md-stem th {
+  background: #e8eef5;
+  font-weight: 700;
+}
+
+.q-option-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.15rem 0.35rem;
+  line-height: 1.45;
+}
+
+.q-md-option {
+  display: inline;
+}
+
+.q-md-option-line {
+  display: inline;
+}
+
+.q-md-option p {
+  display: inline;
+  margin: 0;
 }
