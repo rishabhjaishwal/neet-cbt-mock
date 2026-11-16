@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
 :root {
+  --font-ibm-plex: "IBM Plex Sans", "Segoe UI", sans-serif;
+  --font-source-sans: "Source Sans 3", "Segoe UI", sans-serif;
   --cbt-bg: #e8eef5;
   --cbt-panel: #ffffff;
   --cbt-ink: #1a2332;
