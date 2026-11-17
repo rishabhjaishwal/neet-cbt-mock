@@ -6,11 +6,13 @@ async function main() {
   process.env.MONGODB_DB ??= "neet_cbt";
   const { ensureSeeded } = await import("../src/lib/seed");
   await ensureSeeded();
-  const { User, Paper, Question } = await import("../src/lib/models");
+  const { User } = await import("../src/lib/models");
+  const { listMdPapers } = await import("../src/lib/md-paper-store");
+  const papers = await listMdPapers();
   console.log({
     users: await User.countDocuments(),
-    papers: await Paper.countDocuments(),
-    questions: await Question.countDocuments(),
+    mdPapers: papers.length,
+    years: papers.map((p) => p.year),
   });
   process.exit(0);
 }

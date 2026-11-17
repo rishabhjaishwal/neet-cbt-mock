@@ -7,6 +7,7 @@ import { LogoutButton } from "@/components/LogoutButton";
 import { StartAttemptButton } from "@/components/StartAttemptButton";
 import { InstantLink } from "@/components/InstantLink";
 import { DashboardCharts } from "@/components/DashboardCharts";
+import { PaperContentPrefetch } from "@/components/PaperContentPrefetch";
 import { toDashPoints } from "@/lib/dashboard-points";
 
 export default async function DashboardPage({
@@ -115,6 +116,7 @@ export default async function DashboardPage({
   return (
     <div className="desk-shell">
       <div className="desk-shell__paper" aria-hidden />
+      <PaperContentPrefetch years={papers.map((p) => p.year)} />
       <div className="desk-shell__inner">
         <header className="mb-6 flex flex-wrap items-start justify-between gap-4">
           <div>

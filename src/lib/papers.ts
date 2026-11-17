@@ -1,5 +1,9 @@
-import { ensureSeeded } from "./seed";
-import { Paper, Question } from "./models";
+import {
+  getMdPaper,
+  getMdQuestionsForStudent,
+  getMdQuestionsWithKeys,
+  listMdPapers,
+} from "./md-paper-store";
 
 export type PaperRow = {
   year: number;
@@ -14,10 +18,7 @@ export type PaperRow = {
   gaps_json: string;
 };
 
-const paperByYear = new Map<number, PaperRow>();
-let paperListCache: PaperRow[] | null = null;
-
-function mapPaper(p: {
+function mapMeta(p: {
   year: number;
   code: string;
   title: string;
@@ -26,8 +27,8 @@ function mapPaper(p: {
   totalQuestions: number;
   attemptLimit: number;
   structure: string;
-  sourceNote?: string;
-  gaps?: string[];
+  source: string;
+  gaps: string[];
 }): PaperRow {
   return {
     year: p.year,
@@ -38,71 +39,36 @@ function mapPaper(p: {
     total_questions: p.totalQuestions,
     attempt_limit: p.attemptLimit,
     structure: p.structure,
-    source_note: p.sourceNote ?? "",
+    source_note: p.source,
     gaps_json: JSON.stringify(p.gaps ?? []),
   };
 }
 
 export async function listPapers() {
-  // Versioned seed (fast no-op once AppMeta matches).
-  await ensureSeeded();
-  if (paperListCache) return paperListCache;
-  const rows = await Paper.find().sort({ year: -1 }).lean();
-  const mapped = rows.map(mapPaper);
-  paperListCache = mapped;
-  for (const row of mapped) paperByYear.set(row.year, row);
-  return mapped;
+  const rows = await listMdPapers();
+  return rows.map(mapMeta);
 }
 
 export async function getPaper(year: number) {
-  const hit = paperByYear.get(year);
-  if (hit) return hit;
-  await ensureSeeded();
-  const cached = paperByYear.get(year);
-  if (cached) return cached;
-  const p = await Paper.findOne({ year }).lean();
-  if (!p) return null;
-  const row = mapPaper(p);
-  paperByYear.set(year, row);
-  return row;
+  const p = await getMdPaper(year);
+  return p ? mapMeta(p) : null;
 }
 
-const QUESTION_STUDENT_SELECT =
-  "questionKey number subject section topic stem options multiCorrect figureSrc figureKind";
-
 export async function getQuestionsForStudent(year: number) {
-  await ensureSeeded();
-  const rows = await Question.find({ year })
-    .select(QUESTION_STUDENT_SELECT)
-    .sort({ number: 1 })
-    .lean();
-  return rows.map((q) => ({
-    id: String(q._id),
-    questionKey: q.questionKey,
-    number: q.number,
-    subject: q.subject,
-    section: q.section,
-    topic: q.topic,
-    stem: q.stem,
-    options_json: JSON.stringify(q.options ?? {}),
-  }));
+  return getMdQuestionsForStudent(year);
 }
 
 export async function getQuestionsWithKeys(year: number) {
-  await ensureSeeded();
-  const rows = await Question.find({ year })
-    .select(`${QUESTION_STUDENT_SELECT} correctOption`)
-    .sort({ number: 1 })
-    .lean();
+  const rows = await getMdQuestionsWithKeys(year);
   return rows.map((q) => ({
-    id: String(q._id),
+    id: q.id,
     questionKey: q.questionKey,
     number: q.number,
     subject: q.subject,
     section: q.section,
     topic: q.topic,
     stem: q.stem,
-    options_json: JSON.stringify(q.options ?? {}),
+    options_json: q.options_json,
     correct_option: q.correctOption,
   }));
 }

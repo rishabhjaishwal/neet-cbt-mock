@@ -1,5 +1,7 @@
-import { readFile } from "node:fs/promises";
-import path from "node:path";
+import {
+  getMdQuestionMap,
+  type MdQuestion,
+} from "./md-paper-store";
 
 export type PaperQuestionMeta = {
   id: string;
@@ -19,29 +21,36 @@ export type PaperQuestionMeta = {
   studyLinks?: Array<{ label: string; url: string }>;
 };
 
-type PaperFile = {
-  year: number;
-  totalQuestions: number;
-  questions: PaperQuestionMeta[];
-};
-
-const cache = new Map<number, Map<string, PaperQuestionMeta>>();
-
-/** Canonical paper JSON metadata keyed by questionKey (authoritative for display numbers). */
+/** Canonical paper markdown metadata keyed by questionKey. */
 export async function getPaperQuestionMap(
   year: number,
 ): Promise<Map<string, PaperQuestionMeta>> {
-  const hit = cache.get(year);
-  if (hit) return hit;
-
-  const file = path.join(process.cwd(), "data", "papers", `neet-${year}.json`);
-  const raw = JSON.parse(await readFile(file, "utf8")) as PaperFile;
+  const src = await getMdQuestionMap(year);
   const map = new Map<string, PaperQuestionMeta>();
-  for (const q of raw.questions ?? []) {
-    if (q?.id) map.set(q.id, q);
+  for (const [key, q] of src.entries()) {
+    map.set(key, toMeta(q));
   }
-  cache.set(year, map);
   return map;
+}
+
+function toMeta(q: MdQuestion): PaperQuestionMeta {
+  return {
+    id: q.id,
+    number: q.number,
+    subject: q.subject,
+    section: q.section,
+    topic: q.topic,
+    stem: q.stem,
+    options: q.options,
+    correctOption: q.correctOption || "1",
+    correctOptions: q.correctOptions,
+    multiCorrect: q.multiCorrect,
+    answerEstimated: q.answerEstimated,
+    figureSrc: q.figureSrc,
+    figureKind: q.figureKind,
+    solution: q.solution ?? undefined,
+    studyLinks: q.studyLinks ?? undefined,
+  };
 }
 
 /** Prefer paper.number; never surface parked seed sentinels (20xxx/30xxx). */

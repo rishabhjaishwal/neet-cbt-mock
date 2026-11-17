@@ -3,13 +3,14 @@ import { redirect } from "next/navigation";
 import { Types } from "mongoose";
 import { getSession } from "@/lib/auth";
 import { ensureSeeded } from "@/lib/seed";
-import { Attempt, Question } from "@/lib/models";
+import { Attempt } from "@/lib/models";
 import { getPaper } from "@/lib/papers";
 import { scoreBands } from "@/lib/rank";
 import { ResultsMetrics } from "@/components/ResultsMetrics";
 import { QuestionReviewList } from "@/components/QuestionReviewList";
 import { ReviewPagination } from "@/components/ReviewPagination";
 import { getPaperQuestionMap } from "@/lib/paper-content";
+import { getMdQuestionsWithKeys } from "@/lib/md-paper-store";
 import {
   buildReviewIndex,
   filterReviewIndex,
@@ -115,34 +116,54 @@ export default async function ResultsPage({
   const pageInfo = paginateReviewIndex(filtered, query.page, REVIEW_PAGE_SIZE);
   const safeQuery = { ...query, page: pageInfo.page };
 
-  // Full stems / figures / solutions only for this page.
-  const pageQids = pageInfo.slice.map((r) => r.questionId);
-  const pageKeys = pageInfo.slice
-    .map((r) => r.questionKey)
-    .filter(Boolean) as string[];
-  const pageQuestions =
-    pageQids.length > 0
-      ? await Question.find({
-          $or: [
-            { _id: { $in: pageQids } },
-            ...(pageKeys.length ? [{ questionKey: { $in: pageKeys } }] : []),
-          ],
-        })
-          .select(
-            "_id questionKey number subject section topic stem options correctOption correctOptions multiCorrect answerEstimated figureSrc figureKind",
-          )
-          .lean()
-      : [];
+  // Full stems / figures / solutions from MD store (page slice only via hydrate).
+  const mdAll = await getMdQuestionsWithKeys(attempt.year);
+  const pageKeySet = new Set(
+    pageInfo.slice.map((r) => r.questionKey).filter(Boolean) as string[],
+  );
+  const pageIdSet = new Set(pageInfo.slice.map((r) => r.questionId));
+  const pageQuestions = mdAll.filter(
+    (q) => pageKeySet.has(q.questionKey) || pageIdSet.has(q.id),
+  );
   const byId = Object.fromEntries(
-    pageQuestions.map((q) => [String(q._id), q as DbQuestionLite]),
+    pageQuestions.map((q) => [
+      q.id,
+      {
+        questionKey: q.questionKey,
+        number: q.number,
+        subject: q.subject,
+        section: q.section,
+        topic: q.topic,
+        stem: q.stem,
+        options: q.options,
+        correctOption: q.correctOption,
+        correctOptions: q.correctOptions,
+        multiCorrect: q.multiCorrect,
+        answerEstimated: q.answerEstimated,
+        figureSrc: q.figureSrc,
+        figureKind: q.figureKind,
+      } satisfies DbQuestionLite,
+    ]),
   );
   const byKey = Object.fromEntries(
-    pageQuestions
-      .filter((q: { questionKey?: string }) => q.questionKey)
-      .map((q: { questionKey?: string }) => [
-        q.questionKey!,
-        q as DbQuestionLite,
-      ]),
+    pageQuestions.map((q) => [
+      q.questionKey,
+      {
+        questionKey: q.questionKey,
+        number: q.number,
+        subject: q.subject,
+        section: q.section,
+        topic: q.topic,
+        stem: q.stem,
+        options: q.options,
+        correctOption: q.correctOption,
+        correctOptions: q.correctOptions,
+        multiCorrect: q.multiCorrect,
+        answerEstimated: q.answerEstimated,
+        figureSrc: q.figureSrc,
+        figureKind: q.figureKind,
+      } satisfies DbQuestionLite,
+    ]),
   );
 
   const reviewItems = hydrateReviewPage({

@@ -1,10 +1,15 @@
-import { Attempt, Question } from "./models";
+import { Attempt } from "./models";
 import { getPaper } from "./papers";
 import { scoreAttempt } from "./scoring";
 import { isMultiCorrectQuestion, resolveCorrectOptions } from "./multi-correct";
+import {
+  getMdQuestionsWithKeys,
+  objectIdFromQuestionKey,
+} from "./md-paper-store";
 
 type AnswerLike = {
   questionId: unknown;
+  questionKey?: string;
   selectedOption?: string | null;
   selectedOptions?: string[];
   status: string;
@@ -74,7 +79,6 @@ function applyScoreResult(
   result: ReturnType<typeof scoreAttempt>,
 ) {
   const now = new Date();
-  // Instant results: submit is finalized/approved — no examiner gate.
   attempt.status = "approved";
   attempt.submittedAt = now;
   attempt.approvedAt = now;
@@ -113,44 +117,21 @@ export async function finalizeInProgressAttempt(attemptId: string) {
     return attempt;
   }
 
-  const qids = attempt.answers.map((a: { questionId: unknown }) => a.questionId);
-  const keys = attempt.answers
-    .map((a: { questionKey?: string }) => a.questionKey)
-    .filter(Boolean) as string[];
-  const questions = await Question.find({
-    $or: [
-      { _id: { $in: qids } },
-      ...(keys.length ? [{ questionKey: { $in: keys } }] : []),
-    ],
-  }).lean();
-  type QLean = {
-    _id: unknown;
-    questionKey?: string;
-    number?: number;
-    subject?: string;
-    topic?: string;
-    correctOption?: string;
-    correctOptions?: string[];
-    multiCorrect?: boolean;
-  };
-  const qList = questions as QLean[];
-  const byId = Object.fromEntries(qList.map((q) => [String(q._id), q]));
-  const byKey = Object.fromEntries(
-    qList.filter((q) => q.questionKey).map((q) => [q.questionKey!, q]),
-  );
+  const mdQuestions = await getMdQuestionsWithKeys(attempt.year);
+  const byKey = Object.fromEntries(mdQuestions.map((q) => [q.questionKey, q]));
+  const byId = Object.fromEntries(mdQuestions.map((q) => [q.id, q]));
 
-  // Remap stale ObjectIds onto live docs via questionKey before scoring.
   for (const a of attempt.answers as Array<{
     questionId: unknown;
     questionKey?: string;
   }>) {
-    if (byId[String(a.questionId)]) continue;
-    const live = a.questionKey ? byKey[a.questionKey] : undefined;
-    if (live) a.questionId = live._id;
+    if (a.questionKey) {
+      a.questionId = objectIdFromQuestionKey(a.questionKey);
+    }
   }
   attempt.markModified("answers");
 
-  const scoreById: Record<string, QLean> = {};
+  const scoreById: Record<string, (typeof mdQuestions)[number]> = {};
   for (const a of attempt.answers as Array<{
     questionId: unknown;
     questionKey?: string;

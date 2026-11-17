@@ -6,6 +6,7 @@ import { ensureSeeded } from "@/lib/seed";
 import { Attempt } from "@/lib/models";
 import { getPaper, getQuestionsForStudent } from "@/lib/papers";
 import { finalizeInProgressAttempt } from "@/lib/finalize-attempt";
+import { objectIdFromQuestionKey } from "@/lib/md-paper-store";
 
 const schema = z.object({
   year: z.number().int().min(2016).max(2025),
@@ -15,6 +16,7 @@ const schema = z.object({
 
 export async function POST(req: Request) {
   try {
+    // Users only — papers load from content/papers/*.md
     await ensureSeeded();
     const user = await getSession();
     if (!user || user.role !== "student") {
@@ -32,9 +34,25 @@ export async function POST(req: Request) {
       const endsAt = new Date(inProgress.endsAt);
       const remainingMs = endsAt.getTime() - Date.now();
       if (remainingMs <= 0) {
-        // Timer already elapsed — lock + score so the student is not stuck forever.
         await finalizeInProgressAttempt(String(inProgress._id));
       } else {
+        // Remap answer ids to deterministic MD-derived ObjectIds on resume.
+        let changed = 0;
+        for (const row of inProgress.answers as Array<{
+          questionId: unknown;
+          questionKey?: string;
+        }>) {
+          if (!row.questionKey) continue;
+          const liveId = objectIdFromQuestionKey(row.questionKey);
+          if (String(row.questionId) !== String(liveId)) {
+            row.questionId = liveId;
+            changed += 1;
+          }
+        }
+        if (changed) {
+          inProgress.markModified("answers");
+          await inProgress.save();
+        }
         return NextResponse.json({
           attemptId: String(inProgress._id),
           resumed: true,
@@ -50,7 +68,6 @@ export async function POST(req: Request) {
     const prior = await Attempt.find({ userId, year }).sort({ attemptNumber: -1 }).limit(1).lean();
     const latest = prior[0];
     if (latest && latest.status === "submitted" && !retake) {
-      // Legacy pre-instant-results rows: treat scored submits as finished.
       if (latest.score != null) {
         return NextResponse.json(
           {
@@ -72,12 +89,12 @@ export async function POST(req: Request) {
     }
 
     const nextNum = latest ? (latest.attemptNumber ?? 1) + 1 : 1;
-    if (latest && !retake && latest.status === "approved" && nextNum > 1) {
-      // allow retake of approved years explicitly via retake flag from UI
-    }
-
     const ends = new Date(Date.now() + paper.duration_minutes * 60_000);
     const questions = await getQuestionsForStudent(year);
+    if (!questions.length) {
+      return NextResponse.json({ error: "Paper content missing" }, { status: 500 });
+    }
+
     const attempt = await Attempt.create({
       userId,
       year,

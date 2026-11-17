@@ -1,9 +1,9 @@
-import { Question } from "@/lib/models";
 import {
   buildAttemptLimitInfo,
   type RuleQuestion,
 } from "@/lib/attempt-rules";
 import { getPaper } from "@/lib/papers";
+import { getMdQuestionsForStudent } from "@/lib/md-paper-store";
 
 export type AnswerRow = {
   questionId: unknown;
@@ -107,8 +107,8 @@ export async function filterAllowedAnswerUpdates(opts: {
     };
   }
 
-  // Prefer denormalized meta on attempt.answers (new attempts). Fall back to Question.find
-  // only when older attempts lack number/subject/section.
+  // Prefer denormalized meta on attempt.answers (new attempts). Fall back to MD paper
+  // store only when older attempts lack number/subject/section.
   const missingMeta = opts.existingAnswers.some(
     (a) => a.number == null || !a.subject || !a.section,
   );
@@ -117,20 +117,24 @@ export async function filterAllowedAnswerUpdates(opts: {
     { number: number; subject: string; section: string; questionKey?: string }
   > = {};
   if (missingMeta) {
-    const qids = opts.existingAnswers.map((a) => a.questionId);
-    const questions = await Question.find({ _id: { $in: qids } })
-      .select("_id number subject section questionKey")
-      .lean();
+    const md = await getMdQuestionsForStudent(opts.year);
+    const byKey = Object.fromEntries(md.map((q) => [q.questionKey, q]));
+    const byId = Object.fromEntries(md.map((q) => [q.id, q]));
     qById = Object.fromEntries(
-      questions.map((q) => [
-        String(q._id),
-        {
-          number: q.number,
-          subject: q.subject,
-          section: q.section,
-          questionKey: q.questionKey,
-        },
-      ]),
+      opts.existingAnswers.map((a) => {
+        const q =
+          (a.questionKey ? byKey[a.questionKey] : undefined) ||
+          byId[String(a.questionId)];
+        return [
+          String(a.questionId),
+          {
+            number: q?.number ?? 0,
+            subject: q?.subject ?? "Physics",
+            section: q?.section ?? "A",
+            questionKey: a.questionKey || q?.questionKey,
+          },
+        ];
+      }),
     );
   } else {
     qById = Object.fromEntries(
