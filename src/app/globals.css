@@ -422,23 +422,6 @@ button.palette-btn[data-status="marked_answered"],
   border-bottom-color: #0f3558;
 }
 
-.landing-foot {
-  position: absolute;
-  z-index: 3;
-  left: clamp(1.5rem, 8vw, 5.5rem);
-  bottom: 1.1rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem 0.55rem;
-  font-family: "Literata", Georgia, serif;
-  font-size: 0.78rem;
-  color: #6a7a8c;
-}
-
-.landing-foot__sep {
-  opacity: 0.5;
-}
-
 .ink-write {
   opacity: 1;
   animation: brand-ink 0.9s ease both;

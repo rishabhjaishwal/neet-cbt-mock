@@ -82,11 +82,6 @@ export function LandingHero() {
         </div>
       </section>
 
-      <footer className="landing-foot">
-        <span className="landing-foot__note">Demo · examiner@neet.local</span>
-        <span className="landing-foot__sep">·</span>
-        <span className="landing-foot__note">student@neet.local</span>
-      </footer>
     </main>
   );
 }
