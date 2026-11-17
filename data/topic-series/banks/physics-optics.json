@@ -3,60 +3,35 @@
   "subject": "Physics",
   "topic": "Optics",
   "counts": {
-    "Easy": 4,
-    "Medium": 11,
-    "Hard": 3
+    "Easy": 6,
+    "Medium": 6,
+    "Hard": 6
   },
   "questions": {
     "Easy": [
       {
-        "id": "2018-AA-Q116",
+        "id": "2018-AA-Q19",
         "sourceYear": 2018,
-        "sourceNumber": 29,
+        "sourceNumber": 8,
         "subject": "Physics",
         "topic": "Optics",
         "difficulty": "Easy",
-        "stem": "An astronomical refracting telescope will have large angular magnification and high angular resolution, when it has an objective lens of",
+        "stem": "The refractive index of the material of a prism is 2 and the angle of the prism is 30°. One of the two refracting surfaces of the prism is made a mirror inwards, by silver coating. A beam of monochromatic light entering the prism from the other face will retrace its path (after reflection from the silvered surface) if its angle of incidence on the prism is",
         "options": {
-          "1": "small focal length and small diameter",
-          "2": "large focal length and large diameter",
-          "3": "large focal length and small diameter",
-          "4": "small focal length and large diameter OUGH WORK English"
+          "1": "30°",
+          "2": "45°",
+          "3": "60°",
+          "4": "zero"
         },
-        "correctOption": "4",
+        "correctOption": "3",
         "correctOptions": [
-          "4"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q142",
-        "sourceYear": 2018,
-        "sourceNumber": 39,
-        "subject": "Physics",
-        "topic": "Optics",
-        "difficulty": "Easy",
-        "stem": "An astronomical refracting telescope will have large angular magnification and high angular resolution, when it has an objective lens of",
-        "options": {
-          "1": "small focal length and large diameter",
-          "2": "small focal length and small diameter",
-          "3": "large focal length and large diameter",
-          "4": "large focal length and small diameter OUGH WORK English"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -81,7 +56,57 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q105",
+        "sourceYear": 2020,
+        "sourceNumber": 16,
+        "subject": "Physics",
+        "topic": "Optics",
+        "difficulty": "Easy",
+        "stem": "A ray is incident at an angle of incidence i on one surface of a small angle prism (with angle of prism A) and emerges normally from the opposite surface. If the refractive index of the material of the prism is μ, then the angle of incidence is nearly equal to :",
+        "options": {
+          "1": "μA μA",
+          "2": "2 A",
+          "3": "2μ 2A",
+          "4": "μ Hindi+English 4"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q11",
+        "sourceYear": 2021,
+        "sourceNumber": 11,
+        "subject": "Physics",
+        "topic": "Optics",
+        "difficulty": "Easy",
+        "stem": "A convex lens ‘A’ of focal length 20 cm and a concave lens ‘B’ of focal length 5 cm are kept along the same axis with a distance ‘d’ between them. If a parallel beam of light falling on ‘A’ leaves ‘B’ as a parallel beam, then the distance ‘d’ in cm will be :",
+        "options": {
+          "1": "25",
+          "2": "15",
+          "3": "50",
+          "4": "30 5 M1"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -106,11 +131,61 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q48",
+        "sourceYear": 2023,
+        "sourceNumber": 47,
+        "subject": "Physics",
+        "topic": "Optics",
+        "difficulty": "Easy",
+        "stem": "In the figure shown here, what is the equivalent focal length of the combination of lenses (Assume that all layers are thin)?",
+        "options": {
+          "1": "40 cm",
+          "2": "100 cm",
+          "3": "50 cm",
+          "4": "40 cm"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": "/figures/2023-F1-Q48.png",
+        "figureKind": "pdf-crop",
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       }
     ],
     "Medium": [
+      {
+        "id": "2018-AA-Q116",
+        "sourceYear": 2018,
+        "sourceNumber": 29,
+        "subject": "Physics",
+        "topic": "Optics",
+        "difficulty": "Medium",
+        "stem": "An astronomical refracting telescope will have large angular magnification and high angular resolution, when it has an objective lens of",
+        "options": {
+          "1": "small focal length and small diameter",
+          "2": "large focal length and large diameter",
+          "3": "large focal length and small diameter",
+          "4": "small focal length and large diameter OUGH WORK English"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
       {
         "id": "2019-G1-Q153",
         "sourceYear": 2019,
@@ -133,57 +208,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q10",
-        "sourceYear": 2020,
-        "sourceNumber": 4,
-        "subject": "Physics",
-        "topic": "Optics",
-        "difficulty": "Medium",
-        "stem": "A ray is incident at an angle of incidence i on one surface of a small angle prism (with angle of prism A) and emerges normally from the opposite surface. If the refractive index of the material of the prism is μ, then the angle of incidence is nearly equal to : 2A",
-        "options": {
-          "1": "μ",
-          "2": "μA μA",
-          "3": "2 A",
-          "4": "2μ"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q105",
-        "sourceYear": 2020,
-        "sourceNumber": 16,
-        "subject": "Physics",
-        "topic": "Optics",
-        "difficulty": "Medium",
-        "stem": "A ray is incident at an angle of incidence i on one surface of a small angle prism (with angle of prism A) and emerges normally from the opposite surface. If the refractive index of the material of the prism is μ, then the angle of incidence is nearly equal to :",
-        "options": {
-          "1": "μA μA",
-          "2": "2 A",
-          "3": "2μ 2A",
-          "4": "μ Hindi+English 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -208,57 +233,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q142",
-        "sourceYear": 2020,
-        "sourceNumber": 30,
-        "subject": "Physics",
-        "topic": "Optics",
-        "difficulty": "Medium",
-        "stem": "A ray is incident at an angle of incidence i on one surface of a small angle prism (with angle of prism A) and emerges normally from the opposite surface. If the refractive index of the material of the prism is μ, then the angle of incidence is nearly equal to : μA",
-        "options": {
-          "1": "2 A",
-          "2": "2μ 2A",
-          "3": "μ",
-          "4": "μA"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q11",
-        "sourceYear": 2021,
-        "sourceNumber": 11,
-        "subject": "Physics",
-        "topic": "Optics",
-        "difficulty": "Medium",
-        "stem": "A convex lens ‘A’ of focal length 20 cm and a concave lens ‘B’ of focal length 5 cm are kept along the same axis with a distance ‘d’ between them. If a parallel beam of light falling on ‘A’ leaves ‘B’ as a parallel beam, then the distance ‘d’ in cm will be :",
-        "options": {
-          "1": "25",
-          "2": "15",
-          "3": "50",
-          "4": "30 5 M1"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -283,32 +258,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q22",
-        "sourceYear": 2021,
-        "sourceNumber": 21,
-        "subject": "Physics",
-        "topic": "Optics",
-        "difficulty": "Medium",
-        "stem": "A convex lens ‘A’ of focal length 20 cm and a concave lens ‘B’ of focal length 5 cm are kept along the same axis with a distance ‘d’ between them. If a parallel beam of light falling on ‘A’ leaves ‘B’ as a parallel beam, then the distance ‘d’ in cm will be :",
-        "options": {
-          "1": "30",
-          "2": "25",
-          "3": "15",
-          "4": "50"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -333,7 +283,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -358,59 +308,109 @@
         "figureSrc": "/figures/2024-R1-Q6.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q6",
-        "sourceYear": 2025,
-        "sourceNumber": 6,
-        "subject": "Physics",
-        "topic": "Optics",
-        "difficulty": "Medium",
-        "stem": "A light ray enters through a right angled prism at point P with the angle of incidence 30° as shown in figure. It travels through the prism parallel to its base BC and emerges along the face AC. The refractive index of the prism is: 5 3",
-        "options": {
-          "1": "Option 1",
-          "2": "2 4 3 5",
-          "3": "Option 3",
-          "4": "2 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2025-INTERIM-Q6.png",
-        "figureKind": "pdf-crop+from-2024-stem-match",
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       }
     ],
     "Hard": [
       {
-        "id": "2018-AA-Q19",
+        "id": "2018-AA-Q142",
         "sourceYear": 2018,
-        "sourceNumber": 8,
+        "sourceNumber": 39,
         "subject": "Physics",
         "topic": "Optics",
         "difficulty": "Hard",
-        "stem": "The refractive index of the material of a prism is 2 and the angle of the prism is 30°. One of the two refracting surfaces of the prism is made a mirror inwards, by silver coating. A beam of monochromatic light entering the prism from the other face will retrace its path (after reflection from the silvered surface) if its angle of incidence on the prism is",
+        "stem": "An astronomical refracting telescope will have large angular magnification and high angular resolution, when it has an objective lens of",
         "options": {
-          "1": "30°",
-          "2": "45°",
-          "3": "60°",
-          "4": "zero"
+          "1": "small focal length and large diameter",
+          "2": "small focal length and small diameter",
+          "3": "large focal length and large diameter",
+          "4": "large focal length and small diameter OUGH WORK English"
         },
-        "correctOption": "3",
+        "correctOption": "2",
         "correctOptions": [
-          "3"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q10",
+        "sourceYear": 2020,
+        "sourceNumber": 4,
+        "subject": "Physics",
+        "topic": "Optics",
+        "difficulty": "Hard",
+        "stem": "A ray is incident at an angle of incidence i on one surface of a small angle prism (with angle of prism A) and emerges normally from the opposite surface. If the refractive index of the material of the prism is μ, then the angle of incidence is nearly equal to : 2A",
+        "options": {
+          "1": "μ",
+          "2": "μA μA",
+          "3": "2 A",
+          "4": "2μ"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q142",
+        "sourceYear": 2020,
+        "sourceNumber": 30,
+        "subject": "Physics",
+        "topic": "Optics",
+        "difficulty": "Hard",
+        "stem": "A ray is incident at an angle of incidence i on one surface of a small angle prism (with angle of prism A) and emerges normally from the opposite surface. If the refractive index of the material of the prism is μ, then the angle of incidence is nearly equal to : μA",
+        "options": {
+          "1": "2 A",
+          "2": "2μ 2A",
+          "3": "μ",
+          "4": "μA"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q22",
+        "sourceYear": 2021,
+        "sourceNumber": 21,
+        "subject": "Physics",
+        "topic": "Optics",
+        "difficulty": "Hard",
+        "stem": "A convex lens ‘A’ of focal length 20 cm and a concave lens ‘B’ of focal length 5 cm are kept along the same axis with a distance ‘d’ between them. If a parallel beam of light falling on ‘A’ leaves ‘B’ as a parallel beam, then the distance ‘d’ in cm will be :",
+        "options": {
+          "1": "30",
+          "2": "25",
+          "3": "15",
+          "4": "50"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -435,38 +435,39 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q48",
-        "sourceYear": 2023,
-        "sourceNumber": 47,
+        "id": "2025-INTERIM-Q6",
+        "sourceYear": 2025,
+        "sourceNumber": 6,
         "subject": "Physics",
         "topic": "Optics",
         "difficulty": "Hard",
-        "stem": "In the figure shown here, what is the equivalent focal length of the combination of lenses (Assume that all layers are thin)?",
+        "stem": "A light ray enters through a right angled prism at point P with the angle of incidence 30° as shown in figure. It travels through the prism parallel to its base BC and emerges along the face AC. The refractive index of the prism is: 5 3",
         "options": {
-          "1": "40 cm",
-          "2": "100 cm",
-          "3": "50 cm",
-          "4": "40 cm"
+          "1": "Option 1",
+          "2": "2 4 3 5",
+          "3": "Option 3",
+          "4": "2 4"
         },
-        "correctOption": "2",
+        "correctOption": "1",
         "correctOptions": [
-          "2"
+          "1"
         ],
         "multiCorrect": false,
-        "figureSrc": "/figures/2023-F1-Q48.png",
-        "figureKind": "pdf-crop",
+        "figureSrc": "/figures/2025-INTERIM-Q6.png",
+        "figureKind": "pdf-crop+from-2024-stem-match",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       }
     ]
   },
   "gaps": [
-    "Easy: have 4 clean items (need 10+ to start)",
-    "Hard: have 3 clean items (need 10+ to start)"
+    "Easy: have 6 clean items (need 10+ to start)",
+    "Medium: have 6 clean items (need 10+ to start)",
+    "Hard: have 6 clean items (need 10+ to start)"
   ]
 }

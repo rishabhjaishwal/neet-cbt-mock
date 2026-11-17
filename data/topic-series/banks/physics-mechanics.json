@@ -3,60 +3,110 @@
   "subject": "Physics",
   "topic": "Mechanics",
   "counts": {
-    "Easy": 13,
-    "Medium": 19,
-    "Hard": 13
+    "Easy": 14,
+    "Medium": 14,
+    "Hard": 14
   },
   "questions": {
     "Easy": [
       {
-        "id": "2018-AA-Q130",
+        "id": "2018-AA-Q20",
         "sourceYear": 2018,
-        "sourceNumber": 36,
+        "sourceNumber": 9,
         "subject": "Physics",
         "topic": "Mechanics",
         "difficulty": "Easy",
-        "stem": "If the mass of the Sun were ten times smaller and the universal gravitational constant were ten times larger in magnitude, which of the following is not correct ?",
+        "stem": "A toy car with charge q moves on a frictionless horizontal plane surface under the influence of a → → uniform electric field E . Due to the force q E , its velocity increases from 0 to 6 m/s in one second duration. At that instant the direction of the field is reversed. The car continues to move for two more seconds under the influence of this field. The average velocity and the average speed of the toy car between 0 to 3 seconds are respectively",
         "options": {
-          "1": "‘g’ on the Earth will not change.",
-          "2": "Time period of a simple pendulum on the Earth would decrease.",
-          "3": "Walking on the ground would become more difficult.",
-          "4": "Raindrops will fall faster."
+          "1": "2 m/s, 4 m/s",
+          "2": "1 m/s, 3 m/s",
+          "3": "1 m/s, 3·5 m/s",
+          "4": "1·5 m/s, 3 m/s"
         },
-        "correctOption": "2",
+        "correctOption": "4",
         "correctOptions": [
-          "2"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2020-E1-Q38",
-        "sourceYear": 2020,
-        "sourceNumber": 7,
+        "id": "2018-AA-Q129",
+        "sourceYear": 2018,
+        "sourceNumber": 35,
         "subject": "Physics",
         "topic": "Mechanics",
         "difficulty": "Easy",
-        "stem": "Find the torque about the origin when a force of ∧ 3 j N acts on a particle whose position vector is ∧ 2k m . ∧",
+        "stem": "A solid sphere is in rolling motion. In rolling motion a body possesses translational kinetic energy (Kt) as well as rotational kinetic energy (Kr) simultaneously. The ratio Kt : (Kt + Kr) for the sphere is",
         "options": {
-          "1": "6j Nm ∧",
-          "2": "−6 i N m ∧",
-          "3": "6k N m ∧",
-          "4": "6i N m"
+          "1": "2:5",
+          "2": "10 : 7",
+          "3": "5:7",
+          "4": "7 : 10"
         },
-        "correctOption": "2",
+        "correctOption": "1",
         "correctOptions": [
-          "2"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2019-G1-Q138",
+        "sourceYear": 2019,
+        "sourceNumber": 4,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "difficulty": "Easy",
+        "stem": "A mass falls from a height 'h' and its time of fall 't' is recorded in terms of time period T of a simple pendulum. On the surface of earth it is found that t = 2T. The entire set up is taken on the surface of another planet whose mass is half of that of earth and radius the same. Same experiment is repeated and corresponding times noted as t' and T'. Then we can say",
+        "options": {
+          "1": "t' = 2T '",
+          "2": "t' > 2T '",
+          "3": "t' < 2T'",
+          "4": "t' = 2T '"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2019-G1-Q158",
+        "sourceYear": 2019,
+        "sourceNumber": 23,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "difficulty": "Easy",
+        "stem": "An object of mass 500 g, initially at rest, is acted upon by a variable force whose X-component varies with X in the manner shown. The velocities of the object at the points X = 8 m and X = 12 m, would have the respective values of (nearly)",
+        "options": {
+          "1": "18 m/s and 24.4 m/s",
+          "2": "23 m/s and 24.4 m/s",
+          "3": "23 m/s and 20.6 m/s",
+          "4": "18 m/s and 20.6 m/s"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -81,57 +131,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q100",
-        "sourceYear": 2020,
-        "sourceNumber": 13,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Easy",
-        "stem": "The phase difference between displacement and acceleration of a particle in a simple harmonic motion is : π",
-        "options": {
-          "1": "rad 2",
-          "2": "zero",
-          "3": "π rad 3π",
-          "4": "rad 2 3 F1"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q116",
-        "sourceYear": 2020,
-        "sourceNumber": 20,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Easy",
-        "stem": "A body weighs 72 N on the surface of the earth. What is the gravitational force on it, at a height equal to half the radius of the earth ?",
-        "options": {
-          "1": "30 N",
-          "2": "24 N",
-          "3": "48 N",
-          "4": "32 N"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -156,22 +156,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q20",
-        "sourceYear": 2023,
-        "sourceNumber": 19,
+        "id": "2022-RECON-Q155",
+        "sourceYear": 2022,
+        "sourceNumber": 14,
         "subject": "Physics",
         "topic": "Mechanics",
         "difficulty": "Easy",
-        "stem": "A football player is moving southward and suddenly turns eastward with the same speed to avoid an opponent. The force that acts on the player while turning is",
+        "stem": "A truck is stationary and has a bob suspended by a light string, in a frame attached to the truck. The truck, suddenly moves to the right with an acceleration of a. The pendulum will tilt –1 ⎛ g ⎞",
         "options": {
-          "1": "Along northward",
-          "2": "Along north-east",
-          "3": "Along south-west",
-          "4": "Along eastward"
+          "1": "to the left and angle of inclination of the pendulum with the vertical is sin ⎜ ⎟ ⎝a⎠ –1 ⎛ a ⎞",
+          "2": "to the left and angle of inclination of the pendulum with the vertical is tan ⎜⎜ ⎟⎟ ⎝g⎠ –1 ⎛ a ⎞",
+          "3": "to the left and angle of inclination of the pendulum with the vertical is sin ⎜⎜ ⎟⎟ ⎝g⎠ –1 ⎛ g ⎞",
+          "4": "to the left and angle of inclination of the pendulum with the vertical is tan ⎜ ⎟ ⎝a⎠"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -181,7 +181,82 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2022-RECON-Q186",
+        "sourceYear": 2022,
+        "sourceNumber": 41,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "difficulty": "Easy",
+        "stem": "Assuming that the gravitational potential energy of an object at infinity is zero, the change in potential energy (final – initial) of an object of mass m, when taken to a height h from the surface of earth (of radius R), is given by : GMm GMm h GMm",
+        "options": {
+          "1": "− R + h",
+          "2": "Option 2",
+          "3": "mgh",
+          "4": "R + h R(R + h)"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q35",
+        "sourceYear": 2023,
+        "sourceNumber": 34,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "difficulty": "Easy",
+        "stem": "Two bodies of mass m and 9m are placed at a distance R. The gravitational potential on the line joining the bodies where the gravitational field equals zero, will be (G = gravitational constant) 12 Gm 16 Gm",
+        "options": {
+          "1": "−",
+          "2": "− R R 20 Gm 8 Gm",
+          "3": "−",
+          "4": "− R R"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q50",
+        "sourceYear": 2023,
+        "sourceNumber": 49,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "difficulty": "Easy",
+        "stem": "The x-t graph of a particle performing simple harmonic motion is shown in the figure. The acceleration of the particle at t = 2 s is π2",
+        "options": {
+          "1": "m s –2 8 π2",
+          "2": "m s –2 16 π2",
+          "3": "m s –2 16 π2",
+          "4": "m s –2 8"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": "/figures/2023-F1-Q50.png",
+        "figureKind": "pdf-crop",
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -206,32 +281,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q29",
-        "sourceYear": 2024,
-        "sourceNumber": 26,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Easy",
-        "stem": "If x = 5sin ⎜ πt + ⎟ m represents the motion of a particle executing simple harmonic motion, the amplitude ⎝ 3 ⎠ and time period of motion, respectively, are",
-        "options": {
-          "1": "5 m, 2 s",
-          "2": "5 cm, 1 s",
-          "3": "5 m, 1 s",
-          "4": "5 cm, 2 s"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -256,22 +306,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q20",
+        "id": "2025-INTERIM-Q8",
         "sourceYear": 2025,
-        "sourceNumber": 17,
+        "sourceNumber": 8,
         "subject": "Physics",
         "topic": "Mechanics",
         "difficulty": "Easy",
-        "stem": "At any instant of time t, the displacement of any particle is given by 2t – 1 (SI unit) under the influence of force of 5 N. The value of instantaneous power is (in SI unit):",
+        "stem": "A thin flat circular disc of radius 4.5 cm is placed gently over the surface of water. If surface tension of water is 0.07 N m–1, then the excess force required to take it away from the surface is",
         "options": {
-          "1": "5",
-          "2": "7",
-          "3": "6",
-          "4": "10"
+          "1": "198 N",
+          "2": "1.98 mN",
+          "3": "99 N",
+          "4": "19.8 mN"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -281,7 +331,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -306,99 +356,24 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q38",
-        "sourceYear": 2025,
-        "sourceNumber": 35,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Easy",
-        "stem": "The velocity (v) – time (t) plot of the motion of a body is shown below: The acceleration (a) – time (t) graph that best suits this motion is : - 17 - NEET (UG)-2024 (Code-R1)",
-        "options": {
-          "1": "Option 1",
-          "2": "Option 2",
-          "3": "Option 3",
-          "4": "Option 4"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       }
     ],
     "Medium": [
       {
-        "id": "2017-A-Q19",
-        "sourceYear": 2017,
-        "sourceNumber": 16,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Medium",
-        "stem": "A physical quantity of the dimensions of length that e2 C can be formed out of c, G and is [c is velocity 4πε0 q1 + q2 q+0 Vc = = of light, G is universal constant of gravitation and e C1 + C2 C + C is charge] V 1 Vc = 2 1 ⎡ e2 ⎤ 2",
-        "options": {
-          "1": "2 ⎢G ⎥ Initial energy c ⎣ 4πε0 ⎦ 1 1 Ui = CV 2 ⎡ e2 ⎤ 2 2",
-          "2": "c 2 ⎢G ⎥ Final energy ⎣ 4πε0 ⎦ 1 2 2 1 ⎛V ⎞ 1 ⎛V ⎞ 1 ⎡ e2 ⎤ 2 Uf = C ⎜ ⎟ + C ⎜ ⎟",
-          "3": "2 ⎢ ⎥ 2 ⎝2⎠ 2 ⎝2⎠ c ⎣ G 4πε0 ⎦ CV 2 1 e2 =",
-          "4": "G 4 c 4πε0 Loss of energy = Ui – Uf"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q129",
+        "id": "2018-AA-Q34",
         "sourceYear": 2018,
-        "sourceNumber": 35,
+        "sourceNumber": 14,
         "subject": "Physics",
         "topic": "Mechanics",
         "difficulty": "Medium",
-        "stem": "A solid sphere is in rolling motion. In rolling motion a body possesses translational kinetic energy (Kt) as well as rotational kinetic energy (Kr) simultaneously. The ratio Kt : (Kt + Kr) for the sphere is",
+        "stem": "A toy car with charge q moves on a frictionless horizontal plane surface under the influence of a → → uniform electric field E . Due to the force q E , its velocity increases from 0 to 6 m/s in one second duration. At that instant the direction of the field is reversed. The car continues to move for two more seconds under the influence of this field. The average velocity and the average speed of the toy car between 0 to 3 seconds are respectively",
         "options": {
-          "1": "2:5",
-          "2": "10 : 7",
-          "3": "5:7",
-          "4": "7 : 10"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q178",
-        "sourceYear": 2018,
-        "sourceNumber": 45,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Medium",
-        "stem": "A solid sphere is in rolling motion. In rolling motion a body possesses translational kinetic energy (Kt) as well as rotational kinetic energy (Kr) simultaneously. The ratio Kt : (Kt + Kr) for the sphere is",
-        "options": {
-          "1": "7 : 10",
-          "2": "2:5",
-          "3": "10 : 7",
-          "4": "5:7"
+          "1": "1 m/s, 3·5 m/s",
+          "2": "1 m/s, 3 m/s",
+          "3": "2 m/s, 4 m/s",
+          "4": "1·5 m/s, 3 m/s"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -408,7 +383,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2018-AA-Q130",
+        "sourceYear": 2018,
+        "sourceNumber": 36,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "difficulty": "Medium",
+        "stem": "If the mass of the Sun were ten times smaller and the universal gravitational constant were ten times larger in magnitude, which of the following is not correct ?",
+        "options": {
+          "1": "‘g’ on the Earth will not change.",
+          "2": "Time period of a simple pendulum on the Earth would decrease.",
+          "3": "Walking on the ground would become more difficult.",
+          "4": "Raindrops will fall faster."
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -433,57 +433,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q156",
-        "sourceYear": 2019,
-        "sourceNumber": 21,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Medium",
-        "stem": "A body of mass m is kept on a rough horizontal surface (coefficient of friction = μ). A horizontal force is applied on the body, but it does not move. The resultant of normal reaction and the frictional force acting on the object is given by F, where F is, ρ ρ ρ 2 ρ",
-        "options": {
-          "1": "| F |= mg + μmg",
-          "2": "| F |= μmg",
-          "3": "| F | ≤ mg 1 + μ",
-          "4": "| F | = mg"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q158",
-        "sourceYear": 2019,
-        "sourceNumber": 23,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Medium",
-        "stem": "An object of mass 500 g, initially at rest, is acted upon by a variable force whose X-component varies with X in the manner shown. The velocities of the object at the points X = 8 m and X = 12 m, would have the respective values of (nearly)",
-        "options": {
-          "1": "18 m/s and 24.4 m/s",
-          "2": "23 m/s and 24.4 m/s",
-          "3": "23 m/s and 20.6 m/s",
-          "4": "18 m/s and 20.6 m/s"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -508,7 +458,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q100",
+        "sourceYear": 2020,
+        "sourceNumber": 13,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "difficulty": "Medium",
+        "stem": "The phase difference between displacement and acceleration of a particle in a simple harmonic motion is : π",
+        "options": {
+          "1": "rad 2",
+          "2": "zero",
+          "3": "π rad 3π",
+          "4": "rad 2 3 F1"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -533,32 +508,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q155",
-        "sourceYear": 2022,
-        "sourceNumber": 14,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Medium",
-        "stem": "A truck is stationary and has a bob suspended by a light string, in a frame attached to the truck. The truck, suddenly moves to the right with an acceleration of a. The pendulum will tilt –1 ⎛ g ⎞",
-        "options": {
-          "1": "to the left and angle of inclination of the pendulum with the vertical is sin ⎜ ⎟ ⎝a⎠ –1 ⎛ a ⎞",
-          "2": "to the left and angle of inclination of the pendulum with the vertical is tan ⎜⎜ ⎟⎟ ⎝g⎠ –1 ⎛ a ⎞",
-          "3": "to the left and angle of inclination of the pendulum with the vertical is sin ⎜⎜ ⎟⎟ ⎝g⎠ –1 ⎛ g ⎞",
-          "4": "to the left and angle of inclination of the pendulum with the vertical is tan ⎜ ⎟ ⎝a⎠"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -583,72 +533,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q168",
-        "sourceYear": 2022,
-        "sourceNumber": 23,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Medium",
-        "stem": "An object of mass 500 g, initially at rest, is acted upon by a variable force whose X-component varies with X in the manner shown. The velocities of the object at the points X = 8 m and X = 12 m, would have the respective values of (nearly)",
-        "options": {
-          "1": "18 m/s and 24.4 m/s",
-          "2": "23 m/s and 24.4 m/s",
-          "3": "23 m/s and 20.6 m/s",
-          "4": "18 m/s and 20.6 m/s"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q32",
+        "id": "2023-F1-Q20",
         "sourceYear": 2023,
-        "sourceNumber": 31,
+        "sourceNumber": 19,
         "subject": "Physics",
         "topic": "Mechanics",
         "difficulty": "Medium",
-        "stem": "An electric dipole is placed at an angle of 30° with an electric field of intensity 2 × 105 N C–1. It experiences a torque equal to 4 N m. Calculate the magnitude of charge on the dipole, if the dipole length is 2 cm.",
+        "stem": "A football player is moving southward and suddenly turns eastward with the same speed to avoid an opponent. The force that acts on the player while turning is",
         "options": {
-          "1": "6 mC",
-          "2": "4 mC",
-          "3": "2 mC",
-          "4": "8 mC"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q35",
-        "sourceYear": 2023,
-        "sourceNumber": 34,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Medium",
-        "stem": "Two bodies of mass m and 9m are placed at a distance R. The gravitational potential on the line joining the bodies where the gravitational field equals zero, will be (G = gravitational constant) 12 Gm 16 Gm",
-        "options": {
-          "1": "−",
-          "2": "− R R 20 Gm 8 Gm",
-          "3": "−",
-          "4": "− R R"
+          "1": "Along northward",
+          "2": "Along north-east",
+          "3": "Along south-west",
+          "4": "Along eastward"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -658,7 +558,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q38",
+        "sourceYear": 2023,
+        "sourceNumber": 37,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "difficulty": "Medium",
+        "stem": "Calculate the maximum acceleration of a moving car so that a body lying on the floor of the car remains stationary. The coefficient of static friction between the body and the floor is 0.15 (g = 10 m s–2).",
+        "options": {
+          "1": "150 m s–2",
+          "2": "1.5 m s–2",
+          "3": "50 m s–2",
+          "4": "1.2 m s–2"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -683,32 +608,7 @@
         "figureSrc": "/figures/2024-R1-Q1.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q8",
-        "sourceYear": 2024,
-        "sourceNumber": 8,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Medium",
-        "stem": "A thin flat circular disc of radius 4.5 cm is placed gently over the surface of water. If surface tension of water is 0.07 N m–1, then the excess force required to take it away from the surface is",
-        "options": {
-          "1": "198 N",
-          "2": "1.98 mN",
-          "3": "99 N",
-          "4": "19.8 mN"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -733,47 +633,47 @@
         "figureSrc": "/figures/2024-R1-Q26.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q1",
-        "sourceYear": 2025,
-        "sourceNumber": 1,
+        "id": "2024-R1-Q40",
+        "sourceYear": 2024,
+        "sourceNumber": 37,
         "subject": "Physics",
         "topic": "Mechanics",
         "difficulty": "Medium",
-        "stem": "A wheel of a bullock cart is rolling on a level road as shown in the figure below. If its linear speed is ν in the direction shown, which one of the following options is correct (P and Q are any highest and lowest points on the wheel, respectively)?",
+        "stem": "A force defined by F = αt2 + βt acts on a particle at a given time t. The factor which is dimensionless, if α and β are constants, is:",
         "options": {
-          "1": "Point P moves faster than point Q",
-          "2": "Both the points P and Q move with equal speed",
-          "3": "Point P has zero speed",
-          "4": "Point P moves slower than point Q"
+          "1": "αt",
+          "2": "αβt β",
+          "3": "αβ",
+          "4": "βt t α"
         },
         "correctOption": "1",
         "correctOptions": [
           "1"
         ],
         "multiCorrect": false,
-        "figureSrc": "/figures/2025-INTERIM-Q1.png",
-        "figureKind": "pdf-crop+from-2024-stem-match",
+        "figureSrc": null,
+        "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q8",
+        "id": "2025-INTERIM-Q20",
         "sourceYear": 2025,
-        "sourceNumber": 8,
+        "sourceNumber": 17,
         "subject": "Physics",
         "topic": "Mechanics",
         "difficulty": "Medium",
-        "stem": "A thin flat circular disc of radius 4.5 cm is placed gently over the surface of water. If surface tension of water is 0.07 N m–1, then the excess force required to take it away from the surface is",
+        "stem": "At any instant of time t, the displacement of any particle is given by 2t – 1 (SI unit) under the influence of force of 5 N. The value of instantaneous power is (in SI unit):",
         "options": {
-          "1": "198 N",
-          "2": "1.98 mN",
-          "3": "99 N",
-          "4": "19.8 mN"
+          "1": "5",
+          "2": "7",
+          "3": "6",
+          "4": "10"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -783,136 +683,36 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q26",
+        "id": "2025-INTERIM-Q38",
         "sourceYear": 2025,
-        "sourceNumber": 23,
+        "sourceNumber": 35,
         "subject": "Physics",
         "topic": "Mechanics",
         "difficulty": "Medium",
-        "stem": "A horizontal force 10 N is applied to a block A as shown in figure. The mass of blocks A and B are 2 kg and 3 kg respectively. The blocks slide over a frictionless surface. The force exerted by block A on block B is :",
+        "stem": "The velocity (v) – time (t) plot of the motion of a body is shown below: The acceleration (a) – time (t) graph that best suits this motion is : - 17 - NEET (UG)-2024 (Code-R1)",
         "options": {
-          "1": "4N",
-          "2": "6N",
-          "3": "10 N",
-          "4": "Zero"
+          "1": "Option 1",
+          "2": "Option 2",
+          "3": "Option 3",
+          "4": "Option 4"
         },
         "correctOption": "2",
         "correctOptions": [
           "2"
         ],
         "multiCorrect": false,
-        "figureSrc": "/figures/2025-INTERIM-Q26.png",
-        "figureKind": "pdf-crop+from-2024-stem-match",
+        "figureSrc": null,
+        "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       }
     ],
     "Hard": [
-      {
-        "id": "2017-A-Q7",
-        "sourceYear": 2017,
-        "sourceNumber": 4,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Hard",
-        "stem": "One end of string of length l is connected to a R2 particle of mass ‘m’ and the other end is connected to a small peg on a smooth horizontal table. If the 18 = particle moves in circle with speed ‘v’, the net force 9 on the particle (directed towards center) will be =2A (T represents the tension in the string) Note : Not correctly framed but the best option out",
-        "options": {
-          "1": "0",
-          "2": "5 m/s2",
-          "3": "T − l",
-          "4": "Zero"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2017-A-Q10",
-        "sourceYear": 2017,
-        "sourceNumber": 7,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Hard",
-        "stem": "Suppose the charge of a proton and an electron differ 20 V slightly. One of them is –e, the other is (e + Δe). If the net of electrostatic force and gravitational force A B A B A B A B between two hydrogen atoms placed at a distance d (much greater than atomic size) apart is zero, then Δe is of the order of [Given mass of hydrogen 10 V 30 V 10 V 30 V 10 V 30 V 20 V 40 V mh = 1.67 × 10–27 kg] (a) (b) (c) (d) (1) 10–20 C A positive charge is moved from A to B in each (2) 10–23 C diagram.",
-        "options": {
-          "1": "Maximum work is required to move q in figure (c).",
-          "2": "In all the four cases the work done is the same.",
-          "3": "10–37 C",
-          "4": "10–47 C"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q20",
-        "sourceYear": 2018,
-        "sourceNumber": 9,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Hard",
-        "stem": "A toy car with charge q moves on a frictionless horizontal plane surface under the influence of a → → uniform electric field E . Due to the force q E , its velocity increases from 0 to 6 m/s in one second duration. At that instant the direction of the field is reversed. The car continues to move for two more seconds under the influence of this field. The average velocity and the average speed of the toy car between 0 to 3 seconds are respectively",
-        "options": {
-          "1": "2 m/s, 4 m/s",
-          "2": "1 m/s, 3 m/s",
-          "3": "1 m/s, 3·5 m/s",
-          "4": "1·5 m/s, 3 m/s"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q34",
-        "sourceYear": 2018,
-        "sourceNumber": 14,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Hard",
-        "stem": "A toy car with charge q moves on a frictionless horizontal plane surface under the influence of a → → uniform electric field E . Due to the force q E , its velocity increases from 0 to 6 m/s in one second duration. At that instant the direction of the field is reversed. The car continues to move for two more seconds under the influence of this field. The average velocity and the average speed of the toy car between 0 to 3 seconds are respectively",
-        "options": {
-          "1": "1 m/s, 3·5 m/s",
-          "2": "1 m/s, 3 m/s",
-          "3": "2 m/s, 4 m/s",
-          "4": "1·5 m/s, 3 m/s"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
       {
         "id": "2018-AA-Q100",
         "sourceYear": 2018,
@@ -935,22 +735,97 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2019-G1-Q138",
-        "sourceYear": 2019,
-        "sourceNumber": 4,
+        "id": "2018-AA-Q178",
+        "sourceYear": 2018,
+        "sourceNumber": 45,
         "subject": "Physics",
         "topic": "Mechanics",
         "difficulty": "Hard",
-        "stem": "A mass falls from a height 'h' and its time of fall 't' is recorded in terms of time period T of a simple pendulum. On the surface of earth it is found that t = 2T. The entire set up is taken on the surface of another planet whose mass is half of that of earth and radius the same. Same experiment is repeated and corresponding times noted as t' and T'. Then we can say",
+        "stem": "A solid sphere is in rolling motion. In rolling motion a body possesses translational kinetic energy (Kt) as well as rotational kinetic energy (Kr) simultaneously. The ratio Kt : (Kt + Kr) for the sphere is",
         "options": {
-          "1": "t' = 2T '",
-          "2": "t' > 2T '",
-          "3": "t' < 2T'",
-          "4": "t' = 2T '"
+          "1": "7 : 10",
+          "2": "2:5",
+          "3": "10 : 7",
+          "4": "5:7"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2019-G1-Q156",
+        "sourceYear": 2019,
+        "sourceNumber": 21,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "difficulty": "Hard",
+        "stem": "A body of mass m is kept on a rough horizontal surface (coefficient of friction = μ). A horizontal force is applied on the body, but it does not move. The resultant of normal reaction and the frictional force acting on the object is given by F, where F is, ρ ρ ρ 2 ρ",
+        "options": {
+          "1": "| F |= mg + μmg",
+          "2": "| F |= μmg",
+          "3": "| F | ≤ mg 1 + μ",
+          "4": "| F | = mg"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q38",
+        "sourceYear": 2020,
+        "sourceNumber": 7,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "difficulty": "Hard",
+        "stem": "Find the torque about the origin when a force of ∧ 3 j N acts on a particle whose position vector is ∧ 2k m . ∧",
+        "options": {
+          "1": "6j Nm ∧",
+          "2": "−6 i N m ∧",
+          "3": "6k N m ∧",
+          "4": "6i N m"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q116",
+        "sourceYear": 2020,
+        "sourceNumber": 20,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "difficulty": "Hard",
+        "stem": "A body weighs 72 N on the surface of the earth. What is the gravitational force on it, at a height equal to half the radius of the earth ?",
+        "options": {
+          "1": "30 N",
+          "2": "24 N",
+          "3": "48 N",
+          "4": "32 N"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -959,8 +834,8 @@
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -985,57 +860,57 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q186",
+        "id": "2022-RECON-Q168",
         "sourceYear": 2022,
-        "sourceNumber": 41,
+        "sourceNumber": 23,
         "subject": "Physics",
         "topic": "Mechanics",
         "difficulty": "Hard",
-        "stem": "Assuming that the gravitational potential energy of an object at infinity is zero, the change in potential energy (final – initial) of an object of mass m, when taken to a height h from the surface of earth (of radius R), is given by : GMm GMm h GMm",
+        "stem": "An object of mass 500 g, initially at rest, is acted upon by a variable force whose X-component varies with X in the manner shown. The velocities of the object at the points X = 8 m and X = 12 m, would have the respective values of (nearly)",
         "options": {
-          "1": "− R + h",
-          "2": "Option 2",
-          "3": "mgh",
-          "4": "R + h R(R + h)"
+          "1": "18 m/s and 24.4 m/s",
+          "2": "23 m/s and 24.4 m/s",
+          "3": "23 m/s and 20.6 m/s",
+          "4": "18 m/s and 20.6 m/s"
         },
-        "correctOption": "2",
+        "correctOption": "3",
         "correctOptions": [
-          "2"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q38",
+        "id": "2023-F1-Q32",
         "sourceYear": 2023,
-        "sourceNumber": 37,
+        "sourceNumber": 31,
         "subject": "Physics",
         "topic": "Mechanics",
         "difficulty": "Hard",
-        "stem": "Calculate the maximum acceleration of a moving car so that a body lying on the floor of the car remains stationary. The coefficient of static friction between the body and the floor is 0.15 (g = 10 m s–2).",
+        "stem": "An electric dipole is placed at an angle of 30° with an electric field of intensity 2 × 105 N C–1. It experiences a torque equal to 4 N m. Calculate the magnitude of charge on the dipole, if the dipole length is 2 cm.",
         "options": {
-          "1": "150 m s–2",
-          "2": "1.5 m s–2",
-          "3": "50 m s–2",
-          "4": "1.2 m s–2"
+          "1": "6 mC",
+          "2": "4 mC",
+          "3": "2 mC",
+          "4": "8 mC"
         },
-        "correctOption": "2",
+        "correctOption": "3",
         "correctOptions": [
-          "2"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1060,47 +935,47 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q50",
-        "sourceYear": 2023,
-        "sourceNumber": 49,
+        "id": "2024-R1-Q8",
+        "sourceYear": 2024,
+        "sourceNumber": 8,
         "subject": "Physics",
         "topic": "Mechanics",
         "difficulty": "Hard",
-        "stem": "The x-t graph of a particle performing simple harmonic motion is shown in the figure. The acceleration of the particle at t = 2 s is π2",
+        "stem": "A thin flat circular disc of radius 4.5 cm is placed gently over the surface of water. If surface tension of water is 0.07 N m–1, then the excess force required to take it away from the surface is",
         "options": {
-          "1": "m s –2 8 π2",
-          "2": "m s –2 16 π2",
-          "3": "m s –2 16 π2",
-          "4": "m s –2 8"
+          "1": "198 N",
+          "2": "1.98 mN",
+          "3": "99 N",
+          "4": "19.8 mN"
         },
-        "correctOption": "3",
+        "correctOption": "4",
         "correctOptions": [
-          "3"
+          "4"
         ],
         "multiCorrect": false,
-        "figureSrc": "/figures/2023-F1-Q50.png",
-        "figureKind": "pdf-crop",
+        "figureSrc": null,
+        "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2024-R1-Q40",
+        "id": "2024-R1-Q29",
         "sourceYear": 2024,
-        "sourceNumber": 37,
+        "sourceNumber": 26,
         "subject": "Physics",
         "topic": "Mechanics",
         "difficulty": "Hard",
-        "stem": "A force defined by F = αt2 + βt acts on a particle at a given time t. The factor which is dimensionless, if α and β are constants, is:",
+        "stem": "If x = 5sin ⎜ πt + ⎟ m represents the motion of a particle executing simple harmonic motion, the amplitude ⎝ 3 ⎠ and time period of motion, respectively, are",
         "options": {
-          "1": "αt",
-          "2": "αβt β",
-          "3": "αβ",
-          "4": "βt t α"
+          "1": "5 m, 2 s",
+          "2": "5 cm, 1 s",
+          "3": "5 m, 1 s",
+          "4": "5 cm, 2 s"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -1110,7 +985,57 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q1",
+        "sourceYear": 2025,
+        "sourceNumber": 1,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "difficulty": "Hard",
+        "stem": "A wheel of a bullock cart is rolling on a level road as shown in the figure below. If its linear speed is ν in the direction shown, which one of the following options is correct (P and Q are any highest and lowest points on the wheel, respectively)?",
+        "options": {
+          "1": "Point P moves faster than point Q",
+          "2": "Both the points P and Q move with equal speed",
+          "3": "Point P has zero speed",
+          "4": "Point P moves slower than point Q"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": "/figures/2025-INTERIM-Q1.png",
+        "figureKind": "pdf-crop+from-2024-stem-match",
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q26",
+        "sourceYear": 2025,
+        "sourceNumber": 23,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "difficulty": "Hard",
+        "stem": "A horizontal force 10 N is applied to a block A as shown in figure. The mass of blocks A and B are 2 kg and 3 kg respectively. The blocks slide over a frictionless surface. The force exerted by block A on block B is :",
+        "options": {
+          "1": "4N",
+          "2": "6N",
+          "3": "10 N",
+          "4": "Zero"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": "/figures/2025-INTERIM-Q26.png",
+        "figureKind": "pdf-crop+from-2024-stem-match",
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1135,7 +1060,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       }
     ]

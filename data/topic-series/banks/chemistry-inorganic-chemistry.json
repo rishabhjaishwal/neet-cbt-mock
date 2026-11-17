@@ -3,9 +3,9 @@
   "subject": "Chemistry",
   "topic": "Inorganic Chemistry",
   "counts": {
-    "Easy": 8,
-    "Medium": 9,
-    "Hard": 19
+    "Easy": 12,
+    "Medium": 12,
+    "Hard": 12
   },
   "questions": {
     "Easy": [
@@ -31,97 +31,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2018-AA-Q139",
+        "id": "2018-AA-Q169",
         "sourceYear": 2018,
-        "sourceNumber": 60,
+        "sourceNumber": 82,
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
         "difficulty": "Easy",
-        "stem": "The geometry and magnetic behaviour of the complex [Ni(CO)4] are",
+        "stem": "Iron exhibits bcc structure at room temperature. Above 900°C, it transforms to fcc structure. The ratio of density of iron at room temperature to that at 900°C (assuming molar mass and atomic radii of iron remains constant with temperature) is 1",
         "options": {
-          "1": "tetrahedral geometry and paramagnetic",
-          "2": "square planar geometry and paramagnetic",
-          "3": "tetrahedral geometry and diamagnetic",
-          "4": "square planar geometry and diamagnetic"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q105",
-        "sourceYear": 2019,
-        "sourceNumber": 60,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Easy",
-        "stem": "Aluminium chloride in acidified aqueous solution forms a complex ‘A’, in which hybridisation state of Al is ‘B’. What are ‘A’ and ‘B’ respectively ? 3+ 3 2 3+ 3",
-        "options": {
-          "1": "[Al(H 2 O) 6 ] , sp d",
-          "2": "[Al(H 2 O) 4 ] , sp 3+ 2 3+ 2 3",
-          "3": "[Al(H 2 O) 4 ] , dsp",
-          "4": "[Al(H 2 O) 6 ] , d sp"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q123",
-        "sourceYear": 2020,
-        "sourceNumber": 61,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Easy",
-        "stem": "The average thermal energy for a mono-atomic gas is : (kB is Boltzmann constant and T, absolute temperature) 5",
-        "options": {
-          "1": "kBT 2 7",
-          "2": "kBT 2 1",
-          "3": "kBT 2 3",
-          "4": "kBT 2 Hindi+English 8"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q145",
-        "sourceYear": 2020,
-        "sourceNumber": 69,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Easy",
-        "stem": "Which of the following is the correct order of increasing field strength of ligands to form coordination compounds ?",
-        "options": {
-          "1": "F− < SCN− < C2O42−< CN−",
-          "2": "CN− < C2O42−< SCN− < F−",
-          "3": "SCN− < F− < C2O42− < CN−",
-          "4": "SCN− < F− < CN− < C2O42−"
+          "1": "2 3 3",
+          "2": "4 2 4 3",
+          "3": "3 2 3",
+          "4": "2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -131,7 +56,57 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q110",
+        "sourceYear": 2020,
+        "sourceNumber": 54,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "difficulty": "Easy",
+        "stem": "A mixture of N2 and Ar gases in a cylinder contains 7 g of N2 and 8 g of Ar. If the total pressure of the mixture of the gases in the cylinder is 27 bar, the partial pressure of N2 is : [Use atomic masses (in g mol−1) : N=14, Ar=40]",
+        "options": {
+          "1": "9 bar",
+          "2": "12 bar",
+          "3": "15 bar",
+          "4": "18 bar"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q151",
+        "sourceYear": 2020,
+        "sourceNumber": 73,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "difficulty": "Easy",
+        "stem": "A mixture of N2 and Ar gases in a cylinder contains 7 g of N2 and 8 g of Ar. If the total pressure of the mixture of the gases in the cylinder is 27 bar, the partial pressure of N2 is : [Use atomic masses (in g mol−1) : N=14, Ar=40]",
+        "options": {
+          "1": "15 bar",
+          "2": "18 bar",
+          "3": "9 bar",
+          "4": "12 bar 5 F1"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -156,22 +131,47 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q61",
+        "id": "2023-F1-Q65",
         "sourceYear": 2023,
-        "sourceNumber": 61,
+        "sourceNumber": 65,
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
         "difficulty": "Easy",
-        "stem": "Homoleptic complex from the following complexes is",
+        "stem": "Select the correct statements from the following A. Atoms of all elements are composed of two fundamental particles. B. The mass of the electron is 9.10939 × 10–31 kg. C. All the isotopes of a given element show same chemical properties: D. Protons and electrons are collectively known as nucleons. E. Dalton’s atomic theory, regarded the atom as an ultimate particles of matter Choose the correct answer from the options given below",
         "options": {
-          "1": "Diamminechloridonitrito-N-platinum (II)",
-          "2": "Pentaamminecarbonatocobalt (III) chloride",
-          "3": "Triamminetriaquachromium (III) chloride",
-          "4": "Potassium trioxalatoaluminate (III)"
+          "1": "C, D and E only",
+          "2": "A and E only",
+          "3": "B, C and E only",
+          "4": "A, B and C only"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q158",
+        "sourceYear": 2023,
+        "sourceNumber": 99,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "difficulty": "Easy",
+        "stem": "Match List I with List II. List I List II A. P-wave I. Beginning of systole B. Q-wave II. Repolarisation of ventricles C. QRS complex III. Depolarisation of atria D. T-wave IV. Depolarisation of ventricles Choose the correct answer from the options given below :",
+        "options": {
+          "1": "A-IV, B-III, C-II, D-I",
+          "2": "A-II, B-IV, C-I, D-III",
+          "3": "A-I, B-II, C-III, D-IV",
+          "4": "A-III, B-I, C-IV, D-II"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -181,22 +181,97 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q83",
-        "sourceYear": 2023,
-        "sourceNumber": 82,
+        "id": "2024-R1-Q77",
+        "sourceYear": 2024,
+        "sourceNumber": 74,
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
         "difficulty": "Easy",
-        "stem": "The right option for the mass of CO2 produced by heating 20 g of 20% pure limestone is (Atomic mass of Ca = 40) ⎡⎣CaCO 3 ⎯⎯⎯ 1200 K ⎯→ CaO + CO2 ⎤⎦",
+        "stem": "Given below are two statements : Statement I: Both [Co(NH3)6]3+ and [CoF6]3– complexes are octahedral but differ in their magnetic behaviour. Statement II: [Co(NH3)6]3+ is diamagnetic whereas [CoF6]3– is paramagnetic. In the light of the above statements, choose the correct answer from the options given below:",
         "options": {
-          "1": "1.76 g",
-          "2": "2.64 g",
-          "3": "1.32 g",
-          "4": "1.12 g"
+          "1": "Both Statement I and Statement II are false",
+          "2": "Statement I is true but Statement II is false",
+          "3": "Statement I is false but Statement II is true",
+          "4": "Both Statement I and Statement II are true - 36 - NEET (UG)-2024 (Code-R1)"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2024-R1-Q130",
+        "sourceYear": 2024,
+        "sourceNumber": 97,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "difficulty": "Easy",
+        "stem": "Given below are two statements: Statement I : Chromosomes become gradually visible under light microscope during leptotene stage. Statement II : The beginning of diplotene stage is recognized by dissolution of synaptonemal complex. In the light of the above statements, choose the correct answer from the options given below:",
+        "options": {
+          "1": "Both Statement I and Statement II are false",
+          "2": "Statement I is true but Statement II is false",
+          "3": "Statement I is false but Statement II is true",
+          "4": "Both Statement I and Statement II are true"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2024-R1-Q198",
+        "sourceYear": 2024,
+        "sourceNumber": 100,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "difficulty": "Easy",
+        "stem": "Regarding catalytic cycle of an enzyme action, select the correct sequential steps : A. Substrate enzyme complex formation. B. Free enzyme ready to bind with another substrate. C. Release of products. D. Chemical bonds of the substrate broken. E. Substrate binding to active site. Choose the correct answer from the options given below :",
+        "options": {
+          "1": "A, E, B, D, C",
+          "2": "B, A, C, D, E",
+          "3": "E, D, C, B, A",
+          "4": "E, A, D, C, B"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q90",
+        "sourceYear": 2025,
+        "sourceNumber": 86,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "difficulty": "Easy",
+        "stem": "A compound X contains 32% of A, 20% of B and remaining percentage of C. Then, the empirical formula of X is : (Given atomic masses of A = 64; B = 40; C = 32 u)",
+        "options": {
+          "1": "ABC3",
+          "2": "AB2C2",
+          "3": "ABC4",
+          "4": "A2BC2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -206,59 +281,59 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q163",
+        "sourceYear": 2025,
+        "sourceNumber": 98,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "difficulty": "Easy",
+        "stem": "Match List I with List II : List I List II (Sub Phases of Prophase I) (Specific Characters) A. Diakinesis I. Synaptonemal complex formation B. Pachytene II. Completion of terminalisation of chiasmata C. Zygotene III. Chromosomes look like thin threads D. Leptotene IV. Appearance of recombination nodules Choose the correct answer from the options given below",
+        "options": {
+          "1": "A-I, B-II, C-IV, D-III",
+          "2": "A-II, B-IV, C-I, D-III",
+          "3": "A-IV, B-III, C-II, D-I",
+          "4": "A-IV, B-II, C-III, D-I"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       }
     ],
     "Medium": [
       {
-        "id": "2018-AA-Q161",
+        "id": "2018-AA-Q139",
         "sourceYear": 2018,
-        "sourceNumber": 76,
+        "sourceNumber": 60,
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
         "difficulty": "Medium",
-        "stem": "Iron exhibits bcc structure at room temperature. Above 900°C, it transforms to fcc structure. The ratio of density of iron at room temperature to that at 900°C (assuming molar mass and atomic radii of iron remains constant with temperature) is 3",
+        "stem": "The geometry and magnetic behaviour of the complex [Ni(CO)4] are",
         "options": {
-          "1": "2 4 3",
-          "2": "3 2 3 3",
-          "3": "4 2 1",
-          "4": "2"
+          "1": "tetrahedral geometry and paramagnetic",
+          "2": "square planar geometry and paramagnetic",
+          "3": "tetrahedral geometry and diamagnetic",
+          "4": "square planar geometry and diamagnetic"
         },
-        "correctOption": "1",
+        "correctOption": "3",
         "correctOptions": [
-          "1"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q169",
-        "sourceYear": 2018,
-        "sourceNumber": 82,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Medium",
-        "stem": "Iron exhibits bcc structure at room temperature. Above 900°C, it transforms to fcc structure. The ratio of density of iron at room temperature to that at 900°C (assuming molar mass and atomic radii of iron remains constant with temperature) is 1",
-        "options": {
-          "1": "2 3 3",
-          "2": "4 2 4 3",
-          "3": "3 2 3",
-          "4": "2"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -283,47 +358,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2020-E1-Q110",
+        "id": "2020-E1-Q123",
         "sourceYear": 2020,
-        "sourceNumber": 54,
+        "sourceNumber": 61,
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
         "difficulty": "Medium",
-        "stem": "A mixture of N2 and Ar gases in a cylinder contains 7 g of N2 and 8 g of Ar. If the total pressure of the mixture of the gases in the cylinder is 27 bar, the partial pressure of N2 is : [Use atomic masses (in g mol−1) : N=14, Ar=40]",
+        "stem": "The average thermal energy for a mono-atomic gas is : (kB is Boltzmann constant and T, absolute temperature) 5",
         "options": {
-          "1": "9 bar",
-          "2": "12 bar",
-          "3": "15 bar",
-          "4": "18 bar"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q151",
-        "sourceYear": 2020,
-        "sourceNumber": 73,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Medium",
-        "stem": "A mixture of N2 and Ar gases in a cylinder contains 7 g of N2 and 8 g of Ar. If the total pressure of the mixture of the gases in the cylinder is 27 bar, the partial pressure of N2 is : [Use atomic masses (in g mol−1) : N=14, Ar=40]",
-        "options": {
-          "1": "15 bar",
-          "2": "18 bar",
-          "3": "9 bar",
-          "4": "12 bar 5 F1"
+          "1": "kBT 2 7",
+          "2": "kBT 2 1",
+          "3": "kBT 2 3",
+          "4": "kBT 2 Hindi+English 8"
         },
         "correctOption": "3",
         "correctOptions": [
@@ -333,7 +383,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -358,93 +408,16 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
-      {
-        "id": "2022-RECON-Q111",
-        "sourceYear": 2022,
-        "sourceNumber": 61,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Medium",
-        "stem": "Match the catalyst with the pocess : Catalys Process (i) V2O5 (a) The oxidation of ethyne to ethanal (ii) TiCl4 + Al(CH3)3 (b) Polymerisation (iii) PdCl2 (c) Oxidation of SO2 in the manufacture of H2SO4 (iv) Nickel complexes (d) Polymerisation of ethylene",
-        "options": {
-          "1": "(i)– (c), (ii)– (d), (iii)– (a), (iv)– (b)",
-          "2": "(i)– (a), (ii)– (b), (iii)– (c), (iv)– (d)",
-          "3": "(i)– (a), (ii)– (c), (iii)– (b), (iv)– (d)",
-          "4": "(i)– (c), (ii)– (a), (iii)– (d), (iv)– (b)"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q77",
-        "sourceYear": 2024,
-        "sourceNumber": 74,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Medium",
-        "stem": "Given below are two statements : Statement I: Both [Co(NH3)6]3+ and [CoF6]3– complexes are octahedral but differ in their magnetic behaviour. Statement II: [Co(NH3)6]3+ is diamagnetic whereas [CoF6]3– is paramagnetic. In the light of the above statements, choose the correct answer from the options given below:",
-        "options": {
-          "1": "Both Statement I and Statement II are false",
-          "2": "Statement I is true but Statement II is false",
-          "3": "Statement I is false but Statement II is true",
-          "4": "Both Statement I and Statement II are true - 36 - NEET (UG)-2024 (Code-R1)"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q77",
-        "sourceYear": 2025,
-        "sourceNumber": 74,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Medium",
-        "stem": "Given below are two statements : Statement I: Both [Co(NH3)6]3+ and [CoF6]3– complexes are octahedral but differ in their magnetic behaviour. Statement II: [Co(NH3)6]3+ is diamagnetic whereas [CoF6]3– is paramagnetic. In the light of the above statements, choose the correct answer from the options given below:",
-        "options": {
-          "1": "Both Statement I and Statement II are false",
-          "2": "Statement I is true but Statement II is false",
-          "3": "Statement I is false but Statement II is true",
-          "4": "Both Statement I and Statement II are true - 36 - NEET (UG)-2024 (Code-R1)"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      }
-    ],
-    "Hard": [
       {
         "id": "2022-RECON-Q160",
         "sourceYear": 2022,
         "sourceNumber": 99,
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "difficulty": "Hard",
+        "difficulty": "Medium",
         "stem": "The value of γ⎜⎜ = ⎟ , for hydrogen helium and another ideal diatomic gas X (whose molecules are not ⎟ ⎝ Cv ⎠ rigid but have an additional vibrational mode), are respectively equal to, 7 5 9 5 7 9 5 7 7 7 5 7",
         "options": {
           "1": ", ,",
@@ -460,32 +433,309 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q65",
+        "id": "2023-F1-Q83",
         "sourceYear": 2023,
-        "sourceNumber": 65,
+        "sourceNumber": 82,
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "difficulty": "Hard",
-        "stem": "Select the correct statements from the following A. Atoms of all elements are composed of two fundamental particles. B. The mass of the electron is 9.10939 × 10–31 kg. C. All the isotopes of a given element show same chemical properties: D. Protons and electrons are collectively known as nucleons. E. Dalton’s atomic theory, regarded the atom as an ultimate particles of matter Choose the correct answer from the options given below",
+        "difficulty": "Medium",
+        "stem": "The right option for the mass of CO2 produced by heating 20 g of 20% pure limestone is (Atomic mass of Ca = 40) ⎡⎣CaCO 3 ⎯⎯⎯ 1200 K ⎯→ CaO + CO2 ⎤⎦",
         "options": {
-          "1": "C, D and E only",
-          "2": "A and E only",
-          "3": "B, C and E only",
-          "4": "A, B and C only"
+          "1": "1.76 g",
+          "2": "2.64 g",
+          "3": "1.32 g",
+          "4": "1.12 g"
         },
-        "correctOption": "3",
+        "correctOption": "1",
         "correctOptions": [
-          "3"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q162",
+        "sourceYear": 2023,
+        "sourceNumber": 100,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "difficulty": "Medium",
+        "stem": "Which of the following are NOT considered as the part of endomembrane system? A. Mitochondria B. Endoplasmic reticulum C. Chloroplasts D. Golgi complex E. Peroxisomes Choose the most appropriate answer from the options given below:",
+        "options": {
+          "1": "A, C and E only",
+          "2": "A and D only",
+          "3": "A, D and E only",
+          "4": "B and D only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2024-R1-Q90",
+        "sourceYear": 2024,
+        "sourceNumber": 86,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "difficulty": "Medium",
+        "stem": "A compound X contains 32% of A, 20% of B and remaining percentage of C. Then, the empirical formula of X is : (Given atomic masses of A = 64; B = 40; C = 32 u)",
+        "options": {
+          "1": "ABC3",
+          "2": "AB2C2",
+          "3": "ABC4",
+          "4": "A2BC2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2024-R1-Q163",
+        "sourceYear": 2024,
+        "sourceNumber": 98,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "difficulty": "Medium",
+        "stem": "Match List I with List II : List I List II (Sub Phases of Prophase I) (Specific Characters) A. Diakinesis I. Synaptonemal complex formation B. Pachytene II. Completion of terminalisation of chiasmata C. Zygotene III. Chromosomes look like thin threads D. Leptotene IV. Appearance of recombination nodules Choose the correct answer from the options given below",
+        "options": {
+          "1": "A-I, B-II, C-IV, D-III",
+          "2": "A-II, B-IV, C-I, D-III",
+          "3": "A-IV, B-III, C-II, D-I",
+          "4": "A-IV, B-II, C-III, D-I"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q56",
+        "sourceYear": 2025,
+        "sourceNumber": 55,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "difficulty": "Medium",
+        "stem": "Match List I with List II. List I (Complex) List II (Type of isomerism) A. [Co(NH3)5(NO2)]Cl2 I. Solvate isomerism B. [Co(NH3)5(SO4)]Br II. Linkage isomerism C. [Co(NH3)6][Cr(CN)6] III. Ionization isomerism D. [Co(H2O)6]Cl3 IV. Coordination isomerism Choose the correct answer from the options given below:",
+        "options": {
+          "1": "A-I, B-III, C-IV, D-II",
+          "2": "A-I, B-IV, C-III, D-II",
+          "3": "A-II, B-IV, C-III, D-I",
+          "4": "A-II, B-III, C-IV, D-I"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q98",
+        "sourceYear": 2025,
+        "sourceNumber": 94,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "difficulty": "Medium",
+        "stem": "Given below are two statements : Statement I : [Co(NH3)6]3+ is a homoleptic complex whereas [Co(NH3)4Cl2]+ is a heteroleptic complex. Statement II : Complex [Co(NH3)6]3+ has only one kind of ligands but [Co(NH3)4Cl2]+ has more than one kind of ligands. In the light of the above statements, choose the correct answer from the options given below.",
+        "options": {
+          "1": "Both Statement I and Statement II are false",
+          "2": "Statement I is true but Statement II is false",
+          "3": "Statement I is false but Statement II is true",
+          "4": "Both Statement I and Statement II are true"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q189",
+        "sourceYear": 2025,
+        "sourceNumber": 99,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "difficulty": "Medium",
+        "stem": "Match List I with List II : List I List II A. P wave I. Heart muscles are electrically silent. B. QRS complex II. Depolarisation of ventricles. C. T wave III. Depolarisation of atria. D. T-P gap IV. Repolarisation of ventricles. Choose the correct answer from the options given below :",
+        "options": {
+          "1": "A-III, B-II, C-IV, D-I",
+          "2": "A-II, B-III, C-I, D-IV",
+          "3": "A-IV, B-II, C-I, D-III",
+          "4": "A-I, B-III, C-IV, D-II"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      }
+    ],
+    "Hard": [
+      {
+        "id": "2018-AA-Q161",
+        "sourceYear": 2018,
+        "sourceNumber": 76,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "difficulty": "Hard",
+        "stem": "Iron exhibits bcc structure at room temperature. Above 900°C, it transforms to fcc structure. The ratio of density of iron at room temperature to that at 900°C (assuming molar mass and atomic radii of iron remains constant with temperature) is 3",
+        "options": {
+          "1": "2 4 3",
+          "2": "3 2 3 3",
+          "3": "4 2 1",
+          "4": "2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2019-G1-Q105",
+        "sourceYear": 2019,
+        "sourceNumber": 60,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "difficulty": "Hard",
+        "stem": "Aluminium chloride in acidified aqueous solution forms a complex ‘A’, in which hybridisation state of Al is ‘B’. What are ‘A’ and ‘B’ respectively ? 3+ 3 2 3+ 3",
+        "options": {
+          "1": "[Al(H 2 O) 6 ] , sp d",
+          "2": "[Al(H 2 O) 4 ] , sp 3+ 2 3+ 2 3",
+          "3": "[Al(H 2 O) 4 ] , dsp",
+          "4": "[Al(H 2 O) 6 ] , d sp"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q145",
+        "sourceYear": 2020,
+        "sourceNumber": 69,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "difficulty": "Hard",
+        "stem": "Which of the following is the correct order of increasing field strength of ligands to form coordination compounds ?",
+        "options": {
+          "1": "F− < SCN− < C2O42−< CN−",
+          "2": "CN− < C2O42−< SCN− < F−",
+          "3": "SCN− < F− < C2O42− < CN−",
+          "4": "SCN− < F− < CN− < C2O42−"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2022-RECON-Q111",
+        "sourceYear": 2022,
+        "sourceNumber": 61,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "difficulty": "Hard",
+        "stem": "Match the catalyst with the pocess : Catalys Process (i) V2O5 (a) The oxidation of ethyne to ethanal (ii) TiCl4 + Al(CH3)3 (b) Polymerisation (iii) PdCl2 (c) Oxidation of SO2 in the manufacture of H2SO4 (iv) Nickel complexes (d) Polymerisation of ethylene",
+        "options": {
+          "1": "(i)– (c), (ii)– (d), (iii)– (a), (iv)– (b)",
+          "2": "(i)– (a), (ii)– (b), (iii)– (c), (iv)– (d)",
+          "3": "(i)– (a), (ii)– (c), (iii)– (b), (iv)– (d)",
+          "4": "(i)– (c), (ii)– (a), (iii)– (d), (iv)– (b)"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q61",
+        "sourceYear": 2023,
+        "sourceNumber": 61,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "difficulty": "Hard",
+        "stem": "Homoleptic complex from the following complexes is",
+        "options": {
+          "1": "Diamminechloridonitrito-N-platinum (II)",
+          "2": "Pentaamminecarbonatocobalt (III) chloride",
+          "3": "Triamminetriaquachromium (III) chloride",
+          "4": "Potassium trioxalatoaluminate (III)"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -510,57 +760,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q158",
-        "sourceYear": 2023,
-        "sourceNumber": 99,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Hard",
-        "stem": "Match List I with List II. List I List II A. P-wave I. Beginning of systole B. Q-wave II. Repolarisation of ventricles C. QRS complex III. Depolarisation of atria D. T-wave IV. Depolarisation of ventricles Choose the correct answer from the options given below :",
-        "options": {
-          "1": "A-IV, B-III, C-II, D-I",
-          "2": "A-II, B-IV, C-I, D-III",
-          "3": "A-I, B-II, C-III, D-IV",
-          "4": "A-III, B-I, C-IV, D-II"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q162",
-        "sourceYear": 2023,
-        "sourceNumber": 100,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Hard",
-        "stem": "Which of the following are NOT considered as the part of endomembrane system? A. Mitochondria B. Endoplasmic reticulum C. Chloroplasts D. Golgi complex E. Peroxisomes Choose the most appropriate answer from the options given below:",
-        "options": {
-          "1": "A, C and E only",
-          "2": "A and D only",
-          "3": "A, D and E only",
-          "4": "B and D only"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -585,32 +785,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q90",
-        "sourceYear": 2024,
-        "sourceNumber": 86,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Hard",
-        "stem": "A compound X contains 32% of A, 20% of B and remaining percentage of C. Then, the empirical formula of X is : (Given atomic masses of A = 64; B = 40; C = 32 u)",
-        "options": {
-          "1": "ABC3",
-          "2": "AB2C2",
-          "3": "ABC4",
-          "4": "A2BC2"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -635,57 +810,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q130",
-        "sourceYear": 2024,
-        "sourceNumber": 97,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Hard",
-        "stem": "Given below are two statements: Statement I : Chromosomes become gradually visible under light microscope during leptotene stage. Statement II : The beginning of diplotene stage is recognized by dissolution of synaptonemal complex. In the light of the above statements, choose the correct answer from the options given below:",
-        "options": {
-          "1": "Both Statement I and Statement II are false",
-          "2": "Statement I is true but Statement II is false",
-          "3": "Statement I is false but Statement II is true",
-          "4": "Both Statement I and Statement II are true"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q163",
-        "sourceYear": 2024,
-        "sourceNumber": 98,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Hard",
-        "stem": "Match List I with List II : List I List II (Sub Phases of Prophase I) (Specific Characters) A. Diakinesis I. Synaptonemal complex formation B. Pachytene II. Completion of terminalisation of chiasmata C. Zygotene III. Chromosomes look like thin threads D. Leptotene IV. Appearance of recombination nodules Choose the correct answer from the options given below",
-        "options": {
-          "1": "A-I, B-II, C-IV, D-III",
-          "2": "A-II, B-IV, C-I, D-III",
-          "3": "A-IV, B-III, C-II, D-I",
-          "4": "A-IV, B-II, C-III, D-I"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -710,97 +835,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2024-R1-Q198",
-        "sourceYear": 2024,
-        "sourceNumber": 100,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Hard",
-        "stem": "Regarding catalytic cycle of an enzyme action, select the correct sequential steps : A. Substrate enzyme complex formation. B. Free enzyme ready to bind with another substrate. C. Release of products. D. Chemical bonds of the substrate broken. E. Substrate binding to active site. Choose the correct answer from the options given below :",
-        "options": {
-          "1": "A, E, B, D, C",
-          "2": "B, A, C, D, E",
-          "3": "E, D, C, B, A",
-          "4": "E, A, D, C, B"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q56",
+        "id": "2025-INTERIM-Q77",
         "sourceYear": 2025,
-        "sourceNumber": 55,
+        "sourceNumber": 74,
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
         "difficulty": "Hard",
-        "stem": "Match List I with List II. List I (Complex) List II (Type of isomerism) A. [Co(NH3)5(NO2)]Cl2 I. Solvate isomerism B. [Co(NH3)5(SO4)]Br II. Linkage isomerism C. [Co(NH3)6][Cr(CN)6] III. Ionization isomerism D. [Co(H2O)6]Cl3 IV. Coordination isomerism Choose the correct answer from the options given below:",
-        "options": {
-          "1": "A-I, B-III, C-IV, D-II",
-          "2": "A-I, B-IV, C-III, D-II",
-          "3": "A-II, B-IV, C-III, D-I",
-          "4": "A-II, B-III, C-IV, D-I"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q90",
-        "sourceYear": 2025,
-        "sourceNumber": 86,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Hard",
-        "stem": "A compound X contains 32% of A, 20% of B and remaining percentage of C. Then, the empirical formula of X is : (Given atomic masses of A = 64; B = 40; C = 32 u)",
-        "options": {
-          "1": "ABC3",
-          "2": "AB2C2",
-          "3": "ABC4",
-          "4": "A2BC2"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q98",
-        "sourceYear": 2025,
-        "sourceNumber": 94,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Hard",
-        "stem": "Given below are two statements : Statement I : [Co(NH3)6]3+ is a homoleptic complex whereas [Co(NH3)4Cl2]+ is a heteroleptic complex. Statement II : Complex [Co(NH3)6]3+ has only one kind of ligands but [Co(NH3)4Cl2]+ has more than one kind of ligands. In the light of the above statements, choose the correct answer from the options given below.",
+        "stem": "Given below are two statements : Statement I: Both [Co(NH3)6]3+ and [CoF6]3– complexes are octahedral but differ in their magnetic behaviour. Statement II: [Co(NH3)6]3+ is diamagnetic whereas [CoF6]3– is paramagnetic. In the light of the above statements, choose the correct answer from the options given below:",
         "options": {
           "1": "Both Statement I and Statement II are false",
           "2": "Statement I is true but Statement II is false",
           "3": "Statement I is false but Statement II is true",
-          "4": "Both Statement I and Statement II are true"
+          "4": "Both Statement I and Statement II are true - 36 - NEET (UG)-2024 (Code-R1)"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -810,7 +860,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -835,57 +885,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q163",
-        "sourceYear": 2025,
-        "sourceNumber": 98,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Hard",
-        "stem": "Match List I with List II : List I List II (Sub Phases of Prophase I) (Specific Characters) A. Diakinesis I. Synaptonemal complex formation B. Pachytene II. Completion of terminalisation of chiasmata C. Zygotene III. Chromosomes look like thin threads D. Leptotene IV. Appearance of recombination nodules Choose the correct answer from the options given below",
-        "options": {
-          "1": "A-I, B-II, C-IV, D-III",
-          "2": "A-II, B-IV, C-I, D-III",
-          "3": "A-IV, B-III, C-II, D-I",
-          "4": "A-IV, B-II, C-III, D-I"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q189",
-        "sourceYear": 2025,
-        "sourceNumber": 99,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Hard",
-        "stem": "Match List I with List II : List I List II A. P wave I. Heart muscles are electrically silent. B. QRS complex II. Depolarisation of ventricles. C. T wave III. Depolarisation of atria. D. T-P gap IV. Repolarisation of ventricles. Choose the correct answer from the options given below :",
-        "options": {
-          "1": "A-III, B-II, C-IV, D-I",
-          "2": "A-II, B-III, C-I, D-IV",
-          "3": "A-IV, B-II, C-I, D-III",
-          "4": "A-I, B-III, C-IV, D-II"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -910,13 +910,10 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       }
     ]
   },
-  "gaps": [
-    "Easy: have 8 clean items (need 10+ to start)",
-    "Medium: have 9 clean items (need 10+ to start)"
-  ]
+  "gaps": []
 }

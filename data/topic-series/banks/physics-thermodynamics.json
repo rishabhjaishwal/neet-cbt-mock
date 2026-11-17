@@ -3,50 +3,75 @@
   "subject": "Physics",
   "topic": "Thermodynamics",
   "counts": {
-    "Easy": 4,
-    "Medium": 10,
-    "Hard": 10
+    "Easy": 8,
+    "Medium": 7,
+    "Hard": 7
   },
   "questions": {
     "Easy": [
       {
-        "id": "2020-E1-Q104",
-        "sourceYear": 2020,
-        "sourceNumber": 15,
+        "id": "2018-AA-Q42",
+        "sourceYear": 2018,
+        "sourceNumber": 18,
         "subject": "Physics",
         "topic": "Thermodynamics",
         "difficulty": "Easy",
-        "stem": "The correct option for free expansion of an ideal gas under adiabatic condition is :",
+        "stem": "A small sphere of radius ‘r’ falls from rest in a viscous liquid. As a result, heat is produced due to viscous force. The rate of production of heat when the sphere attains its terminal velocity, is proportional to 5",
         "options": {
-          "1": "q=0, ∆T=0 and w=0",
-          "2": "q=0, ∆T < 0 and w > 0",
-          "3": "q < 0, ∆T=0 and w=0",
-          "4": "q > 0, ∆T > 0 and w > 0"
+          "1": "r 2",
+          "2": "r 3",
+          "3": "r 4",
+          "4": "r"
         },
-        "correctOption": "4",
+        "correctOption": "2",
         "correctOptions": [
-          "4"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q28",
-        "sourceYear": 2023,
-        "sourceNumber": 27,
+        "id": "2019-G1-Q177",
+        "sourceYear": 2019,
+        "sourceNumber": 42,
         "subject": "Physics",
         "topic": "Thermodynamics",
         "difficulty": "Easy",
-        "stem": "The temperature of a gas is –50°C. To what temperature the gas should be heated so that the rms speed is increased by 3 times?",
+        "stem": "1 g of water, of volume 1 cm at 100ºC, is converted into steam at same temperature under normal 5 3 atmospheric pressure ~ − 1× 10 Pa . The volume of steam formed equals 1671 cm . If the specific latent heat of vaporization of water is 2256 J/g, the change in internal energy is :",
         "options": {
-          "1": "3295°C",
-          "2": "3097 K",
-          "3": "223 K",
-          "4": "669°C"
+          "1": "2423 J",
+          "2": "2089 J",
+          "3": "167 J",
+          "4": "2256 J"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q8",
+        "sourceYear": 2021,
+        "sourceNumber": 8,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "difficulty": "Easy",
+        "stem": "A cup of coffee cools from 908C to 808C in t minutes, when the room temperature is 208C. The time taken by a similar cup of coffee to cool from 808C to 608C at a room temperature same at 208C is : 10",
+        "options": {
+          "1": "t 13 5",
+          "2": "t 13 13",
+          "3": "t 10 13",
+          "4": "t 5"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -56,7 +81,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2022-RECON-Q145",
+        "sourceYear": 2022,
+        "sourceNumber": 8,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "difficulty": "Easy",
+        "stem": "Reversible expansion of an ideal gas under isothermal and adiabatic conditions are as shown in the figure. AB → Isothermal expansion. AC → Adiabatic expansion. Which of the following options is not correct?",
+        "options": {
+          "1": "ΔS_isothermal > ΔS_adiabatic",
+          "2": "T_A = T_B",
+          "3": "W_isothermal > W_adiabatic",
+          "4": "T_C > T_A"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": "/figures/2022-RECON-Q145.svg",
+        "figureKind": "diagram",
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -81,111 +131,86 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q3",
-        "sourceYear": 2025,
-        "sourceNumber": 3,
+        "id": "2024-R1-Q54",
+        "sourceYear": 2024,
+        "sourceNumber": 48,
         "subject": "Physics",
         "topic": "Thermodynamics",
         "difficulty": "Easy",
-        "stem": "A thermodynamic system is taken through the cycle abcda. The work done by the gas along the path bc is:",
+        "stem": "Match List I with List II. List-I List-II (Process) (Conditions) A. Isothermal process I. No heat exchange B. Isochoric process II. Carried out at constant temperature C. Isobaric process III. Carried out at constant volume D. Adiabatic process IV. Carried out at constant pressure Choose the correct answer from the options given below:",
         "options": {
-          "1": "30 J",
-          "2": "90 J",
-          "3": "60 J",
-          "4": "Zero"
+          "1": "A-IV, B-II, C-III, D-I",
+          "2": "A-I, B-II, C-III, D-IV",
+          "3": "A-II, B-III, C-IV, D-I",
+          "4": "A-IV, B-III, C-II, D-I"
         },
-        "correctOption": "4",
+        "correctOption": "3",
         "correctOptions": [
-          "4"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q39",
+        "sourceYear": 2025,
+        "sourceNumber": 36,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "difficulty": "Easy",
+        "stem": "Two heaters A and B have power rating of 1 kW and 2 kW, respectively. Those two are first connected in series and then in parallel to a fixed power source. The ratio of power outputs for these two cases is:",
+        "options": {
+          "1": "2:9",
+          "2": "1:2",
+          "3": "2:3",
+          "4": "1:1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q57",
+        "sourceYear": 2025,
+        "sourceNumber": 49,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "difficulty": "Easy",
+        "stem": "In which of the following processes entropy increases? A. A liquid evaporates to vapour. B. Temperature of a crystalline solid lowered from 130 K to 0 K. C. 2NaHCO3(s) → Na2CO3(s) + CO2(g) + H2O(g) D. Cl2(g) → 2Cl(g) Choose the correct answer from the options given below:",
+        "options": {
+          "1": "A, B and D",
+          "2": "A, C and D",
+          "3": "C and D",
+          "4": "A and C"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       }
     ],
     "Medium": [
-      {
-        "id": "2017-A-Q16",
-        "sourceYear": 2017,
-        "sourceNumber": 13,
-        "subject": "Physics",
-        "topic": "Thermodynamics",
-        "difficulty": "Medium",
-        "stem": "Thermodynamic processes are indicated in the dark fringe lies in air. The refractive index of the following diagram. medium is nearly",
-        "options": {
-          "1": "1.25 P",
-          "2": "1.59 IV i f",
-          "3": "1.69 I III f",
-          "4": "1.78 f II 700 K f 500 K"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2017-A-Q16.png",
-        "figureKind": "page-diagram-crop",
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2017-A-Q27",
-        "sourceYear": 2017,
-        "sourceNumber": 24,
-        "subject": "Physics",
-        "topic": "Thermodynamics",
-        "difficulty": "Medium",
-        "stem": "A Carnot engine having an efficiency of as heat F 10 90° engine, is used as a refrigerator. If the work done on the system is 10 J, the amount of energy absorbed d F from the reservoir at lower temperature is",
-        "options": {
-          "1": "1 J",
-          "2": "90 J A",
-          "3": "99 J",
-          "4": "100 J μ 0I 2 FBC = FBA ="
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q42",
-        "sourceYear": 2018,
-        "sourceNumber": 18,
-        "subject": "Physics",
-        "topic": "Thermodynamics",
-        "difficulty": "Medium",
-        "stem": "A small sphere of radius ‘r’ falls from rest in a viscous liquid. As a result, heat is produced due to viscous force. The rate of production of heat when the sphere attains its terminal velocity, is proportional to 5",
-        "options": {
-          "1": "r 2",
-          "2": "r 3",
-          "3": "r 4",
-          "4": "r"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
       {
         "id": "2019-G1-Q135",
         "sourceYear": 2019,
@@ -208,82 +233,32 @@
         "figureSrc": "/figures/2019-G1-Q135.svg",
         "figureKind": "diagram",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2019-G1-Q177",
-        "sourceYear": 2019,
-        "sourceNumber": 42,
+        "id": "2020-E1-Q104",
+        "sourceYear": 2020,
+        "sourceNumber": 15,
         "subject": "Physics",
         "topic": "Thermodynamics",
         "difficulty": "Medium",
-        "stem": "1 g of water, of volume 1 cm at 100ºC, is converted into steam at same temperature under normal 5 3 atmospheric pressure ~ − 1× 10 Pa . The volume of steam formed equals 1671 cm . If the specific latent heat of vaporization of water is 2256 J/g, the change in internal energy is :",
+        "stem": "The correct option for free expansion of an ideal gas under adiabatic condition is :",
         "options": {
-          "1": "2423 J",
-          "2": "2089 J",
-          "3": "167 J",
-          "4": "2256 J"
+          "1": "q=0, ∆T=0 and w=0",
+          "2": "q=0, ∆T < 0 and w > 0",
+          "3": "q < 0, ∆T=0 and w=0",
+          "4": "q > 0, ∆T > 0 and w > 0"
         },
-        "correctOption": "2",
+        "correctOption": "4",
         "correctOptions": [
-          "2"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q5",
-        "sourceYear": 2021,
-        "sourceNumber": 5,
-        "subject": "Physics",
-        "topic": "Thermodynamics",
-        "difficulty": "Medium",
-        "stem": "A cup of coffee cools from 908C to 808C in t minutes, when the room temperature is 208C. The time taken by a similar cup of coffee to cool from 808C to 608C at a room temperature same at 208C is : 5",
-        "options": {
-          "1": "t 13 13",
-          "2": "t 10 13",
-          "3": "t 5 10",
-          "4": "t 13"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q8",
-        "sourceYear": 2021,
-        "sourceNumber": 8,
-        "subject": "Physics",
-        "topic": "Thermodynamics",
-        "difficulty": "Medium",
-        "stem": "A cup of coffee cools from 908C to 808C in t minutes, when the room temperature is 208C. The time taken by a similar cup of coffee to cool from 808C to 608C at a room temperature same at 208C is : 10",
-        "options": {
-          "1": "t 13 5",
-          "2": "t 13 13",
-          "3": "t 10 13",
-          "4": "t 5"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -308,22 +283,47 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q50",
+        "id": "2022-RECON-Q187",
         "sourceYear": 2022,
-        "sourceNumber": 5,
+        "sourceNumber": 42,
         "subject": "Physics",
         "topic": "Thermodynamics",
         "difficulty": "Medium",
-        "stem": "A cup of coffee cools from 908C to 808C in t minutes, when the room temperature is 208C. The time taken by a similar cup of coffee to cool from 808C to 608C at a room temperature same at 208C is : 5",
+        "stem": "1 g of water, of volume 1 cm at 100ºC, is converted into steam at same temperature under normal 5 3 atmospheric pressure ~ − 1× 10 Pa . The volume of steam formed equals 1671 cm . If the specific latent heat of vaporization of water is 2256 J/g, the change in internal energy is :",
         "options": {
-          "1": "t 13 13",
-          "2": "t 10 13",
-          "3": "t 5 10",
-          "4": "t 13"
+          "1": "2423 J",
+          "2": "2089 J",
+          "3": "167 J",
+          "4": "2256 J"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2024-R1-Q39",
+        "sourceYear": 2024,
+        "sourceNumber": 36,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "difficulty": "Medium",
+        "stem": "Two heaters A and B have power rating of 1 kW and 2 kW, respectively. Those two are first connected in series and then in parallel to a fixed power source. The ratio of power outputs for these two cases is:",
+        "options": {
+          "1": "2:9",
+          "2": "1:2",
+          "3": "2:3",
+          "4": "1:1"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -333,32 +333,57 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q145",
-        "sourceYear": 2022,
-        "sourceNumber": 8,
+        "id": "2024-R1-Q57",
+        "sourceYear": 2024,
+        "sourceNumber": 49,
         "subject": "Physics",
         "topic": "Thermodynamics",
         "difficulty": "Medium",
-        "stem": "Reversible expansion of an ideal gas under isothermal and adiabatic conditions are as shown in the figure. AB → Isothermal expansion. AC → Adiabatic expansion. Which of the following options is not correct?",
+        "stem": "In which of the following processes entropy increases? A. A liquid evaporates to vapour. B. Temperature of a crystalline solid lowered from 130 K to 0 K. C. 2NaHCO3(s) → Na2CO3(s) + CO2(g) + H2O(g) D. Cl2(g) → 2Cl(g) Choose the correct answer from the options given below:",
         "options": {
-          "1": "ΔS_isothermal > ΔS_adiabatic",
-          "2": "T_A = T_B",
-          "3": "W_isothermal > W_adiabatic",
-          "4": "T_C > T_A"
+          "1": "A, B and D",
+          "2": "A, C and D",
+          "3": "C and D",
+          "4": "A and C"
         },
-        "correctOption": "4",
+        "correctOption": "2",
         "correctOptions": [
-          "4"
+          "2"
         ],
         "multiCorrect": false,
-        "figureSrc": "/figures/2019-G1-Q135.svg",
-        "figureKind": "diagram",
+        "figureSrc": null,
+        "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q42",
+        "sourceYear": 2025,
+        "sourceNumber": 39,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "difficulty": "Medium",
+        "stem": "A metallic bar of Young’s modulus, 0.5 × 1011 N m–2 and coefficient of linear thermal expansion 10–5 °C–1, length 1 m and area of cross-section 10–3 m2 is heated from 0°C to 100°C without expansion or bending. The compressive force developed in it is :",
+        "options": {
+          "1": "50 × 103 N",
+          "2": "100 × 103 N",
+          "3": "2 × 103 N",
+          "4": "5 × 103 N"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       }
     ],
@@ -385,47 +410,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q187",
-        "sourceYear": 2022,
-        "sourceNumber": 42,
+        "id": "2021-M1-Q5",
+        "sourceYear": 2021,
+        "sourceNumber": 5,
         "subject": "Physics",
         "topic": "Thermodynamics",
         "difficulty": "Hard",
-        "stem": "1 g of water, of volume 1 cm at 100ºC, is converted into steam at same temperature under normal 5 3 atmospheric pressure ~ − 1× 10 Pa . The volume of steam formed equals 1671 cm . If the specific latent heat of vaporization of water is 2256 J/g, the change in internal energy is :",
+        "stem": "A cup of coffee cools from 908C to 808C in t minutes, when the room temperature is 208C. The time taken by a similar cup of coffee to cool from 808C to 608C at a room temperature same at 208C is : 5",
         "options": {
-          "1": "2423 J",
-          "2": "2089 J",
-          "3": "167 J",
-          "4": "2256 J"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q39",
-        "sourceYear": 2024,
-        "sourceNumber": 36,
-        "subject": "Physics",
-        "topic": "Thermodynamics",
-        "difficulty": "Hard",
-        "stem": "Two heaters A and B have power rating of 1 kW and 2 kW, respectively. Those two are first connected in series and then in parallel to a fixed power source. The ratio of power outputs for these two cases is:",
-        "options": {
-          "1": "2:9",
-          "2": "1:2",
-          "3": "2:3",
-          "4": "1:1"
+          "1": "t 13 13",
+          "2": "t 10 13",
+          "3": "t 5 10",
+          "4": "t 13"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -435,7 +435,57 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2022-RECON-Q50",
+        "sourceYear": 2022,
+        "sourceNumber": 5,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "difficulty": "Hard",
+        "stem": "A cup of coffee cools from 908C to 808C in t minutes, when the room temperature is 208C. The time taken by a similar cup of coffee to cool from 808C to 608C at a room temperature same at 208C is : 5",
+        "options": {
+          "1": "t 13 13",
+          "2": "t 10 13",
+          "3": "t 5 10",
+          "4": "t 13"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q28",
+        "sourceYear": 2023,
+        "sourceNumber": 27,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "difficulty": "Hard",
+        "stem": "The temperature of a gas is –50°C. To what temperature the gas should be heated so that the rms speed is increased by 3 times?",
+        "options": {
+          "1": "3295°C",
+          "2": "3097 K",
+          "3": "223 K",
+          "4": "669°C"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -460,107 +510,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2024-R1-Q54",
-        "sourceYear": 2024,
-        "sourceNumber": 48,
-        "subject": "Physics",
-        "topic": "Thermodynamics",
-        "difficulty": "Hard",
-        "stem": "Match List I with List II. List-I List-II (Process) (Conditions) A. Isothermal process I. No heat exchange B. Isochoric process II. Carried out at constant temperature C. Isobaric process III. Carried out at constant volume D. Adiabatic process IV. Carried out at constant pressure Choose the correct answer from the options given below:",
-        "options": {
-          "1": "A-IV, B-II, C-III, D-I",
-          "2": "A-I, B-II, C-III, D-IV",
-          "3": "A-II, B-III, C-IV, D-I",
-          "4": "A-IV, B-III, C-II, D-I"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q57",
-        "sourceYear": 2024,
-        "sourceNumber": 49,
-        "subject": "Physics",
-        "topic": "Thermodynamics",
-        "difficulty": "Hard",
-        "stem": "In which of the following processes entropy increases? A. A liquid evaporates to vapour. B. Temperature of a crystalline solid lowered from 130 K to 0 K. C. 2NaHCO3(s) → Na2CO3(s) + CO2(g) + H2O(g) D. Cl2(g) → 2Cl(g) Choose the correct answer from the options given below:",
-        "options": {
-          "1": "A, B and D",
-          "2": "A, C and D",
-          "3": "C and D",
-          "4": "A and C"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q39",
+        "id": "2025-INTERIM-Q3",
         "sourceYear": 2025,
-        "sourceNumber": 36,
+        "sourceNumber": 3,
         "subject": "Physics",
         "topic": "Thermodynamics",
         "difficulty": "Hard",
-        "stem": "Two heaters A and B have power rating of 1 kW and 2 kW, respectively. Those two are first connected in series and then in parallel to a fixed power source. The ratio of power outputs for these two cases is:",
+        "stem": "A thermodynamic system is taken through the cycle abcda. The work done by the gas along the path bc is:",
         "options": {
-          "1": "2:9",
-          "2": "1:2",
-          "3": "2:3",
-          "4": "1:1"
+          "1": "30 J",
+          "2": "90 J",
+          "3": "60 J",
+          "4": "Zero"
         },
-        "correctOption": "1",
+        "correctOption": "4",
         "correctOptions": [
-          "1"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q42",
-        "sourceYear": 2025,
-        "sourceNumber": 39,
-        "subject": "Physics",
-        "topic": "Thermodynamics",
-        "difficulty": "Hard",
-        "stem": "A metallic bar of Young’s modulus, 0.5 × 1011 N m–2 and coefficient of linear thermal expansion 10–5 °C–1, length 1 m and area of cross-section 10–3 m2 is heated from 0°C to 100°C without expansion or bending. The compressive force developed in it is :",
-        "options": {
-          "1": "50 × 103 N",
-          "2": "100 × 103 N",
-          "3": "2 × 103 N",
-          "4": "5 × 103 N"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -585,37 +560,14 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q57",
-        "sourceYear": 2025,
-        "sourceNumber": 49,
-        "subject": "Physics",
-        "topic": "Thermodynamics",
-        "difficulty": "Hard",
-        "stem": "In which of the following processes entropy increases? A. A liquid evaporates to vapour. B. Temperature of a crystalline solid lowered from 130 K to 0 K. C. 2NaHCO3(s) → Na2CO3(s) + CO2(g) + H2O(g) D. Cl2(g) → 2Cl(g) Choose the correct answer from the options given below:",
-        "options": {
-          "1": "A, B and D",
-          "2": "A, C and D",
-          "3": "C and D",
-          "4": "A and C"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       }
     ]
   },
   "gaps": [
-    "Easy: have 4 clean items (need 10+ to start)"
+    "Easy: have 8 clean items (need 10+ to start)",
+    "Medium: have 7 clean items (need 10+ to start)",
+    "Hard: have 7 clean items (need 10+ to start)"
   ]
 }

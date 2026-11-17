@@ -3,85 +3,35 @@
   "subject": "Biology",
   "topic": "Genetics & Biotech",
   "counts": {
-    "Easy": 53,
-    "Medium": 25,
-    "Hard": 57
+    "Easy": 44,
+    "Medium": 44,
+    "Hard": 44
   },
   "questions": {
     "Easy": [
       {
-        "id": "2017-A-Q123",
-        "sourceYear": 2017,
-        "sourceNumber": 124,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Easy",
-        "stem": "Which of the following facilitates opening of stomatal (2) DNA molecules without protein coat aperture?",
-        "options": {
-          "1": "Contraction of outer wall of guard cells",
-          "2": "Decrease in turgidity of guard cells",
-          "3": "RNA molecules with protein coat",
-          "4": "RNA molecules without protein coat"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2017-A-Q132",
-        "sourceYear": 2017,
-        "sourceNumber": 133,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Easy",
-        "stem": "A gene whose expression helps to identify",
-        "options": {
-          "1": "Selectable marker",
-          "2": "Vector",
-          "3": "Plasmid",
-          "4": "Structural gene"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q48",
+        "id": "2018-AA-Q22",
         "sourceYear": 2018,
-        "sourceNumber": 117,
+        "sourceNumber": 102,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Easy",
-        "stem": "Many ribosomes may associate with a single mRNA to form multiple copies of a polypeptide simultaneously. Such strings of ribosomes are termed as",
+        "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Herbarium i. It is a place having a collection of preserved plants and animals. b. Key ii. A list that enumerates methodically all the species found in an area with brief description aiding identification. c. Museum iii. Is a place where dried and pressed plant specimens mounted on sheets are kept. d. Catalogue iv. A booklet containing a list of characters and their alternates which are helpful in identification of various taxa. a b c d",
         "options": {
-          "1": "Nucleosome",
-          "2": "Plastidome",
-          "3": "Polyhedral bodies",
-          "4": "Polysome"
+          "1": "iii iv i ii",
+          "2": "ii iv iii i",
+          "3": "iii ii i iv",
+          "4": "i iv iii ii"
         },
-        "correctOption": "4",
+        "correctOption": "2",
         "correctOptions": [
-          "4"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -106,32 +56,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q80",
-        "sourceYear": 2018,
-        "sourceNumber": 147,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Easy",
-        "stem": "AGGTATCGCAT is a sequence from the coding strand of a gene. What will be the corresponding sequence of the transcribed mRNA ?",
-        "options": {
-          "1": "AGGUAUCGCAU",
-          "2": "UGGTUTCGCAT",
-          "3": "ACCUAUGCGAU",
-          "4": "UCCAUAGCGUA OUGH WORK English"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -156,22 +81,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2019-G1-Q14",
-        "sourceYear": 2019,
-        "sourceNumber": 104,
+        "id": "2018-AA-Q134",
+        "sourceYear": 2018,
+        "sourceNumber": 175,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Easy",
-        "stem": "What will be the sequence of mRNA produced by the following stretch of DNA? 3' ATGCATGCATGCATG 5' TEMPLATE STRAND 5' TACGTACGTACGTAC 3' CODING STRAND",
+        "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Herbarium i. It is a place having a collection of preserved plants and animals. b. Key ii. A list that enumerates methodically all the species found in an area with brief description aiding identification. c. Museum iii. Is a place where dried and pressed plant specimens mounted on sheets are kept. d. Catalogue iv. A booklet containing a list of characters and their alternates which are helpful in identification of various taxa. a b c d",
         "options": {
-          "1": "3' AUGCAUGCAUGCAUG 5'",
-          "2": "5' UACGUACGUACGUAC 3'",
-          "3": "3' UACGUACGUACGUAC 5'",
-          "4": "5' AUGCAUGCAUGCAUG 3'"
+          "1": "i iv iii ii",
+          "2": "iii iv i ii",
+          "3": "ii iv iii i",
+          "4": "iii ii i iv"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -180,8 +105,8 @@
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -206,7 +131,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -231,57 +156,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q52",
-        "sourceYear": 2019,
-        "sourceNumber": 142,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Easy",
-        "stem": "Regeneration of damaged growing grass following grazing is largely due to :",
-        "options": {
-          "1": "Lateral meristem",
-          "2": "Apical rneristem",
-          "3": "Intercalary meristem",
-          "4": "Secondary meristem"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q55",
-        "sourceYear": 2019,
-        "sourceNumber": 145,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Easy",
-        "stem": "From the following, identify the correct combination of salient features of Genetic Code",
-        "options": {
-          "1": "Universal, Non-ambiguous,Overlapping",
-          "2": "Degenerate, Overlapping, Commaless",
-          "3": "Universal, Ambiguous, Degenerate",
-          "4": "Degenerate, Non-overlapping, Non ambiguous"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -306,57 +181,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q57",
-        "sourceYear": 2019,
-        "sourceNumber": 147,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Easy",
-        "stem": "In the process of transcription in Eukaryotes, the RNA polymerase I transcribes -",
-        "options": {
-          "1": "mRNA with additional processing, capping and tailing",
-          "2": "tRNA, 5 S rRNA and snRNAs",
-          "3": "rRNAs - 28 S, 18 S and 5.8 S",
-          "4": "Precursor of mRNA, hnRNA"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q58",
-        "sourceYear": 2019,
-        "sourceNumber": 148,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Easy",
-        "stem": "In which genetic condition, each cell in the affected person, has three sex chromosomes XXY?",
-        "options": {
-          "1": "Thalassemia",
-          "2": "Kleinfelter's Syndrome",
-          "3": "Phenylketonuria",
-          "4": "Turner's Syndrome"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -381,47 +206,47 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2019-G1-Q90",
-        "sourceYear": 2019,
-        "sourceNumber": 180,
+        "id": "2020-E1-Q12",
+        "sourceYear": 2020,
+        "sourceNumber": 97,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Easy",
-        "stem": "In RNAi, the genes are silenced using :",
+        "stem": "The plant parts which consist of two generations - one within the other : (a) Pollen grains inside the anther (b) Germinated pollen grain with two male gametes (c) Seed inside the fruit (d) Embryo sac inside the ovule",
         "options": {
-          "1": "ds – RNA",
-          "2": "ss - DNA",
-          "3": "ss – RNA",
-          "4": "ds – DNA"
+          "1": "(a) only",
+          "2": "(a), (b) and (c)",
+          "3": "(c) and (d)",
+          "4": "(a) and (d)"
         },
-        "correctOption": "1",
+        "correctOption": "4",
         "correctOptions": [
-          "1"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2020-E1-Q43",
+        "id": "2020-E1-Q27",
         "sourceYear": 2020,
-        "sourceNumber": 124,
+        "sourceNumber": 110,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Easy",
-        "stem": "Bt cotton variety that was developed by the introduction of toxin gene of Bacillus thuringiensis (Bt) is resistant to :",
+        "stem": "Match the organism with its use in biotechnology. (a) Bacillus (i) Cloning vector thuringiensis (b) Thermus (ii) Construction of aquaticus first rDNA molecule (c) Agrobacterium (iii) DNA polymerase tumefaciens (d) Salmonella (iv) Cry proteins typhimurium Select the correct option from the following : (a) (b) (c) (d)",
         "options": {
-          "1": "Insect pests",
-          "2": "Fungal diseases",
-          "3": "Plant nematodes",
-          "4": "Insect predators 1 E1"
+          "1": "(ii) (iv) (iii) (i)",
+          "2": "(iv) (iii) (i) (ii)",
+          "3": "(iii) (ii) (iv) (i)",
+          "4": "(iii) (iv) (i) (ii)"
         },
         "correctOption": "3",
         "correctOptions": [
@@ -431,47 +256,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2020-E1-Q61",
+        "id": "2020-E1-Q46",
         "sourceYear": 2020,
-        "sourceNumber": 141,
+        "sourceNumber": 126,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Easy",
-        "stem": "How many true breeding pea plant varieties did Mendel select as pairs, which were similar except in one character with contrasting traits ?",
+        "stem": "Match the organism with its use in biotechnology. (a) Bacillus (i) Cloning vector thuringiensis (b) Thermus (ii) Construction of aquaticus first rDNA molecule (c) Agrobacterium (iii) DNA polymerase tumefaciens (d) Salmonella (iv) Cry proteins typhimurium Select the correct option from the following : (a) (b) (c) (d)",
         "options": {
-          "1": "4",
-          "2": "2",
-          "3": "14",
-          "4": "8"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q86",
-        "sourceYear": 2020,
-        "sourceNumber": 166,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Easy",
-        "stem": "Identify the wrong statement with reference to the gene ‘I’ that controls ABO blood groups.",
-        "options": {
-          "1": "A person will have only two of the three alleles.",
-          "2": "When IA and IB are present together, they express same type of sugar.",
-          "3": "Allele ‘i’ does not produce any sugar.",
-          "4": "The gene (I) has three alleles."
+          "1": "(iv) (iii) (i) (ii)",
+          "2": "(iii) (ii) (iv) (i)",
+          "3": "(iii) (iv) (i) (ii)",
+          "4": "(ii) (iv) (iii) (i) Hindi+English 2"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -481,7 +281,57 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q55",
+        "sourceYear": 2020,
+        "sourceNumber": 135,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Easy",
+        "stem": "Match the following columns and select the correct option. Column - I Column - II (a) Bt cotton (i) Gene therapy (b) Adenosine (ii) Cellular defence deaminase deficiency (c) RNAi (iii) Detection of HIV infection (d) PCR (iv) Bacillus thuringiensis (a) (b) (c) (d)",
+        "options": {
+          "1": "(iv) (i) (ii) (iii)",
+          "2": "(iii) (ii) (i) (iv)",
+          "3": "(ii) (iii) (iv) (i)",
+          "4": "(i) (ii) (iii) (iv) Hindi+English 4"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q67",
+        "sourceYear": 2020,
+        "sourceNumber": 147,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Easy",
+        "stem": "Select the correct events that occur during inspiration. (a) Contraction of diaphragm (b) Contraction of external inter-costal muscles (c) Pulmonary volume decreases (d) Intra pulmonary pressure increases",
+        "options": {
+          "1": "(a), (b) and (d)",
+          "2": "only (d)",
+          "3": "(a) and (b)",
+          "4": "(c) and (d) Hindi+English 6"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -506,132 +356,82 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2021-M1-Q103",
+        "id": "2021-M1-Q106",
         "sourceYear": 2021,
-        "sourceNumber": 106,
+        "sourceNumber": 109,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Easy",
-        "stem": "Which of the following is a correct sequence of steps in a PCR (Polymerase Chain Reaction) ?",
+        "stem": "The term used for transfer of pollen grains from anthers of one plant to stigma of a different plant which, during pollination, brings genetically different types of pollen grains to stigma, is :",
         "options": {
-          "1": "Denaturation, Extension, Annealing",
-          "2": "Extension, Denaturation, Annealing",
-          "3": "Annealing, Denaturation, Extension",
-          "4": "Denaturation, Annealing, Extension"
+          "1": "Cleistogamy",
+          "2": "Xenogamy",
+          "3": "Geitonogamy",
+          "4": "Chasmogamy"
         },
-        "correctOption": "3",
+        "correctOption": "2",
         "correctOptions": [
-          "3"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2021-M1-Q107",
+        "id": "2021-M1-Q116",
         "sourceYear": 2021,
-        "sourceNumber": 110,
+        "sourceNumber": 119,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Easy",
-        "stem": "DNA strands on a gel stained with ethidium bromide when viewed under UV radiation, appear as :",
+        "stem": "Match List - I with List - II. List - I List - II Primary constriction in (a) Cristae (i) chromosome Disc-shaped sacs in (b) Thylakoids (ii) Golgi apparatus Infoldings in (c) Centromere (iii) mitochondria Flattened membranous (d) Cisternae (iv) sacs in stroma of plastids Choose the correct answer from the options given below. (a) (b) (c) (d)",
         "options": {
-          "1": "Bright orange bands",
-          "2": "Dark red bands",
-          "3": "Bright blue bands",
-          "4": "Yellow bands"
+          "1": "(iv) (iii) (ii) (i)",
+          "2": "(i) (iv) (iii) (ii)",
+          "3": "(iii) (iv) (i) (ii)",
+          "4": "(ii) (iii) (iv) (i)"
         },
-        "correctOption": "3",
+        "correctOption": "4",
         "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q113",
-        "sourceYear": 2021,
-        "sourceNumber": 116,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Easy",
-        "stem": "Genera like Selaginella and Salvinia produce two kinds of spores. Such plants are known as :",
-        "options": {
-          "1": "Homosorus",
-          "2": "Heterosorus",
-          "3": "Homosporous",
-          "4": "Heterosporous"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2021-M1-Q123",
+        "id": "2021-M1-Q121",
         "sourceYear": 2021,
-        "sourceNumber": 126,
+        "sourceNumber": 124,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Easy",
-        "stem": "DNA strands on a gel stained with ethidium bromide when viewed under UV radiation, appear as :",
+        "stem": "The term used for transfer of pollen grains from anthers of one plant to stigma of a different plant which, during pollination, brings genetically different types of pollen grains to stigma, is :",
         "options": {
-          "1": "Dark red bands",
-          "2": "Bright blue bands",
-          "3": "Yellow bands",
-          "4": "Bright orange bands"
+          "1": "Chasmogamy",
+          "2": "Cleistogamy",
+          "3": "Xenogamy",
+          "4": "Geitonogamy 1 O1"
         },
-        "correctOption": "3",
+        "correctOption": "2",
         "correctOptions": [
-          "3"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q127",
-        "sourceYear": 2021,
-        "sourceNumber": 129,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Easy",
-        "stem": "Which of the following is a correct sequence of steps in a PCR (Polymerase Chain Reaction) ?",
-        "options": {
-          "1": "Denaturation, Annealing, Extension",
-          "2": "Denaturation, Extension, Annealing",
-          "3": "Extension, Denaturation, Annealing",
-          "4": "Annealing, Denaturation, Extension"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -656,7 +456,57 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q144",
+        "sourceYear": 2021,
+        "sourceNumber": 144,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Easy",
+        "stem": "Now a days it is possible to detect the mutated gene causing cancer by allowing radioactive probe to hybridise its complimentary DNA in a clone of cells, followed by its detection using autoradiography because :",
+        "options": {
+          "1": "mutated gene completely and clearly appears on a photographic film.",
+          "2": "mutated gene does not appear on a photographic film as the probe has no complimentarity with it.",
+          "3": "mutated gene does not appear on photographic film as the probe has complimentarity with it.",
+          "4": "mutated gene partially appears on a photographic film. Hindi+English 6"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q150",
+        "sourceYear": 2021,
+        "sourceNumber": 150,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Easy",
+        "stem": "Match List - I with List - II. List - I List - II Proteins are (a) S phase (i) synthesized (b) G2 phase (ii) Inactive phase Interval between (c) Quiescent stage (iii) mitosis and initiation of DNA replication (d) G1 phase (iv) DNA replication Choose the correct answer from the options given below. (a) (b) (c) (d)",
+        "options": {
+          "1": "(ii) (iv) (iii) (i)",
+          "2": "(iii) (ii) (i) (iv)",
+          "3": "(iv) (ii) (iii) (i)",
+          "4": "(iv) (i) (ii) (iii) Hindi+English 6 Section - A (Biology : Zoology)"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -681,7 +531,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -706,57 +556,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2021-M1-Q173",
+        "id": "2021-M1-Q174",
         "sourceYear": 2021,
-        "sourceNumber": 173,
+        "sourceNumber": 174,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Easy",
-        "stem": "In a cross between a male and female, both heterozygous for sickle cell anaemia gene, what percentage of the progeny will be diseased ?",
+        "stem": "Read the following statements. (a) Metagenesis is observed in Helminths. (b) Echinoderms are triploblastic and coelomate animals. (c) Round worms have organ-system level of body organization. (d) Comb plates present in ctenophores help in digestion. (e) Water vascular system is characteristic of Echinoderms. Choose the correct answer from the options given below.",
         "options": {
-          "1": "100%",
-          "2": "50%",
-          "3": "75%",
-          "4": "25%"
+          "1": "(b), (c) and (e) are correct",
+          "2": "(c), (d) and (e) are correct",
+          "3": "(a), (b) and (c) are correct",
+          "4": "(a), (d) and (e) are correct"
         },
-        "correctOption": "1",
+        "correctOption": "2",
         "correctOptions": [
-          "1"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q179",
-        "sourceYear": 2021,
-        "sourceNumber": 179,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Easy",
-        "stem": "In a cross between a male and female, both heterozygous for sickle cell anaemia gene, what percentage of the progeny will be diseased ?",
-        "options": {
-          "1": "25%",
-          "2": "100%",
-          "3": "50%",
-          "4": "75%"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -781,32 +606,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q14",
-        "sourceYear": 2022,
-        "sourceNumber": 114,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Easy",
-        "stem": "What will be the sequence of mRNA produced by the following stretch of DNA? 3' ATGCATGCATGCATG 5' TEMPLATE STRAND 5' TACGTACGTACGTAC 3' CODING STRAND",
-        "options": {
-          "1": "3' AUGCAUGCAUGCAUG 5'",
-          "2": "5' UACGUACGUACGUAC 3'",
-          "3": "3' UACGUACGUACGUAC 5'",
-          "4": "5' AUGCAUGCAUGCAUG 3'"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -831,57 +631,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q57",
+        "id": "2022-RECON-Q36",
         "sourceYear": 2022,
-        "sourceNumber": 152,
+        "sourceNumber": 136,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Easy",
-        "stem": "Regeneration of damaged growing grass following grazing is largely due to :",
+        "stem": "The contrasting characteristics generally in a pair used for identification of animals in Taxonomic Key are referred to as :",
         "options": {
-          "1": "Lateral meristem",
-          "2": "Apical rneristem",
-          "3": "Intercalary meristem",
-          "4": "Secondary meristem"
+          "1": "Lead",
+          "2": "Couplet",
+          "3": "Doublet",
+          "4": "Alternate"
         },
-        "correctOption": "3",
+        "correctOption": "2",
         "correctOptions": [
-          "3"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q60",
-        "sourceYear": 2022,
-        "sourceNumber": 155,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Easy",
-        "stem": "From the following, identify the correct combination of salient features of Genetic Code",
-        "options": {
-          "1": "Universal, Non-ambiguous,Overlapping",
-          "2": "Degenerate, Overlapping, Commaless",
-          "3": "Universal, Ambiguous, Degenerate",
-          "4": "Degenerate, Non-overlapping, Non ambiguous"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -906,57 +681,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q62",
-        "sourceYear": 2022,
-        "sourceNumber": 157,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Easy",
-        "stem": "In the process of transcription in Eukaryotes, the RNA polymerase I transcribes -",
-        "options": {
-          "1": "mRNA with additional processing, capping and tailing",
-          "2": "tRNA, 5 S rRNA and snRNAs",
-          "3": "rRNAs - 28 S, 18 S and 5.8 S",
-          "4": "Precursor of mRNA, hnRNA"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q63",
-        "sourceYear": 2022,
-        "sourceNumber": 158,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Easy",
-        "stem": "In which genetic condition, each cell in the affected person, has three sex chromosomes XXY?",
-        "options": {
-          "1": "Thalassemia",
-          "2": "Kleinfelter's Syndrome",
-          "3": "Phenylketonuria",
-          "4": "Turner's Syndrome"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -981,7 +706,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2022-RECON-Q193",
+        "sourceYear": 2022,
+        "sourceNumber": 197,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Easy",
+        "stem": "Which of the following is a correct sequence of steps in a PCR (Polymerase Chain Reaction) ?",
+        "options": {
+          "1": "Denaturation, Extension, Annealing",
+          "2": "Extension, Denaturation, Annealing",
+          "3": "Annealing, Denaturation, Extension",
+          "4": "Denaturation, Annealing, Extension"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1006,107 +756,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q109",
+        "id": "2023-F1-Q119",
         "sourceYear": 2023,
-        "sourceNumber": 112,
+        "sourceNumber": 122,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Easy",
-        "stem": "In gene gun method used to introduce alien DNA into host cells, microparticles of ________ metal are used.",
+        "stem": "Given below are two statements : Statement I : The forces generated transpiration can lift a xylem-sized column of water over 130 meters height. Statement II : Transpiration cools leaf surfaces sometimes 10 to 15 degrees evaporative cooling. In the light of the above statements, choose the most appropriate answer from the options given below :",
         "options": {
-          "1": "Zinc",
-          "2": "Tungsten or gold",
-          "3": "Silver",
-          "4": "Copper"
+          "1": "Both Statement I and Statement II are incorrect",
+          "2": "Statement I is correct but Statement II is incorrect",
+          "3": "Statement I is incorrect but Statement II is correct",
+          "4": "Both Statement I and Statement II are correct"
         },
-        "correctOption": "2",
+        "correctOption": "4",
         "correctOptions": [
-          "2"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q112",
-        "sourceYear": 2023,
-        "sourceNumber": 115,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Easy",
-        "stem": "Among eukaryotes, replication of DNA takes place in :",
-        "options": {
-          "1": "S phase",
-          "2": "G1 phase",
-          "3": "G2 phase",
-          "4": "M phase"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q121",
-        "sourceYear": 2023,
-        "sourceNumber": 124,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Easy",
-        "stem": "Frequency of recombination between gene pairs on same chromosome as a measure of the distance between genes to map their position on chromosome, was used for the first time by",
-        "options": {
-          "1": "Sutton and Boveri",
-          "2": "Alfred Sturtevant",
-          "3": "Henking",
-          "4": "Thomas Hunt Morgan"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q123",
-        "sourceYear": 2023,
-        "sourceNumber": 126,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Easy",
-        "stem": "Upon exposure to UV radiation, DNA stained with ethidium bromide will show",
-        "options": {
-          "1": "Bright blue colour",
-          "2": "Bright yellow colour",
-          "3": "Bright orange colour",
-          "4": "Bright red colour"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1131,32 +806,107 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2024-R1-Q110",
-        "sourceYear": 2024,
-        "sourceNumber": 114,
+        "id": "2023-F1-Q141",
+        "sourceYear": 2023,
+        "sourceNumber": 144,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Easy",
-        "stem": "A transcription unit in DNA is defined primarily by the three regions in DNA and these are with respect to upstream and down stream end;",
+        "stem": "Given below are two statements: Statement I : Gause’s ‘Competitive Exclusion Principle’ states that two closely related species competing for the same resources cannot co-exist indefinitely and competitively inferior one will be eliminated eventually. Statement II : In general, carnivores are more adversely affected by competition than herbivores. In the light of the above statements, choose the correct answer from the options given below:",
         "options": {
-          "1": "Structural gene, Transposons, Operator gene",
-          "2": "Inducer, Repressor, Structural gene",
-          "3": "Promotor, Structural gene, Terminator",
-          "4": "Repressor, Operator gene, Structural gene"
+          "1": "Both Statement I and Statement II are false.",
+          "2": "Statement I is correct Statement II is false.",
+          "3": "Statement I is incorrec but Statement II is true.",
+          "4": "Both Statement I and Statement II are true."
         },
-        "correctOption": "3",
+        "correctOption": "2",
         "correctOptions": [
-          "3"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q176",
+        "sourceYear": 2023,
+        "sourceNumber": 176,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Easy",
+        "stem": "Given below are two statements: Statement I: RNA mutates at a faster rate. Statement II: Viruses having RNA genome and shorter life span mutate and evolve faster. In the light of the above statements, choose the correct answer from the options given below:",
+        "options": {
+          "1": "Both Statement I and Statement II are false.",
+          "2": "Statement I is true but Statement II is false.",
+          "3": "Statement I is false but Statement II is true.",
+          "4": "Both Statement I and Statement II are true."
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q184",
+        "sourceYear": 2023,
+        "sourceNumber": 184,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Easy",
+        "stem": "Match List I with List II. List I List II A. Gene ‘a’ I. β-galactosidase B. Gene ‘y’ II. Transacetylase C. Gene ‘i’ III. Permease D. Gene ‘z’ IV. Repressor protein Choose the correct answer from the options given below:",
+        "options": {
+          "1": "A-II, B-III, C-IV, D-I",
+          "2": "A-III, B-IV, C-I, D-II",
+          "3": "A-III, B-I, C-IV, D-II",
+          "4": "A-II, B-I, C-IV, D-III"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2024-R1-Q106",
+        "sourceYear": 2024,
+        "sourceNumber": 110,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Easy",
+        "stem": "What is the fate of a piece of DNA carrying only gene of interest which is transferred into an alien organism? A. The piece of DNA would be able to multiply itself independently in the progeny cells of the organism. B. It may get integrated into the genome of the recipient. C. It may multiply and be inherited along with the host DNA. D. The alien piece of DNA is not an integral part of chromosome. E. It shows ability to replicate. Choose the correct answer from the options given below:",
+        "options": {
+          "1": "D and E only",
+          "2": "B and C only",
+          "3": "A and E only",
+          "4": "A and B only"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1181,22 +931,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2024-R1-Q125",
+        "id": "2024-R1-Q127",
         "sourceYear": 2024,
-        "sourceNumber": 129,
+        "sourceNumber": 131,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Easy",
-        "stem": "The capacity to generate a whole plant from any cell of the plant is called:",
+        "stem": "Match List I with List II List-I List-II A. Nucleolus I. Site of formation of glycolipid B. Centriole II. Organization like the cartwheel C. Leucoplasts III. Site for active ribosomal RNA synthesis D. Golgi apparatus IV. For storing nutrients Choose the correct answer from the options given below:",
         "options": {
-          "1": "Micropropagation",
-          "2": "Differentiation",
-          "3": "Somatic hybridization",
-          "4": "Totipotency"
+          "1": "A-II, B-III, C-I, D-IV",
+          "2": "A-III, B-IV, C-II, D-I",
+          "3": "A-I, B-II, C-III, D-IV",
+          "4": "A-III, B-II, C-IV, D-I"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -1206,47 +956,47 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2024-R1-Q178",
+        "id": "2024-R1-Q167",
         "sourceYear": 2024,
-        "sourceNumber": 180,
+        "sourceNumber": 169,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Easy",
-        "stem": "Which one is the correct product of DNA dependent RNA polymerase to the given template? 3’TACATGGCAAATATCCATTCA5’",
+        "stem": "The following diagram showing restriction sites in E. coli cloning vector pBR322. Find the role of ‘X’ and ‘Y’ genes :",
         "options": {
-          "1": "5’AUGUAAAGUUUAUAGGUAAGU3’",
-          "2": "5’AUGUACCGUUUAUAGGGAAGU3’",
-          "3": "5’ATGTACCGTTTATAGGTAAGT3’",
-          "4": "5’AUGUACCGUUUAUAGGUAAGU3’"
+          "1": "The gene ‘X’ is responsible for controlling the copy number of the linked DNA and ‘Y’ for protein involved in the replication of Plasmid.",
+          "2": "The gene ‘X’ is for protein involved in replication of Plasmid and ‘Y’ for resistance to antibiotics.",
+          "3": "Gene ’X’ is responsible for recognitions sites and ‘Y’ is responsible for antibiotic resistance.",
+          "4": "The gene ‘X’ is responsible for resistance to antibiotics and ‘Y’ for protein involved in the replication of Plasmid."
         },
-        "correctOption": "4",
+        "correctOption": "1",
         "correctOptions": [
-          "4"
+          "1"
         ],
         "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
+        "figureSrc": "/figures/2024-R1-Q167.png",
+        "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q110",
-        "sourceYear": 2025,
-        "sourceNumber": 114,
+        "id": "2024-R1-Q195",
+        "sourceYear": 2024,
+        "sourceNumber": 196,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Easy",
-        "stem": "A transcription unit in DNA is defined primarily by the three regions in DNA and these are with respect to upstream and down stream end;",
+        "stem": "Match List I with List II: List I List II A. RNA polymerase III I. snRNPs B. Termination of II. Promotor transcription C. Splicing of Exons III. Rho factor D. TATA box IV. SnRNAs, tRNA Choose the correct answer from the options given below :",
         "options": {
-          "1": "Structural gene, Transposons, Operator gene",
-          "2": "Inducer, Repressor, Structural gene",
-          "3": "Promotor, Structural gene, Terminator",
-          "4": "Repressor, Operator gene, Structural gene"
+          "1": "A-III, B-II, C-IV, D-I",
+          "2": "A-III, B-IV, C-I, D-II",
+          "3": "A-IV, B-III, C-I, D-II",
+          "4": "A-II, B-IV, C-I, D-III"
         },
         "correctOption": "3",
         "correctOptions": [
@@ -1256,22 +1006,47 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q112",
+        "id": "2025-INTERIM-Q109",
         "sourceYear": 2025,
-        "sourceNumber": 116,
+        "sourceNumber": 113,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Easy",
-        "stem": "Hind II always cuts DNA molecules at a particular point called recognition sequence and it consists of:",
+        "stem": "Given below are two statements: Statement I : Bt toxins are insect group specific and coded by a gene cry IAc. Statement II : Bt toxin exists as inactive protoxin in B. thuringiensis. However, after ingestion by the insect the inactive protoxin gets converted into active form due to acidic pH of the insect gut. In the light of the above statements, choose the correct answer from the options given below:",
         "options": {
-          "1": "6 bp",
-          "2": "4 bp",
-          "3": "10 bp",
-          "4": "8 bp"
+          "1": "Both Statement I and Statement II are false",
+          "2": "Statement I is true but Statement II is false",
+          "3": "Statement I is false but Statement II is true",
+          "4": "Both Statement I and Statement II are true"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q117",
+        "sourceYear": 2025,
+        "sourceNumber": 121,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Easy",
+        "stem": "Which one of the following can be explained on the basis of Mendel's Law of Dominance? A. Out of one pair of factors one is dominant and the other is recessive. B. Alleles do not show any expression and both the characters appear as such in F2 generation. C. Factors occur in pairs in normal diploid plants. D. The discrete unit controlling a particular character is called factor. E. The expression of only one of the parental characters is found in a monohybrid cross. Choose the correct answer from the options given below:",
+        "options": {
+          "1": "A, C, D and E only",
+          "2": "B, C and D only",
+          "3": "A, B, C, D and E",
+          "4": "A, B and C only"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -1281,32 +1056,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q125",
+        "id": "2025-INTERIM-Q139",
         "sourceYear": 2025,
-        "sourceNumber": 129,
+        "sourceNumber": 142,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Easy",
-        "stem": "The capacity to generate a whole plant from any cell of the plant is called:",
+        "stem": "The DNA present in chloroplast is:",
         "options": {
-          "1": "Micropropagation",
-          "2": "Differentiation",
-          "3": "Somatic hybridization",
-          "4": "Totipotency"
+          "1": "Circular, double stranded",
+          "2": "Linear, single stranded",
+          "3": "Circular, single stranded",
+          "4": "Linear, double stranded"
         },
-        "correctOption": "4",
+        "correctOption": "1",
         "correctOptions": [
-          "4"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1331,36 +1106,11 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       }
     ],
     "Medium": [
-      {
-        "id": "2017-A-Q100",
-        "sourceYear": 2017,
-        "sourceNumber": 101,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Medium",
-        "stem": "The final proof for DNA as the genetic material came opposite poles. from the experiments of (vi) Telophase leads to formation of two daughter (1) Griffith nuclei. (2) Hershey and Chase 103. Which one of the following statements is correct, with reference to enzymes?",
-        "options": {
-          "1": "Apoenzyme = Holoenzyme + Coenzyme",
-          "2": "Holoenzyme = Apoenzyme + Coenzyme",
-          "3": "Avery, Mcleod and McCarty",
-          "4": "Hargobind Khorana"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
       {
         "id": "2018-AA-Q45",
         "sourceYear": 2018,
@@ -1383,22 +1133,72 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2018-AA-Q90",
+        "id": "2018-AA-Q80",
         "sourceYear": 2018,
-        "sourceNumber": 156,
+        "sourceNumber": 147,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Medium",
-        "stem": "Which of the following characteristics represent ‘Inheritance of blood groups’ in humans ? a. Dominance b. Co-dominance c. Multiple allele d. Incomplete dominance e. Polygenic inheritance",
+        "stem": "AGGTATCGCAT is a sequence from the coding strand of a gene. What will be the corresponding sequence of the transcribed mRNA ?",
         "options": {
-          "1": "b, c and e",
-          "2": "a, b and c",
-          "3": "b, d and e",
-          "4": "a, c and e OUGH WORK English"
+          "1": "AGGUAUCGCAU",
+          "2": "UGGTUTCGCAT",
+          "3": "ACCUAUGCGAU",
+          "4": "UCCAUAGCGUA OUGH WORK English"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2018-AA-Q127",
+        "sourceYear": 2018,
+        "sourceNumber": 172,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Medium",
+        "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Herbarium i. It is a place having a collection of preserved plants and animals. b. Key ii. A list that enumerates methodically all the species found in an area with brief description aiding identification. c. Museum iii. Is a place where dried and pressed plant specimens mounted on sheets are kept. d. Catalogue iv. A booklet containing a list of characters and their alternates which are helpful in identification of various taxa. a b c d",
+        "options": {
+          "1": "i iv iii ii",
+          "2": "iii ii i iv",
+          "3": "ii iv iii i",
+          "4": "iii iv i ii"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2019-G1-Q14",
+        "sourceYear": 2019,
+        "sourceNumber": 104,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Medium",
+        "stem": "What will be the sequence of mRNA produced by the following stretch of DNA? 3' ATGCATGCATGCATG 5' TEMPLATE STRAND 5' TACGTACGTACGTAC 3' CODING STRAND",
+        "options": {
+          "1": "3' AUGCAUGCAUGCAUG 5'",
+          "2": "5' UACGUACGUACGUAC 3'",
+          "3": "3' UACGUACGUACGUAC 5'",
+          "4": "5' AUGCAUGCAUGCAUG 3'"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -1407,8 +1207,8 @@
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1433,47 +1233,72 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2019-G1-Q34",
+        "id": "2019-G1-Q52",
         "sourceYear": 2019,
-        "sourceNumber": 124,
+        "sourceNumber": 142,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Medium",
-        "stem": "Match the following genera with their respective phylum : (a) Ophiura (i) Mollusca (b) Physalia (ii) Platyhelminthes (c) Pinctada (iii) Echinodermata (d) Planaria (iv) Coelenterata Select the correct option :",
+        "stem": "Regeneration of damaged growing grass following grazing is largely due to :",
         "options": {
-          "1": "(a)-(iv), (b)-(i), (c)-(iii), (d)-(ii)",
-          "2": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
-          "3": "(a)-(i), (b)-(iii), (c)-(iv), (d)-(ii)",
-          "4": "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)"
+          "1": "Lateral meristem",
+          "2": "Apical rneristem",
+          "3": "Intercalary meristem",
+          "4": "Secondary meristem"
         },
-        "correctOption": "2",
+        "correctOption": "3",
         "correctOptions": [
-          "2"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2020-E1-Q12",
-        "sourceYear": 2020,
-        "sourceNumber": 97,
+        "id": "2019-G1-Q57",
+        "sourceYear": 2019,
+        "sourceNumber": 147,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Medium",
-        "stem": "The plant parts which consist of two generations - one within the other : (a) Pollen grains inside the anther (b) Germinated pollen grain with two male gametes (c) Seed inside the fruit (d) Embryo sac inside the ovule",
+        "stem": "In the process of transcription in Eukaryotes, the RNA polymerase I transcribes -",
         "options": {
-          "1": "(a) only",
+          "1": "mRNA with additional processing, capping and tailing",
+          "2": "tRNA, 5 S rRNA and snRNAs",
+          "3": "rRNAs - 28 S, 18 S and 5.8 S",
+          "4": "Precursor of mRNA, hnRNA"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2019-G1-Q88",
+        "sourceYear": 2019,
+        "sourceNumber": 178,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Medium",
+        "stem": "Given below are four statements pertaining to separation of DNA fragments using Gel electrophoresis. Identify the incorrect statements. (a) DNA is negatively charged molecule and so it is loaded on gel towards the Anode terminal. (b) DNA fragments travel along the surface of the gel whose concentration does not affect movement of DNA. (c) Smaller the size of DNA fragment, larger is the distance it travels through it. (d) Pure DNA can be visualized directly by exposing to UV radiation. Choose correct answer from the options given below:",
+        "options": {
+          "1": "(a), (c) and (d)",
           "2": "(a), (b) and (c)",
-          "3": "(c) and (d)",
-          "4": "(a) and (d)"
+          "3": "(b), (c) and (d)",
+          "4": "(a), (b) and (d)"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -1482,8 +1307,8 @@
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1508,57 +1333,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q24",
-        "sourceYear": 2020,
-        "sourceNumber": 107,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Medium",
-        "stem": "Select the correct events that occur during inspiration. (a) Contraction of diaphragm (b) Contraction of external inter-costal muscles (c) Pulmonary volume decreases (d) Intra pulmonary pressure increases",
-        "options": {
-          "1": "(a) and (b)",
-          "2": "(c) and (d)",
-          "3": "(a), (b) and (d)",
-          "4": "only (d)"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q27",
-        "sourceYear": 2020,
-        "sourceNumber": 110,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Medium",
-        "stem": "Match the organism with its use in biotechnology. (a) Bacillus (i) Cloning vector thuringiensis (b) Thermus (ii) Construction of aquaticus first rDNA molecule (c) Agrobacterium (iii) DNA polymerase tumefaciens (d) Salmonella (iv) Cry proteins typhimurium Select the correct option from the following : (a) (b) (c) (d)",
-        "options": {
-          "1": "(ii) (iv) (iii) (i)",
-          "2": "(iv) (iii) (i) (ii)",
-          "3": "(iii) (ii) (iv) (i)",
-          "4": "(iii) (iv) (i) (ii)"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1583,32 +1358,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q46",
-        "sourceYear": 2020,
-        "sourceNumber": 126,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Medium",
-        "stem": "Match the organism with its use in biotechnology. (a) Bacillus (i) Cloning vector thuringiensis (b) Thermus (ii) Construction of aquaticus first rDNA molecule (c) Agrobacterium (iii) DNA polymerase tumefaciens (d) Salmonella (iv) Cry proteins typhimurium Select the correct option from the following : (a) (b) (c) (d)",
-        "options": {
-          "1": "(iv) (iii) (i) (ii)",
-          "2": "(iii) (ii) (iv) (i)",
-          "3": "(iii) (iv) (i) (ii)",
-          "4": "(ii) (iv) (iii) (i) Hindi+English 2"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1633,107 +1383,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2020-E1-Q54",
+        "id": "2020-E1-Q61",
         "sourceYear": 2020,
-        "sourceNumber": 134,
+        "sourceNumber": 141,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Medium",
-        "stem": "The plant parts which consist of two generations - one within the other : (a) Pollen grains inside the anther (b) Germinated pollen grain with two male gametes (c) Seed inside the fruit (d) Embryo sac inside the ovule",
+        "stem": "How many true breeding pea plant varieties did Mendel select as pairs, which were similar except in one character with contrasting traits ?",
         "options": {
-          "1": "(a) and (d)",
-          "2": "(a) only",
-          "3": "(a), (b) and (c)",
-          "4": "(c) and (d)"
+          "1": "4",
+          "2": "2",
+          "3": "14",
+          "4": "8"
         },
-        "correctOption": "2",
+        "correctOption": "1",
         "correctOptions": [
-          "2"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q55",
-        "sourceYear": 2020,
-        "sourceNumber": 135,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Medium",
-        "stem": "Match the following columns and select the correct option. Column - I Column - II (a) Bt cotton (i) Gene therapy (b) Adenosine (ii) Cellular defence deaminase deficiency (c) RNAi (iii) Detection of HIV infection (d) PCR (iv) Bacillus thuringiensis (a) (b) (c) (d)",
-        "options": {
-          "1": "(iv) (i) (ii) (iii)",
-          "2": "(iii) (ii) (i) (iv)",
-          "3": "(ii) (iii) (iv) (i)",
-          "4": "(i) (ii) (iii) (iv) Hindi+English 4"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q66",
-        "sourceYear": 2020,
-        "sourceNumber": 146,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Medium",
-        "stem": "Match the organism with its use in biotechnology. (a) Bacillus (i) Cloning vector thuringiensis (b) Thermus (ii) Construction of aquaticus first rDNA molecule (c) Agrobacterium (iii) DNA polymerase tumefaciens (d) Salmonella (iv) Cry proteins typhimurium Select the correct option from the following : (a) (b) (c) (d)",
-        "options": {
-          "1": "(iii) (iv) (i) (ii)",
-          "2": "(ii) (iv) (iii) (i)",
-          "3": "(iv) (iii) (i) (ii)",
-          "4": "(iii) (ii) (iv) (i)"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q67",
-        "sourceYear": 2020,
-        "sourceNumber": 147,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Medium",
-        "stem": "Select the correct events that occur during inspiration. (a) Contraction of diaphragm (b) Contraction of external inter-costal muscles (c) Pulmonary volume decreases (d) Intra pulmonary pressure increases",
-        "options": {
-          "1": "(a), (b) and (d)",
-          "2": "only (d)",
-          "3": "(a) and (b)",
-          "4": "(c) and (d) Hindi+English 6"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1758,7 +1433,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1783,22 +1458,247 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2021-M1-Q106",
+        "id": "2021-M1-Q107",
         "sourceYear": 2021,
-        "sourceNumber": 109,
+        "sourceNumber": 110,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Medium",
-        "stem": "The term used for transfer of pollen grains from anthers of one plant to stigma of a different plant which, during pollination, brings genetically different types of pollen grains to stigma, is :",
+        "stem": "DNA strands on a gel stained with ethidium bromide when viewed under UV radiation, appear as :",
         "options": {
-          "1": "Cleistogamy",
-          "2": "Xenogamy",
-          "3": "Geitonogamy",
-          "4": "Chasmogamy"
+          "1": "Bright orange bands",
+          "2": "Dark red bands",
+          "3": "Bright blue bands",
+          "4": "Yellow bands"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q118",
+        "sourceYear": 2021,
+        "sourceNumber": 121,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Medium",
+        "stem": "Match List - I with List - II. List - I List - II Primary constriction in (a) Cristae (i) chromosome Disc-shaped sacs in (b) Thylakoids (ii) Golgi apparatus Infoldings in (c) Centromere (iii) mitochondria Flattened membranous (d) Cisternae (iv) sacs in stroma of plastids Choose the correct answer from the options given below. (a) (b) (c) (d)",
+        "options": {
+          "1": "(i) (iv) (iii) (ii)",
+          "2": "(iii) (iv) (i) (ii)",
+          "3": "(ii) (iii) (iv) (i)",
+          "4": "(iv) (iii) (ii) (i) 1 N1"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q123",
+        "sourceYear": 2021,
+        "sourceNumber": 126,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Medium",
+        "stem": "DNA strands on a gel stained with ethidium bromide when viewed under UV radiation, appear as :",
+        "options": {
+          "1": "Dark red bands",
+          "2": "Bright blue bands",
+          "3": "Yellow bands",
+          "4": "Bright orange bands"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q133",
+        "sourceYear": 2021,
+        "sourceNumber": 134,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Medium",
+        "stem": "Match List - I with List - II. List - I List - II Primary constriction in (a) Cristae (i) chromosome Disc-shaped sacs in (b) Thylakoids (ii) Golgi apparatus Infoldings in (c) Centromere (iii) mitochondria Flattened membranous (d) Cisternae (iv) sacs in stroma of plastids Choose the correct answer from the options given below. (a) (b) (c) (d)",
+        "options": {
+          "1": "(iii) (iv) (i) (ii)",
+          "2": "(ii) (iii) (iv) (i)",
+          "3": "(iv) (iii) (ii) (i)",
+          "4": "(i) (iv) (iii) (ii)"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q147",
+        "sourceYear": 2021,
+        "sourceNumber": 147,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Medium",
+        "stem": "Plasmid pBR322 has PstI restriction enzyme site within gene amp R that confers ampicillin resistance. If this enzyme is used for inserting a gene for β-galactoside production and the recombinant plasmid is inserted in an E.coli strain",
+        "options": {
+          "1": "it will lead to lysis of host cell.",
+          "2": "it will be able to produce a novel protein with dual ability.",
+          "3": "it will not be able to confer ampicillin resistance to the host cell.",
+          "4": "the transformed cells will have the ability to resist ampicillin as well as produce β-galactoside. 7 O1"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q151",
+        "sourceYear": 2021,
+        "sourceNumber": 151,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Medium",
+        "stem": "Read the following statements. (a) Metagenesis is observed in Helminths. (b) Echinoderms are triploblastic and coelomate animals. (c) Round worms have organ-system level of body organization. (d) Comb plates present in ctenophores help in digestion. (e) Water vascular system is characteristic of Echinoderms. Choose the correct answer from the options given below.",
+        "options": {
+          "1": "(a), (d) and (e) are correct",
+          "2": "(b), (c) and (e) are correct",
+          "3": "(c), (d) and (e) are correct",
+          "4": "(a), (b) and (c) are correct"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q159",
+        "sourceYear": 2021,
+        "sourceNumber": 159,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Medium",
+        "stem": "With regard to insulin choose correct options. (a) C-peptide is not present in mature insulin. (b) The insulin produced by rDNA technology has C-peptide. (c) The pro-insulin has C-peptide. (d) A-peptide and B-peptide of insulin are interconnected by disulphide bridges. Choose the correct answer from the options given below.",
+        "options": {
+          "1": "(b) and (c) only",
+          "2": "(a), (c) and (d) only",
+          "3": "(a) and (d) only",
+          "4": "(b) and (d) only 9 N1"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q168",
+        "sourceYear": 2021,
+        "sourceNumber": 168,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Medium",
+        "stem": "Read the following statements. (a) Metagenesis is observed in Helminths. (b) Echinoderms are triploblastic and coelomate animals. (c) Round worms have organ-system level of body organization. (d) Comb plates present in ctenophores help in digestion. (e) Water vascular system is characteristic of Echinoderms. Choose the correct answer from the options given below.",
+        "options": {
+          "1": "(a), (b) and (c) are correct",
+          "2": "(a), (d) and (e) are correct",
+          "3": "(b), (c) and (e) are correct",
+          "4": "(c), (d) and (e) are correct"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q176",
+        "sourceYear": 2021,
+        "sourceNumber": 176,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Medium",
+        "stem": "Read the following statements. (a) Metagenesis is observed in Helminths. (b) Echinoderms are triploblastic and coelomate animals. (c) Round worms have organ-system level of body organization. (d) Comb plates present in ctenophores help in digestion. (e) Water vascular system is characteristic of Echinoderms. Choose the correct answer from the options given below.",
+        "options": {
+          "1": "(c), (d) and (e) are correct",
+          "2": "(a), (b) and (c) are correct",
+          "3": "(a), (d) and (e) are correct",
+          "4": "(b), (c) and (e) are correct"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2022-RECON-Q14",
+        "sourceYear": 2022,
+        "sourceNumber": 114,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Medium",
+        "stem": "What will be the sequence of mRNA produced by the following stretch of DNA? 3' ATGCATGCATGCATG 5' TEMPLATE STRAND 5' TACGTACGTACGTAC 3' CODING STRAND",
+        "options": {
+          "1": "3' AUGCAUGCAUGCAUG 5'",
+          "2": "5' UACGUACGUACGUAC 3'",
+          "3": "3' UACGUACGUACGUAC 5'",
+          "4": "5' AUGCAUGCAUGCAUG 3'"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -1808,32 +1708,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q121",
-        "sourceYear": 2021,
-        "sourceNumber": 124,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Medium",
-        "stem": "The term used for transfer of pollen grains from anthers of one plant to stigma of a different plant which, during pollination, brings genetically different types of pollen grains to stigma, is :",
-        "options": {
-          "1": "Chasmogamy",
-          "2": "Cleistogamy",
-          "3": "Xenogamy",
-          "4": "Geitonogamy 1 O1"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1858,47 +1733,72 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q34",
+        "id": "2022-RECON-Q57",
         "sourceYear": 2022,
-        "sourceNumber": 134,
+        "sourceNumber": 152,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Medium",
-        "stem": "Match the following genera with their respective phylum : (a) Ophiura (i) Mollusca (b) Physalia (ii) Platyhelminthes (c) Pinctada (iii) Echinodermata (d) Planaria (iv) Coelenterata Select the correct option :",
+        "stem": "Regeneration of damaged growing grass following grazing is largely due to :",
         "options": {
-          "1": "(a)-(iv), (b)-(i), (c)-(iii), (d)-(ii)",
-          "2": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
-          "3": "(a)-(i), (b)-(iii), (c)-(iv), (d)-(ii)",
-          "4": "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)"
+          "1": "Lateral meristem",
+          "2": "Apical rneristem",
+          "3": "Intercalary meristem",
+          "4": "Secondary meristem"
         },
-        "correctOption": "2",
+        "correctOption": "3",
         "correctOptions": [
-          "2"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q176",
-        "sourceYear": 2023,
-        "sourceNumber": 176,
+        "id": "2022-RECON-Q62",
+        "sourceYear": 2022,
+        "sourceNumber": 157,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Medium",
-        "stem": "Given below are two statements: Statement I: RNA mutates at a faster rate. Statement II: Viruses having RNA genome and shorter life span mutate and evolve faster. In the light of the above statements, choose the correct answer from the options given below:",
+        "stem": "In the process of transcription in Eukaryotes, the RNA polymerase I transcribes -",
         "options": {
-          "1": "Both Statement I and Statement II are false.",
-          "2": "Statement I is true but Statement II is false.",
-          "3": "Statement I is false but Statement II is true.",
-          "4": "Both Statement I and Statement II are true."
+          "1": "mRNA with additional processing, capping and tailing",
+          "2": "tRNA, 5 S rRNA and snRNAs",
+          "3": "rRNAs - 28 S, 18 S and 5.8 S",
+          "4": "Precursor of mRNA, hnRNA"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2022-RECON-Q93",
+        "sourceYear": 2022,
+        "sourceNumber": 188,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Medium",
+        "stem": "Given below are four statements pertaining to separation of DNA fragments using Gel electrophoresis. Identify the incorrect statements. (a) DNA is negatively charged molecule and so it is loaded on gel towards the Anode terminal. (b) DNA fragments travel along the surface of the gel whose concentration does not affect movement of DNA. (c) Smaller the size of DNA fragment, larger is the distance it travels through it. (d) Pure DNA can be visualized directly by exposing to UV radiation. Choose correct answer from the options given below:",
+        "options": {
+          "1": "(a), (c) and (d)",
+          "2": "(a), (b) and (c)",
+          "3": "(b), (c) and (d)",
+          "4": "(a), (b) and (d)"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -1908,74 +1808,449 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2024-R1-Q167",
+        "id": "2022-RECON-Q196",
+        "sourceYear": 2022,
+        "sourceNumber": 198,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Medium",
+        "stem": "The term used for transfer of pollen grains from anthers of one plant to stigma of a different plant which, during pollination, brings genetically different types of pollen grains to stigma, is :",
+        "options": {
+          "1": "Cleistogamy",
+          "2": "Xenogamy",
+          "3": "Geitonogamy",
+          "4": "Chasmogamy"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q109",
+        "sourceYear": 2023,
+        "sourceNumber": 112,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Medium",
+        "stem": "In gene gun method used to introduce alien DNA into host cells, microparticles of ________ metal are used.",
+        "options": {
+          "1": "Zinc",
+          "2": "Tungsten or gold",
+          "3": "Silver",
+          "4": "Copper"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q121",
+        "sourceYear": 2023,
+        "sourceNumber": 124,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Medium",
+        "stem": "Frequency of recombination between gene pairs on same chromosome as a measure of the distance between genes to map their position on chromosome, was used for the first time by",
+        "options": {
+          "1": "Sutton and Boveri",
+          "2": "Alfred Sturtevant",
+          "3": "Henking",
+          "4": "Thomas Hunt Morgan"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q133",
+        "sourceYear": 2023,
+        "sourceNumber": 136,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Medium",
+        "stem": "What is the role of RNA polymerase III in the process of transcription in Eukaryotes?",
+        "options": {
+          "1": "Transcription of tRNA, 5S rRNA and snRNA",
+          "2": "Transcription of precursor of mRNA",
+          "3": "Transcription of only snRNAs",
+          "4": "Transcription of rRNAs (28S, 18S and 5.8S)"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q150",
+        "sourceYear": 2023,
+        "sourceNumber": 152,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Medium",
+        "stem": "Main steps in the formation of Recombinant DNA are given below. Arrange these steps in a correct sequence. A Insertion of recombinant DNA into the host cell B Cutting of DNA at specific location by restriction enzyme C Isolation of desired DNA fragment D Amplification of gene of interest using PCR Choose the correct answer from the options given below :",
+        "options": {
+          "1": "C, A, B, D",
+          "2": "C, B, D, A",
+          "3": "B, D, A, C",
+          "4": "B, C, D, A"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q177",
+        "sourceYear": 2023,
+        "sourceNumber": 177,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Medium",
+        "stem": "Given below are two statements: Statement I: In prokaryotes, the positively charged DNA is held with some negatively charged proteins in a region called nucleoid. Statement II: In eukaryotes, the negatively charged DNA is wrapped around the positively charged histone octamer to form nucleosome. - 42 - NEET (UG)-2023 (Code-F1) In the light of the above statements, choose the correct answer from the options given below:",
+        "options": {
+          "1": "Both Statement I and Statement II are false.",
+          "2": "Statement I is correct but Statement II is false.",
+          "3": "Statement I is incorrect but Statement II is true.",
+          "4": "Both Statement I and Statement II are true."
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q196",
+        "sourceYear": 2023,
+        "sourceNumber": 196,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Medium",
+        "stem": "Which one of the following is the sequence on corresponding coding strand, if the sequence on mRNA formed is as follows 5’AUCGAUCGAUCGAUCGAUCGAUCG AUCG 3’?",
+        "options": {
+          "1": "3’ UAGCUAGCUAGCUAGCUAGCUAGCUAGC 5’",
+          "2": "5’ ATCGATCGATCGATCGATCGATCGATCG 3’",
+          "3": "3’ ATCGATCGATCGATCGATCGATCGATCG 5’",
+          "4": "5’ UAGCUAGCUAGCUAGCUAGCUAGCUAGC 3’"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2024-R1-Q109",
         "sourceYear": 2024,
-        "sourceNumber": 169,
+        "sourceNumber": 113,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Medium",
-        "stem": "The following diagram showing restriction sites in E. coli cloning vector pBR322. Find the role of ‘X’ and ‘Y’ genes :",
+        "stem": "Given below are two statements: Statement I : Bt toxins are insect group specific and coded by a gene cry IAc. Statement II : Bt toxin exists as inactive protoxin in B. thuringiensis. However, after ingestion by the insect the inactive protoxin gets converted into active form due to acidic pH of the insect gut. In the light of the above statements, choose the correct answer from the options given below:",
         "options": {
-          "1": "The gene ‘X’ is responsible for controlling the copy number of the linked DNA and ‘Y’ for protein involved in the replication of Plasmid.",
-          "2": "The gene ‘X’ is for protein involved in replication of Plasmid and ‘Y’ for resistance to antibiotics.",
-          "3": "Gene ’X’ is responsible for recognitions sites and ‘Y’ is responsible for antibiotic resistance.",
-          "4": "The gene ‘X’ is responsible for resistance to antibiotics and ‘Y’ for protein involved in the replication of Plasmid."
+          "1": "Both Statement I and Statement II are false",
+          "2": "Statement I is true but Statement II is false",
+          "3": "Statement I is false but Statement II is true",
+          "4": "Both Statement I and Statement II are true"
         },
-        "correctOption": "1",
+        "correctOption": "2",
         "correctOptions": [
-          "1"
+          "2"
         ],
         "multiCorrect": false,
-        "figureSrc": "/figures/2024-R1-Q167.png",
-        "figureKind": "pdf-crop",
+        "figureSrc": null,
+        "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q167",
-        "sourceYear": 2025,
-        "sourceNumber": 169,
+        "id": "2024-R1-Q117",
+        "sourceYear": 2024,
+        "sourceNumber": 121,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Medium",
-        "stem": "The following diagram showing restriction sites in E. coli cloning vector pBR322. Find the role of ‘X’ and ‘Y’ genes :",
+        "stem": "Which one of the following can be explained on the basis of Mendel's Law of Dominance? A. Out of one pair of factors one is dominant and the other is recessive. B. Alleles do not show any expression and both the characters appear as such in F2 generation. C. Factors occur in pairs in normal diploid plants. D. The discrete unit controlling a particular character is called factor. E. The expression of only one of the parental characters is found in a monohybrid cross. Choose the correct answer from the options given below:",
         "options": {
-          "1": "The gene ‘X’ is responsible for controlling the copy number of the linked DNA and ‘Y’ for protein involved in the replication of Plasmid.",
-          "2": "The gene ‘X’ is for protein involved in replication of Plasmid and ‘Y’ for resistance to antibiotics.",
-          "3": "Gene ’X’ is responsible for recognitions sites and ‘Y’ is responsible for antibiotic resistance.",
-          "4": "The gene ‘X’ is responsible for resistance to antibiotics and ‘Y’ for protein involved in the replication of Plasmid."
+          "1": "A, C, D and E only",
+          "2": "B, C and D only",
+          "3": "A, B, C, D and E",
+          "4": "A, B and C only"
         },
         "correctOption": "1",
         "correctOptions": [
           "1"
         ],
         "multiCorrect": false,
-        "figureSrc": "/figures/2025-INTERIM-Q167.png",
-        "figureKind": "pdf-crop+from-2024-stem-match",
+        "figureSrc": null,
+        "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2024-R1-Q139",
+        "sourceYear": 2024,
+        "sourceNumber": 142,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Medium",
+        "stem": "The DNA present in chloroplast is:",
+        "options": {
+          "1": "Circular, double stranded",
+          "2": "Linear, single stranded",
+          "3": "Circular, single stranded",
+          "4": "Linear, double stranded"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2024-R1-Q178",
+        "sourceYear": 2024,
+        "sourceNumber": 180,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Medium",
+        "stem": "Which one is the correct product of DNA dependent RNA polymerase to the given template? 3’TACATGGCAAATATCCATTCA5’",
+        "options": {
+          "1": "5’AUGUAAAGUUUAUAGGUAAGU3’",
+          "2": "5’AUGUACCGUUUAUAGGGAAGU3’",
+          "3": "5’ATGTACCGTTTATAGGTAAGT3’",
+          "4": "5’AUGUACCGUUUAUAGGUAAGU3’"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q103",
+        "sourceYear": 2025,
+        "sourceNumber": 107,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Medium",
+        "stem": "Match List I with List II List I List II A. Two or more alternative forms of a gene I. Back cross B. Cross of F1 progeny with homozygous II. Ploidy recessive parent C. Cross of F1 progeny with any of the parents III. Allele D. Number of chromosome sets in plant IV. Test cross Choose the correct answer from the options given below:",
+        "options": {
+          "1": "A-II, B-I, C-III, D-IV",
+          "2": "A-III, B-IV, C-I, D-II",
+          "3": "A-IV, B-III, C-II, D-I",
+          "4": "A-I, B-II, C-III, D-IV"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q110",
+        "sourceYear": 2025,
+        "sourceNumber": 114,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Medium",
+        "stem": "A transcription unit in DNA is defined primarily by the three regions in DNA and these are with respect to upstream and down stream end;",
+        "options": {
+          "1": "Structural gene, Transposons, Operator gene",
+          "2": "Inducer, Repressor, Structural gene",
+          "3": "Promotor, Structural gene, Terminator",
+          "4": "Repressor, Operator gene, Structural gene"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q125",
+        "sourceYear": 2025,
+        "sourceNumber": 129,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Medium",
+        "stem": "The capacity to generate a whole plant from any cell of the plant is called:",
+        "options": {
+          "1": "Micropropagation",
+          "2": "Differentiation",
+          "3": "Somatic hybridization",
+          "4": "Totipotency"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q143",
+        "sourceYear": 2025,
+        "sourceNumber": 146,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Medium",
+        "stem": "Match List I with List II List I List II A. Frederick Griffith I. Genetic code B. Francois Jacob & Jacque Monod II. Semi-conservative mode of DNA replication C. Har Gobind Khorana III. Transformation D. Meselson & Stahl IV. Lac operon Choose the correct answer from the options given below:",
+        "options": {
+          "1": "A-III, B-IV, C-I, D-II",
+          "2": "A-II, B-III, C-IV, D-I",
+          "3": "A-IV, B-I, C-II, D-III",
+          "4": "A-III, B-II, C-I, D-IV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q188",
+        "sourceYear": 2025,
+        "sourceNumber": 190,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Medium",
+        "stem": "Identify the correct option (A), (B), (C), (D) with respect to spermatogenesis.",
+        "options": {
+          "1": "ICSH, Interstitial cells, Leydig cells, spermiogenesis.",
+          "2": "FSH, Sertoli cells, Leydig cells, spermatogenesis.",
+          "3": "ICSH, Leydig cells, Sertoli cells, spermatogenesis.",
+          "4": "FSH, Leydig cells, Sertoli cells, spermiogenesis."
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       }
     ],
     "Hard": [
       {
-        "id": "2018-AA-Q22",
+        "id": "2018-AA-Q48",
         "sourceYear": 2018,
-        "sourceNumber": 102,
+        "sourceNumber": 117,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Hard",
-        "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Herbarium i. It is a place having a collection of preserved plants and animals. b. Key ii. A list that enumerates methodically all the species found in an area with brief description aiding identification. c. Museum iii. Is a place where dried and pressed plant specimens mounted on sheets are kept. d. Catalogue iv. A booklet containing a list of characters and their alternates which are helpful in identification of various taxa. a b c d",
+        "stem": "Many ribosomes may associate with a single mRNA to form multiple copies of a polypeptide simultaneously. Such strings of ribosomes are termed as",
         "options": {
-          "1": "iii iv i ii",
-          "2": "ii iv iii i",
-          "3": "iii ii i iv",
-          "4": "i iv iii ii"
+          "1": "Nucleosome",
+          "2": "Plastidome",
+          "3": "Polyhedral bodies",
+          "4": "Polysome"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2018-AA-Q90",
+        "sourceYear": 2018,
+        "sourceNumber": 156,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Hard",
+        "stem": "Which of the following characteristics represent ‘Inheritance of blood groups’ in humans ? a. Dominance b. Co-dominance c. Multiple allele d. Incomplete dominance e. Polygenic inheritance",
+        "options": {
+          "1": "b, c and e",
+          "2": "a, b and c",
+          "3": "b, d and e",
+          "4": "a, c and e OUGH WORK English"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -1985,32 +2260,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q127",
-        "sourceYear": 2018,
-        "sourceNumber": 172,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Herbarium i. It is a place having a collection of preserved plants and animals. b. Key ii. A list that enumerates methodically all the species found in an area with brief description aiding identification. c. Museum iii. Is a place where dried and pressed plant specimens mounted on sheets are kept. d. Catalogue iv. A booklet containing a list of characters and their alternates which are helpful in identification of various taxa. a b c d",
-        "options": {
-          "1": "i iv iii ii",
-          "2": "iii ii i iv",
-          "3": "ii iv iii i",
-          "4": "iii iv i ii"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2035,32 +2285,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q134",
-        "sourceYear": 2018,
-        "sourceNumber": 175,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Herbarium i. It is a place having a collection of preserved plants and animals. b. Key ii. A list that enumerates methodically all the species found in an area with brief description aiding identification. c. Museum iii. Is a place where dried and pressed plant specimens mounted on sheets are kept. d. Catalogue iv. A booklet containing a list of characters and their alternates which are helpful in identification of various taxa. a b c d",
-        "options": {
-          "1": "i iv iii ii",
-          "2": "iii iv i ii",
-          "3": "ii iv iii i",
-          "4": "iii ii i iv"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2085,22 +2310,47 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2019-G1-Q88",
+        "id": "2019-G1-Q34",
         "sourceYear": 2019,
-        "sourceNumber": 178,
+        "sourceNumber": 124,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Hard",
-        "stem": "Given below are four statements pertaining to separation of DNA fragments using Gel electrophoresis. Identify the incorrect statements. (a) DNA is negatively charged molecule and so it is loaded on gel towards the Anode terminal. (b) DNA fragments travel along the surface of the gel whose concentration does not affect movement of DNA. (c) Smaller the size of DNA fragment, larger is the distance it travels through it. (d) Pure DNA can be visualized directly by exposing to UV radiation. Choose correct answer from the options given below:",
+        "stem": "Match the following genera with their respective phylum : (a) Ophiura (i) Mollusca (b) Physalia (ii) Platyhelminthes (c) Pinctada (iii) Echinodermata (d) Planaria (iv) Coelenterata Select the correct option :",
         "options": {
-          "1": "(a), (c) and (d)",
-          "2": "(a), (b) and (c)",
-          "3": "(b), (c) and (d)",
-          "4": "(a), (b) and (d)"
+          "1": "(a)-(iv), (b)-(i), (c)-(iii), (d)-(ii)",
+          "2": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+          "3": "(a)-(i), (b)-(iii), (c)-(iv), (d)-(ii)",
+          "4": "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2019-G1-Q55",
+        "sourceYear": 2019,
+        "sourceNumber": 145,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Hard",
+        "stem": "From the following, identify the correct combination of salient features of Genetic Code",
+        "options": {
+          "1": "Universal, Non-ambiguous,Overlapping",
+          "2": "Degenerate, Overlapping, Commaless",
+          "3": "Universal, Ambiguous, Degenerate",
+          "4": "Degenerate, Non-overlapping, Non ambiguous"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -2110,22 +2360,72 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2021-M1-Q116",
-        "sourceYear": 2021,
-        "sourceNumber": 119,
+        "id": "2019-G1-Q58",
+        "sourceYear": 2019,
+        "sourceNumber": 148,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Hard",
-        "stem": "Match List - I with List - II. List - I List - II Primary constriction in (a) Cristae (i) chromosome Disc-shaped sacs in (b) Thylakoids (ii) Golgi apparatus Infoldings in (c) Centromere (iii) mitochondria Flattened membranous (d) Cisternae (iv) sacs in stroma of plastids Choose the correct answer from the options given below. (a) (b) (c) (d)",
+        "stem": "In which genetic condition, each cell in the affected person, has three sex chromosomes XXY?",
         "options": {
-          "1": "(iv) (iii) (ii) (i)",
-          "2": "(i) (iv) (iii) (ii)",
-          "3": "(iii) (iv) (i) (ii)",
-          "4": "(ii) (iii) (iv) (i)"
+          "1": "Thalassemia",
+          "2": "Kleinfelter's Syndrome",
+          "3": "Phenylketonuria",
+          "4": "Turner's Syndrome"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2019-G1-Q90",
+        "sourceYear": 2019,
+        "sourceNumber": 180,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Hard",
+        "stem": "In RNAi, the genes are silenced using :",
+        "options": {
+          "1": "ds – RNA",
+          "2": "ss - DNA",
+          "3": "ss – RNA",
+          "4": "ds – DNA"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q24",
+        "sourceYear": 2020,
+        "sourceNumber": 107,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Hard",
+        "stem": "Select the correct events that occur during inspiration. (a) Contraction of diaphragm (b) Contraction of external inter-costal muscles (c) Pulmonary volume decreases (d) Intra pulmonary pressure increases",
+        "options": {
+          "1": "(a) and (b)",
+          "2": "(c) and (d)",
+          "3": "(a), (b) and (d)",
+          "4": "only (d)"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -2135,22 +2435,47 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2021-M1-Q118",
-        "sourceYear": 2021,
-        "sourceNumber": 121,
+        "id": "2020-E1-Q43",
+        "sourceYear": 2020,
+        "sourceNumber": 124,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Hard",
-        "stem": "Match List - I with List - II. List - I List - II Primary constriction in (a) Cristae (i) chromosome Disc-shaped sacs in (b) Thylakoids (ii) Golgi apparatus Infoldings in (c) Centromere (iii) mitochondria Flattened membranous (d) Cisternae (iv) sacs in stroma of plastids Choose the correct answer from the options given below. (a) (b) (c) (d)",
+        "stem": "Bt cotton variety that was developed by the introduction of toxin gene of Bacillus thuringiensis (Bt) is resistant to :",
         "options": {
-          "1": "(i) (iv) (iii) (ii)",
-          "2": "(iii) (iv) (i) (ii)",
-          "3": "(ii) (iii) (iv) (i)",
-          "4": "(iv) (iii) (ii) (i) 1 N1"
+          "1": "Insect pests",
+          "2": "Fungal diseases",
+          "3": "Plant nematodes",
+          "4": "Insect predators 1 E1"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q54",
+        "sourceYear": 2020,
+        "sourceNumber": 134,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Hard",
+        "stem": "The plant parts which consist of two generations - one within the other : (a) Pollen grains inside the anther (b) Germinated pollen grain with two male gametes (c) Seed inside the fruit (d) Embryo sac inside the ovule",
+        "options": {
+          "1": "(a) and (d)",
+          "2": "(a) only",
+          "3": "(a), (b) and (c)",
+          "4": "(c) and (d)"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -2160,7 +2485,107 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q66",
+        "sourceYear": 2020,
+        "sourceNumber": 146,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Hard",
+        "stem": "Match the organism with its use in biotechnology. (a) Bacillus (i) Cloning vector thuringiensis (b) Thermus (ii) Construction of aquaticus first rDNA molecule (c) Agrobacterium (iii) DNA polymerase tumefaciens (d) Salmonella (iv) Cry proteins typhimurium Select the correct option from the following : (a) (b) (c) (d)",
+        "options": {
+          "1": "(iii) (iv) (i) (ii)",
+          "2": "(ii) (iv) (iii) (i)",
+          "3": "(iv) (iii) (i) (ii)",
+          "4": "(iii) (ii) (iv) (i)"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q86",
+        "sourceYear": 2020,
+        "sourceNumber": 166,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Hard",
+        "stem": "Identify the wrong statement with reference to the gene ‘I’ that controls ABO blood groups.",
+        "options": {
+          "1": "A person will have only two of the three alleles.",
+          "2": "When IA and IB are present together, they express same type of sugar.",
+          "3": "Allele ‘i’ does not produce any sugar.",
+          "4": "The gene (I) has three alleles."
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q103",
+        "sourceYear": 2021,
+        "sourceNumber": 106,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Hard",
+        "stem": "Which of the following is a correct sequence of steps in a PCR (Polymerase Chain Reaction) ?",
+        "options": {
+          "1": "Denaturation, Extension, Annealing",
+          "2": "Extension, Denaturation, Annealing",
+          "3": "Annealing, Denaturation, Extension",
+          "4": "Denaturation, Annealing, Extension"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q113",
+        "sourceYear": 2021,
+        "sourceNumber": 116,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Hard",
+        "stem": "Genera like Selaginella and Salvinia produce two kinds of spores. Such plants are known as :",
+        "options": {
+          "1": "Homosorus",
+          "2": "Heterosorus",
+          "3": "Homosporous",
+          "4": "Heterosporous"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2185,32 +2610,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2021-M1-Q133",
+        "id": "2021-M1-Q127",
         "sourceYear": 2021,
-        "sourceNumber": 134,
+        "sourceNumber": 129,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Hard",
-        "stem": "Match List - I with List - II. List - I List - II Primary constriction in (a) Cristae (i) chromosome Disc-shaped sacs in (b) Thylakoids (ii) Golgi apparatus Infoldings in (c) Centromere (iii) mitochondria Flattened membranous (d) Cisternae (iv) sacs in stroma of plastids Choose the correct answer from the options given below. (a) (b) (c) (d)",
+        "stem": "Which of the following is a correct sequence of steps in a PCR (Polymerase Chain Reaction) ?",
         "options": {
-          "1": "(iii) (iv) (i) (ii)",
-          "2": "(ii) (iii) (iv) (i)",
-          "3": "(iv) (iii) (ii) (i)",
-          "4": "(i) (iv) (iii) (ii)"
+          "1": "Denaturation, Annealing, Extension",
+          "2": "Denaturation, Extension, Annealing",
+          "3": "Extension, Denaturation, Annealing",
+          "4": "Annealing, Denaturation, Extension"
         },
-        "correctOption": "1",
+        "correctOption": "3",
         "correctOptions": [
-          "1"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2235,57 +2660,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q144",
-        "sourceYear": 2021,
-        "sourceNumber": 144,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Now a days it is possible to detect the mutated gene causing cancer by allowing radioactive probe to hybridise its complimentary DNA in a clone of cells, followed by its detection using autoradiography because :",
-        "options": {
-          "1": "mutated gene completely and clearly appears on a photographic film.",
-          "2": "mutated gene does not appear on a photographic film as the probe has no complimentarity with it.",
-          "3": "mutated gene does not appear on photographic film as the probe has complimentarity with it.",
-          "4": "mutated gene partially appears on a photographic film. Hindi+English 6"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q147",
-        "sourceYear": 2021,
-        "sourceNumber": 147,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Plasmid pBR322 has PstI restriction enzyme site within gene amp R that confers ampicillin resistance. If this enzyme is used for inserting a gene for β-galactoside production and the recombinant plasmid is inserted in an E.coli strain",
-        "options": {
-          "1": "it will lead to lysis of host cell.",
-          "2": "it will be able to produce a novel protein with dual ability.",
-          "3": "it will not be able to confer ampicillin resistance to the host cell.",
-          "4": "the transformed cells will have the ability to resist ampicillin as well as produce β-galactoside. 7 O1"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2310,57 +2685,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q150",
-        "sourceYear": 2021,
-        "sourceNumber": 150,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Match List - I with List - II. List - I List - II Proteins are (a) S phase (i) synthesized (b) G2 phase (ii) Inactive phase Interval between (c) Quiescent stage (iii) mitosis and initiation of DNA replication (d) G1 phase (iv) DNA replication Choose the correct answer from the options given below. (a) (b) (c) (d)",
-        "options": {
-          "1": "(ii) (iv) (iii) (i)",
-          "2": "(iii) (ii) (i) (iv)",
-          "3": "(iv) (ii) (iii) (i)",
-          "4": "(iv) (i) (ii) (iii) Hindi+English 6 Section - A (Biology : Zoology)"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q151",
-        "sourceYear": 2021,
-        "sourceNumber": 151,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Read the following statements. (a) Metagenesis is observed in Helminths. (b) Echinoderms are triploblastic and coelomate animals. (c) Round worms have organ-system level of body organization. (d) Comb plates present in ctenophores help in digestion. (e) Water vascular system is characteristic of Echinoderms. Choose the correct answer from the options given below.",
-        "options": {
-          "1": "(a), (d) and (e) are correct",
-          "2": "(b), (c) and (e) are correct",
-          "3": "(c), (d) and (e) are correct",
-          "4": "(a), (b) and (c) are correct"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2385,32 +2710,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q159",
-        "sourceYear": 2021,
-        "sourceNumber": 159,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "With regard to insulin choose correct options. (a) C-peptide is not present in mature insulin. (b) The insulin produced by rDNA technology has C-peptide. (c) The pro-insulin has C-peptide. (d) A-peptide and B-peptide of insulin are interconnected by disulphide bridges. Choose the correct answer from the options given below.",
-        "options": {
-          "1": "(b) and (c) only",
-          "2": "(a), (c) and (d) only",
-          "3": "(a) and (d) only",
-          "4": "(b) and (d) only 9 N1"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2435,82 +2735,57 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2021-M1-Q168",
+        "id": "2021-M1-Q173",
         "sourceYear": 2021,
-        "sourceNumber": 168,
+        "sourceNumber": 173,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Hard",
-        "stem": "Read the following statements. (a) Metagenesis is observed in Helminths. (b) Echinoderms are triploblastic and coelomate animals. (c) Round worms have organ-system level of body organization. (d) Comb plates present in ctenophores help in digestion. (e) Water vascular system is characteristic of Echinoderms. Choose the correct answer from the options given below.",
+        "stem": "In a cross between a male and female, both heterozygous for sickle cell anaemia gene, what percentage of the progeny will be diseased ?",
         "options": {
-          "1": "(a), (b) and (c) are correct",
-          "2": "(a), (d) and (e) are correct",
-          "3": "(b), (c) and (e) are correct",
-          "4": "(c), (d) and (e) are correct"
+          "1": "100%",
+          "2": "50%",
+          "3": "75%",
+          "4": "25%"
         },
-        "correctOption": "4",
+        "correctOption": "1",
         "correctOptions": [
-          "4"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2021-M1-Q174",
+        "id": "2021-M1-Q179",
         "sourceYear": 2021,
-        "sourceNumber": 174,
+        "sourceNumber": 179,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Hard",
-        "stem": "Read the following statements. (a) Metagenesis is observed in Helminths. (b) Echinoderms are triploblastic and coelomate animals. (c) Round worms have organ-system level of body organization. (d) Comb plates present in ctenophores help in digestion. (e) Water vascular system is characteristic of Echinoderms. Choose the correct answer from the options given below.",
+        "stem": "In a cross between a male and female, both heterozygous for sickle cell anaemia gene, what percentage of the progeny will be diseased ?",
         "options": {
-          "1": "(b), (c) and (e) are correct",
-          "2": "(c), (d) and (e) are correct",
-          "3": "(a), (b) and (c) are correct",
-          "4": "(a), (d) and (e) are correct"
+          "1": "25%",
+          "2": "100%",
+          "3": "50%",
+          "4": "75%"
         },
-        "correctOption": "2",
+        "correctOption": "3",
         "correctOptions": [
-          "2"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q176",
-        "sourceYear": 2021,
-        "sourceNumber": 176,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Read the following statements. (a) Metagenesis is observed in Helminths. (b) Echinoderms are triploblastic and coelomate animals. (c) Round worms have organ-system level of body organization. (d) Comb plates present in ctenophores help in digestion. (e) Water vascular system is characteristic of Echinoderms. Choose the correct answer from the options given below.",
-        "options": {
-          "1": "(c), (d) and (e) are correct",
-          "2": "(a), (b) and (c) are correct",
-          "3": "(a), (d) and (e) are correct",
-          "4": "(b), (c) and (e) are correct"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2535,22 +2810,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q36",
+        "id": "2022-RECON-Q34",
         "sourceYear": 2022,
-        "sourceNumber": 136,
+        "sourceNumber": 134,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Hard",
-        "stem": "The contrasting characteristics generally in a pair used for identification of animals in Taxonomic Key are referred to as :",
+        "stem": "Match the following genera with their respective phylum : (a) Ophiura (i) Mollusca (b) Physalia (ii) Platyhelminthes (c) Pinctada (iii) Echinodermata (d) Planaria (iv) Coelenterata Select the correct option :",
         "options": {
-          "1": "Lead",
-          "2": "Couplet",
-          "3": "Doublet",
-          "4": "Alternate"
+          "1": "(a)-(iv), (b)-(i), (c)-(iii), (d)-(ii)",
+          "2": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+          "3": "(a)-(i), (b)-(iii), (c)-(iv), (d)-(ii)",
+          "4": "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -2560,22 +2835,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q93",
+        "id": "2022-RECON-Q60",
         "sourceYear": 2022,
-        "sourceNumber": 188,
+        "sourceNumber": 155,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Hard",
-        "stem": "Given below are four statements pertaining to separation of DNA fragments using Gel electrophoresis. Identify the incorrect statements. (a) DNA is negatively charged molecule and so it is loaded on gel towards the Anode terminal. (b) DNA fragments travel along the surface of the gel whose concentration does not affect movement of DNA. (c) Smaller the size of DNA fragment, larger is the distance it travels through it. (d) Pure DNA can be visualized directly by exposing to UV radiation. Choose correct answer from the options given below:",
+        "stem": "From the following, identify the correct combination of salient features of Genetic Code",
         "options": {
-          "1": "(a), (c) and (d)",
-          "2": "(a), (b) and (c)",
-          "3": "(b), (c) and (d)",
-          "4": "(a), (b) and (d)"
+          "1": "Universal, Non-ambiguous,Overlapping",
+          "2": "Degenerate, Overlapping, Commaless",
+          "3": "Universal, Ambiguous, Degenerate",
+          "4": "Degenerate, Non-overlapping, Non ambiguous"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -2585,7 +2860,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2022-RECON-Q63",
+        "sourceYear": 2022,
+        "sourceNumber": 158,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Hard",
+        "stem": "In which genetic condition, each cell in the affected person, has three sex chromosomes XXY?",
+        "options": {
+          "1": "Thalassemia",
+          "2": "Kleinfelter's Syndrome",
+          "3": "Phenylketonuria",
+          "4": "Turner's Syndrome"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2610,57 +2910,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q193",
-        "sourceYear": 2022,
-        "sourceNumber": 197,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Which of the following is a correct sequence of steps in a PCR (Polymerase Chain Reaction) ?",
-        "options": {
-          "1": "Denaturation, Extension, Annealing",
-          "2": "Extension, Denaturation, Annealing",
-          "3": "Annealing, Denaturation, Extension",
-          "4": "Denaturation, Annealing, Extension"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q196",
-        "sourceYear": 2022,
-        "sourceNumber": 198,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "The term used for transfer of pollen grains from anthers of one plant to stigma of a different plant which, during pollination, brings genetically different types of pollen grains to stigma, is :",
-        "options": {
-          "1": "Cleistogamy",
-          "2": "Xenogamy",
-          "3": "Geitonogamy",
-          "4": "Chasmogamy"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2685,47 +2935,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q119",
+        "id": "2023-F1-Q112",
         "sourceYear": 2023,
-        "sourceNumber": 122,
+        "sourceNumber": 115,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Hard",
-        "stem": "Given below are two statements : Statement I : The forces generated transpiration can lift a xylem-sized column of water over 130 meters height. Statement II : Transpiration cools leaf surfaces sometimes 10 to 15 degrees evaporative cooling. In the light of the above statements, choose the most appropriate answer from the options given below :",
+        "stem": "Among eukaryotes, replication of DNA takes place in :",
         "options": {
-          "1": "Both Statement I and Statement II are incorrect",
-          "2": "Statement I is correct but Statement II is incorrect",
-          "3": "Statement I is incorrect but Statement II is correct",
-          "4": "Both Statement I and Statement II are correct"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q133",
-        "sourceYear": 2023,
-        "sourceNumber": 136,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "What is the role of RNA polymerase III in the process of transcription in Eukaryotes?",
-        "options": {
-          "1": "Transcription of tRNA, 5S rRNA and snRNA",
-          "2": "Transcription of precursor of mRNA",
-          "3": "Transcription of only snRNAs",
-          "4": "Transcription of rRNAs (28S, 18S and 5.8S)"
+          "1": "S phase",
+          "2": "G1 phase",
+          "3": "G2 phase",
+          "4": "M phase"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -2735,7 +2960,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q123",
+        "sourceYear": 2023,
+        "sourceNumber": 126,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "difficulty": "Hard",
+        "stem": "Upon exposure to UV radiation, DNA stained with ethidium bromide will show",
+        "options": {
+          "1": "Bright blue colour",
+          "2": "Bright yellow colour",
+          "3": "Bright orange colour",
+          "4": "Bright red colour"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2760,57 +3010,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q141",
-        "sourceYear": 2023,
-        "sourceNumber": 144,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Given below are two statements: Statement I : Gause’s ‘Competitive Exclusion Principle’ states that two closely related species competing for the same resources cannot co-exist indefinitely and competitively inferior one will be eliminated eventually. Statement II : In general, carnivores are more adversely affected by competition than herbivores. In the light of the above statements, choose the correct answer from the options given below:",
-        "options": {
-          "1": "Both Statement I and Statement II are false.",
-          "2": "Statement I is correct Statement II is false.",
-          "3": "Statement I is incorrec but Statement II is true.",
-          "4": "Both Statement I and Statement II are true."
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q150",
-        "sourceYear": 2023,
-        "sourceNumber": 152,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Main steps in the formation of Recombinant DNA are given below. Arrange these steps in a correct sequence. A Insertion of recombinant DNA into the host cell B Cutting of DNA at specific location by restriction enzyme C Isolation of desired DNA fragment D Amplification of gene of interest using PCR Choose the correct answer from the options given below :",
-        "options": {
-          "1": "C, A, B, D",
-          "2": "C, B, D, A",
-          "3": "B, D, A, C",
-          "4": "B, C, D, A"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2835,32 +3035,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q177",
-        "sourceYear": 2023,
-        "sourceNumber": 177,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Given below are two statements: Statement I: In prokaryotes, the positively charged DNA is held with some negatively charged proteins in a region called nucleoid. Statement II: In eukaryotes, the negatively charged DNA is wrapped around the positively charged histone octamer to form nucleosome. - 42 - NEET (UG)-2023 (Code-F1) In the light of the above statements, choose the correct answer from the options given below:",
-        "options": {
-          "1": "Both Statement I and Statement II are false.",
-          "2": "Statement I is correct but Statement II is false.",
-          "3": "Statement I is incorrect but Statement II is true.",
-          "4": "Both Statement I and Statement II are true."
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2885,57 +3060,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q184",
-        "sourceYear": 2023,
-        "sourceNumber": 184,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Match List I with List II. List I List II A. Gene ‘a’ I. β-galactosidase B. Gene ‘y’ II. Transacetylase C. Gene ‘i’ III. Permease D. Gene ‘z’ IV. Repressor protein Choose the correct answer from the options given below:",
-        "options": {
-          "1": "A-II, B-III, C-IV, D-I",
-          "2": "A-III, B-IV, C-I, D-II",
-          "3": "A-III, B-I, C-IV, D-II",
-          "4": "A-II, B-I, C-IV, D-III"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q196",
-        "sourceYear": 2023,
-        "sourceNumber": 196,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Which one of the following is the sequence on corresponding coding strand, if the sequence on mRNA formed is as follows 5’AUCGAUCGAUCGAUCGAUCGAUCG AUCG 3’?",
-        "options": {
-          "1": "3’ UAGCUAGCUAGCUAGCUAGCUAGCUAGC 5’",
-          "2": "5’ ATCGATCGATCGATCGATCGATCGATCG 3’",
-          "3": "3’ ATCGATCGATCGATCGATCGATCGATCG 5’",
-          "4": "5’ UAGCUAGCUAGCUAGCUAGCUAGCUAGC 3’"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2960,97 +3085,47 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2024-R1-Q106",
+        "id": "2024-R1-Q110",
         "sourceYear": 2024,
-        "sourceNumber": 110,
+        "sourceNumber": 114,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Hard",
-        "stem": "What is the fate of a piece of DNA carrying only gene of interest which is transferred into an alien organism? A. The piece of DNA would be able to multiply itself independently in the progeny cells of the organism. B. It may get integrated into the genome of the recipient. C. It may multiply and be inherited along with the host DNA. D. The alien piece of DNA is not an integral part of chromosome. E. It shows ability to replicate. Choose the correct answer from the options given below:",
+        "stem": "A transcription unit in DNA is defined primarily by the three regions in DNA and these are with respect to upstream and down stream end;",
         "options": {
-          "1": "D and E only",
-          "2": "B and C only",
-          "3": "A and E only",
-          "4": "A and B only"
+          "1": "Structural gene, Transposons, Operator gene",
+          "2": "Inducer, Repressor, Structural gene",
+          "3": "Promotor, Structural gene, Terminator",
+          "4": "Repressor, Operator gene, Structural gene"
         },
-        "correctOption": "2",
+        "correctOption": "3",
         "correctOptions": [
-          "2"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2024-R1-Q109",
+        "id": "2024-R1-Q125",
         "sourceYear": 2024,
-        "sourceNumber": 113,
+        "sourceNumber": 129,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Hard",
-        "stem": "Given below are two statements: Statement I : Bt toxins are insect group specific and coded by a gene cry IAc. Statement II : Bt toxin exists as inactive protoxin in B. thuringiensis. However, after ingestion by the insect the inactive protoxin gets converted into active form due to acidic pH of the insect gut. In the light of the above statements, choose the correct answer from the options given below:",
+        "stem": "The capacity to generate a whole plant from any cell of the plant is called:",
         "options": {
-          "1": "Both Statement I and Statement II are false",
-          "2": "Statement I is true but Statement II is false",
-          "3": "Statement I is false but Statement II is true",
-          "4": "Both Statement I and Statement II are true"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q117",
-        "sourceYear": 2024,
-        "sourceNumber": 121,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Which one of the following can be explained on the basis of Mendel's Law of Dominance? A. Out of one pair of factors one is dominant and the other is recessive. B. Alleles do not show any expression and both the characters appear as such in F2 generation. C. Factors occur in pairs in normal diploid plants. D. The discrete unit controlling a particular character is called factor. E. The expression of only one of the parental characters is found in a monohybrid cross. Choose the correct answer from the options given below:",
-        "options": {
-          "1": "A, C, D and E only",
-          "2": "B, C and D only",
-          "3": "A, B, C, D and E",
-          "4": "A, B and C only"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q127",
-        "sourceYear": 2024,
-        "sourceNumber": 131,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Match List I with List II List-I List-II A. Nucleolus I. Site of formation of glycolipid B. Centriole II. Organization like the cartwheel C. Leucoplasts III. Site for active ribosomal RNA synthesis D. Golgi apparatus IV. For storing nutrients Choose the correct answer from the options given below:",
-        "options": {
-          "1": "A-II, B-III, C-I, D-IV",
-          "2": "A-III, B-IV, C-II, D-I",
-          "3": "A-I, B-II, C-III, D-IV",
-          "4": "A-III, B-II, C-IV, D-I"
+          "1": "Micropropagation",
+          "2": "Differentiation",
+          "3": "Somatic hybridization",
+          "4": "Totipotency"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -3060,32 +3135,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q139",
-        "sourceYear": 2024,
-        "sourceNumber": 142,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "The DNA present in chloroplast is:",
-        "options": {
-          "1": "Circular, double stranded",
-          "2": "Linear, single stranded",
-          "3": "Circular, single stranded",
-          "4": "Linear, double stranded"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -3110,7 +3160,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -3135,57 +3185,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q195",
-        "sourceYear": 2024,
-        "sourceNumber": 196,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Match List I with List II: List I List II A. RNA polymerase III I. snRNPs B. Termination of II. Promotor transcription C. Splicing of Exons III. Rho factor D. TATA box IV. SnRNAs, tRNA Choose the correct answer from the options given below :",
-        "options": {
-          "1": "A-III, B-II, C-IV, D-I",
-          "2": "A-III, B-IV, C-I, D-II",
-          "3": "A-IV, B-III, C-I, D-II",
-          "4": "A-II, B-IV, C-I, D-III"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q103",
-        "sourceYear": 2025,
-        "sourceNumber": 107,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Match List I with List II List I List II A. Two or more alternative forms of a gene I. Back cross B. Cross of F1 progeny with homozygous II. Ploidy recessive parent C. Cross of F1 progeny with any of the parents III. Allele D. Number of chromosome sets in plant IV. Test cross Choose the correct answer from the options given below:",
-        "options": {
-          "1": "A-II, B-I, C-III, D-IV",
-          "2": "A-III, B-IV, C-I, D-II",
-          "3": "A-IV, B-III, C-II, D-I",
-          "4": "A-I, B-II, C-III, D-IV"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -3210,47 +3210,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q109",
+        "id": "2025-INTERIM-Q112",
         "sourceYear": 2025,
-        "sourceNumber": 113,
+        "sourceNumber": 116,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Hard",
-        "stem": "Given below are two statements: Statement I : Bt toxins are insect group specific and coded by a gene cry IAc. Statement II : Bt toxin exists as inactive protoxin in B. thuringiensis. However, after ingestion by the insect the inactive protoxin gets converted into active form due to acidic pH of the insect gut. In the light of the above statements, choose the correct answer from the options given below:",
+        "stem": "Hind II always cuts DNA molecules at a particular point called recognition sequence and it consists of:",
         "options": {
-          "1": "Both Statement I and Statement II are false",
-          "2": "Statement I is true but Statement II is false",
-          "3": "Statement I is false but Statement II is true",
-          "4": "Both Statement I and Statement II are true"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q117",
-        "sourceYear": 2025,
-        "sourceNumber": 121,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Which one of the following can be explained on the basis of Mendel's Law of Dominance? A. Out of one pair of factors one is dominant and the other is recessive. B. Alleles do not show any expression and both the characters appear as such in F2 generation. C. Factors occur in pairs in normal diploid plants. D. The discrete unit controlling a particular character is called factor. E. The expression of only one of the parental characters is found in a monohybrid cross. Choose the correct answer from the options given below:",
-        "options": {
-          "1": "A, C, D and E only",
-          "2": "B, C and D only",
-          "3": "A, B, C, D and E",
-          "4": "A, B and C only"
+          "1": "6 bp",
+          "2": "4 bp",
+          "3": "10 bp",
+          "4": "8 bp"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -3260,7 +3235,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -3285,82 +3260,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q139",
+        "id": "2025-INTERIM-Q167",
         "sourceYear": 2025,
-        "sourceNumber": 142,
+        "sourceNumber": 169,
         "subject": "Biology",
         "topic": "Genetics & Biotech",
         "difficulty": "Hard",
-        "stem": "The DNA present in chloroplast is:",
+        "stem": "The following diagram showing restriction sites in E. coli cloning vector pBR322. Find the role of ‘X’ and ‘Y’ genes :",
         "options": {
-          "1": "Circular, double stranded",
-          "2": "Linear, single stranded",
-          "3": "Circular, single stranded",
-          "4": "Linear, double stranded"
+          "1": "The gene ‘X’ is responsible for controlling the copy number of the linked DNA and ‘Y’ for protein involved in the replication of Plasmid.",
+          "2": "The gene ‘X’ is for protein involved in replication of Plasmid and ‘Y’ for resistance to antibiotics.",
+          "3": "Gene ’X’ is responsible for recognitions sites and ‘Y’ is responsible for antibiotic resistance.",
+          "4": "The gene ‘X’ is responsible for resistance to antibiotics and ‘Y’ for protein involved in the replication of Plasmid."
         },
         "correctOption": "1",
         "correctOptions": [
           "1"
         ],
         "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
+        "figureSrc": "/figures/2025-INTERIM-Q167.png",
+        "figureKind": "pdf-crop+from-2024-stem-match",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q143",
-        "sourceYear": 2025,
-        "sourceNumber": 146,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Match List I with List II List I List II A. Frederick Griffith I. Genetic code B. Francois Jacob & Jacque Monod II. Semi-conservative mode of DNA replication C. Har Gobind Khorana III. Transformation D. Meselson & Stahl IV. Lac operon Choose the correct answer from the options given below:",
-        "options": {
-          "1": "A-III, B-IV, C-I, D-II",
-          "2": "A-II, B-III, C-IV, D-I",
-          "3": "A-IV, B-I, C-II, D-III",
-          "4": "A-III, B-II, C-I, D-IV"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q188",
-        "sourceYear": 2025,
-        "sourceNumber": 190,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Identify the correct option (A), (B), (C), (D) with respect to spermatogenesis.",
-        "options": {
-          "1": "ICSH, Interstitial cells, Leydig cells, spermiogenesis.",
-          "2": "FSH, Sertoli cells, Leydig cells, spermatogenesis.",
-          "3": "ICSH, Leydig cells, Sertoli cells, spermatogenesis.",
-          "4": "FSH, Leydig cells, Sertoli cells, spermiogenesis."
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -3385,7 +3310,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       }
     ]

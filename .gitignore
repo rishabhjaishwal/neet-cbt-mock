@@ -53,3 +53,7 @@ node_modules/
 !.env.example
 data/raw/figures/
 __pycache__/
+
+# large external extracts
+data/raw/external/
+data/raw/pdfs/external/

@@ -3,37 +3,12 @@
   "subject": "Biology",
   "topic": "Botany",
   "counts": {
-    "Easy": 39,
-    "Medium": 17,
-    "Hard": 15
+    "Easy": 23,
+    "Medium": 23,
+    "Hard": 23
   },
   "questions": {
     "Easy": [
-      {
-        "id": "2017-A-Q180",
-        "sourceYear": 2017,
-        "sourceNumber": 180,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Easy",
-        "stem": "Flowers which have single ovule in the ovary and are suspended solids? packed into inflorescence are usually pollinated by (1) Tertiary treatment",
-        "options": {
-          "1": "Water",
-          "2": "Secondary treatment",
-          "3": "Primary treatment",
-          "4": "Sludge treatment"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
       {
         "id": "2018-AA-Q33",
         "sourceYear": 2018,
@@ -56,57 +31,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q58",
-        "sourceYear": 2018,
-        "sourceNumber": 127,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Easy",
-        "stem": "Which part of poppy plant is used to obtain the drug ‘‘Smack’’ ?",
-        "options": {
-          "1": "Leaves",
-          "2": "Roots",
-          "3": "Latex",
-          "4": "Flowers"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q97",
-        "sourceYear": 2018,
-        "sourceNumber": 161,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Easy",
-        "stem": "In which of the following forms is iron absorbed by plants ?",
-        "options": {
-          "1": "Free element",
-          "2": "Ferrous",
-          "3": "Ferric",
-          "4": "Both ferric and ferrous OUGH WORK English"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -131,57 +56,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q61",
-        "sourceYear": 2019,
-        "sourceNumber": 151,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Easy",
-        "stem": "The production of gametes by the parents the formation of zygotes, the F1 and F2 plants can be understood using",
-        "options": {
-          "1": "Pie diagram",
-          "2": "A pyramid diagram",
-          "3": "Punnet square",
-          "4": "Wenn diagram"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q66",
-        "sourceYear": 2019,
-        "sourceNumber": 156,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Easy",
-        "stem": "Which of the following is not a feature of active transport of solutes in plants ? .",
-        "options": {
-          "1": "Occurs against concentration gradient",
-          "2": "Non-selective",
-          "3": "Occurs through membranes",
-          "4": "Requires ATP"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -206,22 +81,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2019-G1-Q69",
+        "id": "2019-G1-Q76",
         "sourceYear": 2019,
-        "sourceNumber": 159,
+        "sourceNumber": 166,
         "subject": "Biology",
         "topic": "Botany",
         "difficulty": "Easy",
-        "stem": "Where is the respiratory electron transport system (ETS) located in plants?",
+        "stem": "Match the placental types (column-I) with their examples (column-II) Column–I Column–II (a) Basal (i) Mustard (b) Axile (ii) China rose (c) Parietal (iii) Dianthus (d) Free central (iv) Sunflower Choose the correct answer from the following options:",
         "options": {
-          "1": "Mitochondrial matrix",
-          "2": "Outer mitochondrial membrane",
-          "3": "Inner mitochondrial membrane",
-          "4": "Intermembrane space"
+          "1": "(a)-(ii), (b)-(iii),(c)-(iv), (d)-(i)",
+          "2": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+          "3": "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)",
+          "4": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)"
         },
         "correctOption": "3",
         "correctOptions": [
@@ -231,57 +106,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q73",
-        "sourceYear": 2019,
-        "sourceNumber": 163,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Easy",
-        "stem": "In order to increase the yield of sugarcane crop, which of the following plant growth regulators should be sprayed ?",
-        "options": {
-          "1": "Ethylene",
-          "2": "Auxins",
-          "3": "Gibberellins",
-          "4": "Cytokinins"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q78",
-        "sourceYear": 2019,
-        "sourceNumber": 168,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Easy",
-        "stem": "Western Ghats have a large number of plant and animal species that are not found anywhere else. Which of the following terms will you use to notify such species ?",
-        "options": {
-          "1": "Endemic",
-          "2": "Vulnerable",
-          "3": "Threatened",
-          "4": "Keystone"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -306,22 +131,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2020-E1-Q51",
+        "id": "2020-E1-Q39",
         "sourceYear": 2020,
-        "sourceNumber": 131,
+        "sourceNumber": 121,
         "subject": "Biology",
         "topic": "Botany",
         "difficulty": "Easy",
-        "stem": "The product(s) of reaction catalyzed by nitrogenase in root nodules of leguminous plants is/are :",
+        "stem": "The transverse section of a plant shows following anatomical features : (a) Large number of scattered vascular bundles surrounded by bundle sheath. (b) Large conspicuous parenchymatous ground tissue. (c) Vascular bundles conjoint and closed. (d) Phloem parenchyma absent. Identify the category of plant and its part :",
         "options": {
-          "1": "Nitrate alone",
-          "2": "Ammonia and oxygen",
-          "3": "Ammonia and hydrogen",
-          "4": "Ammonia alone"
+          "1": "Dicotyledonous stem",
+          "2": "Dicotyledonous root",
+          "3": "Monocotyledonous stem",
+          "4": "Monocotyledonous root"
         },
         "correctOption": "3",
         "correctOptions": [
@@ -331,32 +156,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2020-E1-Q78",
+        "id": "2020-E1-Q91",
         "sourceYear": 2020,
-        "sourceNumber": 158,
+        "sourceNumber": 171,
         "subject": "Biology",
         "topic": "Botany",
         "difficulty": "Easy",
-        "stem": "Name the plant growth regulator which upon spraying on sugarcane crop, increases the length of stem, thus increasing the yield of sugarcane crop.",
+        "stem": "The transverse section of a plant shows following anatomical features : (a) Large number of scattered vascular bundles surrounded by bundle sheath. (b) Large conspicuous parenchymatous ground tissue. (c) Vascular bundles conjoint and closed. (d) Phloem parenchyma absent. Identify the category of plant and its part :",
         "options": {
-          "1": "Gibberellin",
-          "2": "Ethylene",
-          "3": "Abscisic acid",
-          "4": "Cytokinin"
+          "1": "Dicotyledonous root",
+          "2": "Monocotyledonous stem",
+          "3": "Monocotyledonous root",
+          "4": "Dicotyledonous stem 3 H1"
         },
-        "correctOption": "2",
+        "correctOption": "3",
         "correctOptions": [
-          "2"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -381,57 +206,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q112",
-        "sourceYear": 2021,
-        "sourceNumber": 115,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Easy",
-        "stem": "The production of gametes by the parents, formation of zygotes, the F1 and F2 plants, can be understood from a diagram called :",
-        "options": {
-          "1": "Punch square",
-          "2": "Punnett square",
-          "3": "Net square",
-          "4": "Bullet square"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q114",
-        "sourceYear": 2021,
-        "sourceNumber": 117,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Easy",
-        "stem": "The site of perception of light in plants during photoperiodism is :",
-        "options": {
-          "1": "Shoot apex",
-          "2": "Stem",
-          "3": "Axillary bud",
-          "4": "Leaf Hindi+English 0"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -456,32 +231,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q126",
-        "sourceYear": 2021,
-        "sourceNumber": 128,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Easy",
-        "stem": "Plants follow different pathways in response to environment or phases of life to form different kinds of structures. This ability is called :",
-        "options": {
-          "1": "Plasticity",
-          "2": "Maturity",
-          "3": "Elasticity",
-          "4": "Flexibility"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -506,57 +256,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q66",
-        "sourceYear": 2022,
-        "sourceNumber": 161,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Easy",
-        "stem": "The production of gametes by the parents the formation of zygotes, the F1 and F2 plants can be understood using",
-        "options": {
-          "1": "Pie diagram",
-          "2": "A pyramid diagram",
-          "3": "Punnet square",
-          "4": "Wenn diagram"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q71",
-        "sourceYear": 2022,
-        "sourceNumber": 166,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Easy",
-        "stem": "Which of the following is not a feature of active transport of solutes in plants ? .",
-        "options": {
-          "1": "Occurs against concentration gradient",
-          "2": "Non-selective",
-          "3": "Occurs through membranes",
-          "4": "Requires ATP"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -581,22 +281,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q74",
+        "id": "2022-RECON-Q81",
         "sourceYear": 2022,
-        "sourceNumber": 169,
+        "sourceNumber": 176,
         "subject": "Biology",
         "topic": "Botany",
         "difficulty": "Easy",
-        "stem": "Where is the respiratory electron transport system (ETS) located in plants?",
+        "stem": "Match the placental types (column-I) with their examples (column-II) Column–I Column–II (a) Basal (i) Mustard (b) Axile (ii) China rose (c) Parietal (iii) Dianthus (d) Free central (iv) Sunflower Choose the correct answer from the following options:",
         "options": {
-          "1": "Mitochondrial matrix",
-          "2": "Outer mitochondrial membrane",
-          "3": "Inner mitochondrial membrane",
-          "4": "Intermembrane space"
+          "1": "(a)-(ii), (b)-(iii),(c)-(iv), (d)-(i)",
+          "2": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+          "3": "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)",
+          "4": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)"
         },
         "correctOption": "3",
         "correctOptions": [
@@ -606,82 +306,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q78",
-        "sourceYear": 2022,
-        "sourceNumber": 173,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Easy",
-        "stem": "In order to increase the yield of sugarcane crop, which of the following plant growth regulators should be sprayed ?",
-        "options": {
-          "1": "Ethylene",
-          "2": "Auxins",
-          "3": "Gibberellins",
-          "4": "Cytokinins"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q83",
-        "sourceYear": 2022,
-        "sourceNumber": 178,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Easy",
-        "stem": "Western Ghats have a large number of plant and animal species that are not found anywhere else. Which of the following terms will you use to notify such species ?",
-        "options": {
-          "1": "Endemic",
-          "2": "Vulnerable",
-          "3": "Threatened",
-          "4": "Keystone"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q103",
-        "sourceYear": 2023,
-        "sourceNumber": 106,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Easy",
-        "stem": "Large, colourful, fragrant flowers with nectar are seen in",
-        "options": {
-          "1": "Bird pollinated plants",
-          "2": "Bat pollinated plants",
-          "3": "Wind pollinated plants",
-          "4": "Insect pollinated plants"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -706,47 +331,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q129",
+        "id": "2023-F1-Q142",
         "sourceYear": 2023,
-        "sourceNumber": 132,
+        "sourceNumber": 145,
         "subject": "Biology",
         "topic": "Botany",
         "difficulty": "Easy",
-        "stem": "Which micronutrient is required for splitting of water molecule during photosynthesis?",
+        "stem": "Match List I with List II: List I List II A. Iron I. Synthesis of auxin B. Zinc II. Component of nitrate reductase C. Boron III. Activator of catalase D. Molybdenum IV. Cell elongation and differentiation Choos the correct answer from the options given below:",
         "options": {
-          "1": "Molybdenum",
-          "2": "Magnesium",
-          "3": "Copper",
-          "4": "Manganese"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q101",
-        "sourceYear": 2024,
-        "sourceNumber": 105,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Easy",
-        "stem": "Auxin is used by gardeners to prepare weed-free lawns. But no damage is caused to grass as auxin",
-        "options": {
-          "1": "promotes abscission of mature leaves only.",
-          "2": "does not affect mature monocotyledonous plants.",
-          "3": "can help in cell division in grasses, to produce growth.",
-          "4": "promotes apical dominance."
+          "1": "A-II, B-III, C-IV, D-I",
+          "2": "A-III, B-I, C-IV, D-II",
+          "3": "A-II, B-IV, C-I, D-III",
+          "4": "A-III, B-II, C-I, D-IV"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -756,7 +356,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q167",
+        "sourceYear": 2023,
+        "sourceNumber": 167,
+        "subject": "Biology",
+        "topic": "Botany",
+        "difficulty": "Easy",
+        "stem": "Given below are two statements: Statement I:.Electrostatic precipitator is most widely used in thermal power plant .Statement II : Electrostatic precipitator in thermal power plant removes ionising radiations In the light of the above statements, choose the most appropriate answer from the options given below:",
+        "options": {
+          "1": "Both Statement I and Statement II are incorrect.",
+          "2": "Statement I is correct but Statement II is incorrect.",
+          "3": "Statement I is incorrect but Statement II is correct.",
+          "4": "Both Statement I and Statement II are correct."
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -781,32 +406,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q114",
-        "sourceYear": 2024,
-        "sourceNumber": 118,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Easy",
-        "stem": "Which of the following is an example of actinomorphic flower?",
-        "options": {
-          "1": "Cassia",
-          "2": "Pisum",
-          "3": "Sesbania",
-          "4": "Datura"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -831,47 +431,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2024-R1-Q148",
+        "id": "2024-R1-Q138",
         "sourceYear": 2024,
-        "sourceNumber": 151,
+        "sourceNumber": 141,
         "subject": "Biology",
         "topic": "Botany",
         "difficulty": "Easy",
-        "stem": "Spraying sugarcane crop with which of the following plant growth regulators, increases the length of stem, thus, increasing the yield?",
+        "stem": "Given below are two statements: Statement I: In C3 plants, some O2 binds to RuBisCO, hence CO2 fixation is decreased. Statement II: In C4 plants, mesophyll cells show very little photorespiration while bundle sheath cells do not show photorespiration. In the light of the above statements, choose the correct answer from the options given below:",
         "options": {
-          "1": "Gibberellin",
-          "2": "Cytokinin",
-          "3": "Abscisic acid",
-          "4": "Auxin"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q101",
-        "sourceYear": 2025,
-        "sourceNumber": 105,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Easy",
-        "stem": "Auxin is used by gardeners to prepare weed-free lawns. But no damage is caused to grass as auxin",
-        "options": {
-          "1": "promotes abscission of mature leaves only.",
-          "2": "does not affect mature monocotyledonous plants.",
-          "3": "can help in cell division in grasses, to produce growth.",
-          "4": "promotes apical dominance."
+          "1": "Both Statement I and Statement II are false",
+          "2": "Statement I is true but Statement II is false",
+          "3": "Statement I is false but Statement II is true",
+          "4": "Both Statement I and Statement II are true"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -881,32 +456,57 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q107",
-        "sourceYear": 2025,
-        "sourceNumber": 111,
+        "id": "2024-R1-Q149",
+        "sourceYear": 2024,
+        "sourceNumber": 152,
         "subject": "Biology",
         "topic": "Botany",
         "difficulty": "Easy",
-        "stem": "Which of the following are required for the dark reaction of photosynthesis? A. Light B. Chlorophyll C. CO2 D. ATP E. NADPH Choose the correct answer from the options given below:",
+        "stem": "Match List I with List II List I List II A. Rose I. Twisted aestivation B. Pea II. Perigynous flower C. Cotton III. Drupe D. Mango IV. Marginal placentation Choose the correct answer from the options given below :",
         "options": {
-          "1": "B, C and D only",
-          "2": "C, D and E only",
-          "3": "D and E only",
-          "4": "A, B and C only"
+          "1": "A-I, B-II, C-III, D-IV",
+          "2": "A-IV, B-III, C-II, D-I",
+          "3": "A-II, B-III, C-IV, D-I",
+          "4": "A-II, B-IV, C-I, D-III"
         },
-        "correctOption": "2",
+        "correctOption": "4",
         "correctOptions": [
-          "2"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q104",
+        "sourceYear": 2025,
+        "sourceNumber": 108,
+        "subject": "Biology",
+        "topic": "Botany",
+        "difficulty": "Easy",
+        "stem": "Identify the set of correct statements: A. The flowers of Vallisneria are colourful and produce nectar. B. The flowers of water lily are not pollinated by water. C. In most of water-pollinated species, the pollen grains are protected from wetting. D. Pollen grains of some hydrophytes are long and ribbon like. E. In some hydrophytes, the pollen grains are carried passively inside water. Choose the correct answer from the options given below.",
+        "options": {
+          "1": "A, B, C and D only",
+          "2": "A, C, D and E only",
+          "3": "B, C, D and E only",
+          "4": "C, D and E only"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -931,32 +531,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q121",
+        "id": "2025-INTERIM-Q128",
         "sourceYear": 2025,
-        "sourceNumber": 125,
+        "sourceNumber": 132,
         "subject": "Biology",
         "topic": "Botany",
         "difficulty": "Easy",
-        "stem": "A pink flowered Snapdragon plant was crossed with a red flowered Snapdragon plant. What type of phenotype/s is/are expected in the progeny?",
+        "stem": "Identify the part of the seed from the given figure which is destined to form root when the seed germinates.",
         "options": {
-          "1": "Red flowered as well as pink flowered plants",
-          "2": "Only pink flowered plants",
-          "3": "Red, Pink as well as white flowered plants",
-          "4": "Only red flowered plants"
+          "1": "B",
+          "2": "C",
+          "3": "D",
+          "4": "A"
         },
-        "correctOption": "1",
+        "correctOption": "2",
         "correctOptions": [
-          "1"
+          "2"
         ],
         "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
+        "figureSrc": "/figures/2025-INTERIM-Q128.png",
+        "figureKind": "pdf-crop+from-2024-stem-match",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -981,74 +581,24 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       }
     ],
     "Medium": [
       {
-        "id": "2017-A-Q142",
-        "sourceYear": 2017,
-        "sourceNumber": 143,
+        "id": "2018-AA-Q58",
+        "sourceYear": 2018,
+        "sourceNumber": 127,
         "subject": "Biology",
         "topic": "Botany",
         "difficulty": "Medium",
-        "stem": "With reference to factors affecting the rate of (3) X = 24, Y = 7 True ribs are dorsally photosynthesis, which of the following statements is attached to vertebral not correct? column but are free on",
+        "stem": "Which part of poppy plant is used to obtain the drug ‘‘Smack’’ ?",
         "options": {
-          "1": "Light saturation for CO2 fixation occurs at 10% ventral side of full sunlight",
-          "2": "Increasing atmospheric CO2 concentration upto attached to vertebral 0.05% can enhance CO2 fixation rate column but are free on",
-          "3": "C3 plants responds to higher temperatures with ventral side enhanced photosynthesis while C4 plants have",
-          "4": "X = 24, Y = 12 True ribs are dorsally"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q76",
-        "sourceYear": 2019,
-        "sourceNumber": 166,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Medium",
-        "stem": "Match the placental types (column-I) with their examples (column-II) Column–I Column–II (a) Basal (i) Mustard (b) Axile (ii) China rose (c) Parietal (iii) Dianthus (d) Free central (iv) Sunflower Choose the correct answer from the following options:",
-        "options": {
-          "1": "(a)-(ii), (b)-(iii),(c)-(iv), (d)-(i)",
-          "2": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
-          "3": "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)",
-          "4": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q6",
-        "sourceYear": 2020,
-        "sourceNumber": 93,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Medium",
-        "stem": "Match the following concerning essential elements and their functions in plants : (a) Iron (i) Photolysis of water (b) Zinc (ii) Pollen germination (c) Boron (iii) Required for chlorophyll biosynthesis (d) Manganese (iv) IAA biosynthesis Select the correct option : (a) (b) (c) (d)",
-        "options": {
-          "1": "(iii) (iv) (ii) (i)",
-          "2": "(iv) (i) (ii) (iii)",
-          "3": "(ii) (i) (iv) (iii)",
-          "4": "(iv) (iii) (ii) (i)"
+          "1": "Leaves",
+          "2": "Roots",
+          "3": "Latex",
+          "4": "Flowers"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -1058,7 +608,82 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2019-G1-Q61",
+        "sourceYear": 2019,
+        "sourceNumber": 151,
+        "subject": "Biology",
+        "topic": "Botany",
+        "difficulty": "Medium",
+        "stem": "The production of gametes by the parents the formation of zygotes, the F1 and F2 plants can be understood using",
+        "options": {
+          "1": "Pie diagram",
+          "2": "A pyramid diagram",
+          "3": "Punnet square",
+          "4": "Wenn diagram"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2019-G1-Q69",
+        "sourceYear": 2019,
+        "sourceNumber": 159,
+        "subject": "Biology",
+        "topic": "Botany",
+        "difficulty": "Medium",
+        "stem": "Where is the respiratory electron transport system (ETS) located in plants?",
+        "options": {
+          "1": "Mitochondrial matrix",
+          "2": "Outer mitochondrial membrane",
+          "3": "Inner mitochondrial membrane",
+          "4": "Intermembrane space"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2019-G1-Q78",
+        "sourceYear": 2019,
+        "sourceNumber": 168,
+        "subject": "Biology",
+        "topic": "Botany",
+        "difficulty": "Medium",
+        "stem": "Western Ghats have a large number of plant and animal species that are not found anywhere else. Which of the following terms will you use to notify such species ?",
+        "options": {
+          "1": "Endemic",
+          "2": "Vulnerable",
+          "3": "Threatened",
+          "4": "Keystone"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1083,47 +708,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2020-E1-Q36",
+        "id": "2020-E1-Q51",
         "sourceYear": 2020,
-        "sourceNumber": 119,
+        "sourceNumber": 131,
         "subject": "Biology",
         "topic": "Botany",
         "difficulty": "Medium",
-        "stem": "The transverse section of a plant shows following anatomical features : (a) Large number of scattered vascular bundles surrounded by bundle sheath. (b) Large conspicuous parenchymatous ground tissue. (c) Vascular bundles conjoint and closed. (d) Phloem parenchyma absent. Identify the category of plant and its part :",
+        "stem": "The product(s) of reaction catalyzed by nitrogenase in root nodules of leguminous plants is/are :",
         "options": {
-          "1": "Monocotyledonous stem",
-          "2": "Monocotyledonous root",
-          "3": "Dicotyledonous stem",
-          "4": "Dicotyledonous root"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q39",
-        "sourceYear": 2020,
-        "sourceNumber": 121,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Medium",
-        "stem": "The transverse section of a plant shows following anatomical features : (a) Large number of scattered vascular bundles surrounded by bundle sheath. (b) Large conspicuous parenchymatous ground tissue. (c) Vascular bundles conjoint and closed. (d) Phloem parenchyma absent. Identify the category of plant and its part :",
-        "options": {
-          "1": "Dicotyledonous stem",
-          "2": "Dicotyledonous root",
-          "3": "Monocotyledonous stem",
-          "4": "Monocotyledonous root"
+          "1": "Nitrate alone",
+          "2": "Ammonia and oxygen",
+          "3": "Ammonia and hydrogen",
+          "4": "Ammonia alone"
         },
         "correctOption": "3",
         "correctOptions": [
@@ -1133,32 +733,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q91",
-        "sourceYear": 2020,
-        "sourceNumber": 171,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Medium",
-        "stem": "The transverse section of a plant shows following anatomical features : (a) Large number of scattered vascular bundles surrounded by bundle sheath. (b) Large conspicuous parenchymatous ground tissue. (c) Vascular bundles conjoint and closed. (d) Phloem parenchyma absent. Identify the category of plant and its part :",
-        "options": {
-          "1": "Dicotyledonous root",
-          "2": "Monocotyledonous stem",
-          "3": "Monocotyledonous root",
-          "4": "Dicotyledonous stem 3 H1"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1183,47 +758,72 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2020-E1-Q124",
-        "sourceYear": 2020,
-        "sourceNumber": 176,
+        "id": "2021-M1-Q112",
+        "sourceYear": 2021,
+        "sourceNumber": 115,
         "subject": "Biology",
         "topic": "Botany",
         "difficulty": "Medium",
-        "stem": "Match the following concerning essential elements and their functions in plants : (a) Iron (i) Photolysis of water (b) Zinc (ii) Pollen germination (c) Boron (iii) Required for chlorophyll biosynthesis (d) Manganese (iv) IAA biosynthesis Select the correct option : (a) (b) (c) (d)",
+        "stem": "The production of gametes by the parents, formation of zygotes, the F1 and F2 plants, can be understood from a diagram called :",
         "options": {
-          "1": "(iv) (i) (ii) (iii)",
-          "2": "(ii) (i) (iv) (iii)",
-          "3": "(iv) (iii) (ii) (i)",
-          "4": "(iii) (iv) (ii) (i) Hindi+English 0"
+          "1": "Punch square",
+          "2": "Punnett square",
+          "3": "Net square",
+          "4": "Bullet square"
         },
-        "correctOption": "4",
+        "correctOption": "1",
         "correctOptions": [
-          "4"
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q126",
+        "sourceYear": 2021,
+        "sourceNumber": 128,
+        "subject": "Biology",
+        "topic": "Botany",
+        "difficulty": "Medium",
+        "stem": "Plants follow different pathways in response to environment or phases of life to form different kinds of structures. This ability is called :",
+        "options": {
+          "1": "Plasticity",
+          "2": "Maturity",
+          "3": "Elasticity",
+          "4": "Flexibility"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q81",
+        "id": "2022-RECON-Q66",
         "sourceYear": 2022,
-        "sourceNumber": 176,
+        "sourceNumber": 161,
         "subject": "Biology",
         "topic": "Botany",
         "difficulty": "Medium",
-        "stem": "Match the placental types (column-I) with their examples (column-II) Column–I Column–II (a) Basal (i) Mustard (b) Axile (ii) China rose (c) Parietal (iii) Dianthus (d) Free central (iv) Sunflower Choose the correct answer from the following options:",
+        "stem": "The production of gametes by the parents the formation of zygotes, the F1 and F2 plants can be understood using",
         "options": {
-          "1": "(a)-(ii), (b)-(iii),(c)-(iv), (d)-(i)",
-          "2": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
-          "3": "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)",
-          "4": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)"
+          "1": "Pie diagram",
+          "2": "A pyramid diagram",
+          "3": "Punnet square",
+          "4": "Wenn diagram"
         },
         "correctOption": "3",
         "correctOptions": [
@@ -1233,22 +833,122 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q167",
-        "sourceYear": 2023,
-        "sourceNumber": 167,
+        "id": "2022-RECON-Q74",
+        "sourceYear": 2022,
+        "sourceNumber": 169,
         "subject": "Biology",
         "topic": "Botany",
         "difficulty": "Medium",
-        "stem": "Given below are two statements: Statement I:.Electrostatic precipitator is most widely used in thermal power plant .Statement II : Electrostatic precipitator in thermal power plant removes ionising radiations In the light of the above statements, choose the most appropriate answer from the options given below:",
+        "stem": "Where is the respiratory electron transport system (ETS) located in plants?",
         "options": {
-          "1": "Both Statement I and Statement II are incorrect.",
-          "2": "Statement I is correct but Statement II is incorrect.",
-          "3": "Statement I is incorrect but Statement II is correct.",
-          "4": "Both Statement I and Statement II are correct."
+          "1": "Mitochondrial matrix",
+          "2": "Outer mitochondrial membrane",
+          "3": "Inner mitochondrial membrane",
+          "4": "Intermembrane space"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2022-RECON-Q83",
+        "sourceYear": 2022,
+        "sourceNumber": 178,
+        "subject": "Biology",
+        "topic": "Botany",
+        "difficulty": "Medium",
+        "stem": "Western Ghats have a large number of plant and animal species that are not found anywhere else. Which of the following terms will you use to notify such species ?",
+        "options": {
+          "1": "Endemic",
+          "2": "Vulnerable",
+          "3": "Threatened",
+          "4": "Keystone"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q129",
+        "sourceYear": 2023,
+        "sourceNumber": 132,
+        "subject": "Biology",
+        "topic": "Botany",
+        "difficulty": "Medium",
+        "stem": "Which micronutrient is required for splitting of water molecule during photosynthesis?",
+        "options": {
+          "1": "Molybdenum",
+          "2": "Magnesium",
+          "3": "Copper",
+          "4": "Manganese"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q149",
+        "sourceYear": 2023,
+        "sourceNumber": 151,
+        "subject": "Biology",
+        "topic": "Botany",
+        "difficulty": "Medium",
+        "stem": "Given below are two statements : One is labelled as Assertion A and the other is labelled as Reason R : Assertion A : A flower is defined as modified shoot wherein the shoot apical meristem changes to floral meristem. Reason R : Internode of the shoot gets condensed to produce different floral appendages laterally at successive node instead of leaves. In the light of the above statements, choose the correct answer from the options given below :",
+        "options": {
+          "1": "Both A and R are true but R is NOT the correct explanation of A",
+          "2": "A is true but R is false",
+          "3": "A is false but R is true",
+          "4": "Both A and R are true and R correct explanation of A"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2024-R1-Q101",
+        "sourceYear": 2024,
+        "sourceNumber": 105,
+        "subject": "Biology",
+        "topic": "Botany",
+        "difficulty": "Medium",
+        "stem": "Auxin is used by gardeners to prepare weed-free lawns. But no damage is caused to grass as auxin",
+        "options": {
+          "1": "promotes abscission of mature leaves only.",
+          "2": "does not affect mature monocotyledonous plants.",
+          "3": "can help in cell division in grasses, to produce growth.",
+          "4": "promotes apical dominance."
         },
         "correctOption": "2",
         "correctOptions": [
@@ -1258,7 +958,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1283,7 +983,7 @@
         "figureSrc": "/figures/2024-R1-Q113.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1308,72 +1008,97 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2024-R1-Q128",
+        "id": "2024-R1-Q141",
         "sourceYear": 2024,
-        "sourceNumber": 132,
+        "sourceNumber": 144,
         "subject": "Biology",
         "topic": "Botany",
         "difficulty": "Medium",
-        "stem": "Identify the part of the seed from the given figure which is destined to form root when the seed germinates.",
+        "stem": "Which of the following are fused in somatic hybridization involving two varieties of plants?",
         "options": {
-          "1": "B",
-          "2": "C",
-          "3": "D",
-          "4": "A"
+          "1": "Somatic embryos",
+          "2": "Protoplasts",
+          "3": "Pollens",
+          "4": "Callus"
         },
         "correctOption": "2",
         "correctOptions": [
           "2"
         ],
         "multiCorrect": false,
-        "figureSrc": "/figures/2024-R1-Q128.png",
-        "figureKind": "pdf-crop",
+        "figureSrc": null,
+        "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q113",
-        "sourceYear": 2025,
-        "sourceNumber": 117,
+        "id": "2024-R1-Q176",
+        "sourceYear": 2024,
+        "sourceNumber": 178,
         "subject": "Biology",
         "topic": "Botany",
         "difficulty": "Medium",
-        "stem": "Identify the type of flowers based on the position of calyx, corolla and androecium with respect to the ovary from the given figures (a) and (b)",
+        "stem": "Match List I with List II List I List II A. Non-medicated IUD I. Multiload 375 B. Copper releasing IUD II. Progestogens C. Hormone releasing IUD III. Lippes loop D. Implants IV. LNG-20 Choose the correct answer from the option given below:",
         "options": {
-          "1": "(a) Hypogynous; (b) Epigynous",
-          "2": "(a) Perigynous; (b) Epigynous",
-          "3": "(a) Perigynous; (b) Perigynous",
-          "4": "(a) Epigynous; (b) Hypogynous"
+          "1": "A-I, B-III, C-IV, D-II",
+          "2": "A-IV, B-I, C-II, D-III",
+          "3": "A-III, B-I, C-IV, D-II",
+          "4": "A-III, B-I, C-II, D-IV"
         },
         "correctOption": "3",
         "correctOptions": [
           "3"
         ],
         "multiCorrect": false,
-        "figureSrc": "/figures/2025-INTERIM-Q113.png",
-        "figureKind": "pdf-crop+from-2024-stem-match",
+        "figureSrc": null,
+        "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q122",
+        "id": "2025-INTERIM-Q107",
         "sourceYear": 2025,
-        "sourceNumber": 126,
+        "sourceNumber": 111,
         "subject": "Biology",
         "topic": "Botany",
         "difficulty": "Medium",
-        "stem": "In a plant, black seed color (BB/Bb) is dominant over white seed color (bb). In order to find out the genotype of the black seed plant, with which of the following genotype will you cross it?",
+        "stem": "Which of the following are required for the dark reaction of photosynthesis? A. Light B. Chlorophyll C. CO2 D. ATP E. NADPH Choose the correct answer from the options given below:",
         "options": {
-          "1": "bb",
-          "2": "Bb",
-          "3": "BB/Bb",
-          "4": "BB"
+          "1": "B, C and D only",
+          "2": "C, D and E only",
+          "3": "D and E only",
+          "4": "A, B and C only"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q121",
+        "sourceYear": 2025,
+        "sourceNumber": 125,
+        "subject": "Biology",
+        "topic": "Botany",
+        "difficulty": "Medium",
+        "stem": "A pink flowered Snapdragon plant was crossed with a red flowered Snapdragon plant. What type of phenotype/s is/are expected in the progeny?",
+        "options": {
+          "1": "Red flowered as well as pink flowered plants",
+          "2": "Only pink flowered plants",
+          "3": "Red, Pink as well as white flowered plants",
+          "4": "Only red flowered plants"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -1383,36 +1108,261 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q128",
+        "id": "2025-INTERIM-Q138",
         "sourceYear": 2025,
-        "sourceNumber": 132,
+        "sourceNumber": 141,
         "subject": "Biology",
         "topic": "Botany",
         "difficulty": "Medium",
-        "stem": "Identify the part of the seed from the given figure which is destined to form root when the seed germinates.",
+        "stem": "Given below are two statements: Statement I: In C3 plants, some O2 binds to RuBisCO, hence CO2 fixation is decreased. Statement II: In C4 plants, mesophyll cells show very little photorespiration while bundle sheath cells do not show photorespiration. In the light of the above statements, choose the correct answer from the options given below:",
         "options": {
-          "1": "B",
-          "2": "C",
-          "3": "D",
-          "4": "A"
+          "1": "Both Statement I and Statement II are false",
+          "2": "Statement I is true but Statement II is false",
+          "3": "Statement I is false but Statement II is true",
+          "4": "Both Statement I and Statement II are true"
         },
         "correctOption": "2",
         "correctOptions": [
           "2"
         ],
         "multiCorrect": false,
-        "figureSrc": "/figures/2025-INTERIM-Q128.png",
-        "figureKind": "pdf-crop+from-2024-stem-match",
+        "figureSrc": null,
+        "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q149",
+        "sourceYear": 2025,
+        "sourceNumber": 152,
+        "subject": "Biology",
+        "topic": "Botany",
+        "difficulty": "Medium",
+        "stem": "Match List I with List II List I List II A. Rose I. Twisted aestivation B. Pea II. Perigynous flower C. Cotton III. Drupe D. Mango IV. Marginal placentation Choose the correct answer from the options given below :",
+        "options": {
+          "1": "A-I, B-II, C-III, D-IV",
+          "2": "A-IV, B-III, C-II, D-I",
+          "3": "A-II, B-III, C-IV, D-I",
+          "4": "A-II, B-IV, C-I, D-III"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       }
     ],
     "Hard": [
+      {
+        "id": "2018-AA-Q97",
+        "sourceYear": 2018,
+        "sourceNumber": 161,
+        "subject": "Biology",
+        "topic": "Botany",
+        "difficulty": "Hard",
+        "stem": "In which of the following forms is iron absorbed by plants ?",
+        "options": {
+          "1": "Free element",
+          "2": "Ferrous",
+          "3": "Ferric",
+          "4": "Both ferric and ferrous OUGH WORK English"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2019-G1-Q66",
+        "sourceYear": 2019,
+        "sourceNumber": 156,
+        "subject": "Biology",
+        "topic": "Botany",
+        "difficulty": "Hard",
+        "stem": "Which of the following is not a feature of active transport of solutes in plants ? .",
+        "options": {
+          "1": "Occurs against concentration gradient",
+          "2": "Non-selective",
+          "3": "Occurs through membranes",
+          "4": "Requires ATP"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2019-G1-Q73",
+        "sourceYear": 2019,
+        "sourceNumber": 163,
+        "subject": "Biology",
+        "topic": "Botany",
+        "difficulty": "Hard",
+        "stem": "In order to increase the yield of sugarcane crop, which of the following plant growth regulators should be sprayed ?",
+        "options": {
+          "1": "Ethylene",
+          "2": "Auxins",
+          "3": "Gibberellins",
+          "4": "Cytokinins"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q6",
+        "sourceYear": 2020,
+        "sourceNumber": 93,
+        "subject": "Biology",
+        "topic": "Botany",
+        "difficulty": "Hard",
+        "stem": "Match the following concerning essential elements and their functions in plants : (a) Iron (i) Photolysis of water (b) Zinc (ii) Pollen germination (c) Boron (iii) Required for chlorophyll biosynthesis (d) Manganese (iv) IAA biosynthesis Select the correct option : (a) (b) (c) (d)",
+        "options": {
+          "1": "(iii) (iv) (ii) (i)",
+          "2": "(iv) (i) (ii) (iii)",
+          "3": "(ii) (i) (iv) (iii)",
+          "4": "(iv) (iii) (ii) (i)"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q36",
+        "sourceYear": 2020,
+        "sourceNumber": 119,
+        "subject": "Biology",
+        "topic": "Botany",
+        "difficulty": "Hard",
+        "stem": "The transverse section of a plant shows following anatomical features : (a) Large number of scattered vascular bundles surrounded by bundle sheath. (b) Large conspicuous parenchymatous ground tissue. (c) Vascular bundles conjoint and closed. (d) Phloem parenchyma absent. Identify the category of plant and its part :",
+        "options": {
+          "1": "Monocotyledonous stem",
+          "2": "Monocotyledonous root",
+          "3": "Dicotyledonous stem",
+          "4": "Dicotyledonous root"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q78",
+        "sourceYear": 2020,
+        "sourceNumber": 158,
+        "subject": "Biology",
+        "topic": "Botany",
+        "difficulty": "Hard",
+        "stem": "Name the plant growth regulator which upon spraying on sugarcane crop, increases the length of stem, thus increasing the yield of sugarcane crop.",
+        "options": {
+          "1": "Gibberellin",
+          "2": "Ethylene",
+          "3": "Abscisic acid",
+          "4": "Cytokinin"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q124",
+        "sourceYear": 2020,
+        "sourceNumber": 176,
+        "subject": "Biology",
+        "topic": "Botany",
+        "difficulty": "Hard",
+        "stem": "Match the following concerning essential elements and their functions in plants : (a) Iron (i) Photolysis of water (b) Zinc (ii) Pollen germination (c) Boron (iii) Required for chlorophyll biosynthesis (d) Manganese (iv) IAA biosynthesis Select the correct option : (a) (b) (c) (d)",
+        "options": {
+          "1": "(iv) (i) (ii) (iii)",
+          "2": "(ii) (i) (iv) (iii)",
+          "3": "(iv) (iii) (ii) (i)",
+          "4": "(iii) (iv) (ii) (i) Hindi+English 0"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q114",
+        "sourceYear": 2021,
+        "sourceNumber": 117,
+        "subject": "Biology",
+        "topic": "Botany",
+        "difficulty": "Hard",
+        "stem": "The site of perception of light in plants during photoperiodism is :",
+        "options": {
+          "1": "Shoot apex",
+          "2": "Stem",
+          "3": "Axillary bud",
+          "4": "Leaf Hindi+English 0"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
       {
         "id": "2021-M1-Q129",
         "sourceYear": 2021,
@@ -1435,7 +1385,82 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2022-RECON-Q71",
+        "sourceYear": 2022,
+        "sourceNumber": 166,
+        "subject": "Biology",
+        "topic": "Botany",
+        "difficulty": "Hard",
+        "stem": "Which of the following is not a feature of active transport of solutes in plants ? .",
+        "options": {
+          "1": "Occurs against concentration gradient",
+          "2": "Non-selective",
+          "3": "Occurs through membranes",
+          "4": "Requires ATP"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2022-RECON-Q78",
+        "sourceYear": 2022,
+        "sourceNumber": 173,
+        "subject": "Biology",
+        "topic": "Botany",
+        "difficulty": "Hard",
+        "stem": "In order to increase the yield of sugarcane crop, which of the following plant growth regulators should be sprayed ?",
+        "options": {
+          "1": "Ethylene",
+          "2": "Auxins",
+          "3": "Gibberellins",
+          "4": "Cytokinins"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q103",
+        "sourceYear": 2023,
+        "sourceNumber": 106,
+        "subject": "Biology",
+        "topic": "Botany",
+        "difficulty": "Hard",
+        "stem": "Large, colourful, fragrant flowers with nectar are seen in",
+        "options": {
+          "1": "Bird pollinated plants",
+          "2": "Bat pollinated plants",
+          "3": "Wind pollinated plants",
+          "4": "Insect pollinated plants"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1460,57 +1485,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q142",
-        "sourceYear": 2023,
-        "sourceNumber": 145,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Hard",
-        "stem": "Match List I with List II: List I List II A. Iron I. Synthesis of auxin B. Zinc II. Component of nitrate reductase C. Boron III. Activator of catalase D. Molybdenum IV. Cell elongation and differentiation Choos the correct answer from the options given below:",
-        "options": {
-          "1": "A-II, B-III, C-IV, D-I",
-          "2": "A-III, B-I, C-IV, D-II",
-          "3": "A-II, B-IV, C-I, D-III",
-          "4": "A-III, B-II, C-I, D-IV"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q149",
-        "sourceYear": 2023,
-        "sourceNumber": 151,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Hard",
-        "stem": "Given below are two statements : One is labelled as Assertion A and the other is labelled as Reason R : Assertion A : A flower is defined as modified shoot wherein the shoot apical meristem changes to floral meristem. Reason R : Internode of the shoot gets condensed to produce different floral appendages laterally at successive node instead of leaves. In the light of the above statements, choose the correct answer from the options given below :",
-        "options": {
-          "1": "Both A and R are true but R is NOT the correct explanation of A",
-          "2": "A is true but R is false",
-          "3": "A is false but R is true",
-          "4": "Both A and R are true and R correct explanation of A"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1535,7 +1510,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1560,72 +1535,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2024-R1-Q138",
+        "id": "2024-R1-Q114",
         "sourceYear": 2024,
-        "sourceNumber": 141,
+        "sourceNumber": 118,
         "subject": "Biology",
         "topic": "Botany",
         "difficulty": "Hard",
-        "stem": "Given below are two statements: Statement I: In C3 plants, some O2 binds to RuBisCO, hence CO2 fixation is decreased. Statement II: In C4 plants, mesophyll cells show very little photorespiration while bundle sheath cells do not show photorespiration. In the light of the above statements, choose the correct answer from the options given below:",
+        "stem": "Which of the following is an example of actinomorphic flower?",
         "options": {
-          "1": "Both Statement I and Statement II are false",
-          "2": "Statement I is true but Statement II is false",
-          "3": "Statement I is false but Statement II is true",
-          "4": "Both Statement I and Statement II are true"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q141",
-        "sourceYear": 2024,
-        "sourceNumber": 144,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Hard",
-        "stem": "Which of the following are fused in somatic hybridization involving two varieties of plants?",
-        "options": {
-          "1": "Somatic embryos",
-          "2": "Protoplasts",
-          "3": "Pollens",
-          "4": "Callus"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q149",
-        "sourceYear": 2024,
-        "sourceNumber": 152,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Hard",
-        "stem": "Match List I with List II List I List II A. Rose I. Twisted aestivation B. Pea II. Perigynous flower C. Cotton III. Drupe D. Mango IV. Marginal placentation Choose the correct answer from the options given below :",
-        "options": {
-          "1": "A-I, B-II, C-III, D-IV",
-          "2": "A-IV, B-III, C-II, D-I",
-          "3": "A-II, B-III, C-IV, D-I",
-          "4": "A-II, B-IV, C-I, D-III"
+          "1": "Cassia",
+          "2": "Pisum",
+          "3": "Sesbania",
+          "4": "Datura"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -1635,72 +1560,72 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2024-R1-Q176",
+        "id": "2024-R1-Q128",
         "sourceYear": 2024,
-        "sourceNumber": 178,
+        "sourceNumber": 132,
         "subject": "Biology",
         "topic": "Botany",
         "difficulty": "Hard",
-        "stem": "Match List I with List II List I List II A. Non-medicated IUD I. Multiload 375 B. Copper releasing IUD II. Progestogens C. Hormone releasing IUD III. Lippes loop D. Implants IV. LNG-20 Choose the correct answer from the option given below:",
+        "stem": "Identify the part of the seed from the given figure which is destined to form root when the seed germinates.",
         "options": {
-          "1": "A-I, B-III, C-IV, D-II",
-          "2": "A-IV, B-I, C-II, D-III",
-          "3": "A-III, B-I, C-IV, D-II",
-          "4": "A-III, B-I, C-II, D-IV"
+          "1": "B",
+          "2": "C",
+          "3": "D",
+          "4": "A"
         },
-        "correctOption": "3",
+        "correctOption": "2",
         "correctOptions": [
-          "3"
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": "/figures/2024-R1-Q128.png",
+        "figureKind": "pdf-crop",
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2024-R1-Q148",
+        "sourceYear": 2024,
+        "sourceNumber": 151,
+        "subject": "Biology",
+        "topic": "Botany",
+        "difficulty": "Hard",
+        "stem": "Spraying sugarcane crop with which of the following plant growth regulators, increases the length of stem, thus, increasing the yield?",
+        "options": {
+          "1": "Gibberellin",
+          "2": "Cytokinin",
+          "3": "Abscisic acid",
+          "4": "Auxin"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q104",
+        "id": "2025-INTERIM-Q101",
         "sourceYear": 2025,
-        "sourceNumber": 108,
+        "sourceNumber": 105,
         "subject": "Biology",
         "topic": "Botany",
         "difficulty": "Hard",
-        "stem": "Identify the set of correct statements: A. The flowers of Vallisneria are colourful and produce nectar. B. The flowers of water lily are not pollinated by water. C. In most of water-pollinated species, the pollen grains are protected from wetting. D. Pollen grains of some hydrophytes are long and ribbon like. E. In some hydrophytes, the pollen grains are carried passively inside water. Choose the correct answer from the options given below.",
+        "stem": "Auxin is used by gardeners to prepare weed-free lawns. But no damage is caused to grass as auxin",
         "options": {
-          "1": "A, B, C and D only",
-          "2": "A, C, D and E only",
-          "3": "B, C, D and E only",
-          "4": "C, D and E only"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q138",
-        "sourceYear": 2025,
-        "sourceNumber": 141,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Hard",
-        "stem": "Given below are two statements: Statement I: In C3 plants, some O2 binds to RuBisCO, hence CO2 fixation is decreased. Statement II: In C4 plants, mesophyll cells show very little photorespiration while bundle sheath cells do not show photorespiration. In the light of the above statements, choose the correct answer from the options given below:",
-        "options": {
-          "1": "Both Statement I and Statement II are false",
-          "2": "Statement I is true but Statement II is false",
-          "3": "Statement I is false but Statement II is true",
-          "4": "Both Statement I and Statement II are true"
+          "1": "promotes abscission of mature leaves only.",
+          "2": "does not affect mature monocotyledonous plants.",
+          "3": "can help in cell division in grasses, to produce growth.",
+          "4": "promotes apical dominance."
         },
         "correctOption": "2",
         "correctOptions": [
@@ -1710,7 +1635,57 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q113",
+        "sourceYear": 2025,
+        "sourceNumber": 117,
+        "subject": "Biology",
+        "topic": "Botany",
+        "difficulty": "Hard",
+        "stem": "Identify the type of flowers based on the position of calyx, corolla and androecium with respect to the ovary from the given figures (a) and (b)",
+        "options": {
+          "1": "(a) Hypogynous; (b) Epigynous",
+          "2": "(a) Perigynous; (b) Epigynous",
+          "3": "(a) Perigynous; (b) Perigynous",
+          "4": "(a) Epigynous; (b) Hypogynous"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": "/figures/2025-INTERIM-Q113.png",
+        "figureKind": "pdf-crop+from-2024-stem-match",
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q122",
+        "sourceYear": 2025,
+        "sourceNumber": 126,
+        "subject": "Biology",
+        "topic": "Botany",
+        "difficulty": "Hard",
+        "stem": "In a plant, black seed color (BB/Bb) is dominant over white seed color (bb). In order to find out the genotype of the black seed plant, with which of the following genotype will you cross it?",
+        "options": {
+          "1": "bb",
+          "2": "Bb",
+          "3": "BB/Bb",
+          "4": "BB"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1735,32 +1710,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q149",
-        "sourceYear": 2025,
-        "sourceNumber": 152,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Hard",
-        "stem": "Match List I with List II List I List II A. Rose I. Twisted aestivation B. Pea II. Perigynous flower C. Cotton III. Drupe D. Mango IV. Marginal placentation Choose the correct answer from the options given below :",
-        "options": {
-          "1": "A-I, B-II, C-III, D-IV",
-          "2": "A-IV, B-III, C-II, D-I",
-          "3": "A-II, B-III, C-IV, D-I",
-          "4": "A-II, B-IV, C-I, D-III"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1785,7 +1735,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       }
     ]

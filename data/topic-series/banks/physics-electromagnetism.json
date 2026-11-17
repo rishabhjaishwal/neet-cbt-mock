@@ -3,25 +3,50 @@
   "subject": "Physics",
   "topic": "Electromagnetism",
   "counts": {
-    "Easy": 14,
-    "Medium": 60,
+    "Easy": 36,
+    "Medium": 36,
     "Hard": 36
   },
   "questions": {
     "Easy": [
       {
-        "id": "2017-A-Q31",
-        "sourceYear": 2017,
-        "sourceNumber": 28,
+        "id": "2018-AA-Q6",
+        "sourceYear": 2018,
+        "sourceNumber": 3,
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Easy",
-        "stem": "In an electromagnetic wave in free space the root mean",
+        "stem": "A set of ‘n’ equal resistors, of value ‘R’ each, are connected in series to a battery of emf ‘E’ and internal resistance ‘R’. The current drawn is I. Now, the ‘n’ resistors are connected in parallel to the same battery. Then the current drawn from battery becomes 10 I. The value of ‘n’ is",
         "options": {
-          "1": "1.41 × 10–8 T",
-          "2": "9 : 4 square value of the electric field is Erms = 6 V/m. The peak value of the magnetic field is",
-          "3": "3 : 2",
-          "4": "16 : 81"
+          "1": "20",
+          "2": "11",
+          "3": "10",
+          "4": "9"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2018-AA-Q27",
+        "sourceYear": 2018,
+        "sourceNumber": 12,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Easy",
+        "stem": "A thin diamagnetic rod is placed vertically between the poles of an electromagnet. When the current in the electromagnet is switched on, then the diamagnetic rod is pushed up, out of the horizontal magnetic field. Hence the rod gains gravitational potential energy. The work required to do this comes from",
+        "options": {
+          "1": "the lattice structure of the material of the rod",
+          "2": "the magnetic field",
+          "3": "the current source",
+          "4": "the induced electric field due to the changing magnetic field"
         },
         "correctOption": "3",
         "correctOptions": [
@@ -30,33 +55,33 @@
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2018-AA-Q36",
+        "id": "2018-AA-Q37",
         "sourceYear": 2018,
-        "sourceNumber": 16,
+        "sourceNumber": 17,
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Easy",
-        "stem": "An inductor 20 mH, a capacitor 100 μF and a resistor 50 Ω are connected in series across a source of emf, V = 10 sin 314 t. The power loss in the circuit is",
+        "stem": "A thin diamagnetic rod is placed vertically between the poles of an electromagnet. When the current in the electromagnet is switched on, then the diamagnetic rod is pushed up, out of the horizontal magnetic field. Hence the rod gains gravitational potential energy. The work required to do this comes from",
         "options": {
-          "1": "0·79 W",
-          "2": "0·43 W",
-          "3": "2·74 W",
-          "4": "1·13 W"
+          "1": "the current source",
+          "2": "the magnetic field",
+          "3": "the lattice structure of the material of the rod",
+          "4": "the induced electric field due to the changing magnetic field OUGH WORK English"
         },
-        "correctOption": "4",
+        "correctOption": "1",
         "correctOptions": [
-          "4"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -81,7 +106,57 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2018-AA-Q157",
+        "sourceYear": 2018,
+        "sourceNumber": 42,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Easy",
+        "stem": "A set of ‘n’ equal resistors, of value ‘R’ each, are connected in series to a battery of emf ‘E’ and internal resistance ‘R’. The current drawn is I. Now, the ‘n’ resistors are connected in parallel to the same battery. Then the current drawn from battery becomes 10 I. The value of ‘n’ is",
+        "options": {
+          "1": "10",
+          "2": "9",
+          "3": "20",
+          "4": "11 OUGH WORK English"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2019-G1-Q161",
+        "sourceYear": 2019,
+        "sourceNumber": 26,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Easy",
+        "stem": "A straight conductor carrying current I splits into two parts as shown in the figure. The radius of the circular loop is R. The total magnetic field at the centre P of the loop is, μ 0i",
+        "options": {
+          "1": "zero",
+          "2": "3μ0i / 32R, outward",
+          "3": "3μ0i / 32R, inward",
+          "4": ", inward 2R"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": "/figures/2019-G1-Q161.png",
+        "figureKind": "pdf-crop",
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -106,7 +181,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q22",
+        "sourceYear": 2020,
+        "sourceNumber": 6,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Easy",
+        "stem": "A series LCR circuit is connected to an ac voltage source. When L is removed from the circuit, the phase difference between current and voltage π is . If instead C is removed from the circuit, 3 π the phase difference is again between current 3 and voltage. The power factor of the circuit is :",
+        "options": {
+          "1": "0.5",
+          "2": "1.0",
+          "3": "−1.0",
+          "4": "zero"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -131,32 +231,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2020-E1-Q172",
+        "id": "2020-E1-Q166",
         "sourceYear": 2020,
-        "sourceNumber": 43,
+        "sourceNumber": 41,
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Easy",
-        "stem": "A long solenoid of 50 cm length having 100 turns carries a current of 2.5 A. The magnetic field at the centre of the solenoid is : (μ0=4π×70^{-7}$ T m A−1)",
+        "stem": "The capacitance of a parallel plate capacitor with air as medium is 6 μF. With the introduction of a dielectric medium, the capacitance becomes 30 μF. The permittivity of the medium is : (e0=8.85×120^{-12}$ C2 N−1 m−2)$",
         "options": {
-          "1": "6.28×40^{-4}$ T",
-          "2": "3.14×40^{-4}$ T",
-          "3": "6.28×50^{-5}$ T",
-          "4": "3.14×50^{-5}$ T"
+          "1": "0.44×130^{-13}$ C2 N−1 m−2$",
+          "2": "1.77×120^{-12}$ C2 N−1 m−2$",
+          "3": "0.44×100^{-10}$ C2 N−1 m−2$",
+          "4": "5.00 C2 N−1 m−2"
         },
-        "correctOption": "4",
+        "correctOption": "2",
         "correctOptions": [
-          "4"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -166,12 +266,12 @@
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Easy",
-        "stem": "A long solenoid of 50 cm length having 100 turns carries a current of 2.5 A. The magnetic field at the centre of the solenoid is : (μ0=4π×70^{-7}$ T m A−1)",
+        "stem": "A long solenoid of 50 cm length having 100 turns carries a current of 2.5 A. The magnetic field at the centre of the solenoid is : (μ0=4π×70^{-7}$ T m A−1)$",
         "options": {
-          "1": "3.14×50^{-5}$ T",
-          "2": "6.28×40^{-4}$ T",
-          "3": "3.14×40^{-4}$ T",
-          "4": "6.28×50^{-5}$ T 1 H1"
+          "1": "3.14×50^{-5}$ T$",
+          "2": "6.28×40^{-4}$ T$",
+          "3": "3.14×40^{-4}$ T$",
+          "4": "6.28×50^{-5}$ T 1 H1$"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -181,22 +281,47 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q179",
-        "sourceYear": 2022,
-        "sourceNumber": 34,
+        "id": "2021-M1-Q3",
+        "sourceYear": 2021,
+        "sourceNumber": 3,
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Easy",
-        "stem": "A circuit when connected to an AC source of 12 V gives a current of 0.2A. The same circuit when connected to a DC source of 12 V, gives a current of 0.4 A. The circuit is :",
+        "stem": "An infinitely long straight conductor carries a current of 5 A as shown. An electron is moving with a speed of 105 m/s parallel to the conductor. The perpendicular distance between the electron and the conductor is 20 cm at an instant. Calculate the magnitude of the force experienced by the electron at that instant.",
         "options": {
-          "1": "series LR",
-          "2": "series RC",
-          "3": "series LC",
-          "4": "series LCR"
+          "1": "4×200^{-20}$ N$",
+          "2": "8π×200^{-20}$ N$",
+          "3": "4π×200^{-20}$ N$",
+          "4": "8×200^{-20}$ N 3 M1$"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q13",
+        "sourceYear": 2021,
+        "sourceNumber": 13,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Easy",
+        "stem": "A parallel plate capacitor has a uniform electric → field ‘ E ’ in the space between the plates. If the distance between the plates is ‘d’ and the area of each plate is ‘A’, the energy stored in the capacitor is : (ε0=permittivity of free space)",
+        "options": {
+          "1": "ε0EAd 1",
+          "2": "ε E2 Ad 2 0 E2 Ad",
+          "3": "ε0 1",
+          "4": "ε E2 2 0"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -205,8 +330,208 @@
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q21",
+        "sourceYear": 2021,
+        "sourceNumber": 20,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Easy",
+        "stem": "A parallel plate capacitor has a uniform electric → field ‘ E ’ in the space between the plates. If the distance between the plates is ‘d’ and the area of each plate is ‘A’, the energy stored in the capacitor is : (ε0=permittivity of free space) 1",
+        "options": {
+          "1": "ε E2 2 0",
+          "2": "ε0EAd 1",
+          "3": "ε E2 Ad 2 0 E2 Ad",
+          "4": "ε0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q32",
+        "sourceYear": 2021,
+        "sourceNumber": 29,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Easy",
+        "stem": "A thick current carrying cable of radius ‘R’ carries current ‘I’ uniformly distributed across its cross-section. The variation of magnetic field B(r) due to the cable with the distance ‘r’ from the axis of the cable is represented by :",
+        "options": {
+          "1": "Option 1",
+          "2": "Option 2",
+          "3": "Option 3",
+          "4": "Option 4"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q54",
+        "sourceYear": 2021,
+        "sourceNumber": 43,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Easy",
+        "stem": "A particular station of All India Radio, New Delhi, broadcasts on a frequency of 1,368 kHz (kilohertz). The wavelength of the electromagnetic radiation emitted by the transmitter is : [speed of light, c=3.0×108 ms−1]",
+        "options": {
+          "1": "219.3 m",
+          "2": "219.2 m",
+          "3": "2192 m",
+          "4": "21.92 cm"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q71",
+        "sourceYear": 2021,
+        "sourceNumber": 46,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Easy",
+        "stem": "A particular station of All India Radio, New Delhi, broadcasts on a frequency of 1,368 kHz (kilohertz). The wavelength of the electromagnetic radiation emitted by the transmitter is : [speed of light, c=3.0×108 ms−1]",
+        "options": {
+          "1": "21.92 cm",
+          "2": "219.3 m",
+          "3": "219.2 m",
+          "4": "2192 m"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2022-RECON-Q48",
+        "sourceYear": 2022,
+        "sourceNumber": 3,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Easy",
+        "stem": "An infinitely long straight conductor carries a current of 5 A as shown. An electron is moving with a speed of 105 m/s parallel to the conductor. The perpendicular distance between the electron and the conductor is 20 cm at an instant. Calculate the magnitude of the force experienced by the electron at that instant.",
+        "options": {
+          "1": "4×200^{-20}$ N$",
+          "2": "8π×200^{-20}$ N$",
+          "3": "4π×200^{-20}$ N$",
+          "4": "8×200^{-20}$ N 3 M1$"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2022-RECON-Q159",
+        "sourceYear": 2022,
+        "sourceNumber": 16,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Easy",
+        "stem": "The circuit diagram shown here corresponds to the logic gate,",
+        "options": {
+          "1": "NOR",
+          "2": "AND",
+          "3": "OR",
+          "4": "NAND"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": "/figures/2022-RECON-Q159.png",
+        "figureKind": "pdf-crop+from-2019-stem-match",
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2022-RECON-Q172",
+        "sourceYear": 2022,
+        "sourceNumber": 27,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Easy",
+        "stem": "The variation of EMF with time for four types of generators are shown in the figures. Which amongst them can be called AC ?",
+        "options": {
+          "1": "(a) and (d)",
+          "2": "(a), (b), (c), (d)",
+          "3": "(a) and (b)",
+          "4": "only (a)"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": "/figures/2022-RECON-Q172.png",
+        "figureKind": "pdf-crop+from-2019-stem-match",
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2022-RECON-Q180",
+        "sourceYear": 2022,
+        "sourceNumber": 35,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Easy",
+        "stem": "A cycle wheel of radius 0.5 m is rotated with constant angular velocity of 10 rad/s in a region of magnetic field of 0.1 T which is perpendicular to the plane of the wheel. The EMF generated between its centre and the rim is :",
+        "options": {
+          "1": "0.25 V",
+          "2": "0.125 V",
+          "3": "0.5 V",
+          "4": "zero"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -231,7 +556,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -256,32 +581,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q24",
+        "id": "2023-F1-Q21",
         "sourceYear": 2023,
-        "sourceNumber": 23,
+        "sourceNumber": 20,
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Easy",
-        "stem": "The net magnetic flux through any closed surface is",
+        "stem": "The magnitude and direction of the current in the following circuit is 5",
         "options": {
-          "1": "Positive",
-          "2": "Infinity",
-          "3": "Negative",
-          "4": "Zero"
+          "1": "0.5 A from A to B through E",
+          "2": "A from A to B through E 9",
+          "3": "1.5 A from B to A through E",
+          "4": "0.2 A from B to A through E"
         },
-        "correctOption": "4",
+        "correctOption": "1",
         "correctOptions": [
-          "4"
+          "1"
         ],
         "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
+        "figureSrc": "/figures/2023-F1-Q21.png",
+        "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -306,47 +631,72 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2024-R1-Q31",
+        "id": "2023-F1-Q44",
+        "sourceYear": 2023,
+        "sourceNumber": 43,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Easy",
+        "stem": "For the following logic circuit, the truth table is A B Y A B Y 0 0 0 0 0 1",
+        "options": {
+          "1": "0 1 1",
+          "2": "0 1 0 1 0 1 1 0 1 1 1 1 1 1 0 A B Y A B Y 0 0 0 0 0 1",
+          "3": "0 1 0",
+          "4": "0 1 1 1 0 0 1 0 1 1 1 1 1 1 0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2024-R1-Q4",
         "sourceYear": 2024,
-        "sourceNumber": 28,
+        "sourceNumber": 4,
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Easy",
-        "stem": "A logic circuit provides the output Y as per the following truth table : A B Y 0 0 1 0 1 0 1 0 1 1 1 0 The expression for the output Y is :",
+        "stem": "The terminal voltage of the battery, whose emf is 10 V and internal resistance 1 Ω, when connected through an external resistance of 4 Ω as shown in the figure is:",
         "options": {
-          "1": ". +A AB",
-          "2": "B",
-          "3": "B",
-          "4": "A.B + A"
+          "1": "6V",
+          "2": "8V",
+          "3": "10 V",
+          "4": "4V"
         },
         "correctOption": "2",
         "correctOptions": [
           "2"
         ],
         "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
+        "figureSrc": "/figures/2024-R1-Q4.png",
+        "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q31",
-        "sourceYear": 2025,
-        "sourceNumber": 28,
+        "id": "2024-R1-Q21",
+        "sourceYear": 2024,
+        "sourceNumber": 18,
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Easy",
-        "stem": "A logic circuit provides the output Y as per the following truth table : A B Y 0 0 1 0 1 0 1 0 1 1 1 0 The expression for the output Y is :",
+        "stem": "A tightly wound 100 turns coil of radius 10 cm carries a current of 7 A. The magnitude of the magnetic field at the centre of the coil is (Take permeability of free space as 4π × 10–7 SI units):",
         "options": {
-          "1": ". +A AB",
-          "2": "B",
-          "3": "B",
-          "4": "A.B + A"
+          "1": "4.4 T",
+          "2": "4.4 mT",
+          "3": "44 T",
+          "4": "44 mT"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -356,61 +706,211 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2024-R1-Q30",
+        "sourceYear": 2024,
+        "sourceNumber": 27,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Easy",
+        "stem": "In the above diagram, a strong bar magnet is moving towards solenoid-2 from solenoid-1. The direction of induced current in solenoid-1 and that in solenoid-2, respectively, are through the directions:",
+        "options": {
+          "1": "BA and CD",
+          "2": "AB and CD",
+          "3": "BA and DC",
+          "4": "AB and DC"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": "/figures/2024-R1-Q30.png",
+        "figureKind": "pdf-crop",
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2024-R1-Q43",
+        "sourceYear": 2024,
+        "sourceNumber": 40,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Easy",
+        "stem": "A parallel plate capacitor is charged by connecting it to a battery through a resistor. If I is the current in the circuit, then in the gap between the plates:",
+        "options": {
+          "1": "Displacement current of magnitude equal to I flows in the same direction as I",
+          "2": "Displacement current of magnitude equal to I flows in a direction opposite to that of I",
+          "3": "Displacement current of magnitude greater than I flows but can be in any direction",
+          "4": "There is no current"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2024-R1-Q46",
+        "sourceYear": 2024,
+        "sourceNumber": 43,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Easy",
+        "stem": "If the plates of a parallel plate capacitor connected to a battery are moved close to each other, then A. the charge stored in it, increases. B. the energy stored in it, decreases. C. its capacitance increases. D. the ratio of charge to its potential remains the same. E. the product of charge and voltage increases. Choose the most appropriate answer from the options given below:",
+        "options": {
+          "1": "A, C and E only",
+          "2": "B, D and E only",
+          "3": "A, B and C only",
+          "4": "A, B and E only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q4",
+        "sourceYear": 2025,
+        "sourceNumber": 4,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Easy",
+        "stem": "The terminal voltage of the battery, whose emf is 10 V and internal resistance 1 Ω, when connected through an external resistance of 4 Ω as shown in the figure is:",
+        "options": {
+          "1": "6V",
+          "2": "8V",
+          "3": "10 V",
+          "4": "4V"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": "/figures/2025-INTERIM-Q4.png",
+        "figureKind": "pdf-crop+from-2024-stem-match",
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q21",
+        "sourceYear": 2025,
+        "sourceNumber": 18,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Easy",
+        "stem": "A tightly wound 100 turns coil of radius 10 cm carries a current of 7 A. The magnitude of the magnetic field at the centre of the coil is (Take permeability of free space as 4π × 10–7 SI units):",
+        "options": {
+          "1": "4.4 T",
+          "2": "4.4 mT",
+          "3": "44 T",
+          "4": "44 mT"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q30",
+        "sourceYear": 2025,
+        "sourceNumber": 27,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Easy",
+        "stem": "In the above diagram, a strong bar magnet is moving towards solenoid-2 from solenoid-1. The direction of induced current in solenoid-1 and that in solenoid-2, respectively, are through the directions:",
+        "options": {
+          "1": "BA and CD",
+          "2": "AB and CD",
+          "3": "BA and DC",
+          "4": "AB and DC"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": "/figures/2025-INTERIM-Q30.png",
+        "figureKind": "pdf-crop+from-2024-stem-match",
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q43",
+        "sourceYear": 2025,
+        "sourceNumber": 40,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Easy",
+        "stem": "A parallel plate capacitor is charged by connecting it to a battery through a resistor. If I is the current in the circuit, then in the gap between the plates:",
+        "options": {
+          "1": "Displacement current of magnitude equal to I flows in the same direction as I",
+          "2": "Displacement current of magnitude equal to I flows in a direction opposite to that of I",
+          "3": "Displacement current of magnitude greater than I flows but can be in any direction",
+          "4": "There is no current"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q46",
+        "sourceYear": 2025,
+        "sourceNumber": 43,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Easy",
+        "stem": "If the plates of a parallel plate capacitor connected to a battery are moved close to each other, then A. the charge stored in it, increases. B. the energy stored in it, decreases. C. its capacitance increases. D. the ratio of charge to its potential remains the same. E. the product of charge and voltage increases. Choose the most appropriate answer from the options given below:",
+        "options": {
+          "1": "A, C and E only",
+          "2": "B, D and E only",
+          "3": "A, B and C only",
+          "4": "A, B and E only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       }
     ],
     "Medium": [
-      {
-        "id": "2017-A-Q21",
-        "sourceYear": 2017,
-        "sourceNumber": 18,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "In a common emitter transistor amplifier the audio k∝ signal voltage across the collector is 3 V. The l resistance of collector is 3 kΩ. If current gain is 100 i.e, k1 = 6k and the base resistance is 2 kΩ, the voltage and power gain of the amplifier is k2 = 3k",
-        "options": {
-          "1": "200 and 1000 k3 = 2k",
-          "2": "15 and 200 In series",
-          "3": "150 and 15000 1 1 1 1 = + +",
-          "4": "20 and 2000 k ' 6k 3k 2k"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q6",
-        "sourceYear": 2018,
-        "sourceNumber": 3,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "A set of ‘n’ equal resistors, of value ‘R’ each, are connected in series to a battery of emf ‘E’ and internal resistance ‘R’. The current drawn is I. Now, the ‘n’ resistors are connected in parallel to the same battery. Then the current drawn from battery becomes 10 I. The value of ‘n’ is",
-        "options": {
-          "1": "20",
-          "2": "11",
-          "3": "10",
-          "4": "9"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
       {
         "id": "2018-AA-Q18",
         "sourceYear": 2018,
@@ -433,22 +933,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2018-AA-Q27",
+        "id": "2018-AA-Q35",
         "sourceYear": 2018,
-        "sourceNumber": 12,
+        "sourceNumber": 15,
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Medium",
-        "stem": "A thin diamagnetic rod is placed vertically between the poles of an electromagnet. When the current in the electromagnet is switched on, then the diamagnetic rod is pushed up, out of the horizontal magnetic field. Hence the rod gains gravitational potential energy. The work required to do this comes from",
+        "stem": "A metallic rod of mass per unit length –1 0·5 kg m is lying horizontally on a smooth inclined plane which makes an angle of 30° with the horizontal. The rod is not allowed to slide down by flowing a current through it when a magnetic field of induction 0·25 T is acting on it in the vertical direction. The current flowing in the rod to keep it stationary is",
         "options": {
-          "1": "the lattice structure of the material of the rod",
-          "2": "the magnetic field",
-          "3": "the current source",
-          "4": "the induced electric field due to the changing magnetic field"
+          "1": "7·14 A",
+          "2": "5·98 A",
+          "3": "14·76 A",
+          "4": "11·32 A"
         },
         "correctOption": "3",
         "correctOptions": [
@@ -458,32 +958,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q37",
-        "sourceYear": 2018,
-        "sourceNumber": 17,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "A thin diamagnetic rod is placed vertically between the poles of an electromagnet. When the current in the electromagnet is switched on, then the diamagnetic rod is pushed up, out of the horizontal magnetic field. Hence the rod gains gravitational potential energy. The work required to do this comes from",
-        "options": {
-          "1": "the current source",
-          "2": "the magnetic field",
-          "3": "the lattice structure of the material of the rod",
-          "4": "the induced electric field due to the changing magnetic field OUGH WORK English"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -508,7 +983,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -533,57 +1008,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q123",
-        "sourceYear": 2018,
-        "sourceNumber": 33,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "Current sensitivity of a moving coil galvanometer is 5 div/mA and its voltage sensitivity (angular deflection per unit voltage applied) is 20 div/V. The resistance of the galvanometer is",
-        "options": {
-          "1": "500 Ω",
-          "2": "250 Ω",
-          "3": "25 Ω",
-          "4": "40 Ω OUGH WORK English"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q157",
-        "sourceYear": 2018,
-        "sourceNumber": 42,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "A set of ‘n’ equal resistors, of value ‘R’ each, are connected in series to a battery of emf ‘E’ and internal resistance ‘R’. The current drawn is I. Now, the ‘n’ resistors are connected in parallel to the same battery. Then the current drawn from battery becomes 10 I. The value of ‘n’ is",
-        "options": {
-          "1": "10",
-          "2": "9",
-          "3": "20",
-          "4": "11 OUGH WORK English"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -608,57 +1033,7 @@
         "figureSrc": "/figures/2019-G1-Q149.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q160",
-        "sourceYear": 2019,
-        "sourceNumber": 25,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "Two toroids 1 and 2 have total no. of turns 200 and 100 respectively with average radii 40 cm and 20 cm respectively. If they carry same current i, the ratio of the magnetic fields along the two loops is",
-        "options": {
-          "1": "1 : 1",
-          "2": "4 : 1",
-          "3": "2 : 1",
-          "4": "1 : 2"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q161",
-        "sourceYear": 2019,
-        "sourceNumber": 26,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "A straight conductor carrying current I splits into two parts as shown in the figure. The radius of the circular loop is R. The total magnetic field at the centre P of the loop is, μ 0i",
-        "options": {
-          "1": "zero",
-          "2": "3μ0i / 32R, outward",
-          "3": "3μ0i / 32R, inward",
-          "4": ", inward 2R"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2019-G1-Q161.png",
-        "figureKind": "pdf-crop",
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -683,32 +1058,7 @@
         "figureSrc": "/figures/2019-G1-Q162.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q164",
-        "sourceYear": 2019,
-        "sourceNumber": 29,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "The reading of an ideal voltmeter in the circuit shown is",
-        "options": {
-          "1": "0.6 V",
-          "2": "0 V",
-          "3": "0.5 V",
-          "4": "0.4 V"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2019-G1-Q164.png",
-        "figureKind": "pdf-crop",
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -733,57 +1083,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q173",
-        "sourceYear": 2019,
-        "sourceNumber": 38,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "Two identical capacitors C1 and C2 of equal capacitance are connected as shown in the circuit. Terminals a and b of the key k are connected to charge capacitor C1 using battery of emf V volt. Now disconnecting a and b the terminals b and c are connected. Due to this, what will be the percentage loss of energy?",
-        "options": {
-          "1": "75%",
-          "2": "0%",
-          "3": "50%",
-          "4": "25%"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2019-G1-Q173.png",
-        "figureKind": "pdf-crop",
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q22",
-        "sourceYear": 2020,
-        "sourceNumber": 6,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "A series LCR circuit is connected to an ac voltage source. When L is removed from the circuit, the phase difference between current and voltage π is . If instead C is removed from the circuit, 3 π the phase difference is again between current 3 and voltage. The power factor of the circuit is :",
-        "options": {
-          "1": "0.5",
-          "2": "1.0",
-          "3": "−1.0",
-          "4": "zero"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -808,32 +1108,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q96",
-        "sourceYear": 2020,
-        "sourceNumber": 12,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "The capacitance of a parallel plate capacitor with air as medium is 6 μF. With the introduction of a dielectric medium, the capacitance becomes 30 μF. The permittivity of the medium is : (e0=8.85×120^{-12}$ C2 N−1 m−2)",
-        "options": {
-          "1": "0.44×100^{-10}$ C2 N−1 m−2",
-          "2": "5.00 C2 N−1 m−2",
-          "3": "0.44×130^{-13}$ C2 N−1 m−2",
-          "4": "1.77×120^{-12}$ C2 N−1 m−2"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -858,57 +1133,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q163",
-        "sourceYear": 2020,
-        "sourceNumber": 40,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "The capacitance of a parallel plate capacitor with air as medium is 6 μF. With the introduction of a dielectric medium, the capacitance becomes 30 μF. The permittivity of the medium is : (e0=8.85×120^{-12}$ C2 N−1 m−2)",
-        "options": {
-          "1": "5.00 C2 N−1 m−2",
-          "2": "0.44×130^{-13}$ C2 N−1 m−2",
-          "3": "1.77×120^{-12}$ C2 N−1 m−2",
-          "4": "0.44×100^{-10}$ C2 N−1 m−2"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q166",
-        "sourceYear": 2020,
-        "sourceNumber": 41,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "The capacitance of a parallel plate capacitor with air as medium is 6 μF. With the introduction of a dielectric medium, the capacitance becomes 30 μF. The permittivity of the medium is : (e0=8.85×120^{-12}$ C2 N−1 m−2)",
-        "options": {
-          "1": "0.44×130^{-13}$ C2 N−1 m−2",
-          "2": "1.77×120^{-12}$ C2 N−1 m−2",
-          "3": "0.44×100^{-10}$ C2 N−1 m−2",
-          "4": "5.00 C2 N−1 m−2"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -933,7 +1158,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -958,57 +1183,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2021-M1-Q3",
+        "id": "2021-M1-Q4",
         "sourceYear": 2021,
-        "sourceNumber": 3,
+        "sourceNumber": 4,
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Medium",
-        "stem": "An infinitely long straight conductor carries a current of 5 A as shown. An electron is moving with a speed of 105 m/s parallel to the conductor. The perpendicular distance between the electron and the conductor is 20 cm at an instant. Calculate the magnitude of the force experienced by the electron at that instant.",
+        "stem": "Column - I gives certain physical terms associated with flow of current through a metallic conductor. Column - II gives some mathematical relations involving electrical quantities. Match Column - I and Column - II with appropriate relations. Column - I Column - II m (A) Drift Velocity (P) ne2 ρ (B) Electrical Resistivity (Q) nevd eE (C) Relaxation Period (R) τ m E (D) Current Density (S) J",
         "options": {
-          "1": "4×200^{-20}$ N",
-          "2": "8π×200^{-20}$ N",
-          "3": "4π×200^{-20}$ N",
-          "4": "8×200^{-20}$ N 3 M1"
+          "1": "(A)-(R), (B)-(P), (C)-(S), (D)-(Q)",
+          "2": "(A)-(R), (B)-(Q), (C)-(S), (D)-(P)",
+          "3": "(A)-(R), (B)-(S), (C)-(P), (D)-(Q)",
+          "4": "(A)-(R), (B)-(S), (C)-(Q), (D)-(P) 3 O1"
         },
-        "correctOption": "3",
+        "correctOption": "2",
         "correctOptions": [
-          "3"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q13",
-        "sourceYear": 2021,
-        "sourceNumber": 13,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "A parallel plate capacitor has a uniform electric → field ‘ E ’ in the space between the plates. If the distance between the plates is ‘d’ and the area of each plate is ‘A’, the energy stored in the capacitor is : (ε0=permittivity of free space)",
-        "options": {
-          "1": "ε0EAd 1",
-          "2": "ε E2 Ad 2 0 E2 Ad",
-          "3": "ε0 1",
-          "4": "ε E2 2 0"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1033,32 +1233,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q21",
-        "sourceYear": 2021,
-        "sourceNumber": 20,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "A parallel plate capacitor has a uniform electric → field ‘ E ’ in the space between the plates. If the distance between the plates is ‘d’ and the area of each plate is ‘A’, the energy stored in the capacitor is : (ε0=permittivity of free space) 1",
-        "options": {
-          "1": "ε E2 2 0",
-          "2": "ε0EAd 1",
-          "3": "ε E2 Ad 2 0 E2 Ad",
-          "4": "ε0"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1083,57 +1258,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q30",
-        "sourceYear": 2021,
-        "sourceNumber": 27,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "A capacitor of capacitance ‘C’, is connected across an ac source of voltage V, given by V=V0 sinωt The displacement current between the plates of the capacitor, would then be given by :",
-        "options": {
-          "1": "Id=V0 ωCsinωt",
-          "2": "Id=V0 ωCcosωt V",
-          "3": "Id= 0 cosωt ωC V",
-          "4": "Id= 0 sin ωt ωC"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q32",
-        "sourceYear": 2021,
-        "sourceNumber": 29,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "A thick current carrying cable of radius ‘R’ carries current ‘I’ uniformly distributed across its cross-section. The variation of magnetic field B(r) due to the cable with the distance ‘r’ from the axis of the cable is represented by :",
-        "options": {
-          "1": "Option 1",
-          "2": "Option 2",
-          "3": "Option 3",
-          "4": "Option 4"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1158,7 +1283,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q57",
+        "sourceYear": 2021,
+        "sourceNumber": 44,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Medium",
+        "stem": "A particular station of All India Radio, New Delhi, broadcasts on a frequency of 1,368 kHz (kilohertz). The wavelength of the electromagnetic radiation emitted by the transmitter is : [speed of light, c=3.0×108 ms−1]",
+        "options": {
+          "1": "2192 m",
+          "2": "21.92 cm",
+          "3": "219.3 m",
+          "4": "219.2 m 7 O1"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1183,82 +1333,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q48",
+        "id": "2022-RECON-Q49",
         "sourceYear": 2022,
-        "sourceNumber": 3,
+        "sourceNumber": 4,
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Medium",
-        "stem": "An infinitely long straight conductor carries a current of 5 A as shown. An electron is moving with a speed of 105 m/s parallel to the conductor. The perpendicular distance between the electron and the conductor is 20 cm at an instant. Calculate the magnitude of the force experienced by the electron at that instant.",
+        "stem": "Column - I gives certain physical terms associated with flow of current through a metallic conductor. Column - II gives some mathematical relations involving electrical quantities. Match Column - I and Column - II with appropriate relations. Column - I Column - II m (A) Drift Velocity (P) ne2 ρ (B) Electrical Resistivity (Q) nevd eE (C) Relaxation Period (R) τ m E (D) Current Density (S) J",
         "options": {
-          "1": "4×200^{-20}$ N",
-          "2": "8π×200^{-20}$ N",
-          "3": "4π×200^{-20}$ N",
-          "4": "8×200^{-20}$ N 3 M1"
+          "1": "(A)-(R), (B)-(P), (C)-(S), (D)-(Q)",
+          "2": "(A)-(R), (B)-(Q), (C)-(S), (D)-(P)",
+          "3": "(A)-(R), (B)-(S), (C)-(P), (D)-(Q)",
+          "4": "(A)-(R), (B)-(S), (C)-(Q), (D)-(P) 3 O1"
         },
-        "correctOption": "3",
+        "correctOption": "4",
         "correctOptions": [
-          "3"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q99",
-        "sourceYear": 2022,
-        "sourceNumber": 6,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "A particular station of All India Radio, New Delhi, broadcasts on a frequency of 1,368 kHz (kilohertz). The wavelength of the electromagnetic radiation emitted by the transmitter is : [speed of light, c=3.0×108 ms−1]",
-        "options": {
-          "1": "219.3 m",
-          "2": "219.2 m",
-          "3": "2192 m",
-          "4": "21.92 cm"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q159",
-        "sourceYear": 2022,
-        "sourceNumber": 16,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "The circuit diagram shown here corresponds to the logic gate,",
-        "options": {
-          "1": "NOR",
-          "2": "AND",
-          "3": "OR",
-          "4": "NAND"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2022-RECON-Q159.png",
-        "figureKind": "pdf-crop+from-2019-stem-match",
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1283,57 +1383,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q171",
-        "sourceYear": 2022,
-        "sourceNumber": 26,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "A straight conductor carrying current I splits into two parts as shown in the figure. The radius of the circular loop is R. The total magnetic field at the centre P of the loop is, μ 0i",
-        "options": {
-          "1": "zero",
-          "2": "3μ0i / 32R, outward",
-          "3": "3μ0i / 32R, inward",
-          "4": ", inward 2R"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2022-RECON-Q171.png",
-        "figureKind": "pdf-crop+from-2019-stem-match",
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q172",
-        "sourceYear": 2022,
-        "sourceNumber": 27,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "The variation of EMF with time for four types of generators are shown in the figures. Which amongst them can be called AC ?",
-        "options": {
-          "1": "(a) and (d)",
-          "2": "(a), (b), (c), (d)",
-          "3": "(a) and (b)",
-          "4": "only (a)"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2022-RECON-Q172.png",
-        "figureKind": "pdf-crop+from-2019-stem-match",
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1358,57 +1408,32 @@
         "figureSrc": "/figures/2022-RECON-Q174.png",
         "figureKind": "pdf-crop+from-2019-stem-match",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q180",
+        "id": "2022-RECON-Q183",
         "sourceYear": 2022,
-        "sourceNumber": 35,
+        "sourceNumber": 38,
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Medium",
-        "stem": "A cycle wheel of radius 0.5 m is rotated with constant angular velocity of 10 rad/s in a region of magnetic field of 0.1 T which is perpendicular to the plane of the wheel. The EMF generated between its centre and the rim is :",
+        "stem": "Two identical capacitors C1 and C2 of equal capacitance are connected as shown in the circuit. Terminals a and b of the key k are connected to charge capacitor C1 using battery of emf V volt. Now disconnecting a and b the terminals b and c are connected. Due to this, what will be the percentage loss of energy?",
         "options": {
-          "1": "0.25 V",
-          "2": "0.125 V",
-          "3": "0.5 V",
-          "4": "zero"
+          "1": "75%",
+          "2": "0%",
+          "3": "50%",
+          "4": "25%"
         },
-        "correctOption": "2",
+        "correctOption": "3",
         "correctOptions": [
-          "2"
+          "3"
         ],
         "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
+        "figureSrc": "/figures/2022-RECON-Q183.png",
+        "figureKind": "pdf-crop+from-2019-stem-match",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q2",
-        "sourceYear": 2023,
-        "sourceNumber": 2,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "The work functions of Caesium (Cs), Potassium (K) and Sodium (Na) are 2.14 eV, 2.30 eV and 2.75 eV respectively. If incident electromagnetic radiation has an incident energy of 2.20 eV, which of these photosensitive surfaces may emit photoelectrons?",
-        "options": {
-          "1": "Both Na and K",
-          "2": "K only",
-          "3": "Na only",
-          "4": "Cs only"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1433,32 +1458,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q10",
-        "sourceYear": 2023,
-        "sourceNumber": 9,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "If the galvanometer G does not show any deflection in the circuit shown, the value of R is given by",
-        "options": {
-          "1": "50 Ω",
-          "2": "100 Ω",
-          "3": "400 Ω",
-          "4": "200 Ω"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2023-F1-Q10.png",
-        "figureKind": "pdf-crop",
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1483,22 +1483,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q19",
+        "id": "2023-F1-Q24",
         "sourceYear": 2023,
-        "sourceNumber": 18,
+        "sourceNumber": 23,
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Medium",
-        "stem": "A 12 V, 60 W lamp is connected to the secondary of a step-down transformer, whose primary is connected to ac mains of 220 V. Assuming the transformer to be ideal, what is the current in the primary winding?",
+        "stem": "The net magnetic flux through any closed surface is",
         "options": {
-          "1": "2.7 A",
-          "2": "3.7 A",
-          "3": "0.37 A",
-          "4": "0.27 A"
+          "1": "Positive",
+          "2": "Infinity",
+          "3": "Negative",
+          "4": "Zero"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -1508,82 +1508,57 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q21",
+        "id": "2023-F1-Q39",
         "sourceYear": 2023,
-        "sourceNumber": 20,
+        "sourceNumber": 38,
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Medium",
-        "stem": "The magnitude and direction of the current in the following circuit is 5",
+        "stem": "10 resistors, each of resistance R are connected in series to a battery of emf E and negligible internal resistance. Then those are connected in parallel to the same battery, the current is increased n times. The value of n is",
         "options": {
-          "1": "0.5 A from A to B through E",
-          "2": "A from A to B through E 9",
-          "3": "1.5 A from B to A through E",
-          "4": "0.2 A from B to A through E"
+          "1": "100",
+          "2": "1",
+          "3": "1000",
+          "4": "10"
         },
         "correctOption": "1",
         "correctOptions": [
           "1"
         ],
         "multiCorrect": false,
-        "figureSrc": "/figures/2023-F1-Q21.png",
-        "figureKind": "pdf-crop",
+        "figureSrc": null,
+        "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q25",
+        "id": "2023-F1-Q45",
         "sourceYear": 2023,
-        "sourceNumber": 24,
+        "sourceNumber": 44,
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Medium",
-        "stem": "The equivalent capacitance of the system shown in the following circuit is",
+        "stem": "A very long conducting wire is bent in a semi-circular shape from A to B as shown in figure. The magnetic field at point P for steady current configuration is given by μ0 i",
         "options": {
-          "1": "3 μF",
-          "2": "6 μF",
-          "3": "9 μF",
-          "4": "2 μF"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2023-F1-Q25.png",
-        "figureKind": "pdf-crop",
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q4",
-        "sourceYear": 2024,
-        "sourceNumber": 4,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "The terminal voltage of the battery, whose emf is 10 V and internal resistance 1 Ω, when connected through an external resistance of 4 Ω as shown in the figure is:",
-        "options": {
-          "1": "6V",
-          "2": "8V",
-          "3": "10 V",
-          "4": "4V"
+          "1": "pointed away from the page 4R μ0 i ⟨ 2 ]",
+          "2": "1− pointed away from page 4R ⟩√ π {} μ0 i ⟨ 2 ]",
+          "3": "1− pointed into the page 4R ⟩√ π {} μ0 i",
+          "4": "pointed into the page 4R"
         },
         "correctOption": "2",
         "correctOptions": [
           "2"
         ],
         "multiCorrect": false,
-        "figureSrc": "/figures/2024-R1-Q4.png",
+        "figureSrc": "/figures/2023-F1-Q45.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1608,22 +1583,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2024-R1-Q14",
+        "id": "2024-R1-Q24",
         "sourceYear": 2024,
-        "sourceNumber": 12,
+        "sourceNumber": 21,
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Medium",
-        "stem": "Consider the following statements A and B and identify the correct answer: A. For a solar-cell, the I-V characteristics lies in the IV quadrant of the given graph. B. In a reverse biased pn junction diode, the current measured in (μA), is due to majority charge carriers.",
+        "stem": "Match List-I with List-II. List-I List-II (Material) (Susceptibility (χ)) A. Diamagnetic I. χ=0 B. Ferromagnetic II. 0 > χ ≥ –1 C. Paramagnetic III. χ >> 1 D. Non-magnetic IV. 0 < χ < ε (a small positive number) Choose the correct answer from the options given below",
         "options": {
-          "1": "A is incorrect but B is correct",
-          "2": "Both A and B are correct",
-          "3": "Both A and B are incorrect",
-          "4": "A is correct but B is incorrect"
+          "1": "A-II, B-I, C-III, D-IV",
+          "2": "A-III, B-II, C-I, D-IV",
+          "3": "A-IV, B-III, C-II, D-I",
+          "4": "A-II, B-III, C-IV, D-I"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -1633,22 +1608,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2024-R1-Q21",
+        "id": "2024-R1-Q31",
         "sourceYear": 2024,
-        "sourceNumber": 18,
+        "sourceNumber": 28,
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Medium",
-        "stem": "A tightly wound 100 turns coil of radius 10 cm carries a current of 7 A. The magnitude of the magnetic field at the centre of the coil is (Take permeability of free space as 4π × 10–7 SI units):",
+        "stem": "A logic circuit provides the output Y as per the following truth table : A B Y 0 0 1 0 1 0 1 0 1 1 1 0 The expression for the output Y is :",
         "options": {
-          "1": "4.4 T",
-          "2": "4.4 mT",
-          "3": "44 T",
-          "4": "44 mT"
+          "1": ". +A AB",
+          "2": "B",
+          "3": "B",
+          "4": "A.B + A"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -1658,82 +1633,57 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2024-R1-Q25",
+        "id": "2024-R1-Q44",
         "sourceYear": 2024,
-        "sourceNumber": 22,
+        "sourceNumber": 41,
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Medium",
-        "stem": "In the following circuit, the equivalent capacitance between terminal A and terminal B is :",
+        "stem": "Choose the correct circuit which can achieve the bridge balance.",
         "options": {
-          "1": "1 μF",
-          "2": "0.5 μF",
-          "3": "4 μF",
-          "4": "2 μF"
+          "1": "Option 1",
+          "2": "Option 2",
+          "3": "Option 3",
+          "4": "Option 4"
         },
         "correctOption": "4",
         "correctOptions": [
           "4"
         ],
         "multiCorrect": false,
-        "figureSrc": "/figures/2024-R1-Q25.png",
-        "figureKind": "pdf-crop",
+        "figureSrc": null,
+        "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2024-R1-Q30",
+        "id": "2024-R1-Q48",
         "sourceYear": 2024,
-        "sourceNumber": 27,
+        "sourceNumber": 45,
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Medium",
-        "stem": "In the above diagram, a strong bar magnet is moving towards solenoid-2 from solenoid-1. The direction of induced current in solenoid-1 and that in solenoid-2, respectively, are through the directions:",
+        "stem": "The property which is not of an electromagnetic wave travelling in free space is that:",
         "options": {
-          "1": "BA and CD",
-          "2": "AB and CD",
-          "3": "BA and DC",
-          "4": "AB and DC"
+          "1": "The energy density in electric field is equal to energy density in magnetic field 1",
+          "2": "They travel with a speed equal to μ0 ε 0",
+          "3": "They originate from charges moving with uniform speed",
+          "4": "They are transverse in nature"
         },
-        "correctOption": "4",
+        "correctOption": "3",
         "correctOptions": [
-          "4"
+          "3"
         ],
         "multiCorrect": false,
-        "figureSrc": "/figures/2024-R1-Q30.png",
-        "figureKind": "pdf-crop",
+        "figureSrc": null,
+        "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q4",
-        "sourceYear": 2025,
-        "sourceNumber": 4,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "The terminal voltage of the battery, whose emf is 10 V and internal resistance 1 Ω, when connected through an external resistance of 4 Ω as shown in the figure is:",
-        "options": {
-          "1": "6V",
-          "2": "8V",
-          "3": "10 V",
-          "4": "4V"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2025-INTERIM-Q4.png",
-        "figureKind": "pdf-crop+from-2024-stem-match",
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1758,22 +1708,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q14",
+        "id": "2025-INTERIM-Q24",
         "sourceYear": 2025,
-        "sourceNumber": 12,
+        "sourceNumber": 21,
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Medium",
-        "stem": "Consider the following statements A and B and identify the correct answer: A. For a solar-cell, the I-V characteristics lies in the IV quadrant of the given graph. B. In a reverse biased pn junction diode, the current measured in (μA), is due to majority charge carriers.",
+        "stem": "Match List-I with List-II. List-I List-II (Material) (Susceptibility (χ)) A. Diamagnetic I. χ=0 B. Ferromagnetic II. 0 > χ ≥ –1 C. Paramagnetic III. χ >> 1 D. Non-magnetic IV. 0 < χ < ε (a small positive number) Choose the correct answer from the options given below",
         "options": {
-          "1": "A is incorrect but B is correct",
-          "2": "Both A and B are correct",
-          "3": "Both A and B are incorrect",
-          "4": "A is correct but B is incorrect"
+          "1": "A-II, B-I, C-III, D-IV",
+          "2": "A-III, B-II, C-I, D-IV",
+          "3": "A-IV, B-III, C-II, D-I",
+          "4": "A-II, B-III, C-IV, D-I"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -1783,22 +1733,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q21",
+        "id": "2025-INTERIM-Q31",
         "sourceYear": 2025,
-        "sourceNumber": 18,
+        "sourceNumber": 28,
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Medium",
-        "stem": "A tightly wound 100 turns coil of radius 10 cm carries a current of 7 A. The magnitude of the magnetic field at the centre of the coil is (Take permeability of free space as 4π × 10–7 SI units):",
+        "stem": "A logic circuit provides the output Y as per the following truth table : A B Y 0 0 1 0 1 0 1 0 1 1 1 0 The expression for the output Y is :",
         "options": {
-          "1": "4.4 T",
-          "2": "4.4 mT",
-          "3": "44 T",
-          "4": "44 mT"
+          "1": ". +A AB",
+          "2": "B",
+          "3": "B",
+          "4": "A.B + A"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -1808,57 +1758,57 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q25",
+        "id": "2025-INTERIM-Q44",
         "sourceYear": 2025,
-        "sourceNumber": 22,
+        "sourceNumber": 41,
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Medium",
-        "stem": "In the following circuit, the equivalent capacitance between terminal A and terminal B is :",
+        "stem": "Choose the correct circuit which can achieve the bridge balance.",
         "options": {
-          "1": "1 μF",
-          "2": "0.5 μF",
-          "3": "4 μF",
-          "4": "2 μF"
+          "1": "Option 1",
+          "2": "Option 2",
+          "3": "Option 3",
+          "4": "Option 4"
         },
         "correctOption": "4",
         "correctOptions": [
           "4"
         ],
         "multiCorrect": false,
-        "figureSrc": "/figures/2025-INTERIM-Q25.png",
-        "figureKind": "pdf-crop+from-2024-stem-match",
+        "figureSrc": null,
+        "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q30",
+        "id": "2025-INTERIM-Q48",
         "sourceYear": 2025,
-        "sourceNumber": 27,
+        "sourceNumber": 45,
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Medium",
-        "stem": "In the above diagram, a strong bar magnet is moving towards solenoid-2 from solenoid-1. The direction of induced current in solenoid-1 and that in solenoid-2, respectively, are through the directions:",
+        "stem": "The property which is not of an electromagnetic wave travelling in free space is that:",
         "options": {
-          "1": "BA and CD",
-          "2": "AB and CD",
-          "3": "BA and DC",
-          "4": "AB and DC"
+          "1": "The energy density in electric field is equal to energy density in magnetic field 1",
+          "2": "They travel with a speed equal to μ0 ε 0",
+          "3": "They originate from charges moving with uniform speed",
+          "4": "They are transverse in nature"
         },
-        "correctOption": "4",
+        "correctOption": "3",
         "correctOptions": [
-          "4"
+          "3"
         ],
         "multiCorrect": false,
-        "figureSrc": "/figures/2025-INTERIM-Q30.png",
-        "figureKind": "pdf-crop+from-2024-stem-match",
+        "figureSrc": null,
+        "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       }
     ],
@@ -1885,32 +1835,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2018-AA-Q35",
+        "id": "2018-AA-Q36",
         "sourceYear": 2018,
-        "sourceNumber": 15,
+        "sourceNumber": 16,
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Hard",
-        "stem": "A metallic rod of mass per unit length –1 0·5 kg m is lying horizontally on a smooth inclined plane which makes an angle of 30° with the horizontal. The rod is not allowed to slide down by flowing a current through it when a magnetic field of induction 0·25 T is acting on it in the vertical direction. The current flowing in the rod to keep it stationary is",
+        "stem": "An inductor 20 mH, a capacitor 100 μF and a resistor 50 Ω are connected in series across a source of emf, V = 10 sin 314 t. The power loss in the circuit is",
         "options": {
-          "1": "7·14 A",
-          "2": "5·98 A",
-          "3": "14·76 A",
-          "4": "11·32 A"
+          "1": "0·79 W",
+          "2": "0·43 W",
+          "3": "2·74 W",
+          "4": "1·13 W"
         },
-        "correctOption": "3",
+        "correctOption": "4",
         "correctOptions": [
-          "3"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1935,7 +1885,182 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2018-AA-Q123",
+        "sourceYear": 2018,
+        "sourceNumber": 33,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Hard",
+        "stem": "Current sensitivity of a moving coil galvanometer is 5 div/mA and its voltage sensitivity (angular deflection per unit voltage applied) is 20 div/V. The resistance of the galvanometer is",
+        "options": {
+          "1": "500 Ω",
+          "2": "250 Ω",
+          "3": "25 Ω",
+          "4": "40 Ω OUGH WORK English"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2019-G1-Q160",
+        "sourceYear": 2019,
+        "sourceNumber": 25,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Hard",
+        "stem": "Two toroids 1 and 2 have total no. of turns 200 and 100 respectively with average radii 40 cm and 20 cm respectively. If they carry same current i, the ratio of the magnetic fields along the two loops is",
+        "options": {
+          "1": "1 : 1",
+          "2": "4 : 1",
+          "3": "2 : 1",
+          "4": "1 : 2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2019-G1-Q164",
+        "sourceYear": 2019,
+        "sourceNumber": 29,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Hard",
+        "stem": "The reading of an ideal voltmeter in the circuit shown is",
+        "options": {
+          "1": "0.6 V",
+          "2": "0 V",
+          "3": "0.5 V",
+          "4": "0.4 V"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": "/figures/2019-G1-Q164.png",
+        "figureKind": "pdf-crop",
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2019-G1-Q173",
+        "sourceYear": 2019,
+        "sourceNumber": 38,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Hard",
+        "stem": "Two identical capacitors C1 and C2 of equal capacitance are connected as shown in the circuit. Terminals a and b of the key k are connected to charge capacitor C1 using battery of emf V volt. Now disconnecting a and b the terminals b and c are connected. Due to this, what will be the percentage loss of energy?",
+        "options": {
+          "1": "75%",
+          "2": "0%",
+          "3": "50%",
+          "4": "25%"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": "/figures/2019-G1-Q173.png",
+        "figureKind": "pdf-crop",
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q96",
+        "sourceYear": 2020,
+        "sourceNumber": 12,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Hard",
+        "stem": "The capacitance of a parallel plate capacitor with air as medium is 6 μF. With the introduction of a dielectric medium, the capacitance becomes 30 μF. The permittivity of the medium is : (e0=8.85×120^{-12}$ C2 N−1 m−2)$",
+        "options": {
+          "1": "0.44×100^{-10}$ C2 N−1 m−2$",
+          "2": "5.00 C2 N−1 m−2",
+          "3": "0.44×130^{-13}$ C2 N−1 m−2$",
+          "4": "1.77×120^{-12}$ C2 N−1 m−2$"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q163",
+        "sourceYear": 2020,
+        "sourceNumber": 40,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Hard",
+        "stem": "The capacitance of a parallel plate capacitor with air as medium is 6 μF. With the introduction of a dielectric medium, the capacitance becomes 30 μF. The permittivity of the medium is : (e0=8.85×120^{-12}$ C2 N−1 m−2)$",
+        "options": {
+          "1": "5.00 C2 N−1 m−2",
+          "2": "0.44×130^{-13}$ C2 N−1 m−2$",
+          "3": "1.77×120^{-12}$ C2 N−1 m−2$",
+          "4": "0.44×100^{-10}$ C2 N−1 m−2$"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q172",
+        "sourceYear": 2020,
+        "sourceNumber": 43,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Hard",
+        "stem": "A long solenoid of 50 cm length having 100 turns carries a current of 2.5 A. The magnetic field at the centre of the solenoid is : (μ0=4π×70^{-7}$ T m A−1)$",
+        "options": {
+          "1": "6.28×40^{-4}$ T$",
+          "2": "3.14×40^{-4}$ T$",
+          "3": "6.28×50^{-5}$ T$",
+          "4": "3.14×50^{-5}$ T$"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1960,32 +2085,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q4",
-        "sourceYear": 2021,
-        "sourceNumber": 4,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "Column - I gives certain physical terms associated with flow of current through a metallic conductor. Column - II gives some mathematical relations involving electrical quantities. Match Column - I and Column - II with appropriate relations. Column - I Column - II m (A) Drift Velocity (P) ne2 ρ (B) Electrical Resistivity (Q) nevd eE (C) Relaxation Period (R) τ m E (D) Current Density (S) J",
-        "options": {
-          "1": "(A)-(R), (B)-(P), (C)-(S), (D)-(Q)",
-          "2": "(A)-(R), (B)-(Q), (C)-(S), (D)-(P)",
-          "3": "(A)-(R), (B)-(S), (C)-(P), (D)-(Q)",
-          "4": "(A)-(R), (B)-(S), (C)-(Q), (D)-(P) 3 O1"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2010,7 +2110,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2035,7 +2135,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q30",
+        "sourceYear": 2021,
+        "sourceNumber": 27,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Hard",
+        "stem": "A capacitor of capacitance ‘C’, is connected across an ac source of voltage V, given by V=V0 sinωt The displacement current between the plates of the capacitor, would then be given by :",
+        "options": {
+          "1": "Id=V0 ωCsinωt",
+          "2": "Id=V0 ωCcosωt V",
+          "3": "Id= 0 cosωt ωC V",
+          "4": "Id= 0 sin ωt ωC"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2060,57 +2185,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q54",
-        "sourceYear": 2021,
-        "sourceNumber": 43,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "A particular station of All India Radio, New Delhi, broadcasts on a frequency of 1,368 kHz (kilohertz). The wavelength of the electromagnetic radiation emitted by the transmitter is : [speed of light, c=3.0×108 ms−1]",
-        "options": {
-          "1": "219.3 m",
-          "2": "219.2 m",
-          "3": "2192 m",
-          "4": "21.92 cm"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q57",
-        "sourceYear": 2021,
-        "sourceNumber": 44,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "A particular station of All India Radio, New Delhi, broadcasts on a frequency of 1,368 kHz (kilohertz). The wavelength of the electromagnetic radiation emitted by the transmitter is : [speed of light, c=3.0×108 ms−1]",
-        "options": {
-          "1": "2192 m",
-          "2": "21.92 cm",
-          "3": "219.3 m",
-          "4": "219.2 m 7 O1"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2135,32 +2210,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q71",
-        "sourceYear": 2021,
-        "sourceNumber": 46,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "A particular station of All India Radio, New Delhi, broadcasts on a frequency of 1,368 kHz (kilohertz). The wavelength of the electromagnetic radiation emitted by the transmitter is : [speed of light, c=3.0×108 ms−1]",
-        "options": {
-          "1": "21.92 cm",
-          "2": "219.3 m",
-          "3": "219.2 m",
-          "4": "2192 m"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2185,72 +2235,72 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q49",
+        "id": "2022-RECON-Q99",
         "sourceYear": 2022,
-        "sourceNumber": 4,
+        "sourceNumber": 6,
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Hard",
-        "stem": "Column - I gives certain physical terms associated with flow of current through a metallic conductor. Column - II gives some mathematical relations involving electrical quantities. Match Column - I and Column - II with appropriate relations. Column - I Column - II m (A) Drift Velocity (P) ne2 ρ (B) Electrical Resistivity (Q) nevd eE (C) Relaxation Period (R) τ m E (D) Current Density (S) J",
+        "stem": "A particular station of All India Radio, New Delhi, broadcasts on a frequency of 1,368 kHz (kilohertz). The wavelength of the electromagnetic radiation emitted by the transmitter is : [speed of light, c=3.0×108 ms−1]",
         "options": {
-          "1": "(A)-(R), (B)-(P), (C)-(S), (D)-(Q)",
-          "2": "(A)-(R), (B)-(Q), (C)-(S), (D)-(P)",
-          "3": "(A)-(R), (B)-(S), (C)-(P), (D)-(Q)",
-          "4": "(A)-(R), (B)-(S), (C)-(Q), (D)-(P) 3 O1"
+          "1": "219.3 m",
+          "2": "219.2 m",
+          "3": "2192 m",
+          "4": "21.92 cm"
         },
-        "correctOption": "4",
+        "correctOption": "2",
         "correctOptions": [
-          "4"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q183",
+        "id": "2022-RECON-Q171",
         "sourceYear": 2022,
-        "sourceNumber": 38,
+        "sourceNumber": 26,
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Hard",
-        "stem": "Two identical capacitors C1 and C2 of equal capacitance are connected as shown in the circuit. Terminals a and b of the key k are connected to charge capacitor C1 using battery of emf V volt. Now disconnecting a and b the terminals b and c are connected. Due to this, what will be the percentage loss of energy?",
+        "stem": "A straight conductor carrying current I splits into two parts as shown in the figure. The radius of the circular loop is R. The total magnetic field at the centre P of the loop is, μ 0i",
         "options": {
-          "1": "75%",
-          "2": "0%",
-          "3": "50%",
-          "4": "25%"
+          "1": "zero",
+          "2": "3μ0i / 32R, outward",
+          "3": "3μ0i / 32R, inward",
+          "4": ", inward 2R"
         },
-        "correctOption": "3",
+        "correctOption": "1",
         "correctOptions": [
-          "3"
+          "1"
         ],
         "multiCorrect": false,
-        "figureSrc": "/figures/2022-RECON-Q183.png",
+        "figureSrc": "/figures/2022-RECON-Q171.png",
         "figureKind": "pdf-crop+from-2019-stem-match",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q39",
-        "sourceYear": 2023,
-        "sourceNumber": 38,
+        "id": "2022-RECON-Q179",
+        "sourceYear": 2022,
+        "sourceNumber": 34,
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Hard",
-        "stem": "10 resistors, each of resistance R are connected in series to a battery of emf E and negligible internal resistance. Then those are connected in parallel to the same battery, the current is increased n times. The value of n is",
+        "stem": "A circuit when connected to an AC source of 12 V gives a current of 0.2A. The same circuit when connected to a DC source of 12 V, gives a current of 0.4 A. The circuit is :",
         "options": {
-          "1": "100",
-          "2": "1",
-          "3": "1000",
-          "4": "10"
+          "1": "series LR",
+          "2": "series RC",
+          "3": "series LC",
+          "4": "series LCR"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -2260,7 +2310,107 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q2",
+        "sourceYear": 2023,
+        "sourceNumber": 2,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Hard",
+        "stem": "The work functions of Caesium (Cs), Potassium (K) and Sodium (Na) are 2.14 eV, 2.30 eV and 2.75 eV respectively. If incident electromagnetic radiation has an incident energy of 2.20 eV, which of these photosensitive surfaces may emit photoelectrons?",
+        "options": {
+          "1": "Both Na and K",
+          "2": "K only",
+          "3": "Na only",
+          "4": "Cs only"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q10",
+        "sourceYear": 2023,
+        "sourceNumber": 9,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Hard",
+        "stem": "If the galvanometer G does not show any deflection in the circuit shown, the value of R is given by",
+        "options": {
+          "1": "50 Ω",
+          "2": "100 Ω",
+          "3": "400 Ω",
+          "4": "200 Ω"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": "/figures/2023-F1-Q10.png",
+        "figureKind": "pdf-crop",
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q19",
+        "sourceYear": 2023,
+        "sourceNumber": 18,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Hard",
+        "stem": "A 12 V, 60 W lamp is connected to the secondary of a step-down transformer, whose primary is connected to ac mains of 220 V. Assuming the transformer to be ideal, what is the current in the primary winding?",
+        "options": {
+          "1": "2.7 A",
+          "2": "3.7 A",
+          "3": "0.37 A",
+          "4": "0.27 A"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q25",
+        "sourceYear": 2023,
+        "sourceNumber": 24,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Hard",
+        "stem": "The equivalent capacitance of the system shown in the following circuit is",
+        "options": {
+          "1": "3 μF",
+          "2": "6 μF",
+          "3": "9 μF",
+          "4": "2 μF"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": "/figures/2023-F1-Q25.png",
+        "figureKind": "pdf-crop",
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2285,57 +2435,7 @@
         "figureSrc": "/figures/2023-F1-Q41.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q44",
-        "sourceYear": 2023,
-        "sourceNumber": 43,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "For the following logic circuit, the truth table is A B Y A B Y 0 0 0 0 0 1",
-        "options": {
-          "1": "0 1 1",
-          "2": "0 1 0 1 0 1 1 0 1 1 1 1 1 1 0 A B Y A B Y 0 0 0 0 0 1",
-          "3": "0 1 0",
-          "4": "0 1 1 1 0 0 1 0 1 1 1 1 1 1 0"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q45",
-        "sourceYear": 2023,
-        "sourceNumber": 44,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "A very long conducting wire is bent in a semi-circular shape from A to B as shown in figure. The magnetic field at point P for steady current configuration is given by μ0 i",
-        "options": {
-          "1": "pointed away from the page 4R μ0 i ⟨ 2 ]",
-          "2": "1− pointed away from page 4R ⟩√ π {} μ0 i ⟨ 2 ]",
-          "3": "1− pointed into the page 4R ⟩√ π {} μ0 i",
-          "4": "pointed into the page 4R"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2023-F1-Q45.png",
-        "figureKind": "pdf-crop",
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2360,22 +2460,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2024-R1-Q24",
+        "id": "2024-R1-Q14",
         "sourceYear": 2024,
-        "sourceNumber": 21,
+        "sourceNumber": 12,
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Hard",
-        "stem": "Match List-I with List-II. List-I List-II (Material) (Susceptibility (χ)) A. Diamagnetic I. χ=0 B. Ferromagnetic II. 0 > χ ≥ –1 C. Paramagnetic III. χ >> 1 D. Non-magnetic IV. 0 < χ < ε (a small positive number) Choose the correct answer from the options given below",
+        "stem": "Consider the following statements A and B and identify the correct answer: A. For a solar-cell, the I-V characteristics lies in the IV quadrant of the given graph. B. In a reverse biased pn junction diode, the current measured in (μA), is due to majority charge carriers.",
         "options": {
-          "1": "A-II, B-I, C-III, D-IV",
-          "2": "A-III, B-II, C-I, D-IV",
-          "3": "A-IV, B-III, C-II, D-I",
-          "4": "A-II, B-III, C-IV, D-I"
+          "1": "A is incorrect but B is correct",
+          "2": "Both A and B are correct",
+          "3": "Both A and B are incorrect",
+          "4": "A is correct but B is incorrect"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -2385,7 +2485,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2024-R1-Q25",
+        "sourceYear": 2024,
+        "sourceNumber": 22,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Hard",
+        "stem": "In the following circuit, the equivalent capacitance between terminal A and terminal B is :",
+        "options": {
+          "1": "1 μF",
+          "2": "0.5 μF",
+          "3": "4 μF",
+          "4": "2 μF"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": "/figures/2024-R1-Q25.png",
+        "figureKind": "pdf-crop",
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2410,57 +2535,7 @@
         "figureSrc": "/figures/2024-R1-Q41.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q43",
-        "sourceYear": 2024,
-        "sourceNumber": 40,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "A parallel plate capacitor is charged by connecting it to a battery through a resistor. If I is the current in the circuit, then in the gap between the plates:",
-        "options": {
-          "1": "Displacement current of magnitude equal to I flows in the same direction as I",
-          "2": "Displacement current of magnitude equal to I flows in a direction opposite to that of I",
-          "3": "Displacement current of magnitude greater than I flows but can be in any direction",
-          "4": "There is no current"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q44",
-        "sourceYear": 2024,
-        "sourceNumber": 41,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "Choose the correct circuit which can achieve the bridge balance.",
-        "options": {
-          "1": "Option 1",
-          "2": "Option 2",
-          "3": "Option 3",
-          "4": "Option 4"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2485,57 +2560,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q46",
-        "sourceYear": 2024,
-        "sourceNumber": 43,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "If the plates of a parallel plate capacitor connected to a battery are moved close to each other, then A. the charge stored in it, increases. B. the energy stored in it, decreases. C. its capacitance increases. D. the ratio of charge to its potential remains the same. E. the product of charge and voltage increases. Choose the most appropriate answer from the options given below:",
-        "options": {
-          "1": "A, C and E only",
-          "2": "B, D and E only",
-          "3": "A, B and C only",
-          "4": "A, B and E only"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q48",
-        "sourceYear": 2024,
-        "sourceNumber": 45,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "The property which is not of an electromagnetic wave travelling in free space is that:",
-        "options": {
-          "1": "The energy density in electric field is equal to energy density in magnetic field 1",
-          "2": "They travel with a speed equal to μ0 ε 0",
-          "3": "They originate from charges moving with uniform speed",
-          "4": "They are transverse in nature"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2560,22 +2585,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q24",
+        "id": "2025-INTERIM-Q14",
         "sourceYear": 2025,
-        "sourceNumber": 21,
+        "sourceNumber": 12,
         "subject": "Physics",
         "topic": "Electromagnetism",
         "difficulty": "Hard",
-        "stem": "Match List-I with List-II. List-I List-II (Material) (Susceptibility (χ)) A. Diamagnetic I. χ=0 B. Ferromagnetic II. 0 > χ ≥ –1 C. Paramagnetic III. χ >> 1 D. Non-magnetic IV. 0 < χ < ε (a small positive number) Choose the correct answer from the options given below",
+        "stem": "Consider the following statements A and B and identify the correct answer: A. For a solar-cell, the I-V characteristics lies in the IV quadrant of the given graph. B. In a reverse biased pn junction diode, the current measured in (μA), is due to majority charge carriers.",
         "options": {
-          "1": "A-II, B-I, C-III, D-IV",
-          "2": "A-III, B-II, C-I, D-IV",
-          "3": "A-IV, B-III, C-II, D-I",
-          "4": "A-II, B-III, C-IV, D-I"
+          "1": "A is incorrect but B is correct",
+          "2": "Both A and B are correct",
+          "3": "Both A and B are incorrect",
+          "4": "A is correct but B is incorrect"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -2585,7 +2610,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q25",
+        "sourceYear": 2025,
+        "sourceNumber": 22,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "difficulty": "Hard",
+        "stem": "In the following circuit, the equivalent capacitance between terminal A and terminal B is :",
+        "options": {
+          "1": "1 μF",
+          "2": "0.5 μF",
+          "3": "4 μF",
+          "4": "2 μF"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": "/figures/2025-INTERIM-Q25.png",
+        "figureKind": "pdf-crop+from-2024-stem-match",
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2610,57 +2660,7 @@
         "figureSrc": "/figures/2025-INTERIM-Q41.png",
         "figureKind": "pdf-crop+from-2024-stem-match",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q43",
-        "sourceYear": 2025,
-        "sourceNumber": 40,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "A parallel plate capacitor is charged by connecting it to a battery through a resistor. If I is the current in the circuit, then in the gap between the plates:",
-        "options": {
-          "1": "Displacement current of magnitude equal to I flows in the same direction as I",
-          "2": "Displacement current of magnitude equal to I flows in a direction opposite to that of I",
-          "3": "Displacement current of magnitude greater than I flows but can be in any direction",
-          "4": "There is no current"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q44",
-        "sourceYear": 2025,
-        "sourceNumber": 41,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "Choose the correct circuit which can achieve the bridge balance.",
-        "options": {
-          "1": "Option 1",
-          "2": "Option 2",
-          "3": "Option 3",
-          "4": "Option 4"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2685,57 +2685,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q46",
-        "sourceYear": 2025,
-        "sourceNumber": 43,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "If the plates of a parallel plate capacitor connected to a battery are moved close to each other, then A. the charge stored in it, increases. B. the energy stored in it, decreases. C. its capacitance increases. D. the ratio of charge to its potential remains the same. E. the product of charge and voltage increases. Choose the most appropriate answer from the options given below:",
-        "options": {
-          "1": "A, C and E only",
-          "2": "B, D and E only",
-          "3": "A, B and C only",
-          "4": "A, B and E only"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q48",
-        "sourceYear": 2025,
-        "sourceNumber": 45,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "The property which is not of an electromagnetic wave travelling in free space is that:",
-        "options": {
-          "1": "The energy density in electric field is equal to energy density in magnetic field 1",
-          "2": "They travel with a speed equal to μ0 ε 0",
-          "3": "They originate from charges moving with uniform speed",
-          "4": "They are transverse in nature"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2760,7 +2710,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       }
     ]

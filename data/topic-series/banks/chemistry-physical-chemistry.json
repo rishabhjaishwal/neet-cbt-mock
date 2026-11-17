@@ -3,135 +3,35 @@
   "subject": "Chemistry",
   "topic": "Physical Chemistry",
   "counts": {
-    "Easy": 41,
-    "Medium": 26,
-    "Hard": 26
+    "Easy": 30,
+    "Medium": 30,
+    "Hard": 29
   },
   "questions": {
     "Easy": [
       {
-        "id": "2016-Phase1-Q158",
-        "sourceYear": 2016,
-        "sourceNumber": 68,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Easy",
-        "stem": "Two electrons occupying the same orbital are distinished by (4) dG, dH\"Q.ci dS ') :iti01k'icf> im i I",
-        "options": {
-          "1": "qq'RA",
-          "2": "qq'RA",
-          "3": "Principal quantum number",
-          "4": "Magnetic quantum number \"\\"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2016-Phase1-Q160",
-        "sourceYear": 2016,
-        "sourceNumber": 70,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Easy",
-        "stem": "The pair of electron in the given carbanion, (3) 154pm CH3C= c , is present in which of the following 8 (4) 352pm orbitals? 8",
-        "options": {
-          "1": "sp 2",
-          "2": "sp",
-          "3": "2p",
-          "4": "sp 3"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2017-A-Q56",
-        "sourceYear": 2017,
-        "sourceNumber": 58,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Easy",
-        "stem": "It is because of inability of ns2 electrons of the valence shell to participate in bonding that",
-        "options": {
-          "1": "Sn2+ is reducing while Pb4+ is oxidising",
-          "2": "Sn2+ is oxidising while Pb4+ is reducing",
-          "3": "Enzymes catalyse mainly bio-chemical reactions",
-          "4": "Coenzymes increase the catalytic activity of enzyme"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2017-A-Q78",
-        "sourceYear": 2017,
-        "sourceNumber": 76,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Easy",
-        "stem": "The most suitable method of separation of 1 : 1 (Less stable) mixture of ortho and para-nitrophenols is NH2 OCH3",
-        "options": {
-          "1": "Sublimation",
-          "2": "Chromatography OCH3 b H–NH2",
-          "3": "Crystallisation",
-          "4": "Steam distillation"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q82",
+        "id": "2018-AA-Q29",
         "sourceYear": 2018,
-        "sourceNumber": 50,
+        "sourceNumber": 46,
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
         "difficulty": "Easy",
-        "stem": "For the redox reaction – + 2+ Mn O 4– + C2 O42 + H ⎯⎯→ Mn + CO2 + H2O the correct coefficients of the reactants for the balanced equation are + Mn O 4– C 2O 2 – H 4",
+        "stem": "Following solutions were prepared by mixing different volumes of NaOH and HCl of different concentrations : M M a. 60 mL HCl + 40 mL NaOH 10 10 M M b. 55 mL HCl + 45 mL NaOH 10 10 M M c. 75 mL HCl + 25 mL NaOH 5 5 M M d. 100 mL HCl + 100 mL NaOH 10 10 pH of which one of them will be equal to 1 ?",
         "options": {
-          "1": "2 16 5",
-          "2": "2 5 16",
-          "3": "16 5 2",
-          "4": "5 16 2"
+          "1": "b",
+          "2": "c",
+          "3": "d",
+          "4": "a"
         },
-        "correctOption": "2",
+        "correctOption": "1",
         "correctOptions": [
-          "2"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -156,57 +56,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2018-AA-Q143",
+        "id": "2018-AA-Q149",
         "sourceYear": 2018,
-        "sourceNumber": 62,
+        "sourceNumber": 67,
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
         "difficulty": "Easy",
-        "stem": "For the redox reaction – + 2+ Mn O 4– + C2 O42 + H ⎯⎯→ Mn + CO2 + H2O the correct coefficients of the reactants for the balanced equation are + Mn O 4– C 2O 2 – H 4",
+        "stem": "Three objects, A : (a solid sphere), B : (a thin circular disk) and C : (a circular ring), each have the same mass M and radius R. They all spin with the same angular speed ω about their own symmetry axes. The amounts of work (W) required to bring them to rest, would satisfy the relation",
         "options": {
-          "1": "5 16 2",
-          "2": "2 16 5",
-          "3": "2 5 16",
-          "4": "16 5 2"
+          "1": "WC > WB > WA",
+          "2": "WA > WC > WB",
+          "3": "WB > WA > WC",
+          "4": "WA > WB > WC"
         },
-        "correctOption": "3",
+        "correctOption": "1",
         "correctOptions": [
-          "3"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q160",
-        "sourceYear": 2018,
-        "sourceNumber": 75,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Easy",
-        "stem": "Magnesium reacts with an element (X) to form an ionic compound. If the ground state electronic 2 2 3 configuration of (X) is 1s 2s 2p , the simplest formula for this compound is",
-        "options": {
-          "1": "Mg2X3",
-          "2": "MgX2",
-          "3": "Mg2X",
-          "4": "Mg3X2"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -231,57 +106,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2018-AA-Q175",
+        "id": "2018-AA-Q177",
         "sourceYear": 2018,
-        "sourceNumber": 87,
+        "sourceNumber": 89,
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
         "difficulty": "Easy",
-        "stem": "In which disease does mosquito transmitted pathogen cause chronic inflammation of lymphatic vessels ?",
+        "stem": "A solid sphere is rotating freely about its symmetry axis in free space. The radius of the sphere is increased keeping its mass same. Which of the following physical quantities would remain constant for the sphere ?",
         "options": {
-          "1": "Ringworm disease",
-          "2": "Ascariasis",
-          "3": "Elephantiasis",
-          "4": "Amoebiasis"
+          "1": "Angular velocity",
+          "2": "Angular momentum",
+          "3": "Rotational kinetic energy",
+          "4": "Moment of inertia"
         },
-        "correctOption": "3",
+        "correctOption": "1",
         "correctOptions": [
-          "3"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q176",
-        "sourceYear": 2018,
-        "sourceNumber": 88,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Easy",
-        "stem": "For the redox reaction – + 2+ Mn O 4– + C2 O42 + H ⎯⎯→ Mn + CO2 + H2O the correct coefficients of the reactants for the balanced equation are + Mn O 4– C 2O 2 – H 4",
-        "options": {
-          "1": "16 5 2",
-          "2": "2 5 16",
-          "3": "2 16 5",
-          "4": "5 16 2"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -306,57 +156,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q119",
-        "sourceYear": 2019,
-        "sourceNumber": 74,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Easy",
-        "stem": "Crude sodium chloride obtained by crystallization of brine solution does not contain -",
-        "options": {
-          "1": "MgSO4",
-          "2": "Na2SO4",
-          "3": "MgCl2",
-          "4": "CaSO4"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q121",
-        "sourceYear": 2019,
-        "sourceNumber": 76,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Easy",
-        "stem": "The pH of 0.01 M NaOH (aq) solution will be -",
-        "options": {
-          "1": "7.01",
-          "2": "2",
-          "3": "12",
-          "4": "9"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -381,32 +181,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q127",
-        "sourceYear": 2019,
-        "sourceNumber": 82,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Easy",
-        "stem": "Which of the following statements is correct regarding a solution of two component A and B exhibiting positive deviation from idea behavior ?",
-        "options": {
-          "1": "Intermolecular attractive force between A-A and B-B are stronger than those between A-B.",
-          "2": "Δmix H = 0 at constant T and P.",
-          "3": "Δmix V = 0 at constant . T and P.",
-          "4": "Intermolecular attractive forces between A-A and B-B are equal to those between A-B."
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -431,22 +206,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2020-E1-Q107",
+        "id": "2020-E1-Q111",
         "sourceYear": 2020,
-        "sourceNumber": 53,
+        "sourceNumber": 55,
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
         "difficulty": "Easy",
-        "stem": "Reaction between benzaldehyde and acetophenone in presence of dilute NaOH is known as :",
+        "stem": "Match the following columns and select the correct option. Column - I Column - II (a) Organ of Corti (i) Connects middle ear and pharynx (b) Cochlea (ii) Coiled part of the labyrinth (c) Eustachian tube (iii) Attached to the oval window (d) Stapes (iv) Located on the basilar membrane (a) (b) (c) (d)",
         "options": {
-          "1": "Aldol condensation",
-          "2": "Cannizzaro’s reaction",
-          "3": "Cross Cannizzaro’s reaction",
-          "4": "Cross Aldol condensation"
+          "1": "(i) (ii) (iv) (iii)",
+          "2": "(ii) (iii) (i) (iv)",
+          "3": "(iii) (i) (iv) (ii)",
+          "4": "(iv) (ii) (i) (iii)"
         },
         "correctOption": "3",
         "correctOptions": [
@@ -456,7 +231,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -481,32 +256,82 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2020-E1-Q164",
+        "id": "2020-E1-Q155",
         "sourceYear": 2020,
-        "sourceNumber": 79,
+        "sourceNumber": 75,
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
         "difficulty": "Easy",
-        "stem": "Match the following : Oxide Nature (a) CO (i) Basic (b) BaO (ii) Neutral (c) Al2O3 (iii) Acidic (d) Cl2O7 (iv) Amphoteric Which of the following is correct option ? (a) (b) (c) (d)",
+        "stem": "Hydrolysis of sucrose is given by the following reaction. Sucrose+H2O ⇌ Glucose+Fructose If the equilibrium constant (Kc) is 2×1013 at 300 K, the value of ∆rGs at the same temperature will be :",
         "options": {
-          "1": "(ii) (i) (iv) (iii)",
-          "2": "(iii) (iv) (i) (ii)",
-          "3": "(iv) (iii) (ii) (i)",
-          "4": "(i) (ii) (iii) (iv)"
+          "1": "8.314 J mol−1K−1×300 K×ln(3×1013)",
+          "2": "−8.314 J mol−1K−1×300 K×ln(4×1013)",
+          "3": "−8.314 J mol−1K−1×300 K×ln(2×1013)",
+          "4": "8.314 J mol−1K−1×300 K×ln(2×1013)"
         },
-        "correctOption": "4",
+        "correctOption": "3",
         "correctOptions": [
-          "4"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q53",
+        "sourceYear": 2021,
+        "sourceNumber": 58,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Easy",
+        "stem": "The following solutions were prepared by dissolving 10 g of glucose (C6H12O6) in 250 ml of water (P1), 10 g of urea (CH4N2O) in 250 ml of water (P2) and 10 g of sucrose (C 12 H 22 O 11 ) in 250 ml of water (P3). The right option for the decreasing order of osmotic pressure of these solutions is :",
+        "options": {
+          "1": "P3 > P1 > P2",
+          "2": "P2 > P1 > P3",
+          "3": "P1 > P2 > P3",
+          "4": "P2 > P3 > P1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q68",
+        "sourceYear": 2021,
+        "sourceNumber": 70,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Easy",
+        "stem": "The following solutions were prepared by dissolving 10 g of glucose (C6H12O6) in 250 ml of water (P1), 10 g of urea (CH4N2O) in 250 ml of water (P2) and 10 g of sucrose (C 12 H 22 O 11 ) in 250 ml of water (P3). The right option for the decreasing order of osmotic pressure of these solutions is :",
+        "options": {
+          "1": "P1 > P2 > P3",
+          "2": "P2 > P3 > P1",
+          "3": "P3 > P1 > P2",
+          "4": "P2 > P1 > P3"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -531,32 +356,57 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2021-M1-Q82",
+        "id": "2021-M1-Q85",
         "sourceYear": 2021,
-        "sourceNumber": 83,
+        "sourceNumber": 86,
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
         "difficulty": "Easy",
-        "stem": "Choose the correct option for graphical representation of Boyle’s law, which shows a graph of pressure vs. volume of a gas at different temperatures :",
+        "stem": "The following solutions were prepared by dissolving 10 g of glucose (C6H12O6) in 250 ml of water (P1), 10 g of urea (CH4N2O) in 250 ml of water (P2) and 10 g of sucrose (C 12 H 22 O 11 ) in 250 ml of water (P3). The right option for the decreasing order of osmotic pressure of these solutions is :",
         "options": {
-          "1": "Option 1",
-          "2": "Option 2",
-          "3": "Option 3",
-          "4": "3 M1"
+          "1": "P2 > P3 > P1",
+          "2": "P3 > P1 > P2",
+          "3": "P2 > P1 > P3",
+          "4": "P1 > P2 > P3 Section - B (Chemistry)"
         },
-        "correctOption": "2",
+        "correctOption": "1",
         "correctOptions": [
-          "2"
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q99",
+        "sourceYear": 2021,
+        "sourceNumber": 99,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Easy",
+        "stem": "Match List - I with List - II. List - I List - II (a) 2SO2(g)+O2(g) → (i) Acid rain 2SO3(g) (b) hν HOCl(g) ((( (ii) Smog → i i OH+Cl (c) CaCO3+H2SO4→ (iii) Ozone CaSO4+H2O+CO2 depletion (d) hν NO2(g) ((( (iv) Tropospheric → NO(g)+O(g) pollution Choose the correct answer from the options given below.",
+        "options": {
+          "1": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+          "2": "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+          "3": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+          "4": "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i) Hindi+English 8"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -581,57 +431,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q129",
-        "sourceYear": 2022,
-        "sourceNumber": 79,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Easy",
-        "stem": "Crude sodium chloride obtained by crystallization of brine solution does not contain -",
-        "options": {
-          "1": "MgSO4",
-          "2": "Na2SO4",
-          "3": "MgCl2",
-          "4": "CaSO4"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q131",
-        "sourceYear": 2022,
-        "sourceNumber": 81,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Easy",
-        "stem": "The pH of 0.01 M NaOH (aq) solution will be -",
-        "options": {
-          "1": "7.01",
-          "2": "2",
-          "3": "12",
-          "4": "9"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -656,32 +456,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q51",
-        "sourceYear": 2023,
-        "sourceNumber": 51,
+        "id": "2022-RECON-Q140",
+        "sourceYear": 2022,
+        "sourceNumber": 90,
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
         "difficulty": "Easy",
-        "stem": "The stability of Cu2+ is more than Cu+ salts in aqueous solution due to",
+        "stem": "The densiy of 2 M aqueous solution of NaOH is 1.28 g/cm . The molality of the solution is [Given that –1 molecular mass of NaOH = 40 gmol ]",
         "options": {
-          "1": "Enthalpy of atomization",
-          "2": "Hydration energy",
-          "3": "Second ionisation enthalpy",
-          "4": "First ionisation enthalpy"
+          "1": "1.20 m",
+          "2": "1.56 m",
+          "3": "1.67 m",
+          "4": "1.32 m"
         },
-        "correctOption": "2",
+        "correctOption": "3",
         "correctOptions": [
-          "2"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -706,7 +506,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -731,7 +531,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -756,32 +556,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q86",
+        "id": "2023-F1-Q96",
         "sourceYear": 2023,
-        "sourceNumber": 85,
+        "sourceNumber": 94,
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
         "difficulty": "Easy",
-        "stem": "Which amongst the following options is the correct relation between change in enthalpy and change in internal energy?",
+        "stem": "On balancing the given redox reaction, c aCr2O72− + bSO32− (aq) + cH+ (aq) → 2aCr 3+ (aq) + bSO24− (aq) + H2O(l) 2 the coefficients a, b and c are found to be, respectively-",
         "options": {
-          "1": "ΔH = ΔU + ΔngRT",
-          "2": "ΔH – ΔU = –ΔnRT",
-          "3": "ΔH + ΔU = ΔnR",
-          "4": "ΔH = ΔU – ΔngRT"
+          "1": "3, 8, 1",
+          "2": "1, 8, 3",
+          "3": "8, 1, 3",
+          "4": "1, 3, 8"
         },
-        "correctOption": "1",
+        "correctOption": "4",
         "correctOptions": [
-          "1"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -806,32 +606,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q66",
-        "sourceYear": 2024,
-        "sourceNumber": 64,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Easy",
-        "stem": "Fehling’s solution ‘A’ is",
-        "options": {
-          "1": "alkaline copper sulphate",
-          "2": "alkaline solution of sodium potassium tartrate (Rochelle’s salt)",
-          "3": "aqueous sodium citrate",
-          "4": "aqueous copper sulphate"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -856,22 +631,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2024-R1-Q80",
+        "id": "2024-R1-Q83",
         "sourceYear": 2024,
-        "sourceNumber": 77,
+        "sourceNumber": 80,
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
         "difficulty": "Easy",
-        "stem": "Arrange the following elements in increasing order of first ionization enthalpy: Li, Be, B, C, N Choose the correct answer from the options given below:",
+        "stem": "Match List I with List II List I List II (Quantum Number) (Information provided) A. ml I. Shape of orbital B. ms II. Size of orbital C. l III. Orientation of orbital D. n IV. Orientation of spin of electron Choose the correct answer from the options given below :",
         "options": {
-          "1": "Li < B < Be < C < N",
-          "2": "Li < Be < C < B < N",
-          "3": "Li < Be < N < B < C",
-          "4": "Li < Be < B < C < N"
+          "1": "A-III, B-IV, C-I, D-II",
+          "2": "A-III, B-IV, C-II, D-I",
+          "3": "A-II, B-I, C-IV, D-III",
+          "4": "A-I, B-III, C-II, D-IV"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -881,22 +656,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2024-R1-Q82",
+        "id": "2024-R1-Q99",
         "sourceYear": 2024,
-        "sourceNumber": 79,
+        "sourceNumber": 95,
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
         "difficulty": "Easy",
-        "stem": "Arrange the following elements in increasing order of electronegativity: N, O, F, C, Si Choose the correct answer from the options given below:",
+        "stem": "The plot of osmotic pressure (Π) vs concentration (mol L–1) for a solution gives a straight line with slope 25.73 L bar mol–1. The temperature at which the osmotic pressure measurement is done is (Use R = 0.083 L bar mol–1 K–1)",
         "options": {
-          "1": "Si < C < O < N < F",
-          "2": "O < F < N < C < Si",
-          "3": "F < O < N < C < Si",
-          "4": "Si < C < N < O < F"
+          "1": "310°C",
+          "2": "25.73°C",
+          "3": "12.05°C",
+          "4": "37°C"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -906,32 +681,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q53",
-        "sourceYear": 2025,
-        "sourceNumber": 53,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Easy",
-        "stem": "Which reaction is NOT a redox reaction?",
-        "options": {
-          "1": "2KClO3 + I2 → 2KIO3 + Cl2",
-          "2": "H2 + Cl2 → 2HCl",
-          "3": "BaCl2 + Na2SO4 → BaSO4 + 2NaCl",
-          "4": "Zn + CuSO4 → ZnSO4 + Cu"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -956,57 +706,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q78",
-        "sourceYear": 2025,
-        "sourceNumber": 75,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Easy",
-        "stem": "1 gram of sodium hydroxide was treated with 25 mL of 0.75 M HCl solution, the mass of sodium hydroxide left unreacted is equal to",
-        "options": {
-          "1": "250 mg",
-          "2": "Zero mg",
-          "3": "200 mg",
-          "4": "750 mg"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q80",
-        "sourceYear": 2025,
-        "sourceNumber": 77,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Easy",
-        "stem": "Arrange the following elements in increasing order of first ionization enthalpy: Li, Be, B, C, N Choose the correct answer from the options given below:",
-        "options": {
-          "1": "Li < B < Be < C < N",
-          "2": "Li < Be < C < B < N",
-          "3": "Li < Be < N < B < C",
-          "4": "Li < Be < B < C < N"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1031,24 +731,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
-      }
-    ],
-    "Medium": [
+      },
       {
-        "id": "2018-AA-Q29",
-        "sourceYear": 2018,
-        "sourceNumber": 46,
+        "id": "2025-INTERIM-Q96",
+        "sourceYear": 2025,
+        "sourceNumber": 92,
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
-        "difficulty": "Medium",
-        "stem": "Following solutions were prepared by mixing different volumes of NaOH and HCl of different concentrations : M M a. 60 mL HCl + 40 mL NaOH 10 10 M M b. 55 mL HCl + 45 mL NaOH 10 10 M M c. 75 mL HCl + 25 mL NaOH 5 5 M M d. 100 mL HCl + 100 mL NaOH 10 10 pH of which one of them will be equal to 1 ?",
+        "difficulty": "Easy",
+        "stem": "Mass in grams of copper deposited by passing 9.6487 A current through a voltmeter containing copper sulphate solution for 100 seconds is (Given : Molar mass of Cu : 63 g mol–1, 1 F = 96487 C)",
         "options": {
-          "1": "b",
-          "2": "c",
-          "3": "d",
-          "4": "a"
+          "1": "0.315 g",
+          "2": "31.5 g",
+          "3": "0.0315 g",
+          "4": "3.15 g"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -1057,10 +755,12 @@
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
-      },
+      }
+    ],
+    "Medium": [
       {
         "id": "2018-AA-Q74",
         "sourceYear": 2018,
@@ -1083,107 +783,82 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2018-AA-Q146",
+        "id": "2018-AA-Q143",
         "sourceYear": 2018,
-        "sourceNumber": 65,
+        "sourceNumber": 62,
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
         "difficulty": "Medium",
-        "stem": "Following solutions were prepared by mixing different volumes of NaOH and HCl of different concentrations : M M a. 60 mL HCl + 40 mL NaOH 10 10 M M b. 55 mL HCl + 45 mL NaOH 10 10 M M c. 75 mL HCl + 25 mL NaOH 5 5 M M d. 100 mL HCl + 100 mL NaOH 10 10 pH of which one of them will be equal to 1 ?",
+        "stem": "For the redox reaction – + 2+ Mn O 4– + C2 O42 + H ⎯⎯→ Mn + CO2 + H2O the correct coefficients of the reactants for the balanced equation are + Mn O 4– C 2O 2 – H 4",
         "options": {
-          "1": "b",
-          "2": "a",
-          "3": "d",
-          "4": "c"
+          "1": "5 16 2",
+          "2": "2 16 5",
+          "3": "2 5 16",
+          "4": "16 5 2"
         },
-        "correctOption": "2",
+        "correctOption": "3",
         "correctOptions": [
-          "2"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2018-AA-Q149",
+        "id": "2018-AA-Q160",
         "sourceYear": 2018,
-        "sourceNumber": 67,
+        "sourceNumber": 75,
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
         "difficulty": "Medium",
-        "stem": "Three objects, A : (a solid sphere), B : (a thin circular disk) and C : (a circular ring), each have the same mass M and radius R. They all spin with the same angular speed ω about their own symmetry axes. The amounts of work (W) required to bring them to rest, would satisfy the relation",
+        "stem": "Magnesium reacts with an element (X) to form an ionic compound. If the ground state electronic 2 2 3 configuration of (X) is 1s 2s 2p , the simplest formula for this compound is",
         "options": {
-          "1": "WC > WB > WA",
-          "2": "WA > WC > WB",
-          "3": "WB > WA > WC",
-          "4": "WA > WB > WC"
+          "1": "Mg2X3",
+          "2": "MgX2",
+          "3": "Mg2X",
+          "4": "Mg3X2"
         },
-        "correctOption": "1",
+        "correctOption": "4",
         "correctOptions": [
-          "1"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2018-AA-Q162",
+        "id": "2018-AA-Q175",
         "sourceYear": 2018,
-        "sourceNumber": 77,
+        "sourceNumber": 87,
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
         "difficulty": "Medium",
-        "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Proliferative Phase i. Breakdown of endometrial lining b. Secretory Phase ii. Follicular Phase c. Menstruation iii. Luteal Phase a b c",
+        "stem": "In which disease does mosquito transmitted pathogen cause chronic inflammation of lymphatic vessels ?",
         "options": {
-          "1": "ii iii i",
-          "2": "i iii ii",
-          "3": "iii ii i",
-          "4": "iii i ii OUGH WORK English"
+          "1": "Ringworm disease",
+          "2": "Ascariasis",
+          "3": "Elephantiasis",
+          "4": "Amoebiasis"
         },
-        "correctOption": "2",
+        "correctOption": "3",
         "correctOptions": [
-          "2"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q177",
-        "sourceYear": 2018,
-        "sourceNumber": 89,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Medium",
-        "stem": "A solid sphere is rotating freely about its symmetry axis in free space. The radius of the sphere is increased keeping its mass same. Which of the following physical quantities would remain constant for the sphere ?",
-        "options": {
-          "1": "Angular velocity",
-          "2": "Angular momentum",
-          "3": "Rotational kinetic energy",
-          "4": "Moment of inertia"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1208,22 +883,47 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2019-G1-Q108",
+        "id": "2019-G1-Q119",
         "sourceYear": 2019,
-        "sourceNumber": 63,
+        "sourceNumber": 74,
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
         "difficulty": "Medium",
-        "stem": "A compound ‘X’ upon reaction with H2O produces a colorless gas ‘Y’ with rotton fish smell. Gas’Y’ is absorbed in a solution of CuSO4 to give Cu3P2 as one of the products. Predict the compound ‘X’",
+        "stem": "Crude sodium chloride obtained by crystallization of brine solution does not contain -",
         "options": {
-          "1": "Ca3P2",
-          "2": "NH4Cl",
-          "3": "As2O3",
-          "4": "Ca3(PO4)2"
+          "1": "MgSO4",
+          "2": "Na2SO4",
+          "3": "MgCl2",
+          "4": "CaSO4"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2019-G1-Q127",
+        "sourceYear": 2019,
+        "sourceNumber": 82,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Medium",
+        "stem": "Which of the following statements is correct regarding a solution of two component A and B exhibiting positive deviation from idea behavior ?",
+        "options": {
+          "1": "Intermolecular attractive force between A-A and B-B are stronger than those between A-B.",
+          "2": "Δmix H = 0 at constant T and P.",
+          "3": "Δmix V = 0 at constant . T and P.",
+          "4": "Intermolecular attractive forces between A-A and B-B are equal to those between A-B."
         },
         "correctOption": "1",
         "correctOptions": [
@@ -1233,32 +933,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q129",
-        "sourceYear": 2019,
-        "sourceNumber": 84,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Medium",
-        "stem": "The standard electrode potential Eε ( ) value of Al3+/Al, Ag+/Ag, K+/K and Cr3+/Cr are –1.66 V, 0.80 V, –2.93 V & – 0.79 V respectively. The correct decreasing order of reducing power of the metal is -",
-        "options": {
-          "1": "Ag > Cr > Al > K",
-          "2": "K > Al > Cr > Ag",
-          "3": "K > Al > Ag > Cr",
-          "4": "Al > K > Ag > Cr"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1283,32 +958,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q111",
-        "sourceYear": 2020,
-        "sourceNumber": 55,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Medium",
-        "stem": "Match the following columns and select the correct option. Column - I Column - II (a) Organ of Corti (i) Connects middle ear and pharynx (b) Cochlea (ii) Coiled part of the labyrinth (c) Eustachian tube (iii) Attached to the oval window (d) Stapes (iv) Located on the basilar membrane (a) (b) (c) (d)",
-        "options": {
-          "1": "(i) (ii) (iv) (iii)",
-          "2": "(ii) (iii) (i) (iv)",
-          "3": "(iii) (i) (iv) (ii)",
-          "4": "(iv) (ii) (i) (iii)"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1333,32 +983,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q126",
-        "sourceYear": 2020,
-        "sourceNumber": 62,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Medium",
-        "stem": "Match the following columns and select the correct option. Column - I Column - II (a) Gregarious, polyphagous (i) Asterias pest (b) Adult with radial (ii) Scorpion symmetry and larva with bilateral symmetry (c) Book lungs (iii) Ctenoplana (d) Bioluminescence (iv) Locusta (a) (b) (c) (d)",
-        "options": {
-          "1": "(iv) (i) (ii) (iii)",
-          "2": "(iii) (ii) (i) (iv)",
-          "3": "(ii) (i) (iii) (iv)",
-          "4": "(i) (iii) (ii) (iv)"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1383,107 +1008,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2020-E1-Q137",
+        "id": "2020-E1-Q164",
         "sourceYear": 2020,
-        "sourceNumber": 67,
+        "sourceNumber": 79,
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
         "difficulty": "Medium",
-        "stem": "Match the following and identify the correct option. (a) CO(g)+H2(g) (i) Mg(HCO3)2+ Ca(HCO3)2 (b) Temporary (ii) An electron hardness of deficient hydride water (c) B2H6 (iii) Synthesis gas (d) H2O2 (iv) Non-planar structure (a) (b) (c) (d)",
+        "stem": "Match the following : Oxide Nature (a) CO (i) Basic (b) BaO (ii) Neutral (c) Al2O3 (iii) Acidic (d) Cl2O7 (iv) Amphoteric Which of the following is correct option ? (a) (b) (c) (d)",
         "options": {
-          "1": "(iii) (ii) (i) (iv)",
-          "2": "(iii) (iv) (ii) (i)",
-          "3": "(i) (iii) (ii) (iv)",
-          "4": "(iii) (i) (ii) (iv)"
+          "1": "(ii) (i) (iv) (iii)",
+          "2": "(iii) (iv) (i) (ii)",
+          "3": "(iv) (iii) (ii) (i)",
+          "4": "(i) (ii) (iii) (iv)"
         },
-        "correctOption": "1",
+        "correctOption": "4",
         "correctOptions": [
-          "1"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q155",
-        "sourceYear": 2020,
-        "sourceNumber": 75,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Medium",
-        "stem": "Hydrolysis of sucrose is given by the following reaction. Sucrose+H2O ⇌ Glucose+Fructose If the equilibrium constant (Kc) is 2×1013 at 300 K, the value of ∆rGs at the same temperature will be :",
-        "options": {
-          "1": "8.314 J mol−1K−1×300 K×ln(3×1013)",
-          "2": "−8.314 J mol−1K−1×300 K×ln(4×1013)",
-          "3": "−8.314 J mol−1K−1×300 K×ln(2×1013)",
-          "4": "8.314 J mol−1K−1×300 K×ln(2×1013)"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q173",
-        "sourceYear": 2020,
-        "sourceNumber": 85,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Medium",
-        "stem": "Urea reacts with water to form A which will decompose to form B. B when passed through Cu2+ (aq), deep blue colour solution C is formed. What is the formula of C from the following ?",
-        "options": {
-          "1": "Cu(OH)2",
-          "2": "CuCO3⋅Cu(OH)2",
-          "3": "CuSO4",
-          "4": "[Cu(NH3)4]2+"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q53",
-        "sourceYear": 2021,
-        "sourceNumber": 58,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Medium",
-        "stem": "The following solutions were prepared by dissolving 10 g of glucose (C6H12O6) in 250 ml of water (P1), 10 g of urea (CH4N2O) in 250 ml of water (P2) and 10 g of sucrose (C 12 H 22 O 11 ) in 250 ml of water (P3). The right option for the decreasing order of osmotic pressure of these solutions is :",
-        "options": {
-          "1": "P3 > P1 > P2",
-          "2": "P2 > P1 > P3",
-          "3": "P1 > P2 > P3",
-          "4": "P2 > P3 > P1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1508,57 +1058,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q64",
-        "sourceYear": 2021,
-        "sourceNumber": 67,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Medium",
-        "stem": "The following solutions were prepared by dissolving 10 g of glucose (C6H12O6) in 250 ml of water (P1), 10 g of urea (CH4N2O) in 250 ml of water (P2) and 10 g of sucrose (C 12 H 22 O 11 ) in 250 ml of water (P3). The right option for the decreasing order of osmotic pressure of these solutions is :",
-        "options": {
-          "1": "P2 > P1 > P3",
-          "2": "P1 > P2 > P3",
-          "3": "P2 > P3 > P1",
-          "4": "P3 > P1 > P2"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q68",
-        "sourceYear": 2021,
-        "sourceNumber": 70,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Medium",
-        "stem": "The following solutions were prepared by dissolving 10 g of glucose (C6H12O6) in 250 ml of water (P1), 10 g of urea (CH4N2O) in 250 ml of water (P2) and 10 g of sucrose (C 12 H 22 O 11 ) in 250 ml of water (P3). The right option for the decreasing order of osmotic pressure of these solutions is :",
-        "options": {
-          "1": "P1 > P2 > P3",
-          "2": "P2 > P3 > P1",
-          "3": "P3 > P1 > P2",
-          "4": "P2 > P1 > P3"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1583,57 +1083,57 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2021-M1-Q77",
+        "id": "2021-M1-Q82",
         "sourceYear": 2021,
-        "sourceNumber": 78,
+        "sourceNumber": 83,
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
         "difficulty": "Medium",
-        "stem": "Given below are two statements : Statement I : Aspirin and Paracetamol belong to the class of narcotic analgesics. Statement II : Morphine and Heroin are non-narcotic analgesics. In the light of the above statements, choose the correct answer from the options given below.",
+        "stem": "Choose the correct option for graphical representation of Boyle’s law, which shows a graph of pressure vs. volume of a gas at different temperatures :",
         "options": {
-          "1": "Both Statement I and Statement II are false.",
-          "2": "Statement I is correct but Statement II is false.",
-          "3": "Statement I is incorrect but Statement II is true.",
-          "4": "Both Statement I and Statement II are true."
+          "1": "Option 1",
+          "2": "Option 2",
+          "3": "Option 3",
+          "4": "3 M1"
         },
-        "correctOption": "1",
+        "correctOption": "2",
         "correctOptions": [
-          "1"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2021-M1-Q83",
+        "id": "2021-M1-Q86",
         "sourceYear": 2021,
-        "sourceNumber": 84,
+        "sourceNumber": 87,
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
         "difficulty": "Medium",
-        "stem": "Given below are two statements : Statement I : Aspirin and Paracetamol belong to the class of narcotic analgesics. Statement II : Morphine and Heroin are non-narcotic analgesics. In the light of the above statements, choose the correct answer from the options given below.",
+        "stem": "Match List - I with List - II. List - I List - II (a) 2SO2(g)+O2(g) → (i) Acid rain 2SO3(g) (b) hν HOCl(g) ((( (ii) Smog → i i OH+C l (c) CaCO3+H2SO4→ (iii) Ozone CaSO4+H2O+CO2 depletion (d) hν NO2(g) ((( (iv) Tropospheric → NO(g)+O(g) pollution Choose the correct answer from the options given below.",
         "options": {
-          "1": "Statement I is incorrect but Statement II is true.",
-          "2": "Both Statement I and Statement II are true.",
-          "3": "Both Statement I and Statement II are false.",
-          "4": "Statement I is correct but Statement II is false."
+          "1": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
+          "2": "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)",
+          "3": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+          "4": "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i) Hindi+English 4"
         },
-        "correctOption": "3",
+        "correctOption": "2",
         "correctOptions": [
-          "3"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1658,16 +1158,468 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q118",
+        "id": "2022-RECON-Q129",
         "sourceYear": 2022,
-        "sourceNumber": 68,
+        "sourceNumber": 79,
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
         "difficulty": "Medium",
+        "stem": "Crude sodium chloride obtained by crystallization of brine solution does not contain -",
+        "options": {
+          "1": "MgSO4",
+          "2": "Na2SO4",
+          "3": "MgCl2",
+          "4": "CaSO4"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2022-RECON-Q137",
+        "sourceYear": 2022,
+        "sourceNumber": 87,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Medium",
+        "stem": "Which of the following statements is correct regarding a solution of two component A and B exhibiting positive deviation from idea behavior ?",
+        "options": {
+          "1": "Intermolecular attractive force between A-A and B-B are stronger than those between A-B.",
+          "2": "Δmix H = 0 at constant T and P.",
+          "3": "Δmix V = 0 at constant . T and P.",
+          "4": "Intermolecular attractive forces between A-A and B-B are equal to those between A-B."
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2022-RECON-Q146",
+        "sourceYear": 2022,
+        "sourceNumber": 94,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Medium",
+        "stem": "Two metal spheres, one of radius R and the other of radius 2R respectively have the same surface charge density σ. They are brought in contact and separated. What will be the new surface charge densities on them? 5 5 5 5",
+        "options": {
+          "1": "σ1 = σ, σ 2 = σ",
+          "2": "σ1 = σ, σ 2 = σ 6 6 2 6 5 5 5 5",
+          "3": "σ1 = σ, σ 2 = σ",
+          "4": "σ1 = σ, σ 2 = σ 2 3 3 6"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q58",
+        "sourceYear": 2023,
+        "sourceNumber": 58,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Medium",
+        "stem": "Match List-I with List-II. List-I List-II A. Coke I. Carbon atoms are sp3 hybridised B. Diamond II. Used as a dry lubricant C. Fullerene III. Used as a reducing agent D. Graphite IV. Cage like molecules Choose the correct answer from the options given below :",
+        "options": {
+          "1": "A-IV, B-I, C-II, D-III",
+          "2": "A-III, B-I, C-IV, D-II",
+          "3": "A-III, B-IV, C-I, D-II",
+          "4": "A-II, B-IV, C-I, D-III"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q71",
+        "sourceYear": 2023,
+        "sourceNumber": 71,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Medium",
+        "stem": "Given below are two statements : Statement I : A unit formed by the attachment of a base to 1′ position of sugar is known as nucleoside. Statement II : When nucleoside is linked to phosphorous acid at 5′ -position of sugar moiety, we get nucleotide. In the light of the above statements, choose the correct answer from the options given below :",
+        "options": {
+          "1": "Both Statement I and Statement II are false",
+          "2": "Statement I is true but Statement II is false",
+          "3": "Statement I is false but Statement II is true",
+          "4": "Both Statement I and Statement II are true"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q86",
+        "sourceYear": 2023,
+        "sourceNumber": 85,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Medium",
+        "stem": "Which amongst the following options is the correct relation between change in enthalpy and change in internal energy?",
+        "options": {
+          "1": "ΔH = ΔU + ΔngRT",
+          "2": "ΔH – ΔU = –ΔnRT",
+          "3": "ΔH + ΔU = ΔnR",
+          "4": "ΔH = ΔU – ΔngRT"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q97",
+        "sourceYear": 2023,
+        "sourceNumber": 95,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Medium",
+        "stem": "Given below are two statements : Statement I : The nutrient deficient water bodies lead to eutrophication Statement II : Eutrophication leads to decrease in the level of oxygen in the water bodies. In the light of the above statements, choose the correct answer from the options given below:",
+        "options": {
+          "1": "Both Statement I and Statement II are false",
+          "2": "Statement I is correct but Statement II is false.",
+          "3": "Statement I is incorrect but Statement II is true.",
+          "4": "Both Statement I and Statement II are true."
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2024-R1-Q62",
+        "sourceYear": 2024,
+        "sourceNumber": 60,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Medium",
+        "stem": "Given below are two statements: Statement I : The boiling point of three isomeric pentanes follows the order n-pentane > isopentane > neopentane Statement II : When branching increases, the molecule attains a shape of sphere. This results in smaller surface area for contact, due to which the intermolecular forces between the spherical molecules are weak, thereby lowering the boiling point. In the light of the above statements, choose the most appropriate answer from the options given below:",
+        "options": {
+          "1": "Both Statement I and Statement II are incorrect",
+          "2": "Statement I is correct but Statement II is incorrect",
+          "3": "Statement I is incorrect but Statement II is correct",
+          "4": "Both Statement I and Statement II are correct"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2024-R1-Q80",
+        "sourceYear": 2024,
+        "sourceNumber": 77,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Medium",
+        "stem": "Arrange the following elements in increasing order of first ionization enthalpy: Li, Be, B, C, N Choose the correct answer from the options given below:",
+        "options": {
+          "1": "Li < B < Be < C < N",
+          "2": "Li < Be < C < B < N",
+          "3": "Li < Be < N < B < C",
+          "4": "Li < Be < B < C < N"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2024-R1-Q94",
+        "sourceYear": 2024,
+        "sourceNumber": 90,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Medium",
+        "stem": "During the preparation of Mohr’s salt solution (Ferrous ammonium sulphate), which of the following acid is added to prevent hydrolysis of Fe2+ ion?",
+        "options": {
+          "1": "concentrated sulphuric acid",
+          "2": "dilute nitric acid",
+          "3": "dilute sulphuric acid",
+          "4": "dilute hydrochloric acid"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q53",
+        "sourceYear": 2025,
+        "sourceNumber": 53,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Medium",
+        "stem": "Which reaction is NOT a redox reaction?",
+        "options": {
+          "1": "2KClO3 + I2 → 2KIO3 + Cl2",
+          "2": "H2 + Cl2 → 2HCl",
+          "3": "BaCl2 + Na2SO4 → BaSO4 + 2NaCl",
+          "4": "Zn + CuSO4 → ZnSO4 + Cu"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q78",
+        "sourceYear": 2025,
+        "sourceNumber": 75,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Medium",
+        "stem": "1 gram of sodium hydroxide was treated with 25 mL of 0.75 M HCl solution, the mass of sodium hydroxide left unreacted is equal to",
+        "options": {
+          "1": "250 mg",
+          "2": "Zero mg",
+          "3": "200 mg",
+          "4": "750 mg"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q83",
+        "sourceYear": 2025,
+        "sourceNumber": 80,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Medium",
+        "stem": "Match List I with List II List I List II (Quantum Number) (Information provided) A. ml I. Shape of orbital B. ms II. Size of orbital C. l III. Orientation of orbital D. n IV. Orientation of spin of electron Choose the correct answer from the options given below :",
+        "options": {
+          "1": "A-III, B-IV, C-I, D-II",
+          "2": "A-III, B-IV, C-II, D-I",
+          "3": "A-II, B-I, C-IV, D-III",
+          "4": "A-I, B-III, C-II, D-IV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q99",
+        "sourceYear": 2025,
+        "sourceNumber": 95,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Medium",
+        "stem": "The plot of osmotic pressure (Π) vs concentration (mol L–1) for a solution gives a straight line with slope 25.73 L bar mol–1. The temperature at which the osmotic pressure measurement is done is (Use R = 0.083 L bar mol–1 K–1)",
+        "options": {
+          "1": "310°C",
+          "2": "25.73°C",
+          "3": "12.05°C",
+          "4": "37°C"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      }
+    ],
+    "Hard": [
+      {
+        "id": "2018-AA-Q82",
+        "sourceYear": 2018,
+        "sourceNumber": 50,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Hard",
+        "stem": "For the redox reaction – + 2+ Mn O 4– + C2 O42 + H ⎯⎯→ Mn + CO2 + H2O the correct coefficients of the reactants for the balanced equation are + Mn O 4– C 2O 2 – H 4",
+        "options": {
+          "1": "2 16 5",
+          "2": "2 5 16",
+          "3": "16 5 2",
+          "4": "5 16 2"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2018-AA-Q146",
+        "sourceYear": 2018,
+        "sourceNumber": 65,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Hard",
+        "stem": "Following solutions were prepared by mixing different volumes of NaOH and HCl of different concentrations : M M a. 60 mL HCl + 40 mL NaOH 10 10 M M b. 55 mL HCl + 45 mL NaOH 10 10 M M c. 75 mL HCl + 25 mL NaOH 5 5 M M d. 100 mL HCl + 100 mL NaOH 10 10 pH of which one of them will be equal to 1 ?",
+        "options": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2018-AA-Q162",
+        "sourceYear": 2018,
+        "sourceNumber": 77,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Hard",
+        "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Proliferative Phase i. Breakdown of endometrial lining b. Secretory Phase ii. Follicular Phase c. Menstruation iii. Luteal Phase a b c",
+        "options": {
+          "1": "ii iii i",
+          "2": "i iii ii",
+          "3": "iii ii i",
+          "4": "iii i ii OUGH WORK English"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2018-AA-Q176",
+        "sourceYear": 2018,
+        "sourceNumber": 88,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Hard",
+        "stem": "For the redox reaction – + 2+ Mn O 4– + C2 O42 + H ⎯⎯→ Mn + CO2 + H2O the correct coefficients of the reactants for the balanced equation are + Mn O 4– C 2O 2 – H 4",
+        "options": {
+          "1": "16 5 2",
+          "2": "2 5 16",
+          "3": "2 16 5",
+          "4": "5 16 2"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2019-G1-Q108",
+        "sourceYear": 2019,
+        "sourceNumber": 63,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Hard",
         "stem": "A compound ‘X’ upon reaction with H2O produces a colorless gas ‘Y’ with rotton fish smell. Gas’Y’ is absorbed in a solution of CuSO4 to give Cu3P2 as one of the products. Predict the compound ‘X’",
         "options": {
           "1": "Ca3P2",
@@ -1683,49 +1635,97 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
-      }
-    ],
-    "Hard": [
+      },
       {
-        "id": "2021-M1-Q85",
-        "sourceYear": 2021,
-        "sourceNumber": 86,
+        "id": "2019-G1-Q121",
+        "sourceYear": 2019,
+        "sourceNumber": 76,
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
         "difficulty": "Hard",
-        "stem": "The following solutions were prepared by dissolving 10 g of glucose (C6H12O6) in 250 ml of water (P1), 10 g of urea (CH4N2O) in 250 ml of water (P2) and 10 g of sucrose (C 12 H 22 O 11 ) in 250 ml of water (P3). The right option for the decreasing order of osmotic pressure of these solutions is :",
+        "stem": "The pH of 0.01 M NaOH (aq) solution will be -",
         "options": {
-          "1": "P2 > P3 > P1",
-          "2": "P3 > P1 > P2",
-          "3": "P2 > P1 > P3",
-          "4": "P1 > P2 > P3 Section - B (Chemistry)"
+          "1": "7.01",
+          "2": "2",
+          "3": "12",
+          "4": "9"
         },
-        "correctOption": "1",
+        "correctOption": "3",
         "correctOptions": [
-          "1"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2021-M1-Q86",
-        "sourceYear": 2021,
-        "sourceNumber": 87,
+        "id": "2019-G1-Q129",
+        "sourceYear": 2019,
+        "sourceNumber": 84,
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
         "difficulty": "Hard",
-        "stem": "Match List - I with List - II. List - I List - II (a) 2SO2(g)+O2(g) → (i) Acid rain 2SO3(g) (b) hν HOCl(g) ((( (ii) Smog → i i OH+C l (c) CaCO3+H2SO4→ (iii) Ozone CaSO4+H2O+CO2 depletion (d) hν NO2(g) ((( (iv) Tropospheric → NO(g)+O(g) pollution Choose the correct answer from the options given below.",
+        "stem": "The standard electrode potential Eε ( ) value of Al3+/Al, Ag+/Ag, K+/K and Cr3+/Cr are –1.66 V, 0.80 V, –2.93 V & – 0.79 V respectively. The correct decreasing order of reducing power of the metal is -",
         "options": {
-          "1": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
-          "2": "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)",
-          "3": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
-          "4": "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i) Hindi+English 4"
+          "1": "Ag > Cr > Al > K",
+          "2": "K > Al > Cr > Ag",
+          "3": "K > Al > Ag > Cr",
+          "4": "Al > K > Ag > Cr"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q107",
+        "sourceYear": 2020,
+        "sourceNumber": 53,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Hard",
+        "stem": "Reaction between benzaldehyde and acetophenone in presence of dilute NaOH is known as :",
+        "options": {
+          "1": "Aldol condensation",
+          "2": "Cannizzaro’s reaction",
+          "3": "Cross Cannizzaro’s reaction",
+          "4": "Cross Aldol condensation"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q126",
+        "sourceYear": 2020,
+        "sourceNumber": 62,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Hard",
+        "stem": "Match the following columns and select the correct option. Column - I Column - II (a) Gregarious, polyphagous (i) Asterias pest (b) Adult with radial (ii) Scorpion symmetry and larva with bilateral symmetry (c) Book lungs (iii) Ctenoplana (d) Bioluminescence (iv) Locusta (a) (b) (c) (d)",
+        "options": {
+          "1": "(iv) (i) (ii) (iii)",
+          "2": "(iii) (ii) (i) (iv)",
+          "3": "(ii) (i) (iii) (iv)",
+          "4": "(i) (iii) (ii) (iv)"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -1735,7 +1735,132 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q137",
+        "sourceYear": 2020,
+        "sourceNumber": 67,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Hard",
+        "stem": "Match the following and identify the correct option. (a) CO(g)+H2(g) (i) Mg(HCO3)2+ Ca(HCO3)2 (b) Temporary (ii) An electron hardness of deficient hydride water (c) B2H6 (iii) Synthesis gas (d) H2O2 (iv) Non-planar structure (a) (b) (c) (d)",
+        "options": {
+          "1": "(iii) (ii) (i) (iv)",
+          "2": "(iii) (iv) (ii) (i)",
+          "3": "(i) (iii) (ii) (iv)",
+          "4": "(iii) (i) (ii) (iv)"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q173",
+        "sourceYear": 2020,
+        "sourceNumber": 85,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Hard",
+        "stem": "Urea reacts with water to form A which will decompose to form B. B when passed through Cu2+ (aq), deep blue colour solution C is formed. What is the formula of C from the following ?",
+        "options": {
+          "1": "Cu(OH)2",
+          "2": "CuCO3⋅Cu(OH)2",
+          "3": "CuSO4",
+          "4": "[Cu(NH3)4]2+"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q64",
+        "sourceYear": 2021,
+        "sourceNumber": 67,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Hard",
+        "stem": "The following solutions were prepared by dissolving 10 g of glucose (C6H12O6) in 250 ml of water (P1), 10 g of urea (CH4N2O) in 250 ml of water (P2) and 10 g of sucrose (C 12 H 22 O 11 ) in 250 ml of water (P3). The right option for the decreasing order of osmotic pressure of these solutions is :",
+        "options": {
+          "1": "P2 > P1 > P3",
+          "2": "P1 > P2 > P3",
+          "3": "P2 > P3 > P1",
+          "4": "P3 > P1 > P2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q77",
+        "sourceYear": 2021,
+        "sourceNumber": 78,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Hard",
+        "stem": "Given below are two statements : Statement I : Aspirin and Paracetamol belong to the class of narcotic analgesics. Statement II : Morphine and Heroin are non-narcotic analgesics. In the light of the above statements, choose the correct answer from the options given below.",
+        "options": {
+          "1": "Both Statement I and Statement II are false.",
+          "2": "Statement I is correct but Statement II is false.",
+          "3": "Statement I is incorrect but Statement II is true.",
+          "4": "Both Statement I and Statement II are true."
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q83",
+        "sourceYear": 2021,
+        "sourceNumber": 84,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Hard",
+        "stem": "Given below are two statements : Statement I : Aspirin and Paracetamol belong to the class of narcotic analgesics. Statement II : Morphine and Heroin are non-narcotic analgesics. In the light of the above statements, choose the correct answer from the options given below.",
+        "options": {
+          "1": "Statement I is incorrect but Statement II is true.",
+          "2": "Both Statement I and Statement II are true.",
+          "3": "Both Statement I and Statement II are false.",
+          "4": "Statement I is correct but Statement II is false."
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1760,47 +1885,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2021-M1-Q99",
-        "sourceYear": 2021,
-        "sourceNumber": 99,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Hard",
-        "stem": "Match List - I with List - II. List - I List - II (a) 2SO2(g)+O2(g) → (i) Acid rain 2SO3(g) (b) hν HOCl(g) ((( (ii) Smog → i i OH+Cl (c) CaCO3+H2SO4→ (iii) Ozone CaSO4+H2O+CO2 depletion (d) hν NO2(g) ((( (iv) Tropospheric → NO(g)+O(g) pollution Choose the correct answer from the options given below.",
-        "options": {
-          "1": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
-          "2": "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
-          "3": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
-          "4": "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i) Hindi+English 8"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q137",
+        "id": "2022-RECON-Q118",
         "sourceYear": 2022,
-        "sourceNumber": 87,
+        "sourceNumber": 68,
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
         "difficulty": "Hard",
-        "stem": "Which of the following statements is correct regarding a solution of two component A and B exhibiting positive deviation from idea behavior ?",
+        "stem": "A compound ‘X’ upon reaction with H2O produces a colorless gas ‘Y’ with rotton fish smell. Gas’Y’ is absorbed in a solution of CuSO4 to give Cu3P2 as one of the products. Predict the compound ‘X’",
         "options": {
-          "1": "Intermolecular attractive force between A-A and B-B are stronger than those between A-B.",
-          "2": "Δmix H = 0 at constant T and P.",
-          "3": "Δmix V = 0 at constant . T and P.",
-          "4": "Intermolecular attractive forces between A-A and B-B are equal to those between A-B."
+          "1": "Ca3P2",
+          "2": "NH4Cl",
+          "3": "As2O3",
+          "4": "Ca3(PO4)2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -1810,7 +1910,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2022-RECON-Q131",
+        "sourceYear": 2022,
+        "sourceNumber": 81,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "difficulty": "Hard",
+        "stem": "The pH of 0.01 M NaOH (aq) solution will be -",
+        "options": {
+          "1": "7.01",
+          "2": "2",
+          "3": "12",
+          "4": "9"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1835,72 +1960,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q140",
-        "sourceYear": 2022,
-        "sourceNumber": 90,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Hard",
-        "stem": "The densiy of 2 M aqueous solution of NaOH is 1.28 g/cm . The molality of the solution is [Given that –1 molecular mass of NaOH = 40 gmol ]",
-        "options": {
-          "1": "1.20 m",
-          "2": "1.56 m",
-          "3": "1.67 m",
-          "4": "1.32 m"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q146",
-        "sourceYear": 2022,
-        "sourceNumber": 94,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Hard",
-        "stem": "Two metal spheres, one of radius R and the other of radius 2R respectively have the same surface charge density σ. They are brought in contact and separated. What will be the new surface charge densities on them? 5 5 5 5",
-        "options": {
-          "1": "σ1 = σ, σ 2 = σ",
-          "2": "σ1 = σ, σ 2 = σ 6 6 2 6 5 5 5 5",
-          "3": "σ1 = σ, σ 2 = σ",
-          "4": "σ1 = σ, σ 2 = σ 2 3 3 6"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q58",
+        "id": "2023-F1-Q51",
         "sourceYear": 2023,
-        "sourceNumber": 58,
+        "sourceNumber": 51,
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
         "difficulty": "Hard",
-        "stem": "Match List-I with List-II. List-I List-II A. Coke I. Carbon atoms are sp3 hybridised B. Diamond II. Used as a dry lubricant C. Fullerene III. Used as a reducing agent D. Graphite IV. Cage like molecules Choose the correct answer from the options given below :",
+        "stem": "The stability of Cu2+ is more than Cu+ salts in aqueous solution due to",
         "options": {
-          "1": "A-IV, B-I, C-II, D-III",
-          "2": "A-III, B-I, C-IV, D-II",
-          "3": "A-III, B-IV, C-I, D-II",
-          "4": "A-II, B-IV, C-I, D-III"
+          "1": "Enthalpy of atomization",
+          "2": "Hydration energy",
+          "3": "Second ionisation enthalpy",
+          "4": "First ionisation enthalpy"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -1910,7 +1985,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1935,32 +2010,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q71",
-        "sourceYear": 2023,
-        "sourceNumber": 71,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Hard",
-        "stem": "Given below are two statements : Statement I : A unit formed by the attachment of a base to 1′ position of sugar is known as nucleoside. Statement II : When nucleoside is linked to phosphorous acid at 5′ -position of sugar moiety, we get nucleotide. In the light of the above statements, choose the correct answer from the options given below :",
-        "options": {
-          "1": "Both Statement I and Statement II are false",
-          "2": "Statement I is true but Statement II is false",
-          "3": "Statement I is false but Statement II is true",
-          "4": "Both Statement I and Statement II are true"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -1985,7 +2035,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2010,57 +2060,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q96",
-        "sourceYear": 2023,
-        "sourceNumber": 94,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Hard",
-        "stem": "On balancing the given redox reaction, c aCr2O72− + bSO32− (aq) + cH+ (aq) → 2aCr 3+ (aq) + bSO24− (aq) + H2O(l) 2 the coefficients a, b and c are found to be, respectively-",
-        "options": {
-          "1": "3, 8, 1",
-          "2": "1, 8, 3",
-          "3": "8, 1, 3",
-          "4": "1, 3, 8"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q97",
-        "sourceYear": 2023,
-        "sourceNumber": 95,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Hard",
-        "stem": "Given below are two statements : Statement I : The nutrient deficient water bodies lead to eutrophication Statement II : Eutrophication leads to decrease in the level of oxygen in the water bodies. In the light of the above statements, choose the correct answer from the options given below:",
-        "options": {
-          "1": "Both Statement I and Statement II are false",
-          "2": "Statement I is correct but Statement II is false.",
-          "3": "Statement I is incorrect but Statement II is true.",
-          "4": "Both Statement I and Statement II are true."
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2085,22 +2085,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2024-R1-Q62",
+        "id": "2024-R1-Q66",
         "sourceYear": 2024,
-        "sourceNumber": 60,
+        "sourceNumber": 64,
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
         "difficulty": "Hard",
-        "stem": "Given below are two statements: Statement I : The boiling point of three isomeric pentanes follows the order n-pentane > isopentane > neopentane Statement II : When branching increases, the molecule attains a shape of sphere. This results in smaller surface area for contact, due to which the intermolecular forces between the spherical molecules are weak, thereby lowering the boiling point. In the light of the above statements, choose the most appropriate answer from the options given below:",
+        "stem": "Fehling’s solution ‘A’ is",
         "options": {
-          "1": "Both Statement I and Statement II are incorrect",
-          "2": "Statement I is correct but Statement II is incorrect",
-          "3": "Statement I is incorrect but Statement II is correct",
-          "4": "Both Statement I and Statement II are correct"
+          "1": "alkaline copper sulphate",
+          "2": "alkaline solution of sodium potassium tartrate (Rochelle’s salt)",
+          "3": "aqueous sodium citrate",
+          "4": "aqueous copper sulphate"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -2110,57 +2110,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2024-R1-Q83",
+        "id": "2024-R1-Q82",
         "sourceYear": 2024,
-        "sourceNumber": 80,
+        "sourceNumber": 79,
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
         "difficulty": "Hard",
-        "stem": "Match List I with List II List I List II (Quantum Number) (Information provided) A. ml I. Shape of orbital B. ms II. Size of orbital C. l III. Orientation of orbital D. n IV. Orientation of spin of electron Choose the correct answer from the options given below :",
+        "stem": "Arrange the following elements in increasing order of electronegativity: N, O, F, C, Si Choose the correct answer from the options given below:",
         "options": {
-          "1": "A-III, B-IV, C-I, D-II",
-          "2": "A-III, B-IV, C-II, D-I",
-          "3": "A-II, B-I, C-IV, D-III",
-          "4": "A-I, B-III, C-II, D-IV"
+          "1": "Si < C < O < N < F",
+          "2": "O < F < N < C < Si",
+          "3": "F < O < N < C < Si",
+          "4": "Si < C < N < O < F"
         },
-        "correctOption": "1",
+        "correctOption": "4",
         "correctOptions": [
-          "1"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q94",
-        "sourceYear": 2024,
-        "sourceNumber": 90,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Hard",
-        "stem": "During the preparation of Mohr’s salt solution (Ferrous ammonium sulphate), which of the following acid is added to prevent hydrolysis of Fe2+ ion?",
-        "options": {
-          "1": "concentrated sulphuric acid",
-          "2": "dilute nitric acid",
-          "3": "dilute sulphuric acid",
-          "4": "dilute hydrochloric acid"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2185,32 +2160,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q99",
-        "sourceYear": 2024,
-        "sourceNumber": 95,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Hard",
-        "stem": "The plot of osmotic pressure (Π) vs concentration (mol L–1) for a solution gives a straight line with slope 25.73 L bar mol–1. The temperature at which the osmotic pressure measurement is done is (Use R = 0.083 L bar mol–1 K–1)",
-        "options": {
-          "1": "310°C",
-          "2": "25.73°C",
-          "3": "12.05°C",
-          "4": "37°C"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2235,22 +2185,22 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q83",
+        "id": "2025-INTERIM-Q80",
         "sourceYear": 2025,
-        "sourceNumber": 80,
+        "sourceNumber": 77,
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
         "difficulty": "Hard",
-        "stem": "Match List I with List II List I List II (Quantum Number) (Information provided) A. ml I. Shape of orbital B. ms II. Size of orbital C. l III. Orientation of orbital D. n IV. Orientation of spin of electron Choose the correct answer from the options given below :",
+        "stem": "Arrange the following elements in increasing order of first ionization enthalpy: Li, Be, B, C, N Choose the correct answer from the options given below:",
         "options": {
-          "1": "A-III, B-IV, C-I, D-II",
-          "2": "A-III, B-IV, C-II, D-I",
-          "3": "A-II, B-I, C-IV, D-III",
-          "4": "A-I, B-III, C-II, D-IV"
+          "1": "Li < B < Be < C < N",
+          "2": "Li < Be < C < B < N",
+          "3": "Li < Be < N < B < C",
+          "4": "Li < Be < B < C < N"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -2260,7 +2210,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -2285,57 +2235,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q96",
-        "sourceYear": 2025,
-        "sourceNumber": 92,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Hard",
-        "stem": "Mass in grams of copper deposited by passing 9.6487 A current through a voltmeter containing copper sulphate solution for 100 seconds is (Given : Molar mass of Cu : 63 g mol–1, 1 F = 96487 C)",
-        "options": {
-          "1": "0.315 g",
-          "2": "31.5 g",
-          "3": "0.0315 g",
-          "4": "3.15 g"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q99",
-        "sourceYear": 2025,
-        "sourceNumber": 95,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Hard",
-        "stem": "The plot of osmotic pressure (Π) vs concentration (mol L–1) for a solution gives a straight line with slope 25.73 L bar mol–1. The temperature at which the osmotic pressure measurement is done is (Use R = 0.083 L bar mol–1 K–1)",
-        "options": {
-          "1": "310°C",
-          "2": "25.73°C",
-          "3": "12.05°C",
-          "4": "37°C"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       }
     ]

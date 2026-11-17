@@ -3,9 +3,9 @@
   "subject": "Chemistry",
   "topic": "Organic Chemistry",
   "counts": {
-    "Easy": 16,
-    "Medium": 7,
-    "Hard": 5
+    "Easy": 10,
+    "Medium": 9,
+    "Hard": 9
   },
   "questions": {
     "Easy": [
@@ -31,57 +31,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q92",
-        "sourceYear": 2019,
-        "sourceNumber": 47,
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "difficulty": "Easy",
-        "stem": "The amine that reacts with Hinsberg's reagent to give an alkali insoluble product is - CH3–CH–NH–CH–CH3 CH2CH3",
-        "options": {
-          "1": "Option 1",
-          "2": "CH3 CH3 CH3–CH2–N–CH2CH3 NH2 CH3",
-          "3": "CH3–C–CH2CH2CH3",
-          "4": "CH3–C—CH–NH2 CH3 CH3 CH3"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q98",
-        "sourceYear": 2019,
-        "sourceNumber": 53,
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "difficulty": "Easy",
-        "stem": "When vapour of a secondary alcohol is passed over heated copper at 573 K, the product formed is",
-        "options": {
-          "1": "a carboxylic acid",
-          "2": "an aldehyde",
-          "3": "a ketone",
-          "4": "an alkene"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -106,57 +56,57 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2021-M1-Q60",
-        "sourceYear": 2021,
-        "sourceNumber": 63,
+        "id": "2020-E1-Q158",
+        "sourceYear": 2020,
+        "sourceNumber": 77,
         "subject": "Chemistry",
         "topic": "Organic Chemistry",
         "difficulty": "Easy",
-        "stem": "What is the IUPAC name of the organic compound formed in the following chemical reaction ? (i) C2H5MgBr , dry Ether Product Acetone ((((((((((((( → (ii) H2O, H+",
+        "stem": "Identify the correct statements from the following : (a) CO2(g) is used as refrigerant for ice-cream and frozen food. (b) The structure of C60 contains twelve six carbon rings and twenty five carbon rings. (c) ZSM-5, a type of zeolite, is used to convert alcohols into gasoline. (d) CO is colorless and odourless gas.",
         "options": {
-          "1": "2-methyl propan-2-ol",
-          "2": "pentan-2-ol",
-          "3": "pentan-3-ol",
-          "4": "2-methyl butan-2-ol"
+          "1": "(a) and (c) only",
+          "2": "(b) and (c) only",
+          "3": "(c) and (d) only",
+          "4": "(a), (b) and (c) only"
         },
-        "correctOption": "4",
+        "correctOption": "2",
         "correctOptions": [
-          "4"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2021-M1-Q65",
+        "id": "2021-M1-Q58",
         "sourceYear": 2021,
-        "sourceNumber": 68,
+        "sourceNumber": 61,
         "subject": "Chemistry",
         "topic": "Organic Chemistry",
         "difficulty": "Easy",
-        "stem": "The pKb of dimethylamine and pKa of acetic acid are 3.27 and 4.77 respectively at T (K). The correct option for the pH of dimethylammonium acetate solution is :",
+        "stem": "An organic compound contains 78% (by wt.) carbon and remaining percentage of hydrogen. The right option for the empirical formula of this compound is : [Atomic wt. of C is 12, H is 1]",
         "options": {
-          "1": "5.50",
-          "2": "7.75",
-          "3": "6.25",
-          "4": "8.50"
+          "1": "CH3",
+          "2": "CH4",
+          "3": "CH",
+          "4": "CH2"
         },
-        "correctOption": "1",
+        "correctOption": "2",
         "correctOptions": [
-          "1"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -181,32 +131,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q101",
-        "sourceYear": 2022,
-        "sourceNumber": 51,
+        "id": "2021-M1-Q93",
+        "sourceYear": 2021,
+        "sourceNumber": 93,
         "subject": "Chemistry",
         "topic": "Organic Chemistry",
         "difficulty": "Easy",
-        "stem": "The reaction that does not give benzoic acid as the major product is - CH2OH COCH3 K 2 Cr2 O7 (i)NaOCl",
+        "stem": "The correct option for the value of vapour pressure of a solution at 458C with benzene to octane in molar ratio 3 : 2 is : [At 458C vapour pressure of benzene is 280 mm Hg and that of octane is 420 mm Hg. Assume Ideal gas]",
         "options": {
-          "1": "⎯⎯⎯⎯ →",
-          "2": "⎯⎯⎯⎯ (ii)H O+ → 3 CH2OH CH2OH + PCC KMnO4 / H",
-          "3": "⎯⎯⎯⎯⎯⎯ ⎡Pyridinium ⎤ →",
-          "4": "⎯⎯⎯⎯⎯ → ⎣⎢Chlorochromate ⎦⎥"
+          "1": "160 mm of Hg",
+          "2": "168 mm of Hg",
+          "3": "336 mm of Hg",
+          "4": "350 mm of Hg Hindi+English 6"
         },
-        "correctOption": "3",
+        "correctOption": "1",
         "correctOptions": [
-          "3"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -231,57 +181,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q108",
-        "sourceYear": 2022,
-        "sourceNumber": 58,
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "difficulty": "Easy",
-        "stem": "When vapour of a secondary alcohol is passed over heated copper at 573 K, the product formed is",
-        "options": {
-          "1": "a carboxylic acid",
-          "2": "an aldehyde",
-          "3": "a ketone",
-          "4": "an alkene"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q113",
-        "sourceYear": 2022,
-        "sourceNumber": 63,
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "difficulty": "Easy",
-        "stem": "The alkane that gives only one monochloro product on chlorination with Cl2 in precence of diffused sunlight is -",
-        "options": {
-          "1": "2,2,-dimethylbutane",
-          "2": "neopentane",
-          "3": "n-pentane",
-          "4": "Isopentane"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -306,57 +206,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q81",
-        "sourceYear": 2023,
-        "sourceNumber": 80,
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "difficulty": "Easy",
-        "stem": "Weight (g) of two moles of the organic compound, which is obtained by heating sodium ethanoate with sodium hydroxide in presence of calcium oxide is :",
-        "options": {
-          "1": "32",
-          "2": "30",
-          "3": "18",
-          "4": "16"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q82",
-        "sourceYear": 2023,
-        "sourceNumber": 81,
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "difficulty": "Easy",
-        "stem": "Which of the following reactions will NOT give primary amine as the product?",
-        "options": {
-          "1": "CH3 CN ⎯⎯⎯⎯ (i) LiAlH4 (ii) H O⊕ → Product 3",
-          "2": "CH3NC ⎯⎯⎯⎯ (i) LiAlH4 (ii) H O⊕ → Product 3",
-          "3": "CH3 CONH2 ⎯⎯⎯⎯ (i) LiAlH4 (ii) H O⊕ → Product 3",
-          "4": "CH3 CONH2 ⎯⎯⎯⎯ Br2 /KOH → Product"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -381,36 +231,61 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q61",
+        "id": "2025-INTERIM-Q91",
         "sourceYear": 2025,
-        "sourceNumber": 59,
+        "sourceNumber": 87,
         "subject": "Chemistry",
         "topic": "Organic Chemistry",
         "difficulty": "Easy",
-        "stem": "Which one of the following alcohols reacts instantaneously with Lucas reagent?",
+        "stem": "Given below are certain cations. Using inorganic qualitative analysis, arrange them in increasing group number from 0 to VI. A. Al3+ B. Cu2+ C. Ba2+ D. Co2+ E. Mg2+ Choose the correct answer from the options given below.",
         "options": {
-          "1": "Option 1",
-          "2": "Option 2",
-          "3": "Option 3",
-          "4": "CH3 – CH2 – CH2 – CH2OH"
+          "1": "B, C, A, D, E",
+          "2": "E, C, D, B, A",
+          "3": "E, A, B, C, D",
+          "4": "B, A, D, C, E"
         },
-        "correctOption": "3",
+        "correctOption": "4",
         "correctOptions": [
-          "3"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       }
     ],
     "Medium": [
+      {
+        "id": "2019-G1-Q92",
+        "sourceYear": 2019,
+        "sourceNumber": 47,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "difficulty": "Medium",
+        "stem": "The amine that reacts with Hinsberg's reagent to give an alkali insoluble product is - CH3–CH–NH–CH–CH3 CH2CH3",
+        "options": {
+          "1": "Option 1",
+          "2": "CH3 CH3 CH3–CH2–N–CH2CH3 NH2 CH3",
+          "3": "CH3–C–CH2CH2CH3",
+          "4": "CH3–C—CH–NH2 CH3 CH3 CH3"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
       {
         "id": "2020-E1-Q7",
         "sourceYear": 2020,
@@ -433,57 +308,7 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q93",
-        "sourceYear": 2020,
-        "sourceNumber": 47,
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "difficulty": "Medium",
-        "stem": "Identify the correct statements from the following : (a) CO2(g) is used as refrigerant for ice-cream and frozen food. (b) The structure of C60 contains twelve six carbon rings and twenty five carbon rings. (c) ZSM-5, a type of zeolite, is used to convert alcohols into gasoline. (d) CO is colorless and odourless gas.",
-        "options": {
-          "1": "(a), (b) and (c) only",
-          "2": "(a) and (c) only",
-          "3": "(b) and (c) only",
-          "4": "(c) and (d) only Hindi+English 2"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q158",
-        "sourceYear": 2020,
-        "sourceNumber": 77,
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "difficulty": "Medium",
-        "stem": "Identify the correct statements from the following : (a) CO2(g) is used as refrigerant for ice-cream and frozen food. (b) The structure of C60 contains twelve six carbon rings and twenty five carbon rings. (c) ZSM-5, a type of zeolite, is used to convert alcohols into gasoline. (d) CO is colorless and odourless gas.",
-        "options": {
-          "1": "(a) and (c) only",
-          "2": "(b) and (c) only",
-          "3": "(c) and (d) only",
-          "4": "(a), (b) and (c) only"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -508,57 +333,32 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2020-E1-Q174",
-        "sourceYear": 2020,
-        "sourceNumber": 86,
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "difficulty": "Medium",
-        "stem": "The freezing point depression constant (Kf) of benzene is 5.12 K kg mol−1. The freezing point depression for the solution of molality 0.078 m containing a non-electrolyte solute in benzene is (rounded off upto two decimal places) :",
-        "options": {
-          "1": "0.40 K",
-          "2": "0.60 K",
-          "3": "0.20 K",
-          "4": "0.80 K Hindi+English 0"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q58",
+        "id": "2021-M1-Q60",
         "sourceYear": 2021,
-        "sourceNumber": 61,
+        "sourceNumber": 63,
         "subject": "Chemistry",
         "topic": "Organic Chemistry",
         "difficulty": "Medium",
-        "stem": "An organic compound contains 78% (by wt.) carbon and remaining percentage of hydrogen. The right option for the empirical formula of this compound is : [Atomic wt. of C is 12, H is 1]",
+        "stem": "What is the IUPAC name of the organic compound formed in the following chemical reaction ? (i) C2H5MgBr , dry Ether Product Acetone ((((((((((((( → (ii) H2O, H+",
         "options": {
-          "1": "CH3",
-          "2": "CH4",
-          "3": "CH",
-          "4": "CH2"
+          "1": "2-methyl propan-2-ol",
+          "2": "pentan-2-ol",
+          "3": "pentan-3-ol",
+          "4": "2-methyl butan-2-ol"
         },
-        "correctOption": "2",
+        "correctOption": "4",
         "correctOptions": [
-          "2"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
@@ -583,11 +383,211 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q97",
+        "sourceYear": 2021,
+        "sourceNumber": 97,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "difficulty": "Medium",
+        "stem": "The correct option for the value of vapour pressure of a solution at 458C with benzene to octane in molar ratio 3 : 2 is : [At 458C vapour pressure of benzene is 280 mm Hg and that of octane is 420 mm Hg. Assume Ideal gas]",
+        "options": {
+          "1": "350 mm of Hg",
+          "2": "160 mm of Hg",
+          "3": "168 mm of Hg",
+          "4": "336 mm of Hg"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2022-RECON-Q108",
+        "sourceYear": 2022,
+        "sourceNumber": 58,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "difficulty": "Medium",
+        "stem": "When vapour of a secondary alcohol is passed over heated copper at 573 K, the product formed is",
+        "options": {
+          "1": "a carboxylic acid",
+          "2": "an aldehyde",
+          "3": "a ketone",
+          "4": "an alkene"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q81",
+        "sourceYear": 2023,
+        "sourceNumber": 80,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "difficulty": "Medium",
+        "stem": "Weight (g) of two moles of the organic compound, which is obtained by heating sodium ethanoate with sodium hydroxide in presence of calcium oxide is :",
+        "options": {
+          "1": "32",
+          "2": "30",
+          "3": "18",
+          "4": "16"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2024-R1-Q91",
+        "sourceYear": 2024,
+        "sourceNumber": 87,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "difficulty": "Medium",
+        "stem": "Given below are certain cations. Using inorganic qualitative analysis, arrange them in increasing group number from 0 to VI. A. Al3+ B. Cu2+ C. Ba2+ D. Co2+ E. Mg2+ Choose the correct answer from the options given below.",
+        "options": {
+          "1": "B, C, A, D, E",
+          "2": "E, C, D, B, A",
+          "3": "E, A, B, C, D",
+          "4": "B, A, D, C, E"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
         "placeholder": false
       }
     ],
     "Hard": [
+      {
+        "id": "2019-G1-Q98",
+        "sourceYear": 2019,
+        "sourceNumber": 53,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "difficulty": "Hard",
+        "stem": "When vapour of a secondary alcohol is passed over heated copper at 573 K, the product formed is",
+        "options": {
+          "1": "a carboxylic acid",
+          "2": "an aldehyde",
+          "3": "a ketone",
+          "4": "an alkene"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q93",
+        "sourceYear": 2020,
+        "sourceNumber": 47,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "difficulty": "Hard",
+        "stem": "Identify the correct statements from the following : (a) CO2(g) is used as refrigerant for ice-cream and frozen food. (b) The structure of C60 contains twelve six carbon rings and twenty five carbon rings. (c) ZSM-5, a type of zeolite, is used to convert alcohols into gasoline. (d) CO is colorless and odourless gas.",
+        "options": {
+          "1": "(a), (b) and (c) only",
+          "2": "(a) and (c) only",
+          "3": "(b) and (c) only",
+          "4": "(c) and (d) only Hindi+English 2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2020-E1-Q174",
+        "sourceYear": 2020,
+        "sourceNumber": 86,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "difficulty": "Hard",
+        "stem": "The freezing point depression constant (Kf) of benzene is 5.12 K kg mol−1. The freezing point depression for the solution of molality 0.078 m containing a non-electrolyte solute in benzene is (rounded off upto two decimal places) :",
+        "options": {
+          "1": "0.40 K",
+          "2": "0.60 K",
+          "3": "0.20 K",
+          "4": "0.80 K Hindi+English 0"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2021-M1-Q65",
+        "sourceYear": 2021,
+        "sourceNumber": 68,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "difficulty": "Hard",
+        "stem": "The pKb of dimethylamine and pKa of acetic acid are 3.27 and 4.77 respectively at T (K). The correct option for the pH of dimethylammonium acetate solution is :",
+        "options": {
+          "1": "5.50",
+          "2": "7.75",
+          "3": "6.25",
+          "4": "8.50"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
       {
         "id": "2021-M1-Q91",
         "sourceYear": 2021,
@@ -610,113 +610,113 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2021-M1-Q93",
-        "sourceYear": 2021,
-        "sourceNumber": 93,
+        "id": "2022-RECON-Q101",
+        "sourceYear": 2022,
+        "sourceNumber": 51,
         "subject": "Chemistry",
         "topic": "Organic Chemistry",
         "difficulty": "Hard",
-        "stem": "The correct option for the value of vapour pressure of a solution at 458C with benzene to octane in molar ratio 3 : 2 is : [At 458C vapour pressure of benzene is 280 mm Hg and that of octane is 420 mm Hg. Assume Ideal gas]",
+        "stem": "The reaction that does not give benzoic acid as the major product is - CH2OH COCH3 K 2 Cr2 O7 (i)NaOCl",
         "options": {
-          "1": "160 mm of Hg",
-          "2": "168 mm of Hg",
-          "3": "336 mm of Hg",
-          "4": "350 mm of Hg Hindi+English 6"
+          "1": "⎯⎯⎯⎯ →",
+          "2": "⎯⎯⎯⎯ (ii)H O+ → 3 CH2OH CH2OH + PCC KMnO4 / H",
+          "3": "⎯⎯⎯⎯⎯⎯ ⎡Pyridinium ⎤ →",
+          "4": "⎯⎯⎯⎯⎯ → ⎣⎢Chlorochromate ⎦⎥"
         },
-        "correctOption": "1",
+        "correctOption": "3",
         "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q97",
-        "sourceYear": 2021,
-        "sourceNumber": 97,
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "difficulty": "Hard",
-        "stem": "The correct option for the value of vapour pressure of a solution at 458C with benzene to octane in molar ratio 3 : 2 is : [At 458C vapour pressure of benzene is 280 mm Hg and that of octane is 420 mm Hg. Assume Ideal gas]",
-        "options": {
-          "1": "350 mm of Hg",
-          "2": "160 mm of Hg",
-          "3": "168 mm of Hg",
-          "4": "336 mm of Hg"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q91",
-        "sourceYear": 2024,
-        "sourceNumber": 87,
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "difficulty": "Hard",
-        "stem": "Given below are certain cations. Using inorganic qualitative analysis, arrange them in increasing group number from 0 to VI. A. Al3+ B. Cu2+ C. Ba2+ D. Co2+ E. Mg2+ Choose the correct answer from the options given below.",
-        "options": {
-          "1": "B, C, A, D, E",
-          "2": "E, C, D, B, A",
-          "3": "E, A, B, C, D",
-          "4": "B, A, D, C, E"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q91",
+        "id": "2022-RECON-Q113",
+        "sourceYear": 2022,
+        "sourceNumber": 63,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "difficulty": "Hard",
+        "stem": "The alkane that gives only one monochloro product on chlorination with Cl2 in precence of diffused sunlight is -",
+        "options": {
+          "1": "2,2,-dimethylbutane",
+          "2": "neopentane",
+          "3": "n-pentane",
+          "4": "Isopentane"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2023-F1-Q82",
+        "sourceYear": 2023,
+        "sourceNumber": 81,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "difficulty": "Hard",
+        "stem": "Which of the following reactions will NOT give primary amine as the product?",
+        "options": {
+          "1": "CH3 CN ⎯⎯⎯⎯ (i) LiAlH4 (ii) H O⊕ → Product 3",
+          "2": "CH3NC ⎯⎯⎯⎯ (i) LiAlH4 (ii) H O⊕ → Product 3",
+          "3": "CH3 CONH2 ⎯⎯⎯⎯ (i) LiAlH4 (ii) H O⊕ → Product 3",
+          "4": "CH3 CONH2 ⎯⎯⎯⎯ Br2 /KOH → Product"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "md-year-paper",
+        "placeholder": false
+      },
+      {
+        "id": "2025-INTERIM-Q61",
         "sourceYear": 2025,
-        "sourceNumber": 87,
+        "sourceNumber": 59,
         "subject": "Chemistry",
         "topic": "Organic Chemistry",
         "difficulty": "Hard",
-        "stem": "Given below are certain cations. Using inorganic qualitative analysis, arrange them in increasing group number from 0 to VI. A. Al3+ B. Cu2+ C. Ba2+ D. Co2+ E. Mg2+ Choose the correct answer from the options given below.",
+        "stem": "Which one of the following alcohols reacts instantaneously with Lucas reagent?",
         "options": {
-          "1": "B, C, A, D, E",
-          "2": "E, C, D, B, A",
-          "3": "E, A, B, C, D",
-          "4": "B, A, D, C, E"
+          "1": "Option 1",
+          "2": "Option 2",
+          "3": "Option 3",
+          "4": "CH3 – CH2 – CH2 – CH2OH"
         },
-        "correctOption": "4",
+        "correctOption": "3",
         "correctOptions": [
-          "4"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse",
+        "solutionSource": "md-year-paper",
         "placeholder": false
       }
     ]
   },
   "gaps": [
-    "Medium: have 7 clean items (need 10+ to start)",
-    "Hard: have 5 clean items (need 10+ to start)"
+    "Medium: have 9 clean items (need 10+ to start)",
+    "Hard: have 9 clean items (need 10+ to start)"
   ]
 }
