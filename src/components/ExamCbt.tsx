@@ -1311,33 +1311,6 @@ export function ExamCbt({
               </div>
             )}
 
-            {limitInfo.sectionBCaps.length > 0 && (
-              <div className="mb-3 flex flex-wrap gap-2 text-xs text-slate-600">
-                {limitInfo.sectionBCaps.map((c) => {
-                  const multi =
-                    limitInfo.sectionBCaps.filter((x) => x.subject === c.subject).length >
-                    1;
-                  const label = multi
-                    ? `${c.subject} B${c.blockIndex} (${c.start}–${c.end})`
-                    : `${c.subject} B`;
-                  return (
-                    <span
-                      key={c.id}
-                      title={`Section B attempt any ${c.cap} of ${c.end - c.start + 1} (Q${c.start}–${c.end}). Section A is not limited by this counter.`}
-                      className={`rounded px-2 py-1 ${
-                        c.attempted >= c.cap
-                          ? c.over
-                            ? "bg-rose-100 text-rose-800"
-                            : "bg-amber-50 text-amber-900"
-                          : "bg-slate-100"
-                      }`}
-                    >
-                      {label}: {c.attempted}/{c.cap}
-                    </span>
-                  );
-                })}
-              </div>
-            )}
           </div>
 
           <p className="exam-mobile-crumb mb-2 hidden text-[0.7rem] text-slate-500 max-lg:block">

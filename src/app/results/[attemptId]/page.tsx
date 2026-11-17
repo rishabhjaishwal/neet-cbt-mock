@@ -12,6 +12,8 @@ import { ReviewPagination } from "@/components/ReviewPagination";
 import { getPaperQuestionMap } from "@/lib/paper-content";
 import { getMdQuestionsByKeys } from "@/lib/md-paper-store";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { SectionBCapSummary } from "@/components/SectionBCapSummary";
+import { buildAttemptLimitInfo, type RuleQuestion } from "@/lib/attempt-rules";
 import {
   buildReviewIndex,
   filterReviewIndex,
@@ -171,6 +173,32 @@ export default async function ResultsPage({
     byKey,
   });
 
+  const ruleQuestions: RuleQuestion[] = answers.map((a, i) => {
+    const paperQ = a.questionKey ? paperByKey.get(a.questionKey) : undefined;
+    const selectedOptions = Array.isArray(a.selectedOptions) ? a.selectedOptions : [];
+    const selectedOption = a.selectedOption ?? selectedOptions[0] ?? null;
+    const status =
+      a.status === "marked" || a.status === "attempted" || a.status === "not_attempted"
+        ? a.status
+        : selectedOption || selectedOptions.length
+          ? "attempted"
+          : "not_attempted";
+    return {
+      id: String(a.questionId ?? a.questionKey ?? i),
+      number: paperQ?.number ?? a.number ?? i + 1,
+      subject: paperQ?.subject ?? a.subject ?? "Unknown",
+      section: paperQ?.section ?? a.section ?? "A",
+      selectedOption,
+      selectedOptions,
+      status,
+    };
+  });
+  const sectionBCaps = buildAttemptLimitInfo(
+    ruleQuestions,
+    paper?.attemptLimit ?? Math.min(180, ruleQuestions.length || 180),
+    paper?.totalQuestions ?? ruleQuestions.length,
+  ).sectionBCaps;
+
   const pager = (
     <ReviewPagination
       basePath={basePath}
@@ -228,6 +256,8 @@ export default async function ResultsPage({
           strongTopics={topicBundle.strongTopics ?? []}
         />
       </div>
+
+      <SectionBCapSummary caps={sectionBCaps} />
 
       <section className="mt-8 rounded-xl border border-slate-200 bg-white p-5">
         <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold">
