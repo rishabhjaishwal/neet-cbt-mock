@@ -195,8 +195,8 @@ export default async function ResultsPage({
   });
   const sectionBCaps = buildAttemptLimitInfo(
     ruleQuestions,
-    paper?.attemptLimit ?? Math.min(180, ruleQuestions.length || 180),
-    paper?.totalQuestions ?? ruleQuestions.length,
+    paper?.attempt_limit ?? Math.min(180, ruleQuestions.length || 180),
+    paper?.total_questions ?? ruleQuestions.length,
   ).sectionBCaps;
 
   const pager = (
