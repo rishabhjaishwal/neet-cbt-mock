@@ -1232,118 +1232,127 @@ export function ExamCbt({
             </button>
             <span className="text-[11px] text-slate-400">{i18n.keyboardHint}</span>
           </div>
-          <div className="exam-mobile-tools mb-2 hidden flex-wrap gap-2 max-lg:flex">
-            <button
-              type="button"
-              className="cbt-btn cbt-btn-sm cbt-btn-secondary"
-              onClick={() => setShowQuestionPaper(true)}
-            >
-              {i18n.questionPaper}
-            </button>
-          </div>
-          <div className="exam-filter-row mb-3 flex flex-wrap items-center gap-2 text-sm">
-            {(["ALL", "Physics", "Chemistry", "Biology"] as const).map((s) => (
-              <button
-                key={s}
-                type="button"
-                onClick={() => selectSubject(s)}
-                className={`rounded px-3 py-1.5 font-medium ${
-                  subjectFilter === s
-                    ? "bg-[var(--cbt-accent)] text-white"
-                    : "bg-slate-100 text-slate-700 hover:bg-slate-200"
-                }`}
-              >
-                {s === "ALL" ? i18n.allSubjects : s}
-              </button>
-            ))}
-            <button
-              type="button"
-              onClick={() => {
-                setMarkFilter((prev) => {
-                  const next = prev === "MARKED" ? "ALL" : "MARKED";
-                  if (next === "MARKED") {
-                    const firstMarked = questions.findIndex((q) => q.status === "marked");
-                    if (firstMarked >= 0) setIndex(firstMarked);
-                  }
-                  return next;
-                });
-              }}
-              className={`rounded px-3 py-1.5 font-medium ${
-                markFilter === "MARKED"
-                  ? "bg-[var(--status-marked)] text-white"
-                  : "border border-amber-300 bg-amber-50 text-amber-900 hover:bg-amber-100"
-              }`}
-            >
-              {markFilter === "MARKED" ? i18n.markedFilterOff : i18n.markedFilter} (
-              {counts.marked + counts.marked_answered})
-            </button>
-          </div>
-          {markFilter === "MARKED" && (
-            <p className="mb-3 rounded border border-amber-200 bg-amber-50 px-3 py-2 text-xs text-amber-950">
-              {counts.marked + counts.marked_answered === 0
-                ? i18n.markedEmpty
-                : i18n.markedHint}
-            </p>
-          )}
-          <p className="mb-3 text-xs text-slate-500">{i18n.paperLangNote}</p>
-
-          {availableSections.length > 1 && (
-            <div className="mb-4 flex flex-wrap items-center gap-2 text-sm">
-              <span className="text-slate-500">{i18n.section}:</span>
-              <button
-                type="button"
-                onClick={() => selectSection("ALL")}
-                className={`rounded px-3 py-1.5 font-medium ${
-                  sectionFilter === "ALL"
-                    ? "bg-slate-800 text-white"
-                    : "bg-slate-100 text-slate-700 hover:bg-slate-200"
-                }`}
-              >
-                {i18n.all}
-              </button>
-              {availableSections.map((sec) => (
+          {/* Desktop / large screens keep full filter chrome; phones use the sidenav. */}
+          <div className="exam-filter-chrome max-lg:hidden">
+            <div className="exam-filter-row mb-3 flex flex-wrap items-center gap-2 text-sm">
+              {(["ALL", "Physics", "Chemistry", "Biology"] as const).map((s) => (
                 <button
-                  key={sec}
+                  key={s}
                   type="button"
-                  onClick={() => selectSection(sec as SectionFilter)}
+                  onClick={() => selectSubject(s)}
                   className={`rounded px-3 py-1.5 font-medium ${
-                    sectionFilter === sec
+                    subjectFilter === s
+                      ? "bg-[var(--cbt-accent)] text-white"
+                      : "bg-slate-100 text-slate-700 hover:bg-slate-200"
+                  }`}
+                >
+                  {s === "ALL" ? i18n.allSubjects : s}
+                </button>
+              ))}
+              <button
+                type="button"
+                onClick={() => {
+                  setMarkFilter((prev) => {
+                    const next = prev === "MARKED" ? "ALL" : "MARKED";
+                    if (next === "MARKED") {
+                      const firstMarked = questions.findIndex((q) => q.status === "marked");
+                      if (firstMarked >= 0) setIndex(firstMarked);
+                    }
+                    return next;
+                  });
+                }}
+                className={`rounded px-3 py-1.5 font-medium ${
+                  markFilter === "MARKED"
+                    ? "bg-[var(--status-marked)] text-white"
+                    : "border border-amber-300 bg-amber-50 text-amber-900 hover:bg-amber-100"
+                }`}
+              >
+                {markFilter === "MARKED" ? i18n.markedFilterOff : i18n.markedFilter} (
+                {counts.marked + counts.marked_answered})
+              </button>
+            </div>
+            {markFilter === "MARKED" && (
+              <p className="mb-3 rounded border border-amber-200 bg-amber-50 px-3 py-2 text-xs text-amber-950">
+                {counts.marked + counts.marked_answered === 0
+                  ? i18n.markedEmpty
+                  : i18n.markedHint}
+              </p>
+            )}
+            <p className="mb-3 text-xs text-slate-500">{i18n.paperLangNote}</p>
+
+            {availableSections.length > 1 && (
+              <div className="mb-4 flex flex-wrap items-center gap-2 text-sm">
+                <span className="text-slate-500">{i18n.section}:</span>
+                <button
+                  type="button"
+                  onClick={() => selectSection("ALL")}
+                  className={`rounded px-3 py-1.5 font-medium ${
+                    sectionFilter === "ALL"
                       ? "bg-slate-800 text-white"
                       : "bg-slate-100 text-slate-700 hover:bg-slate-200"
                   }`}
                 >
-                  {i18n.section} {sec}
+                  {i18n.all}
                 </button>
-              ))}
-            </div>
-          )}
-
-          {limitInfo.sectionBCaps.length > 0 && (
-            <div className="mb-3 flex flex-wrap gap-2 text-xs text-slate-600">
-              {limitInfo.sectionBCaps.map((c) => {
-                const multi =
-                  limitInfo.sectionBCaps.filter((x) => x.subject === c.subject).length > 1;
-                const label = multi
-                  ? `${c.subject} B${c.blockIndex} (${c.start}–${c.end})`
-                  : `${c.subject} B`;
-                return (
-                  <span
-                    key={c.id}
-                    title={`Section B attempt any ${c.cap} of ${c.end - c.start + 1} (Q${c.start}–${c.end}). Section A is not limited by this counter.`}
-                    className={`rounded px-2 py-1 ${
-                      c.attempted >= c.cap
-                        ? c.over
-                          ? "bg-rose-100 text-rose-800"
-                          : "bg-amber-50 text-amber-900"
-                        : "bg-slate-100"
+                {availableSections.map((sec) => (
+                  <button
+                    key={sec}
+                    type="button"
+                    onClick={() => selectSection(sec as SectionFilter)}
+                    className={`rounded px-3 py-1.5 font-medium ${
+                      sectionFilter === sec
+                        ? "bg-slate-800 text-white"
+                        : "bg-slate-100 text-slate-700 hover:bg-slate-200"
                     }`}
                   >
-                    {label}: {c.attempted}/{c.cap}
-                  </span>
-                );
-              })}
-            </div>
-          )}
+                    {i18n.section} {sec}
+                  </button>
+                ))}
+              </div>
+            )}
+
+            {limitInfo.sectionBCaps.length > 0 && (
+              <div className="mb-3 flex flex-wrap gap-2 text-xs text-slate-600">
+                {limitInfo.sectionBCaps.map((c) => {
+                  const multi =
+                    limitInfo.sectionBCaps.filter((x) => x.subject === c.subject).length >
+                    1;
+                  const label = multi
+                    ? `${c.subject} B${c.blockIndex} (${c.start}–${c.end})`
+                    : `${c.subject} B`;
+                  return (
+                    <span
+                      key={c.id}
+                      title={`Section B attempt any ${c.cap} of ${c.end - c.start + 1} (Q${c.start}–${c.end}). Section A is not limited by this counter.`}
+                      className={`rounded px-2 py-1 ${
+                        c.attempted >= c.cap
+                          ? c.over
+                            ? "bg-rose-100 text-rose-800"
+                            : "bg-amber-50 text-amber-900"
+                          : "bg-slate-100"
+                      }`}
+                    >
+                      {label}: {c.attempted}/{c.cap}
+                    </span>
+                  );
+                })}
+              </div>
+            )}
+          </div>
+
+          <p className="exam-mobile-crumb mb-2 hidden text-[0.7rem] text-slate-500 max-lg:block">
+            {(subjectFilter === "ALL" ? "All" : subjectFilter)
+              + (sectionFilter !== "ALL" ? ` · Sec ${sectionFilter}` : "")
+              + (markFilter === "MARKED" ? " · marked" : "")}
+            {" · "}
+            <button
+              type="button"
+              className="font-semibold text-[var(--cbt-accent)] underline-offset-2 hover:underline"
+              onClick={() => setMobilePaletteOpen(true)}
+            >
+              Open palette
+            </button>
+          </p>
 
           <div className="mb-3 flex items-baseline justify-between gap-3">
             <h2 className="font-[family-name:var(--font-display)] text-xl font-semibold">
@@ -1619,6 +1628,37 @@ export function ExamCbt({
             <span>{i18n.notAttempted} ({counts.not_attempted})</span>
             <span>{i18n.marked} ({counts.marked + counts.marked_answered})</span>
           </div>
+          <button
+            type="button"
+            className={`mb-3 w-full rounded-md px-3 py-2 text-left text-xs font-semibold ${
+              markFilter === "MARKED"
+                ? "bg-[var(--status-marked)] text-white"
+                : "border border-amber-300 bg-amber-50 text-amber-950"
+            }`}
+            onClick={() => {
+              setMarkFilter((prev) => {
+                const next = prev === "MARKED" ? "ALL" : "MARKED";
+                if (next === "MARKED") {
+                  const firstMarked = questions.findIndex((q) => q.status === "marked");
+                  if (firstMarked >= 0) setIndex(firstMarked);
+                }
+                return next;
+              });
+            }}
+          >
+            {markFilter === "MARKED" ? i18n.markedFilterOff : i18n.markedFilter} (
+            {counts.marked + counts.marked_answered})
+          </button>
+          <button
+            type="button"
+            className="mb-3 w-full rounded-md border border-slate-200 bg-white px-3 py-2 text-left text-xs font-semibold text-slate-800"
+            onClick={() => {
+              setMobilePaletteOpen(false);
+              setShowQuestionPaper(true);
+            }}
+          >
+            {i18n.questionPaper}
+          </button>
           {availableSections.length > 1 && (
             <div className="mb-3 flex flex-wrap gap-1.5">
               <button
