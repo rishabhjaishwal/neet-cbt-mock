@@ -169,9 +169,8 @@ export default async function DashboardPage({
             </span>
             <h2 className="desk-section-title">Topic-wise mocks</h2>
             <p className="desk-kicker max-w-2xl">
-              30-question Easy / Medium / Hard drills (~36 min). Large banks split into
-              numbered sequences (_1 = Q1–30, _2 = Q31–60, …) so you can work through
-              the pool without reshuffling.
+              Pick Subject → Topic → Easy/Medium/Hard → numbered test (_1, _2…). Each
+              mock is 30 questions · ~36 minutes.
             </p>
             <div className="mt-4 flex flex-wrap gap-3">
               <InstantLink
