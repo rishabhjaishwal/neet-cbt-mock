@@ -6,10 +6,8 @@ import { listPapers } from "@/lib/papers";
 import { LogoutButton } from "@/components/LogoutButton";
 import { StartAttemptButton } from "@/components/StartAttemptButton";
 import { InstantLink } from "@/components/InstantLink";
-import {
-  DashboardCharts,
-  toDashPoints,
-} from "@/components/DashboardCharts";
+import { DashboardCharts } from "@/components/DashboardCharts";
+import { toDashPoints } from "@/lib/dashboard-points";
 
 export default async function DashboardPage({
   searchParams,
