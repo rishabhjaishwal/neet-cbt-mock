@@ -225,6 +225,88 @@ const SuggestionSchema = new Schema(
 );
 SuggestionSchema.index({ userId: 1, createdAt: -1 });
 
+const CompetitionMemberSchema = new Schema(
+  {
+    userId: { type: Schema.Types.ObjectId, ref: "User", required: true },
+    email: { type: String, required: true },
+    name: { type: String, required: true },
+    status: {
+      type: String,
+      enum: ["joined", "started", "submitted"],
+      default: "joined",
+    },
+    attemptId: { type: Schema.Types.ObjectId, ref: "CompetitionAttempt" },
+    score: { type: Number },
+    joinedAt: { type: Date, default: Date.now },
+  },
+  { _id: false },
+);
+
+const CompetitionSchema = new Schema(
+  {
+    hostId: { type: Schema.Types.ObjectId, ref: "User", required: true, index: true },
+    title: { type: String, required: true },
+    inviteCode: { type: String, required: true, unique: true, index: true },
+    scope: {
+      type: String,
+      enum: ["ALL", "Physics", "Chemistry", "Biology"],
+      required: true,
+    },
+    difficulty: {
+      type: String,
+      enum: ["Easy", "Medium", "Hard", "Mix"],
+      required: true,
+    },
+    size: { type: Number, enum: [20, 30, 50], required: true },
+    durationMin: { type: Number, required: true },
+    status: {
+      type: String,
+      enum: ["open", "live", "closed"],
+      default: "open",
+      index: true,
+    },
+    /** Locked when host starts — shared question set for all members. */
+    questions: { type: [TopicQuestionSnapSchema], default: [] },
+    members: { type: [CompetitionMemberSchema], default: [] },
+    startedAt: { type: Date },
+    endsAt: { type: Date },
+    createdAt: { type: Date, default: Date.now },
+  },
+  { timestamps: false },
+);
+CompetitionSchema.index({ hostId: 1, createdAt: -1 });
+CompetitionSchema.index({ "members.userId": 1, createdAt: -1 });
+
+const CompetitionAttemptSchema = new Schema(
+  {
+    competitionId: {
+      type: Schema.Types.ObjectId,
+      ref: "Competition",
+      required: true,
+      index: true,
+    },
+    userId: { type: Schema.Types.ObjectId, ref: "User", required: true, index: true },
+    status: {
+      type: String,
+      enum: ["in_progress", "submitted"],
+      required: true,
+      index: true,
+    },
+    startedAt: { type: Date, default: Date.now },
+    endsAt: { type: Date, required: true },
+    submittedAt: { type: Date },
+    score: { type: Number },
+    correctCount: { type: Number },
+    wrongCount: { type: Number },
+    unattemptedCount: { type: Number },
+    questions: { type: [TopicQuestionSnapSchema], default: [] },
+    answers: { type: [TopicAnswerSchema], default: [] },
+    currentQuestionIndex: { type: Number, default: 0 },
+  },
+  { timestamps: false },
+);
+CompetitionAttemptSchema.index({ competitionId: 1, userId: 1 }, { unique: true });
+
 export const AppMeta = models.AppMeta || model("AppMeta", AppMetaSchema);
 export const User = models.User || model("User", UserSchema);
 export const Paper = models.Paper || model("Paper", PaperSchema);
@@ -234,10 +316,18 @@ export const TopicAttempt =
   models.TopicAttempt || model("TopicAttempt", TopicAttemptSchema);
 export const Suggestion =
   models.Suggestion || model("Suggestion", SuggestionSchema);
+export const Competition =
+  models.Competition || model("Competition", CompetitionSchema);
+export const CompetitionAttempt =
+  models.CompetitionAttempt ||
+  model("CompetitionAttempt", CompetitionAttemptSchema);
 
 export type TopicAttemptDoc = InferSchemaType<typeof TopicAttemptSchema> & {
   _id: Types.ObjectId;
 };
 export type SuggestionDoc = InferSchemaType<typeof SuggestionSchema> & {
+  _id: Types.ObjectId;
+};
+export type CompetitionDoc = InferSchemaType<typeof CompetitionSchema> & {
   _id: Types.ObjectId;
 };

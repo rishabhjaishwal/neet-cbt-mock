@@ -4,8 +4,8 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const HEADLINES = [
-  "Write your NEET mock like class notes.",
-  "Timed CBT. Real papers. Honest rank.",
+  "Your NEET desk — mocks, topics, friends.",
+  "Timed CBT. Real papers. Honest feedback.",
   "Practice the exam — not the panic.",
 ];
 
@@ -34,8 +34,8 @@ export function LandingHero() {
         <em>NTA marking</em>
       </div>
       <div className="landing-sticky landing-sticky--butter" aria-hidden="true">
-        2016 → 2025
-        <em>year packs</em>
+        Friends race
+        <em>competitions</em>
       </div>
 
       <section className="landing-hero">
@@ -49,8 +49,8 @@ export function LandingHero() {
             >
               {line.split(" ").map((word, wi) => {
                 const highlight =
-                  /mock|CBT|rank|exam/i.test(word) ||
-                  (i === 0 && wi >= 2 && wi <= 4);
+                  /mocks|CBT|feedback|exam|friends/i.test(word) ||
+                  (i === 0 && wi >= 1 && wi <= 3);
                 return (
                   <span
                     key={`${line}-${wi}`}
@@ -67,23 +67,21 @@ export function LandingHero() {
         </div>
 
         <p className="landing-support fade-up">
-          Full-screen timed papers with palette, figures, instant marks on submit,
-          topic drills, and modelled percentile against real candidate counts.
-          You suggest, we implement — students can leave notebook notes to improve
-          the desk.
+          Built for students: full-year timed papers, 30-question topic drills,
+          friend competitions, and a suggestions notebook so you shape what we
+          build next. Instant marks on submit — no examiner gate.
         </p>
 
         <div className="landing-cta fade-up-late">
           <Link href="/signup" className="btn-pencil">
-            <span className="btn-pencil__lead">Start as student</span>
+            <span className="btn-pencil__lead">Create student account</span>
             <span className="btn-pencil__tip" aria-hidden="true" />
           </Link>
           <Link href="/login" className="btn-ink-link">
-            Already have a roll? Login →
+            Already studying here? Login →
           </Link>
         </div>
       </section>
-
     </main>
   );
 }

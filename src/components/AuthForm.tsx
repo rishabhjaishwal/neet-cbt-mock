@@ -1,10 +1,11 @@
 "use client";
 
-import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
+import { Suspense, useState } from "react";
 
-export function AuthForm({ mode }: { mode: "login" | "signup" }) {
+function AuthFormInner({ mode }: { mode: "login" | "signup" }) {
   const router = useRouter();
+  const search = useSearchParams();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -28,7 +29,10 @@ export function AuthForm({ mode }: { mode: "login" | "signup" }) {
       setError(data.error || "Failed");
       return;
     }
-    router.push(data.role === "examiner" ? "/examiner" : "/dashboard");
+    const next = search.get("next");
+    const safeNext =
+      next && next.startsWith("/") && !next.startsWith("//") ? next : "/dashboard";
+    router.push(safeNext);
     router.refresh();
   }
 
@@ -82,5 +86,13 @@ export function AuthForm({ mode }: { mode: "login" | "signup" }) {
         <span className="btn-pencil__tip" aria-hidden />
       </button>
     </form>
+  );
+}
+
+export function AuthForm({ mode }: { mode: "login" | "signup" }) {
+  return (
+    <Suspense fallback={<p className="text-sm text-slate-600">Loading…</p>}>
+      <AuthFormInner mode={mode} />
+    </Suspense>
   );
 }

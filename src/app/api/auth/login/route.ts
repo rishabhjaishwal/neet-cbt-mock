@@ -16,13 +16,20 @@ export async function POST(req: Request) {
     if (!user || !(await verifyPassword(body.password, user.password_hash))) {
       return NextResponse.json({ error: "Invalid email or password" }, { status: 401 });
     }
+    // Public app is student-only — examiner accounts cannot use this login.
+    if (user.role !== "student") {
+      return NextResponse.json(
+        { error: "This login is for students only." },
+        { status: 403 },
+      );
+    }
     await createSession({
       id: user.id,
       email: user.email,
       name: user.name,
-      role: user.role,
+      role: "student",
     });
-    return NextResponse.json({ ok: true, role: user.role });
+    return NextResponse.json({ ok: true, role: "student" });
   } catch (e) {
     return NextResponse.json(
       { error: e instanceof Error ? e.message : "Login failed" },

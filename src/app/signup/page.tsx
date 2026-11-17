@@ -11,11 +11,11 @@ export default function SignupPage() {
             NEET CBT Mock
           </p>
           <h1 className="mt-2 font-[family-name:var(--font-display)] text-xl font-bold text-[var(--graphite,#243041)]">
-            Start your notebook
+            Open your student notebook
           </h1>
           <p className="desk-kicker mb-5">
-            Create a student account for previous-year CBT mocks, topic drills,
-            and scored review.
+            Free student account for previous-year CBTs, topic sequences, friend
+            competitions, and scored review with AI-style solutions.
           </p>
           <div className="mb-4 flex flex-wrap gap-2" aria-hidden>
             <span className="desk-sticky-chip desk-sticky-chip--pink">Physics</span>
@@ -24,7 +24,7 @@ export default function SignupPage() {
           </div>
           <AuthForm mode="signup" />
           <p className="mt-5 text-sm text-slate-600">
-            Already registered?{" "}
+            Already have an account?{" "}
             <Link href="/login" className="btn-ink-link text-lg">
               Login →
             </Link>

@@ -162,8 +162,8 @@ export default async function DashboardPage({
             </p>
             <h1 className="desk-title">Hey, {user.name.split(" ")[0]}</h1>
             <p className="desk-kicker max-w-xl">
-              Your notebook desk — track every scored mock, drill topics, and
-              open last-10-year papers when you are ready for full CBT.
+              Your student desk — charts, topic drills, year papers, friend
+              competitions, and a suggestions notebook. Everything scores instantly.
             </p>
           </div>
           <div className="flex flex-col items-end gap-2">
@@ -176,6 +176,7 @@ export default async function DashboardPage({
           <a href="#performance">Performance</a>
           <a href="#topic-performance">Topic strengths</a>
           <a href="#topic-mocks">Topic-wise mocks</a>
+          <a href="#competitions">Competitions</a>
           <a href="#year-papers">Last 10-year papers</a>
           <InstantLink href="/suggestions" className="desk-nav-link">
             Suggestions
@@ -192,6 +193,39 @@ export default async function DashboardPage({
 
         <section id="performance" className="mb-10 scroll-mt-6">
           <DashboardCharts points={chartPoints} topicAnalytics={topicAnalytics} />
+        </section>
+
+        <section id="competitions" className="mb-10 scroll-mt-6">
+          <div className="desk-card desk-card--pad relative overflow-hidden">
+            <span
+              className="desk-sticky-chip desk-sticky-chip--mint absolute right-4 top-4 hidden sm:inline-flex"
+              aria-hidden
+            >
+              Invite friends
+            </span>
+            <h2 className="desk-section-title">Competitions</h2>
+            <p className="desk-kicker max-w-2xl">
+              Create a race, invite friends (they must signup), choose all-subjects or
+              one subject, difficulty, and 20 / 30 / 50 questions with matching time.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-3">
+              <InstantLink
+                href="/competitions/new"
+                className="btn-pencil"
+                showPending={false}
+              >
+                <span className="btn-pencil__lead">Create competition</span>
+                <span className="btn-pencil__tip" aria-hidden />
+              </InstantLink>
+              <InstantLink
+                href="/competitions"
+                className="btn-ink-link"
+                showPending={false}
+              >
+                My competitions →
+              </InstantLink>
+            </div>
+          </div>
         </section>
 
         <section id="topic-mocks" className="mb-10 scroll-mt-6">

@@ -33,6 +33,9 @@ type Props = {
   title: string;
   endsAt: string;
   questions: Q[];
+  /** Default topic-series; competitions pass `/api/competitions/attempts`. */
+  apiBase?: string;
+  submitConfirm?: string;
 };
 
 function formatRemain(ms: number) {
@@ -43,7 +46,14 @@ function formatRemain(ms: number) {
   return `${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
 }
 
-export function TopicQuizCbt({ attemptId, title, endsAt: endsAtProp, questions: initial }: Props) {
+export function TopicQuizCbt({
+  attemptId,
+  title,
+  endsAt: endsAtProp,
+  questions: initial,
+  apiBase = "/api/topic-series",
+  submitConfirm = "Submit this topic mock?",
+}: Props) {
   const router = useRouter();
   const [questions, setQuestions] = useState(initial);
   const [index, setIndex] = useState(0);
@@ -70,7 +80,7 @@ export function TopicQuizCbt({ attemptId, title, endsAt: endsAtProp, questions: 
       setSyncState("syncing");
       try {
         const pending = Object.values(pendingRef.current);
-        const res = await fetch(`/api/topic-series/${attemptId}/checkpoint`, {
+        const res = await fetch(`${apiBase}/${attemptId}/checkpoint`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
@@ -104,7 +114,7 @@ export function TopicQuizCbt({ attemptId, title, endsAt: endsAtProp, questions: 
         syncingRef.current = false;
       }
     },
-    [attemptId],
+    [attemptId, apiBase],
   );
 
   const schedule = useCallback(() => {
@@ -180,12 +190,12 @@ export function TopicQuizCbt({ attemptId, title, endsAt: endsAtProp, questions: 
 
   async function submit(auto = false) {
     if (busy) return;
-    if (!auto && !window.confirm("Submit this topic mock?")) return;
+    if (!auto && !window.confirm(submitConfirm)) return;
     setBusy(true);
     await flush(true);
     const leftover = Object.values(pendingRef.current);
     try {
-      const res = await fetch(`/api/topic-series/${attemptId}/submit`, {
+      const res = await fetch(`${apiBase}/${attemptId}/submit`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ answers: leftover.length ? leftover : undefined }),
@@ -196,7 +206,12 @@ export function TopicQuizCbt({ attemptId, title, endsAt: endsAtProp, questions: 
         setMsg(data.error || "Submit failed");
         return;
       }
-      router.push(data.resultsUrl || `/topic-series/results/${attemptId}`);
+      router.push(
+        data.resultsUrl ||
+          (apiBase.includes("competitions")
+            ? `/competitions/results/${attemptId}`
+            : `/topic-series/results/${attemptId}`),
+      );
       router.refresh();
     } catch {
       setBusy(false);

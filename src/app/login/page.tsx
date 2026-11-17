@@ -11,21 +11,22 @@ export default function LoginPage() {
             NEET CBT Mock
           </p>
           <h1 className="mt-2 font-[family-name:var(--font-display)] text-xl font-bold text-[var(--graphite,#243041)]">
-            Login to your desk
+            Welcome back to your desk
           </h1>
           <p className="desk-kicker mb-5">
-            Students and examiners use the same door — notebook vibe, CBT when
-            the paper starts.
+            Student login only — pick up year papers, topic mocks, competitions
+            with friends, and your suggestions notebook.
           </p>
           <div className="mb-4 flex flex-wrap gap-2" aria-hidden>
             <span className="desk-sticky-chip desk-sticky-chip--mint">+4 / −1 / 0</span>
-            <span className="desk-sticky-chip desk-sticky-chip--butter">year packs</span>
+            <span className="desk-sticky-chip desk-sticky-chip--butter">topic drills</span>
+            <span className="desk-sticky-chip desk-sticky-chip--pink">compete</span>
           </div>
           <AuthForm mode="login" />
           <p className="mt-5 text-sm text-slate-600">
-            New student?{" "}
+            New here?{" "}
             <Link href="/signup" className="btn-ink-link text-lg">
-              Create an account →
+              Create a student account →
             </Link>
           </p>
           <p className="mt-3 text-sm">
