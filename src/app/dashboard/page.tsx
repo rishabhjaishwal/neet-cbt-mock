@@ -10,6 +10,7 @@ import { InstantLink } from "@/components/InstantLink";
 import { DashboardCharts } from "@/components/DashboardCharts";
 import { PaperContentPrefetch } from "@/components/PaperContentPrefetch";
 import { toDashPoints } from "@/lib/dashboard-points";
+import { buildTopicDashboardAnalytics } from "@/lib/topic-dashboard";
 
 export default async function DashboardPage({
   searchParams,
@@ -30,7 +31,7 @@ export default async function DashboardPage({
     Attempt.find({ userId: userOid })
       .sort({ year: -1, attemptNumber: -1 })
       .select(
-        "year status score percentile estimatedRank attemptNumber wrongCount unattemptedCount correctCount subjectStats submittedAt startedAt",
+        "year status score percentile estimatedRank attemptNumber wrongCount unattemptedCount correctCount subjectStats topicStats submittedAt startedAt",
       )
       .lean(),
     TopicAttempt.find({
@@ -40,9 +41,9 @@ export default async function DashboardPage({
     })
       .sort({ submittedAt: -1 })
       .select(
-        "subject topic difficulty score wrongCount unattemptedCount correctCount subjectStats submittedAt startedAt",
+        "subject topic difficulty score wrongCount unattemptedCount correctCount subjectStats topicStats submittedAt startedAt",
       )
-      .limit(40)
+      .limit(80)
       .lean(),
   ]);
 
@@ -117,6 +118,36 @@ export default async function DashboardPage({
     })),
   ]);
 
+  const topicAnalytics = buildTopicDashboardAnalytics(
+    scoredPapers.map((a) => ({
+      subjectStats: a.subjectStats as Record<
+        string,
+        { correct?: number; wrong?: number; unattempted?: number; partial?: number }
+      > | null,
+      topicStats: a.topicStats as {
+        topics?: Array<{
+          topic: string;
+          subject: string;
+          correct?: number;
+          wrong?: number;
+          unattempted?: number;
+          partial?: number;
+        }>;
+      } | null,
+    })),
+    topicAttempts.map((a) => ({
+      subject: a.subject,
+      topic: a.topic,
+      correctCount: a.correctCount,
+      wrongCount: a.wrongCount,
+      unattemptedCount: a.unattemptedCount,
+      subjectStats: a.subjectStats as Record<
+        string,
+        { correct?: number; wrong?: number; unattempted?: number; partial?: number }
+      > | null,
+    })),
+  );
+
   return (
     <div className="desk-shell">
       <div className="desk-shell__paper" aria-hidden />
@@ -143,6 +174,7 @@ export default async function DashboardPage({
 
         <nav className="desk-nav mb-6" aria-label="Dashboard sections">
           <a href="#performance">Performance</a>
+          <a href="#topic-performance">Topic strengths</a>
           <a href="#topic-mocks">Topic-wise mocks</a>
           <a href="#year-papers">Last 10-year papers</a>
         </nav>
@@ -156,7 +188,7 @@ export default async function DashboardPage({
         )}
 
         <section id="performance" className="mb-10 scroll-mt-6">
-          <DashboardCharts points={chartPoints} />
+          <DashboardCharts points={chartPoints} topicAnalytics={topicAnalytics} />
         </section>
 
         <section id="topic-mocks" className="mb-10 scroll-mt-6">

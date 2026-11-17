@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState, useTransition } from "react";
+import { useEffect, useMemo, useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import type { TopicCatalogEntry, TopicDifficulty, TopicMockSequence } from "@/lib/topic-series";
 
@@ -15,6 +15,35 @@ export function TopicSeriesNavigator({ topics }: { topics: TopicCatalogEntry[] }
   const [subject, setSubject] = useState<string | null>(null);
   const [topicId, setTopicId] = useState<string | null>(null);
   const [difficulty, setDifficulty] = useState<TopicDifficulty | null>(null);
+
+  useEffect(() => {
+    const q = new URLSearchParams(window.location.search);
+    const sub = q.get("subject");
+    const topicName = q.get("topic");
+    const difficultyRaw = q.get("difficulty");
+    const diff = DIFFS.includes(difficultyRaw as TopicDifficulty)
+      ? (difficultyRaw as TopicDifficulty)
+      : null;
+    if (!sub) return;
+    const match = topics.find(
+      (t) =>
+        t.subject === sub &&
+        (!topicName || t.topic === topicName || t.id === topicName),
+    );
+    if (topicName && match) {
+      setSubject(sub);
+      setTopicId(match.id);
+      setDifficulty(diff);
+      setStep(diff ? "tests" : "difficulty");
+      return;
+    }
+    if (topics.some((t) => t.subject === sub)) {
+      setSubject(sub);
+      setTopicId(null);
+      setDifficulty(null);
+      setStep("topic");
+    }
+  }, [topics]);
   const [starting, setStarting] = useState<number | null>(null);
   const [error, setError] = useState("");
 

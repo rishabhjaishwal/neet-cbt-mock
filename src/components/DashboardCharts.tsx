@@ -1,8 +1,16 @@
 "use client";
 
+import { useMemo, useState } from "react";
 import type { DashAttemptPoint } from "@/lib/dashboard-points";
+import type { TopicDashboardAnalytics } from "@/lib/topic-dashboard";
 
 export type { DashAttemptPoint };
+
+const SUBJECT_COLORS: Record<string, string> = {
+  Physics: "#2563eb",
+  Chemistry: "#059669",
+  Biology: "#c026d3",
+};
 
 function formatWhen(iso: string) {
   try {
@@ -248,14 +256,250 @@ function SubjectBarChart({ points }: { points: DashAttemptPoint[] }) {
   );
 }
 
-export function DashboardCharts({ points }: { points: DashAttemptPoint[] }) {
+function UnattemptedSubjectPie({
+  analytics,
+}: {
+  analytics: TopicDashboardAnalytics;
+}) {
+  const [selected, setSelected] = useState<string | null>(null);
+  const slices = analytics.unattemptedBySubject;
+  const total = slices.reduce((s, x) => s + x.unattempted, 0);
+  const drill = selected ? analytics.unattemptedByTopic[selected] || [] : [];
+
+  const paths = useMemo(() => {
+    if (!total) return [];
+    const cx = 120;
+    const cy = 120;
+    const r = 88;
+    let angle = -Math.PI / 2;
+    return slices.map((s) => {
+      const sweep = (s.unattempted / total) * Math.PI * 2;
+      const a0 = angle;
+      const a1 = angle + sweep;
+      angle = a1;
+      const x0 = cx + r * Math.cos(a0);
+      const y0 = cy + r * Math.sin(a0);
+      const x1 = cx + r * Math.cos(a1);
+      const y1 = cy + r * Math.sin(a1);
+      const large = sweep > Math.PI ? 1 : 0;
+      const d = `M ${cx} ${cy} L ${x0} ${y0} A ${r} ${r} 0 ${large} 1 ${x1} ${y1} Z`;
+      const mid = a0 + sweep / 2;
+      return {
+        ...s,
+        d,
+        labelX: cx + (r * 0.62) * Math.cos(mid),
+        labelY: cy + (r * 0.62) * Math.sin(mid),
+        color: SUBJECT_COLORS[s.subject] || "#64748b",
+        pct: Math.round((1000 * s.unattempted) / total) / 10,
+      };
+    });
+  }, [slices, total]);
+
+  if (!slices.length) {
+    return (
+      <p className="text-sm text-slate-600">
+        No skipped questions yet — pie fills after papers or topic mocks with unattempted items.
+      </p>
+    );
+  }
+
+  return (
+    <div className="grid gap-4 lg:grid-cols-[240px_1fr]">
+      <div className="desk-chart-frame flex flex-col items-center justify-center p-2">
+        <svg viewBox="0 0 240 240" role="img" aria-label="Unattempted by subject">
+          {paths.map((p) => (
+            <path
+              key={p.subject}
+              d={p.d}
+              fill={p.color}
+              opacity={selected && selected !== p.subject ? 0.35 : 0.92}
+              stroke="#fff"
+              strokeWidth={2}
+              className="cursor-pointer"
+              onClick={() =>
+                setSelected((cur) => (cur === p.subject ? null : p.subject))
+              }
+            >
+              <title>{`${p.subject}: ${p.unattempted} unattempted (${p.pct}%) — click to drill`}</title>
+            </path>
+          ))}
+          <circle cx={120} cy={120} r={42} fill="#fffef8" />
+          <text
+            x={120}
+            y={116}
+            textAnchor="middle"
+            fontSize="11"
+            fill="#64748b"
+          >
+            Skipped
+          </text>
+          <text
+            x={120}
+            y={134}
+            textAnchor="middle"
+            fontSize="16"
+            fontWeight={700}
+            fill="#0f172a"
+          >
+            {total}
+          </text>
+        </svg>
+        <ul className="mt-1 flex flex-wrap justify-center gap-2 text-xs">
+          {paths.map((p) => (
+            <li key={p.subject}>
+              <button
+                type="button"
+                className={`inline-flex items-center gap-1.5 rounded-full border px-2 py-0.5 ${
+                  selected === p.subject
+                    ? "border-slate-800 bg-slate-900 text-white"
+                    : "border-slate-200 bg-white text-slate-700"
+                }`}
+                onClick={() =>
+                  setSelected((cur) => (cur === p.subject ? null : p.subject))
+                }
+              >
+                <span
+                  className="h-2 w-2 rounded-sm"
+                  style={{ background: p.color }}
+                />
+                {p.subject} · {p.unattempted}
+              </button>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div>
+        <h3 className="text-sm font-semibold text-slate-800">
+          {selected
+            ? `${selected} — unattempted by topic`
+            : "Click a subject slice to see topics"}
+        </h3>
+        {!selected ? (
+          <p className="mt-2 text-sm text-slate-600">
+            Pie shows skipped questions by subject (papers + topic mocks). Drill
+            into a subject to open topic practice.
+          </p>
+        ) : drill.length === 0 ? (
+          <p className="mt-2 text-sm text-slate-600">No topic-level skips recorded.</p>
+        ) : (
+          <ul className="mt-3 divide-y divide-slate-100 overflow-hidden rounded-xl border border-slate-200 bg-white">
+            {drill.map((t) => (
+              <li
+                key={t.key}
+                className="flex items-center justify-between gap-3 px-3 py-2.5 text-sm"
+              >
+                <div>
+                  <div className="font-medium text-slate-800">{t.topic}</div>
+                  <div className="text-xs text-slate-500">
+                    {t.unattempted} unattempted
+                  </div>
+                </div>
+                <a
+                  href={`/topic-series?subject=${encodeURIComponent(selected)}&topic=${encodeURIComponent(t.topic)}`}
+                  className="cbt-btn cbt-btn-sm cbt-btn-primary shrink-0"
+                >
+                  Drill
+                </a>
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+    </div>
+  );
+}
+
+function PoorRankLists({ analytics }: { analytics: TopicDashboardAnalytics }) {
+  return (
+    <div className="grid gap-4 lg:grid-cols-2">
+      <div>
+        <h3 className="text-sm font-semibold text-slate-800">Poorest subjects</h3>
+        <p className="text-xs text-slate-500">Lowest accuracy first</p>
+        <ol className="mt-2 space-y-2">
+          {analytics.poorSubjects.map((s, i) => (
+            <li
+              key={s.subject}
+              className="flex items-center justify-between gap-2 rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm"
+            >
+              <div className="flex items-center gap-2">
+                <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-rose-50 text-xs font-bold text-rose-700">
+                  {i + 1}
+                </span>
+                <div>
+                  <div className="font-semibold text-slate-800">{s.subject}</div>
+                  <div className="text-xs text-slate-500">
+                    Acc {s.accuracy}% · skip {s.unattempted} · wrong {s.wrong}
+                  </div>
+                </div>
+              </div>
+              <a
+                href={`/topic-series?subject=${encodeURIComponent(s.subject)}`}
+                className="cbt-btn cbt-btn-sm cbt-btn-secondary"
+              >
+                Practice
+              </a>
+            </li>
+          ))}
+          {!analytics.poorSubjects.length && (
+            <li className="text-sm text-slate-500">No subject data yet.</li>
+          )}
+        </ol>
+      </div>
+      <div>
+        <h3 className="text-sm font-semibold text-slate-800">Poorest topics</h3>
+        <p className="text-xs text-slate-500">Topics needing work · ranked</p>
+        <ol className="mt-2 max-h-72 space-y-2 overflow-y-auto pr-1">
+          {analytics.poorTopics.map((t, i) => (
+            <li
+              key={t.key}
+              className="flex items-center justify-between gap-2 rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm"
+            >
+              <div className="min-w-0">
+                <div className="flex items-center gap-2">
+                  <span className="inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-amber-50 text-xs font-bold text-amber-800">
+                    {i + 1}
+                  </span>
+                  <span className="truncate font-semibold text-slate-800">
+                    {t.topic}
+                  </span>
+                </div>
+                <div className="ml-8 text-xs text-slate-500">
+                  {t.subject} · Acc {t.accuracy}% · skip {t.unattempted} · wrong{" "}
+                  {t.wrong}
+                </div>
+              </div>
+              <a
+                href={`/topic-series?subject=${encodeURIComponent(t.subject)}&topic=${encodeURIComponent(t.topic)}`}
+                className="cbt-btn cbt-btn-sm cbt-btn-primary shrink-0"
+              >
+                Drill
+              </a>
+            </li>
+          ))}
+          {!analytics.poorTopics.length && (
+            <li className="text-sm text-slate-500">No topic data yet.</li>
+          )}
+        </ol>
+      </div>
+    </div>
+  );
+}
+
+export function DashboardCharts({
+  points,
+  topicAnalytics,
+}: {
+  points: DashAttemptPoint[];
+  topicAnalytics?: TopicDashboardAnalytics | null;
+}) {
   if (!points.length) {
     return (
       <div className="desk-card desk-card--pad">
         <h2 className="desk-section-title">Your performance</h2>
         <p className="desk-kicker">
           Submit a year paper or topic mock — stock-style score trend, wrong /
-          skipped counts, and subject bars show up here.
+          skipped counts, subject bars, and topic rankings show up here.
         </p>
       </div>
     );
@@ -317,6 +561,33 @@ export function DashboardCharts({ points }: { points: DashAttemptPoint[] }) {
         </div>
         <SubjectBarChart points={points} />
       </div>
+
+      {topicAnalytics &&
+        (topicAnalytics.poorTopics.length > 0 ||
+          topicAnalytics.unattemptedBySubject.length > 0) && (
+          <>
+            <div id="topic-performance" className="desk-card desk-card--pad scroll-mt-6">
+              <div className="mb-3">
+                <h2 className="desk-section-title">Topic-wise performance</h2>
+                <p className="desk-kicker">
+                  Ranked weak subjects and topics from your year papers + topic
+                  mocks — jump straight into practice.
+                </p>
+              </div>
+              <PoorRankLists analytics={topicAnalytics} />
+            </div>
+
+            <div className="desk-card desk-card--pad">
+              <div className="mb-3">
+                <h2 className="desk-section-title">Unattempted by subject</h2>
+                <p className="desk-kicker">
+                  Pie of skipped questions — click a subject to drill into topics.
+                </p>
+              </div>
+              <UnattemptedSubjectPie analytics={topicAnalytics} />
+            </div>
+          </>
+        )}
 
       <div className="desk-card desk-card--pad overflow-x-auto">
         <h2 className="desk-section-title">All submitted tests</h2>
