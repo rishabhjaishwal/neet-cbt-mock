@@ -100,49 +100,90 @@ export async function seedDatabase() {
       { upsert: true, returnDocument: "after", setDefaultsOnInsert: true },
     );
 
-    const ops = paper.questions.map((q) => ({
-      updateOne: {
-        filter: { questionKey: q.id },
-        update: {
-          $set: {
-            questionKey: q.id,
-            year: paper.year,
-            number: q.number,
-            subject: q.subject,
-            section: q.section,
-            topic: q.topic,
-            stem: normalizeScientificText(q.stem),
-            options: Object.fromEntries(
-              Object.entries(q.options || {}).map(([k, v]) => [
-                k,
-                normalizeScientificText(String(v)),
-              ]),
-            ),
-            correctOption: q.correctOption,
-            correctOptions:
-              q.correctOptions && q.correctOptions.length
-                ? q.correctOptions
-                : String(q.correctOption || "")
-                    .split(/[,/\s]+/)
-                    .filter((x) => /^[1-4]$/.test(x)),
-            multiCorrect: Boolean(
-              q.multiCorrect ||
-                (q.correctOptions && q.correctOptions.length > 1) ||
-                String(q.correctOption || "").includes(","),
-            ),
-            isPlaceholder: Boolean(q.placeholder),
-            answerEstimated: Boolean(q.answerEstimated),
-            figureSrc: q.figureSrc ?? null,
-            figureKind: q.figureKind ?? null,
+    // Avoid unique (year, number) collisions while reordering subjects:
+    // park existing rows, upsert parked incoming keys, then set final numbers.
+    const existing = await Question.find({ year: paper.year })
+      .select("questionKey")
+      .lean();
+    if (existing.length) {
+      await Question.bulkWrite(
+        existing.map((row, i) => ({
+          updateOne: {
+            filter: { questionKey: row.questionKey },
+            update: { $set: { number: 20_000 + i } },
           },
-        },
-        upsert: true,
-      },
-    }));
-
-    for (let i = 0; i < ops.length; i += 100) {
-      await Question.bulkWrite(ops.slice(i, i + 100), { ordered: false });
+        })),
+        { ordered: false },
+      );
     }
+
+    await Question.bulkWrite(
+      paper.questions.map((q, i) => ({
+        updateOne: {
+          filter: { questionKey: q.id },
+          update: {
+            $set: {
+              questionKey: q.id,
+              year: paper.year,
+              number: 30_000 + i,
+            },
+          },
+          upsert: true,
+        },
+      })),
+      { ordered: false },
+    );
+
+    const keepKeys = new Set(paper.questions.map((q) => q.id));
+    const orphanKeys = existing
+      .map((row) => row.questionKey)
+      .filter((k) => k && !keepKeys.has(k));
+    if (orphanKeys.length) {
+      await Question.deleteMany({ year: paper.year, questionKey: { $in: orphanKeys } });
+    }
+
+    await Question.bulkWrite(
+      paper.questions.map((q) => ({
+        updateOne: {
+          filter: { questionKey: q.id },
+          update: {
+            $set: {
+              questionKey: q.id,
+              year: paper.year,
+              number: q.number,
+              subject: q.subject,
+              section: q.section,
+              topic: q.topic,
+              stem: normalizeScientificText(q.stem),
+              options: Object.fromEntries(
+                Object.entries(q.options || {}).map(([k, v]) => [
+                  k,
+                  normalizeScientificText(String(v)),
+                ]),
+              ),
+              correctOption: q.correctOption,
+              correctOptions:
+                q.correctOptions && q.correctOptions.length
+                  ? q.correctOptions
+                  : String(q.correctOption || "")
+                      .split(/[,/\s]+/)
+                      .filter((x) => /^[1-4]$/.test(x)),
+              multiCorrect: Boolean(
+                q.multiCorrect ||
+                  (q.correctOptions && q.correctOptions.length > 1) ||
+                  String(q.correctOption || "").includes(","),
+              ),
+              isPlaceholder: Boolean(q.placeholder),
+              answerEstimated: Boolean(q.answerEstimated),
+              figureSrc: q.figureSrc ?? null,
+              figureKind: q.figureKind ?? null,
+            },
+          },
+          upsert: true,
+        },
+      })),
+      { ordered: false },
+    );
   }
 
   try {
