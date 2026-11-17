@@ -539,8 +539,19 @@ export function ExamCbt({
         return;
       }
       if (modalOpenRef.current) return;
-      const tag = (e.target as HTMLElement | null)?.tagName;
-      if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT") return;
+      const target = e.target as HTMLElement | null;
+      const tag = target?.tagName;
+      const isOptionInput =
+        tag === "INPUT" &&
+        (target as HTMLInputElement).name?.startsWith("option-");
+      // Allow 1–4 / arrows even when focus is on MCQ radios; block other fields.
+      if (
+        (tag === "INPUT" && !isOptionInput) ||
+        tag === "TEXTAREA" ||
+        tag === "SELECT"
+      ) {
+        return;
+      }
 
       if (["1", "2", "3", "4"].includes(e.key)) {
         e.preventDefault();
