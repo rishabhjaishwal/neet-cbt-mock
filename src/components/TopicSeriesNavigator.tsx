@@ -251,7 +251,10 @@ export function TopicSeriesNavigator({ topics }: { topics: TopicCatalogEntry[] }
           ) : (
             <ul className="divide-y divide-slate-200 overflow-hidden rounded-xl border border-slate-300 bg-white">
               {sequences.map((s) => {
-                const busy = starting === s.sequence || pending;
+                const thisStarting = starting === s.sequence;
+                // Disable siblings while one start is in flight, but only show
+                // the loader on the sequence that was clicked.
+                const disabled = starting !== null || pending;
                 return (
                   <li
                     key={s.sequence}
@@ -267,11 +270,12 @@ export function TopicSeriesNavigator({ topics }: { topics: TopicCatalogEntry[] }
                     </div>
                     <button
                       type="button"
-                      disabled={busy}
+                      disabled={disabled}
                       onClick={() => void startTest(s.sequence)}
-                      className={`cbt-btn cbt-btn-primary shrink-0 ${busy ? "cbt-btn-loading" : ""}`}
+                      aria-busy={thisStarting}
+                      className={`cbt-btn cbt-btn-primary shrink-0 ${thisStarting ? "cbt-btn-loading" : ""}`}
                     >
-                      {busy ? "…" : "Start"}
+                      {thisStarting ? "…" : "Start"}
                     </button>
                   </li>
                 );
