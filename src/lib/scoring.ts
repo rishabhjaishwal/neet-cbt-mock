@@ -5,6 +5,10 @@ import {
   scoreSelection,
   type Outcome,
 } from "./multi-correct";
+import {
+  formatTopicLabel,
+  partitionTopicStrength,
+} from "./topic-strength";
 
 export { estimateRankPercentile } from "./rank";
 
@@ -154,16 +158,9 @@ export function scoreAttempt(
     })
     .sort((a, b) => a.accuracy - b.accuracy || b.wrong - a.wrong);
 
-  const weakTopics = topicStats
-    .filter((t) => t.correct + t.wrong + t.partial >= 2 && t.accuracy < 50)
-    .slice(0, 8)
-    .map((t) => `${t.topic} (${t.subject})`);
-
-  const strongTopics = [...topicStats]
-    .filter((t) => t.correct + t.wrong + t.partial >= 2 && t.accuracy >= 70)
-    .sort((a, b) => b.accuracy - a.accuracy)
-    .slice(0, 8)
-    .map((t) => `${t.topic} (${t.subject})`);
+  const { weak, strong } = partitionTopicStrength(topicStats);
+  const weakTopics = weak.slice(0, 8).map(formatTopicLabel);
+  const strongTopics = strong.slice(0, 8).map(formatTopicLabel);
 
   const improvements: string[] = [];
   for (const [subject, s] of Object.entries(subjectMap)) {
