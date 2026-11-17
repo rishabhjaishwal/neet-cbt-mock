@@ -782,21 +782,45 @@ button.palette-btn[data-status="marked_answered"],
     padding: 0.4rem 0.7rem !important;
   }
 
+  /* Room for fixed action bar + palette bar so content never sits underneath. */
   .cbt-shell .exam-question-pane {
-    padding-bottom: 7.75rem !important;
+    padding-bottom: calc(9.75rem + env(safe-area-inset-bottom, 0px)) !important;
   }
 
+  /*
+   * Sticky-inside-scroll was floating mid-question on iOS (covering figures).
+   * Pin actions to the bottom of the viewport, above the palette bar.
+   */
   .cbt-shell .exam-actions-sticky {
-    position: sticky;
-    bottom: calc(3.4rem + env(safe-area-inset-bottom, 0px));
-    z-index: 20;
-    margin-left: -1rem;
-    margin-right: -1rem;
-    padding: 0.65rem 1rem;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.72), #fff 35%);
+    position: fixed !important;
+    left: 0;
+    right: 0;
+    bottom: calc(3.35rem + env(safe-area-inset-bottom, 0px));
+    z-index: 40;
+    margin: 0 !important;
+    padding: 0.55rem 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    align-items: center;
+    background: #fff;
     border-top: 1px solid #e2e8f0;
-    border-bottom: 1px solid #e2e8f0;
-    backdrop-filter: blur(8px);
+    box-shadow: 0 -6px 18px rgba(15, 23, 42, 0.12);
+    backdrop-filter: none;
+  }
+
+  .cbt-shell .exam-actions-sticky .cbt-btn {
+    flex: 1 1 auto;
+    min-height: 2.55rem;
+    justify-content: center;
+    font-size: 0.82rem;
+    padding-left: 0.55rem;
+    padding-right: 0.55rem;
+  }
+
+  .cbt-shell .exam-actions-sticky .cbt-btn-danger {
+    flex: 1 1 100%;
+    margin-left: 0 !important;
   }
 
   .exam-option-label {
@@ -851,9 +875,13 @@ button.palette-btn[data-status="marked_answered"],
     display: none !important;
   }
 
-  /* When palette sheet open, lift sticky actions above it via padding on pane */
+  /* When palette sheet open, hide fixed actions and leave room for the sheet */
   .cbt-shell[data-mobile-palette="open"] .exam-question-pane {
     padding-bottom: min(62dvh, 460px) !important;
+  }
+
+  .cbt-shell[data-mobile-palette="open"] .exam-actions-sticky {
+    display: none !important;
   }
 
   .cbt-shell[data-mobile-palette="open"] .exam-mobile-palette-bar {

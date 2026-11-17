@@ -1,46 +1,47 @@
 {
-  "note": "Public CDN booklet URLs for exam View paper. Not hosted on this app/Vercel.",
-  "cdn": "https://cdn.statically.io/gh/Shabber10/ALL-PYQ-Papers/main",
+  "note": "Public PDF URLs for exam View paper. Not hosted on this app/Vercel. Embed via Google Docs gview (raw GitHub blocks iframes).",
+  "cdn": "https://raw.githubusercontent.com/Shabber10/ALL-PYQ-Papers/main",
+  "embed": "https://docs.google.com/gview?embedded=true&url=",
   "papers": {
     "2016": {
       "label": "Phase1",
-      "url": "https://cdn.statically.io/gh/Shabber10/ALL-PYQ-Papers/main/NEET/2016/Phase1/NEET-2016-Phase1-question.pdf"
+      "url": "https://raw.githubusercontent.com/Shabber10/ALL-PYQ-Papers/main/NEET/2016/Phase1/NEET-2016-Phase1-question.pdf"
     },
     "2017": {
       "label": "A",
-      "url": "https://cdn.statically.io/gh/Shabber10/ALL-PYQ-Papers/main/NEET/2017/A/NEET-2017-A-question.pdf"
+      "url": "https://raw.githubusercontent.com/Shabber10/ALL-PYQ-Papers/main/NEET/2017/A/NEET-2017-A-question.pdf"
     },
     "2018": {
       "label": "main",
-      "url": "https://cdn.statically.io/gh/Shabber10/ALL-PYQ-Papers/main/NEET/2018/main/NEET-2018-main-question.pdf"
+      "url": "https://raw.githubusercontent.com/Shabber10/ALL-PYQ-Papers/main/NEET/2018/main/NEET-2018-main-question.pdf"
     },
     "2019": {
       "label": "G1",
-      "url": "https://cdn.statically.io/gh/Shabber10/ALL-PYQ-Papers/main/NEET/2019/G1/NEET-2019-G1-question.pdf"
+      "url": "https://raw.githubusercontent.com/Shabber10/ALL-PYQ-Papers/main/NEET/2019/G1/NEET-2019-G1-question.pdf"
     },
     "2020": {
       "label": "E1",
-      "url": "https://cdn.statically.io/gh/Shabber10/ALL-PYQ-Papers/main/NEET/2020/E1/NEET-2020-E1-question.pdf"
+      "url": "https://raw.githubusercontent.com/Shabber10/ALL-PYQ-Papers/main/NEET/2020/E1/NEET-2020-E1-question.pdf"
     },
     "2021": {
       "label": "M1",
-      "url": "https://cdn.statically.io/gh/Shabber10/ALL-PYQ-Papers/main/NEET/2021/M1/NEET-2021-M1-question.pdf"
+      "url": "https://raw.githubusercontent.com/Shabber10/ALL-PYQ-Papers/main/NEET/2021/M1/NEET-2021-M1-question.pdf"
     },
     "2022": {
       "label": "main",
-      "url": "https://cdn.statically.io/gh/Shabber10/ALL-PYQ-Papers/main/NEET/2022/main/NEET-2022-main-question.pdf"
+      "url": "https://raw.githubusercontent.com/Shabber10/ALL-PYQ-Papers/main/NEET/2022/main/NEET-2022-main-question.pdf"
     },
     "2023": {
       "label": "F1",
-      "url": "https://cdn.statically.io/gh/Shabber10/ALL-PYQ-Papers/main/NEET/2023/F1/NEET-2023-F1-question.pdf"
+      "url": "https://raw.githubusercontent.com/Shabber10/ALL-PYQ-Papers/main/NEET/2023/F1/NEET-2023-F1-question.pdf"
     },
     "2024": {
       "label": "R1",
-      "url": "https://cdn.statically.io/gh/Shabber10/ALL-PYQ-Papers/main/NEET/2024/R1/NEET-2024-R1-question.pdf"
+      "url": "https://raw.githubusercontent.com/Shabber10/ALL-PYQ-Papers/main/NEET/2024/R1/NEET-2024-R1-question.pdf"
     },
     "2025": {
       "label": "46",
-      "url": "https://cdn.statically.io/gh/Shabber10/ALL-PYQ-Papers/main/NEET/2025/46/NEET-2025-46-question.pdf"
+      "url": "https://raw.githubusercontent.com/Shabber10/ALL-PYQ-Papers/main/NEET/2025/46/NEET-2025-46-question.pdf"
     }
   }
 }
