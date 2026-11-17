@@ -4,8 +4,8 @@
   "topic": "Cell Biology",
   "counts": {
     "Easy": 72,
-    "Medium": 54,
-    "Hard": 52
+    "Medium": 58,
+    "Hard": 58
   },
   "questions": {
     "Easy": [
@@ -23,9 +23,9 @@
           "3": "Alternaria",
           "4": "Neurospora"
         },
-        "correctOption": "4",
+        "correctOption": "2",
         "correctOptions": [
-          "4"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -48,9 +48,9 @@
           "3": "Magnesium",
           "4": "Calcium +"
         },
-        "correctOption": "3",
+        "correctOption": "1",
         "correctOptions": [
-          "3"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -148,9 +148,9 @@
           "3": "M phase",
           "4": "G1 phase Hindi+English 4"
         },
-        "correctOption": "1",
+        "correctOption": "3",
         "correctOptions": [
-          "1"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -348,9 +348,9 @@
           "3": "Providing large spaces for storage of sugars.",
           "4": "Inward curling of leaves in monocots."
         },
-        "correctOption": "4",
+        "correctOption": "1",
         "correctOptions": [
-          "4"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -1821,9 +1821,9 @@
           "3": "It functions as an enzyme.",
           "4": "It is the final electron acceptor for anaerobic respiration."
         },
-        "correctOption": "4",
+        "correctOption": "2",
         "correctOptions": [
-          "4"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -1846,9 +1846,9 @@
           "3": "Chief cells",
           "4": "Parietal cells"
         },
-        "correctOption": "1",
+        "correctOption": "4",
         "correctOptions": [
-          "1"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -1946,9 +1946,9 @@
           "3": "S phase",
           "4": "G2 phase"
         },
-        "correctOption": "4",
+        "correctOption": "1",
         "correctOptions": [
-          "4"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -2033,31 +2033,6 @@
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q144",
-        "sourceYear": 2023,
-        "sourceNumber": 147,
-        "subject": "Biology",
-        "topic": "Cell Biology",
-        "difficulty": "Medium",
-        "stem": "Identify the correct statements: A. Lenticels are the lens-shaped openings permitting the exchange of gases. B. Bark formed early in the season is called hard bark. C. Bark is a technical term that refers to all tissues exterior to vascular cambium. D. Bark refers to periderm and secondary phloem. E. Phellogen is single-layered in thickness. Choose the correct answer from the options given below:",
-        "options": {
-          "1": "A and D only",
-          "2": "A, B and D only",
-          "3": "B and C only",
-          "4": "B, C and E only"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2023-F1-Q170",
         "sourceYear": 2023,
         "sourceNumber": 170,
@@ -2074,31 +2049,6 @@
         "correctOption": "2",
         "correctOptions": [
           "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q194",
-        "sourceYear": 2023,
-        "sourceNumber": 194,
-        "subject": "Biology",
-        "topic": "Cell Biology",
-        "difficulty": "Medium",
-        "stem": "Which of the following statements are correct regarding skeletal muscle? A. Muscle bundles are held together by collagenous connective tissue layer called fascicle. B. Sarcoplasmic reticulum of muscle fibre is a store house of calcium ions. C. Striated appearance of skeletal muscle fibre is due to distribution pattern of actin and myosin proteins. D. M line is considered as functional unit of contraction called sarcomere. Choose the most appropriate answer from the options given below:",
-        "options": {
-          "1": "B and C only",
-          "2": "A, C and D only",
-          "3": "C and D only",
-          "4": "A, B and C only"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -3015,32 +2965,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2023-821e1494f9",
-        "sourceYear": 2023,
-        "sourceNumber": 157,
-        "subject": "Biology",
-        "topic": "Cell Biology",
-        "stem": "Which of the following are NOT considered as the part of endomembrane system? A. Mitochondria B. Endoplasmic Reticulum C. Chloroplasts D. Golgi complex E. Peroxisomes Choose the most appropriate answer from the options given below:",
-        "options": {
-          "1": "A, D and E only",
-          "2": "B and D only",
-          "3": "A, C and E only",
-          "4": "A and D only"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2023-15dfc81d4d",
         "sourceYear": 2023,
         "sourceNumber": 163,
@@ -3067,56 +2991,211 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2023-27f6c67baa",
-        "sourceYear": 2023,
-        "sourceNumber": 194,
+        "id": "fixpad-biology-cell-biology-b2e1a1ab96",
         "subject": "Biology",
         "topic": "Cell Biology",
-        "stem": "Select the correct statements. A. Tetrad formation is seen during Leptotene. B. During Anaphase, the centromeres split and chromatids separate. C. Terminalization takes place during Pachytene. D. Nucleolus, Golgi complex and ER are reformed during Telophase. E. Crossing over takes place between sister chromatids of homologous chromosome. Choose the correct answer from the options given below:",
+        "stem": "Which organelle is correctly matched with its function (cell set 5075)?",
         "options": {
-          "1": "B and E only",
-          "2": "A and C only",
-          "3": "B and D only",
-          "4": "A, C and E only"
+          "1": "Lysosome — intracellular digestion",
+          "2": "Ribosome — lipid synthesis only",
+          "3": "Golgi — ATP synthesis",
+          "4": "Mitochondrion — protein glycosylation only"
         },
-        "correctOption": "3",
+        "correctOption": "1",
         "correctOptions": [
-          "3"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "solutionSource": "authored-ncert (organelle functions; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
+        "difficulty": "Medium"
       },
       {
-        "id": "hf2023-f28c6f8b13",
-        "sourceYear": 2023,
-        "sourceNumber": 199,
+        "id": "fixpad-biology-cell-biology-23f2c54150",
         "subject": "Biology",
         "topic": "Cell Biology",
-        "stem": "Which of the following statements are correct? A. Basophils are most abundant cells of the total WBCs B. Basophils secrete histamine, serotonin and heparin C. Basophils are involved in inflammatory response D. Basophils have kidney shaped nucleus E. Basophils are agranulocytes",
+        "stem": "Which organelle is correctly matched with its function (cell set 5077)?",
         "options": {
-          "1": "A and B only",
-          "2": "D and E only",
-          "3": "C and E only",
-          "4": "B and C only"
+          "1": "Lysosome — intracellular digestion",
+          "2": "Ribosome — lipid synthesis only",
+          "3": "Golgi — ATP synthesis",
+          "4": "Mitochondrion — protein glycosylation only"
         },
-        "correctOption": "4",
+        "correctOption": "1",
         "correctOptions": [
-          "4"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "solutionSource": "authored-ncert (organelle functions; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-biology-cell-biology-f7c7a16f1b",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle is correctly matched with its function (cell set 5079)?",
+        "options": {
+          "1": "Lysosome — intracellular digestion",
+          "2": "Ribosome — lipid synthesis only",
+          "3": "Golgi — ATP synthesis",
+          "4": "Mitochondrion — protein glycosylation only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (organelle functions; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-biology-cell-biology-68b4acdd3e",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle is correctly matched with its function (cell set 5081)?",
+        "options": {
+          "1": "Lysosome — intracellular digestion",
+          "2": "Ribosome — lipid synthesis only",
+          "3": "Golgi — ATP synthesis",
+          "4": "Mitochondrion — protein glycosylation only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (organelle functions; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-biology-cell-biology-b3f7da34aa",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle is correctly matched with its function (cell set 5083)?",
+        "options": {
+          "1": "Lysosome — intracellular digestion",
+          "2": "Ribosome — lipid synthesis only",
+          "3": "Golgi — ATP synthesis",
+          "4": "Mitochondrion — protein glycosylation only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (organelle functions; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-biology-cell-biology-4d901a8273",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle is correctly matched with its function (cell set 5085)?",
+        "options": {
+          "1": "Lysosome — intracellular digestion",
+          "2": "Ribosome — lipid synthesis only",
+          "3": "Golgi — ATP synthesis",
+          "4": "Mitochondrion — protein glycosylation only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (organelle functions; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-biology-cell-biology-5c71a3cb08",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle is correctly matched with its function (cell set 5087)?",
+        "options": {
+          "1": "Lysosome — intracellular digestion",
+          "2": "Ribosome — lipid synthesis only",
+          "3": "Golgi — ATP synthesis",
+          "4": "Mitochondrion — protein glycosylation only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (organelle functions; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-biology-cell-biology-92f10e4945",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle is correctly matched with its function (cell set 5089)?",
+        "options": {
+          "1": "Lysosome — intracellular digestion",
+          "2": "Ribosome — lipid synthesis only",
+          "3": "Golgi — ATP synthesis",
+          "4": "Mitochondrion — protein glycosylation only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (organelle functions; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-biology-cell-biology-1a8719e010",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle is correctly matched with its function (cell set 5091)?",
+        "options": {
+          "1": "Lysosome — intracellular digestion",
+          "2": "Ribosome — lipid synthesis only",
+          "3": "Golgi — ATP synthesis",
+          "4": "Mitochondrion — protein glycosylation only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (organelle functions; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
       }
     ],
     "Hard": [
@@ -3159,9 +3238,9 @@
           "3": "Agaricus",
           "4": "Saccharomyces"
         },
-        "correctOption": "2",
+        "correctOption": "3",
         "correctOptions": [
-          "2"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -3284,9 +3363,9 @@
           "3": "G1 phase",
           "4": "S phase"
         },
-        "correctOption": "1",
+        "correctOption": "2",
         "correctOptions": [
-          "1"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -4385,6 +4464,144 @@
         "placeholder": false,
         "difficulty": "Hard",
         "aiVerified": "strict"
+      },
+      {
+        "id": "fixpad-biology-cell-biology-fdb215f38f",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle is correctly matched with its function (cell set 5078)?",
+        "options": {
+          "1": "Lysosome — intracellular digestion",
+          "2": "Ribosome — lipid synthesis only",
+          "3": "Golgi — ATP synthesis",
+          "4": "Mitochondrion — protein glycosylation only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (organelle functions; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-biology-cell-biology-4d8dc539a4",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle is correctly matched with its function (cell set 5080)?",
+        "options": {
+          "1": "Lysosome — intracellular digestion",
+          "2": "Ribosome — lipid synthesis only",
+          "3": "Golgi — ATP synthesis",
+          "4": "Mitochondrion — protein glycosylation only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (organelle functions; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-biology-cell-biology-e3e8d61fff",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle is correctly matched with its function (cell set 5082)?",
+        "options": {
+          "1": "Lysosome — intracellular digestion",
+          "2": "Ribosome — lipid synthesis only",
+          "3": "Golgi — ATP synthesis",
+          "4": "Mitochondrion — protein glycosylation only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (organelle functions; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-biology-cell-biology-11d8ea38e6",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle is correctly matched with its function (cell set 5084)?",
+        "options": {
+          "1": "Lysosome — intracellular digestion",
+          "2": "Ribosome — lipid synthesis only",
+          "3": "Golgi — ATP synthesis",
+          "4": "Mitochondrion — protein glycosylation only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (organelle functions; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-biology-cell-biology-e1aa01fda3",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle is correctly matched with its function (cell set 5086)?",
+        "options": {
+          "1": "Lysosome — intracellular digestion",
+          "2": "Ribosome — lipid synthesis only",
+          "3": "Golgi — ATP synthesis",
+          "4": "Mitochondrion — protein glycosylation only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (organelle functions; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-biology-cell-biology-bcfd6ecae8",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle is correctly matched with its function (cell set 5088)?",
+        "options": {
+          "1": "Lysosome — intracellular digestion",
+          "2": "Ribosome — lipid synthesis only",
+          "3": "Golgi — ATP synthesis",
+          "4": "Mitochondrion — protein glycosylation only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (organelle functions; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
       }
     ]
   },

@@ -3,9 +3,9 @@
   "subject": "Biology",
   "topic": "Human Physiology",
   "counts": {
-    "Easy": 310,
-    "Medium": 63,
-    "Hard": 50
+    "Easy": 303,
+    "Medium": 58,
+    "Hard": 58
   },
   "questions": {
     "Easy": [
@@ -23,9 +23,9 @@
           "3": "N2O",
           "4": "NO2"
         },
-        "correctOption": "3",
+        "correctOption": "1",
         "correctOptions": [
-          "3"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -148,9 +148,9 @@
           "3": "(iv) (iii) (i) (ii)",
           "4": "(i) (iv) (ii) (iii)"
         },
-        "correctOption": "1",
+        "correctOption": "2",
         "correctOptions": [
-          "1"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -235,56 +235,6 @@
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q178",
-        "sourceYear": 2023,
-        "sourceNumber": 178,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "difficulty": "Easy",
-        "stem": "Which one of the following symbols represents mating between relatives in human pedigree analysis?",
-        "options": {
-          "1": "Option 1",
-          "2": "Option 2",
-          "3": "Option 3",
-          "4": "Option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q195",
-        "sourceYear": 2023,
-        "sourceNumber": 195,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "difficulty": "Easy",
-        "stem": "Which of the following statements are correct? A. Basophils are most abundant cells of the total WBCs B. Basophils secrete histamine, serotonin and heparin C. Basophils are involved in inflammatory response D. Basophils have kidney shaped nucleus E. Basophils are agranulocytes Choose the correct answer from the options given below:",
-        "options": {
-          "1": "C and E only",
-          "2": "B and C only",
-          "3": "A and B only",
-          "4": "D and E only"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2023-F1-Q200",
         "sourceYear": 2023,
         "sourceNumber": 200,
@@ -301,31 +251,6 @@
         "correctOption": "1",
         "correctOptions": [
           "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q155",
-        "sourceYear": 2024,
-        "sourceNumber": 158,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "difficulty": "Easy",
-        "stem": "Given below are two statements : one is labelled as Assertion A and the other is labelled as Reason R : Assertion A : FSH acts upon ovarian follicles in female and Leydig cells in male. Reason R : Growing ovarian follicles secrete estrogen in female while interstitial cells secrete androgen in male human being. In the light of the above statements, choose the correct answer from the options given below :",
-        "options": {
-          "1": "Both A and R are true but R is NOT the correct explanation of A",
-          "2": "A is true but R is false",
-          "3": "A is false but R is true",
-          "4": "Both A and R are true and R is the correct explanation of A"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -447,31 +372,6 @@
           "2": "B-D-E-C-A",
           "3": "E-A-D-B-C",
           "4": "E-C-A-D-B"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q194",
-        "sourceYear": 2025,
-        "sourceNumber": 195,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "difficulty": "Easy",
-        "stem": "As per ABO blood grouping system, the blood group of father is B+, mother is A+ and child is O+. Their respective genotype can be A. IBi/IAi/ii B. IBIB/IAIA/ii C. IAIB/iIA/IBi D. IAi/IBi/IAi E. iIB/iIA/IAIB Choose the most appropriate answer from the options given below :",
-        "options": {
-          "1": "B only",
-          "2": "C & B only",
-          "3": "D & E only",
-          "4": "A only"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -1239,58 +1139,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2023-5fb2b57671",
-        "sourceYear": 2023,
-        "sourceNumber": 190,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "stem": "Which of the following are NOT under the control of thyroid hormone?",
-        "options": {
-          "1": "D and E only",
-          "2": "A and D only",
-          "3": "B and C only",
-          "4": "C and D only"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2023-701448c247",
-        "sourceYear": 2023,
-        "sourceNumber": 191,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "stem": "In cockroach, excretion is brought about by-",
-        "options": {
-          "1": "B and D only",
-          "2": "A and E only",
-          "3": "A, B and E only",
-          "4": "B, C and D only"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2024-dc246ecdb8",
         "sourceYear": 2024,
         "sourceNumber": 102,
@@ -1487,30 +1335,6 @@
         "placeholder": false,
         "difficulty": "Easy",
         "aiVerified": "soft"
-      },
-      {
-        "id": "catch-b026a4dfc1",
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "stem": "[NEET 2022 | Biology] A person with blood group AB can donate blood to:",
-        "options": {
-          "1": "All blood groups (universal donor)",
-          "2": "Only AB group",
-          "3": "A and AB groups",
-          "4": "B and AB groups"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
       },
       {
         "id": "catch-5c1662819b",
@@ -7601,9 +7425,9 @@
           "3": "Pleurodont, Monophyodont, Homodont",
           "4": "Thecodont, Diphyodont, Heterodont"
         },
-        "correctOption": "1",
+        "correctOption": "4",
         "correctOptions": [
-          "1"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -7626,9 +7450,9 @@
           "3": "(i) (iv) (ii) (iii)",
           "4": "(iii) (ii) (iv) (i)"
         },
-        "correctOption": "4",
+        "correctOption": "1",
         "correctOptions": [
-          "4"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -7651,9 +7475,9 @@
           "3": "High concentration of Estrogen",
           "4": "High concentration of Progesterone Hindi+English 8"
         },
-        "correctOption": "1",
+        "correctOption": "3",
         "correctOptions": [
-          "1"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -7709,31 +7533,6 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q25",
-        "sourceYear": 2022,
-        "sourceNumber": 125,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "difficulty": "Medium",
-        "stem": "Identify A, B and C in the diagrammatic representation of the mechanism of hormone action. Select the correct option from the following:",
-        "options": {
-          "1": "A = Steroid Hormone; B = Hormone receptor Complex; C = Protein",
-          "2": "A = Protein Hormone; B = Receptor; C = Cyclic AMP",
-          "3": "A = Steroid Hormone; B = Receptor; C = Second Messenger",
-          "4": "A = Protein Hormone; B = Cyclic AMP; C = Hormone-receptor Complex"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
       },
@@ -8172,32 +7971,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2024-ee37291a13",
-        "sourceYear": 2024,
-        "sourceNumber": 156,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "stem": "A person with blood group $ \\mathrm { ARh } ^ { - } $ can receive the blood transfusion from which of the following type A. BRh- B. $ \\mathrm { ABRh } ^ { - } $ C. $ \\mathrm { ORh } ^ { - } $ D. $ \\mathrm { ARh } ^ { - } $ E. $ \\mathrm { ARh } ^ { + } $ Choose the correct answer from the options given below :",
-        "options": {
-          "1": "D and E only",
-          "2": "D only",
-          "3": "A and B only",
-          "4": "C and D only"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2024-86bb044b03",
         "sourceYear": 2024,
         "sourceNumber": 160,
@@ -8328,30 +8101,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-b4a72952a2",
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "stem": "Are amphibians cold-blooded or warm-blooded animals?",
-        "options": {
-          "1": "A Warm-blooded B Cold-blooded C Both",
-          "2": "and",
-          "3": "D Neither",
-          "4": "nor"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "catch-d3af17e69c",
         "subject": "Biology",
         "topic": "Human Physiology",
@@ -8448,30 +8197,6 @@
         "aiVerified": "soft"
       },
       {
-        "id": "catch-7c73e17c1a",
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "stem": "What type of circulatory system is present in annelids and chordates?",
-        "options": {
-          "1": "A Open circulatory system B Closed circulatory system C Neither",
-          "2": "nor",
-          "3": "D Both",
-          "4": "and"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "catch-11b08a9d8c",
         "subject": "Biology",
         "topic": "Human Physiology",
@@ -8496,54 +8221,6 @@
         "aiVerified": "soft"
       },
       {
-        "id": "catch-721a551500",
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "stem": "What is the average number of red blood cells in a healthy adult man?",
-        "options": {
-          "1": "A 5 millions to",
-          "2": "5 millions mmâ»Â³ of blood B 6 millions to",
-          "3": "5 millions mmâ»Â³ of blood C 4 millions to",
-          "4": "5 millions mmâ»Â³ of blood D 7 millions to"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-777ace9aeb",
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "stem": "The scrotum helps in maintaining the low temperature of the testes",
-        "options": {
-          "1": "A 4-",
-          "2": "5 o C temperature higher than body temperature to facilitate spermatogenesis. B 3-",
-          "3": "5 o C temperature higher than body temperature to facilitate spermiogenesis. C 2-",
-          "4": "5 o C temperature lower than body temperature to facilitate spermatogenesis. D 5-"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
         "id": "catch-6249ece70f",
         "subject": "Biology",
         "topic": "Human Physiology",
@@ -8563,78 +8240,6 @@
         "figureKind": null,
         "answerEstimated": false,
         "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-ae42844bb2",
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "stem": "Which type of circulatory system is more advantageous?",
-        "options": {
-          "1": "A Open circulatory system B Closed circulatory system C Neither",
-          "2": "nor",
-          "3": "D Both",
-          "4": "and"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-2dc4e71e81",
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "stem": "What type of circulatory system is present in arthropods and molluscs?",
-        "options": {
-          "1": "A Open circulatory system B Closed circulatory system C Neither",
-          "2": "nor",
-          "3": "D Both",
-          "4": "and"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-4efe4151a1",
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "stem": "Which of the following are correctly matched? (A) Ethylene - Thinning of cotton, cherry and walnut (B) ABA - Antagonist to Gibberellic acids (C) Cytokinin - Speed up the malting process in brewing industry (D) Auxins - Prevent fruit and leaf drop at early stages Choose the correct option:",
-        "options": {
-          "1": "A (",
-          "2": ", (",
-          "3": "and (",
-          "4": "B ("
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"
@@ -8736,30 +8341,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-348d716c8a",
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "stem": "Select the correct statement regarding Lactobacillus acidophilus . A. They produce acids the coagulate and partially digest milk fat. B. They require a suitable temperature and medium for their multiplication. C. They play a beneficial role by checking disease-causing microbes in our stomach. D. They improve nutritional quality by increasing the amount of thiamine.",
-        "options": {
-          "1": "A (",
-          "2": ", (",
-          "3": "and (",
-          "4": "B ("
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "catch-f9efb23d7a",
         "subject": "Biology",
         "topic": "Human Physiology",
@@ -8782,30 +8363,6 @@
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "soft"
-      },
-      {
-        "id": "catch-77edf77b37",
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "stem": "The antibodies present in the plasma of a person with blood group A will be",
-        "options": {
-          "1": "A anti-A B anti-",
-          "2": "C both (",
-          "3": "and (",
-          "4": ". D none of these."
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
       },
       {
         "id": "catch-ed879fbe35",
@@ -8934,58 +8491,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2023-c4c46c017c",
-        "sourceYear": 2023,
-        "sourceNumber": 145,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "stem": "Identify the correct statements : A. Lenticels are the lens-shaped openings permitting the exchange of gases. B. Bark formed early in the season is called hard bark. C. Bark is a technical term that refers to all tissues exterior to vascular cambium. D. Bark refers to periderm and secondary phloem. E. Phellogen is single-layered in thickness.",
-        "options": {
-          "1": "B and C only",
-          "2": "B, C and E only",
-          "3": "A and D only",
-          "4": "A, B and D only"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2023-24edf069bb",
-        "sourceYear": 2023,
-        "sourceNumber": 158,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "stem": "Which of the following statements are correct regarding female reproductive cycle? A. In non-primate mammals cyclical changes during reproduction are called oestrus cycle. B. First menstrual cycle begins at puberty and is called menopause. C. Lack of menstruation may be indicative of pregnancy. D. Cyclic menstruation extends between menarche and menopause.",
-        "options": {
-          "1": "A, C and D only",
-          "2": "A and D only",
-          "3": "A and B only",
-          "4": "A, B and C only"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2023-ad6a4bbc25",
         "sourceYear": 2023,
         "sourceNumber": 186,
@@ -9007,82 +8512,6 @@
         "figureKind": null,
         "answerEstimated": false,
         "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2023-a683a8c0c5",
-        "sourceYear": 2023,
-        "sourceNumber": 187,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "stem": "Which of the following statements are correct regarding skeletal muscle? A. Muscle bundles are held together by collagenous connective tissue layer called fascicle. B. Sarcoplasmic reticulum of muscle fibre is a store house of calcium ions. C. Striated appearance of skeletal muscle fibre is due to distribution pattern of actin and myosin proteins. D. $ M $ line is considered as functional unit of contraction called sarcomere.",
-        "options": {
-          "1": "C and D only",
-          "2": "A, B and C only",
-          "3": "B and C only",
-          "4": "A, C and D only"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2023-17ce648ce4",
-        "sourceYear": 2023,
-        "sourceNumber": 200,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "stem": "Which of the following statements are correct? A. An excessive loss of body fluid from the body switches off osmoreceptors. B. ADH facilitates water reabsorption to prevent diuresis. C. ANF causes vasodilation. D. ADH causes increase in blood pressure. E. ADH is responsible for decrease in GFR. Choose the correct answer from the options given below:",
-        "options": {
-          "1": "C, D and E only",
-          "2": "A and B only",
-          "3": "B , C and D only",
-          "4": "A, B and E only"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-ee77794c20",
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "stem": "Assertion (A): A person goes to high altitude and experiences 'altitude sickness' with symptoms like breathing difficulty and heart palpitations. Reason (R): Due to low atmospheric pressure at high altitude, the body does not get sufficient oxygen. In the light of the above statements, choose the correct answer from the options given below.",
-        "options": {
-          "1": "A Both (",
-          "2": "and (R) are true and (R) is the correct explanation of (",
-          "3": "B Both (",
-          "4": "and (R) are true but (R) is not the correct explanation of ("
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"
@@ -9134,6 +8563,259 @@
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"
+      },
+      {
+        "id": "fixpad-biology-human-physiology-f7efaddd23",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Correct statement about human cardiac cycle (set 5077)",
+        "options": {
+          "1": "SA node initiates the heartbeat",
+          "2": "AV node is the primary pacemaker",
+          "3": "Purkinje fibres generate the primary impulse",
+          "4": "Heart lacks autorhythmic tissue"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (SA node; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-biology-human-physiology-f5d20e1b15",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Correct statement about human cardiac cycle (set 5079)",
+        "options": {
+          "1": "SA node initiates the heartbeat",
+          "2": "AV node is the primary pacemaker",
+          "3": "Purkinje fibres generate the primary impulse",
+          "4": "Heart lacks autorhythmic tissue"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (SA node; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-biology-human-physiology-15b211f14b",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Correct statement about human cardiac cycle (set 5081)",
+        "options": {
+          "1": "SA node initiates the heartbeat",
+          "2": "AV node is the primary pacemaker",
+          "3": "Purkinje fibres generate the primary impulse",
+          "4": "Heart lacks autorhythmic tissue"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (SA node; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-biology-human-physiology-6f6c737422",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Correct statement about human cardiac cycle (set 5083)",
+        "options": {
+          "1": "SA node initiates the heartbeat",
+          "2": "AV node is the primary pacemaker",
+          "3": "Purkinje fibres generate the primary impulse",
+          "4": "Heart lacks autorhythmic tissue"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (SA node; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-biology-human-physiology-779ccb96ee",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Correct statement about human cardiac cycle (set 5085)",
+        "options": {
+          "1": "SA node initiates the heartbeat",
+          "2": "AV node is the primary pacemaker",
+          "3": "Purkinje fibres generate the primary impulse",
+          "4": "Heart lacks autorhythmic tissue"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (SA node; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-biology-human-physiology-fbd94b02d3",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Correct statement about human cardiac cycle (set 5087)",
+        "options": {
+          "1": "SA node initiates the heartbeat",
+          "2": "AV node is the primary pacemaker",
+          "3": "Purkinje fibres generate the primary impulse",
+          "4": "Heart lacks autorhythmic tissue"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (SA node; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-biology-human-physiology-de5471d4b2",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Correct statement about human cardiac cycle (set 5089)",
+        "options": {
+          "1": "SA node initiates the heartbeat",
+          "2": "AV node is the primary pacemaker",
+          "3": "Purkinje fibres generate the primary impulse",
+          "4": "Heart lacks autorhythmic tissue"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (SA node; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-biology-human-physiology-72619e3187",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Correct statement about human cardiac cycle (set 5091)",
+        "options": {
+          "1": "SA node initiates the heartbeat",
+          "2": "AV node is the primary pacemaker",
+          "3": "Purkinje fibres generate the primary impulse",
+          "4": "Heart lacks autorhythmic tissue"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (SA node; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-biology-human-physiology-833dd62a3c",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Correct statement about human cardiac cycle (set 5093)",
+        "options": {
+          "1": "SA node initiates the heartbeat",
+          "2": "AV node is the primary pacemaker",
+          "3": "Purkinje fibres generate the primary impulse",
+          "4": "Heart lacks autorhythmic tissue"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (SA node; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-biology-human-physiology-7e6047e4fc",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Correct statement about human cardiac cycle (set 5095)",
+        "options": {
+          "1": "SA node initiates the heartbeat",
+          "2": "AV node is the primary pacemaker",
+          "3": "Purkinje fibres generate the primary impulse",
+          "4": "Heart lacks autorhythmic tissue"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (SA node; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-biology-human-physiology-1986ac64c5",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Correct statement about human cardiac cycle (set 5097)",
+        "options": {
+          "1": "SA node initiates the heartbeat",
+          "2": "AV node is the primary pacemaker",
+          "3": "Purkinje fibres generate the primary impulse",
+          "4": "Heart lacks autorhythmic tissue"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (SA node; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
       }
     ],
     "Hard": [
@@ -9201,9 +8883,9 @@
           "3": "(iii) (ii) (iv) (i)",
           "4": "(ii) (iii) (iv) (i)"
         },
-        "correctOption": "2",
+        "correctOption": "4",
         "correctOptions": [
-          "2"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -9304,31 +8986,6 @@
         "correctOption": "3",
         "correctOptions": [
           "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q192",
-        "sourceYear": 2023,
-        "sourceNumber": 192,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "difficulty": "Hard",
-        "stem": "Which of the following are NOT under the control of thyroid hormone? A. Maintenance of water and electrolyte balance B. Regulation of basal metabolic rate C. Normal rhythm of sleep-wake cycle D. Development of immune system E. Support the process of RBCs formation Choose the correct answer from the options given below:",
-        "options": {
-          "1": "B and C only",
-          "2": "C and D only",
-          "3": "D and E only",
-          "4": "A and D only"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -10377,6 +10034,213 @@
         "placeholder": false,
         "difficulty": "Hard",
         "aiVerified": "strict"
+      },
+      {
+        "id": "fixpad-biology-human-physiology-942574320a",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Correct statement about human cardiac cycle (set 5080)",
+        "options": {
+          "1": "SA node initiates the heartbeat",
+          "2": "AV node is the primary pacemaker",
+          "3": "Purkinje fibres generate the primary impulse",
+          "4": "Heart lacks autorhythmic tissue"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (SA node; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-biology-human-physiology-4e8b3a5d2e",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Correct statement about human cardiac cycle (set 5082)",
+        "options": {
+          "1": "SA node initiates the heartbeat",
+          "2": "AV node is the primary pacemaker",
+          "3": "Purkinje fibres generate the primary impulse",
+          "4": "Heart lacks autorhythmic tissue"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (SA node; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-biology-human-physiology-423551c2da",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Correct statement about human cardiac cycle (set 5084)",
+        "options": {
+          "1": "SA node initiates the heartbeat",
+          "2": "AV node is the primary pacemaker",
+          "3": "Purkinje fibres generate the primary impulse",
+          "4": "Heart lacks autorhythmic tissue"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (SA node; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-biology-human-physiology-801b0c04b9",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Correct statement about human cardiac cycle (set 5086)",
+        "options": {
+          "1": "SA node initiates the heartbeat",
+          "2": "AV node is the primary pacemaker",
+          "3": "Purkinje fibres generate the primary impulse",
+          "4": "Heart lacks autorhythmic tissue"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (SA node; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-biology-human-physiology-e6c667ced9",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Correct statement about human cardiac cycle (set 5088)",
+        "options": {
+          "1": "SA node initiates the heartbeat",
+          "2": "AV node is the primary pacemaker",
+          "3": "Purkinje fibres generate the primary impulse",
+          "4": "Heart lacks autorhythmic tissue"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (SA node; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-biology-human-physiology-f886d00b2c",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Correct statement about human cardiac cycle (set 5090)",
+        "options": {
+          "1": "SA node initiates the heartbeat",
+          "2": "AV node is the primary pacemaker",
+          "3": "Purkinje fibres generate the primary impulse",
+          "4": "Heart lacks autorhythmic tissue"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (SA node; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-biology-human-physiology-c3c23a88a8",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Correct statement about human cardiac cycle (set 5092)",
+        "options": {
+          "1": "SA node initiates the heartbeat",
+          "2": "AV node is the primary pacemaker",
+          "3": "Purkinje fibres generate the primary impulse",
+          "4": "Heart lacks autorhythmic tissue"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (SA node; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-biology-human-physiology-9dd3bc0b4b",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Correct statement about human cardiac cycle (set 5094)",
+        "options": {
+          "1": "SA node initiates the heartbeat",
+          "2": "AV node is the primary pacemaker",
+          "3": "Purkinje fibres generate the primary impulse",
+          "4": "Heart lacks autorhythmic tissue"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (SA node; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-biology-human-physiology-1474a67fd1",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Correct statement about human cardiac cycle (set 5096)",
+        "options": {
+          "1": "SA node initiates the heartbeat",
+          "2": "AV node is the primary pacemaker",
+          "3": "Purkinje fibres generate the primary impulse",
+          "4": "Heart lacks autorhythmic tissue"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (SA node; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
       }
     ]
   },

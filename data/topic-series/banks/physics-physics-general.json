@@ -3,9 +3,9 @@
   "subject": "Physics",
   "topic": "Physics General",
   "counts": {
-    "Easy": 82,
-    "Medium": 115,
-    "Hard": 61
+    "Easy": 80,
+    "Medium": 103,
+    "Hard": 58
   },
   "questions": {
     "Easy": [
@@ -698,9 +698,9 @@
           "3": "1:2",
           "4": "2:1 OUGH WORK English"
         },
-        "correctOption": "2",
+        "correctOption": "3",
         "correctOptions": [
-          "2"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -723,9 +723,9 @@
           "3": "0·525 cm",
           "4": "0·521 cm"
         },
-        "correctOption": "3",
+        "correctOption": "4",
         "correctOptions": [
-          "3"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -748,9 +748,9 @@
           "3": "Moment of inertia",
           "4": "Angular velocity OUGH WORK English"
         },
-        "correctOption": "3",
+        "correctOption": "1",
         "correctOptions": [
-          "3"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -823,9 +823,9 @@
           "3": "48×103 J",
           "4": "10×103 J"
         },
-        "correctOption": "3",
+        "correctOption": "2",
         "correctOptions": [
-          "3"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -848,9 +848,9 @@
           "3": "zero",
           "4": "0.5 N/C 5 F1"
         },
-        "correctOption": "1",
+        "correctOption": "3",
         "correctOptions": [
-          "1"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -898,9 +898,9 @@
           "3": "1.28×105 N/C",
           "4": "1.28×106 N/C"
         },
-        "correctOption": "2",
+        "correctOption": "3",
         "correctOptions": [
-          "2"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -923,9 +923,9 @@
           "3": "0.26 cm",
           "4": "0.052 cm"
         },
-        "correctOption": "2",
+        "correctOption": "4",
         "correctOptions": [
-          "2"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -951,56 +951,6 @@
         "correctOption": "3",
         "correctOptions": [
           "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q42",
-        "sourceYear": 2021,
-        "sourceNumber": 35,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "A particle of mass ‘m’ is projected with a velocity v=kVe(k < 1) from the surface of the earth. (Ve=escape velocity) The maximum height above the surface reached by the particle is : 2 { k (",
-        "options": {
-          "1": "R{ ) } 1−k [ 2 { k (",
-          "2": "R{ ) } 1+k [ R2 k",
-          "3": "1+k Rk2",
-          "4": "1−k2 Hindi+English 4"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q49",
-        "sourceYear": 2021,
-        "sourceNumber": 41,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "From a circular ring of mass ‘M’ and radius ‘R’ an arc corresponding to a 908 sector is removed. The moment of inertia of the remaining part of the ring about an axis passing through the centre of the ring and perpendicular to the plane of the ring is ‘K’ times ‘MR2’. Then the value of ‘K’ is : 3",
-        "options": {
-          "1": "4 7",
-          "2": "8 1",
-          "3": "4 1",
-          "4": "8"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -2071,9 +2021,9 @@
           "3": "Bernoulli's principle",
           "4": "The principle of parallel axes"
         },
-        "correctOption": "3",
+        "correctOption": "4",
         "correctOptions": [
-          "3"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -2775,9 +2725,9 @@
           "3": "10 times greater",
           "4": "equal"
         },
-        "correctOption": "4",
+        "correctOption": "1",
         "correctOptions": [
-          "4"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -2825,9 +2775,9 @@
           "3": "1:–1",
           "4": "1:1"
         },
-        "correctOption": "2",
+        "correctOption": "3",
         "correctOptions": [
-          "2"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -2850,9 +2800,9 @@
           "3": "0·8",
           "4": "0·25"
         },
-        "correctOption": "3",
+        "correctOption": "4",
         "correctOptions": [
-          "3"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -2883,31 +2833,6 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q142",
-        "sourceYear": 2019,
-        "sourceNumber": 7,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "Two small spherical metal balls, having equal masses, are made from materials of densities ρ1 and ρ2 (ρ1 = 8ρ2) and having radii of 1 mm and 2 mm, respectively. They are made to fall vertically (from rest) in a viscous medium whose coefficient of viscosity equals η and whose density is 0.1ρ2. The ratio of their terminal velocities would be, 79 19 39 79",
-        "options": {
-          "1": "Option 1",
-          "2": "Option 2",
-          "3": "Option 3",
-          "4": "72 36 72 36"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
       },
@@ -2975,9 +2900,9 @@
           "3": "2.25×150^{-15}$",
           "4": "2.25×1015"
         },
-        "correctOption": "3",
+        "correctOption": "1",
         "correctOptions": [
-          "3"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -3000,9 +2925,9 @@
           "3": "1.28×104 N/C",
           "4": "1.28×105 N/C Hindi+English 6"
         },
-        "correctOption": "2",
+        "correctOption": "4",
         "correctOptions": [
-          "2"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -3050,9 +2975,9 @@
           "3": "0.052 cm",
           "4": "0.52 cm"
         },
-        "correctOption": "1",
+        "correctOption": "3",
         "correctOptions": [
-          "1"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -3074,31 +2999,6 @@
           "2": "(A) - (Q), (B) - (P), (C) - (S), (D) - (R)",
           "3": "(A) - (R), (B) - (Q), (C) - (P), (D) - (S)",
           "4": "(A) - (R), (B) - (P), (C) - (S), (D) - (Q)"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q36",
-        "sourceYear": 2021,
-        "sourceNumber": 32,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "A particle moving in a circle of radius R with a uniform speed takes a time T to complete one revolution. If this particle were projected with the same speed at an angle ‘θ’ to the horizontal, the maximum height attained by it equals 4R. The angle of projection, θ, is then given by : 1 { 2R ( 2 −1 { π",
-        "options": {
-          "1": "θ=cos ) { gT2 ) } [ 1 { π2 R ( 2",
-          "2": "θ=sin−1 { ) { gT2 ) } [ 1 −1 { 2gT2 ( 2",
-          "3": "θ=sin { ) { π2 R ) } [ 1 { gT2 ( 2",
-          "4": "θ=cos−1 { ) { π2 R ) } ["
         },
         "correctOption": "4",
         "correctOptions": [
@@ -3125,9 +3025,9 @@
           "3": "(ii) (i) (iv) (iii)",
           "4": "(ii) (iv) (i) (iii)"
         },
-        "correctOption": "4",
+        "correctOption": "2",
         "correctOptions": [
-          "4"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -3225,9 +3125,9 @@
           "3": "The principle of perpendicular axes",
           "4": "Huygens’s principle"
         },
-        "correctOption": "1",
+        "correctOption": "2",
         "correctOptions": [
-          "1"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -3275,9 +3175,9 @@
           "3": "Zero",
           "4": "2W/A"
         },
-        "correctOption": "1",
+        "correctOption": "3",
         "correctOptions": [
-          "1"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -3350,9 +3250,9 @@
           "3": "angular speed and stress",
           "4": "strain and angle"
         },
-        "correctOption": "4",
+        "correctOption": "1",
         "correctOptions": [
-          "4"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -3654,32 +3554,6 @@
           "2": "$ \\mathrm { V } _ { 1 } = \\mathrm { V } _ { 2 } $ and $ i _ { 1 } > i _ { 2 } $",
           "3": "$ \\mathrm { V } _ { 1 } = \\mathrm { V } _ { 2 } $ and $ i _ { 1 } = i _ { 2 } $",
           "4": "$ \\quad V _ { 2 } > V _ { 1 } $ and $ i _ { 1 } > i _ { 2 } $"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2019-9b0a55217a",
-        "sourceYear": 2019,
-        "sourceNumber": 26,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "stem": "At a point A on the earth's surface the angle of $ \\operatorname { dip } , \\delta = + 25 ^ { \\circ } $. At a point $ B $ on the earth's surface the angle of $ \\operatorname { dip } , \\delta = - 25 ^ { \\circ } \\ldots $ We can interpret that:",
-        "options": {
-          "1": "A and B are both located in the northern hemisphere.",
-          "2": "A is located in the southern hemisphere and $ B $ is located in the northern hemisphere.",
-          "3": "A is located in the northern hemisphere and $ B $ is located in the southern hemisphere.",
-          "4": "A and B are both located in the southern hemisphere."
         },
         "correctOption": "3",
         "correctOptions": [
@@ -4553,78 +4427,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-2ffa087b25",
-        "subject": "Physics",
-        "topic": "Physics General",
-        "stem": "The ionisation energy of 10 time ionised sodium atom is",
-        "options": {
-          "1": "A 1",
-          "2": "6 11 e V B 1",
-          "3": "6 112 e V C 1",
-          "4": "6 Ã 11 2 e V D 13 . 6 e V"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-43b3a1a8c2",
-        "subject": "Physics",
-        "topic": "Physics General",
-        "stem": "The temperature of equal masses of three different liquids A, B and C are 12 â , 19 â and 28 â respectively. The temperature when A and B are mixed is 16 â and when B and C are mixed is 23 â . The temperature when A and C are mixed is",
-        "options": {
-          "1": "A 1",
-          "2": "2 â B 22 â C 2",
-          "3": "2 â D 2",
-          "4": "2 â"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-0ec99a15d3",
-        "subject": "Physics",
-        "topic": "Physics General",
-        "stem": "An iron tyre of diameter 2 m is to be fitted on to a wooden wheel of diameter 2.01 m . The temperature to which the tyre must be heated, if Î± = 11 Ã 1 0 â 6 Â° C - 1 and room temperature is 20 Â° C , will be",
-        "options": {
-          "1": "A 47",
-          "2": "5 Â° C B 49",
-          "3": "5 Â° C C 44",
-          "4": "5 Â° C D 46"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "catch-c63f64bc57",
         "subject": "Physics",
         "topic": "Physics General",
@@ -4634,54 +4436,6 @@
           "2": "6 eV B - 1",
           "3": "4 eV C -",
           "4": "8 eV D - 2"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-fb598d251c",
-        "subject": "Physics",
-        "topic": "Physics General",
-        "stem": "A sample of 0.1 g of water at 100 o C and normal pressure 1.013 × 10 5 N m - 2 requires 54 cal of heat energy to convert to steam at 100 o C . If the volume of the steam produced is 167.1 cc, the change in internal energy of the sample, is",
-        "options": {
-          "1": "A 4",
-          "2": "2 J B 20",
-          "3": "7 â â J C 10",
-          "4": "3 J D 8"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-882e576302",
-        "subject": "Physics",
-        "topic": "Physics General",
-        "stem": "A clock which keeps correct time at 20 ° C has a pendulum rod made of brass. How many seconds will it gain or lose per day when temperature falls to 0 ° C ? α = 18 × 10 - 6 / ° C",
-        "options": {
-          "1": "A 15",
-          "2": "5 Â s B 1",
-          "3": "55 Â s C 2",
-          "4": "55 Â s D 1"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -4721,54 +4475,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-9ac335c917",
-        "subject": "Physics",
-        "topic": "Physics General",
-        "stem": "An Î± - particle after passing through a potential difference of V volts collides with a nucleus. If the atomic number of the nucleus is Z then the distance of closest approach of Î± - particle to the nucleus will be",
-        "options": {
-          "1": "A 1",
-          "2": "4 Z V A Â° B 1",
-          "3": "4 Z V Â m C 1",
-          "4": "4 Z V Â c m D all of these"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-bea2d94791",
-        "subject": "Physics",
-        "topic": "Physics General",
-        "stem": "Ionization energy of H e + ion at minimum energy position is",
-        "options": {
-          "1": "A 1",
-          "2": "6 e V B 2",
-          "3": "2 e V C 5",
-          "4": "4 e V D 6"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "catch-362a0049b1",
         "subject": "Physics",
         "topic": "Physics General",
@@ -4788,54 +4494,6 @@
         "figureKind": null,
         "answerEstimated": false,
         "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-36b69e274a",
-        "subject": "Physics",
-        "topic": "Physics General",
-        "stem": "A clock which keeps correct time at 25 Â° C , has a pendulum made of brass. The coefficient of linear expansion for brass is 0.000019 Â° C - 1 . How many seconds a day will it gain if the ambient temperature falls to 0 Â° C ?",
-        "options": {
-          "1": "A 2",
-          "2": "52 s B 1",
-          "3": "00 s C 5",
-          "4": "10 s D 6"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-727f4feb5f",
-        "subject": "Physics",
-        "topic": "Physics General",
-        "stem": "The temperatures of equal masses of three different liquids A , B and C are 12 Â° C , â¡ 1 9 Â° C and 28 Â° C respectively. The temperature when A and B are mixed is 16 Â° C and when B and C are mixed it is 23 Â° C . The temperature when A and C are mixed will be",
-        "options": {
-          "1": "A 15 Â° C B 1",
-          "2": "2 Â° C C 2",
-          "3": "25 Â° C D 2",
-          "4": "5 Â°"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"
@@ -4903,9 +4561,9 @@
           "3": "0.521 cm",
           "4": "0.529 cm"
         },
-        "correctOption": "4",
+        "correctOption": "3",
         "correctOptions": [
-          "4"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -5710,9 +5368,9 @@
           "3": "1:1",
           "4": "1:–2"
         },
-        "correctOption": "3",
+        "correctOption": "2",
         "correctOptions": [
-          "3"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -5785,9 +5443,9 @@
           "3": "0.02 kg/m3",
           "4": "0.5 kg/m3"
         },
-        "correctOption": "2",
+        "correctOption": "1",
         "correctOptions": [
-          "2"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -5835,9 +5493,9 @@
           "3": "double",
           "4": "half 7 F1"
         },
-        "correctOption": "2",
+        "correctOption": "1",
         "correctOptions": [
-          "2"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -5860,9 +5518,9 @@
           "3": "2.25×1015",
           "4": "2.5×106"
         },
-        "correctOption": "1",
+        "correctOption": "4",
         "correctOptions": [
-          "1"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -5885,9 +5543,9 @@
           "3": "1 N/C",
           "4": "5 N/C"
         },
-        "correctOption": "4",
+        "correctOption": "1",
         "correctOptions": [
-          "4"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -5935,9 +5593,9 @@
           "3": "(A) - (Q), (B) - (P), (C) - (S), (D) - (R)",
           "4": "(A) - (R), (B) - (Q), (C) - (P), (D) - (S)"
         },
-        "correctOption": "2",
+        "correctOption": "1",
         "correctOptions": [
-          "2"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -5960,34 +5618,9 @@
           "3": "20 2 m/s, 0",
           "4": "20 2 m/s, 10 m/s2"
         },
-        "correctOption": "1",
+        "correctOption": "4",
         "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q47",
-        "sourceYear": 2021,
-        "sourceNumber": 39,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "Two conducting circular loops of radii R1 and R2 are placed in the same plane with their centres coinciding. If R1 >> R2 , the mutual inductance M between them will be directly proportional to : R2",
-        "options": {
-          "1": "R1 2 R1",
-          "2": "R2 2 R2",
-          "3": "R1 R1",
-          "4": "R2"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -6010,9 +5643,9 @@
           "3": "∆U ≠ 0, ∆Stotal=0",
           "4": "∆U=0, ∆Stotal=0 Hindi+English 6"
         },
-        "correctOption": "4",
+        "correctOption": "2",
         "correctOptions": [
-          "4"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -6035,9 +5668,9 @@
           "3": "(ii) (iv) (i) (iii)",
           "4": "(iv) (iii) (ii) (i) Section - B (Biology : Botany)"
         },
-        "correctOption": "3",
+        "correctOption": "1",
         "correctOptions": [
-          "3"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -6222,31 +5855,6 @@
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q147",
-        "sourceYear": 2023,
-        "sourceNumber": 50,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "Match List I with List II : List I List II A. Cohesion I. More attraction in liquid phase B. Adhesion II. Mutual attraction among water molecules C. Surface tension III. Water loss in liquid phase D. Guttation IV. Attraction towards polar surfaces Choose the correct answer from the options given below :",
-        "options": {
-          "1": "A – IV, B – III, C – II, D – I",
-          "2": "A – III, B – I, C – IV, D – II",
-          "3": "A – II, B – I, C – IV, D – III",
-          "4": "A – II, B – IV, C – I, D – III"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2024-R1-Q11",
         "sourceYear": 2024,
         "sourceNumber": 10,
@@ -6370,32 +5978,6 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
-      },
-      {
-        "id": "hf2022-9a0939eb94",
-        "sourceYear": 2022,
-        "sourceNumber": 12,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "stem": "A spherical ball is dropped in a long column of a highly viscous liquid. The curve in the graph shown which represents the speed of the ball $ ( \\mathrm { v } ) $ as a function of time $ ( \\mathrm { t } ) $ is:",
-        "options": {
-          "1": "D",
-          "2": "A",
-          "3": "B",
-          "4": "C"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
       },
       {
         "id": "hf2024-b996427bb2",

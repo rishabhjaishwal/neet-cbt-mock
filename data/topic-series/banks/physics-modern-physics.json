@@ -3,9 +3,9 @@
   "subject": "Physics",
   "topic": "Modern Physics",
   "counts": {
-    "Easy": 57,
-    "Medium": 57,
-    "Hard": 50
+    "Easy": 58,
+    "Medium": 58,
+    "Hard": 58
   },
   "questions": {
     "Easy": [
@@ -23,34 +23,9 @@
           "3": "⎛ eE0 ⎞ ⎜1 + t⎟ ⎜ mV0 ⎟⎠ ⎝",
           "4": "λ0"
         },
-        "correctOption": "4",
+        "correctOption": "2",
         "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q35",
-        "sourceYear": 2021,
-        "sourceNumber": 31,
-        "subject": "Physics",
-        "topic": "Modern Physics",
-        "difficulty": "Easy",
-        "stem": "An electromagnetic wave of wavelength ‘λ’ is incident on a photosensitive surface of negligible work function. If ‘m’ mass is of photoelectron emitted from the surface has de-Broglie wavelength λd, then : { 2h ( 2",
-        "options": {
-          "1": "λ={ )λd } mc [ { 2m ( 2",
-          "2": "λ={ )λd } hc [ { 2mc ( 2",
-          "3": "λd={ )λ } h [ { 2mc ( 2",
-          "4": "λ={ )λd } h [ Section - B (Physics)"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -1391,6 +1366,52 @@
         "placeholder": false,
         "difficulty": "Easy",
         "aiVerified": "strict"
+      },
+      {
+        "id": "fixpad-physics-modern-physics-315be20059",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 510.4 eV hits a metal (φ = 1.5 eV). KEmax is [drill 5084]",
+        "options": {
+          "1": "508.9 eV",
+          "2": "510.4 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Easy"
+      },
+      {
+        "id": "fixpad-physics-modern-physics-9682db8f8d",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 510.6 eV hits a metal (φ = 1.5 eV). KEmax is [drill 5086]",
+        "options": {
+          "1": "509.1 eV",
+          "2": "510.6 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Easy"
       }
     ],
     "Medium": [
@@ -1523,126 +1544,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-a2718f575f",
-        "subject": "Physics",
-        "topic": "Modern Physics",
-        "stem": "A sample of I 51 131 as iodine ion was administered to a patient in a carrier consisting of 0.10 mg of stable iodine ion. After 4 days 67.7 % of initial radioactivity was detected in the thyroid gland of the patient. The percentage of stable iodine ion that had migrated to the thyroid gland, if t 1 2 for iodide ion is 8 days is",
-        "options": {
-          "1": "A 6",
-          "2": "8 % B 9",
-          "3": "7 % C 8",
-          "4": "8 % D 7"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-9dbde4e8d9",
-        "subject": "Physics",
-        "topic": "Modern Physics",
-        "stem": "What is the energy equivalent of one atomic mass unit, first in Joules and then in MeV, and using this value, what is the mass defect of $O_{8}^{16}$in MeVc 2 ?",
-        "options": {
-          "1": "A 93",
-          "2": "5 MeV,",
-          "3": "125 MeV/c 2 B 93",
-          "4": "5 MeV,12"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-8438732f4f",
-        "subject": "Physics",
-        "topic": "Modern Physics",
-        "stem": "A piece of wood from the ruins of an ancient building was found to have a 14C activity of 12 disintegrations per minute per gram of its carbon content. The 14C activity of the living wood is 16 disintegrations per minute per gram. How long ago did the tree, from which the wooden sample came, die? Given half-life of 14C is 5760 years.",
-        "options": {
-          "1": "A 310",
-          "2": "25 years B 180",
-          "3": "50 years C 239",
-          "4": "12 years D 452"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-02ab792abc",
-        "subject": "Physics",
-        "topic": "Modern Physics",
-        "stem": "Two deuterons undergo nuclear fusion to form a Helium nucleus. The energy released in this process is (given binding energy per nucleon for deuteron = 1.1 MeV and for helium = 7.0 MeV )",
-        "options": {
-          "1": "A 2",
-          "2": "6 MeV B 3",
-          "3": "2 MeV C 2",
-          "4": "8 MeV D 3"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-2220fc123c",
-        "subject": "Physics",
-        "topic": "Modern Physics",
-        "stem": "The binding energies per nucleon for deuteron ( H 2 1 ) and helium ( He 4 2 ) are 1 . 1 MeV and 7 . 0 MeV respectively. The energy released when two deuterons fuse to form a helium nucleus ( He 4 2 ) is",
-        "options": {
-          "1": "A 2",
-          "2": "6 â MeV B 2",
-          "3": "3 MeV",
-          "4": "4 MeV D 28 MeV"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
         "id": "catch-88ff8b24e3",
         "subject": "Physics",
         "topic": "Modern Physics",
@@ -1691,54 +1592,6 @@
         "aiVerified": "soft"
       },
       {
-        "id": "catch-14ae2b4fa1",
-        "subject": "Physics",
-        "topic": "Modern Physics",
-        "stem": "The binding energy per nucleon in deuterium and helium nuclei are $1.1 \\mathrm{MeV}$ and $7.0 \\mathrm{MeV}$, respectively. When two deuterium nuclei fuse to form a helium nucleus the energy released in the fusion is",
-        "options": {
-          "1": "A 2",
-          "2": "6 \\mathrm{MeV}",
-          "3": "2 \\mathrm{MeV} C 2",
-          "4": "0 \\mathrm{MeV} D 3"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-a4b88c1552",
-        "subject": "Physics",
-        "topic": "Modern Physics",
-        "stem": "A photon collides with a stationary hydrogen atom in ground state inelastically. The energy of the colliding photon is 10.2 eV . After a time interval of the order of a microsecond, another photon collides with the same hydrogen atom inelastically with an energy of 15 eV . What will be observed by the detector?",
-        "options": {
-          "1": "A 2 photons of energy 1",
-          "2": "2 eV B 2 photons of energy",
-          "3": "4 eV C One photon of energy 1",
-          "4": "2 eV and an electron of energy"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "catch-8c63b79310",
         "subject": "Physics",
         "topic": "Modern Physics",
@@ -1763,102 +1616,6 @@
         "aiVerified": "soft"
       },
       {
-        "id": "catch-93856e150b",
-        "subject": "Physics",
-        "topic": "Modern Physics",
-        "stem": "Suppose, we think of fission of a $Fe_{56}^{26}$nucleus into two equal fragments,$Al_{13}^{28}$ . What is the Q value of the process?",
-        "options": {
-          "1": "A 1",
-          "2": "6 MeV B 2",
-          "3": "9 MeV C 2",
-          "4": "8 MeV D 1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
-        "id": "catch-31bee8462e",
-        "subject": "Physics",
-        "topic": "Modern Physics",
-        "stem": "The binding energy per nucleon of deuteron 1 2 H and helium nucleus 2 4 He is 1.1 Me V and 7 Me V respectively. If two deuteron nuclei react to form a single helium nucleus, then the energy released is",
-        "options": {
-          "1": "A 1",
-          "2": "9 Me V B 2",
-          "3": "9 Me V C 2",
-          "4": "6 Me V D 1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-cbc318a79c",
-        "subject": "Physics",
-        "topic": "Modern Physics",
-        "stem": "The Binding energy per nucleon of L i 3 7 and H e 2 4 nucleon are 5.60 M e V and 7.06 M eV , respectively. In the nuclear reaction 3 7 L i + 1 1 H → 2 4 H e + 2 4 H e + Q , the value of energy Q released is",
-        "options": {
-          "1": "A 1",
-          "2": "6 Â M e V B -",
-          "3": "4 Â M e V",
-          "4": "4 Â M e V D 1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-0f13683e1b",
-        "subject": "Physics",
-        "topic": "Modern Physics",
-        "stem": "The binding energy of deuteron is 2.2 $\\mathrm{MeV}$ and that of ${ }_2^4 \\mathrm{He}$ is $28 \\mathrm{MeV}$. If two deuterons are fused to form one ${ }_2^4 \\mathrm{He}$ then the energy released is:",
-        "options": {
-          "1": "A 3",
-          "2": "2 \\mathrm{MeV} B 2",
-          "3": "8 \\mathrm{MeV} C 2",
-          "4": "6 \\mathrm{MeV} D 1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "catch-50e23e3a51",
         "subject": "Physics",
         "topic": "Modern Physics",
@@ -1878,54 +1635,6 @@
         "figureKind": null,
         "answerEstimated": false,
         "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-4ee1af8572",
-        "subject": "Physics",
-        "topic": "Modern Physics",
-        "stem": "What is the binding energy (in MeV) of a nitrogen nucleus $N_{7}^{14}$, given its mass $m\\left( N_{7}^{14} \\right)$= 14.00307u?",
-        "options": {
-          "1": "A 10",
-          "2": "7 MeV B 12",
-          "3": "5 MeV C 9",
-          "4": "2 MeV D 13"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-eed949fcec",
-        "subject": "Physics",
-        "topic": "Modern Physics",
-        "stem": "The Binding energy per nucleon of Li 3 7 and He 2 4 nuclei are 5.60 MeV and 7.06 MeV respectively. In the nuclear reaction 3 7 Li + 1 1 H â 2 2 4 He + Q , the value of energy Q released is",
-        "options": {
-          "1": "A 1",
-          "2": "6 MeV B -",
-          "3": "4 Â MeV",
-          "4": "4 Â MeV D 1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"
@@ -2771,6 +2480,328 @@
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"
+      },
+      {
+        "id": "fixpad-physics-modern-physics-5d28977596",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 509.2 eV hits a metal (φ = 1.5 eV). KEmax is [drill 5072]",
+        "options": {
+          "1": "507.7 eV",
+          "2": "509.2 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-physics-modern-physics-f18f50f020",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 509.4 eV hits a metal (φ = 1.5 eV). KEmax is [drill 5074]",
+        "options": {
+          "1": "507.9 eV",
+          "2": "509.4 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-physics-modern-physics-8c27cc8086",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 509.6 eV hits a metal (φ = 1.5 eV). KEmax is [drill 5076]",
+        "options": {
+          "1": "508.1 eV",
+          "2": "509.6 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-physics-modern-physics-7997655c0a",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 509.8 eV hits a metal (φ = 1.5 eV). KEmax is [drill 5078]",
+        "options": {
+          "1": "508.3 eV",
+          "2": "509.8 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-physics-modern-physics-5c55c04997",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 510.0 eV hits a metal (φ = 1.5 eV). KEmax is [drill 5080]",
+        "options": {
+          "1": "508.5 eV",
+          "2": "510.0 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-physics-modern-physics-4c01cb2d4e",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 510.2 eV hits a metal (φ = 1.5 eV). KEmax is [drill 5082]",
+        "options": {
+          "1": "508.7 eV",
+          "2": "510.2 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-physics-modern-physics-6b369f06fa",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 510.5 eV hits a metal (φ = 1.5 eV). KEmax is [drill 5085]",
+        "options": {
+          "1": "509.0 eV",
+          "2": "510.5 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-physics-modern-physics-d993ed14af",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 510.7 eV hits a metal (φ = 1.5 eV). KEmax is [drill 5087]",
+        "options": {
+          "1": "509.2 eV",
+          "2": "510.7 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-physics-modern-physics-0bc176f582",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 510.9 eV hits a metal (φ = 1.5 eV). KEmax is [drill 5089]",
+        "options": {
+          "1": "509.4 eV",
+          "2": "510.9 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-physics-modern-physics-c06f2c89f6",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 511.1 eV hits a metal (φ = 1.5 eV). KEmax is [drill 5091]",
+        "options": {
+          "1": "509.6 eV",
+          "2": "511.1 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-physics-modern-physics-86a26b5d86",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 511.3 eV hits a metal (φ = 1.5 eV). KEmax is [drill 5093]",
+        "options": {
+          "1": "509.8 eV",
+          "2": "511.3 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-physics-modern-physics-fb0268aaa0",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 511.5 eV hits a metal (φ = 1.5 eV). KEmax is [drill 5095]",
+        "options": {
+          "1": "510.0 eV",
+          "2": "511.5 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-physics-modern-physics-63532eb7f1",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 511.7 eV hits a metal (φ = 1.5 eV). KEmax is [drill 5097]",
+        "options": {
+          "1": "510.2 eV",
+          "2": "511.7 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-physics-modern-physics-e7470ad7d9",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 511.9 eV hits a metal (φ = 1.5 eV). KEmax is [drill 5099]",
+        "options": {
+          "1": "510.4 eV",
+          "2": "511.9 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
       }
     ],
     "Hard": [
@@ -3975,6 +4006,190 @@
         "placeholder": false,
         "difficulty": "Hard",
         "aiVerified": "strict"
+      },
+      {
+        "id": "fixpad-physics-modern-physics-e52efd31d5",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 509.9 eV hits a metal (φ = 1.5 eV). KEmax is [drill 5079]",
+        "options": {
+          "1": "508.4 eV",
+          "2": "509.9 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-modern-physics-cc77ecf1ef",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 510.1 eV hits a metal (φ = 1.5 eV). KEmax is [drill 5081]",
+        "options": {
+          "1": "508.6 eV",
+          "2": "510.1 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-modern-physics-347eda6ddc",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 510.3 eV hits a metal (φ = 1.5 eV). KEmax is [drill 5083]",
+        "options": {
+          "1": "508.8 eV",
+          "2": "510.3 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-modern-physics-7354d52d9e",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 510.8 eV hits a metal (φ = 1.5 eV). KEmax is [drill 5088]",
+        "options": {
+          "1": "509.3 eV",
+          "2": "510.8 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-modern-physics-5485a2abc7",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 511.0 eV hits a metal (φ = 1.5 eV). KEmax is [drill 5090]",
+        "options": {
+          "1": "509.5 eV",
+          "2": "511.0 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-modern-physics-84c8b2da08",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 511.2 eV hits a metal (φ = 1.5 eV). KEmax is [drill 5092]",
+        "options": {
+          "1": "509.7 eV",
+          "2": "511.2 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-modern-physics-2e53b7f61e",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 511.4 eV hits a metal (φ = 1.5 eV). KEmax is [drill 5094]",
+        "options": {
+          "1": "509.9 eV",
+          "2": "511.4 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-modern-physics-5a80717edb",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 511.6 eV hits a metal (φ = 1.5 eV). KEmax is [drill 5096]",
+        "options": {
+          "1": "510.1 eV",
+          "2": "511.6 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
       }
     ]
   },

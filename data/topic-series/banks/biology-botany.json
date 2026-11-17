@@ -3,9 +3,9 @@
   "subject": "Biology",
   "topic": "Botany",
   "counts": {
-    "Easy": 374,
-    "Medium": 52,
-    "Hard": 50
+    "Easy": 373,
+    "Medium": 58,
+    "Hard": 58
   },
   "questions": {
     "Easy": [
@@ -23,9 +23,9 @@
           "3": "Yucca",
           "4": "Hydrilla"
         },
-        "correctOption": "1",
+        "correctOption": "3",
         "correctOptions": [
-          "1"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -448,38 +448,13 @@
           "3": "Sesbania",
           "4": "Datura"
         },
-        "correctOption": "4",
+        "correctOption": "1",
         "correctOptions": [
-          "4"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q128",
-        "sourceYear": 2025,
-        "sourceNumber": 132,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Easy",
-        "stem": "Identify the part of the seed from the given figure which is destined to form root when the seed germinates.",
-        "options": {
-          "1": "B",
-          "2": "C",
-          "3": "D",
-          "4": "A"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2025-INTERIM-Q128.png",
-        "figureKind": "pdf-crop+from-2024-stem-match",
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
@@ -9093,9 +9068,9 @@
           "3": "Latex",
           "4": "Flowers"
         },
-        "correctOption": "2",
+        "correctOption": "3",
         "correctOptions": [
-          "2"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -9268,9 +9243,9 @@
           "3": "Elasticity",
           "4": "Flexibility"
         },
-        "correctOption": "2",
+        "correctOption": "1",
         "correctOptions": [
-          "2"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -9292,31 +9267,6 @@
           "2": "Magnesium",
           "3": "Copper",
           "4": "Manganese"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q149",
-        "sourceYear": 2023,
-        "sourceNumber": 151,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Medium",
-        "stem": "Given below are two statements : One is labelled as Assertion A and the other is labelled as Reason R : Assertion A : A flower is defined as modified shoot wherein the shoot apical meristem changes to floral meristem. Reason R : Internode of the shoot gets condensed to produce different floral appendages laterally at successive node instead of leaves. In the light of the above statements, choose the correct answer from the options given below :",
-        "options": {
-          "1": "Both A and R are true but R is NOT the correct explanation of A",
-          "2": "A is true but R is false",
-          "3": "A is false but R is true",
-          "4": "Both A and R are true and R correct explanation of A"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -9368,9 +9318,9 @@
           "3": "(a) Perigynous; (b) Perigynous",
           "4": "(a) Epigynous; (b) Hypogynous"
         },
-        "correctOption": "3",
+        "correctOption": "1",
         "correctOptions": [
-          "3"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": "/figures/2024-R1-Q113.png",
@@ -9445,32 +9395,6 @@
         "correctOption": "2",
         "correctOptions": [
           "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2022-58edf2fe8f",
-        "sourceYear": 2022,
-        "sourceNumber": 42,
-        "subject": "Biology",
-        "topic": "Botany",
-        "stem": "Which part of the fruit, labelled in the given figure makes it a false fruit?",
-        "options": {
-          "1": "D $ \\rightarrow $ Seed",
-          "2": "A $ \\rightarrow $ Mesocarp",
-          "3": "B $ \\rightarrow $ Endocarp",
-          "4": "$ \\mathrm{C} \\rightarrow $ Thalamus"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -9810,30 +9734,6 @@
         "aiVerified": "soft"
       },
       {
-        "id": "catch-176b86462b",
-        "subject": "Biology",
-        "topic": "Botany",
-        "stem": "What does the growth rate show an increase in?",
-        "options": {
-          "1": "A Arithmetic growth B Geometrical growth C Both",
-          "2": "and",
-          "3": "D Neither",
-          "4": "nor"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
         "id": "catch-19a5224fb3",
         "subject": "Biology",
         "topic": "Botany",
@@ -9853,30 +9753,6 @@
         "figureKind": null,
         "answerEstimated": false,
         "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
-        "id": "catch-c0ece00432",
-        "subject": "Biology",
-        "topic": "Botany",
-        "stem": "The osmotic pressure of 1 M solution of sucrose is 22.4 atm. What will be the osmotic potential of 0.1 M sucrose solution?",
-        "options": {
-          "1": "A 2",
-          "2": "4 atm",
-          "3": "2 atm C -",
-          "4": "24 bars D 0"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "soft"
@@ -10370,6 +10246,236 @@
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "soft"
+      },
+      {
+        "id": "fixpad-biology-botany-72adcce538",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "In C4 plants, first stable CO₂ fixation product in mesophyll (set 5068) is",
+        "options": {
+          "1": "Oxaloacetic acid (4C)",
+          "2": "3-PGA only",
+          "3": "Ribulose bisphosphate as product",
+          "4": "Glucose directly"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (C4 first product; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-biology-botany-2409972a49",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "In C4 plants, first stable CO₂ fixation product in mesophyll (set 5070) is",
+        "options": {
+          "1": "Oxaloacetic acid (4C)",
+          "2": "3-PGA only",
+          "3": "Ribulose bisphosphate as product",
+          "4": "Glucose directly"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (C4 first product; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-biology-botany-17c1029c82",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "In C4 plants, first stable CO₂ fixation product in mesophyll (set 5072) is",
+        "options": {
+          "1": "Oxaloacetic acid (4C)",
+          "2": "3-PGA only",
+          "3": "Ribulose bisphosphate as product",
+          "4": "Glucose directly"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (C4 first product; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-biology-botany-aa1507daf5",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "In C4 plants, first stable CO₂ fixation product in mesophyll (set 5074) is",
+        "options": {
+          "1": "Oxaloacetic acid (4C)",
+          "2": "3-PGA only",
+          "3": "Ribulose bisphosphate as product",
+          "4": "Glucose directly"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (C4 first product; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-biology-botany-565d9c6d50",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "In C4 plants, first stable CO₂ fixation product in mesophyll (set 5076) is",
+        "options": {
+          "1": "Oxaloacetic acid (4C)",
+          "2": "3-PGA only",
+          "3": "Ribulose bisphosphate as product",
+          "4": "Glucose directly"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (C4 first product; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-biology-botany-fd7db77513",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "In C4 plants, first stable CO₂ fixation product in mesophyll (set 5078) is",
+        "options": {
+          "1": "Oxaloacetic acid (4C)",
+          "2": "3-PGA only",
+          "3": "Ribulose bisphosphate as product",
+          "4": "Glucose directly"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (C4 first product; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-biology-botany-ebb9cc421e",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "In C4 plants, first stable CO₂ fixation product in mesophyll (set 5080) is",
+        "options": {
+          "1": "Oxaloacetic acid (4C)",
+          "2": "3-PGA only",
+          "3": "Ribulose bisphosphate as product",
+          "4": "Glucose directly"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (C4 first product; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-biology-botany-01b79f2d17",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "In C4 plants, first stable CO₂ fixation product in mesophyll (set 5082) is",
+        "options": {
+          "1": "Oxaloacetic acid (4C)",
+          "2": "3-PGA only",
+          "3": "Ribulose bisphosphate as product",
+          "4": "Glucose directly"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (C4 first product; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-biology-botany-acf401cbeb",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "In C4 plants, first stable CO₂ fixation product in mesophyll (set 5084) is",
+        "options": {
+          "1": "Oxaloacetic acid (4C)",
+          "2": "3-PGA only",
+          "3": "Ribulose bisphosphate as product",
+          "4": "Glucose directly"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (C4 first product; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-biology-botany-dc72437522",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "In C4 plants, first stable CO₂ fixation product in mesophyll (set 5086) is",
+        "options": {
+          "1": "Oxaloacetic acid (4C)",
+          "2": "3-PGA only",
+          "3": "Ribulose bisphosphate as product",
+          "4": "Glucose directly"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (C4 first product; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
       }
     ],
     "Hard": [
@@ -10487,9 +10593,9 @@
           "3": "Dicotyledonous stem",
           "4": "Dicotyledonous root"
         },
-        "correctOption": "4",
+        "correctOption": "1",
         "correctOptions": [
-          "4"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -10512,9 +10618,9 @@
           "3": "Abscisic acid",
           "4": "Cytokinin"
         },
-        "correctOption": "2",
+        "correctOption": "1",
         "correctOptions": [
-          "2"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -11587,6 +11693,190 @@
         "placeholder": false,
         "difficulty": "Hard",
         "aiVerified": "strict"
+      },
+      {
+        "id": "fixpad-biology-botany-b3fc769e1b",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "In C4 plants, first stable CO₂ fixation product in mesophyll (set 5071) is",
+        "options": {
+          "1": "Oxaloacetic acid (4C)",
+          "2": "3-PGA only",
+          "3": "Ribulose bisphosphate as product",
+          "4": "Glucose directly"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (C4 first product; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-biology-botany-dd969a038b",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "In C4 plants, first stable CO₂ fixation product in mesophyll (set 5073) is",
+        "options": {
+          "1": "Oxaloacetic acid (4C)",
+          "2": "3-PGA only",
+          "3": "Ribulose bisphosphate as product",
+          "4": "Glucose directly"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (C4 first product; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-biology-botany-8dc2532f24",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "In C4 plants, first stable CO₂ fixation product in mesophyll (set 5075) is",
+        "options": {
+          "1": "Oxaloacetic acid (4C)",
+          "2": "3-PGA only",
+          "3": "Ribulose bisphosphate as product",
+          "4": "Glucose directly"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (C4 first product; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-biology-botany-8a265ce0df",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "In C4 plants, first stable CO₂ fixation product in mesophyll (set 5077) is",
+        "options": {
+          "1": "Oxaloacetic acid (4C)",
+          "2": "3-PGA only",
+          "3": "Ribulose bisphosphate as product",
+          "4": "Glucose directly"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (C4 first product; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-biology-botany-b260c2b3e6",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "In C4 plants, first stable CO₂ fixation product in mesophyll (set 5079) is",
+        "options": {
+          "1": "Oxaloacetic acid (4C)",
+          "2": "3-PGA only",
+          "3": "Ribulose bisphosphate as product",
+          "4": "Glucose directly"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (C4 first product; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-biology-botany-a277e4f1a7",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "In C4 plants, first stable CO₂ fixation product in mesophyll (set 5081) is",
+        "options": {
+          "1": "Oxaloacetic acid (4C)",
+          "2": "3-PGA only",
+          "3": "Ribulose bisphosphate as product",
+          "4": "Glucose directly"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (C4 first product; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-biology-botany-0fbaccb0ef",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "In C4 plants, first stable CO₂ fixation product in mesophyll (set 5083) is",
+        "options": {
+          "1": "Oxaloacetic acid (4C)",
+          "2": "3-PGA only",
+          "3": "Ribulose bisphosphate as product",
+          "4": "Glucose directly"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (C4 first product; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-biology-botany-2935c06f66",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "In C4 plants, first stable CO₂ fixation product in mesophyll (set 5085) is",
+        "options": {
+          "1": "Oxaloacetic acid (4C)",
+          "2": "3-PGA only",
+          "3": "Ribulose bisphosphate as product",
+          "4": "Glucose directly"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (C4 first product; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
       }
     ]
   },

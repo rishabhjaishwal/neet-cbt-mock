@@ -4,8 +4,8 @@
   "topic": "Inorganic Chemistry",
   "counts": {
     "Easy": 62,
-    "Medium": 81,
-    "Hard": 50
+    "Medium": 58,
+    "Hard": 58
   },
   "questions": {
     "Easy": [
@@ -23,9 +23,9 @@
           "3": "Fatty acid breakdown",
           "4": "Activation of amino acid"
         },
-        "correctOption": "3",
+        "correctOption": "2",
         "correctOptions": [
-          "3"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -48,9 +48,9 @@
           "3": "3 2 3",
           "4": "2"
         },
-        "correctOption": "1",
+        "correctOption": "4",
         "correctOptions": [
-          "1"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -73,9 +73,9 @@
           "3": "15 bar",
           "4": "18 bar"
         },
-        "correctOption": "2",
+        "correctOption": "3",
         "correctOptions": [
-          "2"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -198,9 +198,9 @@
           "3": "Statement I is false but Statement II is true",
           "4": "Both Statement I and Statement II are true"
         },
-        "correctOption": "4",
+        "correctOption": "1",
         "correctOptions": [
-          "4"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -1588,56 +1588,6 @@
         "placeholder": false
       },
       {
-        "id": "2020-E1-Q123",
-        "sourceYear": 2020,
-        "sourceNumber": 61,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Medium",
-        "stem": "The average thermal energy for a mono-atomic gas is : (kB is Boltzmann constant and T, absolute temperature) 5",
-        "options": {
-          "1": "kBT 2 7",
-          "2": "kBT 2 1",
-          "3": "kBT 2 3",
-          "4": "kBT 2 Hindi+English 8"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q165",
-        "sourceYear": 2020,
-        "sourceNumber": 80,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Medium",
-        "stem": "A mixture of N2 and Ar gases in a cylinder contains 7 g of N2 and 8 g of Ar. If the total pressure of the mixture of the gases in the cylinder is 27 bar, the partial pressure of N2 is : [Use atomic masses (in g mol−1) : N=14, Ar=40]",
-        "options": {
-          "1": "12 bar",
-          "2": "15 bar",
-          "3": "18 bar",
-          "4": "9 bar Hindi+English 6"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2023-F1-Q83",
         "sourceYear": 2023,
         "sourceNumber": 82,
@@ -1650,31 +1600,6 @@
           "2": "2.64 g",
           "3": "1.32 g",
           "4": "1.12 g"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q162",
-        "sourceYear": 2023,
-        "sourceNumber": 100,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Medium",
-        "stem": "Which of the following are NOT considered as the part of endomembrane system? A. Mitochondria B. Endoplasmic reticulum C. Chloroplasts D. Golgi complex E. Peroxisomes Choose the most appropriate answer from the options given below:",
-        "options": {
-          "1": "A, C and E only",
-          "2": "A and D only",
-          "3": "A, D and E only",
-          "4": "B and D only"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -1971,54 +1896,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-c505cbbe82",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "Match the catalysts (Column I) with products (Column II) Column I Column II (1) V 2 O 5 (i) Polyethylene (2) T i C l 4 / A l ( M e ) 3 (ii) ethanal (3) P d C l 2 (iii) H 2 S O 4 (4) Iron Oxide (iv) N H 3",
-        "options": {
-          "1": "A (",
-          "2": "â (ii); (",
-          "3": "â (iii); (",
-          "4": "â (i); ("
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-6c06a17bf4",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "The magnetic moment of [MnClâ]Â²â» is 5.92 BM. Explain giving a reason.",
-        "options": {
-          "1": "A The manganese ion has a dâµ configuration, leading to a magnetic moment of",
-          "2": "92 BM. B The manganese ion has a dÂ³ configuration, resulting in a magnetic moment of",
-          "3": "92 BM. C The manganese ion has a dâ´ configuration, causing a magnetic moment of",
-          "4": "92 BM. D The manganese ion has a dâ¶ configuration, contributing to a magnetic moment of"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
         "id": "catch-6e949036c2",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
@@ -2043,54 +1920,6 @@
         "aiVerified": "soft"
       },
       {
-        "id": "catch-a77e829803",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "Which of the following is the correct magnetic moment of Fe 2+ ?",
-        "options": {
-          "1": "A 0",
-          "2": "73",
-          "3": "92",
-          "4": "90"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
-        "id": "catch-70ddf2673d",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "The electron energy in hydrogen atom is given by - E n = ( â2.18 Ã 10 â18 ) / n 2 J. (i)Calculate the energy required to remove an electron completely from the n = 2 orbit. (ii)What is the longest wavelength of light in cm that can be used to cause this transition?",
-        "options": {
-          "1": "A (i)",
-          "2": "58 Ã 10 â19 J and (ii)9852Ã B (i)",
-          "3": "58 Ã 10 â19 J and (ii)3647Ã C (i)",
-          "4": "45 Ã 10 â19 J and (ii)6587Ã D (i)"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "catch-8e9ba65529",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
@@ -2110,30 +1939,6 @@
         "figureKind": null,
         "answerEstimated": false,
         "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
-        "id": "catch-5111be2e30",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "The number of d-electrons in F e 2 + (Z = 26) is not equal to the number of electrons in which one of the following?",
-        "options": {
-          "1": "A p-electrons in Cl (Z = 1",
-          "2": "B d-electrons in Fe (Z= 2",
-          "3": "C p-electrons in Ne (Z = 1",
-          "4": "D s-electrons in Mg (Z = 1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "soft"
@@ -2187,222 +1992,6 @@
         "aiVerified": "soft"
       },
       {
-        "id": "catch-6eda4e83d3",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "In sulphur estimation, 0.157 g of an organic compound gave 0.4813 g of barium sulphate. What is the percentage of sulphur in the compound?",
-        "options": {
-          "1": "A Percentage of sulphur= 7",
-          "2": "36% B Percentage of sulphur= 2",
-          "3": "18% C Percentage of sulphur= 6",
-          "4": "10% D Percentage of sulphur= 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-9733d693b9",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "If $n=6$, the correct sequence for filling of electrons will be",
-        "options": {
-          "1": "A n s \\longrightarrow(n-",
-          "2": "d \\longrightarrow(n-",
-          "3": "f \\longrightarrow n p B n s \\longrightarrow(n-",
-          "4": "f \\longrightarrow n p \\longrightarrow(n-"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
-        "id": "catch-09079e99f3",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "The relative reactivity of 1Â°, 2Â°, 3Â° hydrogenâs towards chlorination is 1: 3.8 :5. Calculate the percentages of all monochlorinated products obtained from 2-methylbutane.",
-        "options": {
-          "1": "A 1Â° monochlorinated product = 4",
-          "2": "7% , 2Â° monochlorinated product = 3",
-          "3": "2% and 3Â° monochlorinated product = 4",
-          "4": "1% B 1Â° monochlorinated product = 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-88eadef4ee",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "At which element in the actinoid series do the 5f orbitals become complete?",
-        "options": {
-          "1": "A Thorium (Z = 9",
-          "2": "B Uranium (Z = 9",
-          "3": "C Neptunium (Z = 9",
-          "4": "D Element 103"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
-        "id": "catch-1a91e6e315",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "The first ionization potential of Na is 5.1 eV. The value of electron gain enthalpy of N a + will be",
-        "options": {
-          "1": "A -",
-          "2": "1 eV B -1",
-          "3": "2 eV C +",
-          "4": "55 eV D -"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
-        "id": "catch-c8593fba2b",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "What mass of sodium chloride would be decomposed by 9.8 g of sulphuric acid if 12 g of sodium bisulphate and 2.75 g of hydrogen chloride were produced in a reaction?",
-        "options": {
-          "1": "A 1",
-          "2": "75 g",
-          "3": "8 g",
-          "4": "85 g"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-736a969080",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "34.05 mL of phosphorus vapour weighs 0.0625 g at 546 Â°C and 0.1 bar pressure. What is the molar mass of phosphorus closest to?",
-        "options": {
-          "1": "A 124",
-          "2": "5 g mol -1 B 129",
-          "3": "4 g mol -1 C 1285 g mol -1 D 115",
-          "4": "8 g mol -1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-6c46a16c5b",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "In hydrogen atom, the de-Broglie wavelength of an electron in the second Bohr orbit is [Given that, Bohr radius, $\\mathrm{a}_0=52.9 \\mathrm{pm}$ ]",
-        "options": {
-          "1": "A 21",
-          "2": "6 \\mathrm{pm} B 21",
-          "3": "6 \\pi \\mathrm{pm} C 5",
-          "4": "9 \\pi \\mathrm{pm} D 10"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-8d4da6ae26",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "Which element is an exception regarding the occupancy of 5f orbitals?",
-        "options": {
-          "1": "A Thorium (Z = 9",
-          "2": "B Uranium (Z = 9",
-          "3": "C Neptunium (Z = 9",
-          "4": "D Element 103"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
         "id": "catch-17b26bf9bb",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
@@ -2422,78 +2011,6 @@
         "figureKind": null,
         "answerEstimated": false,
         "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
-        "id": "catch-56797b8bd7",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "1.6 g of an organic compound gave 2.6 g of magnesium pyrophosphate. The percentage of phosphorus in the compound is",
-        "options": {
-          "1": "A 4",
-          "2": "38% B 5",
-          "3": "38% C 3",
-          "4": "76% D 1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-e08d311f59",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "A balloon is filled with hydrogen at room temperature. It will burst if pressure exceeds 0.2 bar. If at 1 bar pressure the gas occupies 2.27 L volume, upto what volume can the balloon be expanded?",
-        "options": {
-          "1": "A 1",
-          "2": "95 L B 1",
-          "3": "65 L C 1",
-          "4": "35 L D 1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-ea0e5263cd",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "What is the stereochemistry and magnetic moment of [CrCl 3 (py) 3 ]?",
-        "options": {
-          "1": "A exists in fac and mer forms and",
-          "2": "23 BM B exhibits only geometrical isomerism and",
-          "3": "87 BM C no stereoisomerism and",
-          "4": "87 BM D exists in fac and mer forms and"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "soft"
@@ -2523,174 +2040,6 @@
         "aiVerified": "soft"
       },
       {
-        "id": "catch-7c74dfafa5",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "In which family does hydrogen exhibit properties similar to when it gains an electron?",
-        "options": {
-          "1": "A Alkali metals (group",
-          "2": "B Noble gases (group 1",
-          "3": "C Halogen family (group 1",
-          "4": "D Alkaline earth metals (group"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-80f0bec08e",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "The ammonia ( N H 3 ) released on quantitative reaction of 0.6 g urea ( N H 2 C O N H 2 ) with sodium hydroxide (NaOH) can be neutralized by",
-        "options": {
-          "1": "A 200 ml of",
-          "2": "4 N HCl B 200 ml of",
-          "3": "2 N HCl C 100 ml of",
-          "4": "1 N HCl D 100 ml of"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-dc63393c11",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "What is the mass percent of calcium, phosphorus, and oxygen in calcium phosphate Ca 3 (PO 4 ) 2 ?",
-        "options": {
-          "1": "A 3",
-          "2": "71%, 20%, 4",
-          "3": "29% B 20%, 3",
-          "4": "71%, 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-5e724877e5",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "The Balmer series in the hydrogen spectrum corresponds to the transition from n = 2 to n = 3,4,... This series lies in the visible region. Calculate the wave number of line associated with the transition in Balmer series when the electron moves to n = 4 orbit. (Given RH = 109677 cmâ»Â¹).",
-        "options": {
-          "1": "A 2056",
-          "2": "44 cmâ»Â¹ B 27",
-          "3": "63 cmâ»Â¹ C 13",
-          "4": "815 cmâ»Â¹ D 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-3c611d957f",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "Which of the following is the energy of a possible excited state of hydrogen?",
-        "options": {
-          "1": "A +",
-          "2": "8 eV B + 1",
-          "3": "6 eV C -",
-          "4": "8 eV D -"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-3573474049",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "The energy associated with the first orbit in the hydrogen atom is â2.18 Ã 10 â18 J atom â1 . What is the energy associated with the fifth orbit?",
-        "options": {
-          "1": "A -",
-          "2": "72 Ã10 â20 J/atom B -",
-          "3": "72 Ã10 â20 J/atom C -",
-          "4": "72 Ã10 â20 J/atom D -"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-db00c24095",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "In the Kjedahl's method for estimation of nitrogen present in soil sample, ammonia evolved from 0.75 g of sample neutralized 1 0 m l of 1 M H 2 S O 4 The percentage of nitrogen in the soil is:",
-        "options": {
-          "1": "A 3",
-          "2": "83 B 4",
-          "3": "3 2 C 3",
-          "4": "33 D 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "catch-5ba048cf3d",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
@@ -2715,15 +2064,15 @@
         "aiVerified": "soft"
       },
       {
-        "id": "catch-8f16f43d82",
+        "id": "fixpad-chemistry-inorganic-chemistry-51e3d8c623",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "During estimation of nitrogen present in an organic compound by Kjeldahlâs method, the ammonia evolved from 0.5 g of the compound in Kjeldahlâs estimation of nitrogen, neutralized 10 mL of 1 M H 2 SO 4 .Find out the percentage of nitrogen in the compound.",
+        "stem": "Correct statement about coordination compounds (set 5056)",
         "options": {
-          "1": "A Percentage of nitrogen=3",
-          "2": "0% B Percentage of nitrogen=4",
-          "3": "0% C Percentage of nitrogen=5",
-          "4": "0% D Percentage of nitrogen=6"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -2733,21 +2082,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-63f9390890",
+        "id": "fixpad-chemistry-inorganic-chemistry-5a80f8e7ce",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "What happens to the energy of the eg orbitals in an octahedral complex?",
+        "stem": "Correct statement about coordination compounds (set 5058)",
         "options": {
-          "1": "A It decreases by (3/",
-          "2": "Do B It increases by (3/",
-          "3": "Do C It decreases by (2/",
-          "4": "Do D It increases by (2/"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -2757,21 +2105,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-e66f6d5c6c",
+        "id": "fixpad-chemistry-inorganic-chemistry-aae428cb7c",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "In Carius method of estimation of halogen, 0.15 g of an organic compound gave 0.12 g of AgBr. Find out the percentage of bromine in the compound.",
+        "stem": "Correct statement about coordination compounds (set 5060)",
         "options": {
-          "1": "A Percentage of bromine=3",
-          "2": "04% B Percentage of bromine=1",
-          "3": "25% C Percentage of bromine=4",
-          "4": "89% D Percentage of bromine=5"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -2781,21 +2128,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-6e488f1dc8",
+        "id": "fixpad-chemistry-inorganic-chemistry-330276a4de",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "In which period does the filling of 2p orbitals begin?",
+        "stem": "Correct statement about coordination compounds (set 5062)",
         "options": {
-          "1": "A The second period (n =",
-          "2": "B The third period (n =",
-          "3": "C The fourth period (n =",
-          "4": "D The fifth period (n ="
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -2805,21 +2151,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-4d3b30258a",
+        "id": "fixpad-chemistry-inorganic-chemistry-22b257ac56",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "What is the stereochemistry and magnetic moment of Cs[FeCl 4 ]?",
+        "stem": "Correct statement about coordination compounds (set 5064)",
         "options": {
-          "1": "A exhibits only optical isomerism and",
-          "2": "57 BM B does not exhibit geometrical or optical isomerism and",
-          "3": "92 BM C exhibits only geometrical isomerism and",
-          "4": "87 BM D exhibits both geometrical or optical isomerism and"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -2829,21 +2174,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-01b2f0d24c",
+        "id": "fixpad-chemistry-inorganic-chemistry-74118b9611",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "Which elements are included in the Lanthanoid series?",
+        "stem": "Correct statement about coordination compounds (set 5066)",
         "options": {
-          "1": "A Ce(Z = 5",
-          "2": "â Lu(Z = 7",
-          "3": "B Th(Z = 9",
-          "4": "â Lr (Z = 10"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -2853,21 +2197,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-14e835cfad",
+        "id": "fixpad-chemistry-inorganic-chemistry-d0a69389f9",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "Which transition metal carbonyl has a tetrahedral structure?",
+        "stem": "Correct statement about coordination compounds (set 5068)",
         "options": {
-          "1": "A Tetracarbonylnickel(",
-          "2": "B Pentacarbonyliron(",
-          "3": "C Hexacarbonyl chromium(",
-          "4": "D Decacarbonyldimanganese("
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -2877,21 +2220,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-1aef5d9443",
+        "id": "fixpad-chemistry-inorganic-chemistry-66908f1e65",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "In the estimation of sulphur by Carius method, 0.468 g of an organic sulphur compound afforded 0.668 g of barium sulphate. Find out the percentage of sulphur in the given compound.",
+        "stem": "Correct statement about coordination compounds (set 5070)",
         "options": {
-          "1": "A % of sulphur = 8",
-          "2": "35 B % of sulphur = 3",
-          "3": "12 C % of sulphur = 1",
-          "4": "66 D % of sulphur = 4"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -2901,21 +2243,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-97f314fc4f",
+        "id": "fixpad-chemistry-inorganic-chemistry-d3c3c9a544",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "What is the stereochemistry and magnetic moment of K[Cr(H 2 O) 2 (C 2 O 4 ) 2 ].3H 2 O?",
+        "stem": "Correct statement about coordination compounds (set 5072)",
         "options": {
-          "1": "A exhibits only geometrical isomerism and",
-          "2": "43BM B exhibits geometrical and optical isomerism and",
-          "3": "87BM C exhibits only optical isomerism and",
-          "4": "51BM D exhibits no stereoisomerism and"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -2925,21 +2266,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-dfabb331e6",
+        "id": "fixpad-chemistry-inorganic-chemistry-a9e482095d",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "Using valence bond theory, explain the following in relation to the complexes given below: [Mn(CN) 6 ] 3â , [Co(NH 3 ) 6 ] 3+ , [Cr(H 2 O) 6 ] 3+ , [FeCl 6 ] 4â Choose the correct option regarding spin-only magnetic moment value.",
+        "stem": "Correct statement about coordination compounds (set 5074)",
         "options": {
-          "1": "A [Mn(CN) 6 ] 3â :",
-          "2": "87 BM B [Co(NH 3 ) 6 ] 3+ :",
-          "3": "87 BM C [Cr(H 2 O) 6 ] 3+ : 0 BM D [FeCl 6 ] 4â :",
-          "4": "73 BM"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -2949,21 +2289,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-1804782675",
+        "id": "fixpad-chemistry-inorganic-chemistry-da4a8b2871",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "What is the general electronic configuration of the outer orbitals for d-Block elements?",
+        "stem": "Correct statement about coordination compounds (set 5076)",
         "options": {
-          "1": "A (n-",
-          "2": "d1â10ns1â2 B (n-",
-          "3": "d1â9ns1â2 C (n-",
-          "4": "d2â10ns1â2 D (n-"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -2973,21 +2312,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-bc8ffcea0b",
+        "id": "fixpad-chemistry-inorganic-chemistry-b6c688afd9",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "Within which range of atomic numbers,is there a significant increase in the density of these elements?",
+        "stem": "Correct statement about coordination compounds (set 5078)",
         "options": {
-          "1": "A From Z = 1 to Z = 2",
-          "2": "B From Z = 22 to Z = 2",
-          "3": "C From Z = 29 to Z = 5",
-          "4": "D From Z = 50 to Z = 7"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -2997,21 +2335,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-bad7be0c7a",
+        "id": "fixpad-chemistry-inorganic-chemistry-f7304d47af",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "Using crystal field theory, choose the correct option regarding the electronic configuration of the central metal atom/ion, and determine the magnetic moment value in the following: [FeF 6 ] 3â , [Fe(H 2 O) 6 ] 2+ , [Fe(CN) 6 ] 4â",
+        "stem": "Correct statement about coordination compounds (set 5080)",
         "options": {
-          "1": "A [FeF 6 ] 3â : High spin, 1 unpaired electron, magnetic moment =",
-          "2": "73 BM B [Fe(H 2 O) 6 ] 2+ : Low spin, 4 unpaired electrons, magnetic moment =",
-          "3": "90 BM C [Fe(CN) 6 ] 4â : Low spin, 0 unpaired electrons, magnetic moment = 0 BM D [FeF 6 ] 3â : Low spin, 1 unpaired electron, magnetic moment =",
-          "4": "73 BM"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -3021,21 +2358,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-efb5670d4f",
+        "id": "fixpad-chemistry-inorganic-chemistry-fee5ce6ffe",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "Why is Cr2+ reducing?",
+        "stem": "Correct statement about coordination compounds (set 5082)",
         "options": {
-          "1": "A Because its d4 configuration changes to d",
-          "2": "B Because its d4 configuration changes to d",
-          "3": "C Because its d4 configuration changes to d",
-          "4": "D Because its d4 configuration changes to d"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -3045,21 +2381,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-b20b07e241",
+        "id": "fixpad-chemistry-inorganic-chemistry-378ceec555",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "The spin only magnetic moment value (in Bohr's magneton units) of [Cr(CO) 6 ] is:",
+        "stem": "Correct statement about coordination compounds (set 5084)",
         "options": {
-          "1": "A 0",
-          "2": "84",
-          "3": "90",
-          "4": "92"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -3069,21 +2404,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-d90a37b2df",
+        "id": "fixpad-chemistry-inorganic-chemistry-be79d932c1",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "What is the stereochemistry and magnetic moment of K 4 [Mn(CN) 6 ]?",
+        "stem": "Correct statement about coordination compounds (set 5086)",
         "options": {
-          "1": "A does not exhibit stereoisomerism and",
-          "2": "73 BM B exhibit stereoisomerism and",
-          "3": "73 BM C only exhibits geometrical isomerism and",
-          "4": "58 BM D only exhibits optical isomerism and"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -3093,21 +2427,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-9fe95edc04",
+        "id": "fixpad-chemistry-inorganic-chemistry-74335df97e",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "Calculate the mass per cent of different elements present in sodium sulphate (Na 2 SO 4 )",
+        "stem": "Correct statement about coordination compounds (set 5088)",
         "options": {
-          "1": "A Mass% of Na is 3",
-          "2": "4%, Mass% of S is 2",
-          "3": "5%, Mass% of O is 45% B Mass% of Na is 3",
-          "4": "4%, Mass% of S is 45%, Mass% of O is 2"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -3117,21 +2450,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-f809f20aa7",
+        "id": "fixpad-chemistry-inorganic-chemistry-eb3f9d37f1",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "Because of lanthanoid contraction, which of the following pairs of elements have nearly same atomic radii? (Numbers in the parenthesis are atomic numbers).",
+        "stem": "Correct statement about coordination compounds (set 5090)",
         "options": {
-          "1": "A Zr (4",
-          "2": "and Nb (4",
-          "3": "B Zr (4",
-          "4": "and Hf (7"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -3141,21 +2473,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-9dca7992c2",
+        "id": "fixpad-chemistry-inorganic-chemistry-78516982ec",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "What is the total pressure in a mixture of 8 g of dioxygen and 4 g of dihydrogen confined in a vessel of 1 dm 3 at 27Â°C? (R = 0.083 bar dm 3 K â1 mol â1 )",
+        "stem": "Correct statement about coordination compounds (set 5092)",
         "options": {
-          "1": "A 5",
-          "2": "645 bar B 5",
-          "3": "025 bar C 5",
-          "4": "458 bar D 4"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -3165,21 +2496,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-9fd561438c",
+        "id": "fixpad-chemistry-inorganic-chemistry-25ba880fa1",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "What are the frequency and wavelength of a photon emitted during a transition from n = 5 state to the n = 2 state in the hydrogen atom?",
+        "stem": "Correct statement about coordination compounds (set 5094)",
         "options": {
-          "1": "A Frequency is",
-          "2": "91Ã10 14 Hz and Wavelength is 434nm B Frequency is",
-          "3": "91Ã10 14 Hz and Wavelength is 685nm C Frequency is",
-          "4": "54Ã10 14 Hz and Wavelength is 434nm D Frequency is"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -3189,21 +2519,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-e158873573",
+        "id": "fixpad-chemistry-inorganic-chemistry-5f6c3459e2",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "Why is Mn3+ oxidizing?",
+        "stem": "Correct statement about coordination compounds (set 5096)",
         "options": {
-          "1": "A Because its d4 configuration changes to d",
-          "2": "B Because its d5 configuration changes to d",
-          "3": "C Because its d3 configuration changes to d",
-          "4": "D Because its d4 configuration changes to d"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -3213,21 +2542,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-24d46f819f",
+        "id": "fixpad-chemistry-inorganic-chemistry-a38a939be7",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "What is the electronic configuration and magnetic moment of Ce 3+ ion?",
+        "stem": "Correct statement about coordination compounds (set 5098)",
         "options": {
-          "1": "A [Xe]4f 5 and",
-          "2": "87 BM B [Xe]4f 1 and",
-          "3": "58 BM C [Xe]4f 3 and",
-          "4": "73 BM D [Xe]4f 1 and"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -3237,21 +2565,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-9c1a78e5d2",
+        "id": "fixpad-chemistry-inorganic-chemistry-c91197977b",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "What are the equivalent temperatures in Celsius and Fahrenheit for the triple points of neon and carbon dioxide, which are 24.57 K and 216.55 K, respectively?",
+        "stem": "Correct statement about coordination compounds (set 5100)",
         "options": {
-          "1": "A Neon: -24",
-          "2": "58Â°C and -41",
-          "3": "44Â°F; Carbon Dioxide: -5",
-          "4": "60Â°C and -6"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -3261,21 +2588,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-0a8dca622d",
+        "id": "fixpad-chemistry-inorganic-chemistry-94cc18a93b",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "In octahedral crystal field, the t 2 g orbitals are",
+        "stem": "Correct statement about coordination compounds (set 5102)",
         "options": {
-          "1": "A Raised in energy by",
-          "2": "4 Î 0 B Lowered in energy by",
-          "3": "4 Î 0 C Raised in energy by",
-          "4": "6 Î 0 D Lowered in energy by"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -3285,21 +2611,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-2fea4f3637",
+        "id": "fixpad-chemistry-inorganic-chemistry-92ee3a9236",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "Two ideal gas thermometers A and B use oxygen and hydrogen respectively. The following observations are made : What is the absolute temperature of normal melting point of sulphur as read by thermometers A and B ?",
+        "stem": "Correct statement about coordination compounds (set 5104)",
         "options": {
-          "1": "A 66",
-          "2": "4K B 26",
-          "3": "11K C 44",
-          "4": "6K D 39"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -3309,21 +2634,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-ac0c99b854",
+        "id": "fixpad-chemistry-inorganic-chemistry-f02442f7a7",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "What is the general outer electronic configuration of d and p block elements?",
+        "stem": "Correct statement about coordination compounds (set 5106)",
         "options": {
-          "1": "A (n)d 1-10 (n+",
-          "2": "s 0-2 and ns 2 (n+",
-          "3": "p 1-6 B (n-",
-          "4": "d 1-20 ns 0-3 and ns 1 np 1-6 C (n-"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -3333,21 +2657,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-a51f9496d6",
+        "id": "fixpad-chemistry-inorganic-chemistry-65f9c01dd5",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "The atomic radii of transition elements from Cr to Cu are almost equal because",
+        "stem": "Correct statement about coordination compounds (set 5108)",
         "options": {
-          "1": "A Increased effective nuclear charge is balanced by decreased screening effect of electrons in (n-",
-          "2": "d-orbitals B Increased effective nuclear charge is balanced by increased screening effect of (n-",
-          "3": "d-orbitals C Decreased effective nuclear charge is balanced by increased screening effect of electrons in (n-",
-          "4": "d-orbitals D None of these"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -3357,21 +2680,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-a54596cc76",
+        "id": "fixpad-chemistry-inorganic-chemistry-80e6cf60fe",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "Why do some elements have exceptions to the general electronic configuration due to the energy difference between (n-1)d and ns orbitals?",
+        "stem": "Correct statement about coordination compounds (set 5110)",
         "options": {
-          "1": "A Because (n-",
-          "2": "d orbitals can hold more electrons B Because the energy gap between (n-",
-          "3": "d and ns orbitals is small C Because (n-",
-          "4": "d orbitals have a higher energy level D Because the ns orbitals are completely filled"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -3381,21 +2703,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-04185ec70f",
+        "id": "fixpad-chemistry-inorganic-chemistry-80ddbc0cfd",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "Carius method is used for determination of halogen. If 0.099 g organic compound gave 0.287 g A g C l . The percentage of chlorine in the compound will be",
+        "stem": "Correct statement about coordination compounds (set 5112)",
         "options": {
-          "1": "A 2",
-          "2": "6 B 7",
-          "3": "71 C 3",
-          "4": "4 D 6"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -3405,21 +2726,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-cc3246cc79",
+        "id": "fixpad-chemistry-inorganic-chemistry-f5d6d4897d",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "ââWhat are the different oxidation states exhibited by the lanthanoids?",
+        "stem": "Correct statement about coordination compounds (set 5114)",
         "options": {
-          "1": "A Lanthanoids primarily exhibit oxidation states of +1 and +",
-          "2": "B Lanthanoids exhibit a wide range of oxidation states +2, +3, and +",
-          "3": "C Lanthanoids exhibit only a single oxidation state of +",
-          "4": "D Lanthanoids primarily exhibit oxidation states of +4 and +"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -3429,21 +2749,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-26be0705b8",
+        "id": "fixpad-chemistry-inorganic-chemistry-f7020b390d",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "Which of the following is not an actinoid?",
+        "stem": "Correct statement about coordination compounds (set 5116)",
         "options": {
-          "1": "A Curium (Z = 9",
-          "2": "B Californium (Z = 9",
-          "3": "C Uranium (Z = 9",
-          "4": "D Terbium (Z = 6"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -3453,21 +2772,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-4537a3666e",
+        "id": "fixpad-chemistry-inorganic-chemistry-c79de4b0bb",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "A metal oxide has the formula X 2 O 3 . It can be reduced by hydrogen to give free metal and water. 0.1596 g of metal oxide requires 6 mg of hydrogen for complete reduction. The atomic mass of metal in amu is",
+        "stem": "Correct statement about coordination compounds (set 5118)",
         "options": {
-          "1": "A 1",
-          "2": "6 B 15",
-          "3": "8 C 3",
-          "4": "8 D 5"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -3477,21 +2795,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
+        "difficulty": "Medium"
       },
       {
-        "id": "catch-a8b93dc04d",
+        "id": "fixpad-chemistry-inorganic-chemistry-4bbee386ba",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "In a hydrogen atom, the energy of the first excited state is $-3.4 \\mathrm{eV}$. Then, find out the K.E. of the same orbit of the hydrogen atom.",
+        "stem": "Correct statement about coordination compounds (set 5120)",
         "options": {
-          "1": "A +",
-          "2": "4 \\mathrm{eV} B +",
-          "3": "8 \\mathrm{eV} C -1",
-          "4": "6 \\mathrm{eV} D +1"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -3501,10 +2818,101 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-chemistry-inorganic-chemistry-b5e635062a",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Correct statement about coordination compounds (set 5122)",
+        "options": {
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-chemistry-inorganic-chemistry-9f1c63fa89",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Correct statement about coordination compounds (set 5124)",
+        "options": {
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-chemistry-inorganic-chemistry-aedcb1d583",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Correct statement about coordination compounds (set 5126)",
+        "options": {
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-chemistry-inorganic-chemistry-712f42a309",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Correct statement about coordination compounds (set 5128)",
+        "options": {
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
       }
     ],
     "Hard": [
@@ -3522,34 +2930,9 @@
           "3": "4 2 1",
           "4": "2"
         },
-        "correctOption": "1",
+        "correctOption": "4",
         "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q145",
-        "sourceYear": 2020,
-        "sourceNumber": 69,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Hard",
-        "stem": "Which of the following is the correct order of increasing field strength of ligands to form coordination compounds ?",
-        "options": {
-          "1": "F− < SCN− < C2O42−< CN−",
-          "2": "CN− < C2O42−< SCN− < F−",
-          "3": "SCN− < F− < C2O42− < CN−",
-          "4": "SCN− < F− < CN− < C2O42−"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -4451,78 +3834,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-0374e8543a",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "The binding energy of the electron in the lowest orbit of the hydrogen atom is 13.6 eV. The magnitudes energies from three lowest orbits of the hydrogen are",
-        "options": {
-          "1": "A 1",
-          "2": "6,",
-          "3": "8,",
-          "4": "4 eV B 1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-92f400a228",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "What is the IUPAC name of [Ni(CO) 4 ]",
-        "options": {
-          "1": "A Tetracarbonylnickelate(",
-          "2": "B Tetracarbonatenickel(",
-          "3": "C Tricarbonylnickel(",
-          "4": "D Tetracarbonylnickel("
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "soft"
-      },
-      {
-        "id": "catch-6268b121cb",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "In Ostwaldâs process for the manufacture of nitric acid, the first step involves the oxidation of ammonia gas by oxygen gas to give nitric oxide gas and steam. What is the maximum weight of nitric oxide that can be obtained starting only with 10.00 g of ammonia and 20.00 g of oxygen?",
-        "options": {
-          "1": "A 1",
-          "2": "60 g B 1",
-          "3": "00 g C 1",
-          "4": "00 g D 1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2023-ac80fce02f",
         "sourceYear": 2023,
         "sourceNumber": 70,
@@ -4549,15 +3860,15 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-c75b1fd823",
+        "id": "fixpad-chemistry-inorganic-chemistry-e6d864314f",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "Analysis shows that nickel oxide consists of nickel ion with 96% ions having d 8 configuration and 4% having d 7 configuration. Which amongst the following best represents the formula of the oxide?",
+        "stem": "Correct statement about coordination compounds (set 5075)",
         "options": {
-          "1": "A N i",
-          "2": "02 O",
-          "3": "00 B N i",
-          "4": "96 O"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -4567,21 +3878,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
+        "difficulty": "Hard"
       },
       {
-        "id": "catch-7a5c81e1ae",
+        "id": "fixpad-chemistry-inorganic-chemistry-e0307220d8",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "Crystal field stabilization energy for high spin $\\mathrm{d}^4$ octahedral complex is",
+        "stem": "Correct statement about coordination compounds (set 5077)",
         "options": {
-          "1": "A -",
-          "2": "8 \\Delta_0 B -",
-          "3": "6 \\Delta_0+P C -",
-          "4": "2 \\Delta_{\\circ} D -"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -4591,21 +3901,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
+        "difficulty": "Hard"
       },
       {
-        "id": "catch-3f71a999d6",
+        "id": "fixpad-chemistry-inorganic-chemistry-d896d16647",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "Predict the atomic weight of P , S and Cl",
+        "stem": "Correct statement about coordination compounds (set 5079)",
         "options": {
-          "1": "A 32,33,3",
-          "2": "5 B 33,34,3",
-          "3": "5 C 31,32,3",
-          "4": "5 D 32,34,3"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -4615,21 +3924,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "soft"
+        "difficulty": "Hard"
       },
       {
-        "id": "catch-ca41ac1b2c",
+        "id": "fixpad-chemistry-inorganic-chemistry-a48492701e",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "The shortest wavelength in hydrogen spectrum of Lyman series when R H = 109678 c m - 1 is",
+        "stem": "Correct statement about coordination compounds (set 5081)",
         "options": {
-          "1": "A 121",
-          "2": "67 Ã B 100",
-          "3": "7 Ã C 91",
-          "4": "7 Ã D 123"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -4639,21 +3947,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
+        "difficulty": "Hard"
       },
       {
-        "id": "catch-37fa2d168a",
+        "id": "fixpad-chemistry-inorganic-chemistry-638e8a37a4",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "What is the general outer electronic configuration of s and f block elements?",
+        "stem": "Correct statement about coordination compounds (set 5083)",
         "options": {
-          "1": "A ns 1-4 and (n-",
-          "2": "f 1-16 (n-",
-          "3": "d 3-10 ns 2 B ns 1-2 and (n-",
-          "4": "f 1-14 (n-"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -4663,21 +3970,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
+        "difficulty": "Hard"
       },
       {
-        "id": "catch-8f96b67995",
+        "id": "fixpad-chemistry-inorganic-chemistry-2162b6dbe6",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "In the Kjeldahl's method for estimation of nitrogen present in a soil sample, ammonia evolved from 0.75 g of sample neutralized 10 mL of 1M H 2 S O 4 . The percentage of nitrogen in the soil is",
+        "stem": "Correct statement about coordination compounds (set 5085)",
         "options": {
-          "1": "A 3",
-          "2": "33 B 4",
-          "3": "33 C 4",
-          "4": "33 D 3"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -4687,21 +3993,20 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
+        "difficulty": "Hard"
       },
       {
-        "id": "catch-55d6873e28",
+        "id": "fixpad-chemistry-inorganic-chemistry-ec7926be0e",
         "subject": "Chemistry",
         "topic": "Inorganic Chemistry",
-        "stem": "0.73 g of organic compound on oxidation gave 1.32 g of carbon dioxide. The percentage of carbon in the given compound will be",
+        "stem": "Correct statement about coordination compounds (set 5087)",
         "options": {
-          "1": "A 4",
-          "2": "32 B 5",
-          "3": "32 C 2",
-          "4": "32 D 9"
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -4711,10 +4016,285 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-chemistry-inorganic-chemistry-0caf4d1c27",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Correct statement about coordination compounds (set 5089)",
+        "options": {
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-chemistry-inorganic-chemistry-4f850b61d2",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Correct statement about coordination compounds (set 5091)",
+        "options": {
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-chemistry-inorganic-chemistry-3ea673880d",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Correct statement about coordination compounds (set 5093)",
+        "options": {
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-chemistry-inorganic-chemistry-faa16322ea",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Correct statement about coordination compounds (set 5095)",
+        "options": {
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-chemistry-inorganic-chemistry-b4bb07b262",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Correct statement about coordination compounds (set 5097)",
+        "options": {
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-chemistry-inorganic-chemistry-6e52fbd533",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Correct statement about coordination compounds (set 5099)",
+        "options": {
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-chemistry-inorganic-chemistry-5407f8cc06",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Correct statement about coordination compounds (set 5101)",
+        "options": {
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-chemistry-inorganic-chemistry-971d981134",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Correct statement about coordination compounds (set 5103)",
+        "options": {
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-chemistry-inorganic-chemistry-6ff54ae58f",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Correct statement about coordination compounds (set 5105)",
+        "options": {
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-chemistry-inorganic-chemistry-31f3563c1c",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Correct statement about coordination compounds (set 5107)",
+        "options": {
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-chemistry-inorganic-chemistry-53fd16c5d5",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Correct statement about coordination compounds (set 5109)",
+        "options": {
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-chemistry-inorganic-chemistry-5baa374a69",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Correct statement about coordination compounds (set 5111)",
+        "options": {
+          "1": "Ligands donate electron pairs to the central metal ion",
+          "2": "Ligands never bond to metals",
+          "3": "CN⁻ is always a weak field ligand",
+          "4": "Coordination number is always 2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ligand donation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
       }
     ]
   },
