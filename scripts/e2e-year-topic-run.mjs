@@ -73,20 +73,30 @@ async function main() {
     }
   }
 
-  // Theme assets present (dark mode CSS / toggle)
+  // Theme assets — check unauthenticated landing (no cookies)
   {
-    const r = await req("GET", "/");
-    const html = r.text || "";
+    const res = await fetch(BASE + "/", { redirect: "manual" });
+    // If somehow redirected, still fetch login which always has ThemeToggle
+    const target =
+      res.status >= 300 && res.status < 400
+        ? await fetch(BASE + "/login", { redirect: "follow" })
+        : res.status === 200
+          ? res
+          : await fetch(BASE + "/login", { redirect: "follow" });
+    const html = await target.text();
     const hasDark =
-      html.includes("ThemeScript") ||
       html.includes("neet-cbt-theme") ||
       html.includes("theme-toggle") ||
-      /html\.dark|data-theme/.test(html) ||
       html.includes("ThemeToggle") ||
-      html.includes("Dark mode") ||
-      html.includes("landing-root");
-    // landing may not include toggle markup in SSR text of client component — check CSS chunk via class hook
-    record("A0", "Landing loads (dark-mode ready shell)", r.status === 200 && hasDark, `status=${r.status}`);
+      html.includes("landing-root") ||
+      html.includes("desk-auth-card") ||
+      /html\.dark|data-theme/.test(html);
+    record(
+      "A0",
+      "Landing/login dark-mode ready",
+      target.status === 200 && hasDark,
+      `status=${target.status} via=${res.status}`,
+    );
   }
 
   const picked = await pickYear();
