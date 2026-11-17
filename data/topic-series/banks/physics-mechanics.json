@@ -3,7 +3,7 @@
   "subject": "Physics",
   "topic": "Mechanics",
   "counts": {
-    "Easy": 61,
+    "Easy": 60,
     "Medium": 67,
     "Hard": 50
   },
@@ -452,32 +452,6 @@
           "2": "$ [ \\mathrm { F } ] [ \\mathrm { A } ] \\left[ \\mathrm { T } ^ { - 1 } \\right] $",
           "3": "$ [ \\mathrm { F } ] \\left[ \\mathrm { A } ^ { - 1 } \\right] [ \\mathrm { T } ] $",
           "4": "$ [ \\mathrm { F } ] [ \\mathrm { A } ] [ \\mathrm { T } ] $"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2022-3f69d939ef",
-        "sourceYear": 2022,
-        "sourceNumber": 3,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "The graph which shows the variation of the de Broglie wavelength (l) of a particle and its associated momentum $ ( \\mathrm { p } ) $ is :",
-        "options": {
-          "1": "image_672.png",
-          "2": "image_674.png",
-          "3": "image_673.png",
-          "4": "image_675.png"
         },
         "correctOption": "1",
         "correctOptions": [

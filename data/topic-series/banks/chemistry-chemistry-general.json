@@ -3,9 +3,9 @@
   "subject": "Chemistry",
   "topic": "Chemistry General",
   "counts": {
-    "Easy": 179,
-    "Medium": 248,
-    "Hard": 66
+    "Easy": 161,
+    "Medium": 243,
+    "Hard": 62
   },
   "questions": {
     "Easy": [
@@ -310,31 +310,6 @@
         "placeholder": false
       },
       {
-        "id": "2016-Phase1-Q82",
-        "sourceYear": 2016,
-        "sourceNumber": 82,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "A given nitrogen containing aromatic compound aromatic A reacts with $ \\mathrm { Sn } / \\mathrm { HCl } $, followed by $ \\mathrm { HNO } _ { 2 } $ to give an unstable compound B . B , on treatment with phenol, forms a beautiful coloured compound $ C $ with the molecular formula $ \\mathrm { C } _ { 12 } \\mathrm { H } _ { 10 } \\mathrm {~N} { } _ { 2 } \\mathrm { O } $.",
-        "options": {
-          "1": "image_399.png",
-          "2": "image_400.png",
-          "3": "image_401.png",
-          "4": "image_402.png"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2016-Phase1-Q86",
         "sourceYear": 2016,
         "sourceNumber": 86,
@@ -426,31 +401,6 @@
         "correctOption": "4",
         "correctOptions": [
           "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2017-A-Q56",
-        "sourceYear": 2017,
-        "sourceNumber": 56,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "Identify $ A $ and predict the type of reaction.",
-        "options": {
-          "1": "image_447.png and substitution reaction",
-          "2": "image_448.png and elimination addition reaction",
-          "3": "image_449.png and cine substitution reaction",
-          "4": "image_450.png and cine substitution reaction"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -601,31 +551,6 @@
         "correctOption": "2",
         "correctOptions": [
           "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2017-A-Q81",
-        "sourceYear": 2017,
-        "sourceNumber": 81,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "Identify the correct Lewis structure for the given molecule.",
-        "options": {
-          "1": "image_457.png $ - \\mathrm { C } \\equiv $",
-          "2": "image_458.png - $ \\mathrm { H } > $ $ \\mathrm { CH } > $",
-          "3": "image_459.png",
-          "4": "image_460.png"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -2264,32 +2189,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2018-3b71ae0dc0",
-        "sourceYear": 2018,
-        "sourceNumber": 64,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "Which of the following carbocations is expected to be most stable?",
-        "options": {
-          "1": "image_484.png",
-          "2": "image_485.png",
-          "3": "image_486.png",
-          "4": "image_487.png"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2018-615a2ffc48",
         "sourceYear": 2018,
         "sourceNumber": 65,
@@ -2435,32 +2334,6 @@
         "correctOption": "1",
         "correctOptions": [
           "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2019-016f66515e",
-        "sourceYear": 2019,
-        "sourceNumber": 47,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "The structure of intermediate $ A $ in the following reaction, is : $ \\xrightarrow { \\text { ( } } $",
-        "options": {
-          "1": "image_514.png",
-          "2": "image_515.png",
-          "3": "image_516.png",
-          "4": "image_517.png"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -2628,32 +2501,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2019-3fcdfb85c6",
-        "sourceYear": 2019,
-        "sourceNumber": 69,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "The compound that is most difficult to protonate is :",
-        "options": {
-          "1": "image_527.png",
-          "2": "image_528.png",
-          "3": "image_529.png",
-          "4": "image_530.png"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2019-bb25e0e6a2",
         "sourceYear": 2019,
         "sourceNumber": 71,
@@ -2721,32 +2568,6 @@
         "correctOption": "4",
         "correctOptions": [
           "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2019-1490e21362",
-        "sourceYear": 2019,
-        "sourceNumber": 78,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "The major product of the following reaction is: COOH",
-        "options": {
-          "1": "image_536.png",
-          "2": "image_537.png",
-          "3": "image_538.png",
-          "4": "image_539.png"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -2877,32 +2698,6 @@
         "correctOption": "4",
         "correctOptions": [
           "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2020-af49681c39",
-        "sourceYear": 2020,
-        "sourceNumber": 95,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "Identify compound X in the following sequence of reactions :",
-        "options": {
-          "1": "image_556.png",
-          "2": "image_557.png",
-          "3": "image_558.png",
-          "4": "image_559.png"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -3200,32 +2995,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2020-0269d52ee8",
-        "sourceYear": 2020,
-        "sourceNumber": 2,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "Anisole on cleavage with HI gives :",
-        "options": {
-          "1": "image_570.png",
-          "2": "image_571.png",
-          "3": "image_572.png",
-          "4": "image_573.png"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2021-804a847f4b",
         "sourceYear": 2021,
         "sourceNumber": 54,
@@ -3237,32 +3006,6 @@
           "2": "Vitamin $ \\mathrm { B } _ { 1 } $",
           "3": "Vitamin $ \\mathrm { B } _ { 2 } $",
           "4": "Vitamin $ B _ { 12 } $"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2021-7d3dfb2102",
-        "sourceYear": 2021,
-        "sourceNumber": 56,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "The correct structure of 2,6-Dimethyl-dec-4-ene is:",
-        "options": {
-          "1": "image_604.png",
-          "2": "image_605.png",
-          "3": "image_606.png",
-          "4": "image_607.png"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -3434,32 +3177,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2021-1c0c6df814",
-        "sourceYear": 2021,
-        "sourceNumber": 73,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "Identify the compound that will react with Hinsberg's reagent to give a solid which dissolves in alkali.",
-        "options": {
-          "1": "image_612.png",
-          "2": "image_613.png",
-          "3": "image_614.png",
-          "4": "image_615.png"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2021-54413f8c8c",
         "sourceYear": 2021,
         "sourceNumber": 12,
@@ -3564,32 +3281,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2021-a38fc791e1",
-        "sourceYear": 2021,
-        "sourceNumber": 95,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "The product formed in the following chemical reaction is :",
-        "options": {
-          "1": "image_623.png",
-          "2": "image_624.png",
-          "3": "image_625.png",
-          "4": "image_626.png"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2021-7ee5e9dd4a",
         "sourceYear": 2021,
         "sourceNumber": 98,
@@ -3668,58 +3359,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2023-b0a3c2bebb",
-        "sourceYear": 2023,
-        "sourceNumber": 60,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "Which amongst the following options is correct graphical representation of Boyle's Law?",
-        "options": {
-          "1": "image_737.png",
-          "2": "image_738.png",
-          "3": "image_739.png",
-          "4": "image_740.png"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2023-cf49499479",
-        "sourceYear": 2023,
-        "sourceNumber": 86,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "Identify the major product obtained in the following reaction :",
-        "options": {
-          "1": "image_756.png",
-          "2": "image_757.png",
-          "3": "image_758.png",
-          "4": "image_759.png"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2023-2e289cbdc5",
         "sourceYear": 2023,
         "sourceNumber": 92,
@@ -3735,32 +3374,6 @@
         "correctOption": "4",
         "correctOptions": [
           "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2023-d43d9f0a52",
-        "sourceYear": 2023,
-        "sourceNumber": 94,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "Which amongst the following will be most readily dehydrated under acidic conditions?",
-        "options": {
-          "1": "image_765.png",
-          "2": "image_766.png",
-          "3": "image_767.png",
-          "4": "image_768.png"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -3917,32 +3530,6 @@
         "correctOption": "1",
         "correctOptions": [
           "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2024-86595e8364",
-        "sourceYear": 2024,
-        "sourceNumber": 81,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "Which of the following plot represents the variation of ln k versus $ \\frac { 1 } { \\mathrm {T} } $ in accordance with Arrhenius equation?",
-        "options": {
-          "1": "image_811.png",
-          "2": "image_813.png",
-          "3": "image_812.png",
-          "4": "image_814.png"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -4366,32 +3953,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2023-c89f3aa9e6",
-        "sourceYear": 2023,
-        "sourceNumber": 55,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "Identify the product in the following reaction:",
-        "options": {
-          "1": "image_728.png",
-          "2": "image_729.png",
-          "3": "image_730.png",
-          "4": "image_731.png"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2023-c73d4470cf",
         "sourceYear": 2023,
         "sourceNumber": 64,
@@ -4507,32 +4068,6 @@
           "2": "sol",
           "3": "gel",
           "4": "solid sol"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2023-f0ab787fe5",
-        "sourceYear": 2023,
-        "sourceNumber": 88,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "Consider the following reaction : Identify products A and B .",
-        "options": {
-          "1": "image_761.png",
-          "2": "image_762.png",
-          "3": "image_763.png",
-          "4": "image_764.png"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -4801,56 +4336,6 @@
         "placeholder": false
       },
       {
-        "id": "2016-Phase1-Q74",
-        "sourceYear": 2016,
-        "sourceNumber": 74,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Medium",
-        "stem": "In which of the following molecules, atoms are coplanar?",
-        "options": {
-          "1": "image_373.png",
-          "2": "image_374.png",
-          "3": "image_375.png",
-          "4": "image_376.png"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2016-Phase1-Q77",
-        "sourceYear": 2016,
-        "sourceNumber": 77,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Medium",
-        "stem": "Which of the following compounds shall not produce propene by reaction with HBr followed by elimination or direct only elimination reaction?",
-        "options": {
-          "1": "image_382.png",
-          "2": "image_383.png",
-          "3": "image_384.png",
-          "4": "image_385.png"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2016-Phase1-Q80",
         "sourceYear": 2016,
         "sourceNumber": 80,
@@ -4867,31 +4352,6 @@
         "correctOption": "1",
         "correctOptions": [
           "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2016-Phase1-Q84",
-        "sourceYear": 2016,
-        "sourceNumber": 84,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Medium",
-        "stem": "The correct structure of the product $ A $ formed in the reaction",
-        "options": {
-          "1": "image_404.png",
-          "2": "image_405.png",
-          "3": "image_406.png",
-          "4": "image_407.png"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -6452,32 +5912,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2018-eec90cc1f0",
-        "sourceYear": 2018,
-        "sourceNumber": 68,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "Compound $ \\mathrm { A } , \\mathrm { C } _ { 8 } \\mathrm { H } _ { 10 } \\mathrm { O } $, is found to react with NaOI (produced by reacting Y with NaOH ) and yields a yellow precipitate with characteristic smell. A and Y are respectively",
-        "options": {
-          "1": "image_489.png",
-          "2": "image_490.png",
-          "3": "image_491.png",
-          "4": "image_492.png"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2018-0069df5081",
         "sourceYear": 2018,
         "sourceNumber": 76,
@@ -6831,32 +6265,6 @@
         "correctOption": "2",
         "correctOptions": [
           "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2021-7a2f15d2a8",
-        "sourceYear": 2021,
-        "sourceNumber": 59,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "For a reaction $ \\mathrm { A } \\rightarrow \\mathrm { B } $, enthalpy of reaction is $ - 4.2 \\mathrm {~kJ} \\mathrm {~mol} ^ { - 1 } $ and enthalpy of activation is $ 9.6 \\mathrm {~kJ} \\mathrm {~mol} ^ { - 1 } $. The correct potential energy profile for the reaction is shown in option.",
-        "options": {
-          "1": "image_608.png",
-          "2": "image_609.png",
-          "3": "image_610.png",
-          "4": "image_611.png"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -10919,81 +10327,6 @@
         "placeholder": false
       },
       {
-        "id": "2016-Phase1-Q75",
-        "sourceYear": 2016,
-        "sourceNumber": 75,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "Which one of the following structures represents nylon 6,6 polymer?",
-        "options": {
-          "1": "image_377.png",
-          "2": "image_378.png",
-          "3": "image_379.png",
-          "4": "image_380.png"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2016-Phase1-Q78",
-        "sourceYear": 2016,
-        "sourceNumber": 78,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "Which one of the following nitro-compounds does not react with nitrous acid?",
-        "options": {
-          "1": "image_386.png",
-          "2": "image_387.png",
-          "3": "image_388.png",
-          "4": "image_389.png"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2016-Phase1-Q81",
-        "sourceYear": 2016,
-        "sourceNumber": 81,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "In the given reaction the product $ P $ is",
-        "options": {
-          "1": "image_395.png",
-          "2": "image_396.png",
-          "3": "image_397.png",
-          "4": "image_398.png"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2016-Phase1-Q85",
         "sourceYear": 2016,
         "sourceNumber": 85,
@@ -11131,31 +10464,6 @@
           "2": "$ \\mathrm { SO } _ { 2 } $",
           "3": "$ \\mathrm { NO } _ { 2 } $",
           "4": "$ \\mathrm { P } _ { 2 } \\mathrm { O } _ { 5 } $"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2017-A-Q61",
-        "sourceYear": 2017,
-        "sourceNumber": 61,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "Of the following, which is the product formed when cyclohexanone undergoes aldol condensation followed by heating?",
-        "options": {
-          "1": "image_455.png",
-          "2": "image_456.png",
-          "3": "image_457.png",
-          "4": "image_458.png"
         },
         "correctOption": "2",
         "correctOptions": [

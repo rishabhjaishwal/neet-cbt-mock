@@ -3,8 +3,8 @@
   "subject": "Physics",
   "topic": "Physics General",
   "counts": {
-    "Easy": 84,
-    "Medium": 116,
+    "Easy": 82,
+    "Medium": 115,
     "Hard": 61
   },
   "questions": {
@@ -76,31 +76,6 @@
         "correctOption": "1",
         "correctOptions": [
           "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2016-Phase1-Q10",
-        "sourceYear": 2016,
-        "sourceNumber": 10,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "Starting from the centre of the Earth having radius $ R $, the variation of $ g $ (acceleration due to gravity) is shown by",
-        "options": {
-          "1": "image_363.png",
-          "2": "image_364.png",
-          "3": "image_365.png",
-          "4": "image_366.png"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -676,31 +651,6 @@
         "correctOption": "3",
         "correctOptions": [
           "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2017-A-Q40",
-        "sourceYear": 2017,
-        "sourceNumber": 40,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "Which one of the following represents forward bias diode?",
-        "options": {
-          "1": "image_433.png",
-          "2": "image_434.png",
-          "3": "image_435.png",
-          "4": "image_436.png"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -4302,32 +4252,6 @@
           "2": "$ \\theta = \\sin ^ { - 1 } \\left( \\frac { \\pi ^ { 2 } \\mathrm { R } } { \\mathrm { gT } ^ { 2 } } \\right) ^ { 1 / 2 } $",
           "3": "$ \\theta = \\sin ^ { - 1 } \\left( \\frac { 2 \\mathrm { gT } ^ { 2 } } { \\pi ^ { 2 } \\mathrm { R } } \\right) ^ { 1 / 2 } $",
           "4": "$ \\theta = \\cos ^ { - 1 } \\left( \\frac { \\mathrm { gT } ^ { 2 } } { \\pi ^ { 2 } \\mathrm { R } } \\right) ^ { 1 / 2 } $"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2021-98084b3343",
-        "sourceYear": 2021,
-        "sourceNumber": 50,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "stem": "For the given circuit, the input digital signals are applied at the terminals A, B and C. What would be the output at the terminal $ y $ ?",
-        "options": {
-          "1": "image_597.png",
-          "2": "image_598.png",
-          "3": "$ - 5 \\mathrm {~V} $",
-          "4": "image_599.png"
         },
         "correctOption": "3",
         "correctOptions": [

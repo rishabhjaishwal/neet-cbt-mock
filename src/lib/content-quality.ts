@@ -25,6 +25,7 @@ export type QualityIssue =
   | "option-mash"
   | "noisy-stem"
   | "missing-figure"
+  | "image-filename"
   | "short-stem"
   | "empty";
 
@@ -40,6 +41,11 @@ const DEVANAGARI_RE = /[\u0900-\u097F]/;
 const PUA_RE = /[\uE000-\uF8FF]/;
 const NEEDS_FIGURE_RE =
   /as shown in (the )?figure|see (the )?figure|shown in (the )?figure|following diagram|given figure|in the figure|figure below|from the given figure/i;
+/** HF/OCR left literal media filenames as option/stem text with no shipped asset. */
+const IMAGE_FILENAME_RE =
+  /\b(?:image|img|figure|fig)[_-]?\d+\.(?:png|jpe?g|gif|webp|svg)\b/i;
+const BARE_IMAGE_OPTION_RE =
+  /^\s*(?:[\w./-]*\/)?(?:image|img|figure|fig)[_-]?\d+\.(?:png|jpe?g|gif|webp|svg)\s*$/i;
 
 /** Minimum clean questions before a year paper is offered to students. */
 export const MIN_STUDENT_PAPER_QUESTIONS = 80;
@@ -96,11 +102,21 @@ export function listQualityIssues(q: QualitySubject): QualityIssue[] {
     issues.push("noisy-stem");
   }
 
+  if (IMAGE_FILENAME_RE.test(blob) || opts.some((o) => BARE_IMAGE_OPTION_RE.test(o))) {
+    issues.push("image-filename");
+  }
+
+  const figureSrc = String(q.figureSrc ?? "").trim();
   if (
     q.figureKind === "missing-placeholder" ||
-    /unmatched crop|Figure not matched/i.test(String(q.figureSrc ?? ""))
+    /unmatched crop|Figure not matched/i.test(figureSrc) ||
+    (figureSrc.length > 0 &&
+      IMAGE_FILENAME_RE.test(figureSrc) &&
+      !figureSrc.includes("/figures/"))
   ) {
-    if (NEEDS_FIGURE_RE.test(stem)) issues.push("missing-figure");
+    if (NEEDS_FIGURE_RE.test(stem) || IMAGE_FILENAME_RE.test(figureSrc)) {
+      issues.push("missing-figure");
+    }
   }
 
   return [...new Set(issues)];

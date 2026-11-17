@@ -3,8 +3,8 @@
   "subject": "Physics",
   "topic": "Electromagnetism",
   "counts": {
-    "Easy": 62,
-    "Medium": 111,
+    "Easy": 61,
+    "Medium": 108,
     "Hard": 53
   },
   "questions": {
@@ -1472,32 +1472,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2020-da900d7829",
-        "sourceYear": 2020,
-        "sourceNumber": 8,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "stem": "Which of the following graph represents the variation of resistivity ( $ \\rho $ ) with temperature ( T ) for copper?",
-        "options": {
-          "1": "image_549.png",
-          "2": "image_550.png",
-          "3": "image_551.png",
-          "4": "image_552.png"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2020-f3cd24b3c4",
         "sourceYear": 2020,
         "sourceNumber": 164,
@@ -2205,32 +2179,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2018-8b7f14c71d",
-        "sourceYear": 2018,
-        "sourceNumber": 7,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "stem": "A battery consists of a variable number ' $ n $ ' of identical cells (having internal resistance ' $ r $ ' each) which are connected in series. The terminals of the battery are short-circuited and the current I is measured. Which of the graphs shows the correct relationship between I and n ?",
-        "options": {
-          "1": "image_465.png",
-          "2": "image_466.png",
-          "3": "image_467.png",
-          "4": "image_468.png"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2018-f263587b9d",
         "sourceYear": 2018,
         "sourceNumber": 21,
@@ -2376,32 +2324,6 @@
         "correctOption": "4",
         "correctOptions": [
           "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2019-ffd5e2c56a",
-        "sourceYear": 2019,
-        "sourceNumber": 2,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "stem": "A cylindrical conductor of radius $ R $ is carrying a constant current. The plot of the magnitude of the magnetic field, $ B $ with the distance, $ d $, from the centre of the conductor, is correctly represented by the figure:",
-        "options": {
-          "1": "image_509.png",
-          "2": "image_510.png",
-          "3": "image_511.png",
-          "4": "image_512.png"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -2714,32 +2636,6 @@
         "correctOption": "3",
         "correctOptions": [
           "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2021-4fbe1a28b2",
-        "sourceYear": 2021,
-        "sourceNumber": 6,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "stem": "A thick current carrying cable of radius ' $ R $ ' carries current 'I' uniformly distributed across its cross-section. The variation of magnetic field $ B ( r ) $ due to the cable with the distance ' $ r $ ' from the axis of the cable is represented by :",
-        "options": {
-          "1": "image_588.png",
-          "2": "image_589.png",
-          "3": "image_590.png",
-          "4": "image_591.png"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,

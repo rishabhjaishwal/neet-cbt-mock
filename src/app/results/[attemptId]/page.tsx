@@ -11,6 +11,7 @@ import { QuestionReviewList } from "@/components/QuestionReviewList";
 import { ReviewPagination } from "@/components/ReviewPagination";
 import { getPaperQuestionMap } from "@/lib/paper-content";
 import { getMdQuestionsByKeys } from "@/lib/md-paper-store";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import {
   buildReviewIndex,
   filterReviewIndex,
@@ -184,12 +185,15 @@ export default async function ResultsPage({
 
   return (
     <main className="mx-auto max-w-4xl px-3 py-6 sm:px-4 sm:py-8">
-      <InstantLink
-        href={user.role === "examiner" ? "/examiner" : "/dashboard"}
-        className="text-sm font-semibold text-[var(--cbt-accent)]"
-      >
-        ← Back
-      </InstantLink>
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <InstantLink
+          href={user.role === "examiner" ? "/examiner" : "/dashboard"}
+          className="text-sm font-semibold text-[var(--cbt-accent)]"
+        >
+          ← Back
+        </InstantLink>
+        <ThemeToggle />
+      </div>
       <h1 className="mt-3 font-[family-name:var(--font-display)] text-3xl font-bold text-[var(--header)]">
         Results — NEET {attempt.year}
       </h1>

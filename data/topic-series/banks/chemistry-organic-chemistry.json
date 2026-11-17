@@ -338,58 +338,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2019-7ca3d3ecb6",
-        "sourceYear": 2019,
-        "sourceNumber": 65,
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "stem": "Among the following, the reaction that proceeds through an electrophilic substitution, is :",
-        "options": {
-          "1": "image_523.png",
-          "2": "image_524.png",
-          "3": "image_525.png",
-          "4": "image_526.png"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2020-4d8027be81",
-        "sourceYear": 2020,
-        "sourceNumber": 102,
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "stem": "Which of the following amine will give the carbylamine test?",
-        "options": {
-          "1": "image_560.png",
-          "2": "image_561.png",
-          "3": "image_562.png",
-          "4": "image_563.png"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2020-35fa5eec86",
         "sourceYear": 2020,
         "sourceNumber": 113,
@@ -457,32 +405,6 @@
         "correctOption": "1",
         "correctOptions": [
           "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2020-266eddfbf7",
-        "sourceYear": 2020,
-        "sourceNumber": 133,
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "stem": "An alkene on ozonolysis gives methanal as one of the product. Its structure is :",
-        "options": {
-          "1": "image_566.png",
-          "2": "image_567.png",
-          "3": "image_568.png",
-          "4": "image_569.png"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -1256,6 +1178,78 @@
         "placeholder": false,
         "difficulty": "Easy",
         "aiVerified": "soft"
+      },
+      {
+        "id": "auth-2185f93055",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "The reagent for converting ketone to alcohol is (organic bank pad 6)",
+        "options": {
+          "1": "NaBH₄",
+          "2": "PCC",
+          "3": "Tollen’s reagent",
+          "4": "Anhydrous AlCl₃"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (organic pad)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-cf30c219f9",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Lassaigne’s test detects (organic bank pad 7)",
+        "options": {
+          "1": "N, S, halogens in organics",
+          "2": "Only carbon",
+          "3": "Only oxygen",
+          "4": "Only hydrogen"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (organic pad)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-8740863e74",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Hyperconjugation explains stability of (organic bank pad 8)",
+        "options": {
+          "1": "Alkyl carbocations",
+          "2": "Carbanions only",
+          "3": "Free radicals never",
+          "4": "Noble gases"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (organic pad)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       }
     ],
     "Medium": [
@@ -1476,32 +1470,6 @@
         "correctOption": "4",
         "correctOptions": [
           "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2019-321c5a2c22",
-        "sourceYear": 2019,
-        "sourceNumber": 74,
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "stem": "An alkene \"A\" on reaction with $ \\mathrm { O } _ { 3 } $ and $ \\mathrm { Zn } - \\mathrm { H } _ { 2 } \\mathrm { O } $ gives propanone and ethanal in equimolar ratio. Addition of HCl to alkene \" A \" gives \" B \" as the major product. The structure of product \" B \" is:",
-        "options": {
-          "1": "image_531.png",
-          "2": "image_532.png",
-          "3": "image_533.png",
-          "4": "image_534.png"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -2466,6 +2434,30 @@
           "2": "Secondary amines",
           "3": "Tertiary amines",
           "4": "Amides"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (organic pad)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-b9d7523a85",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Friedel–Crafts alkylation of benzene needs (organic bank pad 5)",
+        "options": {
+          "1": "Anhydrous AlCl₃",
+          "2": "Aqueous NaOH",
+          "3": "Dilute HCl only",
+          "4": "KMnO₄"
         },
         "correctOption": "1",
         "correctOptions": [

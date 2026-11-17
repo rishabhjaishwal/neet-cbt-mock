@@ -13,6 +13,7 @@ import {
 import { QuestionReviewList, type ReviewItem } from "@/components/QuestionReviewList";
 import { ResultsMetrics } from "@/components/ResultsMetrics";
 import { InstantLink } from "@/components/InstantLink";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import { ReviewPagination } from "@/components/ReviewPagination";
 import {
   parseReviewQuery,
@@ -231,11 +232,14 @@ export default async function TopicResultsPage({
 
   return (
     <main className="mx-auto max-w-5xl px-3 py-6 sm:px-4 sm:py-8">
-      <p className="text-sm font-semibold text-[var(--cbt-accent)]">
-        <InstantLink href="/topic-series" className="hover:underline">
-          ← Topic series
-        </InstantLink>
-      </p>
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <p className="text-sm font-semibold text-[var(--cbt-accent)]">
+          <InstantLink href="/topic-series" className="hover:underline">
+            ← Topic series
+          </InstantLink>
+        </p>
+        <ThemeToggle />
+      </div>
       <h1 className="mt-2 font-[family-name:var(--font-display)] text-3xl font-semibold">
         {attempt.subject} · {attempt.topic}
       </h1>

@@ -3,7 +3,7 @@
   "subject": "Chemistry",
   "topic": "Inorganic Chemistry",
   "counts": {
-    "Easy": 63,
+    "Easy": 62,
     "Medium": 81,
     "Hard": 50
   },
@@ -300,32 +300,6 @@
         "correctOption": "2",
         "correctOptions": [
           "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2019-b70e8fa15e",
-        "sourceYear": 2019,
-        "sourceNumber": 14,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "The correct structure of tribromooctaoxide is :",
-        "options": {
-          "1": "image_518.png",
-          "2": "image_519.png",
-          "3": "image_520.png",
-          "4": "image_521.png"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,

@@ -12,6 +12,7 @@ import {
 } from "@/lib/multi-correct";
 import { QuestionReviewList, type ReviewItem } from "@/components/QuestionReviewList";
 import { InstantLink } from "@/components/InstantLink";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import { ReviewPagination } from "@/components/ReviewPagination";
 import {
   parseReviewQuery,
@@ -214,14 +215,17 @@ export default async function CompetitionResultsPage({
 
   return (
     <main className="mx-auto max-w-5xl px-3 py-6 sm:px-4 sm:py-8">
-      <p className="text-sm font-semibold text-[var(--cbt-accent)]">
-        <InstantLink
-          href={comp ? `/competitions/${String(comp._id)}` : "/competitions"}
-          className="hover:underline"
-        >
-          ← Lobby
-        </InstantLink>
-      </p>
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <p className="text-sm font-semibold text-[var(--cbt-accent)]">
+          <InstantLink
+            href={comp ? `/competitions/${String(comp._id)}` : "/competitions"}
+            className="hover:underline"
+          >
+            ← Lobby
+          </InstantLink>
+        </p>
+        <ThemeToggle />
+      </div>
       <h1 className="mt-2 font-[family-name:var(--font-display)] text-3xl font-semibold">
         {comp?.title || "Competition results"}
       </h1>

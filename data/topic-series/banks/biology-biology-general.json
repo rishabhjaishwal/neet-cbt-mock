@@ -3,9 +3,9 @@
   "subject": "Biology",
   "topic": "Biology General",
   "counts": {
-    "Easy": 572,
+    "Easy": 570,
     "Medium": 209,
-    "Hard": 134
+    "Hard": 133
   },
   "questions": {
     "Easy": [
@@ -7450,32 +7450,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2024-19cd59aed1",
-        "sourceYear": 2024,
-        "sourceNumber": 146,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Which of the following graphs depicts the effect of substrate concentration on velocity of enzyme catalysed reaction?",
-        "options": {
-          "1": "image_823.png",
-          "2": "image_824.png",
-          "3": "image_825.png",
-          "4": "image_826.png"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2024-f5f7284354",
         "sourceYear": 2024,
         "sourceNumber": 157,
@@ -9205,32 +9179,6 @@
           "2": "Ctenophora",
           "3": "Hemichordata",
           "4": "Coelenterata"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2023-c1b954ff81",
-        "sourceYear": 2023,
-        "sourceNumber": 175,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Which one of the following symbols represents mating between relatives in human pedigree analysis?",
-        "options": {
-          "1": "image_779.png",
-          "2": "image_780.png",
-          "3": "image_781.png",
-          "4": "image_782.png"
         },
         "correctOption": "3",
         "correctOptions": [
@@ -22781,32 +22729,6 @@
         "correctOption": "3",
         "correctOptions": [
           "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2016-d85c7bdf29",
-        "sourceYear": 2016,
-        "sourceNumber": 175,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Match Column-I with Column-II and select the correct option using the codes given below: \\begin{tabular} { | l | l | } \\hline \\multicolumn{1}{|c|} { Column I } & \\multicolumn{1}{c|} { Column II } \\ \\hline a. Citric acid & (i) Trichoderma \\ \\hline b. Cyclosporin A & (ii) Clostridium \\ \\hline c. Statins & (iii) Apsergillus \\ \\hline d. Butyric acid & (iv) Monascus \\ \\hline \\end{tabular}",
-        "options": {
-          "1": "(a) (iii) (b) (i) (c) (iv) (d) (ii)",
-          "2": "(a) (i) (b) (iv) (c) (iii) (d) (iv)",
-          "3": "(a) (i) (b) (iv) (c) (iii) (d) (ii)",
-          "4": "image_423.png"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,

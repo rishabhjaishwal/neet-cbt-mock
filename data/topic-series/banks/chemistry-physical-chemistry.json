@@ -3,8 +3,8 @@
   "subject": "Chemistry",
   "topic": "Physical Chemistry",
   "counts": {
-    "Easy": 60,
-    "Medium": 333,
+    "Easy": 59,
+    "Medium": 332,
     "Hard": 54
   },
   "questions": {
@@ -988,32 +988,6 @@
         "correctOption": "4",
         "correctOptions": [
           "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2023-8aa7936964",
-        "sourceYear": 2023,
-        "sourceNumber": 61,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "Which amongst the following molecules on polymerization produces neoprene?",
-        "options": {
-          "1": "image_741.png",
-          "2": "$ \\mathrm { H } _ { 2 } \\mathrm { C } = \\mathrm { CH } - \\mathrm { CH } = \\mathrm { CH } _ { 2 } $",
-          "3": "image_742.png",
-          "4": "$ \\mathrm { H } _ { 2 } \\mathrm { C } = \\mathrm { CH } - \\mathrm { C } \\equiv \\mathrm { CH } $"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -9452,32 +9426,6 @@
         "figureKind": null,
         "answerEstimated": false,
         "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2021-01b4f08286",
-        "sourceYear": 2021,
-        "sourceNumber": 51,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "Choose the correct option for graphical representation of Boyle's law, which shows a graph of pressure vs. volume of a gas at different temperatures:",
-        "options": {
-          "1": "image_600.png",
-          "2": "image_601.png",
-          "3": "image_602.png",
-          "4": "image_603.png"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"

@@ -42,6 +42,10 @@ const DEVANAGARI_RE = /[\u0900-\u097F]/;
 const PUA_RE = /[\uE000-\uF8FF]/;
 const NEEDS_FIGURE_RE =
   /as shown in (the )?figure|see (the )?figure|shown in (the )?figure|following diagram|given figure|in the figure|figure below|from the given figure/i;
+const IMAGE_FILENAME_RE =
+  /\b(?:image|img|figure|fig)[_-]?\d+\.(?:png|jpe?g|gif|webp|svg)\b/i;
+const BARE_IMAGE_OPTION_RE =
+  /^\s*(?:[\w./-]*\/)?(?:image|img|figure|fig)[_-]?\d+\.(?:png|jpe?g|gif|webp|svg)\s*$/i;
 
 /** topicId -> keyword / chapter matchers (order matters — first win after subject gate). */
 const TOPIC_RULES = [
@@ -204,11 +208,20 @@ function listIssues(q) {
   const noise = (stem.match(/[^A-Za-z0-9\s.,;:?'"()\-+/=%°μµΔδθαβγλσω_]/g) || [])
     .length;
   if (stem.length > 50 && noise / stem.length > 0.14) issues.push("noisy-stem");
+  if (IMAGE_FILENAME_RE.test(blob) || opts.some((o) => BARE_IMAGE_OPTION_RE.test(o))) {
+    issues.push("image-filename");
+  }
+  const figureSrc = String(q.figureSrc ?? "").trim();
   if (
     q.figureKind === "missing-placeholder" ||
-    /unmatched crop|Figure not matched/i.test(String(q.figureSrc ?? ""))
+    /unmatched crop|Figure not matched/i.test(figureSrc) ||
+    (figureSrc.length > 0 &&
+      IMAGE_FILENAME_RE.test(figureSrc) &&
+      !figureSrc.includes("/figures/"))
   ) {
-    if (NEEDS_FIGURE_RE.test(stem)) issues.push("missing-figure");
+    if (NEEDS_FIGURE_RE.test(stem) || IMAGE_FILENAME_RE.test(figureSrc)) {
+      issues.push("missing-figure");
+    }
   }
   const ans = String(q.correctOption ?? "");
   if (!/^[1-4]$/.test(ans)) issues.push("bad-key");

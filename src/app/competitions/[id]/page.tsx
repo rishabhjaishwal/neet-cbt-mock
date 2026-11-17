@@ -3,6 +3,7 @@ import { Types } from "mongoose";
 import { getSession } from "@/lib/auth";
 import { InstantLink } from "@/components/InstantLink";
 import { CompetitionLobby } from "@/components/CompetitionLobby";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 export default async function CompetitionLobbyPage({
   params,
@@ -18,11 +19,14 @@ export default async function CompetitionLobbyPage({
     <div className="desk-shell">
       <div className="desk-shell__paper" aria-hidden />
       <div className="desk-shell__inner mx-auto max-w-2xl">
-        <p className="text-sm font-semibold text-[var(--ink-blue,#1e4d7b)]">
-          <InstantLink href="/competitions" className="hover:underline">
-            ← Competitions
-          </InstantLink>
-        </p>
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <p className="text-sm font-semibold text-[var(--ink-blue,#1e4d7b)]">
+            <InstantLink href="/competitions" className="hover:underline">
+              ← Competitions
+            </InstantLink>
+          </p>
+          <ThemeToggle />
+        </div>
         <h1 className="desk-title mt-2">Lobby</h1>
         <p className="desk-kicker mb-6">
           Share the invite, wait for friends, then the host starts the same timed

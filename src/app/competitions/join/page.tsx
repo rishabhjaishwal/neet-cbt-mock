@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import { InstantLink } from "@/components/InstantLink";
 import { JoinCompetitionForm } from "@/components/JoinCompetitionForm";
 import { getSession } from "@/lib/auth";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 export default async function JoinCompetitionPage() {
   const user = await getSession();
@@ -11,14 +12,17 @@ export default async function JoinCompetitionPage() {
     <div className="desk-shell">
       <div className="desk-shell__paper" aria-hidden />
       <div className="desk-shell__inner mx-auto max-w-lg">
-        <p className="text-sm font-semibold text-[var(--ink-blue,#1e4d7b)]">
-          <InstantLink
-            href={isStudent ? "/competitions" : "/"}
-            className="hover:underline"
-          >
-            ← {isStudent ? "Competitions" : "Home"}
-          </InstantLink>
-        </p>
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <p className="text-sm font-semibold text-[var(--ink-blue,#1e4d7b)]">
+            <InstantLink
+              href={isStudent ? "/competitions" : "/"}
+              className="hover:underline"
+            >
+              ← {isStudent ? "Competitions" : "Home"}
+            </InstantLink>
+          </p>
+          <ThemeToggle />
+        </div>
         <h1 className="desk-title mt-2">Join a friend&apos;s race</h1>
         <p className="desk-kicker mb-6">
           {isStudent
