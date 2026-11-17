@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { redirect } from "next/navigation";
 import { Types } from "mongoose";
 import { getSession } from "@/lib/auth";
@@ -12,6 +11,7 @@ import {
 } from "@/lib/multi-correct";
 import { QuestionReviewList, type ReviewItem } from "@/components/QuestionReviewList";
 import { ResultsMetrics } from "@/components/ResultsMetrics";
+import { InstantLink } from "@/components/InstantLink";
 
 export default async function TopicResultsPage({
   params,
@@ -132,9 +132,9 @@ export default async function TopicResultsPage({
   return (
     <main className="mx-auto max-w-5xl px-4 py-8">
       <p className="text-sm font-semibold text-[var(--cbt-accent)]">
-        <Link href="/topic-series" className="hover:underline">
+        <InstantLink href="/topic-series" className="hover:underline">
           ← Topic series
-        </Link>
+        </InstantLink>
       </p>
       <h1 className="mt-2 font-[family-name:var(--font-display)] text-3xl font-semibold">
         {attempt.subject} · {attempt.topic}

@@ -1,5 +1,14 @@
 import { Schema, models, model, type InferSchemaType, Types } from "mongoose";
 
+const AppMetaSchema = new Schema(
+  {
+    key: { type: String, required: true, unique: true },
+    contentVersion: { type: Number, required: true },
+    updatedAt: { type: Date, default: Date.now },
+  },
+  { timestamps: false },
+);
+
 const UserSchema = new Schema(
   {
     email: { type: String, required: true, unique: true, index: true },
@@ -187,6 +196,7 @@ const TopicAttemptSchema = new Schema(
 );
 TopicAttemptSchema.index({ userId: 1, topicId: 1, difficulty: 1, startedAt: -1 });
 
+export const AppMeta = models.AppMeta || model("AppMeta", AppMetaSchema);
 export const User = models.User || model("User", UserSchema);
 export const Paper = models.Paper || model("Paper", PaperSchema);
 export const Question = models.Question || model("Question", QuestionSchema);

@@ -1,13 +1,13 @@
 import { NextResponse } from "next/server";
 import { Types } from "mongoose";
 import { getSession } from "@/lib/auth";
-import { ensureSeeded } from "@/lib/seed";
+import { connectDb } from "@/lib/db";
 import { Attempt, Question } from "@/lib/models";
 
 type Params = { params: Promise<{ id: string }> };
 
 export async function GET(_req: Request, { params }: Params) {
-  await ensureSeeded();
+  await connectDb();
   const user = await getSession();
   if (!user) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });

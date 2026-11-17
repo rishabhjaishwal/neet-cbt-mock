@@ -9,7 +9,7 @@ function escapeMdCell(s: string): string {
 
 /** Wrap common physics/chem subscripts for KaTeX without changing meaning. */
 export function applyInlineMathHints(text: string): string {
-  let t = text;
+  const t = text;
   // Avoid double-wrapping inside existing $...$
   const parts = t.split(/(\$[^$]+\$)/);
   return parts
@@ -43,7 +43,7 @@ function normalizeListHeaders(beforeItems: string): {
   leftHeader: string;
   rightHeader: string;
 } {
-  let chunk = beforeItems
+  const chunk = beforeItems
     .replace(/\s+/g, " ")
     .replace(/^Match\s+List\s*[-–]?\s*I\s+with\s+List\s*[-–]?\s*II\s*[:.]?\s*/i, "")
     .replace(/^List\s*[-–]?\s*I\s+List\s*[-–]?\s*II\s*/i, "")
@@ -226,7 +226,7 @@ function matchColumnsToMarkdown(stem: string): string | null {
     const start = (m.index ?? 0) + m[0].length;
     const end =
       i + 1 < marks.length ? (marks[i + 1].index ?? bodyCore.length) : bodyCore.length;
-    let text = bodyCore.slice(start, end).trim();
+    const text = bodyCore.slice(start, end).trim();
     if (/^[a-d]$/.test(key)) {
       leftItems.push({ key, text: text || "*(see paper)*" });
     } else if (text) {

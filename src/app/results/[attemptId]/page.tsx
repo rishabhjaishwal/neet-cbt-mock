@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { InstantLink } from "@/components/InstantLink";
 import { redirect } from "next/navigation";
 import { Types } from "mongoose";
 import { getSession } from "@/lib/auth";
@@ -199,12 +199,12 @@ export default async function ResultsPage({
 
   return (
     <main className="mx-auto max-w-4xl px-4 py-8">
-      <Link
+      <InstantLink
         href={user.role === "examiner" ? "/examiner" : "/dashboard"}
-        className="text-sm text-[var(--cbt-accent)]"
+        className="text-sm font-semibold text-[var(--cbt-accent)]"
       >
         ← Back
-      </Link>
+      </InstantLink>
       <h1 className="mt-3 font-[family-name:var(--font-display)] text-3xl font-bold text-[var(--header)]">
         Results — NEET {attempt.year}
       </h1>
@@ -285,9 +285,9 @@ export default async function ResultsPage({
           <ul className="mt-2 space-y-1 text-sm">
             {peerHistory.map((a) => (
               <li key={String(a._id)}>
-                <Link href={`/results/${String(a._id)}`} className="text-[var(--cbt-accent)]">
+                <InstantLink href={`/results/${String(a._id)}`} className="text-[var(--cbt-accent)]">
                   {a.year} #{a.attemptNumber ?? 1}
-                </Link>
+                </InstantLink>
                 : score {a.score} · {a.percentile}%ile · rank ~
                 {a.estimatedRank?.toLocaleString()}
               </li>
@@ -311,12 +311,12 @@ export default async function ResultsPage({
 
       {user.role === "examiner" && (
         <p className="mt-6 text-sm">
-          <Link
+          <InstantLink
             href={`/examiner/attempts/${String(attempt._id)}`}
             className="font-semibold text-[var(--cbt-accent)]"
           >
             Open examiner review (per-question)
-          </Link>
+          </InstantLink>
         </p>
       )}
     </main>

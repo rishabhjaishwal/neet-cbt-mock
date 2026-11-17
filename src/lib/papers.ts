@@ -2,6 +2,7 @@ import { ensureSeeded } from "./seed";
 import { Paper, Question } from "./models";
 
 export async function listPapers() {
+  // Versioned seed (fast no-op once AppMeta matches).
   await ensureSeeded();
   const rows = await Paper.find().sort({ year: -1 }).lean();
   return rows.map((p) => ({

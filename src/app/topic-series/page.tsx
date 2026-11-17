@@ -1,8 +1,8 @@
-import Link from "next/link";
 import { redirect } from "next/navigation";
 import { getSession } from "@/lib/auth";
 import { listTopicCatalog } from "@/lib/topic-series";
 import { StartTopicButton } from "@/components/StartTopicButton";
+import { InstantLink } from "@/components/InstantLink";
 
 export default async function TopicSeriesPage() {
   const user = await getSession();
@@ -22,9 +22,9 @@ export default async function TopicSeriesPage() {
       <header className="mb-6 flex flex-wrap items-end justify-between gap-3">
         <div>
           <p className="text-sm font-semibold text-[var(--cbt-accent)]">
-            <Link href="/dashboard" className="hover:underline">
+            <InstantLink href="/dashboard" className="hover:underline">
               ← Dashboard
-            </Link>
+            </InstantLink>
           </p>
           <h1 className="mt-1 font-[family-name:var(--font-display)] text-3xl font-semibold">
             Topic-wise mock series
@@ -42,8 +42,8 @@ export default async function TopicSeriesPage() {
           <h2 className="mb-3 font-[family-name:var(--font-display)] text-xl font-semibold">
             {subject}
           </h2>
-          <div className="overflow-hidden rounded-xl border border-slate-200 bg-white">
-            <table className="w-full text-left text-sm">
+          <div className="overflow-x-auto rounded-xl border border-slate-200 bg-white">
+            <table className="w-full min-w-[640px] text-left text-sm">
               <thead className="bg-slate-50 text-slate-600">
                 <tr>
                   <th className="px-4 py-3">Topic</th>

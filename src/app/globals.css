@@ -195,6 +195,19 @@ button.palette-btn[data-status="marked_answered"],
   background: rgba(0, 0, 0, 0.42);
   filter: none;
 }
+/* Mobile: keep action rows usable */
+@media (max-width: 640px) {
+  .cbt-btn {
+    min-height: 2.5rem;
+    padding: 0.6rem 0.9rem;
+  }
+  .q-md-stem table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
 .cbt-btn-loading {
   position: relative;
   pointer-events: none;

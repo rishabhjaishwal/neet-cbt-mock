@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { redirect } from "next/navigation";
 import { Types } from "mongoose";
 import { getSession } from "@/lib/auth";
@@ -7,6 +6,7 @@ import { Attempt } from "@/lib/models";
 import { listPapers } from "@/lib/papers";
 import { LogoutButton } from "@/components/LogoutButton";
 import { StartAttemptButton } from "@/components/StartAttemptButton";
+import { InstantLink } from "@/components/InstantLink";
 
 export default async function DashboardPage({
   searchParams,
@@ -110,12 +110,12 @@ export default async function DashboardPage({
                       {a.estimatedRank?.toLocaleString() ?? "—"}
                     </td>
                     <td className="px-3 py-2">
-                      <Link
+                      <InstantLink
                         href={`/results/${String(a._id)}`}
-                        className="font-semibold text-[var(--cbt-accent)]"
+                        className="cbt-btn cbt-btn-sm cbt-btn-secondary font-semibold text-[var(--cbt-accent)]"
                       >
                         Open
-                      </Link>
+                      </InstantLink>
                     </td>
                   </tr>
                 ))}
@@ -150,9 +150,9 @@ export default async function DashboardPage({
           Drill Easy / Medium / Hard by subject topic — same analysis + AI solution stack as
           full papers.
         </p>
-        <Link href="/topic-series" className="cbt-btn cbt-btn-primary mt-3 inline-flex">
+        <InstantLink href="/topic-series" className="cbt-btn cbt-btn-primary mt-3 inline-flex">
           Open topic series
-        </Link>
+        </InstantLink>
       </section>
 
       <h2 className="mb-3 font-[family-name:var(--font-display)] text-xl font-semibold">
@@ -202,12 +202,12 @@ export default async function DashboardPage({
                         <StartAttemptButton year={p.year} />
                       ) : (
                         <>
-                          <Link
+                          <InstantLink
                             href={`/results/${a.id}`}
-                            className="text-sm font-semibold text-[var(--cbt-accent)]"
+                            className="cbt-btn cbt-btn-sm cbt-btn-secondary text-sm font-semibold"
                           >
                             View results
-                          </Link>
+                          </InstantLink>
                           <StartAttemptButton year={p.year} mode="retake" />
                         </>
                       )}

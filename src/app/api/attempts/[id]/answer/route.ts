@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 import { Types } from "mongoose";
 import { getSession } from "@/lib/auth";
-import { ensureSeeded } from "@/lib/seed";
+import { connectDb } from "@/lib/db";
 import { Attempt } from "@/lib/models";
 import { parseOptionList } from "@/lib/multi-correct";
 import { validateAttemptAnswerUpdates } from "@/lib/server-attempt-limits";
@@ -20,7 +20,7 @@ const schema = z.object({
 type Params = { params: Promise<{ id: string }> };
 
 export async function POST(req: Request, { params }: Params) {
-  await ensureSeeded();
+  await connectDb();
   const user = await getSession();
   if (!user || user.role !== "student") {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });

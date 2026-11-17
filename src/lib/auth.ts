@@ -52,7 +52,7 @@ export async function destroySession() {
 }
 
 export async function getSession(): Promise<SessionUser | null> {
-  await ensureSeeded();
+  // JWT-only — never block navigation / open-back on Mongo seed.
   const jar = await cookies();
   const token = jar.get(COOKIE)?.value;
   if (!token) return null;
@@ -77,6 +77,7 @@ export async function requireUser(role?: "student" | "examiner") {
 }
 
 export async function findUserByEmail(email: string) {
+  // Seed only if demo/local accounts might be missing (login/signup path).
   await ensureSeeded();
   const user = (await User.findOne({ email: email.toLowerCase() }).lean()) as
     | (UserDoc & { passwordHash: string })

@@ -46,23 +46,31 @@ function searchQuery(topic: string, stem: string) {
 }
 
 function defaultLinks(topic: string, stem: string): LearningLink[] {
-  const q = encodeURIComponent(searchQuery(topic, stem));
-  const pdfQ = encodeURIComponent(`NEET ${topic} PDF notes NCERT`);
+  const qRaw = searchQuery(topic, stem);
+  const q = encodeURIComponent(qRaw);
+  const topicQ = encodeURIComponent(`NEET ${topic}`);
+  const pdfQ = encodeURIComponent(`NEET ${topic} NCERT notes filetype:pdf`);
+  // Prefer stable search landing pages (always resolve) over deep links that rot.
   return [
     {
       kind: "youtube",
-      label: "YouTube — NEET topic videos",
-      url: `https://www.youtube.com/results?search_query=${q}`,
+      label: `YouTube — ${topic}`,
+      url: `https://www.youtube.com/results?search_query=${topicQ}`,
     },
     {
       kind: "web",
-      label: "Web explainers (NCERT / coaching)",
-      url: `https://www.google.com/search?q=${q}+site%3Ancert.nic.in+OR+site%3Abyjus.com+OR+site%3Avedantu.com+OR+site%3Aphysicswallah.live`,
+      label: "NCERT textbook portal",
+      url: "https://ncert.nic.in/textbook.php",
+    },
+    {
+      kind: "web",
+      label: "Web explainers (this concept)",
+      url: `https://www.google.com/search?q=${q}`,
     },
     {
       kind: "pdf",
-      label: "PDF notes / PYQ sheets",
-      url: `https://www.google.com/search?q=${pdfQ}+filetype%3Apdf`,
+      label: "PDF notes search",
+      url: `https://www.google.com/search?q=${pdfQ}`,
     },
   ];
 }

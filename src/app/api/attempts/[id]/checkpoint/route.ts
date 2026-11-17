@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 import { Types } from "mongoose";
 import { getSession } from "@/lib/auth";
-import { ensureSeeded } from "@/lib/seed";
+import { connectDb } from "@/lib/db";
 import { Attempt } from "@/lib/models";
 import { parseOptionList } from "@/lib/multi-correct";
 import {
@@ -35,7 +35,7 @@ type Params = { params: Promise<{ id: string }> };
  * Illegal Section B / budget items are rejected individually — the rest still save.
  */
 export async function POST(req: Request, { params }: Params) {
-  await ensureSeeded();
+  await connectDb();
   const user = await getSession();
   if (!user || user.role !== "student") {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
@@ -154,7 +154,7 @@ export async function POST(req: Request, { params }: Params) {
 }
 
 export async function GET(_req: Request, { params }: Params) {
-  await ensureSeeded();
+  await connectDb();
   const user = await getSession();
   if (!user || user.role !== "student") {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
