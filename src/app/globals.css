@@ -705,3 +705,197 @@ button.palette-btn[data-status="marked_answered"],
   }
 }
 
+/* ——— Desk shell: auth + student dashboard (notebook accents, not exam CBT) ——— */
+.desk-shell {
+  --paper: #eef3f7;
+  --rule: rgba(70, 120, 170, 0.16);
+  --margin-red: rgba(196, 74, 74, 0.4);
+  --graphite: #243041;
+  --ink-blue: #1e4d7b;
+  --hl: #ffe56a;
+  position: relative;
+  min-height: 100vh;
+  min-height: 100dvh;
+  color: var(--graphite);
+  isolation: isolate;
+}
+
+.desk-shell__paper {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(
+      90deg,
+      transparent 0 3.25rem,
+      var(--margin-red) 3.25rem,
+      var(--margin-red) calc(3.25rem + 1.5px),
+      transparent calc(3.25rem + 1.5px)
+    ),
+    repeating-linear-gradient(
+      transparent,
+      transparent calc(1.85rem - 1px),
+      var(--rule) calc(1.85rem - 1px),
+      var(--rule) 1.85rem
+    ),
+    radial-gradient(ellipse 100% 70% at 85% 0%, rgba(255, 255, 255, 0.65), transparent 55%),
+    radial-gradient(ellipse 80% 50% at 5% 100%, rgba(180, 210, 230, 0.28), transparent 50%);
+  background-size: 100% 100%, 100% 1.85rem, 100% 100%, 100% 100%;
+  background-position: 0 0, 0 0.7rem, 0 0, 0 0;
+}
+
+.desk-shell__inner {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  max-width: 68rem;
+  padding: 1.5rem 1rem 3rem;
+}
+
+@media (min-width: 640px) {
+  .desk-shell__inner {
+    padding: 2rem 1.5rem 3.5rem;
+  }
+}
+
+.desk-card {
+  border: 1px solid rgba(36, 48, 65, 0.08);
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.7) inset,
+    0 12px 28px rgba(36, 48, 65, 0.06);
+  backdrop-filter: blur(6px);
+}
+
+.desk-card--pad {
+  padding: 1.25rem 1.35rem;
+}
+
+.desk-title {
+  margin: 0;
+  font-family: var(--font-caveat), Caveat, cursive;
+  font-weight: 700;
+  font-size: clamp(2rem, 4vw, 2.6rem);
+  line-height: 1;
+  color: var(--ink-blue);
+}
+
+.desk-section-title {
+  margin: 0;
+  font-family: var(--font-ibm-plex), "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--graphite);
+}
+
+.desk-kicker {
+  margin: 0.25rem 0 0;
+  font-family: var(--font-literata), Literata, Georgia, serif;
+  font-size: 0.92rem;
+  line-height: 1.45;
+  color: #5b6b7c;
+}
+
+.desk-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.desk-nav a,
+.desk-nav-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid rgba(30, 77, 123, 0.18);
+  background: rgba(255, 255, 255, 0.75);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink-blue);
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.desk-nav a:hover,
+.desk-nav-link:hover {
+  background: #fff;
+  border-color: rgba(30, 77, 123, 0.4);
+}
+
+.desk-sticky-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.65rem;
+  font-family: var(--font-caveat), Caveat, cursive;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #2a3340;
+  box-shadow: 0 6px 14px rgba(36, 48, 65, 0.08);
+  transform: rotate(-1.5deg);
+}
+
+.desk-sticky-chip--pink {
+  background: #ffb7c5;
+}
+.desk-sticky-chip--mint {
+  background: #b8e0d2;
+  transform: rotate(1.5deg);
+}
+.desk-sticky-chip--butter {
+  background: #ffe8a3;
+}
+
+.desk-auth-wrap {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  min-height: 100vh;
+  min-height: 100dvh;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.desk-auth-card {
+  width: min(26rem, 100%);
+  padding: 1.75rem 1.5rem;
+  border: 1px solid rgba(36, 48, 65, 0.1);
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.8) inset,
+    0 18px 40px rgba(36, 48, 65, 0.1);
+}
+
+.desk-auth-card input {
+  border: 1px solid rgba(30, 77, 123, 0.22);
+  background: #fbfcfe;
+  border-radius: 0.5rem;
+  padding: 0.65rem 0.75rem;
+  width: 100%;
+  color: var(--graphite);
+}
+
+.desk-auth-card input:focus {
+  outline: 2px solid rgba(30, 77, 123, 0.35);
+  outline-offset: 1px;
+}
+
+.desk-chart-frame {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(36, 48, 65, 0.08);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.95), rgba(244, 248, 252, 0.9));
+}
+
+.desk-chart-frame svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+

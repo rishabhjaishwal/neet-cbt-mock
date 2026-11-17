@@ -87,7 +87,11 @@ async function main() {
   await timed("dashboard HTML (post-auth)", async () => {
     const r = await req("GET", "/dashboard");
     if (r.status !== 200) throw new Error(`status ${r.status}`);
-    if (!/Topic-wise|Choose a year|Start/i.test(r.text)) {
+    if (
+      !/Topic-wise|Last 10-year|Performance|Score over time|Open topic series|Start/i.test(
+        r.text,
+      )
+    ) {
       throw new Error("dashboard markers missing");
     }
     return { detail: `len=${r.text.length}` };

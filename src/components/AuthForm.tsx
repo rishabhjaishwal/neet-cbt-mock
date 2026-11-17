@@ -36,43 +36,50 @@ export function AuthForm({ mode }: { mode: "login" | "signup" }) {
     <form onSubmit={onSubmit} className="space-y-4">
       {mode === "signup" && (
         <label className="block text-sm">
-          <span className="mb-1 block font-medium">Full name</span>
+          <span className="mb-1 block font-medium text-slate-700">Full name</span>
           <input
-            className="w-full rounded-md border border-slate-300 bg-white px-3 py-2"
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
+            autoComplete="name"
           />
         </label>
       )}
       <label className="block text-sm">
-        <span className="mb-1 block font-medium">Email</span>
+        <span className="mb-1 block font-medium text-slate-700">Email</span>
         <input
           type="email"
-          className="w-full rounded-md border border-slate-300 bg-white px-3 py-2"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
+          autoComplete="email"
         />
       </label>
       <label className="block text-sm">
-        <span className="mb-1 block font-medium">Password</span>
+        <span className="mb-1 block font-medium text-slate-700">Password</span>
         <input
           type="password"
-          className="w-full rounded-md border border-slate-300 bg-white px-3 py-2"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           required
           minLength={mode === "signup" ? 8 : 1}
+          autoComplete={mode === "signup" ? "new-password" : "current-password"}
         />
       </label>
       {error && <p className="text-sm text-[var(--danger)]">{error}</p>}
       <button
         type="submit"
         disabled={loading}
-        className="w-full rounded-md bg-[var(--cbt-accent)] px-4 py-2.5 font-semibold text-white hover:bg-[var(--cbt-accent-dark)] disabled:opacity-60"
+        className={`btn-pencil w-full justify-center ${loading ? "opacity-70" : ""}`}
       >
-        {loading ? "Please wait…" : mode === "login" ? "Login" : "Create account"}
+        <span className="btn-pencil__lead flex-1 justify-center text-center">
+          {loading
+            ? "Please wait…"
+            : mode === "login"
+              ? "Login"
+              : "Create account"}
+        </span>
+        <span className="btn-pencil__tip" aria-hidden />
       </button>
     </form>
   );
