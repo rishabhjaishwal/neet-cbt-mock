@@ -4,11 +4,17 @@ import { Types } from "mongoose";
 import { getSession } from "@/lib/auth";
 import { connectDb } from "@/lib/db";
 import { TopicAttempt } from "@/lib/models";
-import { loadTopicBank, pickTopicQuestions } from "@/lib/topic-series";
+import {
+  TOPIC_MOCK_QUESTION_COUNT,
+  loadTopicBank,
+  pickTopicQuestions,
+  topicMockDurationMinutes,
+} from "@/lib/topic-series";
 
 const schema = z.object({
   topicId: z.string().min(1),
   difficulty: z.enum(["Easy", "Medium", "Hard"]),
+  /** Optional override; defaults to TOPIC_MOCK_QUESTION_COUNT (30). Max 50. */
   limit: z.number().int().min(10).max(50).optional(),
 });
 
@@ -30,13 +36,14 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "Topic not found" }, { status: 404 });
   }
 
-  const limit = body.limit ?? 50;
+  const limit = body.limit ?? TOPIC_MOCK_QUESTION_COUNT;
   const picked = pickTopicQuestions(bank, body.difficulty, limit);
-  if (picked.length < 10) {
+  if (picked.length < limit) {
     return NextResponse.json(
       {
-        error: `Not enough ${body.difficulty} questions yet (${picked.length}). See topic gaps.`,
+        error: `Need ${limit} ${body.difficulty} questions (have ${picked.length}). See topic gaps.`,
         available: picked.length,
+        required: limit,
       },
       { status: 409 },
     );
@@ -44,7 +51,7 @@ export async function POST(req: Request) {
 
   await connectDb();
   const userId = new Types.ObjectId(user.id);
-  const durationMin = Math.max(20, Math.round(picked.length * 1.2));
+  const durationMin = topicMockDurationMinutes(picked.length);
   const endsAt = new Date(Date.now() + durationMin * 60_000);
 
   const questions = picked.map((q, i) => ({

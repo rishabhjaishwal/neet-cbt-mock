@@ -11,6 +11,6 @@ export async function GET() {
   return NextResponse.json({
     ok: true,
     topics,
-    note: "v1 banks reuse our PYQ extracts by topic. Gaps list difficulties still under 50.",
+    note: "Each mock is 30 questions (~36 min). Banks target ≥50 clean items per difficulty; gaps list shortfalls.",
   });
 }

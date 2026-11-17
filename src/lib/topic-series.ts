@@ -4,6 +4,21 @@ import { filterStudentQuestions } from "./content-quality";
 
 export type TopicDifficulty = "Easy" | "Medium" | "Hard";
 
+/** Fixed length for each Easy/Medium/Hard topic mock. */
+export const TOPIC_MOCK_QUESTION_COUNT = 30;
+
+/**
+ * Proportional timer: ~1.2 min/Q, clamped to a 30–40 min student-friendly band
+ * for the standard 30-question mock (~36 min).
+ */
+export function topicMockDurationMinutes(
+  questionCount = TOPIC_MOCK_QUESTION_COUNT,
+): number {
+  const raw = Math.round(questionCount * 1.2);
+  if (questionCount <= 0) return 30;
+  return Math.min(40, Math.max(30, raw));
+}
+
 export type TopicBankQuestion = {
   id: string;
   sourceYear?: number;
@@ -112,7 +127,7 @@ export async function listBankFiles(): Promise<string[]> {
 export function pickTopicQuestions(
   bank: TopicBankFile,
   difficulty: TopicDifficulty,
-  limit = 50,
+  limit = TOPIC_MOCK_QUESTION_COUNT,
   seed = Date.now(),
 ): TopicBankQuestion[] {
   const pool = [...(bank.questions[difficulty] || [])];

@@ -169,8 +169,8 @@ export default async function DashboardPage({
             </span>
             <h2 className="desk-section-title">Topic-wise mocks</h2>
             <p className="desk-kicker max-w-2xl">
-              Short timed drills by subject topic — same AI solution stack and
-              charts as full papers, without the 3-hour sit.
+              30-question Easy / Medium / Hard drills (~36 min) by subject topic —
+              same AI solution stack and charts as full papers, without the 3-hour sit.
             </p>
             <div className="mt-4 flex flex-wrap gap-3">
               <InstantLink

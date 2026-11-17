@@ -29,8 +29,9 @@ export default async function TopicSeriesPage() {
           </p>
           <h1 className="desk-title mt-1">Topic-wise mock series</h1>
           <p className="desk-kicker mt-2 max-w-2xl">
-            Easy / Medium / Hard drills by subject topic. Results include the same AI
-            solution + YouTube / web / PDF stack.
+            Pick Easy / Medium / Hard — each mock is <strong>30 questions</strong> with
+            a proportional timer (~36 min, band 30–40). Same AI solution + YouTube /
+            web / PDF stack on results.
           </p>
         </header>
 
@@ -61,13 +62,13 @@ export default async function TopicSeriesPage() {
                         <StartTopicButton
                           topicId={t.id}
                           difficulty={d}
-                          disabled={(t.counts[d] ?? 0) < 10}
+                          disabled={(t.counts[d] ?? 0) < 30}
                         />
                       </div>
                     ))}
                   </div>
                   <p className="mt-2 text-xs text-slate-500">
-                    {t.ready ? "Ready" : "Building"}
+                    {t.ready ? "30 Q · ~36 min" : "Building"}
                   </p>
                 </article>
               ))}
@@ -102,12 +103,12 @@ export default async function TopicSeriesPage() {
                           <StartTopicButton
                             topicId={t.id}
                             difficulty={d}
-                            disabled={(t.counts[d] ?? 0) < 10}
+                            disabled={(t.counts[d] ?? 0) < 30}
                           />
                         </td>
                       ))}
                       <td className="px-4 py-3 text-xs text-slate-500">
-                        {t.ready ? "Ready" : "Building"}
+                        {t.ready ? "30 Q · ~36 min" : "Building"}
                       </td>
                     </tr>
                   ))}

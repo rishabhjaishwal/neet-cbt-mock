@@ -29,7 +29,7 @@ export function StartTopicButton({
             const res = await fetch("/api/topic-series/start", {
               method: "POST",
               headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({ topicId, difficulty, limit: 50 }),
+              body: JSON.stringify({ topicId, difficulty, limit: 30 }),
             });
             const data = await res.json();
             if (!res.ok) {
