@@ -2,6 +2,7 @@ import { redirect } from "next/navigation";
 import { getSession } from "@/lib/auth";
 import { InstantLink } from "@/components/InstantLink";
 import { SuggestionsForm } from "@/components/SuggestionsForm";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 export default async function SuggestionsPage() {
   const user = await getSession();
@@ -12,7 +13,8 @@ export default async function SuggestionsPage() {
     <div className="desk-shell">
       <div className="desk-shell__paper" aria-hidden />
       <div className="desk-shell__inner">
-        <header className="mb-6">
+        <header className="mb-6 flex flex-wrap items-start justify-between gap-3">
+          <div>
           <p className="text-sm font-semibold text-[var(--ink-blue,#1e4d7b)]">
             <InstantLink href="/dashboard" className="hover:underline">
               ← Dashboard
@@ -23,6 +25,8 @@ export default async function SuggestionsPage() {
             You suggest, we implement to improve it for you. This page is part of
             your notebook desk — not the exam CBT chrome.
           </p>
+          </div>
+          <ThemeToggle />
         </header>
 
         <SuggestionsForm />

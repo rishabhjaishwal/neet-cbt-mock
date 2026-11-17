@@ -2,6 +2,7 @@ import { redirect } from "next/navigation";
 import { getSession } from "@/lib/auth";
 import { InstantLink } from "@/components/InstantLink";
 import { CompetitionsList } from "@/components/CompetitionsList";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 export default async function CompetitionsPage() {
   const user = await getSession();
@@ -24,7 +25,8 @@ export default async function CompetitionsPage() {
               account — share an invite code, then the host starts.
             </p>
           </div>
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap items-center gap-2">
+            <ThemeToggle />
             <InstantLink href="/competitions/join" className="cbt-btn cbt-btn-secondary">
               Join with code
             </InstantLink>

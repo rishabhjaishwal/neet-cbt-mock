@@ -4,6 +4,7 @@ import { startTransition, useCallback, useEffect, useMemo, useRef, useState } fr
 import { useRouter } from "next/navigation";
 import { QuestionOptionMarkdown, QuestionStemMarkdown } from "@/components/QuestionMarkdown";
 import { QuestionFigure } from "@/components/QuestionFigure";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 type Q = {
   id: string;
@@ -237,8 +238,11 @@ export function TopicQuizCbt({
             Attempted {attempted}/{questions.length} · Sync {syncState}
           </p>
         </div>
-        <div className="rounded bg-black/25 px-3 py-1.5 font-mono text-lg">
-          {formatRemain(remain)}
+        <div className="flex flex-wrap items-center gap-2">
+          <ThemeToggle compact className="cbt-btn cbt-btn-sm cbt-btn-ghost-toolbar" />
+          <div className="rounded bg-black/25 px-3 py-1.5 font-mono text-lg">
+            {formatRemain(remain)}
+          </div>
         </div>
       </header>
 

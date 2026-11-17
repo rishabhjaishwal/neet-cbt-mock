@@ -9,6 +9,7 @@ import { StartAttemptButton } from "@/components/StartAttemptButton";
 import { InstantLink } from "@/components/InstantLink";
 import { DashboardCharts } from "@/components/DashboardCharts";
 import { PaperContentPrefetch } from "@/components/PaperContentPrefetch";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import { toDashPoints } from "@/lib/dashboard-points";
 import { buildTopicDashboardAnalytics } from "@/lib/topic-dashboard";
 
@@ -168,7 +169,10 @@ export default async function DashboardPage({
           </div>
           <div className="flex flex-col items-end gap-2">
             <p className="text-xs text-slate-500">{user.email}</p>
-            <LogoutButton />
+            <div className="flex flex-wrap items-center justify-end gap-2">
+              <ThemeToggle />
+              <LogoutButton />
+            </div>
           </div>
         </header>
 

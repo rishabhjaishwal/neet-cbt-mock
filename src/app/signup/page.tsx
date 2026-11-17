@@ -1,10 +1,14 @@
 import Link from "next/link";
 import { AuthForm } from "@/components/AuthForm";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 export default function SignupPage() {
   return (
     <div className="desk-shell">
       <div className="desk-shell__paper" aria-hidden />
+      <div className="absolute right-3 top-3 z-20 sm:right-5 sm:top-5">
+        <ThemeToggle />
+      </div>
       <div className="desk-auth-wrap">
         <div className="desk-auth-card">
           <p className="landing-brand" style={{ fontSize: "2.4rem" }}>

@@ -3,6 +3,7 @@ import { getSession } from "@/lib/auth";
 import { listTopicCatalog } from "@/lib/topic-series";
 import { TopicSeriesNavigator } from "@/components/TopicSeriesNavigator";
 import { InstantLink } from "@/components/InstantLink";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 export default async function TopicSeriesPage() {
   const user = await getSession();
@@ -15,7 +16,8 @@ export default async function TopicSeriesPage() {
     <div className="desk-shell">
       <div className="desk-shell__paper" aria-hidden />
       <div className="desk-shell__inner">
-        <header className="mb-6">
+        <header className="mb-6 flex flex-wrap items-start justify-between gap-3">
+          <div>
           <p className="text-sm font-semibold text-[var(--ink-blue,#1e4d7b)]">
             <InstantLink href="/dashboard" className="hover:underline">
               ← Dashboard
@@ -26,6 +28,8 @@ export default async function TopicSeriesPage() {
             Subject → Topic → Easy / Medium / Hard → numbered test (_1, _2…). Each
             test is 30 questions · about 36 minutes.
           </p>
+          </div>
+          <ThemeToggle />
         </header>
 
         <TopicSeriesNavigator topics={topics} />

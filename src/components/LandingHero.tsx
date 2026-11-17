@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 const HEADLINES = [
   "Your NEET desk — mocks, topics, friends.",
@@ -36,6 +37,10 @@ export function LandingHero() {
       <div className="landing-sticky landing-sticky--butter" aria-hidden="true">
         Friends race
         <em>competitions</em>
+      </div>
+
+      <div className="absolute right-3 top-3 z-10 sm:right-5 sm:top-5">
+        <ThemeToggle />
       </div>
 
       <section className="landing-hero">

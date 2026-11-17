@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "katex/dist/katex.min.css";
 import "./globals.css";
+import { ThemeScript } from "@/components/ThemeScript";
 
 export const metadata: Metadata = {
   title: "NEET CBT Mock",
@@ -11,15 +12,19 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover",
-  themeColor: "#1e4d7b",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#1e4d7b" },
+    { media: "(prefers-color-scheme: dark)", color: "#0b1220" },
+  ],
 };
 
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
+        <ThemeScript />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"

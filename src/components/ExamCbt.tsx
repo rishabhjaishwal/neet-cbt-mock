@@ -18,6 +18,7 @@ import {
   ExamSubmitSummaryPanel,
 } from "@/components/ExamParityPanels";
 import { ExamPdfPaperPanel } from "@/components/ExamPdfPaperPanel";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import { buildAttemptLimitInfo, paletteStatus } from "@/lib/attempt-rules";
 import { t, type Lang } from "@/lib/i18n";
 
@@ -1116,6 +1117,7 @@ export function ExamCbt({
           <div className="truncate text-xs text-blue-100 sm:text-sm">{title}</div>
         </div>
         <div className="cbt-exam-header__meta flex flex-wrap items-center gap-2">
+          <ThemeToggle compact className="cbt-btn cbt-btn-sm cbt-btn-ghost-toolbar" />
           <button
             type="button"
             className="cbt-btn cbt-btn-sm cbt-btn-ghost-toolbar"
