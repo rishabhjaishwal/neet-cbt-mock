@@ -486,6 +486,57 @@ function PoorRankLists({ analytics }: { analytics: TopicDashboardAnalytics }) {
   );
 }
 
+function SubmittedTestsTable({ points }: { points: DashAttemptPoint[] }) {
+  return (
+    <div className="desk-card desk-card--pad overflow-x-auto">
+      <h2 className="desk-section-title">All submitted tests</h2>
+      <p className="desk-kicker mb-3">
+        Wrong + unattempted counts with each attempt. Opened only when you need the full list.
+      </p>
+      <table className="w-full min-w-[36rem] text-left text-sm">
+        <thead className="text-xs uppercase tracking-wide text-slate-500">
+          <tr>
+            <th className="px-2 py-2">When (IST)</th>
+            <th className="px-2 py-2">Test</th>
+            <th className="px-2 py-2">Score</th>
+            <th className="px-2 py-2">Wrong</th>
+            <th className="px-2 py-2">Unattempted</th>
+            <th className="px-2 py-2" />
+          </tr>
+        </thead>
+        <tbody>
+          {[...points].reverse().map((p) => (
+            <tr key={p.id} className="border-t border-slate-100">
+              <td className="px-2 py-2 whitespace-nowrap text-slate-600">
+                {formatWhen(p.at)}
+              </td>
+              <td className="px-2 py-2 font-medium">{p.label}</td>
+              <td className="px-2 py-2 font-semibold">
+                {p.score}
+                <span className="font-normal text-slate-500">/{p.totalMarks}</span>
+              </td>
+              <td className="px-2 py-2 text-rose-700">{p.wrong}</td>
+              <td className="px-2 py-2 text-slate-600">{p.unattempted}</td>
+              <td className="px-2 py-2">
+                <a
+                  href={
+                    p.kind === "paper"
+                      ? `/results/${p.id}`
+                      : `/topic-series/results/${p.id}`
+                  }
+                  className="cbt-btn cbt-btn-sm cbt-btn-secondary"
+                >
+                  Open
+                </a>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
 export function DashboardCharts({
   points,
   topicAnalytics,
@@ -493,6 +544,8 @@ export function DashboardCharts({
   points: DashAttemptPoint[];
   topicAnalytics?: TopicDashboardAnalytics | null;
 }) {
+  const [tab, setTab] = useState<"overview" | "tests">("overview");
+
   if (!points.length) {
     return (
       <div className="desk-card desk-card--pad">
@@ -520,119 +573,123 @@ export function DashboardCharts({
 
   return (
     <div className="space-y-4">
-      <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-        {[
-          ["Attempts", String(points.length), "desk-sticky-chip--mint"],
-          ["Avg score", `${avg}`, "desk-sticky-chip--butter"],
-          ["Wrong picks", String(totals.wrong), "desk-sticky-chip--pink"],
-          ["Unattempted", String(totals.unattempted), "desk-sticky-chip--mint"],
-        ].map(([label, value, chip]) => (
-          <div key={label} className="desk-card desk-card--pad flex items-center justify-between gap-3">
-            <div>
-              <div className="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
-                {label}
-              </div>
-              <div className="mt-1 text-2xl font-bold text-slate-800">{value}</div>
-            </div>
-            <span className={`desk-sticky-chip ${chip}`}>{label === "Avg score" ? "/720" : "Σ"}</span>
-          </div>
-        ))}
+      <div
+        className="flex flex-wrap gap-2 rounded-xl border border-slate-200 bg-white/80 p-1"
+        role="tablist"
+        aria-label="Performance views"
+      >
+        <button
+          type="button"
+          role="tab"
+          aria-selected={tab === "overview"}
+          className={`rounded-lg px-4 py-2 text-sm font-semibold transition ${
+            tab === "overview"
+              ? "bg-[var(--ink-blue,#1e4d7b)] text-white"
+              : "text-slate-600 hover:bg-slate-50"
+          }`}
+          onClick={() => setTab("overview")}
+        >
+          Overview
+        </button>
+        <button
+          type="button"
+          role="tab"
+          aria-selected={tab === "tests"}
+          className={`rounded-lg px-4 py-2 text-sm font-semibold transition ${
+            tab === "tests"
+              ? "bg-[var(--ink-blue,#1e4d7b)] text-white"
+              : "text-slate-600 hover:bg-slate-50"
+          }`}
+          onClick={() => setTab("tests")}
+        >
+          Submitted tests ({points.length})
+        </button>
       </div>
 
-      <div className="desk-card desk-card--pad">
-        <div className="mb-3 flex flex-wrap items-end justify-between gap-2">
-          <div>
-            <h2 className="desk-section-title">Score over time</h2>
-            <p className="desk-kicker">
-              Marks obtained vs attempt time · best {best.score}/{best.totalMarks} (
-              {best.label})
-            </p>
-          </div>
-        </div>
-        <PerformanceLineChart points={points} />
-      </div>
-
-      <div className="desk-card desk-card--pad">
-        <div className="mb-3">
-          <h2 className="desk-section-title">Subject scores — last attempts</h2>
-          <p className="desk-kicker">
-            Estimated subject marks (+4/−1) for your last 5–10 year papers.
-          </p>
-        </div>
-        <SubjectBarChart points={points} />
-      </div>
-
-      {topicAnalytics &&
-        (topicAnalytics.poorTopics.length > 0 ||
-          topicAnalytics.unattemptedBySubject.length > 0) && (
-          <>
-            <div id="topic-performance" className="desk-card desk-card--pad scroll-mt-6">
-              <div className="mb-3">
-                <h2 className="desk-section-title">Topic-wise performance</h2>
-                <p className="desk-kicker">
-                  Ranked weak subjects and topics from your year papers + topic
-                  mocks — jump straight into practice.
-                </p>
+      {tab === "overview" ? (
+        <div className="space-y-4" role="tabpanel">
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            {[
+              ["Attempts", String(points.length), "desk-sticky-chip--mint"],
+              ["Avg score", `${avg}`, "desk-sticky-chip--butter"],
+              ["Wrong picks", String(totals.wrong), "desk-sticky-chip--pink"],
+              ["Unattempted", String(totals.unattempted), "desk-sticky-chip--mint"],
+            ].map(([label, value, chip]) => (
+              <div
+                key={label}
+                className="desk-card desk-card--pad flex items-center justify-between gap-3"
+              >
+                <div>
+                  <div className="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
+                    {label}
+                  </div>
+                  <div className="mt-1 text-2xl font-bold text-slate-800">{value}</div>
+                </div>
+                <span className={`desk-sticky-chip ${chip}`}>
+                  {label === "Avg score" ? "/720" : "Σ"}
+                </span>
               </div>
-              <PoorRankLists analytics={topicAnalytics} />
-            </div>
-
-            <div className="desk-card desk-card--pad">
-              <div className="mb-3">
-                <h2 className="desk-section-title">Unattempted by subject</h2>
-                <p className="desk-kicker">
-                  Pie of skipped questions — click a subject to drill into topics.
-                </p>
-              </div>
-              <UnattemptedSubjectPie analytics={topicAnalytics} />
-            </div>
-          </>
-        )}
-
-      <div className="desk-card desk-card--pad overflow-x-auto">
-        <h2 className="desk-section-title">All submitted tests</h2>
-        <p className="desk-kicker mb-3">Wrong + unattempted counts with each attempt.</p>
-        <table className="w-full min-w-[36rem] text-left text-sm">
-          <thead className="text-xs uppercase tracking-wide text-slate-500">
-            <tr>
-              <th className="px-2 py-2">When (IST)</th>
-              <th className="px-2 py-2">Test</th>
-              <th className="px-2 py-2">Score</th>
-              <th className="px-2 py-2">Wrong</th>
-              <th className="px-2 py-2">Unattempted</th>
-              <th className="px-2 py-2" />
-            </tr>
-          </thead>
-          <tbody>
-            {[...points].reverse().map((p) => (
-              <tr key={p.id} className="border-t border-slate-100">
-                <td className="px-2 py-2 whitespace-nowrap text-slate-600">
-                  {formatWhen(p.at)}
-                </td>
-                <td className="px-2 py-2 font-medium">{p.label}</td>
-                <td className="px-2 py-2 font-semibold">
-                  {p.score}
-                  <span className="font-normal text-slate-500">/{p.totalMarks}</span>
-                </td>
-                <td className="px-2 py-2 text-rose-700">{p.wrong}</td>
-                <td className="px-2 py-2 text-slate-600">{p.unattempted}</td>
-                <td className="px-2 py-2">
-                  <a
-                    href={
-                      p.kind === "paper"
-                        ? `/results/${p.id}`
-                        : `/topic-series/results/${p.id}`
-                    }
-                    className="cbt-btn cbt-btn-sm cbt-btn-secondary"
-                  >
-                    Open
-                  </a>
-                </td>
-              </tr>
             ))}
-          </tbody>
-        </table>
-      </div>
+          </div>
+
+          <div className="desk-card desk-card--pad">
+            <div className="mb-3 flex flex-wrap items-end justify-between gap-2">
+              <div>
+                <h2 className="desk-section-title">Score over time</h2>
+                <p className="desk-kicker">
+                  Marks obtained vs attempt time · best {best.score}/{best.totalMarks} (
+                  {best.label})
+                </p>
+              </div>
+            </div>
+            <PerformanceLineChart points={points} />
+          </div>
+
+          <div className="desk-card desk-card--pad">
+            <div className="mb-3">
+              <h2 className="desk-section-title">Subject scores — last attempts</h2>
+              <p className="desk-kicker">
+                Estimated subject marks (+4/−1) for your last 5–10 year papers.
+              </p>
+            </div>
+            <SubjectBarChart points={points} />
+          </div>
+
+          {topicAnalytics &&
+            (topicAnalytics.poorTopics.length > 0 ||
+              topicAnalytics.unattemptedBySubject.length > 0) && (
+              <>
+                <div
+                  id="topic-performance"
+                  className="desk-card desk-card--pad scroll-mt-6"
+                >
+                  <div className="mb-3">
+                    <h2 className="desk-section-title">Topic-wise performance</h2>
+                    <p className="desk-kicker">
+                      Ranked weak subjects and topics from your year papers + topic
+                      mocks — jump straight into practice.
+                    </p>
+                  </div>
+                  <PoorRankLists analytics={topicAnalytics} />
+                </div>
+
+                <div className="desk-card desk-card--pad">
+                  <div className="mb-3">
+                    <h2 className="desk-section-title">Unattempted by subject</h2>
+                    <p className="desk-kicker">
+                      Pie of skipped questions — click a subject to drill into topics.
+                    </p>
+                  </div>
+                  <UnattemptedSubjectPie analytics={topicAnalytics} />
+                </div>
+              </>
+            )}
+        </div>
+      ) : (
+        <div role="tabpanel">
+          <SubmittedTestsTable points={points} />
+        </div>
+      )}
     </div>
   );
 }

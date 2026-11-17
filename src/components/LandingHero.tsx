@@ -68,7 +68,9 @@ export function LandingHero() {
 
         <p className="landing-support fade-up">
           Full-screen timed papers with palette, figures, instant marks on submit,
-          and modelled percentile against real candidate counts.
+          topic drills, and modelled percentile against real candidate counts.
+          You suggest, we implement — students can leave notebook notes to improve
+          the desk.
         </p>
 
         <div className="landing-cta fade-up-late">

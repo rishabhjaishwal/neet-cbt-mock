@@ -177,6 +177,9 @@ export default async function DashboardPage({
           <a href="#topic-performance">Topic strengths</a>
           <a href="#topic-mocks">Topic-wise mocks</a>
           <a href="#year-papers">Last 10-year papers</a>
+          <InstantLink href="/suggestions" className="desk-nav-link">
+            Suggestions
+          </InstantLink>
         </nav>
 
         {params.submitted && (

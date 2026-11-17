@@ -206,6 +206,25 @@ const TopicAttemptSchema = new Schema(
 );
 TopicAttemptSchema.index({ userId: 1, topicId: 1, difficulty: 1, startedAt: -1 });
 
+const SuggestionSchema = new Schema(
+  {
+    userId: { type: Schema.Types.ObjectId, ref: "User", required: true, index: true },
+    email: { type: String, required: true },
+    name: { type: String, required: true },
+    /** Raw markdown from the student notebook box. */
+    bodyMarkdown: { type: String, required: true },
+    status: {
+      type: String,
+      enum: ["new", "read", "planned", "done"],
+      default: "new",
+      index: true,
+    },
+    createdAt: { type: Date, default: Date.now, index: true },
+  },
+  { timestamps: false },
+);
+SuggestionSchema.index({ userId: 1, createdAt: -1 });
+
 export const AppMeta = models.AppMeta || model("AppMeta", AppMetaSchema);
 export const User = models.User || model("User", UserSchema);
 export const Paper = models.Paper || model("Paper", PaperSchema);
@@ -213,7 +232,12 @@ export const Question = models.Question || model("Question", QuestionSchema);
 export const Attempt = models.Attempt || model("Attempt", AttemptSchema);
 export const TopicAttempt =
   models.TopicAttempt || model("TopicAttempt", TopicAttemptSchema);
+export const Suggestion =
+  models.Suggestion || model("Suggestion", SuggestionSchema);
 
 export type TopicAttemptDoc = InferSchemaType<typeof TopicAttemptSchema> & {
+  _id: Types.ObjectId;
+};
+export type SuggestionDoc = InferSchemaType<typeof SuggestionSchema> & {
   _id: Types.ObjectId;
 };
