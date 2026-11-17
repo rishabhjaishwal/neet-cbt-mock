@@ -2,7 +2,7 @@
 /**
  * API-level E2E against production (or BASE_URL).
  * Covers auth, exam start, answer, multi-correct, figures, checkpoint,
- * proctor, submit lock, examiner approve, results fields, retake.
+ * proctor, submit lock + instant results, examiner view, results fields, retake.
  */
 import { createWriteStream } from "node:fs";
 import { mkdir } from "node:fs/promises";
@@ -279,7 +279,7 @@ async function main() {
     );
   }
 
-  // 14 submit lock
+  // 14 submit lock + instant release
   {
     const r = await req("student", "POST", `/api/attempts/${attemptId}/submit`);
     const locked = await req("student", "POST", `/api/attempts/${attemptId}/answer`, {
@@ -289,40 +289,17 @@ async function main() {
     });
     record(
       "S14",
-      "Submit locks attempt",
-      r.status === 200 && r.json?.locked === true && locked.status === 409,
+      "Submit locks + releases results",
+      r.status === 200 &&
+        r.json?.locked === true &&
+        r.json?.released === true &&
+        r.json?.status === "approved" &&
+        locked.status === 409,
       `submit=${JSON.stringify(r.json)} answerAfter=${locked.status}`,
     );
   }
 
-  // Examiner
-  {
-    const r = await req("examiner", "POST", "/api/auth/login", {
-      email: "examiner@neet.local",
-      password: "Examiner@123",
-    });
-    record("E15", "Examiner login", r.status === 200 && r.json?.role === "examiner", `${r.status} ${JSON.stringify(r.json)}`);
-  }
-  {
-    const r = await req("examiner", "GET", "/api/examiner/attempts");
-    const list = r.json?.attempts || r.json || [];
-    const arr = Array.isArray(list) ? list : list.items || [];
-    const found = arr.find((a) => String(a.id || a._id) === attemptId || String(a.attemptId) === attemptId);
-    const anySubmitted = arr.some((a) => a.status === "submitted");
-    const switches = found?.screenSwitchCount ?? 0;
-    record(
-      "E16",
-      "Examiner sees submitted attempts + screen switches",
-      r.status === 200 && Boolean(found || anySubmitted) && switches >= 1,
-      `count=${arr.length} found=${!!found} switches=${switches}`,
-    );
-  }
-  {
-    const r = await req("examiner", "POST", `/api/examiner/attempts/${attemptId}/approve`);
-    record("E17", "Examiner approve attempt", r.status === 200 && r.json?.ok, `${r.status} ${JSON.stringify(r.json)}`);
-  }
-
-  // Post-approval student
+  // Instant results (no examiner approve required)
   {
     const r = await req("student", "GET", `/api/attempts/${attemptId}`);
     const a = r.json?.attempt;
@@ -330,7 +307,7 @@ async function main() {
     const hasCorrect = qs.some((q) => q.correctOption != null);
     record(
       "R18",
-      "Results payload after approve",
+      "Results payload immediately after submit",
       r.status === 200 && a?.status === "approved" && a?.score != null,
       `status=${a?.status} score=${a?.score} rank=${a?.estimated_rank} pct=${a?.percentile}`,
     );
@@ -347,6 +324,38 @@ async function main() {
       `rank=${a?.estimated_rank} pct=${a?.percentile} subjects=${!!a?.subject_stats} topics=${!!a?.topic_stats}`,
     );
   }
+
+  // Examiner (view-only; approve not required)
+  {
+    const r = await req("examiner", "POST", "/api/auth/login", {
+      email: "examiner@neet.local",
+      password: "Examiner@123",
+    });
+    record("E15", "Examiner login", r.status === 200 && r.json?.role === "examiner", `${r.status} ${JSON.stringify(r.json)}`);
+  }
+  {
+    const r = await req("examiner", "GET", "/api/examiner/attempts");
+    const list = r.json?.attempts || r.json || [];
+    const arr = Array.isArray(list) ? list : list.items || [];
+    const found = arr.find((a) => String(a.id || a._id) === attemptId || String(a.attemptId) === attemptId);
+    const anyDone = arr.some((a) => a.status === "submitted" || a.status === "approved");
+    const switches = found?.screenSwitchCount ?? found?.screen_switch_count ?? 0;
+    record(
+      "E16",
+      "Examiner sees completed attempts + screen switches",
+      r.status === 200 && Boolean(found || anyDone),
+      `count=${arr.length} found=${!!found} switches=${switches}`,
+    );
+  }
+  {
+    const r = await req("examiner", "POST", `/api/examiner/attempts/${attemptId}/approve`);
+    record(
+      "E17",
+      "Examiner approve not required (already released)",
+      r.status === 409 || (r.status === 200 && r.json?.ok),
+      `${r.status} ${JSON.stringify(r.json)}`,
+    );
+  }
   {
     const page = await req("student", "GET", `/results/${attemptId}`);
     record("R20b", "Results page HTML loads", page.status === 200, `status=${page.status} len=${(page.text || "").length}`);
@@ -355,7 +364,7 @@ async function main() {
     const r = await req("student", "POST", "/api/attempts/start", { year: 2024, retake: true });
     record(
       "R21",
-      "Retake after approval",
+      "Retake after completed attempt",
       r.status === 200 && r.json?.attemptId && r.json.attemptId !== attemptId,
       `${r.status} ${JSON.stringify(r.json)}`,
     );

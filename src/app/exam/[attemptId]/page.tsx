@@ -19,7 +19,12 @@ export default async function ExamPage({
 
   const attempt = await Attempt.findById(attemptId).lean();
   if (!attempt || String(attempt.userId) !== user.id) redirect("/dashboard");
-  if (attempt.status !== "in_progress") redirect("/dashboard?submitted=1");
+  if (attempt.status !== "in_progress") {
+    if (attempt.score != null || attempt.status === "approved" || attempt.status === "submitted") {
+      redirect(`/results/${attemptId}`);
+    }
+    redirect("/dashboard");
+  }
 
   const paper = await getPaper(attempt.year);
   if (!paper) redirect("/dashboard");

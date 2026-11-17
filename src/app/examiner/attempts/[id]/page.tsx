@@ -88,10 +88,17 @@ export default async function ExaminerAttemptPage({
           </p>
         </div>
         {attempt.status === "submitted" ? (
-          <ApproveButton attemptId={String(attempt._id)} />
+          <div className="space-y-2">
+            <div className="rounded-md bg-amber-50 px-3 py-2 text-sm text-amber-900">
+              Legacy submitted row (pre instant-results). Student can already open results if
+              scored; optional mark as approved for consistency.
+            </div>
+            <ApproveButton attemptId={String(attempt._id)} />
+          </div>
         ) : (
           <div className="rounded-md bg-emerald-50 px-3 py-2 text-sm text-emerald-800">
-            Approved — student can view results
+            Results released on submit — student can view marks &amp; review. Approval is not
+            required.
           </div>
         )}
       </div>

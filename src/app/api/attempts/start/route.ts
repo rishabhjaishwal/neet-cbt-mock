@@ -50,10 +50,22 @@ export async function POST(req: Request) {
     const prior = await Attempt.find({ userId, year }).sort({ attemptNumber: -1 }).limit(1).lean();
     const latest = prior[0];
     if (latest && latest.status === "submitted" && !retake) {
+      // Legacy pre-instant-results rows: treat scored submits as finished.
+      if (latest.score != null) {
+        return NextResponse.json(
+          {
+            error: "Attempt already completed. Open results or choose Retake.",
+            attemptId: String(latest._id),
+            resultsUrl: `/results/${String(latest._id)}`,
+          },
+          { status: 409 },
+        );
+      }
       return NextResponse.json(
         {
-          error: "Attempt submitted and locked pending examiner approval",
+          error: "Attempt already submitted. Open results or choose Retake.",
           attemptId: String(latest._id),
+          resultsUrl: `/results/${String(latest._id)}`,
         },
         { status: 409 },
       );

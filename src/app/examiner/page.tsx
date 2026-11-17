@@ -29,7 +29,7 @@ export default async function ExaminerPage() {
             Examiner console
           </h1>
           <p className="text-sm text-blue-100">
-            {user.name} · review attempts, per-question correctness, approve release
+            {user.name} · review attempts and per-question correctness (results release on student submit)
           </p>
         </div>
         <LogoutButton />

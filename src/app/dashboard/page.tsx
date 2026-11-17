@@ -52,7 +52,10 @@ export default async function DashboardPage({
     };
   }
 
-  const history = attempts.filter((a) => a.status === "approved" && a.score != null);
+  const history = attempts.filter(
+    (a) =>
+      (a.status === "approved" || a.status === "submitted") && a.score != null,
+  );
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-8">
@@ -69,9 +72,9 @@ export default async function DashboardPage({
       </header>
 
       {params.submitted && (
-        <div className="mb-6 rounded-lg border border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-900">
-          Attempt submitted and locked. An examiner must approve before marks,
-          rank, and statistics appear.
+        <div className="mb-6 rounded-lg border border-emerald-300 bg-emerald-50 px-4 py-3 text-sm text-emerald-900">
+          Attempt submitted. Marks, question review, and rank stats are available
+          immediately — open <strong>View results</strong> for the year you just finished.
         </div>
       )}
 
@@ -81,7 +84,7 @@ export default async function DashboardPage({
             Multi-attempt analytics
           </h2>
           <p className="mt-1 text-sm text-slate-600">
-            Approved attempts across years — percentile uses that year&apos;s published
+            Completed attempts across years — percentile uses that year&apos;s published
             candidature (modelled, not official NTA rank).
           </p>
           <div className="mt-4 overflow-x-auto">
@@ -172,7 +175,8 @@ export default async function DashboardPage({
                     {a?.attemptNumber ? (
                       <div className="text-xs text-slate-500">Attempt #{a.attemptNumber}</div>
                     ) : null}
-                    {a?.status === "approved" && a.score != null && (
+                    {(a?.status === "approved" || a?.status === "submitted") &&
+                      a.score != null && (
                       <div className="text-xs text-emerald-700">
                         Score {a.score} · ~percentile {a.percentile} · rank ~
                         {a.estimated_rank?.toLocaleString()}
@@ -183,8 +187,6 @@ export default async function DashboardPage({
                     <div className="flex flex-col gap-2">
                       {!a || a.status === "in_progress" ? (
                         <StartAttemptButton year={p.year} />
-                      ) : a.status === "submitted" ? (
-                        <span className="text-xs text-amber-700">Awaiting approval</span>
                       ) : (
                         <>
                           <Link

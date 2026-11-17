@@ -2,10 +2,8 @@ import { NextResponse } from "next/server";
 import { Types } from "mongoose";
 import { getSession } from "@/lib/auth";
 import { ensureSeeded } from "@/lib/seed";
-import { Attempt, Question } from "@/lib/models";
-import { getPaper } from "@/lib/papers";
-import { scoreAttempt } from "@/lib/scoring";
-import { isMultiCorrectQuestion, resolveCorrectOptions } from "@/lib/multi-correct";
+import { Attempt } from "@/lib/models";
+import { finalizeInProgressAttempt } from "@/lib/finalize-attempt";
 
 type Params = { params: Promise<{ id: string }> };
 
@@ -20,94 +18,35 @@ export async function POST(_req: Request, { params }: Params) {
     return NextResponse.json({ error: "Not found" }, { status: 404 });
   }
 
-  const attempt = await Attempt.findById(id);
-  if (!attempt || String(attempt.userId) !== user.id) {
+  const existing = await Attempt.findById(id).lean();
+  if (!existing || String(existing.userId) !== user.id) {
     return NextResponse.json({ error: "Not found" }, { status: 404 });
   }
-  if (attempt.status !== "in_progress") {
-    return NextResponse.json({ error: "Already submitted" }, { status: 409 });
-  }
-
-  const paper = await getPaper(attempt.year);
-  if (!paper) {
-    return NextResponse.json({ error: "Paper missing" }, { status: 500 });
-  }
-
-  const qids = attempt.answers.map((a: { questionId: unknown }) => a.questionId);
-  const questions = await Question.find({ _id: { $in: qids } }).lean();
-  const byId = Object.fromEntries(questions.map((q) => [String(q._id), q]));
-
-  const result = scoreAttempt(
-    attempt.answers.map(
-      (a: {
-        questionId: unknown;
-        selectedOption?: string | null;
-        selectedOptions?: string[];
-        status: string;
-      }) => {
-        const q = byId[String(a.questionId)] as
-          | {
-              number?: number;
-              subject?: string;
-              topic?: string;
-              correctOption?: string;
-              correctOptions?: string[];
-              multiCorrect?: boolean;
-            }
-          | undefined;
-        const correctOptions = resolveCorrectOptions({
-          correctOption: q?.correctOption,
-          correctOptions: q?.correctOptions,
-        });
-        const selectedOptions =
-          a.selectedOptions && a.selectedOptions.length
-            ? a.selectedOptions
-            : a.selectedOption
-              ? [a.selectedOption]
-              : [];
-        return {
-          questionId: String(a.questionId),
-          number: q?.number ?? 0,
-          subject: q?.subject ?? "Unknown",
-          topic: q?.topic ?? "General",
-          correctOption: correctOptions.join(",") || "1",
-          correctOptions,
-          multiCorrect: isMultiCorrectQuestion({
-            multiCorrect: q?.multiCorrect,
-            correctOptions,
-            correctOption: q?.correctOption,
-          }),
-          selectedOption: selectedOptions[0] ?? null,
-          selectedOptions,
-          status: a.status as "not_attempted" | "attempted" | "marked",
-        };
+  if (existing.status !== "in_progress") {
+    return NextResponse.json(
+      {
+        error: "Already submitted",
+        attemptId: id,
+        status: existing.status,
+        resultsUrl: `/results/${id}`,
       },
-    ),
-    paper.candidate_count,
-  );
+      { status: 409 },
+    );
+  }
 
-  attempt.status = "submitted";
-  attempt.submittedAt = new Date();
-  attempt.score = result.score;
-  attempt.correctCount = result.correctCount;
-  attempt.wrongCount = result.wrongCount;
-  attempt.unattemptedCount = result.unattemptedCount;
-  attempt.subjectStats = result.subjectStats;
-  attempt.topicStats = {
-    topics: result.topicStats,
-    weakTopics: result.weakTopics,
-    strongTopics: result.strongTopics,
-    improvements: result.improvements,
-    partialCount: result.partialCount,
-  };
-  attempt.percentile = result.percentile;
-  attempt.estimatedRank = result.estimatedRank;
-  await attempt.save();
+  const attempt = await finalizeInProgressAttempt(id);
+  if (!attempt) {
+    return NextResponse.json({ error: "Finalize failed" }, { status: 500 });
+  }
 
   return NextResponse.json({
     ok: true,
     locked: true,
-    message:
-      "Submitted. Your attempt is locked until an examiner reviews and approves the result.",
+    released: true,
+    attemptId: String(attempt._id),
+    status: attempt.status,
+    score: attempt.score ?? null,
+    resultsUrl: `/results/${String(attempt._id)}`,
+    message: "Submitted. Your marks, review, and rank stats are ready.",
   });
 }

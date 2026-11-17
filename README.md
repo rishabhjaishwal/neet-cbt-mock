@@ -1,6 +1,6 @@
 # NEET CBT Mock
 
-Laptop-style NEET UG CBT mock: student signup/login, year selection, timed palette UI, examiner review/approval, then marks + estimated rank/percentile and improvement stats.
+Laptop-style NEET UG CBT mock: student signup/login, year selection, timed palette UI, instant scored results on submit (marks, chosen vs correct, modelled rank/stats). Examiners can still review attempts; approval is not required.
 
 ## Stack
 

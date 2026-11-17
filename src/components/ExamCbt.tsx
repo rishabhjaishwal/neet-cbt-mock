@@ -721,7 +721,11 @@ export function ExamCbt({
       }
       savePending(attemptId, {});
       setMsg(data.message || "Submitted");
-      router.push("/dashboard?submitted=1");
+      const resultsUrl =
+        typeof data.resultsUrl === "string" && data.resultsUrl.startsWith("/")
+          ? data.resultsUrl
+          : `/results/${attemptId}`;
+      router.push(resultsUrl);
       router.refresh();
     } catch {
       setBusy(false);

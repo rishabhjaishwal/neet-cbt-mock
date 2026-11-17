@@ -28,7 +28,10 @@ export async function GET(_req: Request, { params }: Params) {
   const qids = attempt.answers.map((a: { questionId: unknown }) => a.questionId);
   const questions = await Question.find({ _id: { $in: qids } }).lean();
   const byId = Object.fromEntries(questions.map((q) => [String(q._id), q]));
-  const revealKeys = user.role === "examiner" || attempt.status === "approved";
+  const revealKeys =
+    user.role === "examiner" ||
+    attempt.status === "approved" ||
+    (attempt.status === "submitted" && attempt.score != null);
 
   const merged = attempt.answers
     .map(

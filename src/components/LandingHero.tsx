@@ -67,8 +67,8 @@ export function LandingHero() {
         </div>
 
         <p className="landing-support fade-up">
-          Full-screen timed papers with palette, figures, examiner review, and
-          post-approval percentile against real candidate counts.
+          Full-screen timed papers with palette, figures, instant marks on submit,
+          and modelled percentile against real candidate counts.
         </p>
 
         <div className="landing-cta fade-up-late">

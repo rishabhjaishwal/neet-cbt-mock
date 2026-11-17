@@ -30,8 +30,14 @@ export default async function ResultsPage({
   if (user.role === "student" && String(attempt.userId) !== user.id) {
     redirect("/dashboard");
   }
-  if (user.role === "student" && attempt.status !== "approved") {
-    redirect("/dashboard?submitted=1");
+  // Instant results: scored attempts are released on submit (status approved).
+  // Legacy "submitted" rows (pre-change) also unlock if already scored.
+  if (
+    user.role === "student" &&
+    attempt.status !== "approved" &&
+    !(attempt.status === "submitted" && attempt.score != null)
+  ) {
+    redirect("/dashboard");
   }
 
   const paper = await getPaper(attempt.year);
@@ -64,7 +70,7 @@ export default async function ResultsPage({
     user.role === "student"
       ? await Attempt.find({
           userId: attempt.userId,
-          status: "approved",
+          status: { $in: ["approved", "submitted"] },
           score: { $ne: null },
         })
           .sort({ year: 1, attemptNumber: 1 })

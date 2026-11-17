@@ -37,7 +37,7 @@ export function QuestionReviewList({ items }: { items: ReviewItem[] }) {
           Question review
         </h2>
         <p className="text-sm text-slate-600">
-          Your choices vs correct answers (available after examiner approval).
+          Your choices vs correct answers (shown after you submit).
         </p>
       </div>
       {items.map((q) => (
