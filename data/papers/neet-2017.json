@@ -94,7 +94,8 @@
     "68 questions had incomplete options in PDF extract",
     "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=3",
     "Multi-correct support: 0 items with correctOptions[]; scoring +4 exact / partial +1 each subset / −1 if any wrong.",
-    "Figure remap v4: matched=1 placeholder=2 (cropped diagram boxes only; logos/headers/full-page bands rejected)."
+    "Figure remap v4: matched=1 placeholder=2 (cropped diagram boxes only; logos/headers/full-page bands rejected).",
+    "Subject order fix v3: native order Physics→Chemistry→Biology; display Physics→Chemistry→Biology; swaps=7."
   ],
   "stats": {
     "parsedQuestions": 180,
@@ -102,7 +103,16 @@
     "estimatedAnswers": 25,
     "withFigures": 3,
     "figuresMatched": 1,
-    "figuresPlaceholder": 2
+    "figuresPlaceholder": 2,
+    "subjectOrder": "Physics→Chemistry→Biology",
+    "nativePaperOrder": "Physics→Chemistry→Biology",
+    "subjectCounts": {
+      "Physics": 45,
+      "Chemistry": 45,
+      "Biology": 90
+    },
+    "subjectMatchAvgScore": 2.81,
+    "subjectRepairSwaps": 7
   },
   "questions": [
     {
@@ -110,7 +120,7 @@
       "number": 1,
       "subject": "Physics",
       "section": "A",
-      "topic": "Current Electricity",
+      "topic": "Electromagnetism",
       "stem": "A potentiometer is an accurate and versatile device 1 to make electrical measurements of E.M.F, because = e −7 λt e the method involves : –1 = –7λt (1) Cells 1 (2) Potential gradients t= 7λ (3) A condition of no current flow through the",
       "options": {
         "1": "[Option 1 incomplete in source PDF]",
@@ -127,53 +137,11 @@
       "multiCorrect": false
     },
     {
-      "id": "2017-A-Q2",
+      "id": "2017-A-Q4",
       "number": 2,
       "subject": "Physics",
       "section": "A",
-      "topic": "Work Energy Power",
-      "stem": "A gas mixture consists of 2 moles of O 2 and 10 mm 4 moles of Ar at temperature T. Neglecting all E Final water level vibrational modes, the total internal energy of the system is 65 mm Oil D",
-      "options": {
-        "1": "4 RT",
-        "2": "15 RT Initial water level 65 mm",
-        "3": "9 RT",
-        "4": "11 RT B C"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": false,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2017-A-Q3",
-      "number": 3,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Nuclear Physics",
-      "stem": "Radioactive material 'A' has decay constant '8λ' and material 'B' has decay constant 'λ'. Initially they have",
-      "options": {
-        "1": "[Option 1 incomplete in source PDF]",
-        "2": "[Option 2 incomplete in source PDF]",
-        "3": "[Option 3 incomplete in source PDF]",
-        "4": "[Option 4 incomplete in source PDF]"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": false,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2017-A-Q4",
-      "number": 4,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Current Electricity",
+      "topic": "Physics General",
       "stem": "A U tube with both ends open to the atmosphere, is galvanometer partially filled with water. Oil, which is immiscible with (4) A combination of cells, galvanometer and water, is poured into one side until it stands at a resistances distance of 10 mm above the water level on the other",
       "options": {
         "1": "[Option 1 incomplete in source PDF]",
@@ -190,29 +158,8 @@
       "multiCorrect": false
     },
     {
-      "id": "2017-A-Q5",
-      "number": 5,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Physics General",
-      "stem": "[PLACEHOLDER] NEET 2017 Question 5 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-      "options": {
-        "1": "Placeholder option 1",
-        "2": "Placeholder option 2",
-        "3": "Placeholder option 3",
-        "4": "Placeholder option 4"
-      },
-      "correctOption": "1",
-      "placeholder": true,
-      "answerEstimated": false,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2017-A-Q6",
-      "number": 6,
+      "number": 3,
       "subject": "Physics",
       "section": "A",
       "topic": "Modern Physics",
@@ -233,10 +180,10 @@
     },
     {
       "id": "2017-A-Q7",
-      "number": 7,
+      "number": 4,
       "subject": "Physics",
       "section": "A",
-      "topic": "Laws of Motion",
+      "topic": "Mechanics",
       "stem": "One end of string of length l is connected to a R2 particle of mass ‘m’ and the other end is connected to a small peg on a smooth horizontal table. If the 18 = particle moves in circle with speed ‘v’, the net force 9 on the particle (directed towards center) will be =2A (T represents the tension in the string) Note : Not correctly framed but the best option out (1) T of given is (3). m v2 9. The x and y coordinates of the particle at any time (2) T + l are x = 5t – 2t2 and y = 10t respectively, where x and y are in meters and t in seconds. The m v2 acceleration of the particle at t = 2 s is",
       "options": {
         "1": "0",
@@ -254,7 +201,7 @@
     },
     {
       "id": "2017-A-Q8",
-      "number": 8,
+      "number": 5,
       "subject": "Physics",
       "section": "A",
       "topic": "Physics General",
@@ -275,7 +222,7 @@
     },
     {
       "id": "2017-A-Q9",
-      "number": 9,
+      "number": 6,
       "subject": "Physics",
       "section": "A",
       "topic": "Physics General",
@@ -296,10 +243,10 @@
     },
     {
       "id": "2017-A-Q10",
-      "number": 10,
+      "number": 7,
       "subject": "Physics",
       "section": "A",
-      "topic": "Gravitation",
+      "topic": "Mechanics",
       "stem": "Suppose the charge of a proton and an electron differ 20 V slightly. One of them is –e, the other is (e + Δe). If the net of electrostatic force and gravitational force A B A B A B A B between two hydrogen atoms placed at a distance d (much greater than atomic size) apart is zero, then Δe is of the order of [Given mass of hydrogen 10 V 30 V 10 V 30 V 10 V 30 V 20 V 40 V mh = 1.67 × 10–27 kg] (a) (b) (c) (d) (1) 10–20 C A positive charge is moved from A to B in each (2) 10–23 C diagram.",
       "options": {
         "1": "Maximum work is required to move q in figure (c).",
@@ -317,7 +264,7 @@
     },
     {
       "id": "2017-A-Q11",
-      "number": 11,
+      "number": 8,
       "subject": "Physics",
       "section": "A",
       "topic": "Physics General",
@@ -340,7 +287,7 @@
     },
     {
       "id": "2017-A-Q12",
-      "number": 12,
+      "number": 9,
       "subject": "Physics",
       "section": "A",
       "topic": "Physics General",
@@ -361,7 +308,7 @@
     },
     {
       "id": "2017-A-Q13",
-      "number": 13,
+      "number": 10,
       "subject": "Physics",
       "section": "A",
       "topic": "Physics General",
@@ -382,10 +329,10 @@
     },
     {
       "id": "2017-A-Q14",
-      "number": 14,
+      "number": 11,
       "subject": "Physics",
       "section": "A",
-      "topic": "Optics",
+      "topic": "Physics General",
       "stem": "Young’s double slit experiment is first performed in 4π T = air and then in a medium other than air. It is found 5 that 8th bright fringe in the medium lies where 5th",
       "options": {
         "1": "[Option 1 incomplete in source PDF]",
@@ -403,10 +350,10 @@
     },
     {
       "id": "2017-A-Q15",
-      "number": 15,
+      "number": 12,
       "subject": "Physics",
       "section": "A",
-      "topic": "Laws of Motion",
+      "topic": "Mechanics",
       "stem": "A particle executes linear simple harmonic motion (3) P → c, Q → d, R → b, S → a with an amplitude of 3 cm. When the particle is at (4) P → d, Q → b, R → a, S → c 2 cm from the mean position, the magnitude of its",
       "options": {
         "1": "[Option 1 incomplete in source PDF]",
@@ -424,7 +371,7 @@
     },
     {
       "id": "2017-A-Q16",
-      "number": 16,
+      "number": 13,
       "subject": "Physics",
       "section": "A",
       "topic": "Thermodynamics",
@@ -447,7 +394,7 @@
     },
     {
       "id": "2017-A-Q17",
-      "number": 17,
+      "number": 14,
       "subject": "Physics",
       "section": "A",
       "topic": "Physics General",
@@ -468,7 +415,7 @@
     },
     {
       "id": "2017-A-Q18",
-      "number": 18,
+      "number": 15,
       "subject": "Physics",
       "section": "A",
       "topic": "Modern Physics",
@@ -489,10 +436,10 @@
     },
     {
       "id": "2017-A-Q19",
-      "number": 19,
+      "number": 16,
       "subject": "Physics",
       "section": "A",
-      "topic": "Laws of Motion",
+      "topic": "Mechanics",
       "stem": "A physical quantity of the dimensions of length that e2 C can be formed out of c, G and is [c is velocity 4πε0 q1 + q2 q+0 Vc = = of light, G is universal constant of gravitation and e C1 + C2 C + C is charge] V 1 Vc = 2 1 ⎡ e2 ⎤ 2",
       "options": {
         "1": "2 ⎢G ⎥ Initial energy c ⎣ 4πε0 ⎦ 1 1 Ui = CV 2 ⎡ e2 ⎤ 2 2",
@@ -510,7 +457,7 @@
     },
     {
       "id": "2017-A-Q20",
-      "number": 20,
+      "number": 17,
       "subject": "Physics",
       "section": "A",
       "topic": "Physics General",
@@ -531,10 +478,10 @@
     },
     {
       "id": "2017-A-Q21",
-      "number": 21,
+      "number": 18,
       "subject": "Physics",
       "section": "A",
-      "topic": "Current Electricity",
+      "topic": "Electromagnetism",
       "stem": "In a common emitter transistor amplifier the audio k∝ signal voltage across the collector is 3 V. The l resistance of collector is 3 kΩ. If current gain is 100 i.e, k1 = 6k and the base resistance is 2 kΩ, the voltage and power gain of the amplifier is k2 = 3k",
       "options": {
         "1": "200 and 1000 k3 = 2k",
@@ -552,10 +499,10 @@
     },
     {
       "id": "2017-A-Q22",
-      "number": 22,
+      "number": 19,
       "subject": "Physics",
       "section": "A",
-      "topic": "Semiconductor Electronics",
+      "topic": "Physics General",
       "stem": "Which one of the following represents forward bias B diode? (1) AND gate 0V R –2 V (1) (2) OR gate –4 V R –3 V",
       "options": {
         "1": "[Option 1 incomplete in source PDF]",
@@ -573,7 +520,7 @@
     },
     {
       "id": "2017-A-Q23",
-      "number": 23,
+      "number": 20,
       "subject": "Physics",
       "section": "A",
       "topic": "Physics General",
@@ -594,10 +541,10 @@
     },
     {
       "id": "2017-A-Q24",
-      "number": 24,
+      "number": 21,
       "subject": "Physics",
       "section": "A",
-      "topic": "Work Energy Power",
+      "topic": "Physics General",
       "stem": "The given electrical network is equivalent to = 150 (100) = 15000 A Y",
       "options": {
         "1": "[Option 1 incomplete in source PDF]",
@@ -615,10 +562,10 @@
     },
     {
       "id": "2017-A-Q25",
-      "number": 25,
+      "number": 22,
       "subject": "Physics",
       "section": "A",
-      "topic": "Laws of Motion",
+      "topic": "Physics General",
       "stem": "The acceleration due to gravity at a height 1 km β=9 above the earth is the same as at a depth d below Q2 the surface of earth. Then β= W 1 Q2 = 9 × 10 = 90 J",
       "options": {
         "1": "d = km",
@@ -636,10 +583,10 @@
     },
     {
       "id": "2017-A-Q26",
-      "number": 26,
+      "number": 23,
       "subject": "Physics",
       "section": "A",
-      "topic": "Laws of Motion",
+      "topic": "Mechanics",
       "stem": "Which of the following statements are correct? ‘B’ is given by (a) Centre of mass of a body always coincides with B d C the centre of gravity of the body. 90° (b) Centre of mass of a body is the point at which the total gravitational torque on the body is zero d (c) A couple on a body produce both translational and rotational motion in a body. A (d) Mechanical advantage greater than one means μ0 I 2 2μ0I 2 (1) (2) that small effort can be used to lift a large load. 2πd πd",
       "options": {
         "1": "(b) and (d)",
@@ -657,10 +604,10 @@
     },
     {
       "id": "2017-A-Q27",
-      "number": 27,
+      "number": 24,
       "subject": "Physics",
       "section": "A",
-      "topic": "Work Energy Power",
+      "topic": "Thermodynamics",
       "stem": "A Carnot engine having an efficiency of as heat F 10 90° engine, is used as a refrigerator. If the work done on the system is 10 J, the amount of energy absorbed d F from the reservoir at lower temperature is",
       "options": {
         "1": "1 J",
@@ -678,7 +625,7 @@
     },
     {
       "id": "2017-A-Q28",
-      "number": 28,
+      "number": 25,
       "subject": "Physics",
       "section": "A",
       "topic": "Physics General",
@@ -699,7 +646,7 @@
     },
     {
       "id": "2017-A-Q29",
-      "number": 29,
+      "number": 26,
       "subject": "Physics",
       "section": "A",
       "topic": "Physics General",
@@ -720,10 +667,10 @@
     },
     {
       "id": "2017-A-Q30",
-      "number": 30,
+      "number": 27,
       "subject": "Physics",
       "section": "A",
-      "topic": "Gravitation",
+      "topic": "Mechanics",
       "stem": "Two astronauts are floating in gravitational free space",
       "options": {
         "1": "[Option 1 incomplete in source PDF]",
@@ -741,10 +688,10 @@
     },
     {
       "id": "2017-A-Q31",
-      "number": 31,
+      "number": 28,
       "subject": "Physics",
       "section": "A",
-      "topic": "Magnetism",
+      "topic": "Electromagnetism",
       "stem": "In an electromagnetic wave in free space the root mean",
       "options": {
         "1": "1.41 × 10–8 T",
@@ -762,7 +709,7 @@
     },
     {
       "id": "2017-A-Q32",
-      "number": 32,
+      "number": 29,
       "subject": "Physics",
       "section": "A",
       "topic": "Physics General",
@@ -783,10 +730,10 @@
     },
     {
       "id": "2017-A-Q33",
-      "number": 33,
+      "number": 30,
       "subject": "Physics",
       "section": "A",
-      "topic": "Work Energy Power",
+      "topic": "Mechanics",
       "stem": "The ratio of resolving powers of an optical weightness. Gravitational force between them pulls λ2 = 6000 Å is towards each other. (1) 8 : 27",
       "options": {
         "1": "[Option 1 incomplete in source PDF]",
@@ -804,7 +751,7 @@
     },
     {
       "id": "2017-A-Q34",
-      "number": 34,
+      "number": 31,
       "subject": "Physics",
       "section": "A",
       "topic": "Physics General",
@@ -825,10 +772,10 @@
     },
     {
       "id": "2017-A-Q35",
-      "number": 35,
+      "number": 32,
       "subject": "Physics",
       "section": "A",
-      "topic": "Work Energy Power",
+      "topic": "Physics General",
       "stem": "A spherical black body with a radius of 12 cm T = mg ...(2) radiates 450 watt power at 500 K. If the radius were T halved and the temperature doubled, the power radiated in watt would be m",
       "options": {
         "1": "225",
@@ -846,10 +793,10 @@
     },
     {
       "id": "2017-A-Q36",
-      "number": 36,
+      "number": 33,
       "subject": "Physics",
       "section": "A",
-      "topic": "Laws of Motion",
+      "topic": "Physics General",
       "stem": "Two blocks A and B of masses 3m and m perpendicular to each other. Unpolarised light I0 is respectively are connected by a massless and incident on P1. A third polaroid P3 is kept in between inextensible string. The whole system is suspended P1 and P2 such that its axis makes an angle 45º by a massless spring as shown in figure. The with that of P1. The intensity of transmitted light magnitudes of acceleration of A and B immediately through P2 is after the string is cut, are respectively I0",
       "options": {
         "1": "2 I0",
@@ -869,7 +816,7 @@
     },
     {
       "id": "2017-A-Q37",
-      "number": 37,
+      "number": 34,
       "subject": "Physics",
       "section": "A",
       "topic": "Physics General",
@@ -890,10 +837,10 @@
     },
     {
       "id": "2017-A-Q38",
-      "number": 38,
+      "number": 35,
       "subject": "Physics",
       "section": "A",
-      "topic": "Current Electricity",
+      "topic": "Electromagnetism",
       "stem": "A long solenoid of diameter 0.1 m has 2 × 104 turns per meter. At the centre of the solenoid, a coil of 100 1 turns and radius 0.01 m is placed with its axis = I (ω1 − ω 2 )2 4 coinciding with the solenoid axis. The current in the solenoid reduces at a constant rate to 0 A from 4 A 40. Preeti reached the metro station and found that the in 0.05 s. If the resistance of the coil is 10π2 Ω, the escalator was not working. She walked up the total charge flowing through the coil during this time stationary escalator in time t1. On other days, if she is remains stationary on the moving escalator, then the",
       "options": {
         "1": "32πμC",
@@ -911,10 +858,10 @@
     },
     {
       "id": "2017-A-Q39",
-      "number": 39,
+      "number": 36,
       "subject": "Physics",
       "section": "A",
-      "topic": "Laws of Motion",
+      "topic": "Mechanics",
       "stem": "Two discs of same moment of inertia rotating about t t1 t2 their regular axis passing through centre and t1t2 perpendicular to the plane of disc with angular t= velocities ω1 and ω2. They are brought into contact (t1 + t2 ) face to face coinciding the axis of rotation. The 41. A rope is wound around a hollow cylinder of mass expression for loss of energy during this process is 3 kg and radius 40 cm. What is the angular acceleration of the cylinder if the rope is pulled with 1 1 (1) I (ω1 + ω2 )2 (2) I (ω1 − ω2 )2 a force of 30 N? 2 4",
       "options": {
         "1": "25 m/s2",
@@ -932,7 +879,7 @@
     },
     {
       "id": "2017-A-Q40",
-      "number": 40,
+      "number": 37,
       "subject": "Physics",
       "section": "A",
       "topic": "Physics General",
@@ -953,7 +900,7 @@
     },
     {
       "id": "2017-A-Q41",
-      "number": 41,
+      "number": 38,
       "subject": "Physics",
       "section": "A",
       "topic": "Physics General",
@@ -974,7 +921,7 @@
     },
     {
       "id": "2017-A-Q42",
-      "number": 42,
+      "number": 39,
       "subject": "Physics",
       "section": "A",
       "topic": "Optics",
@@ -995,7 +942,7 @@
     },
     {
       "id": "2017-A-Q43",
-      "number": 43,
+      "number": 40,
       "subject": "Physics",
       "section": "A",
       "topic": "Physics General",
@@ -1016,7 +963,7 @@
     },
     {
       "id": "2017-A-Q44",
-      "number": 44,
+      "number": 41,
       "subject": "Physics",
       "section": "A",
       "topic": "Optics",
@@ -1037,10 +984,10 @@
     },
     {
       "id": "2017-A-Q45",
-      "number": 45,
+      "number": 42,
       "subject": "Physics",
       "section": "A",
-      "topic": "Current Electricity",
+      "topic": "Physics General",
       "stem": "The resistance of a wire is ‘R’ ohm. If it is melted and stretched to ‘n’ times its original length, its new resistance will be y R y",
       "options": {
         "1": "nR",
@@ -1057,8 +1004,134 @@
       "multiCorrect": false
     },
     {
-      "id": "2017-A-Q46",
+      "id": "2017-A-Q59",
+      "number": 43,
+      "subject": "Physics",
+      "section": "A",
+      "topic": "Modern Physics",
+      "stem": "Which one is the wrong statement? (1) A-Methoxymethane, X-Ethanoic acid, Y-Acetate ion, Z-hydrazine h (1) de-Broglie's wavelength is given by λ = , (2) A-Methoxymethane, X-Ethanol, Y-Ethanoic acid, mv where m = mass of the particle, v = group Z-Semicarbazide velocity of the particle",
+      "options": {
+        "1": "[Option 1 incomplete in source PDF]",
+        "2": "The uncertainty principle is ΔE × Δt ≥ 4π",
+        "3": "Half-filled and fully filled orbitals have greater Z-Hydrazone stability due to greater exchange energy, greater symmetry and more balanced arrangement",
+        "4": "A-Ethanol, X-Acetaldehyde, Y-Butanone,"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2017-A-Q61",
+      "number": 44,
+      "subject": "Physics",
+      "section": "A",
+      "topic": "Optics",
+      "stem": "Consider the reactions : (4) CH3 – CH3 > CH2 = CH2 > CH3 – C ≡ CH > + CH ≡ CH Cu / [Ag(NH3)2] X A Silver mirror observed 573 K –OH, Δ (C2H6O)",
+      "options": {
+        "1": "[Option 1 incomplete in source PDF]",
+        "2": "[Option 2 incomplete in source PDF]",
+        "3": "[Option 3 incomplete in source PDF]",
+        "4": "[Option 4 incomplete in source PDF]"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2017-A-Q173",
+      "number": 45,
+      "subject": "Physics",
+      "section": "A",
+      "topic": "Nuclear Physics",
+      "stem": "Which of the following components provides sticky 178. Identify the wrong statement in context of heartwood. character to the bacterial cell? (1) Organic compounds are deposited in it (1) Cell wall (2) Nuclear membrane",
+      "options": {
+        "1": "[Option 1 incomplete in source PDF]",
+        "2": "It is highly durable",
+        "3": "It conducts water and minerals efficiently",
+        "4": "Glycocalyx"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2017-A-Q2",
       "number": 46,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "A gas mixture consists of 2 moles of O 2 and 10 mm 4 moles of Ar at temperature T. Neglecting all E Final water level vibrational modes, the total internal energy of the system is 65 mm Oil D",
+      "options": {
+        "1": "4 RT",
+        "2": "15 RT Initial water level 65 mm",
+        "3": "9 RT",
+        "4": "11 RT B C"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2017-A-Q3",
+      "number": 47,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "Radioactive material 'A' has decay constant '8λ' and material 'B' has decay constant 'λ'. Initially they have",
+      "options": {
+        "1": "[Option 1 incomplete in source PDF]",
+        "2": "[Option 2 incomplete in source PDF]",
+        "3": "[Option 3 incomplete in source PDF]",
+        "4": "[Option 4 incomplete in source PDF]"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2017-A-Q5",
+      "number": 48,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "[PLACEHOLDER] NEET 2017 Question 5 could not be recovered from the public PDF text extract. Replace after manual transcription.",
+      "options": {
+        "1": "Placeholder option 1",
+        "2": "Placeholder option 2",
+        "3": "Placeholder option 3",
+        "4": "Placeholder option 4"
+      },
+      "correctOption": "1",
+      "placeholder": true,
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2017-A-Q46",
+      "number": 49,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1079,7 +1152,7 @@
     },
     {
       "id": "2017-A-Q47",
-      "number": 47,
+      "number": 50,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1100,7 +1173,7 @@
     },
     {
       "id": "2017-A-Q48",
-      "number": 48,
+      "number": 51,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1121,7 +1194,7 @@
     },
     {
       "id": "2017-A-Q49",
-      "number": 49,
+      "number": 52,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1142,7 +1215,7 @@
     },
     {
       "id": "2017-A-Q50",
-      "number": 50,
+      "number": 53,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1163,7 +1236,7 @@
     },
     {
       "id": "2017-A-Q51",
-      "number": 51,
+      "number": 54,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1184,7 +1257,7 @@
     },
     {
       "id": "2017-A-Q52",
-      "number": 52,
+      "number": 55,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1204,32 +1277,11 @@
       "multiCorrect": false
     },
     {
-      "id": "2017-A-Q53",
-      "number": 53,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "The species, having bond angles of 120° is ∴ Sn(II) is reducing agent (1) PH3 (2) CIF3",
-      "options": {
-        "1": "[Option 1 incomplete in source PDF]",
-        "2": "[Option 2 incomplete in source PDF]",
-        "3": "[Option 3 incomplete in source PDF]",
-        "4": "[Option 4 incomplete in source PDF]"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2017-A-Q54",
-      "number": 54,
+      "number": 56,
       "subject": "Chemistry",
       "section": "A",
-      "topic": "Solutions",
+      "topic": "Physical Chemistry",
       "stem": "If molality of the dilute solution is doubled, the value (2) A : H3C C CH2 B : H3C C CH2 of molal depression constant (Kf) will be",
       "options": {
         "1": "Doubled",
@@ -1247,7 +1299,7 @@
     },
     {
       "id": "2017-A-Q55",
-      "number": 55,
+      "number": 57,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1268,10 +1320,10 @@
     },
     {
       "id": "2017-A-Q56",
-      "number": 56,
+      "number": 58,
       "subject": "Chemistry",
       "section": "A",
-      "topic": "Chemistry General",
+      "topic": "Physical Chemistry",
       "stem": "It is because of inability of ns2 electrons of the valence shell to participate in bonding that",
       "options": {
         "1": "Sn2+ is reducing while Pb4+ is oxidising",
@@ -1289,7 +1341,7 @@
     },
     {
       "id": "2017-A-Q57",
-      "number": 57,
+      "number": 59,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1310,7 +1362,7 @@
     },
     {
       "id": "2017-A-Q58",
-      "number": 58,
+      "number": 60,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1330,29 +1382,8 @@
       "multiCorrect": false
     },
     {
-      "id": "2017-A-Q59",
-      "number": 59,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "Which one is the wrong statement? (1) A-Methoxymethane, X-Ethanoic acid, Y-Acetate ion, Z-hydrazine h (1) de-Broglie's wavelength is given by λ = , (2) A-Methoxymethane, X-Ethanol, Y-Ethanoic acid, mv where m = mass of the particle, v = group Z-Semicarbazide velocity of the particle",
-      "options": {
-        "1": "[Option 1 incomplete in source PDF]",
-        "2": "The uncertainty principle is ΔE × Δt ≥ 4π",
-        "3": "Half-filled and fully filled orbitals have greater Z-Hydrazone stability due to greater exchange energy, greater symmetry and more balanced arrangement",
-        "4": "A-Ethanol, X-Acetaldehyde, Y-Butanone,"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": false,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2017-A-Q60",
-      "number": 60,
+      "number": 61,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1368,27 +1399,6 @@
       "answerEstimated": false,
       "correctOptions": [
         "3"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2017-A-Q61",
-      "number": 61,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "Consider the reactions : (4) CH3 – CH3 > CH2 = CH2 > CH3 – C ≡ CH > + CH ≡ CH Cu / [Ag(NH3)2] X A Silver mirror observed 573 K –OH, Δ (C2H6O)",
-      "options": {
-        "1": "[Option 1 incomplete in source PDF]",
-        "2": "[Option 2 incomplete in source PDF]",
-        "3": "[Option 3 incomplete in source PDF]",
-        "4": "[Option 4 incomplete in source PDF]"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": false,
-      "correctOptions": [
-        "2"
       ],
       "multiCorrect": false
     },
@@ -1418,7 +1428,7 @@
       "number": 63,
       "subject": "Chemistry",
       "section": "A",
-      "topic": "Electrochemistry",
+      "topic": "Physical Chemistry",
       "stem": "In the electrochemical cell :",
       "options": {
         "1": "[Option 1 incomplete in source PDF]",
@@ -1456,29 +1466,8 @@
       "multiCorrect": false
     },
     {
-      "id": "2017-A-Q65",
-      "number": 65,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "In which pair of ions both the species contain S – S bond? XX3′ → Example : CIF3 → T-shape",
-      "options": {
-        "1": "S2O72–, S2O32",
-        "2": "S4O62–, S2O32– XX5′ → Example : BrF5 → Square pyramidal",
-        "3": "S2O72–, S2O82",
-        "4": "S4O62–, S2O72– XX7′ → Example : IF7 → Pentagonal bipyramidal"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2017-A-Q66",
-      "number": 66,
+      "number": 65,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1499,10 +1488,10 @@
     },
     {
       "id": "2017-A-Q67",
-      "number": 67,
+      "number": 66,
       "subject": "Chemistry",
       "section": "A",
-      "topic": "p-Block Elements",
+      "topic": "Chemistry General",
       "stem": "Match the interhalogen compounds of column I with i.e., E1 > E2 the geometry in column II and assign the correct code",
       "options": {
         "1": "[Option 1 incomplete in source PDF]",
@@ -1519,29 +1508,8 @@
       "multiCorrect": false
     },
     {
-      "id": "2017-A-Q68",
-      "number": 68,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "The reason for greater range of oxidation states in (3) Electrophiles are generally neutral species and actinoids is attributed to can form a bond by accepting a pair of electrons from a nucleophile (1) The radioactive nature of actinoids",
-      "options": {
-        "1": "[Option 1 incomplete in source PDF]",
-        "2": "Actinoid contraction charged species and can form a bond by",
-        "3": "5f, 6d and 7s levels having comparable energies accepting a pair of electrons from a nucleophile",
-        "4": "4f and 5d levels being close in energies"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": false,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2017-A-Q69",
-      "number": 69,
+      "number": 67,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1562,10 +1530,10 @@
     },
     {
       "id": "2017-A-Q70",
-      "number": 70,
+      "number": 68,
       "subject": "Chemistry",
       "section": "A",
-      "topic": "Chemistry General",
+      "topic": "Physical Chemistry",
       "stem": "The correct statement regarding electrophile is in the order",
       "options": {
         "1": "Insulin maintains sugar level in the blood of a separation of 1 : 1 mixture of ortho and para human body nitrophenols as there is intramolecular H-bonds in ortho nitrophenol.",
@@ -1583,7 +1551,7 @@
     },
     {
       "id": "2017-A-Q71",
-      "number": 71,
+      "number": 69,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1604,7 +1572,7 @@
     },
     {
       "id": "2017-A-Q72",
-      "number": 72,
+      "number": 70,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1625,7 +1593,7 @@
     },
     {
       "id": "2017-A-Q73",
-      "number": 73,
+      "number": 71,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1646,7 +1614,7 @@
     },
     {
       "id": "2017-A-Q74",
-      "number": 74,
+      "number": 72,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1667,7 +1635,7 @@
     },
     {
       "id": "2017-A-Q75",
-      "number": 75,
+      "number": 73,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1688,7 +1656,7 @@
     },
     {
       "id": "2017-A-Q76",
-      "number": 76,
+      "number": 74,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1709,7 +1677,7 @@
     },
     {
       "id": "2017-A-Q77",
-      "number": 77,
+      "number": 75,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1730,10 +1698,10 @@
     },
     {
       "id": "2017-A-Q78",
-      "number": 78,
+      "number": 76,
       "subject": "Chemistry",
       "section": "A",
-      "topic": "Organic Chemistry",
+      "topic": "Physical Chemistry",
       "stem": "The most suitable method of separation of 1 : 1 (Less stable) mixture of ortho and para-nitrophenols is NH2 OCH3",
       "options": {
         "1": "Sublimation",
@@ -1750,29 +1718,8 @@
       "multiCorrect": false
     },
     {
-      "id": "2017-A-Q79",
-      "number": 79,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "Which one of the following pairs of species have the",
-      "options": {
-        "1": "CO, NO",
-        "2": "O2, NO+",
-        "3": "Blood proteins thrombin and fibrinogen are same bond order? involved in blood clotting",
-        "4": "Denaturation makes the proteins more active"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": false,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2017-A-Q80",
-      "number": 80,
+      "number": 77,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1793,10 +1740,10 @@
     },
     {
       "id": "2017-A-Q81",
-      "number": 81,
+      "number": 78,
       "subject": "Chemistry",
       "section": "A",
-      "topic": "Chemical Kinetics",
+      "topic": "Chemistry General",
       "stem": "A first order reaction has a specific reaction rate of 4 0 10–2 s–1. How much time will it take for 20 g of the This gives t2g eg reactant to reduce to 5 g? ∴ Mn(III) = [Ar]",
       "options": {
         "1": "238.6 second",
@@ -1814,7 +1761,7 @@
     },
     {
       "id": "2017-A-Q82",
-      "number": 82,
+      "number": 79,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1835,7 +1782,7 @@
     },
     {
       "id": "2017-A-Q83",
-      "number": 83,
+      "number": 80,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1856,7 +1803,7 @@
     },
     {
       "id": "2017-A-Q84",
-      "number": 84,
+      "number": 81,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1877,10 +1824,10 @@
     },
     {
       "id": "2017-A-Q85",
-      "number": 85,
+      "number": 82,
       "subject": "Chemistry",
       "section": "A",
-      "topic": "Solutions",
+      "topic": "Physical Chemistry",
       "stem": "Ionic mobility of which of the following alkali metal KMnO4 solution: ions is lowest when aqueous solution of their salts",
       "options": {
         "1": "CO2",
@@ -1898,10 +1845,10 @@
     },
     {
       "id": "2017-A-Q86",
-      "number": 86,
+      "number": 83,
       "subject": "Chemistry",
       "section": "A",
-      "topic": "Chemical Equilibrium",
+      "topic": "Physical Chemistry",
       "stem": "The equilibrium constants of the following are.",
       "options": {
         "1": "[Option 1 incomplete in source PDF]",
@@ -1919,7 +1866,7 @@
     },
     {
       "id": "2017-A-Q87",
-      "number": 87,
+      "number": 84,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Organic Chemistry",
@@ -1940,7 +1887,7 @@
     },
     {
       "id": "2017-A-Q88",
-      "number": 88,
+      "number": 85,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Organic Chemistry",
@@ -1961,7 +1908,7 @@
     },
     {
       "id": "2017-A-Q89",
-      "number": 89,
+      "number": 86,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1982,7 +1929,7 @@
     },
     {
       "id": "2017-A-Q90",
-      "number": 90,
+      "number": 87,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -2002,8 +1949,155 @@
       "multiCorrect": false
     },
     {
-      "id": "2017-A-Q91",
+      "id": "2017-A-Q92",
+      "number": 88,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "Which of the following are found in extreme saline conditions?",
+      "options": {
+        "1": "[Option 1 incomplete in source PDF]",
+        "2": "[Option 2 incomplete in source PDF]",
+        "3": "[Option 3 incomplete in source PDF]",
+        "4": "[Option 4 incomplete in source PDF]"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": false,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2017-A-Q95",
+      "number": 89,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Physical Chemistry",
+      "stem": "Attractants and rewards are required for (1) Heart (1) Anemophily (2) Stomach (2) Entomophily",
+      "options": {
+        "1": "[Option 1 incomplete in source PDF]",
+        "2": "[Option 2 incomplete in source PDF]",
+        "3": "Hydrophily",
+        "4": "Cleistogamy"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2017-A-Q96",
+      "number": 90,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "[PLACEHOLDER] NEET 2017 Question 96 could not be recovered from the public PDF text extract. Replace after manual transcription.",
+      "options": {
+        "1": "Placeholder option 1",
+        "2": "Placeholder option 2",
+        "3": "Placeholder option 3",
+        "4": "Placeholder option 4"
+      },
+      "correctOption": "1",
+      "placeholder": true,
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2017-A-Q53",
       "number": 91,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Ecology & Evolution",
+      "stem": "The species, having bond angles of 120° is ∴ Sn(II) is reducing agent (1) PH3 (2) CIF3",
+      "options": {
+        "1": "[Option 1 incomplete in source PDF]",
+        "2": "[Option 2 incomplete in source PDF]",
+        "3": "[Option 3 incomplete in source PDF]",
+        "4": "[Option 4 incomplete in source PDF]"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2017-A-Q65",
+      "number": 92,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Ecology & Evolution",
+      "stem": "In which pair of ions both the species contain S – S bond? XX3′ → Example : CIF3 → T-shape",
+      "options": {
+        "1": "S2O72–, S2O32",
+        "2": "S4O62–, S2O32– XX5′ → Example : BrF5 → Square pyramidal",
+        "3": "S2O72–, S2O82",
+        "4": "S4O62–, S2O72– XX7′ → Example : IF7 → Pentagonal bipyramidal"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2017-A-Q68",
+      "number": 93,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Genetics & Biotech",
+      "stem": "The reason for greater range of oxidation states in (3) Electrophiles are generally neutral species and actinoids is attributed to can form a bond by accepting a pair of electrons from a nucleophile (1) The radioactive nature of actinoids",
+      "options": {
+        "1": "[Option 1 incomplete in source PDF]",
+        "2": "Actinoid contraction charged species and can form a bond by",
+        "3": "5f, 6d and 7s levels having comparable energies accepting a pair of electrons from a nucleophile",
+        "4": "4f and 5d levels being close in energies"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2017-A-Q79",
+      "number": 94,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Ecology & Evolution",
+      "stem": "Which one of the following pairs of species have the",
+      "options": {
+        "1": "CO, NO",
+        "2": "O2, NO+",
+        "3": "Blood proteins thrombin and fibrinogen are same bond order? involved in blood clotting",
+        "4": "Denaturation makes the proteins more active"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": false,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2017-A-Q91",
+      "number": 95,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2023,32 +2117,11 @@
       "multiCorrect": false
     },
     {
-      "id": "2017-A-Q92",
-      "number": 92,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "Which of the following are found in extreme saline conditions?",
-      "options": {
-        "1": "[Option 1 incomplete in source PDF]",
-        "2": "[Option 2 incomplete in source PDF]",
-        "3": "[Option 3 incomplete in source PDF]",
-        "4": "[Option 4 incomplete in source PDF]"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": false,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2017-A-Q93",
-      "number": 93,
+      "number": 96,
       "subject": "Biology",
       "section": "A",
-      "topic": "Cell Biology",
+      "topic": "Human Physiology",
       "stem": "Select the mismatch : – Zymogen cells are enzyme producing cells. (1) Frankia – Alnus – Paneth cell secretes lysozyme which acts as (2) Rhodospirillum – Mycorrhiza anti-bacterial agent. – Argentaffin cells are hormone producing cells. (3) Anabaena – Nitrogen fixer",
       "options": {
         "1": "[Option 1 incomplete in source PDF]",
@@ -2066,10 +2139,10 @@
     },
     {
       "id": "2017-A-Q94",
-      "number": 94,
+      "number": 97,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "What is the criterion for DNA fragments movement (d) All their internal space is available for oxygen on agarose gel during gel electrophoresis? transport (1) The larger the fragment size, the farther it moves (1) Only (d)",
       "options": {
         "1": "[Option 1 incomplete in source PDF]",
@@ -2086,50 +2159,8 @@
       "multiCorrect": false
     },
     {
-      "id": "2017-A-Q95",
-      "number": 95,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Human Physiology",
-      "stem": "Attractants and rewards are required for (1) Heart (1) Anemophily (2) Stomach (2) Entomophily",
-      "options": {
-        "1": "[Option 1 incomplete in source PDF]",
-        "2": "[Option 2 incomplete in source PDF]",
-        "3": "Hydrophily",
-        "4": "Cleistogamy"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": false,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2017-A-Q96",
-      "number": 96,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "[PLACEHOLDER] NEET 2017 Question 96 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-      "options": {
-        "1": "Placeholder option 1",
-        "2": "Placeholder option 2",
-        "3": "Placeholder option 3",
-        "4": "Placeholder option 4"
-      },
-      "correctOption": "1",
-      "placeholder": true,
-      "answerEstimated": false,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2017-A-Q97",
-      "number": 97,
+      "number": 98,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2150,10 +2181,10 @@
     },
     {
       "id": "2017-A-Q98",
-      "number": 98,
+      "number": 99,
       "subject": "Biology",
       "section": "A",
-      "topic": "Biology General",
+      "topic": "Human Physiology",
       "stem": "Adult human RBCs are enucleate. Which of the (4) Rhizobium – Alfalfa following statement(s) is/are most appropriate",
       "options": {
         "1": "[Option 1 incomplete in source PDF]",
@@ -2171,7 +2202,7 @@
     },
     {
       "id": "2017-A-Q99",
-      "number": 99,
+      "number": 100,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2192,10 +2223,10 @@
     },
     {
       "id": "2017-A-Q100",
-      "number": 100,
+      "number": 101,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "The final proof for DNA as the genetic material came opposite poles. from the experiments of (vi) Telophase leads to formation of two daughter (1) Griffith nuclei. (2) Hershey and Chase 103. Which one of the following statements is correct, with reference to enzymes?",
       "options": {
         "1": "Apoenzyme = Holoenzyme + Coenzyme",
@@ -2213,7 +2244,7 @@
     },
     {
       "id": "2017-A-Q101",
-      "number": 101,
+      "number": 102,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2234,7 +2265,7 @@
     },
     {
       "id": "2017-A-Q102",
-      "number": 102,
+      "number": 103,
       "subject": "Biology",
       "section": "A",
       "topic": "Cell Biology",
@@ -2255,7 +2286,7 @@
     },
     {
       "id": "2017-A-Q103",
-      "number": 103,
+      "number": 104,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2276,7 +2307,7 @@
     },
     {
       "id": "2017-A-Q104",
-      "number": 104,
+      "number": 105,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2297,7 +2328,7 @@
     },
     {
       "id": "2017-A-Q105",
-      "number": 105,
+      "number": 106,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2318,7 +2349,7 @@
     },
     {
       "id": "2017-A-Q106",
-      "number": 106,
+      "number": 107,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2339,10 +2370,10 @@
     },
     {
       "id": "2017-A-Q107",
-      "number": 107,
+      "number": 108,
       "subject": "Biology",
       "section": "A",
-      "topic": "Plant Reproduction",
+      "topic": "Botany",
       "stem": "A dioecious flowering plant prevents both:",
       "options": {
         "1": "[Option 1 incomplete in source PDF]",
@@ -2360,7 +2391,7 @@
     },
     {
       "id": "2017-A-Q108",
-      "number": 108,
+      "number": 109,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2381,7 +2412,7 @@
     },
     {
       "id": "2017-A-Q109",
-      "number": 109,
+      "number": 110,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2402,7 +2433,7 @@
     },
     {
       "id": "2017-A-Q110",
-      "number": 110,
+      "number": 111,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2423,7 +2454,7 @@
     },
     {
       "id": "2017-A-Q111",
-      "number": 111,
+      "number": 112,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2444,7 +2475,7 @@
     },
     {
       "id": "2017-A-Q112",
-      "number": 112,
+      "number": 113,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2465,7 +2496,7 @@
     },
     {
       "id": "2017-A-Q113",
-      "number": 113,
+      "number": 114,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2486,7 +2517,7 @@
     },
     {
       "id": "2017-A-Q114",
-      "number": 114,
+      "number": 115,
       "subject": "Biology",
       "section": "A",
       "topic": "Cell Biology",
@@ -2507,7 +2538,7 @@
     },
     {
       "id": "2017-A-Q115",
-      "number": 115,
+      "number": 116,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2528,7 +2559,7 @@
     },
     {
       "id": "2017-A-Q116",
-      "number": 116,
+      "number": 117,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2549,7 +2580,7 @@
     },
     {
       "id": "2017-A-Q117",
-      "number": 117,
+      "number": 118,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2570,7 +2601,7 @@
     },
     {
       "id": "2017-A-Q118",
-      "number": 118,
+      "number": 119,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2591,10 +2622,10 @@
     },
     {
       "id": "2017-A-Q119",
-      "number": 119,
+      "number": 120,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "Coconut fruit is a (2) DNA replication is occurring",
       "options": {
         "1": "Drupe",
@@ -2612,7 +2643,7 @@
     },
     {
       "id": "2017-A-Q120",
-      "number": 120,
+      "number": 121,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2633,7 +2664,7 @@
     },
     {
       "id": "2017-A-Q121",
-      "number": 121,
+      "number": 122,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2654,10 +2685,10 @@
     },
     {
       "id": "2017-A-Q122",
-      "number": 122,
+      "number": 123,
       "subject": "Biology",
       "section": "A",
-      "topic": "Diversity of Living Organisms",
+      "topic": "Biology General",
       "stem": "Select the mismatch : (1) Fungistasis (2) Amensalism",
       "options": {
         "1": "Pinus – Dioecious",
@@ -2675,10 +2706,10 @@
     },
     {
       "id": "2017-A-Q123",
-      "number": 123,
+      "number": 124,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "Which of the following facilitates opening of stomatal (2) DNA molecules without protein coat aperture?",
       "options": {
         "1": "Contraction of outer wall of guard cells",
@@ -2696,7 +2727,7 @@
     },
     {
       "id": "2017-A-Q124",
-      "number": 124,
+      "number": 125,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2717,10 +2748,10 @@
     },
     {
       "id": "2017-A-Q125",
-      "number": 125,
+      "number": 126,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "DNA fragments are protein with 333 amino acids, and the base at (1) Positively charged position 901 is deleted such that the length of the (2) Negatively charged RNA becomes 998 bases, how many codons will be altered? (3) Neutral (1) 1",
       "options": {
         "1": "[Option 1 incomplete in source PDF]",
@@ -2738,7 +2769,7 @@
     },
     {
       "id": "2017-A-Q126",
-      "number": 126,
+      "number": 127,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2759,10 +2790,10 @@
     },
     {
       "id": "2017-A-Q127",
-      "number": 127,
+      "number": 128,
       "subject": "Biology",
       "section": "A",
-      "topic": "Ecology",
+      "topic": "Ecology & Evolution",
       "stem": "Which ecosystem has the maximum biomass?",
       "options": {
         "1": "[Option 1 incomplete in source PDF]",
@@ -2780,10 +2811,10 @@
     },
     {
       "id": "2017-A-Q128",
-      "number": 128,
+      "number": 129,
       "subject": "Biology",
       "section": "A",
-      "topic": "Human Health & Disease",
+      "topic": "Biology General",
       "stem": "A disease caused by an autosomal primary in : non-disjunction is (1) Tropical Savannah (2) Tropical Rain Forest",
       "options": {
         "1": "Down's syndrome",
@@ -2801,7 +2832,7 @@
     },
     {
       "id": "2017-A-Q129",
-      "number": 129,
+      "number": 130,
       "subject": "Biology",
       "section": "A",
       "topic": "Human Physiology",
@@ -2822,7 +2853,7 @@
     },
     {
       "id": "2017-A-Q130",
-      "number": 130,
+      "number": 131,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2843,7 +2874,7 @@
     },
     {
       "id": "2017-A-Q131",
-      "number": 131,
+      "number": 132,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2864,10 +2895,10 @@
     },
     {
       "id": "2017-A-Q132",
-      "number": 132,
+      "number": 133,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "A gene whose expression helps to identify (1) Forest ecosystem (2) Grassland ecosystem transformed cell is known as (3) Pond ecosystem (4) Lake ecosystem",
       "options": {
         "1": "Selectable marker",
@@ -2885,10 +2916,10 @@
     },
     {
       "id": "2017-A-Q133",
-      "number": 133,
+      "number": 134,
       "subject": "Biology",
       "section": "A",
-      "topic": "Biology General",
+      "topic": "Botany",
       "stem": "Presence of plants arranged into well defined vertical – Sugarcane fields layers depending on their height can be seen best",
       "options": {
         "1": "[Option 1 incomplete in source PDF]",
@@ -2906,7 +2937,7 @@
     },
     {
       "id": "2017-A-Q134",
-      "number": 134,
+      "number": 135,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2927,7 +2958,7 @@
     },
     {
       "id": "2017-A-Q135",
-      "number": 135,
+      "number": 136,
       "subject": "Biology",
       "section": "A",
       "topic": "Cell Biology",
@@ -2948,7 +2979,7 @@
     },
     {
       "id": "2017-A-Q136",
-      "number": 136,
+      "number": 137,
       "subject": "Biology",
       "section": "A",
       "topic": "Cell Biology",
@@ -2969,10 +3000,10 @@
     },
     {
       "id": "2017-A-Q137",
-      "number": 137,
+      "number": 138,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "Frog's heart when taken out of the body continues (3) m-RNA to beat for some time (4) mi-RNA Select the best option from the following statements",
       "options": {
         "1": "[Option 1 incomplete in source PDF]",
@@ -2990,7 +3021,7 @@
     },
     {
       "id": "2017-A-Q138",
-      "number": 138,
+      "number": 139,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -3011,7 +3042,7 @@
     },
     {
       "id": "2017-A-Q139",
-      "number": 139,
+      "number": 140,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -3032,7 +3063,7 @@
     },
     {
       "id": "2017-A-Q140",
-      "number": 140,
+      "number": 141,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -3053,7 +3084,7 @@
     },
     {
       "id": "2017-A-Q141",
-      "number": 141,
+      "number": 142,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -3074,10 +3105,10 @@
     },
     {
       "id": "2017-A-Q142",
-      "number": 142,
+      "number": 143,
       "subject": "Biology",
       "section": "A",
-      "topic": "Photosynthesis",
+      "topic": "Botany",
       "stem": "With reference to factors affecting the rate of (3) X = 24, Y = 7 True ribs are dorsally photosynthesis, which of the following statements is attached to vertebral not correct? column but are free on",
       "options": {
         "1": "Light saturation for CO2 fixation occurs at 10% ventral side of full sunlight",
@@ -3095,7 +3126,7 @@
     },
     {
       "id": "2017-A-Q143",
-      "number": 143,
+      "number": 144,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -3116,10 +3147,10 @@
     },
     {
       "id": "2017-A-Q144",
-      "number": 144,
+      "number": 145,
       "subject": "Biology",
       "section": "A",
-      "topic": "Biology General",
+      "topic": "Human Physiology",
       "stem": "Out of 'X' pairs of ribs in humans only 'Y' pairs are (1) Stem – Tall or Dwarf true ribs. Select the option that correctly represents",
       "options": {
         "1": "X = 12, Y = 7 True ribs are attached dorsally to vertebral",
@@ -3137,10 +3168,10 @@
     },
     {
       "id": "2017-A-Q145",
-      "number": 145,
+      "number": 146,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "The DNA fragments separated on an agarose gel",
       "options": {
         "1": "[Option 1 incomplete in source PDF]",
@@ -3158,7 +3189,7 @@
     },
     {
       "id": "2017-A-Q146",
-      "number": 146,
+      "number": 147,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -3179,7 +3210,7 @@
     },
     {
       "id": "2017-A-Q147",
-      "number": 147,
+      "number": 148,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -3200,7 +3231,7 @@
     },
     {
       "id": "2017-A-Q148",
-      "number": 148,
+      "number": 149,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -3221,10 +3252,10 @@
     },
     {
       "id": "2017-A-Q149",
-      "number": 149,
+      "number": 150,
       "subject": "Biology",
       "section": "A",
-      "topic": "Plant Physiology",
+      "topic": "Human Physiology",
       "stem": "GnRH, a hypothalamic hormone, needed in of vitamin A, is the light-absorbing part of all visual reproduction, acts on photopigments. (1) Anterior pituitary gland and stimulates secretion of LH and oxytocin 153. Which one of the following statements is not valid for aerosols? (2) Anterior pituitary gland and stimulates secretion of LH and FSH (1) They are harmful to human health (3) Posterior pituitary gland and stimulates secretion",
       "options": {
         "1": "[Option 1 incomplete in source PDF]",
@@ -3242,7 +3273,7 @@
     },
     {
       "id": "2017-A-Q150",
-      "number": 150,
+      "number": 151,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -3263,10 +3294,10 @@
     },
     {
       "id": "2017-A-Q151",
-      "number": 151,
+      "number": 152,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "Which one from those given below is the period for (4) ADH Mendel's hybridization experiments?",
       "options": {
         "1": "[Option 1 incomplete in source PDF]",
@@ -3284,7 +3315,7 @@
     },
     {
       "id": "2017-A-Q152",
-      "number": 152,
+      "number": 153,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -3305,7 +3336,7 @@
     },
     {
       "id": "2017-A-Q153",
-      "number": 153,
+      "number": 154,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -3326,7 +3357,7 @@
     },
     {
       "id": "2017-A-Q154",
-      "number": 154,
+      "number": 155,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -3347,7 +3378,7 @@
     },
     {
       "id": "2017-A-Q155",
-      "number": 155,
+      "number": 156,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -3368,7 +3399,7 @@
     },
     {
       "id": "2017-A-Q156",
-      "number": 156,
+      "number": 157,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -3389,7 +3420,7 @@
     },
     {
       "id": "2017-A-Q157",
-      "number": 157,
+      "number": 158,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -3410,10 +3441,10 @@
     },
     {
       "id": "2017-A-Q158",
-      "number": 158,
+      "number": 159,
       "subject": "Biology",
       "section": "A",
-      "topic": "Biology General",
+      "topic": "Human Physiology",
       "stem": "Fruit and leaf drop at early stages can be prevented in male frogs : by the application of (1) Testes → Bidder's canal → Kidney → Vasa",
       "options": {
         "1": "Cytokinins",
@@ -3431,7 +3462,7 @@
     },
     {
       "id": "2017-A-Q159",
-      "number": 159,
+      "number": 160,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -3452,7 +3483,7 @@
     },
     {
       "id": "2017-A-Q160",
-      "number": 160,
+      "number": 161,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -3473,7 +3504,7 @@
     },
     {
       "id": "2017-A-Q161",
-      "number": 161,
+      "number": 162,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -3494,7 +3525,7 @@
     },
     {
       "id": "2017-A-Q162",
-      "number": 162,
+      "number": 163,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -3515,7 +3546,7 @@
     },
     {
       "id": "2017-A-Q163",
-      "number": 163,
+      "number": 164,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -3536,10 +3567,10 @@
     },
     {
       "id": "2017-A-Q164",
-      "number": 164,
+      "number": 165,
       "subject": "Biology",
       "section": "A",
-      "topic": "Cell Biology",
+      "topic": "Biology General",
       "stem": "Phosphoenol pyruvate (PEP) is the primary CO2 receptors sites for neurotransmitters are present on acceptor in : post-synaptic membrane.",
       "options": {
         "1": "C3 plants",
@@ -3557,7 +3588,7 @@
     },
     {
       "id": "2017-A-Q165",
-      "number": 165,
+      "number": 166,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -3578,10 +3609,10 @@
     },
     {
       "id": "2017-A-Q166",
-      "number": 166,
+      "number": 167,
       "subject": "Biology",
       "section": "A",
-      "topic": "Ecology",
+      "topic": "Human Physiology",
       "stem": "Anaphase promoting complex (APC) is a protein (1) Ecological Biodiversity degradation machinery necessary for proper mitosis of animal cells. If APC is defective in a human cell, (2) Laws of limiting factor which of the following is expected to occur?",
       "options": {
         "1": "Chromosomes will not condense",
@@ -3599,7 +3630,7 @@
     },
     {
       "id": "2017-A-Q167",
-      "number": 167,
+      "number": 168,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -3620,10 +3651,10 @@
     },
     {
       "id": "2017-A-Q168",
-      "number": 168,
+      "number": 169,
       "subject": "Biology",
       "section": "A",
-      "topic": "Cell Biology",
+      "topic": "Biology General",
       "stem": "Receptor sites for neurotransmitters are present on fertilisation? (1) Membranes of synaptic vesicles (1) Intrauterine transfer (2) Pre-synaptic membrane (2) Gamete intracytoplasmic fallopian transfer",
       "options": {
         "1": "[Option 1 incomplete in source PDF]",
@@ -3641,7 +3672,7 @@
     },
     {
       "id": "2017-A-Q169",
-      "number": 169,
+      "number": 170,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -3662,7 +3693,7 @@
     },
     {
       "id": "2017-A-Q170",
-      "number": 170,
+      "number": 171,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -3683,7 +3714,7 @@
     },
     {
       "id": "2017-A-Q171",
-      "number": 171,
+      "number": 172,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -3704,7 +3735,7 @@
     },
     {
       "id": "2017-A-Q172",
-      "number": 172,
+      "number": 173,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -3720,27 +3751,6 @@
       "answerEstimated": false,
       "correctOptions": [
         "1"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2017-A-Q173",
-      "number": 173,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Cell Biology",
-      "stem": "Which of the following components provides sticky 178. Identify the wrong statement in context of heartwood. character to the bacterial cell? (1) Organic compounds are deposited in it (1) Cell wall (2) Nuclear membrane",
-      "options": {
-        "1": "[Option 1 incomplete in source PDF]",
-        "2": "It is highly durable",
-        "3": "It conducts water and minerals efficiently",
-        "4": "Glycocalyx"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": false,
-      "correctOptions": [
-        "4"
       ],
       "multiCorrect": false
     },
@@ -3875,7 +3885,7 @@
       "number": 180,
       "subject": "Biology",
       "section": "A",
-      "topic": "Human Reproduction",
+      "topic": "Botany",
       "stem": "Flowers which have single ovule in the ovary and are suspended solids? packed into inflorescence are usually pollinated by (1) Tertiary treatment",
       "options": {
         "1": "Water",

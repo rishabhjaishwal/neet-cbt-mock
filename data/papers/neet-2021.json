@@ -77,7 +77,8 @@
     "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=8",
     "Multi-correct support: 0 items with correctOptions[]; scoring +4 exact / partial +1 each subset / −1 if any wrong.",
     "Figure remap v4: matched=1 placeholder=7 (cropped diagram boxes only; logos/headers/full-page bands rejected).",
-    "Figure stem-match fill: 0 placeholders filled from [2019, 2023, 2024]."
+    "Figure stem-match fill: 0 placeholders filled from [2019, 2023, 2024].",
+    "Subject order fix v3: native order Physics→Chemistry→Biology; display Physics→Chemistry→Biology; swaps=8."
   ],
   "stats": {
     "parsedQuestions": 200,
@@ -85,7 +86,16 @@
     "estimatedAnswers": 153,
     "withFigures": 8,
     "figuresMatched": 0,
-    "figuresPlaceholder": 8
+    "figuresPlaceholder": 8,
+    "subjectOrder": "Physics→Chemistry→Biology",
+    "nativePaperOrder": "Physics→Chemistry→Biology",
+    "subjectCounts": {
+      "Physics": 50,
+      "Chemistry": 50,
+      "Biology": 100
+    },
+    "subjectMatchAvgScore": 2.56,
+    "subjectRepairSwaps": 8
   },
   "questions": [
     {
@@ -93,7 +103,7 @@
       "number": 1,
       "subject": "Physics",
       "section": "A",
-      "topic": "Current Electricity",
+      "topic": "Electromagnetism",
       "stem": "In a potentiometer circuit a cell of EMF 1.5 V gives balance point at 36 cm length of wire. If another cell of EMF 2.5 V replaces the first cell, then at what length of the wire, the balance point occurs ?",
       "options": {
         "1": "62 cm",
@@ -114,7 +124,7 @@
       "number": 2,
       "subject": "Physics",
       "section": "A",
-      "topic": "Current Electricity",
+      "topic": "Electromagnetism",
       "stem": "Column - I gives certain physical terms associated with flow of current through a metallic conductor. Column - II gives some mathematical relations involving electrical quantities. Match Column - I and Column - II with appropriate relations. Column - I Column - II m (A) Drift Velocity (P) ne2ρ (B) Electrical Resistivity (Q) nevd eE (C) Relaxation Period (R) τ m E (D) Current Density (S) J",
       "options": {
         "1": "(A)-(R), (B)-(Q), (C)-(S), (D)-(P)",
@@ -135,7 +145,7 @@
       "number": 3,
       "subject": "Physics",
       "section": "A",
-      "topic": "Current Electricity",
+      "topic": "Electromagnetism",
       "stem": "An infinitely long straight conductor carries a current of 5 A as shown. An electron is moving with a speed of 105 m/s parallel to the conductor. The perpendicular distance between the electron and the conductor is 20 cm at an instant. Calculate the magnitude of the force experienced by the electron at that instant.",
       "options": {
         "1": "4×200^{-20}$ N",
@@ -156,7 +166,7 @@
       "number": 4,
       "subject": "Physics",
       "section": "A",
-      "topic": "Current Electricity",
+      "topic": "Electromagnetism",
       "stem": "Column - I gives certain physical terms associated with flow of current through a metallic conductor. Column - II gives some mathematical relations involving electrical quantities. Match Column - I and Column - II with appropriate relations. Column - I Column - II m (A) Drift Velocity (P) ne2 ρ (B) Electrical Resistivity (Q) nevd eE (C) Relaxation Period (R) τ m E (D) Current Density (S) J",
       "options": {
         "1": "(A)-(R), (B)-(P), (C)-(S), (D)-(Q)",
@@ -177,7 +187,7 @@
       "number": 5,
       "subject": "Physics",
       "section": "A",
-      "topic": "Physics General",
+      "topic": "Thermodynamics",
       "stem": "A cup of coffee cools from 908C to 808C in t minutes, when the room temperature is 208C. The time taken by a similar cup of coffee to cool from 808C to 608C at a room temperature same at 208C is : 5",
       "options": {
         "1": "t 13 13",
@@ -219,7 +229,7 @@
       "number": 7,
       "subject": "Physics",
       "section": "A",
-      "topic": "Current Electricity",
+      "topic": "Electromagnetism",
       "stem": "An inductor of inductance L, a capacitor of capacitance C and a resistor of resistance ‘R’ are connected in series to an ac source of potential difference ‘V’ volts as shown in figure. Potential difference across L, C and R is 40 V, 10 V and 40 V, respectively. The amplitude of current flowing through LCR series circuit is 10 2 A. The impedance of the circuit is :",
       "options": {
         "1": "5 2 Ω",
@@ -242,7 +252,7 @@
       "number": 8,
       "subject": "Physics",
       "section": "A",
-      "topic": "Physics General",
+      "topic": "Thermodynamics",
       "stem": "A cup of coffee cools from 908C to 808C in t minutes, when the room temperature is 208C. The time taken by a similar cup of coffee to cool from 808C to 608C at a room temperature same at 208C is : 10",
       "options": {
         "1": "t 13 5",
@@ -284,7 +294,7 @@
       "number": 10,
       "subject": "Physics",
       "section": "A",
-      "topic": "Physics General",
+      "topic": "Thermodynamics",
       "stem": "A cup of coffee cools from 908C to 808C in t minutes, when the room temperature is 208C. The time taken by a similar cup of coffee to cool from 808C to 608C at a room temperature same at 208C is : 13",
       "options": {
         "1": "t 5 10",
@@ -326,7 +336,7 @@
       "number": 12,
       "subject": "Physics",
       "section": "A",
-      "topic": "Current Electricity",
+      "topic": "Electromagnetism",
       "stem": "Column - I gives certain physical terms associated with flow of current through a metallic conductor. Column - II gives some mathematical relations involving electrical quantities. Match Column - I and Column - II with appropriate relations. Column - I Column - II m (A) Drift Velocity (P) ne2 ρ (B) Electrical Resistivity (Q) nevd eE (C) Relaxation Period (R) τ m E (D) Current Density (S) J",
       "options": {
         "1": "(A)-(R), (B)-(S), (C)-(P), (D)-(Q)",
@@ -347,7 +357,7 @@
       "number": 13,
       "subject": "Physics",
       "section": "A",
-      "topic": "Current Electricity",
+      "topic": "Electromagnetism",
       "stem": "A parallel plate capacitor has a uniform electric → field ‘ E ’ in the space between the plates. If the distance between the plates is ‘d’ and the area of each plate is ‘A’, the energy stored in the capacitor is : (ε0=permittivity of free space)",
       "options": {
         "1": "ε0EAd 1",
@@ -368,7 +378,7 @@
       "number": 14,
       "subject": "Physics",
       "section": "A",
-      "topic": "Work Energy Power",
+      "topic": "Physics General",
       "stem": "A particle is released from height S from the surface of the Earth. At a certain height its kinetic energy is three times its potential energy. The height from the surface of earth and the speed of the particle at that instant are respectively : S 3gS",
       "options": {
         "1": ", 2 2 S 3gS",
@@ -389,7 +399,7 @@
       "number": 15,
       "subject": "Physics",
       "section": "A",
-      "topic": "Work Energy Power",
+      "topic": "Mechanics",
       "stem": "Water falls from a height of 60 m at the rate of 15 kg/s to operate a turbine. The losses due to frictional force are 10% of the input energy. How much power is generated by the turbine ? (g=10 m/s2)",
       "options": {
         "1": "10.2 kW",
@@ -410,7 +420,7 @@
       "number": 16,
       "subject": "Physics",
       "section": "A",
-      "topic": "Current Electricity",
+      "topic": "Electromagnetism",
       "stem": "A capacitor of capacitance ‘C’, is connected across an ac source of voltage V, given by V=V0 sinωt The displacement current between the plates of the capacitor, would then be given by : V",
       "options": {
         "1": "Id= 0 cosωt ωC V",
@@ -452,7 +462,7 @@
       "number": 18,
       "subject": "Physics",
       "section": "A",
-      "topic": "Current Electricity",
+      "topic": "Electromagnetism",
       "stem": "Column - I gives certain physical terms associated with flow of current through a metallic conductor. Column - II gives some mathematical relations involving electrical quantities. Match Column - I and Column - II with appropriate relations. Column - I Column - II m (A) Drift Velocity (P) ne2 ρ (B) Electrical Resistivity (Q) nevd eE (C) Relaxation Period (R) τ m E (D) Current Density (S) J",
       "options": {
         "1": "(A)-(R), (B)-(S), (C)-(Q), (D)-(P)",
@@ -469,29 +479,8 @@
       "multiCorrect": false
     },
     {
-      "id": "2021-M1-Q19",
-      "number": 19,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Work Energy Power",
-      "stem": "A nucleus with mass number 240 breaks into two fragments each of mass number 120, the binding energy per nucleon of unfragmented nuclei is 7.6 MeV while that of fragments is 8.5 MeV. The total gain in the Binding Energy in the process is :",
-      "options": {
-        "1": "9.4 MeV",
-        "2": "804 MeV",
-        "3": "216 MeV",
-        "4": "0.9 MeV"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2021-M1-Q20",
-      "number": 20,
+      "number": 19,
       "subject": "Physics",
       "section": "A",
       "topic": "Physics General",
@@ -512,10 +501,10 @@
     },
     {
       "id": "2021-M1-Q21",
-      "number": 21,
+      "number": 20,
       "subject": "Physics",
       "section": "A",
-      "topic": "Current Electricity",
+      "topic": "Electromagnetism",
       "stem": "A parallel plate capacitor has a uniform electric → field ‘ E ’ in the space between the plates. If the distance between the plates is ‘d’ and the area of each plate is ‘A’, the energy stored in the capacitor is : (ε0=permittivity of free space) 1",
       "options": {
         "1": "ε E2 2 0",
@@ -533,7 +522,7 @@
     },
     {
       "id": "2021-M1-Q22",
-      "number": 22,
+      "number": 21,
       "subject": "Physics",
       "section": "A",
       "topic": "Optics",
@@ -554,10 +543,10 @@
     },
     {
       "id": "2021-M1-Q23",
-      "number": 23,
+      "number": 22,
       "subject": "Physics",
       "section": "A",
-      "topic": "Work Energy Power",
+      "topic": "Physics General",
       "stem": "Match Column - I and Column - II and choose the correct match from the given choices. Column - I Column - II 1 (A) Root mean square (P) nm v 2 3 speed of gas molecules 3 RT (B) Pressure exerted (Q) M by ideal gas 5 (C) Average kinetic energy (R) RT 2 of a molecule 3 (D) Total internal energy (S) kBT 2 of 1 mole of a diatomic gas",
       "options": {
         "1": "(A) - (Q), (B) - (R), (C) - (S), (D) - (P)",
@@ -575,10 +564,10 @@
     },
     {
       "id": "2021-M1-Q24",
-      "number": 24,
+      "number": 23,
       "subject": "Physics",
       "section": "A",
-      "topic": "Current Electricity",
+      "topic": "Electromagnetism",
       "stem": "An inductor of inductance L, a capacitor of capacitance C and a resistor of resistance ‘R’ are connected in series to an ac source of potential difference ‘V’ volts as shown in figure. Potential difference across L, C and R is 40 V, 10 V and 40 V, respectively. The amplitude of current flowing through LCR series circuit is 10 2 A. The impedance of the circuit is :",
       "options": {
         "1": "5Ω",
@@ -597,32 +586,11 @@
       "figureKind": "missing-placeholder"
     },
     {
-      "id": "2021-M1-Q25",
-      "number": 25,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Current Electricity",
-      "stem": "The effective resistance of a parallel connection that consists of four wires of equal length, equal area of cross-section and same material is 0.25 Ω. What will be the effective resistance if they are connected in series ?",
-      "options": {
-        "1": "0.5 Ω",
-        "2": "1Ω",
-        "3": "4Ω",
-        "4": "0.25 Ω"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2021-M1-Q26",
-      "number": 26,
+      "number": 24,
       "subject": "Physics",
       "section": "A",
-      "topic": "Work Energy Power",
+      "topic": "Physics General",
       "stem": "Match Column - I and Column - II and choose the correct match from the given choices. Column - I Column - II 1 (A) Root mean square (P) nm v 2 3 speed of gas molecules 3 RT (B) Pressure exerted (Q) M by ideal gas 5 (C) Average kinetic energy (R) RT 2 of a molecule 3 (D) Total internal energy (S) k BT 2 of 1 mole of a diatomic gas",
       "options": {
         "1": "(A) - (R), (B) - (P), (C) - (S), (D) - (Q)",
@@ -640,10 +608,10 @@
     },
     {
       "id": "2021-M1-Q27",
-      "number": 27,
+      "number": 25,
       "subject": "Physics",
       "section": "A",
-      "topic": "Work Energy Power",
+      "topic": "Physics General",
       "stem": "Match Column - I and Column - II and choose the correct match from the given choices. Column - I Column - II 1 (A) Root mean square (P) nm v 2 3 speed of gas molecules 3 RT (B) Pressure exerted (Q) M by ideal gas 5 (C) Average kinetic energy (R) RT 2 of a molecule 3 (D) Total internal energy (S) k BT 2 of 1 mole of a diatomic gas",
       "options": {
         "1": "(A) - (Q), (B) - (P), (C) - (S), (D) - (R)",
@@ -660,32 +628,11 @@
       "multiCorrect": false
     },
     {
-      "id": "2021-M1-Q28",
-      "number": 28,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Work Energy Power",
-      "stem": "A nucleus with mass number 240 breaks into two fragments each of mass number 120, the binding energy per nucleon of unfragmented nuclei is 7.6 MeV while that of fragments is 8.5 MeV. The total gain in the Binding Energy in the process is :",
-      "options": {
-        "1": "804 MeV",
-        "2": "216 MeV",
-        "3": "0.9 MeV",
-        "4": "9.4 MeV"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2021-M1-Q29",
-      "number": 29,
+      "number": 26,
       "subject": "Physics",
       "section": "A",
-      "topic": "Current Electricity",
+      "topic": "Electromagnetism",
       "stem": "A parallel plate capacitor has a uniform electric → field ‘ E ’ in the space between the plates. If the distance between the plates is ‘d’ and the area of each plate is ‘A’, the energy stored in the capacitor is : (ε0=permittivity of free space) 1",
       "options": {
         "1": "ε E2 Ad 2 0 E2 Ad",
@@ -703,10 +650,10 @@
     },
     {
       "id": "2021-M1-Q30",
-      "number": 30,
+      "number": 27,
       "subject": "Physics",
       "section": "A",
-      "topic": "Current Electricity",
+      "topic": "Electromagnetism",
       "stem": "A capacitor of capacitance ‘C’, is connected across an ac source of voltage V, given by V=V0 sinωt The displacement current between the plates of the capacitor, would then be given by :",
       "options": {
         "1": "Id=V0 ωCsinωt",
@@ -724,10 +671,10 @@
     },
     {
       "id": "2021-M1-Q31",
-      "number": 31,
+      "number": 28,
       "subject": "Physics",
       "section": "A",
-      "topic": "Current Electricity",
+      "topic": "Electromagnetism",
       "stem": "An inductor of inductance L, a capacitor of capacitance C and a resistor of resistance ‘R’ are connected in series to an ac source of potential difference ‘V’ volts as shown in figure. Potential difference across L, C and R is 40 V, 10 V and 40 V, respectively. The amplitude of current flowing through LCR series circuit is 10 2 A. The impedance of the circuit is :",
       "options": {
         "1": "4 2 Ω",
@@ -747,10 +694,10 @@
     },
     {
       "id": "2021-M1-Q32",
-      "number": 32,
+      "number": 29,
       "subject": "Physics",
       "section": "A",
-      "topic": "Current Electricity",
+      "topic": "Electromagnetism",
       "stem": "A thick current carrying cable of radius ‘R’ carries current ‘I’ uniformly distributed across its cross-section. The variation of magnetic field B(r) due to the cable with the distance ‘r’ from the axis of the cable is represented by :",
       "options": {
         "1": "Option 1",
@@ -767,32 +714,11 @@
       "multiCorrect": false
     },
     {
-      "id": "2021-M1-Q33",
-      "number": 33,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Current Electricity",
-      "stem": "The effective resistance of a parallel connection that consists of four wires of equal length, equal area of cross-section and same material is 0.25 Ω. What will be the effective resistance if they are connected in series ?",
-      "options": {
-        "1": "4Ω",
-        "2": "0.25 Ω",
-        "3": "0.5 Ω",
-        "4": "1Ω"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2021-M1-Q34",
-      "number": 34,
+      "number": 30,
       "subject": "Physics",
       "section": "A",
-      "topic": "Current Electricity",
+      "topic": "Electromagnetism",
       "stem": "An inductor of inductance L, a capacitor of capacitance C and a resistor of resistance ‘R’ are connected in series to an ac source of potential difference ‘V’ volts as shown in figure. Potential difference across L, C and R is 40 V, 10 V and 40 V, respectively. The amplitude of current flowing through LCR series circuit is 10 2 A. The impedance of the circuit is :",
       "options": {
         "1": "4Ω",
@@ -812,10 +738,10 @@
     },
     {
       "id": "2021-M1-Q35",
-      "number": 35,
+      "number": 31,
       "subject": "Physics",
       "section": "A",
-      "topic": "Magnetism",
+      "topic": "Modern Physics",
       "stem": "An electromagnetic wave of wavelength ‘λ’ is incident on a photosensitive surface of negligible work function. If ‘m’ mass is of photoelectron emitted from the surface has de-Broglie wavelength λd, then : { 2h ( 2",
       "options": {
         "1": "λ={ )λd } mc [ { 2m ( 2",
@@ -833,9 +759,9 @@
     },
     {
       "id": "2021-M1-Q36",
-      "number": 36,
+      "number": 32,
       "subject": "Physics",
-      "section": "B",
+      "section": "A",
       "topic": "Physics General",
       "stem": "A particle moving in a circle of radius R with a uniform speed takes a time T to complete one revolution. If this particle were projected with the same speed at an angle ‘θ’ to the horizontal, the maximum height attained by it equals 4R. The angle of projection, θ, is then given by : 1 { 2R ( 2 −1 { π",
       "options": {
@@ -854,10 +780,10 @@
     },
     {
       "id": "2021-M1-Q37",
-      "number": 37,
+      "number": 33,
       "subject": "Physics",
-      "section": "B",
-      "topic": "Current Electricity",
+      "section": "A",
+      "topic": "Electromagnetism",
       "stem": "A series LCR circuit containing 5.0 H inductor, 80 μF capacitor and 40 Ω resistor is connected to 230 V variable frequency ac source. The angular frequencies of the source at which power transferred to the circuit is half the power at the resonant angular frequency are likely to be :",
       "options": {
         "1": "46 rad/s and 54 rad/s",
@@ -874,76 +800,11 @@
       "multiCorrect": false
     },
     {
-      "id": "2021-M1-Q38",
-      "number": 38,
-      "subject": "Physics",
-      "section": "B",
-      "topic": "Current Electricity",
-      "stem": "A uniform conducting wire of length 12a and resistance ‘R’ is wound up as a current carrying coil in the shape of, (i) an equilateral triangle of side ‘a’. (ii) a square of side ‘a’. The magnetic dipole moments of the coil in each case respectively are :",
-      "options": {
-        "1": "3 Ia2 and 4 Ia2",
-        "2": "4 Ia2 and 3 Ia2",
-        "3": "3 Ia2 and 3 Ia2",
-        "4": "3 Ia2 and Ia2"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2021-M1-Q39",
-      "number": 39,
-      "subject": "Physics",
-      "section": "B",
-      "topic": "Current Electricity",
-      "stem": "A uniform conducting wire of length 12a and resistance ‘R’ is wound up as a current carrying coil in the shape of, (i) an equilateral triangle of side ‘a’. (ii) a square of side ‘a’. The magnetic dipole moments of the coil in each case respectively are :",
-      "options": {
-        "1": "3 Ia2 and Ia2",
-        "2": "3 Ia2 and 4 Ia2",
-        "3": "4 Ia2 and 3 Ia2",
-        "4": "3 Ia2 and 3 Ia2 3 N1"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2021-M1-Q40",
-      "number": 40,
-      "subject": "Physics",
-      "section": "B",
-      "topic": "Physics General",
-      "stem": "A uniform rod of length 200 cm and mass 500 g is balanced on a wedge placed at 40 cm mark. A mass of 2 kg is suspended from the rod at 20 cm and another unknown mass ‘m’ is suspended from the rod at 160 cm mark as shown in the figure. Find the value of ‘m’ such that the rod is in equilibrium. (g=10 m/s2) 1",
-      "options": {
-        "1": "kg 12 1",
-        "2": "kg 2 1",
-        "3": "kg 3 1",
-        "4": "kg 6"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false,
-      "figureSrc": "/figures/2021-M1-Q40.svg",
-      "figureKind": "missing-placeholder"
-    },
-    {
       "id": "2021-M1-Q41",
-      "number": 41,
+      "number": 34,
       "subject": "Physics",
-      "section": "B",
-      "topic": "Laws of Motion",
+      "section": "A",
+      "topic": "Physics General",
       "stem": "A car starts from rest and accelerates at 5 m/s2. At t=4 s, a ball is dropped out of a window by a person sitting in the car. What is the velocity and acceleration of the ball at t=6 s ? (Take g=10 m/s2)",
       "options": {
         "1": "20 m/s, 5 m/s2",
@@ -961,10 +822,10 @@
     },
     {
       "id": "2021-M1-Q42",
-      "number": 42,
+      "number": 35,
       "subject": "Physics",
-      "section": "B",
-      "topic": "Laws of Motion",
+      "section": "A",
+      "topic": "Physics General",
       "stem": "A particle of mass ‘m’ is projected with a velocity v=kVe(k < 1) from the surface of the earth. (Ve=escape velocity) The maximum height above the surface reached by the particle is : 2 { k (",
       "options": {
         "1": "R{ ) } 1−k [ 2 { k (",
@@ -981,31 +842,8 @@
       "multiCorrect": false
     },
     {
-      "id": "2021-M1-Q43",
-      "number": 43,
-      "subject": "Physics",
-      "section": "B",
-      "topic": "Physics General",
-      "stem": "A uniform rod of length 200 cm and mass 500 g is balanced on a wedge placed at 40 cm mark. A mass of 2 kg is suspended from the rod at 20 cm and another unknown mass ‘m’ is suspended from the rod at 160 cm mark as shown in the figure. Find the value of ‘m’ such that the rod is in equilibrium. (g=10 m/s2) 1",
-      "options": {
-        "1": "kg 6 1",
-        "2": "kg 12 1",
-        "3": "kg 2 1",
-        "4": "kg 3"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false,
-      "figureSrc": "/figures/2021-M1-Q43.svg",
-      "figureKind": "missing-placeholder"
-    },
-    {
       "id": "2021-M1-Q44",
-      "number": 44,
+      "number": 36,
       "subject": "Physics",
       "section": "B",
       "topic": "Physics General",
@@ -1028,7 +866,7 @@
     },
     {
       "id": "2021-M1-Q45",
-      "number": 45,
+      "number": 37,
       "subject": "Physics",
       "section": "B",
       "topic": "Physics General",
@@ -1049,10 +887,10 @@
     },
     {
       "id": "2021-M1-Q46",
-      "number": 46,
+      "number": 38,
       "subject": "Physics",
       "section": "B",
-      "topic": "Current Electricity",
+      "topic": "Electromagnetism",
       "stem": "A series LCR circuit containing 5.0 H inductor, 80 μF capacitor and 40 Ω resistor is connected to 230 V variable frequency ac source. The angular frequencies of the source at which power transferred to the circuit is half the power at the resonant angular frequency are likely to be :",
       "options": {
         "1": "42 rad/s and 58 rad/s",
@@ -1070,10 +908,10 @@
     },
     {
       "id": "2021-M1-Q47",
-      "number": 47,
+      "number": 39,
       "subject": "Physics",
       "section": "B",
-      "topic": "Current Electricity",
+      "topic": "Physics General",
       "stem": "Two conducting circular loops of radii R1 and R2 are placed in the same plane with their centres coinciding. If R1 >> R2 , the mutual inductance M between them will be directly proportional to : R2",
       "options": {
         "1": "R1 2 R1",
@@ -1091,7 +929,7 @@
     },
     {
       "id": "2021-M1-Q48",
-      "number": 48,
+      "number": 40,
       "subject": "Physics",
       "section": "B",
       "topic": "Physics General",
@@ -1114,10 +952,10 @@
     },
     {
       "id": "2021-M1-Q49",
-      "number": 49,
+      "number": 41,
       "subject": "Physics",
       "section": "B",
-      "topic": "Rotational Motion",
+      "topic": "Physics General",
       "stem": "From a circular ring of mass ‘M’ and radius ‘R’ an arc corresponding to a 908 sector is removed. The moment of inertia of the remaining part of the ring about an axis passing through the centre of the ring and perpendicular to the plane of the ring is ‘K’ times ‘MR2’. Then the value of ‘K’ is : 3",
       "options": {
         "1": "4 7",
@@ -1135,7 +973,7 @@
     },
     {
       "id": "2021-M1-Q50",
-      "number": 50,
+      "number": 42,
       "subject": "Physics",
       "section": "B",
       "topic": "Physics General",
@@ -1155,8 +993,281 @@
       "multiCorrect": false
     },
     {
-      "id": "2021-M1-Q51",
+      "id": "2021-M1-Q54",
+      "number": 43,
+      "subject": "Physics",
+      "section": "B",
+      "topic": "Electromagnetism",
+      "stem": "A particular station of All India Radio, New Delhi, broadcasts on a frequency of 1,368 kHz (kilohertz). The wavelength of the electromagnetic radiation emitted by the transmitter is : [speed of light, c=3.0×108 ms−1]",
+      "options": {
+        "1": "219.3 m",
+        "2": "219.2 m",
+        "3": "2192 m",
+        "4": "21.92 cm"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2021-M1-Q57",
+      "number": 44,
+      "subject": "Physics",
+      "section": "B",
+      "topic": "Electromagnetism",
+      "stem": "A particular station of All India Radio, New Delhi, broadcasts on a frequency of 1,368 kHz (kilohertz). The wavelength of the electromagnetic radiation emitted by the transmitter is : [speed of light, c=3.0×108 ms−1]",
+      "options": {
+        "1": "2192 m",
+        "2": "21.92 cm",
+        "3": "219.3 m",
+        "4": "219.2 m 7 O1"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2021-M1-Q66",
+      "number": 45,
+      "subject": "Physics",
+      "section": "B",
+      "topic": "Electromagnetism",
+      "stem": "A particular station of All India Radio, New Delhi, broadcasts on a frequency of 1,368 kHz (kilohertz). The wavelength of the electromagnetic radiation emitted by the transmitter is : [speed of light, c=3.0×108 ms−1]",
+      "options": {
+        "1": "219.2 m",
+        "2": "2192 m",
+        "3": "21.92 cm",
+        "4": "219.3 m"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2021-M1-Q71",
+      "number": 46,
+      "subject": "Physics",
+      "section": "B",
+      "topic": "Electromagnetism",
+      "stem": "A particular station of All India Radio, New Delhi, broadcasts on a frequency of 1,368 kHz (kilohertz). The wavelength of the electromagnetic radiation emitted by the transmitter is : [speed of light, c=3.0×108 ms−1]",
+      "options": {
+        "1": "21.92 cm",
+        "2": "219.3 m",
+        "3": "219.2 m",
+        "4": "2192 m"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": false,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2021-M1-Q92",
+      "number": 47,
+      "subject": "Physics",
+      "section": "B",
+      "topic": "Physics General",
+      "stem": "For irreversible expansion of an ideal gas under isothermal condition, the correct option is :",
+      "options": {
+        "1": "∆U ≠ 0, ∆Stotal ≠ 0",
+        "2": "∆U=0, ∆Stotal ≠ 0",
+        "3": "∆U ≠ 0, ∆Stotal=0",
+        "4": "∆U=0, ∆Stotal=0 Hindi+English 6"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2021-M1-Q124",
+      "number": 48,
+      "subject": "Physics",
+      "section": "B",
+      "topic": "Physics General",
+      "stem": "Match List - I with List - II. List - I List - II More attraction in (a) Cohesion (i) liquid phase Mutual attraction (b) Adhesion (ii) among water molecules Water loss in liquid (c) Surface tension (iii) phase Attraction towards (d) Guttation (iv) polar surfaces Choose the correct answer from the options given below. (a) (b) (c) (d)",
+      "options": {
+        "1": "(ii) (i) (iv) (iii)",
+        "2": "(ii) (iv) (i) (iii)",
+        "3": "(iv) (iii) (ii) (i)",
+        "4": "(iii) (i) (iv) (ii)"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2021-M1-Q128",
+      "number": 49,
+      "subject": "Physics",
+      "section": "B",
+      "topic": "Physics General",
+      "stem": "Match List - I with List - II. List - I List - II More attraction in (a) Cohesion (i) liquid phase Mutual attraction (b) Adhesion (ii) among water molecules Water loss in liquid (c) Surface tension (iii) phase Attraction towards (d) Guttation (iv) polar surfaces Choose the correct answer from the options given below. (a) (b) (c) (d)",
+      "options": {
+        "1": "(iv) (iii) (ii) (i)",
+        "2": "(iii) (i) (iv) (ii)",
+        "3": "(ii) (i) (iv) (iii)",
+        "4": "(ii) (iv) (i) (iii)"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2021-M1-Q135",
+      "number": 50,
+      "subject": "Physics",
+      "section": "B",
+      "topic": "Physics General",
+      "stem": "Match List - I with List - II. List - I List - II More attraction in (a) Cohesion (i) liquid phase Mutual attraction (b) Adhesion (ii) among water molecules Water loss in liquid (c) Surface tension (iii) phase Attraction towards (d) Guttation (iv) polar surfaces Choose the correct answer from the options given below. (a) (b) (c) (d)",
+      "options": {
+        "1": "(iii) (i) (iv) (ii)",
+        "2": "(ii) (i) (iv) (iii)",
+        "3": "(ii) (iv) (i) (iii)",
+        "4": "(iv) (iii) (ii) (i) Section - B (Biology : Botany)"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2021-M1-Q19",
       "number": 51,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "A nucleus with mass number 240 breaks into two fragments each of mass number 120, the binding energy per nucleon of unfragmented nuclei is 7.6 MeV while that of fragments is 8.5 MeV. The total gain in the Binding Energy in the process is :",
+      "options": {
+        "1": "9.4 MeV",
+        "2": "804 MeV",
+        "3": "216 MeV",
+        "4": "0.9 MeV"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2021-M1-Q25",
+      "number": 52,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "The effective resistance of a parallel connection that consists of four wires of equal length, equal area of cross-section and same material is 0.25 Ω. What will be the effective resistance if they are connected in series ?",
+      "options": {
+        "1": "0.5 Ω",
+        "2": "1Ω",
+        "3": "4Ω",
+        "4": "0.25 Ω"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2021-M1-Q28",
+      "number": 53,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "A nucleus with mass number 240 breaks into two fragments each of mass number 120, the binding energy per nucleon of unfragmented nuclei is 7.6 MeV while that of fragments is 8.5 MeV. The total gain in the Binding Energy in the process is :",
+      "options": {
+        "1": "804 MeV",
+        "2": "216 MeV",
+        "3": "0.9 MeV",
+        "4": "9.4 MeV"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2021-M1-Q33",
+      "number": 54,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "The effective resistance of a parallel connection that consists of four wires of equal length, equal area of cross-section and same material is 0.25 Ω. What will be the effective resistance if they are connected in series ?",
+      "options": {
+        "1": "4Ω",
+        "2": "0.25 Ω",
+        "3": "0.5 Ω",
+        "4": "1Ω"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2021-M1-Q38",
+      "number": 55,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "A uniform conducting wire of length 12a and resistance ‘R’ is wound up as a current carrying coil in the shape of, (i) an equilateral triangle of side ‘a’. (ii) a square of side ‘a’. The magnetic dipole moments of the coil in each case respectively are :",
+      "options": {
+        "1": "3 Ia2 and 4 Ia2",
+        "2": "4 Ia2 and 3 Ia2",
+        "3": "3 Ia2 and 3 Ia2",
+        "4": "3 Ia2 and Ia2"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2021-M1-Q51",
+      "number": 56,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1177,7 +1288,7 @@
     },
     {
       "id": "2021-M1-Q52",
-      "number": 52,
+      "number": 57,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1198,10 +1309,10 @@
     },
     {
       "id": "2021-M1-Q53",
-      "number": 53,
+      "number": 58,
       "subject": "Chemistry",
       "section": "A",
-      "topic": "Solutions",
+      "topic": "Physical Chemistry",
       "stem": "The following solutions were prepared by dissolving 10 g of glucose (C6H12O6) in 250 ml of water (P1), 10 g of urea (CH4N2O) in 250 ml of water (P2) and 10 g of sucrose (C 12 H 22 O 11 ) in 250 ml of water (P3). The right option for the decreasing order of osmotic pressure of these solutions is :",
       "options": {
         "1": "P3 > P1 > P2",
@@ -1218,32 +1329,11 @@
       "multiCorrect": false
     },
     {
-      "id": "2021-M1-Q54",
-      "number": 54,
+      "id": "2021-M1-Q55",
+      "number": 59,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
-      "stem": "A particular station of All India Radio, New Delhi, broadcasts on a frequency of 1,368 kHz (kilohertz). The wavelength of the electromagnetic radiation emitted by the transmitter is : [speed of light, c=3.0×108 ms−1]",
-      "options": {
-        "1": "219.3 m",
-        "2": "219.2 m",
-        "3": "2192 m",
-        "4": "21.92 cm"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": false,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2021-M1-Q55",
-      "number": 55,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "p-Block Elements",
       "stem": "Noble gases are named because of their inertness towards reactivity. Identify an incorrect statement about them.",
       "options": {
         "1": "Noble gases have very high melting and boiling points.",
@@ -1261,10 +1351,10 @@
     },
     {
       "id": "2021-M1-Q56",
-      "number": 56,
+      "number": 60,
       "subject": "Chemistry",
       "section": "A",
-      "topic": "Electrochemistry",
+      "topic": "Chemistry General",
       "stem": "The correct option for the number of body centred unit cells in all 14 types of Bravais lattice unit cells is :",
       "options": {
         "1": "3",
@@ -1281,29 +1371,8 @@
       "multiCorrect": false
     },
     {
-      "id": "2021-M1-Q57",
-      "number": 57,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "A particular station of All India Radio, New Delhi, broadcasts on a frequency of 1,368 kHz (kilohertz). The wavelength of the electromagnetic radiation emitted by the transmitter is : [speed of light, c=3.0×108 ms−1]",
-      "options": {
-        "1": "2192 m",
-        "2": "21.92 cm",
-        "3": "219.3 m",
-        "4": "219.2 m 7 O1"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": false,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2021-M1-Q58",
-      "number": 58,
+      "number": 61,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Organic Chemistry",
@@ -1324,10 +1393,10 @@
     },
     {
       "id": "2021-M1-Q59",
-      "number": 59,
+      "number": 62,
       "subject": "Chemistry",
       "section": "A",
-      "topic": "Chemistry General",
+      "topic": "Physical Chemistry",
       "stem": "Given below are two statements : Statement I : Aspirin and Paracetamol belong to the class of narcotic analgesics. Statement II : Morphine and Heroin are non-narcotic analgesics. In the light of the above statements, choose the correct answer from the options given below.",
       "options": {
         "1": "Both Statement I and Statement II are true.",
@@ -1345,7 +1414,7 @@
     },
     {
       "id": "2021-M1-Q60",
-      "number": 60,
+      "number": 63,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Organic Chemistry",
@@ -1366,7 +1435,7 @@
     },
     {
       "id": "2021-M1-Q61",
-      "number": 61,
+      "number": 64,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1387,7 +1456,7 @@
     },
     {
       "id": "2021-M1-Q62",
-      "number": 62,
+      "number": 65,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1408,7 +1477,7 @@
     },
     {
       "id": "2021-M1-Q63",
-      "number": 63,
+      "number": 66,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1429,10 +1498,10 @@
     },
     {
       "id": "2021-M1-Q64",
-      "number": 64,
+      "number": 67,
       "subject": "Chemistry",
       "section": "A",
-      "topic": "Solutions",
+      "topic": "Physical Chemistry",
       "stem": "The following solutions were prepared by dissolving 10 g of glucose (C6H12O6) in 250 ml of water (P1), 10 g of urea (CH4N2O) in 250 ml of water (P2) and 10 g of sucrose (C 12 H 22 O 11 ) in 250 ml of water (P3). The right option for the decreasing order of osmotic pressure of these solutions is :",
       "options": {
         "1": "P2 > P1 > P3",
@@ -1450,7 +1519,7 @@
     },
     {
       "id": "2021-M1-Q65",
-      "number": 65,
+      "number": 68,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Organic Chemistry",
@@ -1470,29 +1539,8 @@
       "multiCorrect": false
     },
     {
-      "id": "2021-M1-Q66",
-      "number": 66,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "A particular station of All India Radio, New Delhi, broadcasts on a frequency of 1,368 kHz (kilohertz). The wavelength of the electromagnetic radiation emitted by the transmitter is : [speed of light, c=3.0×108 ms−1]",
-      "options": {
-        "1": "219.2 m",
-        "2": "2192 m",
-        "3": "21.92 cm",
-        "4": "219.3 m"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": false,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2021-M1-Q67",
-      "number": 67,
+      "number": 69,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1513,10 +1561,10 @@
     },
     {
       "id": "2021-M1-Q68",
-      "number": 68,
+      "number": 70,
       "subject": "Chemistry",
       "section": "A",
-      "topic": "Solutions",
+      "topic": "Physical Chemistry",
       "stem": "The following solutions were prepared by dissolving 10 g of glucose (C6H12O6) in 250 ml of water (P1), 10 g of urea (CH4N2O) in 250 ml of water (P2) and 10 g of sucrose (C 12 H 22 O 11 ) in 250 ml of water (P3). The right option for the decreasing order of osmotic pressure of these solutions is :",
       "options": {
         "1": "P1 > P2 > P3",
@@ -1534,7 +1582,7 @@
     },
     {
       "id": "2021-M1-Q69",
-      "number": 69,
+      "number": 71,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1555,7 +1603,7 @@
     },
     {
       "id": "2021-M1-Q70",
-      "number": 70,
+      "number": 72,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1575,32 +1623,11 @@
       "multiCorrect": false
     },
     {
-      "id": "2021-M1-Q71",
-      "number": 71,
+      "id": "2021-M1-Q72",
+      "number": 73,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
-      "stem": "A particular station of All India Radio, New Delhi, broadcasts on a frequency of 1,368 kHz (kilohertz). The wavelength of the electromagnetic radiation emitted by the transmitter is : [speed of light, c=3.0×108 ms−1]",
-      "options": {
-        "1": "21.92 cm",
-        "2": "219.3 m",
-        "3": "219.2 m",
-        "4": "2192 m"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": false,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2021-M1-Q72",
-      "number": 72,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "p-Block Elements",
       "stem": "The major product formed in dehydrohalogenation reaction of 2-Bromo pentane is Pent-2-ene. This product formation is based on ?",
       "options": {
         "1": "Hund’s Rule",
@@ -1618,7 +1645,7 @@
     },
     {
       "id": "2021-M1-Q73",
-      "number": 73,
+      "number": 74,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1639,10 +1666,10 @@
     },
     {
       "id": "2021-M1-Q74",
-      "number": 74,
+      "number": 75,
       "subject": "Chemistry",
       "section": "A",
-      "topic": "Chemistry General",
+      "topic": "Physical Chemistry",
       "stem": "Given below are two statements : Statement I : Aspirin and Paracetamol belong to the class of narcotic analgesics. Statement II : Morphine and Heroin are non-narcotic analgesics. In the light of the above statements, choose the correct answer from the options given below.",
       "options": {
         "1": "Statement I is correct but Statement II is false.",
@@ -1660,7 +1687,7 @@
     },
     {
       "id": "2021-M1-Q75",
-      "number": 75,
+      "number": 76,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1681,7 +1708,7 @@
     },
     {
       "id": "2021-M1-Q76",
-      "number": 76,
+      "number": 77,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1702,10 +1729,10 @@
     },
     {
       "id": "2021-M1-Q77",
-      "number": 77,
+      "number": 78,
       "subject": "Chemistry",
       "section": "A",
-      "topic": "Chemistry General",
+      "topic": "Physical Chemistry",
       "stem": "Given below are two statements : Statement I : Aspirin and Paracetamol belong to the class of narcotic analgesics. Statement II : Morphine and Heroin are non-narcotic analgesics. In the light of the above statements, choose the correct answer from the options given below.",
       "options": {
         "1": "Both Statement I and Statement II are false.",
@@ -1723,7 +1750,7 @@
     },
     {
       "id": "2021-M1-Q78",
-      "number": 78,
+      "number": 79,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1744,10 +1771,10 @@
     },
     {
       "id": "2021-M1-Q79",
-      "number": 79,
+      "number": 80,
       "subject": "Chemistry",
       "section": "A",
-      "topic": "p-Block Elements",
+      "topic": "Chemistry General",
       "stem": "Noble gases are named because of their inertness towards reactivity. Identify an incorrect statement about them.",
       "options": {
         "1": "Noble gases have large positive values of electron gain enthalpy.",
@@ -1765,10 +1792,10 @@
     },
     {
       "id": "2021-M1-Q80",
-      "number": 80,
+      "number": 81,
       "subject": "Chemistry",
       "section": "A",
-      "topic": "Chemistry General",
+      "topic": "Physical Chemistry",
       "stem": "BF3 is planar and electron deficient compound. Hybridization and number of electrons around the central atom, respectively are :",
       "options": {
         "1": "sp3 and 4",
@@ -1786,7 +1813,7 @@
     },
     {
       "id": "2021-M1-Q81",
-      "number": 81,
+      "number": 82,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Organic Chemistry",
@@ -1807,10 +1834,10 @@
     },
     {
       "id": "2021-M1-Q82",
-      "number": 82,
+      "number": 83,
       "subject": "Chemistry",
       "section": "A",
-      "topic": "Chemical Equilibrium",
+      "topic": "Physical Chemistry",
       "stem": "Choose the correct option for graphical representation of Boyle’s law, which shows a graph of pressure vs. volume of a gas at different temperatures :",
       "options": {
         "1": "Option 1",
@@ -1828,10 +1855,10 @@
     },
     {
       "id": "2021-M1-Q83",
-      "number": 83,
+      "number": 84,
       "subject": "Chemistry",
       "section": "A",
-      "topic": "Chemistry General",
+      "topic": "Physical Chemistry",
       "stem": "Given below are two statements : Statement I : Aspirin and Paracetamol belong to the class of narcotic analgesics. Statement II : Morphine and Heroin are non-narcotic analgesics. In the light of the above statements, choose the correct answer from the options given below.",
       "options": {
         "1": "Statement I is incorrect but Statement II is true.",
@@ -1849,7 +1876,7 @@
     },
     {
       "id": "2021-M1-Q84",
-      "number": 84,
+      "number": 85,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Organic Chemistry",
@@ -1870,10 +1897,10 @@
     },
     {
       "id": "2021-M1-Q85",
-      "number": 85,
+      "number": 86,
       "subject": "Chemistry",
-      "section": "A",
-      "topic": "Solutions",
+      "section": "B",
+      "topic": "Physical Chemistry",
       "stem": "The following solutions were prepared by dissolving 10 g of glucose (C6H12O6) in 250 ml of water (P1), 10 g of urea (CH4N2O) in 250 ml of water (P2) and 10 g of sucrose (C 12 H 22 O 11 ) in 250 ml of water (P3). The right option for the decreasing order of osmotic pressure of these solutions is :",
       "options": {
         "1": "P2 > P3 > P1",
@@ -1891,10 +1918,10 @@
     },
     {
       "id": "2021-M1-Q86",
-      "number": 86,
+      "number": 87,
       "subject": "Chemistry",
       "section": "B",
-      "topic": "Chemistry General",
+      "topic": "Physical Chemistry",
       "stem": "Match List - I with List - II. List - I List - II (a) 2SO2(g)+O2(g) → (i) Acid rain 2SO3(g) (b) hν HOCl(g) ((( (ii) Smog → i i OH+C l (c) CaCO3+H2SO4→ (iii) Ozone CaSO4+H2O+CO2 depletion (d) hν NO2(g) ((( (iv) Tropospheric → NO(g)+O(g) pollution Choose the correct answer from the options given below.",
       "options": {
         "1": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
@@ -1912,10 +1939,10 @@
     },
     {
       "id": "2021-M1-Q87",
-      "number": 87,
+      "number": 88,
       "subject": "Chemistry",
       "section": "B",
-      "topic": "Chemistry General",
+      "topic": "Physical Chemistry",
       "stem": "Match List - I with List - II. List - I List - II (a) 2SO2(g)+O2(g) → (i) Acid rain 2SO3(g) (b) hν HOCl(g) ((( (ii) Smog → i i OH+Cl (c) CaCO3+H2SO4→ (iii) Ozone CaSO4+H2O+CO2 depletion (d) hν NO2(g) ((( (iv) Tropospheric → NO(g)+O(g) pollution Choose the correct answer from the options given below.",
       "options": {
         "1": "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)",
@@ -1933,10 +1960,10 @@
     },
     {
       "id": "2021-M1-Q88",
-      "number": 88,
+      "number": 89,
       "subject": "Chemistry",
       "section": "B",
-      "topic": "Organic Chemistry",
+      "topic": "Chemistry General",
       "stem": "Match List - I with List - II. List - I List - II (a) (i) Hell-Volhard- Zelinsky reaction (b) (ii) Gattermann-Koch reaction (c) R−CH2−OH (iii) Haloform +R'COOH reaction Conc. H SO ((((((→ 2 4 (d) R−CH2COOH (iv) Esterification (i) X /Red P (((((( 2 → (ii) H2O Choose the correct answer from the options given below.",
       "options": {
         "1": "(a)-(i), (b)-(iv), (c)-(iii), (d)-(ii)",
@@ -1954,10 +1981,10 @@
     },
     {
       "id": "2021-M1-Q89",
-      "number": 89,
+      "number": 90,
       "subject": "Chemistry",
       "section": "B",
-      "topic": "Organic Chemistry",
+      "topic": "Chemistry General",
       "stem": "Match List - I with List - II. List - I List - II (a) (i) Hell-Volhard- Zelinsky reaction (b) (ii) Gattermann-Koch reaction (c) R−CH2−OH (iii) Haloform +R'COOH reaction Conc. H SO ((((((→ 2 4 (d) R−CH2COOH (iv) Esterification (i) X /Red P (((((( 2 → (ii) H2O Choose the correct answer from the options given below.",
       "options": {
         "1": "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
@@ -1975,7 +2002,7 @@
     },
     {
       "id": "2021-M1-Q90",
-      "number": 90,
+      "number": 91,
       "subject": "Chemistry",
       "section": "B",
       "topic": "Chemistry General",
@@ -1996,10 +2023,10 @@
     },
     {
       "id": "2021-M1-Q91",
-      "number": 91,
+      "number": 92,
       "subject": "Chemistry",
       "section": "B",
-      "topic": "Solutions",
+      "topic": "Organic Chemistry",
       "stem": "The correct option for the value of vapour pressure of a solution at 458C with benzene to octane in molar ratio 3 : 2 is : [At 458C vapour pressure of benzene is 280 mm Hg and that of octane is 420 mm Hg. Assume Ideal gas]",
       "options": {
         "1": "336 mm of Hg",
@@ -2016,32 +2043,11 @@
       "multiCorrect": false
     },
     {
-      "id": "2021-M1-Q92",
-      "number": 92,
-      "subject": "Chemistry",
-      "section": "B",
-      "topic": "Chemistry General",
-      "stem": "For irreversible expansion of an ideal gas under isothermal condition, the correct option is :",
-      "options": {
-        "1": "∆U ≠ 0, ∆Stotal ≠ 0",
-        "2": "∆U=0, ∆Stotal ≠ 0",
-        "3": "∆U ≠ 0, ∆Stotal=0",
-        "4": "∆U=0, ∆Stotal=0 Hindi+English 6"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2021-M1-Q93",
       "number": 93,
       "subject": "Chemistry",
       "section": "B",
-      "topic": "Solutions",
+      "topic": "Organic Chemistry",
       "stem": "The correct option for the value of vapour pressure of a solution at 458C with benzene to octane in molar ratio 3 : 2 is : [At 458C vapour pressure of benzene is 280 mm Hg and that of octane is 420 mm Hg. Assume Ideal gas]",
       "options": {
         "1": "160 mm of Hg",
@@ -2104,7 +2110,7 @@
       "number": 96,
       "subject": "Chemistry",
       "section": "B",
-      "topic": "Organic Chemistry",
+      "topic": "Chemistry General",
       "stem": "Match List - I with List - II. List - I List - II (a) (i) Hell-Volhard- Zelinsky reaction (b) (ii) Gattermann-Koch reaction (c) R−CH2−OH (iii) Haloform +R'COOH reaction Conc. H SO ((((((→ 2 4 (d) R−CH2COOH (iv) Esterification (i) X 2 /Red P (((((( → (ii) H2O Choose the correct answer from the options given below.",
       "options": {
         "1": "(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)",
@@ -2125,7 +2131,7 @@
       "number": 97,
       "subject": "Chemistry",
       "section": "B",
-      "topic": "Solutions",
+      "topic": "Organic Chemistry",
       "stem": "The correct option for the value of vapour pressure of a solution at 458C with benzene to octane in molar ratio 3 : 2 is : [At 458C vapour pressure of benzene is 280 mm Hg and that of octane is 420 mm Hg. Assume Ideal gas]",
       "options": {
         "1": "350 mm of Hg",
@@ -2167,7 +2173,7 @@
       "number": 99,
       "subject": "Chemistry",
       "section": "B",
-      "topic": "Chemistry General",
+      "topic": "Physical Chemistry",
       "stem": "Match List - I with List - II. List - I List - II (a) 2SO2(g)+O2(g) → (i) Acid rain 2SO3(g) (b) hν HOCl(g) ((( (ii) Smog → i i OH+Cl (c) CaCO3+H2SO4→ (iii) Ozone CaSO4+H2O+CO2 depletion (d) hν NO2(g) ((( (iv) Tropospheric → NO(g)+O(g) pollution Choose the correct answer from the options given below.",
       "options": {
         "1": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
@@ -2205,11 +2211,78 @@
       "multiCorrect": false
     },
     {
-      "id": "2021-M1-Q101",
+      "id": "2021-M1-Q39",
       "number": 101,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
+      "stem": "A uniform conducting wire of length 12a and resistance ‘R’ is wound up as a current carrying coil in the shape of, (i) an equilateral triangle of side ‘a’. (ii) a square of side ‘a’. The magnetic dipole moments of the coil in each case respectively are :",
+      "options": {
+        "1": "3 Ia2 and Ia2",
+        "2": "3 Ia2 and 4 Ia2",
+        "3": "4 Ia2 and 3 Ia2",
+        "4": "3 Ia2 and 3 Ia2 3 N1"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2021-M1-Q40",
+      "number": 102,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "A uniform rod of length 200 cm and mass 500 g is balanced on a wedge placed at 40 cm mark. A mass of 2 kg is suspended from the rod at 20 cm and another unknown mass ‘m’ is suspended from the rod at 160 cm mark as shown in the figure. Find the value of ‘m’ such that the rod is in equilibrium. (g=10 m/s2) 1",
+      "options": {
+        "1": "kg 12 1",
+        "2": "kg 2 1",
+        "3": "kg 3 1",
+        "4": "kg 6"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false,
+      "figureSrc": "/figures/2021-M1-Q40.svg",
+      "figureKind": "missing-placeholder"
+    },
+    {
+      "id": "2021-M1-Q43",
+      "number": 103,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "A uniform rod of length 200 cm and mass 500 g is balanced on a wedge placed at 40 cm mark. A mass of 2 kg is suspended from the rod at 20 cm and another unknown mass ‘m’ is suspended from the rod at 160 cm mark as shown in the figure. Find the value of ‘m’ such that the rod is in equilibrium. (g=10 m/s2) 1",
+      "options": {
+        "1": "kg 6 1",
+        "2": "kg 12 1",
+        "3": "kg 2 1",
+        "4": "kg 3"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false,
+      "figureSrc": "/figures/2021-M1-Q43.svg",
+      "figureKind": "missing-placeholder"
+    },
+    {
+      "id": "2021-M1-Q101",
+      "number": 104,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Botany",
       "stem": "The production of gametes by the parents, formation of zygotes, the F1 and F2 plants, can be understood from a diagram called :",
       "options": {
         "1": "Net square",
@@ -2227,10 +2300,10 @@
     },
     {
       "id": "2021-M1-Q102",
-      "number": 102,
+      "number": 105,
       "subject": "Biology",
       "section": "A",
-      "topic": "Human Reproduction",
+      "topic": "Biology General",
       "stem": "A typical angiosperm embryo sac at maturity is :",
       "options": {
         "1": "8-nucleate and 7-celled",
@@ -2248,10 +2321,10 @@
     },
     {
       "id": "2021-M1-Q103",
-      "number": 103,
+      "number": 106,
       "subject": "Biology",
       "section": "A",
-      "topic": "Biotechnology",
+      "topic": "Genetics & Biotech",
       "stem": "Which of the following is a correct sequence of steps in a PCR (Polymerase Chain Reaction) ?",
       "options": {
         "1": "Denaturation, Extension, Annealing",
@@ -2269,7 +2342,7 @@
     },
     {
       "id": "2021-M1-Q104",
-      "number": 104,
+      "number": 107,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2290,7 +2363,7 @@
     },
     {
       "id": "2021-M1-Q105",
-      "number": 105,
+      "number": 108,
       "subject": "Biology",
       "section": "A",
       "topic": "Cell Biology",
@@ -2311,10 +2384,10 @@
     },
     {
       "id": "2021-M1-Q106",
-      "number": 106,
+      "number": 109,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "The term used for transfer of pollen grains from anthers of one plant to stigma of a different plant which, during pollination, brings genetically different types of pollen grains to stigma, is :",
       "options": {
         "1": "Cleistogamy",
@@ -2332,10 +2405,10 @@
     },
     {
       "id": "2021-M1-Q107",
-      "number": 107,
+      "number": 110,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "DNA strands on a gel stained with ethidium bromide when viewed under UV radiation, appear as :",
       "options": {
         "1": "Bright orange bands",
@@ -2353,7 +2426,7 @@
     },
     {
       "id": "2021-M1-Q108",
-      "number": 108,
+      "number": 111,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2374,10 +2447,10 @@
     },
     {
       "id": "2021-M1-Q109",
-      "number": 109,
+      "number": 112,
       "subject": "Biology",
       "section": "A",
-      "topic": "Biology General",
+      "topic": "Ecology & Evolution",
       "stem": "Inspite of interspecific competition in nature, which mechanism the competing species might have evolved for their survival ?",
       "options": {
         "1": "Predation",
@@ -2395,7 +2468,7 @@
     },
     {
       "id": "2021-M1-Q110",
-      "number": 110,
+      "number": 113,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2416,10 +2489,10 @@
     },
     {
       "id": "2021-M1-Q111",
-      "number": 111,
+      "number": 114,
       "subject": "Biology",
       "section": "A",
-      "topic": "Biology General",
+      "topic": "Ecology & Evolution",
       "stem": "Inspite of interspecific competition in nature, which mechanism the competing species might have evolved for their survival ?",
       "options": {
         "1": "Competitive release",
@@ -2437,10 +2510,10 @@
     },
     {
       "id": "2021-M1-Q112",
-      "number": 112,
+      "number": 115,
       "subject": "Biology",
       "section": "A",
-      "topic": "Biology General",
+      "topic": "Botany",
       "stem": "The production of gametes by the parents, formation of zygotes, the F1 and F2 plants, can be understood from a diagram called :",
       "options": {
         "1": "Punch square",
@@ -2458,10 +2531,10 @@
     },
     {
       "id": "2021-M1-Q113",
-      "number": 113,
+      "number": 116,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "Genera like Selaginella and Salvinia produce two kinds of spores. Such plants are known as :",
       "options": {
         "1": "Homosorus",
@@ -2479,10 +2552,10 @@
     },
     {
       "id": "2021-M1-Q114",
-      "number": 114,
+      "number": 117,
       "subject": "Biology",
       "section": "A",
-      "topic": "Biology General",
+      "topic": "Botany",
       "stem": "The site of perception of light in plants during photoperiodism is :",
       "options": {
         "1": "Shoot apex",
@@ -2500,10 +2573,10 @@
     },
     {
       "id": "2021-M1-Q115",
-      "number": 115,
+      "number": 118,
       "subject": "Biology",
       "section": "A",
-      "topic": "Biology General",
+      "topic": "Botany",
       "stem": "Plants follow different pathways in response to environment or phases of life to form different kinds of structures. This ability is called :",
       "options": {
         "1": "Elasticity",
@@ -2521,10 +2594,10 @@
     },
     {
       "id": "2021-M1-Q116",
-      "number": 116,
+      "number": 119,
       "subject": "Biology",
       "section": "A",
-      "topic": "Respiration",
+      "topic": "Genetics & Biotech",
       "stem": "Match List - I with List - II. List - I List - II Primary constriction in (a) Cristae (i) chromosome Disc-shaped sacs in (b) Thylakoids (ii) Golgi apparatus Infoldings in (c) Centromere (iii) mitochondria Flattened membranous (d) Cisternae (iv) sacs in stroma of plastids Choose the correct answer from the options given below. (a) (b) (c) (d)",
       "options": {
         "1": "(iv) (iii) (ii) (i)",
@@ -2542,7 +2615,7 @@
     },
     {
       "id": "2021-M1-Q117",
-      "number": 117,
+      "number": 120,
       "subject": "Biology",
       "section": "A",
       "topic": "Cell Biology",
@@ -2563,10 +2636,10 @@
     },
     {
       "id": "2021-M1-Q118",
-      "number": 118,
+      "number": 121,
       "subject": "Biology",
       "section": "A",
-      "topic": "Respiration",
+      "topic": "Genetics & Biotech",
       "stem": "Match List - I with List - II. List - I List - II Primary constriction in (a) Cristae (i) chromosome Disc-shaped sacs in (b) Thylakoids (ii) Golgi apparatus Infoldings in (c) Centromere (iii) mitochondria Flattened membranous (d) Cisternae (iv) sacs in stroma of plastids Choose the correct answer from the options given below. (a) (b) (c) (d)",
       "options": {
         "1": "(i) (iv) (iii) (ii)",
@@ -2584,10 +2657,10 @@
     },
     {
       "id": "2021-M1-Q119",
-      "number": 119,
+      "number": 122,
       "subject": "Biology",
       "section": "A",
-      "topic": "Respiration",
+      "topic": "Genetics & Biotech",
       "stem": "Match List - I with List - II. List - I List - II Primary constriction in (a) Cristae (i) chromosome Disc-shaped sacs in (b) Thylakoids (ii) Golgi apparatus Infoldings in (c) Centromere (iii) mitochondria Flattened membranous (d) Cisternae (iv) sacs in stroma of plastids Choose the correct answer from the options given below. (a) (b) (c) (d)",
       "options": {
         "1": "(ii) (iii) (iv) (i)",
@@ -2605,7 +2678,7 @@
     },
     {
       "id": "2021-M1-Q120",
-      "number": 120,
+      "number": 123,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2626,10 +2699,10 @@
     },
     {
       "id": "2021-M1-Q121",
-      "number": 121,
+      "number": 124,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "The term used for transfer of pollen grains from anthers of one plant to stigma of a different plant which, during pollination, brings genetically different types of pollen grains to stigma, is :",
       "options": {
         "1": "Chasmogamy",
@@ -2647,7 +2720,7 @@
     },
     {
       "id": "2021-M1-Q122",
-      "number": 122,
+      "number": 125,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2668,10 +2741,10 @@
     },
     {
       "id": "2021-M1-Q123",
-      "number": 123,
+      "number": 126,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "DNA strands on a gel stained with ethidium bromide when viewed under UV radiation, appear as :",
       "options": {
         "1": "Dark red bands",
@@ -2688,29 +2761,8 @@
       "multiCorrect": false
     },
     {
-      "id": "2021-M1-Q124",
-      "number": 124,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "Match List - I with List - II. List - I List - II More attraction in (a) Cohesion (i) liquid phase Mutual attraction (b) Adhesion (ii) among water molecules Water loss in liquid (c) Surface tension (iii) phase Attraction towards (d) Guttation (iv) polar surfaces Choose the correct answer from the options given below. (a) (b) (c) (d)",
-      "options": {
-        "1": "(ii) (i) (iv) (iii)",
-        "2": "(ii) (iv) (i) (iii)",
-        "3": "(iv) (iii) (ii) (i)",
-        "4": "(iii) (i) (iv) (ii)"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2021-M1-Q125",
-      "number": 125,
+      "number": 127,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2731,10 +2783,10 @@
     },
     {
       "id": "2021-M1-Q126",
-      "number": 126,
+      "number": 128,
       "subject": "Biology",
       "section": "A",
-      "topic": "Biology General",
+      "topic": "Botany",
       "stem": "Plants follow different pathways in response to environment or phases of life to form different kinds of structures. This ability is called :",
       "options": {
         "1": "Plasticity",
@@ -2752,10 +2804,10 @@
     },
     {
       "id": "2021-M1-Q127",
-      "number": 127,
+      "number": 129,
       "subject": "Biology",
       "section": "A",
-      "topic": "Biotechnology",
+      "topic": "Genetics & Biotech",
       "stem": "Which of the following is a correct sequence of steps in a PCR (Polymerase Chain Reaction) ?",
       "options": {
         "1": "Denaturation, Annealing, Extension",
@@ -2772,32 +2824,11 @@
       "multiCorrect": false
     },
     {
-      "id": "2021-M1-Q128",
-      "number": 128,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "Match List - I with List - II. List - I List - II More attraction in (a) Cohesion (i) liquid phase Mutual attraction (b) Adhesion (ii) among water molecules Water loss in liquid (c) Surface tension (iii) phase Attraction towards (d) Guttation (iv) polar surfaces Choose the correct answer from the options given below. (a) (b) (c) (d)",
-      "options": {
-        "1": "(iv) (iii) (ii) (i)",
-        "2": "(iii) (i) (iv) (ii)",
-        "3": "(ii) (i) (iv) (iii)",
-        "4": "(ii) (iv) (i) (iii)"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2021-M1-Q129",
-      "number": 129,
+      "number": 130,
       "subject": "Biology",
       "section": "A",
-      "topic": "Biology General",
+      "topic": "Botany",
       "stem": "Match List - I with List - II. List - I List - II (a) Protoplast fusion (i) Totipotency (b) Plant tissue culture (ii) Pomato (c) Meristem culture (iii) Somaclones (d) Micropropagation (iv) Virus free plants Choose the correct answer from the options given below. (a) (b) (c) (d)",
       "options": {
         "1": "(iii) (iv) (ii) (i)",
@@ -2815,10 +2846,10 @@
     },
     {
       "id": "2021-M1-Q130",
-      "number": 130,
+      "number": 131,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "During the purification process for recombinant DNA technology, addition of chilled ethanol precipitates out :",
       "options": {
         "1": "RNA",
@@ -2836,10 +2867,10 @@
     },
     {
       "id": "2021-M1-Q131",
-      "number": 131,
+      "number": 132,
       "subject": "Biology",
       "section": "A",
-      "topic": "Biology General",
+      "topic": "Botany",
       "stem": "The site of perception of light in plants during photoperiodism is :",
       "options": {
         "1": "Axillary bud",
@@ -2857,7 +2888,7 @@
     },
     {
       "id": "2021-M1-Q132",
-      "number": 132,
+      "number": 133,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2878,10 +2909,10 @@
     },
     {
       "id": "2021-M1-Q133",
-      "number": 133,
+      "number": 134,
       "subject": "Biology",
       "section": "A",
-      "topic": "Respiration",
+      "topic": "Genetics & Biotech",
       "stem": "Match List - I with List - II. List - I List - II Primary constriction in (a) Cristae (i) chromosome Disc-shaped sacs in (b) Thylakoids (ii) Golgi apparatus Infoldings in (c) Centromere (iii) mitochondria Flattened membranous (d) Cisternae (iv) sacs in stroma of plastids Choose the correct answer from the options given below. (a) (b) (c) (d)",
       "options": {
         "1": "(iii) (iv) (i) (ii)",
@@ -2899,7 +2930,7 @@
     },
     {
       "id": "2021-M1-Q134",
-      "number": 134,
+      "number": 135,
       "subject": "Biology",
       "section": "A",
       "topic": "Cell Biology",
@@ -2915,27 +2946,6 @@
       "answerEstimated": false,
       "correctOptions": [
         "1"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2021-M1-Q135",
-      "number": 135,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "Match List - I with List - II. List - I List - II More attraction in (a) Cohesion (i) liquid phase Mutual attraction (b) Adhesion (ii) among water molecules Water loss in liquid (c) Surface tension (iii) phase Attraction towards (d) Guttation (iv) polar surfaces Choose the correct answer from the options given below. (a) (b) (c) (d)",
-      "options": {
-        "1": "(iii) (i) (iv) (ii)",
-        "2": "(ii) (i) (iv) (iii)",
-        "3": "(ii) (iv) (i) (iii)",
-        "4": "(iv) (iii) (ii) (i) Section - B (Biology : Botany)"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
       ],
       "multiCorrect": false
     },
@@ -3007,7 +3017,7 @@
       "number": 139,
       "subject": "Biology",
       "section": "B",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "Match List - I with List - II. List - I List - II Proteins are (a) S phase (i) synthesized (b) G2 phase (ii) Inactive phase Interval between (c) Quiescent stage (iii) mitosis and initiation of DNA replication (d) G1 phase (iv) DNA replication Choose the correct answer from the options given below. (a) (b) (c) (d)",
       "options": {
         "1": "(iv) (i) (ii) (iii)",
@@ -3112,7 +3122,7 @@
       "number": 144,
       "subject": "Biology",
       "section": "B",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "Now a days it is possible to detect the mutated gene causing cancer by allowing radioactive probe to hybridise its complimentary DNA in a clone of cells, followed by its detection using autoradiography because :",
       "options": {
         "1": "mutated gene completely and clearly appears on a photographic film.",
@@ -3175,7 +3185,7 @@
       "number": 147,
       "subject": "Biology",
       "section": "B",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "Plasmid pBR322 has PstI restriction enzyme site within gene amp R that confers ampicillin resistance. If this enzyme is used for inserting a gene for β-galactoside production and the recombinant plasmid is inserted in an E.coli strain",
       "options": {
         "1": "it will lead to lysis of host cell.",
@@ -3217,7 +3227,7 @@
       "number": 149,
       "subject": "Biology",
       "section": "B",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "Match List - I with List - II. List - I List - II Proteins are (a) S phase (i) synthesized (b) G2 phase (ii) Inactive phase Interval between (c) Quiescent stage (iii) mitosis and initiation of DNA replication (d) G1 phase (iv) DNA replication Choose the correct answer from the options given below. (a) (b) (c) (d)",
       "options": {
         "1": "(iii) (ii) (i) (iv)",
@@ -3238,7 +3248,7 @@
       "number": 150,
       "subject": "Biology",
       "section": "B",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "Match List - I with List - II. List - I List - II Proteins are (a) S phase (i) synthesized (b) G2 phase (ii) Inactive phase Interval between (c) Quiescent stage (iii) mitosis and initiation of DNA replication (d) G1 phase (iv) DNA replication Choose the correct answer from the options given below. (a) (b) (c) (d)",
       "options": {
         "1": "(ii) (iv) (iii) (i)",
@@ -3259,7 +3269,7 @@
       "number": 151,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "Read the following statements. (a) Metagenesis is observed in Helminths. (b) Echinoderms are triploblastic and coelomate animals. (c) Round worms have organ-system level of body organization. (d) Comb plates present in ctenophores help in digestion. (e) Water vascular system is characteristic of Echinoderms. Choose the correct answer from the options given below.",
       "options": {
         "1": "(a), (d) and (e) are correct",
@@ -3322,7 +3332,7 @@
       "number": 154,
       "subject": "Biology",
       "section": "A",
-      "topic": "Human Reproduction",
+      "topic": "Biology General",
       "stem": "Match List - I with List - II. List - I List - II Entry of sperm through (a) Vaults (i) Cervix is blocked (b) IUDs (ii) Removal of Vas deferens Phagocytosis of sperms (c) Vasectomy (iii) within the Uterus (d) Tubectomy (iv) Removal of fallopian tube Choose the correct answer from the options given below. (a) (b) (c) (d)",
       "options": {
         "1": "(iv) (ii) (i) (iii)",
@@ -3343,7 +3353,7 @@
       "number": 155,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "With regard to insulin choose correct options. (a) C-peptide is not present in mature insulin. (b) The insulin produced by rDNA technology has C-peptide. (c) The pro-insulin has C-peptide. (d) A-peptide and B-peptide of insulin are interconnected by disulphide bridges. Choose the correct answer from the options given below.",
       "options": {
         "1": "(a), (c) and (d) only",
@@ -3364,7 +3374,7 @@
       "number": 156,
       "subject": "Biology",
       "section": "A",
-      "topic": "Human Reproduction",
+      "topic": "Biology General",
       "stem": "Match List - I with List - II. List - I List - II Entry of sperm through (a) Vaults (i) Cervix is blocked (b) IUDs (ii) Removal of Vas deferens Phagocytosis of sperms (c) Vasectomy (iii) within the Uterus (d) Tubectomy (iv) Removal of fallopian tube Choose the correct answer from the options given below. (a) (b) (c) (d)",
       "options": {
         "1": "(ii) (iv) (iii) (i)",
@@ -3385,7 +3395,7 @@
       "number": 157,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "Which of the following RNAs is not required for the synthesis of protein ?",
       "options": {
         "1": "rRNA",
@@ -3427,7 +3437,7 @@
       "number": 159,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "With regard to insulin choose correct options. (a) C-peptide is not present in mature insulin. (b) The insulin produced by rDNA technology has C-peptide. (c) The pro-insulin has C-peptide. (d) A-peptide and B-peptide of insulin are interconnected by disulphide bridges. Choose the correct answer from the options given below.",
       "options": {
         "1": "(b) and (c) only",
@@ -3448,7 +3458,7 @@
       "number": 160,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "With regard to insulin choose correct options. (a) C-peptide is not present in mature insulin. (b) The insulin produced by rDNA technology has C-peptide. (c) The pro-insulin has C-peptide. (d) A-peptide and B-peptide of insulin are interconnected by disulphide bridges. Choose the correct answer from the options given below.",
       "options": {
         "1": "(b) and (d) only",
@@ -3532,7 +3542,7 @@
       "number": 164,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "During the process of gene amplification using PCR, if very high temperature is not maintained in the beginning, then which of the following steps of PCR will be affected first ?",
       "options": {
         "1": "Denaturation",
@@ -3574,7 +3584,7 @@
       "number": 166,
       "subject": "Biology",
       "section": "A",
-      "topic": "Human Health & Disease",
+      "topic": "Biology General",
       "stem": "For effective treatment of the disease, early diagnosis and understanding its pathophysiology is very important. Which of the following molecular diagnostic techniques is very useful for early detection ?",
       "options": {
         "1": "Hybridization Technique",
@@ -3616,7 +3626,7 @@
       "number": 168,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "Read the following statements. (a) Metagenesis is observed in Helminths. (b) Echinoderms are triploblastic and coelomate animals. (c) Round worms have organ-system level of body organization. (d) Comb plates present in ctenophores help in digestion. (e) Water vascular system is characteristic of Echinoderms. Choose the correct answer from the options given below.",
       "options": {
         "1": "(a), (b) and (c) are correct",
@@ -3679,7 +3689,7 @@
       "number": 171,
       "subject": "Biology",
       "section": "A",
-      "topic": "Human Reproduction",
+      "topic": "Biology General",
       "stem": "Match List - I with List - II. List - I List - II Entry of sperm through (a) Vaults (i) Cervix is blocked (b) IUDs (ii) Removal of Vas deferens Phagocytosis of sperms (c) Vasectomy (iii) within the Uterus (d) Tubectomy (iv) Removal of fallopian tube Choose the correct answer from the options given below. (a) (b) (c) (d)",
       "options": {
         "1": "(iii) (i) (iv) (ii)",
@@ -3700,7 +3710,7 @@
       "number": 172,
       "subject": "Biology",
       "section": "A",
-      "topic": "Human Health & Disease",
+      "topic": "Biology General",
       "stem": "For effective treatment of the disease, early diagnosis and understanding its pathophysiology is very important. Which of the following molecular diagnostic techniques is very useful for early detection ?",
       "options": {
         "1": "Western Blotting Technique",
@@ -3721,7 +3731,7 @@
       "number": 173,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "In a cross between a male and female, both heterozygous for sickle cell anaemia gene, what percentage of the progeny will be diseased ?",
       "options": {
         "1": "100%",
@@ -3742,7 +3752,7 @@
       "number": 174,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "Read the following statements. (a) Metagenesis is observed in Helminths. (b) Echinoderms are triploblastic and coelomate animals. (c) Round worms have organ-system level of body organization. (d) Comb plates present in ctenophores help in digestion. (e) Water vascular system is characteristic of Echinoderms. Choose the correct answer from the options given below.",
       "options": {
         "1": "(b), (c) and (e) are correct",
@@ -3763,7 +3773,7 @@
       "number": 175,
       "subject": "Biology",
       "section": "A",
-      "topic": "Human Reproduction",
+      "topic": "Biology General",
       "stem": "Match List - I with List - II. List - I List - II Entry of sperm through (a) Vaults (i) Cervix is blocked (b) IUDs (ii) Removal of Vas deferens Phagocytosis of sperms (c) Vasectomy (iii) within the Uterus (d) Tubectomy (iv) Removal of fallopian tube Choose the correct answer from the options given below. (a) (b) (c) (d)",
       "options": {
         "1": "(i) (iii) (ii) (iv)",
@@ -3784,7 +3794,7 @@
       "number": 176,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "Read the following statements. (a) Metagenesis is observed in Helminths. (b) Echinoderms are triploblastic and coelomate animals. (c) Round worms have organ-system level of body organization. (d) Comb plates present in ctenophores help in digestion. (e) Water vascular system is characteristic of Echinoderms. Choose the correct answer from the options given below.",
       "options": {
         "1": "(c), (d) and (e) are correct",
@@ -3805,7 +3815,7 @@
       "number": 177,
       "subject": "Biology",
       "section": "A",
-      "topic": "Human Health & Disease",
+      "topic": "Biology General",
       "stem": "For effective treatment of the disease, early diagnosis and understanding its pathophysiology is very important. Which of the following molecular diagnostic techniques is very useful for early detection ?",
       "options": {
         "1": "Southern Blotting Technique",
@@ -3847,7 +3857,7 @@
       "number": 179,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "In a cross between a male and female, both heterozygous for sickle cell anaemia gene, what percentage of the progeny will be diseased ?",
       "options": {
         "1": "25%",
@@ -3889,7 +3899,7 @@
       "number": 181,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "During the process of gene amplification using PCR, if very high temperature is not maintained in the beginning, then which of the following steps of PCR will be affected first ?",
       "options": {
         "1": "Extension",
@@ -3973,7 +3983,7 @@
       "number": 185,
       "subject": "Biology",
       "section": "A",
-      "topic": "Human Health & Disease",
+      "topic": "Biology General",
       "stem": "For effective treatment of the disease, early diagnosis and understanding its pathophysiology is very important. Which of the following molecular diagnostic techniques is very useful for early detection ?",
       "options": {
         "1": "ELISA Technique",
@@ -4057,7 +4067,7 @@
       "number": 189,
       "subject": "Biology",
       "section": "B",
-      "topic": "Evolution",
+      "topic": "Ecology & Evolution",
       "stem": "Match List - I with List - II. List - I List - II Selection of resistant Adaptive varieties due to excessive (a) (i) radiation use of herbicides and pesticides Convergent Bones of forelimbs in Man (b) (ii) evolution and Whale Divergent Wings of Butterfly and (c) (iii) evolution Bird Evolution by (d) anthropo- (iv) Darwin Finches genic action Choose the correct answer from the options given below. (a) (b) (c) (d)",
       "options": {
         "1": "(i) (iv) (iii) (ii)",
@@ -4183,7 +4193,7 @@
       "number": 195,
       "subject": "Biology",
       "section": "B",
-      "topic": "Evolution",
+      "topic": "Ecology & Evolution",
       "stem": "Match List - I with List - II. List - I List - II Selection of resistant Adaptive varieties due to excessive (a) (i) radiation use of herbicides and pesticides Convergent Bones of forelimbs in Man (b) (ii) evolution and Whale Divergent Wings of Butterfly and (c) (iii) evolution Bird Evolution by (d) anthropo- (iv) Darwin Finches genic action Choose the correct answer from the options given below. (a) (b) (c) (d)",
       "options": {
         "1": "(iii) (ii) (i) (iv)",
@@ -4204,7 +4214,7 @@
       "number": 196,
       "subject": "Biology",
       "section": "B",
-      "topic": "Evolution",
+      "topic": "Ecology & Evolution",
       "stem": "Match List - I with List - II. List - I List - II Selection of resistant Adaptive varieties due to excessive (a) (i) radiation use of herbicides and pesticides Convergent Bones of forelimbs in Man (b) (ii) evolution and Whale Divergent Wings of Butterfly and (c) (iii) evolution Bird Evolution by (d) anthropo- (iv) Darwin Finches genic action Choose the correct answer from the options given below. (a) (b) (c) (d)",
       "options": {
         "1": "(ii) (i) (iv) (iii)",
@@ -4246,7 +4256,7 @@
       "number": 198,
       "subject": "Biology",
       "section": "B",
-      "topic": "Evolution",
+      "topic": "Ecology & Evolution",
       "stem": "Match List - I with List - II. List - I List - II Selection of resistant Adaptive varieties due to excessive (a) (i) radiation use of herbicides and pesticides Convergent Bones of forelimbs in Man (b) (ii) evolution and Whale Divergent Wings of Butterfly and (c) (iii) evolution Bird Evolution by (d) anthropo- (iv) Darwin Finches genic action Choose the correct answer from the options given below. (a) (b) (c) (d)",
       "options": {
         "1": "(iv) (iii) (ii) (i)",

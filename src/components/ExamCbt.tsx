@@ -26,6 +26,7 @@ type Q = {
 
 type SubjectFilter = "ALL" | "Physics" | "Chemistry" | "Biology";
 type SectionFilter = "ALL" | "A" | "B";
+type MarkFilter = "ALL" | "MARKED";
 
 type PendingAnswer = {
   questionId: string;
@@ -165,6 +166,7 @@ export function ExamCbt({
   const [busy, setBusy] = useState(false);
   const [subjectFilter, setSubjectFilter] = useState<SubjectFilter>(initialSubjectFilter);
   const [sectionFilter, setSectionFilter] = useState<SectionFilter>(initialSectionFilter);
+  const [markFilter, setMarkFilter] = useState<MarkFilter>("ALL");
   const [msg, setMsg] = useState("");
   const [examStarted, setExamStarted] = useState(false);
   const [showLockPopup, setShowLockPopup] = useState(false);
@@ -217,10 +219,11 @@ export function ExamCbt({
         if (sectionFilter !== "ALL" && String(q.section).toUpperCase() !== sectionFilter) {
           return false;
         }
+        if (markFilter === "MARKED" && q.status !== "marked") return false;
         return true;
       })
       .map(({ i }) => i);
-  }, [questions, subjectFilter, sectionFilter]);
+  }, [questions, subjectFilter, sectionFilter, markFilter]);
 
   const current = questions[index] ?? questions[filteredIndexes[0]];
 
@@ -806,7 +809,33 @@ export function ExamCbt({
                 {s === "ALL" ? i18n.allSubjects : s}
               </button>
             ))}
+            <button
+              type="button"
+              onClick={() => {
+                setMarkFilter((prev) => {
+                  const next = prev === "MARKED" ? "ALL" : "MARKED";
+                  if (next === "MARKED") {
+                    const firstMarked = questions.findIndex((q) => q.status === "marked");
+                    if (firstMarked >= 0) setIndex(firstMarked);
+                  }
+                  return next;
+                });
+              }}
+              className={`rounded px-3 py-1.5 font-medium ${
+                markFilter === "MARKED"
+                  ? "bg-[var(--status-marked)] text-white"
+                  : "border border-amber-300 bg-amber-50 text-amber-900 hover:bg-amber-100"
+              }`}
+            >
+              {markFilter === "MARKED" ? i18n.markedFilterOff : i18n.markedFilter} (
+              {counts.marked})
+            </button>
           </div>
+          {markFilter === "MARKED" && (
+            <p className="mb-3 rounded border border-amber-200 bg-amber-50 px-3 py-2 text-xs text-amber-950">
+              {counts.marked === 0 ? i18n.markedEmpty : i18n.markedHint}
+            </p>
+          )}
           <p className="mb-3 text-xs text-slate-500">{i18n.paperLangNote}</p>
 
           {availableSections.length > 1 && (
@@ -928,16 +957,29 @@ export function ExamCbt({
             </button>
             <button
               type="button"
-              className="rounded bg-[var(--status-marked)] px-4 py-2 font-medium text-white"
-              onClick={() =>
+              className={`rounded px-4 py-2 font-medium text-white ${
+                current.status === "marked"
+                  ? "bg-amber-700 ring-2 ring-amber-300"
+                  : "bg-[var(--status-marked)]"
+              }`}
+              onClick={() => {
+                const isMarked = current.status === "marked";
+                const hasAnswer =
+                  (current.selectedOptions && current.selectedOptions.length > 0) ||
+                  !!current.selectedOption;
                 updateCurrent({
-                  status: "marked",
+                  status: isMarked
+                    ? hasAnswer
+                      ? "attempted"
+                      : "not_attempted"
+                    : "marked",
                   selectedOptions: current.selectedOptions ?? [],
                   selectedOption: current.selectedOption,
-                })
-              }
+                });
+              }}
+              title={i18n.markedHint}
             >
-              {i18n.markReview}
+              {current.status === "marked" ? i18n.unmarkReview : i18n.markReview}
             </button>
             <button
               type="button"

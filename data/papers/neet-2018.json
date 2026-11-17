@@ -47,7 +47,8 @@
     "Quality pass v2: keys_fixed=0 ph_replaced=0 fuzzy=0 figures=4",
     "Multi-correct support: 0 items with correctOptions[]; scoring +4 exact / partial +1 each subset / −1 if any wrong.",
     "Figure remap v4: matched=0 placeholder=4 (cropped diagram boxes only; logos/headers/full-page bands rejected).",
-    "Figure stem-match fill: 0 placeholders filled from [2019, 2023, 2024]."
+    "Figure stem-match fill: 0 placeholders filled from [2019, 2023, 2024].",
+    "Subject order fix v3: native order Biology→Physics→Chemistry; display Physics→Chemistry→Biology; swaps=33."
   ],
   "stats": {
     "parsedQuestions": 180,
@@ -55,75 +56,21 @@
     "estimatedAnswers": 173,
     "withFigures": 4,
     "figuresMatched": 0,
-    "figuresPlaceholder": 4
+    "figuresPlaceholder": 4,
+    "subjectOrder": "Physics→Chemistry→Biology",
+    "nativePaperOrder": "Biology→Physics→Chemistry",
+    "subjectCounts": {
+      "Physics": 45,
+      "Chemistry": 45,
+      "Biology": 90
+    },
+    "subjectMatchAvgScore": 3.3,
+    "subjectRepairSwaps": 33
   },
   "questions": [
     {
-      "id": "2018-AA-Q1",
-      "number": 1,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Physics General",
-      "stem": "[PLACEHOLDER] NEET 2018 Question 1 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-      "options": {
-        "1": "Placeholder option 1",
-        "2": "Placeholder option 2",
-        "3": "Placeholder option 3",
-        "4": "Placeholder option 4"
-      },
-      "correctOption": "1",
-      "placeholder": true,
-      "answerEstimated": false,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q2",
-      "number": 2,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Physics General",
-      "stem": "[PLACEHOLDER] NEET 2018 Question 2 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-      "options": {
-        "1": "Placeholder option 1",
-        "2": "Placeholder option 2",
-        "3": "Placeholder option 3",
-        "4": "Placeholder option 4"
-      },
-      "correctOption": "1",
-      "placeholder": true,
-      "answerEstimated": false,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q3",
-      "number": 3,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Physics General",
-      "stem": "[PLACEHOLDER] NEET 2018 Question 3 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-      "options": {
-        "1": "Placeholder option 1",
-        "2": "Placeholder option 2",
-        "3": "Placeholder option 3",
-        "4": "Placeholder option 4"
-      },
-      "correctOption": "1",
-      "placeholder": true,
-      "answerEstimated": false,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2018-AA-Q4",
-      "number": 4,
+      "number": 1,
       "subject": "Physics",
       "section": "A",
       "topic": "Physics General",
@@ -144,10 +91,10 @@
     },
     {
       "id": "2018-AA-Q5",
-      "number": 5,
+      "number": 2,
       "subject": "Physics",
       "section": "A",
-      "topic": "Laws of Motion",
+      "topic": "Waves & Oscillations",
       "stem": "A tuning fork is used to produce resonance in a glass tube. The length of the air column in this tube can be adjusted by a variable piston. At room temperature of 27°C two successive resonances are produced at 20 cm and 73 cm of column length. If the frequency of the tuning fork is 320 Hz, the velocity of sound in air at 27°C is",
       "options": {
         "1": "330 m/s",
@@ -165,10 +112,10 @@
     },
     {
       "id": "2018-AA-Q6",
-      "number": 6,
+      "number": 3,
       "subject": "Physics",
       "section": "A",
-      "topic": "Current Electricity",
+      "topic": "Electromagnetism",
       "stem": "A set of ‘n’ equal resistors, of value ‘R’ each, are connected in series to a battery of emf ‘E’ and internal resistance ‘R’. The current drawn is I. Now, the ‘n’ resistors are connected in parallel to the same battery. Then the current drawn from battery becomes 10 I. The value of ‘n’ is",
       "options": {
         "1": "20",
@@ -185,95 +132,11 @@
       "multiCorrect": false
     },
     {
-      "id": "2018-AA-Q7",
-      "number": 7,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Current Electricity",
-      "stem": "A battery consists of a variable number ‘n’ of identical cells (having internal resistance ‘r’ each) which are connected in series. The terminals of the battery are short-circuited and the current I is measured. Which of the graphs shows the correct relationship between I and n ? OUGH WORK English",
-      "options": {
-        "1": "[Option 1 incomplete in source PDF]",
-        "2": "[Option 2 incomplete in source PDF]",
-        "3": "[Option 3 incomplete in source PDF]",
-        "4": "[Option 4 incomplete in source PDF]"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q8",
-      "number": 8,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Physics General",
-      "stem": "Considering Ellingham diagram, which of the following metals can be used to reduce alumina ?",
-      "options": {
-        "1": "Fe",
-        "2": "Cu",
-        "3": "Mg",
-        "4": "Zn"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q9",
-      "number": 9,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Physics General",
-      "stem": "The correct order of atomic radii in group 13 elements is",
-      "options": {
-        "1": "B < Al < In < Ga < Tl",
-        "2": "B < Ga < Al < In < Tl",
-        "3": "B < Ga < Al < Tl < In",
-        "4": "B < Al < Ga < In < Tl"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q10",
-      "number": 10,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Physics General",
-      "stem": "Which of the following has proved helpful in preserving pollen as fossils ?",
-      "options": {
-        "1": "Sporopollenin",
-        "2": "Oil content",
-        "3": "Cellulosic intine",
-        "4": "Pollenkitt"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2018-AA-Q11",
-      "number": 11,
+      "number": 4,
       "subject": "Physics",
       "section": "A",
-      "topic": "Work Energy Power",
+      "topic": "Physics General",
       "stem": "The ratio of kinetic energy to the total energy of an electron in a Bohr orbit of the hydrogen atom, is",
       "options": {
         "1": "2:–1",
@@ -291,7 +154,7 @@
     },
     {
       "id": "2018-AA-Q12",
-      "number": 12,
+      "number": 5,
       "subject": "Physics",
       "section": "A",
       "topic": "Modern Physics",
@@ -311,32 +174,11 @@
       "multiCorrect": false
     },
     {
-      "id": "2018-AA-Q13",
-      "number": 13,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Nuclear Physics",
-      "stem": "For a radioactive material, half-life is 10 minutes. If initially there are 600 number of nuclei, the time taken (in minutes) for the disintegration of 450 nuclei is",
-      "options": {
-        "1": "30",
-        "2": "10",
-        "3": "20",
-        "4": "15"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2018-AA-Q14",
-      "number": 14,
+      "number": 6,
       "subject": "Physics",
       "section": "A",
-      "topic": "Laws of Motion",
+      "topic": "Physics General",
       "stem": "When the light of frequency 2v0 (where v0 is threshold frequency), is incident on a metal plate, the maximum velocity of electrons emitted is v1. When the frequency of the incident radiation is increased to 5v0, the maximum velocity of electrons emitted from the same plate is v2. The ratio of v1 to v2 is",
       "options": {
         "1": "4:1",
@@ -353,74 +195,11 @@
       "multiCorrect": false
     },
     {
-      "id": "2018-AA-Q15",
-      "number": 15,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Physics General",
-      "stem": "Which oxide of nitrogen is not a common pollutant introduced into the atmosphere both due to natural and human activity ?",
-      "options": {
-        "1": "N2O5",
-        "2": "NO",
-        "3": "N2O",
-        "4": "NO2"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q16",
-      "number": 16,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Physics General",
-      "stem": "The compound A on treatment with Na gives B, and with PCl5 gives C. B and C react together to give diethyl ether. A, B and C are in the order",
-      "options": {
-        "1": "C2H5OH, C2H6, C2H5Cl",
-        "2": "C2H5OH, C2H5ONa, C2H5Cl",
-        "3": "C2H5Cl, C2H6, C2H5OH",
-        "4": "C2H5OH, C2H5Cl, C2H5ONa"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q17",
-      "number": 17,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Physics General",
-      "stem": "The compound C7H8 undergoes the following reactions : The product ‘C’ is",
-      "options": {
-        "1": "m-bromotoluene",
-        "2": "p-bromotoluene",
-        "3": "3-bromo-2,4,6-trichlorotoluene",
-        "4": "o-bromotoluene"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2018-AA-Q18",
-      "number": 18,
+      "number": 7,
       "subject": "Physics",
       "section": "A",
-      "topic": "Magnetism",
+      "topic": "Electromagnetism",
       "stem": "An em wave is propagating in a medium with a → ^ velocity V = V i . The instantaneous oscillating electric field of this em wave is along +y axis. Then the direction of oscillating magnetic field of the em wave will be along",
       "options": {
         "1": "y direction",
@@ -438,7 +217,7 @@
     },
     {
       "id": "2018-AA-Q19",
-      "number": 19,
+      "number": 8,
       "subject": "Physics",
       "section": "A",
       "topic": "Optics",
@@ -459,10 +238,10 @@
     },
     {
       "id": "2018-AA-Q20",
-      "number": 20,
+      "number": 9,
       "subject": "Physics",
       "section": "A",
-      "topic": "Laws of Motion",
+      "topic": "Mechanics",
       "stem": "A toy car with charge q moves on a frictionless horizontal plane surface under the influence of a → → uniform electric field E . Due to the force q E , its velocity increases from 0 to 6 m/s in one second duration. At that instant the direction of the field is reversed. The car continues to move for two more seconds under the influence of this field. The average velocity and the average speed of the toy car between 0 to 3 seconds are respectively",
       "options": {
         "1": "2 m/s, 4 m/s",
@@ -480,7 +259,7 @@
     },
     {
       "id": "2018-AA-Q21",
-      "number": 21,
+      "number": 10,
       "subject": "Physics",
       "section": "A",
       "topic": "Physics General",
@@ -500,95 +279,11 @@
       "multiCorrect": false
     },
     {
-      "id": "2018-AA-Q22",
-      "number": 22,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Physics General",
-      "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Herbarium i. It is a place having a collection of preserved plants and animals. b. Key ii. A list that enumerates methodically all the species found in an area with brief description aiding identification. c. Museum iii. Is a place where dried and pressed plant specimens mounted on sheets are kept. d. Catalogue iv. A booklet containing a list of characters and their alternates which are helpful in identification of various taxa. a b c d",
-      "options": {
-        "1": "iii iv i ii",
-        "2": "ii iv iii i",
-        "3": "iii ii i iv",
-        "4": "i iv iii ii"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q23",
-      "number": 23,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Physics General",
-      "stem": "The difference between amylose and amylopectin is",
-      "options": {
-        "1": "Amylopectin have 1 → 4 α-linkage and 1 → 6 α-linkage",
-        "2": "Amylose is made up of glucose and galactose",
-        "3": "Amylopectin have 1 → 4 α-linkage and 1 → 6 β-linkage",
-        "4": "Amylose have 1→4 α-linkage and 1 → 6 β-linkage"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q24",
-      "number": 24,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Physics General",
-      "stem": "After karyogamy followed by meiosis, spores are produced exogenously in",
-      "options": {
-        "1": "Saccharomyces",
-        "2": "Agaricus",
-        "3": "Alternaria",
-        "4": "Neurospora"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q25",
-      "number": 25,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Work Energy Power",
-      "stem": "Regarding cross-linked or network polymers, which of the following statements is incorrect ?",
-      "options": {
-        "1": "They contain covalent bonds between various linear polymer chains.",
-        "2": "They contain strong covalent bonds in their polymer chains.",
-        "3": "Examples are bakelite and melamine.",
-        "4": "They are formed from bi- and tri-functional monomers."
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2018-AA-Q26",
-      "number": 26,
+      "number": 11,
       "subject": "Physics",
       "section": "A",
-      "topic": "Current Electricity",
+      "topic": "Electromagnetism",
       "stem": "A metallic rod of mass per unit length –1 0·5 kg m is lying horizontally on a smooth inclined plane which makes an angle of 30° with the horizontal. The rod is not allowed to slide down by flowing a current through it when a magnetic field of induction 0·25 T is acting on it in the vertical direction. The current flowing in the rod to keep it stationary is",
       "options": {
         "1": "14·76 A",
@@ -606,10 +301,10 @@
     },
     {
       "id": "2018-AA-Q27",
-      "number": 27,
+      "number": 12,
       "subject": "Physics",
       "section": "A",
-      "topic": "Current Electricity",
+      "topic": "Electromagnetism",
       "stem": "A thin diamagnetic rod is placed vertically between the poles of an electromagnet. When the current in the electromagnet is switched on, then the diamagnetic rod is pushed up, out of the horizontal magnetic field. Hence the rod gains gravitational potential energy. The work required to do this comes from",
       "options": {
         "1": "the lattice structure of the material of the rod",
@@ -627,10 +322,10 @@
     },
     {
       "id": "2018-AA-Q28",
-      "number": 28,
+      "number": 13,
       "subject": "Physics",
       "section": "A",
-      "topic": "Optics",
+      "topic": "Waves & Oscillations",
       "stem": "In Young’s double slit experiment the separation d between the slits is 2 mm, the wavelength λ of the light used is 5896 Å and distance D between the screen and slits is 100 cm. It is found that the angular width of the fringes is 0·20°. To increase the fringe angular width to 0·21° (with same λ and D) the separation between the slits needs to be changed to",
       "options": {
         "1": "1·8 mm",
@@ -647,116 +342,11 @@
       "multiCorrect": false
     },
     {
-      "id": "2018-AA-Q29",
-      "number": 29,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Physics General",
-      "stem": "Following solutions were prepared by mixing different volumes of NaOH and HCl of different concentrations : M M a. 60 mL HCl + 40 mL NaOH 10 10 M M b. 55 mL HCl + 45 mL NaOH 10 10 M M c. 75 mL HCl + 25 mL NaOH 5 5 M M d. 100 mL HCl + 100 mL NaOH 10 10 pH of which one of them will be equal to 1 ?",
-      "options": {
-        "1": "b",
-        "2": "c",
-        "3": "d",
-        "4": "a"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q30",
-      "number": 30,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Work Energy Power",
-      "stem": "On which of the following properties does the coagulating power of an ion depend ?",
-      "options": {
-        "1": "The magnitude of the charge on the ion alone",
-        "2": "The sign of charge on the ion alone",
-        "3": "Both magnitude and sign of the charge on the ion",
-        "4": "Size of the ion alone"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q31",
-      "number": 31,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Physics General",
-      "stem": "Given van der Waals constant for NH3, H2, O2 and CO2 are respectively 4·17, 0·244, 1·36 and 3·59, which one of the following gases is most easily liquefied ?",
-      "options": {
-        "1": "NH3",
-        "2": "CO2",
-        "3": "O2",
-        "4": "H2"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q32",
-      "number": 32,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Physics General",
-      "stem": "The solubility of BaSO4 in water is –3 –1 2·42 × 10 gL at 298 K. The value of its solubility product (Ksp) will be –1 (Given molar mass of BaSO4 = 233 g mol ) –10 2 –2",
-      "options": {
-        "1": "1·08 × 10 mol L –8 2 –2",
-        "2": "1·08 × 10 mol L –14 2 –2",
-        "3": "1·08 × 10 mol L –12 2 –2",
-        "4": "1·08 × 10 mol L OUGH WORK English"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q33",
-      "number": 33,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Physics General",
-      "stem": "Which one of the following plants shows a very close relationship with a species of moth, where none of the two can complete its life cycle without the other ?",
-      "options": {
-        "1": "Viola",
-        "2": "Banana",
-        "3": "Yucca",
-        "4": "Hydrilla"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2018-AA-Q34",
-      "number": 34,
+      "number": 14,
       "subject": "Physics",
       "section": "A",
-      "topic": "Laws of Motion",
+      "topic": "Mechanics",
       "stem": "A toy car with charge q moves on a frictionless horizontal plane surface under the influence of a → → uniform electric field E . Due to the force q E , its velocity increases from 0 to 6 m/s in one second duration. At that instant the direction of the field is reversed. The car continues to move for two more seconds under the influence of this field. The average velocity and the average speed of the toy car between 0 to 3 seconds are respectively",
       "options": {
         "1": "1 m/s, 3·5 m/s",
@@ -774,10 +364,10 @@
     },
     {
       "id": "2018-AA-Q35",
-      "number": 35,
+      "number": 15,
       "subject": "Physics",
       "section": "A",
-      "topic": "Current Electricity",
+      "topic": "Electromagnetism",
       "stem": "A metallic rod of mass per unit length –1 0·5 kg m is lying horizontally on a smooth inclined plane which makes an angle of 30° with the horizontal. The rod is not allowed to slide down by flowing a current through it when a magnetic field of induction 0·25 T is acting on it in the vertical direction. The current flowing in the rod to keep it stationary is",
       "options": {
         "1": "7·14 A",
@@ -795,10 +385,10 @@
     },
     {
       "id": "2018-AA-Q36",
-      "number": 36,
+      "number": 16,
       "subject": "Physics",
       "section": "A",
-      "topic": "Current Electricity",
+      "topic": "Electromagnetism",
       "stem": "An inductor 20 mH, a capacitor 100 μF and a resistor 50 Ω are connected in series across a source of emf, V = 10 sin 314 t. The power loss in the circuit is",
       "options": {
         "1": "0·79 W",
@@ -816,10 +406,10 @@
     },
     {
       "id": "2018-AA-Q37",
-      "number": 37,
+      "number": 17,
       "subject": "Physics",
       "section": "A",
-      "topic": "Current Electricity",
+      "topic": "Electromagnetism",
       "stem": "A thin diamagnetic rod is placed vertically between the poles of an electromagnet. When the current in the electromagnet is switched on, then the diamagnetic rod is pushed up, out of the horizontal magnetic field. Hence the rod gains gravitational potential energy. The work required to do this comes from",
       "options": {
         "1": "the current source",
@@ -836,95 +426,11 @@
       "multiCorrect": false
     },
     {
-      "id": "2018-AA-Q38",
-      "number": 38,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Physics General",
-      "stem": "Which of the following elements is responsible for maintaining turgor in cells ?",
-      "options": {
-        "1": "Calcium",
-        "2": "Potassium",
-        "3": "Sodium",
-        "4": "Magnesium OUGH WORK English"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q39",
-      "number": 39,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Physics General",
-      "stem": "The correct difference between first- and second-order reactions is that",
-      "options": {
-        "1": "the rate of a first-order reaction does not depend on reactant concentrations; the rate of a second-order reaction does depend on reactant concentrations",
-        "2": "the rate of a first-order reaction does depend on reactant concentrations; the rate of a second-order reaction does not depend on reactant concentrations",
-        "3": "a first-order reaction can be catalyzed; a second-order reaction cannot be catalyzed",
-        "4": "the half-life of a first-order reaction does not depend on [A]0; the half-life of a second-order reaction does depend on [A] 0"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q40",
-      "number": 40,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Physics General",
-      "stem": "Among CaH2, BeH2, BaH2, the order of ionic character is",
-      "options": {
-        "1": "BeH2 < CaH2 < BaH2",
-        "2": "BaH2 < BeH2 < CaH2",
-        "3": "BeH2 < BaH2 < CaH2",
-        "4": "CaH2 < BeH2 < BaH2"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q41",
-      "number": 41,
-      "subject": "Physics",
-      "section": "A",
-      "topic": "Physics General",
-      "stem": "Consider the change in oxidation state of Bromine corresponding to different emf values as shown in the diagram below : Then the species undergoing disproportionation is",
-      "options": {
-        "1": "Br O 3",
-        "2": "HBrO",
-        "3": "Br2",
-        "4": "Br O 4– OUGH WORK English"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2018-AA-Q42",
-      "number": 42,
+      "number": 18,
       "subject": "Physics",
       "section": "A",
-      "topic": "Laws of Motion",
+      "topic": "Thermodynamics",
       "stem": "A small sphere of radius ‘r’ falls from rest in a viscous liquid. As a result, heat is produced due to viscous force. The rate of production of heat when the sphere attains its terminal velocity, is proportional to 5",
       "options": {
         "1": "r 2",
@@ -942,10 +448,10 @@
     },
     {
       "id": "2018-AA-Q43",
-      "number": 43,
+      "number": 19,
       "subject": "Physics",
       "section": "A",
-      "topic": "Work Energy Power",
+      "topic": "Waves & Oscillations",
       "stem": "The power radiated by a black body is P and it radiates maximum energy at wavelength, λ0. If the temperature of the black body is now changed so that it radiates maximum energy at 3 wavelength λ , the power radiated by it 4 0 becomes nP. The value of n is 256",
       "options": {
         "1": "81 4",
@@ -962,59 +468,546 @@
       "multiCorrect": false
     },
     {
-      "id": "2018-AA-Q44",
+      "id": "2018-AA-Q91",
+      "number": 20,
+      "subject": "Physics",
+      "section": "A",
+      "topic": "Physics General",
+      "stem": "A carbon resistor of (47 ± 4·7) kΩ is to be marked with rings of different colours for its identification. The colour code sequence will be",
+      "options": {
+        "1": "Green – Orange – Violet – Gold",
+        "2": "Yellow – Green – Violet – Gold",
+        "3": "Yellow – Violet – Orange – Silver",
+        "4": "Violet – Yellow – Orange – Silver"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q92",
+      "number": 21,
+      "subject": "Physics",
+      "section": "A",
+      "topic": "Electromagnetism",
+      "stem": "A set of ‘n’ equal resistors, of value ‘R’ each, are connected in series to a battery of emf ‘E’ and internal resistance ‘R’. The current drawn is I. Now, the ‘n’ resistors are connected in parallel to the same battery. Then the current drawn from battery becomes 10 I. The value of ‘n’ is",
+      "options": {
+        "1": "9",
+        "2": "20",
+        "3": "11",
+        "4": "10"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q99",
+      "number": 22,
+      "subject": "Physics",
+      "section": "A",
+      "topic": "Physics General",
+      "stem": "A student measured the diameter of a small steel ball using a screw gauge of least count 0·001 cm. The main scale reading is 5 mm and zero of circular scale division coincides with 25 divisions above the reference level. If screw gauge has a zero error of – 0·004 cm, the correct diameter of the ball is",
+      "options": {
+        "1": "0·529 cm",
+        "2": "0·053 cm",
+        "3": "0·525 cm",
+        "4": "0·521 cm"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q100",
+      "number": 23,
+      "subject": "Physics",
+      "section": "A",
+      "topic": "Mechanics",
+      "stem": "A toy car with charge q moves on a frictionless horizontal plane surface under the influence of a → → uniform electric field E . Due to the force q E , its velocity increases from 0 to 6 m/s in one second duration. At that instant the direction of the field is reversed. The car continues to move for two more seconds under the influence of this field. The average velocity and the average speed of the toy car between 0 to 3 seconds are respectively",
+      "options": {
+        "1": "1·5 m/s, 3 m/s",
+        "2": "1 m/s, 3·5 m/s",
+        "3": "1 m/s, 3 m/s",
+        "4": "2 m/s, 4 m/s"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q101",
+      "number": 24,
+      "subject": "Physics",
+      "section": "A",
+      "topic": "Physics General",
+      "stem": "A block of mass m is placed on a smooth inclined wedge ABC of inclination θ as shown in the figure. The wedge is given an acceleration ‘a’ towards the right. The relation between a and θ for the block to remain stationary on the wedge is",
+      "options": {
+        "1": "a = g tan θ",
+        "2": "a = g cos θ g",
+        "3": "a= sin θ g",
+        "4": "a= cosec θ OUGH WORK English"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false,
+      "figureSrc": "/figures/2018-AA-Q101.svg",
+      "figureKind": "missing-placeholder"
+    },
+    {
+      "id": "2018-AA-Q106",
+      "number": 25,
+      "subject": "Physics",
+      "section": "A",
+      "topic": "Physics General",
+      "stem": "The ratio of kinetic energy to the total energy of an electron in a Bohr orbit of the hydrogen atom, is",
+      "options": {
+        "1": "1:–2",
+        "2": "2:–1",
+        "3": "1:–1",
+        "4": "1:1"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q107",
+      "number": 26,
+      "subject": "Physics",
+      "section": "A",
+      "topic": "Modern Physics",
+      "stem": "An electron of mass m with an initial velocity → ^ V = V0 i (V0 > 0) enters an electric field → ^ E = – E0 i (E0 = constant > 0) at t = 0. If λ0 is its de-Broglie wavelength initially, then its de-Broglie wavelength at time t is",
+      "options": {
+        "1": "λ0",
+        "2": "λ0 t ⎛ eE0 ⎞",
+        "3": "λ0 ⎜⎜ 1 + t ⎟⎟ ⎝ mV0 ⎠ λ0",
+        "4": "⎛ eE0 ⎞ ⎜1 + t⎟ ⎜ mV0 ⎟⎠ ⎝"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q108",
+      "number": 27,
+      "subject": "Physics",
+      "section": "A",
+      "topic": "Physics General",
+      "stem": "When the light of frequency 2v0 (where v0 is threshold frequency), is incident on a metal plate, the maximum velocity of electrons emitted is v1. When the frequency of the incident radiation is increased to 5v0, the maximum velocity of electrons emitted from the same plate is v2. The ratio of v1 to v2 is",
+      "options": {
+        "1": "2:1",
+        "2": "4:1",
+        "3": "1:4",
+        "4": "1:2"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q115",
+      "number": 28,
+      "subject": "Physics",
+      "section": "A",
+      "topic": "Waves & Oscillations",
+      "stem": "In Young’s double slit experiment the separation d between the slits is 2 mm, the wavelength λ of the light used is 5896 Å and distance D between the screen and slits is 100 cm. It is found that the angular width of the fringes is 0·20°. To increase the fringe angular width to 0·21° (with same λ and D) the separation between the slits needs to be changed to",
+      "options": {
+        "1": "1·7 mm",
+        "2": "2·1 mm",
+        "3": "1·9 mm",
+        "4": "1·8 mm"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q116",
+      "number": 29,
+      "subject": "Physics",
+      "section": "A",
+      "topic": "Optics",
+      "stem": "An astronomical refracting telescope will have large angular magnification and high angular resolution, when it has an objective lens of",
+      "options": {
+        "1": "small focal length and small diameter",
+        "2": "large focal length and large diameter",
+        "3": "large focal length and small diameter",
+        "4": "small focal length and large diameter OUGH WORK English"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q120",
+      "number": 30,
+      "subject": "Physics",
+      "section": "A",
+      "topic": "Electromagnetism",
+      "stem": "A metallic rod of mass per unit length –1 0·5 kg m is lying horizontally on a smooth inclined plane which makes an angle of 30° with the horizontal. The rod is not allowed to slide down by flowing a current through it when a magnetic field of induction 0·25 T is acting on it in the vertical direction. The current flowing in the rod to keep it stationary is",
+      "options": {
+        "1": "11·32 A",
+        "2": "14·76 A",
+        "3": "5·98 A",
+        "4": "7·14 A"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q121",
+      "number": 31,
+      "subject": "Physics",
+      "section": "A",
+      "topic": "Electromagnetism",
+      "stem": "An inductor 20 mH, a capacitor 100 μF and a resistor 50 Ω are connected in series across a source of emf, V = 10 sin 314 t. The power loss in the circuit is",
+      "options": {
+        "1": "1·13 W",
+        "2": "2·74 W",
+        "3": "0·43 W",
+        "4": "0·79 W"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q122",
+      "number": 32,
+      "subject": "Physics",
+      "section": "A",
+      "topic": "Electromagnetism",
+      "stem": "A thin diamagnetic rod is placed vertically between the poles of an electromagnet. When the current in the electromagnet is switched on, then the diamagnetic rod is pushed up, out of the horizontal magnetic field. Hence the rod gains gravitational potential energy. The work required to do this comes from",
+      "options": {
+        "1": "the induced electric field due to the changing magnetic field",
+        "2": "the lattice structure of the material of the rod",
+        "3": "the magnetic field",
+        "4": "the current source"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q123",
+      "number": 33,
+      "subject": "Physics",
+      "section": "A",
+      "topic": "Electromagnetism",
+      "stem": "Current sensitivity of a moving coil galvanometer is 5 div/mA and its voltage sensitivity (angular deflection per unit voltage applied) is 20 div/V. The resistance of the galvanometer is",
+      "options": {
+        "1": "500 Ω",
+        "2": "250 Ω",
+        "3": "25 Ω",
+        "4": "40 Ω OUGH WORK English"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q128",
+      "number": 34,
+      "subject": "Physics",
+      "section": "A",
+      "topic": "Physics General",
+      "stem": "The kinetic energies of a planet in an elliptical orbit about the Sun, at positions A, B and C are KA, KB and KC, respectively. AC is the major axis and SB is perpendicular to AC at the position of the Sun S as shown in the figure. Then",
+      "options": {
+        "1": "KB > KA > K C",
+        "2": "KB < KA < K C",
+        "3": "KA > KB > K C",
+        "4": "KA < KB < K C"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false,
+      "figureSrc": "/figures/2018-AA-Q128.svg",
+      "figureKind": "missing-placeholder"
+    },
+    {
+      "id": "2018-AA-Q129",
+      "number": 35,
+      "subject": "Physics",
+      "section": "A",
+      "topic": "Mechanics",
+      "stem": "A solid sphere is in rolling motion. In rolling motion a body possesses translational kinetic energy (Kt) as well as rotational kinetic energy (Kr) simultaneously. The ratio Kt : (Kt + Kr) for the sphere is",
+      "options": {
+        "1": "2:5",
+        "2": "10 : 7",
+        "3": "5:7",
+        "4": "7 : 10"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q130",
+      "number": 36,
+      "subject": "Physics",
+      "section": "A",
+      "topic": "Mechanics",
+      "stem": "If the mass of the Sun were ten times smaller and the universal gravitational constant were ten times larger in magnitude, which of the following is not correct ?",
+      "options": {
+        "1": "‘g’ on the Earth will not change.",
+        "2": "Time period of a simple pendulum on the Earth would decrease.",
+        "3": "Walking on the ground would become more difficult.",
+        "4": "Raindrops will fall faster."
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q131",
+      "number": 37,
+      "subject": "Physics",
+      "section": "A",
+      "topic": "Physics General",
+      "stem": "A solid sphere is rotating freely about its symmetry axis in free space. The radius of the sphere is increased keeping its mass same. Which of the following physical quantities would remain constant for the sphere ?",
+      "options": {
+        "1": "Angular momentum",
+        "2": "Rotational kinetic energy",
+        "3": "Moment of inertia",
+        "4": "Angular velocity OUGH WORK English"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q141",
+      "number": 38,
+      "subject": "Physics",
+      "section": "A",
+      "topic": "Waves & Oscillations",
+      "stem": "In Young’s double slit experiment the separation d between the slits is 2 mm, the wavelength λ of the light used is 5896 Å and distance D between the screen and slits is 100 cm. It is found that the angular width of the fringes is 0·20°. To increase the fringe angular width to 0·21° (with same λ and D) the separation between the slits needs to be changed to",
+      "options": {
+        "1": "1·8 mm",
+        "2": "1·7 mm",
+        "3": "2·1 mm",
+        "4": "1·9 mm"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q142",
+      "number": 39,
+      "subject": "Physics",
+      "section": "A",
+      "topic": "Optics",
+      "stem": "An astronomical refracting telescope will have large angular magnification and high angular resolution, when it has an objective lens of",
+      "options": {
+        "1": "small focal length and large diameter",
+        "2": "small focal length and small diameter",
+        "3": "large focal length and large diameter",
+        "4": "large focal length and small diameter OUGH WORK English"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q147",
+      "number": 40,
+      "subject": "Physics",
+      "section": "A",
+      "topic": "Physics General",
+      "stem": "A moving block having mass m, collides with another stationary block having mass 4m. The lighter block comes to rest after collision. When the initial velocity of the lighter block is v, then the value of coefficient of restitution (e) will be",
+      "options": {
+        "1": "0·5",
+        "2": "0·4",
+        "3": "0·8",
+        "4": "0·25"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q156",
+      "number": 41,
+      "subject": "Physics",
+      "section": "A",
+      "topic": "Physics General",
+      "stem": "A carbon resistor of (47 ± 4·7) kΩ is to be marked with rings of different colours for its identification. The colour code sequence will be",
+      "options": {
+        "1": "Violet – Yellow – Orange – Silver",
+        "2": "Green – Orange – Violet – Gold",
+        "3": "Yellow – Green – Violet – Gold",
+        "4": "Yellow – Violet – Orange – Silver"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q157",
+      "number": 42,
+      "subject": "Physics",
+      "section": "A",
+      "topic": "Electromagnetism",
+      "stem": "A set of ‘n’ equal resistors, of value ‘R’ each, are connected in series to a battery of emf ‘E’ and internal resistance ‘R’. The current drawn is I. Now, the ‘n’ resistors are connected in parallel to the same battery. Then the current drawn from battery becomes 10 I. The value of ‘n’ is",
+      "options": {
+        "1": "10",
+        "2": "9",
+        "3": "20",
+        "4": "11 OUGH WORK English"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q164",
+      "number": 43,
+      "subject": "Physics",
+      "section": "A",
+      "topic": "Physics General",
+      "stem": "When the light of frequency 2v0 (where v0 is threshold frequency), is incident on a metal plate, the maximum velocity of electrons emitted is v1. When the frequency of the incident radiation is increased to 5v0, the maximum velocity of electrons emitted from the same plate is v2. The ratio of v1 to v2 is",
+      "options": {
+        "1": "1:2",
+        "2": "2:1",
+        "3": "4:1",
+        "4": "1:4 OUGH WORK English"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q171",
       "number": 44,
       "subject": "Physics",
       "section": "A",
       "topic": "Physics General",
-      "stem": "Two wires are made of the same material and have the same volume. The first wire has cross-sectional area A and the second wire has cross-sectional area 3A. If the length of the first wire is increased by Δ l on applying a force F, how much force is needed to stretch the second wire by the same amount ?",
+      "stem": "At what temperature will the rms speed of oxygen molecules become just sufficient for escaping from the Earth’s atmosphere ? (Given : –26 Mass of oxygen molecule (m) = 2·76 × 10 kg –23 –1 Boltzmann’s constant kB = 1·38 × 10 JK ) 4",
       "options": {
-        "1": "4 F",
-        "2": "6 F",
-        "3": "9 F",
-        "4": "F"
+        "1": "2·508 × 10 K 4",
+        "2": "1·254 × 10 K 4",
+        "3": "5·016 × 10 K 4",
+        "4": "8·360 × 10 K"
       },
-      "correctOption": "4",
+      "correctOption": "3",
       "placeholder": false,
       "answerEstimated": true,
       "correctOptions": [
-        "4"
+        "3"
       ],
       "multiCorrect": false
     },
     {
-      "id": "2018-AA-Q45",
+      "id": "2018-AA-Q178",
       "number": 45,
       "subject": "Physics",
       "section": "A",
-      "topic": "Work Energy Power",
-      "stem": "A sample of 0·1 g of water at 100°C and normal 5 –2 pressure (1·013 × 10 Nm ) requires 54 cal of heat energy to convert to steam at 100°C. If the volume of the steam produced is 167·1 cc, the change in internal energy of the sample, is",
+      "topic": "Mechanics",
+      "stem": "A solid sphere is in rolling motion. In rolling motion a body possesses translational kinetic energy (Kt) as well as rotational kinetic energy (Kr) simultaneously. The ratio Kt : (Kt + Kr) for the sphere is",
       "options": {
-        "1": "42·2 J",
-        "2": "208·7 J",
-        "3": "104·3 J",
-        "4": "84·5 J OUGH WORK English"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q46",
-      "number": 46,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Electrochemistry",
-      "stem": "Which of the following gastric cells indirectly help in erythropoiesis ?",
-      "options": {
-        "1": "Chief cells",
-        "2": "Parietal cells",
-        "3": "Goblet cells",
-        "4": "Mucous cells"
+        "1": "7 : 10",
+        "2": "2:5",
+        "3": "10 : 7",
+        "4": "5:7"
       },
       "correctOption": "2",
       "placeholder": false,
@@ -1025,578 +1018,53 @@
       "multiCorrect": false
     },
     {
-      "id": "2018-AA-Q47",
+      "id": "2018-AA-Q29",
+      "number": 46,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Physical Chemistry",
+      "stem": "Following solutions were prepared by mixing different volumes of NaOH and HCl of different concentrations : M M a. 60 mL HCl + 40 mL NaOH 10 10 M M b. 55 mL HCl + 45 mL NaOH 10 10 M M c. 75 mL HCl + 25 mL NaOH 5 5 M M d. 100 mL HCl + 100 mL NaOH 10 10 pH of which one of them will be equal to 1 ?",
+      "options": {
+        "1": "b",
+        "2": "c",
+        "3": "d",
+        "4": "a"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q31",
       "number": 47,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
-      "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Fibrinogen i. Osmotic balance b. Globulin ii. Blood clotting c. Albumin iii. Defence mechanism a b c",
+      "stem": "Given van der Waals constant for NH3, H2, O2 and CO2 are respectively 4·17, 0·244, 1·36 and 3·59, which one of the following gases is most easily liquefied ?",
       "options": {
-        "1": "iii ii i",
-        "2": "ii iii i",
-        "3": "i iii ii",
-        "4": "i ii iii"
+        "1": "NH3",
+        "2": "CO2",
+        "3": "O2",
+        "4": "H2"
       },
       "correctOption": "3",
       "placeholder": false,
       "answerEstimated": true,
       "correctOptions": [
         "3"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q48",
-      "number": 48,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "Many ribosomes may associate with a single mRNA to form multiple copies of a polypeptide simultaneously. Such strings of ribosomes are termed as",
-      "options": {
-        "1": "Nucleosome",
-        "2": "Plastidome",
-        "3": "Polyhedral bodies",
-        "4": "Polysome"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q49",
-      "number": 49,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "Which of the following is an occupational respiratory disorder ?",
-      "options": {
-        "1": "Anthracis",
-        "2": "Emphysema",
-        "3": "Botulism",
-        "4": "Silicosis OUGH WORK English"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q50",
-      "number": 50,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "Which of the following events does not occur in rough endoplasmic reticulum ?",
-      "options": {
-        "1": "Phospholipid synthesis",
-        "2": "Cleavage of signal peptide",
-        "3": "Protein glycosylation",
-        "4": "Protein folding"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q51",
-      "number": 51,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemical Kinetics",
-      "stem": "Identify the vertebrate group of animals characterized by crop and gizzard in its digestive system.",
-      "options": {
-        "1": "Amphibia",
-        "2": "Reptilia",
-        "3": "Aves",
-        "4": "Osteichthyes"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q52",
-      "number": 52,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "Identify the major products P, Q and R in the following sequence of reactions :",
-      "options": {
-        "1": "[Option 1 incomplete in source PDF]",
-        "2": "[Option 2 incomplete in source PDF]",
-        "3": "[Option 3 incomplete in source PDF]",
-        "4": "[Option 4 incomplete in source PDF]"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q53",
-      "number": 53,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "Which of the following compounds can form a zwitterion ?",
-      "options": {
-        "1": "Benzoic acid",
-        "2": "Acetanilide",
-        "3": "Aniline",
-        "4": "Glycine OUGH WORK English"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q54",
-      "number": 54,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "Which of the following animals does not undergo metamorphosis ?",
-      "options": {
-        "1": "Earthworm",
-        "2": "Tunicate",
-        "3": "Moth",
-        "4": "Starfish"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q55",
-      "number": 55,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "Which of the following features is used to identify a male cockroach from a female cockroach ?",
-      "options": {
-        "1": "Presence of a boat shaped sternum on the th 9 abdominal segment",
-        "2": "Presence of caudal styles",
-        "3": "Forewings with darker tegmina",
-        "4": "Presence of anal cerci OUGH WORK English"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q56",
-      "number": 56,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "The amnion of mammalian embryo is derived from",
-      "options": {
-        "1": "ectoderm and mesoderm",
-        "2": "ectoderm and endoderm",
-        "3": "mesoderm and trophoblast",
-        "4": "endoderm and mesoderm"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q57",
-      "number": 57,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Eutrophication i. UV-B radiation b. Sanitary landfill ii. Deforestation c. Snow blindness iii. Nutrient enrichment d. Jhum cultivation iv. Waste disposal a b c d",
-      "options": {
-        "1": "i ii iv iii",
-        "2": "iii iv i ii",
-        "3": "i iii iv ii",
-        "4": "ii i iii iv"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q58",
-      "number": 58,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "Which part of poppy plant is used to obtain the drug ‘‘Smack’’ ?",
-      "options": {
-        "1": "Leaves",
-        "2": "Roots",
-        "3": "Latex",
-        "4": "Flowers"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q59",
-      "number": 59,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "Which oxide of nitrogen is not a common pollutant introduced into the atmosphere both due to natural and human activity ?",
-      "options": {
-        "1": "N2O",
-        "2": "NO2",
-        "3": "N2O5",
-        "4": "NO"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q60",
-      "number": 60,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "The compound A on treatment with Na gives B, and with PCl5 gives C. B and C react together to give diethyl ether. A, B and C are in the order",
-      "options": {
-        "1": "C2H5Cl, C2H6, C2H5OH",
-        "2": "C2H5OH, C2H5Cl, C2H5ONa",
-        "3": "C2H5OH, C2H6, C2H5Cl",
-        "4": "C2H5OH, C2H5ONa, C2H5Cl"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q61",
-      "number": 61,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "The compound C7H8 undergoes the following reactions : The product ‘C’ is",
-      "options": {
-        "1": "3-bromo-2,4,6-trichlorotoluene",
-        "2": "o-bromotoluene",
-        "3": "m-bromotoluene",
-        "4": "p-bromotoluene"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q62",
-      "number": 62,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "Hydrocarbon (A) reacts with bromine by substitution to form an alkyl bromide which by Wurtz reaction is converted to gaseous hydrocarbon containing less than four carbon atoms. (A) is",
-      "options": {
-        "1": "CH3 – CH3",
-        "2": "CH2 = CH2",
-        "3": "CH ≡ CH",
-        "4": "CH4 OUGH WORK English"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q63",
-      "number": 63,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "In which disease does mosquito transmitted pathogen cause chronic inflammation of lymphatic vessels ?",
-      "options": {
-        "1": "Elephantiasis",
-        "2": "Amoebiasis",
-        "3": "Ringworm disease",
-        "4": "Ascariasis"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q64",
-      "number": 64,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "Conversion of milk to curd improves its nutritional value by increasing the amount of",
-      "options": {
-        "1": "Vitamin D",
-        "2": "Vitamin E",
-        "3": "Vitamin B12",
-        "4": "Vitamin A"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q65",
-      "number": 65,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "AGGTATCGCAT is a sequence from the coding strand of a gene. What will be the corresponding sequence of the transcribed mRNA ?",
-      "options": {
-        "1": "UCCAUAGCGUA",
-        "2": "ACCUAUGCGAU",
-        "3": "UGGTUTCGCAT",
-        "4": "AGGUAUCGCAU"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q66",
-      "number": 66,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "A woman has an X-linked condition on one of her X chromosomes. This chromosome can be inherited by",
-      "options": {
-        "1": "Both sons and daughters",
-        "2": "Only grandchildren",
-        "3": "Only sons",
-        "4": "Only daughters"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q67",
-      "number": 67,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Proliferative Phase i. Breakdown of endometrial lining b. Secretory Phase ii. Follicular Phase c. Menstruation iii. Luteal Phase a b c",
-      "options": {
-        "1": "iii i ii",
-        "2": "ii iii i",
-        "3": "i iii ii",
-        "4": "iii ii i"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q68",
-      "number": 68,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Glycosuria i. Accumulation of uric acid in joints b. Gout ii. Mass of crystallised salts within the kidney c. Renal calculi iii. Inflammation in glomeruli d. Glomerular iv. Presence of glucose in nephritis urine a b c d",
-      "options": {
-        "1": "iii ii iv i",
-        "2": "i ii iii iv",
-        "3": "ii iii i iv",
-        "4": "iv i ii iii"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q69",
-      "number": 69,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II (Function) (Part of Excretory System) a. Ultrafiltration i. Henle’s loop b. Concentration ii. Ureter of urine c. Transport of iii. Urinary bladder urine d. Storage of urine iv. Malpighian corpuscle v. Proximal convoluted tubule a b c d",
-      "options": {
-        "1": "iv v ii iii",
-        "2": "iv i ii iii",
-        "3": "v iv i ii",
-        "4": "v iv i iii OUGH WORK English"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q70",
-      "number": 70,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "[PLACEHOLDER] NEET 2018 Question 70 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-      "options": {
-        "1": "Placeholder option 1",
-        "2": "Placeholder option 2",
-        "3": "Placeholder option 3",
-        "4": "Placeholder option 4"
-      },
-      "correctOption": "1",
-      "placeholder": true,
-      "answerEstimated": false,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q71",
-      "number": 71,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "[PLACEHOLDER] NEET 2018 Question 71 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-      "options": {
-        "1": "Placeholder option 1",
-        "2": "Placeholder option 2",
-        "3": "Placeholder option 3",
-        "4": "Placeholder option 4"
-      },
-      "correctOption": "1",
-      "placeholder": true,
-      "answerEstimated": false,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q72",
-      "number": 72,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "Which one of the following population interactions is widely used in medical science for the production of antibiotics ?",
-      "options": {
-        "1": "Commensalism",
-        "2": "Amensalism",
-        "3": "Parasitism",
-        "4": "Mutualism"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q73",
-      "number": 73,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "All of the following are included in ‘Ex-situ conservation’ except",
-      "options": {
-        "1": "Wildlife safari parks",
-        "2": "Seed banks",
-        "3": "Botanical gardens",
-        "4": "Sacred groves"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
       ],
       "multiCorrect": false
     },
     {
       "id": "2018-AA-Q74",
-      "number": 74,
+      "number": 48,
       "subject": "Chemistry",
       "section": "A",
-      "topic": "Chemical Equilibrium",
+      "topic": "Physical Chemistry",
       "stem": "Following solutions were prepared by mixing different volumes of NaOH and HCl of different concentrations : M M a. 60 mL HCl + 40 mL NaOH 10 10 M M b. 55 mL HCl + 45 mL NaOH 10 10 M M c. 75 mL HCl + 25 mL NaOH 5 5 M M d. 100 mL HCl + 100 mL NaOH 10 10 pH of which one of them will be equal to 1 ?",
       "options": {
         "1": "d",
@@ -1613,29 +1081,8 @@
       "multiCorrect": false
     },
     {
-      "id": "2018-AA-Q75",
-      "number": 75,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "On which of the following properties does the coagulating power of an ion depend ?",
-      "options": {
-        "1": "Both magnitude and sign of the charge on the ion",
-        "2": "Size of the ion alone",
-        "3": "The magnitude of the charge on the ion alone",
-        "4": "The sign of charge on the ion alone"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2018-AA-Q76",
-      "number": 76,
+      "number": 49,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
@@ -1655,11 +1102,1989 @@
       "multiCorrect": false
     },
     {
-      "id": "2018-AA-Q77",
-      "number": 77,
+      "id": "2018-AA-Q82",
+      "number": 50,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Physical Chemistry",
+      "stem": "For the redox reaction – + 2+ Mn O 4– + C2 O42 + H ⎯⎯→ Mn + CO2 + H2O the correct coefficients of the reactants for the balanced equation are + Mn O 4– C 2O 2 – H 4",
+      "options": {
+        "1": "2 16 5",
+        "2": "2 5 16",
+        "3": "16 5 2",
+        "4": "5 16 2"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q104",
+      "number": 51,
       "subject": "Chemistry",
       "section": "A",
       "topic": "Chemistry General",
+      "stem": "Which of the following pairs is wrongly matched ?",
+      "options": {
+        "1": "XO type sex : Grasshopper determination",
+        "2": "ABO blood grouping : Co-dominance",
+        "3": "Starch synthesis in pea : Multiple alleles",
+        "4": "T.H. Morgan : Linkage"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q105",
+      "number": 52,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "Select the correct statement :",
+      "options": {
+        "1": "Spliceosomes take part in translation.",
+        "2": "Punnett square was developed by a British scientist.",
+        "3": "Franklin Stahl coined the term ‘‘linkage’’.",
+        "4": "Transduction was discovered by S. Altman."
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q109",
+      "number": 53,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "For a radioactive material, half-life is 10 minutes. If initially there are 600 number of nuclei, the time taken (in minutes) for the disintegration of 450 nuclei is",
+      "options": {
+        "1": "15",
+        "2": "30",
+        "3": "10",
+        "4": "20 OUGH WORK English"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q112",
+      "number": 54,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "Which of the following flowers only once in its life-time ?",
+      "options": {
+        "1": "Bamboo species",
+        "2": "Papaya",
+        "3": "Mango",
+        "4": "Jackfruit OUGH WORK English"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q114",
+      "number": 55,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "Unpolarised light is incident from air on a plane surface of a material of refractive index ‘μ’. At a particular angle of incidence ‘i’, it is found that the reflected and refracted rays are perpendicular to each other. Which of the following options is correct for this situation ? –1 ⎛ 1 ⎞",
+      "options": {
+        "1": "i = tan ⎜⎜ ⎟⎟ ⎝μ⎠ –1 ⎛ 1 ⎞",
+        "2": "i = sin ⎜⎜ ⎟⎟ ⎝μ⎠",
+        "3": "Reflected light is polarised with its electric vector perpendicular to the plane of incidence",
+        "4": "Reflected light is polarised with its electric vector parallel to the plane of incidence"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q117",
+      "number": 56,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "The two functional groups characteristic of sugars are",
+      "options": {
+        "1": "carbonyl and phosphate",
+        "2": "carbonyl and methyl",
+        "3": "hydroxyl and methyl",
+        "4": "carbonyl and hydroxyl"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q119",
+      "number": 57,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Inorganic Chemistry",
+      "stem": "The Golgi complex participates in",
+      "options": {
+        "1": "Respiration in bacteria",
+        "2": "Formation of secretory vesicles",
+        "3": "Fatty acid breakdown",
+        "4": "Activation of amino acid"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q137",
+      "number": 58,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "Match the metal ions given in Column I with the spin magnetic moments of the ions given in Column II and assign the correct code : Column I Column II 3+ a. Co i. 8 B.M. 3+ b. Cr ii. 35 B.M. 3+ c. Fe iii. 3 B.M. 2+ d. Ni iv. 24 B.M. v. 15 B.M. a b c d",
+      "options": {
+        "1": "iii v i ii",
+        "2": "iv i ii iii",
+        "3": "i ii iii iv",
+        "4": "iv v ii i"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q138",
+      "number": 59,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Physical Chemistry",
+      "stem": "In the structure of ClF3, the number of lone pairs of electrons on central atom ‘Cl’ is",
+      "options": {
+        "1": "one",
+        "2": "two",
+        "3": "four",
+        "4": "three"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q139",
+      "number": 60,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Inorganic Chemistry",
+      "stem": "The geometry and magnetic behaviour of the complex [Ni(CO)4] are",
+      "options": {
+        "1": "tetrahedral geometry and paramagnetic",
+        "2": "square planar geometry and paramagnetic",
+        "3": "tetrahedral geometry and diamagnetic",
+        "4": "square planar geometry and diamagnetic"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q140",
+      "number": 61,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "Unpolarised light is incident from air on a plane surface of a material of refractive index ‘μ’. At a particular angle of incidence ‘i’, it is found that the reflected and refracted rays are perpendicular to each other. Which of the following options is correct for this situation ?",
+      "options": {
+        "1": "Reflected light is polarised with its electric vector parallel to the plane of incidence –1 ⎛ 1 ⎞",
+        "2": "i = tan ⎜⎜ ⎟⎟ ⎝μ⎠ –1 ⎛ 1 ⎞",
+        "3": "i = sin ⎜⎜ ⎟⎟ ⎝μ⎠",
+        "4": "Reflected light is polarised with its electric vector perpendicular to the plane of incidence"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q143",
+      "number": 62,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Physical Chemistry",
+      "stem": "For the redox reaction – + 2+ Mn O 4– + C2 O42 + H ⎯⎯→ Mn + CO2 + H2O the correct coefficients of the reactants for the balanced equation are + Mn O 4– C 2O 2 – H 4",
+      "options": {
+        "1": "5 16 2",
+        "2": "2 16 5",
+        "3": "2 5 16",
+        "4": "16 5 2"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q144",
+      "number": 63,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "The correction factor ‘a’ to the ideal gas equation corresponds to",
+      "options": {
+        "1": "forces of attraction between the gas molecules",
+        "2": "electric field present between the gas molecules",
+        "3": "volume of the gas molecules",
+        "4": "density of the gas molecules"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q145",
+      "number": 64,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "Which one of the following conditions will favour maximum formation of the product in the reaction, A2 (g) + B2 (g) λ X2 (g) ΔrH = – X kJ ?",
+      "options": {
+        "1": "High temperature and low pressure",
+        "2": "High temperature and high pressure",
+        "3": "Low temperature and low pressure",
+        "4": "Low temperature and high pressure"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q146",
+      "number": 65,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Physical Chemistry",
+      "stem": "Following solutions were prepared by mixing different volumes of NaOH and HCl of different concentrations : M M a. 60 mL HCl + 40 mL NaOH 10 10 M M b. 55 mL HCl + 45 mL NaOH 10 10 M M c. 75 mL HCl + 25 mL NaOH 5 5 M M d. 100 mL HCl + 100 mL NaOH 10 10 pH of which one of them will be equal to 1 ?",
+      "options": {
+        "1": "b",
+        "2": "a",
+        "3": "d",
+        "4": "c"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q148",
+      "number": 66,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "A body initially at rest and sliding along a frictionless track from a height h (as shown in the figure) just completes a vertical circle of diameter AB = D. The height h is equal to 3",
+      "options": {
+        "1": "D 2 5",
+        "2": "D 4 7",
+        "3": "D 5",
+        "4": "D"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false,
+      "figureSrc": "/figures/2018-AA-Q148.svg",
+      "figureKind": "missing-placeholder"
+    },
+    {
+      "id": "2018-AA-Q149",
+      "number": 67,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Physical Chemistry",
+      "stem": "Three objects, A : (a solid sphere), B : (a thin circular disk) and C : (a circular ring), each have the same mass M and radius R. They all spin with the same angular speed ω about their own symmetry axes. The amounts of work (W) required to bring them to rest, would satisfy the relation",
+      "options": {
+        "1": "WC > WB > WA",
+        "2": "WA > WC > WB",
+        "3": "WB > WA > WC",
+        "4": "WA > WB > WC"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q150",
+      "number": 68,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "Which one of the following statements is incorrect ?",
+      "options": {
+        "1": "Rolling friction is smaller than sliding friction.",
+        "2": "Coefficient of sliding friction has dimensions of length.",
+        "3": "Frictional force opposes the relative motion.",
+        "4": "Limiting value of static friction is directly proportional to normal reaction. OUGH WORK English"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q151",
+      "number": 69,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "The correct difference between first- and second-order reactions is that",
+      "options": {
+        "1": "the rate of a first-order reaction does depend on reactant concentrations; the rate of a second-order reaction does not depend on reactant concentrations",
+        "2": "a first-order reaction can be catalyzed; a second-order reaction cannot be catalyzed",
+        "3": "the half-life of a first-order reaction does not depend on [A]0; the half-life of a second-order reaction does depend on [A] 0",
+        "4": "the rate of a first-order reaction does not depend on reactant concentrations; the rate of a second-order reaction does depend on reactant concentrations"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q152",
+      "number": 70,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "Which of the following organisms are known as chief producers in the oceans ?",
+      "options": {
+        "1": "Cyanobacteria",
+        "2": "Diatoms",
+        "3": "Dinoflagellates",
+        "4": "Euglenoids OUGH WORK English"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q154",
+      "number": 71,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "In which case is the number of molecules of water maximum ? –3",
+      "options": {
+        "1": "10 mol of water",
+        "2": "0·00224 L of water vapours at 1 atm and 273 K",
+        "3": "0·18 g of water",
+        "4": "18 mL of water OUGH WORK English"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q155",
+      "number": 72,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Physical Chemistry",
+      "stem": "A battery consists of a variable number ‘n’ of identical cells (having internal resistance ‘r’ each) which are connected in series. The terminals of the battery are short-circuited and the current I is measured. Which of the graphs shows the correct relationship between I and n ?",
+      "options": {
+        "1": "[Option 1 incomplete in source PDF]",
+        "2": "[Option 2 incomplete in source PDF]",
+        "3": "[Option 3 incomplete in source PDF]",
+        "4": "[Option 4 incomplete in source PDF]"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q158",
+      "number": 73,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "All of the following are part of an operon except",
+      "options": {
+        "1": "an enhancer",
+        "2": "structural genes",
+        "3": "an operator",
+        "4": "a promoter"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q159",
+      "number": 74,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "A mixture of 2·3 g formic acid and 4·5 g oxalic acid is treated with conc. H2SO4. The evolved gaseous mixture is passed through KOH pellets. Weight (in g) of the remaining product at STP will be",
+      "options": {
+        "1": "4·4",
+        "2": "2·8",
+        "3": "3·0",
+        "4": "1·4"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q160",
+      "number": 75,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Physical Chemistry",
+      "stem": "Magnesium reacts with an element (X) to form an ionic compound. If the ground state electronic 2 2 3 configuration of (X) is 1s 2s 2p , the simplest formula for this compound is",
+      "options": {
+        "1": "Mg2X3",
+        "2": "MgX2",
+        "3": "Mg2X",
+        "4": "Mg3X2"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q161",
+      "number": 76,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Inorganic Chemistry",
+      "stem": "Iron exhibits bcc structure at room temperature. Above 900°C, it transforms to fcc structure. The ratio of density of iron at room temperature to that at 900°C (assuming molar mass and atomic radii of iron remains constant with temperature) is 3",
+      "options": {
+        "1": "2 4 3",
+        "2": "3 2 3 3",
+        "3": "4 2 1",
+        "4": "2"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q162",
+      "number": 77,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Physical Chemistry",
+      "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Proliferative Phase i. Breakdown of endometrial lining b. Secretory Phase ii. Follicular Phase c. Menstruation iii. Luteal Phase a b c",
+      "options": {
+        "1": "ii iii i",
+        "2": "i iii ii",
+        "3": "iii ii i",
+        "4": "iii i ii OUGH WORK English"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q163",
+      "number": 78,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "For a radioactive material, half-life is 10 minutes. If initially there are 600 number of nuclei, the time taken (in minutes) for the disintegration of 450 nuclei is",
+      "options": {
+        "1": "20",
+        "2": "15",
+        "3": "30",
+        "4": "10"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q166",
+      "number": 79,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Fibrinogen i. Osmotic balance b. Globulin ii. Blood clotting c. Albumin iii. Defence mechanism a b c",
+      "options": {
+        "1": "i iii ii",
+        "2": "i ii iii",
+        "3": "iii ii i",
+        "4": "ii iii i"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q167",
+      "number": 80,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "The correct difference between first- and second-order reactions is that",
+      "options": {
+        "1": "the rate of a first-order reaction does not depend on reactant concentrations; the rate of a second-order reaction does depend on reactant concentrations",
+        "2": "the half-life of a first-order reaction does not depend on [A]0; the half-life of a second-order reaction does depend on [A]0",
+        "3": "a first-order reaction can be catalyzed; a second-order reaction cannot be catalyzed",
+        "4": "the rate of a first-order reaction does depend on reactant concentrations; the rate of a second-order reaction does not depend on reactant concentrations"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q168",
+      "number": 81,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Physical Chemistry",
+      "stem": "Magnesium reacts with an element (X) to form an ionic compound. If the ground state electronic 2 2 3 configuration of (X) is 1s 2s 2p , the simplest formula for this compound is",
+      "options": {
+        "1": "Mg3X2",
+        "2": "Mg2X",
+        "3": "MgX2",
+        "4": "Mg2X3"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q169",
+      "number": 82,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Inorganic Chemistry",
+      "stem": "Iron exhibits bcc structure at room temperature. Above 900°C, it transforms to fcc structure. The ratio of density of iron at room temperature to that at 900°C (assuming molar mass and atomic radii of iron remains constant with temperature) is 1",
+      "options": {
+        "1": "2 3 3",
+        "2": "4 2 4 3",
+        "3": "3 2 3",
+        "4": "2"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q170",
+      "number": 83,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "The fundamental frequency in an open organ pipe is equal to the third harmonic of a closed organ pipe. If the length of the closed organ pipe is 20 cm, the length of the open organ pipe is",
+      "options": {
+        "1": "13·2 cm",
+        "2": "16 cm",
+        "3": "12·5 cm",
+        "4": "8 cm"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q172",
+      "number": 84,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "The efficiency of an ideal heat engine working between the freezing point and boiling point of water, is",
+      "options": {
+        "1": "26·8%",
+        "2": "12·5%",
+        "3": "6·25%",
+        "4": "20% OUGH WORK English"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q173",
+      "number": 85,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "[PLACEHOLDER] NEET 2018 Question 173 could not be recovered from the public PDF text extract. Replace after manual transcription.",
+      "options": {
+        "1": "Placeholder option 1",
+        "2": "Placeholder option 2",
+        "3": "Placeholder option 3",
+        "4": "Placeholder option 4"
+      },
+      "correctOption": "1",
+      "placeholder": true,
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q174",
+      "number": 86,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "[PLACEHOLDER] NEET 2018 Question 174 could not be recovered from the public PDF text extract. Replace after manual transcription.",
+      "options": {
+        "1": "Placeholder option 1",
+        "2": "Placeholder option 2",
+        "3": "Placeholder option 3",
+        "4": "Placeholder option 4"
+      },
+      "correctOption": "1",
+      "placeholder": true,
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q175",
+      "number": 87,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Physical Chemistry",
+      "stem": "In which disease does mosquito transmitted pathogen cause chronic inflammation of lymphatic vessels ?",
+      "options": {
+        "1": "Ringworm disease",
+        "2": "Ascariasis",
+        "3": "Elephantiasis",
+        "4": "Amoebiasis"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q176",
+      "number": 88,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Physical Chemistry",
+      "stem": "For the redox reaction – + 2+ Mn O 4– + C2 O42 + H ⎯⎯→ Mn + CO2 + H2O the correct coefficients of the reactants for the balanced equation are + Mn O 4– C 2O 2 – H 4",
+      "options": {
+        "1": "16 5 2",
+        "2": "2 5 16",
+        "3": "2 16 5",
+        "4": "5 16 2"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q177",
+      "number": 89,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Physical Chemistry",
+      "stem": "A solid sphere is rotating freely about its symmetry axis in free space. The radius of the sphere is increased keeping its mass same. Which of the following physical quantities would remain constant for the sphere ?",
+      "options": {
+        "1": "Angular velocity",
+        "2": "Angular momentum",
+        "3": "Rotational kinetic energy",
+        "4": "Moment of inertia"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q179",
+      "number": 90,
+      "subject": "Chemistry",
+      "section": "A",
+      "topic": "Chemistry General",
+      "stem": "The kinetic energies of a planet in an elliptical orbit about the Sun, at positions A, B and C are KA, KB and KC, respectively. AC is the major axis and SB is perpendicular to AC at the position of the Sun S as shown in the figure. Then",
+      "options": {
+        "1": "KA < KB < K C",
+        "2": "KB > KA > K C",
+        "3": "KB < KA < K C",
+        "4": "KA > KB > K C"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false,
+      "figureSrc": "/figures/2018-AA-Q179.svg",
+      "figureKind": "missing-placeholder"
+    },
+    {
+      "id": "2018-AA-Q1",
+      "number": 91,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "[PLACEHOLDER] NEET 2018 Question 1 could not be recovered from the public PDF text extract. Replace after manual transcription.",
+      "options": {
+        "1": "Placeholder option 1",
+        "2": "Placeholder option 2",
+        "3": "Placeholder option 3",
+        "4": "Placeholder option 4"
+      },
+      "correctOption": "1",
+      "placeholder": true,
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q2",
+      "number": 92,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "[PLACEHOLDER] NEET 2018 Question 2 could not be recovered from the public PDF text extract. Replace after manual transcription.",
+      "options": {
+        "1": "Placeholder option 1",
+        "2": "Placeholder option 2",
+        "3": "Placeholder option 3",
+        "4": "Placeholder option 4"
+      },
+      "correctOption": "1",
+      "placeholder": true,
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q3",
+      "number": 93,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "[PLACEHOLDER] NEET 2018 Question 3 could not be recovered from the public PDF text extract. Replace after manual transcription.",
+      "options": {
+        "1": "Placeholder option 1",
+        "2": "Placeholder option 2",
+        "3": "Placeholder option 3",
+        "4": "Placeholder option 4"
+      },
+      "correctOption": "1",
+      "placeholder": true,
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q7",
+      "number": 94,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Genetics & Biotech",
+      "stem": "A battery consists of a variable number ‘n’ of identical cells (having internal resistance ‘r’ each) which are connected in series. The terminals of the battery are short-circuited and the current I is measured. Which of the graphs shows the correct relationship between I and n ? OUGH WORK English",
+      "options": {
+        "1": "[Option 1 incomplete in source PDF]",
+        "2": "[Option 2 incomplete in source PDF]",
+        "3": "[Option 3 incomplete in source PDF]",
+        "4": "[Option 4 incomplete in source PDF]"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q8",
+      "number": 95,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "Considering Ellingham diagram, which of the following metals can be used to reduce alumina ?",
+      "options": {
+        "1": "Fe",
+        "2": "Cu",
+        "3": "Mg",
+        "4": "Zn"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q9",
+      "number": 96,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "The correct order of atomic radii in group 13 elements is",
+      "options": {
+        "1": "B < Al < In < Ga < Tl",
+        "2": "B < Ga < Al < In < Tl",
+        "3": "B < Ga < Al < Tl < In",
+        "4": "B < Al < Ga < In < Tl"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q10",
+      "number": 97,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "Which of the following has proved helpful in preserving pollen as fossils ?",
+      "options": {
+        "1": "Sporopollenin",
+        "2": "Oil content",
+        "3": "Cellulosic intine",
+        "4": "Pollenkitt"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q13",
+      "number": 98,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "For a radioactive material, half-life is 10 minutes. If initially there are 600 number of nuclei, the time taken (in minutes) for the disintegration of 450 nuclei is",
+      "options": {
+        "1": "30",
+        "2": "10",
+        "3": "20",
+        "4": "15"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q15",
+      "number": 99,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Human Physiology",
+      "stem": "Which oxide of nitrogen is not a common pollutant introduced into the atmosphere both due to natural and human activity ?",
+      "options": {
+        "1": "N2O5",
+        "2": "NO",
+        "3": "N2O",
+        "4": "NO2"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q16",
+      "number": 100,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "The compound A on treatment with Na gives B, and with PCl5 gives C. B and C react together to give diethyl ether. A, B and C are in the order",
+      "options": {
+        "1": "C2H5OH, C2H6, C2H5Cl",
+        "2": "C2H5OH, C2H5ONa, C2H5Cl",
+        "3": "C2H5Cl, C2H6, C2H5OH",
+        "4": "C2H5OH, C2H5Cl, C2H5ONa"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q17",
+      "number": 101,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "The compound C7H8 undergoes the following reactions : The product ‘C’ is",
+      "options": {
+        "1": "m-bromotoluene",
+        "2": "p-bromotoluene",
+        "3": "3-bromo-2,4,6-trichlorotoluene",
+        "4": "o-bromotoluene"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q22",
+      "number": 102,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Genetics & Biotech",
+      "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Herbarium i. It is a place having a collection of preserved plants and animals. b. Key ii. A list that enumerates methodically all the species found in an area with brief description aiding identification. c. Museum iii. Is a place where dried and pressed plant specimens mounted on sheets are kept. d. Catalogue iv. A booklet containing a list of characters and their alternates which are helpful in identification of various taxa. a b c d",
+      "options": {
+        "1": "iii iv i ii",
+        "2": "ii iv iii i",
+        "3": "iii ii i iv",
+        "4": "i iv iii ii"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q23",
+      "number": 103,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "The difference between amylose and amylopectin is",
+      "options": {
+        "1": "Amylopectin have 1 → 4 α-linkage and 1 → 6 α-linkage",
+        "2": "Amylose is made up of glucose and galactose",
+        "3": "Amylopectin have 1 → 4 α-linkage and 1 → 6 β-linkage",
+        "4": "Amylose have 1→4 α-linkage and 1 → 6 β-linkage"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q24",
+      "number": 104,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Cell Biology",
+      "stem": "After karyogamy followed by meiosis, spores are produced exogenously in",
+      "options": {
+        "1": "Saccharomyces",
+        "2": "Agaricus",
+        "3": "Alternaria",
+        "4": "Neurospora"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q25",
+      "number": 105,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "Regarding cross-linked or network polymers, which of the following statements is incorrect ?",
+      "options": {
+        "1": "They contain covalent bonds between various linear polymer chains.",
+        "2": "They contain strong covalent bonds in their polymer chains.",
+        "3": "Examples are bakelite and melamine.",
+        "4": "They are formed from bi- and tri-functional monomers."
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q30",
+      "number": 106,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "On which of the following properties does the coagulating power of an ion depend ?",
+      "options": {
+        "1": "The magnitude of the charge on the ion alone",
+        "2": "The sign of charge on the ion alone",
+        "3": "Both magnitude and sign of the charge on the ion",
+        "4": "Size of the ion alone"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q32",
+      "number": 107,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "The solubility of BaSO4 in water is –3 –1 2·42 × 10 gL at 298 K. The value of its solubility product (Ksp) will be –1 (Given molar mass of BaSO4 = 233 g mol ) –10 2 –2",
+      "options": {
+        "1": "1·08 × 10 mol L –8 2 –2",
+        "2": "1·08 × 10 mol L –14 2 –2",
+        "3": "1·08 × 10 mol L –12 2 –2",
+        "4": "1·08 × 10 mol L OUGH WORK English"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q33",
+      "number": 108,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Botany",
+      "stem": "Which one of the following plants shows a very close relationship with a species of moth, where none of the two can complete its life cycle without the other ?",
+      "options": {
+        "1": "Viola",
+        "2": "Banana",
+        "3": "Yucca",
+        "4": "Hydrilla"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q38",
+      "number": 109,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Cell Biology",
+      "stem": "Which of the following elements is responsible for maintaining turgor in cells ?",
+      "options": {
+        "1": "Calcium",
+        "2": "Potassium",
+        "3": "Sodium",
+        "4": "Magnesium OUGH WORK English"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q39",
+      "number": 110,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "The correct difference between first- and second-order reactions is that",
+      "options": {
+        "1": "the rate of a first-order reaction does not depend on reactant concentrations; the rate of a second-order reaction does depend on reactant concentrations",
+        "2": "the rate of a first-order reaction does depend on reactant concentrations; the rate of a second-order reaction does not depend on reactant concentrations",
+        "3": "a first-order reaction can be catalyzed; a second-order reaction cannot be catalyzed",
+        "4": "the half-life of a first-order reaction does not depend on [A]0; the half-life of a second-order reaction does depend on [A] 0"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q40",
+      "number": 111,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "Among CaH2, BeH2, BaH2, the order of ionic character is",
+      "options": {
+        "1": "BeH2 < CaH2 < BaH2",
+        "2": "BaH2 < BeH2 < CaH2",
+        "3": "BeH2 < BaH2 < CaH2",
+        "4": "CaH2 < BeH2 < BaH2"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q41",
+      "number": 112,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Ecology & Evolution",
+      "stem": "Consider the change in oxidation state of Bromine corresponding to different emf values as shown in the diagram below : Then the species undergoing disproportionation is",
+      "options": {
+        "1": "Br O 3",
+        "2": "HBrO",
+        "3": "Br2",
+        "4": "Br O 4– OUGH WORK English"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q44",
+      "number": 113,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "Two wires are made of the same material and have the same volume. The first wire has cross-sectional area A and the second wire has cross-sectional area 3A. If the length of the first wire is increased by Δ l on applying a force F, how much force is needed to stretch the second wire by the same amount ?",
+      "options": {
+        "1": "4 F",
+        "2": "6 F",
+        "3": "9 F",
+        "4": "F"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q45",
+      "number": 114,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Genetics & Biotech",
+      "stem": "A sample of 0·1 g of water at 100°C and normal 5 –2 pressure (1·013 × 10 Nm ) requires 54 cal of heat energy to convert to steam at 100°C. If the volume of the steam produced is 167·1 cc, the change in internal energy of the sample, is",
+      "options": {
+        "1": "42·2 J",
+        "2": "208·7 J",
+        "3": "104·3 J",
+        "4": "84·5 J OUGH WORK English"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q46",
+      "number": 115,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Cell Biology",
+      "stem": "Which of the following gastric cells indirectly help in erythropoiesis ?",
+      "options": {
+        "1": "Chief cells",
+        "2": "Parietal cells",
+        "3": "Goblet cells",
+        "4": "Mucous cells"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q47",
+      "number": 116,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Human Physiology",
+      "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Fibrinogen i. Osmotic balance b. Globulin ii. Blood clotting c. Albumin iii. Defence mechanism a b c",
+      "options": {
+        "1": "iii ii i",
+        "2": "ii iii i",
+        "3": "i iii ii",
+        "4": "i ii iii"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q48",
+      "number": 117,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Genetics & Biotech",
+      "stem": "Many ribosomes may associate with a single mRNA to form multiple copies of a polypeptide simultaneously. Such strings of ribosomes are termed as",
+      "options": {
+        "1": "Nucleosome",
+        "2": "Plastidome",
+        "3": "Polyhedral bodies",
+        "4": "Polysome"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q49",
+      "number": 118,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "Which of the following is an occupational respiratory disorder ?",
+      "options": {
+        "1": "Anthracis",
+        "2": "Emphysema",
+        "3": "Botulism",
+        "4": "Silicosis OUGH WORK English"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q50",
+      "number": 119,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "Which of the following events does not occur in rough endoplasmic reticulum ?",
+      "options": {
+        "1": "Phospholipid synthesis",
+        "2": "Cleavage of signal peptide",
+        "3": "Protein glycosylation",
+        "4": "Protein folding"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q51",
+      "number": 120,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "Identify the vertebrate group of animals characterized by crop and gizzard in its digestive system.",
+      "options": {
+        "1": "Amphibia",
+        "2": "Reptilia",
+        "3": "Aves",
+        "4": "Osteichthyes"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q52",
+      "number": 121,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "Identify the major products P, Q and R in the following sequence of reactions :",
+      "options": {
+        "1": "[Option 1 incomplete in source PDF]",
+        "2": "[Option 2 incomplete in source PDF]",
+        "3": "[Option 3 incomplete in source PDF]",
+        "4": "[Option 4 incomplete in source PDF]"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q53",
+      "number": 122,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "Which of the following compounds can form a zwitterion ?",
+      "options": {
+        "1": "Benzoic acid",
+        "2": "Acetanilide",
+        "3": "Aniline",
+        "4": "Glycine OUGH WORK English"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q54",
+      "number": 123,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "Which of the following animals does not undergo metamorphosis ?",
+      "options": {
+        "1": "Earthworm",
+        "2": "Tunicate",
+        "3": "Moth",
+        "4": "Starfish"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q55",
+      "number": 124,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "Which of the following features is used to identify a male cockroach from a female cockroach ?",
+      "options": {
+        "1": "Presence of a boat shaped sternum on the th 9 abdominal segment",
+        "2": "Presence of caudal styles",
+        "3": "Forewings with darker tegmina",
+        "4": "Presence of anal cerci OUGH WORK English"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q56",
+      "number": 125,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "The amnion of mammalian embryo is derived from",
+      "options": {
+        "1": "ectoderm and mesoderm",
+        "2": "ectoderm and endoderm",
+        "3": "mesoderm and trophoblast",
+        "4": "endoderm and mesoderm"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q57",
+      "number": 126,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Eutrophication i. UV-B radiation b. Sanitary landfill ii. Deforestation c. Snow blindness iii. Nutrient enrichment d. Jhum cultivation iv. Waste disposal a b c d",
+      "options": {
+        "1": "i ii iv iii",
+        "2": "iii iv i ii",
+        "3": "i iii iv ii",
+        "4": "ii i iii iv"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q58",
+      "number": 127,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Botany",
+      "stem": "Which part of poppy plant is used to obtain the drug ‘‘Smack’’ ?",
+      "options": {
+        "1": "Leaves",
+        "2": "Roots",
+        "3": "Latex",
+        "4": "Flowers"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q59",
+      "number": 128,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Human Physiology",
+      "stem": "Which oxide of nitrogen is not a common pollutant introduced into the atmosphere both due to natural and human activity ?",
+      "options": {
+        "1": "N2O",
+        "2": "NO2",
+        "3": "N2O5",
+        "4": "NO"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q60",
+      "number": 129,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "The compound A on treatment with Na gives B, and with PCl5 gives C. B and C react together to give diethyl ether. A, B and C are in the order",
+      "options": {
+        "1": "C2H5Cl, C2H6, C2H5OH",
+        "2": "C2H5OH, C2H5Cl, C2H5ONa",
+        "3": "C2H5OH, C2H6, C2H5Cl",
+        "4": "C2H5OH, C2H5ONa, C2H5Cl"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q61",
+      "number": 130,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "The compound C7H8 undergoes the following reactions : The product ‘C’ is",
+      "options": {
+        "1": "3-bromo-2,4,6-trichlorotoluene",
+        "2": "o-bromotoluene",
+        "3": "m-bromotoluene",
+        "4": "p-bromotoluene"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q62",
+      "number": 131,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "Hydrocarbon (A) reacts with bromine by substitution to form an alkyl bromide which by Wurtz reaction is converted to gaseous hydrocarbon containing less than four carbon atoms. (A) is",
+      "options": {
+        "1": "CH3 – CH3",
+        "2": "CH2 = CH2",
+        "3": "CH ≡ CH",
+        "4": "CH4 OUGH WORK English"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q63",
+      "number": 132,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "In which disease does mosquito transmitted pathogen cause chronic inflammation of lymphatic vessels ?",
+      "options": {
+        "1": "Elephantiasis",
+        "2": "Amoebiasis",
+        "3": "Ringworm disease",
+        "4": "Ascariasis"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q64",
+      "number": 133,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "Conversion of milk to curd improves its nutritional value by increasing the amount of",
+      "options": {
+        "1": "Vitamin D",
+        "2": "Vitamin E",
+        "3": "Vitamin B12",
+        "4": "Vitamin A"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q65",
+      "number": 134,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Genetics & Biotech",
+      "stem": "AGGTATCGCAT is a sequence from the coding strand of a gene. What will be the corresponding sequence of the transcribed mRNA ?",
+      "options": {
+        "1": "UCCAUAGCGUA",
+        "2": "ACCUAUGCGAU",
+        "3": "UGGTUTCGCAT",
+        "4": "AGGUAUCGCAU"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q66",
+      "number": 135,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "A woman has an X-linked condition on one of her X chromosomes. This chromosome can be inherited by",
+      "options": {
+        "1": "Both sons and daughters",
+        "2": "Only grandchildren",
+        "3": "Only sons",
+        "4": "Only daughters"
+      },
+      "correctOption": "2",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "2"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q67",
+      "number": 136,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Proliferative Phase i. Breakdown of endometrial lining b. Secretory Phase ii. Follicular Phase c. Menstruation iii. Luteal Phase a b c",
+      "options": {
+        "1": "iii i ii",
+        "2": "ii iii i",
+        "3": "i iii ii",
+        "4": "iii ii i"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q68",
+      "number": 137,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Human Physiology",
+      "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Glycosuria i. Accumulation of uric acid in joints b. Gout ii. Mass of crystallised salts within the kidney c. Renal calculi iii. Inflammation in glomeruli d. Glomerular iv. Presence of glucose in nephritis urine a b c d",
+      "options": {
+        "1": "iii ii iv i",
+        "2": "i ii iii iv",
+        "3": "ii iii i iv",
+        "4": "iv i ii iii"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q69",
+      "number": 138,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II (Function) (Part of Excretory System) a. Ultrafiltration i. Henle’s loop b. Concentration ii. Ureter of urine c. Transport of iii. Urinary bladder urine d. Storage of urine iv. Malpighian corpuscle v. Proximal convoluted tubule a b c d",
+      "options": {
+        "1": "iv v ii iii",
+        "2": "iv i ii iii",
+        "3": "v iv i ii",
+        "4": "v iv i iii OUGH WORK English"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q70",
+      "number": 139,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "[PLACEHOLDER] NEET 2018 Question 70 could not be recovered from the public PDF text extract. Replace after manual transcription.",
+      "options": {
+        "1": "Placeholder option 1",
+        "2": "Placeholder option 2",
+        "3": "Placeholder option 3",
+        "4": "Placeholder option 4"
+      },
+      "correctOption": "1",
+      "placeholder": true,
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q71",
+      "number": 140,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "[PLACEHOLDER] NEET 2018 Question 71 could not be recovered from the public PDF text extract. Replace after manual transcription.",
+      "options": {
+        "1": "Placeholder option 1",
+        "2": "Placeholder option 2",
+        "3": "Placeholder option 3",
+        "4": "Placeholder option 4"
+      },
+      "correctOption": "1",
+      "placeholder": true,
+      "answerEstimated": false,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q72",
+      "number": 141,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Ecology & Evolution",
+      "stem": "Which one of the following population interactions is widely used in medical science for the production of antibiotics ?",
+      "options": {
+        "1": "Commensalism",
+        "2": "Amensalism",
+        "3": "Parasitism",
+        "4": "Mutualism"
+      },
+      "correctOption": "4",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "4"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q73",
+      "number": 142,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "All of the following are included in ‘Ex-situ conservation’ except",
+      "options": {
+        "1": "Wildlife safari parks",
+        "2": "Seed banks",
+        "3": "Botanical gardens",
+        "4": "Sacred groves"
+      },
+      "correctOption": "1",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "1"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q75",
+      "number": 143,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
+      "stem": "On which of the following properties does the coagulating power of an ion depend ?",
+      "options": {
+        "1": "Both magnitude and sign of the charge on the ion",
+        "2": "Size of the ion alone",
+        "3": "The magnitude of the charge on the ion alone",
+        "4": "The sign of charge on the ion alone"
+      },
+      "correctOption": "3",
+      "placeholder": false,
+      "answerEstimated": true,
+      "correctOptions": [
+        "3"
+      ],
+      "multiCorrect": false
+    },
+    {
+      "id": "2018-AA-Q77",
+      "number": 144,
+      "subject": "Biology",
+      "section": "A",
+      "topic": "Biology General",
       "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Proliferative Phase i. Breakdown of endometrial lining b. Secretory Phase ii. Follicular Phase c. Menstruation iii. Luteal Phase a b c",
       "options": {
         "1": "iii ii i",
@@ -1677,10 +3102,10 @@
     },
     {
       "id": "2018-AA-Q78",
-      "number": 78,
-      "subject": "Chemistry",
+      "number": 145,
+      "subject": "Biology",
       "section": "A",
-      "topic": "Chemistry General",
+      "topic": "Ecology & Evolution",
       "stem": "According to Hugo de Vries, the mechanism of evolution is",
       "options": {
         "1": "Multiple step mutations",
@@ -1698,10 +3123,10 @@
     },
     {
       "id": "2018-AA-Q79",
-      "number": 79,
-      "subject": "Chemistry",
+      "number": 146,
+      "subject": "Biology",
       "section": "A",
-      "topic": "Chemistry General",
+      "topic": "Biology General",
       "stem": "A woman has an X-linked condition on one of her X chromosomes. This chromosome can be inherited by",
       "options": {
         "1": "Only daughters",
@@ -1719,10 +3144,10 @@
     },
     {
       "id": "2018-AA-Q80",
-      "number": 80,
-      "subject": "Chemistry",
+      "number": 147,
+      "subject": "Biology",
       "section": "A",
-      "topic": "Chemistry General",
+      "topic": "Genetics & Biotech",
       "stem": "AGGTATCGCAT is a sequence from the coding strand of a gene. What will be the corresponding sequence of the transcribed mRNA ?",
       "options": {
         "1": "AGGUAUCGCAU",
@@ -1740,10 +3165,10 @@
     },
     {
       "id": "2018-AA-Q81",
-      "number": 81,
-      "subject": "Chemistry",
+      "number": 148,
+      "subject": "Biology",
       "section": "A",
-      "topic": "Chemistry General",
+      "topic": "Human Physiology",
       "stem": "Which of the following terms describe human dentition ?",
       "options": {
         "1": "Thecodont, Diphyodont, Homodont",
@@ -1760,32 +3185,11 @@
       "multiCorrect": false
     },
     {
-      "id": "2018-AA-Q82",
-      "number": 82,
-      "subject": "Chemistry",
-      "section": "A",
-      "topic": "Chemistry General",
-      "stem": "For the redox reaction – + 2+ Mn O 4– + C2 O42 + H ⎯⎯→ Mn + CO2 + H2O the correct coefficients of the reactants for the balanced equation are + Mn O 4– C 2O 2 – H 4",
-      "options": {
-        "1": "2 16 5",
-        "2": "2 5 16",
-        "3": "16 5 2",
-        "4": "5 16 2"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2018-AA-Q83",
-      "number": 83,
-      "subject": "Chemistry",
+      "number": 149,
+      "subject": "Biology",
       "section": "A",
-      "topic": "Chemistry General",
+      "topic": "Human Physiology",
       "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Glycosuria i. Accumulation of uric acid in joints b. Gout ii. Mass of crystallised salts within the kidney c. Renal calculi iii. Inflammation in glomeruli d. Glomerular iv. Presence of glucose in nephritis urine a b c d",
       "options": {
         "1": "iv i ii iii",
@@ -1803,10 +3207,10 @@
     },
     {
       "id": "2018-AA-Q84",
-      "number": 84,
-      "subject": "Chemistry",
+      "number": 150,
+      "subject": "Biology",
       "section": "A",
-      "topic": "Chemistry General",
+      "topic": "Biology General",
       "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II (Function) (Part of Excretory System) a. Ultrafiltration i. Henle’s loop b. Concentration ii. Ureter of urine c. Transport of iii. Urinary bladder urine d. Storage of urine iv. Malpighian corpuscle v. Proximal convoluted tubule a b c d",
       "options": {
         "1": "v iv i iii",
@@ -1824,10 +3228,10 @@
     },
     {
       "id": "2018-AA-Q85",
-      "number": 85,
-      "subject": "Chemistry",
+      "number": 151,
+      "subject": "Biology",
       "section": "A",
-      "topic": "Chemistry General",
+      "topic": "Biology General",
       "stem": "The bond dissociation energies of X2, Y2 and XY are in the ratio of 1 : 0·5 : 1. ΔH for the formation –1 of XY is – 200 kJ mol . The bond dissociation energy of X2 will be –1",
       "options": {
         "1": "800 kJ mol –1",
@@ -1845,10 +3249,10 @@
     },
     {
       "id": "2018-AA-Q86",
-      "number": 86,
-      "subject": "Chemistry",
+      "number": 152,
+      "subject": "Biology",
       "section": "A",
-      "topic": "Chemistry General",
+      "topic": "Ecology & Evolution",
       "stem": "Among the following sets of examples for divergent evolution, select the incorrect option :",
       "options": {
         "1": "Forelimbs of man, bat and cheetah",
@@ -1866,10 +3270,10 @@
     },
     {
       "id": "2018-AA-Q87",
-      "number": 87,
-      "subject": "Chemistry",
+      "number": 153,
+      "subject": "Biology",
       "section": "A",
-      "topic": "Chemistry General",
+      "topic": "Biology General",
       "stem": "Conversion of milk to curd improves its nutritional value by increasing the amount of",
       "options": {
         "1": "Vitamin D",
@@ -1887,10 +3291,10 @@
     },
     {
       "id": "2018-AA-Q88",
-      "number": 88,
-      "subject": "Chemistry",
+      "number": 154,
+      "subject": "Biology",
       "section": "A",
-      "topic": "Chemistry General",
+      "topic": "Biology General",
       "stem": "In which disease does mosquito transmitted pathogen cause chronic inflammation of lymphatic vessels ?",
       "options": {
         "1": "Elephantiasis",
@@ -1908,10 +3312,10 @@
     },
     {
       "id": "2018-AA-Q89",
-      "number": 89,
-      "subject": "Chemistry",
+      "number": 155,
+      "subject": "Biology",
       "section": "A",
-      "topic": "Chemical Kinetics",
+      "topic": "Biology General",
       "stem": "The similarity of bone structure in the forelimbs of many vertebrates is an example of",
       "options": {
         "1": "Homology",
@@ -1929,10 +3333,10 @@
     },
     {
       "id": "2018-AA-Q90",
-      "number": 90,
-      "subject": "Chemistry",
+      "number": 156,
+      "subject": "Biology",
       "section": "A",
-      "topic": "Chemistry General",
+      "topic": "Genetics & Biotech",
       "stem": "Which of the following characteristics represent ‘Inheritance of blood groups’ in humans ? a. Dominance b. Co-dominance c. Multiple allele d. Incomplete dominance e. Polygenic inheritance",
       "options": {
         "1": "b, c and e",
@@ -1949,53 +3353,11 @@
       "multiCorrect": false
     },
     {
-      "id": "2018-AA-Q91",
-      "number": 91,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "A carbon resistor of (47 ± 4·7) kΩ is to be marked with rings of different colours for its identification. The colour code sequence will be",
-      "options": {
-        "1": "Green – Orange – Violet – Gold",
-        "2": "Yellow – Green – Violet – Gold",
-        "3": "Yellow – Violet – Orange – Silver",
-        "4": "Violet – Yellow – Orange – Silver"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q92",
-      "number": 92,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Genetics",
-      "stem": "A set of ‘n’ equal resistors, of value ‘R’ each, are connected in series to a battery of emf ‘E’ and internal resistance ‘R’. The current drawn is I. Now, the ‘n’ resistors are connected in parallel to the same battery. Then the current drawn from battery becomes 10 I. The value of ‘n’ is",
-      "options": {
-        "1": "9",
-        "2": "20",
-        "3": "11",
-        "4": "10"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2018-AA-Q93",
-      "number": 93,
+      "number": 157,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "A battery consists of a variable number ‘n’ of identical cells (having internal resistance ‘r’ each) which are connected in series. The terminals of the battery are short-circuited and the current I is measured. Which of the graphs shows the correct relationship between I and n ? OUGH WORK English → ^ ^ ^",
       "options": {
         "1": "[Option 1 incomplete in source PDF]",
@@ -2013,7 +3375,7 @@
     },
     {
       "id": "2018-AA-Q94",
-      "number": 94,
+      "number": 158,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2034,7 +3396,7 @@
     },
     {
       "id": "2018-AA-Q95",
-      "number": 95,
+      "number": 159,
       "subject": "Biology",
       "section": "A",
       "topic": "Cell Biology",
@@ -2055,10 +3417,10 @@
     },
     {
       "id": "2018-AA-Q96",
-      "number": 96,
+      "number": 160,
       "subject": "Biology",
       "section": "A",
-      "topic": "Respiration",
+      "topic": "Cell Biology",
       "stem": "What is the role of NAD in cellular respiration ?",
       "options": {
         "1": "It is a nucleotide source for ATP synthesis.",
@@ -2076,10 +3438,10 @@
     },
     {
       "id": "2018-AA-Q97",
-      "number": 97,
+      "number": 161,
       "subject": "Biology",
       "section": "A",
-      "topic": "Biology General",
+      "topic": "Botany",
       "stem": "In which of the following forms is iron absorbed by plants ?",
       "options": {
         "1": "Free element",
@@ -2097,10 +3459,10 @@
     },
     {
       "id": "2018-AA-Q98",
-      "number": 98,
+      "number": 162,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "In India, the organisation responsible for assessing the safety of introducing genetically modified organisms for public use is",
       "options": {
         "1": "Indian Council of Medical Research (ICMR)",
@@ -2117,73 +3479,8 @@
       "multiCorrect": false
     },
     {
-      "id": "2018-AA-Q99",
-      "number": 99,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "A student measured the diameter of a small steel ball using a screw gauge of least count 0·001 cm. The main scale reading is 5 mm and zero of circular scale division coincides with 25 divisions above the reference level. If screw gauge has a zero error of – 0·004 cm, the correct diameter of the ball is",
-      "options": {
-        "1": "0·529 cm",
-        "2": "0·053 cm",
-        "3": "0·525 cm",
-        "4": "0·521 cm"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q100",
-      "number": 100,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "A toy car with charge q moves on a frictionless horizontal plane surface under the influence of a → → uniform electric field E . Due to the force q E , its velocity increases from 0 to 6 m/s in one second duration. At that instant the direction of the field is reversed. The car continues to move for two more seconds under the influence of this field. The average velocity and the average speed of the toy car between 0 to 3 seconds are respectively",
-      "options": {
-        "1": "1·5 m/s, 3 m/s",
-        "2": "1 m/s, 3·5 m/s",
-        "3": "1 m/s, 3 m/s",
-        "4": "2 m/s, 4 m/s"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q101",
-      "number": 101,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "A block of mass m is placed on a smooth inclined wedge ABC of inclination θ as shown in the figure. The wedge is given an acceleration ‘a’ towards the right. The relation between a and θ for the block to remain stationary on the wedge is",
-      "options": {
-        "1": "a = g tan θ",
-        "2": "a = g cos θ g",
-        "3": "a= sin θ g",
-        "4": "a= cosec θ OUGH WORK English"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false,
-      "figureSrc": "/figures/2018-AA-Q101.svg",
-      "figureKind": "missing-placeholder"
-    },
-    {
       "id": "2018-AA-Q102",
-      "number": 102,
+      "number": 163,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2204,7 +3501,7 @@
     },
     {
       "id": "2018-AA-Q103",
-      "number": 103,
+      "number": 164,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2224,134 +3521,8 @@
       "multiCorrect": false
     },
     {
-      "id": "2018-AA-Q104",
-      "number": 104,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "Which of the following pairs is wrongly matched ?",
-      "options": {
-        "1": "XO type sex : Grasshopper determination",
-        "2": "ABO blood grouping : Co-dominance",
-        "3": "Starch synthesis in pea : Multiple alleles",
-        "4": "T.H. Morgan : Linkage"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q105",
-      "number": 105,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "Select the correct statement :",
-      "options": {
-        "1": "Spliceosomes take part in translation.",
-        "2": "Punnett square was developed by a British scientist.",
-        "3": "Franklin Stahl coined the term ‘‘linkage’’.",
-        "4": "Transduction was discovered by S. Altman."
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q106",
-      "number": 106,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "The ratio of kinetic energy to the total energy of an electron in a Bohr orbit of the hydrogen atom, is",
-      "options": {
-        "1": "1:–2",
-        "2": "2:–1",
-        "3": "1:–1",
-        "4": "1:1"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q107",
-      "number": 107,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "An electron of mass m with an initial velocity → ^ V = V0 i (V0 > 0) enters an electric field → ^ E = – E0 i (E0 = constant > 0) at t = 0. If λ0 is its de-Broglie wavelength initially, then its de-Broglie wavelength at time t is",
-      "options": {
-        "1": "λ0",
-        "2": "λ0 t ⎛ eE0 ⎞",
-        "3": "λ0 ⎜⎜ 1 + t ⎟⎟ ⎝ mV0 ⎠ λ0",
-        "4": "⎛ eE0 ⎞ ⎜1 + t⎟ ⎜ mV0 ⎟⎠ ⎝"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q108",
-      "number": 108,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "When the light of frequency 2v0 (where v0 is threshold frequency), is incident on a metal plate, the maximum velocity of electrons emitted is v1. When the frequency of the incident radiation is increased to 5v0, the maximum velocity of electrons emitted from the same plate is v2. The ratio of v1 to v2 is",
-      "options": {
-        "1": "2:1",
-        "2": "4:1",
-        "3": "1:4",
-        "4": "1:2"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q109",
-      "number": 109,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "For a radioactive material, half-life is 10 minutes. If initially there are 600 number of nuclei, the time taken (in minutes) for the disintegration of 450 nuclei is",
-      "options": {
-        "1": "15",
-        "2": "30",
-        "3": "10",
-        "4": "20 OUGH WORK English"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2018-AA-Q110",
-      "number": 110,
+      "number": 165,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2372,7 +3543,7 @@
     },
     {
       "id": "2018-AA-Q111",
-      "number": 111,
+      "number": 166,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2392,32 +3563,11 @@
       "multiCorrect": false
     },
     {
-      "id": "2018-AA-Q112",
-      "number": 112,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Plant Reproduction",
-      "stem": "Which of the following flowers only once in its life-time ?",
-      "options": {
-        "1": "Bamboo species",
-        "2": "Papaya",
-        "3": "Mango",
-        "4": "Jackfruit OUGH WORK English"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2018-AA-Q113",
-      "number": 113,
+      "number": 167,
       "subject": "Biology",
       "section": "A",
-      "topic": "Photosynthesis",
+      "topic": "Botany",
       "stem": "Which of the following is not a product of light reaction of photosynthesis ?",
       "options": {
         "1": "ATP",
@@ -2434,92 +3584,8 @@
       "multiCorrect": false
     },
     {
-      "id": "2018-AA-Q114",
-      "number": 114,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "Unpolarised light is incident from air on a plane surface of a material of refractive index ‘μ’. At a particular angle of incidence ‘i’, it is found that the reflected and refracted rays are perpendicular to each other. Which of the following options is correct for this situation ? –1 ⎛ 1 ⎞",
-      "options": {
-        "1": "i = tan ⎜⎜ ⎟⎟ ⎝μ⎠ –1 ⎛ 1 ⎞",
-        "2": "i = sin ⎜⎜ ⎟⎟ ⎝μ⎠",
-        "3": "Reflected light is polarised with its electric vector perpendicular to the plane of incidence",
-        "4": "Reflected light is polarised with its electric vector parallel to the plane of incidence"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q115",
-      "number": 115,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "In Young’s double slit experiment the separation d between the slits is 2 mm, the wavelength λ of the light used is 5896 Å and distance D between the screen and slits is 100 cm. It is found that the angular width of the fringes is 0·20°. To increase the fringe angular width to 0·21° (with same λ and D) the separation between the slits needs to be changed to",
-      "options": {
-        "1": "1·7 mm",
-        "2": "2·1 mm",
-        "3": "1·9 mm",
-        "4": "1·8 mm"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q116",
-      "number": 116,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "An astronomical refracting telescope will have large angular magnification and high angular resolution, when it has an objective lens of",
-      "options": {
-        "1": "small focal length and small diameter",
-        "2": "large focal length and large diameter",
-        "3": "large focal length and small diameter",
-        "4": "small focal length and large diameter OUGH WORK English"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q117",
-      "number": 117,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "The two functional groups characteristic of sugars are",
-      "options": {
-        "1": "carbonyl and phosphate",
-        "2": "carbonyl and methyl",
-        "3": "hydroxyl and methyl",
-        "4": "carbonyl and hydroxyl"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2018-AA-Q118",
-      "number": 118,
+      "number": 168,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2539,113 +3605,8 @@
       "multiCorrect": false
     },
     {
-      "id": "2018-AA-Q119",
-      "number": 119,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "The Golgi complex participates in",
-      "options": {
-        "1": "Respiration in bacteria",
-        "2": "Formation of secretory vesicles",
-        "3": "Fatty acid breakdown",
-        "4": "Activation of amino acid"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q120",
-      "number": 120,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "A metallic rod of mass per unit length –1 0·5 kg m is lying horizontally on a smooth inclined plane which makes an angle of 30° with the horizontal. The rod is not allowed to slide down by flowing a current through it when a magnetic field of induction 0·25 T is acting on it in the vertical direction. The current flowing in the rod to keep it stationary is",
-      "options": {
-        "1": "11·32 A",
-        "2": "14·76 A",
-        "3": "5·98 A",
-        "4": "7·14 A"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q121",
-      "number": 121,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "An inductor 20 mH, a capacitor 100 μF and a resistor 50 Ω are connected in series across a source of emf, V = 10 sin 314 t. The power loss in the circuit is",
-      "options": {
-        "1": "1·13 W",
-        "2": "2·74 W",
-        "3": "0·43 W",
-        "4": "0·79 W"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q122",
-      "number": 122,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "A thin diamagnetic rod is placed vertically between the poles of an electromagnet. When the current in the electromagnet is switched on, then the diamagnetic rod is pushed up, out of the horizontal magnetic field. Hence the rod gains gravitational potential energy. The work required to do this comes from",
-      "options": {
-        "1": "the induced electric field due to the changing magnetic field",
-        "2": "the lattice structure of the material of the rod",
-        "3": "the magnetic field",
-        "4": "the current source"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q123",
-      "number": 123,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "Current sensitivity of a moving coil galvanometer is 5 div/mA and its voltage sensitivity (angular deflection per unit voltage applied) is 20 div/V. The resistance of the galvanometer is",
-      "options": {
-        "1": "500 Ω",
-        "2": "250 Ω",
-        "3": "25 Ω",
-        "4": "40 Ω OUGH WORK English"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2018-AA-Q124",
-      "number": 124,
+      "number": 169,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2666,7 +3627,7 @@
     },
     {
       "id": "2018-AA-Q125",
-      "number": 125,
+      "number": 170,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2687,7 +3648,7 @@
     },
     {
       "id": "2018-AA-Q126",
-      "number": 126,
+      "number": 171,
       "subject": "Biology",
       "section": "A",
       "topic": "Cell Biology",
@@ -2708,10 +3669,10 @@
     },
     {
       "id": "2018-AA-Q127",
-      "number": 127,
+      "number": 172,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Herbarium i. It is a place having a collection of preserved plants and animals. b. Key ii. A list that enumerates methodically all the species found in an area with brief description aiding identification. c. Museum iii. Is a place where dried and pressed plant specimens mounted on sheets are kept. d. Catalogue iv. A booklet containing a list of characters and their alternates which are helpful in identification of various taxa. a b c d",
       "options": {
         "1": "i iv iii ii",
@@ -2728,94 +3689,8 @@
       "multiCorrect": false
     },
     {
-      "id": "2018-AA-Q128",
-      "number": 128,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "The kinetic energies of a planet in an elliptical orbit about the Sun, at positions A, B and C are KA, KB and KC, respectively. AC is the major axis and SB is perpendicular to AC at the position of the Sun S as shown in the figure. Then",
-      "options": {
-        "1": "KB > KA > K C",
-        "2": "KB < KA < K C",
-        "3": "KA > KB > K C",
-        "4": "KA < KB < K C"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false,
-      "figureSrc": "/figures/2018-AA-Q128.svg",
-      "figureKind": "missing-placeholder"
-    },
-    {
-      "id": "2018-AA-Q129",
-      "number": 129,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "A solid sphere is in rolling motion. In rolling motion a body possesses translational kinetic energy (Kt) as well as rotational kinetic energy (Kr) simultaneously. The ratio Kt : (Kt + Kr) for the sphere is",
-      "options": {
-        "1": "2:5",
-        "2": "10 : 7",
-        "3": "5:7",
-        "4": "7 : 10"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q130",
-      "number": 130,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "If the mass of the Sun were ten times smaller and the universal gravitational constant were ten times larger in magnitude, which of the following is not correct ?",
-      "options": {
-        "1": "‘g’ on the Earth will not change.",
-        "2": "Time period of a simple pendulum on the Earth would decrease.",
-        "3": "Walking on the ground would become more difficult.",
-        "4": "Raindrops will fall faster."
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q131",
-      "number": 131,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "A solid sphere is rotating freely about its symmetry axis in free space. The radius of the sphere is increased keeping its mass same. Which of the following physical quantities would remain constant for the sphere ?",
-      "options": {
-        "1": "Angular momentum",
-        "2": "Rotational kinetic energy",
-        "3": "Moment of inertia",
-        "4": "Angular velocity OUGH WORK English"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2018-AA-Q132",
-      "number": 132,
+      "number": 173,
       "subject": "Biology",
       "section": "A",
       "topic": "Cell Biology",
@@ -2836,10 +3711,10 @@
     },
     {
       "id": "2018-AA-Q133",
-      "number": 133,
+      "number": 174,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Herbarium i. It is a place having a collection of preserved plants and animals. b. Key ii. A list that enumerates methodically all the species found in an area with brief description aiding identification. c. Museum iii. Is a place where dried and pressed plant specimens mounted on sheets are kept. d. Catalogue iv. A booklet containing a list of characters and their alternates which are helpful in identification of various taxa. a b c d",
       "options": {
         "1": "ii iv iii i",
@@ -2857,10 +3732,10 @@
     },
     {
       "id": "2018-AA-Q134",
-      "number": 134,
+      "number": 175,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Herbarium i. It is a place having a collection of preserved plants and animals. b. Key ii. A list that enumerates methodically all the species found in an area with brief description aiding identification. c. Museum iii. Is a place where dried and pressed plant specimens mounted on sheets are kept. d. Catalogue iv. A booklet containing a list of characters and their alternates which are helpful in identification of various taxa. a b c d",
       "options": {
         "1": "i iv iii ii",
@@ -2878,7 +3753,7 @@
     },
     {
       "id": "2018-AA-Q135",
-      "number": 135,
+      "number": 176,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2899,7 +3774,7 @@
     },
     {
       "id": "2018-AA-Q136",
-      "number": 136,
+      "number": 177,
       "subject": "Biology",
       "section": "A",
       "topic": "Biology General",
@@ -2919,349 +3794,11 @@
       "multiCorrect": false
     },
     {
-      "id": "2018-AA-Q137",
-      "number": 137,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "Match the metal ions given in Column I with the spin magnetic moments of the ions given in Column II and assign the correct code : Column I Column II 3+ a. Co i. 8 B.M. 3+ b. Cr ii. 35 B.M. 3+ c. Fe iii. 3 B.M. 2+ d. Ni iv. 24 B.M. v. 15 B.M. a b c d",
-      "options": {
-        "1": "iii v i ii",
-        "2": "iv i ii iii",
-        "3": "i ii iii iv",
-        "4": "iv v ii i"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q138",
-      "number": 138,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "In the structure of ClF3, the number of lone pairs of electrons on central atom ‘Cl’ is",
-      "options": {
-        "1": "one",
-        "2": "two",
-        "3": "four",
-        "4": "three"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q139",
-      "number": 139,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "The geometry and magnetic behaviour of the complex [Ni(CO)4] are",
-      "options": {
-        "1": "tetrahedral geometry and paramagnetic",
-        "2": "square planar geometry and paramagnetic",
-        "3": "tetrahedral geometry and diamagnetic",
-        "4": "square planar geometry and diamagnetic"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q140",
-      "number": 140,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "Unpolarised light is incident from air on a plane surface of a material of refractive index ‘μ’. At a particular angle of incidence ‘i’, it is found that the reflected and refracted rays are perpendicular to each other. Which of the following options is correct for this situation ?",
-      "options": {
-        "1": "Reflected light is polarised with its electric vector parallel to the plane of incidence –1 ⎛ 1 ⎞",
-        "2": "i = tan ⎜⎜ ⎟⎟ ⎝μ⎠ –1 ⎛ 1 ⎞",
-        "3": "i = sin ⎜⎜ ⎟⎟ ⎝μ⎠",
-        "4": "Reflected light is polarised with its electric vector perpendicular to the plane of incidence"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q141",
-      "number": 141,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "In Young’s double slit experiment the separation d between the slits is 2 mm, the wavelength λ of the light used is 5896 Å and distance D between the screen and slits is 100 cm. It is found that the angular width of the fringes is 0·20°. To increase the fringe angular width to 0·21° (with same λ and D) the separation between the slits needs to be changed to",
-      "options": {
-        "1": "1·8 mm",
-        "2": "1·7 mm",
-        "3": "2·1 mm",
-        "4": "1·9 mm"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q142",
-      "number": 142,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "An astronomical refracting telescope will have large angular magnification and high angular resolution, when it has an objective lens of",
-      "options": {
-        "1": "small focal length and large diameter",
-        "2": "small focal length and small diameter",
-        "3": "large focal length and large diameter",
-        "4": "large focal length and small diameter OUGH WORK English"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q143",
-      "number": 143,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "For the redox reaction – + 2+ Mn O 4– + C2 O42 + H ⎯⎯→ Mn + CO2 + H2O the correct coefficients of the reactants for the balanced equation are + Mn O 4– C 2O 2 – H 4",
-      "options": {
-        "1": "5 16 2",
-        "2": "2 16 5",
-        "3": "2 5 16",
-        "4": "16 5 2"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q144",
-      "number": 144,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "The correction factor ‘a’ to the ideal gas equation corresponds to",
-      "options": {
-        "1": "forces of attraction between the gas molecules",
-        "2": "electric field present between the gas molecules",
-        "3": "volume of the gas molecules",
-        "4": "density of the gas molecules"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q145",
-      "number": 145,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "Which one of the following conditions will favour maximum formation of the product in the reaction, A2 (g) + B2 (g) λ X2 (g) ΔrH = – X kJ ?",
-      "options": {
-        "1": "High temperature and low pressure",
-        "2": "High temperature and high pressure",
-        "3": "Low temperature and low pressure",
-        "4": "Low temperature and high pressure"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q146",
-      "number": 146,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "Following solutions were prepared by mixing different volumes of NaOH and HCl of different concentrations : M M a. 60 mL HCl + 40 mL NaOH 10 10 M M b. 55 mL HCl + 45 mL NaOH 10 10 M M c. 75 mL HCl + 25 mL NaOH 5 5 M M d. 100 mL HCl + 100 mL NaOH 10 10 pH of which one of them will be equal to 1 ?",
-      "options": {
-        "1": "b",
-        "2": "a",
-        "3": "d",
-        "4": "c"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q147",
-      "number": 147,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "A moving block having mass m, collides with another stationary block having mass 4m. The lighter block comes to rest after collision. When the initial velocity of the lighter block is v, then the value of coefficient of restitution (e) will be",
-      "options": {
-        "1": "0·5",
-        "2": "0·4",
-        "3": "0·8",
-        "4": "0·25"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q148",
-      "number": 148,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "A body initially at rest and sliding along a frictionless track from a height h (as shown in the figure) just completes a vertical circle of diameter AB = D. The height h is equal to 3",
-      "options": {
-        "1": "D 2 5",
-        "2": "D 4 7",
-        "3": "D 5",
-        "4": "D"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false,
-      "figureSrc": "/figures/2018-AA-Q148.svg",
-      "figureKind": "missing-placeholder"
-    },
-    {
-      "id": "2018-AA-Q149",
-      "number": 149,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "Three objects, A : (a solid sphere), B : (a thin circular disk) and C : (a circular ring), each have the same mass M and radius R. They all spin with the same angular speed ω about their own symmetry axes. The amounts of work (W) required to bring them to rest, would satisfy the relation",
-      "options": {
-        "1": "WC > WB > WA",
-        "2": "WA > WC > WB",
-        "3": "WB > WA > WC",
-        "4": "WA > WB > WC"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q150",
-      "number": 150,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "Which one of the following statements is incorrect ?",
-      "options": {
-        "1": "Rolling friction is smaller than sliding friction.",
-        "2": "Coefficient of sliding friction has dimensions of length.",
-        "3": "Frictional force opposes the relative motion.",
-        "4": "Limiting value of static friction is directly proportional to normal reaction. OUGH WORK English"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q151",
-      "number": 151,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "The correct difference between first- and second-order reactions is that",
-      "options": {
-        "1": "the rate of a first-order reaction does depend on reactant concentrations; the rate of a second-order reaction does not depend on reactant concentrations",
-        "2": "a first-order reaction can be catalyzed; a second-order reaction cannot be catalyzed",
-        "3": "the half-life of a first-order reaction does not depend on [A]0; the half-life of a second-order reaction does depend on [A] 0",
-        "4": "the rate of a first-order reaction does not depend on reactant concentrations; the rate of a second-order reaction does depend on reactant concentrations"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q152",
-      "number": 152,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "Which of the following organisms are known as chief producers in the oceans ?",
-      "options": {
-        "1": "Cyanobacteria",
-        "2": "Diatoms",
-        "3": "Dinoflagellates",
-        "4": "Euglenoids OUGH WORK English"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2018-AA-Q153",
-      "number": 153,
+      "number": 178,
       "subject": "Biology",
       "section": "A",
-      "topic": "Biology General",
+      "topic": "Ecology & Evolution",
       "stem": "Consider the change in oxidation state of Bromine corresponding to different emf values as shown in the diagram below : Then the species undergoing disproportionation is",
       "options": {
         "1": "HBrO",
@@ -3278,239 +3815,8 @@
       "multiCorrect": false
     },
     {
-      "id": "2018-AA-Q154",
-      "number": 154,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "In which case is the number of molecules of water maximum ? –3",
-      "options": {
-        "1": "10 mol of water",
-        "2": "0·00224 L of water vapours at 1 atm and 273 K",
-        "3": "0·18 g of water",
-        "4": "18 mL of water OUGH WORK English"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q155",
-      "number": 155,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Genetics",
-      "stem": "A battery consists of a variable number ‘n’ of identical cells (having internal resistance ‘r’ each) which are connected in series. The terminals of the battery are short-circuited and the current I is measured. Which of the graphs shows the correct relationship between I and n ?",
-      "options": {
-        "1": "[Option 1 incomplete in source PDF]",
-        "2": "[Option 2 incomplete in source PDF]",
-        "3": "[Option 3 incomplete in source PDF]",
-        "4": "[Option 4 incomplete in source PDF]"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q156",
-      "number": 156,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "A carbon resistor of (47 ± 4·7) kΩ is to be marked with rings of different colours for its identification. The colour code sequence will be",
-      "options": {
-        "1": "Violet – Yellow – Orange – Silver",
-        "2": "Green – Orange – Violet – Gold",
-        "3": "Yellow – Green – Violet – Gold",
-        "4": "Yellow – Violet – Orange – Silver"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q157",
-      "number": 157,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Genetics",
-      "stem": "A set of ‘n’ equal resistors, of value ‘R’ each, are connected in series to a battery of emf ‘E’ and internal resistance ‘R’. The current drawn is I. Now, the ‘n’ resistors are connected in parallel to the same battery. Then the current drawn from battery becomes 10 I. The value of ‘n’ is",
-      "options": {
-        "1": "10",
-        "2": "9",
-        "3": "20",
-        "4": "11 OUGH WORK English"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q158",
-      "number": 158,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "All of the following are part of an operon except",
-      "options": {
-        "1": "an enhancer",
-        "2": "structural genes",
-        "3": "an operator",
-        "4": "a promoter"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q159",
-      "number": 159,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "A mixture of 2·3 g formic acid and 4·5 g oxalic acid is treated with conc. H2SO4. The evolved gaseous mixture is passed through KOH pellets. Weight (in g) of the remaining product at STP will be",
-      "options": {
-        "1": "4·4",
-        "2": "2·8",
-        "3": "3·0",
-        "4": "1·4"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q160",
-      "number": 160,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "Magnesium reacts with an element (X) to form an ionic compound. If the ground state electronic 2 2 3 configuration of (X) is 1s 2s 2p , the simplest formula for this compound is",
-      "options": {
-        "1": "Mg2X3",
-        "2": "MgX2",
-        "3": "Mg2X",
-        "4": "Mg3X2"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q161",
-      "number": 161,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "Iron exhibits bcc structure at room temperature. Above 900°C, it transforms to fcc structure. The ratio of density of iron at room temperature to that at 900°C (assuming molar mass and atomic radii of iron remains constant with temperature) is 3",
-      "options": {
-        "1": "2 4 3",
-        "2": "3 2 3 3",
-        "3": "4 2 1",
-        "4": "2"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q162",
-      "number": 162,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Proliferative Phase i. Breakdown of endometrial lining b. Secretory Phase ii. Follicular Phase c. Menstruation iii. Luteal Phase a b c",
-      "options": {
-        "1": "ii iii i",
-        "2": "i iii ii",
-        "3": "iii ii i",
-        "4": "iii i ii OUGH WORK English"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q163",
-      "number": 163,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "For a radioactive material, half-life is 10 minutes. If initially there are 600 number of nuclei, the time taken (in minutes) for the disintegration of 450 nuclei is",
-      "options": {
-        "1": "20",
-        "2": "15",
-        "3": "30",
-        "4": "10"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q164",
-      "number": 164,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "When the light of frequency 2v0 (where v0 is threshold frequency), is incident on a metal plate, the maximum velocity of electrons emitted is v1. When the frequency of the incident radiation is increased to 5v0, the maximum velocity of electrons emitted from the same plate is v2. The ratio of v1 to v2 is",
-      "options": {
-        "1": "1:2",
-        "2": "2:1",
-        "3": "4:1",
-        "4": "1:4 OUGH WORK English"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
       "id": "2018-AA-Q165",
-      "number": 165,
+      "number": 179,
       "subject": "Biology",
       "section": "A",
       "topic": "Cell Biology",
@@ -3530,307 +3836,11 @@
       "multiCorrect": false
     },
     {
-      "id": "2018-AA-Q166",
-      "number": 166,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Human Physiology",
-      "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Fibrinogen i. Osmotic balance b. Globulin ii. Blood clotting c. Albumin iii. Defence mechanism a b c",
-      "options": {
-        "1": "i iii ii",
-        "2": "i ii iii",
-        "3": "iii ii i",
-        "4": "ii iii i"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q167",
-      "number": 167,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "The correct difference between first- and second-order reactions is that",
-      "options": {
-        "1": "the rate of a first-order reaction does not depend on reactant concentrations; the rate of a second-order reaction does depend on reactant concentrations",
-        "2": "the half-life of a first-order reaction does not depend on [A]0; the half-life of a second-order reaction does depend on [A]0",
-        "3": "a first-order reaction can be catalyzed; a second-order reaction cannot be catalyzed",
-        "4": "the rate of a first-order reaction does depend on reactant concentrations; the rate of a second-order reaction does not depend on reactant concentrations"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q168",
-      "number": 168,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "Magnesium reacts with an element (X) to form an ionic compound. If the ground state electronic 2 2 3 configuration of (X) is 1s 2s 2p , the simplest formula for this compound is",
-      "options": {
-        "1": "Mg3X2",
-        "2": "Mg2X",
-        "3": "MgX2",
-        "4": "Mg2X3"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q169",
-      "number": 169,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "Iron exhibits bcc structure at room temperature. Above 900°C, it transforms to fcc structure. The ratio of density of iron at room temperature to that at 900°C (assuming molar mass and atomic radii of iron remains constant with temperature) is 1",
-      "options": {
-        "1": "2 3 3",
-        "2": "4 2 4 3",
-        "3": "3 2 3",
-        "4": "2"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q170",
-      "number": 170,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "The fundamental frequency in an open organ pipe is equal to the third harmonic of a closed organ pipe. If the length of the closed organ pipe is 20 cm, the length of the open organ pipe is",
-      "options": {
-        "1": "13·2 cm",
-        "2": "16 cm",
-        "3": "12·5 cm",
-        "4": "8 cm"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q171",
-      "number": 171,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "At what temperature will the rms speed of oxygen molecules become just sufficient for escaping from the Earth’s atmosphere ? (Given : –26 Mass of oxygen molecule (m) = 2·76 × 10 kg –23 –1 Boltzmann’s constant kB = 1·38 × 10 JK ) 4",
-      "options": {
-        "1": "2·508 × 10 K 4",
-        "2": "1·254 × 10 K 4",
-        "3": "5·016 × 10 K 4",
-        "4": "8·360 × 10 K"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q172",
-      "number": 172,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "The efficiency of an ideal heat engine working between the freezing point and boiling point of water, is",
-      "options": {
-        "1": "26·8%",
-        "2": "12·5%",
-        "3": "6·25%",
-        "4": "20% OUGH WORK English"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q173",
-      "number": 173,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "[PLACEHOLDER] NEET 2018 Question 173 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-      "options": {
-        "1": "Placeholder option 1",
-        "2": "Placeholder option 2",
-        "3": "Placeholder option 3",
-        "4": "Placeholder option 4"
-      },
-      "correctOption": "1",
-      "placeholder": true,
-      "answerEstimated": false,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q174",
-      "number": 174,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "[PLACEHOLDER] NEET 2018 Question 174 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-      "options": {
-        "1": "Placeholder option 1",
-        "2": "Placeholder option 2",
-        "3": "Placeholder option 3",
-        "4": "Placeholder option 4"
-      },
-      "correctOption": "1",
-      "placeholder": true,
-      "answerEstimated": false,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q175",
-      "number": 175,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Human Health & Disease",
-      "stem": "In which disease does mosquito transmitted pathogen cause chronic inflammation of lymphatic vessels ?",
-      "options": {
-        "1": "Ringworm disease",
-        "2": "Ascariasis",
-        "3": "Elephantiasis",
-        "4": "Amoebiasis"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q176",
-      "number": 176,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "For the redox reaction – + 2+ Mn O 4– + C2 O42 + H ⎯⎯→ Mn + CO2 + H2O the correct coefficients of the reactants for the balanced equation are + Mn O 4– C 2O 2 – H 4",
-      "options": {
-        "1": "16 5 2",
-        "2": "2 5 16",
-        "3": "2 16 5",
-        "4": "5 16 2"
-      },
-      "correctOption": "4",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "4"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q177",
-      "number": 177,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "A solid sphere is rotating freely about its symmetry axis in free space. The radius of the sphere is increased keeping its mass same. Which of the following physical quantities would remain constant for the sphere ?",
-      "options": {
-        "1": "Angular velocity",
-        "2": "Angular momentum",
-        "3": "Rotational kinetic energy",
-        "4": "Moment of inertia"
-      },
-      "correctOption": "1",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "1"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q178",
-      "number": 178,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "A solid sphere is in rolling motion. In rolling motion a body possesses translational kinetic energy (Kt) as well as rotational kinetic energy (Kr) simultaneously. The ratio Kt : (Kt + Kr) for the sphere is",
-      "options": {
-        "1": "7 : 10",
-        "2": "2:5",
-        "3": "10 : 7",
-        "4": "5:7"
-      },
-      "correctOption": "2",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "2"
-      ],
-      "multiCorrect": false
-    },
-    {
-      "id": "2018-AA-Q179",
-      "number": 179,
-      "subject": "Biology",
-      "section": "A",
-      "topic": "Biology General",
-      "stem": "The kinetic energies of a planet in an elliptical orbit about the Sun, at positions A, B and C are KA, KB and KC, respectively. AC is the major axis and SB is perpendicular to AC at the position of the Sun S as shown in the figure. Then",
-      "options": {
-        "1": "KA < KB < K C",
-        "2": "KB > KA > K C",
-        "3": "KB < KA < K C",
-        "4": "KA > KB > K C"
-      },
-      "correctOption": "3",
-      "placeholder": false,
-      "answerEstimated": true,
-      "correctOptions": [
-        "3"
-      ],
-      "multiCorrect": false,
-      "figureSrc": "/figures/2018-AA-Q179.svg",
-      "figureKind": "missing-placeholder"
-    },
-    {
       "id": "2018-AA-Q180",
       "number": 180,
       "subject": "Biology",
       "section": "A",
-      "topic": "Genetics",
+      "topic": "Genetics & Biotech",
       "stem": "Which of the following characteristics represent ‘Inheritance of blood groups’ in humans ? a. Dominance b. Co-dominance c. Multiple allele d. Incomplete dominance e. Polygenic inheritance",
       "options": {
         "1": "b, d and e",

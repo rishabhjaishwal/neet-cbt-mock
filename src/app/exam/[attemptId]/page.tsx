@@ -64,7 +64,13 @@ export default async function ExamPage({
       };
     })
     .filter(Boolean)
-    .sort((a: { number: number } | null, b: { number: number } | null) => a!.number - b!.number) as Array<{
+    .sort((a: { number: number; subject?: string } | null, b: { number: number; subject?: string } | null) => {
+      const order = { Physics: 0, Chemistry: 1, Biology: 2 } as Record<string, number>;
+      const as = order[a!.subject ?? ""] ?? 9;
+      const bs = order[b!.subject ?? ""] ?? 9;
+      if (as !== bs) return as - bs;
+      return a!.number - b!.number;
+    }) as Array<{
     id: string;
     number: number;
     subject: string;

@@ -34,7 +34,7 @@ type PaperFile = {
   }>;
 };
 
-const CONTENT_VERSION = 8;
+const CONTENT_VERSION = 9;
 let syncedVersion = 0;
 
 async function hashPassword(password: string) {
