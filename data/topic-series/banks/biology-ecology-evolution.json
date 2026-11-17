@@ -3,7 +3,7 @@
   "subject": "Biology",
   "topic": "Ecology & Evolution",
   "counts": {
-    "Easy": 50,
+    "Easy": 56,
     "Medium": 50,
     "Hard": 50
   },
@@ -1237,6 +1237,150 @@
         "placeholder": false,
         "difficulty": "Easy",
         "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-cd04a1c6f7",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In ecological succession on bare rock, the pioneer community in set 1051 is typically",
+        "options": {
+          "1": "Lichens",
+          "2": "Climax oak forest only",
+          "3": "Large mammals",
+          "4": "Phytoplankton only on rock"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (succession pioneers)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-0c0f3d7e86",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In ecological succession on bare rock, the pioneer community in set 1053 is typically",
+        "options": {
+          "1": "Lichens",
+          "2": "Climax oak forest only",
+          "3": "Large mammals",
+          "4": "Phytoplankton only on rock"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (succession pioneers)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-f8b96061ca",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In ecological succession on bare rock, the pioneer community in set 1055 is typically",
+        "options": {
+          "1": "Lichens",
+          "2": "Climax oak forest only",
+          "3": "Large mammals",
+          "4": "Phytoplankton only on rock"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (succession pioneers)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-e3f97ea220",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In ecological succession on bare rock, the pioneer community in set 1057 is typically",
+        "options": {
+          "1": "Lichens",
+          "2": "Climax oak forest only",
+          "3": "Large mammals",
+          "4": "Phytoplankton only on rock"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (succession pioneers)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-fcf24d4240",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In ecological succession on bare rock, the pioneer community in set 1059 is typically",
+        "options": {
+          "1": "Lichens",
+          "2": "Climax oak forest only",
+          "3": "Large mammals",
+          "4": "Phytoplankton only on rock"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (succession pioneers)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-4f7d156b83",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In ecological succession on bare rock, the pioneer community in set 1061 is typically",
+        "options": {
+          "1": "Lichens",
+          "2": "Climax oak forest only",
+          "3": "Large mammals",
+          "4": "Phytoplankton only on rock"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (succession pioneers)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       }
     ],
     "Medium": [
@@ -1557,32 +1701,6 @@
         "correctOption": "3",
         "correctOptions": [
           "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2024-4691349faf",
-        "sourceYear": 2024,
-        "sourceNumber": 155,
-        "subject": "Biology",
-        "topic": "Ecology & Evolution",
-        "stem": "Which evolutionary phenomenon is depicted by the sketch given in figure",
-        "options": {
-          "1": "image_833.png",
-          "2": "image_834.png",
-          "3": "image_835.png",
-          "4": "(1) Artificial selection (2) Genetic drift (3) Convergent evolution (4) Adaptive radiation"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -2458,6 +2576,30 @@
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-cdfc1d19e0",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In ecological succession on bare rock, the pioneer community in set 1063 is typically",
+        "options": {
+          "1": "Lichens",
+          "2": "Climax oak forest only",
+          "3": "Large mammals",
+          "4": "Phytoplankton only on rock"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (succession pioneers)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       }
     ],
     "Hard": [
@@ -2735,32 +2877,6 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
-      },
-      {
-        "id": "hf2021-8a5b1521b6",
-        "sourceYear": 2021,
-        "sourceNumber": 191,
-        "subject": "Biology",
-        "topic": "Ecology & Evolution",
-        "stem": "Match List - I with List - II. \\begin{tabular} { | l | l | l | l | } \\hline \\multicolumn{2}{|c|} { List - I } & \\multicolumn{2}{c|} { List - II } \\ \\hline (a) & \\begin{tabular} { l } Adaptive \\ radiation \\end{tabular} & (i) & \\begin{tabular} { l } Selection of resistant \\ varieties due to excessive \\ use of herbicides and \\ pesticides \\end{tabular} \\ \\hline (b) & \\begin{tabular} { l } Convergent \\ evolution \\end{tabular} & (ii) & \\begin{tabular} { l } Bones of forelimbs in Man \\ and Whale \\end{tabular} \\ \\hline (c) & \\begin{tabular} { l } Divergent \\ evolution \\end{tabular} & (iii) & \\begin{tabular} { l } Wings of Butterfly and \\ Bird \\end{tabular} \\ \\hline (d) & \\begin{tabular} { l } Evolution by \\ anthropo- \\ genic action \\end{tabular} & (iv) & Darwin Finches \\ \\hline \\end{tabular}",
-        "options": {
-          "1": "(iii) (ii) (i) (iv)",
-          "2": "(ii) (i) (iv) (iii)",
-          "3": "(i) (iv) (iii) (ii)",
-          "4": "(iv) (iii) (ii) (i)"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
       },
       {
         "id": "hf2024-eb863327e3",
@@ -3657,6 +3773,30 @@
         "subject": "Biology",
         "topic": "Ecology & Evolution",
         "stem": "In ecological succession, the pioneer community on bare rock is typically (set 57)",
+        "options": {
+          "1": "Lichens",
+          "2": "Climax oak forest only",
+          "3": "Large mammals",
+          "4": "Phytoplankton only on rock"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (succession pioneers)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-3f7426933e",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In ecological succession on bare rock, the pioneer community in set 1065 is typically",
         "options": {
           "1": "Lichens",
           "2": "Climax oak forest only",

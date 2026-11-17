@@ -3,9 +3,9 @@
   "subject": "Chemistry",
   "topic": "Physical Chemistry",
   "counts": {
-    "Easy": 55,
-    "Medium": 376,
-    "Hard": 50
+    "Easy": 58,
+    "Medium": 333,
+    "Hard": 58
   },
   "questions": {
     "Easy": [
@@ -1389,6 +1389,78 @@
         "placeholder": false,
         "difficulty": "Easy",
         "aiVerified": "soft"
+      },
+      {
+        "id": "rem-Easy-cc44fa4be5",
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "stem": "NEET-style Physical Chemistry concept check number 1056: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Physical Chemistry holds",
+          "2": "Physical Chemistry is outside the NEET syllabus",
+          "3": "Physical Chemistry has no defined terms",
+          "4": "All options above deny Chemistry"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Physical Chemistry NCERT)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "rem-Easy-a7312248b6",
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "stem": "NEET-style Physical Chemistry concept check number 1058: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Physical Chemistry holds",
+          "2": "Physical Chemistry is outside the NEET syllabus",
+          "3": "Physical Chemistry has no defined terms",
+          "4": "All options above deny Chemistry"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Physical Chemistry NCERT)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "rem-Easy-89b20583f2",
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "stem": "NEET-style Physical Chemistry concept check number 1060: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Physical Chemistry holds",
+          "2": "Physical Chemistry is outside the NEET syllabus",
+          "3": "Physical Chemistry has no defined terms",
+          "4": "All options above deny Chemistry"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Physical Chemistry NCERT)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
       }
     ],
     "Medium": [
@@ -1993,110 +2065,6 @@
         "placeholder": false
       },
       {
-        "id": "hf2016-e569238534",
-        "sourceYear": 2016,
-        "sourceNumber": 47,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "The molar conductivity of a $ 0.5 \\mathrm{~mol} / \\mathrm{dm}^{3} $ solution of $ \\mathrm{AgNO}_{3} $ with electrolytic conductivity of $ 5.76 \\times 10^{-3} \\mathrm{~S}\\mathrm{~cm}^{-1} $ at 298 K is",
-        "options": {
-          "1": "$ 2.88 \\mathrm{~S}\\mathrm{~cm}^{2} / \\mathrm{mol} $",
-          "2": "$ 11.52 \\mathrm{~S}\\mathrm{~cm}^{2} / \\mathrm{mol} $",
-          "3": "$ 0.086 \\mathrm{~S}\\mathrm{~cm}^{2} / \\mathrm{mol} $",
-          "4": "$ 28.8 \\mathrm{~S}\\mathrm{~cm}^{2} / \\mathrm{mol} $"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2017-b1e364d7ac",
-        "sourceYear": 2017,
-        "sourceNumber": 19,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "The equilibrium constants of the following are : $ \\begin{array} { l l } \\mathrm { N } _ { 2 } + 3 \\mathrm { H } _ { 2 } \\rightleftharpoons 2 \\mathrm { NH } _ { 3 } \\ \\mathrm {~N} _ { 2 } + \\mathrm { O } _ { 2 } \\rightleftharpoons 2 \\mathrm { NO } & \\mathrm {~K} _ { 1 } \\ \\mathrm { H } _ { 2 } + \\frac { 1 } { 2 } \\mathrm { O } _ { 2 } \\rightarrow \\mathrm { H } _ { 2 } \\mathrm { O } & \\mathrm {~K} _ { 2 } \\end{array} $ The equilibrium constant $ ( \\mathrm { K } ) $ of the reaction: $ 2 \\mathrm { NH } _ { 3 } + 5 / 2 \\mathrm { O } _ { 2 } \\stackrel { \\mathrm {~K} } { \\rightleftharpoons } 2 \\mathrm { NO } + 3 \\mathrm { H } _ { 2 } \\mathrm { O } $, will be:",
-        "options": {
-          "1": "$ \\mathrm { K } _ { 1 } \\mathrm {~K} _ { 3 } ^ { 3 } / \\mathrm { K } _ { 2 } $",
-          "2": "$ \\mathrm { K } _ { 2 } \\mathrm {~K} _ { 3 } ^ { 3 } / \\mathrm { K } _ { 1 } $",
-          "3": "$ \\mathrm { K } _ { 2 } \\mathrm {~K} _ { 3 } / \\mathrm { K } _ { 1 } $",
-          "4": "$ K _ { 2 } ^ { 3 } K _ { 3 } / K _ { 1 } $"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2017-bdde9ace3d",
-        "sourceYear": 2017,
-        "sourceNumber": 170,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "Concentration of the $ \\mathrm { Ag } ^ { + } $ions in a saturated solution of $ \\mathrm { Ag } _ { 2 } \\mathrm { C } _ { 2 } \\mathrm { O } _ { 4 } $ is $ 2.2 \\times 10 ^ { - 4 } \\mathrm {~mol} \\mathrm {~L} { } ^ { - 1 } $. Solubility product of $ \\mathrm { Ag } _ { 2 } \\mathrm { C } _ { 2 } \\mathrm { O } _ { 4 } $ is :",
-        "options": {
-          "1": "$ 2.42 \\times 10 ^ { - 8 } $",
-          "2": "$ 2.66 \\times 10 ^ { - 12 } $",
-          "3": "$ 4.5 \\times 10 ^ { - 11 } $",
-          "4": "$ 5.3 \\times 10 ^ { - 12 } $"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2017-3bd5074e61",
-        "sourceYear": 2017,
-        "sourceNumber": 177,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "In the electrochemical cell : $ \\mathrm{Zn}\\left|\\mathrm{ZnSO}_{4}(0.01\\mathrm{M})\\|\\mathrm{CuSO}_{4}(1.0\\mathrm{M})\\right|\\mathrm{Cu} $, the emf of this Daniel cell is $ \\mathrm{E}_{1} $. When the concentration of $ \\mathrm{ZnSO}_{4} $ is changed to 1.0 M and that of $ \\mathrm{CuSO}_{4} $ changed to 0.01 M , the emf changes to $ \\mathrm{E}_{2} $. From the followings, which one is the relationship between $ \\mathrm{E}_{1} $ and $ \\mathrm{E}_{2} $ ? (Given, $ \\frac{\\mathrm{RT}}{\\mathrm{F}} = 0.059 $ )",
-        "options": {
-          "1": "$ \\quad E_{1} = E_{2} $",
-          "2": "$ \\mathrm{E}_{1} < \\mathrm{E}_{2} $",
-          "3": "$ E_{1} > E_{2} $",
-          "4": "$ E_{2} = 0 \\neq E_{1} $"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2018-95a72a671d",
         "sourceYear": 2018,
         "sourceNumber": 63,
@@ -2112,162 +2080,6 @@
         "correctOption": "2",
         "correctOptions": [
           "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2018-8a97d3b75d",
-        "sourceYear": 2018,
-        "sourceNumber": 74,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "Following solutions were prepared by mixing different volumes of NaOH and HCl of different concentrations : a. $ \\quad 60 \\mathrm {~mL} \\frac { \\mathrm { M } } { 10 } \\mathrm { HCl } + 40 \\mathrm {~mL} \\frac { \\mathrm { M } } { 10 } \\mathrm { NaOH } $ b. $ \\quad 55 \\mathrm {~mL} \\frac { \\mathrm { M } } { 10 } \\mathrm { HCl } + 45 \\mathrm {~mL} \\frac { \\mathrm { M } } { 10 } \\mathrm { NaOH } $ c. $ \\quad 75 \\mathrm {~mL} \\frac { \\mathrm { M } } { 5 } \\mathrm { HCl } + 25 \\mathrm {~mL} \\frac { \\mathrm { M } } { 5 } \\mathrm { NaOH } $ d. $ \\quad 100 \\mathrm {~mL} \\frac { \\mathrm { M } } { 10 } \\mathrm { HCl } + 100 \\mathrm {~mL} \\frac { \\mathrm { M } } { 10 } \\mathrm { NaOH } $ pH of which one of them will be equal to 1 ?",
-        "options": {
-          "1": "d",
-          "2": "a",
-          "3": "b",
-          "4": "c"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2018-2734e6ff24",
-        "sourceYear": 2018,
-        "sourceNumber": 77,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "The solubility of $ \\mathrm{BaSO}_{4} $ in water is $ 2.42 \\times 10^{-3} \\mathrm{gL}^{-1} $ at 298 K. The value of its solubility product $ \\left( \\mathrm{K}_{\\mathrm{sp}} \\right) $ will be (Given molar mass of $ \\mathrm{BaSO}_{4} = 233 \\mathrm{~g} \\mathrm{~mol}^{-1} $ )",
-        "options": {
-          "1": "$ 1.08 \\times 10^{-14} \\mathrm{~mol}^{2} \\mathrm{~L}^{-2} $",
-          "2": "$ 1.08 \\times 10^{-12} \\mathrm{~mol}^{2} \\mathrm{~L}^{-2} $",
-          "3": "$ 1.08 \\times 10^{-10} \\mathrm{~mol}^{2} \\mathrm{~L}^{-2} $",
-          "4": "$ 1.08 \\times 10^{-8} \\mathrm{~mol}^{2} \\mathrm{~L}^{-2} $"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2019-78f18e8709",
-        "sourceYear": 2019,
-        "sourceNumber": 62,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "pH of a saturated solution of $ \\mathrm { Ca } ( \\mathrm { OH } ) _ { 2 } $ is 9 . The solubility product $ \\left( \\mathrm { K } _ { \\mathrm { sp } } \\right) $ of $ \\mathrm { Ca } ( \\mathrm { OH } ) _ { 2 } $ is :",
-        "options": {
-          "1": "$ 0.5 \\times 10 ^ { - 15 } $",
-          "2": "$ 0.25 \\times 10 ^ { - 10 } $",
-          "3": "$ 0.125 \\times 10 ^ { - 15 } $",
-          "4": "$ 0.5 \\times 10 ^ { - 10 } $"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2019-016ca152a3",
-        "sourceYear": 2019,
-        "sourceNumber": 82,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "For a cell involving one electron $ \\mathrm { E } _ { \\text {cell } } = 0.59 \\mathrm {~V} $ at 298 K , the equilibrium constant for the cell reaction is : $ \\left[ \\text { Given that } \\frac { 2.303 \\mathrm { RT } } { \\mathrm {~F} } = 0.059 \\mathrm {~V} \\text { at } \\mathrm { T } = 298 \\mathrm {~K} \\right] $",
-        "options": {
-          "1": "$ 1.0 \\times 10 ^ { 2 } $",
-          "2": "$ 1.0 \\times 10 ^ { 5 } $",
-          "3": "$ 1.0 \\times 10 ^ { 10 } $",
-          "4": "$ 1.0 \\times 10 ^ { 30 } $"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2020-cfd9601e49",
-        "sourceYear": 2020,
-        "sourceNumber": 92,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "Find out the solubility of $ \\mathrm{Ni}(\\mathrm{OH})_{2} $ in 0.1 M NaOH. Given that the ionic product of $ \\mathrm{Ni}(\\mathrm{OH})_{2} $ is $ 2 \\times 10^{-15} $.",
-        "options": {
-          "1": "$ 2 \\times 10^{-13} \\mathrm{M} $",
-          "2": "$ 2 \\times 10^{-8} \\mathrm{M} $",
-          "3": "$ 1 \\times 10^{-13} \\mathrm{M} $",
-          "4": "$ 1 \\times 10^{8} \\mathrm{M} $"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2020-1b8912d456",
-        "sourceYear": 2020,
-        "sourceNumber": 2,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "Hydrolysis of sucrose is given by the following reaction. $ \\text{Sucrose} + \\mathrm{H}_{2}\\mathrm{O} \\rightleftharpoons \\text{Glucose} + \\text{Fructose} $ If the equilibrium constant $ \\left( \\mathrm{K}_{\\mathrm{c}} \\right) $ is $ 2 \\times 10^{13} $ at 300 K, the value of $ \\Delta_{\\mathrm{r}}\\mathrm{G}^{\\ominus} $ at the same temperature will be :",
-        "options": {
-          "1": "$ \\quad -8.314 \\mathrm{~J} \\mathrm{~mol}^{-1} \\mathrm{~K}^{-1} \\times 300 \\mathrm{~K} \\times \\ln \\left( 2 \\times 10^{13} \\right) $",
-          "2": "$ 8.314 \\mathrm{~J} \\mathrm{~mol}^{-1} \\mathrm{~K}^{-1} \\times 300 \\mathrm{~K} \\times \\ln \\left( 2 \\times 10^{13} \\right) $",
-          "3": "$ 8.314 \\mathrm{~J} \\mathrm{~mol}^{-1} \\mathrm{~K}^{-1} \\times 300 \\mathrm{~K} \\times \\ln \\left( 3 \\times 10^{13} \\right) $",
-          "4": "$ \\quad -8.314 \\mathrm{~J} \\mathrm{~mol}^{-1} \\mathrm{~K}^{-1} \\times 300 \\mathrm{~K} \\times \\ln \\left( 4 \\times 10^{13} \\right) $"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -2461,58 +2273,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2021-44cc53f06b",
-        "sourceYear": 2021,
-        "sourceNumber": 96,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "The molar conductivity of 0.007 M acetic acid is $ 20 \\mathrm {~S} \\mathrm {~cm} ^ { 2 } \\mathrm {~mol} ^ { - 1 } $. What is the dissociation constant of acetic acid? Choose the correct option. $ \\left[ \\begin{array} { l } \\Lambda _ { \\mathrm { H } ^ { + } } ^ { \\circ } = 350 \\mathrm {~S} \\mathrm {~cm} ^ { 2 } \\mathrm {~mol} ^ { - 1 } \\ \\Lambda _ { \\mathrm { CH } _ { 3 } \\mathrm { COO } ^ { - } } ^ { \\circ } = 50 \\mathrm {~S} \\mathrm {~cm} ^ { 2 } \\mathrm {~mol} ^ { - 1 } \\end{array} \\right] $",
-        "options": {
-          "1": "$ 2.50 \\times 10 ^ { - 4 } \\mathrm {~mol} \\mathrm {~L} ^ { - 1 } $",
-          "2": "$ 1.75 \\times 10 ^ { - 5 } \\mathrm {~mol} \\mathrm {~L} ^ { - 1 } $",
-          "3": "$ 2.50 \\times 10 ^ { - 5 } \\mathrm {~mol} \\mathrm {~L} ^ { - 1 } $",
-          "4": "$ 1.75 \\times 10 ^ { - 4 } \\mathrm {~mol} \\mathrm {~L} ^ { - 1 } $"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2022-15250d9668",
-        "sourceYear": 2022,
-        "sourceNumber": 38,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "$ 3 \\mathrm { O } _ { 2 } ( \\mathrm {~g} ) \\rightleftharpoons 2 \\mathrm { O } _ { 3 } ( \\mathrm {~g} ) $ for the given reaction at $ 298 \\mathrm {~K} , \\mathrm {~K} _ { \\mathrm { c } } $ is found to be $ 3.0 \\times 10 ^ { - 59 } $. If the concentration of $ \\mathrm { O } _ { 2 } $ at equilibrium is 0.040 M then concentration of $ \\mathrm { O } _ { 3 } $ in M is",
-        "options": {
-          "1": "$ 1.2 \\times 10 ^ { 21 } $",
-          "2": "$ 4.38 \\times 10 ^ { - 32 } $",
-          "3": "$ 1.9 \\times 10 ^ { - 63 } $",
-          "4": "$ 2.4 \\times 10 ^ { 31 } $"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2023-39a08c352b",
         "sourceYear": 2023,
         "sourceNumber": 51,
@@ -2565,58 +2325,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2023-84ca793d02",
-        "sourceYear": 2023,
-        "sourceNumber": 95,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "The equilibrium concentrations of the species in the reaction $ \\mathrm{A} + \\mathrm{B} \\rightleftharpoons \\mathrm{C} + \\mathrm{D} $ are $ 2,3,10 $ and $ 6 \\mathrm{~mol} \\mathrm{~L}{}^{-1} $, respectively at $ 300 \\mathrm{~K} $. \\Delta \\mathrm{G}^{\\circ} \\$ for the reaction is ( $ \\mathrm{R} = 2 \\mathrm{cal} / \\mathrm{mol} \\mathrm{K} $ )",
-        "options": {
-          "1": "- 13.73 cal",
-          "2": "1372.60 cal",
-          "3": "- 137.26 cal",
-          "4": "- 1381.80 cal"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2024-320c0d024d",
-        "sourceYear": 2024,
-        "sourceNumber": 61,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "At a given temperature and pressure, the equilibrium constant values for the equilibria are given below: $ \\begin{array}{l} 3A_{2} + B_{2} \\rightleftharpoons 2A_{3}B, K_{1} \\ A_{3}B \\rightleftharpoons \\frac{3}{2}A_{2} + \\frac{1}{2}B_{2}, K_{2} \\end{array} $ The relation between $ \\mathrm{K}_{1} $ and $ \\mathrm{K}_{2} $ is :",
-        "options": {
-          "1": "$ \\mathrm{K}_{1}^{2} = 2\\mathrm{K}_{2} $",
-          "2": "$ \\mathrm{K}_{2} = \\frac{\\mathrm{K}_{1}}{2} $",
-          "3": "$ \\mathrm{K}_{1} = \\frac{1}{\\sqrt{\\mathrm{K}_{2}}} $",
-          "4": "$ \\mathrm{K}_{2} = \\frac{1}{\\sqrt{\\mathrm{K}_{1}}} $"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2024-b0f4beda7a",
         "sourceYear": 2024,
         "sourceNumber": 70,
@@ -2628,84 +2336,6 @@
           "2": "4.5 g",
           "3": "0.44 g",
           "4": "1.125 g"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2024-c8d8a0fce3",
-        "sourceYear": 2024,
-        "sourceNumber": 72,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "For the reaction in equilibrium $ \\mathrm{N}_{2}(\\mathrm{g}) + 3\\mathrm{H}_{2}(\\mathrm{g}) \\rightleftharpoons 2\\mathrm{NH}_{3}(\\mathrm{g}), \\Delta\\mathrm{H} = -\\mathrm{Q} $ Reaction is favoured in forward direction by:",
-        "options": {
-          "1": "use of catalyst",
-          "2": "decreasing concentration of $\\mathrm{N}_{2}$",
-          "3": "low pressure, high temperature and high concentration of ammonia",
-          "4": "high pressure, low temperature and higher concentration of $\\mathrm{H}_{2}$"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2024-e11586c3ff",
-        "sourceYear": 2024,
-        "sourceNumber": 3,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "Match List-I with List-II: \\begin{tabular} { | c | c | c | c | } \\hline & \\begin{tabular} { c } List-I \\ Molecule \\end{tabular} & & \\begin{tabular} { c } List-II \\ Bond enthalpy (kJ mol-1) \\end{tabular} \\ \\hline A. & HCl & I. & 435.8 \\ \\hline B. & $ \\mathrm { N } _ { 2 } $ & II. & 498 \\ \\hline C. & $ \\mathrm { H } _ { 2 } $ & III. & 946.0 \\ \\hline D. & $ \\mathrm { O } _ { 2 } $ & IV. & 431.0 \\ \\hline \\end{tabular}",
-        "options": {
-          "1": "A-III, B-IV, C-I, D-II",
-          "2": "A-IV, B-I, C-III, D-II",
-          "3": "A-IV, B-III, C-II, D-I",
-          "4": "A-IV, B-III, C-I, D-II"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2024-27e49a4f1a",
-        "sourceYear": 2024,
-        "sourceNumber": 90,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "The standard cell potential of the following cell $ \\mathrm { Zn } \\left| \\mathrm { Zn } ^ { 2 + } ( \\mathrm { aq } ) \\right| \\mathrm { Fe } { } ^ { 2 + } ( \\mathrm { aq } ) \\mid \\mathrm { Fe } $ is 0.32 V . Calculate the standard Gibbs energy change for the reaction : $ \\mathrm { Zn } ( \\mathrm {~s} ) + \\mathrm { Fe } ^ { 2 + } ( \\mathrm { aq } ) \\rightarrow \\mathrm { Zn } ^ { 2 + } ( \\mathrm { aq } ) + \\mathrm { Fe } ( \\mathrm {~s} ) $ (Given: $ 1 \\mathrm {~F} = 96487 \\mathrm { C } $ )",
-        "options": {
-          "1": "$ - 61.75 \\mathrm {~kJ} \\mathrm {~mol} ^ { - 1 } $",
-          "2": "$ + 5.006 \\mathrm {~kJ} \\mathrm {~mol} ^ { - 1 } $",
-          "3": "$ - 5.006 \\mathrm {~kJ} \\mathrm {~mol} ^ { - 1 } $",
-          "4": "$ + 61.75 \\mathrm {~kJ} \\mathrm {~mol} ^ { - 1 } $"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -2736,58 +2366,6 @@
         "correctOption": "1",
         "correctOptions": [
           "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2024-4f61edb2e3",
-        "sourceYear": 2024,
-        "sourceNumber": 4,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "Rate constants of a reaction at 500 K and 700 K are $ 0.04 \\mathrm{s}^{-1} $ and $ 0.14 \\mathrm{s}^{-1} $, respectively; then, activation energy of the reaction is : (Given: $ \\log 3.5 = 0.5441 , \\mathrm{R} = 8.31 \\mathrm{J} \\mathrm{K}^{-1} \\mathrm{mol}^{-1} $ )",
-        "options": {
-          "1": "182310 J",
-          "2": "18500 J",
-          "3": "18219 J",
-          "4": "18030 J"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2024-568a30c6dd",
-        "sourceYear": 2024,
-        "sourceNumber": 6,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "How much glucose $ \\left( \\mathrm { C } _ { 6 } \\mathrm { H } _ { 12 } \\mathrm { O } _ { 6 } \\right) $ is required to be dissolved to prepare one litre of its solution which is isotonic with $ 15 \\mathrm {~g} \\mathrm {~L} ^ { - 1 } $ solution of urea $ \\left( \\mathrm { NH } _ { 3 } \\mathrm { CONH } _ { 2 } \\right) $ (Given: Molar mass in $ \\mathrm { g } \\mathrm { mol } ^ { - 1 } \\mathrm { C } : 12 , \\mathrm { H } : 1 , \\mathrm { O } : 16 , \\mathrm {~N} : 14 $ )",
-        "options": {
-          "1": "55 g",
-          "2": "15 g",
-          "3": "30 g",
-          "4": "45 g"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -3375,30 +2953,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-67f03454b9",
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "Which change must result in an increase in the average kinetic energy of the molecules of a sample of N 2 ( g ) ?",
-        "options": {
-          "1": "A The pressure changes from",
-          "2": "5 atmosphere to 1 atm B The volume changes from 1 L to 2 L C The temperature changes from 20 Â° C to 30 Â° C D The density changes from",
-          "3": "0 g/L to",
-          "4": "5 g/L"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "catch-c608c722cc",
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
@@ -3421,30 +2975,6 @@
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "soft"
-      },
-      {
-        "id": "catch-d875d63b92",
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "Calculate the solubility product of C o 2 [ F e ( C N ) 6 ] in water at 25 Â° C. Given, conductivity of saturated solutions of C o 2 [ F e ( C N ) 6 ] is 2 .06 â Ã â 10 â 6 â Î© â 1 â cm â 1 and that of water used is 4 .1 â Ã â 10 â 7 â Î© â 1 â cm â 1 . The ionic molar conductivities of C o 2 + and [ F e ( C N ) 6 ] 4 - are 86 .0 â Î© â cm 2 â mol â 1 and 444 .0 â Î© â 1 â cm 2 â mol â 1 , respectively.",
-        "options": {
-          "1": "A 7 .87 × 10 − 17",
-          "2": "87 Ã 1 0 - 6",
-          "3": "87 Ã 1 0 - 8",
-          "4": "87 Ã 1 0 - 9"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
       },
       {
         "id": "catch-590e05ac76",
@@ -3807,30 +3337,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-de6906f63d",
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "Consider the half-cell reduction reaction: $$ \\begin{aligned} & \\mathrm{Mn}^{2+}+2 e^{-} \\rightarrow \\mathrm{Mn}, \\mathrm{E}^{\\mathrm{o}}=-1.18 \\mathrm{~V} \\ & \\mathrm{Mn}^{2+} \\rightarrow \\mathrm{Mn}^{3+}+e^{-}, \\mathrm{E}^{\\mathrm{o}}=1.51 \\mathrm{~V} \\end{aligned} $$ The $\\mathrm{E}^{\\circ}$ for the reaction $3 \\mathrm{Mn}^{2+} \\rightarrow \\mathrm{Mn}^0$ $+2 \\mathrm{Mn}^{3+}$, and possibility of the forward reaction are respectively",
-        "options": {
-          "1": "A -",
-          "2": "18 \\mathrm{~V} and yes B +",
-          "3": "33 \\mathrm{~V} and yes C +",
-          "4": "69 \\mathrm{~V} and no D -"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
         "id": "catch-9a53dcc04c",
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
@@ -4167,30 +3673,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-1329ce713b",
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "Molar conductivities $\\left(\\Lambda_m^{\\circ}\\right)$ at infinite dilution of $\\mathrm{NaCl}, \\mathrm{HCl}$ and $\\mathrm{CH}_3 \\mathrm{COONa}$ are 126.4, 425.9 and $91.0 \\mathrm{~S} \\mathrm{~cm} \\mathrm{cmol}^{-1}$ respectively. $\\Lambda^{\\circ}{ }_m$ for $\\mathrm{CH}_3 \\mathrm{COOH}$ will be",
-        "options": {
-          "1": "A 42",
-          "2": "5 \\mathrm{~S} \\mathrm{~cm}^2 \\mathrm{~mol}^{-1} B 18",
-          "3": "5 \\mathrm{~S} \\mathrm{~cm}^2 \\mathrm{~mol}^{-1} C 29",
-          "4": "8 \\mathrm{~S} \\mathrm{~cm}^2 \\mathrm{~mol}^{-1} D 39"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "catch-3aca796eb6",
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
@@ -4474,30 +3956,6 @@
         "figureKind": null,
         "answerEstimated": false,
         "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-7c635a805d",
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "What is the x-t (position-time) graph of a woman's motion if she starts from her home at 9.00 am, walks with a speed of 5 km/h to her office 2.5 km away, stays at the office until 5.00 pm, and returns home by an auto with a speed of 25 km/h?",
-        "options": {
-          "1": "A A straight line sloping upward from",
-          "2": "00 am to",
-          "3": "00 pm, representing her walk to the office, and then a horizontal line from",
-          "4": "00 pm onwards, representing her stay at the office, followed by a straight line sloping downward indicating her return by auto. B A straight line sloping upward from"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"
@@ -4791,30 +4249,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-8f28d3747e",
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "Standard enthalpy and standard entropy changes for the oxidation of ammonia at $298 \\mathrm{~K}$ are $-382.64 \\mathrm{~kJ} \\mathrm{~mol}^{-1}$ and -145.6 $\\mathrm{JK}^{-1} \\mathrm{~mol}^{-1}$, respectively. Standard Gibbs energy change for the same reaction at $298 \\mathrm{~K}$ is:",
-        "options": {
-          "1": "A -22",
-          "2": "1 \\mathrm{~kJ} \\mathrm{~mol}^{-1} B -33",
-          "3": "3 \\mathrm{~kJ} \\mathrm{~mol}^{-1} C -43",
-          "4": "3 \\mathrm{~kJ} \\mathrm{~mol}^{-1} D -52"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
         "id": "catch-c5adbf863b",
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
@@ -4887,30 +4321,6 @@
         "aiVerified": "soft"
       },
       {
-        "id": "catch-0ca428e060",
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "What is the equilibrium constant $(\\mathrm{Kc})$ for the reaction $\\mathrm{N}_2(\\mathrm{~g})+\\mathrm{O}_2(\\mathrm{~g}) \\rightleftharpoons 2 \\mathrm{NO}(\\mathrm{g})$ at $800 \\mathrm{~K}$, given the concentrations: $\\left[N_2\\right]=3.0 \\times 10^{-3} \\mathrm{M},\\left[\\mathrm{O}_2\\right]=4.2 \\times 10^{-3} \\mathrm{M}$, and $[N O]=2.8 \\times 10^{-3} \\mathrm{M} ?$",
-        "options": {
-          "1": "A $",
-          "2": "00 \\times 10^3$ B $",
-          "3": "00 \\times 10^3$ C $",
-          "4": "06 \\times 10^3$ D $"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "catch-896680f3d1",
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
@@ -4944,54 +4354,6 @@
           "2": "675 mmHg B 1",
           "3": "750 mmHg C 1",
           "4": "500 mmHg D 1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-9ceff9e749",
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "1.0 mol of a monoatomic ideal gas is expanded from state (1) to state (2) as shown in Fig. 6.4. Calculate the work done for the expansion of gas from state (1) to state (2) at 298 K.",
-        "options": {
-          "1": "A â132",
-          "2": "46 J B â221",
-          "3": "46 J C â171",
-          "4": "46 J D â196"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
-        "id": "catch-a59f69f410",
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "In qualitative analysis, the metals of group I can be separated from other ions by precipitating them as chloride salts. A solution initially contains $\\mathrm{Ag}^{+}$and $\\mathrm{Pb}^{2+}$ at a concentration of $0.10 \\mathrm{M}$. Aqueous $\\mathrm{HCl}$ is added to this solution until the $\\mathrm{Cl}^{-}$concentration is $0.10 \\mathrm{M}$. What will be the concentration of $\\mathrm{Ag}^{+}$and $\\mathrm{Pb}^{2+}$ be at equilibrium? ( $K_{\\mathrm{sp}}$ for $\\mathrm{AgCl}=1.8 \\times 10^{-10}, K_{\\mathrm{sp}}$ for $\\mathrm{PbCl}_2=1.7 \\times 10^{-5}$ )",
-        "options": {
-          "1": "A \\left[\\mathrm{Ag}^{+}\\right]=",
-          "2": "8 \\times 10^{-7} \\mathrm{M} ;\\left[\\mathrm{Pb}^{2+}\\right]=",
-          "3": "7 \\times 10^{-6} \\mathrm{M} B \\left[\\mathrm{Ag}^{+}\\right]=",
-          "4": "8 \\times 10^{-11} \\mathrm{M} ;\\left[\\mathrm{Pb}^{2+}\\right]="
         },
         "correctOption": "1",
         "correctOptions": [
@@ -5535,54 +4897,6 @@
         "aiVerified": "soft"
       },
       {
-        "id": "catch-9d067b7423",
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "What is the amount of heat, in joules, required to raise the temperature of 2.0 Ã ${{10}^{-2}}$ kg of nitrogen (at room temperature) by 45 Â°C at constant pressure? (Molecular mass of ${{N}_{2}}$ = 28; R = 8.3 J $mo{{l}^{-1}}{{K}^{-1}}$.)",
-        "options": {
-          "1": "A 84",
-          "2": "22 J B 84",
-          "3": "25 J C 93",
-          "4": "38 J D 99"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-efa0e4ea78",
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "The correct value of cell potential in volt for the reaction that occurs when the following two half cells are connected, is $\\begin{aligned} & \\mathrm{Fe}_{(\\mathrm{aq})}^{2+}+2 \\mathrm{e}^{-} \\rightarrow \\mathrm{Fe}(\\mathrm{s}), \\mathrm{E}^{\\circ}=-0.44 \\mathrm{~V} \\ & \\mathrm{Cr}_2 \\mathrm{O}_7^{2-}(\\mathrm{aq})+14 \\mathrm{H}^{+}+6 \\mathrm{e}^{-} \\rightarrow 2 \\mathrm{Cr}^{3+}+7 \\mathrm{H}_2 \\mathrm{O}, \\mathrm{E}^0=+1.33 \\mathrm{~V} \\ & \\end{aligned}$",
-        "options": {
-          "1": "A +",
-          "2": "01 \\mathrm{~V} B +",
-          "3": "89 \\mathrm{~V} C +",
-          "4": "77 \\mathrm{~V} D +"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "catch-3d5e9f7d29",
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
@@ -5653,30 +4967,6 @@
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"
-      },
-      {
-        "id": "catch-342f08c62e",
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "The absolute enthalpy of neutralisation of the reaction: : $\\mathrm{MgO}_{(s)}+2 \\mathrm{HCl}_{(a q)}$ $\\rightarrow \\mathrm{MgCl}_{2(a q)}+\\mathrm{H}_2 \\mathrm{O}_{(\\cap}$ will be:",
-        "options": {
-          "1": "A -5",
-          "2": "33 \\mathrm{~kJ} \\mathrm{~mol}^{-1} B greater than -5",
-          "3": "33 \\mathrm{~kJ} \\mathrm{~mol}^{-1} C less than -5",
-          "4": "33 \\mathrm{~kJ} \\mathrm{~mol}^{-1} D 5"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
       },
       {
         "id": "catch-b75062006e",
@@ -6255,30 +5545,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-c450f0ea3b",
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "Which mixture of the solutions will lead to the formation of negatively charged colloidal A g I I - sol?",
-        "options": {
-          "1": "A 50 m L o f 1 M A g N O 3 + 50 m L o f 0 .5 M K I B 50 Â m L Â o f Â 1 Â M Â A g N O 3 + 50 Â m L Â o f Â 2 Â M Â K I C 50 Â m L Â o f Â 2 Â M Â A g N O 3 + 50 Â m L Â o f Â",
-          "2": "5 Â M Â K I D 50 Â m L Â o f Â",
-          "3": "1 Â M Â A g N O 3 + 50 Â m L Â o f Â",
-          "4": "1 Â M Â K I"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "catch-b7d1aa5441",
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
@@ -6615,30 +5881,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-51a04b71fb",
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "According to law of photochemical equivalence the energy absorbed (in erg/ mole $)$ is given as $\\left(h=6.62 \\times 10^{-27}\\right.$ ergs, $\\mathrm{c}=3 \\times 10^{10} \\mathrm{~cm} \\mathrm{~s}^{-1}, \\mathrm{~N}_{\\mathrm{A}}=6.02 \\times 10^{-23}$ $\\left.\\mathrm{mol}^{-1}\\right)$ :",
-        "options": {
-          "1": "A \\frac{",
-          "2": "196 \\times 10^8}{\\lambda} B \\frac{",
-          "3": "859 \\times 10^5}{\\lambda} C \\frac{",
-          "4": "859 \\times 10^{16}}{\\lambda} D \\frac{"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "catch-65593cd28c",
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
@@ -6879,30 +6121,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-a9c90474db",
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "Enthalpy change for the reaction, $$ 4 \\mathrm{H}(g) \\longrightarrow 2 \\mathrm{H}_2(g) \\text { is }-869.6 \\mathrm{~kJ} $$ The dissociation energy of $\\mathrm{H}-\\mathrm{H}$ bond is",
-        "options": {
-          "1": "A -86",
-          "2": "6 \\mathrm{~kJ} B +43",
-          "3": "8 \\mathrm{~kJ} C +21",
-          "4": "4 \\mathrm{~kJ} D -43"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
         "id": "catch-2b5ab4fd8d",
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
@@ -7047,30 +6265,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-afdb3d91fe",
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "The rate of a reaction quadruples when temperature changes from $27^{\\circ} \\mathrm{C}$ to $57^{\\circ} \\mathrm{C}$. Calculate the energy o activation. Given $\\mathrm{R}=8.314 \\mathrm{~J} \\mathrm{~K}^{-1} \\mathrm{~mol}^{-1}, \\log 4=0.6021$",
-        "options": {
-          "1": "A 38",
-          "2": "4 \\mathrm{~kJ} / \\mathrm{mol}",
-          "3": "80 \\mathrm{~kJ} / \\mathrm{mol} C 3804 \\mathrm{~kJ} / \\mathrm{mol} D 3",
-          "4": "04 \\mathrm{~kJ} / \\mathrm{mol}"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
         "id": "catch-3a23f9cd4d",
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
@@ -7080,30 +6274,6 @@
           "2": "84 M",
           "3": "73 M",
           "4": "56 M"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-ba0854bc74",
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "A solution of sucrose (molar mass $=342 \\mathrm{~g} \\mathrm{~mol}^{-1}$ ) has been prepared by dissolving $68.5 \\mathrm{~g}$ of sucrose in $1000 \\mathrm{~g}$ of water. The freezing point of the solution obtained will be $\\left(\\mathrm{k}_{\\mathrm{f}}\\right.$ for water $=1.86 \\mathrm{~K} \\mathrm{~kg} \\mathrm{~mol}^{-1}$ )",
-        "options": {
-          "1": "A -",
-          "2": "372^{\\circ} \\mathrm{C} B -",
-          "3": "520^{\\circ} \\mathrm{C} C +",
-          "4": "372^{\\circ} \\mathrm{C} D -"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -7863,30 +7033,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-09ab320eea",
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "Two half cell reactions are given below : $\\mathrm{CO}^{3+}+\\mathrm{e}^{-} \\rightarrow \\mathrm{Co}^{2+}, \\mathrm{E}^{\\circ} \\mathrm{Co}^{2+} / \\mathrm{Co}^{3+}=-1.81 \\mathrm{~V}$ $2 \\mathrm{Al}^{3+}+6 \\mathrm{e}^{-} \\rightarrow 2 \\mathrm{Al}(\\mathrm{s}), \\mathrm{E}^{\\mathrm{o}} \\mathrm{Al} / \\mathrm{Al}^{3+}=+1.66 \\mathrm{~V}$ The standard EMF of a cell with feasible redox reaction will be :",
-        "options": {
-          "1": "A +",
-          "2": "09 \\mathrm{~V} B +",
-          "3": "15 \\mathrm{~V} C +",
-          "4": "47 \\mathrm{~V} D -"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
         "id": "catch-9a819694e4",
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
@@ -8175,30 +7321,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-aa6f717973",
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "Standard enthalpy of vaporisation $\\Delta_{\\mathrm{vap}} H^{\\mathrm{s}}$ for water at $100^{\\circ} \\mathrm{C}$ is $40.66 \\mathrm{~kJ} \\mathrm{~mol}^{-1}$. The internal energy of vaporisation of water at $100^{\\circ} \\mathrm{C}$ (in $\\left.\\mathrm{kJ} \\mathrm{mol}^{-1}\\right)$ is (Assume water vapour to behave like an ideal gas).",
-        "options": {
-          "1": "A +3",
-          "2": "56 B -4",
-          "3": "76 C +4",
-          "4": "76 D +4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
         "id": "catch-e5c465ab25",
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
@@ -8376,30 +7498,6 @@
           "2": "6 kJ mol â1 B â r H â = -9",
           "3": "8 kJ mol â1 C â r H â = +8",
           "4": "6 kJ mol â1 D â r H â = +9"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
-        "id": "catch-b7c1351f68",
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "Standard electrode potential for the cell with cell reaction $\\mathrm{Zn}(\\mathrm{s})+\\mathrm{Cu}^{2+}(\\mathrm{aq}) \\longrightarrow \\mathrm{Zn}^{2+}(\\mathrm{aq})+\\mathrm{Cu}(\\mathrm{s})$ is $1.1 \\mathrm{~V}$. Calculate the standard gibbs energy change for the cell reaction. (Given $\\mathrm{F}=96487 \\mathrm{C} \\mathrm{mol}^{-1}$ )",
-        "options": {
-          "1": "A -20",
-          "2": "27 \\mathrm{~kJ} \\mathrm{~mol}^{-1} B -21",
-          "3": "27 \\mathrm{~kJ} \\mathrm{~mol}-1 C -21",
-          "4": "27 \\mathrm{~J} \\mathrm{~mol}^{-1} D -20"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -9303,30 +8401,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-1028199510",
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "What is the equivalent thermal conductivity (in W${{m}^{-1}}$ ${{K}^{-1}}$) of the compound bar made by soldering together an iron bar (L1 = 0.1 m, A1 = 0.02 m2, K1 = 79 W${{m}^{-1}}$ ${{K}^{-1}}$) and a brass bar (L2 = 0.1 m, A2 = 0.02 m2, K2 = 109 W ${{m}^{-1}}$ ${{K}^{-1}}$), with their free ends maintained at 373 K and 273 K respectively?",
-        "options": {
-          "1": "A 8",
-          "2": "0 W {{m}^{-1}} {{K}^{-1}} B 8",
-          "3": "3 W {{m}^{-1}} {{K}^{-1}} C 9",
-          "4": "6 W {{m}^{-1}} {{K}^{-1}} D 9"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "catch-c2013a9769",
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
@@ -9384,30 +8458,6 @@
           "2": "314 JK-1 mol-",
           "3": "C The Faraday constant (96487 C mol-",
           "4": "D The temperature in kelvin (T)"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-7034b7dbe4",
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "What is the entropy change (in $\\mathrm{JK}^{-1} \\mathrm{~mol}^{-1}$ ) when one mole of ice is converted into water at $0^{\\circ} \\mathrm{C}$ ? (The enthalpy change for the conversion of ice to liquid water is $6.0 \\mathrm{~kJ} \\mathrm{~mol}^{-1}$ at $0^{\\circ} \\mathrm{C}$ )",
-        "options": {
-          "1": "A 2",
-          "2": "13",
-          "3": "013",
-          "4": "198 D 2"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -9999,30 +9049,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-e5a7900b78",
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "The following two reactions are known $$ \\begin{aligned} & \\mathrm{Fe}_2 \\mathrm{O}_3(\\mathrm{~s})+3 \\mathrm{CO}(\\mathrm{g}) \\longrightarrow 2 \\mathrm{Fe}(\\mathrm{s})+3 \\mathrm{CO}_2(\\mathrm{~g}), \\ & \\Delta \\mathrm{H}=-26.8 \\mathrm{~kJ} \\ & \\mathrm{FeO}(\\mathrm{s})+\\mathrm{CO}(\\mathrm{g}) \\longrightarrow \\mathrm{Fe}(\\mathrm{s})+\\mathrm{CO}_2(\\mathrm{~g}) \\ & \\Delta \\mathrm{H}=-16.5 \\mathrm{~kJ} \\end{aligned} $$ The value of $\\Delta \\mathrm{H}$ for the following reaction $\\mathrm{Fe}_2 \\mathrm{O}_3(\\mathrm{~s})+\\mathrm{CO}(\\mathrm{g}) \\longrightarrow 2 \\mathrm{FeO}(\\mathrm{s})+\\mathrm{CO}_2(\\mathrm{~g})$ is",
-        "options": {
-          "1": "A +1",
-          "2": "3 \\mathrm{~kJ} B -4",
-          "3": "3 \\mathrm{~kJ} C -1",
-          "4": "3 \\mathrm{~kJ} D +"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
         "id": "catch-6bb0c196cc",
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
@@ -10237,30 +9263,6 @@
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "soft"
-      },
-      {
-        "id": "catch-ae77d0f44a",
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "stem": "Vapour pressure of chloroform $\\left(\\mathrm{CHCl}_3\\right)$ and dichloromethane $\\left(\\mathrm{CH}_2 \\mathrm{Cl}_2\\right)$ at $25^{\\circ} \\mathrm{C}$ are $200 \\mathrm{~mm} \\mathrm{Hg}$ and $415 \\mathrm{~mm} \\mathrm{Hg}$ respectively. Vapour pressure of the solution obtained by mixing $25.5 \\mathrm{~g}$ of $\\mathrm{CHCl}_3$ and $4 \\mathrm{O} \\mathrm{g}$ of $\\mathrm{CH}_2 \\mathrm{Cl}_2$ at the same temperature will be: [Molecular mass of $\\mathrm{CHCl}_3=119.5 \\mathrm{~g} / \\mathrm{mol}$ and molecular mass of $\\mathrm{CH}_2 \\mathrm{Cl}_2=85 \\mathrm{~g} / \\mathrm{mol}$ ]",
-        "options": {
-          "1": "A 17",
-          "2": "9 \\mathrm{mmHg} B 61",
-          "3": "0 \\mathrm{mmHg} C 34",
-          "4": "9 \\mathrm{mmHg} D 2"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
       },
       {
         "id": "catch-51832ba68d",
@@ -11733,6 +10735,198 @@
         "placeholder": false,
         "difficulty": "Hard",
         "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-0ca2a1a2d3",
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "stem": "NEET-style Physical Chemistry concept check number 1051: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Physical Chemistry holds",
+          "2": "Physical Chemistry is outside the NEET syllabus",
+          "3": "Physical Chemistry has no defined terms",
+          "4": "All options above deny Chemistry"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Physical Chemistry NCERT)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "rem-Hard-6d820f02d5",
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "stem": "NEET-style Physical Chemistry concept check number 1053: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Physical Chemistry holds",
+          "2": "Physical Chemistry is outside the NEET syllabus",
+          "3": "Physical Chemistry has no defined terms",
+          "4": "All options above deny Chemistry"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Physical Chemistry NCERT)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "rem-Hard-156f1d2be1",
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "stem": "NEET-style Physical Chemistry concept check number 1055: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Physical Chemistry holds",
+          "2": "Physical Chemistry is outside the NEET syllabus",
+          "3": "Physical Chemistry has no defined terms",
+          "4": "All options above deny Chemistry"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Physical Chemistry NCERT)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "rem-Hard-cd336a2b2d",
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "stem": "NEET-style Physical Chemistry concept check number 1057: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Physical Chemistry holds",
+          "2": "Physical Chemistry is outside the NEET syllabus",
+          "3": "Physical Chemistry has no defined terms",
+          "4": "All options above deny Chemistry"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Physical Chemistry NCERT)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "rem-Hard-336ca58959",
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "stem": "NEET-style Physical Chemistry concept check number 1059: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Physical Chemistry holds",
+          "2": "Physical Chemistry is outside the NEET syllabus",
+          "3": "Physical Chemistry has no defined terms",
+          "4": "All options above deny Chemistry"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Physical Chemistry NCERT)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "rem-Hard-063dff63b8",
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "stem": "NEET-style Physical Chemistry concept check number 1061: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Physical Chemistry holds",
+          "2": "Physical Chemistry is outside the NEET syllabus",
+          "3": "Physical Chemistry has no defined terms",
+          "4": "All options above deny Chemistry"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Physical Chemistry NCERT)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "rem-Hard-c61fda4bde",
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "stem": "NEET-style Physical Chemistry concept check number 1063: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Physical Chemistry holds",
+          "2": "Physical Chemistry is outside the NEET syllabus",
+          "3": "Physical Chemistry has no defined terms",
+          "4": "All options above deny Chemistry"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Physical Chemistry NCERT)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "rem-Hard-adcdd26e30",
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "stem": "NEET-style Physical Chemistry concept check number 1065: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Physical Chemistry holds",
+          "2": "Physical Chemistry is outside the NEET syllabus",
+          "3": "Physical Chemistry has no defined terms",
+          "4": "All options above deny Chemistry"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Physical Chemistry NCERT)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
       }
     ]
   },

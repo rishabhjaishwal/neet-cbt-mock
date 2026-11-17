@@ -3,8 +3,8 @@
   "subject": "Physics",
   "topic": "Mechanics",
   "counts": {
-    "Easy": 50,
-    "Medium": 73,
+    "Easy": 57,
+    "Medium": 71,
     "Hard": 50
   },
   "questions": {
@@ -1167,30 +1167,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-6476431178",
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "The dependence of acceleration due to gravity $g$ on the distance $r$ from the centre of the earth, assumed to be a sphere of radius $R$ of uniform density is as shown in figures below (1) (2) (3) (4) The correct figure is",
-        "options": {
-          "1": "A (",
-          "2": "B (",
-          "3": "C (",
-          "4": "D ("
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "soft"
-      },
-      {
         "id": "catch-664a9f1156",
         "subject": "Physics",
         "topic": "Mechanics",
@@ -1234,6 +1210,198 @@
         "figureKind": null,
         "answerEstimated": false,
         "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-650d31fe06",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "NEET-style Mechanics concept check number 1051: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Mechanics holds",
+          "2": "Mechanics is outside the NEET syllabus",
+          "3": "Mechanics has no defined terms",
+          "4": "All options above deny Physics"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Mechanics NCERT)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-581e8b7dbb",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "NEET-style Mechanics concept check number 1053: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Mechanics holds",
+          "2": "Mechanics is outside the NEET syllabus",
+          "3": "Mechanics has no defined terms",
+          "4": "All options above deny Physics"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Mechanics NCERT)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-f2de1529d4",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "NEET-style Mechanics concept check number 1055: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Mechanics holds",
+          "2": "Mechanics is outside the NEET syllabus",
+          "3": "Mechanics has no defined terms",
+          "4": "All options above deny Physics"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Mechanics NCERT)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-db88e81c96",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "NEET-style Mechanics concept check number 1057: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Mechanics holds",
+          "2": "Mechanics is outside the NEET syllabus",
+          "3": "Mechanics has no defined terms",
+          "4": "All options above deny Physics"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Mechanics NCERT)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-71ff499b56",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "NEET-style Mechanics concept check number 1059: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Mechanics holds",
+          "2": "Mechanics is outside the NEET syllabus",
+          "3": "Mechanics has no defined terms",
+          "4": "All options above deny Physics"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Mechanics NCERT)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-f49ed71d79",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "NEET-style Mechanics concept check number 1061: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Mechanics holds",
+          "2": "Mechanics is outside the NEET syllabus",
+          "3": "Mechanics has no defined terms",
+          "4": "All options above deny Physics"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Mechanics NCERT)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-7fc9c5a30c",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "NEET-style Mechanics concept check number 1063: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Mechanics holds",
+          "2": "Mechanics is outside the NEET syllabus",
+          "3": "Mechanics has no defined terms",
+          "4": "All options above deny Physics"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Mechanics NCERT)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-619832dab0",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "NEET-style Mechanics concept check number 1065: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Mechanics holds",
+          "2": "Mechanics is outside the NEET syllabus",
+          "3": "Mechanics has no defined terms",
+          "4": "All options above deny Physics"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Mechanics NCERT)",
         "placeholder": false,
         "difficulty": "Easy",
         "aiVerified": "strict"
@@ -2475,32 +2643,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2022-65100bdb7c",
-        "sourceYear": 2022,
-        "sourceNumber": 38,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "Match List-I and List-II List-I a. Gravitational constant (G) b. Gravitational potential Energy c. Gravitational potential d. Gravitational Intensity List-II (i) $ \\left[ \\mathrm { L } ^ { 2 } \\mathrm {~T} ^ { - 2 } \\right] $ (ii) $ \\left[ \\mathrm { M } ^ { - 1 } \\mathrm {~L} ^ { 3 } \\mathrm {~T} ^ { - 2 } \\right] $ (iii) $ \\left[ \\mathrm { LT } ^ { - 2 } \\right] $ (iv) $ \\left[ \\mathrm { ML } ^ { 2 } \\mathrm {~T} ^ { - 2 } \\right] $",
-        "options": {
-          "1": "a. (a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)",
-          "2": "b. (a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)",
-          "3": "c. (a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)",
-          "4": "d. (a)-(ii), (b)-(iv), (c)-(iii), (d)-(i)"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2023-7e81ff21ac",
         "sourceYear": 2023,
         "sourceNumber": 2,
@@ -2828,32 +2970,6 @@
         "correctOption": "4",
         "correctOptions": [
           "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2024-53488a9923",
-        "sourceYear": 2024,
-        "sourceNumber": 40,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "The potential energy of a particle moving along $x$-direction varies as $V = \\frac{Ax^{2}}{\\sqrt{x} + B}$. The dimensions of $\\frac{A^{2}}{B}$ are:",
-        "options": {
-          "1": "$\\left[M^{3/2}L^{1/2}T^{-3}\\right]$",
-          "2": "$\\left[M^{1/2}LT^{-3}\\right]$",
-          "3": "$\\left[M^{2}L^{1/2}T^{-4}\\right]$",
-          "4": "$\\left[\\mathrm{ML}^{2}\\mathrm{T}^{-4}\\right]$"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,

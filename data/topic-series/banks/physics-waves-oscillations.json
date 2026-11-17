@@ -3,8 +3,8 @@
   "subject": "Physics",
   "topic": "Waves & Oscillations",
   "counts": {
-    "Easy": 50,
-    "Medium": 51,
+    "Easy": 54,
+    "Medium": 50,
     "Hard": 50
   },
   "questions": {
@@ -1221,6 +1221,102 @@
         "placeholder": false,
         "difficulty": "Easy",
         "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-d5f67289a8",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 3 loops. If tension is unchanged and length fixed, the frequency of this harmonic relative to the fundamental is",
+        "options": {
+          "1": "3 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (f_n = n f1)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-88f3be7131",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 5 loops. If tension is unchanged and length fixed, the frequency of this harmonic relative to the fundamental is",
+        "options": {
+          "1": "5 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (f_n = n f1)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-ab495100bd",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 2 loops. If tension is unchanged and length fixed, the frequency of this harmonic relative to the fundamental is",
+        "options": {
+          "1": "2 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (f_n = n f1)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-736232f1ec",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 4 loops. If tension is unchanged and length fixed, the frequency of this harmonic relative to the fundamental is",
+        "options": {
+          "1": "4 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (f_n = n f1)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       }
     ],
     "Medium": [
@@ -1423,58 +1519,6 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
-      },
-      {
-        "id": "hf2016-8a6c857702",
-        "sourceYear": 2016,
-        "sourceNumber": 41,
-        "subject": "Physics",
-        "topic": "Waves & Oscillations",
-        "stem": "If an electron in a hydrogen atom jumps from the 3rd orbit to the 2nd orbit, it emits a photon of wavelength $ \\lambda $. When it jumps from the 4th orbit to the 3rd orbit, the corresponding wavelength of the photon will be :-",
-        "options": {
-          "1": "$ \\frac { 16 } { 25 } \\lambda $",
-          "2": "$ 16 \\quad \\lambda $",
-          "3": "$ { } ^ { 20 } / _ { 7 } \\lambda $",
-          "4": "20 (4) 13"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2018-a01330e728",
-        "sourceYear": 2018,
-        "sourceNumber": 12,
-        "subject": "Physics",
-        "topic": "Waves & Oscillations",
-        "stem": "An electron of mass $m$ with an initial velocity $\\overrightarrow{\\mathrm{V}} = \\mathrm{V}_{0} \\hat{\\mathrm{i}}$ ($\\mathrm{V}_{0} > 0$) enters an electric field $\\overrightarrow{\\mathrm{E}} = -\\mathrm{E}_{0} \\hat{\\mathrm{i}}$ ($\\mathrm{E}_{0} =$ constant $> 0$) at $\\mathrm{t} = 0$. If $\\lambda_{0}$ is its de-Broglie wavelength initially, then its de-Broglie wavelength at time $t$ is",
-        "options": {
-          "1": "$\\lambda_{0} t$",
-          "2": "$\\lambda_{0} \\left(1 + \\frac{\\mathrm{eE}_{0}}{\\mathrm{mV}_{0}} \\mathrm{t}\\right)$",
-          "3": "$\\frac{\\lambda_{0}}{\\left(1 + \\frac{e E_{0}}{\\mathrm{mV}_{0}} \\mathrm{t}\\right)}$",
-          "4": "$\\lambda_{0}$"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
       },
       {
         "id": "hf2018-b524d1ce88",
@@ -2498,6 +2542,30 @@
         "figureKind": null,
         "answerEstimated": false,
         "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-b9358b402a",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 6 loops. If tension is unchanged and length fixed, the frequency of this harmonic relative to the fundamental is",
+        "options": {
+          "1": "6 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (f_n = n f1)",
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"

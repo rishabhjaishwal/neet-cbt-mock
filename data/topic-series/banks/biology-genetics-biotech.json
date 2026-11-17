@@ -4,8 +4,8 @@
   "topic": "Genetics & Biotech",
   "counts": {
     "Easy": 76,
-    "Medium": 88,
-    "Hard": 50
+    "Medium": 87,
+    "Hard": 56
   },
   "questions": {
     "Easy": [
@@ -3203,32 +3203,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2024-5ef187f3f6",
-        "sourceYear": 2024,
-        "sourceNumber": 127,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "stem": "Match List-I with List-II: \\n\\n\\begin{tabular}{|l|l|l|l|}\\n\\hline\\n& List-I && List-II \\n\\hline\\nA. & Histones & I. & Loosely packed chromatin \\n\\hline\\nB. & Nucleosome & II. & Densely packed Chromatin \\n\\hline\\nC. & Euchromatin & III. & Positively charged basic proteins \\n\\hline\\nD. & Heterochromatin & IV. & \\begin{tabular}{l}DNA wrapped around histone\\ octamer\\end{tabular}\\n\\hline\\n\\end{tabular}\\n\\n",
-        "options": {
-          "1": "A-IV, B-III, C-II, D-I",
-          "2": "A-III, B-I, C-IV, D-II",
-          "3": "A-II, B-III, C-IV, D-I",
-          "4": "A-III, B-IV, C-I, D-II"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2024-e8acaf1214",
         "sourceYear": 2024,
         "sourceNumber": 128,
@@ -5024,32 +4998,6 @@
         "placeholder": false
       },
       {
-        "id": "hf2016-935c5c5a1e",
-        "sourceYear": 2016,
-        "sourceNumber": 146,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "stem": "Match the stages of meiosis in column I to their characteristic feature in column II and select the correct option using the codes given below: \\n\\n\\begin{tabular}{|l|l|}\\n\\hline\\n\\multicolumn{1}{|c|}{Column I} & \\multicolumn{1}{c|}{Column II}\\n\\hline\\na. Pachytene & \\begin{tabular}{l}i. \\begin{tabular}{l}Paring of \\ homologous \\ chromosomes\\end{tabular}\\n\\hline\\nb. Metaphase I\\n\\hline\\nc. Diakinesis\\n\\hline ii. \\begin{tabular}{l}Termination of \\ chiasmata\\end{tabular}\\n\\hline\\nd. Zygotene\\n\\begin{tabular}{l}iii. Crossing over takes \\ place\\end{tabular}\\n\\hline\\n\\end{tabular}\\n\\begin{tabular}{l}iv. Chromosomes align \\ at equatorial plate\\end{tabular}\\n\\hline\\n\\end{tabular}\\n\\n\\n\\nCodes:\\n\\begin{tabular}{ccccc}\\n& a & b & c & d\\n(1) & (iii) & (iv) & (ii) & (i)\\n(2) & (i) & (iv) & (ii) & (iii)\\n(3) & (ii) & (iv) & (iii) & (i)\\n(4) & (iv) & (iii) & (ii) & (i)\\n\\end{tabular}\\n\\n",
-        "options": {
-          "1": "(iii) (iv) (ii) (i)",
-          "2": "(i) (iv) (ii) (iii)",
-          "3": "(ii) (iv) (iii) (i)",
-          "4": "(iv) (iii) (ii) (i)"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2019-46e14dc536",
         "sourceYear": 2019,
         "sourceNumber": 166,
@@ -5117,32 +5065,6 @@
         "correctOption": "1",
         "correctOptions": [
           "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2021-bd8d9f7a15",
-        "sourceYear": 2021,
-        "sourceNumber": 145,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "stem": "Match List - I with List - II. \\n\\n\\begin{tabular}{|l|l|l|l|}\\n\\hline\\n\\multicolumn{2}{|c|}{List - I} & \\multicolumn{2}{c|}{List - II}\\n\\hline\\n(a) & S phase & (i) & \\begin{tabular}{l}Proteins are \\ synthesized\\end{tabular}\\n\\hline\\n(b) & G2 phase & (ii) & Inactive phase\\n\\hline\\n(c) & Quiescent stage & (iii) & \\begin{tabular}{l}Interval between \\ mitosis and initiation \\ of DNA replication\\end{tabular}\\n\\hline\\n(d) & G1 phase & (iv) & DNA replication\\n\\hline\\n\\end{tabular}\\n\\n",
-        "options": {
-          "1": "(a) (iv) (b) (ii) (c) (iii) (d) (i)",
-          "2": "(a) (iv) (b) (i) (c) (ii) (d) (iii)",
-          "3": "(a) (ii) (b) (iv) (c) (iii) (d) (i)",
-          "4": "(a) (iii) (b) (ii) (c) (i) (d) (iv)"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -5393,6 +5315,198 @@
         "figureKind": null,
         "answerEstimated": false,
         "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-e65ee1b446",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In recombinant DNA technology, restriction enzymes (genetics set 1051)",
+        "options": {
+          "1": "Cut DNA at specific recognition sites",
+          "2": "Join Okazaki fragments",
+          "3": "Synthesize RNA primers only",
+          "4": "Unwind the double helix only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (restriction enzymes)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-b5e7c72833",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In recombinant DNA technology, restriction enzymes (genetics set 1053)",
+        "options": {
+          "1": "Cut DNA at specific recognition sites",
+          "2": "Join Okazaki fragments",
+          "3": "Synthesize RNA primers only",
+          "4": "Unwind the double helix only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (restriction enzymes)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-27b05db70a",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In recombinant DNA technology, restriction enzymes (genetics set 1055)",
+        "options": {
+          "1": "Cut DNA at specific recognition sites",
+          "2": "Join Okazaki fragments",
+          "3": "Synthesize RNA primers only",
+          "4": "Unwind the double helix only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (restriction enzymes)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-f9b765338e",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In recombinant DNA technology, restriction enzymes (genetics set 1057)",
+        "options": {
+          "1": "Cut DNA at specific recognition sites",
+          "2": "Join Okazaki fragments",
+          "3": "Synthesize RNA primers only",
+          "4": "Unwind the double helix only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (restriction enzymes)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-985d17b836",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In recombinant DNA technology, restriction enzymes (genetics set 1059)",
+        "options": {
+          "1": "Cut DNA at specific recognition sites",
+          "2": "Join Okazaki fragments",
+          "3": "Synthesize RNA primers only",
+          "4": "Unwind the double helix only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (restriction enzymes)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-61c7ef2014",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In recombinant DNA technology, restriction enzymes (genetics set 1061)",
+        "options": {
+          "1": "Cut DNA at specific recognition sites",
+          "2": "Join Okazaki fragments",
+          "3": "Synthesize RNA primers only",
+          "4": "Unwind the double helix only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (restriction enzymes)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-228b7e7404",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In recombinant DNA technology, restriction enzymes (genetics set 1063)",
+        "options": {
+          "1": "Cut DNA at specific recognition sites",
+          "2": "Join Okazaki fragments",
+          "3": "Synthesize RNA primers only",
+          "4": "Unwind the double helix only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (restriction enzymes)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-bd1ebd5c10",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In recombinant DNA technology, restriction enzymes (genetics set 1065)",
+        "options": {
+          "1": "Cut DNA at specific recognition sites",
+          "2": "Join Okazaki fragments",
+          "3": "Synthesize RNA primers only",
+          "4": "Unwind the double helix only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (restriction enzymes)",
         "placeholder": false,
         "difficulty": "Hard",
         "aiVerified": "strict"

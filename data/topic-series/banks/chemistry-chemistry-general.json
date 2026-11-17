@@ -3,9 +3,9 @@
   "subject": "Chemistry",
   "topic": "Chemistry General",
   "counts": {
-    "Easy": 163,
-    "Medium": 282,
-    "Hard": 88
+    "Easy": 160,
+    "Medium": 252,
+    "Hard": 87
   },
   "questions": {
     "Easy": [
@@ -2185,58 +2185,6 @@
         "placeholder": false
       },
       {
-        "id": "hf2017-4e96c4ff63",
-        "sourceYear": 2017,
-        "sourceNumber": 162,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "Pick out the correct statement with respect to $ \\left[ \\mathrm { Mn } ( \\mathrm { CN } ) _ { 6 } \\right] ^ { 3 - } $ :",
-        "options": {
-          "1": "It is $ sp ^ { 3 } d ^ { 2 } h y b r i d i s e d ~ a n d ~ o c t a h e d r a l ~ $",
-          "2": "It is $ sp ^ { 3 } d ^ { 2 } $ hybridised and tetrahedral",
-          "3": "It is $ d ^ { 2 } sp ^ { 3 } $ hybridised and octahedral",
-          "4": "It is $ \\mathrm { dsp } ^ { 2 } $ hybridised and square planar"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2017-57c35c7885",
-        "sourceYear": 2017,
-        "sourceNumber": 174,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "Consider the reactions: Identify $ \\mathrm{A} $, $ \\mathrm{X} $, $ \\mathrm{Y} $ and Z.",
-        "options": {
-          "1": "A-Methoxymethane, X-Ethanoic acid, Y-Acetate ion, Z-hydrazine.",
-          "2": "A-Methoxymethane, X-Ethanol, Y-Ethanoic. acid, Z-Semicarbazide.",
-          "3": "A-Ethanal, X-Ethanol, Y-But-2-enal, Z-Semicarbazone.",
-          "4": "A-Ethanol, X-Acetaldehyde, Y-Butanone, Z-Hydrazone."
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2018-54fda1031f",
         "sourceYear": 2018,
         "sourceNumber": 46,
@@ -2460,32 +2408,6 @@
         "correctOption": "2",
         "correctOptions": [
           "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2018-eb1961705f",
-        "sourceYear": 2018,
-        "sourceNumber": 80,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "Among $ \\mathrm { CaH } _ { 2 } , \\mathrm { BeH } _ { 2 } , \\mathrm { BaH } _ { 2 } $, the order of ionic character is",
-        "options": {
-          "1": "$ \\mathrm { BeH } _ { 2 } < \\mathrm { BaH } _ { 2 } < \\mathrm { CaH } _ { 2 } $",
-          "2": "$ \\mathrm { CaH } _ { 2 } < \\mathrm { BeH } _ { 2 } < \\mathrm { BaH } _ { 2 } $",
-          "3": "$ \\mathrm { BeH } _ { 2 } < \\mathrm { CaH } _ { 2 } < \\mathrm { BaH } _ { 2 } $",
-          "4": "$ \\mathrm { BaH } _ { 2 } < \\mathrm { BeH } _ { 2 } < \\mathrm { CaH } _ { 2 } $"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -6259,58 +6181,6 @@
         "placeholder": false
       },
       {
-        "id": "hf2016-e5764edae4",
-        "sourceYear": 2016,
-        "sourceNumber": 86,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "Consider the reaction $ \\mathrm { CH } _ { 3 } - \\mathrm { CH } _ { 2 } - \\mathrm { CH } _ { 2 } - \\mathrm { Br } + \\mathrm { NaCN } \\rightarrow \\mathrm { CH } _ { 3 } - \\mathrm { CH } _ { 2 } - \\mathrm { CH } _ { 2 } - \\mathrm { CN } + \\mathrm { NaBr } $ The reaction will be the fastest in",
-        "options": {
-          "1": "ethanol",
-          "2": "methanol",
-          "3": "N, N' -dimethylformamide (DMF)",
-          "4": "water"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2017-086506bc1e",
-        "sourceYear": 2017,
-        "sourceNumber": 147,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "For a given reaction, $ \\Delta \\mathrm { H } = 35.5 \\mathrm {~kJ} \\mathrm {~mol} ^ { - 1 } $ and $ \\Delta S = 83.6 \\mathrm { JK } ^ { - 1 } \\mathrm {~mol} ^ { - 1 } $. The reaction is spontaneous at : (Assume that $ \\Delta \\mathrm { H } $ and $ \\Delta \\mathrm { S } $ do not vary with temperature)",
-        "options": {
-          "1": "$ \\mathrm { T } < 425 \\mathrm {~K} $",
-          "2": "$ \\mathrm { T } > 425 \\mathrm {~K} $",
-          "3": "all temperatures",
-          "4": "$ \\mathrm { T } > 298 \\mathrm {~K} $"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2018-d84b9ef881",
         "sourceYear": 2018,
         "sourceNumber": 57,
@@ -6326,32 +6196,6 @@
         "correctOption": "1",
         "correctOptions": [
           "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2018-f8b85bf96b",
-        "sourceYear": 2018,
-        "sourceNumber": 61,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "The compound $ \\mathrm { C } _ { 7 } \\mathrm { H } _ { 8 } $ undergoes the following reactions : $ \\mathrm { C } _ { 7 } \\mathrm { H } _ { 8 } \\xrightarrow { 3 \\mathrm { Cl } _ { 2 } / \\Delta } \\mathrm { A } \\xrightarrow { \\mathrm { Br } _ { 2 } / \\mathrm { Fe } } \\mathrm {~B} \\xrightarrow { \\mathrm { Zn } / \\mathrm { HCl } } \\mathrm { C } $",
-        "options": {
-          "1": "3-bromo-2,4,6-trichlorotoluene",
-          "2": "o-bromotoluene",
-          "3": "$ m $-bromotoluene",
-          "4": "$ p $-bromotoluene"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -6404,32 +6248,6 @@
         "correctOption": "3",
         "correctOptions": [
           "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2018-dd35bb5504",
-        "sourceYear": 2018,
-        "sourceNumber": 82,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "For the redox reaction $ \\mathrm{MnO}_{4}^{-} + \\mathrm{C}_{2}\\mathrm{O}_{4}^{2-} + \\mathrm{H}^{+} \\longrightarrow \\mathrm{Mn}^{2+} + \\mathrm{CO}_{2} + \\mathrm{H}_{2}\\mathrm{O} $ the correct coefficients of the reactants for the balanced equation are",
-        "options": {
-          "1": "2 & 16 & 5",
-          "2": "2 & 5 & 16",
-          "3": "16 & 5 & 2",
-          "4": "5 & 16 & 2"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -6571,84 +6389,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2019-42714cdccc",
-        "sourceYear": 2019,
-        "sourceNumber": 50,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "Which of the following reactions are disproportionation reaction? (a) $ 2 \\mathrm { Cu } ^ { + } \\rightarrow \\mathrm { Cu } ^ { 2 + } + \\mathrm { Cu } ^ { 0 } $ (b) $ 3 \\mathrm { MnO } _ { 4 } ^ { 2 - } + 4 \\mathrm { H } ^ { + } \\rightarrow 2 \\mathrm { MnO } _ { 4 } ^ { - } + \\mathrm { MnO } _ { 2 } + 2 \\mathrm { H } _ { 2 } \\mathrm { O } $ (c) $ 2 \\mathrm { KMnO } _ { 4 } \\xrightarrow { \\Delta } \\mathrm {~K} _ { 2 } \\mathrm { MnO } _ { 4 } + \\mathrm { MnO } _ { 2 } + \\mathrm { O } _ { 2 } $ (d) $ 2 \\mathrm { MnO } _ { 4 } ^ { - } + 3 \\mathrm { Mn } ^ { 2 + } + 2 \\mathrm { H } _ { 2 } \\mathrm { O } \\rightarrow 5 \\mathrm { MnO } _ { 2 } + 4 \\mathrm { H } ^ { \\oplus } $",
-        "options": {
-          "1": "(a) and (b) only",
-          "2": "(a), (b) and (c)",
-          "3": "(a), (c) and (d)",
-          "4": "(a) and (d) only"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2019-9f05340f7e",
-        "sourceYear": 2019,
-        "sourceNumber": 53,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "For the cell reaction $ 2 \\mathrm { Fe } ^ { 3 + } ( \\mathrm { aq } ) + 2 \\mathrm { I } ^ { - } ( \\mathrm { aq } ) \\rightarrow 2 \\mathrm { Fe } ^ { 2 + } ( \\mathrm { aq } ) + \\mathrm { I } _ { 2 } ( \\mathrm { aq } ) $ $ \\mathrm { E } _ { \\text {cell } } ^ { \\ominus } = 0.24 \\mathrm {~V} $ at 298 K . The $ : $ standard Gibbs energy ( $ \\Delta _ { r } G ^ { \\ominus } $ ) of the cell reaction is : [Given that Faraday constant $ \\mathrm { F } = 96500 \\mathrm { Cmol } ^ { - 1 } $ ]",
-        "options": {
-          "1": "$ \\quad - 46.32 \\mathrm {~kJ} \\mathrm {~mol} ^ { - 1 } $",
-          "2": "$ - 23.16 \\mathrm {~kJ} \\mathrm {~mol} ^ { - 1 } $",
-          "3": "$ 46.32 \\mathrm {~kJ} \\mathrm {~mol} ^ { - 1 } $",
-          "4": "$ 23.16 \\mathrm {~kJ} \\mathrm {~mol} ^ { - 1 } $"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2019-4e33e3455b",
-        "sourceYear": 2019,
-        "sourceNumber": 56,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "Which is the correct thermal stability order for $ \\mathrm { H } _ { 2 } \\mathrm { E } ( \\mathrm { E } = \\mathrm { O } , \\mathrm { S } , \\mathrm { Se } , \\mathrm { Te } $ and $ \\mathrm { Po } ) $ ?",
-        "options": {
-          "1": "$ \\mathrm { H } _ { 2 } \\mathrm {~S} < \\mathrm { H } _ { 2 } \\mathrm { O } < \\mathrm { H } _ { 2 } \\mathrm { Se } < \\mathrm { H } _ { 2 } \\mathrm { Te } < \\mathrm { H } _ { 2 } \\mathrm { Po } $",
-          "2": "$ \\mathrm { H } _ { 2 } \\mathrm { O } < \\mathrm { H } _ { 2 } \\mathrm {~S} < \\mathrm { H } _ { 2 } \\mathrm { Se } < \\mathrm { H } _ { 2 } \\mathrm { Te } < \\mathrm { H } _ { 2 } \\mathrm { Po } $",
-          "3": "$ \\mathrm { H } _ { 2 } \\mathrm { Po } < \\mathrm { H } _ { 2 } \\mathrm { Te } < \\mathrm { H } _ { 2 } \\mathrm { Se } < \\mathrm { H } _ { 2 } \\mathrm {~S} < \\mathrm { H } _ { 2 } \\mathrm { O } $",
-          "4": "$ \\mathrm { H } _ { 2 } \\mathrm { Se } < \\mathrm { H } _ { 2 } \\mathrm { Te } < \\mathrm { H } _ { 2 } \\mathrm { Po } < \\mathrm { H } _ { 2 } \\mathrm { O } < \\mathrm { H } _ { 2 } \\mathrm {~S} $"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2019-ee30c064ec",
         "sourceYear": 2019,
         "sourceNumber": 63,
@@ -6660,32 +6400,6 @@
           "2": "$ \\mathrm { t } = 6.909 / \\mathrm { k } $",
           "3": "$ t = 4.606 / \\mathrm { k } $",
           "4": "$ t = 2.303 / \\mathrm { k } $"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2019-a974aaecc6",
-        "sourceYear": 2019,
-        "sourceNumber": 18,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "For the chemical reaction $ \\mathrm{N}_{2}(\\mathrm{g}) + 3\\mathrm{H}_{2}(\\mathrm{g}) \\rightleftharpoons 2\\mathrm{NH}_{3}(\\mathrm{g}) $ the correct option is :",
-        "options": {
-          "1": "$ - \\frac { 1 } { 3 } \\frac { \\mathrm{d} \\left[ \\mathrm{H}_{2} \\right] } { \\mathrm{dt} } = - \\frac { 1 } { 2 } \\frac { \\mathrm{d} \\left[ \\mathrm{NH}_{3} \\right] } { \\mathrm{dt} } $",
-          "2": "$ - \\frac { \\mathrm{d} \\left[ \\mathrm{N}_{2} \\right] } { \\mathrm{dt} } = 2 \\frac { \\mathrm{d} \\left[ \\mathrm{NH}_{3} \\right] } { \\mathrm{dt} } $",
-          "3": "$ - \\frac { \\mathrm{d} \\left[ \\mathrm{N}_{2} \\right] } { \\mathrm{dt} } = \\frac { 1 } { 2 } \\frac { \\mathrm{d} \\left[ \\mathrm{NH}_{3} \\right] } { \\mathrm{dt} } $",
-          "4": "$ 3 \\frac { \\mathrm{d} \\left[ \\mathrm{H}_{2} \\right] } { \\mathrm{dt} } = 2 \\frac { \\mathrm{d} \\left[ \\mathrm{NH}_{3} \\right] } { \\mathrm{dt} } $"
         },
         "correctOption": "3",
         "correctOptions": [
@@ -6790,58 +6504,6 @@
           "2": "12 bar",
           "3": "15 bar",
           "4": "18 bar"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2020-316204103a",
-        "sourceYear": 2020,
-        "sourceNumber": 123,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "Which one of the followings has maximum number of atoms? (1) 1 g of $ \\mathrm { Ag } ( \\mathrm { s } ) $ [Atomic mass of $ \\mathrm { Ag } = 108 $ ] (2) 1 g of $ \\mathrm { Mg } ( \\mathrm { s } ) $ [Atomic mass of $ \\mathrm { Mg } = 24 ] $ (3) 1 g of $ \\mathrm { O } _ { 2 } ( \\mathrm {~g} ) $ [Atomic mass of $ \\mathrm { O } = 16 $ ] (4) 1 g of $ \\mathrm { Li } ( \\mathrm { s } ) [ $ Atomic mass of $ \\mathrm { Li } = 7 ] $",
-        "options": {
-          "1": "1 g of $ \\mathrm { Ag } ( \\mathrm { s } ) $ [Atomic mass of $ \\mathrm { Ag } = 108 $ ]",
-          "2": "1 g of $ \\mathrm { Mg } ( \\mathrm { s } ) $ [Atomic mass of $ \\mathrm { Mg } = 24 ] $",
-          "3": "1 g of $ \\mathrm { O } _ { 2 } ( \\mathrm {~g} ) $ [Atomic mass of $ \\mathrm { O } = 16 $ ]",
-          "4": "1 g of $ \\mathrm { Li } ( \\mathrm { s } ) [ $ Atomic mass of $ \\mathrm { Li } = 7 ] $"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2020-7ba2bfb524",
-        "sourceYear": 2020,
-        "sourceNumber": 125,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "What is the change in oxidation number of carbon in the following reaction? $ \\mathrm { CH } _ { 4 } ( \\mathrm {~g} ) + 4 \\mathrm { Cl } _ { 2 } ( \\mathrm {~g} ) \\rightarrow \\mathrm { CCl } _ { 4 } ( \\mathrm { l } ) + 4 \\mathrm { HCl } ( \\mathrm {~g} ) $",
-        "options": {
-          "1": "+ 4 to + 4",
-          "2": "0 to + 4",
-          "3": "- 4 to + 4",
-          "4": "0 to - 4"
         },
         "correctOption": "3",
         "correctOptions": [
@@ -6987,32 +6649,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2021-adf1df7e1b",
-        "sourceYear": 2021,
-        "sourceNumber": 74,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "The major product of the following chemical reaction is : $ \\mathrm{CH}_{3}\\mathrm{CH}_{3}\\backslash\\mathrm{CH}-\\mathrm{CH}=\\mathrm{CH}_{2}+\\mathrm{HBr}\\xrightarrow{\\left(\\mathrm{C}_{6}\\mathrm{H}_{5}\\mathrm{CO}\\right)_{2}\\mathrm{O}_{2}}?$",
-        "options": {
-          "1": "image_616.png",
-          "2": "image_617.png",
-          "3": "image_618.png",
-          "4": "image_619.png"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2021-f8a78b6f6e",
         "sourceYear": 2021,
         "sourceNumber": 82,
@@ -7065,110 +6701,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2021-6ca398f457",
-        "sourceYear": 2021,
-        "sourceNumber": 87,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "The slope of Arrhenius Plot $ \\left( \\ln \\mathrm { k } \\mathrm { v } / \\mathrm { s } \\frac { 1 } { \\mathrm {~T} } \\right) $ of first order reaction is $ - 5 \\times 10 ^ { 3 } \\mathrm {~K} $. The value of $ \\mathrm { E } _ { \\mathrm { a } } $ of the reaction is. Choose the correct option for your answer. [Given $ \\mathrm { R } = 8.314 \\mathrm { JK } ^ { - 1 } \\mathrm {~mol} ^ { - 1 } $ ]",
-        "options": {
-          "1": "$ 83.0 \\mathrm {~kJ} \\mathrm {~mol} ^ { - 1 } $",
-          "2": "$ 166 \\mathrm {~kJ} \\mathrm {~mol} ^ { - 1 } $",
-          "3": "$ \\quad - 83 \\mathrm {~kJ} \\mathrm {~mol} ^ { - 1 } $",
-          "4": "$ 41.5 \\mathrm {~kJ} \\mathrm {~mol} ^ { - 1 } $"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2021-3b6456a5d8",
-        "sourceYear": 2021,
-        "sourceNumber": 89,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "Match List - I with List - II. List - I (a) $ \\quad \\left[ \\mathrm { Fe } ( \\mathrm { CN } ) _ { 6 } \\right] ^ { 3 - } $ (b) $ \\left[ \\mathrm { Fe } \\left( \\mathrm { H } _ { 2 } \\mathrm { O } \\right) _ { 6 } \\right] ^ { 3 + } $ (c) $ \\quad \\left[ \\mathrm { Fe } ( \\mathrm { CN } ) _ { 6 } \\right] ^ { 4 - } $ (d) $ \\left[ \\mathrm { Fe } \\left( \\mathrm { H } _ { 2 } \\mathrm { O } \\right) _ { 6 } \\right] ^ { 2 + } $ List - II (i) 5.92 BM (ii) 0 BM (iii) 4.90 BM (iv) 1.73 BM",
-        "options": {
-          "1": "(a)-(ii), (b)-(iv), (c)-(iii), (d)-(i)",
-          "2": "(a)-(i), (b)-(iii), (c)-(iv), (d)-(ii)",
-          "3": "(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)",
-          "4": "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2021-dc875b20ab",
-        "sourceYear": 2021,
-        "sourceNumber": 90,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "Match List-I with List - II. \\n\\nList - I\\n(a) $ \\quad 2 \\mathrm { SO } _ { 2 } ( \\mathrm {~g} ) + \\mathrm { O } _ { 2 } ( \\mathrm {~g} ) \\rightarrow $ $ 2 \\mathrm { SO } _ { 3 } ( \\mathrm {~g} ) $\\n(b) $ \\begin{array} { l } \\mathrm { HOCl } ( \\mathrm {~g} ) \\xrightarrow { \\mathrm { h } \\nu } \\ \\dot { \\mathrm { O } } \\mathrm { H } + \\dot { \\mathrm { Cl } } \\end{array} $\\n(c) $ \\mathrm { CaCO } _ { 3 } + \\mathrm { H } _ { 2 } \\mathrm { SO } _ { 4 } \\rightarrow $ $ \\mathrm { CaSO } _ { 4 } + \\mathrm { H } _ { 2 } \\mathrm { O } + \\mathrm { CO } _ { 2 } $\\n(d) $ \\quad \\begin{array} { l } \\mathrm { NO } _ { 2 } ( \\mathrm {~g} ) \\xrightarrow { \\mathrm { NO } ( \\mathrm { g } ) + \\mathrm { O } ( \\mathrm { g } ) } \\mathrm { h } \\nu \\end{array} $ $ \\mathrm { NO } ( \\mathrm {~g} ) + \\mathrm { O } ( \\mathrm {~g} ) $",
-        "options": {
-          "1": "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
-          "2": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)",
-          "3": "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)",
-          "4": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2021-8f0ef48f68",
-        "sourceYear": 2021,
-        "sourceNumber": 94,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "$ \\begin{array}{l} \\mathrm{CH}_{3}\\mathrm{CH}_{2}\\mathrm{COO}^{-}\\mathrm{Na}^{+}\\frac{\\mathrm{NaOH},+?}{\\text{Heat}}\\mathrm{CH}_{3}\\mathrm{CH}_{3}+\\mathrm{Na}_{2}\\mathrm{CO}_{3}. \\end{array}$ Consider the above reaction and identify the missing reagent/chemical.",
-        "options": {
-          "1": "Red Phosphorus",
-          "2": "CaO",
-          "3": "DIBAL-H",
-          "4": "$ \\mathrm{B}_{2}\\mathrm{H}_{6} $"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2021-63dac1e014",
         "sourceYear": 2021,
         "sourceNumber": 97,
@@ -7184,32 +6716,6 @@
         "correctOption": "2",
         "correctOptions": [
           "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2021-e52a38fa45",
-        "sourceYear": 2021,
-        "sourceNumber": 5,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "The intermediate compound 'X' in the following chemical reaction is : $ + \\mathrm { CrO } _ { 2 } \\mathrm { Cl } _ { 2 } \\xrightarrow { \\mathrm { CS } _ { 2 } } \\mathrm { X } \\xrightarrow { \\mathrm { H } _ { 3 } \\mathrm { O } ^ { + } } $",
-        "options": {
-          "1": "image_630.png",
-          "2": "image_631.png",
-          "3": "image_632.png",
-          "4": "image_633.png"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -7273,110 +6779,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2022-114e9f2bae",
-        "sourceYear": 2022,
-        "sourceNumber": 9,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "At 298 K , the standard electrode potentials of $ \\mathrm { Cu } ^ { 2 + } / \\mathrm { Cu } , 2 $ $ \\mathrm { Zn } , \\mathrm { Fe } ^ { 2 + } / \\mathrm { Fe } $ and $ \\mathrm { Ag } ^ { + } / \\mathrm { Ag } $ are $ 0.34 \\mathrm {~V} , - 0.76 \\mathrm {~V} , - 0.44 \\mathrm {~V} $ 0.80 V , respectively. On the basis of standard electrode potential, predict $ w $ of the following reaction can not occur? a. $ 2 \\mathrm { CuSO } _ { 4 } ( \\mathrm { aq } ) + 2 \\mathrm { Ag } ( \\mathrm { s } ) \\rightarrow 2 \\mathrm { Cu } ( \\mathrm { s } ) + \\mathrm { Ag } _ { 2 } \\mathrm { SO } _ { 4 } ( \\mathrm { aq } ) $ b. $ \\mathrm { CuSO } _ { 4 } ( \\mathrm { aq } ) + \\mathrm { Zn } ( \\mathrm { s } ) \\rightarrow \\mathrm { ZnSO } _ { 4 } ( \\mathrm { aq } ) + \\mathrm { Cu } ( \\mathrm { s } ) $ c. $ \\mathrm { CuSO } _ { 4 } ( \\mathrm { aq } ) + \\mathrm { Fe } ( \\mathrm { s } ) \\rightarrow \\mathrm { FeSO } _ { 4 } ( \\mathrm { aq } ) + \\mathrm { Cu } ( \\mathrm { s } ) $ d. $ \\mathrm { FeSO } _ { 4 } ( \\mathrm { aq } ) + \\mathrm { Zn } ( \\mathrm { s } ) \\rightarrow \\mathrm { ZnSO } _ { 4 } ( \\mathrm { aq } ) + \\mathrm { Fe } ( \\mathrm { s } ) $",
-        "options": {
-          "1": "a. $ 2 \\mathrm { CuSO } _ { 4 } ( \\mathrm { aq } ) + 2 \\mathrm { Ag } ( \\mathrm { s } ) \\rightarrow 2 \\mathrm { Cu } ( \\mathrm { s } ) + \\mathrm { Ag } _ { 2 } \\mathrm { SO } _ { 4 } ( \\mathrm { aq } ) $",
-          "2": "b. $ \\mathrm { CuSO } _ { 4 } ( \\mathrm { aq } ) + \\mathrm { Zn } ( \\mathrm { s } ) \\rightarrow \\mathrm { ZnSO } _ { 4 } ( \\mathrm { aq } ) + \\mathrm { Cu } ( \\mathrm { s } ) $",
-          "3": "c. $ \\mathrm { CuSO } _ { 4 } ( \\mathrm { aq } ) + \\mathrm { Fe } ( \\mathrm { s } ) \\rightarrow \\mathrm { FeSO } _ { 4 } ( \\mathrm { aq } ) + \\mathrm { Cu } ( \\mathrm { s } ) $",
-          "4": "d. $ \\mathrm { FeSO } _ { 4 } ( \\mathrm { aq } ) + \\mathrm { Zn } ( \\mathrm { s } ) \\rightarrow \\mathrm { ZnSO } _ { 4 } ( \\mathrm { aq } ) + \\mathrm { Fe } ( \\mathrm { s } ) $"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2022-9882071e71",
-        "sourceYear": 2022,
-        "sourceNumber": 20,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "Given below are half cell reactions: \\n\\n\\begin{array}{l}\\n\\mathrm{MnO}_{4}^{-}+8\\mathrm{H}^{+}+5\\mathrm{e}^{-}\\rightarrow\\mathrm{Mn}^{2+}+4\\mathrm{H}_{2}\\mathrm{O}\\n\\mathrm{E}_{\\mathrm{Mn}^{\\mathrm{o}}/\\mathrm{MnO}_{4}^{-}}^{2+}=-1.510\\mathrm{~V}\\n\\frac{1}{2}\\mathrm{O}_{2}+2\\mathrm{H}^{+}+2\\mathrm{e}^{-}\\rightarrow\\mathrm{H}_{2}\\mathrm{O}\\n\\mathrm{E}_{\\mathrm{O}_{2}/\\mathrm{H}_{2}\\mathrm{O}}=+1.223\\mathrm{~V}\\n\\end{array}\\n\\nWill the permanganate ion, $\\mathrm{MnO}_{4}^{-}$ liberate $\\mathrm{O}_{2}$ from water in the presence of an acid?",
-        "options": {
-          "1": "No because $E_{\\text{cell}}^{o}=-2.733\\mathrm{~V}$",
-          "2": "Yes, because $\\mathrm{E}_{\\text{cell}}^{o}=+0.287\\mathrm{~V}$",
-          "3": "No, because $\\mathrm{E}_{\\text{cell}}^{\\mathrm{o}}=-0.287\\mathrm{~V}$",
-          "4": "Yes, because $E_{\\text{cell}}^{o}=+2.733\\mathrm{~V}$"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2022-a39910f6b1",
-        "sourceYear": 2022,
-        "sourceNumber": 37,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "A 10.0 L flask contains 64 g of oxygen at $ 27 ^ { \\circ } \\mathrm { C } $. (Assume $ \\mathrm { O } _ { 2 } $ gas is behaving ideally). The pressure inside the flask in bar is (Given $ \\mathrm { R } = 0.0831 \\mathrm {~L} ^ { \\text {bar } } \\mathrm { K } ^ { - 1 } \\mathrm {~mol} ^ { - 1 } $ )",
-        "options": {
-          "1": "4.9",
-          "2": "2.5",
-          "3": "498.6",
-          "4": "49.8"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2022-a4748ece0f",
-        "sourceYear": 2022,
-        "sourceNumber": 43,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "Find the emf of the cell in which the following reaction takes place at 298 K $ \\mathrm { Ni } ( \\mathrm {~s} ) + 2 \\mathrm { Ag } ^ { + } ( 0.001 \\mathrm { M } ) \\rightarrow \\mathrm { Ni } ^ { 2 + } ( 0.001 \\mathrm { M } ) + 2 \\mathrm { Ag } ( \\mathrm {~s} ) $ (Given that $ \\mathrm { E } _ { \\text {cell } } ^ { \\circ } = 10.5 \\mathrm {~V} , \\frac { 2.303 \\mathrm { RT } } { \\mathrm { F } } = 0.059 $ at 298 K )",
-        "options": {
-          "1": "1.05 V",
-          "2": "1.0385 V",
-          "3": "1.385 V",
-          "4": "0.9615 V"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2022-22a92b9193",
         "sourceYear": 2022,
         "sourceNumber": 46,
@@ -7392,58 +6794,6 @@
         "correctOption": "4",
         "correctOptions": [
           "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2022-cb0df09040",
-        "sourceYear": 2022,
-        "sourceNumber": 35,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "The order of energy absorbed which is responsible for the color of complexes A. $ \\left[ \\mathrm { Ni } \\left( \\mathrm { H } _ { 2 } \\mathrm { O } \\right) _ { 2 } ( \\mathrm { en } ) _ { 2 } \\right] ^ { 2 + } $ B. $ \\left[ \\mathrm { Ni } \\left( \\mathrm { H } _ { 2 } \\mathrm { O } \\right) _ { 4 } ( \\mathrm { en } ) \\right] ^ { 2 + } $ and C. $ \\left[ \\mathrm { Ni } ( \\mathrm { en } ) _ { 3 } \\right] ^ { 2 + } $ is",
-        "options": {
-          "1": "$ \\mathrm { B } > \\mathrm { A } > \\mathrm { C } $",
-          "2": "$ \\mathrm { A } > \\mathrm { B } > \\mathrm { C } $",
-          "3": "$ \\mathrm { C } > \\mathrm { B } > \\mathrm { A } $",
-          "4": "$ \\mathrm { C } > \\mathrm { A } > \\mathrm { B } $"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2023-6957d93545",
-        "sourceYear": 2023,
-        "sourceNumber": 58,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "The right option for the mass of $ \\mathrm { CO } _ { 2 } $ produced by heating 20 g of $ 20 \\% $ pure limestone is (Atomic mass of $ \\mathrm { Ca } = 40 $ ) $ \\left[ \\mathrm { CaCO } _ { 3 } \\xrightarrow { 1200 \\mathrm {~K} } \\mathrm { CaO } + \\mathrm { CO } _ { 2 } \\right] $",
-        "options": {
-          "1": "1.32 g",
-          "2": "1.12 g",
-          "3": "1.76 g",
-          "4": "2.64 g"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -7611,110 +6961,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2023-8b9263e8ff",
-        "sourceYear": 2023,
-        "sourceNumber": 100,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "On balancing the given redox reaction, $ \\mathrm { aCr } _ { 2 } \\mathrm { O } _ { 7 } ^ { 2 - } + \\mathrm { bSO } _ { 3 } ^ { 2 - } ( \\mathrm { aq } ) + \\mathrm { cH } ^ { + } ( \\mathrm { aq } ) \\rightarrow $ $ 2 \\mathrm { aCr } ^ { 3 + } ( \\mathrm { aq } ) + \\mathrm { bSO } _ { 4 } ^ { 2 - } ( \\mathrm { aq } ) + \\frac { \\mathrm { c } } { 2 } \\mathrm { H } _ { 2 } \\mathrm { O } ( \\ell ) $ the coefficients $ a , b $ and $ c $ are found to $ b e $, respectively -",
-        "options": {
-          "1": "$ 8,1,3 $",
-          "2": "$ 1,3,8 $",
-          "3": "$ 3,8,1 $",
-          "4": "$ 1,8,3 $"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2024-35cb9d8028",
-        "sourceYear": 2024,
-        "sourceNumber": 52,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "Following data is for a reaction between reactants $ A $ and $ B $ : \\begin{tabular} { c c c } Rate & { $ [ A ] $} & [B] \\ $ \\mathrm { mol } \\mathrm { L } ^ { - 1 } \\mathrm {~s} ^ { - 1 } $ & & \\ $ 2 \\times 10 ^ { - 3 } $ & 0.1 M & 0.1 M \\ $ 4 \\times 10 ^ { - 3 } $ & 0.2 M & 0.1 M \\ $ 1.6 \\times 10 ^ { - 2 } $ & 0.2 M & 0.2 M \\end{tabular} The order of the reaction with respect to $ A $ and $ B $, respectively, are",
-        "options": {
-          "1": "1,0",
-          "2": "0,1",
-          "3": "1,2",
-          "4": "2,1"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2024-9a6537f3ba",
-        "sourceYear": 2024,
-        "sourceNumber": 56,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "The major product $ X $ formed in the following reaction sequence is: (i) $ \\mathrm{Cl}_{2}/\\mathrm{FeCl}_{3} $ (ii) $ \\mathrm{Sn}/\\mathrm{HCl} $ (iii) $ \\mathrm{NaNO}/\\mathrm{HCl} $ 273-278K (iv) KI",
-        "options": {
-          "1": "image_797.png",
-          "2": "image_798.png",
-          "3": "image_799.png",
-          "4": "image_800.png"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2024-fc7b336916",
-        "sourceYear": 2024,
-        "sourceNumber": 60,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "Which of the following pairs of ions will have same spin only magnetic moment values within the pair? A. $ \\quad \\mathrm { Zn } ^ { 2 + } , \\mathrm { Ti } ^ { 2 + } $ B. $ \\mathrm { Cr } ^ { 2 + } , \\mathrm { Fe } ^ { 2 + } $ C. $ \\mathrm { Ti } ^ { 3 + } , \\mathrm { Cu } ^ { 2 + } $ D. $ \\mathrm { V } ^ { 2 + } , \\mathrm { Cu } ^ { + } $ Choose the correct answer from the options given below :",
-        "options": {
-          "1": "C and D only",
-          "2": "A and D only",
-          "3": "A and B only",
-          "4": "B and C only"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2024-f1d1ac8edf",
         "sourceYear": 2024,
         "sourceNumber": 62,
@@ -7793,32 +7039,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2024-5748f095ed",
-        "sourceYear": 2024,
-        "sourceNumber": 73,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "The major product $ D $ formed in the following reaction sequence is: $ \\left. \\mathrm { CH } _ { 3 } \\mathrm { OH } \\xrightarrow { \\mathrm { SOCl } _ { 2 } } A \\xrightarrow [ \\text { aq. EtOH } ] { \\mathrm { KCN } } B \\xrightarrow [ \\text { EtOH } ] { \\substack { \\mathrm { Na } ( \\mathrm { Hg } ) } } \\begin{array} { c } \\text { (i) } \\mathrm { NaNO } _ { 2 } \\ + \\ \\mathrm { HCl } \\end{array} \\right\\rvert \\, \\begin{array} { l } \\text { (ii) } \\mathrm { H } _ { 2 } \\mathrm { O } \\ \\ \\ \\ \\ \\ \\ \\text { (major) } \\end{array} $",
-        "options": {
-          "1": "image_807.png",
-          "2": "image_808.png",
-          "3": "$ \\mathrm { CH } _ { 3 } \\mathrm { CH } _ { 2 } \\mathrm { OH } $",
-          "4": "$ \\mathrm { CH } _ { 3 } \\mathrm { CH } _ { 2 } \\mathrm { Cl } $"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2024-e79609b946",
         "sourceYear": 2024,
         "sourceNumber": 76,
@@ -7830,32 +7050,6 @@
           "2": "I $ > $ III $ > $ II $ > $ IV",
           "3": "III $ > $ I $ > $ II $ > $ IV",
           "4": "I $ > $ II $ > $ III $ > $ IV"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2024-9535ec1c6c",
-        "sourceYear": 2024,
-        "sourceNumber": 77,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "$ \\text { Energy } = ( \\mathrm { I } ) > ( \\mathrm { III } ) > ( \\mathrm { II } ) > ( \\mathrm { IV } ) $ The major product C in the below mentioned reaction is: $ \\mathrm { CH } _ { 3 } \\mathrm { CH } _ { 2 } \\mathrm { CH } _ { 2 } \\mathrm { Br } \\xrightarrow [ \\Delta ] { \\text { alc. } \\mathrm { KOH } } \\mathrm { A } \\xrightarrow { \\mathrm { HBr } } \\mathrm { B } \\xrightarrow [ \\Delta ] { \\text { aq. } \\mathrm { KOH } } \\mathrm { C } $",
-        "options": {
-          "1": "Propan-1-ol",
-          "2": "Propan-2-ol",
-          "3": "Propane",
-          "4": "Propyne"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -7886,32 +7080,6 @@
         "correctOption": "2",
         "correctOptions": [
           "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2024-b062148fcd",
-        "sourceYear": 2024,
-        "sourceNumber": 84,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "The oxidation states not shown by Mn in given reaction is : $ 3 \\mathrm { MnO } _ { 4 } ^ { 2 - } + 4 \\mathrm { H } ^ { + } \\longrightarrow 2 \\mathrm { MnO } _ { 4 } ^ { - } + \\mathrm { MnO } _ { 2 } + 2 \\mathrm { H } _ { 2 } \\mathrm { O } $",
-        "options": {
-          "1": "D and E only",
-          "2": "B and D only",
-          "3": "A and B only",
-          "4": "B and E only"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -9452,30 +8620,6 @@
           "2": "8 Â L Â ; Â 2",
           "3": "7 Â L B 2",
           "4": "7 Â L Â ; Â 3"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-aefad6e5f2",
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "The volume occupied by $1.8 \\mathrm{~g}$ of water vapour at $374^{\\circ} \\mathrm{C}$ and 1 bar pressure will be [Use $\\mathrm{R}=0.083$ bar $\\mathrm{L} \\mathrm{K}^{-1} \\mathrm{~mol}^{-1}$ ]",
-        "options": {
-          "1": "A 9",
-          "2": "66 \\mathrm{~L} B 5",
-          "3": "87 \\mathrm{~L}",
-          "4": "10 \\mathrm{~L}"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -13272,32 +12416,6 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
-      },
-      {
-        "id": "hf2018-c05d48265c",
-        "sourceYear": 2018,
-        "sourceNumber": 69,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "stem": "Match the metal ions given in Column I with the spin magnetic moments of the ions given in Column II and assign the correct code : \\begin{tabular} { l l l l l } & Column I & & \\multicolumn{1}{c} { Column II } \\ a. & $ \\mathrm { Co } ^ { 3 + } $ & i. & $ \\sqrt { 8 } $ B.M. \\ b. & $ \\mathrm { Cr } ^ { 3 + } $ & ii. & $ \\sqrt { 35 } $ B.M. \\ c. & $ \\mathrm { Fe } ^ { 3 + } $ & & iii. & $ \\sqrt { 3 } $ B.M. \\ d. & $ \\mathrm { Ni } ^ { 2 + } $ & & iv. & $ \\sqrt { 24 } $ B.M. \\ & & & v. & $ \\sqrt { 15 } $ B.M. \\ & & a & b & c \\ (1) & iv & i & ii & iii \\ $ ( 2 ) $ & i & ii & iii & iv \\ (3) & iv & v & ii & i \\ (4) & iii & v & i & ii \\end{tabular}",
-        "options": {
-          "1": "iv i ii iii",
-          "2": "i ii iii iv",
-          "3": "iv v ii i",
-          "4": "iii v i ii"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
       },
       {
         "id": "hf2023-155b2a6b94",

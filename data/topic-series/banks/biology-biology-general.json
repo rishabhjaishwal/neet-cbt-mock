@@ -3,9 +3,9 @@
   "subject": "Biology",
   "topic": "Biology General",
   "counts": {
-    "Easy": 313,
-    "Medium": 241,
-    "Hard": 204
+    "Easy": 311,
+    "Medium": 236,
+    "Hard": 193
   },
   "questions": {
     "Easy": [
@@ -6669,32 +6669,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2021-1758794f1e",
-        "sourceYear": 2021,
-        "sourceNumber": 137,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "In the exponential growth equation $ \\mathrm{N}_{\\mathrm{t}} = \\mathrm{N}_{\\mathrm{o}} \\mathrm{e}^{\\mathrm{rt}} $, e represents:",
-        "options": {
-          "1": "The base of exponential logarithms",
-          "2": "The base of natural logarithms",
-          "3": "The base of geometric logarithms",
-          "4": "The base of number logarithms"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2021-fc91c8304a",
         "sourceYear": 2021,
         "sourceNumber": 143,
@@ -7308,32 +7282,6 @@
         "correctOption": "3",
         "correctOptions": [
           "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2024-d1b109b84c",
-        "sourceYear": 2024,
-        "sourceNumber": 113,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Identify the incorrect pair : (1) Sphenopsida - Adiantum (2) Pteropsida - Dryopteris (3) Psilopsida - Psilotum (4) Lycopsida - Selaginella",
-        "options": {
-          "1": "Sphenopsida - Adiantum",
-          "2": "Pteropsida - Dryopteris",
-          "3": "Psilopsida - Psilotum",
-          "4": "Lycopsida - Selaginella"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -12447,32 +12395,6 @@
         "placeholder": false
       },
       {
-        "id": "hf2017-edf9fdacc3",
-        "sourceYear": 2017,
-        "sourceNumber": 47,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Select the mismatch: \\begin{tabular} { l l l l } (1) & Pinus & - & Dioecious \\ (2) Cycas & - & Dioecious \\ (3) Salvinia & = & Heterosporous \\ (4) Equisetum & = & Homosporous \\end{tabular}",
-        "options": {
-          "1": "Pinus - Dioecious",
-          "2": "Cycas - Dioecious",
-          "3": "Salvinia = Heterosporous",
-          "4": "Equisetum = Homosporous"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2018-f55a39be6d",
         "sourceYear": 2018,
         "sourceNumber": 103,
@@ -12696,32 +12618,6 @@
         "correctOption": "4",
         "correctOptions": [
           "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2021-a7ffa95929",
-        "sourceYear": 2021,
-        "sourceNumber": 168,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Identify the incorrect pair. \\begin{tabular} { l l l l } (1) & Toxin & - & Abrin \\ (2) & Lectins & - & Concanavalin A \\ (3) & Drugs & - & Ricin \\ (4) & Alkaloids & - & Codeine \\end{tabular}",
-        "options": {
-          "1": "Toxin - Abrin",
-          "2": "Lectins - Concanavalin A",
-          "3": "Drugs - Ricin",
-          "4": "Alkaloids - Codeine"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -13008,32 +12904,6 @@
         "correctOption": "4",
         "correctOptions": [
           "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2023-3968bac29a",
-        "sourceYear": 2023,
-        "sourceNumber": 182,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Which of the following statements is correct? (1) Algal Bloom decreases fish mortality (2) Eutrophication refers to increase in domestic sewage and waste water in lakes. (3) Biomagnification refers to increase in concentration of the toxicant at successive trophic levels. (4) Presence of large amount of nutrients in water restricts 'Algal Bloom",
-        "options": {
-          "1": "Algal Bloom decreases fish mortality",
-          "2": "Eutrophication refers to increase in domestic sewage and waste water in lakes.",
-          "3": "Biomagnification refers to increase in concentration of the toxicant at successive trophic levels.",
-          "4": "Presence of large amount of nutrients in water restricts 'Algal Bloom'"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -13357,32 +13227,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2024-2266845e39",
-        "sourceYear": 2024,
-        "sourceNumber": 168,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Match List-I with List-II relating to microbes and their products: \\n\\n\\begin{tabular}{|l|l|l|l|}\\n\\hline\\n&\\begin{tabular}{l}List-I$Microbes)\\end{tabular}&\\&\\begin{tabular}{l}List-II$Products)\\end{tabular}\\n\\hline\\nA.&Streptococcus&I.&Citric acid\\n\\hline\\nB.&Trichoderma polysporum&II.&Clot buster\\n\\hline\\nC.&Monascus purpureus&III.&Cyclosporin A\\n\\hline\\nD.&Aspergillus niger&IV.&Statins\\n\\hline\\n\\end{tabular}\\n\\n",
-        "options": {
-          "1": "A-II, B-III, C-IV, D-I",
-          "2": "A-I, B-II, C-III, D-IV",
-          "3": "A-I, B-III, C-II, D-IV",
-          "4": "A-I, B-IV, C-II, D-III"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2024-d797b896d5",
         "sourceYear": 2024,
         "sourceNumber": 20,
@@ -13476,32 +13320,6 @@
         "correctOption": "1",
         "correctOptions": [
           "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2024-48f8f9d108",
-        "sourceYear": 2024,
-        "sourceNumber": 1,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Which of the following pairs is an incorrect match? (1) Annelids and arthropods-Bilateral symmetry (2) Sponges-Acoelomates (3) Coelenterates and Ctenophores-Radial symmetry (4) Platyhelminthes-Diploblastic organisation",
-        "options": {
-          "1": "Annelids and arthropods-Bilateral symmetry",
-          "2": "Sponges-Acoelomates",
-          "3": "Coelenterates and Ctenophores-Radial symmetry",
-          "4": "Platyhelminthes-Diploblastic organisation"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -18401,84 +18219,6 @@
         "placeholder": false
       },
       {
-        "id": "hf2018-a106c728d4",
-        "sourceYear": 2018,
-        "sourceNumber": 137,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Match the items given in Column I with those in Column II and select the correct option given below : \\n\\n\\begin{tabular}{|c|c|c|c|c|c|} \\hline & \\multicolumn{4}{|l|}{Column I} & Column II \\ \\hline a. & \\multicolumn{3}{|l|}{Tricuspid valve} & i. & Between left atrium and left ventricle \\ \\hline b. & & id & & ii. & Between right ventricle and pulmonary artery \\ \\hline c. & & nar & & iii. & Between right atrium and right ventricle \\ \\hline & a & b & c & & \\ \\hline (1) & i & ii & iii & & \\ \\hline (2) & i & iii & ii & & \\ \\hline (3) & iii & i & ii & & \\ \\hline (4) & ii & i & iii & & \\ \\hline \\end{tabular} \\n\\n",
-        "options": {
-          "1": "i ii iii",
-          "2": "i iii ii",
-          "3": "iii i ii",
-          "4": "ii i iii"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2018-f503c9b8e6",
-        "sourceYear": 2018,
-        "sourceNumber": 138,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Match the items given in Column I with those in Column II and select the correct option given below : \\begin{tabular}{|c|c|c|c|c|c|} \\hline & \\multicolumn{3}{|l|}{Column I} & \\multicolumn{2}{|r|}{Column II} \\ \\hline a. & \\multicolumn{3}{|l|}{Tidal volume} & i. & $ 2500 - 3000 \\mathrm {~mL} $ \\ \\hline b. & \\multicolumn{3}{|l|}{Inspiratory Reserve volume} & ii. & $ 1100 - 1200 \\mathrm {~mL} $ \\ \\hline c. & \\multicolumn{3}{|l|}{Expiratory Reserve volume} & iii & $ 500 - 550 \\mathrm {~mL} $ \\ \\hline d. & \\multicolumn{3}{|l|}{Residual volume} & iv & $ 1000 - 1100 \\mathrm {~mL} $ \\ \\hline & a & b & c & d & \\ \\hline (1) & i & iv & ii & iii & \\ \\hline (2) & iii & i & iv & ii & \\ \\hline (3) & iii & ii & i & iv & \\ \\hline (4) & iv & iii & ii & i & \\ \\hline \\end{tabular}",
-        "options": {
-          "1": "i iv ii iii",
-          "2": "iii i iv ii",
-          "3": "iii ii i iv",
-          "4": "iv iii ii i"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2018-5803a02d43",
-        "sourceYear": 2018,
-        "sourceNumber": 155,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Match the items given in Column I with those in Column II and select the correct option given below : \\n\\n\\begin{tabular}{|c|c|c|c|c|c|} \\hline & \\multicolumn{3}{|l|}{Column I} & \\multicolumn{2}{|r|}{Column II} \\ \\hline a. & \\multicolumn{3}{|l|}{Eutrophication} & & UV-B radiation \\ \\hline b. & \\multicolumn{3}{|l|}{Sanitary landfill} & & Deforestation \\ \\hline c. & \\multicolumn{3}{|l|}{Snow blindness} & & Nutrient enrichment \\ \\hline d. & & cult & & & Waste disposal \\ \\hline & a & b & c & & d \\ \\hline (1) & iii & iv & i & & ii \\ \\hline (2) & i & iii & iv & & ii \\ \\hline (3) & ii & i & iii & & iv \\ \\hline (4) & i & ii & iv & & iii \\ \\hline \\end{tabular} \\n\\n",
-        "options": {
-          "1": "a - iii, b - iv, c - i, d - ii",
-          "2": "a - i, b - iii, c - iv, d - ii",
-          "3": "a - ii, b - i, c - iii, d - iv",
-          "4": "a - i, b - ii, c - iv, d - iii"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2019-106a0a7420",
         "sourceYear": 2019,
         "sourceNumber": 93,
@@ -18494,32 +18234,6 @@
         "correctOption": "2",
         "correctOptions": [
           "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2019-befd972b17",
-        "sourceYear": 2019,
-        "sourceNumber": 105,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Match the Column - I with Column - II : \\n\\n\\begin{tabular}{lll}\\n& Column-I && Column-II \\n(a) & P-wave & (i) & \\begin{tabular}{l}Depolarisation of \\ ventricles\\end{tabular}\\n(b) & QRS complex & (ii) & \\begin{tabular}{l}Repolarisation of \\ ventricles\\end{tabular}\\n(c) & T-wave & (iii) \\begin{tabular}{l}Coronary \\ ischemia\\end{tabular}\\n(d) & \\begin{tabular}{l}Reductionin the \\ size of T-wave\\end{tabular} & (iv) & \\begin{tabular}{l}Depolarisation of \\ atria\\end{tabular}\\n& & (v) \\begin{tabular}{l}Repolarisation of \\ atria\\end{tabular}\\n\\end{tabular}\\n\\n\\n\\nSelect the correct option.\\n\\n\\begin{tabular}{lllll}\\n& (a) & (b) & (c) & (d) \\n(1) & (iv) & (i) & (ii) & (iii) \\n(2) & (iv) & (i) & (ii) & (v) \\n(3) & (ii) & (i) & (v) & (iii) \\n(4) & (ii) & (iii) & (v) & (iv)\\n\\end{tabular}\\n\\n",
-        "options": {
-          "1": "(iv), (i), (ii), (iii)",
-          "2": "(iv), (i), (ii), (v)",
-          "3": "(ii), (i), (v), (iii)",
-          "4": "(ii), (iii), (v), (iv)"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -18687,84 +18401,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2020-280eec4f6e",
-        "sourceYear": 2020,
-        "sourceNumber": 84,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Match the following columns and select the correct option. $ \\begin{array}{lll}\\text{Column - I} & & \\text{Column - II}\\text{(a)} & \\text{Floating Ribs} & \\text{(i)} & \\begin{array}{l}\\text{Located between}\\text{second and}\\text{seventh ribs}\\end{array}\\text{(b)} & \\text{Acromion} & & \\begin{array}{l}\\text{Head of the}\\text{Humerus}\\end{array}\\end{array}\\right$ (c) \\begin{tabular}{llll}Scapula & & (iii) & Clavicle$d) & Glenoid cavity & (iv) & Do not connect\\text{with sternum}\\end{tabular}",
-        "options": {
-          "1": "(iv) (ii) (i) (iii)",
-          "2": "(i) (iii) (ii) (iv)",
-          "3": "(iii) (ii) (iv) (i)",
-          "4": "(iv) (iii) (i) (ii)"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2021-ed302355a2",
-        "sourceYear": 2021,
-        "sourceNumber": 101,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Match List - I with List - II. \\begin{tabular} { | l | l | l | l | } \\hline \\multicolumn{2}{|c|} { List - I } & \\multicolumn{2}{c|} { List - II } \\ \\hline (a) & Cohesion & (i) & \\begin{tabular} { l } More attraction in \\ liquid phase \\end{tabular} \\ \\hline (b) & Adhesion & (ii) & \\begin{tabular} { l } Mutual attraction \\ among water \\ molecules \\end{tabular} \\ \\hline (c) & Surface tension & (iii) & \\begin{tabular} { l } Water loss in liquid \\ phase \\end{tabular} \\ \\hline (d) & Guttation & (iv) & \\begin{tabular} { l } ttraction towards \\ polar surfaces \\end{tabular} \\ \\hline \\end{tabular} Choose the correct answer from the options given below. \\begin{tabular} { l l l l l } & (a) & (b) & (c) & (d) \\ (1) & (iv) & (iii) & (ii) & (i) \\ ( 2 ) & (iii) & (i) & (iv) & (ii) \\ ( 3 ) & (ii) & (i) & (iv) & (iii) \\ ( 4 ) & (ii) & (iv) & (i) & (iii) \\end{tabular}",
-        "options": {
-          "1": "(iv) (iii) (ii) (i)",
-          "2": "(iii) (i) (iv) (ii)",
-          "3": "(ii) (i) (iv) (iii)",
-          "4": "(ii) (iv) (i) (iii)"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2021-c35fd2eb5c",
-        "sourceYear": 2021,
-        "sourceNumber": 16,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Match List - I with List - II. \\begin{tabular} { | l | l | l | l | } \\hline \\multicolumn{2}{|c|} { List - I } & \\multicolumn{2}{c|} { List - II } \\ \\hline (a) & Lenticels & (i) & Phellogen \\ \\hline (b) & Cork cambium & (ii) & Suberin deposition \\ \\hline (c) & Secondary cortex & (iii) & Exchange of gases \\ \\hline (d) & Cork & (iv) & Phelloderm \\ \\hline \\end{tabular}",
-        "options": {
-          "1": "(a) (iii) (b) (i) (c) (iv) (d) (ii)",
-          "2": "(a) (ii) (b) (iii) (c) (iv) (d) (i)",
-          "3": "(a) (iv) (b) (ii) (c) (i) (d) (iii)",
-          "4": "(a) (iv) (b) (i) (c) (iii) (d) (ii)"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2021-902b2e1c45",
         "sourceYear": 2021,
         "sourceNumber": 146,
@@ -18776,32 +18412,6 @@
           "2": "(a) (ii) (b) (i) (c) (iv) (d) (iii)",
           "3": "(a) (iv) (b) (iii) (c) (i) (d) (ii)",
           "4": "(a) (iv) (b) (i) (c) (ii) (d) (iii)"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2021-b9e1ab61f8",
-        "sourceYear": 2021,
-        "sourceNumber": 147,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Match Column - I with Column - II. \\begin{tabular} { | l | l | l | l | } \\hline \\multicolumn{2}{|c|} { Column - I } & \\multicolumn{2}{c|} { Column - II } \\ \\hline (a) & Nitrococcus & (i) & Denitrification \\ \\hline (b) & Rhizobium & (ii) & \\begin{tabular} { l } Conversion of \\ ammonia to nitrite \\end{tabular} \\ \\hline (c) & Thiobacillus & (iii) & \\begin{tabular} { l } Conversion of nitrite \\ to nitrate \\end{tabular} \\ \\hline (d) & Nitrobacter & (iv) & \\begin{tabular} { l } Conversion of \\ atmospheric nitrogen \\ to ammonia \\end{tabular} \\ \\hline \\end{tabular} Choose the correct answer from options given below. \\begin{tabular} { l l l l l } & (a) & (b) & (c) & (d) \\ (1) & (i) & (ii) & (iii) & (iv) \\ ( 2 ) & (iii) & (i) & (iv) & (ii) \\ ( 3 ) & (iv) & (iii) & (ii) & (i) \\ ( 4 ) & (ii) & (iv) & (i) & (iii) \\end{tabular}",
-        "options": {
-          "1": "(i) (ii) (iii) (iv)",
-          "2": "(iii) (i) (iv) (ii)",
-          "3": "(iv) (iii) (ii) (i)",
-          "4": "(ii) (iv) (i) (iii)"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -18843,32 +18453,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2021-d7dd9ccf4f",
-        "sourceYear": 2021,
-        "sourceNumber": 177,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Match List - I with List - II. \\begin{tabular} { | l | l | l | l | } \\hline \\multicolumn{2}{|c|} { List - I } & \\multicolumn{2}{c|} { List - II } \\ \\hline (a) & Vaults & (i) & \\begin{tabular} { l } Entry of sperm through \\ Cervix is blocked \\end{tabular} \\ \\hline (b) & IUDs & (ii) & Removal of Vas deferens \\ \\hline (c) & Vasectomy & (iii) & \\begin{tabular} { l } Phagocytosis of sperms \\ within the Uterus \\end{tabular} \\ \\hline (d) & Tubectomy & (iv) & Removal of fallopian tube \\ \\hline \\end{tabular}",
-        "options": {
-          "1": "(i) (iii) (ii) (iv)",
-          "2": "(ii) (iv) (iii) (i)",
-          "3": "(iii) (i) (iv) (ii)",
-          "4": "(iv) (ii) (i) (iii)"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2021-285a925b92",
         "sourceYear": 2021,
         "sourceNumber": 181,
@@ -18884,58 +18468,6 @@
         "correctOption": "4",
         "correctOptions": [
           "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2021-3e4686d7d2",
-        "sourceYear": 2021,
-        "sourceNumber": 188,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Match List-I with List - II. \\n\\n\\begin{tabular}{|l|l|l|l|}\\n\\hline\\n\\multicolumn{2}{|c|}{List - I} & \\multicolumn{2}{c|}{List - II} \\n\\hline\\n(a) & Filariasis & (i) & \\begin{tabular}{l}Haemophilus \\ influenzae\\end{tabular}\\n\\n\\hline\\n(b) & Amoebiasis & (ii) & Trichophyton\\n\\n\\hline\\n(c) & Pneumonia & (iii) & Wuchereria bancrofti\\n\\n\\hline\\n(d) & Ringworm & (iv) & Entamoeba histolytica\\n\\n\\hline\\n\\end{tabular}\\n\\n\\n\\nChoose the correct answer from the options given below.\\n\\n\\begin{tabular}{lllll}\\n& (a) & (b) & (c) & (d)\\n$(1)$ & (iii) & (iv) & (i) & (ii)\\n$(2)$ & (i) & (ii) & (iv) & (iii)\\n$(3)$ & (ii) & (iii) & (i) & (iv)\\n$(4)$ & (iv) & (i) & (iii) & (ii)\\n\\end{tabular}\\n\\n",
-        "options": {
-          "1": "(iii) (iv) (i) (ii)",
-          "2": "(i) (ii) (iv) (iii)",
-          "3": "(ii) (iii) (i) (iv)",
-          "4": "(iv) (i) (iii) (ii)"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2021-ce7af32b3f",
-        "sourceYear": 2021,
-        "sourceNumber": 197,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Match List - I with List - II. \\begin{tabular} { | l | l | l | l | } \\hline \\multicolumn{2}{|c|} { List - I } & \\multicolumn{2}{c|} { List - II } \\ \\hline (a) & Allen's Rule & (i) & Kangaroo rat \\ \\hline (b) & \\begin{tabular} { l } Physiological \\ adaptation \\end{tabular} & (ii) & Desert lizard \\ \\hline (c) & \\begin{tabular} { l } Behavioural \\ adaptation \\end{tabular} & (iii) & Marine fish at depth \\ \\hline (d) & \\begin{tabular} { l } Biochemical \\ adaptation \\end{tabular} & (iv) & Polar seal \\ \\hline \\end{tabular} Choose the correct answer from the options given below. \\begin{tabular} { l l l l l } & (a) & (b) & (c) & (d) \\ $ ( 1 ) $ & (iv) & (i) & (iii) & (ii) \\ $ ( 2 ) $ & (iv) & (i) & (ii) & (iii) \\ $ ( 3 ) $ & (iv) & (iii) & (ii) & (i) \\ $ ( 4 ) $ & (iv) & (ii) & (iii) & (i) \\end{tabular}",
-        "options": {
-          "1": "(iv), (i), (iii), (ii)",
-          "2": "(iv), (i), (ii), (iii)",
-          "3": "(iv), (iii), (ii), (i)",
-          "4": "(iv), (ii), (iii), (i)"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,

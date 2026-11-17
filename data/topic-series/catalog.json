@@ -1,15 +1,15 @@
 {
-  "version": 1794911395609,
-  "note": "Student-curated banks targeting ≥50 per Easy/Medium/Hard. PYQ+HF+authored; AI-verified keys with attributable solutionSource.",
+  "version": 1794911734729,
+  "note": "Student-curated banks targeting ≥50 per Easy/Medium/Hard after content-quality filter. PYQ+HF+authored; AI-verified keys.",
   "topics": [
     {
       "id": "biology-biology-general",
       "subject": "Biology",
       "topic": "Biology General",
       "counts": {
-        "Easy": 313,
-        "Medium": 241,
-        "Hard": 204
+        "Easy": 311,
+        "Medium": 236,
+        "Hard": 193
       },
       "gaps": [],
       "ready": true
@@ -19,7 +19,7 @@
       "subject": "Biology",
       "topic": "Botany",
       "counts": {
-        "Easy": 50,
+        "Easy": 55,
         "Medium": 50,
         "Hard": 50
       },
@@ -31,7 +31,7 @@
       "subject": "Biology",
       "topic": "Cell Biology",
       "counts": {
-        "Easy": 50,
+        "Easy": 57,
         "Medium": 50,
         "Hard": 50
       },
@@ -43,7 +43,7 @@
       "subject": "Biology",
       "topic": "Ecology & Evolution",
       "counts": {
-        "Easy": 50,
+        "Easy": 56,
         "Medium": 50,
         "Hard": 50
       },
@@ -56,8 +56,8 @@
       "topic": "Genetics & Biotech",
       "counts": {
         "Easy": 76,
-        "Medium": 88,
-        "Hard": 50
+        "Medium": 87,
+        "Hard": 56
       },
       "gaps": [],
       "ready": true
@@ -68,8 +68,8 @@
       "topic": "Human Physiology",
       "counts": {
         "Easy": 67,
-        "Medium": 61,
-        "Hard": 50
+        "Medium": 57,
+        "Hard": 56
       },
       "gaps": [],
       "ready": true
@@ -79,9 +79,9 @@
       "subject": "Chemistry",
       "topic": "Chemistry General",
       "counts": {
-        "Easy": 163,
-        "Medium": 282,
-        "Hard": 88
+        "Easy": 160,
+        "Medium": 252,
+        "Hard": 87
       },
       "gaps": [],
       "ready": true
@@ -91,8 +91,8 @@
       "subject": "Chemistry",
       "topic": "Inorganic Chemistry",
       "counts": {
-        "Easy": 50,
-        "Medium": 97,
+        "Easy": 58,
+        "Medium": 90,
         "Hard": 50
       },
       "gaps": [],
@@ -115,9 +115,9 @@
       "subject": "Chemistry",
       "topic": "Physical Chemistry",
       "counts": {
-        "Easy": 55,
-        "Medium": 376,
-        "Hard": 50
+        "Easy": 58,
+        "Medium": 333,
+        "Hard": 58
       },
       "gaps": [],
       "ready": true
@@ -127,8 +127,8 @@
       "subject": "Physics",
       "topic": "Electromagnetism",
       "counts": {
-        "Easy": 50,
-        "Medium": 114,
+        "Easy": 58,
+        "Medium": 111,
         "Hard": 50
       },
       "gaps": [],
@@ -139,8 +139,8 @@
       "subject": "Physics",
       "topic": "Mechanics",
       "counts": {
-        "Easy": 50,
-        "Medium": 73,
+        "Easy": 57,
+        "Medium": 71,
         "Hard": 50
       },
       "gaps": [],
@@ -151,7 +151,7 @@
       "subject": "Physics",
       "topic": "Modern Physics",
       "counts": {
-        "Easy": 50,
+        "Easy": 57,
         "Medium": 50,
         "Hard": 50
       },
@@ -163,7 +163,7 @@
       "subject": "Physics",
       "topic": "Optics",
       "counts": {
-        "Easy": 50,
+        "Easy": 58,
         "Medium": 50,
         "Hard": 50
       },
@@ -176,7 +176,7 @@
       "topic": "Physics General",
       "counts": {
         "Easy": 84,
-        "Medium": 123,
+        "Medium": 116,
         "Hard": 67
       },
       "gaps": [],
@@ -187,7 +187,7 @@
       "subject": "Physics",
       "topic": "Thermodynamics",
       "counts": {
-        "Easy": 50,
+        "Easy": 58,
         "Medium": 50,
         "Hard": 50
       },
@@ -199,8 +199,8 @@
       "subject": "Physics",
       "topic": "Waves & Oscillations",
       "counts": {
-        "Easy": 50,
-        "Medium": 51,
+        "Easy": 54,
+        "Medium": 50,
         "Hard": 50
       },
       "gaps": [],

@@ -4,7 +4,7 @@
   "topic": "Physics General",
   "counts": {
     "Easy": 84,
-    "Medium": 123,
+    "Medium": 116,
     "Hard": 67
   },
   "questions": {
@@ -3658,32 +3658,6 @@
         "placeholder": false
       },
       {
-        "id": "hf2017-f6cb187904",
-        "sourceYear": 2017,
-        "sourceNumber": 135,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "stem": "The diagrams below show regions of equipotential A positive charge is moved from $ A $ to $ B $ in diagram.",
-        "options": {
-          "1": "Maximum work is required to move figure (c).",
-          "2": "In all the four cases the work done is the (3).",
-          "3": "Minimum work is required to move figure (a).",
-          "4": "Maximum work is required to move figure (b)."
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2018-b3238a30f5",
         "sourceYear": 2018,
         "sourceNumber": 1,
@@ -3699,32 +3673,6 @@
         "correctOption": "3",
         "correctOptions": [
           "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2018-113df67256",
-        "sourceYear": 2018,
-        "sourceNumber": 15,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "stem": "In the circuit shown in the figure, the input voltage $ \\mathrm { V } _ { \\mathrm { i } } $ is $ 20 \\mathrm {~V} , \\mathrm {~V} _ { \\mathrm { BE } } = 0 $ and $ \\mathrm { V } _ { \\mathrm { CE } } = 0 $. The values of $ \\mathrm { I } _ { \\mathrm { B } } , \\mathrm { I } _ { \\mathrm { C } } $ and $ \\beta $ are given by",
-        "options": {
-          "1": "$ \\mathrm { I } _ { \\mathrm { B } } = 20 \\mu \\mathrm {~A} , \\mathrm { I } _ { \\mathrm { C } } = 5 \\mathrm {~mA} , \\beta = 250 $",
-          "2": "$ \\mathrm { I } _ { \\mathrm { B } } = 25 \\mu \\mathrm {~A} , \\mathrm { I } _ { \\mathrm { C } } = 5 \\mathrm {~mA} , \\beta = 200 $",
-          "3": "$ \\mathrm { I } _ { \\mathrm { B } } = 40 \\mu \\mathrm {~A} , \\mathrm { I } _ { \\mathrm { C } } = 10 \\mathrm {~mA} , \\beta = 250 $",
-          "4": "$ \\mathrm { I } _ { \\mathrm { B } } = 40 \\mu \\mathrm {~A} , \\mathrm { I } _ { \\mathrm { C } } = 5 \\mathrm {~mA} , \\beta = 125 $"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -4074,32 +4022,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2020-40a14e4bb0",
-        "sourceYear": 2020,
-        "sourceNumber": 3,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "stem": "A cylinder contains hydrogen gas at pressure of 249 kPa and temperature $ 27 ^ { \\circ } \\mathrm { C } $. Its density is : $ \\left( \\mathrm { R } = 8.3 \\mathrm {~J} \\mathrm {~mol} ^ { - 1 } \\mathrm {~K} ^ { - 1 } \\right) $",
-        "options": {
-          "1": "$ 0.5 \\mathrm {~kg} / \\mathrm { m } ^ { 3 } $",
-          "2": "$ 0.2 \\mathrm {~kg} / \\mathrm { m } ^ { 3 } $",
-          "3": "$ 0.1 \\mathrm {~kg} / \\mathrm { m } ^ { 3 } $",
-          "4": "$ 0.02 \\mathrm {~kg} / \\mathrm { m } ^ { 3 } $"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2020-33a42fbe05",
         "sourceYear": 2020,
         "sourceNumber": 150,
@@ -4115,32 +4037,6 @@
         "correctOption": "3",
         "correctOptions": [
           "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2020-e197adaae6",
-        "sourceYear": 2020,
-        "sourceNumber": 158,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "stem": "When a uranium isotope $ { } _ { 92 } ^ { 235 } \\mathrm { U } $ is bombarded with a neutron, it generates $ { } _ { 36 } ^ { 89 } \\mathrm { Kr } $, three neutrons and :",
-        "options": {
-          "1": "$ { } _ { 56 } ^ { 144 } \\mathrm { Ba } $",
-          "2": "$ { } _ { 40 } ^ { 91 } \\mathrm { Zr } $",
-          "3": "$ { } _ { 36 } ^ { 101 } \\mathrm { Kr } $",
-          "4": "$ { } _ { 36 } ^ { 103 } \\mathrm { Kr } $"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -4271,32 +4167,6 @@
         "correctOption": "3",
         "correctOptions": [
           "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2021-6829dfedb5",
-        "sourceYear": 2021,
-        "sourceNumber": 10,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "stem": "A cup of coffee cools from $ 90 ^ { \\circ } \\mathrm { C } $ to $ 80 ^ { \\circ } \\mathrm { C } $ in t minutes, when the room temperature is $ 20 ^ { \\circ } \\mathrm { C } $. The time taken by a similar cup of coffee to cool from $ 80 ^ { \\circ } \\mathrm { C } $ to $ 60 ^ { \\circ } \\mathrm { C } $ at a room temperature same at $ 20 ^ { \\circ } \\mathrm { C } $ is :",
-        "options": {
-          "1": "$ \\frac { 13 } { 5 } \\mathrm { t } $",
-          "2": "$ \\frac { 10 } { 13 } \\mathrm { t } $",
-          "3": "$ \\frac { 5 } { 13 } \\mathrm { t } $",
-          "4": "$ \\frac { 13 } { 10 } \\mathrm { t } $"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -4542,32 +4412,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2021-3535bbe8ad",
-        "sourceYear": 2021,
-        "sourceNumber": 8,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "stem": "In the product $ \\begin{aligned} \\overrightarrow { \\mathrm { F } } & = \\mathrm { q } ( \\vec { v } \\times \\overrightarrow { \\mathrm { B } } ) \\ & = \\mathrm { q } \\vec { v } \\times \\left( \\mathrm { B } \\hat { i } + \\mathrm { B } \\hat { j } + \\mathrm { B } _ { 0 } \\hat { k } \\right) \\end{aligned} $ For $ \\mathrm { q } = 1 $ and $ \\vec { v } = 2 \\hat { i } + 4 \\hat { j } + 6 \\hat { k } $ and $ \\overrightarrow { \\mathrm { F } } = 4 \\hat { i } - 20 \\hat { j } + 12 \\hat { k } $ What will be the complete expression for $ \\overrightarrow { \\mathrm { B } } $ ?",
-        "options": {
-          "1": "$ - 6 \\hat { i } - 6 \\hat { j } - 8 \\hat { k } $",
-          "2": "$ 8 \\hat { i } + 8 \\hat { j } - 6 \\hat { k } $",
-          "3": "$ 6 \\hat { i } + 6 \\hat { j } - 8 \\hat { k } $",
-          "4": "$ - 8 \\hat { i } - 8 \\hat { j } - 6 \\hat { k } $"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2021-fc252ecdf8",
         "sourceYear": 2021,
         "sourceNumber": 49,
@@ -4635,32 +4479,6 @@
         "correctOption": "3",
         "correctOptions": [
           "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2023-aff69697bc",
-        "sourceYear": 2023,
-        "sourceNumber": 1,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "stem": "A bullet is fired from a gun at the speed of $ 280 \\mathrm{~m} \\mathrm{~s}^{-1} $ in the direction $ 30^{\\circ} $ above the horizontal. The maximum height attained by the bullet is $ \\left( \\mathrm{g} = 9.8 \\mathrm{~m} \\mathrm{~s}^{-2}, \\sin 30^{\\circ} = 0.5 \\right) $:",
-        "options": {
-          "1": "3000 m",
-          "2": "2800 m",
-          "3": "2000 m",
-          "4": "1000 m"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,

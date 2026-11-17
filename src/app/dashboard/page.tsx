@@ -1,6 +1,7 @@
 import { redirect } from "next/navigation";
 import { Types } from "mongoose";
 import { getSession } from "@/lib/auth";
+import { connectDb } from "@/lib/db";
 import { Attempt, TopicAttempt } from "@/lib/models";
 import { listPapers } from "@/lib/papers";
 import { LogoutButton } from "@/components/LogoutButton";
@@ -20,6 +21,9 @@ export default async function DashboardPage({
   if (user.role === "examiner") redirect("/examiner");
   const params = await searchParams;
   const userOid = new Types.ObjectId(user.id);
+
+  // JWT session does not open Mongo — connect before any Model.find (avoids 10s buffer timeout).
+  await connectDb();
 
   const [papers, attempts, topicAttempts] = await Promise.all([
     listPapers(),

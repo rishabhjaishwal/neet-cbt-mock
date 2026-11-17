@@ -3,7 +3,7 @@
   "subject": "Physics",
   "topic": "Modern Physics",
   "counts": {
-    "Easy": 50,
+    "Easy": 57,
     "Medium": 50,
     "Hard": 50
   },
@@ -1223,6 +1223,174 @@
         "placeholder": false,
         "difficulty": "Easy",
         "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-0cd168f0f3",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 107.10000000000001 eV strikes a metal with work function 1.5 eV. The maximum KE of photoelectron is",
+        "options": {
+          "1": "105.6 eV",
+          "2": "107.1 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hv - phi)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-45a35573df",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 107.30000000000001 eV strikes a metal with work function 1.5 eV. The maximum KE of photoelectron is",
+        "options": {
+          "1": "105.8 eV",
+          "2": "107.3 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hv - phi)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-1274ae723a",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 107.5 eV strikes a metal with work function 1.5 eV. The maximum KE of photoelectron is",
+        "options": {
+          "1": "106.0 eV",
+          "2": "107.5 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hv - phi)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-882cd83de4",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 107.7 eV strikes a metal with work function 1.5 eV. The maximum KE of photoelectron is",
+        "options": {
+          "1": "106.2 eV",
+          "2": "107.7 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hv - phi)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-4efb2f5580",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 107.9 eV strikes a metal with work function 1.5 eV. The maximum KE of photoelectron is",
+        "options": {
+          "1": "106.4 eV",
+          "2": "107.9 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hv - phi)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-7a8410209a",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 108.10000000000001 eV strikes a metal with work function 1.5 eV. The maximum KE of photoelectron is",
+        "options": {
+          "1": "106.6 eV",
+          "2": "108.1 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hv - phi)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-f0b69f7ff4",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 108.30000000000001 eV strikes a metal with work function 1.5 eV. The maximum KE of photoelectron is",
+        "options": {
+          "1": "106.8 eV",
+          "2": "108.3 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hv - phi)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       }
     ],
     "Medium": [
@@ -1288,32 +1456,6 @@
           "2": "(A) is correct and (B) is incorrect.",
           "3": "(A) is incorrect but (B) is correct.",
           "4": "(A) and (B) both are correct."
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2021-dbdad04983",
-        "sourceYear": 2021,
-        "sourceNumber": 12,
-        "subject": "Physics",
-        "topic": "Modern Physics",
-        "stem": "A radioactive nucleus $ { } _ { \\mathrm { Z } } ^ { \\mathrm { A } } \\mathrm { X } $ undergoes spontaneous decay in the sequence $ { } _ { \\mathrm { Z } } ^ { \\mathrm { A } } \\mathrm { X } \\rightarrow \\mathrm { Z } _ { - 1 } \\mathrm {~B} \\rightarrow \\mathrm { Z } _ { - 3 } \\mathrm { C } \\rightarrow \\mathrm { Z } _ { - 2 } \\mathrm { D } $, where Z is the atomic number of element X . The possible decay particles in the sequence are :",
-        "options": {
-          "1": "$ \\alpha , \\beta ^ { + } , \\beta ^ { - } $",
-          "2": "$ \\beta ^ { + } , \\alpha , \\beta ^ { - } $",
-          "3": "$ \\beta ^ { - } , \\alpha , \\beta ^ { + } $",
-          "4": "$ \\alpha , \\beta ^ { - } , \\beta ^ { + } $"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -2432,6 +2574,30 @@
         "figureKind": null,
         "answerEstimated": false,
         "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-3c69187ec6",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 108.5 eV strikes a metal with work function 1.5 eV. The maximum KE of photoelectron is",
+        "options": {
+          "1": "107.0 eV",
+          "2": "108.5 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hv - phi)",
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"

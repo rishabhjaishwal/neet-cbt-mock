@@ -4,8 +4,8 @@
   "topic": "Human Physiology",
   "counts": {
     "Easy": 67,
-    "Medium": 61,
-    "Hard": 50
+    "Medium": 57,
+    "Hard": 56
   },
   "questions": {
     "Easy": [
@@ -2545,32 +2545,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2024-7159a424fa",
-        "sourceYear": 2024,
-        "sourceNumber": 189,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "stem": "Identify the wrong statements : A. Erythropoietin is produced by juxtaglomerular cells of the kidney B. Leydig cells produce Androgens C. Atrial Natriuretic factor, a peptide hormone is secreted by the seminiferous tubules of the testes D. Cholecystokinin is produced by gastrointestinal tract E. Gastrin acts on intestinal wall and helps in the production of pepsinogen Choose the most appropriate answer from the options given below : (1) D and E only (2) A and B only (3) C and E only (4) A and C only Answer (3)",
-        "options": {
-          "1": "D and E only",
-          "2": "A and B only",
-          "3": "C and E only",
-          "4": "A and C only"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2024-065bd33546",
         "sourceYear": 2024,
         "sourceNumber": 193,
@@ -2586,32 +2560,6 @@
         "correctOption": "1",
         "correctOptions": [
           "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2024-561fed3acc",
-        "sourceYear": 2024,
-        "sourceNumber": 195,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "stem": "The mother has $ A + $ blood group the father has $ B + $ and the child is $ A + $. What can be the possibility of genotypes of all three, respectively? A. $ \\quad \\left| A I ^ { A } \\right| I ^ { B } i \\mid I ^ { B } i $ B. $ \\quad I I ^ { A } \\left| I ^ { B } \\right| \\mid I ^ { A } i $ C. $ \\left. \\left. \\quad | B i | \\right| ^ { A } \\right| ^ { A } \\left| I ^ { A } \\right| ^ { B } $ D. $ I ^ { A } I ^ { A } \\left| I ^ { B / B } \\right| I ^ { A } i $ E. $ \\left. \\quad \\left| A _ { i } \\right| \\left| I ^ { B } \\right| \\right| ^ { A } i $ Choose the correct answer from the option given below:",
-        "options": {
-          "1": "C and D",
-          "2": "D and A",
-          "3": "A and B",
-          "4": "B and E"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -2865,30 +2813,6 @@
         "aiVerified": "soft"
       },
       {
-        "id": "catch-23acd11f72",
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "stem": "Listed below are four respiratory capacities (1 - 4) and four jumbled respiratory volumes of a normal human adult (1) Residual volume $2500 \\mathrm{~mL}$ (2) Vital capacity $3500 \\mathrm{~mL}$ (3) Inspiratory reserve $1200 \\mathrm{~mL}$ volume (4) Inspiratory capacity $4500 \\mathrm{~mL}$ Which one of the following is the correct matching of two capacities and volumes?",
-        "options": {
-          "1": "A (",
-          "2": "2500 \\mathrm{~mL}, (",
-          "3": "4500 \\mathrm{~mL} B (",
-          "4": "1200 \\mathrm{~mL} ("
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "catch-6249ece70f",
         "subject": "Biology",
         "topic": "Human Physiology",
@@ -2946,30 +2870,6 @@
           "2": "nor",
           "3": "D Both",
           "4": "and"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-5712db7734",
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "stem": "Consider the following statements (I)-(IV) each with one or two blanks. I. Bears go into (1) during winter to ......(2) ...... cold weather. II. A conical age pyramid with a broad base represents......(3)..... human population. III. A wasp pollinating a fig flower is an example of (4) ...... IV. An area with high levels of species richness is known as ......(5)...... Which one of the following options give the correct fill up the respective blanks numbers from (1) to (5) in the statements.",
-        "options": {
-          "1": "A (",
-          "2": "stable, (",
-          "3": "commensalism, (",
-          "4": "marsh B ("
         },
         "correctOption": "1",
         "correctOptions": [
@@ -3961,32 +3861,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2021-695a26aa7f",
-        "sourceYear": 2021,
-        "sourceNumber": 172,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "stem": "Match the following : \\begin{tabular} { | l | l | c | l | } \\hline \\multicolumn{2}{|c|} { List - I } & \\multicolumn{2}{c|} { List - II } \\ \\hline (a) & Physalia & (i) & Pearl oyster \\ \\hline (b) & Limulus & (ii) & Portuguese Man of War \\ \\hline (c) & Ancylostoma & (iii) & Living fossil \\ \\hline (d) & Pinctada & (iv) & Hookworm \\ \\hline \\end{tabular} Choose the correct answer from the options given below. \\begin{tabular} { l l l l l } & (a) & (b) & (c) & (d) \\ (1) & (iv) & (i) & (iii) & (ii) \\ $ ( 2 ) $ & (ii) & (iii) & (iv) & (i) \\ $ ( 3 ) $ & (i) & (iv) & (iii) & (ii) \\ $ ( 4 ) $ & (ii) & (iii) & (i) & (iv) \\end{tabular}",
-        "options": {
-          "1": "(iv) (i) (iii) (ii)",
-          "2": "(ii) (iii) (iv) (i)",
-          "3": "(i) (iv) (iii) (ii)",
-          "4": "(ii) (iii) (i) (iv)"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2021-044bdb13d7",
         "sourceYear": 2021,
         "sourceNumber": 194,
@@ -4080,32 +3954,6 @@
         "correctOption": "3",
         "correctOptions": [
           "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2024-4578dd73e8",
-        "sourceYear": 2024,
-        "sourceNumber": 152,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "stem": "Match List-I with List-II: \\n\\n\\begin{tabular}{|l|l|l|l|}\\n\\hline\\n&\\begin{tabular}{l}List I \\ Location of Joint\\end{tabular}&\\multicolumn{2}{l|}{\\begin{tabular}{l}List II \\ Type of Joint\\end{tabular}}\\n\\hline\\nA.&\\begin{tabular}{l}Joint between humerus and \\ pectoral girdle\\end{tabular}&I.&Gliding joint\\n\\hline\\nB.&Knee joint&II.&Ball and Socket joint\\n\\hline\\nC.&Joint between atlas and axis&III.&Hinge joint\\n\\hline\\nD&Joint between carpals&IV.&Pivot joint\\n\\hline\\n\\end{tabular}\\n\\n",
-        "options": {
-          "1": "A-II, B-III, C-IV, D-I",
-          "2": "A-III, B-II, C-I, D-IV",
-          "3": "A-I, B-IV, C-III, D-II",
-          "4": "A-II, B-I, C-III, D-IV"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -4478,6 +4326,198 @@
         "figureKind": null,
         "answerEstimated": false,
         "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "rem-Hard-cb71adb79c",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Which is correct about human cardiac cycle physiology set 1051?",
+        "options": {
+          "1": "SA node initiates the heartbeat",
+          "2": "AV node initiates atrial systole only as pacemaker",
+          "3": "Purkinje fibres generate the primary impulse",
+          "4": "Heart lacks autorhythmic tissue"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (SA node)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "rem-Hard-ac927e4f9d",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Which is correct about human cardiac cycle physiology set 1053?",
+        "options": {
+          "1": "SA node initiates the heartbeat",
+          "2": "AV node initiates atrial systole only as pacemaker",
+          "3": "Purkinje fibres generate the primary impulse",
+          "4": "Heart lacks autorhythmic tissue"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (SA node)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "rem-Hard-9d24010359",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Which is correct about human cardiac cycle physiology set 1055?",
+        "options": {
+          "1": "SA node initiates the heartbeat",
+          "2": "AV node initiates atrial systole only as pacemaker",
+          "3": "Purkinje fibres generate the primary impulse",
+          "4": "Heart lacks autorhythmic tissue"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (SA node)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "rem-Hard-a5390a2c04",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Which is correct about human cardiac cycle physiology set 1057?",
+        "options": {
+          "1": "SA node initiates the heartbeat",
+          "2": "AV node initiates atrial systole only as pacemaker",
+          "3": "Purkinje fibres generate the primary impulse",
+          "4": "Heart lacks autorhythmic tissue"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (SA node)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "rem-Hard-4e72809eba",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Which is correct about human cardiac cycle physiology set 1059?",
+        "options": {
+          "1": "SA node initiates the heartbeat",
+          "2": "AV node initiates atrial systole only as pacemaker",
+          "3": "Purkinje fibres generate the primary impulse",
+          "4": "Heart lacks autorhythmic tissue"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (SA node)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "rem-Hard-636f713898",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Which is correct about human cardiac cycle physiology set 1061?",
+        "options": {
+          "1": "SA node initiates the heartbeat",
+          "2": "AV node initiates atrial systole only as pacemaker",
+          "3": "Purkinje fibres generate the primary impulse",
+          "4": "Heart lacks autorhythmic tissue"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (SA node)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "rem-Hard-d6eaf20343",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Which is correct about human cardiac cycle physiology set 1063?",
+        "options": {
+          "1": "SA node initiates the heartbeat",
+          "2": "AV node initiates atrial systole only as pacemaker",
+          "3": "Purkinje fibres generate the primary impulse",
+          "4": "Heart lacks autorhythmic tissue"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (SA node)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "rem-Hard-55305c23d0",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Which is correct about human cardiac cycle physiology set 1065?",
+        "options": {
+          "1": "SA node initiates the heartbeat",
+          "2": "AV node initiates atrial systole only as pacemaker",
+          "3": "Purkinje fibres generate the primary impulse",
+          "4": "Heart lacks autorhythmic tissue"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (SA node)",
         "placeholder": false,
         "difficulty": "Hard",
         "aiVerified": "soft"
