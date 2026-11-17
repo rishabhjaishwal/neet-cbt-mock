@@ -60,12 +60,12 @@ export function QuestionFigure({
         : null;
 
   return (
-    <figure className="q-figure mb-5 overflow-hidden rounded-md border border-slate-200 bg-[#f8fafc]">
+    <figure className="q-figure mb-5 overflow-x-auto rounded-md border border-slate-200 bg-[#f8fafc]">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={src}
         alt="Question figure"
-        className="mx-auto max-h-[420px] w-auto max-w-full object-contain bg-white p-3"
+        className="mx-auto max-h-[min(42dvh,420px)] w-auto max-w-full object-contain bg-white p-3"
         loading="eager"
         decoding="async"
         onError={() => {

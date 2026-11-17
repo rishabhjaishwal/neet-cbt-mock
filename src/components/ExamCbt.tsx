@@ -523,13 +523,23 @@ export function ExamCbt({
     scheduleCheckpoint();
   }
 
+  const questionPaneRef = useRef<HTMLElement | null>(null);
+
   const goToIndex = useCallback(
     (i: number) => {
       startTransition(() => setIndex(i));
+      // Keep figure/stem at the top of the mobile scroll pane (avoid mid-clip).
+      const pane = questionPaneRef.current;
+      if (pane) pane.scrollTop = 0;
       scheduleCheckpoint();
     },
     [scheduleCheckpoint],
   );
+
+  useEffect(() => {
+    const pane = questionPaneRef.current;
+    if (pane) pane.scrollTop = 0;
+  }, [index]);
 
   const recordSwitch = useCallback(
     async (reason: "escape" | "fullscreen_exit" | "tab_switch" | "window_blur") => {
@@ -1196,11 +1206,12 @@ export function ExamCbt({
       </header>
 
       <div
-        className={`grid min-h-0 flex-1 gap-0 overflow-y-auto lg:grid-rows-[minmax(0,1fr)] lg:overflow-hidden ${
+        className={`exam-body grid min-h-0 flex-1 gap-0 overflow-hidden lg:grid-rows-[minmax(0,1fr)] ${
           paletteCollapsed ? "lg:grid-cols-1" : "lg:grid-cols-[1fr_320px]"
         }`}
       >
         <main
+          ref={questionPaneRef}
           className="exam-question-pane min-h-0 overflow-y-auto overscroll-contain bg-white p-4 md:p-6"
           style={{ fontSize: `calc(1rem * var(--exam-font-scale, 1))` }}
         >
@@ -1214,16 +1225,7 @@ export function ExamCbt({
             </button>
             <span className="text-[11px] text-slate-400">{i18n.keyboardHint}</span>
           </div>
-          <div className="mb-2 flex flex-wrap gap-2 lg:hidden">
-            {paperPdfUrl ? (
-              <button
-                type="button"
-                className="cbt-btn cbt-btn-sm cbt-btn-primary"
-                onClick={() => setShowPdfPaper(true)}
-              >
-                {i18n.viewPaper}
-              </button>
-            ) : null}
+          <div className="exam-mobile-tools mb-2 hidden flex-wrap gap-2 max-lg:flex">
             <button
               type="button"
               className="cbt-btn cbt-btn-sm cbt-btn-secondary"
@@ -1232,7 +1234,7 @@ export function ExamCbt({
               {i18n.questionPaper}
             </button>
           </div>
-          <div className="mb-3 flex flex-wrap items-center gap-2 text-sm">
+          <div className="exam-filter-row mb-3 flex flex-wrap items-center gap-2 text-sm">
             {(["ALL", "Physics", "Chemistry", "Biology"] as const).map((s) => (
               <button
                 key={s}
@@ -1407,7 +1409,8 @@ export function ExamCbt({
               }}
               disabled={paletteIndexes.indexOf(index) <= 0}
             >
-              {i18n.previous}
+              <span className="max-lg:hidden">{i18n.previous}</span>
+              <span className="lg:hidden">{i18n.previousShort}</span>
             </button>
             <button
               type="button"
@@ -1430,7 +1433,14 @@ export function ExamCbt({
               }}
               title={i18n.markedHint}
             >
-              {current.status === "marked" ? i18n.unmarkReview : i18n.markReview}
+              {current.status === "marked" ? (
+                i18n.unmarkReview
+              ) : (
+                <>
+                  <span className="max-lg:hidden">{i18n.markReview}</span>
+                  <span className="lg:hidden">{i18n.markReviewShort}</span>
+                </>
+              )}
             </button>
             <button
               type="button"
@@ -1443,7 +1453,8 @@ export function ExamCbt({
                 })
               }
             >
-              {i18n.clear}
+              <span className="max-lg:hidden">{i18n.clear}</span>
+              <span className="lg:hidden">{i18n.clearShort}</span>
             </button>
             <button
               type="button"
@@ -1455,7 +1466,8 @@ export function ExamCbt({
                 else void flushCheckpoint({ force: true });
               }}
             >
-              {i18n.saveNext}
+              <span className="max-lg:hidden">{i18n.saveNext}</span>
+              <span className="lg:hidden">{i18n.saveNextShort}</span>
             </button>
             <button
               type="button"
@@ -1463,7 +1475,14 @@ export function ExamCbt({
               onClick={() => void submit(false)}
               disabled={busy}
             >
-              {busy ? "Submitting…" : i18n.submit}
+              {busy ? (
+                "…"
+              ) : (
+                <>
+                  <span className="max-lg:hidden">{i18n.submit}</span>
+                  <span className="lg:hidden">{i18n.submitShort}</span>
+                </>
+              )}
             </button>
           </div>
           {msg && <p className="mt-3 text-sm text-[var(--danger)]">{msg}</p>}
