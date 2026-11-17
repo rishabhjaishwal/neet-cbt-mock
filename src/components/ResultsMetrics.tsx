@@ -243,7 +243,7 @@ export function ResultsMetrics({
 
   return (
     <div className="space-y-6">
-      <section className="rounded-xl border border-slate-200 bg-white p-4 sm:p-5">
+      <section className="desk-card rounded-xl p-4 sm:p-5">
         <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold">
           Snapshot — how this attempt felt
         </h2>
@@ -291,7 +291,7 @@ export function ResultsMetrics({
         </div>
       </section>
 
-      <section className="rounded-xl border border-slate-200 bg-white p-4 sm:p-5">
+      <section className="desk-card rounded-xl p-4 sm:p-5">
         <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold">
           Subject outcomes
         </h2>
@@ -303,7 +303,7 @@ export function ResultsMetrics({
         </div>
       </section>
 
-      <section className="rounded-xl border border-slate-200 bg-white p-4 sm:p-5">
+      <section className="desk-card rounded-xl p-4 sm:p-5">
         <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold">
           Subject accuracy
         </h2>
@@ -349,7 +349,7 @@ export function ResultsMetrics({
       </section>
 
       <div className="grid gap-6 lg:grid-cols-2">
-        <section className="rounded-xl border border-slate-200 bg-white p-4 sm:p-5">
+        <section className="desk-card rounded-xl p-4 sm:p-5">
           <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold text-rose-800">
             Topics needing work
           </h2>
@@ -363,7 +363,7 @@ export function ResultsMetrics({
           />
         </section>
 
-        <section className="rounded-xl border border-slate-200 bg-white p-4 sm:p-5">
+        <section className="desk-card rounded-xl p-4 sm:p-5">
           <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold text-emerald-800">
             Strong topics
           </h2>

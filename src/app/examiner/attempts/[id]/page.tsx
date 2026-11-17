@@ -5,6 +5,8 @@ import { getSession } from "@/lib/auth";
 import { ensureSeeded } from "@/lib/seed";
 import { Attempt, User } from "@/lib/models";
 import { ApproveButton } from "@/components/ApproveButton";
+import { DeskShell } from "@/components/DeskShell";
+import { QuestionStemMarkdown } from "@/components/QuestionMarkdown";
 import { displayQuestionNumber, getPaperQuestionMap } from "@/lib/paper-content";
 import { getMdQuestionsWithKeys } from "@/lib/md-paper-store";
 
@@ -77,14 +79,15 @@ export default async function ExaminerAttemptPage({
   }>;
 
   return (
-    <main className="mx-auto max-w-5xl px-4 py-8">
-      <Link href="/examiner" className="text-sm text-[var(--cbt-accent)]">
+    <DeskShell innerClassName="max-w-5xl">
+      <Link
+        href="/examiner"
+        className="text-sm font-semibold text-[var(--ink-blue,#1e4d7b)]"
+      >
         ← Examiner list
       </Link>
-      <h1 className="mt-3 font-[family-name:var(--font-display)] text-3xl font-bold text-[var(--header)]">
-        Attempt review — {attempt.year}
-      </h1>
-      <p className="text-slate-600">
+      <h1 className="desk-title mt-3">Attempt review — {attempt.year}</h1>
+      <p className="desk-kicker">
         {student?.name} · {student?.email} · status {attempt.status}
         {attempt.score != null ? ` · score ${attempt.score}` : ""}
       </p>
@@ -96,8 +99,8 @@ export default async function ExaminerAttemptPage({
       ) : null}
 
       {(topicBundle.improvements?.length || 0) > 0 && (
-        <section className="mt-6 rounded-xl border border-slate-200 bg-white p-5">
-          <h2 className="font-semibold">Improvements</h2>
+        <section className="desk-card mt-6 rounded-xl p-5">
+          <h2 className="desk-section-title">Improvements</h2>
           <ul className="mt-2 list-disc pl-5 text-sm">
             {topicBundle.improvements!.map((t) => (
               <li key={t}>{t}</li>
@@ -110,12 +113,12 @@ export default async function ExaminerAttemptPage({
         {answers.map((a) => (
           <article
             key={`${a.number}-${a.subject}`}
-            className="rounded-xl border border-slate-200 bg-white p-4"
+            className="desk-card review-card rounded-xl p-4"
           >
-            <h3 className="font-semibold">
+            <h3 className="font-semibold text-[var(--graphite,#243041)]">
               Q{a.number}. {a.subject} · {a.topic}
             </h3>
-            <p className="mt-2 whitespace-pre-wrap text-sm">{a.stem}</p>
+            <QuestionStemMarkdown stem={a.stem} className="mt-2" />
             <div className="mt-2 grid gap-1 text-sm sm:grid-cols-2">
               <div>
                 Selected: <strong>{a.selected_option ?? "—"}</strong> ({a.status})
@@ -127,6 +130,6 @@ export default async function ExaminerAttemptPage({
           </article>
         ))}
       </div>
-    </main>
+    </DeskShell>
   );
 }

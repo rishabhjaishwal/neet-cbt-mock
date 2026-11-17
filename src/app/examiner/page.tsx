@@ -4,6 +4,7 @@ import { getSession } from "@/lib/auth";
 import { ensureSeeded } from "@/lib/seed";
 import { Attempt, User } from "@/lib/models";
 import { LogoutButton } from "@/components/LogoutButton";
+import { DeskShell } from "@/components/DeskShell";
 
 export default async function ExaminerPage() {
   const user = await getSession();
@@ -22,22 +23,21 @@ export default async function ExaminerPage() {
   const byUser = Object.fromEntries(users.map((u) => [String(u._id), u]));
 
   return (
-    <main className="mx-auto max-w-5xl px-4 py-8">
-      <header className="mb-8 flex flex-wrap items-center justify-between gap-3 rounded-xl bg-[var(--header)] px-5 py-4 text-white">
+    <DeskShell innerClassName="max-w-5xl">
+      <header className="desk-card mb-8 flex flex-wrap items-center justify-between gap-3 rounded-xl px-5 py-4">
         <div>
-          <h1 className="font-[family-name:var(--font-display)] text-2xl font-semibold">
-            Examiner console
-          </h1>
-          <p className="text-sm text-blue-100">
-            {user.name} · review attempts and per-question correctness (results release on student submit)
+          <h1 className="desk-title">Examiner console</h1>
+          <p className="desk-kicker">
+            {user.name} · review attempts and per-question correctness (results
+            release on student submit)
           </p>
         </div>
         <LogoutButton />
       </header>
 
-      <div className="overflow-hidden rounded-xl border border-slate-200 bg-white">
+      <div className="desk-card overflow-hidden rounded-xl">
         <table className="w-full text-left text-sm">
-          <thead className="bg-slate-50 text-slate-600">
+          <thead className="bg-[rgba(30,77,123,0.06)] text-slate-600">
             <tr>
               <th className="px-4 py-3">Student</th>
               <th className="px-4 py-3">Year</th>
@@ -76,7 +76,7 @@ export default async function ExaminerPage() {
                   <td className="px-4 py-3">
                     <Link
                       href={`/examiner/attempts/${String(a._id)}`}
-                      className="font-semibold text-[var(--cbt-accent)]"
+                      className="font-semibold text-[var(--ink-blue,#1e4d7b)]"
                     >
                       Review
                     </Link>
@@ -87,6 +87,6 @@ export default async function ExaminerPage() {
           </tbody>
         </table>
       </div>
-    </main>
+    </DeskShell>
   );
 }
