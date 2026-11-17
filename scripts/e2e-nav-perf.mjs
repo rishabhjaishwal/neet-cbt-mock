@@ -181,11 +181,11 @@ async function main() {
         r.text,
       );
     if (!hasCharts) throw new Error("results charts/solution markers missing");
-    if (!/Showing\s+\d+[–-]\d+\s+of\s+\d+\s+solutions/i.test(r.text)) {
+    const plain = r.text.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
+    if (!/Showing\s+\d+\s*[–-]\s*\d+\s+of\s+\d+\s+solutions/i.test(plain)) {
       throw new Error("results pagination marker missing");
     }
-    if (!/page 1\//i.test(r.text) && !/\(200\)/.test(r.text)) {
-      // 200-Q paper should show pager or full count chip
+    if (!/page 1\s*\/\s*20/i.test(plain) && !/\(\s*200\s*\)/.test(plain)) {
       throw new Error("expected multi-page review or 200 count");
     }
     return { detail: `score=${s.json.score} charts=yes paginated=yes` };
@@ -194,10 +194,11 @@ async function main() {
   await timed("results page 2 HTML", async () => {
     const r = await req("GET", `/results/${attemptId}?page=2#review`);
     if (r.status !== 200) throw new Error(`results p2 ${r.status}`);
-    if (!/Showing\s+11[–-]20\s+of/i.test(r.text)) {
+    const plain = r.text.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
+    if (!/Showing\s+11\s*[–-]\s*20\s+of/i.test(plain)) {
       throw new Error("page 2 range missing");
     }
-    if (!/AI NEET-style solution/i.test(r.text)) {
+    if (!/AI NEET-style solution/i.test(plain)) {
       throw new Error("page 2 solutions missing");
     }
     return { detail: "page2=ok" };
@@ -206,7 +207,8 @@ async function main() {
   await timed("results wrong filter", async () => {
     const r = await req("GET", `/results/${attemptId}?outcome=wrong`);
     if (r.status !== 200) throw new Error(`results filter ${r.status}`);
-    if (!/Showing\s+\d+[–-]\d+\s+of\s+\d+\s+solutions/i.test(r.text)) {
+    const plain = r.text.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
+    if (!/Showing\s+\d+\s*[–-]\s*\d+\s+of\s+\d+\s+solutions/i.test(plain)) {
       throw new Error("filtered pagination missing");
     }
     return { detail: "filter=wrong ok" };
