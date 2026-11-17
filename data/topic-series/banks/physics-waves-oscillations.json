@@ -3,9 +3,9 @@
   "subject": "Physics",
   "topic": "Waves & Oscillations",
   "counts": {
-    "Easy": 54,
-    "Medium": 53,
-    "Hard": 50
+    "Easy": 58,
+    "Medium": 58,
+    "Hard": 58
   },
   "questions": {
     "Easy": [
@@ -23,9 +23,9 @@
           "3": "350 m/s",
           "4": "300 m/s"
         },
-        "correctOption": "1",
+        "correctOption": "2",
         "correctOptions": [
-          "1"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -56,31 +56,6 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q137",
-        "sourceYear": 2019,
-        "sourceNumber": 3,
-        "subject": "Physics",
-        "topic": "Waves & Oscillations",
-        "difficulty": "Easy",
-        "stem": "The distance covered by a particle undergoing SHM in one time period is (amplitude = A),",
-        "options": {
-          "1": "zero",
-          "2": "A",
-          "3": "2 A",
-          "4": "4 A"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
       },
@@ -123,9 +98,9 @@
           "3": "102 V",
           "4": "103 V"
         },
-        "correctOption": "4",
+        "correctOption": "1",
         "correctOptions": [
-          "4"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -198,34 +173,9 @@
           "3": "Statement I is false but Statement II is true.",
           "4": "Both Statement I and Statement II are true."
         },
-        "correctOption": "2",
+        "correctOption": "1",
         "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q18",
-        "sourceYear": 2024,
-        "sourceNumber": 15,
-        "subject": "Physics",
-        "topic": "Waves & Oscillations",
-        "difficulty": "Easy",
-        "stem": "⎛ 1 ⎞ The graph which shows the variation of ⎜ ⎟ and its kinetic energy, E is (where λ is de Broglie wavelength ⎝ λ2 ⎠ of a free particle):",
-        "options": {
-          "1": "Option 1",
-          "2": "Option 2",
-          "3": "Option 3",
-          "4": "Option 4"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -1317,6 +1267,144 @@
         "placeholder": false,
         "difficulty": "Easy",
         "aiVerified": "strict"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-9a71ee5add",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 6 loops (fixed length & tension). Frequency vs fundamental is [drill 5084]",
+        "options": {
+          "1": "6 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Easy"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-4895f98ad5",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 3 loops (fixed length & tension). Frequency vs fundamental is [drill 5086]",
+        "options": {
+          "1": "3 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Easy"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-17338f7640",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 5 loops (fixed length & tension). Frequency vs fundamental is [drill 5088]",
+        "options": {
+          "1": "5 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Easy"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-9e778c6db7",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 2 loops (fixed length & tension). Frequency vs fundamental is [drill 5090]",
+        "options": {
+          "1": "2 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Easy"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-fa60c8fdcb",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 4 loops (fixed length & tension). Frequency vs fundamental is [drill 5092]",
+        "options": {
+          "1": "4 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Easy"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-a433c9ebaa",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 6 loops (fixed length & tension). Frequency vs fundamental is [drill 5094]",
+        "options": {
+          "1": "6 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Easy"
       }
     ],
     "Medium": [
@@ -1334,9 +1422,9 @@
           "3": "2·1 mm",
           "4": "1·7 mm"
         },
-        "correctOption": "4",
+        "correctOption": "2",
         "correctOptions": [
-          "4"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -1384,9 +1472,9 @@
           "3": "104 V",
           "4": "10 V"
         },
-        "correctOption": "2",
+        "correctOption": "3",
         "correctOptions": [
-          "2"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -1409,9 +1497,9 @@
           "3": "1.83×70^{-7}$ rad$",
           "4": "7.32×70^{-7}$ rad$"
         },
-        "correctOption": "3",
+        "correctOption": "2",
         "correctOptions": [
-          "3"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -1861,32 +1949,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2024-de592c4c54",
-        "sourceYear": 2024,
-        "sourceNumber": 30,
-        "subject": "Physics",
-        "topic": "Waves & Oscillations",
-        "stem": "Interference pattern can be observed due to superposition of the following waves: A. $ y = a \\sin \\omega t $ B. $ y = a \\sin 2 \\omega t $ C. $ y = a \\sin ( \\omega t - \\phi ) $ D. $ y = a \\sin 3 \\omega t $ Choose the correct answer from the options given below.",
-        "options": {
-          "1": "B and C",
-          "2": "B and D",
-          "3": "A and C",
-          "4": "A and B"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2024-f43ec1ff89",
         "sourceYear": 2024,
         "sourceNumber": 31,
@@ -2017,54 +2079,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-c5e374c00c",
-        "subject": "Physics",
-        "topic": "Waves & Oscillations",
-        "stem": "An open organ pipe has a fundamental frequency of 300 â Hz . The first overtone of a closed organ pipe has the same frequency as the first overtone of an open organ pipe. How long is closed organ pipe? speed of sound = 300 m s - 1",
-        "options": {
-          "1": "A 4",
-          "2": "25 cm B 4",
-          "3": "3 cm C 4",
-          "4": "5 cm D 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-99cb257382",
-        "subject": "Physics",
-        "topic": "Waves & Oscillations",
-        "stem": "A wave of frequency 500 Hz has a velocity of 350 m s - 1 . The distance between two nearest points on the wave which are 60 Â° out of phase with each other will be around",
-        "options": {
-          "1": "A 70 cm",
-          "2": "7 m C 1",
-          "3": "0 cm D 12",
-          "4": "0 cm"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "catch-8732c52e98",
         "subject": "Physics",
         "topic": "Waves & Oscillations",
@@ -2113,30 +2127,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-54717f6faa",
-        "subject": "Physics",
-        "topic": "Waves & Oscillations",
-        "stem": "The de-Broglie wavelength of an electron accelerated through a potential difference of 100 V is",
-        "options": {
-          "1": "A 1",
-          "2": "27 â«",
-          "3": "227 â«",
-          "4": "1227 â«"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "catch-eeba44e6eb",
         "subject": "Physics",
         "topic": "Waves & Oscillations",
@@ -2156,30 +2146,6 @@
         "figureKind": null,
         "answerEstimated": false,
         "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-d46d02c899",
-        "subject": "Physics",
-        "topic": "Waves & Oscillations",
-        "stem": "An open organ pipe has a fundamental frequency 100 Hz . What frequency will be produced if it's one end is closed?",
-        "options": {
-          "1": "A 100,200,30",
-          "2": "..... B 50,150,25",
-          "3": "..... C 50,100, 200,30",
-          "4": "... D 50,100,150,20"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"
@@ -2377,102 +2343,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-33205f5491",
-        "subject": "Physics",
-        "topic": "Waves & Oscillations",
-        "stem": "When the hydrogen spectral lines in the Lyman series are shifted to the Deuterium spectrum, what is the change in the wavelengths of the first four lines, given that the original wavelengths are 1218 Ã , 1028 Ã , 974.3 Ã , and 951.4 Ã ?",
-        "options": {
-          "1": "A 121",
-          "2": "3 Ã , 102",
-          "3": "3 Ã , 97",
-          "4": "4 Ã , 95"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-1bb1fc9fa9",
-        "subject": "Physics",
-        "topic": "Waves & Oscillations",
-        "stem": "A tunnel is dug along the diameter of the earth. A mass m is dropped into it. How much time does it take to cross the earth?",
-        "options": {
-          "1": "A 16",
-          "2": "2 Â m i n B 8",
-          "3": "6 Â m i n C 2",
-          "4": "2 Â m i n D 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
-        "id": "catch-69fe3d32b8",
-        "subject": "Physics",
-        "topic": "Waves & Oscillations",
-        "stem": "When a train is at a distance of 2 km, its engine sounds a whistle. A man near the railway track hears the whistle directly and by placing his ear against the track of the train. If the two sounds are heard at an interval of 5.2 s, the speed of the sound in iron (material of the rail track) is: (Given that velocity of sound in air is 330 m s -1 .)",
-        "options": {
-          "1": "A 2,32",
-          "2": "6 m s -1 B 1,93",
-          "3": "4 m s -1 C 2,13",
-          "4": "5 m s -1 D 3,21"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-d4345d6f87",
-        "subject": "Physics",
-        "topic": "Waves & Oscillations",
-        "stem": "A pendulum clock which ticks 60 times in one minute on earth is placed on the moon where the acceleration due to gravity is only one-sixth of that on the earth. How many times the clock will tick over there in one minute?",
-        "options": {
-          "1": "A 1",
-          "2": "25 B 2",
-          "3": "5",
-          "4": "45"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
         "id": "catch-54bedef58d",
         "subject": "Physics",
         "topic": "Waves & Oscillations",
@@ -2625,15 +2495,15 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-262d3090e6",
+        "id": "fixpad-physics-waves-oscillations-4526d969ee",
         "subject": "Physics",
         "topic": "Waves & Oscillations",
-        "stem": "Assume that light of wavelength 600 nm is coming from a star. The limit of resolution of telescope whose objective has a diameter of 2 m is:",
+        "stem": "A string vibrates in 2 loops (fixed length & tension). Frequency vs fundamental is [drill 5075]",
         "options": {
-          "1": "A 1 .83 × 10 − 7 rad",
-          "2": "32 × 10 − 7 rad",
-          "3": "00 × 10 − 7 rad",
-          "4": "66 × 10 − 7 rad"
+          "1": "2 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -2643,38 +2513,334 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      }
-    ],
-    "Hard": [
+        "difficulty": "Medium"
+      },
       {
-        "id": "2018-AA-Q43",
-        "sourceYear": 2018,
-        "sourceNumber": 19,
+        "id": "fixpad-physics-waves-oscillations-c194169532",
         "subject": "Physics",
         "topic": "Waves & Oscillations",
-        "difficulty": "Hard",
-        "stem": "The power radiated by a black body is P and it radiates maximum energy at wavelength, λ0. If the temperature of the black body is now changed so that it radiates maximum energy at 3 wavelength λ , the power radiated by it 4 0 becomes nP. The value of n is 256",
+        "stem": "A string vibrates in 4 loops (fixed length & tension). Frequency vs fundamental is [drill 5077]",
         "options": {
-          "1": "81 4",
-          "2": "3 3",
-          "3": "4 81",
-          "4": "256"
+          "1": "4 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
         },
-        "correctOption": "3",
+        "correctOption": "1",
         "correctOptions": [
-          "3"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
       },
+      {
+        "id": "fixpad-physics-waves-oscillations-6b19a1ab58",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 6 loops (fixed length & tension). Frequency vs fundamental is [drill 5079]",
+        "options": {
+          "1": "6 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-83fdcbe5f2",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 3 loops (fixed length & tension). Frequency vs fundamental is [drill 5081]",
+        "options": {
+          "1": "3 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-646ce9ecb9",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 5 loops (fixed length & tension). Frequency vs fundamental is [drill 5083]",
+        "options": {
+          "1": "5 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-b229a834e3",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 2 loops (fixed length & tension). Frequency vs fundamental is [drill 5085]",
+        "options": {
+          "1": "2 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-31e80aa4e4",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 4 loops (fixed length & tension). Frequency vs fundamental is [drill 5087]",
+        "options": {
+          "1": "4 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-fded3be2b9",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 6 loops (fixed length & tension). Frequency vs fundamental is [drill 5089]",
+        "options": {
+          "1": "6 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-b8ea502772",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 3 loops (fixed length & tension). Frequency vs fundamental is [drill 5091]",
+        "options": {
+          "1": "3 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-c192deb985",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 5 loops (fixed length & tension). Frequency vs fundamental is [drill 5093]",
+        "options": {
+          "1": "5 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-fa743fedbd",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 2 loops (fixed length & tension). Frequency vs fundamental is [drill 5095]",
+        "options": {
+          "1": "2 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-884f3ac29b",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 4 loops (fixed length & tension). Frequency vs fundamental is [drill 5097]",
+        "options": {
+          "1": "4 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-1b3edffa32",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 6 loops (fixed length & tension). Frequency vs fundamental is [drill 5099]",
+        "options": {
+          "1": "6 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-960580ed09",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 3 loops (fixed length & tension). Frequency vs fundamental is [drill 5101]",
+        "options": {
+          "1": "3 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-0ad7d3ddb4",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 5 loops (fixed length & tension). Frequency vs fundamental is [drill 5103]",
+        "options": {
+          "1": "5 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      }
+    ],
+    "Hard": [
       {
         "id": "2020-E1-Q95",
         "sourceYear": 2020,
@@ -2689,9 +2855,9 @@
           "3": "10 V",
           "4": "102 V Hindi+English 2"
         },
-        "correctOption": "3",
+        "correctOption": "2",
         "correctOptions": [
-          "3"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -3569,78 +3735,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-4098dfd7fb",
-        "subject": "Physics",
-        "topic": "Waves & Oscillations",
-        "stem": "An electromagnetic wave of frequency 1 × 10 14 Hz is propagating along z -axis. The amplitude of the electric field is 4 V/m . If ε 0 = 8 . 8 × 1 0 - 1 2 C 2 / N-m 2 , then the average energy density of electric field will be",
-        "options": {
-          "1": "A 3",
-          "2": "2 Ã 10 â 12 â J/m 3 B 3",
-          "3": "2 × 10 − 10 J/m 3 C 3",
-          "4": "2 × 10 − 11 J/m 3 D 3"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-db70aa9a79",
-        "subject": "Physics",
-        "topic": "Waves & Oscillations",
-        "stem": "An electron is accelerated through a potential difference of 10,000 V . Its de Broglie wavelength is (nearly): m e = 9 × 1 0 - 31 k g",
-        "options": {
-          "1": "A 1",
-          "2": "2 Ã 10 - 13 Â m B 1",
-          "3": "2 Ã 10 - 12 Â m C 1",
-          "4": "2 Ã 10 - 14 Â m D 1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-f5f39e644c",
-        "subject": "Physics",
-        "topic": "Waves & Oscillations",
-        "stem": "The magnetic field of a plane electromagnetic wave is given by $\\overrightarrow{\\mathrm{B}}=3 \\times 10^{-8} \\cos \\left(1.6 \\times 10^3 x+\\right.$ $48 \\times 10^{10}$ t) $\\hat{j}$, then the associated electric field will be:",
-        "options": {
-          "1": "A 3 \\times 10^{-8} \\cos \\left(",
-          "2": "6 \\times 10^3 x+48 \\times 10^{10} t\\right) \\hat{i} / \\mathrm{m} B 3 \\times 10^{-8} \\sin \\left(",
-          "3": "6 \\times 10^3 x+48 \\times 10^{10} t\\right) \\hat{i} / \\mathrm{m} C 9 \\sin \\left(",
-          "4": "6 \\times 10^3 x-48 \\times 10^{10} t\\right) \\hat{k} \\mathrm{~V} / \\mathrm{m} D 9 \\cos \\left("
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
         "id": "catch-4acaeb4e64",
         "subject": "Physics",
         "topic": "Waves & Oscillations",
@@ -3761,30 +3855,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-e8e9eecb94",
-        "subject": "Physics",
-        "topic": "Waves & Oscillations",
-        "stem": "A particle suspended from a vertical spring oscillates 10 times per second. At the highest point of oscillation, the spring becomes unstretched. Find the speed when the spring is stretched by 0.20 c m . T a k e , g = Ï 2 m / s 2",
-        "options": {
-          "1": "A 11",
-          "2": "25 c m s - 1 B 1",
-          "3": "14 c m s - 1 C 1",
-          "4": "4 c m s - 1 D 1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2023-f1a27a97c3",
         "sourceYear": 2023,
         "sourceNumber": 29,
@@ -3837,15 +3907,15 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-c750820c89",
+        "id": "fixpad-physics-waves-oscillations-4e4bb07246",
         "subject": "Physics",
         "topic": "Waves & Oscillations",
-        "stem": "The amplitude of the charge oscillating in a circuit decreases exponentially as $Q=Q_0 e^{-R t 2 L}$, where $Q_0$ is the charge at $t=0 \\mathrm{~s}$. The time at which charge amplitude decreases to $0.50 Q_0$ is nearly: [Given that $R=1.5 \\Omega, L=12 \\mathrm{mH}, \\ln (2)=0.693$ ]",
+        "stem": "A string vibrates in 3 loops (fixed length & tension). Frequency vs fundamental is [drill 5076]",
         "options": {
-          "1": "A 1",
-          "2": "01 ms B 1",
-          "3": "09 ms C 1",
-          "4": "01 s D 1"
+          "1": "3 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -3855,10 +3925,308 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
         "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-8094bb1679",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 5 loops (fixed length & tension). Frequency vs fundamental is [drill 5078]",
+        "options": {
+          "1": "5 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-6f0d24d959",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 2 loops (fixed length & tension). Frequency vs fundamental is [drill 5080]",
+        "options": {
+          "1": "2 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-c7fc8eb0d6",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 4 loops (fixed length & tension). Frequency vs fundamental is [drill 5082]",
+        "options": {
+          "1": "4 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-feba4121fa",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 3 loops (fixed length & tension). Frequency vs fundamental is [drill 5096]",
+        "options": {
+          "1": "3 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-a940895964",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 5 loops (fixed length & tension). Frequency vs fundamental is [drill 5098]",
+        "options": {
+          "1": "5 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-09d0971c46",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 2 loops (fixed length & tension). Frequency vs fundamental is [drill 5100]",
+        "options": {
+          "1": "2 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-934df9befe",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 4 loops (fixed length & tension). Frequency vs fundamental is [drill 5102]",
+        "options": {
+          "1": "4 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-3f4d1dcf83",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 6 loops (fixed length & tension). Frequency vs fundamental is [drill 5104]",
+        "options": {
+          "1": "6 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-8b9d3e1a02",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 3 loops (fixed length & tension). Frequency vs fundamental is [drill 5106]",
+        "options": {
+          "1": "3 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-b01e341c90",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 5 loops (fixed length & tension). Frequency vs fundamental is [drill 5108]",
+        "options": {
+          "1": "5 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-afd1e55db6",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 2 loops (fixed length & tension). Frequency vs fundamental is [drill 5110]",
+        "options": {
+          "1": "2 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-d7732c3408",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 4 loops (fixed length & tension). Frequency vs fundamental is [drill 5112]",
+        "options": {
+          "1": "4 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-waves-oscillations-2acc144027",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A string vibrates in 6 loops (fixed length & tension). Frequency vs fundamental is [drill 5114]",
+        "options": {
+          "1": "6 times",
+          "2": "Equal to fundamental",
+          "3": "Half the fundamental",
+          "4": "Independent of loop count"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (fn = n f1; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
       }
     ]
   },

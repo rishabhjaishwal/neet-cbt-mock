@@ -3,9 +3,9 @@
   "subject": "Biology",
   "topic": "Biology General",
   "counts": {
-    "Easy": 570,
-    "Medium": 209,
-    "Hard": 133
+    "Easy": 548,
+    "Medium": 175,
+    "Hard": 126
   },
   "questions": {
     "Easy": [
@@ -23,9 +23,9 @@
           "3": "Dinoflagellates",
           "4": "Slime moulds"
         },
-        "correctOption": "4",
+        "correctOption": "2",
         "correctOptions": [
-          "4"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -323,9 +323,9 @@
           "3": "34",
           "4": "43"
         },
-        "correctOption": "4",
+        "correctOption": "3",
         "correctOptions": [
-          "4"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -1435,56 +1435,6 @@
         "placeholder": false
       },
       {
-        "id": "2018-AA-Q8",
-        "sourceYear": 2018,
-        "sourceNumber": 95,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Easy",
-        "stem": "Considering Ellingham diagram, which of the following metals can be used to reduce alumina ?",
-        "options": {
-          "1": "Fe",
-          "2": "Cu",
-          "3": "Mg",
-          "4": "Zn"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q13",
-        "sourceYear": 2018,
-        "sourceNumber": 98,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Easy",
-        "stem": "For a radioactive material, half-life is 10 minutes. If initially there are 600 number of nuclei, the time taken (in minutes) for the disintegration of 450 nuclei is",
-        "options": {
-          "1": "30",
-          "2": "10",
-          "3": "20",
-          "4": "15"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2018-AA-Q23",
         "sourceYear": 2018,
         "sourceNumber": 103,
@@ -1498,59 +1448,9 @@
           "3": "Amylopectin have 1 → 4 α-linkage and 1 → 6 β-linkage",
           "4": "Amylose have 1→4 α-linkage and 1 → 6 β-linkage"
         },
-        "correctOption": "3",
+        "correctOption": "1",
         "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q32",
-        "sourceYear": 2018,
-        "sourceNumber": 107,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Easy",
-        "stem": "The solubility of BaSO4 in water is –3 –1 2·42 × 10 gL at 298 K. The value of its solubility product (Ksp) will be –1 (Given molar mass of BaSO4 = 233 g mol ) –10 2 –2",
-        "options": {
-          "1": "1·08 × 10 mol L –8 2 –2",
-          "2": "1·08 × 10 mol L –14 2 –2",
-          "3": "1·08 × 10 mol L –12 2 –2",
-          "4": "1·08 × 10 mol L OUGH WORK English"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q44",
-        "sourceYear": 2018,
-        "sourceNumber": 113,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Easy",
-        "stem": "Two wires are made of the same material and have the same volume. The first wire has cross-sectional area A and the second wire has cross-sectional area 3A. If the length of the first wire is increased by Δ l on applying a force F, how much force is needed to stretch the second wire by the same amount ?",
-        "options": {
-          "1": "4 F",
-          "2": "6 F",
-          "3": "9 F",
-          "4": "F"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -1598,34 +1498,9 @@
           "3": "Forewings with darker tegmina",
           "4": "Presence of anal cerci OUGH WORK English"
         },
-        "correctOption": "3",
+        "correctOption": "2",
         "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q60",
-        "sourceYear": 2018,
-        "sourceNumber": 129,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Easy",
-        "stem": "The compound A on treatment with Na gives B, and with PCl5 gives C. B and C react together to give diethyl ether. A, B and C are in the order",
-        "options": {
-          "1": "C2H5Cl, C2H6, C2H5OH",
-          "2": "C2H5OH, C2H5Cl, C2H5ONa",
-          "3": "C2H5OH, C2H6, C2H5Cl",
-          "4": "C2H5OH, C2H5ONa, C2H5Cl"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -1648,9 +1523,9 @@
           "3": "Ringworm disease",
           "4": "Ascariasis"
         },
-        "correctOption": "3",
+        "correctOption": "1",
         "correctOptions": [
-          "3"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -1672,31 +1547,6 @@
           "2": "ii iii i",
           "3": "i iii ii",
           "4": "iii ii i"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q75",
-        "sourceYear": 2018,
-        "sourceNumber": 143,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Easy",
-        "stem": "On which of the following properties does the coagulating power of an ion depend ?",
-        "options": {
-          "1": "Both magnitude and sign of the charge on the ion",
-          "2": "Size of the ion alone",
-          "3": "The magnitude of the charge on the ion alone",
-          "4": "The sign of charge on the ion alone"
         },
         "correctOption": "3",
         "correctOptions": [
@@ -1748,9 +1598,9 @@
           "3": "T.H. Morgan – Transduction",
           "4": "G. Mendel – Transformation"
         },
-        "correctOption": "2",
+        "correctOption": "1",
         "correctOptions": [
-          "2"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -1773,9 +1623,9 @@
           "3": "Oil content",
           "4": "Cellulosic intine"
         },
-        "correctOption": "3",
+        "correctOption": "2",
         "correctOptions": [
-          "3"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -1798,9 +1648,9 @@
           "3": "Mango",
           "4": "Pinus"
         },
-        "correctOption": "1",
+        "correctOption": "4",
         "correctOptions": [
-          "1"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -1951,31 +1801,6 @@
         "correctOption": "3",
         "correctOptions": [
           "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q38",
-        "sourceYear": 2019,
-        "sourceNumber": 128,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Easy",
-        "stem": "Which of the following statements is INCORRECT ?",
-        "options": {
-          "1": "Cockroaches exhibit mosaic vision with less sensitivity and more resolution th th",
-          "2": "A mushroom-shaped gland is present in the 6 -7 abdominal segments of male cockroach. th",
-          "3": "A pair of spermatheca is present in the 6 segment of female cockroach",
-          "4": "Female cockroach possesses sixteen ovarioles in the ovaries."
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -2235,81 +2060,6 @@
         "placeholder": false
       },
       {
-        "id": "2020-E1-Q5",
-        "sourceYear": 2020,
-        "sourceNumber": 92,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Easy",
-        "stem": "Match the following and identify the correct option. (a) CO(g)+H2(g) (i) Mg(HCO3)2+ Ca(HCO3)2 (b) Temporary (ii) An electron hardness of deficient hydride water (c) B2H6 (iii) Synthesis gas (d) H2O2 (iv) Non-planar structure (a) (b) (c) (d)",
-        "options": {
-          "1": "(i) (iii) (ii) (iv)",
-          "2": "(iii) (i) (ii) (iv)",
-          "3": "(iii) (ii) (i) (iv)",
-          "4": "(iii) (iv) (ii) (i) 3 H1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q11",
-        "sourceYear": 2020,
-        "sourceNumber": 96,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Easy",
-        "stem": "Two cylinders A and B of equal capacity are connected to each other via a stop cock. A contains an ideal gas at standard temperature and pressure. B is completely evacuated. The entire system is thermally insulated. The stop cock is suddenly opened. The process is :",
-        "options": {
-          "1": "adiabatic",
-          "2": "isochoric",
-          "3": "isobaric",
-          "4": "isothermal"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q15",
-        "sourceYear": 2020,
-        "sourceNumber": 100,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Easy",
-        "stem": "Identify the correct statements from the following : (a) CO2(g) is used as refrigerant for ice-cream and frozen food. (b) The structure of C60 contains twelve six carbon rings and twenty five carbon rings. (c) ZSM-5, a type of zeolite, is used to convert alcohols into gasoline. (d) CO is colorless and odourless gas.",
-        "options": {
-          "1": "(c) and (d) only",
-          "2": "(a), (b) and (c) only",
-          "3": "(a) and (c) only",
-          "4": "(b) and (c) only Hindi+English 6"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2020-E1-Q21",
         "sourceYear": 2020,
         "sourceNumber": 105,
@@ -2348,59 +2098,9 @@
           "3": "(a) and (b)",
           "4": "(b) and (c)"
         },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q32",
-        "sourceYear": 2020,
-        "sourceNumber": 115,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Easy",
-        "stem": "In a guitar, two strings A and B made of same material are slightly out of tune and produce beats of frequency 6 Hz. When tension in B is slightly decreased, the beat frequency increases to 7 Hz. If the frequency of A is 530 Hz, the original frequency of B will be :",
-        "options": {
-          "1": "524 Hz",
-          "2": "536 Hz",
-          "3": "537 Hz",
-          "4": "523 Hz 9 G1"
-        },
         "correctOption": "4",
         "correctOptions": [
           "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q35",
-        "sourceYear": 2020,
-        "sourceNumber": 118,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Easy",
-        "stem": "Which of the following graph represents the variation of resistivity (ρ) with temperature (T) for copper ?",
-        "options": {
-          "1": "Option 1",
-          "2": "Option 2",
-          "3": "Option 3",
-          "4": "Option 4"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -2423,9 +2123,9 @@
           "3": "(b), (c) and (d)",
           "4": "only (d)"
         },
-        "correctOption": "4",
+        "correctOption": "3",
         "correctOptions": [
-          "4"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -2548,9 +2248,9 @@
           "3": "Transpiration",
           "4": "Root pressure 1 F1"
         },
-        "correctOption": "2",
+        "correctOption": "4",
         "correctOptions": [
-          "2"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -2623,9 +2323,9 @@
           "3": "(ii) (iv) (i) (iii)",
           "4": "(i) (ii) (iii) (iv)"
         },
-        "correctOption": "4",
+        "correctOption": "3",
         "correctOptions": [
-          "4"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -2648,9 +2348,9 @@
           "3": "Poaceae ; Solanaceae",
           "4": "Rosaceae ; Leguminosae Hindi+English 6"
         },
-        "correctOption": "3",
+        "correctOption": "4",
         "correctOptions": [
-          "3"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -2723,9 +2423,9 @@
           "3": "(iv) (i) (iii) (ii)",
           "4": "(ii) (iii) (iv) (i)"
         },
-        "correctOption": "1",
+        "correctOption": "4",
         "correctOptions": [
-          "1"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -2748,9 +2448,9 @@
           "3": "Southern Blotting Technique",
           "4": "ELISA Technique 9 P1"
         },
-        "correctOption": "2",
+        "correctOption": "4",
         "correctOptions": [
-          "2"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -2798,9 +2498,9 @@
           "3": "(c) and (d) only",
           "4": "(b) and (c) only"
         },
-        "correctOption": "2",
+        "correctOption": "4",
         "correctOptions": [
-          "2"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -2823,9 +2523,9 @@
           "3": "(b), (d), (e), (a) only",
           "4": "(a), (c), (d), (e) only"
         },
-        "correctOption": "1",
+        "correctOption": "4",
         "correctOptions": [
-          "1"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -3298,9 +2998,9 @@
           "3": "7-nucleate and 7-celled",
           "4": "8-nucleate and 8-celled"
         },
-        "correctOption": "2",
+        "correctOption": "1",
         "correctOptions": [
-          "2"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -3410,31 +3110,6 @@
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q124",
-        "sourceYear": 2023,
-        "sourceNumber": 127,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Easy",
-        "stem": "Given below are two statements : One is labelled as Assertion A and the other is labelled as Reason R : Assertion A : ATP is used at two steps in glycolysis. Reason R : First ATP is used in converting glucose into glucose-6-phosphate and second ATP is used in conversion of fructose-6-phosphate into fructose-1, 6-diphosphate. In the light of the above statements, choose the correct answer from the options given below :",
-        "options": {
-          "1": "Both A and R are true but R is NOT the correct explanation of A.",
-          "2": "A is true but R is false.",
-          "3": "A is false but R is true.",
-          "4": "Both A and R are true and R is the correct explanation of A."
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2023-F1-Q128",
         "sourceYear": 2023,
         "sourceNumber": 131,
@@ -3501,31 +3176,6 @@
         "correctOption": "4",
         "correctOptions": [
           "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q152",
-        "sourceYear": 2023,
-        "sourceNumber": 154,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Easy",
-        "stem": "Given below are two statements: one is labelled as Assertion A and other is labelled as Reason R. Assertion A : Amniocentesis for sex determination is one of the strategies of Reproductive and Child Health Care Programme. Reason R : Ban on amniocentesis checks increasing menace of female foeticide. In the light of the above statements, choose the correct answer from the options given below.",
-        "options": {
-          "1": "Both A and R are true and R is NOT the correct explanation of A.",
-          "2": "A is true but R is false.",
-          "3": "A is false but R is true.",
-          "4": "Both A and R are true and R is the correct explanation of A."
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -3660,31 +3310,6 @@
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q187",
-        "sourceYear": 2023,
-        "sourceNumber": 187,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Easy",
-        "stem": "Select the correct statements. A. Tetrad formation is seen during Leptotene. B. During Anaphase, the centromeres split and chromatids separate. C. Terminalization takes place during Pachytene. D. Nucleolus, Golgi complex and ER are reformed during Telophase. E. Crossing over takes place between sister chromatids of homologous chromosome. Choose the correct answer from the options given below:",
-        "options": {
-          "1": "B and D only",
-          "2": "A, C and E only",
-          "3": "B and E only",
-          "4": "A and C only"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2023-F1-Q193",
         "sourceYear": 2023,
         "sourceNumber": 193,
@@ -3705,56 +3330,6 @@
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q51",
-        "sourceYear": 2024,
-        "sourceNumber": 102,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Easy",
-        "stem": "The reagents with which glucose does not react to give the corresponding tests/products are A. Tollen’s reagent B. Schiff’s reagent C. HCN D. NH2OH E. NaHSO3 Choose the correct options from the given below:",
-        "options": {
-          "1": "A and D",
-          "2": "B and E",
-          "3": "E and D",
-          "4": "B and C"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q111",
-        "sourceYear": 2024,
-        "sourceNumber": 115,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Easy",
-        "stem": "In the given figure, which component has thin outer walls and highly thickened inner walls?",
-        "options": {
-          "1": "D",
-          "2": "A",
-          "3": "B",
-          "4": "C"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2024-R1-Q111.png",
-        "figureKind": "pdf-crop",
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
@@ -3823,9 +3398,9 @@
           "3": "Haem",
           "4": "Zinc"
         },
-        "correctOption": "4",
+        "correctOption": "1",
         "correctOptions": [
-          "4"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -3848,9 +3423,9 @@
           "3": "Compact inflorescence showing complete autogamy",
           "4": "Wind pollinated plant inflorescence showing flowers with well exposed stamens."
         },
-        "correctOption": "4",
+        "correctOption": "1",
         "correctOptions": [
-          "4"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": "/figures/2024-R1-Q145.svg",
@@ -3935,31 +3510,6 @@
         "placeholder": false
       },
       {
-        "id": "2024-R1-Q169",
-        "sourceYear": 2024,
-        "sourceNumber": 171,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Easy",
-        "stem": "Consider the following statements : A. Annelids are true coelomates B. Poriferans are pseudocoelomates C. Aschelminthes are acoelomates D. Platyhelminthes are pseudocoelomates Choose the correct answer from the options given below :",
-        "options": {
-          "1": "A only",
-          "2": "C only",
-          "3": "D only",
-          "4": "B only"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2024-R1-Q173",
         "sourceYear": 2024,
         "sourceNumber": 175,
@@ -4001,31 +3551,6 @@
         "correctOption": "3",
         "correctOptions": [
           "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q183",
-        "sourceYear": 2024,
-        "sourceNumber": 185,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Easy",
-        "stem": "Given below are two statements: One is labelled as Assertion A and the other is labelled as Reason R: Assertion A : Breast-feeding during initial period of infant growth is recommended by doctors for bringing a healthy baby. Reason R : Colostrum contains several antibodies absolutely essential to develop resistance for the new born baby. In the light of the above statements, choose the most appropriate answer from the options given below:",
-        "options": {
-          "1": "Both A and R are correct but R is NOT the correct explanation of A",
-          "2": "A is correct but R is not correct",
-          "3": "A is not correct but R is correct",
-          "4": "Both A and R are correct and R is the correct explanation of A"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -7698,30 +7223,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-7b9b643d23",
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "[NEET 2019 | Biology] The active site of an enzyme is:",
-        "options": {
-          "1": "The entire surface of the enzyme",
-          "2": "A small region where substrate binds and reaction occurs",
-          "3": "A cofactor that activates the enzyme",
-          "4": "The C-terminus of the enzyme"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
         "id": "catch-f5c89813f0",
         "subject": "Biology",
         "topic": "Biology General",
@@ -7935,32 +7436,6 @@
         "correctOption": "4",
         "correctOptions": [
           "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2018-15e06710dc",
-        "sourceYear": 2018,
-        "sourceNumber": 116,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "In stratosphere, which of the following elements acts as a catalyst in degradation of ozone and release of molecular oxygen ?",
-        "options": {
-          "1": "Fe",
-          "2": "Cl",
-          "3": "Carbon",
-          "4": "Oxygen"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -9232,9 +8707,9 @@
           "3": "It exposes harmful recessive genes that are eliminated by selection.",
           "4": "Elimination of less desirable genes and accumulation of superior genes takes place due to it."
         },
-        "correctOption": "1",
+        "correctOption": "2",
         "correctOptions": [
-          "1"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -10313,30 +9788,6 @@
           "2": "Excretion of nitrogenous wastes",
           "3": "Digestion of proteins",
           "4": "Secretion of digestive enzymes"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "sweatbio-090e2ea40b",
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "In cockroaches, ootheca refers to:",
-        "options": {
-          "1": "A respiratory organ",
-          "2": "A protective egg case",
-          "3": "A feeding appendage",
-          "4": "A sensory receptor"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -15618,106 +15069,6 @@
         "placeholder": false
       },
       {
-        "id": "2018-AA-Q9",
-        "sourceYear": 2018,
-        "sourceNumber": 96,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Medium",
-        "stem": "The correct order of atomic radii in group 13 elements is",
-        "options": {
-          "1": "B < Al < In < Ga < Tl",
-          "2": "B < Ga < Al < In < Tl",
-          "3": "B < Ga < Al < Tl < In",
-          "4": "B < Al < Ga < In < Tl"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q16",
-        "sourceYear": 2018,
-        "sourceNumber": 100,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Medium",
-        "stem": "The compound A on treatment with Na gives B, and with PCl5 gives C. B and C react together to give diethyl ether. A, B and C are in the order",
-        "options": {
-          "1": "C2H5OH, C2H6, C2H5Cl",
-          "2": "C2H5OH, C2H5ONa, C2H5Cl",
-          "3": "C2H5Cl, C2H6, C2H5OH",
-          "4": "C2H5OH, C2H5Cl, C2H5ONa"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q25",
-        "sourceYear": 2018,
-        "sourceNumber": 105,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Medium",
-        "stem": "Regarding cross-linked or network polymers, which of the following statements is incorrect ?",
-        "options": {
-          "1": "They contain covalent bonds between various linear polymer chains.",
-          "2": "They contain strong covalent bonds in their polymer chains.",
-          "3": "Examples are bakelite and melamine.",
-          "4": "They are formed from bi- and tri-functional monomers."
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q39",
-        "sourceYear": 2018,
-        "sourceNumber": 110,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Medium",
-        "stem": "The correct difference between first- and second-order reactions is that",
-        "options": {
-          "1": "the rate of a first-order reaction does not depend on reactant concentrations; the rate of a second-order reaction does depend on reactant concentrations",
-          "2": "the rate of a first-order reaction does depend on reactant concentrations; the rate of a second-order reaction does not depend on reactant concentrations",
-          "3": "a first-order reaction can be catalyzed; a second-order reaction cannot be catalyzed",
-          "4": "the half-life of a first-order reaction does not depend on [A]0; the half-life of a second-order reaction does depend on [A] 0"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2018-AA-Q49",
         "sourceYear": 2018,
         "sourceNumber": 118,
@@ -15731,34 +15082,9 @@
           "3": "Botulism",
           "4": "Silicosis OUGH WORK English"
         },
-        "correctOption": "1",
+        "correctOption": "4",
         "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q53",
-        "sourceYear": 2018,
-        "sourceNumber": 122,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Medium",
-        "stem": "Which of the following compounds can form a zwitterion ?",
-        "options": {
-          "1": "Benzoic acid",
-          "2": "Acetanilide",
-          "3": "Aniline",
-          "4": "Glycine OUGH WORK English"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -15780,31 +15106,6 @@
           "2": "ectoderm and endoderm",
           "3": "mesoderm and trophoblast",
           "4": "endoderm and mesoderm"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q61",
-        "sourceYear": 2018,
-        "sourceNumber": 130,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Medium",
-        "stem": "The compound C7H8 undergoes the following reactions : The product ‘C’ is",
-        "options": {
-          "1": "3-bromo-2,4,6-trichlorotoluene",
-          "2": "o-bromotoluene",
-          "3": "m-bromotoluene",
-          "4": "p-bromotoluene"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -15831,9 +15132,9 @@
           "3": "Vitamin B12",
           "4": "Vitamin A"
         },
-        "correctOption": "4",
+        "correctOption": "3",
         "correctOptions": [
-          "4"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -15893,31 +15194,6 @@
         "placeholder": false
       },
       {
-        "id": "2018-AA-Q85",
-        "sourceYear": 2018,
-        "sourceNumber": 151,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Medium",
-        "stem": "The bond dissociation energies of X2, Y2 and XY are in the ratio of 1 : 0·5 : 1. ΔH for the formation –1 of XY is – 200 kJ mol . The bond dissociation energy of X2 will be –1",
-        "options": {
-          "1": "800 kJ mol –1",
-          "2": "100 kJ mol –1",
-          "3": "200 kJ mol –1",
-          "4": "400 kJ mol"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2018-AA-Q89",
         "sourceYear": 2018,
         "sourceNumber": 155,
@@ -15956,9 +15232,9 @@
           "3": "Biodegradation",
           "4": "Bioexploitation OUGH WORK English"
         },
-        "correctOption": "3",
+        "correctOption": "2",
         "correctOptions": [
-          "3"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -15981,9 +15257,9 @@
           "3": "Saccharomyces",
           "4": "Oscillatoria"
         },
-        "correctOption": "2",
+        "correctOption": "3",
         "correctOptions": [
-          "2"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -16006,34 +15282,9 @@
           "3": "Mango",
           "4": "Cycas OUGH WORK English"
         },
-        "correctOption": "3",
+        "correctOption": "2",
         "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q8",
-        "sourceYear": 2020,
-        "sourceNumber": 94,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Medium",
-        "stem": "Match the following : Oxide Nature (a) CO (i) Basic (b) BaO (ii) Neutral (c) Al2O3 (iii) Acidic (d) Cl2O7 (iv) Amphoteric Which of the following is correct option ? (a) (b) (c) (d)",
-        "options": {
-          "1": "(iv) (iii) (ii) (i)",
-          "2": "(i) (ii) (iii) (iv)",
-          "3": "(ii) (i) (iv) (iii)",
-          "4": "(iii) (iv) (i) (ii)"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -16055,106 +15306,6 @@
           "2": "Iron",
           "3": "Copper",
           "4": "Calcium 5 H1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q16",
-        "sourceYear": 2020,
-        "sourceNumber": 101,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Medium",
-        "stem": "Two particles of mass 5 kg and 10 kg respectively are attached to the two ends of a rigid rod of length 1 m with negligible mass. The centre of mass of the system from the 5 kg particle is nearly at a distance of :",
-        "options": {
-          "1": "50 cm",
-          "2": "67 cm",
-          "3": "80 cm",
-          "4": "33 cm"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q23",
-        "sourceYear": 2020,
-        "sourceNumber": 106,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Medium",
-        "stem": "A capillary tube of radius r is immersed in water and water rises in it to a height h. The mass of the water in the capillary is 5 g. Another capillary tube of radius 2r is immersed in water. The mass of water that will rise in this tube is :",
-        "options": {
-          "1": "5.0 g",
-          "2": "10.0 g",
-          "3": "20.0 g",
-          "4": "2.5 g"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q29",
-        "sourceYear": 2020,
-        "sourceNumber": 112,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Medium",
-        "stem": "The quantities of heat required to raise the temperature of two solid copper spheres of radii r1 and r2 (r1=1.5 r2) through 1 K are in the ratio : 9",
-        "options": {
-          "1": "4 3",
-          "2": "2 5",
-          "3": "3 27",
-          "4": "8 Hindi+English 8"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q33",
-        "sourceYear": 2020,
-        "sourceNumber": 116,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Medium",
-        "stem": "A short electric dipole has a dipole moment of 16×90^{-9}$ C m. The electric potential due to the dipole at a point at a distance of 0.6 m from the centre of the dipole, situated on a line making an angle of 608 with the dipole axis is : { 1 ( { = 9× 109 N m2 /C2 ) } 4 π\u00040 [$",
-        "options": {
-          "1": "200 V",
-          "2": "400 V",
-          "3": "zero",
-          "4": "50 V"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -16206,9 +15357,9 @@
           "3": "(iv) (i) (ii) (iii)",
           "4": "(i) (ii) (iv) (iii)"
         },
-        "correctOption": "1",
+        "correctOption": "2",
         "correctOptions": [
-          "1"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -16231,9 +15382,9 @@
           "3": "(c) and (a)",
           "4": "(a) and (b) Hindi+English 6"
         },
-        "correctOption": "3",
+        "correctOption": "1",
         "correctOptions": [
-          "3"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -16256,9 +15407,9 @@
           "3": "ducts of salivary glands",
           "4": "proximal convoluted tubule of nephron"
         },
-        "correctOption": "3",
+        "correctOption": "4",
         "correctOptions": [
-          "3"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -16331,9 +15482,9 @@
           "3": "Standing state",
           "4": "Standing crop"
         },
-        "correctOption": "2",
+        "correctOption": "3",
         "correctOptions": [
-          "2"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -16556,9 +15707,9 @@
           "3": "ELISA Technique",
           "4": "Hybridization Technique"
         },
-        "correctOption": "4",
+        "correctOption": "3",
         "correctOptions": [
-          "4"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -16581,9 +15732,9 @@
           "3": "(b), (c), (d), (e) only",
           "4": "(b), (d), (e), (a) only Hindi+English 4"
         },
-        "correctOption": "3",
+        "correctOption": "1",
         "correctOptions": [
-          "3"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -17068,31 +16219,6 @@
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q100",
-        "sourceYear": 2022,
-        "sourceNumber": 194,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Medium",
-        "stem": "Noble gases are named because of their inertness towards reactivity. Identify an incorrect statement about them.",
-        "options": {
-          "1": "Noble gases have very high melting and boiling points.",
-          "2": "Noble gases have weak dispersion forces.",
-          "3": "Noble gases have large positive values of electron gain enthalpy.",
-          "4": "Noble gases are sparingly soluble in water."
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2023-F1-Q8",
         "sourceYear": 2023,
         "sourceNumber": 101,
@@ -17143,31 +16269,6 @@
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q111",
-        "sourceYear": 2023,
-        "sourceNumber": 114,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Medium",
-        "stem": "Given below are two statements : One is labelled as Assertion A and the other is labelled as Reason R : Assertion A : Late wood has fewer xylary elements with narrow vessels. Reason R : Cambium is less active in winters. In the light of the above statements, choose the correct answer from the options given below :",
-        "options": {
-          "1": "Both A and R are true but R is NOT the correct explanation of A",
-          "2": "A is true but R is false",
-          "3": "A is false but R is true",
-          "4": "Both A and R are true and R is the correct explanation of A"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2023-F1-Q115",
         "sourceYear": 2023,
         "sourceNumber": 118,
@@ -17193,31 +16294,6 @@
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q118",
-        "sourceYear": 2023,
-        "sourceNumber": 121,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Medium",
-        "stem": "Given below are two statements : One labelled as Assertion A and the other labelled as Reason R: Assertion A : The first stage of gametophyte in the life cycle of moss is protonema stage. Reason R : Protonema develops directly from spores produced in capsule. In the light of the above statements, choose the most appropriate answer from options given below:",
-        "options": {
-          "1": "Both A and R are correct but R is not the correct explanation of A",
-          "2": "A is correct but R is not correct",
-          "3": "A is not correct but R is correct",
-          "4": "Both A and R are correct and R is correct explanation of A"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2023-F1-Q126",
         "sourceYear": 2023,
         "sourceNumber": 129,
@@ -17234,81 +16310,6 @@
         "correctOption": "4",
         "correctOptions": [
           "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q136",
-        "sourceYear": 2023,
-        "sourceNumber": 139,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Medium",
-        "stem": "Given below are two statements : One labelled as Assertion A and the other labelled as Reason R : Assertion A : In gymnosperms the pollen grains are released from the microsporangium and carried by air currents. Reason R : Air currents carry the pollen grains to the mouth of the archegonia where the male gametes are discharged and pollen tube is not formed. In the light of the above statements, choose the correct answer from the options given below :",
-        "options": {
-          "1": "Both A and R are true but R is NOT the current explanation of A",
-          "2": "A is true but R is false",
-          "3": "A is false but R is true",
-          "4": "Both A and R are true and R is the correct explanation of A"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q143",
-        "sourceYear": 2023,
-        "sourceNumber": 146,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Medium",
-        "stem": "Which of the following statements are correct about Klinefelter’s Syndrome? A. This disorder was first described by Langdon Down (1866). B. Such an individual has overall masculine development. However, the feminine developement is also expressed. C. The affected individual is short statured. D. Physical, psychomotor and mental development is retarded. E. Such individuals are sterile. Choose the correct answer from the options given below:",
-        "options": {
-          "1": "C and D only",
-          "2": "B and E only",
-          "3": "A and E only",
-          "4": "A and B only"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q148",
-        "sourceYear": 2023,
-        "sourceNumber": 150,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Medium",
-        "stem": "Match List I with List II : List I List II A. Oxidative decarboxylation I. Citrate synthase B. Glycolysis II. Pyruvate dehydrogenase C. Oxidative phosphorylation III. Electron transport system D. Tricarboxylic acid cycle IV. EMP pathway Choose the correct answer from the options given below :",
-        "options": {
-          "1": "A – II, B – IV, C – I, D – III",
-          "2": "A – III, B – I, C – II, D – IV",
-          "3": "A – II, B – IV, C – III, D – I",
-          "4": "A – III, B – IV, C – II, D – I"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -17443,31 +16444,6 @@
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q185",
-        "sourceYear": 2023,
-        "sourceNumber": 185,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Medium",
-        "stem": "Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R. Assertion A: Nephrons are of two types: Cortical & Juxta medullary, based on their relative position in cortex and medulla. Reason R: Juxta medullary nephrons have short loop of Henle whereas, cortical nephrons have longer loop of Henle. In the light of the above statements, choose the correct answer from the options given below:",
-        "options": {
-          "1": "Both A and R are true but R is NOT the correct explanation of A.",
-          "2": "A is true but R is false.",
-          "3": "A is false but R is true.",
-          "4": "Both A and R are true and R is the correct explanation of A."
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2023-F1-Q190",
         "sourceYear": 2023,
         "sourceNumber": 190,
@@ -17481,59 +16457,9 @@
           "3": "It decreases the productivity of inbred population, after continuous inbreeding.",
           "4": "It decreases homozygosity."
         },
-        "correctOption": "3",
+        "correctOption": "4",
         "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q199",
-        "sourceYear": 2023,
-        "sourceNumber": 199,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Medium",
-        "stem": "In cockroach, excretion is brought about by- A. Phallic gland B. Uricose gland C. Nephrocytes D. Fat body E. Collaterial glands Choose the correct answer from the options given below :",
-        "options": {
-          "1": "A, B and E only",
-          "2": "B, C and D only",
-          "3": "B and D only",
-          "4": "A and E only"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q9",
-        "sourceYear": 2025,
-        "sourceNumber": 101,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Medium",
-        "stem": "Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R. Assertion A: The potential (V) at any axial point, at 2 m distance (r) from the centre of the dipole of dipole moment vector P of magnitude, 4 × 10–6 C m, is ± 9 × 103 V. 1 (Take = 9 × 109 SI units) 4π ∈0 2P Reason R: V = ± , where r is the distance of any axial point, situated at 2 m from the centre of the 4π ∈0 r 2 dipole. In the light of the above statements, choose the correct answer from the options given below: -5- NEET (UG)-2024 (Code-R1)",
-        "options": {
-          "1": "Both A and R are true and R is NOT the correct explanation of A.",
-          "2": "A is true but R is false.",
-          "3": "A is false but R is true.",
-          "4": "Both A and R are true and R is the correct explanation of A."
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -18087,9 +17013,9 @@
           "3": "S phase",
           "4": "$ \\mathrm { G } _ { 2 } $ phase"
         },
-        "correctOption": "2",
+        "correctOption": "1",
         "correctOptions": [
-          "2"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -18543,32 +17469,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2024-a7f94a0fd6",
-        "sourceYear": 2024,
-        "sourceNumber": 135,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Which of the following examples show monocarpellary, unilocular ovary with many ovules? A. Sesbania B. Brinjal C. Indigofera D. Tobacco E. Asparagus Choose the correct answer from the options given below :",
-        "options": {
-          "1": "B and E only",
-          "2": "C, D and E only",
-          "3": "A, B and D only",
-          "4": "A and C only"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2024-09d7cf3b0c",
         "sourceYear": 2024,
         "sourceNumber": 137,
@@ -18584,32 +17484,6 @@
         "correctOption": "2",
         "correctOptions": [
           "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2024-e123177adb",
-        "sourceYear": 2024,
-        "sourceNumber": 139,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Which of the following are not fatty acids? A. Glutamic acid B. Arachidonic acid C. Palmitic acid D. Lecithin E. Aspartic acid Choose the correct answer from the options given below :",
-        "options": {
-          "1": "C, D and E only",
-          "2": "A and B only",
-          "3": "A, D and E only",
-          "4": "B and C only"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -18777,32 +17651,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "hf2024-f7768951ca",
-        "sourceYear": 2024,
-        "sourceNumber": 174,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Which of the following is/are present in female cockroach? A. Collateral gland B. Mushroom gland C. Spermatheca D. Anal style E. Phallic gland Choose the most appropriate answer from the options given below:",
-        "options": {
-          "1": "B and D only",
-          "2": "B and E only",
-          "3": "A only",
-          "4": "A and C only"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "hf2024-8e563a8d89",
         "sourceYear": 2024,
         "sourceNumber": 3,
@@ -18818,32 +17666,6 @@
         "correctOption": "1",
         "correctOptions": [
           "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2024-3c61e8c2a9",
-        "sourceYear": 2024,
-        "sourceNumber": 183,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Following is the list of STDs. Select the diseases which are not completely curable. A. Genital warts B. Genital herpes C Syphilis D Hepatitis-B E Trichomoniasis Choose the correct answer from the options given below:",
-        "options": {
-          "1": "A and D only",
-          "2": "B and D only",
-          "3": "A and C only",
-          "4": "D and E only"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -18955,78 +17777,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-1205aa101c",
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Which one of the following groups of three animals each is correctly matched with their one characteristic morphological feature?",
-        "options": {
-          "1": "A (",
-          "2": "B (",
-          "3": "C (",
-          "4": "D ("
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-4414a4d7f5",
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Which of the following best describes the metabolism of bacteria as a group?",
-        "options": {
-          "1": "A Autotrophic B Heterotrophic C Both",
-          "2": "and",
-          "3": "D Neither",
-          "4": "nor"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-ef937078e9",
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "What should be the focus of feeding cattle in dairy farming?",
-        "options": {
-          "1": "A Quantity of fodder B Quality of fodder C Both",
-          "2": "and",
-          "3": "D Neither",
-          "4": "nor"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "catch-2ff2b61421",
         "subject": "Biology",
         "topic": "Biology General",
@@ -19046,78 +17796,6 @@
         "figureKind": null,
         "answerEstimated": false,
         "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-c13bd746af",
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "What type of organisms are flagellated protozoans?",
-        "options": {
-          "1": "A Free-living organisms B Parasitic organisms C Both",
-          "2": "and",
-          "3": "D Neither",
-          "4": "nor"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-1159e8d9c5",
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Select the correct option by identifying the relative contribution of various greenhouse gases to the total global warming. Carbon dioxide ( C O 2 ) Methane CFC N 2 O 1 50 % 30 % 14 % 6 % 2 60 % 14 % 20 % 6 % 3 60 % 20 % 14 % 6 % 4 40 % 20 % 20 % 20 %",
-        "options": {
-          "1": "A (",
-          "2": "B (",
-          "3": "C (",
-          "4": "D ("
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-890cc5ab09",
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Which one of the following is the correct matching of three items and their grouping category?",
-        "options": {
-          "1": "A (",
-          "2": "B (",
-          "3": "C (",
-          "4": "D ("
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"
@@ -19219,30 +17897,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-48a917c981",
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "What is the recommended forest cover for the plains and hills according to the National Forest Policy of India?",
-        "options": {
-          "1": "A 2",
-          "2": "54% and 67% B 33% and 67% C 33% and 2",
-          "3": "54% D 30% and 2",
-          "4": "54%"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "catch-880bff65e6",
         "subject": "Biology",
         "topic": "Biology General",
@@ -19286,30 +17940,6 @@
         "figureKind": null,
         "answerEstimated": false,
         "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-7f43689d8b",
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Which one of the following is the correct difference between Rod Cells and Cone Cells of our retina?",
-        "options": {
-          "1": "A (",
-          "2": "B (",
-          "3": "C (",
-          "4": "D ("
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"
@@ -19382,32 +18012,6 @@
         "correctOption": "2",
         "correctOptions": [
           "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2023-6865881f1a",
-        "sourceYear": 2023,
-        "sourceNumber": 142,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "stem": "Which of the following statements are correct about Klinefelter's Syndrome? A. This disorder was first described by Langdon Down (1866). B. Such an individual has overall masculine development. However, the feminine development is also expressed. C. The affected individual is short statured. D. Physical, psychomotor and mental development is retarded. E. Such individuals are sterile.",
-        "options": {
-          "1": "A and E only",
-          "2": "A and B only",
-          "3": "C and D only",
-          "4": "B and E only"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -19810,31 +18414,6 @@
           "2": "Plants whose products are in international trade",
           "3": "threatened species",
           "4": "marine vertebrates only"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2016-Phase1-Q133",
-        "sourceYear": 2016,
-        "sourceNumber": 133,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Hard",
-        "stem": "Study the four statements (A-D) given below and select the two correct ones out of them: A. Definition of biological species was given by Ernst Mayr B. Photoperiod does not affect reproduction in plants C. Binomial nomenclature system was given by R. H. Whittaker D. In unicellular organisms, reproduction is synonymous with growth The two correct statements are",
-        "options": {
-          "1": "B and C",
-          "2": "C and D",
-          "3": "A and D",
-          "4": "A and B"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -20886,59 +19465,9 @@
           "3": "Cellulosic intine",
           "4": "Pollenkitt"
         },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q17",
-        "sourceYear": 2018,
-        "sourceNumber": 101,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Hard",
-        "stem": "The compound C7H8 undergoes the following reactions : The product ‘C’ is",
-        "options": {
-          "1": "m-bromotoluene",
-          "2": "p-bromotoluene",
-          "3": "3-bromo-2,4,6-trichlorotoluene",
-          "4": "o-bromotoluene"
-        },
         "correctOption": "1",
         "correctOptions": [
           "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q30",
-        "sourceYear": 2018,
-        "sourceNumber": 106,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Hard",
-        "stem": "On which of the following properties does the coagulating power of an ion depend ?",
-        "options": {
-          "1": "The magnitude of the charge on the ion alone",
-          "2": "The sign of charge on the ion alone",
-          "3": "Both magnitude and sign of the charge on the ion",
-          "4": "Size of the ion alone"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -20986,9 +19515,9 @@
           "3": "Protein glycosylation",
           "4": "Protein folding"
         },
-        "correctOption": "2",
+        "correctOption": "1",
         "correctOptions": [
-          "2"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -21011,9 +19540,9 @@
           "3": "Moth",
           "4": "Starfish"
         },
-        "correctOption": "2",
+        "correctOption": "1",
         "correctOptions": [
-          "2"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -21035,31 +19564,6 @@
           "2": "iii iv i ii",
           "3": "i iii iv ii",
           "4": "ii i iii iv"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q62",
-        "sourceYear": 2018,
-        "sourceNumber": 131,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Hard",
-        "stem": "Hydrocarbon (A) reacts with bromine by substitution to form an alkyl bromide which by Wurtz reaction is converted to gaseous hydrocarbon containing less than four carbon atoms. (A) is",
-        "options": {
-          "1": "CH3 – CH3",
-          "2": "CH2 = CH2",
-          "3": "CH ≡ CH",
-          "4": "CH4 OUGH WORK English"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -21086,9 +19590,9 @@
           "3": "Only sons",
           "4": "Only daughters"
         },
-        "correctOption": "2",
+        "correctOption": "1",
         "correctOptions": [
-          "2"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -21111,9 +19615,9 @@
           "3": "Botanical gardens",
           "4": "Sacred groves"
         },
-        "correctOption": "1",
+        "correctOption": "4",
         "correctOptions": [
-          "1"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -21161,34 +19665,9 @@
           "3": "120°C",
           "4": "160°C"
         },
-        "correctOption": "2",
+        "correctOption": "1",
         "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q124",
-        "sourceYear": 2018,
-        "sourceNumber": 169,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Hard",
-        "stem": "In stratosphere, which of the following elements acts as a catalyst in degradation of ozone and release of molecular oxygen ?",
-        "options": {
-          "1": "Carbon",
-          "2": "Oxygen",
-          "3": "Fe",
-          "4": "Cl OUGH WORK English"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -21336,9 +19815,9 @@
           "3": "(ii) (iv) (i) (iii)",
           "4": "(i) (iii) (ii) (iv)"
         },
-        "correctOption": "1",
+        "correctOption": "2",
         "correctOptions": [
-          "1"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -21364,31 +19843,6 @@
         "correctOption": "3",
         "correctOptions": [
           "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q34",
-        "sourceYear": 2020,
-        "sourceNumber": 117,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Hard",
-        "stem": "A mixture of N2 and Ar gases in a cylinder contains 7 g of N2 and 8 g of Ar. If the total pressure of the mixture of the gases in the cylinder is 27 bar, the partial pressure of N2 is : [Use atomic masses (in g mol−1) : N=14, Ar=40]",
-        "options": {
-          "1": "18 bar",
-          "2": "9 bar",
-          "3": "12 bar",
-          "4": "15 bar"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -21436,9 +19890,9 @@
           "3": "only (a)",
           "4": "(a) and (c)"
         },
-        "correctOption": "4",
+        "correctOption": "1",
         "correctOptions": [
-          "4"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -21486,9 +19940,9 @@
           "3": "(d) and (c)",
           "4": "(c) and (a)"
         },
-        "correctOption": "3",
+        "correctOption": "2",
         "correctOptions": [
-          "3"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -21511,9 +19965,9 @@
           "3": "(i) (ii) (iv) (iii)",
           "4": "(ii) (i) (iii) (iv)"
         },
-        "correctOption": "4",
+        "correctOption": "1",
         "correctOptions": [
-          "4"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -21561,9 +20015,9 @@
           "3": "Climax",
           "4": "Climax community"
         },
-        "correctOption": "2",
+        "correctOption": "1",
         "correctOptions": [
-          "2"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -21586,9 +20040,9 @@
           "3": "Telocentric",
           "4": "Sub-metacentric Hindi+English 2"
         },
-        "correctOption": "4",
+        "correctOption": "2",
         "correctOptions": [
-          "4"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -21611,9 +20065,9 @@
           "3": "(iv) (iii) (ii) (i)",
           "4": "(ii) (iv) (i) (iii)"
         },
-        "correctOption": "2",
+        "correctOption": "4",
         "correctOptions": [
-          "2"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -21811,9 +20265,9 @@
           "3": "(a) and (b) only",
           "4": "(c) and (d) only"
         },
-        "correctOption": "4",
+        "correctOption": "1",
         "correctOptions": [
-          "4"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -22089,31 +20543,6 @@
         "correctOption": "4",
         "correctOptions": [
           "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q151",
-        "sourceYear": 2023,
-        "sourceNumber": 153,
-        "subject": "Biology",
-        "topic": "Biology General",
-        "difficulty": "Hard",
-        "stem": "Which of the following statements are correct regarding female reproductive cycle? A. In non-primate mammals cyclical changes during reproduction are called oestrus cycle. B. First menstrual cycle begins at puberty and is called menopause. C. Lack of menstruation may be indicative of pregnancy. D. Cyclic menstruation extends between menarche and menopause. Choose the most appropriate answer from the options given below.",
-        "options": {
-          "1": "A and B only",
-          "2": "A, B and C only",
-          "3": "A, C and D only",
-          "4": "A and D only"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,

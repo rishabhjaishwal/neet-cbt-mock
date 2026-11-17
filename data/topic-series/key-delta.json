@@ -1,0 +1,1237 @@
+{
+  "version": 2,
+  "generatedAt": "2026-11-17T18:33:41.174Z",
+  "changedCount": 205,
+  "changes": {
+    "2016-Phase1-Q88": {
+      "old": "4",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2016-Phase1-Q125": {
+      "old": "4",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2018-AA-Q23": {
+      "old": "3",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2018-AA-Q55": {
+      "old": "3",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2018-AA-Q63": {
+      "old": "3",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2018-AA-Q102": {
+      "old": "2",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2018-AA-Q111": {
+      "old": "3",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2018-AA-Q125": {
+      "old": "1",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2020-E1-Q26": {
+      "old": "2",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2020-E1-Q44": {
+      "old": "4",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2020-E1-Q90": {
+      "old": "2",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2021-M1-Q140": {
+      "old": "4",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2021-M1-Q143": {
+      "old": "3",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2021-M1-Q161": {
+      "old": "1",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2021-M1-Q166": {
+      "old": "2",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2021-M1-Q190": {
+      "old": "2",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2021-M1-Q193": {
+      "old": "1",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2022-RECON-Q192": {
+      "old": "2",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2018-AA-Q49": {
+      "old": "1",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2018-AA-Q56": {
+      "old": "4",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2018-AA-Q64": {
+      "old": "4",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2018-AA-Q103": {
+      "old": "3",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2018-AA-Q118": {
+      "old": "2",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2018-AA-Q135": {
+      "old": "3",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2020-E1-Q49": {
+      "old": "1",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2020-E1-Q59": {
+      "old": "3",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2020-E1-Q75": {
+      "old": "3",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2021-M1-Q110": {
+      "old": "2",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2021-M1-Q172": {
+      "old": "4",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2021-M1-Q187": {
+      "old": "3",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "hf2020-0c575dfb44": {
+      "old": "2",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2018-AA-Q10": {
+      "old": "2",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2018-AA-Q50": {
+      "old": "2",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2018-AA-Q54": {
+      "old": "2",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2018-AA-Q57": {
+      "old": "1",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2018-AA-Q66": {
+      "old": "2",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2018-AA-Q73": {
+      "old": "1",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2018-AA-Q94": {
+      "old": "2",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2020-E1-Q25": {
+      "old": "1",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2020-E1-Q56": {
+      "old": "4",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2020-E1-Q71": {
+      "old": "3",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2020-E1-Q76": {
+      "old": "4",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2021-M1-Q120": {
+      "old": "2",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2021-M1-Q132": {
+      "old": "4",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2021-M1-Q138": {
+      "old": "2",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2021-M1-Q192": {
+      "old": "4",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "biology-biology-general.json"
+    },
+    "2018-AA-Q33": {
+      "old": "1",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "biology-botany.json"
+    },
+    "2018-AA-Q58": {
+      "old": "2",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "biology-botany.json"
+    },
+    "2021-M1-Q126": {
+      "old": "2",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "biology-botany.json"
+    },
+    "2020-E1-Q36": {
+      "old": "4",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "biology-botany.json"
+    },
+    "2020-E1-Q78": {
+      "old": "2",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "biology-botany.json"
+    },
+    "2018-AA-Q24": {
+      "old": "4",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "biology-cell-biology.json"
+    },
+    "2018-AA-Q95": {
+      "old": "3",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "biology-cell-biology.json"
+    },
+    "2020-E1-Q57": {
+      "old": "1",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "biology-cell-biology.json"
+    },
+    "2018-AA-Q96": {
+      "old": "4",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "biology-cell-biology.json"
+    },
+    "2018-AA-Q165": {
+      "old": "1",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "biology-cell-biology.json"
+    },
+    "2020-E1-Q72": {
+      "old": "4",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "biology-cell-biology.json"
+    },
+    "2018-AA-Q126": {
+      "old": "2",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "biology-cell-biology.json"
+    },
+    "2020-E1-Q81": {
+      "old": "1",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "biology-cell-biology.json"
+    },
+    "2018-AA-Q86": {
+      "old": "2",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "biology-ecology-evolution.json"
+    },
+    "2020-E1-Q50": {
+      "old": "2",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "biology-ecology-evolution.json"
+    },
+    "2018-AA-Q72": {
+      "old": "4",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "biology-ecology-evolution.json"
+    },
+    "2020-E1-Q132": {
+      "old": "4",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "biology-ecology-evolution.json"
+    },
+    "2018-AA-Q22": {
+      "old": "2",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "biology-genetics-biotech.json"
+    },
+    "2018-AA-Q98": {
+      "old": "2",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "biology-genetics-biotech.json"
+    },
+    "2020-E1-Q115": {
+      "old": "3",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "biology-genetics-biotech.json"
+    },
+    "2018-AA-Q127": {
+      "old": "3",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "biology-genetics-biotech.json"
+    },
+    "2020-E1-Q83": {
+      "old": "3",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "biology-genetics-biotech.json"
+    },
+    "2018-AA-Q133": {
+      "old": "1",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "biology-genetics-biotech.json"
+    },
+    "2020-E1-Q24": {
+      "old": "4",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "biology-genetics-biotech.json"
+    },
+    "2020-E1-Q43": {
+      "old": "3",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "biology-genetics-biotech.json"
+    },
+    "2018-AA-Q15": {
+      "old": "3",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "biology-human-physiology.json"
+    },
+    "2020-E1-Q73": {
+      "old": "1",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "biology-human-physiology.json"
+    },
+    "2018-AA-Q81": {
+      "old": "1",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "biology-human-physiology.json"
+    },
+    "2020-E1-Q64": {
+      "old": "4",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "biology-human-physiology.json"
+    },
+    "2020-E1-Q77": {
+      "old": "1",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "biology-human-physiology.json"
+    },
+    "2020-E1-Q70": {
+      "old": "2",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "biology-human-physiology.json"
+    },
+    "2016-Phase1-Q45": {
+      "old": "2",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "2018-AA-Q104": {
+      "old": "4",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "2018-AA-Q137": {
+      "old": "1",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "2018-AA-Q145": {
+      "old": "1",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "2018-AA-Q159": {
+      "old": "3",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "2018-AA-Q167": {
+      "old": "3",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "2020-E1-Q98": {
+      "old": "2",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "2020-E1-Q106": {
+      "old": "2",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "2020-E1-Q178": {
+      "old": "2",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "2021-M1-Q25": {
+      "old": "1",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "hf2018-615a2ffc48": {
+      "old": "3",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "hf2020-bf7f8702cf": {
+      "old": "3",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "hf2020-4edd26ebdc": {
+      "old": "4",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "hf2018-a157316646": {
+      "old": "3",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "hf2021-52f5bfa6be": {
+      "old": "2",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "2018-AA-Q105": {
+      "old": "1",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "2018-AA-Q114": {
+      "old": "2",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "2018-AA-Q163": {
+      "old": "3",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "2018-AA-Q170": {
+      "old": "2",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "2021-M1-Q28": {
+      "old": "4",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "2021-M1-Q56": {
+      "old": "4",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "hf2019-8c22aee1a8": {
+      "old": "3",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "catch-10fc37f329": {
+      "old": "1",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "2018-AA-Q117": {
+      "old": "1",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "2018-AA-Q144": {
+      "old": "4",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "2018-AA-Q158": {
+      "old": "2",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "2020-E1-Q103": {
+      "old": "3",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "2020-E1-Q117": {
+      "old": "1",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "2020-E1-Q147": {
+      "old": "3",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "2020-E1-Q177": {
+      "old": "1",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "chemistry-chemistry-general.json"
+    },
+    "2018-AA-Q119": {
+      "old": "3",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "chemistry-inorganic-chemistry.json"
+    },
+    "2018-AA-Q169": {
+      "old": "1",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "chemistry-inorganic-chemistry.json"
+    },
+    "2020-E1-Q110": {
+      "old": "2",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "chemistry-inorganic-chemistry.json"
+    },
+    "2018-AA-Q161": {
+      "old": "1",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "chemistry-inorganic-chemistry.json"
+    },
+    "2020-E1-Q158": {
+      "old": "2",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "chemistry-organic-chemistry.json"
+    },
+    "2021-M1-Q81": {
+      "old": "1",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "chemistry-organic-chemistry.json"
+    },
+    "2020-E1-Q7": {
+      "old": "3",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "chemistry-organic-chemistry.json"
+    },
+    "2020-E1-Q167": {
+      "old": "3",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "chemistry-organic-chemistry.json"
+    },
+    "2021-M1-Q65": {
+      "old": "1",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "chemistry-organic-chemistry.json"
+    },
+    "2018-AA-Q29": {
+      "old": "1",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "chemistry-physical-chemistry.json"
+    },
+    "2018-AA-Q177": {
+      "old": "1",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "chemistry-physical-chemistry.json"
+    },
+    "2018-AA-Q74": {
+      "old": "2",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "chemistry-physical-chemistry.json"
+    },
+    "2021-M1-Q59": {
+      "old": "3",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "chemistry-physical-chemistry.json"
+    },
+    "catch-c054c91aa9": {
+      "old": "3",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "chemistry-physical-chemistry.json"
+    },
+    "catch-bf046d8310": {
+      "old": "1",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "chemistry-physical-chemistry.json"
+    },
+    "2018-AA-Q146": {
+      "old": "2",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "chemistry-physical-chemistry.json"
+    },
+    "2020-E1-Q107": {
+      "old": "3",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "chemistry-physical-chemistry.json"
+    },
+    "2018-AA-Q6": {
+      "old": "2",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "physics-electromagnetism.json"
+    },
+    "2018-AA-Q121": {
+      "old": "1",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "physics-electromagnetism.json"
+    },
+    "2020-E1-Q176": {
+      "old": "4",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "physics-electromagnetism.json"
+    },
+    "2021-M1-Q13": {
+      "old": "1",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "physics-electromagnetism.json"
+    },
+    "2018-AA-Q35": {
+      "old": "3",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "physics-electromagnetism.json"
+    },
+    "2018-AA-Q122": {
+      "old": "2",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "physics-electromagnetism.json"
+    },
+    "2020-E1-Q92": {
+      "old": "4",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "physics-electromagnetism.json"
+    },
+    "2018-AA-Q26": {
+      "old": "2",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "physics-electromagnetism.json"
+    },
+    "2018-AA-Q36": {
+      "old": "4",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "physics-electromagnetism.json"
+    },
+    "2018-AA-Q123": {
+      "old": "3",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "physics-electromagnetism.json"
+    },
+    "2020-E1-Q172": {
+      "old": "4",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "physics-electromagnetism.json"
+    },
+    "2021-M1-Q46": {
+      "old": "2",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "physics-electromagnetism.json"
+    },
+    "2018-AA-Q20": {
+      "old": "4",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "physics-mechanics.json"
+    },
+    "2018-AA-Q129": {
+      "old": "1",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "physics-mechanics.json"
+    },
+    "2020-E1-Q45": {
+      "old": "1",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "physics-mechanics.json"
+    },
+    "2020-E1-Q143": {
+      "old": "3",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "physics-mechanics.json"
+    },
+    "2018-AA-Q130": {
+      "old": "2",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "physics-mechanics.json"
+    },
+    "2021-M1-Q15": {
+      "old": "3",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "physics-mechanics.json"
+    },
+    "2018-AA-Q100": {
+      "old": "4",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "physics-mechanics.json"
+    },
+    "2018-AA-Q178": {
+      "old": "2",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "physics-mechanics.json"
+    },
+    "2018-AA-Q12": {
+      "old": "4",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "physics-modern-physics.json"
+    },
+    "2018-AA-Q19": {
+      "old": "3",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "physics-optics.json"
+    },
+    "2021-M1-Q11": {
+      "old": "3",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "physics-optics.json"
+    },
+    "2018-AA-Q116": {
+      "old": "4",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "physics-optics.json"
+    },
+    "2020-E1-Q140": {
+      "old": "4",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "physics-optics.json"
+    },
+    "2021-M1-Q17": {
+      "old": "1",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "physics-optics.json"
+    },
+    "2018-AA-Q142": {
+      "old": "2",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "physics-optics.json"
+    },
+    "2021-M1-Q22": {
+      "old": "2",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "physics-optics.json"
+    },
+    "2018-AA-Q14": {
+      "old": "2",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "physics-physics-general.json"
+    },
+    "2018-AA-Q99": {
+      "old": "3",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "physics-physics-general.json"
+    },
+    "2018-AA-Q131": {
+      "old": "3",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "physics-physics-general.json"
+    },
+    "2020-E1-Q3": {
+      "old": "3",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "physics-physics-general.json"
+    },
+    "2020-E1-Q109": {
+      "old": "1",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "physics-physics-general.json"
+    },
+    "2020-E1-Q154": {
+      "old": "2",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "physics-physics-general.json"
+    },
+    "2021-M1-Q6": {
+      "old": "2",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "physics-physics-general.json"
+    },
+    "2018-AA-Q4": {
+      "old": "4",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "physics-physics-general.json"
+    },
+    "2018-AA-Q106": {
+      "old": "2",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "physics-physics-general.json"
+    },
+    "2018-AA-Q147": {
+      "old": "3",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "physics-physics-general.json"
+    },
+    "2020-E1-Q19": {
+      "old": "3",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "physics-physics-general.json"
+    },
+    "2020-E1-Q114": {
+      "old": "2",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "physics-physics-general.json"
+    },
+    "2021-M1-Q9": {
+      "old": "1",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "physics-physics-general.json"
+    },
+    "2021-M1-Q23": {
+      "old": "3",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "physics-physics-general.json"
+    },
+    "2021-M1-Q128": {
+      "old": "4",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "physics-physics-general.json"
+    },
+    "hf2018-0fcaa6de2b": {
+      "old": "4",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "physics-physics-general.json"
+    },
+    "2018-AA-Q11": {
+      "old": "3",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "physics-physics-general.json"
+    },
+    "2020-E1-Q2": {
+      "old": "2",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "physics-physics-general.json"
+    },
+    "2020-E1-Q118": {
+      "old": "2",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "physics-physics-general.json"
+    },
+    "2020-E1-Q133": {
+      "old": "1",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "physics-physics-general.json"
+    },
+    "2020-E1-Q152": {
+      "old": "4",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "physics-physics-general.json"
+    },
+    "2021-M1-Q26": {
+      "old": "2",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "physics-physics-general.json"
+    },
+    "2021-M1-Q41": {
+      "old": "1",
+      "new": "4",
+      "source": "agent-audit",
+      "bank": "physics-physics-general.json"
+    },
+    "2021-M1-Q92": {
+      "old": "4",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "physics-physics-general.json"
+    },
+    "2021-M1-Q135": {
+      "old": "3",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "physics-physics-general.json"
+    },
+    "2020-E1-Q104": {
+      "old": "4",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "physics-thermodynamics.json"
+    },
+    "2018-AA-Q5": {
+      "old": "1",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "physics-waves-oscillations.json"
+    },
+    "2020-E1-Q136": {
+      "old": "4",
+      "new": "1",
+      "source": "agent-audit",
+      "bank": "physics-waves-oscillations.json"
+    },
+    "2018-AA-Q28": {
+      "old": "4",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "physics-waves-oscillations.json"
+    },
+    "2020-E1-Q42": {
+      "old": "2",
+      "new": "3",
+      "source": "agent-audit",
+      "bank": "physics-waves-oscillations.json"
+    },
+    "2020-E1-Q159": {
+      "old": "3",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "physics-waves-oscillations.json"
+    },
+    "2020-E1-Q95": {
+      "old": "3",
+      "new": "2",
+      "source": "agent-audit",
+      "bank": "physics-waves-oscillations.json"
+    },
+    "2024-R1-Q135": {
+      "old": "4",
+      "new": "1",
+      "source": "multi-source-text",
+      "bank": "biology-biology-general.json"
+    },
+    "2024-R1-Q145": {
+      "old": "4",
+      "new": "1",
+      "source": "multi-source-text",
+      "bank": "biology-biology-general.json"
+    },
+    "hf2023-2af15596b5": {
+      "old": "1",
+      "new": "2",
+      "source": "multi-source-text",
+      "bank": "biology-biology-general.json"
+    },
+    "2023-F1-Q190": {
+      "old": "3",
+      "new": "4",
+      "source": "multi-source-text",
+      "bank": "biology-biology-general.json"
+    },
+    "2025-INTERIM-Q114": {
+      "old": "4",
+      "new": "1",
+      "source": "multi-source-text",
+      "bank": "biology-botany.json"
+    },
+    "2024-R1-Q113": {
+      "old": "3",
+      "new": "1",
+      "source": "multi-source-text",
+      "bank": "biology-botany.json"
+    },
+    "2024-R1-Q134": {
+      "old": "4",
+      "new": "1",
+      "source": "multi-source-text",
+      "bank": "biology-cell-biology.json"
+    },
+    "2023-F1-Q150": {
+      "old": "4",
+      "new": "2",
+      "source": "multi-source-text",
+      "bank": "biology-genetics-biotech.json"
+    },
+    "2025-INTERIM-Q125": {
+      "old": "4",
+      "new": "1",
+      "source": "multi-source-text",
+      "bank": "biology-genetics-biotech.json"
+    },
+    "2024-R1-Q130": {
+      "old": "4",
+      "new": "1",
+      "source": "multi-source-text",
+      "bank": "chemistry-inorganic-chemistry.json"
+    },
+    "2025-INTERIM-Q66": {
+      "old": "4",
+      "new": "1",
+      "source": "multi-source-text",
+      "bank": "chemistry-physical-chemistry.json"
+    },
+    "2024-R1-Q30": {
+      "old": "4",
+      "new": "1",
+      "source": "multi-source-text",
+      "bank": "physics-electromagnetism.json"
+    },
+    "2024-R1-Q25": {
+      "old": "4",
+      "new": "1",
+      "source": "multi-source-text",
+      "bank": "physics-electromagnetism.json"
+    },
+    "hf2023-e94487d216": {
+      "old": "4",
+      "new": "3",
+      "source": "multi-source-text",
+      "bank": "physics-mechanics.json"
+    },
+    "hf2023-4e59b4e29a": {
+      "old": "3",
+      "new": "4",
+      "source": "multi-source-text",
+      "bank": "physics-physics-general.json"
+    },
+    "2023-F1-Q13": {
+      "old": "1",
+      "new": "2",
+      "source": "multi-source-text",
+      "bank": "physics-physics-general.json"
+    },
+    "2023-F1-Q31": {
+      "old": "1",
+      "new": "3",
+      "source": "multi-source-text",
+      "bank": "physics-physics-general.json"
+    },
+    "2024-R1-Q7": {
+      "old": "4",
+      "new": "1",
+      "source": "multi-source-text",
+      "bank": "physics-physics-general.json"
+    },
+    "2024-R1-Q3": {
+      "old": "4",
+      "new": "1",
+      "source": "multi-source-text",
+      "bank": "physics-thermodynamics.json"
+    },
+    "2023-F1-Q28": {
+      "old": "1",
+      "new": "2",
+      "source": "multi-source-text",
+      "bank": "physics-thermodynamics.json"
+    },
+    "2023-F1-Q16": {
+      "old": "2",
+      "new": "1",
+      "source": "multi-source-text",
+      "bank": "physics-waves-oscillations.json"
+    }
+  }
+}

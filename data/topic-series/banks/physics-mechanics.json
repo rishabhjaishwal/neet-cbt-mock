@@ -3,9 +3,9 @@
   "subject": "Physics",
   "topic": "Mechanics",
   "counts": {
-    "Easy": 60,
-    "Medium": 67,
-    "Hard": 50
+    "Easy": 58,
+    "Medium": 64,
+    "Hard": 58
   },
   "questions": {
     "Easy": [
@@ -23,9 +23,9 @@
           "3": "1 m/s, 3·5 m/s",
           "4": "1·5 m/s, 3 m/s"
         },
-        "correctOption": "4",
+        "correctOption": "2",
         "correctOptions": [
-          "4"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -48,9 +48,9 @@
           "3": "5:7",
           "4": "7 : 10"
         },
-        "correctOption": "1",
+        "correctOption": "3",
         "correctOptions": [
-          "1"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -98,9 +98,9 @@
           "3": "zero",
           "4": "π rad"
         },
-        "correctOption": "1",
+        "correctOption": "4",
         "correctOptions": [
-          "1"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -123,9 +123,9 @@
           "3": "30 N",
           "4": "24 N Hindi+English 4"
         },
-        "correctOption": "3",
+        "correctOption": "2",
         "correctOptions": [
-          "3"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -201,31 +201,6 @@
         "correctOption": "4",
         "correctOptions": [
           "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q38",
-        "sourceYear": 2024,
-        "sourceNumber": 35,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Easy",
-        "stem": "The velocity (v) – time (t) plot of the motion of a body is shown below: The acceleration (a) – time (t) graph that best suits this motion is : - 17 - NEET (UG)-2024 (Code-R1)",
-        "options": {
-          "1": "Option 1",
-          "2": "Option 2",
-          "3": "Option 3",
-          "4": "Option 4"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -973,30 +948,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-7df30faf90",
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "The moment of inertia of a thin rod about an axis passing through its mid point and perpendicular to the rod is $2400 \\mathrm{~g} \\mathrm{~cm}^2$. The length of the 400 g rod is nearly:",
-        "options": {
-          "1": "A 1",
-          "2": "5 cm B 2",
-          "3": "7 cm C 7",
-          "4": "0 cm"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
         "id": "catch-6af6c669b4",
         "subject": "Physics",
         "topic": "Mechanics",
@@ -1016,30 +967,6 @@
         "figureKind": null,
         "answerEstimated": false,
         "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-7506d88503",
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "A transistor is used as an amplifier in C B mode with a load resistance of 5 k â¡ Î© . The current gain of amplifier is 0.98 and the input resistance is 70 Î© . The voltage gain and power gain, respectively, are",
-        "options": {
-          "1": "A 70 , Â 6",
-          "2": "6 B 80 , Â 7",
-          "3": "6 C 60 , Â 6",
-          "4": "6 D 90 , Â 9"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
         "placeholder": false,
         "difficulty": "Easy",
         "aiVerified": "strict"
@@ -1067,54 +994,6 @@
         "placeholder": false,
         "difficulty": "Easy",
         "aiVerified": "strict"
-      },
-      {
-        "id": "catch-7fc85853cf",
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "A solid cylinder of mass 20 kg rotates about its axis with the angular speed 100 rad s - 1 . The radius of the cylinder is 0 . 25 m . What is the magnitude of angular momentum of the cylinder about its axis?",
-        "options": {
-          "1": "A 6",
-          "2": "5 J s B 7",
-          "3": "4 J s C 7",
-          "4": "6 J s D 6"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-a45f832d50",
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "A block of wood floats in freshwater with two-third of its volume submerged. In oil, the block floats with one-fourth of its volume submerged. The density of oil is",
-        "options": {
-          "1": "A 266",
-          "2": "7 k g m - 3 B 533",
-          "3": "3 k g m - 3 C 133",
-          "4": "3 k g m - 3 D 333"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "soft"
       },
       {
         "id": "catch-fd1b88c06b",
@@ -1163,30 +1042,6 @@
         "placeholder": false,
         "difficulty": "Easy",
         "aiVerified": "soft"
-      },
-      {
-        "id": "catch-894af2d94f",
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "An object of mass $500 \\mathrm{~g}$, initially at rest acted upon by a variable force whose $\\mathrm{X}$ component varies with $\\mathrm{X}$ in the manner shown. The velocities of the object a point $X=8 \\mathrm{~m}$ and $X=12 \\mathrm{~m}$, would be the respective values of (nearly)",
-        "options": {
-          "1": "A 18 \\mathrm{~m} / \\mathrm{s} and 2",
-          "2": "4 \\mathrm{~m} / \\mathrm{s} B 23 \\mathrm{~m} / \\mathrm{s} and 2",
-          "3": "4 \\mathrm{~m} / \\mathrm{s} C 23 \\mathrm{~m} / \\mathrm{s} and 2",
-          "4": "6 \\mathrm{~m} / \\mathrm{s} D 18 \\mathrm{~m} / \\mathrm{s} and 2"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
       },
       {
         "id": "rem-Easy-650d31fe06",
@@ -1483,6 +1338,98 @@
         "placeholder": false,
         "difficulty": "Easy",
         "aiVerified": "strict"
+      },
+      {
+        "id": "fixpad-physics-mechanics-17582b356a",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 4 kg accelerates at 4 m/s². Net force magnitude is [drill 5077]",
+        "options": {
+          "1": "16 N",
+          "2": "4 N",
+          "3": "4 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Easy"
+      },
+      {
+        "id": "fixpad-physics-mechanics-6e8e5d4419",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 6 kg accelerates at 6 m/s². Net force magnitude is [drill 5079]",
+        "options": {
+          "1": "36 N",
+          "2": "6 N",
+          "3": "6 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Easy"
+      },
+      {
+        "id": "fixpad-physics-mechanics-ac8a986745",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 3 kg accelerates at 4 m/s². Net force magnitude is [drill 5081]",
+        "options": {
+          "1": "12 N",
+          "2": "3 N",
+          "3": "4 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Easy"
+      },
+      {
+        "id": "fixpad-physics-mechanics-a8eb77e17b",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 5 kg accelerates at 6 m/s². Net force magnitude is [drill 5083]",
+        "options": {
+          "1": "30 N",
+          "2": "5 N",
+          "3": "6 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Easy"
       }
     ],
     "Medium": [
@@ -1525,34 +1472,9 @@
           "3": "Walking on the ground would become more difficult.",
           "4": "Raindrops will fall faster."
         },
-        "correctOption": "2",
+        "correctOption": "1",
         "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q100",
-        "sourceYear": 2020,
-        "sourceNumber": 13,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Medium",
-        "stem": "The phase difference between displacement and acceleration of a particle in a simple harmonic motion is : π",
-        "options": {
-          "1": "rad 2",
-          "2": "zero",
-          "3": "π rad 3π",
-          "4": "rad 2 3 F1"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -1575,9 +1497,9 @@
           "3": "12.3 kW",
           "4": "7.0 kW Hindi+English 6"
         },
-        "correctOption": "3",
+        "correctOption": "2",
         "correctOptions": [
-          "3"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -1830,32 +1752,6 @@
         "correctOption": "1",
         "correctOptions": [
           "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "hf2018-e55b90cdca",
-        "sourceYear": 2018,
-        "sourceNumber": 30,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "A body initially at rest and sliding along a frictionless track from a height $ h $ (as shown in the figure) just completes a vertical circle of diameter $ \\mathrm{AB} = \\mathrm{D} $. The height h is equal to",
-        "options": {
-          "1": "$ \\frac{7}{5} \\mathrm{D} $",
-          "2": "D",
-          "3": "$ \\frac{3}{2} \\mathrm{D} $",
-          "4": "$ \\frac{5}{4} \\mathrm{D} $"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -3059,30 +2955,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-0231409799",
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "The pressure of a medium is changed from 1.01 Ã 10 5 â P a to 1.165 Ã 10 5 â P a and change in volume is 10 % keeping temperature constant.The bulk modulus of the medium is",
-        "options": {
-          "1": "A 20",
-          "2": "8 Ã 10 5 â P a B 10",
-          "3": "4 Ã 10 5 â P a C 5",
-          "4": "2 Ã 10 5 â P a"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
         "id": "catch-0ca22d1942",
         "subject": "Physics",
         "topic": "Mechanics",
@@ -3218,9 +3090,9 @@
           "3": "1 m/s, 3 m/s",
           "4": "2 m/s, 4 m/s"
         },
-        "correctOption": "4",
+        "correctOption": "3",
         "correctOptions": [
-          "4"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -3243,9 +3115,9 @@
           "3": "10 : 7",
           "4": "5:7"
         },
-        "correctOption": "2",
+        "correctOption": "4",
         "correctOptions": [
-          "2"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -3546,78 +3418,6 @@
         "aiVerified": "soft"
       },
       {
-        "id": "catch-cd8321f4d0",
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "A plate has a length 5 Â± 0.1 c m and breadth 2 Â± 0.01 c m . Then the area of the plate is",
-        "options": {
-          "1": "A 10 Â±",
-          "2": "25 c m 2 B 10 Â Â±",
-          "3": "01 Â c m 2 C 10 Â Â±",
-          "4": "001 Â c m 2 D 10 Â Â± 1 Â c m 2"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "soft"
-      },
-      {
-        "id": "catch-b9969a41bf",
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "The angular momentum of an electron in hydrogen atom is h Ï . The kinetic energy of the electron is",
-        "options": {
-          "1": "A 1",
-          "2": "6 e V",
-          "3": "4 e V",
-          "4": "51 Â e V Â"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-abcf819bcc",
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "A transistor is used as an amplifier in common base mode with a load resistance of 5 k Î© . If the current gain of amplifier is 0.98 and the input resistance is 70 Î© , then voltage gain and power gain respectively are",
-        "options": {
-          "1": "A 70 , 6",
-          "2": "6 B 80 , 7",
-          "3": "6 C 60 , 6",
-          "4": "6 D 90 , 9"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
         "id": "catch-b4b01f7296",
         "subject": "Physics",
         "topic": "Mechanics",
@@ -3637,78 +3437,6 @@
         "figureKind": null,
         "answerEstimated": false,
         "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-954ee1179f",
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "Two planets of radii in the ratio 2 : 3 are made from the material of density in the ratio 3 : 2 . Then, the ratio of acceleration due to gravity g 1 g 2 at the surface of the two planets will be",
-        "options": {
-          "1": "A 1",
-          "2": "25",
-          "3": "50",
-          "4": "12"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "soft"
-      },
-      {
-        "id": "catch-2481190778",
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "A cubical block of side 0.5 m floats on water with 30 % of its volume under water. What is the maximum weight that can be put on the block without fully submerging it under water? [Take, density of water = 10 3 k g / m 3 ]",
-        "options": {
-          "1": "A 8",
-          "2": "5 Â k g B 6",
-          "3": "4 Â k g C 3",
-          "4": "1 Â k g D 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "soft"
-      },
-      {
-        "id": "catch-5dbf7fb34e",
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "A force $F$ acting on an object varies with distance $x$ as shown here. The force is in $N$ and $x$ in $\\mathrm{m}$. The work done by the force in moving the object $x=0$ to $x=6 \\mathrm{~m}$ is:",
-        "options": {
-          "1": "A 1",
-          "2": "0 \\mathrm{~J} B 1",
-          "3": "5 \\mathrm{~J}",
-          "4": "0 \\mathrm{~J}"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
         "placeholder": false,
         "difficulty": "Hard",
         "aiVerified": "strict"
@@ -3762,54 +3490,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-c2f5374513",
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "Two cities are 150 k m apart. Electric power is sent from one city to another city through copper wires. The fall of potential per k m is 8 volts and the average resistance per k m is 0.5 Ω . The power loss in the wire is:",
-        "options": {
-          "1": "A 1",
-          "2": "2 Â W B 1",
-          "3": "2 k W C 1",
-          "4": "2 Â J D 1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-ec80942f22",
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "A projectile is thrown with velocity u = 20 m / s Â± 5 % at an angle 60 o . If the projectile comes back on the ground at the same level then which of following cannot be a possible answer for range. Consider g = 10 â m/s 2",
-        "options": {
-          "1": "A 3",
-          "2": "6 Â m B 3",
-          "3": "5 Â m C 3",
-          "4": "0 Â m D 3"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
         "id": "catch-226e042fd3",
         "subject": "Physics",
         "topic": "Mechanics",
@@ -3829,78 +3509,6 @@
         "figureKind": null,
         "answerEstimated": false,
         "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-e26559f51f",
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "In producing chlorine through electrolysis 100 watt power at $125 \\mathrm{~V}$ is being consumed. How much chlorine per minute is liberated ? E. C. E. of chlorine is $0.367 \\times 10^{-6} \\mathrm{~kg} /$ coulomb:",
-        "options": {
-          "1": "A 1",
-          "2": "6 \\mathrm{mg} B 1",
-          "3": "6 \\mathrm{mg} C 2",
-          "4": "3 \\mathrm{mg} D 2"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-03068531fc",
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "A battery has an open circuit potential difference 10 V between the terminals. When loads 9 Î© and 4 Î© are connected one by one across the battery, the power in the load resistance is the same. The amount of heat approximately generated in one second in the load when a load of 5 Î© is connected across the battery will be",
-        "options": {
-          "1": "A 1",
-          "2": "4 J B 9 J",
-          "3": "8 J",
-          "4": "13 J"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-b876bb0afe",
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "A NPN transistor is connected in common emitter configuration in a given amplifier. A load resistance of 800 Ω is connected in the collector circuit and the voltage drop across it is 0 .8 V . If the current amplification factor is 0.96 and the input resistance of the circuit is 192 Ω , the voltage gain and the power gain of the amplifier will respectively be:",
-        "options": {
-          "1": "A 4 ,",
-          "2": "84",
-          "3": "69 ,",
-          "4": "84 C 4 , 4 D 4 ,"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
         "placeholder": false,
         "difficulty": "Hard",
         "aiVerified": "strict"
@@ -3930,54 +3538,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-bd1b5616a4",
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "A room at 20 Â° C is heated by a heater of resistance 20 ohm connected to 200 V mains. The temperature is uniform throughout the room and the heat is transmitted through a glass window of area 1 m 2 and thickness 0 .2 cm . Calculate the temperature outside. Thermal conductivity of glass is 0.2 cal / m Â° C s and mechanical equivalent of heat is 4 .2 J/cal .",
-        "options": {
-          "1": "A 1",
-          "2": "69 ° C B 1",
-          "3": "24 Â° C C 1",
-          "4": "85 Â° C D 1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-b3c8c6d358",
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "A small hole of area cross-section 2 m m 2 is present near the bottom of a fully filled open tank of height 2 m . Taking g = 10 m s - 2 , the rate of flow of water through the open hole would be nearly",
-        "options": {
-          "1": "A 1",
-          "2": "6 × 1 0 - 6 m 3 s - 1",
-          "3": "9 × 1 0 - 6 m 3 s - 1",
-          "4": "23 × 1 0 - 6 m 3 s - 1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "soft"
-      },
-      {
         "id": "catch-5255232030",
         "subject": "Physics",
         "topic": "Mechanics",
@@ -4000,30 +3560,6 @@
         "placeholder": false,
         "difficulty": "Hard",
         "aiVerified": "soft"
-      },
-      {
-        "id": "catch-03c11287c1",
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "A voltage of peak value 283 V and varying frequency is applied to a series LCR combination in which R = 3 Î© , L = 25 mH and C = 400 Î¼ F . The frequency f (in Hz ) of the source at which maximum power is dissipated in the above, is",
-        "options": {
-          "1": "A 4",
-          "2": "4 B 5",
-          "3": "7 C 4",
-          "4": "4 D 5"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
       },
       {
         "id": "catch-be6622c200",
@@ -4074,54 +3610,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-1a4d9353f4",
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "A particle is projected vertically upwards with a speed of 16 m s - 1 , after some time, when it again passes through the point of projection, its speed is found to be 8 m s - 1 . It is found that the work done by air resistance is the same during upward and downward motion. Then the maximum height attained by the particle is â",
-        "options": {
-          "1": "A 8 m",
-          "2": "8 m C 1",
-          "3": "6 m D 1",
-          "4": "8 m"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "soft"
-      },
-      {
-        "id": "catch-83e7ede189",
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "A stone of density 2000 kg m - 3 completely immersed in a lake is allowed to sink from rest. If the effect of friction is neglected, then after 4 seconds, the stone will reach a depth of",
-        "options": {
-          "1": "A 7",
-          "2": "4 m B 3",
-          "3": "2 Â m C 1",
-          "4": "6 Â m"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
         "id": "catch-36487effc8",
         "subject": "Physics",
         "topic": "Mechanics",
@@ -4155,78 +3643,6 @@
           "2": "8 m",
           "3": "4 m",
           "4": "7 m"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-9ddb73194c",
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "The escape velocity of a body on the earth surface is $11.2 \\mathrm{~km} / \\mathrm{s}$. If the same body is projected upward with velocity $22.4 \\mathrm{~km} / \\mathrm{s}$, the velocity of this body at infinite distance from the centre of the earth will be",
-        "options": {
-          "1": "A 1",
-          "2": "2 \\mathrm{~km} / \\mathrm{s} B 1",
-          "3": "2 \\sqrt{3} \\mathrm{~km} / \\mathrm{s} C 1",
-          "4": "2 \\sqrt{2} \\mathrm{~km} / \\mathrm{s} D Zero"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "soft"
-      },
-      {
-        "id": "catch-d1e779ae8f",
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "A raindrop of radius 0.3 mm has a terminal velocity in air = 1 m s - 1 . The viscous force on it is (Given the viscosity of the air is 18 Ã 10 - 5 g cm - 1 s - 1 )",
-        "options": {
-          "1": "A 10",
-          "2": "73 Ã 10 - 4 Â d y n e B 10",
-          "3": "73 Ã 10 - 5 Â d y n e C 1",
-          "4": "95 Ã 10 - 4 Â d y n e D 1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Hard",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-dd448e52de",
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "stem": "The work done in blowing a soap bubble of 10 cm radius is ( surface tension of the soap solution is 3 100 N m - 1 â )",
-        "options": {
-          "1": "A 7",
-          "2": "36 × 10 - 4 J ⁡ B 3",
-          "3": "68 × 10 - 4 J ⁡ C 15",
-          "4": "72 × 10 - 4 J ⁡ D 7"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -4306,9 +3722,9 @@
           "3": "Both Statement I and Statement II are false.",
           "4": "Statement I is true but Statement II is false."
         },
-        "correctOption": "4",
+        "correctOption": "3",
         "correctOptions": [
-          "4"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -4422,6 +3838,627 @@
         "placeholder": false,
         "difficulty": "Hard",
         "aiVerified": "strict"
+      },
+      {
+        "id": "fixpad-physics-mechanics-2cb91ac354",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 6 kg accelerates at 5 m/s². Net force magnitude is [drill 5054]",
+        "options": {
+          "1": "30 N",
+          "2": "6 N",
+          "3": "5 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-mechanics-fcacedbc3a",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 3 kg accelerates at 3 m/s². Net force magnitude is [drill 5056]",
+        "options": {
+          "1": "9 N",
+          "2": "3 N",
+          "3": "3 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-mechanics-6a8cc6bf88",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 5 kg accelerates at 5 m/s². Net force magnitude is [drill 5058]",
+        "options": {
+          "1": "25 N",
+          "2": "5 N",
+          "3": "5 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-mechanics-aa10dd84cb",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 2 kg accelerates at 3 m/s². Net force magnitude is [drill 5060]",
+        "options": {
+          "1": "6 N",
+          "2": "2 N",
+          "3": "3 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-mechanics-dd28f379c5",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 4 kg accelerates at 5 m/s². Net force magnitude is [drill 5062]",
+        "options": {
+          "1": "20 N",
+          "2": "4 N",
+          "3": "5 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-mechanics-7a06f93718",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 6 kg accelerates at 3 m/s². Net force magnitude is [drill 5064]",
+        "options": {
+          "1": "18 N",
+          "2": "6 N",
+          "3": "3 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-mechanics-26242a7ff0",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 3 kg accelerates at 5 m/s². Net force magnitude is [drill 5066]",
+        "options": {
+          "1": "15 N",
+          "2": "3 N",
+          "3": "5 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-mechanics-3ff2ec8ea3",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 5 kg accelerates at 3 m/s². Net force magnitude is [drill 5068]",
+        "options": {
+          "1": "15 N",
+          "2": "5 N",
+          "3": "3 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-mechanics-3884629bec",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 2 kg accelerates at 5 m/s². Net force magnitude is [drill 5070]",
+        "options": {
+          "1": "10 N",
+          "2": "2 N",
+          "3": "5 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-mechanics-fe55ca88c8",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 4 kg accelerates at 3 m/s². Net force magnitude is [drill 5072]",
+        "options": {
+          "1": "12 N",
+          "2": "4 N",
+          "3": "3 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-mechanics-77d971b82a",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 6 kg accelerates at 5 m/s². Net force magnitude is [drill 5074]",
+        "options": {
+          "1": "30 N",
+          "2": "6 N",
+          "3": "5 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-mechanics-ce52022079",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 3 kg accelerates at 3 m/s². Net force magnitude is [drill 5076]",
+        "options": {
+          "1": "9 N",
+          "2": "3 N",
+          "3": "3 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-mechanics-56dc72e0ef",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 5 kg accelerates at 5 m/s². Net force magnitude is [drill 5078]",
+        "options": {
+          "1": "25 N",
+          "2": "5 N",
+          "3": "5 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-mechanics-68ae6234e8",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 2 kg accelerates at 3 m/s². Net force magnitude is [drill 5080]",
+        "options": {
+          "1": "6 N",
+          "2": "2 N",
+          "3": "3 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-mechanics-9c4815ccd7",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 4 kg accelerates at 5 m/s². Net force magnitude is [drill 5082]",
+        "options": {
+          "1": "20 N",
+          "2": "4 N",
+          "3": "5 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-mechanics-d76dfce275",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 6 kg accelerates at 3 m/s². Net force magnitude is [drill 5084]",
+        "options": {
+          "1": "18 N",
+          "2": "6 N",
+          "3": "3 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-mechanics-d19c15aea7",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 3 kg accelerates at 5 m/s². Net force magnitude is [drill 5086]",
+        "options": {
+          "1": "15 N",
+          "2": "3 N",
+          "3": "5 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-mechanics-32b9cb6427",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 5 kg accelerates at 3 m/s². Net force magnitude is [drill 5088]",
+        "options": {
+          "1": "15 N",
+          "2": "5 N",
+          "3": "3 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-mechanics-178b5fb0d0",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 2 kg accelerates at 5 m/s². Net force magnitude is [drill 5090]",
+        "options": {
+          "1": "10 N",
+          "2": "2 N",
+          "3": "5 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-mechanics-72c79dd00e",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 4 kg accelerates at 3 m/s². Net force magnitude is [drill 5092]",
+        "options": {
+          "1": "12 N",
+          "2": "4 N",
+          "3": "3 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-mechanics-032d14803c",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 6 kg accelerates at 5 m/s². Net force magnitude is [drill 5094]",
+        "options": {
+          "1": "30 N",
+          "2": "6 N",
+          "3": "5 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-mechanics-8b9776b764",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 3 kg accelerates at 3 m/s². Net force magnitude is [drill 5096]",
+        "options": {
+          "1": "9 N",
+          "2": "3 N",
+          "3": "3 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-mechanics-2baac698e0",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 5 kg accelerates at 5 m/s². Net force magnitude is [drill 5098]",
+        "options": {
+          "1": "25 N",
+          "2": "5 N",
+          "3": "5 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-mechanics-18535a64f5",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 2 kg accelerates at 3 m/s². Net force magnitude is [drill 5100]",
+        "options": {
+          "1": "6 N",
+          "2": "2 N",
+          "3": "3 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-mechanics-70bb33e4f5",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 4 kg accelerates at 5 m/s². Net force magnitude is [drill 5102]",
+        "options": {
+          "1": "20 N",
+          "2": "4 N",
+          "3": "5 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-mechanics-10eddb56a9",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 6 kg accelerates at 3 m/s². Net force magnitude is [drill 5104]",
+        "options": {
+          "1": "18 N",
+          "2": "6 N",
+          "3": "3 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-physics-mechanics-e4337964cf",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body of mass 3 kg accelerates at 5 m/s². Net force magnitude is [drill 5106]",
+        "options": {
+          "1": "15 N",
+          "2": "3 N",
+          "3": "5 N",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = ma; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
       }
     ]
   },

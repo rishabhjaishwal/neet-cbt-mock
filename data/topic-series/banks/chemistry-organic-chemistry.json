@@ -3,37 +3,12 @@
   "subject": "Chemistry",
   "topic": "Organic Chemistry",
   "counts": {
-    "Easy": 50,
-    "Medium": 50,
-    "Hard": 50
+    "Easy": 58,
+    "Medium": 58,
+    "Hard": 58
   },
   "questions": {
     "Easy": [
-      {
-        "id": "2019-G1-Q91",
-        "sourceYear": 2019,
-        "sourceNumber": 46,
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "difficulty": "Easy",
-        "stem": "The reaction that does not give benzoic acid as the major product is - CH2OH COCH3 K 2 Cr2 O7 (i)NaOCl",
-        "options": {
-          "1": "⎯⎯⎯⎯ →",
-          "2": "⎯⎯⎯⎯ (ii)H O+ → 3 CH2OH CH2OH + PCC KMnO4 / H",
-          "3": "⎯⎯⎯⎯⎯⎯ ⎡Pyridinium ⎤ →",
-          "4": "⎯⎯⎯⎯⎯ → ⎣⎢Chlorochromate ⎦⎥"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
       {
         "id": "2019-G1-Q103",
         "sourceYear": 2019,
@@ -73,9 +48,9 @@
           "3": "(c) and (d) only",
           "4": "(a), (b) and (c) only"
         },
-        "correctOption": "2",
+        "correctOption": "3",
         "correctOptions": [
-          "2"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -123,64 +98,14 @@
           "3": "7.75",
           "4": "6.25"
         },
-        "correctOption": "1",
+        "correctOption": "3",
         "correctOptions": [
-          "1"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q93",
-        "sourceYear": 2021,
-        "sourceNumber": 93,
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "difficulty": "Easy",
-        "stem": "The correct option for the value of vapour pressure of a solution at 458C with benzene to octane in molar ratio 3 : 2 is : [At 458C vapour pressure of benzene is 280 mm Hg and that of octane is 420 mm Hg. Assume Ideal gas]",
-        "options": {
-          "1": "160 mm of Hg",
-          "2": "168 mm of Hg",
-          "3": "336 mm of Hg",
-          "4": "350 mm of Hg Hindi+English 6"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q102",
-        "sourceYear": 2022,
-        "sourceNumber": 52,
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "difficulty": "Easy",
-        "stem": "The amine that reacts with Hinsberg's reagent to give an alkali insoluble product is - CH3–CH–NH–CH–CH3 CH2CH3",
-        "options": {
-          "1": "Option 1",
-          "2": "CH3 CH3 CH3–CH2–N–CH2CH3 NH2 CH3",
-          "3": "CH3–C–CH2CH2CH3",
-          "4": "CH3–C—CH–NH2 CH3 CH3 CH3"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
       },
@@ -197,31 +122,6 @@
           "2": "[Fe(CN)5NOS]4",
           "3": "[Fe(SCN)]2+",
           "4": "Fe4[Fe(CN)6]3⋅xH2O"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q61",
-        "sourceYear": 2024,
-        "sourceNumber": 59,
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "difficulty": "Easy",
-        "stem": "Which one of the following alcohols reacts instantaneously with Lucas reagent?",
-        "options": {
-          "1": "Option 1",
-          "2": "Option 2",
-          "3": "Option 3",
-          "4": "CH3 – CH2 – CH2 – CH2OH"
         },
         "correctOption": "3",
         "correctOptions": [
@@ -1250,6 +1150,282 @@
         "placeholder": false,
         "difficulty": "Easy",
         "aiVerified": "strict"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-f3e24bce45",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5079)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Easy"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-9bec6c48d1",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5081)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Easy"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-566c656670",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5083)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Easy"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-2c63db4172",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5085)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Easy"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-a3159d7767",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5087)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Easy"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-bb1e079884",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5089)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Easy"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-a8d0a51a9e",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5091)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Easy"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-52e88424f2",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5093)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Easy"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-e4252907be",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5095)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Easy"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-dda1aa0e03",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5097)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Easy"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-e4a7853743",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5099)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Easy"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-6214846721",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5101)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Easy"
       }
     ],
     "Medium": [
@@ -1267,9 +1443,9 @@
           "3": "0.80 K",
           "4": "0.40 K"
         },
-        "correctOption": "3",
+        "correctOption": "4",
         "correctOptions": [
-          "3"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -1292,9 +1468,9 @@
           "3": "(a), (b) and (c) only",
           "4": "(a) and (c) only"
         },
-        "correctOption": "3",
+        "correctOption": "2",
         "correctOptions": [
-          "3"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -1585,54 +1761,6 @@
         "aiVerified": "strict"
       },
       {
-        "id": "catch-3d7f2a3cc0",
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "stem": "Read the following statements and choose the set of correct statements: (A) Chrome steel is used for cutting tools and crushing machines. (B) The fine dust of aluminium is used in paints and lacquers. (C) Copper is used for reduction of alcohol. (D) Zinc dust is used as a reducing agent in the manufacture of paints. (E) Iron is used for galvanising zinc. Choose the most appropriate answer from the options given below:",
-        "options": {
-          "1": "A (",
-          "2": ",(",
-          "3": "and (",
-          "4": "only B ("
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-dd66161a31",
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "stem": "What is the name of the compound?",
-        "options": {
-          "1": "A Spiro [",
-          "2": "4] octane B Spiro [",
-          "3": "5] octane C Spiro [",
-          "4": "5] octane D None of these"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
         "id": "catch-f552bde9e3",
         "subject": "Chemistry",
         "topic": "Organic Chemistry",
@@ -1655,126 +1783,6 @@
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "soft"
-      },
-      {
-        "id": "catch-255aa7173a",
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "stem": "Suppose that the a system consisting of two charges 7 mC and â2 mC (and with no external field) placed at (â9 cm, 0, 0) and (9 cm, 0, 0) respectively is now placed in an external electric field E = A (1/${{r}^{2}}$ ); A = 9 Ã ${{10}^{5}}$ N${{C}^{-1}}{{m}^{2}}$. What would the electrostatic energy of the configuration be",
-        "options": {
-          "1": "A 4",
-          "2": "2J B 3",
-          "3": "1J C 4",
-          "4": "3J D 5"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-85c8e47bc8",
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "stem": "What is the phase difference between the voltage across the source and the current in a series LCR circuit with a sinusoidal voltage of peak value 283 V and frequency 50 Hz, where R = 3 W, L = 25.48 mH, and C = 796 mF?",
-        "options": {
-          "1": "A -5",
-          "2": "1Â° B 5",
-          "3": "1Â° C 3",
-          "4": "9Â° D -3"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
-        "id": "catch-106e9b9d3a",
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "stem": "The mass percentage of nitrogen in Histamine is?",
-        "options": {
-          "1": "A 1",
-          "2": "92 B 5",
-          "3": "2 C 3",
-          "4": "84 D 3"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-7d174adf62",
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "stem": "What is the root mean square (rms) value of the current in a circuit when a 44 mH inductor is connected to a 220 V, 50 Hz AC supply?",
-        "options": {
-          "1": "A 1",
-          "2": "9 A B 1",
-          "3": "4 A",
-          "4": "7 A D 2"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
-        "id": "catch-3698686dd8",
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "stem": "0.2 g of an organic compound contains C, H and O. On combustion, it yields 0.15 g C O 2 and 0.12 g H 2 O . The percentage of C, H and O respectively is",
-        "options": {
-          "1": "A C = 15%, H = 20%, O = 65% B C = 10%, H =",
-          "2": "2%, O = 8",
-          "3": "8% C C = 1",
-          "4": "2%, H ="
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
       },
       {
         "id": "catch-757ffcbb0a",
@@ -1825,270 +1833,6 @@
         "aiVerified": "soft"
       },
       {
-        "id": "catch-8951788646",
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "stem": "Which of the following is the correct expression and value for the heat current (in watts) through the compound bar formed by soldering an iron bar (L1 = 0.1 m, A1 = 0.02 ${{m}^{2}}$, K1 = 79 W mâ»Â¹ Kâ»Â¹) and a brass bar (L2 = 0.1 m, A2 = 0.02${{m}^{2}}$, K2 = 109 W mâ»Â¹ Kâ»Â¹) together, with the free ends of the iron bar and brass bar maintained at 373 K and 273 K, respectively?",
-        "options": {
-          "1": "A 54",
-          "2": "0 W B 67",
-          "3": "5 W C 78",
-          "4": "3 W D 91"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-72ad591617",
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "stem": "What is the terminal voltage of the battery during charging when a 120 V dc supply is used to charge a storage battery with an EMF of 8.0 V and an internal resistance of 0.5 Î©, connected in series with a resistor of 15.5 Î©?",
-        "options": {
-          "1": "A 1",
-          "2": "0 V",
-          "3": "5 V",
-          "4": "5 V D 1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-395df03044",
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "stem": "In Duma's method for estimation of nitrogen, 0.25 g of an organic compound gave 40 mL of nitrogen collected at 300 K temperature and 725 mm pressure. If the aqueous tension at 300 K is 25 mm, the percentage of nitrogen in the compound is:",
-        "options": {
-          "1": "A 1",
-          "2": "36 B 1",
-          "3": "20 C 1",
-          "4": "76 D 1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-168be08f43",
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "stem": "What is the root mean square (rms) voltage across the capacitor in a series circuit consisting of a 200 W resistor, a 15.0 mF capacitor, and a 220 V, 50 Hz AC source?",
-        "options": {
-          "1": "A 16",
-          "2": "3 V B 11",
-          "3": "0 V C 13",
-          "4": "7 V D 18"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
-        "id": "catch-fafa2e06dc",
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "stem": "What is the capacitive reactance in a circuit where a 15.0 mF capacitor is connected to a 220 V, 50 Hz source?",
-        "options": {
-          "1": "A 212 ohms B 4",
-          "2": "78 ohms C 2",
-          "3": "24 ohms D 1",
-          "4": "09 ohms"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
-        "id": "catch-46bc63270b",
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "stem": "0.3780 g of an organic chloro compound gave 0.5740 g of silver chloride in Carius estimation. Calculate the percentage of chlorine present in the compound.",
-        "options": {
-          "1": "A % of chlorine = 1",
-          "2": "76 B % of chlorine = 3",
-          "3": "57 C % of chlorine = 6",
-          "4": "25 D % of chlorine = 7"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-a07b02ce5a",
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "stem": "0.365 g of an organic compound containing nitrogen gave 56 ml of nitrogen at S.T.P. The percentage nitrogen in the given compound is",
-        "options": {
-          "1": "A 1",
-          "2": "18 B 3",
-          "3": "36",
-          "4": "18 D 2"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-afd82f0fd9",
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "stem": "What is the electrostatic potential energy of a system with two charges, 7 mC and -2 mC, located at (-9 cm, 0, 0) and (9 cm, 0, 0), respectively, in the absence of an external field?",
-        "options": {
-          "1": "A -",
-          "2": "26 J",
-          "3": "26 J C -",
-          "4": "7 J"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-a707709916",
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "stem": "What is the average rate of extra evaporation, in calories per minute, caused by the antipyrin drug in a 30 kg child running a temperature of 101Â°F, which is brought down to 98Â°F in 20 minutes, assuming the only heat loss mechanism is through evaporation? (The specific heat of human body is approximately the same as that of water, and latent heat of evaporation of water at that temperature is about 580 cal ${{g}^{-1}}$ .)",
-        "options": {
-          "1": "A 2",
-          "2": "00 g/min",
-          "3": "3 g/min",
-          "4": "25 g/min"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-7f2c0c47f2",
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "stem": "What volume of 75% alcohol by mass ( d = 0.8 g / c m 3 ) must be used to prepare 150 cc of 30% alcohol by mass ( d = 0.9 g / c m 3 ) ?",
-        "options": {
-          "1": "A 4",
-          "2": "44 mL B 5",
-          "3": "25 mL C 6",
-          "4": "5 mL D 3"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-88b55001aa",
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "stem": "In Duma's method of estimation of nitrogen $0.35 \\mathrm{~g}$ of an organic compound gave $55 \\mathrm{~mL}$ of nitrogen collected at $300 \\mathrm{~K}$ temperature and $715 \\mathrm{~mm}$ pressure. The percentage composition of nitrogen in the compound would be (Aqueous tension at $300 \\mathrm{~K}=15 \\mathrm{~mm}$ )",
-        "options": {
-          "1": "A 1",
-          "2": "45 B 1",
-          "3": "45 C 1",
-          "4": "45 D 1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
         "id": "catch-673babcaab",
         "subject": "Chemistry",
         "topic": "Organic Chemistry",
@@ -2108,30 +1852,6 @@
         "figureKind": null,
         "answerEstimated": false,
         "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-02bf234a92",
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "stem": "In Dumasâ method for estimation of nitrogen, 0.3 g of an organic compound gave 50 mL of nitrogen collected at 300 K temperature and 715 mm pressure. Calculate the percentage composition of nitrogen in the compound. (Aqueous tension at 300 K=15 mm)",
-        "options": {
-          "1": "A Percentage of nitrogen= 4",
-          "2": "22% B Percentage of nitrogen= 1",
-          "3": "46% C Percentage of nitrogen= 2",
-          "4": "45% D Percentage of nitrogen= 3"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"
@@ -2471,22 +2191,17 @@
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"
-      }
-    ],
-    "Hard": [
+      },
       {
-        "id": "2020-E1-Q93",
-        "sourceYear": 2020,
-        "sourceNumber": 47,
+        "id": "fixpad-chemistry-organic-chemistry-73267fe4e8",
         "subject": "Chemistry",
         "topic": "Organic Chemistry",
-        "difficulty": "Hard",
-        "stem": "Identify the correct statements from the following : (a) CO2(g) is used as refrigerant for ice-cream and frozen food. (b) The structure of C60 contains twelve six carbon rings and twenty five carbon rings. (c) ZSM-5, a type of zeolite, is used to convert alcohols into gasoline. (d) CO is colorless and odourless gas.",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5064)",
         "options": {
-          "1": "(a), (b) and (c) only",
-          "2": "(a) and (c) only",
-          "3": "(b) and (c) only",
-          "4": "(c) and (d) only Hindi+English 2"
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -2495,35 +2210,611 @@
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
       },
       {
-        "id": "2020-E1-Q174",
-        "sourceYear": 2020,
-        "sourceNumber": 86,
+        "id": "fixpad-chemistry-organic-chemistry-be02bfef21",
         "subject": "Chemistry",
         "topic": "Organic Chemistry",
-        "difficulty": "Hard",
-        "stem": "The freezing point depression constant (Kf) of benzene is 5.12 K kg mol−1. The freezing point depression for the solution of molality 0.078 m containing a non-electrolyte solute in benzene is (rounded off upto two decimal places) :",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5066)",
         "options": {
-          "1": "0.40 K",
-          "2": "0.60 K",
-          "3": "0.20 K",
-          "4": "0.80 K Hindi+English 0"
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
         },
-        "correctOption": "2",
+        "correctOption": "1",
         "correctOptions": [
-          "2"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
       },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-3f97ab7a83",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5068)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-d2f3786d3c",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5070)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-4af4b11be4",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5072)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-e67c854de6",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5074)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-1aaf3f598d",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5076)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-7f18eed9bb",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5078)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-c1f32f0267",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5080)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-93b0e1b196",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5082)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-6cea57ac3f",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5084)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-54d537333e",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5086)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-2b5b4edd4e",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5088)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-8d8d85af8b",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5090)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-015469eb1d",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5092)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-5d4641152b",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5094)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-d55a62f679",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5096)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-70738a6feb",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5098)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-4ff1c459f8",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5100)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-ae7ad0756a",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5102)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-16ccb26903",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5104)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-77eafc5bfe",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5106)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-07a9d4896f",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5108)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-7ca8d234db",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5110)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-e171b63e17",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5112)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-520a069e2b",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5114)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-114cb04421",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5116)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Medium"
+      }
+    ],
+    "Hard": [
       {
         "id": "2021-M1-Q65",
         "sourceYear": 2021,
@@ -2538,56 +2829,6 @@
           "3": "6.25",
           "4": "8.50"
         },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q91",
-        "sourceYear": 2021,
-        "sourceNumber": 92,
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "difficulty": "Hard",
-        "stem": "The correct option for the value of vapour pressure of a solution at 458C with benzene to octane in molar ratio 3 : 2 is : [At 458C vapour pressure of benzene is 280 mm Hg and that of octane is 420 mm Hg. Assume Ideal gas]",
-        "options": {
-          "1": "336 mm of Hg",
-          "2": "350 mm of Hg",
-          "3": "160 mm of Hg",
-          "4": "168 mm of Hg Hindi+English 6"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q82",
-        "sourceYear": 2023,
-        "sourceNumber": 81,
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "difficulty": "Hard",
-        "stem": "Which of the following reactions will NOT give primary amine as the product?",
-        "options": {
-          "1": "CH3 CN ⎯⎯⎯⎯ (i) LiAlH4 (ii) H O⊕ → Product 3",
-          "2": "CH3NC ⎯⎯⎯⎯ (i) LiAlH4 (ii) H O⊕ → Product 3",
-          "3": "CH3 CONH2 ⎯⎯⎯⎯ (i) LiAlH4 (ii) H O⊕ → Product 3",
-          "4": "CH3 CONH2 ⎯⎯⎯⎯ Br2 /KOH → Product"
-        },
         "correctOption": "2",
         "correctOptions": [
           "2"
@@ -2595,7 +2836,7 @@
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
-        "answerEstimated": false,
+        "answerEstimated": true,
         "solutionSource": "md-year-paper",
         "placeholder": false
       },
@@ -3682,6 +3923,282 @@
         "placeholder": false,
         "difficulty": "Hard",
         "aiVerified": "strict"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-e5f74195b9",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5103)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-77d8b9abfb",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5105)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-96bc42191d",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5107)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-56dc8089b4",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5109)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-2f93569de9",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5111)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-bf1868a576",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5113)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-8659015c82",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5115)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-68a218a529",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5117)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-71546d73ba",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5119)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-a6896804ae",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5121)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-5130707199",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5123)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
+      },
+      {
+        "id": "fixpad-chemistry-organic-chemistry-0b0c29ba1b",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagent that converts primary alcohol → aldehyde under controlled conditions (set 5125)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Hot excess acidic KMnO₄",
+          "3": "Concentrated HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation; key-fix refill)",
+        "placeholder": false,
+        "difficulty": "Hard"
       }
     ]
   },
