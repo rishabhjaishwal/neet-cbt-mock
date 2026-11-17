@@ -1,0 +1,2952 @@
+{
+  "years": {
+    "2016": {
+      "questions": 157,
+      "confirmsApprox": 152,
+      "solutionsWritten": 157,
+      "stillEstimated": 0,
+      "confGe2": 152,
+      "ocrBrokenOpts": 0,
+      "withFigures": 0,
+      "stemRefNoFig": 6
+    },
+    "2017": {
+      "questions": 162,
+      "confirmsApprox": 160,
+      "solutionsWritten": 162,
+      "stillEstimated": 0,
+      "confGe2": 160,
+      "ocrBrokenOpts": 0,
+      "withFigures": 0,
+      "stemRefNoFig": 3
+    },
+    "2018": {
+      "questions": 164,
+      "confirmsApprox": 106,
+      "solutionsWritten": 164,
+      "stillEstimated": 58,
+      "confGe2": 106,
+      "ocrBrokenOpts": 0,
+      "withFigures": 0,
+      "stemRefNoFig": 2
+    },
+    "2019": {
+      "questions": 177,
+      "confirmsApprox": 0,
+      "solutionsWritten": 177,
+      "stillEstimated": 0,
+      "confGe2": 0,
+      "ocrBrokenOpts": 0,
+      "withFigures": 7,
+      "stemRefNoFig": 0
+    },
+    "2020": {
+      "questions": 176,
+      "confirmsApprox": 58,
+      "solutionsWritten": 176,
+      "stillEstimated": 118,
+      "confGe2": 58,
+      "ocrBrokenOpts": 0,
+      "withFigures": 0,
+      "stemRefNoFig": 0
+    },
+    "2021": {
+      "questions": 192,
+      "confirmsApprox": 86,
+      "solutionsWritten": 192,
+      "stillEstimated": 75,
+      "confGe2": 86,
+      "ocrBrokenOpts": 0,
+      "withFigures": 0,
+      "stemRefNoFig": 1
+    },
+    "2022": {
+      "questions": 197,
+      "confirmsApprox": 1,
+      "solutionsWritten": 197,
+      "stillEstimated": 0,
+      "confGe2": 1,
+      "ocrBrokenOpts": 0,
+      "withFigures": 7,
+      "stemRefNoFig": 1
+    },
+    "2023": {
+      "questions": 199,
+      "confirmsApprox": 122,
+      "solutionsWritten": 199,
+      "stillEstimated": 0,
+      "confGe2": 122,
+      "ocrBrokenOpts": 0,
+      "withFigures": 8,
+      "stemRefNoFig": 0
+    },
+    "2024": {
+      "questions": 197,
+      "confirmsApprox": 4,
+      "solutionsWritten": 197,
+      "stillEstimated": 0,
+      "confGe2": 4,
+      "ocrBrokenOpts": 0,
+      "withFigures": 13,
+      "stemRefNoFig": 1
+    },
+    "2025": {
+      "questions": 197,
+      "confirmsApprox": 4,
+      "solutionsWritten": 197,
+      "stillEstimated": 0,
+      "confGe2": 4,
+      "ocrBrokenOpts": 0,
+      "withFigures": 13,
+      "stemRefNoFig": 1
+    }
+  },
+  "residualDetails": [
+    {
+      "id": "2018-AA-Q12",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q20",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q34",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q37",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q42",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "coaching-sol:neet-2018-aa-aakash"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q43",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q100",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q107",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q120",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "coaching-sol:neet-2018-aa-aakash"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q141",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q157",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q171",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q31",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q76",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q109",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q140",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "hf-english@1.00"
+        ],
+        "1": [
+          "coaching-sol:neet-2018-aa-aakash"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q152",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q154",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q161",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q162",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q168",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ],
+        "1": [
+          "coaching-sol:neet-2018-aa-aakash"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q169",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q170",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q172",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q176",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q8",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q9",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q13",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q15",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q16",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "coaching-sol:neet-2018-aa-aakash"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q17",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q25",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q32",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q39",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q40",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ],
+        "1": [
+          "coaching-sol:neet-2018-aa-aakash"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q41",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q45",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ],
+        "2": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q59",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q60",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "coaching-sol:neet-2018-aa-aakash"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q61",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q62",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q64",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q67",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q77",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q79",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q83",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "topic-audit-lineage"
+        ],
+        "1": [
+          "hf-english@0.89"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q84",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ],
+        "1": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q85",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q87",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q88",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q97",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ],
+        "3": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q113",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ],
+        "2": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q124",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q127",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ],
+        "2": [
+          "coaching-sol:neet-2018-aa-aakash"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q132",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q133",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ],
+        "1": [
+          "coaching-sol:neet-2018-aa-aakash"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q134",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "coaching-sol:neet-2018-aa-aakash"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2018-AA-Q153",
+      "year": 2018,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q1",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q2",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q3",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q10",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q19",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q38",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q42",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q45",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q95",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q96",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q100",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q104",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q105",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q114",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q120",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q125",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q133",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q136",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q140",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q141",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q142",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q146",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "hf-english@0.93"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q150",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q154",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q157",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q159",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q161",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q163",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q166",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q169",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q172",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q175",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q176",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q93",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q94",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "hf-english@0.77"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q99",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "topic-audit-lineage"
+        ],
+        "1": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q103",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q111",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "topic-audit-lineage"
+        ],
+        "4": [
+          "hf-english@0.85"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q113",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "hf-english@0.85"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q121",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q122",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "topic-audit-lineage"
+        ],
+        "1": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q123",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q126",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q127",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q128",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ],
+        "3": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q129",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q145",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q148",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q149",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q151",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q155",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q164",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ],
+        "1": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q165",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q168",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q170",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "hf-english@0.67"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q171",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "hf-english@0.67"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q173",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q174",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q179",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q4",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ],
+        "2": [
+          "hf-english@0.84"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q5",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q6",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q8",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q9",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q11",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q12",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q14",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "topic-audit-lineage"
+        ],
+        "1": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q15",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q16",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q17",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q18",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "topic-audit-lineage"
+        ],
+        "4": [
+          "hf-english@0.89"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q21",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q23",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q24",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q27",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "topic-audit-lineage"
+        ],
+        "2": [
+          "hf-english@0.89"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q28",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q29",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q30",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "topic-audit-lineage"
+        ],
+        "1": [
+          "hf-english@0.89"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q32",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2020-E1-Q33",
+      "year": 2020,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "hf-english@0.67"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q13",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q14",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q16",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q20",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q21",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q23",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q26",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q27",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q29",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q30",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q32",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q35",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q36",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q41",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q42",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q45",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q47",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q49",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q50",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q92",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q124",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ],
+        "2": [
+          "hf-english@0.83"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q128",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "topic-audit-lineage"
+        ],
+        "4": [
+          "hf-english@0.83"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q135",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ],
+        "3": [
+          "hf-english@0.83"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q38",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q58",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q69",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "hf-english@1.00"
+        ],
+        "1": [
+          "coaching-sol:neet-2021-m1-sol"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q74",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q76",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "hf-english@1.00"
+        ],
+        "1": [
+          "coaching-sol:neet-2021-m1-sol"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q80",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q82",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q83",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q84",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q86",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q87",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q88",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ],
+        "1": [
+          "coaching-sol:neet-2021-m1-sol"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q90",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q91",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q93",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q95",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "topic-audit-lineage"
+        ],
+        "4": [
+          "coaching-sol:neet-2021-m1-sol"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q96",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ],
+        "1": [
+          "coaching-sol:neet-2021-m1-sol"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q97",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ],
+        "4": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q98",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "topic-audit-lineage"
+        ],
+        "3": [
+          "coaching-sol:neet-2021-m1-sol"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q99",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 0,
+      "sources": {},
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q39",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "topic-audit-lineage"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q114",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "topic-audit-lineage"
+        ],
+        "4": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q116",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ],
+        "3": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q119",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "topic-audit-lineage"
+        ],
+        "4": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q131",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "topic-audit-lineage"
+        ],
+        "2": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q133",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q139",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "topic-audit-lineage"
+        ],
+        "1": [
+          "hf-english@0.58"
+        ],
+        "2": [
+          "coaching-sol:neet-2021-m1-sol"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q141",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ],
+        "3": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q144",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ],
+        "2": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q146",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "hf-english@0.82"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q148",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ],
+        "1": [
+          "hf-english@0.82"
+        ],
+        "3": [
+          "coaching-sol:neet-2021-m1-sol"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q153",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "topic-audit-lineage"
+        ],
+        "1": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q157",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ],
+        "2": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q163",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "topic-audit-lineage"
+        ],
+        "4": [
+          "hf-english@0.83"
+        ],
+        "1": [
+          "coaching-sol:neet-2021-m1-sol"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q164",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ],
+        "1": [
+          "hf-english@0.90"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q170",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "topic-audit-lineage"
+        ],
+        "1": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q171",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "hf-english@0.66"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q173",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ],
+        "4": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q175",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "topic-audit-lineage"
+        ],
+        "1": [
+          "hf-english@0.66"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q177",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q178",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "topic-audit-lineage"
+        ],
+        "1": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q179",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q180",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ],
+        "2": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q181",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "2": [
+          "hf-english@0.90"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q182",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q183",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "hf-english@0.83"
+        ],
+        "1": [
+          "coaching-sol:neet-2021-m1-sol"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q184",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ],
+        "3": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q189",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "topic-audit-lineage"
+        ],
+        "2": [
+          "hf-english@0.70"
+        ]
+      },
+      "option": "1",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q195",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "3": [
+          "topic-audit-lineage"
+        ],
+        "4": [
+          "hf-english@0.70"
+        ]
+      },
+      "option": "3",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q196",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ],
+        "3": [
+          "hf-english@0.70"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q198",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "1": [
+          "hf-english@0.70"
+        ]
+      },
+      "option": "2",
+      "reason": "still-estimated-or-low"
+    },
+    {
+      "id": "2021-M1-Q200",
+      "year": 2021,
+      "action": "low-confidence",
+      "confidence": 1,
+      "sources": {
+        "4": [
+          "topic-audit-lineage"
+        ],
+        "1": [
+          "hf-english@1.00"
+        ]
+      },
+      "option": "4",
+      "reason": "still-estimated-or-low"
+    }
+  ],
+  "minConfidence": 2,
+  "totals": {
+    "questions": 1818,
+    "solutionsWritten": 1818,
+    "stillEstimated": 251,
+    "confGe2": 693,
+    "stemRefNoFig": 15,
+    "topicKeyUpdates": 33,
+    "topicSolutionUpdates": 1191
+  },
+  "passNotes": {
+    "remapsFromRun": {
+      "2016": 5,
+      "2017": 2,
+      "2018": 80,
+      "2019": 0,
+      "2020": 37,
+      "2021": 49,
+      "2022": 0,
+      "2023": 1,
+      "2024": 1,
+      "2025": 0
+    },
+    "ocrRepairedFromRun": {
+      "2016": 5,
+      "2017": 3,
+      "2018": 45,
+      "2019": 1,
+      "2020": 43,
+      "2021": 63,
+      "2022": 0,
+      "2023": 25,
+      "2024": 1,
+      "2025": 0
+    },
+    "rule": "option-text multi-source confidence >=2; no Q-number letter remap"
+  }
+}

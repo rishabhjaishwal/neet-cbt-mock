@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img" aria-label="Ball striking rigid wall at 60 degrees">
+<rect width="480" height="240" fill="#fff"/>
+<line x1="360" y1="30" x2="360" y2="210" stroke="#0f172a" stroke-width="4"/>
+<circle cx="220" cy="120" r="16" fill="#cbd5e1" stroke="#0f172a"/>
+<line x1="120" y1="170" x2="210" y2="125" stroke="#0f172a" stroke-width="2" marker-end="url(#a)"/>
+<line x1="210" y1="115" x2="120" y2="60" stroke="#0f172a" stroke-width="2"/>
+<text x="150" y="175" font-family="Georgia, serif" font-size="14">60°</text>
+<text x="370" y="120" font-family="Georgia, serif" font-size="14">wall</text>
+</svg>
