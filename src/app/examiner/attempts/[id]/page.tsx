@@ -5,6 +5,7 @@ import { getSession } from "@/lib/auth";
 import { ensureSeeded } from "@/lib/seed";
 import { Attempt, Question, User } from "@/lib/models";
 import { ApproveButton } from "@/components/ApproveButton";
+import { displayQuestionNumber, getPaperQuestionMap } from "@/lib/paper-content";
 
 export default async function ExaminerAttemptPage({
   params,
@@ -24,24 +25,42 @@ export default async function ExaminerAttemptPage({
   const qids = attempt.answers.map((a: { questionId: unknown }) => a.questionId);
   const questions = await Question.find({ _id: { $in: qids } }).lean();
   const byId = Object.fromEntries(questions.map((q) => [String(q._id), q]));
+  const paperByKey = await getPaperQuestionMap(attempt.year).catch(() => new Map());
 
   const topicBundle = (attempt.topicStats ?? {}) as { improvements?: string[] };
 
   const answers = attempt.answers
-    .map((a: { questionId: unknown; selectedOption?: string | null; status: string }) => {
-      const q = byId[String(a.questionId)];
-      if (!q) return null;
-      return {
-        number: q.number,
-        subject: q.subject,
-        topic: q.topic,
-        stem: q.stem,
-        options: (q.options ?? {}) as Record<string, string>,
-        correct_option: q.correctOption,
-        selected_option: a.selectedOption ?? null,
-        status: a.status,
-      };
-    })
+    .map(
+      (
+        a: { questionId: unknown; questionKey?: string; selectedOption?: string | null; status: string },
+        idx: number,
+      ) => {
+        const q = byId[String(a.questionId)] as
+          | {
+              questionKey?: string;
+              number: number;
+              subject: string;
+              topic: string;
+              stem: string;
+              options?: Record<string, string>;
+              correctOption: string;
+            }
+          | undefined;
+        if (!q) return null;
+        const key = a.questionKey || q.questionKey || "";
+        const paperQ = key ? paperByKey.get(key) : undefined;
+        return {
+          number: displayQuestionNumber(paperQ, q.number, idx),
+          subject: paperQ?.subject ?? q.subject,
+          topic: paperQ?.topic ?? q.topic,
+          stem: paperQ?.stem ?? q.stem,
+          options: (paperQ?.options ?? q.options ?? {}) as Record<string, string>,
+          correct_option: paperQ?.correctOption ?? q.correctOption,
+          selected_option: a.selectedOption ?? null,
+          status: a.status,
+        };
+      },
+    )
     .filter(Boolean)
     .sort((a: { number: number } | null, b: { number: number } | null) => a!.number - b!.number) as Array<{
     number: number;

@@ -34,7 +34,8 @@ type PaperFile = {
   }>;
 };
 
-const CONTENT_VERSION = 9;
+/** Bump to force serverless cold-start reseed (fixes parked Q numbers like 30096). */
+const CONTENT_VERSION = 10;
 let syncedVersion = 0;
 
 async function hashPassword(password: string) {
@@ -100,8 +101,9 @@ export async function seedDatabase() {
       { upsert: true, returnDocument: "after", setDefaultsOnInsert: true },
     );
 
-    // Avoid unique (year, number) collisions while reordering subjects:
-    // park existing rows, upsert parked incoming keys, then set final numbers.
+    // Avoid unique (year, number) collisions while reordering:
+    // 1) park ALL year rows to unique negative numbers
+    // 2) upsert final payload with canonical paper numbers (never leave 20xxx/30xxx)
     const existing = await Question.find({ year: paper.year })
       .select("questionKey")
       .lean();
@@ -110,29 +112,12 @@ export async function seedDatabase() {
         existing.map((row, i) => ({
           updateOne: {
             filter: { questionKey: row.questionKey },
-            update: { $set: { number: 20_000 + i } },
+            update: { $set: { number: -(i + 1) } },
           },
         })),
         { ordered: false },
       );
     }
-
-    await Question.bulkWrite(
-      paper.questions.map((q, i) => ({
-        updateOne: {
-          filter: { questionKey: q.id },
-          update: {
-            $set: {
-              questionKey: q.id,
-              year: paper.year,
-              number: 30_000 + i,
-            },
-          },
-          upsert: true,
-        },
-      })),
-      { ordered: false },
-    );
 
     const keepKeys = new Set(paper.questions.map((q) => q.id));
     const orphanKeys = existing
@@ -182,8 +167,30 @@ export async function seedDatabase() {
           upsert: true,
         },
       })),
-      { ordered: false },
+      { ordered: true },
     );
+
+    // Safety net: remap any leftover parked/negative numbers from paper keys.
+    const stillParked = await Question.find({
+      year: paper.year,
+      $or: [{ number: { $lt: 1 } }, { number: { $gt: paper.totalQuestions } }],
+    })
+      .select("questionKey number")
+      .lean();
+    if (stillParked.length) {
+      const byKey = Object.fromEntries(paper.questions.map((q) => [q.id, q.number]));
+      await Question.bulkWrite(
+        stillParked
+          .filter((row) => byKey[row.questionKey] != null)
+          .map((row) => ({
+            updateOne: {
+              filter: { questionKey: row.questionKey },
+              update: { $set: { number: byKey[row.questionKey] } },
+            },
+          })),
+        { ordered: false },
+      );
+    }
   }
 
   try {

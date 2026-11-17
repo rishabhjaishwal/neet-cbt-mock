@@ -3,6 +3,7 @@
 import { QuestionOptionMarkdown, QuestionStemMarkdown } from "@/components/QuestionMarkdown";
 import { QuestionFigure } from "@/components/QuestionFigure";
 import { formatOptions, type Outcome } from "@/lib/multi-correct";
+import type { LearningAid } from "@/lib/learning-aid";
 
 export type ReviewItem = {
   id: string;
@@ -20,6 +21,7 @@ export type ReviewItem = {
   figureSrc?: string | null;
   figureKind?: string | null;
   needsFigure?: boolean;
+  learning: LearningAid;
 };
 
 const outcomeStyle: Record<Outcome, string> = {
@@ -37,7 +39,7 @@ export function QuestionReviewList({ items }: { items: ReviewItem[] }) {
           Question review
         </h2>
         <p className="text-sm text-slate-600">
-          Your choices vs correct answers (shown after you submit).
+          Your choices vs correct answers, plus a short learning path to relearn each idea.
         </p>
       </div>
       {items.map((q) => (
@@ -107,6 +109,37 @@ export function QuestionReviewList({ items }: { items: ReviewItem[] }) {
                 </div>
               );
             })}
+          </div>
+
+          <div
+            className={`mt-4 rounded-lg border px-3 py-3 ${
+              q.learning.placeholder
+                ? "border-dashed border-amber-300 bg-amber-50/60"
+                : "border-slate-200 bg-white/80"
+            }`}
+          >
+            <h4 className="text-sm font-semibold text-slate-800">{q.learning.title}</h4>
+            <div className="mt-2 space-y-2 text-sm leading-relaxed text-slate-700">
+              {q.learning.solution.split("\n\n").map((para) => (
+                <p key={para.slice(0, 48)}>{para}</p>
+              ))}
+            </div>
+            {q.learning.links.length > 0 && (
+              <ul className="mt-3 space-y-1 text-sm">
+                {q.learning.links.map((link) => (
+                  <li key={link.url}>
+                    <a
+                      href={link.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-medium text-[var(--cbt-accent)] underline-offset-2 hover:underline"
+                    >
+                      {link.label} ↗
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            )}
           </div>
         </article>
       ))}

@@ -13,6 +13,8 @@ import {
 } from "@/lib/multi-correct";
 import { ResultsMetrics } from "@/components/ResultsMetrics";
 import { QuestionReviewList, type ReviewItem } from "@/components/QuestionReviewList";
+import { displayQuestionNumber, getPaperQuestionMap } from "@/lib/paper-content";
+import { buildLearningAid } from "@/lib/learning-aid";
 
 export default async function ResultsPage({
   params,
@@ -80,17 +82,25 @@ export default async function ResultsPage({
   const qids = attempt.answers.map((a: { questionId: unknown }) => a.questionId);
   const questions = await Question.find({ _id: { $in: qids } }).lean();
   const byId = Object.fromEntries(questions.map((q) => [String(q._id), q]));
+  const paperByKey = await getPaperQuestionMap(attempt.year).catch(
+    () => new Map(),
+  );
 
   const reviewItems: ReviewItem[] = attempt.answers
     .map(
-      (a: {
-        questionId: unknown;
-        selectedOption?: string | null;
-        selectedOptions?: string[];
-        status: string;
-      }) => {
+      (
+        a: {
+          questionId: unknown;
+          questionKey?: string;
+          selectedOption?: string | null;
+          selectedOptions?: string[];
+          status: string;
+        },
+        answerIndex: number,
+      ) => {
         const q = byId[String(a.questionId)] as
           | {
+              questionKey?: string;
               number: number;
               subject: string;
               section: string;
@@ -100,13 +110,30 @@ export default async function ResultsPage({
               correctOption?: string;
               correctOptions?: string[];
               multiCorrect?: boolean;
+              answerEstimated?: boolean;
               figureSrc?: string;
               figureKind?: string;
             }
           | undefined;
         if (!q) return null;
-        const correct = resolveCorrectOptions(q);
-        const multi = isMultiCorrectQuestion(q);
+        const key = a.questionKey || q.questionKey || "";
+        const paperQ = key ? paperByKey.get(key) : undefined;
+        // Paper JSON is authoritative for exam Q# (avoids parked seed numbers like 30096).
+        const number = displayQuestionNumber(paperQ, q.number, answerIndex);
+        const subject = paperQ?.subject ?? q.subject;
+        const section = paperQ?.section ?? q.section;
+        const topic = paperQ?.topic ?? q.topic;
+        const stem = paperQ?.stem ?? q.stem;
+        const options = (paperQ?.options ?? q.options ?? {}) as Record<string, string>;
+        const correct = resolveCorrectOptions({
+          correctOption: paperQ?.correctOption ?? q.correctOption,
+          correctOptions: paperQ?.correctOptions ?? q.correctOptions,
+        });
+        const multi = isMultiCorrectQuestion({
+          multiCorrect: paperQ?.multiCorrect ?? q.multiCorrect,
+          correctOptions: correct,
+          correctOption: paperQ?.correctOption ?? q.correctOption,
+        });
         const selected =
           a.status === "not_attempted"
             ? []
@@ -118,24 +145,38 @@ export default async function ResultsPage({
         const { marks, outcome } = scoreSelection(selected, correct, multi);
         const needsFigure =
           /see figure|as shown in (the )?figure|shown in (the )?figure|following diagram|given figure|in the figure|as shown in figure|shown in figure|given figures/i.test(
-            q.stem,
+            stem,
           );
+        const learning = buildLearningAid({
+          number,
+          subject,
+          section,
+          topic,
+          stem,
+          options,
+          correct,
+          multiCorrect: multi,
+          answerEstimated: Boolean(paperQ?.answerEstimated ?? q.answerEstimated),
+          curatedSolution: paperQ?.solution ?? null,
+          curatedLinks: paperQ?.studyLinks ?? null,
+        });
         return {
           id: String(a.questionId),
-          number: q.number,
-          subject: q.subject,
-          section: q.section,
-          topic: q.topic,
-          stem: q.stem,
-          options: (q.options ?? {}) as Record<string, string>,
+          number,
+          subject,
+          section,
+          topic,
+          stem,
+          options,
           selected,
           correct,
           outcome,
           marks,
           multiCorrect: multi,
-          figureSrc: q.figureSrc ?? null,
-          figureKind: q.figureKind ?? null,
+          figureSrc: (paperQ?.figureSrc ?? q.figureSrc) ?? null,
+          figureKind: (paperQ?.figureKind ?? q.figureKind) ?? null,
           needsFigure,
+          learning,
         } satisfies ReviewItem;
       },
     )
