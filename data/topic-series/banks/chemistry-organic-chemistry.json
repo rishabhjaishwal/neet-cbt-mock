@@ -3,9 +3,9 @@
   "subject": "Chemistry",
   "topic": "Organic Chemistry",
   "counts": {
-    "Easy": 10,
-    "Medium": 9,
-    "Hard": 9
+    "Easy": 50,
+    "Medium": 50,
+    "Hard": 50
   },
   "questions": {
     "Easy": [
@@ -258,6 +258,1004 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
+      },
+      {
+        "id": "hf2018-2b070f38e7",
+        "sourceYear": 2018,
+        "sourceNumber": 72,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "The type of isomerism shown by the complex $ \\left[ \\mathrm { CoCl } _ { 2 } ( \\mathrm { en } ) _ { 2 } \\right] $ is",
+        "options": {
+          "1": "Ionization isomerism",
+          "2": "Coordination isomerism",
+          "3": "Geometrical isomerism",
+          "4": "Linkage isomerism"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-2486c541e5",
+        "sourceYear": 2019,
+        "sourceNumber": 61,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "The biodegradable polymer is :",
+        "options": {
+          "1": "nylon-6,6",
+          "2": "nylon 2-nylon 6",
+          "3": "nylon-6",
+          "4": "Buna-S"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-21458f4738",
+        "sourceYear": 2019,
+        "sourceNumber": 64,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "The non-essential amino acid among the following is :",
+        "options": {
+          "1": "valine",
+          "2": "leucine",
+          "3": "alanine",
+          "4": "lysine"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-7ca3d3ecb6",
+        "sourceYear": 2019,
+        "sourceNumber": 65,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Among the following, the reaction that proceeds through an electrophilic substitution, is :",
+        "options": {
+          "1": "image_523.png",
+          "2": "image_524.png",
+          "3": "image_525.png",
+          "4": "image_526.png"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-4d8027be81",
+        "sourceYear": 2020,
+        "sourceNumber": 102,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Which of the following amine will give the carbylamine test?",
+        "options": {
+          "1": "image_560.png",
+          "2": "image_561.png",
+          "3": "image_562.png",
+          "4": "image_563.png"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-35fa5eec86",
+        "sourceYear": 2020,
+        "sourceNumber": 113,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Which of the following is a cationic detergent?",
+        "options": {
+          "1": "Sodium lauryl sulphate",
+          "2": "Sodium stearate",
+          "3": "Cetyltrimethyl ammonium bromide",
+          "4": "Sodium dodecylbenzene sulphonate"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-827d7163d1",
+        "sourceYear": 2020,
+        "sourceNumber": 117,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Which of the following is a basic amino acid ?",
+        "options": {
+          "1": "Serine",
+          "2": "Alanine",
+          "3": "Tyrosine",
+          "4": "Lysine"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-4974c3ea1e",
+        "sourceYear": 2020,
+        "sourceNumber": 119,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Which of the following is a natural polymer ?",
+        "options": {
+          "1": "cis-1,4-polyisoprene",
+          "2": "poly (Butadiene-styrene)",
+          "3": "polybutadiene",
+          "4": "poly (Butadiene-acrylonitrile)"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-266eddfbf7",
+        "sourceYear": 2020,
+        "sourceNumber": 133,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "An alkene on ozonolysis gives methanal as one of the product. Its structure is :",
+        "options": {
+          "1": "image_566.png",
+          "2": "image_567.png",
+          "3": "image_568.png",
+          "4": "image_569.png"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-ce44b04fa4",
+        "sourceYear": 2020,
+        "sourceNumber": 134,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Which of the following alkane cannot be made in good yield by Wurtz reaction?",
+        "options": {
+          "1": "n-Hexane",
+          "2": "2,3-Dimethylbutane",
+          "3": "n-Heptane",
+          "4": "n-Butane"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-da65eacfc5",
+        "sourceYear": 2021,
+        "sourceNumber": 53,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Ethylene diaminetetraacetate (EDTA) ion is :",
+        "options": {
+          "1": "Unidentate ligand",
+          "2": "Bidentate ligand with two \" N \" donor atoms",
+          "3": "Tridentate ligand with three \"N\" donor atoms",
+          "4": "Hexadentate ligand with four \"O\" and two \" N \" donor atoms"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-55369ce3cb",
+        "sourceYear": 2021,
+        "sourceNumber": 63,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Which one of the following polymers is prepared by addition polymerisation?",
+        "options": {
+          "1": "Nylon-66",
+          "2": "Novolac",
+          "3": "Dacron",
+          "4": "Teflon"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-e0aa58d227",
+        "sourceYear": 2021,
+        "sourceNumber": 81,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Among the following alkaline earth metal halides, one which is covalent and soluble in organic solvents is :",
+        "options": {
+          "1": "Strontium chloride",
+          "2": "Magnesium chloride",
+          "3": "Beryllium chloride",
+          "4": "Calcium chloride"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-427493a40f",
+        "sourceYear": 2021,
+        "sourceNumber": 84,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "The maximum temperature that can be achieved in blast furnace is :",
+        "options": {
+          "1": "upto 2200 K",
+          "2": "upto 1900 K",
+          "3": "upto 5000 K",
+          "4": "upto 1200 K"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-e596813864",
+        "sourceYear": 2024,
+        "sourceNumber": 65,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "The correct IUPAC name of the compound is:",
+        "options": {
+          "1": "4-ethyl-1-fluoro-2-nitrobenzene",
+          "2": "4-ethyl-1-fluoro-6-nitrobenzene",
+          "3": "3-ethyl-6-fluoro-1-nitrobenzene",
+          "4": "1-ethyl-4-fluoro-3-nitrobenzene"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-34283fd45f",
+        "sourceYear": 2024,
+        "sourceNumber": 69,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Ethylene diaminetetraacetate ion is a/an:",
+        "options": {
+          "1": "hexadentate ligand",
+          "2": "ambidentate ligand",
+          "3": "monodentate ligand",
+          "4": "bidentate ligand"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-965ed4ff2d",
+        "sourceYear": 2024,
+        "sourceNumber": 78,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "The compound that does not undergo Friedel-Crafts alkylation reaction but gives a positive carbylamine test is :",
+        "options": {
+          "1": "Aniline",
+          "2": "Pyridine",
+          "3": "N-methylaniline",
+          "4": "Triethylamine"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-0ef876fe3c",
+        "sourceYear": 2024,
+        "sourceNumber": 87,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "n-propyl alcohol Identify the incorrect statement.",
+        "options": {
+          "1": "$ \\mathrm { PEt } _ { 3 } $ and $ \\mathrm { AsPh } _ { 3 } $ as ligands can form $ \\mathrm { d } \\pi - \\mathrm { d } \\pi $ bond with transition metals",
+          "2": "The $ \\mathrm { N } - \\mathrm { N } $ single bond is as strong as the $ \\mathrm { P } - \\mathrm { P } $ single bond",
+          "3": "Nitrogen has unique ability to form $ p \\pi - p \\pi $ multiple bonds with nitrogen, carbon and oxygen",
+          "4": "Nitrogen cannot form $ \\mathrm { d } \\pi - \\mathrm { p } \\pi $ bond as other heavier elements of its group"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-eec4a0cfda",
+        "sourceYear": 2024,
+        "sourceNumber": 95,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "The alkane that can be oxidized to the corresponding alcohol by $ \\mathrm{KMnO}_{4} $ as per the equation is, when:",
+        "options": {
+          "1": "$ \\mathrm{R}_{1} = \\mathrm{H}; \\mathrm{R}_{2} = \\mathrm{H}; \\mathrm{R}_{3} = \\mathrm{H} $",
+          "2": "$ \\mathrm{R}_{1} = \\mathrm{CH}_{3}; \\mathrm{R}_{2} = \\mathrm{CH}_{3}; \\mathrm{R}_{3} = \\mathrm{CH}_{3} $",
+          "3": "$ \\mathrm{R}_{1} = \\mathrm{CH}_{3}; \\mathrm{R}_{2} = \\mathrm{H}; \\mathrm{R}_{3} = \\mathrm{H} $",
+          "4": "$ \\mathrm{R}_{1} = \\mathrm{CH}_{3}; \\mathrm{R}_{2} = \\mathrm{CH}_{3}; \\mathrm{R}_{3} = \\mathrm{H} $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-95dd28f699",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "[NEET 2019 | Chemistry] Tollens' reagent is used to distinguish between:",
+        "options": {
+          "1": "Aldehydes and ketones",
+          "2": "Primary and secondary alcohols",
+          "3": "Alkane and alkene",
+          "4": "Organic acids and esters"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-97bf5c07ad",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "[NEET 2020 | Chemistry] Nylon 6,6 is formed by the condensation polymerisation of:",
+        "options": {
+          "1": "Caprolactam",
+          "2": "Hexamethylenediamine and Adipic acid",
+          "3": "Hexamethylenediamine and Phthalic acid",
+          "4": "Ethylene glycol and Terephthalic acid"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-0dcdf30fd2",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "[NEET 2023 | Chemistry] Which carbocation is most stable?",
+        "options": {
+          "1": "CH₃⁺",
+          "2": "CH₃CH₂⁺",
+          "3": "(CH₃)₂CH⁺",
+          "4": "(CH₃)₃C⁺"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-c674b46f13",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "[NEET 2023 | Chemistry] Phenol reacts with Br₂ water to give:",
+        "options": {
+          "1": "Monobromophenol",
+          "2": "2,4,6-tribromophenol",
+          "3": "Bromobenzene",
+          "4": "o-bromophenol only"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-40fec2f915",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "IUPAC name of CH₃CH₂OH is",
+        "options": {
+          "1": "Ethanol",
+          "2": "Methanol",
+          "3": "Propanol",
+          "4": "Ethanal"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-805f2ed078",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Which is meta-directing?",
+        "options": {
+          "1": "−NO₂",
+          "2": "−OH",
+          "3": "−NH₂",
+          "4": "−CH₃"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-86d07b6411",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Geometrical isomerism is shown by",
+        "options": {
+          "1": "2-butene",
+          "2": "propane",
+          "3": "1-butyne",
+          "4": "ethane"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-a8444a93e6",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Hoffmann bromamide degradation gives",
+        "options": {
+          "1": "Primary amine with one C less",
+          "2": "Secondary amine",
+          "3": "Tertiary amine",
+          "4": "Amide"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-0fa7fa2311",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "IUPAC name of CH₃CH₂OH is — practice set 11",
+        "options": {
+          "1": "Ethanol",
+          "2": "Methanol",
+          "3": "Propanol",
+          "4": "Ethanal"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-4688e9030b",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "The electrophile in nitration of benzene is — practice set 13",
+        "options": {
+          "1": "NO₂⁺",
+          "2": "NO₂⁻",
+          "3": "NO⁺",
+          "4": "N₂O"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-aa550ed992",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Which is meta-directing? — practice set 14",
+        "options": {
+          "1": "−NO₂",
+          "2": "−OH",
+          "3": "−NH₂",
+          "4": "−CH₃"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-11e9d06275",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Tollen’s reagent oxidizes — practice set 16",
+        "options": {
+          "1": "Aldehydes",
+          "2": "Ketones only",
+          "3": "Alkanes",
+          "4": "Ethers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-9eda4e1c26",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Geometrical isomerism is shown by — practice set 17",
+        "options": {
+          "1": "2-butene",
+          "2": "propane",
+          "3": "1-butyne",
+          "4": "ethane"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-2f6b6d6dcd",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "The monomer of natural rubber is — practice set 19",
+        "options": {
+          "1": "Isoprene",
+          "2": "Styrene",
+          "3": "Vinyl chloride",
+          "4": "Ethene"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-db802ad9f7",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Hoffmann bromamide degradation gives — practice set 20",
+        "options": {
+          "1": "Primary amine with one C less",
+          "2": "Secondary amine",
+          "3": "Tertiary amine",
+          "4": "Amide"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-11e3b3cd25",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Cannizzaro reaction is given by — practice set 22",
+        "options": {
+          "1": "HCHO",
+          "2": "CH₃CHO",
+          "3": "CH₃COCH₃",
+          "4": "CH₃COOH"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-b1b64c89e4",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "The electrophile in nitration of benzene is — practice set 23",
+        "options": {
+          "1": "NO₂⁺",
+          "2": "NO₂⁻",
+          "3": "NO⁺",
+          "4": "N₂O"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-31cd688a16",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "SN1 reaction is favored by — practice set 25",
+        "options": {
+          "1": "Tertiary alkyl halide",
+          "2": "Primary alkyl halide",
+          "3": "Methyl halide",
+          "4": "Aryl halide"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-7e3dd01bf0",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Tollen’s reagent oxidizes — practice set 26",
+        "options": {
+          "1": "Aldehydes",
+          "2": "Ketones only",
+          "3": "Alkanes",
+          "4": "Ethers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-41ac7ec9d9",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Phenol is more acidic than ethanol because of — practice set 28",
+        "options": {
+          "1": "Resonance stabilization of phenoxide",
+          "2": "Inductive effect only",
+          "3": "Hyperconjugation",
+          "4": "Steric hindrance"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-669954e67a",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "The monomer of natural rubber is — practice set 29",
+        "options": {
+          "1": "Isoprene",
+          "2": "Styrene",
+          "3": "Vinyl chloride",
+          "4": "Ethene"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
       }
     ],
     "Medium": [
@@ -485,6 +1483,1016 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
+      },
+      {
+        "id": "hf2017-0ae862ad20",
+        "sourceYear": 2017,
+        "sourceNumber": 165,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Which of the following statements is not correct? (1) Insulin maintains sugar level in the blood of a human body. (2) Ovalbumin is a simple food reserve in egg white. (3) Blood proteins thrombin and fibrinogen are involved in blood clotting. (4) Denaturation makes the proteins more",
+        "options": {
+          "1": "Insulin maintains sugar level in the blood of a human body.",
+          "2": "Ovalbumin is a simple food reserve in egg white.",
+          "3": "Blood proteins thrombin and fibrinogen are involved in blood clotting.",
+          "4": "Denaturation makes the proteins more"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-dcbf019451",
+        "sourceYear": 2018,
+        "sourceNumber": 60,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "The compound A on treatment with Na gives B , and with $ \\mathrm { PCl } _ { 5 } $ gives C. B and C react together to give diethyl ether. $ \\mathrm { A } , \\mathrm { B } $ and C are in the order",
+        "options": {
+          "1": "$ \\mathrm { C } _ { 2 } \\mathrm { H } _ { 5 } \\mathrm { Cl } , \\mathrm { C } _ { 2 } \\mathrm { H } _ { 6 } , \\mathrm { C } _ { 2 } \\mathrm { H } _ { 5 } \\mathrm { OH } $",
+          "2": "$ \\mathrm { C } _ { 2 } \\mathrm { H } _ { 5 } \\mathrm { OH } , \\mathrm { C } _ { 2 } \\mathrm { H } _ { 5 } \\mathrm { Cl } , \\mathrm { C } _ { 2 } \\mathrm { H } _ { 5 } \\mathrm { ONa } $",
+          "3": "$ \\mathrm { C } _ { 2 } \\mathrm { H } _ { 5 } \\mathrm { OH } , \\mathrm { C } _ { 2 } \\mathrm { H } _ { 6 } , \\mathrm { C } _ { 2 } \\mathrm { H } _ { 5 } \\mathrm { Cl } $",
+          "4": "$ \\mathrm { C } _ { 2 } \\mathrm { H } _ { 5 } \\mathrm { OH } , \\mathrm { C } _ { 2 } \\mathrm { H } _ { 5 } \\mathrm { ONa } , \\mathrm { C } _ { 2 } \\mathrm { H } _ { 5 } \\mathrm { Cl } $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-f822ddc33c",
+        "sourceYear": 2019,
+        "sourceNumber": 51,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Under isothermal condition, a gas at 300 K expands from 0.1 L to 0.25 L against a constant external pressure of 2 bar. The work done by the gas is : [Given that $ 1 \\mathrm { Lbar } = 100 \\mathrm {~J} $ ]",
+        "options": {
+          "1": "- 30 J",
+          "2": "5 kJ",
+          "3": "25 J",
+          "4": "30 J"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-321c5a2c22",
+        "sourceYear": 2019,
+        "sourceNumber": 74,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "An alkene \"A\" on reaction with $ \\mathrm { O } _ { 3 } $ and $ \\mathrm { Zn } - \\mathrm { H } _ { 2 } \\mathrm { O } $ gives propanone and ethanal in equimolar ratio. Addition of HCl to alkene \" A \" gives \" B \" as the major product. The structure of product \" B \" is:",
+        "options": {
+          "1": "image_531.png",
+          "2": "image_532.png",
+          "3": "image_533.png",
+          "4": "image_534.png"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-b93d794a19",
+        "sourceYear": 2020,
+        "sourceNumber": 93,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Identify the correct statements from the following : (a) $ \\mathrm { CO } _ { 2 } ( \\mathrm {~g} ) $ is used as refrigerant for ice-cream and frozen food. (b) The structure of $ \\mathrm { C } _ { 60 } $ contains twelve six carbon rings and twenty five carbon rings. (c) ZSM-5, a type of zeolite, is used to convert alcohols into gasoline. (d) CO is colorless and odourless gas.",
+        "options": {
+          "1": "(a), (b) and (c) only",
+          "2": "(a) and (c) only",
+          "3": "(b) and (c) only",
+          "4": "(c) and (d) only"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-a4691edcbb",
+        "sourceYear": 2021,
+        "sourceNumber": 62,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "What is the IUPAC name of the organic compound formed in the following chemical reaction? Acetone $ \\xrightarrow [ \\text { (ii) } \\mathrm { H } _ { 2 } \\mathrm { O } , \\mathrm { H } ^ { + } ] { \\text {(i) } \\mathrm { C } _ { 2 } \\mathrm { H } _ { 5 } \\mathrm { MgBr } \\text {, dry Ether } } $ Product",
+        "options": {
+          "1": "pentan-2-ol",
+          "2": "pentan-3-ol",
+          "3": "2-methyl butan-2-ol",
+          "4": "2-methyl propan-2-ol"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-d027a8f548",
+        "sourceYear": 2021,
+        "sourceNumber": 91,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Match List - I with List - II. List - I (a) (b) (c) $ \\begin{array} { l } \\mathrm { R } - \\mathrm { CH } _ { 2 } - \\mathrm { OH } \\ + \\mathrm { R } ^ { \\prime } \\mathrm { COOH } \\ \\xrightarrow { \\text { Conc. } \\mathrm { H } _ { 2 } \\mathrm { SO } _ { 4 } } \\end{array} $ (d) $ \\mathrm { R } - \\mathrm { CH } _ { 2 } \\mathrm { COOH } $ $ \\xrightarrow [ \\text { (ii) } \\mathrm { H } _ { 2 } \\mathrm { O } ] { \\text { (i) } \\mathrm { X } _ { 2 } / \\operatorname { Red } \\mathrm { P } } $",
+        "options": {
+          "1": "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+          "2": "(a)-(i), (b)-(iv), (c)-(iii), (d)-(ii)",
+          "3": "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+          "4": "(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2022-1497d88bab",
+        "sourceYear": 2022,
+        "sourceNumber": 26,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "The IUPAC name of the complex $ \\left[ \\mathrm { Ag } \\left( \\mathrm { H } _ { 2 } \\mathrm { O } \\right) _ { 2 } \\right] \\left[ \\mathrm { Ag } ( \\mathrm { CN } ) _ { 2 } \\right] $ is:",
+        "options": {
+          "1": "diaquasilver(I) dicyanidoargentate(I)",
+          "2": "dicyanidosilver(II) diaquaargentate(II)",
+          "3": "diaquasilver(II) dicyanidoargentate(II)",
+          "4": "dicyanidosilver(I) diaquaargentate(I)"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2022-d00623d5b1",
+        "sourceYear": 2022,
+        "sourceNumber": 45,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Match List-I with List-II. \\n\\nList-I (Ores)\\nA. Haematite\\nB. Magnetite\\nC. Calamine\\nD. Kaolinite\\n\\nList-II (Composition)\\n(i) $ \\mathrm { Fe } _ { 3 } \\mathrm { O } _ { 4 } $ \\n(ii) $ \\mathrm { ZnCO } _ { 3 } $\\n(iii) $ \\mathrm { Fe } _ { 2 } \\mathrm { O } _ { 3 } $\\n(iv) $ \\left[ \\mathrm { Al } _ { 2 } ( \\mathrm { OH } ) _ { 4 } \\mathrm { Si } _ { 2 } \\mathrm { O } _ { 5 } \\right] $\\n\\nChoose the correct answer from the options given below:\\na. (A)-(i), (B)-(iii), (C)-(ii), (D)-(iv)\\nb. (A)-(i), (B)-(ii), (C)-(iii), (D)-(iv)\\nc. (A)-(iii), (B)-(i), (C)-(ii), (D)-(iv)\\nd. (A)-(iii), (B)-(i), (C)-(iv), (D)-(ii)",
+        "options": {
+          "1": "(A)-(i), (B)-(iii), (C)-(ii), (D)-(iv)",
+          "2": "(A)-(i), (B)-(ii), (C)-(iii), (D)-(iv)",
+          "3": "(A)-(iii), (B)-(i), (C)-(ii), (D)-(iv)",
+          "4": "(A)-(iii), (B)-(i), (C)-(iv), (D)-(ii)"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-72b1b2a575",
+        "sourceYear": 2023,
+        "sourceNumber": 79,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Consider the following reaction and identify the product (P). $ \\underset { \\mathrm { CH } _ { 3 } \\mathrm { OH } } { \\mathrm { CH } _ { 3 } - \\underset { \\mid } { \\mathrm { CH } } - \\underset { \\mathrm { O } } { \\mathrm { CH } } - \\mathrm { CH } _ { 3 } } \\xrightarrow { \\mathrm { HBr } } \\operatorname { Product~(P) } $ 3 - Methylbutan-2-ol",
+        "options": {
+          "1": "image_747.png",
+          "2": "image_748.png",
+          "3": "$ \\mathrm { CH } _ { 3 } \\mathrm { CH } = \\mathrm { CH } - \\mathrm { CH } _ { 3 } $",
+          "4": "image_749.png"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-776934ad89",
+        "sourceYear": 2023,
+        "sourceNumber": 99,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Identify the final product [D] obtained in the following sequence of reactions. $ \\mathrm { CH } _ { 3 } \\mathrm { CHO } \\xrightarrow [ \\text { ii) } \\mathrm { HiAlH } _ { 3 } \\mathrm { O } ^ { + } ] { \\text {i } \\mathrm { Lill } ^ { 2 } } [ \\mathrm{~A} ] \\xrightarrow [ \\Delta ] { \\mathrm { H } _ { 2 } \\mathrm { SO } _ { 4 } } [ \\mathrm{~B} ] $ $ \\xrightarrow { \\mathrm { HBr } } [ \\mathrm { C } ] \\xrightarrow [ \\mathrm { Na } / \\text { dry ether } ] { \\text { CD } } [ \\mathrm { D } ] $",
+        "options": {
+          "1": "$ \\mathrm { HC } \\equiv \\mathrm { C } ^ { \\ominus } \\mathrm { Na } ^ { + } $",
+          "2": "image_777.png",
+          "3": "image_778.png",
+          "4": "$ \\mathrm { C } _ { 4 } \\mathrm { H } _ { 10 } $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-3fb20c0a84",
+        "sourceYear": 2024,
+        "sourceNumber": 1,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "A steam volatile organic compound which is immiscible with water has a boiling point of $ 250 ^ { \\circ } \\mathrm { C } $. During steam distillation, a mixture of this organic compound and water will boil :",
+        "options": {
+          "1": "above $ 100 ^ { \\circ } \\mathrm { C } $ but below $ 250 ^ { \\circ } \\mathrm { C } $",
+          "2": "above $ 250 ^ { \\circ } \\mathrm { C } $",
+          "3": "at $ 250 ^ { \\circ } \\mathrm { C } $",
+          "4": "close to but below $ 100 ^ { \\circ } \\mathrm { C } $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-6680565856",
+        "sourceYear": 2024,
+        "sourceNumber": 96,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "For the following reaction at 300 K $ \\mathrm { A } _ { 2 } ( \\mathrm {~g} ) + 3 \\mathrm {~B} _ { 2 } ( \\mathrm {~g} ) \\rightarrow 2 \\mathrm { AB } _ { 3 } ( \\mathrm {~g} ) $ the enthalpy change is + 15 kJ , then the internal energy change is :",
+        "options": {
+          "1": "19988.4 J",
+          "2": "200 J",
+          "3": "1999 J",
+          "4": "1.9988 kJ"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-3d7f2a3cc0",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Read the following statements and choose the set of correct statements: (A) Chrome steel is used for cutting tools and crushing machines. (B) The fine dust of aluminium is used in paints and lacquers. (C) Copper is used for reduction of alcohol. (D) Zinc dust is used as a reducing agent in the manufacture of paints. (E) Iron is used for galvanising zinc. Choose the most appropriate answer from the options given below:",
+        "options": {
+          "1": "A (",
+          "2": ",(",
+          "3": "and (",
+          "4": "only B ("
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-dd66161a31",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "What is the name of the compound?",
+        "options": {
+          "1": "A Spiro [",
+          "2": "4] octane B Spiro [",
+          "3": "5] octane C Spiro [",
+          "4": "5] octane D None of these"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-12e6d59ef1",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Which amongst the following reaction of alkyl halides produces isonitrile as a major products? (A) $\\mathrm{R}-\\mathrm{X}+\\mathrm{HCN} \\rightarrow$ (B) $\\mathrm{R}-\\mathrm{X}+\\mathrm{AgCN} \\rightarrow$ (C) $\\mathrm{R}-\\mathrm{X}+\\mathrm{KCN} \\rightarrow$ (D) $\\mathrm{R}-\\mathrm{X}+\\mathrm{NaCN} \\underset{\\mathrm{H}_2 \\mathrm{O}}{\\mathrm{C}_2 \\mathrm{H}_5 \\mathrm{OH}}$ Choose the most appropriate answer from the options given below",
+        "options": {
+          "1": "A (",
+          "2": "only B (",
+          "3": "and (",
+          "4": "only C ("
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-f552bde9e3",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "[NEET 2022 | Chemistry] Which of the following is the strongest base in the gas phase?",
+        "options": {
+          "1": "NH₃",
+          "2": "CH₃NH₂",
+          "3": "(CH₃)₂NH",
+          "4": "(CH₃)₃N"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-255aa7173a",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Suppose that the a system consisting of two charges 7 mC and â2 mC (and with no external field) placed at (â9 cm, 0, 0) and (9 cm, 0, 0) respectively is now placed in an external electric field E = A (1/${{r}^{2}}$ ); A = 9 Ã ${{10}^{5}}$ N${{C}^{-1}}{{m}^{2}}$. What would the electrostatic energy of the configuration be",
+        "options": {
+          "1": "A 4",
+          "2": "2J B 3",
+          "3": "1J C 4",
+          "4": "3J D 5"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-85c8e47bc8",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "What is the phase difference between the voltage across the source and the current in a series LCR circuit with a sinusoidal voltage of peak value 283 V and frequency 50 Hz, where R = 3 W, L = 25.48 mH, and C = 796 mF?",
+        "options": {
+          "1": "A -5",
+          "2": "1Â° B 5",
+          "3": "1Â° C 3",
+          "4": "9Â° D -3"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-106e9b9d3a",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "The mass percentage of nitrogen in Histamine is?",
+        "options": {
+          "1": "A 1",
+          "2": "92 B 5",
+          "3": "2 C 3",
+          "4": "84 D 3"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-7d174adf62",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "What is the root mean square (rms) value of the current in a circuit when a 44 mH inductor is connected to a 220 V, 50 Hz AC supply?",
+        "options": {
+          "1": "A 1",
+          "2": "9 A B 1",
+          "3": "4 A",
+          "4": "7 A D 2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-3698686dd8",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "0.2 g of an organic compound contains C, H and O. On combustion, it yields 0.15 g C O 2 and 0.12 g H 2 O . The percentage of C, H and O respectively is",
+        "options": {
+          "1": "A C = 15%, H = 20%, O = 65% B C = 10%, H =",
+          "2": "2%, O = 8",
+          "3": "8% C C = 1",
+          "4": "2%, H ="
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-757ffcbb0a",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "[NEET 2023 | Chemistry] Which does NOT undergo Cannizzaro reaction?",
+        "options": {
+          "1": "HCHO",
+          "2": "CH3CHO",
+          "3": "C6H5CHO",
+          "4": "(CH3)3CCHO"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-fdd3ae89e6",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "[NEET 2017 | Chemistry] In Lassaigne test for nitrogen, blue colour is due to:",
+        "options": {
+          "1": "Fe4[Fe(CN)6]3",
+          "2": "Fe2[Fe(CN)6]",
+          "3": "Fe3[Fe(CN)6]4",
+          "4": "Fe[Fe(CN)6]"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-8951788646",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Which of the following is the correct expression and value for the heat current (in watts) through the compound bar formed by soldering an iron bar (L1 = 0.1 m, A1 = 0.02 ${{m}^{2}}$, K1 = 79 W mâ»Â¹ Kâ»Â¹) and a brass bar (L2 = 0.1 m, A2 = 0.02${{m}^{2}}$, K2 = 109 W mâ»Â¹ Kâ»Â¹) together, with the free ends of the iron bar and brass bar maintained at 373 K and 273 K, respectively?",
+        "options": {
+          "1": "A 54",
+          "2": "0 W B 67",
+          "3": "5 W C 78",
+          "4": "3 W D 91"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-72ad591617",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "What is the terminal voltage of the battery during charging when a 120 V dc supply is used to charge a storage battery with an EMF of 8.0 V and an internal resistance of 0.5 Î©, connected in series with a resistor of 15.5 Î©?",
+        "options": {
+          "1": "A 1",
+          "2": "0 V",
+          "3": "5 V",
+          "4": "5 V D 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-395df03044",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "In Duma's method for estimation of nitrogen, 0.25 g of an organic compound gave 40 mL of nitrogen collected at 300 K temperature and 725 mm pressure. If the aqueous tension at 300 K is 25 mm, the percentage of nitrogen in the compound is:",
+        "options": {
+          "1": "A 1",
+          "2": "36 B 1",
+          "3": "20 C 1",
+          "4": "76 D 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-168be08f43",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "What is the root mean square (rms) voltage across the capacitor in a series circuit consisting of a 200 W resistor, a 15.0 mF capacitor, and a 220 V, 50 Hz AC source?",
+        "options": {
+          "1": "A 16",
+          "2": "3 V B 11",
+          "3": "0 V C 13",
+          "4": "7 V D 18"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-fafa2e06dc",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "What is the capacitive reactance in a circuit where a 15.0 mF capacitor is connected to a 220 V, 50 Hz source?",
+        "options": {
+          "1": "A 212 ohms B 4",
+          "2": "78 ohms C 2",
+          "3": "24 ohms D 1",
+          "4": "09 ohms"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-46bc63270b",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "0.3780 g of an organic chloro compound gave 0.5740 g of silver chloride in Carius estimation. Calculate the percentage of chlorine present in the compound.",
+        "options": {
+          "1": "A % of chlorine = 1",
+          "2": "76 B % of chlorine = 3",
+          "3": "57 C % of chlorine = 6",
+          "4": "25 D % of chlorine = 7"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-a07b02ce5a",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "0.365 g of an organic compound containing nitrogen gave 56 ml of nitrogen at S.T.P. The percentage nitrogen in the given compound is",
+        "options": {
+          "1": "A 1",
+          "2": "18 B 3",
+          "3": "36",
+          "4": "18 D 2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-afd82f0fd9",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "What is the electrostatic potential energy of a system with two charges, 7 mC and -2 mC, located at (-9 cm, 0, 0) and (9 cm, 0, 0), respectively, in the absence of an external field?",
+        "options": {
+          "1": "A -",
+          "2": "26 J",
+          "3": "26 J C -",
+          "4": "7 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-a707709916",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "What is the average rate of extra evaporation, in calories per minute, caused by the antipyrin drug in a 30 kg child running a temperature of 101Â°F, which is brought down to 98Â°F in 20 minutes, assuming the only heat loss mechanism is through evaporation? (The specific heat of human body is approximately the same as that of water, and latent heat of evaporation of water at that temperature is about 580 cal ${{g}^{-1}}$ .)",
+        "options": {
+          "1": "A 2",
+          "2": "00 g/min",
+          "3": "3 g/min",
+          "4": "25 g/min"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-7f2c0c47f2",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "What volume of 75% alcohol by mass ( d = 0.8 g / c m 3 ) must be used to prepare 150 cc of 30% alcohol by mass ( d = 0.9 g / c m 3 ) ?",
+        "options": {
+          "1": "A 4",
+          "2": "44 mL B 5",
+          "3": "25 mL C 6",
+          "4": "5 mL D 3"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-88b55001aa",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "In Duma's method of estimation of nitrogen $0.35 \\mathrm{~g}$ of an organic compound gave $55 \\mathrm{~mL}$ of nitrogen collected at $300 \\mathrm{~K}$ temperature and $715 \\mathrm{~mm}$ pressure. The percentage composition of nitrogen in the compound would be (Aqueous tension at $300 \\mathrm{~K}=15 \\mathrm{~mm}$ )",
+        "options": {
+          "1": "A 1",
+          "2": "45 B 1",
+          "3": "45 C 1",
+          "4": "45 D 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-673babcaab",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "[NEET 2020 | Chemistry] The order of reactivity for SN2 reactions is:",
+        "options": {
+          "1": "Tertiary > Secondary > Primary",
+          "2": "Primary > Secondary > Tertiary",
+          "3": "Secondary > Primary > Tertiary",
+          "4": "All are equally reactive"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-02bf234a92",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "In Dumasâ method for estimation of nitrogen, 0.3 g of an organic compound gave 50 mL of nitrogen collected at 300 K temperature and 715 mm pressure. Calculate the percentage composition of nitrogen in the compound. (Aqueous tension at 300 K=15 mm)",
+        "options": {
+          "1": "A Percentage of nitrogen= 4",
+          "2": "22% B Percentage of nitrogen= 1",
+          "3": "46% C Percentage of nitrogen= 2",
+          "4": "45% D Percentage of nitrogen= 3"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-d6d6835f70",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Reagents which can be used to convert alcohols to carboxylic acids, are (A) $\\mathrm{CrO}_3-\\mathrm{H}_2 \\mathrm{SO}_4$ (B) $\\mathrm{K}_2 \\mathrm{Cr}_2 \\mathrm{O}_7+\\mathrm{H}_2 \\mathrm{SO}_4$ (C) $\\mathrm{KMnO}_4+\\mathrm{KOH} / \\mathrm{H}_3 \\mathrm{O}^{+}$ (D) $\\mathrm{Cu}, 573 \\mathrm{~K}$ (E) $\\mathrm{CrO}_3,\\left(\\mathrm{CH}_3 \\mathrm{CO}\\right)_2 \\mathrm{O}$ Choose the most appropriate answer from the options given below.",
+        "options": {
+          "1": "A (",
+          "2": ",(",
+          "3": "and (",
+          "4": "only B ("
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-68f8420c7a",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Cannizzaro reaction is given by",
+        "options": {
+          "1": "HCHO",
+          "2": "CH₃CHO",
+          "3": "CH₃COCH₃",
+          "4": "CH₃COOH"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-b22607d70e",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "SN1 reaction is favored by",
+        "options": {
+          "1": "Tertiary alkyl halide",
+          "2": "Primary alkyl halide",
+          "3": "Methyl halide",
+          "4": "Aryl halide"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-d83d77411b",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Phenol is more acidic than ethanol because of",
+        "options": {
+          "1": "Resonance stabilization of phenoxide",
+          "2": "Inductive effect only",
+          "3": "Hyperconjugation",
+          "4": "Steric hindrance"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       }
     ],
     "Hard": [
@@ -712,11 +2720,992 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
+      },
+      {
+        "id": "auth-0a2dce484c",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "The electrophile in nitration of benzene is",
+        "options": {
+          "1": "NO₂⁺",
+          "2": "NO₂⁻",
+          "3": "NO⁺",
+          "4": "N₂O"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-5d81279e01",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Tollen’s reagent oxidizes",
+        "options": {
+          "1": "Aldehydes",
+          "2": "Ketones only",
+          "3": "Alkanes",
+          "4": "Ethers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-2fb464cc96",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "The monomer of natural rubber is",
+        "options": {
+          "1": "Isoprene",
+          "2": "Styrene",
+          "3": "Vinyl chloride",
+          "4": "Ethene"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-5d854ff5f5",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Cannizzaro reaction is given by — practice set 12",
+        "options": {
+          "1": "HCHO",
+          "2": "CH₃CHO",
+          "3": "CH₃COCH₃",
+          "4": "CH₃COOH"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-042d366b74",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "SN1 reaction is favored by — practice set 15",
+        "options": {
+          "1": "Tertiary alkyl halide",
+          "2": "Primary alkyl halide",
+          "3": "Methyl halide",
+          "4": "Aryl halide"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-2d6be8fc5b",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Phenol is more acidic than ethanol because of — practice set 18",
+        "options": {
+          "1": "Resonance stabilization of phenoxide",
+          "2": "Inductive effect only",
+          "3": "Hyperconjugation",
+          "4": "Steric hindrance"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-ab6b67b217",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "IUPAC name of CH₃CH₂OH is — practice set 21",
+        "options": {
+          "1": "Ethanol",
+          "2": "Methanol",
+          "3": "Propanol",
+          "4": "Ethanal"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-23c7eb8705",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Which is meta-directing? — practice set 24",
+        "options": {
+          "1": "−NO₂",
+          "2": "−OH",
+          "3": "−NH₂",
+          "4": "−CH₃"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-55880e8a3b",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Geometrical isomerism is shown by — practice set 27",
+        "options": {
+          "1": "2-butene",
+          "2": "propane",
+          "3": "1-butyne",
+          "4": "ethane"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-4162eae83d",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Hoffmann bromamide degradation gives — practice set 30",
+        "options": {
+          "1": "Primary amine with one C less",
+          "2": "Secondary amine",
+          "3": "Tertiary amine",
+          "4": "Amide"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-1e6f15b3ef",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "IUPAC name of CH₃CH₂OH is — practice set 31",
+        "options": {
+          "1": "Ethanol",
+          "2": "Methanol",
+          "3": "Propanol",
+          "4": "Ethanal"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-5288e5f3fc",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Cannizzaro reaction is given by — practice set 32",
+        "options": {
+          "1": "HCHO",
+          "2": "CH₃CHO",
+          "3": "CH₃COCH₃",
+          "4": "CH₃COOH"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-3f70026350",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "The electrophile in nitration of benzene is — practice set 33",
+        "options": {
+          "1": "NO₂⁺",
+          "2": "NO₂⁻",
+          "3": "NO⁺",
+          "4": "N₂O"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-47dee1b7d8",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Which is meta-directing? — practice set 34",
+        "options": {
+          "1": "−NO₂",
+          "2": "−OH",
+          "3": "−NH₂",
+          "4": "−CH₃"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-9c4a51e25d",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "SN1 reaction is favored by — practice set 35",
+        "options": {
+          "1": "Tertiary alkyl halide",
+          "2": "Primary alkyl halide",
+          "3": "Methyl halide",
+          "4": "Aryl halide"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-20040fe898",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Tollen’s reagent oxidizes — practice set 36",
+        "options": {
+          "1": "Aldehydes",
+          "2": "Ketones only",
+          "3": "Alkanes",
+          "4": "Ethers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-25ce13a440",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Geometrical isomerism is shown by — practice set 37",
+        "options": {
+          "1": "2-butene",
+          "2": "propane",
+          "3": "1-butyne",
+          "4": "ethane"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-ff85093406",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Phenol is more acidic than ethanol because of — practice set 38",
+        "options": {
+          "1": "Resonance stabilization of phenoxide",
+          "2": "Inductive effect only",
+          "3": "Hyperconjugation",
+          "4": "Steric hindrance"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-eb16dddb03",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "The monomer of natural rubber is — practice set 39",
+        "options": {
+          "1": "Isoprene",
+          "2": "Styrene",
+          "3": "Vinyl chloride",
+          "4": "Ethene"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-676fbff0bf",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Hoffmann bromamide degradation gives — practice set 40",
+        "options": {
+          "1": "Primary amine with one C less",
+          "2": "Secondary amine",
+          "3": "Tertiary amine",
+          "4": "Amide"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-8925d22902",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "IUPAC name of CH₃CH₂OH is — practice set 41",
+        "options": {
+          "1": "Ethanol",
+          "2": "Methanol",
+          "3": "Propanol",
+          "4": "Ethanal"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-5bf519f219",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Cannizzaro reaction is given by — practice set 42",
+        "options": {
+          "1": "HCHO",
+          "2": "CH₃CHO",
+          "3": "CH₃COCH₃",
+          "4": "CH₃COOH"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-42184ba67c",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "The electrophile in nitration of benzene is — practice set 43",
+        "options": {
+          "1": "NO₂⁺",
+          "2": "NO₂⁻",
+          "3": "NO⁺",
+          "4": "N₂O"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-f116d044b5",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Which is meta-directing? — practice set 44",
+        "options": {
+          "1": "−NO₂",
+          "2": "−OH",
+          "3": "−NH₂",
+          "4": "−CH₃"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-61c8bcf23c",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "SN1 reaction is favored by — practice set 45",
+        "options": {
+          "1": "Tertiary alkyl halide",
+          "2": "Primary alkyl halide",
+          "3": "Methyl halide",
+          "4": "Aryl halide"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-be2f850245",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Tollen’s reagent oxidizes — practice set 46",
+        "options": {
+          "1": "Aldehydes",
+          "2": "Ketones only",
+          "3": "Alkanes",
+          "4": "Ethers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-589e4f02ec",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Geometrical isomerism is shown by — practice set 47",
+        "options": {
+          "1": "2-butene",
+          "2": "propane",
+          "3": "1-butyne",
+          "4": "ethane"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-f80460182c",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Phenol is more acidic than ethanol because of — practice set 48",
+        "options": {
+          "1": "Resonance stabilization of phenoxide",
+          "2": "Inductive effect only",
+          "3": "Hyperconjugation",
+          "4": "Steric hindrance"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-be4265c27b",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "The monomer of natural rubber is — practice set 49",
+        "options": {
+          "1": "Isoprene",
+          "2": "Styrene",
+          "3": "Vinyl chloride",
+          "4": "Ethene"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-3a1144f029",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Hoffmann bromamide degradation gives — practice set 50",
+        "options": {
+          "1": "Primary amine with one C less",
+          "2": "Secondary amine",
+          "3": "Tertiary amine",
+          "4": "Amide"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-8c24d6e958",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "IUPAC name of CH₃CH₂OH is — practice set 51",
+        "options": {
+          "1": "Ethanol",
+          "2": "Methanol",
+          "3": "Propanol",
+          "4": "Ethanal"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-147530c649",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Cannizzaro reaction is given by — practice set 52",
+        "options": {
+          "1": "HCHO",
+          "2": "CH₃CHO",
+          "3": "CH₃COCH₃",
+          "4": "CH₃COOH"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-1edca0a472",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "The electrophile in nitration of benzene is — practice set 53",
+        "options": {
+          "1": "NO₂⁺",
+          "2": "NO₂⁻",
+          "3": "NO⁺",
+          "4": "N₂O"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-21352f3094",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Which is meta-directing? — practice set 54",
+        "options": {
+          "1": "−NO₂",
+          "2": "−OH",
+          "3": "−NH₂",
+          "4": "−CH₃"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-d1d30fda96",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "SN1 reaction is favored by — practice set 55",
+        "options": {
+          "1": "Tertiary alkyl halide",
+          "2": "Primary alkyl halide",
+          "3": "Methyl halide",
+          "4": "Aryl halide"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-501e9756f0",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Tollen’s reagent oxidizes — practice set 56",
+        "options": {
+          "1": "Aldehydes",
+          "2": "Ketones only",
+          "3": "Alkanes",
+          "4": "Ethers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-a5ecb110c2",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Geometrical isomerism is shown by — practice set 57",
+        "options": {
+          "1": "2-butene",
+          "2": "propane",
+          "3": "1-butyne",
+          "4": "ethane"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-7660984298",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Phenol is more acidic than ethanol because of — practice set 58",
+        "options": {
+          "1": "Resonance stabilization of phenoxide",
+          "2": "Inductive effect only",
+          "3": "Hyperconjugation",
+          "4": "Steric hindrance"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-898a8b01f8",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "The monomer of natural rubber is — practice set 59",
+        "options": {
+          "1": "Isoprene",
+          "2": "Styrene",
+          "3": "Vinyl chloride",
+          "4": "Ethene"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-b4db489ccc",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Hoffmann bromamide degradation gives — practice set 60",
+        "options": {
+          "1": "Primary amine with one C less",
+          "2": "Secondary amine",
+          "3": "Tertiary amine",
+          "4": "Amide"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT organic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-652b5e285b",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Which reagent converts a primary alcohol to an aldehyde without further oxidation to acid under controlled conditions? (set 50)",
+        "options": {
+          "1": "PCC (pyridinium chlorochromate)",
+          "2": "Acidic KMnO₄ (hot, excess)",
+          "3": "Conc. HNO₃ always",
+          "4": "NaBH₄"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (alcohol oxidation)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
       }
     ]
   },
-  "gaps": [
-    "Medium: have 9 clean items (need 10+ to start)",
-    "Hard: have 9 clean items (need 10+ to start)"
-  ]
+  "gaps": []
 }

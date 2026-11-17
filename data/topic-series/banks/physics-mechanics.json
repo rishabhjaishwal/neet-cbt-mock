@@ -3,9 +3,9 @@
   "subject": "Physics",
   "topic": "Mechanics",
   "counts": {
-    "Easy": 14,
-    "Medium": 14,
-    "Hard": 14
+    "Easy": 50,
+    "Medium": 73,
+    "Hard": 50
   },
   "questions": {
     "Easy": [
@@ -56,31 +56,6 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q138",
-        "sourceYear": 2019,
-        "sourceNumber": 4,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Easy",
-        "stem": "A mass falls from a height 'h' and its time of fall 't' is recorded in terms of time period T of a simple pendulum. On the surface of earth it is found that t = 2T. The entire set up is taken on the surface of another planet whose mass is half of that of earth and radius the same. Same experiment is repeated and corresponding times noted as t' and T'. Then we can say",
-        "options": {
-          "1": "t' = 2T '",
-          "2": "t' > 2T '",
-          "3": "t' < 2T'",
-          "4": "t' = 2T '"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
       },
@@ -210,56 +185,6 @@
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q35",
-        "sourceYear": 2023,
-        "sourceNumber": 34,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Easy",
-        "stem": "Two bodies of mass m and 9m are placed at a distance R. The gravitational potential on the line joining the bodies where the gravitational field equals zero, will be (G = gravitational constant) 12 Gm 16 Gm",
-        "options": {
-          "1": "−",
-          "2": "− R R 20 Gm 8 Gm",
-          "3": "−",
-          "4": "− R R"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q50",
-        "sourceYear": 2023,
-        "sourceNumber": 49,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Easy",
-        "stem": "The x-t graph of a particle performing simple harmonic motion is shown in the figure. The acceleration of the particle at t = 2 s is π2",
-        "options": {
-          "1": "m s –2 8 π2",
-          "2": "m s –2 16 π2",
-          "3": "m s –2 16 π2",
-          "4": "m s –2 8"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2023-F1-Q50.png",
-        "figureKind": "pdf-crop",
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2024-R1-Q20",
         "sourceYear": 2024,
         "sourceNumber": 17,
@@ -358,6 +283,960 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
+      },
+      {
+        "id": "hf2018-217216caeb",
+        "sourceYear": 2018,
+        "sourceNumber": 23,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "The electrostatic force between the metal plate of an isolated parallel plate capacitor C having a charge $ Q $ and area $ A $, is",
+        "options": {
+          "1": "proportional to the square root of the distance between the plates.",
+          "2": "linearly proportional to the distance between the plates.",
+          "3": "independent of the distance between the plates.",
+          "4": "inversely proportional to the distance between the plates."
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-dcb050e027",
+        "sourceYear": 2019,
+        "sourceNumber": 19,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "Average velocity of a particle executing SHM in one complete vibration is :",
+        "options": {
+          "1": "$ \\frac { A \\omega } { 2 } $",
+          "2": "$ \\mathrm { A } \\omega $",
+          "3": "$ \\frac { \\mathrm { A } \\omega ^ { 2 } } { 2 } $",
+          "4": "zero"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-5d2db72b73",
+        "sourceYear": 2020,
+        "sourceNumber": 167,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "Dimensions of stress are :",
+        "options": {
+          "1": "$ \\left[ \\mathrm { MLT } ^ { - 2 } \\right] $",
+          "2": "$ \\left[ \\mathrm { ML } ^ { 2 } \\mathrm {~T} ^ { - 2 } \\right] $",
+          "3": "$ \\left[ \\mathrm { ML } ^ { 0 } \\mathrm {~T} ^ { - 2 } \\right] $",
+          "4": "$ \\left[ \\mathrm { ML } ^ { - 1 } \\mathrm {~T} ^ { - 2 } \\right] $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-8d6a10db66",
+        "sourceYear": 2021,
+        "sourceNumber": 14,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "If $ E $ and $ G $ respectively denote energy and gravitational constant, then $ \\frac { E } { G } $ has the dimensions of :",
+        "options": {
+          "1": "$ [ \\mathrm { M } ] \\left[ \\mathrm { L } ^ { - 1 } \\right] \\left[ \\mathrm { T } ^ { - 1 } \\right] $",
+          "2": "$ [ \\mathrm { M } ] \\left[ \\mathrm { L } ^ { 0 } \\right] \\left[ \\mathrm { T } ^ { 0 } \\right] $",
+          "3": "$ \\left[ \\mathrm { M } ^ { 2 } \\right] \\left[ \\mathrm { L } ^ { - 2 } \\right] \\left[ \\mathrm { T } ^ { - 1 } \\right] $",
+          "4": "$ \\left[ \\mathrm { M } ^ { 2 } \\right] \\left[ \\mathrm { L } ^ { - 1 } \\right] \\left[ \\mathrm { T } ^ { 0 } \\right] $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-a1c768ae85",
+        "sourceYear": 2021,
+        "sourceNumber": 15,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A spring is stretched by 5 cm by a force 10 N . The time period of the oscillations when a mass of 2 kg is suspended by it is:",
+        "options": {
+          "1": "6.28 s",
+          "2": "3.14 s",
+          "3": "0.628 s",
+          "4": "0.0628 s"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-501169b64f",
+        "sourceYear": 2021,
+        "sourceNumber": 22,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body is executing simple harmonic motion with frequency ' $ n $ ', the frequency of its potential energy is :",
+        "options": {
+          "1": "2 n",
+          "2": "$ 3 n $",
+          "3": "4 n",
+          "4": "n"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-37a5f0fe3e",
+        "sourceYear": 2021,
+        "sourceNumber": 28,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "If force [F], acceleration [A] and time [T] are chosen as the fundamental physical quantities. Find the dimensions of energy.",
+        "options": {
+          "1": "$ [ \\mathrm { F } ] [ \\mathrm { A } ] \\left[ \\mathrm { T } ^ { 2 } \\right] $",
+          "2": "$ [ \\mathrm { F } ] [ \\mathrm { A } ] \\left[ \\mathrm { T } ^ { - 1 } \\right] $",
+          "3": "$ [ \\mathrm { F } ] \\left[ \\mathrm { A } ^ { - 1 } \\right] [ \\mathrm { T } ] $",
+          "4": "$ [ \\mathrm { F } ] [ \\mathrm { A } ] [ \\mathrm { T } ] $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2022-3f69d939ef",
+        "sourceYear": 2022,
+        "sourceNumber": 3,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "The graph which shows the variation of the de Broglie wavelength (l) of a particle and its associated momentum $ ( \\mathrm { p } ) $ is :",
+        "options": {
+          "1": "image_672.png",
+          "2": "image_674.png",
+          "3": "image_673.png",
+          "4": "image_675.png"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-e1902d08e9",
+        "sourceYear": 2024,
+        "sourceNumber": 24,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A particle executing simple harmonic motion with amplitude $ A $ has the same potential and kinetic energies at the displacement",
+        "options": {
+          "1": "$ 2 \\sqrt { A } $",
+          "2": "$ \\frac { A } { 2 } $",
+          "3": "$ \\frac { A } { \\sqrt { 2 } } $",
+          "4": "$ A \\sqrt { 2 } $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-334e49a3d1",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "[NEET 2020 | Physics] A body of moment of inertia I rotates with angular velocity ω. Its rotational kinetic energy is:",
+        "options": {
+          "1": "Iω",
+          "2": "½Iω²",
+          "3": "Iω²",
+          "4": "½Iω"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-2ded40baf7",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "[NEET 2021 | Physics] A proton moves with velocity v perpendicular to a magnetic field B. The force on the proton is:",
+        "options": {
+          "1": "evB perpendicular to v and",
+          "2": "evB parallel to",
+          "3": "Zero",
+          "4": "evB along v"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-d8b3cc1ca1",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "[NEET 2022 | Physics] A projectile is thrown with velocity v making angle θ with the horizontal. The range of the projectile is same when the angle of projection is:",
+        "options": {
+          "1": "45° + θ",
+          "2": "180° − θ",
+          "3": "90° − θ",
+          "4": "90° + θ"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-269383ee6b",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "[NEET 2020 | Physics] According to Bernoulli's principle, in a flowing fluid:",
+        "options": {
+          "1": "Pressure increases where velocity increases",
+          "2": "Pressure decreases where velocity increases",
+          "3": "Pressure and velocity are independent",
+          "4": "Pressure is always constant"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-7f52c00f64",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "[NEET 2019 | Physics] Charges -q and +q at distance L. Force on +q is F. Force on -q is:",
+        "options": {
+          "1": "F towards +q",
+          "2": "F away from +q",
+          "3": "2F",
+          "4": "Zero"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-85dd471065",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "[NEET 2021 | Physics] A wire of length L and cross-sectional area A is stretched by force F. Extension is ΔL. Young's modulus is:",
+        "options": {
+          "1": "FL/AΔL",
+          "2": "FA/LΔL",
+          "3": "ΔLFA/L",
+          "4": "L/AΔL"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-a94e32950d",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body starts from rest and moves with constant acceleration 2 m/s². Its speed after 3 s is",
+        "options": {
+          "1": "6 m/s",
+          "2": "2 m/s",
+          "3": "3 m/s",
+          "4": "18 m/s"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = u + at)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-5f89417ed7",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body starts from rest and moves with constant acceleration 3 m/s². Its speed after 3 s is",
+        "options": {
+          "1": "9 m/s",
+          "2": "3 m/s",
+          "3": "4.5 m/s",
+          "4": "27 m/s"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = u + at)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-73dc6fb0b3",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body starts from rest and moves with constant acceleration 4 m/s². Its speed after 3 s is",
+        "options": {
+          "1": "12 m/s",
+          "2": "4 m/s",
+          "3": "6 m/s",
+          "4": "36 m/s"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = u + at)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-3e34a3b7f9",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body starts from rest and moves with constant acceleration 5 m/s². Its speed after 3 s is",
+        "options": {
+          "1": "15 m/s",
+          "2": "5 m/s",
+          "3": "7.5 m/s",
+          "4": "45 m/s"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = u + at)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-993d65fb6d",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body starts from rest and moves with constant acceleration 6 m/s². Its speed after 3 s is",
+        "options": {
+          "1": "18 m/s",
+          "2": "6 m/s",
+          "3": "9 m/s",
+          "4": "54 m/s"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = u + at)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-fc4209e663",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body starts from rest and moves with constant acceleration 7 m/s². Its speed after 3 s is",
+        "options": {
+          "1": "21 m/s",
+          "2": "7 m/s",
+          "3": "10.5 m/s",
+          "4": "63 m/s"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = u + at)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-487bb0c77d",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body starts from rest and moves with constant acceleration 8 m/s². Its speed after 3 s is",
+        "options": {
+          "1": "24 m/s",
+          "2": "8 m/s",
+          "3": "12 m/s",
+          "4": "72 m/s"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = u + at)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-e9538cab76",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body starts from rest and moves with constant acceleration 9 m/s². Its speed after 3 s is",
+        "options": {
+          "1": "27 m/s",
+          "2": "9 m/s",
+          "3": "13.5 m/s",
+          "4": "81 m/s"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = u + at)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-35a69c0000",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body starts from rest and moves with constant acceleration 10 m/s². Its speed after 3 s is",
+        "options": {
+          "1": "30 m/s",
+          "2": "10 m/s",
+          "3": "15 m/s",
+          "4": "90 m/s"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = u + at)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-20169853a1",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body starts from rest and moves with constant acceleration 11 m/s². Its speed after 3 s is",
+        "options": {
+          "1": "33 m/s",
+          "2": "11 m/s",
+          "3": "16.5 m/s",
+          "4": "99 m/s"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = u + at)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-5c1ece0702",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body starts from rest and moves with constant acceleration 12 m/s². Its speed after 3 s is",
+        "options": {
+          "1": "36 m/s",
+          "2": "12 m/s",
+          "3": "18 m/s",
+          "4": "108 m/s"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = u + at)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-b4186d32e0",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body starts from rest and moves with constant acceleration 13 m/s². Its speed after 3 s is",
+        "options": {
+          "1": "39 m/s",
+          "2": "13 m/s",
+          "3": "19.5 m/s",
+          "4": "117 m/s"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = u + at)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-3b77a777f3",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body starts from rest and moves with constant acceleration 14 m/s². Its speed after 3 s is",
+        "options": {
+          "1": "42 m/s",
+          "2": "14 m/s",
+          "3": "21 m/s",
+          "4": "126 m/s"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = u + at)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-649f123bf3",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A person holding a rifle (mass of person and rifle together is $100 \\mathrm{~kg}$ ) stands on a smooth surface and fires 10 shots horizontally, in $5 \\mathrm{~s}$. Each bullet has a mass of $10 \\mathrm{~g}$ with a muzzle velocity of $800 \\mathrm{~ms}^{-1}$. The final velocity acquired by the person and the average force exerted on the person are:",
+        "options": {
+          "1": "A -",
+          "2": "08 \\mathrm{~ms}^{-1}, 16 \\mathrm{~N} B -",
+          "3": "08 \\mathrm{~ms}^{-1}, 16 \\mathrm{~N} C -",
+          "4": "08 \\mathrm{~ms}^{-1}, 16 \\mathrm{~N} D -"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-7df30faf90",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "The moment of inertia of a thin rod about an axis passing through its mid point and perpendicular to the rod is $2400 \\mathrm{~g} \\mathrm{~cm}^2$. The length of the 400 g rod is nearly:",
+        "options": {
+          "1": "A 1",
+          "2": "5 cm B 2",
+          "3": "7 cm C 7",
+          "4": "0 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-6af6c669b4",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "If the mass of A = 10 ââ kg , coefficient of static friction = 0.22 , coefficient of kinetic friction = 0.2 , then minimum mass of B to start motion is",
+        "options": {
+          "1": "A 2 kg",
+          "2": "2 kg",
+          "3": "8 kg",
+          "4": "4 kg"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-7506d88503",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A transistor is used as an amplifier in C B mode with a load resistance of 5 k â¡ Î© . The current gain of amplifier is 0.98 and the input resistance is 70 Î© . The voltage gain and power gain, respectively, are",
+        "options": {
+          "1": "A 70 , Â 6",
+          "2": "6 B 80 , Â 7",
+          "3": "6 C 60 , Â 6",
+          "4": "6 D 90 , Â 9"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-1ce2c310a9",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "The angular momentum of an electron moving in an orbit of hydrogen atom is $1.5\\left(\\frac{\\mathrm{h}}{\\pi}\\right)$. The energy in the same orbit is nearly",
+        "options": {
+          "1": "A -",
+          "2": "3 \\mathrm{eV} B -",
+          "3": "4 \\mathrm{eV} C -",
+          "4": "5 \\mathrm{eV} D -"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-7fc85853cf",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A solid cylinder of mass 20 kg rotates about its axis with the angular speed 100 rad s - 1 . The radius of the cylinder is 0 . 25 m . What is the magnitude of angular momentum of the cylinder about its axis?",
+        "options": {
+          "1": "A 6",
+          "2": "5 J s B 7",
+          "3": "4 J s C 7",
+          "4": "6 J s D 6"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-a45f832d50",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A block of wood floats in freshwater with two-third of its volume submerged. In oil, the block floats with one-fourth of its volume submerged. The density of oil is",
+        "options": {
+          "1": "A 266",
+          "2": "7 k g m - 3 B 533",
+          "3": "3 k g m - 3 C 133",
+          "4": "3 k g m - 3 D 333"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-fd1b88c06b",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "[NEET 2020 | Physics] A force F = kx² acts on a particle. Work done by the force as the particle moves from x = 0 to x = a is:",
+        "options": {
+          "1": "ka³/3",
+          "2": "ka²/2",
+          "3": "ka³",
+          "4": "ka²"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-6476431178",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "The dependence of acceleration due to gravity $g$ on the distance $r$ from the centre of the earth, assumed to be a sphere of radius $R$ of uniform density is as shown in figures below (1) (2) (3) (4) The correct figure is",
+        "options": {
+          "1": "A (",
+          "2": "B (",
+          "3": "C (",
+          "4": "D ("
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-664a9f1156",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "[NEET 2021 | Physics] The escape velocity from Earth is 11.2 km/s. The escape velocity from a planet whose mass and radius are twice that of the Earth will be:",
+        "options": {
+          "1": "11.2 km/s",
+          "2": "22.4 km/s",
+          "3": "5.6 km/s",
+          "4": "15.84 km/s"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-894af2d94f",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "An object of mass $500 \\mathrm{~g}$, initially at rest acted upon by a variable force whose $\\mathrm{X}$ component varies with $\\mathrm{X}$ in the manner shown. The velocities of the object a point $X=8 \\mathrm{~m}$ and $X=12 \\mathrm{~m}$, would be the respective values of (nearly)",
+        "options": {
+          "1": "A 18 \\mathrm{~m} / \\mathrm{s} and 2",
+          "2": "4 \\mathrm{~m} / \\mathrm{s} B 23 \\mathrm{~m} / \\mathrm{s} and 2",
+          "3": "4 \\mathrm{~m} / \\mathrm{s} C 23 \\mathrm{~m} / \\mathrm{s} and 2",
+          "4": "6 \\mathrm{~m} / \\mathrm{s} D 18 \\mathrm{~m} / \\mathrm{s} and 2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       }
     ],
     "Medium": [
@@ -710,6 +1589,1524 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
+      },
+      {
+        "id": "hf2018-4153e4bea5",
+        "sourceYear": 2018,
+        "sourceNumber": 9,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "In Young's double slit experiment the separation $ d $ between the slits is 2 mm , the wavelength $ \\lambda $ of the light used is $ 5896 \\AA $ and distance $ D $ between the screen and slits is 100 cm . It is found that the angular width of the fringes is $ 0 \\cdot 20 ^ { \\circ } $. To increase the fringe angular width to $ 0.21 ^ { \\circ } $ (with same $ \\lambda $ and D ) the separation between the slits needs to be changed to",
+        "options": {
+          "1": "2.1 mm",
+          "2": "1.9 mm",
+          "3": "1.8 mm",
+          "4": "1.7 mm"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-2bd3d69a4a",
+        "sourceYear": 2018,
+        "sourceNumber": 25,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A pendulum is hung from the roof of sufficiently high building and is moving freely to and fro like a simple harmonic oscillator. The acceleration of the bob of the pendulum is $ 20 \\mathrm {~m} / \\mathrm { s } ^ { 2 } $ at a distance of 5 m from the mean position. The time period of oscillation is",
+        "options": {
+          "1": "2 s",
+          "2": "$ \\pi \\mathrm { s } $",
+          "3": "$ 2 \\pi \\mathrm {~s} $",
+          "4": "1 s"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-4375c08820",
+        "sourceYear": 2018,
+        "sourceNumber": 28,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "An inductor 20 mH , a capacitor $ 100 \\mu \\mathrm {~F} $ and a resistor $ 50 \\Omega $ are connected in series across a source of emf, $ \\mathrm { V } = 10 \\sin 314 \\mathrm { t } $. The power loss in the circuit is",
+        "options": {
+          "1": "2.74 W",
+          "2": "0.43 W",
+          "3": "0.79 W",
+          "4": "$ 1 \\cdot 13 \\mathrm {~W} $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-a91dea9336",
+        "sourceYear": 2018,
+        "sourceNumber": 29,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "Current sensitivity of a moving coil galvanometer is $ 5 \\mathrm { div } / \\mathrm { mA } $ and its voltage sensitivity (angular deflection per unit voltage applied) is $ 20 \\mathrm { div } / \\mathrm { V } $. The resistance of the galvanometer is",
+        "options": {
+          "1": "$ 250 \\Omega $",
+          "2": "$ 25 \\Omega $",
+          "3": "$ 40 \\Omega $",
+          "4": "$ 500 \\Omega $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-e55b90cdca",
+        "sourceYear": 2018,
+        "sourceNumber": 30,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body initially at rest and sliding along a frictionless track from a height $ h $ (as shown in the figure) just completes a vertical circle of diameter $ \\mathrm{AB} = \\mathrm{D} $. The height h is equal to",
+        "options": {
+          "1": "$ \\frac{7}{5} \\mathrm{D} $",
+          "2": "D",
+          "3": "$ \\frac{3}{2} \\mathrm{D} $",
+          "4": "$ \\frac{5}{4} \\mathrm{D} $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-8689becad4",
+        "sourceYear": 2018,
+        "sourceNumber": 31,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "Three objects, A : (a solid sphere), B : (a thin circular disk) and C : (a circular ring), each have the same mass $ M $ and radius $ R $. They all spin with the same angular speed $ \\omega $ about their own symmetry axes. The amounts of work (W) required to bring them to rest, would satisfy the relation",
+        "options": {
+          "1": "$ \\mathrm{W}_{\\mathrm{B}} > \\mathrm{W}_{\\mathrm{A}} > \\mathrm{W}_{\\mathrm{C}} $",
+          "2": "$ \\mathrm{W}_{\\mathrm{A}} > \\mathrm{W}_{\\mathrm{B}} > \\mathrm{W}_{\\mathrm{C}} $",
+          "3": "$ \\mathrm{W}_{\\mathrm{C}} > \\mathrm{W}_{\\mathrm{B}} > \\mathrm{W}_{\\mathrm{A}} $",
+          "4": "$ \\mathrm{W}_{\\mathrm{A}} > \\mathrm{W}_{\\mathrm{C}} > \\mathrm{W}_{\\mathrm{B}} $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-083ffdb682",
+        "sourceYear": 2018,
+        "sourceNumber": 32,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A moving block having mass m , collides with another stationary block having mass 4 m . The lighter block comes to rest after collision. When the initial velocity of the lighter block is v , then the value of coefficient of restitution (e) will be",
+        "options": {
+          "1": "$ 0 \\cdot 8 $",
+          "2": "0.25",
+          "3": "0.5",
+          "4": "$ 0 \\cdot 4 $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-0ac5960099",
+        "sourceYear": 2018,
+        "sourceNumber": 34,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A toy car with charge $ q $ moves on a frictionless horizontal plane surface under the influence of a uniform electric field $ \\vec { E } $. Due to the force $ q \\vec { E } $, its velocity increases from 0 to $ 6 \\mathrm {~m} / \\mathrm { s } $ in one second duration. At that instant the direction of the field is reversed. The car continues to move for two more seconds under the influence of this field.",
+        "options": {
+          "1": "The average velocity and the average speed of the toy car between 0 to 3 seconds are respectively $ 1 \\mathrm {~m} / \\mathrm { s } , 3.5 \\mathrm {~m} / \\mathrm { s } $",
+          "2": "The average velocity and the average speed of the toy car between 0 to 3 seconds are respectively $ 1 \\mathrm {~m} / \\mathrm { s } , 3 \\mathrm {~m} / \\mathrm { s } $",
+          "3": "The average velocity and the average speed of the toy car between 0 to 3 seconds are respectively $ 2 \\mathrm {~m} / \\mathrm { s } , 4 \\mathrm {~m} / \\mathrm { s } $",
+          "4": "The average velocity and the average speed of the toy car between 0 to 3 seconds are respectively $ 1.5 \\mathrm {~m} / \\mathrm { s } , 3 \\mathrm {~m} / \\mathrm { s } $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-d8f4c9bd7f",
+        "sourceYear": 2018,
+        "sourceNumber": 41,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A solid sphere is in rolling motion. In rolling motion a body possesses translational kinetic energy $ \\left( \\mathrm { K } _ { \\mathrm { t } } \\right) $ as well as rotational kinetic energy $ \\left( \\mathrm { K } _ { \\mathrm { r } } \\right) $ simultaneously. The ratio $ \\mathrm { K } _ { \\mathrm { t } } : \\left( \\mathrm { K } _ { \\mathrm { t } } + \\mathrm { K } _ { \\mathrm { r } } \\right) $ for the sphere is",
+        "options": {
+          "1": "$ 10 : 7 $",
+          "2": "$ 5 : 7 $",
+          "3": "$ 7 : 10 $",
+          "4": "$ 2 : 5 $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-303a79ea6c",
+        "sourceYear": 2018,
+        "sourceNumber": 42,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A small sphere of radius ' $ r $ ' falls from rest in a viscous liquid. As a result, heat is produced due to viscous force. The rate of production of heat when the sphere attains its terminal velocity, is proportional to",
+        "options": {
+          "1": "$ \\mathrm { r } ^ { 5 } $",
+          "2": "$ \\mathrm { r } ^ { 2 } $",
+          "3": "$ \\mathrm { r } ^ { 3 } $",
+          "4": "$ r ^ { 4 } $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-555cd5badd",
+        "sourceYear": 2018,
+        "sourceNumber": 43,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "The power radiated by a black body is P and it radiates maximum energy at wavelength, $ \\lambda _ { 0 } $. If the temperature of the black body is now changed so that it radiates maximum energy at wavelength $ \\frac { 3 } { 4 } \\lambda _ { 0 } $, the power radiated by it becomes $ n P $. The value of $ n $ is",
+        "options": {
+          "1": "$ \\frac { 256 } { 81 } $",
+          "2": "$ \\frac { 4 } { 3 } $",
+          "3": "$ \\frac { 3 } { 4 } $",
+          "4": "$ \\frac { 81 } { 256 } $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-b9268bea4d",
+        "sourceYear": 2019,
+        "sourceNumber": 4,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "Body $ A $ of mass $ 4 m $ moving with speed $ u $ collides with another body B of mass 2 m , at rest. The collision is head on and elastic in nature. After the collision the fraction of energy lost by the colliding body A is :",
+        "options": {
+          "1": "$ \\frac { 1 } { 9 } $",
+          "2": "$ \\frac { 8 } { 9 } $",
+          "3": "$ \\frac { 4 } { 9 } $",
+          "4": "$ \\frac { 5 } { 9 } $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-6a94819a32",
+        "sourceYear": 2019,
+        "sourceNumber": 5,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "In a double slit experiment, when light of wavelength 400 nm was used, the angular width of the first minima formed on a screen placed 1 m away, was found to be $ 0.2^{\\circ} $. What will be the angular width of the first minima, if the entire experimental apparatus is immersed in water? ( $ \\mu_{\\text{water}} = 4/3 $ )",
+        "options": {
+          "1": "$ 0.266^{\\circ} $",
+          "2": "$ 0.15^{\\circ} $",
+          "3": "$ 0.05^{\\circ} $",
+          "4": "$ 0.1^{\\circ} $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-df06dd4185",
+        "sourceYear": 2019,
+        "sourceNumber": 7,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A soap bubble, having radius of 1 mm , is blown from a detergent solution having a surface tension of $ 2.5 \\times 10 ^ { - 2 } \\mathrm {~N} / \\mathrm { m } $. The pressure inside the bubble equals at a point $ Z _ { 0 } $ below the free surface of water in a container. Taking $ \\mathrm { g } = 10 \\mathrm {~m} / \\mathrm { s } ^ { 2 } $, density of water $ = 10 ^ { 3 } \\mathrm {~kg} / \\mathrm { m } ^ { 3 } $, the value of $ Z _ { 0 } $ is :",
+        "options": {
+          "1": "100 cm",
+          "2": "10 cm",
+          "3": "1 cm",
+          "4": "0.5 cm"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-bb17d43cb3",
+        "sourceYear": 2019,
+        "sourceNumber": 9,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A disc of radius 2 m and mass 100 kg rolls on a horizontal floor. Its centre of mass has speed of $ 20 \\mathrm{~cm}/\\mathrm{s} $. How much work is needed to stop it?",
+        "options": {
+          "1": "3 J",
+          "2": "30 kJ",
+          "3": "2 J",
+          "4": "1 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-80cb3a425f",
+        "sourceYear": 2019,
+        "sourceNumber": 10,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "The displacement of a particle executing simple harmonic motion is given by $ y = \\mathrm { A } _ { 0 } + \\mathrm { A } \\sin \\omega \\mathrm { t } + \\mathrm { B } \\cos \\omega \\mathrm { t } . $ Then the amplitude of its oscillation is given by :",
+        "options": {
+          "1": "$ \\mathrm { A } _ { 0 } + \\sqrt { \\mathrm { A } ^ { 2 } + \\mathrm { B } ^ { 2 } } $",
+          "2": "$ \\sqrt { \\mathrm { A } ^ { 2 } + \\mathrm { B } ^ { 2 } } $",
+          "3": "$ \\sqrt { \\mathrm { A } _ { 0 } ^ { 2 } + ( \\mathrm { A } + \\mathrm { B } ) ^ { 2 } } $",
+          "4": "$ \\mathrm { A } + \\mathrm { B } $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-6907d63dbc",
+        "sourceYear": 2019,
+        "sourceNumber": 17,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "Six similar bulbs are connected as shown in the figure with a DC source of emf $ E $, and zero internal resistance. The ratio of power consumption by the bulbs when (i) all are glowing and (ii) in the situation when two from section $ A $ and one from section $ B $ are. glowing, will be:",
+        "options": {
+          "1": "$ 4 : 9 $",
+          "2": "$ 9 : 4 $",
+          "3": "$ 1 : 2 $",
+          "4": "$ 2 : 1 $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-9c898ba3b8",
+        "sourceYear": 2019,
+        "sourceNumber": 21,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A solid cylinder of mass 2 kg and radius 4 cm is rotating about its axis at the rate of 3 rpm. The torque required to stop after $ 2 \\pi $ revolutions is :",
+        "options": {
+          "1": "$ 2 \\times 10 ^ { - 6 } \\mathrm { Nm } $",
+          "2": "$ 2 \\times 10 ^ { - 3 } \\mathrm {~N} \\mathrm {~m} $",
+          "3": "$ 12 \\times 10 ^ { - 4 } \\mathrm { Nm } $",
+          "4": "$ 2 \\times 10 ^ { 6 } \\mathrm {~N} \\mathrm {~m} $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-86bf5c985a",
+        "sourceYear": 2019,
+        "sourceNumber": 22,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A force $ \\mathrm { F } = 20 + 10 y $ acts on a particle in $ y $-direction where F is in newton and $ y $ in meter. Work done by this force to move the particle from $ y = 0 $ to $ y = 1 \\mathrm {~m} $ is :",
+        "options": {
+          "1": "30 J",
+          "2": "5 J",
+          "3": "25 J",
+          "4": "20 J"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-b0d5a25544",
+        "sourceYear": 2019,
+        "sourceNumber": 33,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A particle moving with velocity $ \\overrightarrow { \\mathrm { V } } $ is acted by three forces shown by the vector triangle PQR. The velocity of the particle will:",
+        "options": {
+          "1": "increase",
+          "2": "decrease",
+          "3": "remain constant",
+          "4": "change according to the smallest force $ \\overrightarrow { QR } $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-55156da78e",
+        "sourceYear": 2019,
+        "sourceNumber": 34,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "Two particles $ A $ and $ B $ are moving in uniform: $ \\therefore $ circular motion in concentric circles of radii $ r _ { A } $ and $ r _ { B } $ with speed $ v _ { A } $ and $ v _ { B } $ respectively. Their time period of rotation is the same. The ratio of angular speed of $ A $ to that of $ B $ will be",
+        "options": {
+          "1": "$ r _ { A } \\div r _ { B } $",
+          "2": "$ v _ { \\mathrm { A } } : v _ { \\mathrm { B } } $",
+          "3": "$ r _ { B } : r _ { A } $",
+          "4": "$ 1 : 1 $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-cdf8607660",
+        "sourceYear": 2019,
+        "sourceNumber": 35,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A block of mass 10 kg is in contact against the inner wall of a hollow cylindrical drum of radius 1 m . The coefficient of friction between the block and the inner wall of the cylinder is 0.1 . The minimum angular velocity needed for the cylinder to keep the block stationary when the cylinder is vertical and rotating about its axis, will be $ { } ^ { \\text {: } } $. $ \\left( \\mathrm { g } = 10 \\mathrm {~m} / \\mathrm { s } ^ { 2 } \\right) $",
+        "options": {
+          "1": "$ \\sqrt { 10 } \\cdot \\mathrm { rad } / \\mathrm { s } $",
+          "2": "$ \\frac { 10 } { 2 \\pi } \\mathrm { rad } / \\mathrm { s } $",
+          "3": "$ 10 \\mathrm { rad } / \\mathrm { s } $",
+          "4": "$ 10 \\pi \\mathrm { rad } / \\mathrm { s } $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-4786d0679c",
+        "sourceYear": 2019,
+        "sourceNumber": 37,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "Two point charges $ A $ and $ B $, having charges $ + Q $ and $ - Q $ respectively, are placed at certain distance apart and force acting between them is F. If $ 25 \\% $ charge of $ A $ is transferred to $ B $, then force between the charges becomes:",
+        "options": {
+          "1": "F",
+          "2": "$ \\frac { 9 \\mathrm {~F} } { 16 } $",
+          "3": "$ \\frac { 16 \\mathrm {~F} } { 9 } $",
+          "4": "$ \\frac { 4 \\mathrm {~F} } { 3 } $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-c8332045fb",
+        "sourceYear": 2020,
+        "sourceNumber": 5,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "Find the torque about the origin when a force of $ 3 \\hat { j } \\mathrm {~N} $ acts on a particle whose position vector is $ 2 \\hat { k } \\mathrm {~m} $.",
+        "options": {
+          "1": "$ 6 \\hat { i } \\mathrm { Nm } $",
+          "2": "$ 6 \\hat { j } \\mathrm { Nm } $",
+          "3": "$ - 6 \\hat { i } \\mathrm { Nm } $",
+          "4": "$ 6 \\hat { k } \\mathrm {~N} \\mathrm {~m} $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-43268635d2",
+        "sourceYear": 2020,
+        "sourceNumber": 160,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "Two bodies of mass 4 kg and 6 kg are tied to the ends of a massless string. The string passes over a pulley which is frictionless (see figure). The acceleration of the system in terms of acceleration due to gravity (g) is :",
+        "options": {
+          "1": "g",
+          "2": "$ \\mathrm{g} / 2 $",
+          "3": "$ \\mathrm{g} / 5 $",
+          "4": "$ \\mathrm{g} / 10 $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-458a6d7cf3",
+        "sourceYear": 2020,
+        "sourceNumber": 161,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A wire of length $ L $, area of cross section $ A $ is hanging from a fixed support. The length of the wire changes to $ L _ { 1 } $ when mass $ M $ is suspended from its free end. The expression for Young's modulus is :",
+        "options": {
+          "1": "$ \\frac { \\mathrm { MgL } _ { 1 } } { \\mathrm { AL } } $",
+          "2": "$ \\frac { \\mathrm { Mg } \\left( \\mathrm { L } _ { 1 } - \\mathrm { L } \\right) } { \\mathrm { AL } } $",
+          "3": "$ \\frac { \\mathrm { MgL } } { \\mathrm { AL } _ { 1 } } $",
+          "4": "$ \\frac { \\mathrm { MgL } } { \\mathrm { A } \\left( \\mathrm { L } _ { 1 } - \\mathrm { L } \\right) } $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-1a8933699e",
+        "sourceYear": 2020,
+        "sourceNumber": 169,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A series LCR circuit is connected to an ac voltage source. When $ L $ is removed from the circuit, the phase difference between current and voltage is $ \\frac { \\pi } { 3 } $. If instead C is removed from the circuit, the phase difference is again $ \\frac { \\pi } { 3 } $ between current and voltage. The power factor of the circuit is :",
+        "options": {
+          "1": "zero",
+          "2": "0.5",
+          "3": "1.0",
+          "4": "- 1.0"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-9a87a97903",
+        "sourceYear": 2021,
+        "sourceNumber": 5,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "The velocity of a small ball of mass $ M $ and density d, when dropped in a container filled with glycerine becomes constant after some time. If the density of glycerine is $ \\frac { d } { 2 } $, then the viscous force acting on the ball will be :",
+        "options": {
+          "1": "Mg",
+          "2": "$ \\frac { 3 } { 2 } \\mathrm { Mg } $",
+          "3": "2 Mg",
+          "4": "$ \\frac { \\mathrm { Mg } } { 2 } $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-00237985df",
+        "sourceYear": 2021,
+        "sourceNumber": 6,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "An infinitely long straight conductor carries a current of 5 A as shown. An electron is moving with a speed of $ 10 ^ { 5 } \\mathrm {~m} / \\mathrm { s } $ parallel to the conductor. The perpendicular distance between the electron and the conductor is 20 cm at an instant. Calculate the magnitude of the force experienced by the electron at that instant. Electron $ v = 10 ^ { 5 } \\mathrm {~m} / \\mathrm { s } $",
+        "options": {
+          "1": "$ 8 \\pi \\times 10 ^ { - 20 } \\mathrm {~N} $",
+          "2": "$ 4 \\pi \\times 10 ^ { - 20 } \\mathrm {~N} $",
+          "3": "$ 8 \\times 10 ^ { - 20 } \\mathrm {~N} $",
+          "4": "$ 4 \\times 10 ^ { - 20 } \\mathrm {~N} $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-7e19b1348d",
+        "sourceYear": 2021,
+        "sourceNumber": 4,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "The number of photons per second on an average emitted by the source of monochromatic light of wavelength 600 nm , when it delivers the power of $ 3.3 \\times 10 ^ { - 3 } $ watt will be : $ \\left( \\mathrm { h } = 6.6 \\times 10 ^ { - 34 } \\mathrm { Js } \\right) $",
+        "options": {
+          "1": "$ 10 ^ { 17 } $",
+          "2": "$ 10 ^ { 16 } $",
+          "3": "$ 10 ^ { 15 } $",
+          "4": "$ 10 ^ { 18 } $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-72d880ab29",
+        "sourceYear": 2021,
+        "sourceNumber": 34,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "Water falls from a height of 60 m at the rate of $ 15 \\mathrm{kg}/\\mathrm{s} $ to operate a turbine. The losses due to frictional force are $ 10 \\% $ of the input energy. How much power is generated by the turbine? $ \\left( \\mathrm{g} = 10 \\mathrm{m}/\\mathrm{s}^{2} \\right) $",
+        "options": {
+          "1": "8.1 kW",
+          "2": "12.3 kW",
+          "3": "7.0 kW",
+          "4": "10.2 kW"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-555029a61e",
+        "sourceYear": 2021,
+        "sourceNumber": 37,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A step down transformer connected to an ac mains supply of 220 V is made to operate at $ 11 \\mathrm {~V} , 44 \\mathrm {~W} $ lamp. Ignoring power losses in the transformer, what is the current in the primary circuit?",
+        "options": {
+          "1": "$ \\quad 0.4 \\mathrm {~A} $",
+          "2": "2 A",
+          "3": "4 A",
+          "4": "0.2 A"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-eaa0abf9cb",
+        "sourceYear": 2021,
+        "sourceNumber": 44,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A series LCR circuit containing 5.0 H inductor, $ 80 \\mu \\mathrm{F} $ capacitor and $ 40 \\Omega $ resistor is connected to 230 V variable frequency ac source. The angular frequencies of the source at which power transferred to the circuit is half the power at the resonant angular frequency are likely to be :",
+        "options": {
+          "1": "$ 50 \\mathrm{rad}/\\mathrm{s} $ and $ 25 \\mathrm{rad}/\\mathrm{s} $",
+          "2": "$ 46 \\mathrm{rad}/\\mathrm{s} $ and $ 54 \\mathrm{rad}/\\mathrm{s} $",
+          "3": "$ 42 \\mathrm{rad}/\\mathrm{s} $ and $ 58 \\mathrm{rad}/\\mathrm{s} $",
+          "4": "$ 25 \\mathrm{rad}/\\mathrm{s} $ and $ 75 \\mathrm{rad}/\\mathrm{s} $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-b5be9e1006",
+        "sourceYear": 2021,
+        "sourceNumber": 48,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "From a circular ring of mass ' $ M $ ' and radius ' $ R $ ' an arc corresponding to a $ 90 ^ { \\circ } $ sector is removed. The moment of inertia of the remaining part of the ring about an axis passing through the centre of the ring and perpendicular to the plane of the ring is ' K ' times ' $ \\mathrm { MR } ^ { 2 } $ '. Then the value of ' K ' is :",
+        "options": {
+          "1": "$ \\frac { 7 } { 8 } $",
+          "2": "$ \\frac { 1 } { 4 } $",
+          "3": "$ \\frac { 1 } { 8 } $",
+          "4": "$ \\underline { 3 } $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2022-65100bdb7c",
+        "sourceYear": 2022,
+        "sourceNumber": 38,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "Match List-I and List-II List-I a. Gravitational constant (G) b. Gravitational potential Energy c. Gravitational potential d. Gravitational Intensity List-II (i) $ \\left[ \\mathrm { L } ^ { 2 } \\mathrm {~T} ^ { - 2 } \\right] $ (ii) $ \\left[ \\mathrm { M } ^ { - 1 } \\mathrm {~L} ^ { 3 } \\mathrm {~T} ^ { - 2 } \\right] $ (iii) $ \\left[ \\mathrm { LT } ^ { - 2 } \\right] $ (iv) $ \\left[ \\mathrm { ML } ^ { 2 } \\mathrm {~T} ^ { - 2 } \\right] $",
+        "options": {
+          "1": "a. (a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)",
+          "2": "b. (a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)",
+          "3": "c. (a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)",
+          "4": "d. (a)-(ii), (b)-(iv), (c)-(iii), (d)-(i)"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-7e81ff21ac",
+        "sourceYear": 2023,
+        "sourceNumber": 2,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "An electric dipole is placed at an angle of $ 30 ^ { \\circ } $ with an electric field of intensity $ 2 \\times 10 ^ { 5 } \\mathrm {~N} \\mathrm { C } ^ { - 1 } $. It experiences a torque equal to 4 Nm . Calculate the magnitude of charge on the dipole, if the dipole length is 2 cm .",
+        "options": {
+          "1": "2 mC",
+          "2": "8 mC",
+          "3": "6 mC",
+          "4": "4 mC"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-8a96431fa5",
+        "sourceYear": 2023,
+        "sourceNumber": 3,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "The amount of energy required to form a soap bubble of radius 2 cm from a soap solution is nearly : (surface tension of soap solution $ = 0.03 \\mathrm{~N} \\mathrm{~m}^{-1} $)",
+        "options": {
+          "1": "$ 50.1 \\times 10^{-4} \\mathrm{~J} $",
+          "2": "$ 30.16 \\times 10^{-4} \\mathrm{~J} $",
+          "3": "$ 5.06 \\times 10^{-4} \\mathrm{~J} $",
+          "4": "$ 3.01 \\times 10^{-4} \\mathrm{~J} $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-504b429981",
+        "sourceYear": 2023,
+        "sourceNumber": 4,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "Let a wire be suspended from the ceiling (rigid support) and stretched by a weight $ W $ attached at its free end. The longitudinal stress at any point of cross-sectional area $ A $ of the wire is :",
+        "options": {
+          "1": "Zero",
+          "2": "$ 2 W / A $",
+          "3": "$ W / A $",
+          "4": "$ W / 2 A $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-16aed63556",
+        "sourceYear": 2023,
+        "sourceNumber": 7,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "Two bodies of mass $ m $ and $ 9 m $ are placed at a distance $ R $. The gravitational potential on the line joining the bodies where the gravitational field equals zero, will be ( $ G = $ gravitational constant) :",
+        "options": {
+          "1": "$ - \\frac { 20 G m } { R } $",
+          "2": "$ - \\frac { 8 G m } { R } $",
+          "3": "$ - \\frac { 12 G m } { R } $",
+          "4": "$ - \\frac { 16 G m } { R } $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-38a715787a",
+        "sourceYear": 2023,
+        "sourceNumber": 44,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A bullet from a gun is fired on a rectangular wooden block with velocity $ u $. When bullet travels 24 cm through the block along its length horizontally, velocity of bullet becomes $ \\frac { u } { 3 } $. Then it further penetrates into the block in the same direction before coming to rest exactly at the other end of the block. The total length of the block is :",
+        "options": {
+          "1": "30 cm",
+          "2": "27 cm",
+          "3": "24 cm",
+          "4": "28 cm"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-c834db8304",
+        "sourceYear": 2023,
+        "sourceNumber": 45,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A satellite is orbiting just above the surface of the earth with period $ T $. If $ d $ is the density of the earth and $ G $ is the universal constant of gravitation, the quantity $ \\frac { 3 \\pi } { G d } $ represents :",
+        "options": {
+          "1": "$ \\sqrt { T } $",
+          "2": "$ T $",
+          "3": "$ T ^ { 2 } $",
+          "4": "$ T ^ { 3 } $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-148a6ca3d3",
+        "sourceYear": 2023,
+        "sourceNumber": 48,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "The $x - t$ graph of a particle performing simple harmonic motion is shown in the figure. The acceleration of the particle at $t = 2 \\mathrm{~s}$ is :",
+        "options": {
+          "1": "$- \\frac { \\pi ^ { 2 } } { 16 } \\mathrm{~m} \\mathrm{~s} ^ { - 2 }$",
+          "2": "$\\frac { \\pi ^ { 2 } } { 8 } \\mathrm{~m} \\mathrm{~s} ^ { - 2 }$",
+          "3": "$- \\frac { \\pi ^ { 2 } } { 8 } \\mathrm{~m} \\mathrm{~s} ^ { - 2 }$",
+          "4": "$\\frac { \\pi ^ { 2 } } { 16 } \\mathrm{~m} \\mathrm{~s} ^ { - 2 }$"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-c040c50ab4",
+        "sourceYear": 2023,
+        "sourceNumber": 49,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A wire carrying a current $ I $ along the positive $ x $-axis has length $ L $. It is kept in a magnetic field $ \\vec { B } = ( 2 \\hat { i } + 3 \\hat { j } - 4 \\hat { k } ) \\mathrm { T } $. The magnitude of the magnetic force acting on the wire is :",
+        "options": {
+          "1": "$ \\sqrt { 3 } I L $",
+          "2": "$ 3 I L $",
+          "3": "$ \\sqrt { 5 } I L $",
+          "4": "$ 5 I L $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-d286435001",
+        "sourceYear": 2024,
+        "sourceNumber": 5,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "An ideal fluid is flowing in a non-uniform cross-sectional tube $ X Y $ (as shown in the figure) from end $ X $ to end $ Y $. If $ K _ { 1 } $ and $ K _ { 2 } $ are the kinetic energy per unit volume of the fluid at $ X $ and $ Y $ respectively, then the correct option is :",
+        "options": {
+          "1": "$ K _ { 1 } = K _ { 2 } $",
+          "2": "$ 2 K _ { 1 } = K _ { 2 } $",
+          "3": "$ K _ { 1 } > K _ { 2 } $",
+          "4": "$ K _ { 1 } < K _ { 2 } $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-99ab462534",
+        "sourceYear": 2024,
+        "sourceNumber": 8,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "An object moving along horizontal $ x $-direction with kinetic energy 10 J is displaced through $ x = ( 3 \\hat { i } ) \\mathrm { m } $ by the force $ \\vec { F } = ( - 2 \\hat { i } + 3 \\hat { j } ) \\mathrm { N } $. The kinetic energy of the object at the end of the displacement $ x $ is",
+        "options": {
+          "1": "10 J",
+          "2": "16 J",
+          "3": "4 J",
+          "4": "6 J"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-16fecd44d9",
+        "sourceYear": 2024,
+        "sourceNumber": 14,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A step up transformer is connected to an ac mains supply of 220 V to operate at $ 11000 \\mathrm{~V} , 88 $ watt. The current in the secondary circuit, ignoring the power loss in the transformer, is",
+        "options": {
+          "1": "8 mA",
+          "2": "4 mA",
+          "3": "0.4 A",
+          "4": "4 A"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-080b7a6fef",
+        "sourceYear": 2024,
+        "sourceNumber": 18,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "The magnetic moment and moment of inertia of a magnetic needle as shown are, respectively, $ 1.0 \\times 10 ^ { - 2 } \\mathrm {A} \\mathrm {m} ^ { 2 } $ and $ \\frac { 10 ^ { - 6 } } { \\pi ^ { 2 } } \\mathrm {kg} \\mathrm {m} ^ { 2 } $. If it completes 10 oscillations in 10 s , the magnitude of the magnetic field is",
+        "options": {
+          "1": "0.4 T",
+          "2": "4 T",
+          "3": "0.4 mT",
+          "4": "4 mT"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-a974444c27",
+        "sourceYear": 2024,
+        "sourceNumber": 35,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A box of mass 5 kg is pulled by a cord, up along a frictionless plane inclined at $ 30 ^ { \\circ } $ with the horizontal. The tension in the cord is 30 N . The acceleration of the box is (Take $ g = 10 \\mathrm {~m} \\mathrm {~s} ^ { - 2 } $ )",
+        "options": {
+          "1": "$ 2 \\mathrm {~m} \\mathrm {~s} ^ { - 2 } $",
+          "2": "Zero",
+          "3": "$ 0.1 \\mathrm {~m} \\mathrm {~s} ^ { - 2 } $",
+          "4": "$ 1 \\mathrm {~m} \\mathrm {~s} ^ { - 2 } $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-53488a9923",
+        "sourceYear": 2024,
+        "sourceNumber": 40,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "The potential energy of a particle moving along $x$-direction varies as $V = \\frac{Ax^{2}}{\\sqrt{x} + B}$. The dimensions of $\\frac{A^{2}}{B}$ are:",
+        "options": {
+          "1": "$\\left[M^{3/2}L^{1/2}T^{-3}\\right]$",
+          "2": "$\\left[M^{1/2}LT^{-3}\\right]$",
+          "3": "$\\left[M^{2}L^{1/2}T^{-4}\\right]$",
+          "4": "$\\left[\\mathrm{ML}^{2}\\mathrm{T}^{-4}\\right]$"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-f07094534c",
+        "sourceYear": 2024,
+        "sourceNumber": 41,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "The two-dimensional motion of a particle, described by $ \\vec { r } = ( \\hat { i } + 2 \\hat { j } ) A \\cos \\omega t $ is a/an: A. parabolic path B. elliptical path C. periodic motion D. simple harmonic motion Choose the correct answer from the options given below:",
+        "options": {
+          "1": "B, C and D only",
+          "2": "A, B and C only",
+          "3": "A, C and D only",
+          "4": "C and D only"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-b969b994d4",
+        "sourceYear": 2024,
+        "sourceNumber": 44,
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "Let $ \\omega _ { 1 } , \\omega _ { 2 } $ and $ \\omega _ { 3 } $ be the angular speed of the second hand, minute hand and hour hand of a smoothly running analog clock, respectively. If $ x _ { 1 } , x _ { 2 } $ and $ x _ { 3 } $ are their respective angular distances in 1 minute then the factor which remains constant $ ( k ) $ is",
+        "options": {
+          "1": "$ \\frac { \\omega _ { 1 } } { x _ { 1 } } = \\frac { \\omega _ { 2 } } { x _ { 2 } } = \\frac { \\omega _ { 3 } } { x _ { 3 } } = k $",
+          "2": "$ \\quad \\omega _ { 1 } x _ { 1 } = \\omega _ { 2 } x _ { 2 } = \\omega _ { 3 } x _ { 3 } = k $",
+          "3": "$ \\omega _ { 1 } x _ { 1 } ^ { 2 } = \\omega _ { 2 } x _ { 2 } ^ { 2 } = \\omega _ { 3 } x _ { 3 } ^ { 2 } = k $",
+          "4": "$ \\omega _ { 1 } ^ { 2 } x _ { 1 } = \\omega _ { 2 } ^ { 2 } x _ { 2 } = \\omega _ { 3 } ^ { 2 } x _ { 3 } = k $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-97609c9f30",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A man throws balls with the same speed vertically upwards one after the other at an interval of 2 seconds. What should be the speed of the throw so that more than two balls are in the sky at any time?",
+        "options": {
+          "1": "A more than 1",
+          "2": "6 \\mathrm{~m} / \\mathrm{s} B at least",
+          "3": "8 \\mathrm{~m} / \\mathrm{s} C any speed less than 1",
+          "4": "6 \\mathrm{~m} / \\mathrm{s} D only with speed 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-8628bc1e31",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "Consider a drop of rain water having mass 1 g falling from a height of 1 km . It hits the ground with a speed of 50 m s - 1 . Take g constant with a value 10 m s - 2 . The work done by the (i) gravitational force and the (ii) resistive force of air is",
+        "options": {
+          "1": "A i - 10 J i i -",
+          "2": "25 J B i Â",
+          "3": "25 Â J i i -",
+          "4": "25 Â J C i Â 100 Â J i i Â"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-0231409799",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "The pressure of a medium is changed from 1.01 Ã 10 5 â P a to 1.165 Ã 10 5 â P a and change in volume is 10 % keeping temperature constant.The bulk modulus of the medium is",
+        "options": {
+          "1": "A 20",
+          "2": "8 Ã 10 5 â P a B 10",
+          "3": "4 Ã 10 5 â P a C 5",
+          "4": "2 Ã 10 5 â P a"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-0ca22d1942",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "Flow rate of blood through a capillary of cross-sectional area of 0 .25 m 2 is 100 c m 3 / s . The velocity of flow of blood is",
+        "options": {
+          "1": "A 1 m m / s",
+          "2": "2 m m / s",
+          "3": "3 m m / s",
+          "4": "4 m m / s"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-0d07791054",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "In Young's double-slit experiment, the spacing between the slits is 'd' and the wavelength of light used is 6000 â« . If the angular width of a fringe formed on a distant screen is 1 o , then calculate 'd'.",
+        "options": {
+          "1": "A 1 mm",
+          "2": "05 mm",
+          "3": "03 mm",
+          "4": "01 mm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-b5ab700aef",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "[NEET 2022 | Physics] A particle executing SHM has amplitude A. The ratio of kinetic energy to potential energy when displacement is A/2 is:",
+        "options": {
+          "1": "3:1",
+          "2": "1:3",
+          "3": "1:1",
+          "4": "2:1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-4f9cbf6a15",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "Under the assumption that there is no repulsive force between the electrons in an atom but the force between positive and negative charges follows Coulomb's law as usual, what is the calculated ground state energy of a helium atom?",
+        "options": {
+          "1": "A â(2Ã1",
+          "2": "eV B â(4Ã1",
+          "3": "eV C â(8Ã1",
+          "4": "eV D â(16Ã1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-e12f47fe4c",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "The coefficient of friction between two surfaces is 0.2 . The maximum angle of friction is",
+        "options": {
+          "1": "A sin - 1 â¡",
+          "2": "2 B cos - 1 â¡",
+          "3": "2 C tan - 1 â¡",
+          "4": "1 D cot - 1 â¡ 5"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       }
     ],
     "Hard": [
@@ -839,31 +3236,6 @@
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q148",
-        "sourceYear": 2022,
-        "sourceNumber": 10,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Hard",
-        "stem": "A mass falls from a height 'h' and its time of fall 't' is recorded in terms of time period T of a simple pendulum. On the surface of earth it is found that t = 2T. The entire set up is taken on the surface of another planet whose mass is half of that of earth and radius the same. Same experiment is repeated and corresponding times noted as t' and T'. Then we can say",
-        "options": {
-          "1": "t' = 2T '",
-          "2": "t' > 2T '",
-          "3": "t' < 2T'",
-          "4": "t' = 2T '"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2022-RECON-Q168",
         "sourceYear": 2022,
         "sourceNumber": 23,
@@ -905,31 +3277,6 @@
         "correctOption": "3",
         "correctOptions": [
           "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q42",
-        "sourceYear": 2023,
-        "sourceNumber": 41,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Hard",
-        "stem": "A satellite is orbiting just above the surface of the earth with period T. If d is the density of the earth and G is 3π the universal constant of gravitation, the quantity represents Gd",
-        "options": {
-          "1": "T2",
-          "2": "T3",
-          "3": "T",
-          "4": "T"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -1062,6 +3409,918 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
+      },
+      {
+        "id": "catch-a5ad0980b1",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "[NEET 2017 | Physics] Gravitational field g = 5i + 12j N/kg. Change in PE of 2 kg from origin to (7,-3) m:",
+        "options": {
+          "1": "71 J",
+          "2": "13 J",
+          "3": "-71 J",
+          "4": "1 J"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-dc85fcc2a9",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "[NEET 2022 | Physics] Body 0.5 kg with v = 5*x^(3/2) m/s. Work done from x=0 to x=2m:",
+        "options": {
+          "1": "15 J",
+          "2": "50 J",
+          "3": "10 J",
+          "4": "100 J"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-8525748dcf",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "[NEET 2018 | Physics] A solid sphere of radius R has moment of inertia I about its diameter. It is melted and recast into a solid disc of radius r. What is the moment of inertia of the disc about an axis passing through its edge and perpendicular to the plane?",
+        "options": {
+          "1": "I/4",
+          "2": "2I",
+          "3": "I/2",
+          "4": "I"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-8757a3b8fc",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body starts from rest and moves with constant acceleration 15 m/s². Its speed after 3 s is",
+        "options": {
+          "1": "45 m/s",
+          "2": "15 m/s",
+          "3": "22.5 m/s",
+          "4": "135 m/s"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = u + at)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-c0afd71bb0",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body starts from rest and moves with constant acceleration 16 m/s². Its speed after 3 s is",
+        "options": {
+          "1": "48 m/s",
+          "2": "16 m/s",
+          "3": "24 m/s",
+          "4": "144 m/s"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = u + at)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-93f4e32eff",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body starts from rest and moves with constant acceleration 17 m/s². Its speed after 3 s is",
+        "options": {
+          "1": "51 m/s",
+          "2": "17 m/s",
+          "3": "25.5 m/s",
+          "4": "153 m/s"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = u + at)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-05ab04e42f",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body starts from rest and moves with constant acceleration 18 m/s². Its speed after 3 s is",
+        "options": {
+          "1": "54 m/s",
+          "2": "18 m/s",
+          "3": "27 m/s",
+          "4": "162 m/s"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = u + at)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-bbb19190ec",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body starts from rest and moves with constant acceleration 19 m/s². Its speed after 3 s is",
+        "options": {
+          "1": "57 m/s",
+          "2": "19 m/s",
+          "3": "28.5 m/s",
+          "4": "171 m/s"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = u + at)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-9dd2ae5cd6",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A body starts from rest and moves with constant acceleration 20 m/s². Its speed after 3 s is",
+        "options": {
+          "1": "60 m/s",
+          "2": "20 m/s",
+          "3": "30 m/s",
+          "4": "180 m/s"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = u + at)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-cd8321f4d0",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A plate has a length 5 Â± 0.1 c m and breadth 2 Â± 0.01 c m . Then the area of the plate is",
+        "options": {
+          "1": "A 10 Â±",
+          "2": "25 c m 2 B 10 Â Â±",
+          "3": "01 Â c m 2 C 10 Â Â±",
+          "4": "001 Â c m 2 D 10 Â Â± 1 Â c m 2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-b9969a41bf",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "The angular momentum of an electron in hydrogen atom is h Ï . The kinetic energy of the electron is",
+        "options": {
+          "1": "A 1",
+          "2": "6 e V",
+          "3": "4 e V",
+          "4": "51 Â e V Â"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-abcf819bcc",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A transistor is used as an amplifier in common base mode with a load resistance of 5 k Î© . If the current gain of amplifier is 0.98 and the input resistance is 70 Î© , then voltage gain and power gain respectively are",
+        "options": {
+          "1": "A 70 , 6",
+          "2": "6 B 80 , 7",
+          "3": "6 C 60 , 6",
+          "4": "6 D 90 , 9"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-b4b01f7296",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "[NEET 2019 | Physics] If the momentum of a body is increased by 50%, its kinetic energy will increase by:",
+        "options": {
+          "1": "125%",
+          "2": "100%",
+          "3": "225%",
+          "4": "150%"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-954ee1179f",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "Two planets of radii in the ratio 2 : 3 are made from the material of density in the ratio 3 : 2 . Then, the ratio of acceleration due to gravity g 1 g 2 at the surface of the two planets will be",
+        "options": {
+          "1": "A 1",
+          "2": "25",
+          "3": "50",
+          "4": "12"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-2481190778",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A cubical block of side 0.5 m floats on water with 30 % of its volume under water. What is the maximum weight that can be put on the block without fully submerging it under water? [Take, density of water = 10 3 k g / m 3 ]",
+        "options": {
+          "1": "A 8",
+          "2": "5 Â k g B 6",
+          "3": "4 Â k g C 3",
+          "4": "1 Â k g D 4"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-5dbf7fb34e",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A force $F$ acting on an object varies with distance $x$ as shown here. The force is in $N$ and $x$ in $\\mathrm{m}$. The work done by the force in moving the object $x=0$ to $x=6 \\mathrm{~m}$ is:",
+        "options": {
+          "1": "A 1",
+          "2": "0 \\mathrm{~J} B 1",
+          "3": "5 \\mathrm{~J}",
+          "4": "0 \\mathrm{~J}"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-24233a231a",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "Two bodies of masses 10 k g and 100 k g are separated by a distance of 2 m . The gravitational potential at the mid-point of the line joining the two bodies is:",
+        "options": {
+          "1": "A -",
+          "2": "3 Ã 10 - 7 J / k g B -",
+          "3": "3 Ã 10 - 8 J / k g C -",
+          "4": "3 Ã 10 - 9 J / k g D -"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-7f448fb431",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A truck of mass 10 metric ton runs at 3 m s - 1 along a level track and collides with a loaded truck of mass 20 metric ton, standing at rest. If the trucks couple together, the common speed after the collision is",
+        "options": {
+          "1": "A 1 m s - 1",
+          "2": "1 Â m s - 1",
+          "3": "5 Â m s - 1",
+          "4": "3 Â m s - 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-c2f5374513",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "Two cities are 150 k m apart. Electric power is sent from one city to another city through copper wires. The fall of potential per k m is 8 volts and the average resistance per k m is 0.5 Ω . The power loss in the wire is:",
+        "options": {
+          "1": "A 1",
+          "2": "2 Â W B 1",
+          "3": "2 k W C 1",
+          "4": "2 Â J D 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-ec80942f22",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A projectile is thrown with velocity u = 20 m / s Â± 5 % at an angle 60 o . If the projectile comes back on the ground at the same level then which of following cannot be a possible answer for range. Consider g = 10 â m/s 2",
+        "options": {
+          "1": "A 3",
+          "2": "6 Â m B 3",
+          "3": "5 Â m C 3",
+          "4": "0 Â m D 3"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-226e042fd3",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "[NEET 2016 | Physics] A body of mass 1 kg is thrown upwards with velocity 20 m/s. It comes to rest after 18 m. Energy lost due to air friction (g=10):",
+        "options": {
+          "1": "20 J",
+          "2": "30 J",
+          "3": "40 J",
+          "4": "10 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-e26559f51f",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "In producing chlorine through electrolysis 100 watt power at $125 \\mathrm{~V}$ is being consumed. How much chlorine per minute is liberated ? E. C. E. of chlorine is $0.367 \\times 10^{-6} \\mathrm{~kg} /$ coulomb:",
+        "options": {
+          "1": "A 1",
+          "2": "6 \\mathrm{mg} B 1",
+          "3": "6 \\mathrm{mg} C 2",
+          "4": "3 \\mathrm{mg} D 2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-03068531fc",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A battery has an open circuit potential difference 10 V between the terminals. When loads 9 Î© and 4 Î© are connected one by one across the battery, the power in the load resistance is the same. The amount of heat approximately generated in one second in the load when a load of 5 Î© is connected across the battery will be",
+        "options": {
+          "1": "A 1",
+          "2": "4 J B 9 J",
+          "3": "8 J",
+          "4": "13 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-b876bb0afe",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A NPN transistor is connected in common emitter configuration in a given amplifier. A load resistance of 800 Ω is connected in the collector circuit and the voltage drop across it is 0 .8 V . If the current amplification factor is 0.96 and the input resistance of the circuit is 192 Ω , the voltage gain and the power gain of the amplifier will respectively be:",
+        "options": {
+          "1": "A 4 ,",
+          "2": "84",
+          "3": "69 ,",
+          "4": "84 C 4 , 4 D 4 ,"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-be501e139f",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A block of mass 1 kg lies on a horizontal surface in a truck. The coefficient of static friction between the block and the surface is 0 . 6 . If the acceleration of the truck is 5 â m â s â 2 , find the frictional force acting on the block.",
+        "options": {
+          "1": "A 5 N",
+          "2": "5 N",
+          "3": "88 N",
+          "4": "8 N"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-bd1b5616a4",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A room at 20 Â° C is heated by a heater of resistance 20 ohm connected to 200 V mains. The temperature is uniform throughout the room and the heat is transmitted through a glass window of area 1 m 2 and thickness 0 .2 cm . Calculate the temperature outside. Thermal conductivity of glass is 0.2 cal / m Â° C s and mechanical equivalent of heat is 4 .2 J/cal .",
+        "options": {
+          "1": "A 1",
+          "2": "69 ° C B 1",
+          "3": "24 Â° C C 1",
+          "4": "85 Â° C D 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-b3c8c6d358",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A small hole of area cross-section 2 m m 2 is present near the bottom of a fully filled open tank of height 2 m . Taking g = 10 m s - 2 , the rate of flow of water through the open hole would be nearly",
+        "options": {
+          "1": "A 1",
+          "2": "6 × 1 0 - 6 m 3 s - 1",
+          "3": "9 × 1 0 - 6 m 3 s - 1",
+          "4": "23 × 1 0 - 6 m 3 s - 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-5255232030",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A public park, in the form of a square, has an area of 100 Â± 0.2 m 2 . The side of park is",
+        "options": {
+          "1": "A ( 10 ±",
+          "2": "01 ) m B ( 10 ±",
+          "3": "1 ) m C ( 1",
+          "4": "0 ±"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-03c11287c1",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A voltage of peak value 283 V and varying frequency is applied to a series LCR combination in which R = 3 Î© , L = 25 mH and C = 400 Î¼ F . The frequency f (in Hz ) of the source at which maximum power is dissipated in the above, is",
+        "options": {
+          "1": "A 4",
+          "2": "4 B 5",
+          "3": "7 C 4",
+          "4": "4 D 5"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-be6622c200",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "If the mass of A = 10 â kg , coefficient of static friction = 0.22 , coefficient of kinetic friction = 0.2 , then the minimum mass of B to start motion is",
+        "options": {
+          "1": "A 2 kg",
+          "2": "2 kg",
+          "3": "8 kg",
+          "4": "4 kg"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-5dc5fd589a",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "The amplitude and time period in SHM are 0.8 c m and 0.2 s e c respectively. If the initial phase is Ï 2 radian, then the equation representing SHM is",
+        "options": {
+          "1": "A y =",
+          "2": "8 cos â¡ 1 0 Ï t B y =",
+          "3": "8 sin â¡ Ï t C y = 3 Ã",
+          "4": "8 sin â¡ Ï t D y ="
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-1a4d9353f4",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A particle is projected vertically upwards with a speed of 16 m s - 1 , after some time, when it again passes through the point of projection, its speed is found to be 8 m s - 1 . It is found that the work done by air resistance is the same during upward and downward motion. Then the maximum height attained by the particle is â",
+        "options": {
+          "1": "A 8 m",
+          "2": "8 m C 1",
+          "3": "6 m D 1",
+          "4": "8 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-83e7ede189",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A stone of density 2000 kg m - 3 completely immersed in a lake is allowed to sink from rest. If the effect of friction is neglected, then after 4 seconds, the stone will reach a depth of",
+        "options": {
+          "1": "A 7",
+          "2": "4 m B 3",
+          "3": "2 Â m C 1",
+          "4": "6 Â m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-36487effc8",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A man weighing 60 kg is standing on a trolley weighing 240 kg . The trolley is resting on frictionless horizontal rails. If the man starts walking on the trolley with a velocity of 1 m s - 1 , then after 4 s , his displacement relative to the ground is",
+        "options": {
+          "1": "A 6 m",
+          "2": "8 m",
+          "3": "2 m",
+          "4": "4 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-16e0a71e3d",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A solid sphere of mass 2 kg is rolling on a frictionless horizontal surface with velocity 6 m s - 1 . It collides on the free end of an ideal spring whose other end is fixed. The maximum compression produced in the spring will be (Force constant of the spring = 36 N m - 1 ).",
+        "options": {
+          "1": "A 14 m",
+          "2": "8 m",
+          "3": "4 m",
+          "4": "7 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-9ddb73194c",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "The escape velocity of a body on the earth surface is $11.2 \\mathrm{~km} / \\mathrm{s}$. If the same body is projected upward with velocity $22.4 \\mathrm{~km} / \\mathrm{s}$, the velocity of this body at infinite distance from the centre of the earth will be",
+        "options": {
+          "1": "A 1",
+          "2": "2 \\mathrm{~km} / \\mathrm{s} B 1",
+          "3": "2 \\sqrt{3} \\mathrm{~km} / \\mathrm{s} C 1",
+          "4": "2 \\sqrt{2} \\mathrm{~km} / \\mathrm{s} D Zero"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-d1e779ae8f",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "A raindrop of radius 0.3 mm has a terminal velocity in air = 1 m s - 1 . The viscous force on it is (Given the viscosity of the air is 18 Ã 10 - 5 g cm - 1 s - 1 )",
+        "options": {
+          "1": "A 10",
+          "2": "73 Ã 10 - 4 Â d y n e B 10",
+          "3": "73 Ã 10 - 5 Â d y n e C 1",
+          "4": "95 Ã 10 - 4 Â d y n e D 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-dd448e52de",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "stem": "The work done in blowing a soap bubble of 10 cm radius is ( surface tension of the soap solution is 3 100 N m - 1 â )",
+        "options": {
+          "1": "A 7",
+          "2": "36 × 10 - 4 J ⁡ B 3",
+          "3": "68 × 10 - 4 J ⁡ C 15",
+          "4": "72 × 10 - 4 J ⁡ D 7"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
       }
     ]
   },

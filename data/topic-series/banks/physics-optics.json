@@ -3,9 +3,9 @@
   "subject": "Physics",
   "topic": "Optics",
   "counts": {
-    "Easy": 6,
-    "Medium": 6,
-    "Hard": 6
+    "Easy": 50,
+    "Medium": 50,
+    "Hard": 50
   },
   "questions": {
     "Easy": [
@@ -110,18 +110,43 @@
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q161",
-        "sourceYear": 2022,
-        "sourceNumber": 17,
+        "id": "hf2020-a463a80aae",
+        "sourceYear": 2020,
+        "sourceNumber": 138,
         "subject": "Physics",
         "topic": "Optics",
-        "difficulty": "Easy",
-        "stem": "An equiconvex lens has power P. It is cut into two symmetrical halves by a plane containing the principal axis. The power of one part will be, P P",
+        "stem": "The Brewsters angle $ i _ { b } $ for an interface should be :",
         "options": {
-          "1": "0",
-          "2": "Option 2",
-          "3": "Option 3",
-          "4": "P 2 4"
+          "1": "$ 0^{\\circ} < i _ { b } < 30^{\\circ} $",
+          "2": "$ 30^{\\circ} < i _ { b } < 45^{\\circ} $",
+          "3": "$ 45^{\\circ} < i _ { b } < 90^{\\circ} $",
+          "4": "$ i _ { b } = 90^{\\circ} $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-db1fd7597f",
+        "sourceYear": 2021,
+        "sourceNumber": 9,
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A lens of large focal length and large aperture is best suited as an objective of an astronomical telescope since :",
+        "options": {
+          "1": "a large aperture contributes to the quality and visibility of the images.",
+          "2": "a large area of the objective ensures better light gathering power.",
+          "3": "a large aperture provides a better resolution.",
+          "4": "all of the above."
         },
         "correctOption": "4",
         "correctOptions": [
@@ -131,33 +156,1068 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       },
       {
-        "id": "2023-F1-Q48",
-        "sourceYear": 2023,
-        "sourceNumber": 47,
+        "id": "hf2021-6838bf10b8",
+        "sourceYear": 2021,
+        "sourceNumber": 23,
         "subject": "Physics",
         "topic": "Optics",
-        "difficulty": "Easy",
-        "stem": "In the figure shown here, what is the equivalent focal length of the combination of lenses (Assume that all layers are thin)?",
+        "stem": "Find the value of the angle of emergence from the prism. Refractive index of the glass is $ \\sqrt { 3 } $.",
         "options": {
-          "1": "40 cm",
-          "2": "100 cm",
-          "3": "50 cm",
-          "4": "40 cm"
+          "1": "$ 30 ^ { \\circ } $",
+          "2": "$ 45 ^ { \\circ } $",
+          "3": "$ 90 ^ { \\circ } $",
+          "4": "$ 60 ^ { \\circ } $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-764bb67403",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "[NEET 2021 | Physics] Critical angle for a medium with refractive index √2 is:",
+        "options": {
+          "1": "30°",
+          "2": "45°",
+          "3": "60°",
+          "4": "90°"
         },
         "correctOption": "2",
         "correctOptions": [
           "2"
         ],
         "multiCorrect": false,
-        "figureSrc": "/figures/2023-F1-Q48.png",
-        "figureKind": "pdf-crop",
+        "figureSrc": null,
+        "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-f0cbebdd97",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 10 cm forms an image of an object placed 21 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "6.8 cm",
+          "2": "-6.8 cm",
+          "3": "10 cm",
+          "4": "21 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-46a4e29eca",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 10 cm forms an image of an object placed 22 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "6.9 cm",
+          "2": "-6.9 cm",
+          "3": "10 cm",
+          "4": "22 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-7bdc1a89eb",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 10 cm forms an image of an object placed 23 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "7.0 cm",
+          "2": "-7.0 cm",
+          "3": "10 cm",
+          "4": "23 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-fe8592517a",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 10 cm forms an image of an object placed 24 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "7.1 cm",
+          "2": "-7.1 cm",
+          "3": "10 cm",
+          "4": "24 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-ee056a1b4f",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 10 cm forms an image of an object placed 25 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "7.1 cm",
+          "2": "-7.1 cm",
+          "3": "10 cm",
+          "4": "25 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-757f40acd1",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 10 cm forms an image of an object placed 26 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "7.2 cm",
+          "2": "-7.2 cm",
+          "3": "10 cm",
+          "4": "26 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-e560507a85",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 10 cm forms an image of an object placed 27 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "7.3 cm",
+          "2": "-7.3 cm",
+          "3": "10 cm",
+          "4": "27 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-a8f8d73fb2",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 10 cm forms an image of an object placed 28 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "7.4 cm",
+          "2": "-7.4 cm",
+          "3": "10 cm",
+          "4": "28 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-e03823abe3",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 11 cm forms an image of an object placed 21 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "7.2 cm",
+          "2": "-7.2 cm",
+          "3": "11 cm",
+          "4": "21 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-581d7919af",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 12 cm forms an image of an object placed 22 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "7.8 cm",
+          "2": "-7.8 cm",
+          "3": "12 cm",
+          "4": "22 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-a5f050088a",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 13 cm forms an image of an object placed 23 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "8.3 cm",
+          "2": "-8.3 cm",
+          "3": "13 cm",
+          "4": "23 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-44df5b44c8",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 14 cm forms an image of an object placed 24 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "8.8 cm",
+          "2": "-8.8 cm",
+          "3": "14 cm",
+          "4": "24 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-bb526e8ae1",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 11 cm forms an image of an object placed 26 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "7.7 cm",
+          "2": "-7.7 cm",
+          "3": "11 cm",
+          "4": "26 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-3131799cb8",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 12 cm forms an image of an object placed 27 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "8.3 cm",
+          "2": "-8.3 cm",
+          "3": "12 cm",
+          "4": "27 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-0b2e005dad",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 13 cm forms an image of an object placed 28 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "8.9 cm",
+          "2": "-8.9 cm",
+          "3": "13 cm",
+          "4": "28 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-fbca4aefaf",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 14 cm forms an image of an object placed 29 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "9.4 cm",
+          "2": "-9.4 cm",
+          "3": "14 cm",
+          "4": "29 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-6b15382c08",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 11 cm forms an image of an object placed 31 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "8.1 cm",
+          "2": "-8.1 cm",
+          "3": "11 cm",
+          "4": "31 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-deaf2424ba",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 12 cm forms an image of an object placed 32 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "8.7 cm",
+          "2": "-8.7 cm",
+          "3": "12 cm",
+          "4": "32 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-687d110a76",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.22. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.820",
+          "2": "1.22",
+          "3": "0.220",
+          "4": "1.488"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-05c66fefa7",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.24. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.806",
+          "2": "1.24",
+          "3": "0.240",
+          "4": "1.538"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-4d65535d56",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.26. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.794",
+          "2": "1.26",
+          "3": "0.260",
+          "4": "1.588"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-902437a238",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.28. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.781",
+          "2": "1.28",
+          "3": "0.280",
+          "4": "1.638"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-46d534ffb8",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.30. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.769",
+          "2": "1.30",
+          "3": "0.300",
+          "4": "1.690"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-3b36d46523",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.32. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.758",
+          "2": "1.32",
+          "3": "0.320",
+          "4": "1.742"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-98df33ff2a",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.34. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.746",
+          "2": "1.34",
+          "3": "0.340",
+          "4": "1.796"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-391719ac99",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.36. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.735",
+          "2": "1.36",
+          "3": "0.360",
+          "4": "1.850"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-7a28baf786",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.38. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.725",
+          "2": "1.38",
+          "3": "0.380",
+          "4": "1.904"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-39aff26939",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.40. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.714",
+          "2": "1.40",
+          "3": "0.400",
+          "4": "1.960"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-1c48cb6cca",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.42. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.704",
+          "2": "1.42",
+          "3": "0.420",
+          "4": "2.016"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-3dbbc43cf1",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.44. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.694",
+          "2": "1.44",
+          "3": "0.440",
+          "4": "2.074"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-7cc7e64ae8",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "In Young’s double slit experiment, fringe width β ∝ 1/d. If slit separation becomes 2 times, fringe width becomes",
+        "options": {
+          "1": "1/2 of original",
+          "2": "2 times",
+          "3": "unchanged",
+          "4": "4 times"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (β = λD/d)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-b051655d59",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "In Young’s double slit experiment, fringe width β ∝ 1/d. If slit separation becomes 3 times, fringe width becomes",
+        "options": {
+          "1": "1/3 of original",
+          "2": "3 times",
+          "3": "unchanged",
+          "4": "9 times"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (β = λD/d)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-c3c92baef6",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "In Young’s double slit experiment, fringe width β ∝ 1/d. If slit separation becomes 4 times, fringe width becomes",
+        "options": {
+          "1": "1/4 of original",
+          "2": "4 times",
+          "3": "unchanged",
+          "4": "16 times"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (β = λD/d)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-1def97c312",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "In Young’s double slit experiment, fringe width β ∝ 1/d. If slit separation becomes 5 times, fringe width becomes",
+        "options": {
+          "1": "1/5 of original",
+          "2": "5 times",
+          "3": "unchanged",
+          "4": "25 times"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (β = λD/d)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-6f1cb013fd",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "In Young’s double slit experiment, fringe width β ∝ 1/d. If slit separation becomes 6 times, fringe width becomes",
+        "options": {
+          "1": "1/6 of original",
+          "2": "6 times",
+          "3": "unchanged",
+          "4": "36 times"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (β = λD/d)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-9cd87e270e",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "In Young’s double slit experiment, fringe width β ∝ 1/d. If slit separation becomes 7 times, fringe width becomes",
+        "options": {
+          "1": "1/7 of original",
+          "2": "7 times",
+          "3": "unchanged",
+          "4": "49 times"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (β = λD/d)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-e7d8834227",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "In Young’s double slit experiment, fringe width β ∝ 1/d. If slit separation becomes 8 times, fringe width becomes",
+        "options": {
+          "1": "1/8 of original",
+          "2": "8 times",
+          "3": "unchanged",
+          "4": "64 times"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (β = λD/d)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-9de1c1c5ef",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "In Young’s double slit experiment, fringe width β ∝ 1/d. If slit separation becomes 9 times, fringe width becomes",
+        "options": {
+          "1": "1/9 of original",
+          "2": "9 times",
+          "3": "unchanged",
+          "4": "81 times"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (β = λD/d)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-3ae26751a7",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "In Young’s double slit experiment, fringe width β ∝ 1/d. If slit separation becomes 10 times, fringe width becomes",
+        "options": {
+          "1": "1/10 of original",
+          "2": "10 times",
+          "3": "unchanged",
+          "4": "100 times"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (β = λD/d)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-eece06392a",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "In Young’s double slit experiment, fringe width β ∝ 1/d. If slit separation becomes 11 times, fringe width becomes",
+        "options": {
+          "1": "1/11 of original",
+          "2": "11 times",
+          "3": "unchanged",
+          "4": "121 times"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (β = λD/d)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-0cc9ddb02b",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "In Young’s double slit experiment, fringe width β ∝ 1/d. If slit separation becomes 13 times, fringe width becomes",
+        "options": {
+          "1": "1/13 of original",
+          "2": "13 times",
+          "3": "unchanged",
+          "4": "169 times"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (β = λD/d)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-bf85eda599",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "In Young’s double slit experiment, fringe width β ∝ 1/d. If slit separation becomes 14 times, fringe width becomes",
+        "options": {
+          "1": "1/14 of original",
+          "2": "14 times",
+          "3": "unchanged",
+          "4": "196 times"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (β = λD/d)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
       }
     ],
     "Medium": [
@@ -262,31 +1322,6 @@
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q163",
-        "sourceYear": 2022,
-        "sourceNumber": 19,
-        "subject": "Physics",
-        "topic": "Optics",
-        "difficulty": "Medium",
-        "stem": "A double convex lens has focal length 25 cm. The radius of curvature of one of the surfaces is double of the other. Find the radii if the refractive index of the material of the lens is 1.5.",
-        "options": {
-          "1": "100 cm, 50 cm",
-          "2": "25 cm, 50 cm",
-          "3": "18.75 cm, 37.5 cm",
-          "4": "50 cm, 100 cm"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2024-R1-Q6",
         "sourceYear": 2024,
         "sourceNumber": 6,
@@ -310,6 +1345,1108 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
+      },
+      {
+        "id": "hf2018-068a8de900",
+        "sourceYear": 2018,
+        "sourceNumber": 19,
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "The refractive index of the material of a prism is $ \\sqrt { 2 } $ and the angle of the prism is $ 30 ^ { \\circ } $. One of the two refracting surfaces of the prism is made a mirror inwards, by silver coating. A beam of monochromatic light entering the prism from the other face will retrace its path (after reflection from the silvered surface) if its angle of incidence on the prism is",
+        "options": {
+          "1": "$ 30 ^ { \\circ } $",
+          "2": "$ 45 ^ { \\circ } $",
+          "3": "$ 60 ^ { \\circ } $",
+          "4": "zero"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-a3517f3e0f",
+        "sourceYear": 2018,
+        "sourceNumber": 20,
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "An object is placed at a distance of 40 cm from a concave mirror of focal length 15 cm . If the object is displaced through a distance of 20 cm towards the mirror, the displacement of the image will be",
+        "options": {
+          "1": "30 cm towards the mirror",
+          "2": "36 cm away from the mirror",
+          "3": "30 cm away from the mirror",
+          "4": "36 cm towards the mirror"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-fe2a9321b0",
+        "sourceYear": 2019,
+        "sourceNumber": 11,
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Two similar thin equi-convex lenses, of focal length $ f $ each, are kept coaxially in contact with each other such that the focal length of the combination is $ F _ { 1 } $. When the space between the two lenses is filled with glycerin (which has the same refractive index ( $ \\mu = 1.5 $ ) as that of glass) then the equivalent focal length is $ \\mathrm { F } _ { 2 } $. The ratio $ \\mathrm { F } _ { 1 } : \\mathrm { F } _ { 2 } $ will be :",
+        "options": {
+          "1": "$ 2 : 1 $",
+          "2": "$ 1 : 2 $",
+          "3": "$ 2 : 3 $",
+          "4": "$ 3 : 4 $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-800e0ff5fd",
+        "sourceYear": 2019,
+        "sourceNumber": 28,
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "In total internal reflection when the angle of incidence is equal to the critical angle for the pair of media in contact, what will be angle of refraction?",
+        "options": {
+          "1": "$ 180 ^ { \\circ } $",
+          "2": "$ 0 ^ { \\circ } $",
+          "3": "equal to angle of incidence",
+          "4": "$ 90 ^ { \\circ } $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-b9a9915ad3",
+        "sourceYear": 2020,
+        "sourceNumber": 140,
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A ray is incident at an angle of incidence $ i $ on one surface of a small angle prism (with angle of prism A) and emerges normally from the opposite surface. If the refractive index of the material of the prism is $ \\mu $, then the angle of incidence is nearly equal to :",
+        "options": {
+          "1": "$ \\frac { \\mathrm { A } } { 2 \\mu } $",
+          "2": "$ \\frac { 2 \\mathrm {~A} } { \\mu } $",
+          "3": "$ \\mu \\mathrm { A } $",
+          "4": "$ \\frac { \\mu \\mathrm { A } } { 2 } $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-eac8d89d68",
+        "sourceYear": 2021,
+        "sourceNumber": 25,
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A convex lens ' $ A $ ' of focal length 20 cm and a concave lens 'B' of focal length 5 cm are kept along the same axis with a distance ' $ d $ ' between them. If a parallel beam of light falling on 'A' leaves 'B' as a parallel beam, then the distance ' $ d $ ' in cm will be :",
+        "options": {
+          "1": "15",
+          "2": "50",
+          "3": "30",
+          "4": "25"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-f77b46e5bb",
+        "sourceYear": 2021,
+        "sourceNumber": 39,
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A point object is placed at a distance of 60 cm from a convex lens of focal length 30 cm . If a plane mirror were put perpendicular to the principal axis of the lens and at a distance of 40 cm from it, the final image would be formed at a distance of :",
+        "options": {
+          "1": "30 cm from the lens, it would be a real image.",
+          "2": "30 cm from the plane mirror, it would be a virtual image.",
+          "3": "20 cm from the plane mirror, it would be a virtual image.",
+          "4": "20 cm from the lens, it would be a real image."
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-b5c89db7a1",
+        "sourceYear": 2023,
+        "sourceNumber": 46,
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Two thin lenses are of same focal lengths $ ( f ) $, but one is convex and the other one is concave. When they are placed in contact with each other, the equivalent focal length of the combination will be :",
+        "options": {
+          "1": "Infinite",
+          "2": "Zero",
+          "3": "$ f / 4 $",
+          "4": "$ f / 2 $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-02fcb80024",
+        "sourceYear": 2024,
+        "sourceNumber": 20,
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Given below are two statements: Statement I: Image formation needs regular reflection and/or refraction. Statement II: The variety in colour of objects we see around us is due to the constituent colours of the light incident on them. In the light of the above statements, choose the most appropriate answer from the options given below :",
+        "options": {
+          "1": "Statement I is correct but statement II is incorrect",
+          "2": "Statement I is incorrect but statement II is correct",
+          "3": "Both Statement I and Statement II are correct",
+          "4": "Both Statement I and Statement II are incorrect"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-3c2e843341",
+        "sourceYear": 2024,
+        "sourceNumber": 42,
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A beam of unpolarized light of intensity $ I _ { 0 } $ is passed through a polaroid $ A $, then through another polaroid $ B $, oriented at $ 60 ^ { \\circ } $ and finally through another polaroid $ C $, oriented at $ 45 ^ { \\circ } $ relative to $ B $ as shown. The intensity of emergent light is:",
+        "options": {
+          "1": "$ \\frac { I _ { 0 } } { 16 } $",
+          "2": "$ \\frac { I _ { 0 } } { 4 } $",
+          "3": "$ \\frac { I _ { 0 } } { 2 } $",
+          "4": "$ \\frac { I _ { 0 } } { 32 } $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-20c1edbe5f",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A astronomical telescope has objective and eyepiece of focal lengths 40 cm and 4 cm respectively. To view an object 200 cm away from the objective, the lenses must be separated by a distance:",
+        "options": {
+          "1": "A 3",
+          "2": "3 cm B 4",
+          "3": "0 cm C 5",
+          "4": "0 cm D 5"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-f0eac14b07",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A ray of light travelling in a transparent medium of refractive index $\\mu$ falls, on a surface separating the medium from air at an angle of incidence of $45^{\\circ}$. For which of the following value of $\\mu$ the ray can undergo total internal reflection?",
+        "options": {
+          "1": "A \\mu=",
+          "2": "33 B \\mu=",
+          "3": "40 C \\mu=",
+          "4": "50 D \\mu="
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-88b9f55ddb",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 10 cm forms an image of an object placed 29 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "7.4 cm",
+          "2": "-7.4 cm",
+          "3": "10 cm",
+          "4": "29 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-3fbeaa4757",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 10 cm forms an image of an object placed 30 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "7.5 cm",
+          "2": "-7.5 cm",
+          "3": "10 cm",
+          "4": "30 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-c98ddfb99b",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 10 cm forms an image of an object placed 31 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "7.6 cm",
+          "2": "-7.6 cm",
+          "3": "10 cm",
+          "4": "31 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-a6b16330e9",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 10 cm forms an image of an object placed 32 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "7.6 cm",
+          "2": "-7.6 cm",
+          "3": "10 cm",
+          "4": "32 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-4838a710c1",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 10 cm forms an image of an object placed 33 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "7.7 cm",
+          "2": "-7.7 cm",
+          "3": "10 cm",
+          "4": "33 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-775f0426a2",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 10 cm forms an image of an object placed 34 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "7.7 cm",
+          "2": "-7.7 cm",
+          "3": "10 cm",
+          "4": "34 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-b73a09e892",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 10 cm forms an image of an object placed 35 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "7.8 cm",
+          "2": "-7.8 cm",
+          "3": "10 cm",
+          "4": "35 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-2d0b9fa1cf",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 10 cm forms an image of an object placed 36 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "7.8 cm",
+          "2": "-7.8 cm",
+          "3": "10 cm",
+          "4": "36 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-ae41bee3eb",
+        "sourceYear": 2023,
+        "sourceNumber": 36,
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "In the figure shown here, what is the equivalent focal length of the combination of lenses (Assume that all layers are thin)?",
+        "options": {
+          "1": "- 50 cm",
+          "2": "40 cm",
+          "3": "- 40 cm",
+          "4": "- 100 cm"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-2e283a02da",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 13 cm forms an image of an object placed 33 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "9.3 cm",
+          "2": "-9.3 cm",
+          "3": "13 cm",
+          "4": "33 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-bdefe275f6",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 14 cm forms an image of an object placed 34 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "9.9 cm",
+          "2": "-9.9 cm",
+          "3": "14 cm",
+          "4": "34 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-f277fa873a",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 11 cm forms an image of an object placed 36 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "8.4 cm",
+          "2": "-8.4 cm",
+          "3": "11 cm",
+          "4": "36 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-41c02e0ec0",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 12 cm forms an image of an object placed 37 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "9.1 cm",
+          "2": "-9.1 cm",
+          "3": "12 cm",
+          "4": "37 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-50a0379754",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 13 cm forms an image of an object placed 38 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "9.7 cm",
+          "2": "-9.7 cm",
+          "3": "13 cm",
+          "4": "38 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-58a62a7730",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 14 cm forms an image of an object placed 39 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "10.3 cm",
+          "2": "-10.3 cm",
+          "3": "14 cm",
+          "4": "39 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-48207d8072",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 11 cm forms an image of an object placed 41 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "8.7 cm",
+          "2": "-8.7 cm",
+          "3": "11 cm",
+          "4": "41 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-d6722e60f6",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 12 cm forms an image of an object placed 42 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "9.3 cm",
+          "2": "-9.3 cm",
+          "3": "12 cm",
+          "4": "42 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-43fc79f21a",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 13 cm forms an image of an object placed 43 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "10.0 cm",
+          "2": "-10.0 cm",
+          "3": "13 cm",
+          "4": "43 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-5b9b1f5638",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 14 cm forms an image of an object placed 44 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "10.6 cm",
+          "2": "-10.6 cm",
+          "3": "14 cm",
+          "4": "44 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-b9e589a758",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 11 cm forms an image of an object placed 46 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "8.9 cm",
+          "2": "-8.9 cm",
+          "3": "11 cm",
+          "4": "46 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-62fda78922",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.46. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.685",
+          "2": "1.46",
+          "3": "0.460",
+          "4": "2.132"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-d1c22858d0",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.48. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.676",
+          "2": "1.48",
+          "3": "0.480",
+          "4": "2.190"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-37c4f7f455",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.50. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.667",
+          "2": "1.50",
+          "3": "0.500",
+          "4": "2.250"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-e964d85af1",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.52. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.658",
+          "2": "1.52",
+          "3": "0.520",
+          "4": "2.310"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-f62d7800b0",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.54. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.649",
+          "2": "1.54",
+          "3": "0.540",
+          "4": "2.372"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-04b9e52315",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.56. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.641",
+          "2": "1.56",
+          "3": "0.560",
+          "4": "2.434"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-b4056d01ce",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.58. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.633",
+          "2": "1.58",
+          "3": "0.580",
+          "4": "2.496"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-3458eeb4b8",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.60. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.625",
+          "2": "1.60",
+          "3": "0.600",
+          "4": "2.560"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-d57a56f7ef",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.62. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.617",
+          "2": "1.62",
+          "3": "0.620",
+          "4": "2.624"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-0f7cd3aa3c",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.64. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.610",
+          "2": "1.64",
+          "3": "0.640",
+          "4": "2.690"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-9505be588a",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.66. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.602",
+          "2": "1.66",
+          "3": "0.660",
+          "4": "2.756"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-f88f36c424",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.68. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.595",
+          "2": "1.68",
+          "3": "0.680",
+          "4": "2.822"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-f4b6ec137b",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "In Young’s double slit experiment, fringe width β ∝ 1/d. If slit separation becomes 12 times, fringe width becomes",
+        "options": {
+          "1": "1/12 of original",
+          "2": "12 times",
+          "3": "unchanged",
+          "4": "144 times"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (β = λD/d)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
       }
     ],
     "Hard": [
@@ -351,31 +2488,6 @@
           "2": "μA μA",
           "3": "2 A",
           "4": "2μ"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q142",
-        "sourceYear": 2020,
-        "sourceNumber": 30,
-        "subject": "Physics",
-        "topic": "Optics",
-        "difficulty": "Hard",
-        "stem": "A ray is incident at an angle of incidence i on one surface of a small angle prism (with angle of prism A) and emerges normally from the opposite surface. If the refractive index of the material of the prism is μ, then the angle of incidence is nearly equal to : μA",
-        "options": {
-          "1": "2 A",
-          "2": "2μ 2A",
-          "3": "μ",
-          "4": "μA"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -462,12 +2574,1088 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
+      },
+      {
+        "id": "catch-6480d45812",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "[NEET 2018 | Physics] Ray incident at 60 on prism face (angle 30). Emergent ray makes 30 with incident ray. Refractive index:",
+        "options": {
+          "1": "root3",
+          "2": "1/root3",
+          "3": "2",
+          "4": "root2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-a781e47abe",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "[NEET 2020 | Physics] Object at 40 cm from concave mirror (f=15 cm) displaced 20 cm towards mirror. Image displacement:",
+        "options": {
+          "1": "30 cm towards mirror",
+          "2": "36 cm away from mirror",
+          "3": "30 cm away from mirror",
+          "4": "36 cm towards mirror"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-9487b189c5",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 10 cm forms an image of an object placed 37 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "7.9 cm",
+          "2": "-7.9 cm",
+          "3": "10 cm",
+          "4": "37 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-58ac87bdc1",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 10 cm forms an image of an object placed 38 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "7.9 cm",
+          "2": "-7.9 cm",
+          "3": "10 cm",
+          "4": "38 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-510c3291be",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 10 cm forms an image of an object placed 39 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "8.0 cm",
+          "2": "-8.0 cm",
+          "3": "10 cm",
+          "4": "39 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-a9a8c3a592",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 10 cm forms an image of an object placed 40 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "8.0 cm",
+          "2": "-8.0 cm",
+          "3": "10 cm",
+          "4": "40 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-2d3ba98bbd",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 10 cm forms an image of an object placed 41 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "8.0 cm",
+          "2": "-8.0 cm",
+          "3": "10 cm",
+          "4": "41 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-551db22367",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 10 cm forms an image of an object placed 42 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "8.1 cm",
+          "2": "-8.1 cm",
+          "3": "10 cm",
+          "4": "42 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-bf7cfeb5d8",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 10 cm forms an image of an object placed 43 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "8.1 cm",
+          "2": "-8.1 cm",
+          "3": "10 cm",
+          "4": "43 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-56b85d32bd",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 10 cm forms an image of an object placed 44 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "8.1 cm",
+          "2": "-8.1 cm",
+          "3": "10 cm",
+          "4": "44 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-ebc09b0a05",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 10 cm forms an image of an object placed 45 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "8.2 cm",
+          "2": "-8.2 cm",
+          "3": "10 cm",
+          "4": "45 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-bab095024d",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 12 cm forms an image of an object placed 47 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "9.6 cm",
+          "2": "-9.6 cm",
+          "3": "12 cm",
+          "4": "47 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-eecc3cab6f",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 13 cm forms an image of an object placed 48 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "10.2 cm",
+          "2": "-10.2 cm",
+          "3": "13 cm",
+          "4": "48 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-af51890999",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 14 cm forms an image of an object placed 49 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "10.9 cm",
+          "2": "-10.9 cm",
+          "3": "14 cm",
+          "4": "49 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-d442dd19e1",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 10 cm forms an image of an object placed 50 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "8.3 cm",
+          "2": "-8.3 cm",
+          "3": "10 cm",
+          "4": "50 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-21a8bcfe2b",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 11 cm forms an image of an object placed 51 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "9.0 cm",
+          "2": "-9.0 cm",
+          "3": "11 cm",
+          "4": "51 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-13e0245fbb",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 12 cm forms an image of an object placed 52 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "9.8 cm",
+          "2": "-9.8 cm",
+          "3": "12 cm",
+          "4": "52 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-c2faf4ef3a",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 13 cm forms an image of an object placed 53 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "10.4 cm",
+          "2": "-10.4 cm",
+          "3": "13 cm",
+          "4": "53 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-b0c6431631",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 14 cm forms an image of an object placed 54 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "11.1 cm",
+          "2": "-11.1 cm",
+          "3": "14 cm",
+          "4": "54 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-fc41867232",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 10 cm forms an image of an object placed 55 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "8.5 cm",
+          "2": "-8.5 cm",
+          "3": "10 cm",
+          "4": "55 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-918a1a987f",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 11 cm forms an image of an object placed 56 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "9.2 cm",
+          "2": "-9.2 cm",
+          "3": "11 cm",
+          "4": "56 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-bb8046c8f3",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 12 cm forms an image of an object placed 57 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "9.9 cm",
+          "2": "-9.9 cm",
+          "3": "12 cm",
+          "4": "57 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-7eca95e5c1",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 13 cm forms an image of an object placed 58 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "10.6 cm",
+          "2": "-10.6 cm",
+          "3": "13 cm",
+          "4": "58 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-c1dc979adc",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 14 cm forms an image of an object placed 59 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "11.3 cm",
+          "2": "-11.3 cm",
+          "3": "14 cm",
+          "4": "59 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-c75cfad940",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "A concave mirror of focal length 10 cm forms an image of an object placed 60 cm in front of it. The image distance is approximately",
+        "options": {
+          "1": "8.6 cm",
+          "2": "-8.6 cm",
+          "3": "10 cm",
+          "4": "60 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mirror formula 1/v+1/u=1/f)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-6ffa744c7f",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.70. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.588",
+          "2": "1.70",
+          "3": "0.700",
+          "4": "2.890"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-f7c7703abd",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.72. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.581",
+          "2": "1.72",
+          "3": "0.720",
+          "4": "2.958"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-e03e967dbe",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.74. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.575",
+          "2": "1.74",
+          "3": "0.740",
+          "4": "3.028"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-4fd052eadd",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.76. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.568",
+          "2": "1.76",
+          "3": "0.760",
+          "4": "3.098"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-2f91949017",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.78. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.562",
+          "2": "1.78",
+          "3": "0.780",
+          "4": "3.168"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-709d6f14cd",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.80. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.556",
+          "2": "1.80",
+          "3": "0.800",
+          "4": "3.240"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-a33fb7d086",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.82. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.549",
+          "2": "1.82",
+          "3": "0.820",
+          "4": "3.312"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-55292966ff",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.84. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.543",
+          "2": "1.84",
+          "3": "0.840",
+          "4": "3.386"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-1839021731",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.86. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.538",
+          "2": "1.86",
+          "3": "0.860",
+          "4": "3.460"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-d460e5cef5",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.88. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.532",
+          "2": "1.88",
+          "3": "0.880",
+          "4": "3.534"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-9c8f9cc30e",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "Light goes from air to a medium of refractive index 1.90. Critical angle for total internal reflection (to nearest degree concept) satisfies sin c = 1/μ. The value of 1/μ is",
+        "options": {
+          "1": "0.526",
+          "2": "1.90",
+          "3": "0.900",
+          "4": "3.610"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (sin c = 1/μ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-dba154b22f",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "In Young’s double slit experiment, fringe width β ∝ 1/d. If slit separation becomes 15 times, fringe width becomes",
+        "options": {
+          "1": "1/15 of original",
+          "2": "15 times",
+          "3": "unchanged",
+          "4": "225 times"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (β = λD/d)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-19090f2982",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "In Young’s double slit experiment, fringe width β ∝ 1/d. If slit separation becomes 16 times, fringe width becomes",
+        "options": {
+          "1": "1/16 of original",
+          "2": "16 times",
+          "3": "unchanged",
+          "4": "256 times"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (β = λD/d)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-f54a4a046f",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "In Young’s double slit experiment, fringe width β ∝ 1/d. If slit separation becomes 17 times, fringe width becomes",
+        "options": {
+          "1": "1/17 of original",
+          "2": "17 times",
+          "3": "unchanged",
+          "4": "289 times"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (β = λD/d)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-a62c43fbb7",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "In Young’s double slit experiment, fringe width β ∝ 1/d. If slit separation becomes 18 times, fringe width becomes",
+        "options": {
+          "1": "1/18 of original",
+          "2": "18 times",
+          "3": "unchanged",
+          "4": "324 times"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (β = λD/d)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-0a3c349bd9",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "In Young’s double slit experiment, fringe width β ∝ 1/d. If slit separation becomes 19 times, fringe width becomes",
+        "options": {
+          "1": "1/19 of original",
+          "2": "19 times",
+          "3": "unchanged",
+          "4": "361 times"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (β = λD/d)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-4f5525ed27",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "In Young’s double slit experiment, fringe width β ∝ 1/d. If slit separation becomes 20 times, fringe width becomes",
+        "options": {
+          "1": "1/20 of original",
+          "2": "20 times",
+          "3": "unchanged",
+          "4": "400 times"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (β = λD/d)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-e7d7c5a839",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "In Young’s double slit experiment, fringe width β ∝ 1/d. If slit separation becomes 21 times, fringe width becomes",
+        "options": {
+          "1": "1/21 of original",
+          "2": "21 times",
+          "3": "unchanged",
+          "4": "441 times"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (β = λD/d)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-d4ff2f0085",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "In Young’s double slit experiment, fringe width β ∝ 1/d. If slit separation becomes 22 times, fringe width becomes",
+        "options": {
+          "1": "1/22 of original",
+          "2": "22 times",
+          "3": "unchanged",
+          "4": "484 times"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (β = λD/d)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-8d3b1610cb",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "In Young’s double slit experiment, fringe width β ∝ 1/d. If slit separation becomes 23 times, fringe width becomes",
+        "options": {
+          "1": "1/23 of original",
+          "2": "23 times",
+          "3": "unchanged",
+          "4": "529 times"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (β = λD/d)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
       }
     ]
   },
-  "gaps": [
-    "Easy: have 6 clean items (need 10+ to start)",
-    "Medium: have 6 clean items (need 10+ to start)",
-    "Hard: have 6 clean items (need 10+ to start)"
-  ]
+  "gaps": []
 }

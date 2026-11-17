@@ -1,75 +1,15 @@
 {
-  "version": 7,
-  "note": "Student-curated banks: placeholders/OCR/Hindi-garbage/incomplete options removed. Counts are clean English items only.",
+  "version": 1794911395609,
+  "note": "Student-curated banks targeting ≥50 per Easy/Medium/Hard. PYQ+HF+authored; AI-verified keys with attributable solutionSource.",
   "topics": [
     {
       "id": "biology-biology-general",
       "subject": "Biology",
       "topic": "Biology General",
       "counts": {
-        "Easy": 186,
-        "Medium": 186,
-        "Hard": 186
-      },
-      "gaps": [],
-      "ready": true
-    },
-    {
-      "id": "chemistry-chemistry-general",
-      "subject": "Chemistry",
-      "topic": "Chemistry General",
-      "counts": {
-        "Easy": 99,
-        "Medium": 98,
-        "Hard": 98
-      },
-      "gaps": [],
-      "ready": true
-    },
-    {
-      "id": "physics-physics-general",
-      "subject": "Physics",
-      "topic": "Physics General",
-      "counts": {
-        "Easy": 77,
-        "Medium": 77,
-        "Hard": 77
-      },
-      "gaps": [],
-      "ready": true
-    },
-    {
-      "id": "biology-genetics-biotech",
-      "subject": "Biology",
-      "topic": "Genetics & Biotech",
-      "counts": {
-        "Easy": 44,
-        "Medium": 44,
-        "Hard": 44
-      },
-      "gaps": [],
-      "ready": true
-    },
-    {
-      "id": "physics-electromagnetism",
-      "subject": "Physics",
-      "topic": "Electromagnetism",
-      "counts": {
-        "Easy": 36,
-        "Medium": 36,
-        "Hard": 36
-      },
-      "gaps": [],
-      "ready": true
-    },
-    {
-      "id": "chemistry-physical-chemistry",
-      "subject": "Chemistry",
-      "topic": "Physical Chemistry",
-      "counts": {
-        "Easy": 30,
-        "Medium": 30,
-        "Hard": 29
+        "Easy": 313,
+        "Medium": 241,
+        "Hard": 204
       },
       "gaps": [],
       "ready": true
@@ -79,21 +19,9 @@
       "subject": "Biology",
       "topic": "Botany",
       "counts": {
-        "Easy": 23,
-        "Medium": 23,
-        "Hard": 23
-      },
-      "gaps": [],
-      "ready": true
-    },
-    {
-      "id": "biology-human-physiology",
-      "subject": "Biology",
-      "topic": "Human Physiology",
-      "counts": {
-        "Easy": 21,
-        "Medium": 21,
-        "Hard": 20
+        "Easy": 50,
+        "Medium": 50,
+        "Hard": 50
       },
       "gaps": [],
       "ready": true
@@ -103,21 +31,9 @@
       "subject": "Biology",
       "topic": "Cell Biology",
       "counts": {
-        "Easy": 21,
-        "Medium": 21,
-        "Hard": 20
-      },
-      "gaps": [],
-      "ready": true
-    },
-    {
-      "id": "physics-mechanics",
-      "subject": "Physics",
-      "topic": "Mechanics",
-      "counts": {
-        "Easy": 14,
-        "Medium": 14,
-        "Hard": 14
+        "Easy": 50,
+        "Medium": 50,
+        "Hard": 50
       },
       "gaps": [],
       "ready": true
@@ -127,9 +43,45 @@
       "subject": "Biology",
       "topic": "Ecology & Evolution",
       "counts": {
-        "Easy": 15,
-        "Medium": 14,
-        "Hard": 14
+        "Easy": 50,
+        "Medium": 50,
+        "Hard": 50
+      },
+      "gaps": [],
+      "ready": true
+    },
+    {
+      "id": "biology-genetics-biotech",
+      "subject": "Biology",
+      "topic": "Genetics & Biotech",
+      "counts": {
+        "Easy": 76,
+        "Medium": 88,
+        "Hard": 50
+      },
+      "gaps": [],
+      "ready": true
+    },
+    {
+      "id": "biology-human-physiology",
+      "subject": "Biology",
+      "topic": "Human Physiology",
+      "counts": {
+        "Easy": 67,
+        "Medium": 61,
+        "Hard": 50
+      },
+      "gaps": [],
+      "ready": true
+    },
+    {
+      "id": "chemistry-chemistry-general",
+      "subject": "Chemistry",
+      "topic": "Chemistry General",
+      "counts": {
+        "Easy": 163,
+        "Medium": 282,
+        "Hard": 88
       },
       "gaps": [],
       "ready": true
@@ -139,9 +91,105 @@
       "subject": "Chemistry",
       "topic": "Inorganic Chemistry",
       "counts": {
-        "Easy": 12,
-        "Medium": 12,
-        "Hard": 12
+        "Easy": 50,
+        "Medium": 97,
+        "Hard": 50
+      },
+      "gaps": [],
+      "ready": true
+    },
+    {
+      "id": "chemistry-organic-chemistry",
+      "subject": "Chemistry",
+      "topic": "Organic Chemistry",
+      "counts": {
+        "Easy": 50,
+        "Medium": 50,
+        "Hard": 50
+      },
+      "gaps": [],
+      "ready": true
+    },
+    {
+      "id": "chemistry-physical-chemistry",
+      "subject": "Chemistry",
+      "topic": "Physical Chemistry",
+      "counts": {
+        "Easy": 55,
+        "Medium": 376,
+        "Hard": 50
+      },
+      "gaps": [],
+      "ready": true
+    },
+    {
+      "id": "physics-electromagnetism",
+      "subject": "Physics",
+      "topic": "Electromagnetism",
+      "counts": {
+        "Easy": 50,
+        "Medium": 114,
+        "Hard": 50
+      },
+      "gaps": [],
+      "ready": true
+    },
+    {
+      "id": "physics-mechanics",
+      "subject": "Physics",
+      "topic": "Mechanics",
+      "counts": {
+        "Easy": 50,
+        "Medium": 73,
+        "Hard": 50
+      },
+      "gaps": [],
+      "ready": true
+    },
+    {
+      "id": "physics-modern-physics",
+      "subject": "Physics",
+      "topic": "Modern Physics",
+      "counts": {
+        "Easy": 50,
+        "Medium": 50,
+        "Hard": 50
+      },
+      "gaps": [],
+      "ready": true
+    },
+    {
+      "id": "physics-optics",
+      "subject": "Physics",
+      "topic": "Optics",
+      "counts": {
+        "Easy": 50,
+        "Medium": 50,
+        "Hard": 50
+      },
+      "gaps": [],
+      "ready": true
+    },
+    {
+      "id": "physics-physics-general",
+      "subject": "Physics",
+      "topic": "Physics General",
+      "counts": {
+        "Easy": 84,
+        "Medium": 123,
+        "Hard": 67
+      },
+      "gaps": [],
+      "ready": true
+    },
+    {
+      "id": "physics-thermodynamics",
+      "subject": "Physics",
+      "topic": "Thermodynamics",
+      "counts": {
+        "Easy": 50,
+        "Medium": 50,
+        "Hard": 50
       },
       "gaps": [],
       "ready": true
@@ -151,77 +199,12 @@
       "subject": "Physics",
       "topic": "Waves & Oscillations",
       "counts": {
-        "Easy": 10,
-        "Medium": 10,
-        "Hard": 9
+        "Easy": 50,
+        "Medium": 51,
+        "Hard": 50
       },
-      "gaps": [
-        "Hard: have 9 clean items (need 10+ to start)"
-      ],
+      "gaps": [],
       "ready": true
-    },
-    {
-      "id": "chemistry-organic-chemistry",
-      "subject": "Chemistry",
-      "topic": "Organic Chemistry",
-      "counts": {
-        "Easy": 10,
-        "Medium": 9,
-        "Hard": 9
-      },
-      "gaps": [
-        "Medium: have 9 clean items (need 10+ to start)",
-        "Hard: have 9 clean items (need 10+ to start)"
-      ],
-      "ready": true
-    },
-    {
-      "id": "physics-thermodynamics",
-      "subject": "Physics",
-      "topic": "Thermodynamics",
-      "counts": {
-        "Easy": 8,
-        "Medium": 7,
-        "Hard": 7
-      },
-      "gaps": [
-        "Easy: have 8 clean items (need 10+ to start)",
-        "Medium: have 7 clean items (need 10+ to start)",
-        "Hard: have 7 clean items (need 10+ to start)"
-      ],
-      "ready": true
-    },
-    {
-      "id": "physics-optics",
-      "subject": "Physics",
-      "topic": "Optics",
-      "counts": {
-        "Easy": 6,
-        "Medium": 6,
-        "Hard": 6
-      },
-      "gaps": [
-        "Easy: have 6 clean items (need 10+ to start)",
-        "Medium: have 6 clean items (need 10+ to start)",
-        "Hard: have 6 clean items (need 10+ to start)"
-      ],
-      "ready": true
-    },
-    {
-      "id": "physics-modern-physics",
-      "subject": "Physics",
-      "topic": "Modern Physics",
-      "counts": {
-        "Easy": 3,
-        "Medium": 2,
-        "Hard": 2
-      },
-      "gaps": [
-        "Easy: have 3 clean items (need 10+ to start)",
-        "Medium: have 2 clean items (need 10+ to start)",
-        "Hard: have 2 clean items (need 10+ to start)"
-      ],
-      "ready": false
     }
   ]
 }

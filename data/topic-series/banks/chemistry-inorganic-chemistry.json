@@ -3,9 +3,9 @@
   "subject": "Chemistry",
   "topic": "Inorganic Chemistry",
   "counts": {
-    "Easy": 12,
-    "Medium": 12,
-    "Hard": 12
+    "Easy": 50,
+    "Medium": 97,
+    "Hard": 50
   },
   "questions": {
     "Easy": [
@@ -76,31 +76,6 @@
         "correctOption": "2",
         "correctOptions": [
           "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q151",
-        "sourceYear": 2020,
-        "sourceNumber": 73,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Easy",
-        "stem": "A mixture of N2 and Ar gases in a cylinder contains 7 g of N2 and 8 g of Ar. If the total pressure of the mixture of the gases in the cylinder is 27 bar, the partial pressure of N2 is : [Use atomic masses (in g mol−1) : N=14, Ar=40]",
-        "options": {
-          "1": "15 bar",
-          "2": "18 bar",
-          "3": "9 bar",
-          "4": "12 bar 5 F1"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -308,6 +283,961 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
+      },
+      {
+        "id": "hf2018-2d880d3849",
+        "sourceYear": 2018,
+        "sourceNumber": 58,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which of the following oxides is most acidic in nature?",
+        "options": {
+          "1": "BaO",
+          "2": "BeO",
+          "3": "MgO",
+          "4": "CaO"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-b70e8fa15e",
+        "sourceYear": 2019,
+        "sourceNumber": 14,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The correct structure of tribromooctaoxide is :",
+        "options": {
+          "1": "image_518.png",
+          "2": "image_519.png",
+          "3": "image_520.png",
+          "4": "image_521.png"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-94b1db64ee",
+        "sourceYear": 2019,
+        "sourceNumber": 22,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which of the following is an amphoteric hydroxide?",
+        "options": {
+          "1": "$ \\mathrm{Sr}(\\mathrm{OH})_{2} $",
+          "2": "$ \\mathrm{Ca}(\\mathrm{OH})_{2} $",
+          "3": "$ \\mathrm{Mg}(\\mathrm{OH})_{2} $",
+          "4": "$ \\mathrm{Be}(\\mathrm{OH})_{2} $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-57c0781c77",
+        "sourceYear": 2019,
+        "sourceNumber": 87,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which of the following series of transitions in the spectrum of hydrogen atom falls in visible region?",
+        "options": {
+          "1": "Lyman series",
+          "2": "Balmer series",
+          "3": "Paschen series",
+          "4": "Brackett series"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-27984fc399",
+        "sourceYear": 2020,
+        "sourceNumber": 99,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "On electrolysis of dil.sulphuric acid using Platinum ( Pt ) electrode, the product obtained at anode will be :",
+        "options": {
+          "1": "Hydrogen gas",
+          "2": "Oxygen gas",
+          "3": "$ \\mathrm { H } _ { 2 } \\mathrm {~S} $ gas",
+          "4": "$ \\mathrm { SO } _ { 2 } $ gas"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-442c295b07",
+        "sourceYear": 2020,
+        "sourceNumber": 101,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which of the following oxoacid of sulphur has $ - \\mathrm { O } - \\mathrm { O } $ - linkage?",
+        "options": {
+          "1": "$ \\mathrm { H } _ { 2 } \\mathrm { SO } _ { 3 } $, sulphurous acid",
+          "2": "$ \\mathrm { H } _ { 2 } \\mathrm { SO } _ { 4 } $, sulphuric acid",
+          "3": "$ \\mathrm { H } _ { 2 } \\mathrm {~S} _ { 2 } \\mathrm { O } _ { 8 } $, peroxodisulphuric acid",
+          "4": "$ \\mathrm { H } _ { 2 } \\mathrm {~S} _ { 2 } \\mathrm { O } _ { 7 } $, pyrosulphuric acid"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-7d1e8643e0",
+        "sourceYear": 2020,
+        "sourceNumber": 8,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which of the following is not correct about carbon monoxide?",
+        "options": {
+          "1": "It forms carboxyhaemoglobin.",
+          "2": "It reduces oxygen carrying ability of blood.",
+          "3": "The carboxyhaemoglobin (haemoglobin bound to CO) is less stable than oxyhaemoglobin.",
+          "4": "It is produced due to incomplete combustion."
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-9f5bb1ee70",
+        "sourceYear": 2021,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Tritium, a radioactive isotope of hydrogen, emits which of the following particles?",
+        "options": {
+          "1": "Alpha ( $ \\alpha $ )",
+          "2": "Gamma ( $ \\gamma $ )",
+          "3": "Neutron (n)",
+          "4": "$ \\operatorname{Beta}\\left( \\beta^{-} \\right) $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-21003e033c",
+        "sourceYear": 2024,
+        "sourceNumber": 57,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which indicator is used in the titration of sodium hydroxide against oxalic acid and what is the colour change at the end point?",
+        "options": {
+          "1": "Phenolphthalein, pink to yellow",
+          "2": "Alkaline $ \\mathrm { KMnO } _ { 4 } $, colourless to pink",
+          "3": "Phenolphthalein, colourless to pink",
+          "4": "Methyl orange, yellow to pinkish red colour"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-3b37348da8",
+        "sourceYear": 2024,
+        "sourceNumber": 75,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which of the following is not an ambidentate ligand?",
+        "options": {
+          "1": "$ \\mathrm { C } _ { 2 } \\mathrm { O } _ { 4 } ^ { 2 - } $",
+          "2": "$ \\mathrm { SCN } ^ { - } $",
+          "3": "$ \\mathrm { NO } _ { 2 } ^ { - } $",
+          "4": "$ \\mathrm { CN } ^ { - } $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-5982ed3a76",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "[NEET 2018 | Chemistry] The hybridisation of N in NH₃ is:",
+        "options": {
+          "1": "sp",
+          "2": "sp²",
+          "3": "sp³",
+          "4": "sp³d"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-eced5d8314",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "[NEET 2021 | Chemistry] Addition of HBr to propene in the absence of peroxide gives major product:",
+        "options": {
+          "1": "1-bromopropane",
+          "2": "2-bromopropane",
+          "3": "1,2-dibromopropane",
+          "4": "Allyl bromide"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-6a7946b623",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "[NEET 2019 | Chemistry] Electron affinity is maximum for:",
+        "options": {
+          "1": "F",
+          "2": "Cl",
+          "3": "Br",
+          "4": "I"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-c7b1abf0de",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "[NEET 2022 | Chemistry] The oxidation number of phosphorus in H₃PO₄ is:",
+        "options": {
+          "1": "+3",
+          "2": "+5",
+          "3": "+1",
+          "4": "−3"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-e900213a3b",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "[NEET 2022 | Chemistry] In KMnO₄, the oxidation state of Mn is:",
+        "options": {
+          "1": "+5",
+          "2": "+6",
+          "3": "+7",
+          "4": "+4"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-ef740a0016",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "[NEET 2024 | Chemistry] Which compound is used for artificial ripening of fruits?",
+        "options": {
+          "1": "Calcium carbide",
+          "2": "Calcium hydroxide",
+          "3": "Calcium oxide",
+          "4": "Calcium carbonate"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-cae0434b07",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The atomic number of sodium is",
+        "options": {
+          "1": "11",
+          "2": "12",
+          "3": "17",
+          "4": "19"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-7072ab75e5",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The most electronegative element is",
+        "options": {
+          "1": "F",
+          "2": "Cl",
+          "3": "O",
+          "4": "N"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-ea87522ad9",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Haematite is an ore of",
+        "options": {
+          "1": "Fe",
+          "2": "Cu",
+          "3": "Al",
+          "4": "Zn"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-5922c97cf1",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The shape of BF₃ molecule is",
+        "options": {
+          "1": "Trigonal planar",
+          "2": "Tetrahedral",
+          "3": "Pyramidal",
+          "4": "Linear"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-e3b35a69eb",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which ion is colourless?",
+        "options": {
+          "1": "Zn²⁺",
+          "2": "Cu²⁺",
+          "3": "Fe²⁺",
+          "4": "Ni²⁺"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-5bf5ba9451",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Ozone is an allotrope of",
+        "options": {
+          "1": "Oxygen",
+          "2": "Nitrogen",
+          "3": "Sulphur",
+          "4": "Carbon"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-b86c7513ad",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which is the strongest reducing agent among alkali metals?",
+        "options": {
+          "1": "Li",
+          "2": "Na",
+          "3": "K",
+          "4": "Cs"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-6e06cd8e42",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The atomic number of sodium is (NEET-style drill 11)",
+        "options": {
+          "1": "11",
+          "2": "12",
+          "3": "17",
+          "4": "19"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-81b4cd8c63",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which is a noble gas? (NEET-style drill 13)",
+        "options": {
+          "1": "Neon",
+          "2": "Nitrogen",
+          "3": "Fluorine",
+          "4": "Hydrogen"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-0f77080a2d",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Haematite is an ore of (NEET-style drill 14)",
+        "options": {
+          "1": "Fe",
+          "2": "Cu",
+          "3": "Al",
+          "4": "Zn"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-0d801f735f",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Crystal field splitting is largest for which ligand? (NEET-style drill 16)",
+        "options": {
+          "1": "CN⁻",
+          "2": "I⁻",
+          "3": "Br⁻",
+          "4": "Cl⁻"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-b301d6e54c",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which ion is colourless? (NEET-style drill 17)",
+        "options": {
+          "1": "Zn²⁺",
+          "2": "Cu²⁺",
+          "3": "Fe²⁺",
+          "4": "Ni²⁺"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-3c52b109d9",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The hybridization in SF₆ is (NEET-style drill 19)",
+        "options": {
+          "1": "sp³d²",
+          "2": "sp³",
+          "3": "sp²",
+          "4": "sp³d"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-548ddfcd73",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which is the strongest reducing agent among alkali metals? (NEET-style drill 20)",
+        "options": {
+          "1": "Li",
+          "2": "Na",
+          "3": "K",
+          "4": "Cs"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-64c79520de",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The most electronegative element is (NEET-style drill 22)",
+        "options": {
+          "1": "F",
+          "2": "Cl",
+          "3": "O",
+          "4": "N"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-282c8867ff",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which is a noble gas? (NEET-style drill 23)",
+        "options": {
+          "1": "Neon",
+          "2": "Nitrogen",
+          "3": "Fluorine",
+          "4": "Hydrogen"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-04f3b94762",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The shape of BF₃ molecule is (NEET-style drill 25)",
+        "options": {
+          "1": "Trigonal planar",
+          "2": "Tetrahedral",
+          "3": "Pyramidal",
+          "4": "Linear"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-c7c81a3e1a",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Crystal field splitting is largest for which ligand? (NEET-style drill 26)",
+        "options": {
+          "1": "CN⁻",
+          "2": "I⁻",
+          "3": "Br⁻",
+          "4": "Cl⁻"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-74d4308e77",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Ozone is an allotrope of (NEET-style drill 28)",
+        "options": {
+          "1": "Oxygen",
+          "2": "Nitrogen",
+          "3": "Sulphur",
+          "4": "Carbon"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-56d450c3b7",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The hybridization in SF₆ is (NEET-style drill 29)",
+        "options": {
+          "1": "sp³d²",
+          "2": "sp³",
+          "3": "sp²",
+          "4": "sp³d"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-cf78e0bc6e",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The atomic number of sodium is (NEET-style drill 31)",
+        "options": {
+          "1": "11",
+          "2": "12",
+          "3": "17",
+          "4": "19"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-9d167e2e26",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The most electronegative element is (NEET-style drill 32)",
+        "options": {
+          "1": "F",
+          "2": "Cl",
+          "3": "O",
+          "4": "N"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-6616e670d7",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "In the periodic table, the element with atomic number 25 belongs to period",
+        "options": {
+          "1": "4",
+          "2": "1",
+          "3": "7",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (period from atomic number)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       }
     ],
     "Medium": [
@@ -408,31 +1338,6 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q160",
-        "sourceYear": 2022,
-        "sourceNumber": 99,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Medium",
-        "stem": "The value of γ⎜⎜ = ⎟ , for hydrogen helium and another ideal diatomic gas X (whose molecules are not ⎟ ⎝ Cv ⎠ rigid but have an additional vibrational mode), are respectively equal to, 7 5 9 5 7 9 5 7 7 7 5 7",
-        "options": {
-          "1": ", ,",
-          "2": ", ,",
-          "3": ", ,",
-          "4": ", , 5 3 7 3 5 7 3 5 5 5 3 5"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
       },
@@ -610,6 +1515,2088 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
+      },
+      {
+        "id": "hf2019-c51dd6b68d",
+        "sourceYear": 2019,
+        "sourceNumber": 75,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "What is the correct electronic configuration of the central atom in $ \\mathrm { K } _ { 4 } \\left[ \\mathrm { Fe } ( \\mathrm { CN } ) _ { 6 } \\right] $ based on crystal field theory?",
+        "options": {
+          "1": "$ t _ { 2 g } ^ { 4 } e _ { g } ^ { 2 } $",
+          "2": "$ t _ { 2 g } { } ^ { 6 } e _ { g } ^ { 0 } $",
+          "3": "$ e ^ { 3 } t _ { 2 } ^ { 3 } $",
+          "4": "$ e ^ { 4 } t _ { 2 } ^ { 2 } $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-dcbf4bb4a4",
+        "sourceYear": 2021,
+        "sourceNumber": 83,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "An organic compound contains $ 78 \\% $ (by wt.) carbon and remaining percentage of hydrogen. The right option for the empirical formula of this compound is : [Atomic wt. of C is $ 12 , \\mathrm { H } $ is 1 ]",
+        "options": {
+          "1": "$ \\mathrm { CH } _ { 2 } $",
+          "2": "$ \\mathrm { CH } _ { 3 } $",
+          "3": "$ \\mathrm { CH } _ { 4 } $",
+          "4": "CH"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2022-0df34d7197",
+        "sourceYear": 2022,
+        "sourceNumber": 8,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Identify the incorrect statement from the following a. Lithium is the strongest reducting agent among the alkali metals. b. Alkali metals react with water to form their hydroxides. c. The oxidation number of K in $ \\mathrm { KO } _ { 2 } $ is + 4 . d. Ionisation enthalpy of alkali metals decreases from tc bottom in the group.",
+        "options": {
+          "1": "a. Lithium is the strongest reducting agent among the alkali metals.",
+          "2": "b. Alkali metals react with water to form their hydroxides.",
+          "3": "c. The oxidation number of K in $ \\mathrm { KO } _ { 2 } $ is + 4 .",
+          "4": "d. Ionisation enthalpy of alkali metals decreases from tc bottom in the group."
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-4db7af9a55",
+        "sourceYear": 2023,
+        "sourceNumber": 74,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "In Lassaigne's extract of an organic compound, both nitrogen and sulphur are present, which gives blood red colour with $ \\mathrm { Fe } ^ { 3 + } $ due to the formation of -",
+        "options": {
+          "1": "$ [ \\mathrm { Fe } ( \\mathrm { SCN } ) ] ^ { 2 + } $",
+          "2": "$ \\mathrm { Fe } _ { 4 } \\left[ \\mathrm { Fe } ( \\mathrm { CN } ) _ { 6 } \\right] _ { 3 } \\cdot \\mathrm { xH } _ { 2 } \\mathrm { O } $",
+          "3": "NaSCN",
+          "4": "$ \\left[ \\mathrm { Fe } ( \\mathrm { CN } ) _ { 5 } \\mathrm { NOS } \\right] ^ { 4 - } $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-1376cd3544",
+        "sourceYear": 2023,
+        "sourceNumber": 93,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Match List - I with List - II : List - I (Oxoacids List - II (Bonds) of Sulphur) A. Peroxodisul- I. Two $ \\mathrm { S } - \\mathrm { OH } $, Four $ \\mathrm { S } = \\mathrm { O } $, phuric acid One S-O-S B. Sulphuric acid II. Two $ \\mathrm { S } - \\mathrm { OH } $, One $ \\mathrm { S } = \\mathrm { O } $ C. Pyrosulphuric III. Two $ \\mathrm { S } - \\mathrm { OH } $, Four $ \\mathrm { S } = \\mathrm { O } $, acid One S-O-O-S D. Sulphurous acid IV. Two $ \\mathrm { S } - \\mathrm { OH } $, Two $ \\mathrm { S } = \\mathrm { O } $",
+        "options": {
+          "1": "A-III, B-IV, C-II, D-I",
+          "2": "A-I, B-III, C-II, D-IV",
+          "3": "A-III, B-IV, C-I, D-II",
+          "4": "A-I, B-III, C-IV, D-II"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-83a2b93831",
+        "sourceYear": 2024,
+        "sourceNumber": 53,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Given below are two statements: Statement I: Propene on treatment with diborane gives an addition product with the formula $ \\left( \\left( \\mathrm { CH } _ { 3 } \\right) _ { 2 } - \\mathrm { CH } \\right) _ { 3 } \\mathrm {~B} $. Statement II: Oxidation of $ \\left( \\left( \\mathrm { CH } _ { 3 } \\right) _ { 2 } - \\mathrm { CH } _ { 3 } \\mathrm {~B} \\right. $ with hydrogen peroxide in presence of NaOH gives propan-2ol. In the light of the above statements, choose the most appropriate answer from the options given below:",
+        "options": {
+          "1": "Statement I is correct but Statement II is incorrect",
+          "2": "Statement I is incorrect but Statement II is correct",
+          "3": "Both Statement I and Statement II are correct",
+          "4": "Both Statement I and Statement II are incorrect"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-584e176021",
+        "sourceYear": 2024,
+        "sourceNumber": 71,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Identify the incorrect statement from the following : (1) The acidic strength of $ \\mathrm { HX } ( X = \\mathrm { F } , \\mathrm { Cl } , \\mathrm { Br } $ and $ \\mathrm { I } ) $ follows the order: $ \\mathrm { HF } > \\mathrm { HCl } > \\mathrm { HBr } > \\mathrm { HI } $. (2) Fluorine exhibits - 1 oxidation state whereas other halogens exhibit $ + 1 , + 3 , + 5 $ and + 7 oxidation states also. (3) The enthalpy of dissociation of $ \\mathrm { F } _ { 2 } $ is smaller than that of $ \\mathrm { Cl } _ { 2 } $. (4) Fluorine is stronger oxidising agent than chlorine.",
+        "options": {
+          "1": "The acidic strength of $ \\mathrm { HX } ( X = \\mathrm { F } , \\mathrm { Cl } , \\mathrm { Br } $ and $ \\mathrm { I } ) $ follows the order: $ \\mathrm { HF } > \\mathrm { HCl } > \\mathrm { HBr } > \\mathrm { HI } $",
+          "2": "Fluorine exhibits - 1 oxidation state whereas other halogens exhibit $ + 1 , + 3 , + 5 $ and + 7 oxidation states also",
+          "3": "The enthalpy of dissociation of $ \\mathrm { F } _ { 2 } $ is smaller than that of $ \\mathrm { Cl } _ { 2 } $",
+          "4": "Fluorine is stronger oxidising agent than chlorine"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-160df32fae",
+        "sourceYear": 2024,
+        "sourceNumber": 93,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "On complete combustion, 0.3 g of an organic compound gave 0.2 g of $ \\mathrm { CO } _ { 2 } $ and 0.1 g of $ \\mathrm { H } _ { 2 } \\mathrm { O } $. The percentage composition of carbon and hydrogen in the compound, respectively is:",
+        "options": {
+          "1": "$ 4.07 \\% $ and $ 15.02 \\% $",
+          "2": "$ 18.18 \\% $ and $ 3.70 \\% $",
+          "3": "$ 15.02 \\% $ and $ 4.07 \\% $",
+          "4": "$ 3.70 \\% $ and $ 18.18 \\% $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-5ea9ef834f",
+        "sourceYear": 2024,
+        "sourceNumber": 94,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The following reaction method is not suitable for the preparation of the corresponding haloarene products, due to high reactivity of halogen, when $ X $ is :",
+        "options": {
+          "1": "F",
+          "2": "I",
+          "3": "Cl",
+          "4": "Br"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-c505cbbe82",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Match the catalysts (Column I) with products (Column II) Column I Column II (1) V 2 O 5 (i) Polyethylene (2) T i C l 4 / A l ( M e ) 3 (ii) ethanal (3) P d C l 2 (iii) H 2 S O 4 (4) Iron Oxide (iv) N H 3",
+        "options": {
+          "1": "A (",
+          "2": "â (ii); (",
+          "3": "â (iii); (",
+          "4": "â (i); ("
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-b0c770f88e",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "What is the value of electron gain enthalpy of $\\mathrm{Na}^{+}$if $\\mathrm{IE}_1$ of $\\mathrm{Na}=5.1 \\mathrm{eV}$ ?",
+        "options": {
+          "1": "A -",
+          "2": "1 \\mathrm{eV} B -1",
+          "3": "2 \\mathrm{eV} C +",
+          "4": "55 \\mathrm{eV} D +1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-6c06a17bf4",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The magnetic moment of [MnClâ]Â²â» is 5.92 BM. Explain giving a reason.",
+        "options": {
+          "1": "A The manganese ion has a dâµ configuration, leading to a magnetic moment of",
+          "2": "92 BM. B The manganese ion has a dÂ³ configuration, resulting in a magnetic moment of",
+          "3": "92 BM. C The manganese ion has a dâ´ configuration, causing a magnetic moment of",
+          "4": "92 BM. D The manganese ion has a dâ¶ configuration, contributing to a magnetic moment of"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-6e949036c2",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "[NEET 2018 | Chemistry] Which is WRONG about NaOH?",
+        "options": {
+          "1": "Dissolves in water with heat evolution",
+          "2": "Used in saponification of oils",
+          "3": "Forms basic salt with CO2",
+          "4": "Does not react with glass"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-a77e829803",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which of the following is the correct magnetic moment of Fe 2+ ?",
+        "options": {
+          "1": "A 0",
+          "2": "73",
+          "3": "92",
+          "4": "90"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-84f7b9aa07",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Among the statements (1) â (4), the correct ones are ( 1 ) Lithium has the highest hydration enthalpy among the alkali metals. ( 2 ) Lithium chloride is insoluble in pyridine. ( 3 ) Lithium cannot form ethynide upon its reaction with ethyne ( 4 ) Both lithium and magnesium react slowly with H 2 O",
+        "options": {
+          "1": "A (",
+          "2": ", (",
+          "3": "and (",
+          "4": "only B ("
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-70ddf2673d",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The electron energy in hydrogen atom is given by - E n = ( â2.18 Ã 10 â18 ) / n 2 J. (i)Calculate the energy required to remove an electron completely from the n = 2 orbit. (ii)What is the longest wavelength of light in cm that can be used to cause this transition?",
+        "options": {
+          "1": "A (i)",
+          "2": "58 Ã 10 â19 J and (ii)9852Ã B (i)",
+          "3": "58 Ã 10 â19 J and (ii)3647Ã C (i)",
+          "4": "45 Ã 10 â19 J and (ii)6587Ã D (i)"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-8e9ba65529",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "[NEET 2021 | Chemistry] [Co(NH₃)₄Cl₂]⁺ shows which type of isomerism?",
+        "options": {
+          "1": "Optical isomerism only",
+          "2": "Geometrical isomerism only",
+          "3": "Both geometrical and optical",
+          "4": "Linkage isomerism"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-5111be2e30",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The number of d-electrons in F e 2 + (Z = 26) is not equal to the number of electrons in which one of the following?",
+        "options": {
+          "1": "A p-electrons in Cl (Z = 1",
+          "2": "B d-electrons in Fe (Z= 2",
+          "3": "C p-electrons in Ne (Z = 1",
+          "4": "D s-electrons in Mg (Z = 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-8e9e23a2cb",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "[NEET 2024 | Chemistry] Which has highest first ionization enthalpy among P, Si, N, O?",
+        "options": {
+          "1": "P",
+          "2": "Si",
+          "3": "N",
+          "4": "O"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-7144b1ce57",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "[NEET 2020 | Chemistry] Ozone reacts with SO₂ to give:",
+        "options": {
+          "1": "SO₃",
+          "2": "H₂SO₄",
+          "3": "S",
+          "4": "SO₂·O₃ complex"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-6eda4e83d3",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "In sulphur estimation, 0.157 g of an organic compound gave 0.4813 g of barium sulphate. What is the percentage of sulphur in the compound?",
+        "options": {
+          "1": "A Percentage of sulphur= 7",
+          "2": "36% B Percentage of sulphur= 2",
+          "3": "18% C Percentage of sulphur= 6",
+          "4": "10% D Percentage of sulphur= 4"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-9733d693b9",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "If $n=6$, the correct sequence for filling of electrons will be",
+        "options": {
+          "1": "A n s \\longrightarrow(n-",
+          "2": "d \\longrightarrow(n-",
+          "3": "f \\longrightarrow n p B n s \\longrightarrow(n-",
+          "4": "f \\longrightarrow n p \\longrightarrow(n-"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-09079e99f3",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The relative reactivity of 1Â°, 2Â°, 3Â° hydrogenâs towards chlorination is 1: 3.8 :5. Calculate the percentages of all monochlorinated products obtained from 2-methylbutane.",
+        "options": {
+          "1": "A 1Â° monochlorinated product = 4",
+          "2": "7% , 2Â° monochlorinated product = 3",
+          "3": "2% and 3Â° monochlorinated product = 4",
+          "4": "1% B 1Â° monochlorinated product = 4"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-88eadef4ee",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "At which element in the actinoid series do the 5f orbitals become complete?",
+        "options": {
+          "1": "A Thorium (Z = 9",
+          "2": "B Uranium (Z = 9",
+          "3": "C Neptunium (Z = 9",
+          "4": "D Element 103"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-1a91e6e315",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The first ionization potential of Na is 5.1 eV. The value of electron gain enthalpy of N a + will be",
+        "options": {
+          "1": "A -",
+          "2": "1 eV B -1",
+          "3": "2 eV C +",
+          "4": "55 eV D -"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-c8593fba2b",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "What mass of sodium chloride would be decomposed by 9.8 g of sulphuric acid if 12 g of sodium bisulphate and 2.75 g of hydrogen chloride were produced in a reaction?",
+        "options": {
+          "1": "A 1",
+          "2": "75 g",
+          "3": "8 g",
+          "4": "85 g"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-736a969080",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "34.05 mL of phosphorus vapour weighs 0.0625 g at 546 Â°C and 0.1 bar pressure. What is the molar mass of phosphorus closest to?",
+        "options": {
+          "1": "A 124",
+          "2": "5 g mol -1 B 129",
+          "3": "4 g mol -1 C 1285 g mol -1 D 115",
+          "4": "8 g mol -1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-6c46a16c5b",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "In hydrogen atom, the de-Broglie wavelength of an electron in the second Bohr orbit is [Given that, Bohr radius, $\\mathrm{a}_0=52.9 \\mathrm{pm}$ ]",
+        "options": {
+          "1": "A 21",
+          "2": "6 \\mathrm{pm} B 21",
+          "3": "6 \\pi \\mathrm{pm} C 5",
+          "4": "9 \\pi \\mathrm{pm} D 10"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-8d4da6ae26",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which element is an exception regarding the occupancy of 5f orbitals?",
+        "options": {
+          "1": "A Thorium (Z = 9",
+          "2": "B Uranium (Z = 9",
+          "3": "C Neptunium (Z = 9",
+          "4": "D Element 103"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-17b26bf9bb",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "[NEET 2021 | Chemistry] Which has highest magnetic moment?",
+        "options": {
+          "1": "Mn2+",
+          "2": "Cr3+",
+          "3": "Fe3+",
+          "4": "V3+"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-56797b8bd7",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "1.6 g of an organic compound gave 2.6 g of magnesium pyrophosphate. The percentage of phosphorus in the compound is",
+        "options": {
+          "1": "A 4",
+          "2": "38% B 5",
+          "3": "38% C 3",
+          "4": "76% D 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-e08d311f59",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "A balloon is filled with hydrogen at room temperature. It will burst if pressure exceeds 0.2 bar. If at 1 bar pressure the gas occupies 2.27 L volume, upto what volume can the balloon be expanded?",
+        "options": {
+          "1": "A 1",
+          "2": "95 L B 1",
+          "3": "65 L C 1",
+          "4": "35 L D 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-ea0e5263cd",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "What is the stereochemistry and magnetic moment of [CrCl 3 (py) 3 ]?",
+        "options": {
+          "1": "A exists in fac and mer forms and",
+          "2": "23 BM B exhibits only geometrical isomerism and",
+          "3": "87 BM C no stereoisomerism and",
+          "4": "87 BM D exists in fac and mer forms and"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-6afaab7cb1",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "[NEET 2023 | Chemistry] Which of the following properties of Li resembles Mg more than other alkali metals?",
+        "options": {
+          "1": "Hardness",
+          "2": "Solubility of carbonate in water",
+          "3": "Nature of oxide",
+          "4": "Reactivity with water"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-7c74dfafa5",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "In which family does hydrogen exhibit properties similar to when it gains an electron?",
+        "options": {
+          "1": "A Alkali metals (group",
+          "2": "B Noble gases (group 1",
+          "3": "C Halogen family (group 1",
+          "4": "D Alkaline earth metals (group"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-80f0bec08e",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The ammonia ( N H 3 ) released on quantitative reaction of 0.6 g urea ( N H 2 C O N H 2 ) with sodium hydroxide (NaOH) can be neutralized by",
+        "options": {
+          "1": "A 200 ml of",
+          "2": "4 N HCl B 200 ml of",
+          "3": "2 N HCl C 100 ml of",
+          "4": "1 N HCl D 100 ml of"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-dc63393c11",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "What is the mass percent of calcium, phosphorus, and oxygen in calcium phosphate Ca 3 (PO 4 ) 2 ?",
+        "options": {
+          "1": "A 3",
+          "2": "71%, 20%, 4",
+          "3": "29% B 20%, 3",
+          "4": "71%, 4"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-5e724877e5",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The Balmer series in the hydrogen spectrum corresponds to the transition from n = 2 to n = 3,4,... This series lies in the visible region. Calculate the wave number of line associated with the transition in Balmer series when the electron moves to n = 4 orbit. (Given RH = 109677 cmâ»Â¹).",
+        "options": {
+          "1": "A 2056",
+          "2": "44 cmâ»Â¹ B 27",
+          "3": "63 cmâ»Â¹ C 13",
+          "4": "815 cmâ»Â¹ D 4"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-3c611d957f",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which of the following is the energy of a possible excited state of hydrogen?",
+        "options": {
+          "1": "A +",
+          "2": "8 eV B + 1",
+          "3": "6 eV C -",
+          "4": "8 eV D -"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-3573474049",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The energy associated with the first orbit in the hydrogen atom is â2.18 Ã 10 â18 J atom â1 . What is the energy associated with the fifth orbit?",
+        "options": {
+          "1": "A -",
+          "2": "72 Ã10 â20 J/atom B -",
+          "3": "72 Ã10 â20 J/atom C -",
+          "4": "72 Ã10 â20 J/atom D -"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-db00c24095",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "In the Kjedahl's method for estimation of nitrogen present in soil sample, ammonia evolved from 0.75 g of sample neutralized 1 0 m l of 1 M H 2 S O 4 The percentage of nitrogen in the soil is:",
+        "options": {
+          "1": "A 3",
+          "2": "83 B 4",
+          "3": "3 2 C 3",
+          "4": "33 D 4"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-5ba048cf3d",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "[NEET 2023 | Chemistry] The colour of transition metal complexes is due to:",
+        "options": {
+          "1": "d-d transition of electrons",
+          "2": "s-p transition",
+          "3": "f-f transition",
+          "4": "Metal to ligand charge transfer only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-8f16f43d82",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "During estimation of nitrogen present in an organic compound by Kjeldahlâs method, the ammonia evolved from 0.5 g of the compound in Kjeldahlâs estimation of nitrogen, neutralized 10 mL of 1 M H 2 SO 4 .Find out the percentage of nitrogen in the compound.",
+        "options": {
+          "1": "A Percentage of nitrogen=3",
+          "2": "0% B Percentage of nitrogen=4",
+          "3": "0% C Percentage of nitrogen=5",
+          "4": "0% D Percentage of nitrogen=6"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-63f9390890",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "What happens to the energy of the eg orbitals in an octahedral complex?",
+        "options": {
+          "1": "A It decreases by (3/",
+          "2": "Do B It increases by (3/",
+          "3": "Do C It decreases by (2/",
+          "4": "Do D It increases by (2/"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-e66f6d5c6c",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "In Carius method of estimation of halogen, 0.15 g of an organic compound gave 0.12 g of AgBr. Find out the percentage of bromine in the compound.",
+        "options": {
+          "1": "A Percentage of bromine=3",
+          "2": "04% B Percentage of bromine=1",
+          "3": "25% C Percentage of bromine=4",
+          "4": "89% D Percentage of bromine=5"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-6e488f1dc8",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "In which period does the filling of 2p orbitals begin?",
+        "options": {
+          "1": "A The second period (n =",
+          "2": "B The third period (n =",
+          "3": "C The fourth period (n =",
+          "4": "D The fifth period (n ="
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-4d3b30258a",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "What is the stereochemistry and magnetic moment of Cs[FeCl 4 ]?",
+        "options": {
+          "1": "A exhibits only optical isomerism and",
+          "2": "57 BM B does not exhibit geometrical or optical isomerism and",
+          "3": "92 BM C exhibits only geometrical isomerism and",
+          "4": "87 BM D exhibits both geometrical or optical isomerism and"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-01b2f0d24c",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which elements are included in the Lanthanoid series?",
+        "options": {
+          "1": "A Ce(Z = 5",
+          "2": "â Lu(Z = 7",
+          "3": "B Th(Z = 9",
+          "4": "â Lr (Z = 10"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-14e835cfad",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which transition metal carbonyl has a tetrahedral structure?",
+        "options": {
+          "1": "A Tetracarbonylnickel(",
+          "2": "B Pentacarbonyliron(",
+          "3": "C Hexacarbonyl chromium(",
+          "4": "D Decacarbonyldimanganese("
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-1aef5d9443",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "In the estimation of sulphur by Carius method, 0.468 g of an organic sulphur compound afforded 0.668 g of barium sulphate. Find out the percentage of sulphur in the given compound.",
+        "options": {
+          "1": "A % of sulphur = 8",
+          "2": "35 B % of sulphur = 3",
+          "3": "12 C % of sulphur = 1",
+          "4": "66 D % of sulphur = 4"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-97f314fc4f",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "What is the stereochemistry and magnetic moment of K[Cr(H 2 O) 2 (C 2 O 4 ) 2 ].3H 2 O?",
+        "options": {
+          "1": "A exhibits only geometrical isomerism and",
+          "2": "43BM B exhibits geometrical and optical isomerism and",
+          "3": "87BM C exhibits only optical isomerism and",
+          "4": "51BM D exhibits no stereoisomerism and"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-dfabb331e6",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Using valence bond theory, explain the following in relation to the complexes given below: [Mn(CN) 6 ] 3â , [Co(NH 3 ) 6 ] 3+ , [Cr(H 2 O) 6 ] 3+ , [FeCl 6 ] 4â Choose the correct option regarding spin-only magnetic moment value.",
+        "options": {
+          "1": "A [Mn(CN) 6 ] 3â :",
+          "2": "87 BM B [Co(NH 3 ) 6 ] 3+ :",
+          "3": "87 BM C [Cr(H 2 O) 6 ] 3+ : 0 BM D [FeCl 6 ] 4â :",
+          "4": "73 BM"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-1804782675",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "What is the general electronic configuration of the outer orbitals for d-Block elements?",
+        "options": {
+          "1": "A (n-",
+          "2": "d1â10ns1â2 B (n-",
+          "3": "d1â9ns1â2 C (n-",
+          "4": "d2â10ns1â2 D (n-"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-bc8ffcea0b",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Within which range of atomic numbers,is there a significant increase in the density of these elements?",
+        "options": {
+          "1": "A From Z = 1 to Z = 2",
+          "2": "B From Z = 22 to Z = 2",
+          "3": "C From Z = 29 to Z = 5",
+          "4": "D From Z = 50 to Z = 7"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-bad7be0c7a",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Using crystal field theory, choose the correct option regarding the electronic configuration of the central metal atom/ion, and determine the magnetic moment value in the following: [FeF 6 ] 3â , [Fe(H 2 O) 6 ] 2+ , [Fe(CN) 6 ] 4â",
+        "options": {
+          "1": "A [FeF 6 ] 3â : High spin, 1 unpaired electron, magnetic moment =",
+          "2": "73 BM B [Fe(H 2 O) 6 ] 2+ : Low spin, 4 unpaired electrons, magnetic moment =",
+          "3": "90 BM C [Fe(CN) 6 ] 4â : Low spin, 0 unpaired electrons, magnetic moment = 0 BM D [FeF 6 ] 3â : Low spin, 1 unpaired electron, magnetic moment =",
+          "4": "73 BM"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-efb5670d4f",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Why is Cr2+ reducing?",
+        "options": {
+          "1": "A Because its d4 configuration changes to d",
+          "2": "B Because its d4 configuration changes to d",
+          "3": "C Because its d4 configuration changes to d",
+          "4": "D Because its d4 configuration changes to d"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-b20b07e241",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The spin only magnetic moment value (in Bohr's magneton units) of [Cr(CO) 6 ] is:",
+        "options": {
+          "1": "A 0",
+          "2": "84",
+          "3": "90",
+          "4": "92"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-a52e5cf0c3",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Among statement (1) â (4), the correct ones are ( 1 ) Decomposition of hydrogen peroxide gives dioxygen. ( 2 ) Like hydrogen perioxide, compound, such as K C l O 3 , P b ( N O 3 ) 2 and N a N O 3 when heated liberate dioxygen. ( 3 ) 2-Ethylanthraquinone is useful for the industrial preparation of hydrogen peroxide. ( 4 ) Hydrogen peroxide is used for the manufacture of sodium per borate.",
+        "options": {
+          "1": "A (",
+          "2": "and (",
+          "3": "only B (",
+          "4": ", ("
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-d90a37b2df",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "What is the stereochemistry and magnetic moment of K 4 [Mn(CN) 6 ]?",
+        "options": {
+          "1": "A does not exhibit stereoisomerism and",
+          "2": "73 BM B exhibit stereoisomerism and",
+          "3": "73 BM C only exhibits geometrical isomerism and",
+          "4": "58 BM D only exhibits optical isomerism and"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-9fe95edc04",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Calculate the mass per cent of different elements present in sodium sulphate (Na 2 SO 4 )",
+        "options": {
+          "1": "A Mass% of Na is 3",
+          "2": "4%, Mass% of S is 2",
+          "3": "5%, Mass% of O is 45% B Mass% of Na is 3",
+          "4": "4%, Mass% of S is 45%, Mass% of O is 2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-f809f20aa7",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Because of lanthanoid contraction, which of the following pairs of elements have nearly same atomic radii? (Numbers in the parenthesis are atomic numbers).",
+        "options": {
+          "1": "A Zr (4",
+          "2": "and Nb (4",
+          "3": "B Zr (4",
+          "4": "and Hf (7"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-9dca7992c2",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "What is the total pressure in a mixture of 8 g of dioxygen and 4 g of dihydrogen confined in a vessel of 1 dm 3 at 27Â°C? (R = 0.083 bar dm 3 K â1 mol â1 )",
+        "options": {
+          "1": "A 5",
+          "2": "645 bar B 5",
+          "3": "025 bar C 5",
+          "4": "458 bar D 4"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-9fd561438c",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "What are the frequency and wavelength of a photon emitted during a transition from n = 5 state to the n = 2 state in the hydrogen atom?",
+        "options": {
+          "1": "A Frequency is",
+          "2": "91Ã10 14 Hz and Wavelength is 434nm B Frequency is",
+          "3": "91Ã10 14 Hz and Wavelength is 685nm C Frequency is",
+          "4": "54Ã10 14 Hz and Wavelength is 434nm D Frequency is"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-e158873573",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Why is Mn3+ oxidizing?",
+        "options": {
+          "1": "A Because its d4 configuration changes to d",
+          "2": "B Because its d5 configuration changes to d",
+          "3": "C Because its d3 configuration changes to d",
+          "4": "D Because its d4 configuration changes to d"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-24d46f819f",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "What is the electronic configuration and magnetic moment of Ce 3+ ion?",
+        "options": {
+          "1": "A [Xe]4f 5 and",
+          "2": "87 BM B [Xe]4f 1 and",
+          "3": "58 BM C [Xe]4f 3 and",
+          "4": "73 BM D [Xe]4f 1 and"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-9c1a78e5d2",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "What are the equivalent temperatures in Celsius and Fahrenheit for the triple points of neon and carbon dioxide, which are 24.57 K and 216.55 K, respectively?",
+        "options": {
+          "1": "A Neon: -24",
+          "2": "58Â°C and -41",
+          "3": "44Â°F; Carbon Dioxide: -5",
+          "4": "60Â°C and -6"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-0a8dca622d",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "In octahedral crystal field, the t 2 g orbitals are",
+        "options": {
+          "1": "A Raised in energy by",
+          "2": "4 Î 0 B Lowered in energy by",
+          "3": "4 Î 0 C Raised in energy by",
+          "4": "6 Î 0 D Lowered in energy by"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-2fea4f3637",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Two ideal gas thermometers A and B use oxygen and hydrogen respectively. The following observations are made : What is the absolute temperature of normal melting point of sulphur as read by thermometers A and B ?",
+        "options": {
+          "1": "A 66",
+          "2": "4K B 26",
+          "3": "11K C 44",
+          "4": "6K D 39"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-ac0c99b854",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "What is the general outer electronic configuration of d and p block elements?",
+        "options": {
+          "1": "A (n)d 1-10 (n+",
+          "2": "s 0-2 and ns 2 (n+",
+          "3": "p 1-6 B (n-",
+          "4": "d 1-20 ns 0-3 and ns 1 np 1-6 C (n-"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-a51f9496d6",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The atomic radii of transition elements from Cr to Cu are almost equal because",
+        "options": {
+          "1": "A Increased effective nuclear charge is balanced by decreased screening effect of electrons in (n-",
+          "2": "d-orbitals B Increased effective nuclear charge is balanced by increased screening effect of (n-",
+          "3": "d-orbitals C Decreased effective nuclear charge is balanced by increased screening effect of electrons in (n-",
+          "4": "d-orbitals D None of these"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-a54596cc76",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Why do some elements have exceptions to the general electronic configuration due to the energy difference between (n-1)d and ns orbitals?",
+        "options": {
+          "1": "A Because (n-",
+          "2": "d orbitals can hold more electrons B Because the energy gap between (n-",
+          "3": "d and ns orbitals is small C Because (n-",
+          "4": "d orbitals have a higher energy level D Because the ns orbitals are completely filled"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-04185ec70f",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Carius method is used for determination of halogen. If 0.099 g organic compound gave 0.287 g A g C l . The percentage of chlorine in the compound will be",
+        "options": {
+          "1": "A 2",
+          "2": "6 B 7",
+          "3": "71 C 3",
+          "4": "4 D 6"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-cc3246cc79",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "ââWhat are the different oxidation states exhibited by the lanthanoids?",
+        "options": {
+          "1": "A Lanthanoids primarily exhibit oxidation states of +1 and +",
+          "2": "B Lanthanoids exhibit a wide range of oxidation states +2, +3, and +",
+          "3": "C Lanthanoids exhibit only a single oxidation state of +",
+          "4": "D Lanthanoids primarily exhibit oxidation states of +4 and +"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-26be0705b8",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which of the following is not an actinoid?",
+        "options": {
+          "1": "A Curium (Z = 9",
+          "2": "B Californium (Z = 9",
+          "3": "C Uranium (Z = 9",
+          "4": "D Terbium (Z = 6"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-4537a3666e",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "A metal oxide has the formula X 2 O 3 . It can be reduced by hydrogen to give free metal and water. 0.1596 g of metal oxide requires 6 mg of hydrogen for complete reduction. The atomic mass of metal in amu is",
+        "options": {
+          "1": "A 1",
+          "2": "6 B 15",
+          "3": "8 C 3",
+          "4": "8 D 5"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-a8b93dc04d",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "In a hydrogen atom, the energy of the first excited state is $-3.4 \\mathrm{eV}$. Then, find out the K.E. of the same orbit of the hydrogen atom.",
+        "options": {
+          "1": "A +",
+          "2": "4 \\mathrm{eV} B +",
+          "3": "8 \\mathrm{eV} C -1",
+          "4": "6 \\mathrm{eV} D +1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-55d6873e28",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "0.73 g of organic compound on oxidation gave 1.32 g of carbon dioxide. The percentage of carbon in the given compound will be",
+        "options": {
+          "1": "A 4",
+          "2": "32 B 5",
+          "3": "32 C 2",
+          "4": "32 D 9"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-8f96b67995",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "In the Kjeldahl's method for estimation of nitrogen present in a soil sample, ammonia evolved from 0.75 g of sample neutralized 10 mL of 1M H 2 S O 4 . The percentage of nitrogen in the soil is",
+        "options": {
+          "1": "A 3",
+          "2": "33 B 4",
+          "3": "33 C 4",
+          "4": "33 D 3"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-37fa2d168a",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "What is the general outer electronic configuration of s and f block elements?",
+        "options": {
+          "1": "A ns 1-4 and (n-",
+          "2": "f 1-16 (n-",
+          "3": "d 3-10 ns 2 B ns 1-2 and (n-",
+          "4": "f 1-14 (n-"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-ca41ac1b2c",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The shortest wavelength in hydrogen spectrum of Lyman series when R H = 109678 c m - 1 is",
+        "options": {
+          "1": "A 121",
+          "2": "67 Ã B 100",
+          "3": "7 Ã C 91",
+          "4": "7 Ã D 123"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-3f71a999d6",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Predict the atomic weight of P , S and Cl",
+        "options": {
+          "1": "A 32,33,3",
+          "2": "5 B 33,34,3",
+          "3": "5 C 31,32,3",
+          "4": "5 D 32,34,3"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-7a5c81e1ae",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Crystal field stabilization energy for high spin $\\mathrm{d}^4$ octahedral complex is",
+        "options": {
+          "1": "A -",
+          "2": "8 \\Delta_0 B -",
+          "3": "6 \\Delta_0+P C -",
+          "4": "2 \\Delta_{\\circ} D -"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-c75b1fd823",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Analysis shows that nickel oxide consists of nickel ion with 96% ions having d 8 configuration and 4% having d 7 configuration. Which amongst the following best represents the formula of the oxide?",
+        "options": {
+          "1": "A N i",
+          "2": "02 O",
+          "3": "00 B N i",
+          "4": "96 O"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-6268b121cb",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "In Ostwaldâs process for the manufacture of nitric acid, the first step involves the oxidation of ammonia gas by oxygen gas to give nitric oxide gas and steam. What is the maximum weight of nitric oxide that can be obtained starting only with 10.00 g of ammonia and 20.00 g of oxygen?",
+        "options": {
+          "1": "A 1",
+          "2": "60 g B 1",
+          "3": "00 g C 1",
+          "4": "00 g D 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-92f400a228",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "What is the IUPAC name of [Ni(CO) 4 ]",
+        "options": {
+          "1": "A Tetracarbonylnickelate(",
+          "2": "B Tetracarbonatenickel(",
+          "3": "C Tricarbonylnickel(",
+          "4": "D Tetracarbonylnickel("
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-0374e8543a",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The binding energy of the electron in the lowest orbit of the hydrogen atom is 13.6 eV. The magnitudes energies from three lowest orbits of the hydrogen are",
+        "options": {
+          "1": "A 1",
+          "2": "6,",
+          "3": "8,",
+          "4": "4 eV B 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       }
     ],
     "Hard": [
@@ -912,6 +3899,926 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
+      },
+      {
+        "id": "hf2019-efc4854b3c",
+        "sourceYear": 2019,
+        "sourceNumber": 58,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Match the following : (a) Pure nitrogen (i) Chlorine (b) Haber process (ii) Sulphuric acid (c) Contact process (iii) Ammonia (d) Deacon's process (iv) Sodium azide or Barium azide Which of the following is the correct option?",
+        "options": {
+          "1": "(a) (i) (b) (ii) (c) (iii) (d) (iv)",
+          "2": "(a) (ii) (b) (iv) (c) (i) (d) (iii)",
+          "3": "(a) (iii) (b) (iv) (c) (ii) (d) (i)",
+          "4": "(a) (iv) (b) (iii) (c) (ii) (d) (i)"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-53f4bc4c70",
+        "sourceYear": 2020,
+        "sourceNumber": 130,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Match the following and identify the correct option. (a) $ \\quad \\mathrm { CO } ( \\mathrm { g } ) + \\mathrm { H } _ { 2 } ( \\mathrm {~g} ) $ (i) $ \\quad \\mathrm { Mg } \\left( \\mathrm { HCO } _ { 3 } \\right) _ { 2 } + $ $ \\mathrm { Ca } \\left( \\mathrm { HCO } _ { 3 } \\right) _ { 2 } $ (b) Temporary (ii) An electron hardness of deficient hydride water (c) $ \\quad \\mathrm { B } _ { 2 } \\mathrm { H } _ { 6 } $ (iii) Synthesis gas (d) $ \\mathrm { H } _ { 2 } \\mathrm { O } _ { 2 } $ (iv) Non-planar structure",
+        "options": {
+          "1": "(a) (iii) (b) (i) (c) (ii) (d) (iv)",
+          "2": "(a) (iii) (b) (ii) (c) (i) (d) (iv)",
+          "3": "(a) (iii) (b) (iv) (c) (ii) (d) (i)",
+          "4": "(a) (i) (b) (iii) (c) (ii) (d) (iv)"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-74c387829d",
+        "sourceYear": 2020,
+        "sourceNumber": 131,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Match the following : \\begin{tabular} { l l l l } & Oxide & & Nature \\ (a) & CO & (i) & Basic \\ (b) & BaO & (ii) & Neutral \\ (c) & $ \\mathrm { Al } _ { 2 } \\mathrm { O } _ { 3 } $ & (iii) & Acidic \\ (d) & $ \\mathrm { Cl } _ { 2 } \\mathrm { O } _ { 7 } $ & (iv) & Amphoteric \\end{tabular} Which of the following is correct option? \\begin{tabular} { l l l l l } & (a) & (b) & (c) & (d) \\ $ ( 1 ) $ & (i) & (ii) & (iii) & (iv) \\ $ ( 2 ) $ & (ii) & (i) & (iv) & (iii) \\ $ ( 3 ) $ & (iii) & (iv) & (i) & (ii) \\ $ ( 4 ) $ & (iv) & (iii) & (ii) & (i) \\end{tabular}",
+        "options": {
+          "1": "(i) (ii) (iii) (iv)",
+          "2": "(ii) (i) (iv) (iii)",
+          "3": "(iii) (iv) (i) (ii)",
+          "4": "(iv) (iii) (ii) (i)"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-59aa67a4a5",
+        "sourceYear": 2024,
+        "sourceNumber": 74,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Match List-I with List-II: \\begin{tabular} { | l | l | l | l | } \\hline & \\multicolumn{1}{|c|} { \\begin{tabular} { c } List-I \\ (Block/group in \\ periodic table) \\end{tabular} } & \\multicolumn{1}{|c|} { List-II } \\ (Element) \\end{tabular}$ | $\\begin{tabular} { l l l l | } \\hline A. & Lanthanoid & I. & Ce \\ \\hline B. & d-block element & II. & As \\ \\hline C. & p-block element & III. & Cs \\ \\hline D. & s-block element & IV. & Mn \\ \\hline \\end{tabular}",
+        "options": {
+          "1": "A-I, B-II, C-IV, D-III",
+          "2": "A-I, B-IV, C-III, D-II",
+          "3": "A-I, B-IV, C-II, D-III",
+          "4": "A-IV, B-I, C-II, D-III"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-ebebfccc8d",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "[NEET 2023 | Chemistry] Geometry and magnetic nature of [Ni(CO)4] and [Ni(CN)4]2- respectively:",
+        "options": {
+          "1": "Tetrahedral diamagnetic; Square planar diamagnetic",
+          "2": "Square planar diamagnetic; Tetrahedral paramagnetic",
+          "3": "Tetrahedral paramagnetic; Square planar diamagnetic",
+          "4": "Both square planar, both diamagnetic"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-5883ee21db",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "[NEET 2017 | Chemistry] Correct increasing order of ionic radii:",
+        "options": {
+          "1": "Al3+ < Mg2+ < Na+ < F-",
+          "2": "Na+ < Mg2+ < Al3+ < F-",
+          "3": "F- < Na+ < Mg2+ < Al3+",
+          "4": "Mg2+ < Al3+ < Na+ < F-"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-52805128ac",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which is a noble gas?",
+        "options": {
+          "1": "Neon",
+          "2": "Nitrogen",
+          "3": "Fluorine",
+          "4": "Hydrogen"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-5de3419141",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Crystal field splitting is largest for which ligand?",
+        "options": {
+          "1": "CN⁻",
+          "2": "I⁻",
+          "3": "Br⁻",
+          "4": "Cl⁻"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-d572dcdca7",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The hybridization in SF₆ is",
+        "options": {
+          "1": "sp³d²",
+          "2": "sp³",
+          "3": "sp²",
+          "4": "sp³d"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-df311e7584",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The most electronegative element is (NEET-style drill 12)",
+        "options": {
+          "1": "F",
+          "2": "Cl",
+          "3": "O",
+          "4": "N"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-be4e826d80",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The shape of BF₃ molecule is (NEET-style drill 15)",
+        "options": {
+          "1": "Trigonal planar",
+          "2": "Tetrahedral",
+          "3": "Pyramidal",
+          "4": "Linear"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-382b53dd9e",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Ozone is an allotrope of (NEET-style drill 18)",
+        "options": {
+          "1": "Oxygen",
+          "2": "Nitrogen",
+          "3": "Sulphur",
+          "4": "Carbon"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-e8435a4fcc",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The atomic number of sodium is (NEET-style drill 21)",
+        "options": {
+          "1": "11",
+          "2": "12",
+          "3": "17",
+          "4": "19"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-527edcaeab",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Haematite is an ore of (NEET-style drill 24)",
+        "options": {
+          "1": "Fe",
+          "2": "Cu",
+          "3": "Al",
+          "4": "Zn"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-c1dac0eedb",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which ion is colourless? (NEET-style drill 27)",
+        "options": {
+          "1": "Zn²⁺",
+          "2": "Cu²⁺",
+          "3": "Fe²⁺",
+          "4": "Ni²⁺"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-66400df870",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which is the strongest reducing agent among alkali metals? (NEET-style drill 30)",
+        "options": {
+          "1": "Li",
+          "2": "Na",
+          "3": "K",
+          "4": "Cs"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-bf8b10abdb",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which is a noble gas? (NEET-style drill 33)",
+        "options": {
+          "1": "Neon",
+          "2": "Nitrogen",
+          "3": "Fluorine",
+          "4": "Hydrogen"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-cf0753ccab",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Haematite is an ore of (NEET-style drill 34)",
+        "options": {
+          "1": "Fe",
+          "2": "Cu",
+          "3": "Al",
+          "4": "Zn"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-a343c7fa93",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The shape of BF₃ molecule is (NEET-style drill 35)",
+        "options": {
+          "1": "Trigonal planar",
+          "2": "Tetrahedral",
+          "3": "Pyramidal",
+          "4": "Linear"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-034f50fb8f",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Crystal field splitting is largest for which ligand? (NEET-style drill 36)",
+        "options": {
+          "1": "CN⁻",
+          "2": "I⁻",
+          "3": "Br⁻",
+          "4": "Cl⁻"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-594b1ed57c",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which ion is colourless? (NEET-style drill 37)",
+        "options": {
+          "1": "Zn²⁺",
+          "2": "Cu²⁺",
+          "3": "Fe²⁺",
+          "4": "Ni²⁺"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-5c2a219a6c",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Ozone is an allotrope of (NEET-style drill 38)",
+        "options": {
+          "1": "Oxygen",
+          "2": "Nitrogen",
+          "3": "Sulphur",
+          "4": "Carbon"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-9457a94580",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The hybridization in SF₆ is (NEET-style drill 39)",
+        "options": {
+          "1": "sp³d²",
+          "2": "sp³",
+          "3": "sp²",
+          "4": "sp³d"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-c41b91e81a",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which is the strongest reducing agent among alkali metals? (NEET-style drill 40)",
+        "options": {
+          "1": "Li",
+          "2": "Na",
+          "3": "K",
+          "4": "Cs"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT inorganic)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-34c8ba83e8",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "In the periodic table, the element with atomic number 11 belongs to period",
+        "options": {
+          "1": "3",
+          "2": "1",
+          "3": "7",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (period from atomic number)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-64d7f32882",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "In the periodic table, the element with atomic number 12 belongs to period",
+        "options": {
+          "1": "3",
+          "2": "1",
+          "3": "7",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (period from atomic number)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-6a5fd227a2",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "In the periodic table, the element with atomic number 13 belongs to period",
+        "options": {
+          "1": "3",
+          "2": "1",
+          "3": "7",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (period from atomic number)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-4f3f720ba2",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "In the periodic table, the element with atomic number 14 belongs to period",
+        "options": {
+          "1": "3",
+          "2": "1",
+          "3": "7",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (period from atomic number)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-74db81ce0a",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "In the periodic table, the element with atomic number 15 belongs to period",
+        "options": {
+          "1": "3",
+          "2": "1",
+          "3": "7",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (period from atomic number)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-496d9a1539",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "In the periodic table, the element with atomic number 16 belongs to period",
+        "options": {
+          "1": "3",
+          "2": "1",
+          "3": "7",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (period from atomic number)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-6a12c4981c",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "In the periodic table, the element with atomic number 17 belongs to period",
+        "options": {
+          "1": "3",
+          "2": "1",
+          "3": "7",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (period from atomic number)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-32b15d761a",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "In the periodic table, the element with atomic number 18 belongs to period",
+        "options": {
+          "1": "3",
+          "2": "1",
+          "3": "7",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (period from atomic number)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-fc22533c02",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "In the periodic table, the element with atomic number 19 belongs to period",
+        "options": {
+          "1": "4",
+          "2": "1",
+          "3": "7",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (period from atomic number)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-8ae9cd60da",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "In the periodic table, the element with atomic number 20 belongs to period",
+        "options": {
+          "1": "4",
+          "2": "1",
+          "3": "7",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (period from atomic number)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-c6436d7c02",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "In the periodic table, the element with atomic number 21 belongs to period",
+        "options": {
+          "1": "4",
+          "2": "1",
+          "3": "7",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (period from atomic number)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-b55df5e5a0",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "In the periodic table, the element with atomic number 22 belongs to period",
+        "options": {
+          "1": "4",
+          "2": "1",
+          "3": "7",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (period from atomic number)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-51300753d8",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "In the periodic table, the element with atomic number 23 belongs to period",
+        "options": {
+          "1": "4",
+          "2": "1",
+          "3": "7",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (period from atomic number)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-1106bcdf6c",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "In the periodic table, the element with atomic number 24 belongs to period",
+        "options": {
+          "1": "4",
+          "2": "1",
+          "3": "7",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (period from atomic number)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
       }
     ]
   },

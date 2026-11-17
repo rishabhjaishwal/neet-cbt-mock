@@ -3,9 +3,9 @@
   "subject": "Physics",
   "topic": "Thermodynamics",
   "counts": {
-    "Easy": 8,
-    "Medium": 7,
-    "Hard": 7
+    "Easy": 50,
+    "Medium": 50,
+    "Hard": 50
   },
   "questions": {
     "Easy": [
@@ -208,6 +208,1016 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
+      },
+      {
+        "id": "hf2024-bf0f83deed",
+        "sourceYear": 2024,
+        "sourceNumber": 32,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "The electromagnetic radiation which has the smallest wavelength are",
+        "options": {
+          "1": "X-rays",
+          "2": "Gamma rays",
+          "3": "Ultraviolet rays",
+          "4": "Microwaves"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-39d8b96bcf",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "[NEET 2019 | Physics] A Carnot engine works between source temperature 227°C and sink temperature 27°C. Its efficiency is:",
+        "options": {
+          "1": "40%",
+          "2": "50%",
+          "3": "60%",
+          "4": "25%"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-08cae26281",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "[NEET 2023 | Physics] The RMS speed of an ideal gas at temperature T is proportional to:",
+        "options": {
+          "1": "T",
+          "2": "√T",
+          "3": "T²",
+          "4": "1/√T"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-4c5843789a",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 20 J. The change in internal energy is",
+        "options": {
+          "1": "20 J",
+          "2": "10 J",
+          "3": "40 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-61d3f2773e",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 40 J. The change in internal energy is",
+        "options": {
+          "1": "40 J",
+          "2": "20 J",
+          "3": "80 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-2a05676a38",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 60 J. The change in internal energy is",
+        "options": {
+          "1": "60 J",
+          "2": "30 J",
+          "3": "120 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-fe31f736c2",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 80 J. The change in internal energy is",
+        "options": {
+          "1": "80 J",
+          "2": "40 J",
+          "3": "160 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-79cbb16be4",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 100 J. The change in internal energy is",
+        "options": {
+          "1": "100 J",
+          "2": "50 J",
+          "3": "200 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-7c94d3b605",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 120 J. The change in internal energy is",
+        "options": {
+          "1": "120 J",
+          "2": "60 J",
+          "3": "240 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-256e80d8b3",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 140 J. The change in internal energy is",
+        "options": {
+          "1": "140 J",
+          "2": "70 J",
+          "3": "280 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-f8695a0363",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 320 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.063",
+          "2": "0.938",
+          "3": "0.067",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-80de38fe0b",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 340 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.118",
+          "2": "0.882",
+          "3": "0.133",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-55cdb37fc8",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 360 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.167",
+          "2": "0.833",
+          "3": "0.200",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-ef61ba49f9",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 380 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.211",
+          "2": "0.789",
+          "3": "0.267",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-7e97a1304a",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 400 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.250",
+          "2": "0.750",
+          "3": "0.333",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-5bab7b3d03",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas expands isothermally. Work done by gas is 1001 J. Change in internal energy is",
+        "options": {
+          "1": "0",
+          "2": "100 J",
+          "3": "-100 J",
+          "4": "50 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU=0 isothermal ideal gas)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-5b72bc5208",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas expands isothermally. Work done by gas is 1002 J. Change in internal energy is",
+        "options": {
+          "1": "0",
+          "2": "200 J",
+          "3": "-200 J",
+          "4": "100 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU=0 isothermal ideal gas)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-9f1f3e8539",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas expands isothermally. Work done by gas is 1003 J. Change in internal energy is",
+        "options": {
+          "1": "0",
+          "2": "300 J",
+          "3": "-300 J",
+          "4": "150 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU=0 isothermal ideal gas)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-c524acb1c3",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas expands isothermally. Work done by gas is 1004 J. Change in internal energy is",
+        "options": {
+          "1": "0",
+          "2": "400 J",
+          "3": "-400 J",
+          "4": "200 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU=0 isothermal ideal gas)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-bfeeec2b48",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas expands isothermally. Work done by gas is 1005 J. Change in internal energy is",
+        "options": {
+          "1": "0",
+          "2": "500 J",
+          "3": "-500 J",
+          "4": "250 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU=0 isothermal ideal gas)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-ed432c18cb",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas expands isothermally. Work done by gas is 1006 J. Change in internal energy is",
+        "options": {
+          "1": "0",
+          "2": "600 J",
+          "3": "-600 J",
+          "4": "300 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU=0 isothermal ideal gas)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-ceeebc7735",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas expands isothermally. Work done by gas is 1007 J. Change in internal energy is",
+        "options": {
+          "1": "0",
+          "2": "700 J",
+          "3": "-700 J",
+          "4": "350 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU=0 isothermal ideal gas)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-a0c564d98c",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas expands isothermally. Work done by gas is 1008 J. Change in internal energy is",
+        "options": {
+          "1": "0",
+          "2": "800 J",
+          "3": "-800 J",
+          "4": "400 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU=0 isothermal ideal gas)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-c7e57b6ccd",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas expands isothermally. Work done by gas is 10011 J. Change in internal energy is",
+        "options": {
+          "1": "0",
+          "2": "1100 J",
+          "3": "-1100 J",
+          "4": "550 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU=0 isothermal ideal gas)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-396c2e9dae",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas expands isothermally. Work done by gas is 10012 J. Change in internal energy is",
+        "options": {
+          "1": "0",
+          "2": "1200 J",
+          "3": "-1200 J",
+          "4": "600 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU=0 isothermal ideal gas)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-6a7401433a",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas expands isothermally. Work done by gas is 10013 J. Change in internal energy is",
+        "options": {
+          "1": "0",
+          "2": "1300 J",
+          "3": "-1300 J",
+          "4": "650 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU=0 isothermal ideal gas)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-fd850aa81f",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas expands isothermally. Work done by gas is 10014 J. Change in internal energy is",
+        "options": {
+          "1": "0",
+          "2": "1400 J",
+          "3": "-1400 J",
+          "4": "700 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU=0 isothermal ideal gas)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-69f294ed13",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas expands isothermally. Work done by gas is 10015 J. Change in internal energy is",
+        "options": {
+          "1": "0",
+          "2": "1500 J",
+          "3": "-1500 J",
+          "4": "750 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU=0 isothermal ideal gas)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-f577901995",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas expands isothermally. Work done by gas is 10016 J. Change in internal energy is",
+        "options": {
+          "1": "0",
+          "2": "1600 J",
+          "3": "-1600 J",
+          "4": "800 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU=0 isothermal ideal gas)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-1345f597c7",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas is taken through a cyclic process. In one step it absorbs 290 J heat and does 78 J work. The change in internal energy for that step is",
+        "options": {
+          "1": "212 J",
+          "2": "368 J",
+          "3": "78 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q − W)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-256e3077f9",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas is taken through a cyclic process. In one step it absorbs 300 J heat and does 80 J work. The change in internal energy for that step is",
+        "options": {
+          "1": "220 J",
+          "2": "380 J",
+          "3": "80 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q − W)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-2bbdd71d91",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas is taken through a cyclic process. In one step it absorbs 310 J heat and does 82 J work. The change in internal energy for that step is",
+        "options": {
+          "1": "228 J",
+          "2": "392 J",
+          "3": "82 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q − W)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-262cd1dbc6",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas is taken through a cyclic process. In one step it absorbs 320 J heat and does 84 J work. The change in internal energy for that step is",
+        "options": {
+          "1": "236 J",
+          "2": "404 J",
+          "3": "84 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q − W)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-f89992d89e",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas is taken through a cyclic process. In one step it absorbs 330 J heat and does 86 J work. The change in internal energy for that step is",
+        "options": {
+          "1": "244 J",
+          "2": "416 J",
+          "3": "86 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q − W)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-1ab9d460e8",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas is taken through a cyclic process. In one step it absorbs 340 J heat and does 88 J work. The change in internal energy for that step is",
+        "options": {
+          "1": "252 J",
+          "2": "428 J",
+          "3": "88 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q − W)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-8f5b252ffc",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas is taken through a cyclic process. In one step it absorbs 350 J heat and does 90 J work. The change in internal energy for that step is",
+        "options": {
+          "1": "260 J",
+          "2": "440 J",
+          "3": "90 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q − W)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-4c335efd04",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas is taken through a cyclic process. In one step it absorbs 360 J heat and does 92 J work. The change in internal energy for that step is",
+        "options": {
+          "1": "268 J",
+          "2": "452 J",
+          "3": "92 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q − W)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-f5058e714c",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas is taken through a cyclic process. In one step it absorbs 370 J heat and does 94 J work. The change in internal energy for that step is",
+        "options": {
+          "1": "276 J",
+          "2": "464 J",
+          "3": "94 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q − W)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-12ca982f3b",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas is taken through a cyclic process. In one step it absorbs 380 J heat and does 96 J work. The change in internal energy for that step is",
+        "options": {
+          "1": "284 J",
+          "2": "476 J",
+          "3": "96 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q − W)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-f9296bfb8f",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas is taken through a cyclic process. In one step it absorbs 390 J heat and does 98 J work. The change in internal energy for that step is",
+        "options": {
+          "1": "292 J",
+          "2": "488 J",
+          "3": "98 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q − W)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-3b2d4f47b2",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas is taken through a cyclic process. In one step it absorbs 400 J heat and does 100 J work. The change in internal energy for that step is",
+        "options": {
+          "1": "300 J",
+          "2": "500 J",
+          "3": "100 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q − W)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-2a32f249af",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas is taken through a cyclic process. In one step it absorbs 410 J heat and does 102 J work. The change in internal energy for that step is",
+        "options": {
+          "1": "308 J",
+          "2": "512 J",
+          "3": "102 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q − W)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       }
     ],
     "Medium": [
@@ -385,6 +1395,1054 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
+      },
+      {
+        "id": "hf2018-e64d7cc233",
+        "sourceYear": 2018,
+        "sourceNumber": 1,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "When radiation of frequency $ v _ { 0 } $ (which is equal to the threshold frequency), is incident on a metal plate, the maximum velocity of electrons emitted is $ \\mathrm { v } _ { 1 } $. When the frequency of the incident radiation is increased to $ 5 v _ { 0 } $, the maximum velocity of electrons emitted from the same plate is $ v _ { 2 } $. The ratio of $ v _ { 1 } $ to $ v _ { 2 } $ is",
+        "options": {
+          "1": "$ 4 : 1 $",
+          "2": "$ 1 : 4 $",
+          "3": "$ 1 : 2 $",
+          "4": "$ 2 : 1 $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-05a8ad36d4",
+        "sourceYear": 2019,
+        "sourceNumber": 43,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "A parallel plate capacitor of capacitance $ 20 \\mu \\mathrm {~F} $ is being charged by a voltage source whose potential is changing at the rate of $ 3 \\mathrm {~V} / \\mathrm { s } $. The conduction current through the connecting wires, and the displacement current through the plates of the capacitor, would be, respectively :",
+        "options": {
+          "1": "zero, $ 60 \\mu \\mathrm {~A} $",
+          "2": "$ 60 \\mu \\mathrm {~A} , 60 \\mu \\mathrm {~A} $",
+          "3": "$ 60 \\mu \\mathrm {~A} $, zero",
+          "4": "zero, zero"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-2b0c5aa00c",
+        "sourceYear": 2020,
+        "sourceNumber": 141,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "Two cylinders $ A $ and $ B $ of equal capacity are connected to each other via a stop cock. A contains an ideal gas at standard temperature and pressure. B is completely evacuated. The entire system is thermally insulated. The stop cock is suddenly opened. The process is :",
+        "options": {
+          "1": "isothermal",
+          "2": "adiabatic",
+          "3": "isochoric",
+          "4": "isobaric"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2022-5615ef5f4b",
+        "sourceYear": 2022,
+        "sourceNumber": 26,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "Match List-I with List-II List-I (Electromagnetic waves) a. AM radio waves b. Microwaves c. Infraraed radiations d. X-rays List-II (Wavelength) (i) $ 10 ^ { - 10 } \\mathrm {~m} $ (ii) $ 10 ^ { 2 } \\mathrm {~m} $ (iii) $ 10 ^ { - 2 } \\mathrm {~m} $ (iv) $ 10 ^ { - 4 } \\mathrm {~m} $ Choose the correct answer from the options given below:",
+        "options": {
+          "1": "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+          "2": "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)",
+          "3": "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+          "4": "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-0a7f82ca4f",
+        "sourceYear": 2023,
+        "sourceNumber": 14,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "A Carnot engine has an efficiency of $ 50 \\% $ when its source is at a temperature $ 327 ^ { \\circ } \\mathrm { C } $. The temperature of the sink is :",
+        "options": {
+          "1": "$ 200 ^ { \\circ } \\mathrm { C } $",
+          "2": "$ 27 ^ { \\circ } \\mathrm { C } $",
+          "3": "$ 15 ^ { \\circ } \\mathrm { C } $",
+          "4": "$ 100 ^ { \\circ } \\mathrm { C } $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-55316b1998",
+        "sourceYear": 2024,
+        "sourceNumber": 33,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "The equilibrium state of a thermodynamic system is described by A. Pressure B. Total heat C. Temperature D. Volume E. Work done Choose the most appropriate answer from the options given below.",
+        "options": {
+          "1": "A, B and E only",
+          "2": "B, C and D only",
+          "3": "A, B and C only",
+          "4": "A, C and D only"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-d234841e7d",
+        "sourceYear": 2024,
+        "sourceNumber": 43,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "Select the correct statements among the following : A. Slow neutrons can cause fission in $ { } _ { 92 } ^ { 235 } \\mathrm { U } $ than fast neutrons. B. $ \\alpha $-rays are Helium nuclei. C. $ \\beta $-rays are fast moving electrons or positrons. D. $ \\gamma $-rays are electromagnetic radiations of wavelengths larger than X-rays.",
+        "options": {
+          "1": "A, B and C only",
+          "2": "A, B and D only",
+          "3": "A and B only",
+          "4": "C and D only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-5863af37ea",
+        "sourceYear": 2024,
+        "sourceNumber": 47,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "According to the law of equipartition of energy, the number of vibrational modes of a polyatomic gas of constant $ \\gamma = \\frac { C _ { p } } { C _ { v } } $ is $ \\left( C _ { P } \\right. $ where $ C _ { v } $ are the specific heat capacities of the gas at constant pressure and constant respectively):",
+        "options": {
+          "1": "$ \\frac { 4 + 3 \\gamma } { \\gamma - 1 } $",
+          "2": "$ \\frac { 3 + 4 \\gamma } { \\gamma - 1 } $",
+          "3": "$ \\frac { 4 - 3 \\gamma } { \\gamma - 1 } $",
+          "4": "$ \\frac { 3 - 4 \\gamma } { \\gamma - 1 } $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-07353dfad3",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An earthen pitcher loses 1 g of water per minute due to evaporation. If the water equivalent of the pitcher is 0.5 kg and the pitcher contains 9.5 âkg of water, then calculate the time required for the water in pitcher to cool to 28 Â° C from its original temperature of 30 Â° C . Neglect the effect of radiation. Latent heat of vaporization of water in this range of temperature is 580 â â cal/g and specific heat of water is 1 c a l / g / Â° C .",
+        "options": {
+          "1": "A 3",
+          "2": "5 â â min B 4",
+          "3": "2 â â min C 3",
+          "4": "6 â â min D 3"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-a9c0810d2a",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "[NEET 2024 | Physics] Light of frequency 1.5*threshold on metal. If frequency halved and intensity doubled, photoelectric current:",
+        "options": {
+          "1": "Doubled",
+          "2": "Halved",
+          "3": "Zero",
+          "4": "Quadrupled"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-22917f4dd6",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "[NEET 2017 | Physics] Carnot engine efficiency 1/10 used as refrigerator. Work done = 10 J. Energy absorbed from lower reservoir:",
+        "options": {
+          "1": "90 J",
+          "2": "99 J",
+          "3": "100 J",
+          "4": "1 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-e40292ab45",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "22 g of carbon dioxide at 27 Â° C is mixed in a closed container with 16 g of oxygen at 37 Â° C . If both gases are considered as ideal gases, then the temperature of the mixture is ( neglect vibrational degree of freedom )",
+        "options": {
+          "1": "A 2",
+          "2": "2 ° C B 2",
+          "3": "5 ° C C 3",
+          "4": "5 Â° C D 3"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-cb0bfcd9bc",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "[NEET 2023 | Physics] 1 mole ideal monoatomic gas heated at constant pressure from 0 to 100 C. Heat supplied (R=8.31):",
+        "options": {
+          "1": "2.08 kJ",
+          "2": "8.32 kJ",
+          "3": "4.16 kJ",
+          "4": "1.25 kJ"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-a49365125d",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "The volume of a gas at 20 Â° C is 200 m l . If the temperature is reduced to - 20 Â° C at constant pressure, its volume will be",
+        "options": {
+          "1": "A 17",
+          "2": "6 m l B 1",
+          "3": "26 Â m l C 19",
+          "4": "7 Â m l D 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-ef10787c01",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal gas at an initial temperature of $T~ K$ does $6~ R$ joules of work adiabatically. If the ratio of specific heats of this gas at constant pressure and at constant volume is $5 / 3$, the final temperature of gas will be:",
+        "options": {
+          "1": "A (T+",
+          "2": "K B (T-",
+          "3": "K C (T+",
+          "4": "K D (T-"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-c335b3cd6b",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "A calorimeter contains 70.2 g of water at 15.3 Â° C . If 143.7 g of water at 36.5 Â° C is mixed with it, the common temperature becomes 28.7 Â° C . The water equivalent of the calorimeter is",
+        "options": {
+          "1": "A 1",
+          "2": "6 Â g",
+          "3": "4 Â g",
+          "4": "3 Â g D 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-c7f56aa92d",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "The equation of state for $5 \\mathrm{~g}$ of oxygen at a pressure $P$ and temperature $T$, when occupying a volume $V$, will be: (where $R$ is the gas constant)",
+        "options": {
+          "1": "A P V=(5 / 3",
+          "2": "R T B P V=5 R T C P V=(5 /",
+          "3": "R T D P V=(5 / 1",
+          "4": "R T"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-3b1a1ea87f",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "Steam at 100 o C is passed into 20 g of water at 10 o C . When water acquires a temperature of 80 o C , the mass of water present will be: [Take specific heat of water = 1 c a l g - 1 o C - 1 and latent heat of steam = 540 c a l g - 1 ]",
+        "options": {
+          "1": "A 24 Â g B 3",
+          "2": "5 Â g C 4",
+          "3": "5 Â g D 2",
+          "4": "5 g"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-e6ca085502",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "In L i + + ,electron in first Bohr orbit is excited to a level by a radiation of wavelength λ .When the ion gets de excited to the ground state in all possible ways (including intermediate emissions), a total of six spectral lines are observed. What is the value of λ ? (Given: h = 6.63 × 10 - 34 J s ; c = 3 × 10 8 m s - 1 )",
+        "options": {
+          "1": "A 1",
+          "2": "8 n m",
+          "3": "4 Â n m C 1",
+          "4": "4 Â n m D 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-1df32d4d5e",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "A black body is at $727^{\\circ} \\mathrm{C}$. It emits energy at a rate which is proportional to:",
+        "options": {
+          "1": "A (100",
+          "2": "^4 B (100",
+          "3": "^2 C (72",
+          "4": "^4 D (72"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-6f9ddcc15b",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 160 J. The change in internal energy is",
+        "options": {
+          "1": "160 J",
+          "2": "80 J",
+          "3": "320 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-1cae9feea8",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 180 J. The change in internal energy is",
+        "options": {
+          "1": "180 J",
+          "2": "90 J",
+          "3": "360 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-317a034de9",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 200 J. The change in internal energy is",
+        "options": {
+          "1": "200 J",
+          "2": "100 J",
+          "3": "400 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-b8baba66fd",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 220 J. The change in internal energy is",
+        "options": {
+          "1": "220 J",
+          "2": "110 J",
+          "3": "440 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-ca207a8aeb",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 240 J. The change in internal energy is",
+        "options": {
+          "1": "240 J",
+          "2": "120 J",
+          "3": "480 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-11b9bcedac",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 260 J. The change in internal energy is",
+        "options": {
+          "1": "260 J",
+          "2": "130 J",
+          "3": "520 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-c21dba7796",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 280 J. The change in internal energy is",
+        "options": {
+          "1": "280 J",
+          "2": "140 J",
+          "3": "560 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-e3f7ea0d1e",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 420 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.286",
+          "2": "0.714",
+          "3": "0.400",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-7493ac96ad",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 440 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.318",
+          "2": "0.682",
+          "3": "0.467",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-e0109123a6",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 460 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.348",
+          "2": "0.652",
+          "3": "0.533",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-e5e7ac4209",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 480 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.375",
+          "2": "0.625",
+          "3": "0.600",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-86d0f0e912",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 500 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.400",
+          "2": "0.600",
+          "3": "0.667",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-347b47f3b9",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 420 J. The change in internal energy is",
+        "options": {
+          "1": "420 J",
+          "2": "210 J",
+          "3": "840 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-c378a4169b",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 440 J. The change in internal energy is",
+        "options": {
+          "1": "440 J",
+          "2": "220 J",
+          "3": "880 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-c8b12e8341",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 460 J. The change in internal energy is",
+        "options": {
+          "1": "460 J",
+          "2": "230 J",
+          "3": "920 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-e733163241",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 480 J. The change in internal energy is",
+        "options": {
+          "1": "480 J",
+          "2": "240 J",
+          "3": "960 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-6e691e791c",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 620 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.516",
+          "2": "0.484",
+          "3": "1.067",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-0dc652b09d",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 640 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.531",
+          "2": "0.469",
+          "3": "1.133",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-5b7cc6f7e7",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 660 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.545",
+          "2": "0.455",
+          "3": "1.200",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-48479db8e9",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 680 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.559",
+          "2": "0.441",
+          "3": "1.267",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-35c7759b67",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 700 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.571",
+          "2": "0.429",
+          "3": "1.333",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-1ae5ee14f1",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas expands isothermally. Work done by gas is 1009 J. Change in internal energy is",
+        "options": {
+          "1": "0",
+          "2": "900 J",
+          "3": "-900 J",
+          "4": "450 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU=0 isothermal ideal gas)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-4a535c9e40",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas expands isothermally. Work done by gas is 10010 J. Change in internal energy is",
+        "options": {
+          "1": "0",
+          "2": "1000 J",
+          "3": "-1000 J",
+          "4": "500 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU=0 isothermal ideal gas)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       }
     ],
     "Hard": [
@@ -416,31 +2474,6 @@
       {
         "id": "2021-M1-Q5",
         "sourceYear": 2021,
-        "sourceNumber": 5,
-        "subject": "Physics",
-        "topic": "Thermodynamics",
-        "difficulty": "Hard",
-        "stem": "A cup of coffee cools from 908C to 808C in t minutes, when the room temperature is 208C. The time taken by a similar cup of coffee to cool from 808C to 608C at a room temperature same at 208C is : 5",
-        "options": {
-          "1": "t 13 13",
-          "2": "t 10 13",
-          "3": "t 5 10",
-          "4": "t 13"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q50",
-        "sourceYear": 2022,
         "sourceNumber": 5,
         "subject": "Physics",
         "topic": "Thermodynamics",
@@ -562,12 +2595,1066 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
+      },
+      {
+        "id": "hf2021-82dea4eeca",
+        "sourceYear": 2021,
+        "sourceNumber": 4,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "Match Column - I and Column - II and choose the correct match from the given choices. Column - I (A) Root mean square speed of gas molecules (B) Pressure exerted by ideal gas (C) Average kinetic energy of a molecule (D) Total internal energy of 1 mole of a diatomic gas",
+        "options": {
+          "1": "$ \\quad ( \\mathrm { A } ) - ( \\mathrm { Q } ) , ( \\mathrm { B } ) - ( \\mathrm { R } ) , ( \\mathrm { C } ) - ( \\mathrm { S } ) , ( \\mathrm { D } ) - ( \\mathrm { P } ) $",
+          "2": "$ \\quad ( \\mathrm { A } ) - ( \\mathrm { Q } ) , ( \\mathrm { B } ) - ( \\mathrm { P } ) , ( \\mathrm { C } ) - ( \\mathrm { S } ) , ( \\mathrm { D } ) - ( \\mathrm { R } ) $",
+          "3": "$ \\quad ( \\mathrm { A } ) - ( \\mathrm { R } ) , ( \\mathrm { B } ) - ( \\mathrm { Q } ) , ( \\mathrm { C } ) - ( \\mathrm { P } ) , ( \\mathrm { D } ) - ( \\mathrm { S } ) $",
+          "4": "$ \\quad ( \\mathrm { A } ) - ( \\mathrm { R } ) , ( \\mathrm { B } ) - ( \\mathrm { P } ) , ( \\mathrm { C } ) - ( \\mathrm { S } ) , ( \\mathrm { D } ) - ( \\mathrm { Q } ) $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-169939c180",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "[NEET 2018 | Physics] In a photoelectric experiment the stopping potential is V₀ when incident light has frequency ν. If frequency is changed to 2ν, the stopping potential becomes:",
+        "options": {
+          "1": "2V₀",
+          "2": "V₀ + hν/e",
+          "3": "more than 2V₀ but exact value depends on metal",
+          "4": "V₀ + hν₀/e"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-36b56b5ac8",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "[NEET 2018 | Physics] Electron (mass m) and photon have same energy E. Ratio de_Broglie_electron/de_Broglie_photon (c=speed of light):",
+        "options": {
+          "1": "(1/c)*(E/2m)^0.5",
+          "2": "c*(2mE)^0.5",
+          "3": "(1/c)*(2m/E)^0.5",
+          "4": "c*(E/2m)^0.5"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-5b146d5fcf",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 300 J. The change in internal energy is",
+        "options": {
+          "1": "300 J",
+          "2": "150 J",
+          "3": "600 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-e48c0cc480",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 320 J. The change in internal energy is",
+        "options": {
+          "1": "320 J",
+          "2": "160 J",
+          "3": "640 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-ff6c1f34af",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 340 J. The change in internal energy is",
+        "options": {
+          "1": "340 J",
+          "2": "170 J",
+          "3": "680 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-4d477a17ec",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 360 J. The change in internal energy is",
+        "options": {
+          "1": "360 J",
+          "2": "180 J",
+          "3": "720 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-0db4216bab",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 380 J. The change in internal energy is",
+        "options": {
+          "1": "380 J",
+          "2": "190 J",
+          "3": "760 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-dbb0bd8802",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 400 J. The change in internal energy is",
+        "options": {
+          "1": "400 J",
+          "2": "200 J",
+          "3": "800 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-e416ee2012",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 520 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.423",
+          "2": "0.577",
+          "3": "0.733",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-64a300bf64",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 540 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.444",
+          "2": "0.556",
+          "3": "0.800",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-99933f6a63",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 560 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.464",
+          "2": "0.536",
+          "3": "0.867",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-f938e3e5ea",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 580 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.483",
+          "2": "0.517",
+          "3": "0.933",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-6d3cf0efec",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 500 J. The change in internal energy is",
+        "options": {
+          "1": "500 J",
+          "2": "250 J",
+          "3": "1000 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-caa51526af",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 520 J. The change in internal energy is",
+        "options": {
+          "1": "520 J",
+          "2": "260 J",
+          "3": "1040 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-2bffd507c5",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 540 J. The change in internal energy is",
+        "options": {
+          "1": "540 J",
+          "2": "270 J",
+          "3": "1080 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-9d3942999c",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 560 J. The change in internal energy is",
+        "options": {
+          "1": "560 J",
+          "2": "280 J",
+          "3": "1120 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-990736e793",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 580 J. The change in internal energy is",
+        "options": {
+          "1": "580 J",
+          "2": "290 J",
+          "3": "1160 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-b94c53c422",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 600 J. The change in internal energy is",
+        "options": {
+          "1": "600 J",
+          "2": "300 J",
+          "3": "1200 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-a8df6b14ec",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 620 J. The change in internal energy is",
+        "options": {
+          "1": "620 J",
+          "2": "310 J",
+          "3": "1240 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-0e27617179",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 640 J. The change in internal energy is",
+        "options": {
+          "1": "640 J",
+          "2": "320 J",
+          "3": "1280 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-5d5d6d56d7",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 660 J. The change in internal energy is",
+        "options": {
+          "1": "660 J",
+          "2": "330 J",
+          "3": "1320 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-30ddb7b546",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 680 J. The change in internal energy is",
+        "options": {
+          "1": "680 J",
+          "2": "340 J",
+          "3": "1360 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-4a4b8c0079",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "One mole of an ideal monoatomic gas is heated at constant volume by 700 J. The change in internal energy is",
+        "options": {
+          "1": "700 J",
+          "2": "350 J",
+          "3": "1400 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q_v for ideal gas)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-9170e7af6a",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 720 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.583",
+          "2": "0.417",
+          "3": "1.400",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-7d5e63e86b",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 740 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.595",
+          "2": "0.405",
+          "3": "1.467",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-af8ea32c72",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 760 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.605",
+          "2": "0.395",
+          "3": "1.533",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-c7ffcc453a",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 780 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.615",
+          "2": "0.385",
+          "3": "1.600",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-71da841337",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 800 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.625",
+          "2": "0.375",
+          "3": "1.667",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-0ea00aa147",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 820 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.634",
+          "2": "0.366",
+          "3": "1.733",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-5881591b1b",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 840 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.643",
+          "2": "0.357",
+          "3": "1.800",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-ca32c2910e",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 860 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.651",
+          "2": "0.349",
+          "3": "1.867",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-210729d1c8",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 880 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.659",
+          "2": "0.341",
+          "3": "1.933",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-22b6004c8d",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "For a Carnot engine operating between 900 K and 300 K, the maximum efficiency is",
+        "options": {
+          "1": "0.667",
+          "2": "0.333",
+          "3": "2.000",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (η = 1 − T_c/T_h)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-4624527594",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas expands isothermally. Work done by gas is 10017 J. Change in internal energy is",
+        "options": {
+          "1": "0",
+          "2": "1700 J",
+          "3": "-1700 J",
+          "4": "850 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU=0 isothermal ideal gas)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-5573fef381",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas expands isothermally. Work done by gas is 10018 J. Change in internal energy is",
+        "options": {
+          "1": "0",
+          "2": "1800 J",
+          "3": "-1800 J",
+          "4": "900 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU=0 isothermal ideal gas)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-f71676fb54",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas expands isothermally. Work done by gas is 10019 J. Change in internal energy is",
+        "options": {
+          "1": "0",
+          "2": "1900 J",
+          "3": "-1900 J",
+          "4": "950 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU=0 isothermal ideal gas)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-a924110cc4",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas expands isothermally. Work done by gas is 10020 J. Change in internal energy is",
+        "options": {
+          "1": "0",
+          "2": "2000 J",
+          "3": "-2000 J",
+          "4": "1000 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU=0 isothermal ideal gas)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-32129a4d01",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas expands isothermally. Work done by gas is 10021 J. Change in internal energy is",
+        "options": {
+          "1": "0",
+          "2": "2100 J",
+          "3": "-2100 J",
+          "4": "1050 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU=0 isothermal ideal gas)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-50803ca07c",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas expands isothermally. Work done by gas is 10022 J. Change in internal energy is",
+        "options": {
+          "1": "0",
+          "2": "2200 J",
+          "3": "-2200 J",
+          "4": "1100 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU=0 isothermal ideal gas)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-033a47e980",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas expands isothermally. Work done by gas is 10023 J. Change in internal energy is",
+        "options": {
+          "1": "0",
+          "2": "2300 J",
+          "3": "-2300 J",
+          "4": "1150 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU=0 isothermal ideal gas)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-feb977f9bb",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas expands isothermally. Work done by gas is 10024 J. Change in internal energy is",
+        "options": {
+          "1": "0",
+          "2": "2400 J",
+          "3": "-2400 J",
+          "4": "1200 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU=0 isothermal ideal gas)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-8d21fa678e",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas expands isothermally. Work done by gas is 10025 J. Change in internal energy is",
+        "options": {
+          "1": "0",
+          "2": "2500 J",
+          "3": "-2500 J",
+          "4": "1250 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU=0 isothermal ideal gas)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-thermo-hard-final",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "difficulty": "Hard",
+        "stem": "Two moles of an ideal monoatomic gas are compressed adiabatically from 300 K to half the volume. If γ=5/3, the final temperature is",
+        "options": {
+          "1": "300×2^(2/3) K",
+          "2": "150 K",
+          "3": "300 K",
+          "4": "600 K"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (TV^(γ-1)=const; γ-1=2/3)",
+        "placeholder": false,
+        "aiVerified": "strict"
       }
     ]
   },
-  "gaps": [
-    "Easy: have 8 clean items (need 10+ to start)",
-    "Medium: have 7 clean items (need 10+ to start)",
-    "Hard: have 7 clean items (need 10+ to start)"
-  ]
+  "gaps": []
 }

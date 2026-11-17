@@ -3,9 +3,9 @@
   "subject": "Biology",
   "topic": "Cell Biology",
   "counts": {
-    "Easy": 21,
-    "Medium": 21,
-    "Hard": 20
+    "Easy": 50,
+    "Medium": 50,
+    "Hard": 50
   },
   "questions": {
     "Easy": [
@@ -51,31 +51,6 @@
         "correctOption": "3",
         "correctOptions": [
           "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q132",
-        "sourceYear": 2018,
-        "sourceNumber": 173,
-        "subject": "Biology",
-        "topic": "Cell Biology",
-        "difficulty": "Easy",
-        "stem": "After karyogamy followed by meiosis, spores are produced exogenously in",
-        "options": {
-          "1": "Agaricus",
-          "2": "Alternaria",
-          "3": "Neurospora",
-          "4": "Saccharomyces"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -226,56 +201,6 @@
         "correctOption": "1",
         "correctOptions": [
           "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q4",
-        "sourceYear": 2022,
-        "sourceNumber": 104,
-        "subject": "Biology",
-        "topic": "Cell Biology",
-        "difficulty": "Easy",
-        "stem": "After meiosis I, the resultant daughter cells have",
-        "options": {
-          "1": "same amount of DNA as in the parent cell in S phase.",
-          "2": "twice the amount of DNA in comparison to haploid gamete.",
-          "3": "same amount of DNA in comparison to haploid gamete",
-          "4": "four times the amount of DNA in comparison to haploid gamete"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q37",
-        "sourceYear": 2022,
-        "sourceNumber": 137,
-        "subject": "Biology",
-        "topic": "Cell Biology",
-        "difficulty": "Easy",
-        "stem": "Match the following cell structure with its characteristic feature : (a) Tight junctions (i) Cement neighbouring cells together to form sheet (b) Adhering junctions (ii) Transmit information through chemical to another cells (c) Gap junctions (iii) Establish a barrier to prevent leakage of fluid across epithelial cells (d)Synaptic junctions (iv) Cytoplasmic channels to facilitate communication between adjacent cells Select correct option from the following :",
-        "options": {
-          "1": "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)",
-          "2": "(a)-(iv), (b )-(ii), (c)-(i), (d)-(iii)",
-          "3": "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
-          "4": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -460,43 +385,17 @@
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q120",
-        "sourceYear": 2025,
-        "sourceNumber": 124,
+        "id": "hf2018-761c0b979b",
+        "sourceYear": 2018,
+        "sourceNumber": 1,
         "subject": "Biology",
         "topic": "Cell Biology",
-        "difficulty": "Easy",
-        "stem": "Formation of interfascicular cambium from fully developed parenchyma cells is an example for",
+        "stem": "Which of the following statements about the nucleolus is/are correct?",
         "options": {
-          "1": "Redifferentiation",
-          "2": "Dedifferentiation",
-          "3": "Maturation",
-          "4": "Differentiation"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q134",
-        "sourceYear": 2025,
-        "sourceNumber": 137,
-        "subject": "Biology",
-        "topic": "Cell Biology",
-        "difficulty": "Easy",
-        "stem": "Bulliform cells are responsible for",
-        "options": {
-          "1": "Protecting the plant from salt stress.",
-          "2": "Increased photosynthesis in monocots.",
-          "3": "Providing large spaces for storage of sugars.",
-          "4": "Inward curling of leaves in monocots."
+          "1": "It takes part in spindle formation.",
+          "2": "It is a membrane-bound structure.",
+          "3": "Larger nucleoli are present in dividing cells.",
+          "4": "It is a site for active ribosomal RNA synthesis."
         },
         "correctOption": "4",
         "correctOptions": [
@@ -506,22 +405,49 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       },
       {
-        "id": "2025-INTERIM-Q186",
-        "sourceYear": 2025,
-        "sourceNumber": 188,
+        "id": "hf2019-7ab5ae6443",
+        "sourceYear": 2019,
+        "sourceNumber": 119,
         "subject": "Biology",
         "topic": "Cell Biology",
-        "difficulty": "Easy",
-        "stem": "Match List I with List II: List I List II A. Unicellular glandular I. Salivary glands epithelium B. Compound epithelium II. Pancreas C. Multicellular glandular III. Goblet cells of alimentary canal epithelium D. Endocrine glandular IV. Moist surface of buccal cavity epithelium Choose the correct answer from the options given below:",
+        "stem": "Which of the following pair of organelles does not contain DNA?",
         "options": {
-          "1": "A-IV, B-III, C-I, D-II",
-          "2": "A-III, B-IV, C-I, D-II",
-          "3": "A-II, B-I, C-IV, D-III",
-          "4": "A-II, B-I, C-III, D-IV"
+          "1": "Mitochondria and Lysosomes",
+          "2": "Chloroplast and Vacuoles",
+          "3": "Lysosomes and Vacuoles",
+          "4": "Nuclear envelope and Mitochondria"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-8d689200a7",
+        "sourceYear": 2019,
+        "sourceNumber": 32,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which of the following statements regarding mitochondria is incorrect?",
+        "options": {
+          "1": "Outer membrane is permeable to monomers of carbohydrates, fats and proteins.",
+          "2": "Enzymes of electron transport are embedded in outer membrane.",
+          "3": "Inner membrane is convoluted with infoldings.",
+          "4": "Mitochondrial matrix contains single circular DNA molecule and ribosomes."
         },
         "correctOption": "2",
         "correctOptions": [
@@ -531,8 +457,786 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-d21e676ea9",
+        "sourceYear": 2019,
+        "sourceNumber": 171,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Extrusion of second polar body from egg nucleus occurs:",
+        "options": {
+          "1": "after entry of sperm but before fertilization",
+          "2": "after fertilization",
+          "3": "before entry of sperm into ovum",
+          "4": "simultaneously with first cleavage"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-74d13e484b",
+        "sourceYear": 2021,
+        "sourceNumber": 23,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "The organelles that are included in the endomembrane system are:",
+        "options": {
+          "1": "Endoplasmic reticulum, Golgi complex, Lysosomes and Vacuoles",
+          "2": "Golgi complex, Mitochondria, Ribosomes and Lysosomes",
+          "3": "Golgi complex, Endoplasmic reticulum, Mitochondria and Lysosomes",
+          "4": "Endoplasmic reticulum, Mitochondria, Ribosomes and Lysosomes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-51f2d86922",
+        "sourceYear": 2021,
+        "sourceNumber": 184,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "The centriole undergoes duplication during :",
+        "options": {
+          "1": "Prophase",
+          "2": "Metaphase",
+          "3": "$ \\mathrm { G } _ { 2 } $ phase",
+          "4": "S-phase"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-360ff8250f",
+        "sourceYear": 2024,
+        "sourceNumber": 141,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which one of the following products diffuses out of the chloroplast during photosynthesis?",
+        "options": {
+          "1": "ADP",
+          "2": "NADPH",
+          "3": "$ \\mathrm { O } _ { 2 } $",
+          "4": "ATP"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-683b38ff86",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "[NEET 2022 | Biology] Which organelle is known as the 'powerhouse of the cell'?",
+        "options": {
+          "1": "Ribosome",
+          "2": "Golgi apparatus",
+          "3": "Mitochondria",
+          "4": "Lysosome"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-554f5ff57a",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "[NEET 2022 | Biology] The start codon for translation in eukaryotes is:",
+        "options": {
+          "1": "UAA",
+          "2": "UAG",
+          "3": "AUG",
+          "4": "UGA"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-ebf31dfc85",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "The powerhouse of the cell is the",
+        "options": {
+          "1": "Mitochondrion",
+          "2": "Ribosome",
+          "3": "Golgi apparatus",
+          "4": "Lysosome"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-a0b425e763",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Fluid mosaic model was proposed by",
+        "options": {
+          "1": "Singer and Nicolson",
+          "2": "Watson and Crick",
+          "3": "Schleiden and Schwann",
+          "4": "Robert Hooke"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-873fcbe23c",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Ribosomes are the site of",
+        "options": {
+          "1": "Protein synthesis",
+          "2": "Lipid synthesis",
+          "3": "Photosynthesis",
+          "4": "Respiration"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-0b3d887861",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "The powerhouse of the cell is the (drill 21)",
+        "options": {
+          "1": "Mitochondrion",
+          "2": "Ribosome",
+          "3": "Golgi apparatus",
+          "4": "Lysosome"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-692fc04d0c",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Fluid mosaic model was proposed by (drill 22)",
+        "options": {
+          "1": "Singer and Nicolson",
+          "2": "Watson and Crick",
+          "3": "Schleiden and Schwann",
+          "4": "Robert Hooke"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-8ca59575e6",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Ribosomes are the site of (drill 23)",
+        "options": {
+          "1": "Protein synthesis",
+          "2": "Lipid synthesis",
+          "3": "Photosynthesis",
+          "4": "Respiration"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-167d255643",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "The powerhouse of the cell is the (drill 41)",
+        "options": {
+          "1": "Mitochondrion",
+          "2": "Ribosome",
+          "3": "Golgi apparatus",
+          "4": "Lysosome"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-bdd11c0897",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Fluid mosaic model was proposed by (drill 42)",
+        "options": {
+          "1": "Singer and Nicolson",
+          "2": "Watson and Crick",
+          "3": "Schleiden and Schwann",
+          "4": "Robert Hooke"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-332bdba38a",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Ribosomes are the site of (drill 43)",
+        "options": {
+          "1": "Protein synthesis",
+          "2": "Lipid synthesis",
+          "3": "Photosynthesis",
+          "4": "Respiration"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-de35193a36",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "The powerhouse of the cell is the (drill 61)",
+        "options": {
+          "1": "Mitochondrion",
+          "2": "Ribosome",
+          "3": "Golgi apparatus",
+          "4": "Lysosome"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-265a291864",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Fluid mosaic model was proposed by (drill 62)",
+        "options": {
+          "1": "Singer and Nicolson",
+          "2": "Watson and Crick",
+          "3": "Schleiden and Schwann",
+          "4": "Robert Hooke"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-5b8b2c2959",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Ribosomes are the site of (drill 63)",
+        "options": {
+          "1": "Protein synthesis",
+          "2": "Lipid synthesis",
+          "3": "Photosynthesis",
+          "4": "Respiration"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-9f8a6e3245",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "The powerhouse of the cell is the (drill 81)",
+        "options": {
+          "1": "Mitochondrion",
+          "2": "Ribosome",
+          "3": "Golgi apparatus",
+          "4": "Lysosome"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-c03ae6c337",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Fluid mosaic model was proposed by (drill 82)",
+        "options": {
+          "1": "Singer and Nicolson",
+          "2": "Watson and Crick",
+          "3": "Schleiden and Schwann",
+          "4": "Robert Hooke"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-8c4ef7b294",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Ribosomes are the site of (drill 83)",
+        "options": {
+          "1": "Protein synthesis",
+          "2": "Lipid synthesis",
+          "3": "Photosynthesis",
+          "4": "Respiration"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-1dbe2fc29e",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "The powerhouse of the cell is the (drill 101)",
+        "options": {
+          "1": "Mitochondrion",
+          "2": "Ribosome",
+          "3": "Golgi apparatus",
+          "4": "Lysosome"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-93fa2783a4",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Fluid mosaic model was proposed by (drill 102)",
+        "options": {
+          "1": "Singer and Nicolson",
+          "2": "Watson and Crick",
+          "3": "Schleiden and Schwann",
+          "4": "Robert Hooke"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-6ac8693f9c",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Ribosomes are the site of (drill 103)",
+        "options": {
+          "1": "Protein synthesis",
+          "2": "Lipid synthesis",
+          "3": "Photosynthesis",
+          "4": "Respiration"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-8ec4ccfe1d",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "The powerhouse of the cell is the (drill 121)",
+        "options": {
+          "1": "Mitochondrion",
+          "2": "Ribosome",
+          "3": "Golgi apparatus",
+          "4": "Lysosome"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-395451b39b",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle has its own DNA? (drill 124)",
+        "options": {
+          "1": "Mitochondrion",
+          "2": "Ribosome",
+          "3": "Lysosome",
+          "4": "Peroxisome"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-85502e95c6",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Fluid mosaic model was proposed by (drill 142)",
+        "options": {
+          "1": "Singer and Nicolson",
+          "2": "Watson and Crick",
+          "3": "Schleiden and Schwann",
+          "4": "Robert Hooke"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-814de89930",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Ribosomes are the site of (drill 163)",
+        "options": {
+          "1": "Protein synthesis",
+          "2": "Lipid synthesis",
+          "3": "Photosynthesis",
+          "4": "Respiration"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-9452cd9f9d",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "The powerhouse of the cell is the (drill 181)",
+        "options": {
+          "1": "Mitochondrion",
+          "2": "Ribosome",
+          "3": "Golgi apparatus",
+          "4": "Lysosome"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-d1bf6dda82",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle has its own DNA? (drill 184)",
+        "options": {
+          "1": "Mitochondrion",
+          "2": "Ribosome",
+          "3": "Lysosome",
+          "4": "Peroxisome"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-6284874609",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 1)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-811f972149",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 2)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       }
     ],
     "Medium": [
@@ -762,56 +1466,6 @@
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q6",
-        "sourceYear": 2022,
-        "sourceNumber": 106,
-        "subject": "Biology",
-        "topic": "Cell Biology",
-        "difficulty": "Medium",
-        "stem": "The main difference between active and passive transport across cell membrane is :",
-        "options": {
-          "1": "passive transport is non-selective whereas active transport is selective.",
-          "2": "passive transport requires a concentration gradient across a biological membrane whereas active transport requires energy to move solutes.",
-          "3": "passive transport is confined to anionic carrier proteins whereas active transport is confined to cationic channel proteins.",
-          "4": "active transport occurs more rapidly than passive transport."
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q41",
-        "sourceYear": 2022,
-        "sourceNumber": 141,
-        "subject": "Biology",
-        "topic": "Cell Biology",
-        "difficulty": "Medium",
-        "stem": "All the components of the nodal tissue are autoexcitable. Why does the SA node act as the normal pacemaker ?",
-        "options": {
-          "1": "SA node has the lowest rate of depolarisation.",
-          "2": "SA node is the only component to generate the threshold potential.",
-          "3": "Only SA node can convey the action potential to the other components.",
-          "4": "SA node has the highest rate of depolarisation."
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2023-F1-Q130",
         "sourceYear": 2023,
         "sourceNumber": 133,
@@ -987,18 +1641,121 @@
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q131",
-        "sourceYear": 2025,
-        "sourceNumber": 134,
+        "id": "hf2023-b93c6e2646",
+        "sourceYear": 2023,
+        "sourceNumber": 164,
         "subject": "Biology",
         "topic": "Cell Biology",
-        "difficulty": "Medium",
-        "stem": "Given below are two statements: Statement I : Parenchyma is living but collenchyma is dead tissue. Statement II : Gymnosperms lack xylem vessels but presence of xylem vessels is the characteristic of angiosperms. In the light of the above statements, choose the correct answer from the options given below:",
+        "stem": "Match List I with List II. \\n\\nList I\\nA. Taenia\\nB. Paramoecium\\nC. Periplaneta\\nD. Pheretima\\n\\nList II\\nI. Nephridia\\nII. Contractile vacuole\\nIII. Flame cells\\nIV. Urecose gland\\n\\nChoose the correct answer from the options give below:",
         "options": {
-          "1": "Both Statement I and Statement II are false",
-          "2": "Statement I is true but Statement II is false",
-          "3": "Statement I is false but Statement II is true",
-          "4": "Both Statement I and Statement II are true"
+          "1": "A-II, B-I, C-IV, D-III",
+          "2": "A-I, B-II, C-III, D-IV",
+          "3": "A-I, B-II, C-IV, D-III",
+          "4": "A-III, B-II, C-IV, D-I"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-7e440928a2",
+        "sourceYear": 2024,
+        "sourceNumber": 106,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Match List-I with List-II: List-I A. Fleming B. Robert Brown C. George Palade D. Camillo Golgi List-II I. Disc shaped sacs or cisternae near cell nucleus II. Chromatin III. Ribosomes IV. Nucleus Choose the correct answer from the options given below:",
+        "options": {
+          "1": "A-II, B-IV, C-III, D-I",
+          "2": "A-II, B-III, C-I, D-IV",
+          "3": "A-I, B-II, C-III, D-IV",
+          "4": "A-IV, B-II, C-III, D-I"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-d5825b0738",
+        "sourceYear": 2024,
+        "sourceNumber": 115,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Given below are two statements regarding RNA polymerase in prokaryotes. Statement I: In prokaryotes, RNA polymerase is capable of catalysing the process of elongation durin transcription. Statement II : RNA polymerase associate transiently with 'Rho' factor to initiate transcription. In the light of the above statements, choose the correct answer from the options given below :",
+        "options": {
+          "1": "Statement I is true but Statement II is false",
+          "2": "Statement I is false but Statement II is true",
+          "3": "Both Statement I and Statement II are true",
+          "4": "Both Statement I and Statement II are false"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-65b6a7848b",
+        "sourceYear": 2024,
+        "sourceNumber": 125,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which of the following are correct about cellular respiration? A. Cellular respiration is the breaking of $ \\mathrm { C } - \\mathrm { C } $ bonds of complex organic molecules by oxidation. B. The entire cellular respiration takes place in Mitochondria. C. Fermentation takes place under anaerobic condition in germinating seeds. D. The fate of pyruvate formed during glycolysis depends on the type of organism also. E. Water is formed during respiration as a result of $ \\mathrm { O } _ { 2 } $ accepting electrons and getting reduced.",
+        "options": {
+          "1": "A, C, D, E only",
+          "2": "A, B, E only",
+          "3": "A, B, C, E only",
+          "4": "B, C, D, E only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-658a440078",
+        "sourceYear": 2024,
+        "sourceNumber": 126,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Given below are two statements: Statement I: In eukaryotes there are three RNA polymerases in the nucleus in addition to the RNA polymerase found in the organelles. Statement II: All the three RNA polymerases in eukaryotic nucleus have different roles. In the light of the above statements, choose the correct answer from the options given below:",
+        "options": {
+          "1": "Statement I is correct but Statement II is incorrect",
+          "2": "Statement I is incorrect but Statement II is correct",
+          "3": "Both Statement I and Statement II are correct",
+          "4": "Both Statement I and Statement II are incorrect"
         },
         "correctOption": "3",
         "correctOptions": [
@@ -1008,22 +1765,23 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       },
       {
-        "id": "2025-INTERIM-Q136",
-        "sourceYear": 2025,
-        "sourceNumber": 139,
+        "id": "hf2024-7cbe2648d2",
+        "sourceYear": 2024,
+        "sourceNumber": 169,
         "subject": "Biology",
         "topic": "Cell Biology",
-        "difficulty": "Medium",
-        "stem": "Read the following statements and choose the set of correct statements: In the members of Phaeophyceae, A. Asexual reproduction occurs usually by biflagellate zoospores. B. Sexual reproduction is by oogamous method only. C. Stored food is in the form of carbohydrates which is either mannitol or laminarin. D. The major pigments found are chlorophyll a, c and carotenoids and xanthophyll. E. Vegetative cells have a cellulosic wall, usually covered on the outside by gelatinous coating of algin. Choose the correct answer from the options given below:",
+        "stem": "Match List-I with List-II. \\begin{tabular} { | l | l | l | l | } \\hline & List-I & & List-II \\ \\hline A. & F1 Particles & I. & Chromosomes \\ \\hline B. & Histones & II. & Cilia \\ \\hline C. & Axoneme & III. & Golgi apparatus \\ \\hline D. & Cisternae & IV. & Mitochondria \\ \\hline \\end{tabular}",
         "options": {
-          "1": "B, C, D and E only",
-          "2": "A, C, D and E only",
-          "3": "A, B, C and E only",
-          "4": "A, B, C and D only"
+          "1": "A-II, B-I, C-IV, D-III",
+          "2": "A-IV, B-I, C-II, D-III",
+          "3": "A-IV, B-I, C-III, D-II",
+          "4": "A-IV, B-III, C-I, D-II"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -1033,33 +1791,686 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       },
       {
-        "id": "2025-INTERIM-Q199",
-        "sourceYear": 2025,
-        "sourceNumber": 199,
+        "id": "hf2024-b45a7af8fa",
+        "sourceYear": 2024,
+        "sourceNumber": 188,
         "subject": "Biology",
         "topic": "Cell Biology",
-        "difficulty": "Medium",
-        "stem": "Given below are two statements: Statement I: Mitochondria and chloroplasts both double membranes bound organelles. Statement II: Inner membrane of mitochondria is relatively less permeable, as compared chloroplast. In the light of the above statements, choose the mis appropriate answer from the options given below:",
+        "stem": "Given below are two statements : Statement I : RNA interference takes place in all Eukaryotic organisms as method of cellular defense. Statement II: RNAi involves the silencing of a specific mRNA due to a complementary single-stranded RNA molecule that binds and prevents translation of mRNA In the light of the above statements, choose the correct answer from the options given below.",
         "options": {
-          "1": "Both Statement I and Statement II are incorrect.",
-          "2": "Statement I is correct but Statement Il is incorrect.",
-          "3": "Statement I is incorrect but Statement Il is correct.",
-          "4": "Both Statement I and Statement II are correct."
+          "1": "Statement I is true but Statement II is false.",
+          "2": "Statement I is false but Statement II is true.",
+          "3": "Both Statement I and Statement II are true.",
+          "4": "Both Statement I and Statement II are false."
         },
-        "correctOption": "2",
+        "correctOption": "1",
         "correctOptions": [
-          "2"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-4aeedd8746",
+        "sourceYear": 2024,
+        "sourceNumber": 192,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Given below are two statements: Statement I: Concentrically arranged cisternae of Golgi complex are arranged near the nucleus with distinct convex cis or maturing and concave trans or forming face. Statement II: A number of proteins are modified in the cisternae of Golgi complex before they are released from cis face. In the light of the above statements, choose the correct answer from the option given below.",
+        "options": {
+          "1": "Statement I is true but Statement II is false.",
+          "2": "Statement I is false but Statement II is true.",
+          "3": "Both Statement I and Statement II are true",
+          "4": "Both Statement I and Statement II are false"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-54f38231e6",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "[NEET 2024 | Biology] Which of the following is found in prokaryotes but NOT in eukaryotes?",
+        "options": {
+          "1": "Ribosome",
+          "2": "Cell membrane",
+          "3": "70S ribosome without membrane-bound organelles",
+          "4": "DNA"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-b24be21a24",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which of the following statements are correct with respect to Golgi apparatus? (A) It is the important site of formation of glycoprotein and glycolipids. (B) It produces cellular energy in the form of ATP. (C) It modifies the protein synthesized by ribosomes on ER. (D) It facilitates the transport of ions. (E) It provides mechanical support. Choose the most appropriate answer from the options given below :",
+        "options": {
+          "1": "A (",
+          "2": "and (",
+          "3": "only B (",
+          "4": "and (E) only C ("
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-904f439b50",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle has its own DNA?",
+        "options": {
+          "1": "Mitochondrion",
+          "2": "Ribosome",
+          "3": "Lysosome",
+          "4": "Peroxisome"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-35d0e43b3f",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle has its own DNA? (drill 24)",
+        "options": {
+          "1": "Mitochondrion",
+          "2": "Ribosome",
+          "3": "Lysosome",
+          "4": "Peroxisome"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-1d7a47379a",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle has its own DNA? (drill 44)",
+        "options": {
+          "1": "Mitochondrion",
+          "2": "Ribosome",
+          "3": "Lysosome",
+          "4": "Peroxisome"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-cfe35e8528",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle has its own DNA? (drill 64)",
+        "options": {
+          "1": "Mitochondrion",
+          "2": "Ribosome",
+          "3": "Lysosome",
+          "4": "Peroxisome"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-816a5f0d9a",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle has its own DNA? (drill 84)",
+        "options": {
+          "1": "Mitochondrion",
+          "2": "Ribosome",
+          "3": "Lysosome",
+          "4": "Peroxisome"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-b8625d2188",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle has its own DNA? (drill 104)",
+        "options": {
+          "1": "Mitochondrion",
+          "2": "Ribosome",
+          "3": "Lysosome",
+          "4": "Peroxisome"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-d3d9a86a38",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Fluid mosaic model was proposed by (drill 122)",
+        "options": {
+          "1": "Singer and Nicolson",
+          "2": "Watson and Crick",
+          "3": "Schleiden and Schwann",
+          "4": "Robert Hooke"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-3dd4cafac0",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Ribosomes are the site of (drill 143)",
+        "options": {
+          "1": "Protein synthesis",
+          "2": "Lipid synthesis",
+          "3": "Photosynthesis",
+          "4": "Respiration"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-1a1821d1ac",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "The powerhouse of the cell is the (drill 161)",
+        "options": {
+          "1": "Mitochondrion",
+          "2": "Ribosome",
+          "3": "Golgi apparatus",
+          "4": "Lysosome"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-dde6e41394",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle has its own DNA? (drill 164)",
+        "options": {
+          "1": "Mitochondrion",
+          "2": "Ribosome",
+          "3": "Lysosome",
+          "4": "Peroxisome"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-e2db2d259e",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Fluid mosaic model was proposed by (drill 182)",
+        "options": {
+          "1": "Singer and Nicolson",
+          "2": "Watson and Crick",
+          "3": "Schleiden and Schwann",
+          "4": "Robert Hooke"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-afc534ca46",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 3)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-4544621553",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 4)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-f2a8990bff",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 5)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-eae4b00c09",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 6)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-f50c6f5593",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 7)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-a7539f3524",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 8)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-367ef570af",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 9)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-93ee57581c",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 10)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-ea1601bcd4",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 11)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-bffa90e42b",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 12)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-d5a5fc60ae",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 13)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-739067f1e5",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 14)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-9bff38c7dc",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 15)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       }
     ],
     "Hard": [
@@ -1264,81 +2675,6 @@
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q1",
-        "sourceYear": 2022,
-        "sourceNumber": 101,
-        "subject": "Biology",
-        "topic": "Cell Biology",
-        "difficulty": "Hard",
-        "stem": "Which of the following cell organelles is present in the highest number in secretory cells?",
-        "options": {
-          "1": "Mitochondria",
-          "2": "Golgi complex",
-          "3": "Endoplasmic reticulum",
-          "4": "Lysosomes"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q7",
-        "sourceYear": 2022,
-        "sourceNumber": 107,
-        "subject": "Biology",
-        "topic": "Cell Biology",
-        "difficulty": "Hard",
-        "stem": "Match the items given in Column - I with those in Column - II and choose the correct option. Column-I Column-II (a) Rennin (i) Vitamin B12 (b) Enterokinase (ii) Facilitated transport (c) Oxyntic cells (iii) Milk proteins (d) Fructose (iv) Trypsinogen",
-        "options": {
-          "1": "(a) - (iii), (b)- (iv), (c)- (ii), (d)-(i)",
-          "2": "(a) - (iv), (b)- (iii), (c)- (i), (d)-(ii)",
-          "3": "(a) - (iv), (b)- (iii), (c)- (ii), (d)-(i)",
-          "4": "(a) - (iii), (b)- (iv), (c)- (i), (d)-(ii)"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q69",
-        "sourceYear": 2022,
-        "sourceNumber": 164,
-        "subject": "Biology",
-        "topic": "Cell Biology",
-        "difficulty": "Hard",
-        "stem": "Crossing over takes place between which chromatids and in which stage of the cell cycle?",
-        "options": {
-          "1": "Non-sister chromatids of non-homologous chromosomes at Zygotene stage of prophase I.",
-          "2": "Non-sister chromatids of homologous chromosomes at Pachytene stage of prophase I.",
-          "3": "Non-sister chromatids of homologous chromosomes at Zygotene stage of prophase I.",
-          "4": "Non-sister chromatids of non-homologous chromosomes at Pachytene stage of prophase I."
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2023-F1-Q131",
         "sourceYear": 2023,
         "sourceNumber": 134,
@@ -1489,43 +2825,17 @@
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q102",
-        "sourceYear": 2025,
-        "sourceNumber": 106,
+        "id": "hf2021-b885384133",
+        "sourceYear": 2021,
+        "sourceNumber": 133,
         "subject": "Biology",
         "topic": "Cell Biology",
-        "difficulty": "Hard",
-        "stem": "Lecithin, a small molecular weight organic compound found in living tissues, is an example of:",
+        "stem": "Match List - I with List - II. \\n\\n\\begin{tabular}{|l|l|l|l|}\\n\\hline\\n\\multicolumn{2}{|c|}{List - I} & \\multicolumn{2}{c|}{List - II}\\n\\hline\\n(a) & Cristae & (i) & \\begin{tabular}{l}Primary constriction in \\ chromosome\\end{tabular}\\n\\hline\\n(b) & Thylakoids & (ii) & \\begin{tabular}{l}Disc-shaped sacs in \\ Golgi apparatus\\end{tabular}\\n\\hline\\n(c) & Centromere & (iii) & \\begin{tabular}{l}Infoldings in \\ mitochondria\\end{tabular}\\n\\hline\\n(d) & Cisternae & (iv) & \\begin{tabular}{l}Flattened membranous \\ sacs in stroma of \\ plastids\\end{tabular}\\n\\hline\\n\\end{tabular}\\n\\n\\n\\nChoose the correct answer from the options given below.\\n\\n\\begin{tabular}{lllll}\\n& (a) & (b) & (c) & (d)\\n$(1)$ & (i) & (iv) & (iii) & (ii)\\n$(2)$ & (iii) & (iv) & (i) & (ii)\\n$(3)$ & (ii) & (iii) & (iv) & (i)\\n$(4)$ & (iv) & (iii) & (ii) & (i)\\n\\end{tabular}\\n\\n",
         "options": {
-          "1": "Phospholipids",
-          "2": "Glycerides",
-          "3": "Carbohydrates",
-          "4": "Amino acids"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q133",
-        "sourceYear": 2025,
-        "sourceNumber": 136,
-        "subject": "Biology",
-        "topic": "Cell Biology",
-        "difficulty": "Hard",
-        "stem": "The lactose present in the growth medium of bacteria is transported to the cell by the action of",
-        "options": {
-          "1": "Acetylase",
-          "2": "Permease",
-          "3": "Polymerase",
-          "4": "Beta-galactosidase"
+          "1": "(i) & (iv) & (iii) & (ii)",
+          "2": "(iii) & (iv) & (i) & (ii)",
+          "3": "(ii) & (iii) & (iv) & (i)",
+          "4": "(iv) & (iii) & (ii) & (i)"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -1535,33 +2845,850 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
       },
       {
-        "id": "2025-INTERIM-Q171",
-        "sourceYear": 2025,
-        "sourceNumber": 173,
+        "id": "auth-ce7ab2f855",
         "subject": "Biology",
         "topic": "Cell Biology",
-        "difficulty": "Hard",
-        "stem": "Following are the stages of cell division : A. Gap 2 phase B. Cytokinesis C. Synthesis phase D. Karyokinesis E. Gap 1 phase Choose the correct sequence of stages from the options given below :",
+        "stem": "Ribosomes are the site of (drill 123)",
         "options": {
-          "1": "E-B-D-A-C",
-          "2": "B-D-E-A-C",
-          "3": "E-C-A-D-B",
-          "4": "C-E-D-A-B"
+          "1": "Protein synthesis",
+          "2": "Lipid synthesis",
+          "3": "Photosynthesis",
+          "4": "Respiration"
         },
-        "correctOption": "3",
+        "correctOption": "1",
         "correctOptions": [
-          "3"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-931f78b860",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "The powerhouse of the cell is the (drill 141)",
+        "options": {
+          "1": "Mitochondrion",
+          "2": "Ribosome",
+          "3": "Golgi apparatus",
+          "4": "Lysosome"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-c5bc02827a",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle has its own DNA? (drill 144)",
+        "options": {
+          "1": "Mitochondrion",
+          "2": "Ribosome",
+          "3": "Lysosome",
+          "4": "Peroxisome"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-e4215392a2",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Fluid mosaic model was proposed by (drill 162)",
+        "options": {
+          "1": "Singer and Nicolson",
+          "2": "Watson and Crick",
+          "3": "Schleiden and Schwann",
+          "4": "Robert Hooke"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-07610a01ce",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Ribosomes are the site of (drill 183)",
+        "options": {
+          "1": "Protein synthesis",
+          "2": "Lipid synthesis",
+          "3": "Photosynthesis",
+          "4": "Respiration"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-5ce4381a8c",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 16)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-9b13fd3981",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 17)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-ae944d2f61",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 18)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-443946e931",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 19)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-4a9cf64f84",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 20)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-5f58544e5b",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 21)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-54354c003d",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 22)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-a7d5d5b2ed",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 23)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-305c2cd598",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 24)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-7cc4622e56",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 25)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-d3d079f7d0",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 26)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-f5501f0cc3",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 27)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-46b4653e0d",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 28)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-8dc3ee1ede",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 29)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-7a1548f9db",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 30)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-8b76522892",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 31)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-d2cb4beede",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 32)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-0123d14b62",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 33)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-4d41fef613",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 34)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-94c207f195",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 35)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-926bd05d97",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 36)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-1df1a21428",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 37)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-444d5c7510",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 38)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-8bdc786ab9",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 39)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-04394d9e1a",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which statement about mitochondria is correct? (set 40)",
+        "options": {
+          "1": "They have double membrane and own circular DNA",
+          "2": "They are absent in plant cells",
+          "3": "They synthesize all cellular lipids only",
+          "4": "They lack cristae in eukaryotes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (mitochondrial structure)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-7489aa4c51",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle is correctly matched with its function? (cell set 46)",
+        "options": {
+          "1": "Lysosome — intracellular digestion",
+          "2": "Ribosome — lipid synthesis only",
+          "3": "Golgi — ATP synthesis",
+          "4": "Mitochondrion — protein glycosylation only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (organelle functions)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-07c9d8636e",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle is correctly matched with its function? (cell set 48)",
+        "options": {
+          "1": "Lysosome — intracellular digestion",
+          "2": "Ribosome — lipid synthesis only",
+          "3": "Golgi — ATP synthesis",
+          "4": "Mitochondrion — protein glycosylation only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (organelle functions)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-d6afd739b7",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle is correctly matched with its function? (cell set 50)",
+        "options": {
+          "1": "Lysosome — intracellular digestion",
+          "2": "Ribosome — lipid synthesis only",
+          "3": "Golgi — ATP synthesis",
+          "4": "Mitochondrion — protein glycosylation only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (organelle functions)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-3c9b50d60d",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle is correctly matched with its function? (cell set 52)",
+        "options": {
+          "1": "Lysosome — intracellular digestion",
+          "2": "Ribosome — lipid synthesis only",
+          "3": "Golgi — ATP synthesis",
+          "4": "Mitochondrion — protein glycosylation only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (organelle functions)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-6c7253153e",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle is correctly matched with its function? (cell set 54)",
+        "options": {
+          "1": "Lysosome — intracellular digestion",
+          "2": "Ribosome — lipid synthesis only",
+          "3": "Golgi — ATP synthesis",
+          "4": "Mitochondrion — protein glycosylation only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (organelle functions)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
       }
     ]
   },

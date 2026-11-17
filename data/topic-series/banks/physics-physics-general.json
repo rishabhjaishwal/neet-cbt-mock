@@ -3,9 +3,9 @@
   "subject": "Physics",
   "topic": "Physics General",
   "counts": {
-    "Easy": 77,
-    "Medium": 77,
-    "Hard": 77
+    "Easy": 84,
+    "Medium": 123,
+    "Hard": 67
   },
   "questions": {
     "Easy": [
@@ -810,31 +810,6 @@
         "placeholder": false
       },
       {
-        "id": "2018-AA-Q164",
-        "sourceYear": 2018,
-        "sourceNumber": 43,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "When the light of frequency 2v0 (where v0 is threshold frequency), is incident on a metal plate, the maximum velocity of electrons emitted is v1. When the frequency of the incident radiation is increased to 5v0, the maximum velocity of electrons emitted from the same plate is v2. The ratio of v1 to v2 is",
-        "options": {
-          "1": "1:2",
-          "2": "2:1",
-          "3": "4:1",
-          "4": "1:4 OUGH WORK English"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2019-G1-Q141",
         "sourceYear": 2019,
         "sourceNumber": 6,
@@ -910,56 +885,6 @@
         "placeholder": false
       },
       {
-        "id": "2019-G1-Q157",
-        "sourceYear": 2019,
-        "sourceNumber": 22,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "A particle of mass 5 m at rest suddenly breaks on its own into three fragments. Two fragments of mass m each move along mutually perpendicular direction with speed v each. The energy released during the process is, 3 5 3 4",
-        "options": {
-          "1": "mv 2",
-          "2": "mv 2",
-          "3": "mv 2",
-          "4": "mv 2 5 3 2 3"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q165",
-        "sourceYear": 2019,
-        "sourceNumber": 30,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "The metre bridge shown is in balance position with = . If we now interchange the positions of Q λ2 galvanometer and cell, will the bridge work ? If yes, what will be balance condition ? P λ1 – λ1 P λ2 P λ1",
-        "options": {
-          "1": "yes, =",
-          "2": "no, no null point",
-          "3": "yes, =",
-          "4": "yes, = Q λ 2 + λ1 Q λ1 Q λ2"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2019-G1-Q171",
         "sourceYear": 2019,
         "sourceNumber": 36,
@@ -976,31 +901,6 @@
         "correctOption": "1",
         "correctOptions": [
           "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q175",
-        "sourceYear": 2019,
-        "sourceNumber": 40,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "A person traveling in a straight line moves with a constant velocity v1 for certain distance 'x' and with a constant velocity v2 for next equal distance. The average velocity v is given by the relation : 1 1 1 2 1 1 v v1 + v 2",
-        "options": {
-          "1": "v = v1 + v 2",
-          "2": "v = v1 + v 2",
-          "3": "=",
-          "4": "v = v 1v 2 2 2"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -1085,31 +985,6 @@
         "placeholder": false
       },
       {
-        "id": "2020-E1-Q146",
-        "sourceYear": 2020,
-        "sourceNumber": 32,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "In a certain region of space with volume 0.2 m3, the electric potential is found to be 5 V throughout. The magnitude of electric field in this region is :",
-        "options": {
-          "1": "5 N/C",
-          "2": "zero",
-          "3": "0.5 N/C",
-          "4": "1 N/C"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2020-E1-Q154",
         "sourceYear": 2020,
         "sourceNumber": 35,
@@ -1151,31 +1026,6 @@
         "correctOption": "2",
         "correctOptions": [
           "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q20",
-        "sourceYear": 2021,
-        "sourceNumber": 19,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "A screw gauge gives the following readings when used to measure the diameter of a wire Main scale reading : 0 mm Circular scale reading : 52 divisions Given that 1 mm on main scale corresponds to 100 divisions on the circular scale. The diameter of the wire from the above data is :",
-        "options": {
-          "1": "0.052 cm",
-          "2": "0.52 cm",
-          "3": "0.026 cm",
-          "4": "0.26 cm 7 P1"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -1310,31 +1160,6 @@
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q162",
-        "sourceYear": 2022,
-        "sourceNumber": 18,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "In Young's double slit experiment, if there is no initial phase difference between the light from the two slits, a point on the screen corresponding to the fifth minimum has path difference λ λ λ λ",
-        "options": {
-          "1": "5",
-          "2": "10",
-          "3": "9",
-          "4": "11 2 2 2 2"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2022-RECON-Q169",
         "sourceYear": 2022,
         "sourceNumber": 24,
@@ -1347,31 +1172,6 @@
           "2": "1.6 m",
           "3": "1.2 m",
           "4": "2.4 m"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q177",
-        "sourceYear": 2022,
-        "sourceNumber": 32,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "The rate of radioactive disintegration at an instant for a radioactive sample of half life 2.2 × 10 s is 10 –1 10 s . The number of radioactive atoms in that sample at that instant is : 20 17 18 19",
-        "options": {
-          "1": "3.17 × 10",
-          "2": "3.17 × 10",
-          "3": "3.17 × 10",
-          "4": "3.17 × 10"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -1785,43 +1585,17 @@
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q5",
-        "sourceYear": 2025,
-        "sourceNumber": 5,
+        "id": "hf2018-c40020fb0f",
+        "sourceYear": 2018,
+        "sourceNumber": 2,
         "subject": "Physics",
         "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "NP 1 In an ideal transformer, the turns ratio is = . The ratio VS : VP is equal to (the symbols carry their usual NS 2 meaning) :",
+        "stem": "The vector $ ( 2,0 , - 3 ) $, about the point $ ( 2 , - 2 , - 2 ) $, is given by",
         "options": {
-          "1": "2:1",
-          "2": "1:1",
-          "3": "1:4",
-          "4": "1:2"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q13",
-        "sourceYear": 2025,
-        "sourceNumber": 11,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "The maximum elongation of a steel wire of 1 m length if the elastic limit of steel and its Young’s modulus, respectively, are 8 × 108 N m–2 and 2 × 1011 N m–2, is:",
-        "options": {
-          "1": "0.4 mm",
-          "2": "40 mm",
-          "3": "8 mm",
-          "4": "4 mm"
+          "1": "$ - 7 \\hat { i } - 8 \\hat { j } - 4 \\hat { k } $",
+          "2": "$ - 4 \\hat { i } - \\hat { j } - 8 \\hat { k } $",
+          "3": "$ - 8 \\hat { i } - 4 \\hat { j } - 7 \\hat { k } $",
+          "4": "$ - 7 \\hat { i } - 4 \\hat { j } - 8 \\hat { k } $"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -1831,97 +1605,179 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       },
       {
-        "id": "2025-INTERIM-Q22",
-        "sourceYear": 2025,
-        "sourceNumber": 19,
+        "id": "hf2019-6f26465ead",
+        "sourceYear": 2019,
+        "sourceNumber": 2,
         "subject": "Physics",
         "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "The moment of inertia of a thin rod about an axis passing through its mid point and perpendicular to the rod is 2400 g cm2. The length of the 400 g rod is nearly:",
+        "stem": "A mass $ m $ is attached to a thin wire and whirled in a vertical circle. The wire is most likely to break when :",
         "options": {
-          "1": "17.5 cm",
-          "2": "20.7 cm",
-          "3": "72.0 cm",
-          "4": "8.5 cm"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q28",
-        "sourceYear": 2025,
-        "sourceNumber": 25,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "In a vernier callipers, (N + 1) divisions of vernier scale coincide with N divisions of main scale. If 1 MSD represents 0.1 mm, the vernier constant (in cm) is: 1",
-        "options": {
-          "1": "100(N + 1)",
-          "2": "100N",
-          "3": "10(N + 1) 1",
-          "4": "10N"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q34",
-        "sourceYear": 2025,
-        "sourceNumber": 31,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "A thin spherical shell is charged by some source. The potential difference between the two points C and P (in V) shown in the figure is: 1 (Take = 9 × 109 SI units) 4πε0",
-        "options": {
-          "1": "1 × 105",
-          "2": "0.5 × 105",
-          "3": "Zero",
-          "4": "3 × 105"
+          "1": "the mass is at the highest point",
+          "2": "the wire is horizontal",
+          "3": "the mass is at the lowest point",
+          "4": "inclined at an angle of $ 60 ^ { \\circ } $ from vertical"
         },
         "correctOption": "3",
         "correctOptions": [
           "3"
         ],
         "multiCorrect": false,
-        "figureSrc": "/figures/2025-INTERIM-Q34.png",
-        "figureKind": "pdf-crop+from-2024-stem-match",
+        "figureSrc": null,
+        "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       },
       {
-        "id": "2025-INTERIM-Q37",
-        "sourceYear": 2025,
-        "sourceNumber": 34,
+        "id": "hf2019-1dea2b2c25",
+        "sourceYear": 2019,
+        "sourceNumber": 12,
         "subject": "Physics",
         "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "A small telescope has an objective of focal length 140 cm and an eye piece of focal length 5.0 cm. The magnifying power of telescope for viewing a distant object is:",
+        "stem": "Increase in temperature of a gas filled in a container would lead to:",
         "options": {
-          "1": "28",
-          "2": "17",
-          "3": "32",
-          "4": "34"
+          "1": "increase in its mass",
+          "2": "increase in its kinetic energy",
+          "3": "decrease in its pressure",
+          "4": "decrease in intermolecular distance"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-6a7e9a720f",
+        "sourceYear": 2019,
+        "sourceNumber": 15,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "Pick the wrong answer in the context with rainbow.",
+        "options": {
+          "1": "When the light rays undergo two internal reflections in a water drop, a secondary rainbow is formed.",
+          "2": "The order of colours is reversed in the secondary rainbow.",
+          "3": "An observer can see a rainbow when his front is towards the sun.",
+          "4": "Rainbow is a combined effect of dispersion, refraction and reflection of sunlight."
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-f5090a42aa",
+        "sourceYear": 2019,
+        "sourceNumber": 16,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "A body weighs 200 N on the surface of the earth. How much will it weigh half way down to the centre of the earth?",
+        "options": {
+          "1": "150 N",
+          "2": "200 N",
+          "3": "250 N",
+          "4": "100 N"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-45c1b7b69a",
+        "sourceYear": 2019,
+        "sourceNumber": 6,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The unit of thermal conductivity is:",
+        "options": {
+          "1": "$ \\mathrm { Jm } \\mathrm { K } ^ { - 1 } $",
+          "2": "$ \\mathrm { J } \\mathrm { m } ^ { - 1 } \\mathrm {~K} ^ { - 1 } $",
+          "3": "$ \\mathrm { Wm } \\mathrm { K } ^ { - 1 } $",
+          "4": "$ \\mathrm { W } \\mathrm { m } ^ { - 1 } \\mathrm {~K} ^ { - 1 } $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-94bc4d743e",
+        "sourceYear": 2019,
+        "sourceNumber": 29,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The work done to raise a mass $ m $ from the surface of the earth to a height $ h $, which is equal to the radius of the earth, is:",
+        "options": {
+          "1": "mgR",
+          "2": "2 mgR",
+          "3": "$ \\frac { 1 } { 2 } mgR $",
+          "4": "$ \\frac { 3 } { 2 } \\mathrm { mgR } $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-c3459e35ad",
+        "sourceYear": 2019,
+        "sourceNumber": 31,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "$ \\alpha $-particle consists of:",
+        "options": {
+          "1": "2 protons and 2 neutrons only",
+          "2": "2 electrons, 2 protons and 2 neutrons",
+          "3": "2 electrons and 4 protons only",
+          "4": "2 protons only"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -1931,8 +1787,348 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-e10efc5033",
+        "sourceYear": 2019,
+        "sourceNumber": 40,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "In which of the following processes, heat is neither absorbed nor released by a system?",
+        "options": {
+          "1": "isothermal",
+          "2": "adiabatic",
+          "3": "isobaric",
+          "4": "isochoric"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-5a05321f40",
+        "sourceYear": 2020,
+        "sourceNumber": 142,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The energy equivalent of 0.5 g of a substance is :",
+        "options": {
+          "1": "$ 4.5 \\times 10 ^ { 16 } \\mathrm {~J} $",
+          "2": "$ 4.5 \\times 10 ^ { 13 } \\mathrm {~J} $",
+          "3": "$ 1.5 \\times 10 ^ { 13 } \\mathrm {~J} $",
+          "4": "$ 0.5 \\times 10 ^ { 13 } \\mathrm {~J} $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-a28526a41d",
+        "sourceYear": 2020,
+        "sourceNumber": 146,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "A screw gauge has least count of 0.01 mm and there are 50 divisions in its circular scale. The pitch of the screw gauge is :",
+        "options": {
+          "1": "0.01 mm",
+          "2": "0.25 mm",
+          "3": "0.5 mm",
+          "4": "1.0 mm"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-e09e4a041e",
+        "sourceYear": 2020,
+        "sourceNumber": 155,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The mean free path for a gas, with molecular diameter $ d $ and number density $ n $ can be expressed as:",
+        "options": {
+          "1": "$ \\frac { 1 } { \\sqrt { 2 } n \\pi d } $",
+          "2": "$ \\frac { 1 } { \\sqrt { 2 } n \\pi d ^ { 2 } } $",
+          "3": "$ \\frac { 1 } { \\sqrt { 2 } \\mathrm { n } ^ { 2 } \\pi \\mathrm {~d} ^ { 2 } } $",
+          "4": "$ \\frac { 1 } { \\sqrt { 2 } \\mathrm { n } ^ { 2 } \\pi ^ { 2 } \\mathrm {~d} ^ { 2 } } $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-331f9fa248",
+        "sourceYear": 2020,
+        "sourceNumber": 159,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The energy required to break one bond in DNA is $ 10 ^ { - 20 } \\mathrm {~J} $. This value in eV is nearly :",
+        "options": {
+          "1": "6",
+          "2": "0.6",
+          "3": "0.06",
+          "4": "0.006"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-ee95792274",
+        "sourceYear": 2021,
+        "sourceNumber": 7,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "Polar molecules are the molecules :",
+        "options": {
+          "1": "acquire a dipole moment only in the presence of electric field due to displacement of charges.",
+          "2": "acquire a dipole moment only when magnetic field is absent.",
+          "3": "having a permanent electric dipole moment.",
+          "4": "having zero dipole moment."
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-02ca9852c6",
+        "sourceYear": 2021,
+        "sourceNumber": 42,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "Twenty seven drops of same size are charged at 220 V each. They combine to form a bigger drop. Calculate the potential of the bigger drop.",
+        "options": {
+          "1": "1320 V",
+          "2": "1520 V",
+          "3": "1980 V",
+          "4": "660 V"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2022-004582f552",
+        "sourceYear": 2022,
+        "sourceNumber": 24,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The peak voltage of the ac source is equal to",
+        "options": {
+          "1": "$ \\frac { 1 } { \\sqrt { 2 } } $ times the rms value of the source",
+          "2": "the value of voltage supplied to the circuit",
+          "3": "the rms value of the ac source",
+          "4": "$ \\sqrt { 2 } $ times the rms value of the ac source"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-2e052520ea",
+        "sourceYear": 2023,
+        "sourceNumber": 13,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "If $ \\oint _ { S } \\vec { E } \\cdot \\overrightarrow { d S } = 0 $ over a surface, then :",
+        "options": {
+          "1": "the electric field inside the surface is necessarily uniform.",
+          "2": "the number of flux lines entering the surface must be equal to the number of flux lines leaving it.",
+          "3": "the magnitude of electric field on the surface is constant.",
+          "4": "all the charges must necessarily be inside the surface."
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-b28f49ab73",
+        "sourceYear": 2023,
+        "sourceNumber": 27,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "A vehicle travels half the distance with speed $ \\vartheta $ and the remaining distance with speed $ 2 \\vartheta $. Its average speed is:",
+        "options": {
+          "1": "$ \\frac { 3 \\vartheta } { 4 } $",
+          "2": "$ \\frac { \\vartheta } { 3 } $",
+          "3": "$ \\frac { 2 \\vartheta } { 3 } $",
+          "4": "$ \\frac { 4 \\vartheta } { 3 } $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-cbff134aa8",
+        "sourceYear": 2024,
+        "sourceNumber": 20,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "A metal cube of side 5 cm is charged with $ 6 \\mu \\mathrm{C} $. The surface charge density on the cube is",
+        "options": {
+          "1": "$ 0.125 \\times 10^{-3} \\mathrm{C} \\mathrm{m}^{-2} $",
+          "2": "$ 0.25 \\times 10^{-3} \\mathrm{C} \\mathrm{m}^{-2} $",
+          "3": "$ 4 \\times 10^{-3} \\mathrm{C} \\mathrm{m}^{-2} $",
+          "4": "$ 0.4 \\times 10^{-3} \\mathrm{C} \\mathrm{m}^{-2} $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-0dfc4fa2c3",
+        "sourceYear": 2024,
+        "sourceNumber": 17,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The I-V characteristics shown above are exhibited by a",
+        "options": {
+          "1": "Light emitting diode",
+          "2": "Zener diode",
+          "3": "Photodiode",
+          "4": "Solar cell"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-98226eb8e1",
+        "sourceYear": 2024,
+        "sourceNumber": 29,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "When the output of an OR gate is applied as input to a NOT gate, then the combination acts as a",
+        "options": {
+          "1": "NAND gate",
+          "2": "NOR gate",
+          "3": "AND gate",
+          "4": "OR gate"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       }
     ],
     "Medium": [
@@ -2149,31 +2345,6 @@
           "2": "$ \\sqrt { 3 } W $",
           "3": "$ \\sqrt { 3 } \\mathrm {~J} \\mathrm { w } $",
           "4": "$ 2 W \\sqrt { 3 } $"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2016-Phase1-Q30",
-        "sourceYear": 2016,
-        "sourceNumber": 30,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "A uniform magnetic field is restricted within a region of radius $ r $. The dB magnetic field changes with time at a rate $ \\frac{dB}{dt} $. Loop 1 of radius $ R > r $ encloses the region $ r $ and loop 2 of radius $ R $ is outside the region of magnetic field as shown in the figure below. Then the e.m.f. generated is",
-        "options": {
-          "1": "Zero in loop 1 and zero in loop 2",
-          "2": "$ - \\frac { \\mathrm { dB } } { \\mathrm { dt } } \\left( \\pi \\mathrm { r } ^ { 2 } \\right) $ in loop 1 and- $ \\mathrm { dB } \\mathrm { dt } \\left( \\pi \\mathrm { r } ^ { 2 } \\right) $ in loop 2",
-          "3": "$ - \\frac { \\mathrm { dB } } { \\mathrm { dt } } \\left( \\pi \\mathrm { R } ^ { 2 } \\right) $ in loop 1 and zero in loop 2",
-          "4": "$ - \\frac { \\mathrm { dB } } { \\mathrm { dt } } \\left( \\pi \\mathrm { r } ^ { 2 } \\right) $ in loop 1 and zero in loop 2"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -2862,31 +3033,6 @@
         "placeholder": false
       },
       {
-        "id": "2019-G1-Q167",
-        "sourceYear": 2019,
-        "sourceNumber": 32,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "The rate of radioactive disintegration at an instant for a radioactive sample of half life 2.2 × 10 s is 10 –1 10 s . The number of radioactive atoms in that sample at that instant is : 20 17 18 19",
-        "options": {
-          "1": "3.17 × 10",
-          "2": "3.17 × 10",
-          "3": "3.17 × 10",
-          "4": "3.17 × 10"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2019-G1-Q172",
         "sourceYear": 2019,
         "sourceNumber": 37,
@@ -3012,56 +3158,6 @@
         "placeholder": false
       },
       {
-        "id": "2020-E1-Q150",
-        "sourceYear": 2020,
-        "sourceNumber": 33,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "Light with an average flux of 20 W/cm2 falls on a non-reflecting surface at normal incidence having surface area 20 cm2. The energy received by the surface during time span of 1 minute is :",
-        "options": {
-          "1": "10×103 J",
-          "2": "12×103 J",
-          "3": "24×103 J",
-          "4": "48×103 J"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q157",
-        "sourceYear": 2020,
-        "sourceNumber": 36,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "A wire of length L, area of cross section A is hanging from a fixed support. The length of the wire changes to L1 when mass M is suspended from its free end. The expression for Young’s modulus is : MgL",
-        "options": {
-          "1": "A(L1 − L) MgL1",
-          "2": "AL Mg(L1 − L)",
-          "3": "AL MgL",
-          "4": "AL1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2021-M1-Q9",
         "sourceYear": 2021,
         "sourceNumber": 9,
@@ -3137,56 +3233,6 @@
         "placeholder": false
       },
       {
-        "id": "2021-M1-Q45",
-        "sourceYear": 2021,
-        "sourceNumber": 37,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "A particle moving in a circle of radius R with a uniform speed takes a time T to complete one revolution. If this particle were projected with the same speed at an angle ‘θ’ to the horizontal, the maximum height attained by it equals 4R. The angle of projection, θ, is then given by : 1 { π2 R ( 2",
-        "options": {
-          "1": "θ=sin−1 { ) { gT2 ) } [ 1 { 2gT2 ( 2",
-          "2": "θ=sin−1 { ) { π2 R ) } [ 1 { gT2 ( 2",
-          "3": "θ=cos−1 { ) { π2 R ) } [ 1 { π2 R ( 2",
-          "4": "θ=cos−1 { ) { gT2 ) } [ Hindi+English 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q50",
-        "sourceYear": 2021,
-        "sourceNumber": 42,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "A particle moving in a circle of radius R with a uniform speed takes a time T to complete one revolution. If this particle were projected with the same speed at an angle ‘θ’ to the horizontal, the maximum height attained by it equals 4R. The angle of projection, θ, is then given by : 1 −1 { 2gT2 ( 2",
-        "options": {
-          "1": "θ=sin { ) { π2 R ) } [ 1 −1 { gT2 ( 2",
-          "2": "θ=cos { ) { π2 R ) } [ 1 −1 { π2 R ( 2",
-          "3": "θ=cos { ) { gT2 ) } [ 1 { π2 R ( 2",
-          "4": "θ=sin−1 { ) { gT2 ) } [ Hindi+English 6 Section - A (Chemistry)"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2021-M1-Q128",
         "sourceYear": 2021,
         "sourceNumber": 49,
@@ -3212,56 +3258,6 @@
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q152",
-        "sourceYear": 2022,
-        "sourceNumber": 12,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "Two small spherical metal balls, having equal masses, are made from materials of densities ρ1 and ρ2 (ρ1 = 8ρ2) and having radii of 1 mm and 2 mm, respectively. They are made to fall vertically (from rest) in a viscous medium whose coefficient of viscosity equals η and whose density is 0.1ρ2. The ratio of their terminal velocities would be, 79 19 39 79",
-        "options": {
-          "1": "Option 1",
-          "2": "Option 2",
-          "3": "Option 3",
-          "4": "72 36 72 36"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q164",
-        "sourceYear": 2022,
-        "sourceNumber": 20,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "Two bullets are fired horizontally and simultaneously towards each other from roof tops of two buildings 100 m apart and of same height of 200 m, with the same velocity of 25 m/s. When and where will the 2 two bullets collide? (g = 10 m/s )",
-        "options": {
-          "1": "after 2s at a height of 180 m",
-          "2": "after 2s at a height of 20 m",
-          "3": "after 4s at a height of 120 m",
-          "4": "they will not collide"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2022-RECON-Q173",
         "sourceYear": 2022,
         "sourceNumber": 28,
@@ -3278,31 +3274,6 @@
         "correctOption": "3",
         "correctOptions": [
           "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q178",
-        "sourceYear": 2022,
-        "sourceNumber": 33,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "The time period of a geostationary satellite is 24 h, at a height 6RE (RE is radius of earth) from surface of earth. The time period of another satellite whose height is 2.5 RE from surface will be : 24 12",
-        "options": {
-          "1": "6 2 h",
-          "2": "12 2 h",
-          "3": "2.5 h",
-          "4": "2.5 h"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -3428,31 +3399,6 @@
         "correctOption": "1",
         "correctOptions": [
           "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q18",
-        "sourceYear": 2023,
-        "sourceNumber": 17,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "Light travels a distance x in time t1 in air and 10x in time t2 in another denser medium. What is the critical angle for this medium? { 10t 2 ( { t (",
-        "options": {
-          "1": "sin−1 { )",
-          "2": "sin−1 { 1 ) } t1 [ } 10 t 2 [ { 10 t1 ( {t (",
-          "3": "sin−1 { )",
-          "4": "sin−1 { 2 ) } t2 [ } t1 ["
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -3712,18 +3658,69 @@
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q7",
-        "sourceYear": 2025,
-        "sourceNumber": 7,
+        "id": "hf2017-f6cb187904",
+        "sourceYear": 2017,
+        "sourceNumber": 135,
         "subject": "Physics",
         "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "The quantities which have the same dimensions as those of solid angle are:",
+        "stem": "The diagrams below show regions of equipotential A positive charge is moved from $ A $ to $ B $ in diagram.",
         "options": {
-          "1": "stress and angle",
-          "2": "strain and arc",
-          "3": "angular speed and stress",
-          "4": "strain and angle"
+          "1": "Maximum work is required to move figure (c).",
+          "2": "In all the four cases the work done is the (3).",
+          "3": "Minimum work is required to move figure (a).",
+          "4": "Maximum work is required to move figure (b)."
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-b3238a30f5",
+        "sourceYear": 2018,
+        "sourceNumber": 1,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The volume (V) of a monatomic gas varies with its temperature ( T ), as shown in the graph. The ratio of work done by the gas, to the heat absorbed by it, when it undergoes a change from state $ A $ to state $ B $, is",
+        "options": {
+          "1": "$ \\frac { 1 } { 3 } $",
+          "2": "$ \\frac { 2 } { 3 } $",
+          "3": "$ \\frac { 2 } { 5 } $",
+          "4": "$ \\frac { 2 } { 7 } $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-113df67256",
+        "sourceYear": 2018,
+        "sourceNumber": 15,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "In the circuit shown in the figure, the input voltage $ \\mathrm { V } _ { \\mathrm { i } } $ is $ 20 \\mathrm {~V} , \\mathrm {~V} _ { \\mathrm { BE } } = 0 $ and $ \\mathrm { V } _ { \\mathrm { CE } } = 0 $. The values of $ \\mathrm { I } _ { \\mathrm { B } } , \\mathrm { I } _ { \\mathrm { C } } $ and $ \\beta $ are given by",
+        "options": {
+          "1": "$ \\mathrm { I } _ { \\mathrm { B } } = 20 \\mu \\mathrm {~A} , \\mathrm { I } _ { \\mathrm { C } } = 5 \\mathrm {~mA} , \\beta = 250 $",
+          "2": "$ \\mathrm { I } _ { \\mathrm { B } } = 25 \\mu \\mathrm {~A} , \\mathrm { I } _ { \\mathrm { C } } = 5 \\mathrm {~mA} , \\beta = 200 $",
+          "3": "$ \\mathrm { I } _ { \\mathrm { B } } = 40 \\mu \\mathrm {~A} , \\mathrm { I } _ { \\mathrm { C } } = 10 \\mathrm {~mA} , \\beta = 250 $",
+          "4": "$ \\mathrm { I } _ { \\mathrm { B } } = 40 \\mu \\mathrm {~A} , \\mathrm { I } _ { \\mathrm { C } } = 5 \\mathrm {~mA} , \\beta = 125 $"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -3733,97 +3730,283 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       },
       {
-        "id": "2025-INTERIM-Q17",
-        "sourceYear": 2025,
+        "id": "hf2018-3d108e819f",
+        "sourceYear": 2018,
+        "sourceNumber": 30,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "A block of mass $ m $ is placed on a smooth inclined wedge ABC of inclination $ \\theta $ as shown in the figure. The wedge is given an acceleration ' $ a $ ' towards the right. The relation between a and $ \\theta $ for the block to remain stationary on the wedge is",
+        "options": {
+          "1": "$ \\mathrm{a} = \\mathrm{g} \\cos \\theta $",
+          "2": "$ \\mathrm{a} = \\frac{\\mathrm{g}}{\\sin \\theta} $",
+          "3": "$ \\mathrm{a} = \\frac{\\mathrm{g}}{\\operatorname{cosec} \\theta} $",
+          "4": "$ \\mathrm{a} = \\mathrm{g} \\tan \\theta $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-52929da7e9",
+        "sourceYear": 2018,
+        "sourceNumber": 39,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The kinetic energies of a planet in an elliptical orbit about the Sun, at positions A, B and C are $ \\mathrm { K } _ { \\mathrm { A } } , \\mathrm { K } _ { \\mathrm { B } } $ and $ \\mathrm { K } _ { \\mathrm { C } } $, respectively. AC is the major axis and SB is perpendicular to AC at the position of the Sun $ S $ as shown in the figure.",
+        "options": {
+          "1": "$ \\mathrm { K } _ { \\mathrm { B } } < \\mathrm { K } _ { \\mathrm { A } } < \\mathrm { K } _ { \\mathrm { C } } $",
+          "2": "$ \\mathrm { K } _ { \\mathrm { A } } > \\mathrm { K } _ { \\mathrm { B } } > \\mathrm { K } _ { \\mathrm { C } } $",
+          "3": "$ \\mathrm { K } _ { \\mathrm { A } } < \\mathrm { K } _ { \\mathrm { B } } < \\mathrm { K } _ { \\mathrm { C } } $",
+          "4": "$ \\mathrm { K } _ { \\mathrm { B } } > \\mathrm { K } _ { \\mathrm { A } } > \\mathrm { K } _ { \\mathrm { C } } $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-c40ff5b047",
+        "sourceYear": 2018,
+        "sourceNumber": 45,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "A sample of $ 0 \\cdot 1 \\mathrm {~g} $ of water at $ 100 ^ { \\circ } \\mathrm { C } $ and normal pressure ( $ 1.013 \\times 10 ^ { 5 } \\mathrm { Nm } ^ { - 2 } $ ) requires 54 cal of heat energy to convert to steam at $ 100 ^ { \\circ } \\mathrm { C } $. If the volume of the steam produced is $ 167 \\cdot 1 \\mathrm { cc } $, the change in internal energy of the sample, is",
+        "options": {
+          "1": "$ 42 \\cdot 2 \\mathrm {~J} $",
+          "2": "208.7 J",
+          "3": "$ 104 \\cdot 3 \\mathrm {~J} $",
+          "4": "84.5 J"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-38ade4c2ee",
+        "sourceYear": 2019,
         "sourceNumber": 14,
         "subject": "Physics",
         "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "Two bodies A and B of same mass undergo completely inelastic one dimensional collision. The body A moves with velocity v1 while body B is at rest before collision. The velocity of the system after collision is v2. The ratio v1 : v2 is",
+        "stem": "A copper rod of 88 cm and an aluminium rod of unknown length have their increase in length independent of increase in temperature. The length of aluminium rod is : $ \\left( \\alpha _ { \\mathrm { Cu } } = 1.7 \\times 10 ^ { - 5 } \\mathrm {~K} ^ { - 1 } \\right. $ and $ \\alpha _ { \\mathrm { Al } } = 2.2 \\times 10 ^ { - 5 } \\mathrm {~K} ^ { - 1 } $ )",
         "options": {
-          "1": "2:1",
-          "2": "4:1",
-          "3": "1:4",
-          "4": "1:2"
+          "1": "6.8 cm",
+          "2": "113.9 cm",
+          "3": "88 cm",
+          "4": "68 cm"
         },
-        "correctOption": "1",
+        "correctOption": "4",
         "correctOptions": [
-          "1"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       },
       {
-        "id": "2025-INTERIM-Q23",
-        "sourceYear": 2025,
-        "sourceNumber": 20,
+        "id": "hf2019-4cff58b154",
+        "sourceYear": 2019,
+        "sourceNumber": 23,
         "subject": "Physics",
         "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "A bob is whirled in a horizontal plane by means of a string with an initial speed of ω rpm. The tension in the string is T. If speed becomes 2ω while keeping the same radius, the tension in the string becomes: T",
+        "stem": "Which of the following acts as a circuit protection device?",
         "options": {
-          "1": "4T",
-          "2": "4",
-          "3": "2T",
-          "4": "T"
+          "1": "conductor",
+          "2": "inductor",
+          "3": "switch",
+          "4": "fuse"
         },
-        "correctOption": "1",
+        "correctOption": "4",
         "correctOptions": [
-          "1"
+          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       },
       {
-        "id": "2025-INTERIM-Q32",
-        "sourceYear": 2025,
-        "sourceNumber": 29,
+        "id": "hf2019-e679042d61",
+        "sourceYear": 2019,
+        "sourceNumber": 24,
         "subject": "Physics",
         "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "A wire of length ‘l’ and resistance 100 Ω is divided into 10 equal parts. The first 5 parts are connected in series while the next 5 parts are connected in parallel. The two combinations are again connected in series. The resistance of this final combination is:",
+        "stem": "In the circuits shown below, the readings of the voltmeters and the ammeters will be: Circuit 1 Circuit 2",
         "options": {
-          "1": "52 Ω",
-          "2": "55 Ω",
-          "3": "60 Ω",
-          "4": "26 Ω"
+          "1": "$ \\quad \\mathrm { V } _ { 2 } > \\mathrm { V } _ { 1 } $ and $ i _ { 1 } = i _ { 2 } $",
+          "2": "$ \\mathrm { V } _ { 1 } = \\mathrm { V } _ { 2 } $ and $ i _ { 1 } > i _ { 2 } $",
+          "3": "$ \\mathrm { V } _ { 1 } = \\mathrm { V } _ { 2 } $ and $ i _ { 1 } = i _ { 2 } $",
+          "4": "$ \\quad V _ { 2 } > V _ { 1 } $ and $ i _ { 1 } > i _ { 2 } $"
         },
-        "correctOption": "1",
+        "correctOption": "3",
         "correctOptions": [
-          "1"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       },
       {
-        "id": "2025-INTERIM-Q35",
-        "sourceYear": 2025,
+        "id": "hf2019-9b0a55217a",
+        "sourceYear": 2019,
+        "sourceNumber": 26,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "At a point A on the earth's surface the angle of $ \\operatorname { dip } , \\delta = + 25 ^ { \\circ } $. At a point $ B $ on the earth's surface the angle of $ \\operatorname { dip } , \\delta = - 25 ^ { \\circ } \\ldots $ We can interpret that:",
+        "options": {
+          "1": "A and B are both located in the northern hemisphere.",
+          "2": "A is located in the southern hemisphere and $ B $ is located in the northern hemisphere.",
+          "3": "A is located in the northern hemisphere and $ B $ is located in the southern hemisphere.",
+          "4": "A and B are both located in the southern hemisphere."
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-497a80c1a2",
+        "sourceYear": 2019,
+        "sourceNumber": 30,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "When an object is shot from the bottom of a long smooth inclined plane kept at an angle $ 60 ^ { \\circ } $ with horizontal, it can travel a distance $ x _ { 1 } $ along the plane. But when the inclination is decreased to $ 30 ^ { \\circ } $ and the same object is shot with the same velocity, it can travel $ x _ { 2 } $ distance. Then $ x _ { 1 } : x _ { 2 } $ will be :",
+        "options": {
+          "1": "$ 1 : \\sqrt { 2 } $",
+          "2": "$ \\sqrt { 2 } : 1 $",
+          "3": "$ 1 : \\sqrt { 3 } $",
+          "4": "$ 1 : 2 \\sqrt { 3 } $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-87bb57a077",
+        "sourceYear": 2019,
         "sourceNumber": 32,
         "subject": "Physics",
         "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "1 th The mass of a planet is that of the earth and its diameter is half that of the earth. The acceleration due 10 to gravity on that planet is:",
+        "stem": "The speed of a swimmer in still water is $ 20 \\mathrm{~m}/\\mathrm{s} $. The speed of river water is $ 10 \\mathrm{~m}/\\mathrm{s} $ and is flowing due east. If he is standing on the south bank and wishes to cross the river along the shortest path, the angle at which he should make his strokes w.r.t. north is given by :",
         "options": {
-          "1": "9.8 m s–2",
-          "2": "4.9 m s–2",
-          "3": "3.92 m s–2",
-          "4": "19.6 m s–2"
+          "1": "$ 30^{\\circ} $ west",
+          "2": "$ 0^{\\circ} $",
+          "3": "$ 60^{\\circ} $ west",
+          "4": "$ 45^{\\circ} $ west"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-75babea3a2",
+        "sourceYear": 2019,
+        "sourceNumber": 10,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "A small hole of area of cross-section $ 2 \\mathrm{~mm}^{2} $ is present near the bottom of a fully filled open tank of height 2 m . Taking $ \\mathrm{g} = 10 \\mathrm{~m}/\\mathrm{s}^{2} $, the rate of flow of water through the open hole would be nearly :",
+        "options": {
+          "1": "$ 12.6 \\times 10^{-6} \\mathrm{~m}^{3/s} $",
+          "2": "$ 8.9 \\times 10^{-6} \\mathrm{~m}^{3}/\\mathrm{s} $",
+          "3": "$ 2.23 \\times 10^{-6} \\mathrm{~m}^{3/\\mathrm{s}} $",
+          "4": "$ 6.4 \\times 10^{-6} \\mathrm{~m}^{3/\\mathrm{s}} $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-6ecdcabc5a",
+        "sourceYear": 2019,
+        "sourceNumber": 39,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The correct Boolean operation represented by the circuit diagram drawn is :",
+        "options": {
+          "1": "AND",
+          "2": "OR",
+          "3": "NAND",
+          "4": "NOR"
         },
         "correctOption": "3",
         "correctOptions": [
@@ -3833,22 +4016,101 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       },
       {
-        "id": "2025-INTERIM-Q47",
-        "sourceYear": 2025,
+        "id": "hf2019-c2dbb380e2",
+        "sourceYear": 2019,
+        "sourceNumber": 1,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The radius of circle, the period of revolution, initial position and sense of revolution are indicated in the fig. $ y $-projection of the radius vector of rotating particle P is :",
+        "options": {
+          "1": "$ y ( \\mathrm { t } ) = - 3 \\cos 2 \\pi \\mathrm { t } $, where $ y $ in m",
+          "2": "$ y ( \\mathrm { t } ) = 4 \\sin \\left( \\frac { \\pi \\mathrm { t } } { 2 } \\right) $, where $ y $ in m",
+          "3": "$ y ( \\mathrm { t } ) = 3 \\cos \\left( \\frac { 3 \\pi \\mathrm { t } } { 2 } \\right) $, where $ y $ in m",
+          "4": "$ y ( \\mathrm { t } ) = 3 \\cos \\left( \\frac { \\pi \\mathrm { t } } { 2 } \\right) $, where $ y $ in m"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-1287ea78b8",
+        "sourceYear": 2019,
         "sourceNumber": 44,
         "subject": "Physics",
         "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "The following graph represents the T-V curves of an ideal gas (where T is the temperature and V the volume) at three pressures P1, P2 and P3 compared with those of Charles’s law represented as dotted lines. Then the correct relation is:",
+        "stem": "In an experiment, the percentage of error occurred in the measurement of physical quantities $ A , B , C $ and D are $ 1 \\% , 2 \\% , 3 \\% $ and $ 4 \\% $ respectively. Then the maximum percentage of error in the measurement $ X $, where $ X = \\frac { A ^ { 2 } B ^ { 1 / 2 } } { C ^ { 1 / 3 } D ^ { 3 } } $, will be :",
         "options": {
-          "1": "P1 > P3 > P2",
-          "2": "P2 > P1 > P3",
-          "3": "P1 > P2 > P3",
-          "4": "P3 > P2 > P1"
+          "1": "$ \\left( \\frac { 3 } { 13 } \\right) \\% $",
+          "2": "$ 16 \\% $",
+          "3": "$ - 10 \\% $",
+          "4": "$ 10 \\% $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-40a14e4bb0",
+        "sourceYear": 2020,
+        "sourceNumber": 3,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "A cylinder contains hydrogen gas at pressure of 249 kPa and temperature $ 27 ^ { \\circ } \\mathrm { C } $. Its density is : $ \\left( \\mathrm { R } = 8.3 \\mathrm {~J} \\mathrm {~mol} ^ { - 1 } \\mathrm {~K} ^ { - 1 } \\right) $",
+        "options": {
+          "1": "$ 0.5 \\mathrm {~kg} / \\mathrm { m } ^ { 3 } $",
+          "2": "$ 0.2 \\mathrm {~kg} / \\mathrm { m } ^ { 3 } $",
+          "3": "$ 0.1 \\mathrm {~kg} / \\mathrm { m } ^ { 3 } $",
+          "4": "$ 0.02 \\mathrm {~kg} / \\mathrm { m } ^ { 3 } $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-33a42fbe05",
+        "sourceYear": 2020,
+        "sourceNumber": 150,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "Light with an average flux of $ 20 \\mathrm{~W} / \\mathrm{cm}^{2} $ falls on a non-reflecting surface at normal incidence having surface area $ 20 \\mathrm{~cm}^{2} $. The energy received by the surface during time span of 1 minute is :",
+        "options": {
+          "1": "$ 10 \\times 10^{3} \\mathrm{~J} $",
+          "2": "$ 12 \\times 10^{3} \\mathrm{~J} $",
+          "3": "$ 24 \\times 10^{3} \\mathrm{~J} $",
+          "4": "$ 48 \\times 10^{3} \\mathrm{~J} $"
         },
         "correctOption": "3",
         "correctOptions": [
@@ -3858,8 +4120,1128 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-e197adaae6",
+        "sourceYear": 2020,
+        "sourceNumber": 158,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "When a uranium isotope $ { } _ { 92 } ^ { 235 } \\mathrm { U } $ is bombarded with a neutron, it generates $ { } _ { 36 } ^ { 89 } \\mathrm { Kr } $, three neutrons and :",
+        "options": {
+          "1": "$ { } _ { 56 } ^ { 144 } \\mathrm { Ba } $",
+          "2": "$ { } _ { 40 } ^ { 91 } \\mathrm { Zr } $",
+          "3": "$ { } _ { 36 } ^ { 101 } \\mathrm { Kr } $",
+          "4": "$ { } _ { 36 } ^ { 103 } \\mathrm { Kr } $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-8bbb17e841",
+        "sourceYear": 2020,
+        "sourceNumber": 162,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The average thermal energy for a mono-atomic gas is: $ \\left( \\mathrm { k } _ { \\mathrm { B } } \\right. $ is Boltzmann constant and T , absolute temperature)",
+        "options": {
+          "1": "$ \\frac { 1 } { 2 } \\mathrm { k } _ { \\mathrm { B } } \\mathrm { T } $",
+          "2": "$ \\frac { 3 } { 2 } \\mathrm { k } _ { \\mathrm { B } } \\mathrm { T } $",
+          "3": "$ \\frac { 5 } { 2 } \\mathrm { k } _ { \\mathrm { B } } \\mathrm { T } $",
+          "4": "$ \\frac { 7 } { 2 } \\mathrm { k } _ { \\mathrm { B } } \\mathrm { T } $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-686cb15b63",
+        "sourceYear": 2020,
+        "sourceNumber": 174,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The quantities of heat required to raise the temperature of two solid copper spheres of radii $ \\mathrm { r } _ { 1 } $ and $ \\mathrm { r } _ { 2 } \\left( \\mathrm { r } _ { 1 } = 1.5 \\mathrm { r } _ { 2 } \\right) $ through 1 K are in the ratio:",
+        "options": {
+          "1": "$ \\frac { 27 } { 8 } $",
+          "2": "$ \\frac { 9 } { 4 } $",
+          "3": "$ \\frac { 3 } { 2 } $",
+          "4": "$ \\frac { 5 } { 3 } $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-e83af7ea5b",
+        "sourceYear": 2020,
+        "sourceNumber": 176,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "Taking into account of the significant figures, what is the value of $ 9.99 \\mathrm{~m} - 0.0099 \\mathrm{~m} $ ?",
+        "options": {
+          "1": "9.9801 m",
+          "2": "9.98 m",
+          "3": "9.980 m",
+          "4": "9.9 m"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-6c5711b434",
+        "sourceYear": 2020,
+        "sourceNumber": 177,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "A ball is thrown vertically downward with a velocity of $ 20 \\mathrm {~m} / \\mathrm { s } $ from the top of a tower. It hits the ground after some time with a velocity of $ 80 \\mathrm {~m} / \\mathrm { s } $. The height of the tower is : $ \\left( g = 10 \\mathrm {~m} / \\mathrm { s } ^ { 2 } \\right) $",
+        "options": {
+          "1": "360 m",
+          "2": "340 m",
+          "3": "320 m",
+          "4": "300 m"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-88393e702c",
+        "sourceYear": 2020,
+        "sourceNumber": 178,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "A capillary tube of radius $ r $ is immersed in water and water rises in it to a height $ h $. The mass of the water in the capillary is 5 g . Another capillary tube of radius 2 r is immersed in water. The mass of water that will rise in this tube is :",
+        "options": {
+          "1": "2.5 g",
+          "2": "5.0 g",
+          "3": "10.0 g",
+          "4": "20.0 g"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-6829dfedb5",
+        "sourceYear": 2021,
+        "sourceNumber": 10,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "A cup of coffee cools from $ 90 ^ { \\circ } \\mathrm { C } $ to $ 80 ^ { \\circ } \\mathrm { C } $ in t minutes, when the room temperature is $ 20 ^ { \\circ } \\mathrm { C } $. The time taken by a similar cup of coffee to cool from $ 80 ^ { \\circ } \\mathrm { C } $ to $ 60 ^ { \\circ } \\mathrm { C } $ at a room temperature same at $ 20 ^ { \\circ } \\mathrm { C } $ is :",
+        "options": {
+          "1": "$ \\frac { 13 } { 5 } \\mathrm { t } $",
+          "2": "$ \\frac { 10 } { 13 } \\mathrm { t } $",
+          "3": "$ \\frac { 5 } { 13 } \\mathrm { t } $",
+          "4": "$ \\frac { 13 } { 10 } \\mathrm { t } $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-152be7e9e9",
+        "sourceYear": 2021,
+        "sourceNumber": 16,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "Two charged spherical conductors of radius $ \\mathrm { R } _ { 1 } $ and $ \\mathrm { R } _ { 2 } $ are connected by a wire. Then the ratio of surface charge densities of the spheres $ \\left( \\sigma _ { 1 } / \\sigma _ { 2 } \\right) $ is :",
+        "options": {
+          "1": "$ \\frac { R _ { 2 } } { R _ { 1 } } $",
+          "2": "$ \\sqrt { \\left( \\frac { \\mathrm { R } _ { 1 } } { \\mathrm { R } _ { 2 } } \\right) } $",
+          "3": "$ \\frac { \\mathrm { R } _ { 1 } ^ { 2 } } { \\mathrm { R } _ { 2 } ^ { 2 } } $",
+          "4": "$ \\frac { R _ { 1 } } { R _ { 2 } } $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-81a4f6a2b0",
+        "sourceYear": 2021,
+        "sourceNumber": 19,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The equivalent capacitance of the combination shown in the figure is :",
+        "options": {
+          "1": "2 C",
+          "2": "$ \\mathrm { C } / 2 $",
+          "3": "$ 3 \\mathrm { C } / 2 $",
+          "4": "3 C"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-4171e0819c",
+        "sourceYear": 2021,
+        "sourceNumber": 26,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "A small block slides down on a smooth inclined plane, starting from rest at time $ t = 0 $. Let $ S _ { n } $ be the distance travelled by the block in the interval $ \\mathrm { t } = \\mathrm { n } - 1 $ to $ \\mathrm { t } = \\mathrm { n } $. Then, the ratio $ \\frac { \\mathrm { S } _ { \\mathrm { n } } } { \\mathrm { S } _ { \\mathrm { n } + 1 } } $ is :",
+        "options": {
+          "1": "$ \\frac { 2 n - 1 } { 2 n + 1 } $",
+          "2": "$ \\frac { 2 n + 1 } { 2 n - 1 } $",
+          "3": "$ \\frac { 2 n } { 2 n - 1 } $",
+          "4": "$ \\frac { 2 n - 1 } { 2 n } $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-96608e6acd",
+        "sourceYear": 2021,
+        "sourceNumber": 30,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The escape velocity from the Earth's surface is $ v $. The escape velocity from the surface of another planet having a radius, four times that of Earth and same mass density is :",
+        "options": {
+          "1": "$ 2 v $",
+          "2": "$ 3 v $",
+          "3": "$ 4 v $",
+          "4": "$ v $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-741c1ef408",
+        "sourceYear": 2021,
+        "sourceNumber": 33,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "A particle is released from height $ S $ from the surface of the Earth. At a certain height its kineti energy is three times its potential energy. The height from the surface of earth and the speed o: the particle at that instant are respectively :",
+        "options": {
+          "1": "$ \\frac { \\mathrm { S } } { 4 } , \\frac { \\sqrt { 3 \\mathrm { gS } } } { 2 } $",
+          "2": "$ \\frac { \\mathrm { S } } { 2 } , \\frac { \\sqrt { 3 \\mathrm { gS } } } { 2 } $",
+          "3": "$ \\frac { \\mathrm { S } } { 4 } , \\sqrt { \\frac { 3 g \\mathrm {~S} } { 2 } } $",
+          "4": "$ \\frac { \\mathrm { S } } { 4 } , \\frac { 3 \\mathrm { gS } } { 2 } $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-1d56186753",
+        "sourceYear": 2021,
+        "sourceNumber": 38,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "A uniform rod of length 200 cm and mass 500 g is balanced on a wedge placed at 40 cm mark. A mass of 2 kg is suspended from the rod at 20 cm and another unknown mass ' $ m $ ' is suspended from the rod at 160 cm mark as shown in the figure. Find the value of ' $ m $ ' such that the rod is in equilibrium. $ \\left( \\mathrm { g } = 10 \\mathrm {~m} / \\mathrm { s } ^ { 2 } \\right) $",
+        "options": {
+          "1": "$ \\frac { 1 } { 3 } \\mathrm{~kg} $",
+          "2": "$ \\frac { 1 } { 6 } \\mathrm{~kg} $",
+          "3": "$ \\frac { 1 } { 12 } \\mathrm{~kg} $",
+          "4": "$ \\frac { 1 } { 2 } \\mathrm{~kg} $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-5bec66c504",
+        "sourceYear": 2021,
+        "sourceNumber": 7,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "A particle of mass ' $ m $ ' is projected with a velocity $ v = \\mathrm { kV } _ { \\mathrm { e } } ( \\mathrm { k } < 1 ) $ from the surface of the earth. ( $ \\mathrm { V } _ { \\mathrm { e } } = $ escape velocity) The maximum height above the surface reached by the particle is:",
+        "options": {
+          "1": "$ \\mathrm { R } \\left( \\frac { \\mathrm { k } } { 1 + \\mathrm { k } } \\right) ^ { 2 } $",
+          "2": "$ \\frac { R ^ { 2 } k } { 1 + k } $",
+          "3": "$ \\frac { \\mathrm { Rk } ^ { 2 } } { 1 - \\mathrm { k } ^ { 2 } } $",
+          "4": "$ \\mathrm { R } \\left( \\frac { \\mathrm { k } } { 1 - \\mathrm { k } } \\right) ^ { 2 } $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-0ead263ec8",
+        "sourceYear": 2021,
+        "sourceNumber": 41,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "A ball of mass 0.15 kg is dropped from a height 10 m , strikes the ground and rebounds to the same height. The magnitude of impulse imparted to the ball is $ \\left( \\mathrm { g } = 10 \\mathrm {~m} / \\mathrm { s } ^ { 2 } \\right) $ nearly :",
+        "options": {
+          "1": "$ 4.2 \\mathrm {~kg} \\mathrm {~m} / \\mathrm { s } $",
+          "2": "$ 2.1 \\mathrm {~kg} \\mathrm {~m} / \\mathrm { s } $",
+          "3": "$ 1.4 \\mathrm {~kg} \\mathrm {~m} / \\mathrm { s } $",
+          "4": "$ 0 \\mathrm {~kg} \\mathrm {~m} / \\mathrm { s } $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-18fb75ea69",
+        "sourceYear": 2021,
+        "sourceNumber": 46,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "A car starts from rest and accelerates at $ 5 \\mathrm {~m} / \\mathrm { s } ^ { 2 } $. At $ t = 4 \\mathrm {~s} $, a ball is dropped out of a window by a person sitting in the car. What is the velocity and acceleration of the ball at $ t = 6 \\mathrm {~s} $ ? (Take $ \\mathrm { g } = 10 \\mathrm {~m} / \\mathrm { s } ^ { 2 } $ )",
+        "options": {
+          "1": "$ 20 \\mathrm {~m} / \\mathrm { s } , 0 $",
+          "2": "$ 20 \\sqrt { 2 } \\mathrm {~m} / \\mathrm { s } , 0 $",
+          "3": "$ 20 \\sqrt { 2 } \\mathrm {~m} / \\mathrm { s } , 10 \\mathrm {~m} / \\mathrm { s } ^ { 2 } $",
+          "4": "$ 20 \\mathrm {~m} / \\mathrm { s } , 5 \\mathrm {~m} / \\mathrm { s } ^ { 2 } $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-3535bbe8ad",
+        "sourceYear": 2021,
+        "sourceNumber": 8,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "In the product $ \\begin{aligned} \\overrightarrow { \\mathrm { F } } & = \\mathrm { q } ( \\vec { v } \\times \\overrightarrow { \\mathrm { B } } ) \\ & = \\mathrm { q } \\vec { v } \\times \\left( \\mathrm { B } \\hat { i } + \\mathrm { B } \\hat { j } + \\mathrm { B } _ { 0 } \\hat { k } \\right) \\end{aligned} $ For $ \\mathrm { q } = 1 $ and $ \\vec { v } = 2 \\hat { i } + 4 \\hat { j } + 6 \\hat { k } $ and $ \\overrightarrow { \\mathrm { F } } = 4 \\hat { i } - 20 \\hat { j } + 12 \\hat { k } $ What will be the complete expression for $ \\overrightarrow { \\mathrm { B } } $ ?",
+        "options": {
+          "1": "$ - 6 \\hat { i } - 6 \\hat { j } - 8 \\hat { k } $",
+          "2": "$ 8 \\hat { i } + 8 \\hat { j } - 6 \\hat { k } $",
+          "3": "$ 6 \\hat { i } + 6 \\hat { j } - 8 \\hat { k } $",
+          "4": "$ - 8 \\hat { i } - 8 \\hat { j } - 6 \\hat { k } $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-fc252ecdf8",
+        "sourceYear": 2021,
+        "sourceNumber": 49,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "A particle moving in a circle of radius $ R $ with a uniform speed takes a time T to complete one revolution. If this particle were projected with the same speed at an angle ' $ \\theta $ ' to the horizontal, the maximum height attained by it equals $ 4 R $. The angle of projection, $ \\theta $, is then given by :",
+        "options": {
+          "1": "$ \\theta = \\cos ^ { - 1 } \\left( \\frac { \\pi ^ { 2 } \\mathrm { R } } { \\mathrm { gT } ^ { 2 } } \\right) ^ { 1 / 2 } $",
+          "2": "$ \\theta = \\sin ^ { - 1 } \\left( \\frac { \\pi ^ { 2 } \\mathrm { R } } { \\mathrm { gT } ^ { 2 } } \\right) ^ { 1 / 2 } $",
+          "3": "$ \\theta = \\sin ^ { - 1 } \\left( \\frac { 2 \\mathrm { gT } ^ { 2 } } { \\pi ^ { 2 } \\mathrm { R } } \\right) ^ { 1 / 2 } $",
+          "4": "$ \\theta = \\cos ^ { - 1 } \\left( \\frac { \\mathrm { gT } ^ { 2 } } { \\pi ^ { 2 } \\mathrm { R } } \\right) ^ { 1 / 2 } $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-98084b3343",
+        "sourceYear": 2021,
+        "sourceNumber": 50,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "For the given circuit, the input digital signals are applied at the terminals A, B and C. What would be the output at the terminal $ y $ ?",
+        "options": {
+          "1": "image_597.png",
+          "2": "image_598.png",
+          "3": "$ - 5 \\mathrm {~V} $",
+          "4": "image_599.png"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2022-fd274d13de",
+        "sourceYear": 2022,
+        "sourceNumber": 16,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "Two hollow conducting sphere of radii $ R _ { 1 } $ and $ R _ { 2 } \\left( R _ { 1 } \\gg \\right. $ $ R _ { 2 } $ ) have equal charges. The potential would be:",
+        "options": {
+          "1": "dependent on the material property of the sphere",
+          "2": "more on bigger sphere",
+          "3": "more on smaller sphere",
+          "4": "equal on both the sphere"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-aff69697bc",
+        "sourceYear": 2023,
+        "sourceNumber": 1,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "A bullet is fired from a gun at the speed of $ 280 \\mathrm{~m} \\mathrm{~s}^{-1} $ in the direction $ 30^{\\circ} $ above the horizontal. The maximum height attained by the bullet is $ \\left( \\mathrm{g} = 9.8 \\mathrm{~m} \\mathrm{~s}^{-2}, \\sin 30^{\\circ} = 0.5 \\right) $:",
+        "options": {
+          "1": "3000 m",
+          "2": "2800 m",
+          "3": "2000 m",
+          "4": "1000 m"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-68f897087f",
+        "sourceYear": 2023,
+        "sourceNumber": 5,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "Light travels a distance $ x $ in time $ t _ { 1 } $ in air and $ 10 x $ in time $ t _ { 2 } $ in another denser medium. What is the critical angle for this medium?",
+        "options": {
+          "1": "$ \\sin ^ { - 1 } \\left( \\frac { 10 t _ { 1 } } { t _ { 2 } } \\right) $",
+          "2": "$ \\sin ^ { - 1 } \\left( \\frac { t _ { 2 } } { t _ { 1 } } \\right) $",
+          "3": "$ \\sin ^ { - 1 } \\left( \\frac { 10 t _ { 2 } } { t _ { 1 } } \\right) $",
+          "4": "$ \\sin ^ { - 1 } \\left( \\frac { t _ { 1 } } { 10 t _ { 2 } } \\right) $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-debcc72962",
+        "sourceYear": 2023,
+        "sourceNumber": 31,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "A metal wire has mass $ ( 0.4 \\pm 0.002 ) \\mathrm { g } $, radius $ ( 0.3 \\pm 0.001 ) \\mathrm { mm } $ and length $ ( 5 \\pm 0.02 ) \\mathrm { cm } $. The maximum possible percentage error in the measurement of density will nearly be:",
+        "options": {
+          "1": "$ 1.4 \\% $",
+          "2": "$ 1.2 \\% $",
+          "3": "$ 1.3 \\% $",
+          "4": "$ 1.6 \\% $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-8658db7d1b",
+        "sourceYear": 2023,
+        "sourceNumber": 43,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "A horizontal bridge is built across a river. A student standing on the bridge throws a small ball vertically upwards with a velocity $ 4 \\mathrm {~m} \\mathrm {~s} ^ { - 1 } $. The ball strikes the water surface after 4 s . The height of bridge above water surface is (Take $ \\mathrm { g } = 10 \\mathrm {~m} \\mathrm {~s} ^ { - 2 } $ ):",
+        "options": {
+          "1": "68 m",
+          "2": "56 m",
+          "3": "60 m",
+          "4": "64 m"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-f6a8f3998d",
+        "sourceYear": 2024,
+        "sourceNumber": 6,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The escape velocity for earth is $ v $. A planet having 9 times mass that of earth and radius, 16 times that of earth, has the escape velocity of:",
+        "options": {
+          "1": "$ \\frac { v } { 3 } $",
+          "2": "$ \\frac { 2 v } { 3 } $",
+          "3": "$ \\frac { 3 v } { 4 } $",
+          "4": "$ \\frac { 9 v } { 4 } $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-da33b3bb39",
+        "sourceYear": 2024,
+        "sourceNumber": 9,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "An object falls from a height of 10 m above the ground. After striking the ground it loses $ 50 \\% $ of its kinetic energy. The height upto which the object can rebounce from the ground is:",
+        "options": {
+          "1": "7.5 m",
+          "2": "10 m",
+          "3": "2.5 m",
+          "4": "5 m"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-4af8782938",
+        "sourceYear": 2024,
+        "sourceNumber": 15,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "A particle is moving along $ x $-axis with its position (x) varying with time $ ( t ) $ as $ x = \\alpha t ^ { 4 } + \\beta t ^ { 2 } + \\gamma t + \\delta $. The ratio of its initial velocity to its initial acceleration, respectively, is:",
+        "options": {
+          "1": "$ 2 \\alpha : \\delta $",
+          "2": "$ \\gamma : 2 \\delta $",
+          "3": "$ 4 \\alpha : \\beta $",
+          "4": "$ \\gamma : 2 \\beta $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-9ef3e318bf",
+        "sourceYear": 2024,
+        "sourceNumber": 16,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The radius of gyration of a solid sphere of mass 5 kg about $ XY $ is 5 m as shown in figure. The radius of the sphere is $ \\frac { 5 x } { \\sqrt { 7 } } \\mathrm {~m} $, then the value of $ x $ is:",
+        "options": {
+          "1": "5",
+          "2": "$ \\sqrt { 2 } $",
+          "3": "$ \\sqrt { 3 } $",
+          "4": "$ \\sqrt { 5 } $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-bb9d4c078b",
+        "sourceYear": 2024,
+        "sourceNumber": 27,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The pitch of an error free screw gauge is 1 mm and there are 100 divisions on the circular scale. While measuring the diameter of a thick wire, the pitch scale reads 1 mm and $ 63 ^ { \\text {rd } } $ division on the circular scale coincides with the reference line. The diameter of the wire is:",
+        "options": {
+          "1": "1.63 cm",
+          "2": "0.163 cm",
+          "3": "0.163 m",
+          "4": "1.63 m"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-bceacc0338",
+        "sourceYear": 2024,
+        "sourceNumber": 39,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "An object of mass 100 kg falls from point $ A $ to $ B $ as shown in figure. The change in its weight, corrected to the nearest integer is ( $ R _ { E } $ is the radius of the earth)",
+        "options": {
+          "1": "49 N",
+          "2": "89 N",
+          "3": "5 N",
+          "4": "10 N"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-2ffc01ff14",
+        "sourceYear": 2024,
+        "sourceNumber": 1,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The output $ Y $ for the inputs $ A $ and $ B $ of the given logic circuit is :",
+        "options": {
+          "1": "$ A \\cdot B $",
+          "2": "$ \\bar { A } \\cdot \\bar { B } $",
+          "3": "$ A + B $",
+          "4": "$ \\bar { A } + \\bar { B } $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-2ffa087b25",
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The ionisation energy of 10 time ionised sodium atom is",
+        "options": {
+          "1": "A 1",
+          "2": "6 11 e V B 1",
+          "3": "6 112 e V C 1",
+          "4": "6 Ã 11 2 e V D 13 . 6 e V"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-43b3a1a8c2",
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The temperature of equal masses of three different liquids A, B and C are 12 â , 19 â and 28 â respectively. The temperature when A and B are mixed is 16 â and when B and C are mixed is 23 â . The temperature when A and C are mixed is",
+        "options": {
+          "1": "A 1",
+          "2": "2 â B 22 â C 2",
+          "3": "2 â D 2",
+          "4": "2 â"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-0ec99a15d3",
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "An iron tyre of diameter 2 m is to be fitted on to a wooden wheel of diameter 2.01 m . The temperature to which the tyre must be heated, if Î± = 11 Ã 1 0 â 6 Â° C - 1 and room temperature is 20 Â° C , will be",
+        "options": {
+          "1": "A 47",
+          "2": "5 Â° C B 49",
+          "3": "5 Â° C C 44",
+          "4": "5 Â° C D 46"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-c63f64bc57",
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The energy of H e + ion in the first excited state will be",
+        "options": {
+          "1": "A - 1",
+          "2": "6 eV B - 1",
+          "3": "4 eV C -",
+          "4": "8 eV D - 2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-fb598d251c",
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "A sample of 0.1 g of water at 100 o C and normal pressure 1.013 × 10 5 N m - 2 requires 54 cal of heat energy to convert to steam at 100 o C . If the volume of the steam produced is 167.1 cc, the change in internal energy of the sample, is",
+        "options": {
+          "1": "A 4",
+          "2": "2 J B 20",
+          "3": "7 â â J C 10",
+          "4": "3 J D 8"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-882e576302",
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "A clock which keeps correct time at 20 ° C has a pendulum rod made of brass. How many seconds will it gain or lose per day when temperature falls to 0 ° C ? α = 18 × 10 - 6 / ° C",
+        "options": {
+          "1": "A 15",
+          "2": "5 Â s B 1",
+          "3": "55 Â s C 2",
+          "4": "55 Â s D 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-3536b431a5",
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The main scale of a vernier calliper has $\\mathrm{n}$ divisions/cm. n divisions of the vernier scale coincide with $(n-1)$ divisions of main scale. The least count of the vernier callipers is",
+        "options": {
+          "1": "A \\frac{1}{(n+",
+          "2": "(n-",
+          "3": "} \\mathrm{cm} B \\frac{1}{n} \\mathrm{~cm} C \\frac{1}{n^2} \\mathrm{~cm} D \\frac{1}{n(n+",
+          "4": "} \\mathrm{cm}"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-9ac335c917",
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "An Î± - particle after passing through a potential difference of V volts collides with a nucleus. If the atomic number of the nucleus is Z then the distance of closest approach of Î± - particle to the nucleus will be",
+        "options": {
+          "1": "A 1",
+          "2": "4 Z V A Â° B 1",
+          "3": "4 Z V Â m C 1",
+          "4": "4 Z V Â c m D all of these"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-bea2d94791",
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "Ionization energy of H e + ion at minimum energy position is",
+        "options": {
+          "1": "A 1",
+          "2": "6 e V B 2",
+          "3": "2 e V C 5",
+          "4": "4 e V D 6"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-362a0049b1",
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "[NEET 2022 | Physics] Ball thrown vertically downward at 20 m/s from tower. Hits ground after 5 s. Height (g=10):",
+        "options": {
+          "1": "350 m",
+          "2": "300 m",
+          "3": "400 m",
+          "4": "200 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-36b69e274a",
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "A clock which keeps correct time at 25 Â° C , has a pendulum made of brass. The coefficient of linear expansion for brass is 0.000019 Â° C - 1 . How many seconds a day will it gain if the ambient temperature falls to 0 Â° C ?",
+        "options": {
+          "1": "A 2",
+          "2": "52 s B 1",
+          "3": "00 s C 5",
+          "4": "10 s D 6"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-727f4feb5f",
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The temperatures of equal masses of three different liquids A , B and C are 12 Â° C , â¡ 1 9 Â° C and 28 Â° C respectively. The temperature when A and B are mixed is 16 Â° C and when B and C are mixed it is 23 Â° C . The temperature when A and C are mixed will be",
+        "options": {
+          "1": "A 15 Â° C B 1",
+          "2": "2 Â° C C 2",
+          "3": "25 Â° C D 2",
+          "4": "5 Â°"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-24b6d4d9df",
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "Oxygen boils at - 183 Â° C . This temperature, on the Fahrenheit scale is",
+        "options": {
+          "1": "A - 29",
+          "2": "4 Â° F B - 25",
+          "3": "6 ° F C - 34",
+          "4": "6 ° F D - 22"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       }
     ],
     "Hard": [
@@ -4639,31 +6021,6 @@
         "placeholder": false
       },
       {
-        "id": "2018-AA-Q156",
-        "sourceYear": 2018,
-        "sourceNumber": 41,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "A carbon resistor of (47 ± 4·7) kΩ is to be marked with rings of different colours for its identification. The colour code sequence will be",
-        "options": {
-          "1": "Violet – Yellow – Orange – Silver",
-          "2": "Green – Orange – Violet – Gold",
-          "3": "Yellow – Green – Violet – Gold",
-          "4": "Yellow – Violet – Orange – Silver"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2019-G1-Q140",
         "sourceYear": 2019,
         "sourceNumber": 5,
@@ -4676,56 +6033,6 @@
           "2": "100 î – 35 ĵ – 8k̂",
           "3": "20 î + 15 ĵ – 80k̂",
           "4": "20 î – 15 ĵ – 80k̂"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q143",
-        "sourceYear": 2019,
-        "sourceNumber": 8,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "A particle starting from rest, moves in a circle of radius 'r'. It attains a velocity of V0 m/s in the n round. Its angular acceleration will be: Vo 2 Vo2 2 Vo2 2 Vo2 2",
-        "options": {
-          "1": "rad/s",
-          "2": "2 rad/s",
-          "3": "rad/s",
-          "4": "rad/s n 2πnr 4πnr 2 4πnr"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q150",
-        "sourceYear": 2019,
-        "sourceNumber": 15,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "The value of γ⎜⎜ = ⎟ , for hydrogen helium and another ideal diatomic gas X (whose molecules are not ⎟ ⎝ Cv ⎠ rigid but have an additional vibrational mode), are respectively equal to, 7 5 9 5 7 9 5 7 7 7 5 7",
-        "options": {
-          "1": ", ,",
-          "2": ", ,",
-          "3": ", ,",
-          "4": ", , 5 3 7 3 5 7 3 5 5 5 3 5"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -4780,31 +6087,6 @@
         "correctOption": "3",
         "correctOptions": [
           "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q168",
-        "sourceYear": 2019,
-        "sourceNumber": 33,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "The time period of a geostationary satellite is 24 h, at a height 6RE (RE is radius of earth) from surface of earth. The time period of another satellite whose height is 2.5 RE from surface will be : 24 12",
-        "options": {
-          "1": "6 2 h",
-          "2": "12 2 h",
-          "3": "2.5 h",
-          "4": "2.5 h"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -4989,31 +6271,6 @@
         "placeholder": false
       },
       {
-        "id": "2021-M1-Q14",
-        "sourceYear": 2021,
-        "sourceNumber": 14,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "A particle is released from height S from the surface of the Earth. At a certain height its kinetic energy is three times its potential energy. The height from the surface of earth and the speed of the particle at that instant are respectively : S 3gS",
-        "options": {
-          "1": ", 2 2 S 3gS",
-          "2": ", 4 2 S 3gS",
-          "3": ", 4 2 S 3gS",
-          "4": ", 4 2"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2021-M1-Q26",
         "sourceYear": 2021,
         "sourceNumber": 24,
@@ -5139,81 +6396,6 @@
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q153",
-        "sourceYear": 2022,
-        "sourceNumber": 13,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "A particle starting from rest, moves in a circle of radius 'r'. It attains a velocity of V0 m/s in the n round. Its angular acceleration will be: Vo 2 Vo2 2 Vo2 2 Vo2 2",
-        "options": {
-          "1": "rad/s",
-          "2": "2 rad/s",
-          "3": "rad/s",
-          "4": "rad/s n 2πnr 4πnr 2 4πnr"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q167",
-        "sourceYear": 2022,
-        "sourceNumber": 22,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "A particle of mass 5 m at rest suddenly breaks on its own into three fragments. Two fragments of mass m each move along mutually perpendicular direction with speed v each. The energy released during the process is, 3 5 3 4",
-        "options": {
-          "1": "mv 2",
-          "2": "mv 2",
-          "3": "mv 2",
-          "4": "mv 2 5 3 2 3"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q175",
-        "sourceYear": 2022,
-        "sourceNumber": 30,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "The metre bridge shown is in balance position with = . If we now interchange the positions of Q λ2 galvanometer and cell, will the bridge work ? If yes, what will be balance condition ? P λ1 – λ1 P λ2 P λ1",
-        "options": {
-          "1": "yes, =",
-          "2": "no, no null point",
-          "3": "yes, =",
-          "4": "yes, = Q λ 2 + λ1 Q λ1 Q λ2"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2022-RECON-Q181",
         "sourceYear": 2022,
         "sourceNumber": 36,
@@ -5230,31 +6412,6 @@
         "correctOption": "1",
         "correctOptions": [
           "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q185",
-        "sourceYear": 2022,
-        "sourceNumber": 40,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "A person traveling in a straight line moves with a constant velocity v1 for certain distance 'x' and with a constant velocity v2 for next equal distance. The average velocity v is given by the relation : 1 1 1 2 1 1 v v1 + v 2",
-        "options": {
-          "1": "v = v1 + v 2",
-          "2": "v = v1 + v 2",
-          "3": "=",
-          "4": "v = v 1v 2 2 2"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -5514,31 +6671,6 @@
         "placeholder": false
       },
       {
-        "id": "2024-R1-Q19",
-        "sourceYear": 2024,
-        "sourceNumber": 16,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "An unpolarised light beam strikes a glass surface at Brewster's angle. Then",
-        "options": {
-          "1": "The refracted light will be completely polarised.",
-          "2": "Both the reflected and refracted light will be completely polarised.",
-          "3": "The reflected light will be completely polarised but the refracted light will be partially polarised.",
-          "4": "The reflected light will be partially polarised."
-        },
-        "correctOption": "1,3",
-        "correctOptions": [
-          "1,3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2024-R1-Q27",
         "sourceYear": 2024,
         "sourceNumber": 24,
@@ -5639,18 +6771,43 @@
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q11",
-        "sourceYear": 2025,
-        "sourceNumber": 10,
+        "id": "hf2022-9a0939eb94",
+        "sourceYear": 2022,
+        "sourceNumber": 12,
         "subject": "Physics",
         "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "If the monochromatic source in Young’s double slit experiment is replaced by white light, then",
+        "stem": "A spherical ball is dropped in a long column of a highly viscous liquid. The curve in the graph shown which represents the speed of the ball $ ( \\mathrm { v } ) $ as a function of time $ ( \\mathrm { t } ) $ is:",
         "options": {
-          "1": "There will be a central dark fringe surrounded by a few coloured fringes",
-          "2": "There will be a central bright white fringe surrounded by a few coloured fringes",
-          "3": "All bright fringes will be of equal width",
-          "4": "Interference pattern will disappear"
+          "1": "D",
+          "2": "A",
+          "3": "B",
+          "4": "C"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-b996427bb2",
+        "sourceYear": 2024,
+        "sourceNumber": 23,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "Given below are two statements: One is labelled as Assertion A and the other is labelled as Reason R. Assertion A: Houses made of concrete roofs overlaid with foam keep the room hotter during summer. Reason R: The layer of foam insulation prohibits heat transfer, as it contains air pockets. In the light of the above statements, choose the correct answer from the options given below.",
+        "options": {
+          "1": "$ \\mathbf { A } $ is true but $ \\mathbf { R } $ is false.",
+          "2": "$ \\mathbf { A } $ is false but $ \\mathbf { R } $ is true.",
+          "3": "Both $ \\mathbf { A } $ and $ \\mathbf { R } $ are true and $ \\mathbf { R } $ is the correct explanation of $ \\mathbf { A } $.",
+          "4": "Both $ \\mathbf { A } $ and $ \\mathbf { R } $ true but $ \\mathbf { R } $ is NOT the correct explanation of $ \\mathbf { A } $."
         },
         "correctOption": "2",
         "correctOptions": [
@@ -5660,47 +6817,21 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
       },
       {
-        "id": "2025-INTERIM-Q19",
-        "sourceYear": 2025,
-        "sourceNumber": 16,
+        "id": "catch-de34e242e4",
         "subject": "Physics",
         "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "An unpolarised light beam strikes a glass surface at Brewster's angle. Then",
+        "stem": "[NEET 2020 | Physics] Block on smooth wedge (inclination theta). Wedge accelerates at a to right. For block stationary:",
         "options": {
-          "1": "The refracted light will be completely polarised.",
-          "2": "Both the reflected and refracted light will be completely polarised.",
-          "3": "The reflected light will be completely polarised but the refracted light will be partially polarised.",
-          "4": "The reflected light will be partially polarised."
-        },
-        "correctOption": "1,3",
-        "correctOptions": [
-          "1,3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q27",
-        "sourceYear": 2025,
-        "sourceNumber": 24,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "290 α e+ β− e− 82 X ⎯⎯→Y ⎯⎯⎯ →Z ⎯⎯⎯ →P ⎯⎯⎯ →Q In the nuclear emission stated above, the mass number and atomic number of the product Q respectively, are",
-        "options": {
-          "1": "286, 80",
-          "2": "288, 82",
-          "3": "286, 81",
-          "4": "280, 81"
+          "1": "a = g/tan(theta)",
+          "2": "a = g*cosec(theta)",
+          "3": "a = g*tan(theta)",
+          "4": "a = g*sin(theta)"
         },
         "correctOption": "3",
         "correctOptions": [
@@ -5710,22 +6841,45 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
       },
       {
-        "id": "2025-INTERIM-Q33",
-        "sourceYear": 2025,
-        "sourceNumber": 30,
+        "id": "catch-3697c701de",
         "subject": "Physics",
         "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "The output (Y) of the given logic gate is similar to the output of an/a",
+        "stem": "[NEET 2019 | Physics] Disc radius 2m, mass 100kg rolls on floor. CM speed 0.20 m/s. Work to stop it:",
         "options": {
-          "1": "NOR gate",
-          "2": "OR gate",
-          "3": "AND gate",
-          "4": "NAND gate"
+          "1": "3 J",
+          "2": "30000 J",
+          "3": "2 J",
+          "4": "1 J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-b6537b741c",
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "[NEET 2016 | Physics] The density of a material in CGS system is 4 g/cm3. In a system where unit of length is 10 cm and unit of mass is 100 g, the value of density will be:",
+        "options": {
+          "1": "0.04",
+          "2": "0.4",
+          "3": "40",
+          "4": "400"
         },
         "correctOption": "3",
         "correctOptions": [
@@ -5735,58 +6889,34 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
       },
       {
-        "id": "2025-INTERIM-Q36",
-        "sourceYear": 2025,
-        "sourceNumber": 33,
+        "id": "catch-8e5ed32f51",
         "subject": "Physics",
         "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "The minimum energy required to launch a satellite of mass m from the surface of earth of mass M and radius R in a circular orbit at an altitude of 2R from the surface of the earth is: 2GmM",
+        "stem": "[NEET 2020 | Physics] A body cools from 80°C to 60°C in 5 minutes. Surrounding temperature is 20°C. Time to cool from 60°C to 40°C is approximately:",
         "options": {
-          "1": "3R GmM",
-          "2": "2R GmM",
-          "3": "3R 5GmM",
-          "4": "6R"
+          "1": "5 minutes",
+          "2": "8 minutes",
+          "3": "10 minutes",
+          "4": "15 minutes"
         },
-        "correctOption": "4",
+        "correctOption": "3",
         "correctOptions": [
-          "4"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q70",
-        "sourceYear": 2025,
-        "sourceNumber": 50,
-        "subject": "Physics",
-        "topic": "Physics General",
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
         "difficulty": "Hard",
-        "stem": "Match List I with List II. List I List II (Conversion) (Number of Faraday required) A. 1 mol of H2O to O2 I. 3F B. 1 mol of MnO−4 to Mn2+ II. 2F C. 1.5 mol of Ca from molten CaCl2 III. 1F D. 1 mol of FeO to Fe2O3 IV. 5F Choose the correct answer from the options given below:",
-        "options": {
-          "1": "A-III, B-IV, C-I, D-II",
-          "2": "A-II, B-III, C-I, D-IV",
-          "3": "A-III, B-IV, C-II, D-I",
-          "4": "A-II, B-IV, C-I, D-III"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "aiVerified": "strict"
       }
     ]
   },

@@ -3,9 +3,9 @@
   "subject": "Biology",
   "topic": "Botany",
   "counts": {
-    "Easy": 23,
-    "Medium": 23,
-    "Hard": 23
+    "Easy": 50,
+    "Medium": 50,
+    "Hard": 50
   },
   "questions": {
     "Easy": [
@@ -160,31 +160,6 @@
         "placeholder": false
       },
       {
-        "id": "2020-E1-Q91",
-        "sourceYear": 2020,
-        "sourceNumber": 171,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Easy",
-        "stem": "The transverse section of a plant shows following anatomical features : (a) Large number of scattered vascular bundles surrounded by bundle sheath. (b) Large conspicuous parenchymatous ground tissue. (c) Vascular bundles conjoint and closed. (d) Phloem parenchyma absent. Identify the category of plant and its part :",
-        "options": {
-          "1": "Dicotyledonous root",
-          "2": "Monocotyledonous stem",
-          "3": "Monocotyledonous root",
-          "4": "Dicotyledonous stem 3 H1"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2021-M1-Q101",
         "sourceYear": 2021,
         "sourceNumber": 104,
@@ -256,56 +231,6 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q73",
-        "sourceYear": 2022,
-        "sourceNumber": 168,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Easy",
-        "stem": "What will be the direction of flow of water when a plant cell is placed in a Hypotonic solution?",
-        "options": {
-          "1": "Water will flow in both directions.",
-          "2": "Water will flow out of the cell.",
-          "3": "Water will flow into the cell.",
-          "4": "No flow of water in any direction."
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q81",
-        "sourceYear": 2022,
-        "sourceNumber": 176,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Easy",
-        "stem": "Match the placental types (column-I) with their examples (column-II) Column–I Column–II (a) Basal (i) Mustard (b) Axile (ii) China rose (c) Parietal (iii) Dianthus (d) Free central (iv) Sunflower Choose the correct answer from the following options:",
-        "options": {
-          "1": "(a)-(ii), (b)-(iii),(c)-(iv), (d)-(i)",
-          "2": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
-          "3": "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)",
-          "4": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
       },
@@ -583,6 +508,774 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
+      },
+      {
+        "id": "hf2018-657c2b19ee",
+        "sourceYear": 2018,
+        "sourceNumber": 91,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Oxygen is not produced during photosynthesis by",
+        "options": {
+          "1": "Cycas",
+          "2": "Nostoc",
+          "3": "Green sulphur bacteria",
+          "4": "Chara"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-0876e4767c",
+        "sourceYear": 2018,
+        "sourceNumber": 1,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Stomatal movement is not affected by",
+        "options": {
+          "1": "$ \\mathrm { O } _ { 2 } $ concentration",
+          "2": "Light",
+          "3": "Temperature",
+          "4": "$ \\mathrm { CO } _ { 2 } $ concentration"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-1e022540c5",
+        "sourceYear": 2018,
+        "sourceNumber": 124,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Stomata in grass leaf are",
+        "options": {
+          "1": "Rectangular",
+          "2": "Kidney shaped",
+          "3": "Dumb-bell shaped",
+          "4": "Barrel shaped"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-333fa15da8",
+        "sourceYear": 2018,
+        "sourceNumber": 125,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Secondary xylem and phloem in dicot stem are produced by",
+        "options": {
+          "1": "Phellogen",
+          "2": "Vascular cambium",
+          "3": "Apical meristems",
+          "4": "Axillary meristems"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-6f7190c4a6",
+        "sourceYear": 2018,
+        "sourceNumber": 128,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Plants having little or no secondary growth are",
+        "options": {
+          "1": "Conifers",
+          "2": "Deciduous angiosperms",
+          "3": "Grasses",
+          "4": "Cycads"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-b0b8650f70",
+        "sourceYear": 2019,
+        "sourceNumber": 98,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Which of the following is the most important cause for animals and plants being driven to extinction?",
+        "options": {
+          "1": "Habitat loss and fragmentation",
+          "2": "Drought and floods",
+          "3": "Economic exploitation",
+          "4": "Alien species invasion"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-36c627b353",
+        "sourceYear": 2019,
+        "sourceNumber": 111,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Which one of the following statements regarding post-fertilization development in flowering plants is incorrect?",
+        "options": {
+          "1": "Ovary develops into fruit",
+          "2": "Zygote develops into embryo",
+          "3": "Central cell develops into endosperm",
+          "4": "Ovules develop into embryo sac"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-17e9c73d64",
+        "sourceYear": 2019,
+        "sourceNumber": 126,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "What is the direction of movement of sugars in phloem?",
+        "options": {
+          "1": "Non-multidirectional",
+          "2": "Upward",
+          "3": "Downward",
+          "4": "Bi-directional"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-92d5adc717",
+        "sourceYear": 2019,
+        "sourceNumber": 127,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "In some plants, the female gamete develops into embryo without fertilization. This phenomenon is known as :",
+        "options": {
+          "1": "Autogamy",
+          "2": "Parthenocarpy",
+          "3": "Syngamy",
+          "4": "Parthenogenesis"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-c0b2abc7c8",
+        "sourceYear": 2019,
+        "sourceNumber": 1,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Persistent nucellus in the seed is known as :",
+        "options": {
+          "1": "Chalaza",
+          "2": "Perisperm",
+          "3": "Hilum",
+          "4": "Tegmen"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-304367221c",
+        "sourceYear": 2019,
+        "sourceNumber": 134,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Xylem translocates:",
+        "options": {
+          "1": "Water only",
+          "2": "Water and mineral salts only",
+          "3": "Water, mineral salts and some organic nitrogen only",
+          "4": "Water, mineral salts, some organic nitrogen and hormones"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-a8869d747f",
+        "sourceYear": 2019,
+        "sourceNumber": 143,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "What is the site of perception of photoperiod necessary for induction of flowering in plants?",
+        "options": {
+          "1": "Lateral buds",
+          "2": "Pulvinus",
+          "3": "Shoot apex",
+          "4": "Leaves"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-7a47ed79ca",
+        "sourceYear": 2019,
+        "sourceNumber": 153,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Pinus seed cannot germinate and establish without fungal association. This is because :",
+        "options": {
+          "1": "its embryo is immature.",
+          "2": "it has obligate association with mycorrhizae.",
+          "3": "it has very hard seed coat.",
+          "4": "its seeds contain inhibitors that prevent germination."
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-ad2793aaf6",
+        "sourceYear": 2019,
+        "sourceNumber": 169,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Which of the following can be used as a biocontrol agent in the treatment of plant disease?",
+        "options": {
+          "1": "Trichoderma",
+          "2": "Chlorella",
+          "3": "Anabàena",
+          "4": "Lactobacillus"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-de6141f8eb",
+        "sourceYear": 2019,
+        "sourceNumber": 170,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Phloem in gymnosperms lacks :",
+        "options": {
+          "1": "Albuminous cells and sieve cells",
+          "2": "Sieve tubes only",
+          "3": "Companion cells only",
+          "4": "Both sieve tubes and companion cells"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-2ba5b81bc8",
+        "sourceYear": 2020,
+        "sourceNumber": 41,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Secondary metabolites such as nicotine, strychnine and caffeine are produced by plants for their :",
+        "options": {
+          "1": "Nutritive value",
+          "2": "Growth response",
+          "3": "Defence action",
+          "4": "Effect on reproduction"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-7ed842c28d",
+        "sourceYear": 2020,
+        "sourceNumber": 53,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Which of the following pairs is of unicellular algae?",
+        "options": {
+          "1": "Laminaria and Sargassum",
+          "2": "Gelidium and Gracilaria",
+          "3": "Anabaena and Volvox",
+          "4": "Chlorella and Spirulina"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-b6ffddbdf4",
+        "sourceYear": 2020,
+        "sourceNumber": 6,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Which of the following is not an inhibitory substance governing seed dormancy?",
+        "options": {
+          "1": "Gibberellic acid",
+          "2": "Abscisic acid",
+          "3": "Phenolic acid",
+          "4": "Para-ascorbic acid"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-a07c2f87d7",
+        "sourceYear": 2021,
+        "sourceNumber": 107,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Which of the following are not secondary metabolites in plants?",
+        "options": {
+          "1": "Amino acids, glucose",
+          "2": "Vinblastin, curcumin",
+          "3": "Rubber, gums",
+          "4": "Morphine, codeine"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-f648d98a80",
+        "sourceYear": 2021,
+        "sourceNumber": 111,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Which of the following algae produce Carrageen?",
+        "options": {
+          "1": "Brown algae",
+          "2": "Red algae",
+          "3": "Blue-green algae",
+          "4": "Green algae"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-a5152765e7",
+        "sourceYear": 2021,
+        "sourceNumber": 114,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Which of the following algae contains mannitol as reserve food material?",
+        "options": {
+          "1": "Gracilaria",
+          "2": "Volvox",
+          "3": "Ulothrix",
+          "4": "Ectocarpus"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-277d11ada2",
+        "sourceYear": 2021,
+        "sourceNumber": 117,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Which of the following plants is monoecious?",
+        "options": {
+          "1": "Chara",
+          "2": "Marchantia polymorpha",
+          "3": "Cycas circinalis",
+          "4": "Carica papaya"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2022-a4ea26560b",
+        "sourceYear": 2022,
+        "sourceNumber": 35,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "The device which can remove particulate matter present in the exhaust from a thermal power plant is:",
+        "options": {
+          "1": "Catalytic Convertor",
+          "2": "STP",
+          "3": "Incinerator",
+          "4": "Electrostatic Precipitator"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-e9c8bc0846",
+        "sourceYear": 2024,
+        "sourceNumber": 109,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Which one of the following is not found in Gymnosperms?",
+        "options": {
+          "1": "Sieve cells",
+          "2": "Albuminous cells",
+          "3": "Tracheids",
+          "4": "Vessels"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-7c7d19d537",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "[NEET 2021 | Biology] Mycorrhizal association between fungi and plant roots is an example of:",
+        "options": {
+          "1": "Parasitism",
+          "2": "Commensalism",
+          "3": "Mutualism",
+          "4": "Amensalism"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-e9edac9141",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "[NEET 2022 | Biology] Which photosystem is responsible for photolysis of water?",
+        "options": {
+          "1": "Photosystem I",
+          "2": "Photosystem II",
+          "3": "Both PS-I and PS-II",
+          "4": "Neither — it occurs in stroma"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-7f6a729725",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "[NEET 2023 | Biology] Which is a natural auxin?",
+        "options": {
+          "1": "IAA",
+          "2": "IBA",
+          "3": "NAA",
+          "4": "2,4-D"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-8690ff237a",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "The C₄ pathway was discovered in (drill 133)",
+        "options": {
+          "1": "Sugarcane",
+          "2": "Wheat",
+          "3": "Rice",
+          "4": "Potato"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-1ad6aa74f6",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Double fertilization is characteristic of (drill 136)",
+        "options": {
+          "1": "Angiosperms",
+          "2": "Gymnosperms",
+          "3": "Pteridophytes",
+          "4": "Bryophytes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-638258c0c9",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Opening of stomata is aided by (drill 154)",
+        "options": {
+          "1": "K⁺ influx into guard cells",
+          "2": "Na⁺ efflux only",
+          "3": "Ca²⁺ precipitation",
+          "4": "ABA alone always"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       }
     ],
     "Medium": [
@@ -737,31 +1430,6 @@
         "placeholder": false
       },
       {
-        "id": "2020-E1-Q101",
-        "sourceYear": 2020,
-        "sourceNumber": 173,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Medium",
-        "stem": "Match the following concerning essential elements and their functions in plants : (a) Iron (i) Photolysis of water (b) Zinc (ii) Pollen germination (c) Boron (iii) Required for chlorophyll biosynthesis (d) Manganese (iv) IAA biosynthesis Select the correct option : (a) (b) (c) (d)",
-        "options": {
-          "1": "(iv) (iii) (ii) (i)",
-          "2": "(iii) (iv) (ii) (i)",
-          "3": "(iv) (i) (ii) (iii)",
-          "4": "(ii) (i) (iv) (iii)"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2021-M1-Q112",
         "sourceYear": 2021,
         "sourceNumber": 115,
@@ -808,81 +1476,6 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q66",
-        "sourceYear": 2022,
-        "sourceNumber": 161,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Medium",
-        "stem": "The production of gametes by the parents the formation of zygotes, the F1 and F2 plants can be understood using",
-        "options": {
-          "1": "Pie diagram",
-          "2": "A pyramid diagram",
-          "3": "Punnet square",
-          "4": "Wenn diagram"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q74",
-        "sourceYear": 2022,
-        "sourceNumber": 169,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Medium",
-        "stem": "Where is the respiratory electron transport system (ETS) located in plants?",
-        "options": {
-          "1": "Mitochondrial matrix",
-          "2": "Outer mitochondrial membrane",
-          "3": "Inner mitochondrial membrane",
-          "4": "Intermembrane space"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q83",
-        "sourceYear": 2022,
-        "sourceNumber": 178,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Medium",
-        "stem": "Western Ghats have a large number of plant and animal species that are not found anywhere else. Which of the following terms will you use to notify such species ?",
-        "options": {
-          "1": "Endemic",
-          "2": "Vulnerable",
-          "3": "Threatened",
-          "4": "Keystone"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
       },
@@ -982,31 +1575,6 @@
         "multiCorrect": false,
         "figureSrc": "/figures/2024-R1-Q113.png",
         "figureKind": "pdf-crop",
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q122",
-        "sourceYear": 2024,
-        "sourceNumber": 126,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Medium",
-        "stem": "In a plant, black seed color (BB/Bb) is dominant over white seed color (bb). In order to find out the genotype of the black seed plant, with which of the following genotype will you cross it?",
-        "options": {
-          "1": "bb",
-          "2": "Bb",
-          "3": "BB/Bb",
-          "4": "BB"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
@@ -1160,6 +1728,796 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
+      },
+      {
+        "id": "hf2021-021fb602da",
+        "sourceYear": 2021,
+        "sourceNumber": 120,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "The production of gametes by the parents, formation of zygotes, the $\\mathrm{F}_{1}$ and $\\mathrm{F}_{2}$ plants, can be understood from a diagram called :",
+        "options": {
+          "1": "Punch square",
+          "2": "Punnett square",
+          "3": "Net square",
+          "4": "Bullet square"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2022-58edf2fe8f",
+        "sourceYear": 2022,
+        "sourceNumber": 42,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Which part of the fruit, labelled in the given figure makes it a false fruit?",
+        "options": {
+          "1": "D $ \\rightarrow $ Seed",
+          "2": "A $ \\rightarrow $ Mesocarp",
+          "3": "B $ \\rightarrow $ Endocarp",
+          "4": "$ \\mathrm{C} \\rightarrow $ Thalamus"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-53e1b97fb8",
+        "sourceYear": 2023,
+        "sourceNumber": 149,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Match List I with List II : List I A. Iron B. Zinc C. Boron D. Molybdenum List II I. Synthesis of auxin II. Component of nitrate reductase III. Activator of catalase IV. Cell elongation and differentiation",
+        "options": {
+          "1": "A-II, B-IV, C-I, D-III",
+          "2": "A-III, B-II, C-I, D-IV",
+          "3": "A-II, B-III, C-IV, D-I",
+          "4": "A-III, B-I, C-IV, D-II"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-7ea0debc73",
+        "sourceYear": 2023,
+        "sourceNumber": 177,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Match List I with List II. List I (Interacting species) A. A Leopard and a Lion in a forest/ grassland B. A Cuckoo laying egg in a Crow's nest C. Fungi and root of a higher plant in Mycorrtizae D. A cattle egret and a Cattle in a field List II (Name of Interaction) I. Competition II. Brood parasitism III. Mutualism IV. Commensalism",
+        "options": {
+          "1": "A-II, B-III, C-I, D-IV",
+          "2": "A-I, B-II, C-III, D-IV",
+          "3": "A-I, B-II, C-IV, D-III",
+          "4": "A-III, B-IV, C-I, D-II"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-ef3e270009",
+        "sourceYear": 2024,
+        "sourceNumber": 105,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Which of the following are required for the light reaction of Photosynthesis? A. $ \\mathrm { CO } _ { 2 } $ B. $ \\mathrm { O } _ { 2 } $ C. $ \\mathrm { H } _ { 2 } \\mathrm { O } $ D. Chlorophyll E. Light",
+        "options": {
+          "1": "A, C, D and E only",
+          "2": "C, D and E only",
+          "3": "A and B only",
+          "4": "A, C and E only"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-6faaba0398",
+        "sourceYear": 2024,
+        "sourceNumber": 117,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Match List-I with List-II : List-I A. Vexillary aestivation B. Epipetalous stamens C. Epiphyllous stamens D. Perigynous flower List-II I. Brinjal II. Peach III. Pea IV. Lily Choose the correct answer from the options given below :",
+        "options": {
+          "1": "A-III, B-I, C-IV, D-II",
+          "2": "A-III, B-IV, C-I, D-II",
+          "3": "A-III, B-II, C-I, D-IV",
+          "4": "A-II, B-I, C-IV, D-III"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-a846fbe42e",
+        "sourceYear": 2024,
+        "sourceNumber": 2,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Match List-I with List-II : List-I A. Abscisic acid B. Ethylene C. Gibberellin D. Cytokinin List-II I. Promotes female flowers in cucumber II. Helps seeds to withstand desiccation III. Helps in nutrient mobilisation IV. Promotes bolting in beet, cabbage etc",
+        "options": {
+          "1": "A-II, B-III, C-IV, D-I",
+          "2": "A-III, B-II, C-I, D-IV",
+          "3": "A-II, B-I, C-IV, D-III",
+          "4": "A-II, B-I, C-III, D-IV"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-b591650a0f",
+        "sourceYear": 2024,
+        "sourceNumber": 132,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "F. Skoog observed that callus proliferated from the internodal segments of tobacco stem when auxin wi supplied with one of the following except : (1) Extract of Vascular tissues (2) Coconut milk (3) Abscisic acid (4) Yeast Extract",
+        "options": {
+          "1": "Extract of Vascular tissues",
+          "2": "Coconut milk",
+          "3": "Abscisic acid",
+          "4": "Yeast Extract"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-412f53d543",
+        "sourceYear": 2024,
+        "sourceNumber": 133,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Given below are some statements about plant growth regulators. A. All GAs are acidic in nature. B. Auxins are antagonists to GAs. C. Zeatin was isolated from coconut milk. D. Ethylene induces flowering in Mango. E. Abscisic acid induces parthenocarpy. Choose the correct set of statements from the options given below:",
+        "options": {
+          "1": "$ A , C , D $",
+          "2": "$ B , E $",
+          "3": "$ A , B , C $",
+          "4": "B, D, E"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-928a0baf49",
+        "sourceYear": 2024,
+        "sourceNumber": 2,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Match List-I with List-II: List-I Organisms A. Euglenoid B. Dinoflagellate C. Slime mould D. Plasmodium List-II Mode of Nutrition I. Parasitic II. Saprophytic III. Photosynthetic IV. Switching between photosynthetic and heterotrophic mode",
+        "options": {
+          "1": "A-III, B-IV, C-II, D-I",
+          "2": "A-IV, B-II, C-I, D-III",
+          "3": "A-IV, B-III, C-II, D-I",
+          "4": "A-IV, B-II, C-III, D-I"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-8b9d8b8722",
+        "sourceYear": 2024,
+        "sourceNumber": 163,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Match List-I with List-II. \\begin{tabular} { | l | l | l | l | } \\hline & List-I & & List-II \\ \\hline A. & Chondrichthyes & I. & Clarias \\ \\hline B. & Cyclostomata & II. & Carcharodon \\ \\hline C. & Osteichthyes & III. & Myxine \\ \\hline D. & Amphibia & IV. & Ichthyophis \\ \\hline \\end{tabular}",
+        "options": {
+          "1": "A-II, B-IV, C-I, D-III",
+          "2": "A-I, B-III C-II, D-IV",
+          "3": "A-II, B-III, C-I, D-IV",
+          "4": "A-I, B-II, C-III, D-IV"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-63b55a6110",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "[NEET 2018 | Biology] The enzyme that fixes CO₂ in the mesophyll cells of C4 plants is:",
+        "options": {
+          "1": "RuBisCO",
+          "2": "PEP carboxylase",
+          "3": "Phosphoglycerate kinase",
+          "4": "ATP synthase"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-2f78661fe4",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Match List-I with List-II. Choose the correct answer from the options given below :",
+        "options": {
+          "1": "A (",
+          "2": "-\\mathrm{II},(\\mathrm{B})-\\mathrm{III},(\\mathrm{C})-\\mathrm{IV},(\\mathrm{D})-\\mathrm{I} B (",
+          "3": "-\\mathrm{III},(\\mathrm{B})-\\mathrm{IV},(\\mathrm{C})-\\mathrm{I},(\\mathrm{D})-\\mathrm{II} C (",
+          "4": "-\\mathrm{II},(\\mathrm{B})-\\mathrm{III},(\\mathrm{C})-\\mathrm{I},(\\mathrm{D})-\\mathrm{IV} D ("
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-58db7142bb",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "[NEET 2022 | Biology] In bryophytes, the dominant plant body is:",
+        "options": {
+          "1": "Sporophyte (diploid)",
+          "2": "Gametophyte (haploid)",
+          "3": "Both are equally dominant",
+          "4": "Neither — it is haplodiplontic"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-561590009f",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "[NEET 2020 | Biology] In which organism do gametophytes NOT have free-living independent existence?",
+        "options": {
+          "1": "Pteris",
+          "2": "Marchantia",
+          "3": "Funaria",
+          "4": "Pinus"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-52bc9e7ea2",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "[NEET 2021 | Biology] Pneumatophores are found in:",
+        "options": {
+          "1": "Mangrove plants",
+          "2": "Desert plants",
+          "3": "Aquatic plants",
+          "4": "Parasitic plants"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-176b86462b",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "What does the growth rate show an increase in?",
+        "options": {
+          "1": "A Arithmetic growth B Geometrical growth C Both",
+          "2": "and",
+          "3": "D Neither",
+          "4": "nor"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-19a5224fb3",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "[NEET 2020 | Biology] Cork cambium is an example of:",
+        "options": {
+          "1": "Primary meristem",
+          "2": "Lateral meristem",
+          "3": "Intercalary meristem",
+          "4": "Apical meristem"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-c0ece00432",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "The osmotic pressure of 1 M solution of sucrose is 22.4 atm. What will be the osmotic potential of 0.1 M sucrose solution?",
+        "options": {
+          "1": "A 2",
+          "2": "4 atm",
+          "3": "2 atm C -",
+          "4": "24 bars D 0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-268d0d1397",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "A micronutrient is the one which is",
+        "options": {
+          "1": "A More important than any major elements and are boron (",
+          "2": ", chlorine (Cl), copper (Cu), iron (Fe), manganese (Mn), magnesium (Mg), molybdenum (Mo), and zinc (Zn). B Less important than major elements and are boron (",
+          "3": ", chlorine (Cl), copper (Cu), iron (Fe), manganese (Mn), molybdenum (Mo), and zinc (Zn) and phosphorous (P) C Needed in small quantity but is as important as a major element and are boron (",
+          "4": ", chlorine (Cl), copper (Cu), iron (Fe), manganese (Mn), molybdenum (Mo), and zinc (Zn). D Found small quantities in the soil and are boron ("
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-ae01d49a7c",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "[NEET 2021 | Biology] The primary CO₂ acceptor in the C3 (Calvin) cycle is:",
+        "options": {
+          "1": "Oxaloacetate (OAA)",
+          "2": "RuBP (Ribulose-1,5-bisphosphate)",
+          "3": "PEP (Phosphoenolpyruvate)",
+          "4": "Pyruvate"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-b430b75edb",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "The C₄ pathway was discovered in",
+        "options": {
+          "1": "Sugarcane",
+          "2": "Wheat",
+          "3": "Rice",
+          "4": "Potato"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-0435231836",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Xylem primarily transports",
+        "options": {
+          "1": "Water and minerals",
+          "2": "Sugars only",
+          "3": "Proteins",
+          "4": "Hormones only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-410cbbc4d1",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Double fertilization is characteristic of",
+        "options": {
+          "1": "Angiosperms",
+          "2": "Gymnosperms",
+          "3": "Pteridophytes",
+          "4": "Bryophytes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-99bb3aa680",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "The C₄ pathway was discovered in (drill 33)",
+        "options": {
+          "1": "Sugarcane",
+          "2": "Wheat",
+          "3": "Rice",
+          "4": "Potato"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-5efdb43f89",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Xylem primarily transports (drill 35)",
+        "options": {
+          "1": "Water and minerals",
+          "2": "Sugars only",
+          "3": "Proteins",
+          "4": "Hormones only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-23b5f4c1a8",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Double fertilization is characteristic of (drill 36)",
+        "options": {
+          "1": "Angiosperms",
+          "2": "Gymnosperms",
+          "3": "Pteridophytes",
+          "4": "Bryophytes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-ea671de20b",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Opening of stomata is aided by (drill 134)",
+        "options": {
+          "1": "K⁺ influx into guard cells",
+          "2": "Na⁺ efflux only",
+          "3": "Ca²⁺ precipitation",
+          "4": "ABA alone always"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-f80a4f0be3",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Xylem primarily transports (drill 155)",
+        "options": {
+          "1": "Water and minerals",
+          "2": "Sugars only",
+          "3": "Proteins",
+          "4": "Hormones only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-ced31a2788",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "The C₄ pathway was discovered in (drill 173)",
+        "options": {
+          "1": "Sugarcane",
+          "2": "Wheat",
+          "3": "Rice",
+          "4": "Potato"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-4866bb054f",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Xylem primarily transports (drill 175)",
+        "options": {
+          "1": "Water and minerals",
+          "2": "Sugars only",
+          "3": "Proteins",
+          "4": "Hormones only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-2ea443d252",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Double fertilization is characteristic of (drill 176)",
+        "options": {
+          "1": "Angiosperms",
+          "2": "Gymnosperms",
+          "3": "Pteridophytes",
+          "4": "Bryophytes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
       }
     ],
     "Hard": [
@@ -1314,31 +2672,6 @@
         "placeholder": false
       },
       {
-        "id": "2020-E1-Q124",
-        "sourceYear": 2020,
-        "sourceNumber": 176,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Hard",
-        "stem": "Match the following concerning essential elements and their functions in plants : (a) Iron (i) Photolysis of water (b) Zinc (ii) Pollen germination (c) Boron (iii) Required for chlorophyll biosynthesis (d) Manganese (iv) IAA biosynthesis Select the correct option : (a) (b) (c) (d)",
-        "options": {
-          "1": "(iv) (i) (ii) (iii)",
-          "2": "(ii) (i) (iv) (iii)",
-          "3": "(iv) (iii) (ii) (i)",
-          "4": "(iii) (iv) (ii) (i) Hindi+English 0"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2021-M1-Q114",
         "sourceYear": 2021,
         "sourceNumber": 117,
@@ -1385,56 +2718,6 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q71",
-        "sourceYear": 2022,
-        "sourceNumber": 166,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Hard",
-        "stem": "Which of the following is not a feature of active transport of solutes in plants ? .",
-        "options": {
-          "1": "Occurs against concentration gradient",
-          "2": "Non-selective",
-          "3": "Occurs through membranes",
-          "4": "Requires ATP"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q78",
-        "sourceYear": 2022,
-        "sourceNumber": 173,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Hard",
-        "stem": "In order to increase the yield of sugarcane crop, which of the following plant growth regulators should be sprayed ?",
-        "options": {
-          "1": "Ethylene",
-          "2": "Auxins",
-          "3": "Gibberellins",
-          "4": "Cytokinins"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
       },
@@ -1664,31 +2947,6 @@
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q122",
-        "sourceYear": 2025,
-        "sourceNumber": 126,
-        "subject": "Biology",
-        "topic": "Botany",
-        "difficulty": "Hard",
-        "stem": "In a plant, black seed color (BB/Bb) is dominant over white seed color (bb). In order to find out the genotype of the black seed plant, with which of the following genotype will you cross it?",
-        "options": {
-          "1": "bb",
-          "2": "Bb",
-          "3": "BB/Bb",
-          "4": "BB"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2025-INTERIM-Q141",
         "sourceYear": 2025,
         "sourceNumber": 144,
@@ -1737,6 +2995,756 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
+      },
+      {
+        "id": "hf2019-f683852f0b",
+        "sourceYear": 2019,
+        "sourceNumber": 160,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Match Column - I with Column - II. Column - I (a) Saprophyte (b) Parasite (c) Lichens (d) Mycorrhiza Column - II (i) Symbiotic association of fungi with plant roots (ii) Decomposition of dead organic materials (iii) Living on living plants or animals (iv) Symbiotic association of algae and fungi Choose the correct answer from the options given below : $ \\begin{array} { l l l l l } & \\text { (a) } & \\text { (b) } & \\text { (c) } & \\text { (d) } \\ \\text{ (1) } & \\text{ (i) } & \\text{ (ii) } & \\text{ (iii) } & \\text{ (iv) } \\ \\text{ (2) } & \\text{ (iii) } & \\text{ (ii) } & \\text{ (i) } & \\text{ (iv) } \\ \\text{ (3) } & \\text{ (ii) } & \\text{ (i) } & \\text{ (iii) } & \\text{ (iv) } \\ \\text{ (4) } & \\text{ (ii) } & \\text{ (iii) } & \\text{ (iv) } & \\text{ (i) } \\end{array} $",
+        "options": {
+          "1": "(i) (ii) (iii) (iv)",
+          "2": "(iii) (ii) (i) (iv)",
+          "3": "(ii) (i) (iii) (iv)",
+          "4": "(ii) (iii) (iv) (i)"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-778a18b7d7",
+        "sourceYear": 2021,
+        "sourceNumber": 129,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Match List - I with List - II. \\n\\n\\begin{tabular}{|l|l|l|l|}\\n\\hline\\n\\multicolumn{2}{|c|}{List - I} & \\multicolumn{2}{c|}{List - II}\\n\\hline\\n(a) & \\begin{tabular}{l}Cells with active cell \\ division capacity\\end{tabular} & (i) & \\begin{tabular}{l}Vascular \\ tissues\\end{tabular}\\n\\hline\\n(b) & \\begin{tabular}{l}Tissue having all cells \\ similar in structure \\ and function\\end{tabular} & (ii) & \\begin{tabular}{l}Meristematic \\ tissue\\end{tabular}\\n\\hline\\n(c) & \\begin{tabular}{l}Tissue having \\ different types of cells\\end{tabular} & (iii) & Sclereids\\n\\hline\\n(d) & \\begin{tabular}{l}Dead cells with highly \\ thickened walls and \\ narrow lumen\\end{tabular} & (iv) & Simple tissue\\n\\hline\\n\\end{tabular}\\n\\n\\n\\nSelect the correct answer from the options given below.\\n\\n\\begin{tabular}{lllll}\\n& (a) & (b) & (c) & (d)\\n(1) & (iv) & (iii) & (ii) & (i)\\n$(2)$ & (i) & (ii) & (iii) & (iv)\\n$(3)$ & (iii) & (ii) & (iv) & (i)\\n(4) & (ii) & (iv) & (i) & (iii)\\n\\end{tabular}\\n\\n",
+        "options": {
+          "1": "(a) (iv), (b) (iii), (c) (ii), (d) (i)",
+          "2": "(a) (i), (b) (ii), (c) (iii), (d) (iv)",
+          "3": "(a) (iii), (b) (ii), (c) (iv), (d) (i)",
+          "4": "(a) (ii), (b) (iv), (c) (i), (d) (iii)"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-cfde82226a",
+        "sourceYear": 2023,
+        "sourceNumber": 139,
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Given below are two statements : One is labelled as Assertion $ \\mathbf { A } $ and the other is labelled as Reason $ \\mathbf { R } $ : Assertion A : In gymnosperms the pollen grains are released from the microsporangium and carried by air currents. Reason $ \\mathbf { R } $ : Air currents carry the pollen grains to the mouth of the archegonia where the male gametes are discharged and pollen tube is not formed.",
+        "options": {
+          "1": "$ \\mathbf { A } $ is false but $ \\mathbf { R } $ is true.",
+          "2": "Both $ \\mathbf { A } $ and $ \\mathbf { R } $ are true and $ \\mathbf { R } $ is the correct explanation of $ \\mathbf { A } $.",
+          "3": "Both $ \\mathbf { A } $ and $ \\mathbf { R } $ are true but $ \\mathbf { R } $ is NOT the correct explanation of $ \\mathbf { A } $.",
+          "4": "$ \\mathbf { A } $ is true but $ \\mathbf { R } $ is false."
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-c9c5a05e16",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Opening of stomata is aided by",
+        "options": {
+          "1": "K⁺ influx into guard cells",
+          "2": "Na⁺ efflux only",
+          "3": "Ca²⁺ precipitation",
+          "4": "ABA alone always"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-7d2014a927",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Opening of stomata is aided by (drill 34)",
+        "options": {
+          "1": "K⁺ influx into guard cells",
+          "2": "Na⁺ efflux only",
+          "3": "Ca²⁺ precipitation",
+          "4": "ABA alone always"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-8379b51d81",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "The C₄ pathway was discovered in (drill 53)",
+        "options": {
+          "1": "Sugarcane",
+          "2": "Wheat",
+          "3": "Rice",
+          "4": "Potato"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-14af3380c2",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Opening of stomata is aided by (drill 54)",
+        "options": {
+          "1": "K⁺ influx into guard cells",
+          "2": "Na⁺ efflux only",
+          "3": "Ca²⁺ precipitation",
+          "4": "ABA alone always"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-47f4a2f6a8",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Xylem primarily transports (drill 55)",
+        "options": {
+          "1": "Water and minerals",
+          "2": "Sugars only",
+          "3": "Proteins",
+          "4": "Hormones only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-6326ae14c5",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Double fertilization is characteristic of (drill 56)",
+        "options": {
+          "1": "Angiosperms",
+          "2": "Gymnosperms",
+          "3": "Pteridophytes",
+          "4": "Bryophytes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-748fce8424",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "The C₄ pathway was discovered in (drill 73)",
+        "options": {
+          "1": "Sugarcane",
+          "2": "Wheat",
+          "3": "Rice",
+          "4": "Potato"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-e0a792cbd0",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Opening of stomata is aided by (drill 74)",
+        "options": {
+          "1": "K⁺ influx into guard cells",
+          "2": "Na⁺ efflux only",
+          "3": "Ca²⁺ precipitation",
+          "4": "ABA alone always"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-88d3edc559",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Xylem primarily transports (drill 75)",
+        "options": {
+          "1": "Water and minerals",
+          "2": "Sugars only",
+          "3": "Proteins",
+          "4": "Hormones only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-3edf3b6168",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Double fertilization is characteristic of (drill 76)",
+        "options": {
+          "1": "Angiosperms",
+          "2": "Gymnosperms",
+          "3": "Pteridophytes",
+          "4": "Bryophytes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-d038e9aef4",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "The C₄ pathway was discovered in (drill 93)",
+        "options": {
+          "1": "Sugarcane",
+          "2": "Wheat",
+          "3": "Rice",
+          "4": "Potato"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-654378ab40",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Opening of stomata is aided by (drill 94)",
+        "options": {
+          "1": "K⁺ influx into guard cells",
+          "2": "Na⁺ efflux only",
+          "3": "Ca²⁺ precipitation",
+          "4": "ABA alone always"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-cdf722da90",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Xylem primarily transports (drill 95)",
+        "options": {
+          "1": "Water and minerals",
+          "2": "Sugars only",
+          "3": "Proteins",
+          "4": "Hormones only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-50e048630a",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Double fertilization is characteristic of (drill 96)",
+        "options": {
+          "1": "Angiosperms",
+          "2": "Gymnosperms",
+          "3": "Pteridophytes",
+          "4": "Bryophytes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-f1243a3df3",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "The C₄ pathway was discovered in (drill 113)",
+        "options": {
+          "1": "Sugarcane",
+          "2": "Wheat",
+          "3": "Rice",
+          "4": "Potato"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-4a62c295c0",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Opening of stomata is aided by (drill 114)",
+        "options": {
+          "1": "K⁺ influx into guard cells",
+          "2": "Na⁺ efflux only",
+          "3": "Ca²⁺ precipitation",
+          "4": "ABA alone always"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-cfcf9e8e3e",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Xylem primarily transports (drill 115)",
+        "options": {
+          "1": "Water and minerals",
+          "2": "Sugars only",
+          "3": "Proteins",
+          "4": "Hormones only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-d40d2091f8",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Double fertilization is characteristic of (drill 116)",
+        "options": {
+          "1": "Angiosperms",
+          "2": "Gymnosperms",
+          "3": "Pteridophytes",
+          "4": "Bryophytes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-4743c3eb3f",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Xylem primarily transports (drill 135)",
+        "options": {
+          "1": "Water and minerals",
+          "2": "Sugars only",
+          "3": "Proteins",
+          "4": "Hormones only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-b989bbea62",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "The C₄ pathway was discovered in (drill 153)",
+        "options": {
+          "1": "Sugarcane",
+          "2": "Wheat",
+          "3": "Rice",
+          "4": "Potato"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-b228484163",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Double fertilization is characteristic of (drill 156)",
+        "options": {
+          "1": "Angiosperms",
+          "2": "Gymnosperms",
+          "3": "Pteridophytes",
+          "4": "Bryophytes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-f28944bf2d",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Opening of stomata is aided by (drill 174)",
+        "options": {
+          "1": "K⁺ influx into guard cells",
+          "2": "Na⁺ efflux only",
+          "3": "Ca²⁺ precipitation",
+          "4": "ABA alone always"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-1dcd9907c4",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "The C₄ pathway was discovered in (drill 193)",
+        "options": {
+          "1": "Sugarcane",
+          "2": "Wheat",
+          "3": "Rice",
+          "4": "Potato"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-0d20b3115c",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Opening of stomata is aided by (drill 194)",
+        "options": {
+          "1": "K⁺ influx into guard cells",
+          "2": "Na⁺ efflux only",
+          "3": "Ca²⁺ precipitation",
+          "4": "ABA alone always"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-e5b38de833",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Xylem primarily transports (drill 195)",
+        "options": {
+          "1": "Water and minerals",
+          "2": "Sugars only",
+          "3": "Proteins",
+          "4": "Hormones only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-d53ad3fdb7",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Double fertilization is characteristic of (drill 196)",
+        "options": {
+          "1": "Angiosperms",
+          "2": "Gymnosperms",
+          "3": "Pteridophytes",
+          "4": "Bryophytes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-7746655090",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Kranz anatomy is associated with C₄ plants. Identification drill 1: bundle sheath cells",
+        "options": {
+          "1": "Are thick-walled and surround vascular bundles",
+          "2": "Are absent in maize",
+          "3": "Perform only glycolysis",
+          "4": "Lack chloroplasts always"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (C4 anatomy)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-75d0093083",
+        "subject": "Biology",
+        "topic": "Botany",
+        "stem": "Kranz anatomy is associated with C₄ plants. Identification drill 2: bundle sheath cells",
+        "options": {
+          "1": "Are thick-walled and surround vascular bundles",
+          "2": "Are absent in maize",
+          "3": "Perform only glycolysis",
+          "4": "Lack chloroplasts always"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (C4 anatomy)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
       }
     ]
   },

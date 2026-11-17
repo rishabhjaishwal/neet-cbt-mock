@@ -3,9 +3,9 @@
   "subject": "Biology",
   "topic": "Genetics & Biotech",
   "counts": {
-    "Easy": 44,
-    "Medium": 44,
-    "Hard": 44
+    "Easy": 76,
+    "Medium": 88,
+    "Hard": 50
   },
   "questions": {
     "Easy": [
@@ -72,31 +72,6 @@
           "2": "Council for Scientific and Industrial Research (CSIR)",
           "3": "Research Committee on Genetic Manipulation (RCGM)",
           "4": "Genetic Engineering Appraisal Committee (GEAC)"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q134",
-        "sourceYear": 2018,
-        "sourceNumber": 175,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Easy",
-        "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Herbarium i. It is a place having a collection of preserved plants and animals. b. Key ii. A list that enumerates methodically all the species found in an area with brief description aiding identification. c. Museum iii. Is a place where dried and pressed plant specimens mounted on sheets are kept. d. Catalogue iv. A booklet containing a list of characters and their alternates which are helpful in identification of various taxa. a b c d",
-        "options": {
-          "1": "i iv iii ii",
-          "2": "iii iv i ii",
-          "3": "ii iv iii i",
-          "4": "iii ii i iv"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -260,31 +235,6 @@
         "placeholder": false
       },
       {
-        "id": "2020-E1-Q46",
-        "sourceYear": 2020,
-        "sourceNumber": 126,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Easy",
-        "stem": "Match the organism with its use in biotechnology. (a) Bacillus (i) Cloning vector thuringiensis (b) Thermus (ii) Construction of aquaticus first rDNA molecule (c) Agrobacterium (iii) DNA polymerase tumefaciens (d) Salmonella (iv) Cry proteins typhimurium Select the correct option from the following : (a) (b) (c) (d)",
-        "options": {
-          "1": "(iv) (iii) (i) (ii)",
-          "2": "(iii) (ii) (iv) (i)",
-          "3": "(iii) (iv) (i) (ii)",
-          "4": "(ii) (iv) (iii) (i) Hindi+English 2"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2020-E1-Q55",
         "sourceYear": 2020,
         "sourceNumber": 135,
@@ -406,31 +356,6 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q121",
-        "sourceYear": 2021,
-        "sourceNumber": 124,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Easy",
-        "stem": "The term used for transfer of pollen grains from anthers of one plant to stigma of a different plant which, during pollination, brings genetically different types of pollen grains to stigma, is :",
-        "options": {
-          "1": "Chasmogamy",
-          "2": "Cleistogamy",
-          "3": "Xenogamy",
-          "4": "Geitonogamy 1 O1"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
       },
@@ -585,131 +510,6 @@
         "placeholder": false
       },
       {
-        "id": "2021-M1-Q181",
-        "sourceYear": 2021,
-        "sourceNumber": 181,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Easy",
-        "stem": "During the process of gene amplification using PCR, if very high temperature is not maintained in the beginning, then which of the following steps of PCR will be affected first ?",
-        "options": {
-          "1": "Extension",
-          "2": "Denaturation",
-          "3": "Ligation",
-          "4": "Annealing"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q18",
-        "sourceYear": 2022,
-        "sourceNumber": 118,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Easy",
-        "stem": "The two antibiotic resistance genes on vector pBR 322 are for",
-        "options": {
-          "1": "Ampicillin and Tetracycline",
-          "2": "Ampicillin and Chloramphenicol",
-          "3": "Chloramphenicol and Tetracycline",
-          "4": "Tetracycline and Kanamycin"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q36",
-        "sourceYear": 2022,
-        "sourceNumber": 136,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Easy",
-        "stem": "The contrasting characteristics generally in a pair used for identification of animals in Taxonomic Key are referred to as :",
-        "options": {
-          "1": "Lead",
-          "2": "Couplet",
-          "3": "Doublet",
-          "4": "Alternate"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q61",
-        "sourceYear": 2022,
-        "sourceNumber": 156,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Easy",
-        "stem": "Which scientist experimentally proved that DNA is the sole genetic material in bacteriophage ?",
-        "options": {
-          "1": "Beadle and Tautum",
-          "2": "Messelson and Stahl",
-          "3": "Hershey and Chase",
-          "4": "Jacob and Monod"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q85",
-        "sourceYear": 2022,
-        "sourceNumber": 180,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Easy",
-        "stem": "Exploration of molecular, genetic and species level diversity for novel products of economic importance is known as :",
-        "options": {
-          "1": "Biopiracy",
-          "2": "Bioenergetics",
-          "3": "Bioremediation",
-          "4": "Bioprospecting"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2022-RECON-Q193",
         "sourceYear": 2022,
         "sourceNumber": 197,
@@ -726,31 +526,6 @@
         "correctOption": "3",
         "correctOptions": [
           "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2023-F1-Q106",
-        "sourceYear": 2023,
-        "sourceNumber": 109,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Easy",
-        "stem": "During the purification process for recombinant DNA technology, addition of chilled ethanol precipitates out",
-        "options": {
-          "1": "DNA",
-          "2": "Histones",
-          "3": "Polysaccharides",
-          "4": "RNA"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -1108,6 +883,1056 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
+      },
+      {
+        "id": "hf2018-a2ff2f00d4",
+        "sourceYear": 2018,
+        "sourceNumber": 98,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Which of the following is commonly used as a vector for introducing a DNA fragment in human lymphocytes?",
+        "options": {
+          "1": "$ \\lambda $ phage",
+          "2": "Ti plasmid",
+          "3": "Retrovirus",
+          "4": "$ \\quad \\mathrm { pBR } 322 $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-7548ed88ce",
+        "sourceYear": 2018,
+        "sourceNumber": 101,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "The correct order of steps in Polymerase Chain Reaction (PCR) is",
+        "options": {
+          "1": "Denaturation, Extension, Annealing",
+          "2": "Annealing, Extension, Denaturation",
+          "3": "Extension, Denaturation, Annealing",
+          "4": "Denaturation, Annealing, Extension"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-7bfd83f1c1",
+        "sourceYear": 2018,
+        "sourceNumber": 106,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "The experimental proof for semiconservative replication of DNA was first shown in a",
+        "options": {
+          "1": "Plant",
+          "2": "Bacterium",
+          "3": "Fungus",
+          "4": "Virus"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-bb103e44a0",
+        "sourceYear": 2018,
+        "sourceNumber": 123,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "The stage during which separation of the paired homologous chromosomes begins is",
+        "options": {
+          "1": "Diakinesis",
+          "2": "Diplotene",
+          "3": "Pachytene",
+          "4": "Zygotene"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-aca49bef8e",
+        "sourceYear": 2018,
+        "sourceNumber": 145,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "The difference between spermiogenesis and spermiation is",
+        "options": {
+          "1": "In spermiogenesis spermatozoa from sertoli cells are released into the cavity of seminiferous tubules, while in spermiation spermatozoa are formed.",
+          "2": "In spermiogenesis spermatozoa are formed, while in spermiation spermatids are formed.",
+          "3": "In spermiogenesis spermatids are formed, while in spermiation spermatozoa are formed.",
+          "4": "In spermiogenesis spermatozoa are formed, while in spermiation spermatozoa are released from sertoli cells into the cavity of seminiferous tubules."
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-1abdbe818f",
+        "sourceYear": 2019,
+        "sourceNumber": 24,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "The shorter and longer arms of a submetacentric chromosome are referred to as :",
+        "options": {
+          "1": "s-arm and 1 -arm respectively",
+          "2": "p-arm and q-arm respectively",
+          "3": "q-arm and p-arm respectively",
+          "4": "m-arm and n-arm respectively"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-f2abf468f1",
+        "sourceYear": 2019,
+        "sourceNumber": 115,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Purines found both in DNA and RNA are :",
+        "options": {
+          "1": "Adenine and thymine",
+          "2": "Adenine and guanine",
+          "3": "Guanine and cytosine",
+          "4": "Cytosine and thymine"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-f9791743a8",
+        "sourceYear": 2019,
+        "sourceNumber": 118,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Variations caused by mutation, as proposed by Hugo de Vries, are:",
+        "options": {
+          "1": "random and directional",
+          "2": "random and directionless",
+          "3": "small and directional",
+          "4": "small and directionless"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-ed97dc56b2",
+        "sourceYear": 2019,
+        "sourceNumber": 122,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "DNA precipitation out of a mixture of biomolecules can be achieved by treatment with :",
+        "options": {
+          "1": "Isopropanol",
+          "2": "Chilled ethanol",
+          "3": "Methanol at room temperature",
+          "4": "Chilled chloroform"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-ae9e753d5a",
+        "sourceYear": 2019,
+        "sourceNumber": 129,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "What map unit (Centimorgan) is adopted in the construction of genetic maps?",
+        "options": {
+          "1": "A unit of distance between two expressed genes, representing $ 10 \\% $ cross over.",
+          "2": "A unit of distance between two expressed genes, representing $ 100 \\% $ cross over.",
+          "3": "A unit of distance between genes on chromosomes, representing $ 1 \\% $ cross over.",
+          "4": "A unit of distance between genes on chromosomes, representing $ 50 \\% $ cross over."
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-90d2e8d524",
+        "sourceYear": 2019,
+        "sourceNumber": 137,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Which of the following ecological pyramids is generally inverted?",
+        "options": {
+          "1": "Pyramid of numbers in grassland",
+          "2": "Pyramid of energy",
+          "3": "Pyramid of biomass in a forest",
+          "4": "Pyramid of biomass in a sea"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-ec465c73e3",
+        "sourceYear": 2019,
+        "sourceNumber": 145,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Following statements describe the characteristics of the enzyme Restriction Endonuclease. Identify the incorrect statement.",
+        "options": {
+          "1": "The enzyme cuts DNA molecule at identified position within the DNA.",
+          "2": "The enzyme binds DNA at specific sites and cuts only one of the two strands.",
+          "3": "The enzyme cuts the sugar-phosphate backbone at specific sites on each strand.",
+          "4": "The enzyme recognizes a specific palindromic nucleotide sequence in the DNA."
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-c9312e9d47",
+        "sourceYear": 2019,
+        "sourceNumber": 154,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Which of the following features of genetic code does allow bacteria to produce human insulin by recombinant DNA technology?",
+        "options": {
+          "1": "Genetic code is not ambiguous",
+          "2": "Genetic code is redundant",
+          "3": "Genetic code is nearly universal",
+          "4": "Genetic code is specific"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-47d8229522",
+        "sourceYear": 2019,
+        "sourceNumber": 165,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "The frequency of recombination between gene pairs on the same chromosome as a measure of the distance between genes was explained by :",
+        "options": {
+          "1": "T.H. Morgan",
+          "2": "Gregor J. Mendel",
+          "3": "Alfred Sturtevant",
+          "4": "Sutton Boveri"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-ad36dc2186",
+        "sourceYear": 2019,
+        "sourceNumber": 176,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "What is the genetic disorder in which an individual has an overall masculine development, gynaecomastia, and is sterile?",
+        "options": {
+          "1": "Turner's syndrome",
+          "2": "Klinefelter's syndrome",
+          "3": "Edward syndrome",
+          "4": "Down's syndrome"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-4a547bb970",
+        "sourceYear": 2020,
+        "sourceNumber": 12,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "The plant parts which consist of two generations one within the other :",
+        "options": {
+          "1": "(a) Pollen grains inside the anther",
+          "2": "(a) Pollen grains inside the anther, (b) Germinated pollen grain with two male gametes, (c) Seed inside the fruit",
+          "3": "(c) Seed inside the fruit, (d) Embryo sac inside the ovule",
+          "4": "(a) Pollen grains inside the anther, (d) Embryo sac inside the ovule"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-3bab34a344",
+        "sourceYear": 2020,
+        "sourceNumber": 18,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In gel electrophoresis, separated DNA fragments can be visualized with the help of :",
+        "options": {
+          "1": "Acetocarmine in bright blue light",
+          "2": "Ethidium bromide in UV radiation",
+          "3": "Acetocarmine in UV radiation",
+          "4": "Ethidium bromide in infrared radiation"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-0eaca29b02",
+        "sourceYear": 2020,
+        "sourceNumber": 22,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Identify the wrong statement with regard to Restriction Enzymes.",
+        "options": {
+          "1": "Each restriction enzyme functions by inspecting the length of a DNA sequence.",
+          "2": "They cut the strand of DNA at palindromic sites.",
+          "3": "They are useful in genetic engineering.",
+          "4": "Sticky ends can be joined by using DNA ligases."
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-b312fddc5d",
+        "sourceYear": 2020,
+        "sourceNumber": 33,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "The first phase of translation is :",
+        "options": {
+          "1": "Binding of mRNA to ribosome",
+          "2": "Recognition of DNA molecule",
+          "3": "Aminoacylation of tRNA",
+          "4": "Recognition of an anti-codon"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-d807108a75",
+        "sourceYear": 2020,
+        "sourceNumber": 67,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Name the enzyme that facilitates opening of DNA helix during transcription.",
+        "options": {
+          "1": "DNA ligase",
+          "2": "DNA helicase",
+          "3": "DNA polymerase",
+          "4": "RNA polymerase"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-8db63de120",
+        "sourceYear": 2020,
+        "sourceNumber": 78,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "The sequence that controls the copy number of the linked DNA in the vector, is termed :",
+        "options": {
+          "1": "Selectable marker",
+          "2": "Ori site",
+          "3": "Palindromic sequence",
+          "4": "Recognition site"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-1973e8adb2",
+        "sourceYear": 2020,
+        "sourceNumber": 83,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Experimental verification of the chromosomal theory of inheritance was done by :",
+        "options": {
+          "1": "Mendel",
+          "2": "Sutton",
+          "3": "Boveri",
+          "4": "Morgan"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-130bc4f93a",
+        "sourceYear": 2021,
+        "sourceNumber": 102,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "When gene targetting involving gene amplification is attempted in an individual's tissue to treat disease, it is known as :",
+        "options": {
+          "1": "Gene therapy",
+          "2": "Molecular diagnosis",
+          "3": "Safety testing",
+          "4": "Biopiracy"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-9cd1ac0b22",
+        "sourceYear": 2021,
+        "sourceNumber": 126,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Which of the following is not an application of PCR (Polymerase Chain Reaction)?",
+        "options": {
+          "1": "Gene amplification",
+          "2": "Purification of isolated protein",
+          "3": "Detection of gene mutation",
+          "4": "Molecular diagnosis"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-7b536c7ad0",
+        "sourceYear": 2021,
+        "sourceNumber": 130,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Mutations in plant cells can be induced by :",
+        "options": {
+          "1": "Infrared rays",
+          "2": "Gamma rays",
+          "3": "Zeatin",
+          "4": "Kinetin"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-70ae227642",
+        "sourceYear": 2021,
+        "sourceNumber": 138,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "DNA fingerprinting involves identifying differences in some specific regions in DNA sequence, called as:",
+        "options": {
+          "1": "Repetitive DNA",
+          "2": "Single nucleotides",
+          "3": "Polymorphic DNA",
+          "4": "Satellite DNA"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-ec44dd6907",
+        "sourceYear": 2021,
+        "sourceNumber": 152,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "If Adenine makes $ 30 \\% $ of the DNA molecule, what will be the percentage of Thymine, Guanine and Cytosine in it?",
+        "options": {
+          "1": "$ \\mathrm { T } : 20 ; \\mathrm { G } : 20 ; \\mathrm { C } : 30 $",
+          "2": "$ \\mathrm { T } : 30 ; \\mathrm { G } : 20 ; \\mathrm { C } : 20 $",
+          "3": "$ \\mathrm { T } : \\mathbf { 20 } ; \\mathrm { G } : \\mathbf { 25 } ; \\mathrm { C } : \\mathbf { 25 } $",
+          "4": "$ \\mathrm { T } : 20 ; \\mathrm { G } : 30 ; \\mathrm { C } : 20 $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-ba4d682950",
+        "sourceYear": 2021,
+        "sourceNumber": 156,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "A specific recognition sequence identified by endonucleases to make cuts at specific positions within the DNA is :",
+        "options": {
+          "1": "Okazaki sequences",
+          "2": "Palindromic Nucleotide sequences",
+          "3": "$ \\operatorname{Poly}(\\mathrm{A}) $ tail sequences",
+          "4": "Degenerate primer sequence"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2022-8106b2f705",
+        "sourceYear": 2022,
+        "sourceNumber": 27,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "DNA polymorphism forms the basis of:",
+        "options": {
+          "1": "Translation",
+          "2": "Genetic mapping",
+          "3": "DNA finger printing",
+          "4": "Both genetic mapping and DNA finger printing"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2022-f8124d9cdd",
+        "sourceYear": 2022,
+        "sourceNumber": 77,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In gene therapy of Adenosine Deaminase (ADA) deficiency the patient requires periodic infusion genetically engineered lymphocytes because:",
+        "options": {
+          "1": "Genetically engineered lymphocytes are not immortal cells.",
+          "2": "Retroviral vector is introduced into these lymphocytes.",
+          "3": "Gene isolated from marrow cells producing ADA is introduced into cells at embryonic stages",
+          "4": "Lymphocytes from patient's blood are grown in culture outside the body."
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-be0982c131",
+        "sourceYear": 2024,
+        "sourceNumber": 103,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In a chromosome, there is a specific DNA sequence, responsible for initiating replication. It is called as:",
+        "options": {
+          "1": "Recognition sequence",
+          "2": "Cloning site",
+          "3": "Restriction site",
+          "4": "ori site"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-4fffa5b632",
+        "sourceYear": 2024,
+        "sourceNumber": 129,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Recombination between homologous chromosomes is completed by the end of",
+        "options": {
+          "1": "Diakinesis",
+          "2": "Zygotene",
+          "3": "Diplotene",
+          "4": "Pachytene"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-faebd77209",
+        "sourceYear": 2024,
+        "sourceNumber": 142,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Recombinant DNA molecule can be created normally by cutting the vector DNA and source DNA respectively with:",
+        "options": {
+          "1": "Hind II, Hind II",
+          "2": "Hind II, Alu I",
+          "3": "Hind II, EcoR I",
+          "4": "Hind II, BamHI"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-014fcc1462",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "[NEET 2020 | Biology] Synapsis of homologous chromosomes occurs during:",
+        "options": {
+          "1": "Leptotene",
+          "2": "Zygotene",
+          "3": "Pachytene",
+          "4": "Diplotene"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-acffcc2dbb",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "[NEET 2022 | Biology] Bt toxin genes are derived from:",
+        "options": {
+          "1": "Bacillus thuringiensis",
+          "2": "Bacillus subtilis",
+          "3": "Pseudomonas fluorescens",
+          "4": "Agrobacterium tumefaciens"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-27806c1370",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "[NEET 2019 | Biology] Restriction enzymes cut DNA at specific sequences called:",
+        "options": {
+          "1": "Promoter sequences",
+          "2": "Palindromic sequences",
+          "3": "Operator sequences",
+          "4": "Enhancer sequences"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-269a1b7f78",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "[NEET 2017 | Biology] Down's syndrome is caused by trisomy of chromosome number:",
+        "options": {
+          "1": "13",
+          "2": "18",
+          "3": "21",
+          "4": "23"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-8c3bb00781",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "[NEET 2019 | Biology] Lac operon is induced (switched on) by:",
+        "options": {
+          "1": "Glucose",
+          "2": "Lactose",
+          "3": "Galactose",
+          "4": "Fructose"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-3169e7a814",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "[NEET 2017 | Biology] In PCR (Polymerase Chain Reaction), the enzyme used is:",
+        "options": {
+          "1": "DNA Polymerase I",
+          "2": "Reverse Transcriptase",
+          "3": "Taq Polymerase",
+          "4": "RNA Polymerase"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-0deda7effc",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "[NEET 2022 | Biology] Golden rice is transgenic crop with:",
+        "options": {
+          "1": "Insect resistance",
+          "2": "High lysine content",
+          "3": "Vitamin A enrichment",
+          "4": "High protein content"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-d061717141",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "[NEET 2018 | Biology] Correct order of events during transcription:",
+        "options": {
+          "1": "Template-Initiation-Elongation-Termination",
+          "2": "Promoter recognition-Initiation-Elongation-Termination",
+          "3": "Initiation-Elongation-Termination",
+          "4": "Promoter recognition-Elongation-Termination"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       }
     ],
     "Medium": [
@@ -1437,31 +2262,6 @@
         "placeholder": false
       },
       {
-        "id": "2020-E1-Q119",
-        "sourceYear": 2020,
-        "sourceNumber": 175,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Medium",
-        "stem": "Match the following columns and select the correct option. Column - I Column - II (a) Bt cotton (i) Gene therapy (b) Adenosine (ii) Cellular defence deaminase deficiency (c) RNAi (iii) Detection of HIV infection (d) PCR (iv) Bacillus thuringiensis (a) (b) (c) (d)",
-        "options": {
-          "1": "(i) (ii) (iii) (iv)",
-          "2": "(iv) (i) (ii) (iii)",
-          "3": "(iii) (ii) (i) (iv)",
-          "4": "(ii) (iii) (iv) (i) 9 H1"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2021-M1-Q107",
         "sourceYear": 2021,
         "sourceNumber": 110,
@@ -1503,56 +2303,6 @@
         "correctOption": "2",
         "correctOptions": [
           "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q123",
-        "sourceYear": 2021,
-        "sourceNumber": 126,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Medium",
-        "stem": "DNA strands on a gel stained with ethidium bromide when viewed under UV radiation, appear as :",
-        "options": {
-          "1": "Dark red bands",
-          "2": "Bright blue bands",
-          "3": "Yellow bands",
-          "4": "Bright orange bands"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q133",
-        "sourceYear": 2021,
-        "sourceNumber": 134,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Medium",
-        "stem": "Match List - I with List - II. List - I List - II Primary constriction in (a) Cristae (i) chromosome Disc-shaped sacs in (b) Thylakoids (ii) Golgi apparatus Infoldings in (c) Centromere (iii) mitochondria Flattened membranous (d) Cisternae (iv) sacs in stroma of plastids Choose the correct answer from the options given below. (a) (b) (c) (d)",
-        "options": {
-          "1": "(iii) (iv) (i) (ii)",
-          "2": "(ii) (iii) (iv) (i)",
-          "3": "(iv) (iii) (ii) (i)",
-          "4": "(i) (iv) (iii) (ii)"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -1633,181 +2383,6 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q168",
-        "sourceYear": 2021,
-        "sourceNumber": 168,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Medium",
-        "stem": "Read the following statements. (a) Metagenesis is observed in Helminths. (b) Echinoderms are triploblastic and coelomate animals. (c) Round worms have organ-system level of body organization. (d) Comb plates present in ctenophores help in digestion. (e) Water vascular system is characteristic of Echinoderms. Choose the correct answer from the options given below.",
-        "options": {
-          "1": "(a), (b) and (c) are correct",
-          "2": "(a), (d) and (e) are correct",
-          "3": "(b), (c) and (e) are correct",
-          "4": "(c), (d) and (e) are correct"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q176",
-        "sourceYear": 2021,
-        "sourceNumber": 176,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Medium",
-        "stem": "Read the following statements. (a) Metagenesis is observed in Helminths. (b) Echinoderms are triploblastic and coelomate animals. (c) Round worms have organ-system level of body organization. (d) Comb plates present in ctenophores help in digestion. (e) Water vascular system is characteristic of Echinoderms. Choose the correct answer from the options given below.",
-        "options": {
-          "1": "(c), (d) and (e) are correct",
-          "2": "(a), (b) and (c) are correct",
-          "3": "(a), (d) and (e) are correct",
-          "4": "(b), (c) and (e) are correct"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q14",
-        "sourceYear": 2022,
-        "sourceNumber": 114,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Medium",
-        "stem": "What will be the sequence of mRNA produced by the following stretch of DNA? 3' ATGCATGCATGCATG 5' TEMPLATE STRAND 5' TACGTACGTACGTAC 3' CODING STRAND",
-        "options": {
-          "1": "3' AUGCAUGCAUGCAUG 5'",
-          "2": "5' UACGUACGUACGUAC 3'",
-          "3": "3' UACGUACGUACGUAC 5'",
-          "4": "5' AUGCAUGCAUGCAUG 3'"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q22",
-        "sourceYear": 2022,
-        "sourceNumber": 122,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Medium",
-        "stem": "Match the following RNA polymerases with their transcribed products: Column-I Column-II (a) RNA polymerase I (i) tRNA (b) RNA polymerase II (ii) rRNA (c) RNA polymerase III (iii) hnRNA Select the correct option from the following:",
-        "options": {
-          "1": "(a)-(i), (b)-(iii), (c)-(ii)",
-          "2": "(a)-(i), (b)-(ii), (c)-(iii)",
-          "3": "(a)-(ii), (b)-(iii), (c)-(i)",
-          "4": "(a)-(iii), (b)-(ii), (c)-(i)"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q57",
-        "sourceYear": 2022,
-        "sourceNumber": 152,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Medium",
-        "stem": "Regeneration of damaged growing grass following grazing is largely due to :",
-        "options": {
-          "1": "Lateral meristem",
-          "2": "Apical rneristem",
-          "3": "Intercalary meristem",
-          "4": "Secondary meristem"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q62",
-        "sourceYear": 2022,
-        "sourceNumber": 157,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Medium",
-        "stem": "In the process of transcription in Eukaryotes, the RNA polymerase I transcribes -",
-        "options": {
-          "1": "mRNA with additional processing, capping and tailing",
-          "2": "tRNA, 5 S rRNA and snRNAs",
-          "3": "rRNAs - 28 S, 18 S and 5.8 S",
-          "4": "Precursor of mRNA, hnRNA"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q93",
-        "sourceYear": 2022,
-        "sourceNumber": 188,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Medium",
-        "stem": "Given below are four statements pertaining to separation of DNA fragments using Gel electrophoresis. Identify the incorrect statements. (a) DNA is negatively charged molecule and so it is loaded on gel towards the Anode terminal. (b) DNA fragments travel along the surface of the gel whose concentration does not affect movement of DNA. (c) Smaller the size of DNA fragment, larger is the distance it travels through it. (d) Pure DNA can be visualized directly by exposing to UV radiation. Choose correct answer from the options given below:",
-        "options": {
-          "1": "(a), (c) and (d)",
-          "2": "(a), (b) and (c)",
-          "3": "(b), (c) and (d)",
-          "4": "(a), (b) and (d)"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
       },
@@ -2210,6 +2785,1366 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
+      },
+      {
+        "id": "hf2019-41eea1565d",
+        "sourceYear": 2019,
+        "sourceNumber": 147,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In Antirrhinum (Snapdragon), a red flower was crossed with a white flower and in $ \\mathrm{F}_{1} $ generation, pink flowers were obtained. When pink flowers were selfed, the $ \\mathrm{F}_{2} $ generation showed white, red and pink flowers.",
+        "options": {
+          "1": "This experiment does not follow the Principle of Dominance.",
+          "2": "Pink colour in $ F_{1} $ is due to incomplete dominance.",
+          "3": "Ratio of $ \\mathrm{F}_{2} $ is $ \\frac{1}{4} $ (Red): $ \\frac{2}{4} $ (Pink): $ \\frac{1}{4} $ (White)",
+          "4": "Law of Segregation does not apply in this experiment."
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-38f7eb7458",
+        "sourceYear": 2019,
+        "sourceNumber": 151,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "A gene locus has two alleles $ A $, a. If the frequency of dominant allele $ A $ is 0.4 , then what will be the frequency of homozygous dominant, heterozygous and homozygous recessive individuals in the population?",
+        "options": {
+          "1": "$ 0.36 ( \\mathrm { AA } ) ; 0.48 $ (Aa); 0.16 (aa)",
+          "2": "$ 0.16 ( \\mathrm { AA } ) ; 0.24 ( \\mathrm { Aa } ) ; 0.36 $ (aa)",
+          "3": "$ 0.16 ( \\mathrm { AA } ) ; 0.48 ( \\mathrm { Aa } ) ; 0.36 ( \\mathrm { aa } ) $",
+          "4": "$ 0.16 ( \\mathrm { AA } ) ; 0.36 ( \\mathrm { Aa } ) ; 0.48 $ (aa)"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-85b3d75952",
+        "sourceYear": 2019,
+        "sourceNumber": 172,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Under which of the following conditions will there be no change in the reading frame of following mRNA? $ 5 ^ { \\prime } $ AACAGCGGUGCUAUU $ 3 ^ { \\prime } $",
+        "options": {
+          "1": "Insertion of $ G $ at $ 5 ^ { \\text {th } } $ position",
+          "2": "Deletion of G from $ 5 ^ { \\text {th } } $ position",
+          "3": "Insertion of $ A $ and $ G $ at $ 4 ^ { \\text {th } } $ and $ 5 ^ { \\text {th } } $ positions respectively",
+          "4": "Deletion of GGU from $ 7 ^ { \\text {th } } $, $ 8 ^ { \\text {th } } $ and $ 9 ^ { \\text {th } } $ positions"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-7ab28fb0c2",
+        "sourceYear": 2020,
+        "sourceNumber": 74,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "If the distance between two consecutive base pairs is 0.34 nm and the total number of base pairs of a DNA double helix in a typical mammalian cell is $ 6.6 \\times 10 ^ { 9 } \\mathrm { bp } $, then the length of the DNA is approximately :",
+        "options": {
+          "1": "2.0 meters",
+          "2": "2.5 meters",
+          "3": "2.2 meters",
+          "4": "2.7 meters"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-c016396360",
+        "sourceYear": 2021,
+        "sourceNumber": 121,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "The term used for transter of pollen grains from anthers of one plant to stigma of a different plant which, during pollination, brings genetically different types of pollen grains to stigma, is :",
+        "options": {
+          "1": "Geitonogamy",
+          "2": "Chasmogamy",
+          "3": "Cleistogamy",
+          "4": "Xenogamy"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-2d6449c04d",
+        "sourceYear": 2021,
+        "sourceNumber": 132,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Complete the flow chart on central dogma. (a) cDNA $ \\xrightarrow { ( \\mathrm { b } ) } $ mRNA $ \\xrightarrow { ( \\mathrm { c } ) } ( \\mathrm { d } ) $",
+        "options": {
+          "1": "(a)-Translation; (b)-Replication; (c)-Transcription; (d)-Transduction",
+          "2": "(a)-Replication; (b)-Transcription; (c)-Translation; (d)-Protein",
+          "3": "(a)-Transduction; (b)-Translation; (c)-Replication; (d)-Protein",
+          "4": "(a)-Replication; (b)-Transcription; (c)-Transduction; (d)-Protein"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-1e34114b63",
+        "sourceYear": 2021,
+        "sourceNumber": 141,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Plasmid pBR322 has PstI restriction enzyme site within gene $ \\mathrm{amp}^{\\mathrm{R}} $ that confers ampicillin resistance. If this enzyme is used for inserting a gene for $ \\beta $-galactoside production and the recombinant plasmid is inserted in an E.coli strain",
+        "options": {
+          "1": "the transformed cells will have the ability to resist ampicillin as well as produce $ \\beta $-galactoside.",
+          "2": "it will lead to lysis of host cell.",
+          "3": "it will be able to produce a novel protein with dual ability.",
+          "4": "it will not be able to confer ampicillin resistance to the host cell."
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-fd8ad45a53",
+        "sourceYear": 2021,
+        "sourceNumber": 153,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "The fruit fly has 8 chromosomes ( 2 n ) in each cell. During interphase of Mitosis if the number of chromosomes at $ \\mathrm { G } _ { 1 } $ phase is 8 , what would be the number of chromosomes after $ S $ phase?",
+        "options": {
+          "1": "16",
+          "2": "4",
+          "3": "32",
+          "4": "8"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-c74e81bcd8",
+        "sourceYear": 2021,
+        "sourceNumber": 178,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "During the process of gene amplification using PCR, if very high temperature is not maintained in the beginning, then which of the following step of PCR will be affected first?",
+        "options": {
+          "1": "Extension",
+          "2": "Denaturation",
+          "3": "Ligation",
+          "4": "Annealing"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2022-c74a4470ee",
+        "sourceYear": 2022,
+        "sourceNumber": 5,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "If a geneticist uses the blind approach for sequencing the whole genome of an organism, followed by assignment of function to different segments, the methodology adopted by him is called as:",
+        "options": {
+          "1": "Bioinformatics",
+          "2": "Sequence annotation",
+          "3": "Gene mapping",
+          "4": "Expressed sequence tags"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-9ce7765c86",
+        "sourceYear": 2023,
+        "sourceNumber": 144,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Match List I with List II : List I A. M Phase B. $ \\mathrm { G } _ { 2 } $ Phase C. Quiescent stage D. $ G _ { 1 } $ Phase List II I. Proteins are synthesized II. Inactive phase III. Interval between mitosis and initiation of DNA replication IV. Equational division Choose the correct answer from the options given below :",
+        "options": {
+          "1": "A-II, B-IV, C-I, D-III",
+          "2": "A-III, B-II, C-IV, D-I",
+          "3": "A-IV, B-II, C-I, D-III",
+          "4": "A-IV, B-I, C-II, D-III"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-f9be042434",
+        "sourceYear": 2023,
+        "sourceNumber": 152,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Match List I with List II with respect to human eye. List I A. Fovea B. Iris List II I. Visible coloured portion of eye that regulates diameter of pupil. II. External layer of eye formed of dense connective tissue. C. Blind spot III. Point of greatest visual acuity or resolution. D. Sclera IV. Point where optic nerve leaves the eyeball and photoreceptor cells are absent.",
+        "options": {
+          "1": "A-II, B-I, C-III, D-IV",
+          "2": "A-III, B-I, C-IV, D-II",
+          "3": "A-IV, B-III, C-II, D-I",
+          "4": "A-I, B-IV, C-III, D-II"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-5b5527925f",
+        "sourceYear": 2023,
+        "sourceNumber": 165,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Match List I with List II. List I A. Gene 'a' B. Gene 'y' C. Gene ' i ' D. Gene ' $ z $ ' List II I. $ \\beta $-galactosidase II. Transacetylase III. Permease IV. Repressor protein",
+        "options": {
+          "1": "A-III, B-I, C-IV, D-II",
+          "2": "A-II, B-I, C-IV, D-III",
+          "3": "A-II, B-III, C-IV, D-I",
+          "4": "A-III, B-IV, C-I, D-II"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-1977cf82af",
+        "sourceYear": 2023,
+        "sourceNumber": 188,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Which one of the following is the sequence on corresponding coding strand, if the sequence on mRNA formed is as follows 5' AUCGAUCGAUCGAUCGAUCG AUCG AUCG 3'?",
+        "options": {
+          "1": "3' TAGCTAGCTAGCTAGCTAGC TAGCTAGC 5",
+          "2": "5' UAGCUAGCUAGCUAGCUA GCUAGC UAGC 3",
+          "3": "3' UAGCUAGCUAGCUAGCUA GCUAGCUAGC 5",
+          "4": "5' ATCGATCGATCGATCGATCG ATCGATCG 3'"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-115f2a8436",
+        "sourceYear": 2024,
+        "sourceNumber": 104,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Given below are two statements: Statement I: When many alleles of a single gene govern a character, it is called polygenic inheritance. Statement II: In Polygenic inheritance, the effect of each allele is additive. In the light of the above statements, choose the correct answer from the options given below.",
+        "options": {
+          "1": "Statement I is true but Statement II is false",
+          "2": "Statement I is false but Statement II is true",
+          "3": "Both Statement I and Statement II are true",
+          "4": "Both Statement I and Statement II are false"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-b48b7a0ed3",
+        "sourceYear": 2024,
+        "sourceNumber": 122,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Match List-I with List-II : List-I A. Genetically engineered Human Insulin B. GM Cotton C. ADA Deficiency D. ELISA List-II I. Gene therapy II. E. coli III. Antigen-antibody interaction IV. Bacillus thuringiensis",
+        "options": {
+          "1": "A-III, B-II, C-IV, D-I",
+          "2": "A-II, B-I, C-IV, D-III",
+          "3": "A-IV, B-III, C-I, D-II",
+          "4": "A-II, B-IV, C-I, D-III"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-5ef187f3f6",
+        "sourceYear": 2024,
+        "sourceNumber": 127,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Match List-I with List-II: \\n\\n\\begin{tabular}{|l|l|l|l|}\\n\\hline\\n& List-I && List-II \\n\\hline\\nA. & Histones & I. & Loosely packed chromatin \\n\\hline\\nB. & Nucleosome & II. & Densely packed Chromatin \\n\\hline\\nC. & Euchromatin & III. & Positively charged basic proteins \\n\\hline\\nD. & Heterochromatin & IV. & \\begin{tabular}{l}DNA wrapped around histone\\ octamer\\end{tabular}\\n\\hline\\n\\end{tabular}\\n\\n",
+        "options": {
+          "1": "A-IV, B-III, C-II, D-I",
+          "2": "A-III, B-I, C-IV, D-II",
+          "3": "A-II, B-III, C-IV, D-I",
+          "4": "A-III, B-IV, C-I, D-II"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-e8acaf1214",
+        "sourceYear": 2024,
+        "sourceNumber": 128,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Given below are two statements: Statement I: Failure of segregation of chromatids during cell cycle resulting in the gain or loss of whole set of chromosome in an organism is known as aneuploidy. Statement II: Failure of cytokinesis after anaphase stage of cell division results in the gain or loss of a chromosome is called polyploidy. In the light of the above statements, choose the correct answer from the options given below:",
+        "options": {
+          "1": "Statement I is true but Statement II is false",
+          "2": "Statement I is false but Statement II is true",
+          "3": "Both Statement I and Statement II are true",
+          "4": "Both Statement I and Statement II are false"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-6f191e455f",
+        "sourceYear": 2024,
+        "sourceNumber": 130,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Match List-I with List-II: \\n\\n\\begin{tabular}{|l|l|l|l|}\\n\\hline\\n& List-I && List-II \\n\\hline\\nA. & Metacentric chromosome & I. & \\begin{tabular}{l}\\nChromosome has a terminal \\ncentromere\\n\\end{tabular}\\n\\n\\hline\\nB. & Sub-metacentric chromosome & II. & \\begin{tabular}{l}\\nMiddle centromere forming two equal \\narms of chromosome\\n\\end{tabular}\\n\\n\\hline\\nC. & Acrocentric chromosome & III. & \\begin{tabular}{l}\\nCentromere is slightly away from the \\nmiddle of chromosome resulting into \\ntwo unequal arms\\n\\end{tabular}\\n\\n\\hline\\nD. & Telocentric chromosome & IV. & \\begin{tabular}{l}\\nCentromere is situated close to its \\nend forming one extremely short and \\none very long arm\\n\\end{tabular}\\n\\n\\hline\\n\\end{tabular}\\n\\n",
+        "options": {
+          "1": "A-II, B-I, C-IV, D-III",
+          "2": "A-IV, B-I, C-II, D-III",
+          "3": "A-I, B-II, C-III, D-IV",
+          "4": "A-II, B-III, C-IV, D-I"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-69b443b87e",
+        "sourceYear": 2024,
+        "sourceNumber": 136,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Given below are two statements : Statement I: In the lac operon, the z gene codes for beta-galactosidase which is primarily the hydrolysis of lactose into galactose and glucose. Statement II: In addition to lactose, glucose or galactose can also induce lac operon. In the light of the above statements, choose the correct answer from the options given below",
+        "options": {
+          "1": "Statement I is true but Statement II is false",
+          "2": "Statement I is false but Statement II is true",
+          "3": "Both Statement I and Statement II are true",
+          "4": "Both Statement I and Statement II are false"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-19b8aa22bb",
+        "sourceYear": 2024,
+        "sourceNumber": 1,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Statement I: In a dicotyledonous leaf, the adaxial epidermis generally bears more stomata than the abaxial epidermis. Statement II: In a dicotyledonous leaf, the adaxially placed palisade parenchyma is made up of elongated cells, which are arranged vertically and parallel to each other. In the light of the above statements, choose the correct answer from the options given below:",
+        "options": {
+          "1": "Statement I is true but Statement II is false",
+          "2": "Statement I is false but Statement II is true",
+          "3": "Both Statement I and Statement II are true",
+          "4": "Both Statement I and Statement II are false"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-60d794ce28",
+        "sourceYear": 2024,
+        "sourceNumber": 154,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Match List-I with List-II: \\begin{tabular} { | l | l | l | l | } \\hline & List I & & List II \\ \\hline A. & Gene pool & I. & Stable within a generation \\ \\hline B. & Genetic drift & II. & Change in gene frequency by chance \\ \\hline C. & Gene flow & III. & Transfer of genes into or out of population \\ \\hline D & Gene frequency & IV. & Total number of genes and their alleles \\ \\hline \\end{tabular}",
+        "options": {
+          "1": "A-III, B-II, C-I, D-IV",
+          "2": "A-IV, B-II, C-III, D-I",
+          "3": "A-I, B-II, C-III, D-IV",
+          "4": "A-II, B-III, C-IV, D-I"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-529113681b",
+        "sourceYear": 2024,
+        "sourceNumber": 158,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Match List-I with List-II. \\begin{tabular} { | l | l | l | l | } \\hline & \\begin{tabular} { l } List-I \\ Event \\end{tabular} & & \\begin{tabular} { l } List-II \\ Stage of Prophase-I (Meiosis-I) \\end{tabular} \\ \\hline A. & Chiasmata formation & I. & Pachytene \\ \\hline B. & Crossing over & II. & Diakinesis \\ \\hline C. & Synaptonemal complex formation & III. & Diplotene \\ \\hline D. & Terminalisation of chiasmata & IV. & Zygotene \\ \\hline \\end{tabular}",
+        "options": {
+          "1": "A-III, B-I, C-IV, D-II",
+          "2": "A-II, B-I, C-III, D-IV",
+          "3": "A-III, B-I, C-II, D-IV",
+          "4": "A-II, B-III, C-IV, D-I"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-dffb01e897",
+        "sourceYear": 2024,
+        "sourceNumber": 1,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Match List-I with List-II. \\begin{tabular} { | l | l | l | l | } \\hline & List-I & & List-II \\ \\hline A. & Primary structure of protein & I. & Human haemoglobin \\ \\hline B. & Secondary structure of protein & II. & Disulphide bonds \\ \\hline C. & Tertiary structure of protein & III. & Polypeptide chain \\ \\hline D. & Quaternary structure of protein & IV. & Alpha helix and $ \\beta $ sheet \\ \\hline \\end{tabular}",
+        "options": {
+          "1": "A-III, B-IV, C-II, D-I",
+          "2": "A-III, B-II, C-I, D-IV",
+          "3": "A-I, B-III, C-II, D-IV",
+          "4": "A-IV, B-III, C-II, D-I"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-642e2512e1",
+        "sourceYear": 2024,
+        "sourceNumber": 162,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Select the restriction endonuclease enzymes whose restriction sites are present for the tetracycline resistance (tet ${}^{R}$) gene in the pBR322 cloning vector.",
+        "options": {
+          "1": "Bam HI and Sall",
+          "2": "Sal I and Pst I",
+          "3": "Pst I and Pvu I",
+          "4": "Pvu I and Bam HI"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-fb32c8bc1a",
+        "sourceYear": 2024,
+        "sourceNumber": 166,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Match List-I with List-II. \\begin{tabular} { | l | l | l | l | } \\hline & List-I & & List-II \\ \\hline A. & Cells are metabolically active and proliferate & I. & G $ _ { 2 } $ phase \\ \\hline B. & DNA replication takes place & II. & G $ _ { 1 } $ phase \\ \\hline C. & Proteins are synthesised & III. & Go phase \\ \\hline D. & Quiescent stage with metabolically active cells & IV. & S phase \\ \\hline \\end{tabular}",
+        "options": {
+          "1": "A-IV, B-II, C-III, D-I",
+          "2": "A-I, B-III, C-IV, D-II",
+          "3": "A-I, B-I, C-III, D-IV",
+          "4": "A-II, B-IV, C-I, D-III"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-62a848bb40",
+        "sourceYear": 2024,
+        "sourceNumber": 173,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Which of the following are correct about EcoRI? A. Cut the DNA with blunt end B. Cut the DNA with sticky end C. Recognise a specific palindromic sequence D. Cut the DNA between the base $ G $ and A when encounters the DNA sequence 'GAATTC' E. Exonuclease Choose the correct answer from the options given below:",
+        "options": {
+          "1": "B, C, E only",
+          "2": "A, D, E only",
+          "3": "A, C, D only",
+          "4": "B, C, D only"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-71268b3f40",
+        "sourceYear": 2024,
+        "sourceNumber": 180,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Match List-I with List-II: \\begin{tabular} { | l | l | l | l | } \\hline & List-I & & List-II \\ \\hline A. & Living Fossil & I. & Elongated canine teeth \\ \\hline B. & Connecting Link & II. & Vermiform appendix \\ \\hline C. & Vestigial Organ & III. & Echidna \\ \\hline D. & Atavism & IV. & Latimeria \\ \\hline \\end{tabular}",
+        "options": {
+          "1": "A-IV, B-III, C-II, D-I",
+          "2": "A-IV, B-II, C-III, D-I",
+          "3": "A-IV, B-III, C-I, D-II",
+          "4": "A-III, B-IV, C-I, D-II"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-08233ee1e8",
+        "sourceYear": 2024,
+        "sourceNumber": 186,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Match List-I with List-II relating to human female external genitalia. \\n\\n\\begin{tabular}{|l|l|l|l|}\\n\\hline\\n&\\begin{tabular}{l}List I \\ (Structures)\\end{tabular}&\\&\\begin{tabular}{l}List II \\ (Features)\\end{tabular}\\n\\hline\\nA.&Mons pubis&I.&A fleshy fold of tissue surrounding the vaginal opening\\n\\hline\\nB.&Clitoris&II.&Fatty cushion of cells covered by skin and hair\\n\\hline\\nC.&Hymen&III.&Tiny finger-like structure above labia minora\\n\\hline\\nD.&Labina majora&IV.&A thin membrane-like structure covering vaginal opening\\n\\hline\\n\\end{tabular}\\n\\n",
+        "options": {
+          "1": "A-II, B-III, C-IV, D-I",
+          "2": "A-IV, B-III, C-II, D-I",
+          "3": "A-I, B-IV, C-III, D-II",
+          "4": "A-II, B-III, C-I, D-IV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-f7e3f29a93",
+        "sourceYear": 2024,
+        "sourceNumber": 187,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Aneuploidy is a chromosomal disorder where chromosome number is not the exact of chromosomes, due to : A. Substitution B. Addition C. Deletion D. Translocation E. Inversion Choose the most appropriate answer from the options given below :",
+        "options": {
+          "1": "C and D only",
+          "2": "D and E only",
+          "3": "A and B only",
+          "4": "B and C only"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-e9761e3790",
+        "sourceYear": 2024,
+        "sourceNumber": 190,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Following are the steps involved in the process of PCR. A. Annealing B. Amplification ( $ \\sim 1 $ billion times) C. Denaturation D. Treatment with Taq polymerase and deoxynucleotides E. Extension Choose the correct sequence of steps of PCR from the options given below :",
+        "options": {
+          "1": "$ \\mathrm { C } \\rightarrow \\mathrm { A } \\rightarrow \\mathrm { D } \\rightarrow \\mathrm { E } \\rightarrow \\mathrm { B } $",
+          "2": "$ \\mathrm { A } \\rightarrow \\mathrm { B } \\rightarrow \\mathrm { E } \\rightarrow \\mathrm { D } \\rightarrow \\mathrm { C } $",
+          "3": "$ \\mathrm { A } \\rightarrow \\mathrm { C } \\rightarrow \\mathrm { E } \\rightarrow \\mathrm { D } \\rightarrow \\mathrm { B } $",
+          "4": "$ \\mathrm { D } \\rightarrow \\mathrm { B } \\rightarrow \\mathrm { E } \\rightarrow \\mathrm { C } \\rightarrow \\mathrm { A } $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-20a1cb5964",
+        "sourceYear": 2024,
+        "sourceNumber": 197,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Select the correct statements regarding mechanism of muscle contraction. A. It is initiated by a signal sent by CNS via sensory neuron. B. Neurotransmitter generates action potential in the sarcolemma. C. Increased $ \\mathrm { Ca } ^ { + + } $ level leads to the binding of calcium with troponin on action filaments. D. Masking of active site for actin is activated. E. Utilising the energy from ATP hydrolysis to form cross bridge.",
+        "options": {
+          "1": "B, C and E only",
+          "2": "C, D and E only",
+          "3": "A and D only",
+          "4": "B, D and E only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-2e1e932488",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "What is the distance between the two strands of the helix in the Double-helix structure of DNA?",
+        "options": {
+          "1": "A Approximately",
+          "2": "34 nm B Approximately",
+          "3": "0 nm C Approximately",
+          "4": "4 nm D Approximately 10 nm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-716b6df1f8",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "[NEET 2023 | Biology] Which enzyme is responsible for removing RNA primers during DNA replication?",
+        "options": {
+          "1": "DNA Polymerase I",
+          "2": "DNA Polymerase III",
+          "3": "DNA Ligase",
+          "4": "Primase"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-bc3af9971f",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Select the correct statement/s with respect to mechanism of sex determination in Grasshopper. (A) It is an example of female heterogamety. (B) Male produces two different types of gametes either with or without $\\mathrm{X}$ chromosome. (C) Total number of chromosomes (autosomes and sex chromosomes) is same in both males and females. (D) All eggs bear an additional $\\mathrm{X}$ chromosome besides the autosomes. Choose the correct answer from the options given below :",
+        "options": {
+          "1": "A (",
+          "2": "only B (",
+          "3": "and (",
+          "4": "only C ("
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-78e77ff2dd",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "What is the length of DNA double helix in a typical mammalian cell?",
+        "options": {
+          "1": "A Approximately 10â»â¶ m B Approximately",
+          "2": "34 nm C Approximately",
+          "3": "2 metres D Approximately",
+          "4": "6 Ã 10â¹ bp"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-c7df29c72a",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "What is the distance between two consecutive base pairs in a DNA double helix?",
+        "options": {
+          "1": "A Approximately",
+          "2": "2 metres B Approximately",
+          "3": "34 nm C Approximately",
+          "4": "36 mm D Approximately"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-a2f7e38645",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "[NEET 2020 | Biology] Proto-oncogenes become oncogenes by:",
+        "options": {
+          "1": "Deletion",
+          "2": "Mutation",
+          "3": "Transcription",
+          "4": "Translation"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-c842263b60",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Which scientist conducted an experiment with ${ }^{32} \\mathrm{P}$ and ${ }^{35} \\mathrm{~S}$ labelled phages for demonstrating that DNA is the genetic material?",
+        "options": {
+          "1": "A F. Griffith B O.T. Avery,",
+          "2": "M. MacLeod and M. McCarty C James",
+          "3": "Watson and F.H.",
+          "4": "Crick"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-73b91cc673",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In a cross in Drosophila , the heterozygous member with grey body (b + ) and long wings (vg + ) was crossed with black body and vestigial wings, the progeny had the following ratio grey vestigial 24: grey long 126: black long 26: black vestigial 124. What is the frequency of recombinants in the population?",
+        "options": {
+          "1": "A 1",
+          "2": "8 % B 1",
+          "3": "7 % C 1",
+          "4": "5 % D 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-09c7d59702",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "[NEET 2021 | Biology] Crossing over (exchange of segments between non-sister chromatids) occurs during:",
+        "options": {
+          "1": "Leptotene",
+          "2": "Zygotene",
+          "3": "Pachytene",
+          "4": "Diplotene"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-e66f28deae",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "What is the pitch of the helix in the Double-helix structure of DNA?",
+        "options": {
+          "1": "A Approximately",
+          "2": "34 nm B Approximately",
+          "3": "0 nm C Approximately",
+          "4": "4 nm D Approximately 10 nm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-9f658b7cab",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "The percentage of adenine in DNA isolated from human liver is observed to be 30.7%. What is the expected percentage of thymine, guanine, and cytosine?",
+        "options": {
+          "1": "A T = 1",
+          "2": "3%, G = 1",
+          "3": "3%, C = 3",
+          "4": "7% B T = 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-0c2f32de1b",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Which type of radiation causes DNA damage leading to neoplastic transformation?",
+        "options": {
+          "1": "A Ionizing radiations B Non-ionizing radiations C Both",
+          "2": "and",
+          "3": "D Neither",
+          "4": "nor"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-d2d2c4101e",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In Drosophila melanogaster , what percentage of recombination is shown between the genes white and yellow, and what percentage of linkage is shown between the genes white and miniature wing, respectively?",
+        "options": {
+          "1": "A 9",
+          "2": "7% and 6",
+          "3": "8%",
+          "4": "3% and 3"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-6338be60f4",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "The figure shows the experiment of T.H. Morgan on the linkage. If in cross-I, genes are tightly linked and in cross-II, genes are loosely linked then what will be the percentage of recombination produced in cross-I and cross-II respectively?",
+        "options": {
+          "1": "A 9",
+          "2": "7% and 6",
+          "3": "8%",
+          "4": "3% and 3"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-cdbcbe1750",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Select the correct statements about sickle cell anaemia. (A) There is a change in gene for beta globin. (B) In the beta globin, there is valine in the place of Lysine. (C) It is an example of point mutation. (D) In the normal gene $U$ is replaced by $A$. Choose the correct answer from the options given below:",
+        "options": {
+          "1": "A (",
+          "2": ", (",
+          "3": "and (",
+          "4": "only B ("
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-3effb8b495",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "[NEET 2017 | Biology] Which shows coiled RNA strand and protein units?",
+        "options": {
+          "1": "Bacteriophage",
+          "2": "Tobacco mosaic virus",
+          "3": "Measles virus",
+          "4": "Polio virus"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-6560c8b565",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Which of the following statements are correct? (A) Reproductive health refers to total well-being in all aspects of reproduction (B) Amniocentesis is legally banned for sex determination in India. (C) \"Saheli\" -a new oral contraceptive for females was developed in collaboration with ICMR (New Delhi) (D) Amniocentesis is used to determine genetic disorders and survivability of foetus. Choose the most appropriate answer from the options given below:",
+        "options": {
+          "1": "A (",
+          "2": ",(",
+          "3": "and (",
+          "4": "only B ("
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-b81cf03d28",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "[NEET 2016 | Biology] WRONG statement about gene I controlling ABO blood groups:",
+        "options": {
+          "1": "Gene I has three alleles",
+          "2": "Person has only two of three alleles",
+          "3": "IA and IB are codominant",
+          "4": "Allele i is dominant over IA and IB"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-af43d68136",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "[NEET 2022 | Biology] The technique used for DNA fingerprinting is:",
+        "options": {
+          "1": "PCR",
+          "2": "Southern Blotting",
+          "3": "Northern Blotting",
+          "4": "Western Blotting"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-b5956452b6",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In sea urchin DNA, which is double-stranded, 17% of the bases were shown to be cytosine. The percentages of the other three bases expected to be present in this DNA are",
+        "options": {
+          "1": "A G 34%, A 2",
+          "2": "5%, T 2",
+          "3": "5% B G 17%, A 1",
+          "4": "5%, T 3"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-02e87ffbfe",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Select the correct statements : (A) Platyhelminthes are triploblastic pseudocoelomate and bilaterally symmetrical organisms. (B) Ctenophores reproduce only sexually and fertilization is external. (C) In tapeworm, fertilization is internal but sexes are not separate. (D) Ctenophores are exclusively marine, diploblastic and bioluminescent organisms. (E) In sponges, fertilization is external and development is direct. Choose the correct answer from the options given below :",
+        "options": {
+          "1": "A (",
+          "2": "and (E) only B (",
+          "3": "and (",
+          "4": "only C ("
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-326d60cfb6",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "What is the length of E. coli DNA?",
+        "options": {
+          "1": "A Approximately",
+          "2": "2 metres B Approximately",
+          "3": "34 nm C Approximately",
+          "4": "36 mm D Approximately"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       }
     ],
     "Hard": [
@@ -2614,31 +4549,6 @@
         "placeholder": false
       },
       {
-        "id": "2021-M1-Q127",
-        "sourceYear": 2021,
-        "sourceNumber": 129,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Which of the following is a correct sequence of steps in a PCR (Polymerase Chain Reaction) ?",
-        "options": {
-          "1": "Denaturation, Annealing, Extension",
-          "2": "Denaturation, Extension, Annealing",
-          "3": "Extension, Denaturation, Annealing",
-          "4": "Annealing, Denaturation, Extension"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2021-M1-Q139",
         "sourceYear": 2021,
         "sourceNumber": 139,
@@ -2655,31 +4565,6 @@
         "correctOption": "3",
         "correctOptions": [
           "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q149",
-        "sourceYear": 2021,
-        "sourceNumber": 149,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Match List - I with List - II. List - I List - II Proteins are (a) S phase (i) synthesized (b) G2 phase (ii) Inactive phase Interval between (c) Quiescent stage (iii) mitosis and initiation of DNA replication (d) G1 phase (iv) DNA replication Choose the correct answer from the options given below. (a) (b) (c) (d)",
-        "options": {
-          "1": "(iii) (ii) (i) (iv)",
-          "2": "(iv) (ii) (iii) (i)",
-          "3": "(iv) (i) (ii) (iii)",
-          "4": "(ii) (iv) (iii) (i)"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -2714,31 +4599,6 @@
         "placeholder": false
       },
       {
-        "id": "2021-M1-Q160",
-        "sourceYear": 2021,
-        "sourceNumber": 160,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "With regard to insulin choose correct options. (a) C-peptide is not present in mature insulin. (b) The insulin produced by rDNA technology has C-peptide. (c) The pro-insulin has C-peptide. (d) A-peptide and B-peptide of insulin are interconnected by disulphide bridges. Choose the correct answer from the options given below.",
-        "options": {
-          "1": "(b) and (d) only",
-          "2": "(b) and (c) only",
-          "3": "(a), (c) and (d) only",
-          "4": "(a) and (d) only"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2021-M1-Q173",
         "sourceYear": 2021,
         "sourceNumber": 173,
@@ -2760,156 +4620,6 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q179",
-        "sourceYear": 2021,
-        "sourceNumber": 179,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "In a cross between a male and female, both heterozygous for sickle cell anaemia gene, what percentage of the progeny will be diseased ?",
-        "options": {
-          "1": "25%",
-          "2": "100%",
-          "3": "50%",
-          "4": "75%"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q17",
-        "sourceYear": 2022,
-        "sourceNumber": 117,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Match the following enzymes with their functions: Column-I Column-II (a) Restriction (i) joins the DNA fragments endonuclease (b) Restriction (ii) extends primers on genomic DNA template exonuclease (c) DNA ligase (iii) cuts DNA at specific position (d) Tag polymerase (iv) removes nucleotides from the ends of DNA Select the correct option from the following:",
-        "options": {
-          "1": "(a) - (iii), (b)- (i), (c)- (iv), (d)-(ii)",
-          "2": "(a) - (iii), (b)- (iv), (c)- (i), (d)-(ii)",
-          "3": "(a) - (iv), (b)- (iii), (c)- (i), (d)-(ii)",
-          "4": "(a) - (ii), (b)- (iv), (c)- (i), (d)-(iii)"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q34",
-        "sourceYear": 2022,
-        "sourceNumber": 134,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Match the following genera with their respective phylum : (a) Ophiura (i) Mollusca (b) Physalia (ii) Platyhelminthes (c) Pinctada (iii) Echinodermata (d) Planaria (iv) Coelenterata Select the correct option :",
-        "options": {
-          "1": "(a)-(iv), (b)-(i), (c)-(iii), (d)-(ii)",
-          "2": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
-          "3": "(a)-(i), (b)-(iii), (c)-(iv), (d)-(ii)",
-          "4": "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q60",
-        "sourceYear": 2022,
-        "sourceNumber": 155,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "From the following, identify the correct combination of salient features of Genetic Code",
-        "options": {
-          "1": "Universal, Non-ambiguous,Overlapping",
-          "2": "Degenerate, Overlapping, Commaless",
-          "3": "Universal, Ambiguous, Degenerate",
-          "4": "Degenerate, Non-overlapping, Non ambiguous"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q63",
-        "sourceYear": 2022,
-        "sourceNumber": 158,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "In which genetic condition, each cell in the affected person, has three sex chromosomes XXY?",
-        "options": {
-          "1": "Thalassemia",
-          "2": "Kleinfelter's Syndrome",
-          "3": "Phenylketonuria",
-          "4": "Turner's Syndrome"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q95",
-        "sourceYear": 2022,
-        "sourceNumber": 190,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "In RNAi, the genes are silenced using :",
-        "options": {
-          "1": "ds – RNA",
-          "2": "ss - DNA",
-          "3": "ss – RNA",
-          "4": "ds – DNA"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
       },
@@ -3312,6 +5022,380 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
+      },
+      {
+        "id": "hf2016-935c5c5a1e",
+        "sourceYear": 2016,
+        "sourceNumber": 146,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Match the stages of meiosis in column I to their characteristic feature in column II and select the correct option using the codes given below: \\n\\n\\begin{tabular}{|l|l|}\\n\\hline\\n\\multicolumn{1}{|c|}{Column I} & \\multicolumn{1}{c|}{Column II}\\n\\hline\\na. Pachytene & \\begin{tabular}{l}i. \\begin{tabular}{l}Paring of \\ homologous \\ chromosomes\\end{tabular}\\n\\hline\\nb. Metaphase I\\n\\hline\\nc. Diakinesis\\n\\hline ii. \\begin{tabular}{l}Termination of \\ chiasmata\\end{tabular}\\n\\hline\\nd. Zygotene\\n\\begin{tabular}{l}iii. Crossing over takes \\ place\\end{tabular}\\n\\hline\\n\\end{tabular}\\n\\begin{tabular}{l}iv. Chromosomes align \\ at equatorial plate\\end{tabular}\\n\\hline\\n\\end{tabular}\\n\\n\\n\\nCodes:\\n\\begin{tabular}{ccccc}\\n& a & b & c & d\\n(1) & (iii) & (iv) & (ii) & (i)\\n(2) & (i) & (iv) & (ii) & (iii)\\n(3) & (ii) & (iv) & (iii) & (i)\\n(4) & (iv) & (iii) & (ii) & (i)\\n\\end{tabular}\\n\\n",
+        "options": {
+          "1": "(iii) (iv) (ii) (i)",
+          "2": "(i) (iv) (ii) (iii)",
+          "3": "(ii) (iv) (iii) (i)",
+          "4": "(iv) (iii) (ii) (i)"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-46e14dc536",
+        "sourceYear": 2019,
+        "sourceNumber": 166,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Match the following genes of the Lac operon with their respective products: (a) i gene (i) $ \\beta $-galactosidase (b) $ z $ gene (ii) Permease (c) a gene (iii) Repressor (d) y gene (iv) Transacetylase Select the correct option. \\begin{tabular} { l l l l l } & (a) & (b) & (c) & (d) \\ (1) & (i) & (iii) & (ii) & (iv) \\ (2) & (iii) & (i) & (ii) & (iv) \\ (3) & (iii) & (i) & (iv) & (ii) \\ $ ( 4 ) $ & (iii) & (iv) & (i) & (ii) \\end{tabular}",
+        "options": {
+          "1": "(i) (iii) (ii) (iv)",
+          "2": "(iii) (i) (ii) (iv)",
+          "3": "(iii) (i) (iv) (ii)",
+          "4": "(iii) (iv) (i) (ii)"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-db8e9765ef",
+        "sourceYear": 2020,
+        "sourceNumber": 55,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Match the following columns and select the correct option. \\begin{tabular}{|c|c|c|c|} \\hline & \\multicolumn{2}{|l|}{Column - I} & Column - II \\ \\hline (a) & Bt cotton & (i) & Gene therapy \\ \\hline (b) & Adenosine deaminase deficiency & (ii) & Cellular defence \\ \\hline (c) & RNAi & (iii) & Detection of HIV infection \\ \\hline (d) & PCR & (iv) & \\begin{tabular}{l} Bacillus \\ thuringiensis \\end{tabular} \\ \\hline & (a) (b) (c) & (d) & \\ \\hline (1) & (iv) (i) (ii) & (iii) & \\ \\hline (2) & (iii) (ii) (i) & (iv) & \\ \\hline (3) & (ii) (iii) (iv) & (i) & \\ \\hline (4) & (i) (ii) (iii) & (iv) & \\ \\hline \\end{tabular}",
+        "options": {
+          "1": "(iv) (i) (ii) (iii)",
+          "2": "(iii) (ii) (i) (iv)",
+          "3": "(ii) (iii) (iv) (i)",
+          "4": "(i) (ii) (iii) (iv)"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-f4c2036280",
+        "sourceYear": 2021,
+        "sourceNumber": 7,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Match List - I with List - II. \\begin{tabular} { | c | l | c | l | } \\hline \\multicolumn{2}{|c|} { List - I } & \\multicolumn{2}{c|} { List - II } \\ \\hline (a) & Protoplast fusion & (i) & Totipotency \\ \\hline (b) & Plant tissue culture & (ii) & Pomato \\ \\hline (c) & Meristem culture & (iii) & Somaclones \\ \\hline (d) & Micropropagation & (iv) & Virus free plants \\ \\hline \\end{tabular} Choose the correct answer from the options given below. \\begin{tabular} { l l l l l } & (a) & (b) & (c) & (d) \\ (1) & (ii) & (i) & (iv) & (iii) \\ ( 2 ) & (iii) & (iv) & (i) & (ii) \\ ( 3 ) & (iv) & (iii) & (ii) & (i) \\ ( 4 ) & (iii) & (iv) & (ii) & (i) \\end{tabular}",
+        "options": {
+          "1": "(ii) (i) (iv) (iii)",
+          "2": "(iii) (iv) (i) (ii)",
+          "3": "(iv) (iii) (ii) (i)",
+          "4": "(iii) (iv) (ii) (i)"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-bd8d9f7a15",
+        "sourceYear": 2021,
+        "sourceNumber": 145,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Match List - I with List - II. \\n\\n\\begin{tabular}{|l|l|l|l|}\\n\\hline\\n\\multicolumn{2}{|c|}{List - I} & \\multicolumn{2}{c|}{List - II}\\n\\hline\\n(a) & S phase & (i) & \\begin{tabular}{l}Proteins are \\ synthesized\\end{tabular}\\n\\hline\\n(b) & G2 phase & (ii) & Inactive phase\\n\\hline\\n(c) & Quiescent stage & (iii) & \\begin{tabular}{l}Interval between \\ mitosis and initiation \\ of DNA replication\\end{tabular}\\n\\hline\\n(d) & G1 phase & (iv) & DNA replication\\n\\hline\\n\\end{tabular}\\n\\n",
+        "options": {
+          "1": "(a) (iv) (b) (ii) (c) (iii) (d) (i)",
+          "2": "(a) (iv) (b) (i) (c) (ii) (d) (iii)",
+          "3": "(a) (ii) (b) (iv) (c) (iii) (d) (i)",
+          "4": "(a) (iii) (b) (ii) (c) (i) (d) (iv)"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-df1049e105",
+        "sourceYear": 2023,
+        "sourceNumber": 123,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Given below are two statements: Statement I : The forces generated by transpiration can lift a xylem-sized column of water over 130 meters height. Statement II : Transpiration cools leaf surfaces sometimes 10 to 15 degrees, by evaporative cooling. In the light of the above statements, choose the most appropriate answer from the options given below :",
+        "options": {
+          "1": "Statement I is incorrect but Statement II is correct.",
+          "2": "Both Statement I and Statement II are correct.",
+          "3": "Both Statement I and Statement II are incorrect.",
+          "4": "Statement I is correct but Statement II is incorrect."
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-27583ed55b",
+        "sourceYear": 2023,
+        "sourceNumber": 168,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Given below are two statements: one is labelled as Assertion $ \\mathbf { A } $ and the other is labelled as Reason R. Assertion A: Endometrium is necessary for implantation of blastocyst. Reason R: In the absence of fertilization, the corpus luteum degenerates that causes disintegration of endometrium. In the light of the above statements, choose the correct answer from the options given below:",
+        "options": {
+          "1": "$ \\mathbf { A } $ is false but $ \\mathbf { R } $ is true.",
+          "2": "Both $ \\mathbf { A } $ and $ \\mathbf { R } $ are true and $ \\mathbf { R } $ is the correct explanation of $ \\mathbf { A } $.",
+          "3": "Both $ \\mathbf { A } $ and $ \\mathbf { R } $ are true but $ \\mathbf { R } $ is NOT the correct explanation of $ \\mathbf { A } $.",
+          "4": "$ \\mathbf { A } $ is true but $ \\mathbf { R } $ is false."
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-0bbe7a6a7c",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "DNA replication is",
+        "options": {
+          "1": "Semi-conservative",
+          "2": "Conservative",
+          "3": "Dispersive only",
+          "4": "Non-conservative"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-80aa866c1d",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Okazaki fragments are joined by",
+        "options": {
+          "1": "DNA ligase",
+          "2": "Helicase",
+          "3": "Primase",
+          "4": "Topoisomerase"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-89344e5fba",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In lac operon, lactose acts as",
+        "options": {
+          "1": "Inducer",
+          "2": "Repressor",
+          "3": "Corepressor",
+          "4": "Operator"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-242d1e104f",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "PCR was developed by",
+        "options": {
+          "1": "Kary Mullis",
+          "2": "Herbert Boyer",
+          "3": "Watson",
+          "4": "Alec Jeffreys"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-519e793bfc",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "DNA replication is (drill 25)",
+        "options": {
+          "1": "Semi-conservative",
+          "2": "Conservative",
+          "3": "Dispersive only",
+          "4": "Non-conservative"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-50b9d87985",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Okazaki fragments are joined by (drill 26)",
+        "options": {
+          "1": "DNA ligase",
+          "2": "Helicase",
+          "3": "Primase",
+          "4": "Topoisomerase"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-f4d9599bae",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In lac operon, lactose acts as (drill 27)",
+        "options": {
+          "1": "Inducer",
+          "2": "Repressor",
+          "3": "Corepressor",
+          "4": "Operator"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-e2cd068505",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "PCR was developed by (drill 28)",
+        "options": {
+          "1": "Kary Mullis",
+          "2": "Herbert Boyer",
+          "3": "Watson",
+          "4": "Alec Jeffreys"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
       }
     ]
   },

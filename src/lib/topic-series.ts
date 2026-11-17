@@ -55,8 +55,8 @@ function curateBank(bank: TopicBankFile): TopicBankFile {
   };
   const gaps = [...(bank.gaps || [])];
   for (const d of ["Easy", "Medium", "Hard"] as const) {
-    if (counts[d] < 10) {
-      gaps.push(`${d}: have ${counts[d]} clean items (need 10+ to start)`);
+    if (counts[d] < 50) {
+      gaps.push(`${d}: have ${counts[d]} clean items (need 50+)`);
     }
   }
   return {

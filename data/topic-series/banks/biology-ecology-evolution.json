@@ -3,9 +3,9 @@
   "subject": "Biology",
   "topic": "Ecology & Evolution",
   "counts": {
-    "Easy": 15,
-    "Medium": 14,
-    "Hard": 14
+    "Easy": 50,
+    "Medium": 50,
+    "Hard": 50
   },
   "questions": {
     "Easy": [
@@ -110,31 +110,6 @@
         "placeholder": false
       },
       {
-        "id": "2020-E1-Q69",
-        "sourceYear": 2020,
-        "sourceNumber": 149,
-        "subject": "Biology",
-        "topic": "Ecology & Evolution",
-        "difficulty": "Easy",
-        "stem": "In relation to Gross primary productivity and Net primary productivity of an ecosystem, which one of the following statements is correct ?",
-        "options": {
-          "1": "Gross primary productivity is always less than net primary productivity.",
-          "2": "Gross primary productivity is always more than net primary productivity.",
-          "3": "Gross primary productivity and Net primary productivity are one and same.",
-          "4": "There is no relationship between Gross primary productivity and Net primary productivity. 7 E1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2020-E1-Q134",
         "sourceYear": 2020,
         "sourceNumber": 179,
@@ -176,31 +151,6 @@
         "correctOption": "1",
         "correctOptions": [
           "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q198",
-        "sourceYear": 2021,
-        "sourceNumber": 198,
-        "subject": "Biology",
-        "topic": "Ecology & Evolution",
-        "difficulty": "Easy",
-        "stem": "Match List - I with List - II. List - I List - II Selection of resistant Adaptive varieties due to excessive (a) (i) radiation use of herbicides and pesticides Convergent Bones of forelimbs in Man (b) (ii) evolution and Whale Divergent Wings of Butterfly and (c) (iii) evolution Bird Evolution by (d) anthropo- (iv) Darwin Finches genic action Choose the correct answer from the options given below. (a) (b) (c) (d)",
-        "options": {
-          "1": "(iv) (iii) (ii) (i)",
-          "2": "(iii) (ii) (i) (iv)",
-          "3": "(ii) (i) (iv) (iii)",
-          "4": "(i) (iv) (iii) (ii)"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -335,43 +285,17 @@
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q126",
-        "sourceYear": 2025,
-        "sourceNumber": 130,
+        "id": "hf2018-336909e740",
+        "sourceYear": 2018,
+        "sourceNumber": 156,
         "subject": "Biology",
         "topic": "Ecology & Evolution",
-        "difficulty": "Easy",
-        "stem": "Tropical regions show greatest level of species richness because A. Tropical latitudes have remained relatively undisturbed for millions of years, hence more time was available for species diversification. B. Tropical environments are more seasonal. C. More solar energy is available in tropics. D. Constant environments promote niche specialization. E. Tropical environments are constant and predictable. - 55 - NEET (UG)-2024 (Code-R1) Choose the correct answer from the options given below.",
+        "stem": "In a growing population of a country",
         "options": {
-          "1": "A and B only",
-          "2": "A, B and E only",
-          "3": "A, B and D only",
-          "4": "A, C, D and E only"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q191",
-        "sourceYear": 2025,
-        "sourceNumber": 192,
-        "subject": "Biology",
-        "topic": "Ecology & Evolution",
-        "difficulty": "Easy",
-        "stem": "Given below are two statements: Statement I: Gause's competitive exclusion principle states that two closely related species competing for different resources cannot exist indefinitely. Statement II: According to Gause's principle, during competition, the inferior will be eliminated. This may be true if resources are limiting. In the light of the above statements, choose the correct answer from the options given below :",
-        "options": {
-          "1": "Both Statement I and Statement II are false.",
-          "2": "Statement I is true but Statement II is false.",
-          "3": "Statement I is false but Statement II is true.",
-          "4": "Both Statement I and Statement II are true."
+          "1": "reproductive and pre-reproductive individuals are equal in number.",
+          "2": "reproductive individuals are less than the post-reproductive individuals.",
+          "3": "pre-reproductive individuals are more than the reproductive individuals.",
+          "4": "pre-reproductive individuals are less than the reproductive individuals."
         },
         "correctOption": "3",
         "correctOptions": [
@@ -381,8 +305,938 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-ccaad941a4",
+        "sourceYear": 2019,
+        "sourceNumber": 106,
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Which one of the following is not a method of in situ conservation of biodiversity?",
+        "options": {
+          "1": "Biosphere Reserve",
+          "2": "Wildlife Sanctuary",
+          "3": "Botanical Garden",
+          "4": "Sacred Grove"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-d717ed55fc",
+        "sourceYear": 2020,
+        "sourceNumber": 1,
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Which of the following is not an attribute of a population?",
+        "options": {
+          "1": "Sex ratio",
+          "2": "Natality",
+          "3": "Mortality",
+          "4": "Species interaction"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-8393b70dcc",
+        "sourceYear": 2020,
+        "sourceNumber": 39,
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Embryological support for evolution was disapproved by :",
+        "options": {
+          "1": "Karl Ernst von Baer",
+          "2": "Alfred Wallace",
+          "3": "Charles Darwin",
+          "4": "Oparin"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-8d7f4cb350",
+        "sourceYear": 2021,
+        "sourceNumber": 123,
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "The factor that leads to Founder effect in a population is :",
+        "options": {
+          "1": "Genetic recombination",
+          "2": "Mutation",
+          "3": "Genetic drift",
+          "4": "Natural selection"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-827411e834",
+        "sourceYear": 2024,
+        "sourceNumber": 140,
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Consider the pyramid of energy of an ecosystem given below: If $T_{4}$ is equivalent to 1000 J, what is the value at $T_{1}$?",
+        "options": {
+          "1": "$\\frac{10000}{10}\\mathrm{~J}$",
+          "2": "$\\frac{10000}{10}\\times4\\mathrm{~J}$",
+          "3": "$10,000\\mathrm{~J}$",
+          "4": "$10,00,000\\mathrm{~J}$"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-6ddd2e7eac",
+        "sourceYear": 2024,
+        "sourceNumber": 143,
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Which one of the following is not a limitation of ecological pyramids?",
+        "options": {
+          "1": "Saprophytes are not given any place in ecological pyramids",
+          "2": "It assumes a simple food chain, that almost never exists in nature",
+          "3": "It accommodates a food web",
+          "4": "It does not take into account the same species belonging to two or more trophic levels"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-f38e738d2f",
+        "sourceYear": 2024,
+        "sourceNumber": 147,
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "When will the population density increase, under special conditions? When the number of :",
+        "options": {
+          "1": "Deaths exceeds number of births and also number of emigrants equals number of immigrants.",
+          "2": "Births plus number of immigrants equals number of deaths plus number of emigrants.",
+          "3": "Births plus number of emigrants is more than the number of deaths plus number of immigrants.",
+          "4": "Births plus number of immigrants is more than the sum of number of deaths and number of emigrants."
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-14e9b3c01e",
+        "sourceYear": 2024,
+        "sourceNumber": 196,
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "What do ' $ a $ ' and ' $ b $ ' represent in the following population growth curve?",
+        "options": {
+          "1": "a' represents exponential growth when responses are not limiting the growth; and 'b' represents logistic growth when responses are limiting the growth.",
+          "2": "a' represents logistic growth when responses are not limiting the growth; 'b' represents exponential growth when responses are limiting the growth.",
+          "3": "$ a $ ' represents carrying capacity and ' $ b $ ' shows logistic growth when responses are limiting the growth.",
+          "4": "'a' represents exponential growth when responses are not limiting the growth and 'b' shows carrying capacity."
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-4aee93c5ca",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "[NEET 2021 | Biology] According to Lindemann's 10% law, if a herbivore gets 100 J of energy, how much energy will be available to a primary carnivore?",
+        "options": {
+          "1": "100 J",
+          "2": "10 J",
+          "3": "1 J",
+          "4": "50 J"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-779419b26f",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "[NEET 2019 | Biology] Which is a threatened species?",
+        "options": {
+          "1": "Red panda",
+          "2": "Mango",
+          "3": "Lantana",
+          "4": "Sal"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-4e4eb4708b",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "[NEET 2016 | Biology] Which is related to ex-situ conservation?",
+        "options": {
+          "1": "Wildlife sanctuaries",
+          "2": "Botanical gardens",
+          "3": "National parks",
+          "4": "Biosphere reserves"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-13d785f360",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "[NEET 2021 | Biology] The forelimbs of whale, bat, cheetah, and human are examples of:",
+        "options": {
+          "1": "Analogous organs",
+          "2": "Homologous organs",
+          "3": "Vestigial organs",
+          "4": "Adaptive radiation"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-b7b9779ae4",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "[NEET 2023 | Biology] Which of the following is an example of in-situ conservation?",
+        "options": {
+          "1": "Zoological parks",
+          "2": "Botanical gardens",
+          "3": "Seed banks",
+          "4": "Biosphere reserves"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-fee76ce411",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Pyramid of energy is always",
+        "options": {
+          "1": "Upright",
+          "2": "Inverted",
+          "3": "Spindle",
+          "4": "None"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-081c02bd7c",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Primary consumers are",
+        "options": {
+          "1": "Herbivores",
+          "2": "Carnivores",
+          "3": "Decomposers only",
+          "4": "Producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-f1dfc01fb4",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Pyramid of energy is always (drill 37)",
+        "options": {
+          "1": "Upright",
+          "2": "Inverted",
+          "3": "Spindle",
+          "4": "None"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-ee3f3168d5",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Primary consumers are (drill 40)",
+        "options": {
+          "1": "Herbivores",
+          "2": "Carnivores",
+          "3": "Decomposers only",
+          "4": "Producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-c8bf8cda9f",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Pyramid of energy is always (drill 57)",
+        "options": {
+          "1": "Upright",
+          "2": "Inverted",
+          "3": "Spindle",
+          "4": "None"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-ab0d15bffb",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Primary consumers are (drill 60)",
+        "options": {
+          "1": "Herbivores",
+          "2": "Carnivores",
+          "3": "Decomposers only",
+          "4": "Producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-764373ce9e",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Pyramid of energy is always (drill 77)",
+        "options": {
+          "1": "Upright",
+          "2": "Inverted",
+          "3": "Spindle",
+          "4": "None"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-072a1c5b62",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Primary consumers are (drill 80)",
+        "options": {
+          "1": "Herbivores",
+          "2": "Carnivores",
+          "3": "Decomposers only",
+          "4": "Producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-57dd5cfefe",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Pyramid of energy is always (drill 97)",
+        "options": {
+          "1": "Upright",
+          "2": "Inverted",
+          "3": "Spindle",
+          "4": "None"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-fa701c7520",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Primary consumers are (drill 100)",
+        "options": {
+          "1": "Herbivores",
+          "2": "Carnivores",
+          "3": "Decomposers only",
+          "4": "Producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-cd27dfcad7",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Pyramid of energy is always (drill 117)",
+        "options": {
+          "1": "Upright",
+          "2": "Inverted",
+          "3": "Spindle",
+          "4": "None"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-d44b8aa349",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Primary consumers are (drill 120)",
+        "options": {
+          "1": "Herbivores",
+          "2": "Carnivores",
+          "3": "Decomposers only",
+          "4": "Producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-1b8f8e371b",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Hardy–Weinberg equilibrium assumes (drill 139)",
+        "options": {
+          "1": "No selection, no mutation, random mating",
+          "2": "Strong selection only",
+          "3": "Gene flow only",
+          "4": "Small population"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-0b09f3ac20",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Pyramid of energy is always (drill 157)",
+        "options": {
+          "1": "Upright",
+          "2": "Inverted",
+          "3": "Spindle",
+          "4": "None"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-65d6b6cd2a",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Primary consumers are (drill 160)",
+        "options": {
+          "1": "Herbivores",
+          "2": "Carnivores",
+          "3": "Decomposers only",
+          "4": "Producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-0f1c5c3ac1",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Hotspots of biodiversity in India include (drill 178)",
+        "options": {
+          "1": "Western Ghats",
+          "2": "Thar desert only",
+          "3": "Indo-Gangetic plain only",
+          "4": "Deccan plateau only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-4ae4c6ad8e",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Hardy–Weinberg equilibrium assumes (drill 199)",
+        "options": {
+          "1": "No selection, no mutation, random mating",
+          "2": "Strong selection only",
+          "3": "Gene flow only",
+          "4": "Small population"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-43e3029dd3",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 1: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-24e9f234da",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 2: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-81db69c41d",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 3: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-b327e3f8f8",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 4: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-f52d6b29bc",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 5: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-e9986396dd",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 6: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-34a2ccd114",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 7: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-238dbfba4c",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 8: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       }
     ],
     "Medium": [
@@ -478,31 +1332,6 @@
         "correctOption": "4",
         "correctOptions": [
           "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q89",
-        "sourceYear": 2020,
-        "sourceNumber": 169,
-        "subject": "Biology",
-        "topic": "Ecology & Evolution",
-        "difficulty": "Medium",
-        "stem": "Match the trophic levels with their correct species examples in grassland ecosystem. (a) Fourth trophic level (i) Crow (b) Second trophic level (ii) Vulture (c) First trophic level (iii) Rabbit (d) Third trophic level (iv) Grass Select the correct option : (a) (b) (c) (d)",
-        "options": {
-          "1": "(iii) (ii) (i) (iv)",
-          "2": "(iv) (iii) (ii) (i)",
-          "3": "(i) (ii) (iii) (iv)",
-          "4": "(ii) (iii) (iv) (i) 1 G1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -687,18 +1516,17 @@
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q105",
-        "sourceYear": 2025,
-        "sourceNumber": 109,
+        "id": "hf2018-ae737f6e40",
+        "sourceYear": 2018,
+        "sourceNumber": 115,
         "subject": "Biology",
         "topic": "Ecology & Evolution",
-        "difficulty": "Medium",
-        "stem": "List of endangered species was released by",
+        "stem": "What type of ecological pyramid would be obtained with the following data? Secondary consumer : 120 g Primary consumer : 60 g Primary producer : 10 g",
         "options": {
-          "1": "WWF",
-          "2": "FOAM",
-          "3": "IUCN",
-          "4": "GEAC"
+          "1": "Upright pyramid of numbers",
+          "2": "Pyramid of energy",
+          "3": "Inverted pyramid of biomass",
+          "4": "Upright pyramid of biomass"
         },
         "correctOption": "3",
         "correctOptions": [
@@ -708,22 +1536,75 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       },
       {
-        "id": "2025-INTERIM-Q137",
-        "sourceYear": 2025,
-        "sourceNumber": 140,
+        "id": "hf2019-e4cb05e8e2",
+        "sourceYear": 2019,
+        "sourceNumber": 146,
         "subject": "Biology",
         "topic": "Ecology & Evolution",
-        "difficulty": "Medium",
-        "stem": "Match List I with List II List I List II A. Robert May I. Species-Area relationship B. Alexander von Humboldt II. Long term ecosystem experiment using out door plots C. Paul Ehrlich III. Global species diversity at about 7 million D. David Tilman IV. Rivet popper hypothesis Choose the correct answer from the options given below:",
+        "stem": "From evolutionary point of view, retention of the female gametophyte with developing young embryo on the parent sporophyte for some time, is first observed in:",
         "options": {
-          "1": "A-III, B-I, C-IV, D-II",
-          "2": "A-I, B-III, C-II, D-IV",
-          "3": "A-III, B-IV, C-II, D-I",
-          "4": "A-II, B-III, C-I, D-IV"
+          "1": "Liverworts",
+          "2": "Mosses",
+          "3": "Pteridophytes",
+          "4": "Gymnosperms"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-4691349faf",
+        "sourceYear": 2024,
+        "sourceNumber": 155,
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Which evolutionary phenomenon is depicted by the sketch given in figure",
+        "options": {
+          "1": "image_833.png",
+          "2": "image_834.png",
+          "3": "image_835.png",
+          "4": "(1) Artificial selection (2) Genetic drift (3) Convergent evolution (4) Adaptive radiation"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-6967d619a8",
+        "sourceYear": 2024,
+        "sourceNumber": 165,
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Match List-I with List-II with respect to convergent evolution: \\begin{tabular} { | l | l | l | l | } \\hline & List-I & & List-II \\ \\hline A. & Lemur & I. & Flying phalanger \\ \\hline B. & Bobcat & II. & Numbat \\ \\hline C. & Anteater & III. & Spotted cuscus \\ \\hline D. & Flying squirrels & IV. & Tasmanian tiger cat \\ \\hline \\end{tabular}",
+        "options": {
+          "1": "A-III, B-IV, C-II, D-I",
+          "2": "A-III, B-II, C-IV, D-I",
+          "3": "A-IV, B-III, C-II, D-I",
+          "4": "A-IV, B-II, C-III, D-I"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -733,8 +1614,850 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-20e68a5e74",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "[NEET 2020 | Biology] The logistic growth model is represented by the equation:",
+        "options": {
+          "1": "dN/dt = rN",
+          "2": "dN/dt = rN(K−N)/K",
+          "3": "N = N₀eʳᵗ",
+          "4": "N = K/(1+e^(−rt))"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-f489e83a65",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "[NEET 2018 | Biology] Which ecological pyramid is always upright (never inverted)?",
+        "options": {
+          "1": "Pyramid of numbers",
+          "2": "Pyramid of biomass",
+          "3": "Pyramid of energy",
+          "4": "All can be inverted"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-8ca1ebfa80",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "[NEET 2016 | Biology] Correct statement:",
+        "options": {
+          "1": "Mycorrhizae are commensalism",
+          "2": "Lichen is mutualism",
+          "3": "Colonisation of bare rock is primary succession",
+          "4": "Predation is symbiosis"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-3a09103049",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "According to the Central Pollution Control Board PM 2.5 are responsible for causing the greatest harm to human health. PM 2.5 stands for",
+        "options": {
+          "1": "A Particulate matter which are",
+          "2": "5 micrometers or less in diameter B Particulate matter which are",
+          "3": "5 micrometers or more in diameter C Particulate matter which are",
+          "4": "5 nanometers or less in diameter D Particulate matter which are"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-cd5c083519",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Based on a 10% law of energy transfer, identify values for A, B, and C in the figure given below.",
+        "options": {
+          "1": "A A B C 10",
+          "2": "1",
+          "3": "01 B A B C 100 10 1 C A B C 100 10",
+          "4": "1 D A B C 1000 100 10"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-a02031a079",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "[NEET 2020 | Biology] Which is NOT a functional unit of ecosystem?",
+        "options": {
+          "1": "Energy flow",
+          "2": "Decomposition",
+          "3": "Productivity",
+          "4": "Stratification"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-a7a9cbf530",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "India covers the world land area of ________ and contributes the global diversity of ________.",
+        "options": {
+          "1": "A 4 % , Â 8 %",
+          "2": "1 % , Â",
+          "3": "4",
+          "4": "4 % ,"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-f2684d1ec2",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "[NEET 2020 | Biology] Which of the following does NOT affect Hardy-Weinberg equilibrium?",
+        "options": {
+          "1": "Mutation",
+          "2": "Natural selection",
+          "3": "Large population size with random mating",
+          "4": "Gene flow"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-b8a7ebd772",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "[NEET 2016 | Biology] Miller and Urey's experiment demonstrated the abiotic synthesis of amino acids from:",
+        "options": {
+          "1": "O₂, N₂, H₂O, CO₂",
+          "2": "CH₄, NH₃, H₂O, H₂",
+          "3": "CO₂, H₂, N₂, HCN",
+          "4": "H₂O, CH₄, O₂, N₂"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-690372206e",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Hotspots of biodiversity in India include",
+        "options": {
+          "1": "Western Ghats",
+          "2": "Thar desert only",
+          "3": "Indo-Gangetic plain only",
+          "4": "Deccan plateau only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-967e85c481",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Hotspots of biodiversity in India include (drill 38)",
+        "options": {
+          "1": "Western Ghats",
+          "2": "Thar desert only",
+          "3": "Indo-Gangetic plain only",
+          "4": "Deccan plateau only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-95835a9450",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Hotspots of biodiversity in India include (drill 58)",
+        "options": {
+          "1": "Western Ghats",
+          "2": "Thar desert only",
+          "3": "Indo-Gangetic plain only",
+          "4": "Deccan plateau only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-9df0b01dce",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Hotspots of biodiversity in India include (drill 78)",
+        "options": {
+          "1": "Western Ghats",
+          "2": "Thar desert only",
+          "3": "Indo-Gangetic plain only",
+          "4": "Deccan plateau only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-74bf1bd678",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Hotspots of biodiversity in India include (drill 98)",
+        "options": {
+          "1": "Western Ghats",
+          "2": "Thar desert only",
+          "3": "Indo-Gangetic plain only",
+          "4": "Deccan plateau only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-f1bcb5f0a5",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Hotspots of biodiversity in India include (drill 118)",
+        "options": {
+          "1": "Western Ghats",
+          "2": "Thar desert only",
+          "3": "Indo-Gangetic plain only",
+          "4": "Deccan plateau only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-cb2237f1c7",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Pyramid of energy is always (drill 137)",
+        "options": {
+          "1": "Upright",
+          "2": "Inverted",
+          "3": "Spindle",
+          "4": "None"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-5b23fabc12",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Primary consumers are (drill 140)",
+        "options": {
+          "1": "Herbivores",
+          "2": "Carnivores",
+          "3": "Decomposers only",
+          "4": "Producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-c25dec3c5f",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Hotspots of biodiversity in India include (drill 158)",
+        "options": {
+          "1": "Western Ghats",
+          "2": "Thar desert only",
+          "3": "Indo-Gangetic plain only",
+          "4": "Deccan plateau only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-e58f5c4035",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Hardy–Weinberg equilibrium assumes (drill 179)",
+        "options": {
+          "1": "No selection, no mutation, random mating",
+          "2": "Strong selection only",
+          "3": "Gene flow only",
+          "4": "Small population"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-ba13782ae8",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Pyramid of energy is always (drill 197)",
+        "options": {
+          "1": "Upright",
+          "2": "Inverted",
+          "3": "Spindle",
+          "4": "None"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-9e96b04bec",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Primary consumers are (drill 200)",
+        "options": {
+          "1": "Herbivores",
+          "2": "Carnivores",
+          "3": "Decomposers only",
+          "4": "Producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-e64ec69ce5",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 9: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-154a9324f9",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 10: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-07c7ebe4ec",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 11: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-fec408ff4e",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 12: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-56314d2648",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 13: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-5fe2b1a5dc",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 14: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-48582982a3",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 15: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-fbb006cde9",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 16: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-b0f7829758",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 17: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-dcf10de275",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 18: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-3b30c22d63",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 19: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-260e323deb",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 20: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-6e483289c3",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 21: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-cd2937c06e",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 22: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       }
     ],
     "Hard": [
@@ -939,31 +2662,6 @@
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q199",
-        "sourceYear": 2022,
-        "sourceNumber": 200,
-        "subject": "Biology",
-        "topic": "Ecology & Evolution",
-        "difficulty": "Hard",
-        "stem": "Inspite of interspecific competition in nature, which mechanism the competing species might have evolved for their survival ?",
-        "options": {
-          "1": "Predation",
-          "2": "Resource partitioning",
-          "3": "Competitive release",
-          "4": "Mutualism"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2023-F1-Q132",
         "sourceYear": 2023,
         "sourceNumber": 135,
@@ -1039,18 +2737,43 @@
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q108",
-        "sourceYear": 2025,
-        "sourceNumber": 112,
+        "id": "hf2021-8a5b1521b6",
+        "sourceYear": 2021,
+        "sourceNumber": 191,
         "subject": "Biology",
         "topic": "Ecology & Evolution",
-        "difficulty": "Hard",
-        "stem": "The type of conservation in which the threatened species are taken out from their natural habitat and placed in special setting where they can be protected and given special care is called",
+        "stem": "Match List - I with List - II. \\begin{tabular} { | l | l | l | l | } \\hline \\multicolumn{2}{|c|} { List - I } & \\multicolumn{2}{c|} { List - II } \\ \\hline (a) & \\begin{tabular} { l } Adaptive \\ radiation \\end{tabular} & (i) & \\begin{tabular} { l } Selection of resistant \\ varieties due to excessive \\ use of herbicides and \\ pesticides \\end{tabular} \\ \\hline (b) & \\begin{tabular} { l } Convergent \\ evolution \\end{tabular} & (ii) & \\begin{tabular} { l } Bones of forelimbs in Man \\ and Whale \\end{tabular} \\ \\hline (c) & \\begin{tabular} { l } Divergent \\ evolution \\end{tabular} & (iii) & \\begin{tabular} { l } Wings of Butterfly and \\ Bird \\end{tabular} \\ \\hline (d) & \\begin{tabular} { l } Evolution by \\ anthropo- \\ genic action \\end{tabular} & (iv) & Darwin Finches \\ \\hline \\end{tabular}",
         "options": {
-          "1": "Biodiversity conservation",
-          "2": "Semi-conservative method",
-          "3": "Sustainable development",
-          "4": "in-situ conservation"
+          "1": "(iii) (ii) (i) (iv)",
+          "2": "(ii) (i) (iv) (iii)",
+          "3": "(i) (iv) (iii) (ii)",
+          "4": "(iv) (iii) (ii) (i)"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-eb863327e3",
+        "sourceYear": 2024,
+        "sourceNumber": 149,
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Match List-I with List-II: \\begin{tabular} { | l | l | l | l | } \\hline & \\multicolumn{1}{|c|} { List-I } & & \\multicolumn{1}{|c|} { List-II } \\ \\hline A. & Biodiversity hotspot & I. & Khasi and Jantia hills in Meghalaya \\ \\hline B. & Sacred groves & II. & \\begin{tabular} { l } World Summit on Sustainable \\ Development 2002 \\end{tabular} \\ \\hline C. & Johannesburg, South Africa & III. & Parthenium \\ \\hline D. & Alien species invasion & IV. & Western Ghats \\ \\hline \\end{tabular}",
+        "options": {
+          "1": "A-IV, B-I, C-II, D-III",
+          "2": "A-II, B-III, C-IV, D-I",
+          "3": "A-I, B-IV, C-III, D-II",
+          "4": "A-III, B-I, C-II, D-IV"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -1060,33 +2783,898 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
       },
       {
-        "id": "2025-INTERIM-Q140",
-        "sourceYear": 2025,
-        "sourceNumber": 143,
+        "id": "auth-31dec01a74",
         "subject": "Biology",
         "topic": "Ecology & Evolution",
-        "difficulty": "Hard",
-        "stem": "In an ecosystem if the Net Primary Productivity (NPP) of first trophic level is 100x (kcal m–2) yr–1, what would be the GPP (Gross Primary Productivity) of the third trophic level of the same ecosystem?",
+        "stem": "Hardy–Weinberg equilibrium assumes",
         "options": {
-          "1": "x ( kcal m –2 ) yr –1",
-          "2": "10 x ( kcal m–2 ) yr –1",
-          "3": "100 x (kcal m–2 ) yr –1 3x",
-          "4": "x (kcal m–2 ) yr –1 10"
+          "1": "No selection, no mutation, random mating",
+          "2": "Strong selection only",
+          "3": "Gene flow only",
+          "4": "Small population"
         },
-        "correctOption": "2",
+        "correctOption": "1",
         "correctOptions": [
-          "2"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-ff26aa4f37",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Hardy–Weinberg equilibrium assumes (drill 39)",
+        "options": {
+          "1": "No selection, no mutation, random mating",
+          "2": "Strong selection only",
+          "3": "Gene flow only",
+          "4": "Small population"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-57c62dd316",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Hardy–Weinberg equilibrium assumes (drill 59)",
+        "options": {
+          "1": "No selection, no mutation, random mating",
+          "2": "Strong selection only",
+          "3": "Gene flow only",
+          "4": "Small population"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-e78f31dc43",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Hardy–Weinberg equilibrium assumes (drill 79)",
+        "options": {
+          "1": "No selection, no mutation, random mating",
+          "2": "Strong selection only",
+          "3": "Gene flow only",
+          "4": "Small population"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-d3b57fcb2c",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Hardy–Weinberg equilibrium assumes (drill 99)",
+        "options": {
+          "1": "No selection, no mutation, random mating",
+          "2": "Strong selection only",
+          "3": "Gene flow only",
+          "4": "Small population"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-343fe683f4",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Hardy–Weinberg equilibrium assumes (drill 119)",
+        "options": {
+          "1": "No selection, no mutation, random mating",
+          "2": "Strong selection only",
+          "3": "Gene flow only",
+          "4": "Small population"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-15987896dd",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Hotspots of biodiversity in India include (drill 138)",
+        "options": {
+          "1": "Western Ghats",
+          "2": "Thar desert only",
+          "3": "Indo-Gangetic plain only",
+          "4": "Deccan plateau only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-71a87d1feb",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Hardy–Weinberg equilibrium assumes (drill 159)",
+        "options": {
+          "1": "No selection, no mutation, random mating",
+          "2": "Strong selection only",
+          "3": "Gene flow only",
+          "4": "Small population"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-b09b64dc22",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Pyramid of energy is always (drill 177)",
+        "options": {
+          "1": "Upright",
+          "2": "Inverted",
+          "3": "Spindle",
+          "4": "None"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-03e51171bb",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Primary consumers are (drill 180)",
+        "options": {
+          "1": "Herbivores",
+          "2": "Carnivores",
+          "3": "Decomposers only",
+          "4": "Producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-7cb18c8db9",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Hotspots of biodiversity in India include (drill 198)",
+        "options": {
+          "1": "Western Ghats",
+          "2": "Thar desert only",
+          "3": "Indo-Gangetic plain only",
+          "4": "Deccan plateau only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-c95bbfae08",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 23: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-4d4b2c2f68",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 24: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-5369510995",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 25: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-1807be29e1",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 26: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-2ce392e39c",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 27: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-7f2e25aceb",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 28: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-d323080ea7",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 29: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-bebf1aa682",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 30: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-bdcbc04337",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 31: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-276afacb89",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 32: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-6eadfec94f",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 33: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-8f4701c260",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 34: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-86d2963cae",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 35: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-a85e4f0595",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 36: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-9bd4a75cfd",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 37: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-05a66614eb",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 38: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-cb29fa6fec",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 39: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-59dc889ad6",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In an ecological pyramid of numbers for a grassland, producers form the base. Set 40: energy flow is",
+        "options": {
+          "1": "Unidirectional and decreases at each trophic level",
+          "2": "Cyclic without loss",
+          "3": "Always inverted for energy",
+          "4": "Independent of producers"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (energy flow)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-15864a0542",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In ecological succession, the pioneer community on bare rock is typically (set 43)",
+        "options": {
+          "1": "Lichens",
+          "2": "Climax oak forest only",
+          "3": "Large mammals",
+          "4": "Phytoplankton only on rock"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (succession pioneers)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-509020e342",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In ecological succession, the pioneer community on bare rock is typically (set 45)",
+        "options": {
+          "1": "Lichens",
+          "2": "Climax oak forest only",
+          "3": "Large mammals",
+          "4": "Phytoplankton only on rock"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (succession pioneers)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-e652d2ca9a",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In ecological succession, the pioneer community on bare rock is typically (set 47)",
+        "options": {
+          "1": "Lichens",
+          "2": "Climax oak forest only",
+          "3": "Large mammals",
+          "4": "Phytoplankton only on rock"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (succession pioneers)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-e750697b46",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In ecological succession, the pioneer community on bare rock is typically (set 49)",
+        "options": {
+          "1": "Lichens",
+          "2": "Climax oak forest only",
+          "3": "Large mammals",
+          "4": "Phytoplankton only on rock"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (succession pioneers)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-c7648478a6",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In ecological succession, the pioneer community on bare rock is typically (set 51)",
+        "options": {
+          "1": "Lichens",
+          "2": "Climax oak forest only",
+          "3": "Large mammals",
+          "4": "Phytoplankton only on rock"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (succession pioneers)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-8bfd42c6db",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In ecological succession, the pioneer community on bare rock is typically (set 53)",
+        "options": {
+          "1": "Lichens",
+          "2": "Climax oak forest only",
+          "3": "Large mammals",
+          "4": "Phytoplankton only on rock"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (succession pioneers)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-c7d0f8d88b",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In ecological succession, the pioneer community on bare rock is typically (set 55)",
+        "options": {
+          "1": "Lichens",
+          "2": "Climax oak forest only",
+          "3": "Large mammals",
+          "4": "Phytoplankton only on rock"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (succession pioneers)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-f7363e98fd",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In ecological succession, the pioneer community on bare rock is typically (set 57)",
+        "options": {
+          "1": "Lichens",
+          "2": "Climax oak forest only",
+          "3": "Large mammals",
+          "4": "Phytoplankton only on rock"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (succession pioneers)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
       }
     ]
   },

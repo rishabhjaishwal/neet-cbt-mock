@@ -3,9 +3,9 @@
   "subject": "Physics",
   "topic": "Electromagnetism",
   "counts": {
-    "Easy": 36,
-    "Medium": 36,
-    "Hard": 36
+    "Easy": 50,
+    "Medium": 114,
+    "Hard": 50
   },
   "questions": {
     "Easy": [
@@ -60,31 +60,6 @@
         "placeholder": false
       },
       {
-        "id": "2018-AA-Q37",
-        "sourceYear": 2018,
-        "sourceNumber": 17,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Easy",
-        "stem": "A thin diamagnetic rod is placed vertically between the poles of an electromagnet. When the current in the electromagnet is switched on, then the diamagnetic rod is pushed up, out of the horizontal magnetic field. Hence the rod gains gravitational potential energy. The work required to do this comes from",
-        "options": {
-          "1": "the current source",
-          "2": "the magnetic field",
-          "3": "the lattice structure of the material of the rod",
-          "4": "the induced electric field due to the changing magnetic field OUGH WORK English"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2018-AA-Q121",
         "sourceYear": 2018,
         "sourceNumber": 31,
@@ -97,31 +72,6 @@
           "2": "2·74 W",
           "3": "0·43 W",
           "4": "0·79 W"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q157",
-        "sourceYear": 2018,
-        "sourceNumber": 42,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Easy",
-        "stem": "A set of ‘n’ equal resistors, of value ‘R’ each, are connected in series to a battery of emf ‘E’ and internal resistance ‘R’. The current drawn is I. Now, the ‘n’ resistors are connected in parallel to the same battery. Then the current drawn from battery becomes 10 I. The value of ‘n’ is",
-        "options": {
-          "1": "10",
-          "2": "9",
-          "3": "20",
-          "4": "11 OUGH WORK English"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -335,31 +285,6 @@
         "placeholder": false
       },
       {
-        "id": "2021-M1-Q21",
-        "sourceYear": 2021,
-        "sourceNumber": 20,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Easy",
-        "stem": "A parallel plate capacitor has a uniform electric → field ‘ E ’ in the space between the plates. If the distance between the plates is ‘d’ and the area of each plate is ‘A’, the energy stored in the capacitor is : (ε0=permittivity of free space) 1",
-        "options": {
-          "1": "ε E2 2 0",
-          "2": "ε0EAd 1",
-          "3": "ε E2 Ad 2 0 E2 Ad",
-          "4": "ε0"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2021-M1-Q32",
         "sourceYear": 2021,
         "sourceNumber": 29,
@@ -401,56 +326,6 @@
         "correctOption": "2",
         "correctOptions": [
           "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q71",
-        "sourceYear": 2021,
-        "sourceNumber": 46,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Easy",
-        "stem": "A particular station of All India Radio, New Delhi, broadcasts on a frequency of 1,368 kHz (kilohertz). The wavelength of the electromagnetic radiation emitted by the transmitter is : [speed of light, c=3.0×108 ms−1]",
-        "options": {
-          "1": "21.92 cm",
-          "2": "219.3 m",
-          "3": "219.2 m",
-          "4": "2192 m"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q48",
-        "sourceYear": 2022,
-        "sourceNumber": 3,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Easy",
-        "stem": "An infinitely long straight conductor carries a current of 5 A as shown. An electron is moving with a speed of 105 m/s parallel to the conductor. The perpendicular distance between the electron and the conductor is 20 cm at an instant. Calculate the magnitude of the force experienced by the electron at that instant.",
-        "options": {
-          "1": "4×200^{-20}$ N$",
-          "2": "8π×200^{-20}$ N$",
-          "3": "4π×200^{-20}$ N$",
-          "4": "8×200^{-20}$ N 3 M1$"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -785,43 +660,17 @@
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q4",
-        "sourceYear": 2025,
-        "sourceNumber": 4,
+        "id": "hf2018-47bf0f66cf",
+        "sourceYear": 2018,
+        "sourceNumber": 17,
         "subject": "Physics",
         "topic": "Electromagnetism",
-        "difficulty": "Easy",
-        "stem": "The terminal voltage of the battery, whose emf is 10 V and internal resistance 1 Ω, when connected through an external resistance of 4 Ω as shown in the figure is:",
+        "stem": "In the combination of the following gates the output $ Y $ can be written in terms of inputs $ A $ and B as",
         "options": {
-          "1": "6V",
-          "2": "8V",
-          "3": "10 V",
-          "4": "4V"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2025-INTERIM-Q4.png",
-        "figureKind": "pdf-crop+from-2024-stem-match",
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q21",
-        "sourceYear": 2025,
-        "sourceNumber": 18,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Easy",
-        "stem": "A tightly wound 100 turns coil of radius 10 cm carries a current of 7 A. The magnitude of the magnetic field at the centre of the coil is (Take permeability of free space as 4π × 10–7 SI units):",
-        "options": {
-          "1": "4.4 T",
-          "2": "4.4 mT",
-          "3": "44 T",
-          "4": "44 mT"
+          "1": "$ \\overline { \\mathrm { A } \\cdot \\mathrm { B } } + \\mathrm { A } \\cdot \\mathrm { B } $",
+          "2": "$ \\mathrm { A } \\cdot \\overline { \\mathrm { B } } + \\overline { \\mathrm { A } } \\cdot \\mathrm { B } $",
+          "3": "$ \\overline { \\mathrm { A } . \\mathrm { B } } $",
+          "4": "$ \\overline { \\mathrm { A } + \\mathrm { B } } $"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -831,47 +680,101 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       },
       {
-        "id": "2025-INTERIM-Q30",
-        "sourceYear": 2025,
+        "id": "hf2019-a773e5250f",
+        "sourceYear": 2019,
+        "sourceNumber": 25,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A hollow metal sphere of radius $ R $ is uniformly charged. The electric field due to the sphere at a distance $ r $ from the centre:",
+        "options": {
+          "1": "increases as $ r $ increases for $ r < R $ and for $ r > R $",
+          "2": "zero as $ r $ increases for $ r < R $, decreases as $ r $ increases for $ r > R $",
+          "3": "zero as $ r $ increases for $ r < R $, increases as increases for $ r > R $",
+          "4": "decreases as $ r $ increases for $ r < R $ and for $ r > R $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-0b77d947ed",
+        "sourceYear": 2019,
         "sourceNumber": 27,
         "subject": "Physics",
         "topic": "Electromagnetism",
-        "difficulty": "Easy",
-        "stem": "In the above diagram, a strong bar magnet is moving towards solenoid-2 from solenoid-1. The direction of induced current in solenoid-1 and that in solenoid-2, respectively, are through the directions:",
+        "stem": "The total energy of an electron in an atom in an orbit is - 3.4 eV . Its kinetic and potential energies are, respectivély :",
         "options": {
-          "1": "BA and CD",
-          "2": "AB and CD",
-          "3": "BA and DC",
-          "4": "AB and DC"
+          "1": "$ - 3.4 \\mathrm { eV } , - 3.4 \\mathrm { eV } $",
+          "2": "$ - 3.4 \\mathrm { eV } , - 6.8 \\mathrm { eV } $",
+          "3": "$ 3.4 \\mathrm { eV } , - 6.8 \\mathrm { eV } $",
+          "4": "$ 3.4 \\mathrm { eV } , 3.4 \\mathrm { eV } $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-ecbdd94b85",
+        "sourceYear": 2020,
+        "sourceNumber": 4,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The solids which have the negative temperature coefficient of resistance are :",
+        "options": {
+          "1": "metals",
+          "2": "insulators only",
+          "3": "semiconductors only",
+          "4": "insulators and semiconductors"
         },
         "correctOption": "4",
         "correctOptions": [
           "4"
         ],
         "multiCorrect": false,
-        "figureSrc": "/figures/2025-INTERIM-Q30.png",
-        "figureKind": "pdf-crop+from-2024-stem-match",
+        "figureSrc": null,
+        "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       },
       {
-        "id": "2025-INTERIM-Q43",
-        "sourceYear": 2025,
-        "sourceNumber": 40,
+        "id": "hf2021-bfa68d3c64",
+        "sourceYear": 2021,
+        "sourceNumber": 1,
         "subject": "Physics",
         "topic": "Electromagnetism",
-        "difficulty": "Easy",
-        "stem": "A parallel plate capacitor is charged by connecting it to a battery through a resistor. If I is the current in the circuit, then in the gap between the plates:",
+        "stem": "A dipole is placed in an electric field as shown. In which direction will it move?",
         "options": {
-          "1": "Displacement current of magnitude equal to I flows in the same direction as I",
-          "2": "Displacement current of magnitude equal to I flows in a direction opposite to that of I",
-          "3": "Displacement current of magnitude greater than I flows but can be in any direction",
-          "4": "There is no current"
+          "1": "towards the right as its potential energy will decrease.",
+          "2": "towards the left as its potential energy will decrease.",
+          "3": "towards the right as its potential energy will increase.",
+          "4": "towards the left as its potential energy will increase."
         },
         "correctOption": "1",
         "correctOptions": [
@@ -881,22 +784,49 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       },
       {
-        "id": "2025-INTERIM-Q46",
-        "sourceYear": 2025,
-        "sourceNumber": 43,
+        "id": "hf2023-694dd6340c",
+        "sourceYear": 2023,
+        "sourceNumber": 26,
         "subject": "Physics",
         "topic": "Electromagnetism",
-        "difficulty": "Easy",
-        "stem": "If the plates of a parallel plate capacitor connected to a battery are moved close to each other, then A. the charge stored in it, increases. B. the energy stored in it, decreases. C. its capacitance increases. D. the ratio of charge to its potential remains the same. E. the product of charge and voltage increases. Choose the most appropriate answer from the options given below:",
+        "stem": "Resistance of a carbon resistor determined from colour codes is $ ( 22000 \\pm 5 \\% ) \\Omega $. The colour of third band must be :",
         "options": {
-          "1": "A, C and E only",
-          "2": "B, D and E only",
-          "3": "A, B and C only",
-          "4": "A, B and E only"
+          "1": "Yellow",
+          "2": "Red",
+          "3": "Green",
+          "4": "Orange"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-1daad2e7a3",
+        "sourceYear": 2023,
+        "sourceNumber": 34,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The magnetic energy stored in an inductor of inductance $ 4 \\mu \\mathrm { H } $ carrying a current of 2 A is :",
+        "options": {
+          "1": "$ 8 \\mu \\mathrm {~J} $",
+          "2": "$ 4 \\mu \\mathrm {~J} $",
+          "3": "4 mJ",
+          "4": "8 mJ"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -906,8 +836,422 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-b351c73fc9",
+        "sourceYear": 2024,
+        "sourceNumber": 1,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The magnetic potential energy, when a magnetic bar of magnetic moment $\\vec{m}$ is placed perpendicular to the magnetic field $\\vec{B}$ is",
+        "options": {
+          "1": "$- \\frac{mB}{2}$",
+          "2": "Zero",
+          "3": "$-mB$",
+          "4": "$mB$"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-99328fe693",
+        "sourceYear": 2024,
+        "sourceNumber": 19,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The capacitance of a capacitor with charge $ q $ and a potential difference $ V $ depends on",
+        "options": {
+          "1": "both $ q $ and $ V $",
+          "2": "the geometry of the capacitor",
+          "3": "$ q $ only",
+          "4": "V only"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-0154c24b73",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "[NEET 2016 | Physics] In a Wheatstone bridge, if P/Q = R/S, the bridge is said to be:",
+        "options": {
+          "1": "Overloaded",
+          "2": "Balanced",
+          "3": "Unbalanced",
+          "4": "Short-circuited"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-21d59a2c56",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "[NEET 2019 | Physics] The Boolean expression for a NAND gate is:",
+        "options": {
+          "1": "Y = A·B",
+          "2": "Y = A+B",
+          "3": "Y = (A·B)̄",
+          "4": "Y = Ā·B̄"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-2db547ba7a",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "[NEET 2018 | Physics] The peak value of an AC current is 10 A. Its RMS value is:",
+        "options": {
+          "1": "10",
+          "2": "7.07",
+          "3": "14.14",
+          "4": "5"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-07aa3d6989",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "[NEET 2024 | Physics] In a p-n junction diode, forward bias causes:",
+        "options": {
+          "1": "Depletion layer to widen",
+          "2": "Depletion layer to narrow",
+          "3": "No change in depletion layer",
+          "4": "Reverse current to flow"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-f42008d814",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "[NEET 2022 | Physics] A material is weakly attracted by a magnet and loses its magnetism when removed from field. It is:",
+        "options": {
+          "1": "Ferromagnetic",
+          "2": "Diamagnetic",
+          "3": "Paramagnetic",
+          "4": "Antiferromagnetic"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-92920b127f",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "[NEET 2023 | Physics] Three resistors of 2Ω, 3Ω, and 6Ω are connected in parallel. The effective resistance is:",
+        "options": {
+          "1": "11 Ω",
+          "2": "1 Ω",
+          "3": "6 Ω",
+          "4": "3 Ω"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-a74053ca07",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "[NEET 2024 | Physics] Resistors 1, 2 and 3 ohm in parallel. Combined resistance:",
+        "options": {
+          "1": "6/11 ohm",
+          "2": "11/6 ohm",
+          "3": "1 ohm",
+          "4": "6 ohm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-5589c5a66a",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A resistor of 10 Ω carries 2 A. Power dissipated is",
+        "options": {
+          "1": "40 W",
+          "2": "20 W",
+          "3": "5 W",
+          "4": "50 W"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (P = I²R)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-9ede88c62e",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A resistor of 20 Ω carries 2 A. Power dissipated is",
+        "options": {
+          "1": "80 W",
+          "2": "40 W",
+          "3": "10 W",
+          "4": "200 W"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (P = I²R)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-8020fb240e",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A resistor of 30 Ω carries 2 A. Power dissipated is",
+        "options": {
+          "1": "120 W",
+          "2": "60 W",
+          "3": "15 W",
+          "4": "450 W"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (P = I²R)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-4d6a03926c",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A resistor of 40 Ω carries 2 A. Power dissipated is",
+        "options": {
+          "1": "160 W",
+          "2": "80 W",
+          "3": "20 W",
+          "4": "800 W"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (P = I²R)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-7c21561045",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A resistor of 50 Ω carries 2 A. Power dissipated is",
+        "options": {
+          "1": "200 W",
+          "2": "100 W",
+          "3": "25 W",
+          "4": "1250 W"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (P = I²R)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-3a856feffa",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A resistor of 60 Ω carries 2 A. Power dissipated is",
+        "options": {
+          "1": "240 W",
+          "2": "120 W",
+          "3": "30 W",
+          "4": "1800 W"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (P = I²R)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-64b9a85cd5",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A resistor of 70 Ω carries 2 A. Power dissipated is",
+        "options": {
+          "1": "280 W",
+          "2": "140 W",
+          "3": "35 W",
+          "4": "2450 W"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (P = I²R)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-b21ca9351f",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A resistor of 80 Ω carries 2 A. Power dissipated is",
+        "options": {
+          "1": "320 W",
+          "2": "160 W",
+          "3": "40 W",
+          "4": "3200 W"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (P = I²R)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       }
     ],
     "Medium": [
@@ -1112,56 +1456,6 @@
         "placeholder": false
       },
       {
-        "id": "2020-E1-Q141",
-        "sourceYear": 2020,
-        "sourceNumber": 29,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "A series LCR circuit is connected to an ac voltage source. When L is removed from the circuit, the phase difference between current and voltage π is . If instead C is removed from the circuit, 3 π the phase difference is again between current 3 and voltage. The power factor of the circuit is :",
-        "options": {
-          "1": "−1.0",
-          "2": "zero",
-          "3": "0.5",
-          "4": "1.0"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2020-E1-Q169",
-        "sourceYear": 2020,
-        "sourceNumber": 42,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "A series LCR circuit is connected to an ac voltage source. When L is removed from the circuit, the phase difference between current and voltage π is . If instead C is removed from the circuit, 3 π the phase difference is again between current 3 and voltage. The power factor of the circuit is :",
-        "options": {
-          "1": "zero",
-          "2": "0.5",
-          "3": "1.0",
-          "4": "−1.0"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2021-M1-Q1",
         "sourceYear": 2021,
         "sourceNumber": 1,
@@ -1303,56 +1597,6 @@
         "correctOption": "2",
         "correctOptions": [
           "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q46",
-        "sourceYear": 2022,
-        "sourceNumber": 1,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "In a potentiometer circuit a cell of EMF 1.5 V gives balance point at 36 cm length of wire. If another cell of EMF 2.5 V replaces the first cell, then at what length of the wire, the balance point occurs ?",
-        "options": {
-          "1": "62 cm",
-          "2": "60 cm",
-          "3": "21.6 cm",
-          "4": "64 cm"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q49",
-        "sourceYear": 2022,
-        "sourceNumber": 4,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "Column - I gives certain physical terms associated with flow of current through a metallic conductor. Column - II gives some mathematical relations involving electrical quantities. Match Column - I and Column - II with appropriate relations. Column - I Column - II m (A) Drift Velocity (P) ne2 ρ (B) Electrical Resistivity (Q) nevd eE (C) Relaxation Period (R) τ m E (D) Current Density (S) J",
-        "options": {
-          "1": "(A)-(R), (B)-(P), (C)-(S), (D)-(Q)",
-          "2": "(A)-(R), (B)-(Q), (C)-(S), (D)-(P)",
-          "3": "(A)-(R), (B)-(S), (C)-(P), (D)-(Q)",
-          "4": "(A)-(R), (B)-(S), (C)-(Q), (D)-(P) 3 O1"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -1612,31 +1856,6 @@
         "placeholder": false
       },
       {
-        "id": "2024-R1-Q31",
-        "sourceYear": 2024,
-        "sourceNumber": 28,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "A logic circuit provides the output Y as per the following truth table : A B Y 0 0 1 0 1 0 1 0 1 1 1 0 The expression for the output Y is :",
-        "options": {
-          "1": ". +A AB",
-          "2": "B",
-          "3": "B",
-          "4": "A.B + A"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2024-R1-Q44",
         "sourceYear": 2024,
         "sourceNumber": 41,
@@ -1687,43 +1906,17 @@
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q10",
-        "sourceYear": 2025,
-        "sourceNumber": 9,
+        "id": "hf2016-0c78c3f396",
+        "sourceYear": 2016,
+        "sourceNumber": 18,
         "subject": "Physics",
         "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "In a uniform magnetic field of 0.049 T, a magnetic needle performs 20 complete oscillations in 5 seconds as shown. The moment of inertia of the needle is 9.8 x 10–6 kg m2. If the magnitude of magnetic moment of the needle is x × 10–5 Am2, then the value of ‘x’ is :",
+        "stem": "The temperature inside a refrigerator is $ t _ { 2 } { } ^ { \\circ } \\mathrm { C } $ and the room temperature is $ \\mathrm { t } _ { 1 } { } ^ { \\circ } \\mathrm { C } $. The amount of heat delivered to the room for each joule of electrical energy consumed ideally will be",
         "options": {
-          "1": "128π2",
-          "2": "50π2",
-          "3": "1280π2",
-          "4": "5π2"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q24",
-        "sourceYear": 2025,
-        "sourceNumber": 21,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "Match List-I with List-II. List-I List-II (Material) (Susceptibility (χ)) A. Diamagnetic I. χ=0 B. Ferromagnetic II. 0 > χ ≥ –1 C. Paramagnetic III. χ >> 1 D. Non-magnetic IV. 0 < χ < ε (a small positive number) Choose the correct answer from the options given below",
-        "options": {
-          "1": "A-II, B-I, C-III, D-IV",
-          "2": "A-III, B-II, C-I, D-IV",
-          "3": "A-IV, B-III, C-II, D-I",
-          "4": "A-II, B-III, C-IV, D-I"
+          "1": "$ \\text { (1) } \\frac { t _ { 1 } } { t - t } $",
+          "2": "$ { } ^ { \\frac { t ^ { 1 } } { 1 } } \\pm \\underline { 273 } $",
+          "3": "$ \\begin{array} { l } t _ { 1 } - t _ { 2 } \\ \\text { (3) } { } ^ { \\frac { \\mathrm { t } } { t _ { 1 } } } \\pm \\underline { 273 } \\ t _ { 1 } - t _ { 2 } \\ \\end{array} $",
+          "4": "$ \\text { (4) } \\frac { t _ { 1 } + t _ { 2 } } { t _ { 1 } + 273 } $"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -1733,22 +1926,23 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       },
       {
-        "id": "2025-INTERIM-Q31",
-        "sourceYear": 2025,
-        "sourceNumber": 28,
+        "id": "hf2018-681418b650",
+        "sourceYear": 2018,
+        "sourceNumber": 3,
         "subject": "Physics",
         "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "A logic circuit provides the output Y as per the following truth table : A B Y 0 0 1 0 1 0 1 0 1 1 1 0 The expression for the output Y is :",
+        "stem": "At what temperature will the rms speed of oxygen molecules become just sufficient for escaping from the Earth's atmosphere? (Given : Mass of oxygen molecule (m) $ = 2.76 \\times 10 ^ { - 26 } \\mathrm {~kg} $ Boltzmann's constant $ \\mathrm { k } _ { \\mathrm { B } } = 1.38 \\times 10 ^ { - 23 } \\mathrm {~J} \\mathrm {~K} ^ { - 1 } $ )",
         "options": {
-          "1": ". +A AB",
-          "2": "B",
-          "3": "B",
-          "4": "A.B + A"
+          "1": "$ 5.016 \\times 10 ^ { 4 } \\mathrm {~K} $",
+          "2": "$ 8.360 \\times 10 ^ { 4 } \\mathrm {~K} $",
+          "3": "$ 2.508 \\times 10 ^ { 4 } \\mathrm {~K} $",
+          "4": "$ 1.254 \\times 10 ^ { 4 } \\mathrm {~K} $"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -1758,47 +1952,49 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       },
       {
-        "id": "2025-INTERIM-Q44",
-        "sourceYear": 2025,
-        "sourceNumber": 41,
+        "id": "hf2018-ad420cef6d",
+        "sourceYear": 2018,
+        "sourceNumber": 5,
         "subject": "Physics",
         "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "Choose the correct circuit which can achieve the bridge balance.",
+        "stem": "A carbon resistor of $ ( 47 \\pm 4 \\cdot 7 ) \\mathrm { k } \\Omega $ is to be marked with rings of different colours for its identification. The colour code sequence will be",
         "options": {
-          "1": "Option 1",
-          "2": "Option 2",
-          "3": "Option 3",
-          "4": "Option 4"
+          "1": "Yellow - Green - Violet - Gold",
+          "2": "Yellow - Violet - Orange - Silver",
+          "3": "Violet - Yellow - Orange - Silver",
+          "4": "Green - Orange - Violet - Gold"
         },
-        "correctOption": "4",
+        "correctOption": "2",
         "correctOptions": [
-          "4"
+          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       },
       {
-        "id": "2025-INTERIM-Q48",
-        "sourceYear": 2025,
-        "sourceNumber": 45,
+        "id": "hf2018-a255b6dd46",
+        "sourceYear": 2018,
+        "sourceNumber": 6,
         "subject": "Physics",
         "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "The property which is not of an electromagnetic wave travelling in free space is that:",
+        "stem": "A set of ' $ n $ ' equal resistors, of value ' $ R $ ' each, are connected in series to a battery of emf ' E ' and internal resistance ' $ R $ '. The current drawn is I. Now, the ' $ n $ ' resistors are connected in parallel to the same battery. Then the current drawn from battery becomes 10 I . The value of ' n ' is",
         "options": {
-          "1": "The energy density in electric field is equal to energy density in magnetic field 1",
-          "2": "They travel with a speed equal to μ0 ε 0",
-          "3": "They originate from charges moving with uniform speed",
-          "4": "They are transverse in nature"
+          "1": "20",
+          "2": "11",
+          "3": "10",
+          "4": "9"
         },
         "correctOption": "3",
         "correctOptions": [
@@ -1808,8 +2004,2119 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-8b7f14c71d",
+        "sourceYear": 2018,
+        "sourceNumber": 7,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A battery consists of a variable number ' $ n $ ' of identical cells (having internal resistance ' $ r $ ' each) which are connected in series. The terminals of the battery are short-circuited and the current I is measured. Which of the graphs shows the correct relationship between I and n ?",
+        "options": {
+          "1": "image_465.png",
+          "2": "image_466.png",
+          "3": "image_467.png",
+          "4": "image_468.png"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-f263587b9d",
+        "sourceYear": 2018,
+        "sourceNumber": 21,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The magnetic potential energy stored in a certain inductor is 25 mJ , when the current in the inductor is 60 mA . This inductor is of inductance",
+        "options": {
+          "1": "1.389 H",
+          "2": "138.88 H",
+          "3": "$ 0 \\cdot 138 \\mathrm { H } $",
+          "4": "13.89 H"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-9302a7e210",
+        "sourceYear": 2018,
+        "sourceNumber": 22,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "An electron falls from rest through a vertical distance $ h $ in a uniform and vertically upward directed electric field $ E $. The direction of electric field is now reversed, keeping its magnitude the same. A proton is allowed to fall from rest in it through the same vertical distance $ h $. The time of fall of the electron, in comparison to the time of fall of the proton is",
+        "options": {
+          "1": "10 times greater",
+          "2": "5 times greater",
+          "3": "smaller",
+          "4": "equal"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-d6e28ffcad",
+        "sourceYear": 2018,
+        "sourceNumber": 26,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A metallic rod of mass per unit length $ 0.5 \\mathrm {~kg} \\mathrm {~m} ^ { - 1 } $ is lying horizontally on a smooth inclined plane which makes an angle of $ 30 ^ { \\circ } $ with the horizontal. The rod is not allowed to slide down by flowing a current through it when a magnetic field of induction 0.25 T is acting on it in the vertical direction. The current flowing in the rod to keep it stationary is",
+        "options": {
+          "1": "14.76 A",
+          "2": "5.98 A",
+          "3": "$ 7 \\cdot 14 \\mathrm {~A} $",
+          "4": "$ \\quad 11 \\cdot 32 \\mathrm {~A} $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-a50233f0cf",
+        "sourceYear": 2019,
+        "sourceNumber": 3,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "Ionized hydrogen atoms and $ \\alpha $-particles with same momenta enters perpendicular to a constant magnetic field, $ B $. The ratio of their radii of their paths $ r _ { H } : r _ { \\alpha } $ will be :",
+        "options": {
+          "1": "$ 2 : 1 $",
+          "2": "$ 1 : 2 $",
+          "3": "$ 4 : 1 $",
+          "4": "$ 1 : 4 $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-4cc1eca5fb",
+        "sourceYear": 2019,
+        "sourceNumber": 36,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "Two parallel infinite line charges with linear charge densities $ + \\lambda \\mathrm { C } / \\mathrm { m } $ and $ - \\lambda \\mathrm { C } / \\mathrm { m } $ are placed at a distance of $ 2 R $ in free space. What is the electric field mid-way between the two line charges?",
+        "options": {
+          "1": "zero",
+          "2": "$ \\frac { 2 \\lambda } { \\pi \\epsilon _ { 0 } R } N/ C $",
+          "3": "$ \\frac { \\lambda } { \\pi \\epsilon _ { 0 } R } \\mathrm {~N} / \\mathrm { C } $",
+          "4": "$ \\frac { \\lambda } { 2 \\pi \\epsilon _ { 0 } R } N / C $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-13795b94f7",
+        "sourceYear": 2019,
+        "sourceNumber": 41,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A 800 turn coil of effective area $ 0.05 \\mathrm{~m}^{2} $ is kept perpendicular to a magnetic field $ 5 \\times 10^{-5} \\mathrm{~T} $. When the plane of the coil is rotated by $ 90^{\\circ} $ around any of its coplanar axis in 0.1 s , the emf induced in the coil will be :",
+        "options": {
+          "1": "2 V",
+          "2": "0.2 V",
+          "3": "$ 2 \\times 10^{-3} \\mathrm{~V} $",
+          "4": "0.02 V"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-ffd5e2c56a",
+        "sourceYear": 2019,
+        "sourceNumber": 2,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A cylindrical conductor of radius $ R $ is carrying a constant current. The plot of the magnitude of the magnetic field, $ B $ with the distance, $ d $, from the centre of the conductor, is correctly represented by the figure:",
+        "options": {
+          "1": "image_509.png",
+          "2": "image_510.png",
+          "3": "image_511.png",
+          "4": "image_512.png"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-5a42dab163",
+        "sourceYear": 2020,
+        "sourceNumber": 151,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A spherical conductor of radius 10 cm has a charge of $ 3.2 \\times 10 ^ { - 7 } \\mathrm { C } $ distributed uniformly. What is the magnitude of electric field at a point 15 cm from the centre of the sphere? $ \\left( \\frac { 1 } { 4 \\pi \\epsilon _ { 0 } } = 9 \\times 10 ^ { 9 } \\mathrm {~N} \\mathrm {~m} ^ { 2 } / \\mathrm { C } ^ { 2 } \\right) $",
+        "options": {
+          "1": "$ 1.28 \\times 10 ^ { 4 } \\mathrm {~N} / \\mathrm { C } $",
+          "2": "$ 1.28 \\times 10 ^ { 5 } \\mathrm {~N} / \\mathrm { C } $",
+          "3": "$ 1.28 \\times 10 ^ { 6 } \\mathrm {~N} / \\mathrm { C } $",
+          "4": "$ 1.28 \\times 10 ^ { 7 } \\mathrm {~N} / \\mathrm { C } $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-fdf892dd9d",
+        "sourceYear": 2020,
+        "sourceNumber": 152,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "In a certain region of space with volume $ 0.2 \\mathrm {~m} ^ { 3 } $, the electric potential is found to be 5 V throughout. The magnitude of electric field in this region is :",
+        "options": {
+          "1": "zero",
+          "2": "$ 0.5 \\mathrm {~N} / \\mathrm { C } $",
+          "3": "$ 1 \\mathrm {~N} / \\mathrm { C } $",
+          "4": "$ 5 \\mathrm {~N} / \\mathrm { C } $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-4410b22abf",
+        "sourceYear": 2020,
+        "sourceNumber": 6,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A $ 40 \\mu \\mathrm{F} $ capacitor is connected to a $ 200 \\mathrm{V} , 50 \\mathrm{Hz} $ ac supply. The rms value of the current in the circuit is, nearly :",
+        "options": {
+          "1": "1.7 A",
+          "2": "2.05 A",
+          "3": "2.5 A",
+          "4": "25.1 A"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-87daf7ccdd",
+        "sourceYear": 2020,
+        "sourceNumber": 9,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The capacitance of a parallel plate capacitor with air as medium is $ 6 \\mu \\mathrm{F} $. With the introduction of a dielectric medium, the capacitance becomes $ 30 \\mu \\mathrm{F} $. The permittivity of the medium is : $ \\left( \\epsilon _ { 0 } = 8.85 \\times 10 ^ { - 12 } \\mathrm { C } ^ { 2 } \\mathrm {~N} ^ { - 1 } \\mathrm {~m} ^ { - 2 } \\right) $",
+        "options": {
+          "1": "$ 0.44 \\times 10 ^ { - 13 } \\mathrm { C } ^ { 2 } \\mathrm {~N} ^ { - 1 } \\mathrm {~m} ^ { - 2 } $",
+          "2": "$ 1.77 \\times 10 ^ { - 12 } \\mathrm { C } ^ { 2 } \\mathrm {~N} ^ { - 1 } \\mathrm {~m} ^ { - 2 } $",
+          "3": "$ 0.44 \\times 10 ^ { - 10 } \\mathrm { C } ^ { 2 } \\mathrm {~N} ^ { - 1 } \\mathrm {~m} ^ { - 2 } $",
+          "4": "$ 5.00 \\mathrm { C } ^ { 2 } \\mathrm {~N} ^ { - 1 } \\mathrm {~m} ^ { - 2 } $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-f81f19e3a6",
+        "sourceYear": 2020,
+        "sourceNumber": 170,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A short electric dipole has a dipole moment of $ 16 \\times 10 ^ { - 9 } \\mathrm { C } \\mathrm { m } $. The electric potential due to the dipole at a point at a distance of 0.6 m from the centre of the dipole, situated on a line making an angle of $ 60 ^ { \\circ } $ with the dipole axis is : $ \\left( \\frac { 1 } { 4 \\pi \\epsilon _ { 0 } } = 9 \\times 10 ^ { 9 } \\mathrm {~N} \\mathrm {~m} ^ { 2 } / \\mathrm { C } ^ { 2 } \\right) $",
+        "options": {
+          "1": "50 V",
+          "2": "200 V",
+          "3": "400 V",
+          "4": "zero"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-4457e0ea20",
+        "sourceYear": 2020,
+        "sourceNumber": 171,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "An iron rod of susceptibility 599 is subjected to a magnetising field of $ 1200 \\mathrm{A} \\mathrm{m}^{-1} $. The permeability of the material of the rod is : $ \\left( \\mu_{0} = 4 \\pi \\times 10^{-7} \\mathrm{Tm} \\mathrm{A}^{-1} \\right) $",
+        "options": {
+          "1": "$ \\quad 2.4 \\pi \\times 10^{-4} \\mathrm{Tm} \\mathrm{A}^{-1} $",
+          "2": "$ 8.0 \\times 10^{-5} \\mathrm{Tm} \\mathrm{A}^{-1} $",
+          "3": "$ 2.4 \\pi \\times 10^{-5} \\mathrm{Tm} \\mathrm{A}^{-1} $",
+          "4": "$ 2.4 \\pi \\times 10^{-7} \\mathrm{Tm} \\mathrm{A}^{-1} $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-3bc4c37e98",
+        "sourceYear": 2020,
+        "sourceNumber": 172,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A long solenoid of 50 cm length having 100 turns carries a current of 2.5 A . The magnetic field at the centre of the solenoid is : $ \\left( \\mu _ { 0 } = 4 \\pi \\times 10 ^ { - 7 } \\mathrm { Tm } \\mathrm {~A} ^ { - 1 } \\right) $",
+        "options": {
+          "1": "$ \\quad 6.28 \\times 10 ^ { - 4 } \\mathrm {~T} $",
+          "2": "$ 3.14 \\times 10 ^ { - 4 } \\mathrm {~T} $",
+          "3": "$ 6.28 \\times 10 ^ { - 5 } \\mathrm {~T} $",
+          "4": "$ 3.14 \\times 10 ^ { - 5 } \\mathrm {~T} $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-191538627e",
+        "sourceYear": 2020,
+        "sourceNumber": 173,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A charged particle having drift velocity of $ 7.5 \\times 10 ^ { - 4 } \\mathrm {~m} \\mathrm {~s} \\mathrm {~s} ^ { - 1 } $ in an electric field of $ 3 \\times 10 ^ { - 10 } \\mathrm { Vm } ^ { - 1 } $, has a mobility in $ \\mathrm { m } ^ { 2 } \\mathrm {~V} ^ { - 1 } \\mathrm {~s} ^ { - 1 } $ of :",
+        "options": {
+          "1": "$ 2.25 \\times 10 ^ { 15 } $",
+          "2": "$ 2.5 \\times 10 ^ { 6 } $",
+          "3": "$ 2.5 \\times 10 ^ { - 6 } $",
+          "4": "$ 2.25 \\times 10 ^ { - 15 } $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-cc4af3ccbd",
+        "sourceYear": 2020,
+        "sourceNumber": 179,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A resistance wire connected in the left gap of a metre bridge balances a $ 10 \\Omega $ resistance in the right gap at a point which divides the bridge wire in the ratio $ 3 : 2 $. If the length of the resistance wire is 1.5 m , then the length of $ 1 \\Omega $ of the resistance wire is :",
+        "options": {
+          "1": "$ 1.0 \\times 10 ^ { - 2 } \\mathrm {~m} $",
+          "2": "$ 1.0 \\times 10 ^ { - 1 } \\mathrm {~m} $",
+          "3": "$ 1.5 \\times 10 ^ { - 1 } \\mathrm {~m} $",
+          "4": "$ 1.5 \\times 10 ^ { - 2 } \\mathrm {~m} $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-15096b2efa",
+        "sourceYear": 2021,
+        "sourceNumber": 8,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A capacitor of capacitance 'C', is connected across an ac source of voltage $ V $, given by $ \\mathrm{V} = \\mathrm{V}_{0} \\sin \\omega \\mathrm{t} $ The displacement current between the plates of the capacitor, would then be given by :",
+        "options": {
+          "1": "$ \\mathrm{I}_{\\mathrm{d}} = \\frac{\\mathrm{V}_{0}}{\\omega \\mathrm{C}} \\cos \\omega \\mathrm{t} $",
+          "2": "$ I_{d} = \\frac{V_{0}}{\\omega \\mathrm{C}} \\sin \\omega \\mathrm{t} $",
+          "3": "$ I_{d} = V_{0} \\omega C \\sin \\omega t $",
+          "4": "$ I_{d} = V_{0} \\omega C \\cos \\omega t $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-2769c0b971",
+        "sourceYear": 2021,
+        "sourceNumber": 17,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The electron concentration in an n-type semiconductor is the same as hole concentration in a p-type semiconductor. An external field (electric) is applied across each of them. Compare the currents in them.",
+        "options": {
+          "1": "current in p-type $ > $ current in n-type",
+          "2": "current in n-type > current in p-type",
+          "3": "No current will flow in p-type, current will only flow in n-type",
+          "4": "current in n-type $ = $ current in p-type"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-21281ae494",
+        "sourceYear": 2021,
+        "sourceNumber": 21,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A parallel plate capacitor has a uniform electric field ' $ \\vec { E } $ ' in the space between the plates. If the distance between the plates is ' $ d $ ' and the area of each plate is ' A ', the energy stored in the capacitor is : ( $ \\varepsilon _ { 0 } = $ permittivity of free space $ ) $",
+        "options": {
+          "1": "$ \\varepsilon _ { 0 } $ EAd",
+          "2": "$ \\frac { 1 } { 2 } \\varepsilon _ { 0 } \\mathrm { E } ^ { 2 } \\mathrm { Ad } $",
+          "3": "$ \\frac { \\mathrm { E } ^ { 2 } \\mathrm { Ad } } { \\varepsilon _ { 0 } } $",
+          "4": "$ \\frac { 1 } { 2 } \\varepsilon _ { 0 } \\mathrm { E } ^ { 2 } $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-22a2c26503",
+        "sourceYear": 2021,
+        "sourceNumber": 32,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The effective resistance of a parallel connection that consists of four wires of equal length, equal area of cross-section and same material is $ 0.25 \\Omega $. What will be the effective resistance if they are connected in series?",
+        "options": {
+          "1": "$ 0.5 \\Omega $",
+          "2": "$ 1 \\Omega $",
+          "3": "$ 4 \\Omega $",
+          "4": "$ 0.25 \\Omega $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-4fbe1a28b2",
+        "sourceYear": 2021,
+        "sourceNumber": 6,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A thick current carrying cable of radius ' $ R $ ' carries current 'I' uniformly distributed across its cross-section. The variation of magnetic field $ B ( r ) $ due to the cable with the distance ' $ r $ ' from the axis of the cable is represented by :",
+        "options": {
+          "1": "image_588.png",
+          "2": "image_589.png",
+          "3": "image_590.png",
+          "4": "image_591.png"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-35fe9b0a6c",
+        "sourceYear": 2021,
+        "sourceNumber": 36,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A uniform conducting wire of length 12 a and resistance ' $ R $ ' is wound up as a current carrying coil in the shape of, (i) an equilateral triangle of side ' $ a $ '. (ii) a square of side ' $ a $ '. The magnetic dipole moments of the coil in each case respectively are :",
+        "options": {
+          "1": "$ 3 \\mathrm { Ia } ^ { 2 } $ and $ \\mathrm { Ia } ^ { 2 } $",
+          "2": "$ 3 \\mathrm { Ia } ^ { 2 } $ and $ 4 \\mathrm { Ia } ^ { 2 } $",
+          "3": "$ 4 \\mathrm { Ia } ^ { 2 } $ and $ 3 \\mathrm { Ia } ^ { 2 } $",
+          "4": "$ \\sqrt { 3 } \\mathrm { Ia } ^ { 2 } $ and $ 3 \\mathrm { Ia } ^ { 2 } $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-0e8aac10ec",
+        "sourceYear": 2021,
+        "sourceNumber": 43,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "Two conducting circular loops of radii $ R _ { 1 } $ and $ R _ { 2 } $ are placed in the same plane with their centres coinciding. If $ R _ { 1 } \\gg R _ { 2 } $, the mutual inductance $ M $ between them will be directly proportional to :",
+        "options": {
+          "1": "$ \\frac { R _ { 2 } } { R _ { 1 } } $",
+          "2": "$ \\frac { \\mathrm { R } _ { 1 } ^ { 2 } } { \\mathrm { R } _ { 2 } } $",
+          "3": "$ \\frac { \\mathrm { R } _ { 2 } ^ { 2 } } { \\mathrm { R } _ { 1 } } $",
+          "4": "$ \\frac { R _ { 1 } } { R _ { 2 } } $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-0320edc3db",
+        "sourceYear": 2021,
+        "sourceNumber": 45,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "Three resistors having resistances $ r _ { 1 } , r _ { 2 } $ and $ r _ { 3 } $ are connected as shown in the given circuit. The ratio $ \\frac { i _ { 3 } } { i _ { 1 } } $ of currents in terms of resistances used in the circuit is :",
+        "options": {
+          "1": "$ \\frac { r _ { 2 } } { r _ { 2 } + r _ { 3 } } $",
+          "2": "$ \\frac { r _ { 1 } } { r _ { 1 } + r _ { 2 } } $",
+          "3": "$ \\frac { r _ { 2 } } { r _ { 1 } + r _ { 3 } } $",
+          "4": "$ \\frac { r _ { 1 } } { r _ { 2 } + r _ { 3 } } $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2022-9c81eeb393",
+        "sourceYear": 2022,
+        "sourceNumber": 42,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "Two point charges - q and + q are placed at a distance of L , as shown in the figure The magnitude of electric field intensity at a distance $ R $ ( $ \\mathrm { R } \\gg \\mathrm { L } $ ) varies as",
+        "options": {
+          "1": "$ \\frac { 1 } { \\mathrm { R } ^ { 6 } } $",
+          "2": "$ \\frac { 1 } { \\mathrm { R } ^ { 2 } } $",
+          "3": "$ \\frac { 1 } { \\mathrm { R } ^ { 3 } } $",
+          "4": "$ \\frac { 1 } { \\mathrm { R } ^ { 4 } } $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2022-3c4d89bfc5",
+        "sourceYear": 2022,
+        "sourceNumber": 45,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "From Ampere's circuital law for a long straight wire of circular cross section carrying a steady current, the variation of magnetic field in the inside and outside region of the wire is :",
+        "options": {
+          "1": "a linearly decreasing function of distance upto the boundary of the wire and then a linearly increasing one for the outside region.",
+          "2": "uniform and remains constant for both the regions.",
+          "3": "a linearly increasing function of distance upto the boundary of the wire and then decreasing outside region.",
+          "4": "a linearly increasing function of distance $ r $ upto the boundary of the wire $ 1 / r $ dependence for the outside region."
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-7cb4a0f5c0",
+        "sourceYear": 2023,
+        "sourceNumber": 8,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The temperature of a gas is $ - 50 ^ { \\circ } \\mathrm { C } $. To what temperature the gas should be heated so that the rms speed is increased by 3 times?",
+        "options": {
+          "1": "223 K",
+          "2": "$ 669 ^ { \\circ } \\mathrm { C } $",
+          "3": "$ 3295 ^ { \\circ } \\mathrm { C } $",
+          "4": "3097 K"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-95db1136b5",
+        "sourceYear": 2023,
+        "sourceNumber": 15,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A $ 12 \\mathrm{~V} , 60 \\mathrm{~W} $ lamp is connected to the secondary of a step down transformer, whose primary is connected to ac mains of 220 V . Assuming the transformer to be ideal, what is the current in the primary winding?",
+        "options": {
+          "1": "0.37 A",
+          "2": "0.27 A",
+          "3": "2.7 A",
+          "4": "3.7 A"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-40de3e7da1",
+        "sourceYear": 2023,
+        "sourceNumber": 17,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "If the galvanometer $ G $ does not show any deflection in the circuit shown, the value of $ R $ is given by :",
+        "options": {
+          "1": "$ 400 \\Omega $",
+          "2": "$ 200 \\Omega $",
+          "3": "$ 50 \\Omega $",
+          "4": "$ 100 \\Omega $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-6eb227810a",
+        "sourceYear": 2023,
+        "sourceNumber": 35,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The magnitude and direction of the current in the following circuit is",
+        "options": {
+          "1": "1.5 A from $ B $ to $ A $ through $ E $",
+          "2": "0.2 A from $ B $ to $ A $ through $ E $",
+          "3": "0.5 A from $ A $ to $ B $ through $ E $",
+          "4": "$ \\frac { 5 } { 9 } $ A from $ A $ to $ B $ through $ E $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-7c6dce1af8",
+        "sourceYear": 2023,
+        "sourceNumber": 39,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "An electric dipole is placed as shown in the figure. The electric potential (in $ 10 ^ { 2 } \\mathrm {~V} $ ) at point P due to the dipole is $ \\left( \\epsilon _ { 0 } = \\right. $ permittivity of free space and $ \\frac { 1 } { 4 \\pi \\epsilon _ { 0 } } = K $ ):",
+        "options": {
+          "1": "$ \\left( \\frac { 8 } { 3 } \\right) \\mathrm { qK } $",
+          "2": "$ \\left( \\frac { 3 } { 8 } \\right) q K $",
+          "3": "$ \\left( \\frac { 5 } { 8 } \\right) \\mathrm { qK } $",
+          "4": "$ \\left( \\frac { 8 } { 5 } \\right) q K $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-588b228021",
+        "sourceYear": 2023,
+        "sourceNumber": 41,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "$ 41 \\quad 10 $ resistors, each of resistance $ R $ are connected in series to a battery of emf $ E $ and negligible internal resistance. Then those are connected in parallel to the same battery, the current is increased $ n $ times. The value of $ n $ is :",
+        "options": {
+          "1": "1000",
+          "2": "10",
+          "3": "100",
+          "4": "1"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-ab9e173875",
+        "sourceYear": 2023,
+        "sourceNumber": 42,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The resistance of platinum wire at $ 0 ^ { \\circ } \\mathrm { C } $ is $ 2 \\Omega $ and $ 6.8 \\Omega $ at $ 80 ^ { \\circ } \\mathrm { C } $. The temperature coefficient of resistance of the wire is :",
+        "options": {
+          "1": "$ 3 \\times 10 ^ { - 1 } { } ^ { \\circ } \\mathrm { C } ^ { - 1 } $",
+          "2": "$ 3 \\times 10 ^ { - 4 } { } ^ { \\circ } \\mathrm { C } ^ { - 1 } $",
+          "3": "$ 3 \\times 10 ^ { - 3 } { } ^ { \\circ } \\mathrm { C } ^ { - 1 } $",
+          "4": "$ 3 \\times 10 ^ { - 2 } { } ^ { \\circ } \\mathrm { C } ^ { - 1 } $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-b8318395d2",
+        "sourceYear": 2023,
+        "sourceNumber": 47,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A very long conducting wire is bent in a semi-circular shape from $ A $ to $ B $ as shown in figure. The magnetic field at point $ P $ for steady current configuration is given by :",
+        "options": {
+          "1": "$ \\frac { \\mu _ { 0 } i } { 4 R } \\left[ 1 - \\frac { 2 } { \\pi } \\right] $ pointed into the page",
+          "2": "$ \\frac { \\mu _ { 0 } i } { 4 R } $ pointed into the page",
+          "3": "$ \\frac { \\mu _ { 0 } i } { 4 R } $ pointed away from the page",
+          "4": "$ \\frac { \\mu _ { 0 } i } { 4 R } \\left[ 1 - \\frac { 2 } { \\pi } \\right] $ pointed away from page"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-d119678945",
+        "sourceYear": 2024,
+        "sourceNumber": 4,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The incorrect relation for a diamagnetic material (all the symbols carry their usual meaning and $ \\varepsilon $ is a small positive number) is",
+        "options": {
+          "1": "$ \\mu < \\mu _ { 0 } $",
+          "2": "$ 0 \\leq \\mu _ { r } < 1 $",
+          "3": "$ - 1 \\leq \\chi < 0 $",
+          "4": "$ 1 < \\mu _ { r } < 1 + \\varepsilon $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-a106fc9734",
+        "sourceYear": 2024,
+        "sourceNumber": 10,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "In the circuit shown below, the inductance $ L $ is connected to an ac source. The current flowing in the circuit is $ I = I _ { 0 } \\sin \\omega t $. The voltage drop $ \\left( V _ { L } \\right) $ across $ L $ is",
+        "options": {
+          "1": "$ \\omega L l o \\sin \\omega t $",
+          "2": "$ \\frac { I _ { 0 } } { \\omega L } \\sin \\omega t $",
+          "3": "$ \\frac { I _ { 0 } } { \\omega L } \\cos \\omega t $",
+          "4": "$ \\omega L l o \\cos \\omega t $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-e0c62ff1ea",
+        "sourceYear": 2024,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A 12 pF capacitor is connected to a 50 V battery, the electrostatic energy stored in the capacitor in nJ is \\n\\n[ \\Rightarrow V _ { L } = I _ { 0 } X _ { L } \\cos ( \\omega t ) = I _ { 0 } \\omega L \\cos ( \\omega t ) ]",
+        "options": {
+          "1": "15",
+          "2": "7.5",
+          "3": "0.3",
+          "4": "150"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-51179d0441",
+        "sourceYear": 2024,
+        "sourceNumber": 12,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A uniform wire of diameter $ d $ carries a current of 100 mA when the mean drift velocity of electrons in the wire is $ v $. For a wire of diameter $ \\frac { d } { 2 } $ of the same material to carry a current of 200 mA , the mean drift velocity of electrons in the wire is",
+        "options": {
+          "1": "$ 4 v $",
+          "2": "$ 8 v $",
+          "3": "$ v $",
+          "4": "$ 2 v $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-b2f27df9bf",
+        "sourceYear": 2024,
+        "sourceNumber": 13,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "In an electrical circuit, the voltage is measured as $ V = ( 200 \\pm 4 ) $ volt and the current is measured as $ I = ( 20 \\pm 0.2 ) \\mathrm { A } $. The value of the resistance is:",
+        "options": {
+          "1": "$ ( 10 \\pm 4.2 ) \\Omega $",
+          "2": "$ ( 10 \\pm 0.3 ) \\Omega $",
+          "3": "$ ( 10 \\pm 0.1 ) \\Omega $",
+          "4": "$ ( 10 \\pm 0.8 ) \\Omega $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-600ee5a08b",
+        "sourceYear": 2024,
+        "sourceNumber": 21,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A uniform metal wire of length / has $ 10 \\Omega $ resistance. Now this wire is stretched to a length $ 2 / $ and then bent to form a perfect circle. The equivalent resistance across any arbitrary diameter of that circle is",
+        "options": {
+          "1": "$ 10 \\Omega $",
+          "2": "$ 5 \\Omega $",
+          "3": "$ 40 \\Omega $",
+          "4": "$ 20 \\Omega $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-ecd24d2ada",
+        "sourceYear": 2024,
+        "sourceNumber": 22,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The spectral series which corresponds to the electronic transition from the levels $ n _ { 2 } = 5,6 , \\ldots $ to the level $ n _ { 1 } = 4 $ is",
+        "options": {
+          "1": "Pfund series",
+          "2": "Brackett series",
+          "3": "Lyman series",
+          "4": "Balmer series"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-ddb4e4a8b7",
+        "sourceYear": 2024,
+        "sourceNumber": 28,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "Let us consider two solenoids $ A $ and $ B $, made from same magnetic material of relative permeability $ \\mu _ { r } $ and equal area of cross-section. Length of $ A $ is twice that of $ B $ and the number of turns per unit length in $ A $ is half that of $ B $. The ratio of self inductances of the two solenoids, $ L _ { A } : L _ { B } $ is",
+        "options": {
+          "1": "$ 1 : 2 $",
+          "2": "$ 2 : 1 $",
+          "3": "$ 8 : 1 $",
+          "4": "$ 1 : 8 $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-0470114e39",
+        "sourceYear": 2024,
+        "sourceNumber": 37,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The value of electric potential at a distance of 9 cm from the point charge $ 4 \\times 10 ^ { - 7 } \\mathrm { C } $ is $ \\left[ \\right. $ Given $ \\left. \\frac { 1 } { 4 \\pi \\varepsilon _ { 0 } } = 9 \\times 10 ^ { 9 } \\mathrm {~N} \\mathrm {~m} ^ { 2 } \\mathrm { C } ^ { - 2 } \\right] $ :",
+        "options": {
+          "1": "$ 4 \\times 10 ^ { 2 } \\mathrm {~V} $",
+          "2": "44.4 V",
+          "3": "$ 4.4 \\times 10 ^ { 5 } \\mathrm {~V} $",
+          "4": "$ 4 \\times 10 ^ { 4 } \\mathrm {~V} $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-0bb5e4db66",
+        "sourceYear": 2024,
+        "sourceNumber": 45,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The magnetic moment of an iron bar is $ M $. It is now bent in such a way that it forms an arc section of a circle subtending an angle of $ 60 ^ { \\circ } $ at the centre. The magnetic moment of this arc section is",
+        "options": {
+          "1": "$ \\frac { 3 M } { \\pi } $",
+          "2": "$ \\frac { 4 M } { \\pi } $",
+          "3": "$ \\frac { M } { \\pi } $",
+          "4": "$ \\frac { 2 M } { \\pi } $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-fc78e673f6",
+        "sourceYear": 2024,
+        "sourceNumber": 46,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The given circuit shows a uniform straight wire $ A B $ of 40 cm length fixed at both ends. In order to get zero reading in the galvanometer $ G $, the free end of $ J $ is to be placed from $ B $ at:",
+        "options": {
+          "1": "32 cm",
+          "2": "8 cm",
+          "3": "16 cm",
+          "4": "24 cm"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-3570434777",
+        "sourceYear": 2024,
+        "sourceNumber": 50,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The steady state current in the circuit shown below is :",
+        "options": {
+          "1": "0.67 A",
+          "2": "1.5 A",
+          "3": "2 A",
+          "4": "1 A"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-6bec98cae4",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The length of a wire of a potentiometer is 100 cm , and the emf of its primary cell is E volt . It is employed to measure the emf of a battery whose internal resistance is 0 . 5 Î© . If the balance point is obtained at l = 30 cm from the positive end, the emf of the battery is",
+        "options": {
+          "1": "A 30 E 10",
+          "2": "5 B 30 E 100 -",
+          "3": "5 C 30 E -",
+          "4": "5 i 100 , W h e r e i i s t h e c u r r e n t i n t h e p o t e n t i o m e t e r w i r e . D 30 E 100"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-dea512542f",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A short bar magnet of magnetic moment 0.4 J T - 1 is placed in a uniform magnetic field of 0 . 16 T . The magnet is in stable equilibrium when the potential energy is",
+        "options": {
+          "1": "A -",
+          "2": "064 J B z e r o C -",
+          "3": "082 Â J",
+          "4": "064 Â J"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-2a4db5487b",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "[NEET 2017 | Physics] In Wheatstone bridge, battery and galvanometer interchanged. Deflection in galvanometer will:",
+        "options": {
+          "1": "Change in previous direction",
+          "2": "Not change",
+          "3": "Change in opposite direction",
+          "4": "None of these"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-ebcb30d531",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The total energy of an electron in the first excited state of the hydrogen atom is about -3.4 eV. The potential energy of the electron in this state is",
+        "options": {
+          "1": "A -",
+          "2": "8 eV B -",
+          "3": "6 eV",
+          "4": "8 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-b85d22fc3c",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A short bar magnet of magnetic moment $0.4 \\mathrm{~J} \\mathrm{~T}^{-1}$ is place in a uniform magnetic field of $0.16 \\mathrm{~T}$. The magnet is stable equilibrium when the potential energy is",
+        "options": {
+          "1": "A -",
+          "2": "64 \\mathrm{~J} B zero C -",
+          "3": "082 \\mathrm{~J}",
+          "4": "064 \\mathrm{~J}"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-c1fbe86e0e",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A long solenoid of radius R carries a time t dependent current I t = I 0 t 1 - t . A ring of radius 2 R is placed coaxially near its middle. During the time interval 0 â¤ t â¤ 1 , the induced current I R and the induced E M F V R in the ring change as:",
+        "options": {
+          "1": "A Direction of I R remains unchanged and V R is maximum at t =",
+          "2": "5 B At t =",
+          "3": "25 direction of I R reverses and V R is maximum C Direction of I R remains unchanged and V R is zero at t =",
+          "4": "25 D At t ="
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-afe9aa6da7",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "What is the current drawn from the battery of 6 V ?",
+        "options": {
+          "1": "A 125 A B 1",
+          "2": "5 A",
+          "3": "25 A",
+          "4": "5"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-fc22d45066",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The separation between the plates of a parallel plate capacitor is 5 mm . This capacitor, having air as the dielectric medium between the plates, is charged to a potential difference 25 V using a battery. The battery is then disconnected and a dielectric slab of thickness 3 mm and dielectric constant K = 10 is placed between the plates, as shown. The potential difference between the plates after the dielectric slab has been introduced is",
+        "options": {
+          "1": "A 1",
+          "2": "5 V B 1",
+          "3": "5 V C 1",
+          "4": "5 V"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-e3daecbe0b",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The heat produced (in calories) in a resistance R when a current I amperes flows through it for t seconds is given by the expression",
+        "options": {
+          "1": "A I 2 Rt",
+          "2": "2 B IR 2 t",
+          "3": "2",
+          "4": "2 IR t 2 D IRt 2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-d52cdca139",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "At a certain place, the angle of dip is 60 Â° and the horizontal component of the earth's magnetic field B H is 0 .8 Ã 10 - 4 T . The earth's overall magnetic field is",
+        "options": {
+          "1": "A 1 .5 × 10 - 4 T",
+          "2": "6 × 10 - 3 T",
+          "3": "5 × 10 - 3 T",
+          "4": "6 × 10 - 4 T"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-f39a5875b9",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A magnetic needle free to rotate in a vertical plane parallel to the magnetic meridian has its north tip pointing down at 22 0 with the horizontal. The horizontal component of the earth's magnetic field at the place is known to be 0 .35 G . Determine the magnitude of the earth's magnetic field at the place. cos 22 Â° = 0.9272",
+        "options": {
+          "1": "A 0 .38 G",
+          "2": "35 G",
+          "3": "3 0 G",
+          "4": "4 0 G"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-67ffb3539e",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The primary winding of transformer when connected to a $d c$ battery of 10 Volt draws a current of $1 \\mathrm{~mA}$. The number of turns of the primary and secondary windings are 50 and 100 respectively. The voltage in the secondary and the current drawn by the circuit in the secondary are respectively:",
+        "options": {
+          "1": "A 20 \\mathrm{~V} and",
+          "2": "0 \\mathrm{~mA} B 10 \\mathrm{~V} and",
+          "3": "5 \\mathrm{~mA} C Zero volt and therefore no current D 20 \\mathrm{~V} and",
+          "4": "5 \\mathrm{~mA}"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-34d9bbaab9",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The Bohr model for the H-atom relies on the Coulombâs law of electrostatics. Coulombâs law has not directly been verified for very short distances of the order of angstroms. Supposing Coulombâs law between two opposite charge + q1, âq2 is modified to What is the ground state energy of a hydrogen atom if the value of Îµ is 0.1 and R 0 is 1Ã ?",
+        "options": {
+          "1": "A â1",
+          "2": "4 eV B â1",
+          "3": "4 eV C â",
+          "4": "4 eV D â"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-689e640f1c",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "During an experiment with a metre bridge, the galvanometer shows a null point when the jockey is pressed at 40 . 0 cm using a standard resistance of 90 Î© ,as shown in the figure. The least count of the scale used in the metre bridge is 1 mm . The unknown resistance is",
+        "options": {
+          "1": "A 60 Â±",
+          "2": "15 Â Î© B 135 Â±",
+          "3": "56 Â Î© C 60 Â±",
+          "4": "25 Î© D 135 Â±"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-4eff100442",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "Which of the following combinations should be selected for better tuning of an LCR circuit used for communication?",
+        "options": {
+          "1": "A R = 20 Î© , L =",
+          "2": "5 H , C = 35 Î¼F B R = 25 Â Î© , Â L =",
+          "3": "5 Â H , Â C = 45 Â Î¼F C R = 15 Î© , L =",
+          "4": "5 H , C = 30 Î¼F D R = 25 Ω , L ="
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-c3ddee5e5f",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "[NEET 2016 | Physics] A parallel plate capacitor has uniform electric field E, plate distance d, area A. Energy stored:",
+        "options": {
+          "1": "e0*E2*A*d",
+          "2": "E2*A*d/e0",
+          "3": "0.5*e0*E2*A*d",
+          "4": "e0*E*A*d"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-8186387592",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "In the given circuit the reading of voltmeter $V_1$ and $V_2$ are $300 \\mathrm{~V}$ each. The reading to the voltmeter $\\mathrm{V}_3$ and ammeter $A$ are respectively",
+        "options": {
+          "1": "A 150 \\mathrm{~V},",
+          "2": "2 \\mathrm{~A} B 220 \\mathrm{~V},",
+          "3": "2 \\mathrm{~A} C 220 \\mathrm{~V},",
+          "4": "0 \\mathrm{~A} D 100 \\mathrm{~V},"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-886b8826d8",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A 30 Î¼F capacitor is connected to a 150 V , 60 Hz AC supply. The RMS value of current in the circuit is",
+        "options": {
+          "1": "A 17 A",
+          "2": "7 A",
+          "3": "7 mA",
+          "4": "7 Î¼A"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-d138d789ff",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A wire loop that encloses an area of 20 c m 2 has a resistance of 10 Î© . The loop is placed in a magnetic field of 2.4 T with its plane perpendicular to the field. The loop is suddenly removed from the field. How much charge flows past a given point in the wire?",
+        "options": {
+          "1": "A 12 Ã 10 - 4 C",
+          "2": "6 Ã 10 - 1 C",
+          "3": "8 Ã 10 - 4 C",
+          "4": "4 Ã 10 - 3"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-6fc165b605",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "An electron is at ground state of the H atom. The minimum energy required to excite the H atom into the second excited state is",
+        "options": {
+          "1": "A 1",
+          "2": "6 eV B 1",
+          "3": "1 eV C 1",
+          "4": "2 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-478e53c317",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "Consider the following two statements (A) Kirchhoff's junction law follows from the conservation of charge. (B) Kirchhoff's loop law follows from the conservation of energy. Which of the following is correct?",
+        "options": {
+          "1": "A Both (",
+          "2": "and (",
+          "3": "are wrong B (",
+          "4": "is correct and ("
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-d71869888d",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The ground state energy of hydrogen atom is $-13.6 \\mathrm{eV}$. When its electron is in the first excited state, its excitation energy is",
+        "options": {
+          "1": "A 0",
+          "2": "4 \\mathrm{eV}",
+          "3": "8 \\mathrm{eV} D 1",
+          "4": "2 \\mathrm{eV}"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-8c8c5d6d56",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "An emf is generated by an ac generator having 100 turn coil, of loop area $1 \\mathrm{~m}^2$. The coil rotates at a speed of one revolution per second and placed in a uniform magnetic field of $0.05 \\mathrm{~T}$ perpendicular to the axis of rotation of the coil. The maximum value of emf is",
+        "options": {
+          "1": "A 6",
+          "2": "8 \\mathrm{~V}",
+          "3": "28 \\mathrm{~V}",
+          "4": "14 \\mathrm{~V} D 3"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-9766e86d9c",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "[NEET 2021 | Physics] Two charges +q and −q are placed at a distance d. The electric field at the midpoint between them is:",
+        "options": {
+          "1": "Zero",
+          "2": "kq/d²",
+          "3": "4kq/d²",
+          "4": "8kq/d²"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-3e3b77b8be",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "If 13 . 6 eV energy is required to ionize the hydrogen atom, then the energy required to remove an electron from its first excited state is",
+        "options": {
+          "1": "A 10 . 2 eV",
+          "2": "1 eV",
+          "3": "4 eV",
+          "4": "8 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-97144fc53b",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The quantity of a charge that will be transferred by a current flow of 20 A over 1 h 30 m i n period is",
+        "options": {
+          "1": "A 1",
+          "2": "8 Ã 1 0 3 C B 1",
+          "3": "8 Ã 1 0 4 C",
+          "4": "4 Ã 1 0 3 C"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-3660abe757",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "Resistances of 100 Î© and 200 Î© are connected in series with 220 V mains. When a voltmeter of 1000 Î© resistance is connected in parallel to 100 Î© , then the reading of voltmeter is",
+        "options": {
+          "1": "A 6",
+          "2": "5 volts",
+          "3": "87 volts C 58",
+          "4": "5 volts D 5"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-3318681440",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A copper wire of radius $1 \\mathrm{~mm}$ contains $10^{22}$ free electrons per cubic metre. The drift velocity for free electrons when $10 \\mathrm{~A}$ current flows through the wire will be (Given, charge on electron $=1.6 \\times 10^{-19} \\mathrm{C}$ )",
+        "options": {
+          "1": "A \\frac{",
+          "2": "25}{\\pi} \\mathrm{m} \\mathrm{s}^{-1} B \\frac{",
+          "3": "25 \\times 10^5}{\\pi} \\mathrm{m} \\mathrm{s}^{-1} C \\frac{",
+          "4": "25 \\times 10^4}{\\pi} \\mathrm{m} \\mathrm{s}^{-1} D \\frac{"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-b9fa59d7bf",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "[NEET 2020 | Physics] A circular coil of radius r is placed in a magnetic field B perpendicular to the plane of the coil. If the radius increases at rate dr/dt, the induced EMF is:",
+        "options": {
+          "1": "2πrB(dr/dt)",
+          "2": "πr²(dB/dt)",
+          "3": "BπrΩ",
+          "4": "Bπr(dr/dt)"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-b643824681",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "In the Auger process, an atom makes a transition to a lower state without emitting a photon. The excess energy is transferred to an outer electron which may be ejected by the atom (an Auger electron). Assuming the nucleus to be massive, what is the kinetic energy of an n = 4 Auger electron emitted by Chromium after absorbing the energy from an n = 2 to n = 1 transition?",
+        "options": {
+          "1": "A 538",
+          "2": "6 eV B 632",
+          "3": "8 eV C 721",
+          "4": "4 eV D 421"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-824ec627a3",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The currents through diodes D 1 and D 2 are",
+        "options": {
+          "1": "A i 1 =",
+          "2": "1 Â A , Â i 2 =",
+          "3": "1 Â A B i 1 =",
+          "4": "1 A , i 2 = 0 C i 1 = 0 , Â i 2 ="
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-46b61591d6",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "What is the ground state energy of positronium, a system similar to a hydrogen atom with the proton replaced by a positively charged anti-particle of the electron (positron), knowing that it is â 6.8 eV?",
+        "options": {
+          "1": "A â 1",
+          "2": "6 eV B â",
+          "3": "8 eV C â",
+          "4": "4 eV D â 2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-5e9b461c00",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "In a potentiometer arrangement shown in fig. The balancing length for potential difference across X , Y points is found to be 45.5 c m . Then the balancing length for potential difference across Y and Z would be",
+        "options": {
+          "1": "A 4",
+          "2": "50 Â c m B 5",
+          "3": "87 Â c m C 3",
+          "4": "40 c m D none of the above"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-6f1ad782f5",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "In the given circuit the reading of voltmeters V 1 and V 2 are 300 volt each. The reading of the voltmeter V 3 and ammeter A are respectively",
+        "options": {
+          "1": "A 150 â â V and",
+          "2": "2 â â A B 220 â â V and",
+          "3": "2 â â A C 220 â â V and",
+          "4": "0 â â A D 100 â â V and"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-11ae8c3271",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The amount of work done in increasing the voltage across the plates of the capacitor from 5 V to 10 V is W . The work done in increasing it from 10 V to 15 V will be",
+        "options": {
+          "1": "A W",
+          "2": "6 Â W",
+          "3": "25 Â W",
+          "4": "67 W"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-d49ea1bc22",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "Question: What is the kinetic energy of the electron in the ground state of a hydrogen atom with a ground state energy of -13.6 eV?",
+        "options": {
+          "1": "A -1",
+          "2": "6 eV B 0 eV C 1",
+          "3": "6 eV D 2",
+          "4": "2 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-b7b1182520",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The energy (in eV ) required to excite an electron from n = 2 to n = 4 state in hydrogen atom is",
+        "options": {
+          "1": "A -",
+          "2": "85 B +",
+          "3": "25 C -",
+          "4": "4 D +"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       }
     ],
     "Hard": [
@@ -1851,31 +4158,6 @@
           "2": "0·43 W",
           "3": "2·74 W",
           "4": "1·13 W"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q120",
-        "sourceYear": 2018,
-        "sourceNumber": 30,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "A metallic rod of mass per unit length –1 0·5 kg m is lying horizontally on a smooth inclined plane which makes an angle of 30° with the horizontal. The rod is not allowed to slide down by flowing a current through it when a magnetic field of induction 0·25 T is acting on it in the vertical direction. The current flowing in the rod to keep it stationary is",
-        "options": {
-          "1": "11·32 A",
-          "2": "14·76 A",
-          "3": "5·98 A",
-          "4": "7·14 A"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -2014,31 +4296,6 @@
         "placeholder": false
       },
       {
-        "id": "2020-E1-Q163",
-        "sourceYear": 2020,
-        "sourceNumber": 40,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "The capacitance of a parallel plate capacitor with air as medium is 6 μF. With the introduction of a dielectric medium, the capacitance becomes 30 μF. The permittivity of the medium is : (e0=8.85×120^{-12}$ C2 N−1 m−2)$",
-        "options": {
-          "1": "5.00 C2 N−1 m−2",
-          "2": "0.44×130^{-13}$ C2 N−1 m−2$",
-          "3": "1.77×120^{-12}$ C2 N−1 m−2$",
-          "4": "0.44×100^{-10}$ C2 N−1 m−2$"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2020-E1-Q172",
         "sourceYear": 2020,
         "sourceNumber": 43,
@@ -2076,56 +4333,6 @@
           "2": "(A)-(R), (B)-(S), (C)-(P), (D)-(Q)",
           "3": "(A)-(R), (B)-(S), (C)-(Q), (D)-(P)",
           "4": "(A)-(R), (B)-(P), (C)-(S), (D)-(Q)"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q12",
-        "sourceYear": 2021,
-        "sourceNumber": 12,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "Column - I gives certain physical terms associated with flow of current through a metallic conductor. Column - II gives some mathematical relations involving electrical quantities. Match Column - I and Column - II with appropriate relations. Column - I Column - II m (A) Drift Velocity (P) ne2 ρ (B) Electrical Resistivity (Q) nevd eE (C) Relaxation Period (R) τ m E (D) Current Density (S) J",
-        "options": {
-          "1": "(A)-(R), (B)-(S), (C)-(P), (D)-(Q)",
-          "2": "(A)-(R), (B)-(S), (C)-(Q), (D)-(P)",
-          "3": "(A)-(R), (B)-(P), (C)-(S), (D)-(Q)",
-          "4": "(A)-(R), (B)-(Q), (C)-(S), (D)-(P)"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q18",
-        "sourceYear": 2021,
-        "sourceNumber": 18,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "Column - I gives certain physical terms associated with flow of current through a metallic conductor. Column - II gives some mathematical relations involving electrical quantities. Match Column - I and Column - II with appropriate relations. Column - I Column - II m (A) Drift Velocity (P) ne2 ρ (B) Electrical Resistivity (Q) nevd eE (C) Relaxation Period (R) τ m E (D) Current Density (S) J",
-        "options": {
-          "1": "(A)-(R), (B)-(S), (C)-(Q), (D)-(P)",
-          "2": "(A)-(R), (B)-(P), (C)-(S), (D)-(Q)",
-          "3": "(A)-(R), (B)-(Q), (C)-(S), (D)-(P)",
-          "4": "(A)-(R), (B)-(S), (C)-(P), (D)-(Q)"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -2201,56 +4408,6 @@
           "2": "2192 m",
           "3": "21.92 cm",
           "4": "219.3 m"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q47",
-        "sourceYear": 2022,
-        "sourceNumber": 2,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "Column - I gives certain physical terms associated with flow of current through a metallic conductor. Column - II gives some mathematical relations involving electrical quantities. Match Column - I and Column - II with appropriate relations. Column - I Column - II m (A) Drift Velocity (P) ne2ρ (B) Electrical Resistivity (Q) nevd eE (C) Relaxation Period (R) τ m E (D) Current Density (S) J",
-        "options": {
-          "1": "(A)-(R), (B)-(Q), (C)-(S), (D)-(P)",
-          "2": "(A)-(R), (B)-(S), (C)-(P), (D)-(Q)",
-          "3": "(A)-(R), (B)-(S), (C)-(Q), (D)-(P)",
-          "4": "(A)-(R), (B)-(P), (C)-(S), (D)-(Q)"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q99",
-        "sourceYear": 2022,
-        "sourceNumber": 6,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "A particular station of All India Radio, New Delhi, broadcasts on a frequency of 1,368 kHz (kilohertz). The wavelength of the electromagnetic radiation emitted by the transmitter is : [speed of light, c=3.0×108 ms−1]",
-        "options": {
-          "1": "219.3 m",
-          "2": "219.2 m",
-          "3": "2192 m",
-          "4": "21.92 cm"
         },
         "correctOption": "2",
         "correctOptions": [
@@ -2439,31 +4596,6 @@
         "placeholder": false
       },
       {
-        "id": "2023-F1-Q49",
-        "sourceYear": 2023,
-        "sourceNumber": 48,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "A wire carrying a current I along the positive x-axis has length L. It is kept in a magnetic field ρ B (2iˆ + 3 ˆj – 4kˆ )T . The magnitude of the magnetic force acting on the wire is =",
-        "options": {
-          "1": "5 lL",
-          "2": "5 lL",
-          "3": "3 lL",
-          "4": "3 lL"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2024-R1-Q14",
         "sourceYear": 2024,
         "sourceNumber": 12,
@@ -2589,18 +4721,15 @@
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q14",
-        "sourceYear": 2025,
-        "sourceNumber": 12,
+        "id": "catch-b5fd9c6a35",
         "subject": "Physics",
         "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "Consider the following statements A and B and identify the correct answer: A. For a solar-cell, the I-V characteristics lies in the IV quadrant of the given graph. B. In a reverse biased pn junction diode, the current measured in (μA), is due to majority charge carriers.",
+        "stem": "[NEET 2021 | Physics] Wire radius a, current I uniform. Ratio of B at a/2 to B at 2a:",
         "options": {
-          "1": "A is incorrect but B is correct",
-          "2": "Both A and B are correct",
-          "3": "Both A and B are incorrect",
-          "4": "A is correct but B is incorrect"
+          "1": "0.5",
+          "2": "0.25",
+          "3": "4",
+          "4": "1"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -2610,72 +4739,477 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
       },
       {
-        "id": "2025-INTERIM-Q25",
-        "sourceYear": 2025,
-        "sourceNumber": 22,
+        "id": "auth-1813aad13c",
         "subject": "Physics",
         "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "In the following circuit, the equivalent capacitance between terminal A and terminal B is :",
+        "stem": "Two point charges +2 μC and −2 μC are separated by 1 m in vacuum. The electrostatic force magnitude is (k = 9×10⁹)",
         "options": {
-          "1": "1 μF",
-          "2": "0.5 μF",
-          "3": "4 μF",
-          "4": "2 μF"
+          "1": "36 N",
+          "2": "18 N",
+          "3": "0.036 N",
+          "4": "36000000000 N"
         },
-        "correctOption": "4",
+        "correctOption": "3",
         "correctOptions": [
-          "4"
+          "3"
         ],
         "multiCorrect": false,
-        "figureSrc": "/figures/2025-INTERIM-Q25.png",
-        "figureKind": "pdf-crop+from-2024-stem-match",
+        "figureSrc": null,
+        "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "authored-ncert (F = k|q1 q2|/r² with μC→C)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
       },
       {
-        "id": "2025-INTERIM-Q41",
-        "sourceYear": 2025,
-        "sourceNumber": 38,
+        "id": "auth-49d1e441c5",
         "subject": "Physics",
         "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "A 10 μF capacitor is connected to a 210 V, 50 Hz source as shown in figure. The peak current in the circuit is nearly (π = 3.14):",
+        "stem": "Two point charges +3 μC and −3 μC are separated by 1 m in vacuum. The electrostatic force magnitude is (k = 9×10⁹)",
         "options": {
-          "1": "0.93 A",
-          "2": "1.20 A",
-          "3": "0.35 A",
-          "4": "0.58 A"
+          "1": "81 N",
+          "2": "27 N",
+          "3": "0.08099999999999999 N",
+          "4": "81000000000 N"
         },
-        "correctOption": "1",
+        "correctOption": "3",
         "correctOptions": [
-          "1"
+          "3"
         ],
         "multiCorrect": false,
-        "figureSrc": "/figures/2025-INTERIM-Q41.png",
-        "figureKind": "pdf-crop+from-2024-stem-match",
+        "figureSrc": null,
+        "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "authored-ncert (F = k|q1 q2|/r² with μC→C)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
       },
       {
-        "id": "2025-INTERIM-Q45",
-        "sourceYear": 2025,
-        "sourceNumber": 42,
+        "id": "auth-5a840170aa",
         "subject": "Physics",
         "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "A sheet is placed on a horizontal surface in front of a strong magnetic pole. A force is needed to: A. hold the sheet there if it is magnetic. B. hold the sheet there if it is non-magnetic. C. move the sheet away from the pole with uniform velocity if it is conducting. D. move the sheet away from the pole with uniform velocity if it is both, non-conducting and non-polar. Choose the correct statement(s) from the options given below:",
+        "stem": "Two point charges +4 μC and −4 μC are separated by 1 m in vacuum. The electrostatic force magnitude is (k = 9×10⁹)",
         "options": {
-          "1": "A and C only",
-          "2": "A, C and D only",
-          "3": "C only",
-          "4": "B and D only"
+          "1": "144 N",
+          "2": "36 N",
+          "3": "0.144 N",
+          "4": "144000000000 N"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = k|q1 q2|/r² with μC→C)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-4122e03c4b",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "Two point charges +5 μC and −5 μC are separated by 1 m in vacuum. The electrostatic force magnitude is (k = 9×10⁹)",
+        "options": {
+          "1": "225 N",
+          "2": "45 N",
+          "3": "0.22499999999999998 N",
+          "4": "225000000000 N"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = k|q1 q2|/r² with μC→C)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-2a072c1651",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "Two point charges +6 μC and −6 μC are separated by 1 m in vacuum. The electrostatic force magnitude is (k = 9×10⁹)",
+        "options": {
+          "1": "324 N",
+          "2": "54 N",
+          "3": "0.32399999999999995 N",
+          "4": "324000000000 N"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = k|q1 q2|/r² with μC→C)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-2406a46e71",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "Two point charges +7 μC and −7 μC are separated by 1 m in vacuum. The electrostatic force magnitude is (k = 9×10⁹)",
+        "options": {
+          "1": "441 N",
+          "2": "63 N",
+          "3": "0.441 N",
+          "4": "441000000000 N"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = k|q1 q2|/r² with μC→C)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-e7a6d4a037",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "Two point charges +8 μC and −8 μC are separated by 1 m in vacuum. The electrostatic force magnitude is (k = 9×10⁹)",
+        "options": {
+          "1": "576 N",
+          "2": "72 N",
+          "3": "0.576 N",
+          "4": "576000000000 N"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = k|q1 q2|/r² with μC→C)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-6124683ea2",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "Two point charges +9 μC and −9 μC are separated by 1 m in vacuum. The electrostatic force magnitude is (k = 9×10⁹)",
+        "options": {
+          "1": "729 N",
+          "2": "81 N",
+          "3": "0.7289999999999999 N",
+          "4": "729000000000 N"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = k|q1 q2|/r² with μC→C)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-2f5e5ce31a",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "Two point charges +10 μC and −10 μC are separated by 1 m in vacuum. The electrostatic force magnitude is (k = 9×10⁹)",
+        "options": {
+          "1": "900 N",
+          "2": "90 N",
+          "3": "0.8999999999999999 N",
+          "4": "900000000000 N"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = k|q1 q2|/r² with μC→C)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-6f8a49b3a4",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "Two point charges +11 μC and −11 μC are separated by 1 m in vacuum. The electrostatic force magnitude is (k = 9×10⁹)",
+        "options": {
+          "1": "1089 N",
+          "2": "99 N",
+          "3": "1.089 N",
+          "4": "1089000000000 N"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = k|q1 q2|/r² with μC→C)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-e10450e8b4",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "Two point charges +12 μC and −12 μC are separated by 1 m in vacuum. The electrostatic force magnitude is (k = 9×10⁹)",
+        "options": {
+          "1": "1296 N",
+          "2": "108 N",
+          "3": "1.2959999999999998 N",
+          "4": "1296000000000 N"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = k|q1 q2|/r² with μC→C)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-dd2de6f34b",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "Two point charges +13 μC and −13 μC are separated by 1 m in vacuum. The electrostatic force magnitude is (k = 9×10⁹)",
+        "options": {
+          "1": "1521 N",
+          "2": "117 N",
+          "3": "1.521 N",
+          "4": "1521000000000 N"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = k|q1 q2|/r² with μC→C)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-6df319f53e",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "Two point charges +14 μC and −14 μC are separated by 1 m in vacuum. The electrostatic force magnitude is (k = 9×10⁹)",
+        "options": {
+          "1": "1764 N",
+          "2": "126 N",
+          "3": "1.764 N",
+          "4": "1764000000000 N"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = k|q1 q2|/r² with μC→C)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-8f36b720c9",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "Two point charges +15 μC and −15 μC are separated by 1 m in vacuum. The electrostatic force magnitude is (k = 9×10⁹)",
+        "options": {
+          "1": "2025 N",
+          "2": "135 N",
+          "3": "2.025 N",
+          "4": "2025000000000 N"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = k|q1 q2|/r² with μC→C)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-bf6957ae05",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "Two point charges +16 μC and −16 μC are separated by 1 m in vacuum. The electrostatic force magnitude is (k = 9×10⁹)",
+        "options": {
+          "1": "2304 N",
+          "2": "144 N",
+          "3": "2.304 N",
+          "4": "2304000000000 N"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = k|q1 q2|/r² with μC→C)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-1ec7802a18",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "Two point charges +17 μC and −17 μC are separated by 1 m in vacuum. The electrostatic force magnitude is (k = 9×10⁹)",
+        "options": {
+          "1": "2601 N",
+          "2": "153 N",
+          "3": "2.601 N",
+          "4": "2601000000000 N"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = k|q1 q2|/r² with μC→C)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-318db7a8e4",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "Two point charges +18 μC and −18 μC are separated by 1 m in vacuum. The electrostatic force magnitude is (k = 9×10⁹)",
+        "options": {
+          "1": "2916 N",
+          "2": "162 N",
+          "3": "2.9159999999999995 N",
+          "4": "2916000000000 N"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = k|q1 q2|/r² with μC→C)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-7d594c7c18",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "Two point charges +19 μC and −19 μC are separated by 1 m in vacuum. The electrostatic force magnitude is (k = 9×10⁹)",
+        "options": {
+          "1": "3249 N",
+          "2": "171 N",
+          "3": "3.2489999999999997 N",
+          "4": "3249000000000 N"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = k|q1 q2|/r² with μC→C)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-db9f861666",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "Two point charges +20 μC and −20 μC are separated by 1 m in vacuum. The electrostatic force magnitude is (k = 9×10⁹)",
+        "options": {
+          "1": "3600 N",
+          "2": "180 N",
+          "3": "3.5999999999999996 N",
+          "4": "3600000000000 N"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (F = k|q1 q2|/r² with μC→C)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-648d82451f",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A resistor of 90 Ω carries 2 A. Power dissipated is",
+        "options": {
+          "1": "360 W",
+          "2": "180 W",
+          "3": "45 W",
+          "4": "4050 W"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -2685,22 +5219,21 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "authored-ncert (P = I²R)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
       },
       {
-        "id": "2025-INTERIM-Q49",
-        "sourceYear": 2025,
-        "sourceNumber": 46,
+        "id": "auth-9b5571b905",
         "subject": "Physics",
         "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "An iron bar of length L has magnetic moment M. It is bent at the middle of its length such that the two arms make an angle 60° with each other. The magnetic moment of this new magnet is : M",
+        "stem": "A resistor of 100 Ω carries 2 A. Power dissipated is",
         "options": {
-          "1": "Option 1",
-          "2": "2M 2 M",
-          "3": "Option 3",
-          "4": "M 3"
+          "1": "400 W",
+          "2": "200 W",
+          "3": "50 W",
+          "4": "5000 W"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -2710,8 +5243,106 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "authored-ncert (P = I²R)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-65145f669c",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A resistor of 110 Ω carries 2 A. Power dissipated is",
+        "options": {
+          "1": "440 W",
+          "2": "220 W",
+          "3": "55 W",
+          "4": "6050 W"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (P = I²R)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-20396db2b7",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A resistor of 120 Ω carries 2 A. Power dissipated is",
+        "options": {
+          "1": "480 W",
+          "2": "240 W",
+          "3": "60 W",
+          "4": "7200 W"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (P = I²R)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-0e4ac49140",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A resistor of 130 Ω carries 2 A. Power dissipated is",
+        "options": {
+          "1": "520 W",
+          "2": "260 W",
+          "3": "65 W",
+          "4": "8450 W"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (P = I²R)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-95358eb114",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A resistor of 140 Ω carries 2 A. Power dissipated is",
+        "options": {
+          "1": "560 W",
+          "2": "280 W",
+          "3": "70 W",
+          "4": "9800 W"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (P = I²R)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
       }
     ]
   },

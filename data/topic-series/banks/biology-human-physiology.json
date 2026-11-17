@@ -3,9 +3,9 @@
   "subject": "Biology",
   "topic": "Human Physiology",
   "counts": {
-    "Easy": 21,
-    "Medium": 21,
-    "Hard": 20
+    "Easy": 67,
+    "Medium": 61,
+    "Hard": 50
   },
   "questions": {
     "Easy": [
@@ -181,56 +181,6 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q182",
-        "sourceYear": 2021,
-        "sourceNumber": 182,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "difficulty": "Easy",
-        "stem": "Veneral diseases can spread through : (a) Using sterile needles (b) Transfusion of blood from infected person (c) Infected mother to foetus (d) Kissing (e) Inheritance Choose the correct answer from the options given below.",
-        "options": {
-          "1": "(a) and (c) only",
-          "2": "(a), (b) and (c) only",
-          "3": "(b), (c) and (d) only",
-          "4": "(b) and (c) only"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q23",
-        "sourceYear": 2022,
-        "sourceNumber": 123,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "difficulty": "Easy",
-        "stem": "In a marriage between male with blood group A and female with blood group B, the progeny had either blood group AB or B. What could be the possible genotype of parents? A B B A A B B",
-        "options": {
-          "1": "I i (Male) ; I I (Female)",
-          "2": "I I (Male) ; I I (Female) A A B A B",
-          "3": "I I (Male) ; I i (Female)",
-          "4": "I i (Male) ; I i(Female)"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
       },
@@ -533,6 +483,1226 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
+      },
+      {
+        "id": "hf2018-b0ea96866a",
+        "sourceYear": 2018,
+        "sourceNumber": 96,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "What is the role of $ \\mathrm { NAD } ^ { + } $ in cellular respiration?",
+        "options": {
+          "1": "It is a nucleotide source for ATP synthesis.",
+          "2": "It functions as an electron carrier.",
+          "3": "It functions as an enzyme.",
+          "4": "It is the final electron acceptor for anaerobic respiration."
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-49635d57db",
+        "sourceYear": 2018,
+        "sourceNumber": 136,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Which of the following options correctly represents the lung conditions in asthma and emphysema, respectively?",
+        "options": {
+          "1": "Increased respiratory surface; Inflammation of bronchioles",
+          "2": "Increased number of bronchioles; Increased respiratory surface",
+          "3": "Inflammation of bronchioles; Decreased respiratory surface",
+          "4": "Decreased respiratory surface; Inflammation of bronchioles"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-03f074ff55",
+        "sourceYear": 2018,
+        "sourceNumber": 139,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "The transparent lens in the human eye is held in its place by",
+        "options": {
+          "1": "smooth muscles attached to the iris",
+          "2": "ligaments attached to the iris",
+          "3": "ligaments attached to the ciliary body",
+          "4": "smooth muscles attached to the ciliary body"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-cc21226acc",
+        "sourceYear": 2018,
+        "sourceNumber": 140,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Which of the following is an amino acid derived hormone?",
+        "options": {
+          "1": "Estradiol",
+          "2": "Ecdysone",
+          "3": "Epinephrine",
+          "4": "Estriol"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-1d0789c1a7",
+        "sourceYear": 2018,
+        "sourceNumber": 141,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Which of the following hormones can play a significant role in osteoporosis?",
+        "options": {
+          "1": "Estrogen and Parathyroid hormone",
+          "2": "Progesterone and Aldosterone",
+          "3": "Aldosterone and Prolactin",
+          "4": "Parathyroid hormone and Prolactin"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-d4cf885c0d",
+        "sourceYear": 2018,
+        "sourceNumber": 144,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Hormones secreted by the placenta to maintain pregnancy are",
+        "options": {
+          "1": "hCG, hPL, progestogens, estrogens",
+          "2": "hCG, hPL, estrogens, relaxin, oxytocin",
+          "3": "hCG, hPL, progestogens, prolactin",
+          "4": "hCG, progestogens, estrogens, glucocorticoids"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-67b2e678f1",
+        "sourceYear": 2018,
+        "sourceNumber": 168,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Calcium is important in skeletal muscle contraction because it",
+        "options": {
+          "1": "detaches the myosin head from the actin filament.",
+          "2": "activates the myosin ATPase by binding to it.",
+          "3": "binds to troponin to remove the masking of active sites on actin for myosin.",
+          "4": "prevents the formation of bonds between the myosin cross bridges and the actin filament."
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-333a8a84ec",
+        "sourceYear": 2018,
+        "sourceNumber": 176,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Which of the following is not an autoimmune disease?",
+        "options": {
+          "1": "Alzheimer's disease",
+          "2": "Rheumatoid arthritis",
+          "3": "Psoriasis",
+          "4": "Vitiligo"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-92ea9828e6",
+        "sourceYear": 2019,
+        "sourceNumber": 91,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "The Earth Summit held in Rio de Janeiro in 1992 was called:",
+        "options": {
+          "1": "to reduce $ \\mathrm { CO } _ { 2 } $ emissions and global warming.",
+          "2": "for conservation of biodiversity and sustainable utilization of its benefits.",
+          "3": "to assess threat posed to native species by invasive weed species.",
+          "4": "for immediate steps to discontinue use of CFCs that were damaging the ozone layer."
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-d0474c8d35",
+        "sourceYear": 2019,
+        "sourceNumber": 95,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Respiratory Quotient $ ( \\mathrm { RQ } ) $ value of tripalmitin is :",
+        "options": {
+          "1": "0.9",
+          "2": "0.7",
+          "3": "0.07",
+          "4": "0.09"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-03c153a5ef",
+        "sourceYear": 2019,
+        "sourceNumber": 96,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Which of the following is a commercial blood cholesterol lowering agent?",
+        "options": {
+          "1": "Cyclosporin A",
+          "2": "Statin",
+          "3": "Streptokinase",
+          "4": "Lipases"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-cbb894c5aa",
+        "sourceYear": 2019,
+        "sourceNumber": 5,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Which part of the brain is responsible for thermoregulation?",
+        "options": {
+          "1": "Cerebrum",
+          "2": "Hypothalamus",
+          "3": "Corpus callosum",
+          "4": "Medulla oblongata"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-886c3d9dbc",
+        "sourceYear": 2019,
+        "sourceNumber": 109,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "How does steroid hormone influence the cellular activities?",
+        "options": {
+          "1": "Changing the permeability of the cell membrane.",
+          "2": "Binding to DNA and forming a gene-hormone complex.",
+          "3": "Activating cyclic AMP located on the cell membrane.",
+          "4": "Using aquaporin channels as second messenger."
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-2682e14b35",
+        "sourceYear": 2019,
+        "sourceNumber": 116,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Select the correct sequence for transport of sperm cells in male reproductive system.",
+        "options": {
+          "1": "Testis $ \\rightarrow $ Epididymis $ \\rightarrow $ Vasa efferentia $ \\rightarrow $ Rete testis $ \\rightarrow $ Inguinal canal $ \\rightarrow $ Urethra",
+          "2": "Seminiferous tubules $ \\rightarrow $ Rete testis $ \\rightarrow $ Vasa efferentia $ \\rightarrow $ Epididymis $ \\rightarrow $ Vas deferens $ \\rightarrow $ Ejaculatory duct $ \\rightarrow $ Urethra $ \\rightarrow $ Urethral meatus",
+          "3": "Seminiferous tubules $ \\rightarrow $ Vasa efferentia $ \\rightarrow $ Epididymis $ \\rightarrow $ Inguinal canal $ \\rightarrow $ Urethra",
+          "4": "Testis $ \\rightarrow $ Epididymis $ \\rightarrow $ Vasa efferentia $ \\rightarrow $ Vas deferens $ \\rightarrow $ Ejaculatory duct $ \\rightarrow $ Inguinal canal $ \\rightarrow $ Urethra $ \\rightarrow $ Urethral meatus"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-9ca008aba3",
+        "sourceYear": 2019,
+        "sourceNumber": 140,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Which of the following contraceptive methods do involve a role of hormone?",
+        "options": {
+          "1": "Lactational amenorrhea, Pills, Emergency contraceptives",
+          "2": "Barrier method, Lactational amenorrhea, Pills",
+          "3": "CuT, Pills, Emergency contraceptives",
+          "4": "Pills, Emergency contraceptives, Barrier methods"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-bb254e8f49",
+        "sourceYear": 2019,
+        "sourceNumber": 150,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Select the hormone-releasing Intra-Uterine Devices.",
+        "options": {
+          "1": "Vaults, LNG-20",
+          "2": "Multiload 375, Progestasert",
+          "3": "Progestasert, LNG-20",
+          "4": "Lippes Loop, Multiload 375"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-03b2b87fe9",
+        "sourceYear": 2019,
+        "sourceNumber": 162,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Which of the following immune responses is responsible for rejection of kidney graft?",
+        "options": {
+          "1": "Auto-immune response",
+          "2": "Humoral immune response",
+          "3": "Inflammatory immune response",
+          "4": "Cell-mediated immune response"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-2f43ab1bf1",
+        "sourceYear": 2019,
+        "sourceNumber": 178,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Which of these following methods is the most suitable for disposal of nuclear waste?",
+        "options": {
+          "1": "Shoot the waste into space",
+          "2": "Bury the waste under Antarcticice-cover",
+          "3": "Dump the waste within rocks under deep ocean",
+          "4": "Bury the waste within rocks deep below the Earth's surface"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-e7e98cea2c",
+        "sourceYear": 2020,
+        "sourceNumber": 23,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Which of the following is put into Anaerobic sludge digester for further sewage treatment?",
+        "options": {
+          "1": "Primary sludge",
+          "2": "Floating debris",
+          "3": "Effluents of primary treatment",
+          "4": "Activated sludge"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-1c49a7cf69",
+        "sourceYear": 2020,
+        "sourceNumber": 42,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "The oxygenation activity of RuBisCo enzyme in photorespiration leads to the formation of :",
+        "options": {
+          "1": "2 molecules of 3 -C compound",
+          "2": "1 molecule of 3 - C compound",
+          "3": "1 molecule of $ 6 - \\mathrm { C } $ compound",
+          "4": "1 molecule of 4-C compound and 1 molecule of 2 -C compound"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-7a3dc3cef1",
+        "sourceYear": 2020,
+        "sourceNumber": 47,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Identify the correct statement with reference to human digestive system.",
+        "options": {
+          "1": "Ileum opens into small intestine.",
+          "2": "Serosa is the innermost layer of the alimentary canal.",
+          "3": "Ileum is a highly coiled part.",
+          "4": "Vermiform appendix arises from duodenum."
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-c095b2e4b1",
+        "sourceYear": 2021,
+        "sourceNumber": 115,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "The plant hormone used to destroy weeds in a field is :",
+        "options": {
+          "1": "NAA",
+          "2": "$ 2,4 - \\mathrm { D } $",
+          "3": "IBA",
+          "4": "IAA"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-45d14e5699",
+        "sourceYear": 2021,
+        "sourceNumber": 154,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Which one of the following is an example of Hormone releasing IUD?",
+        "options": {
+          "1": "LNG 20",
+          "2": "Cu 7",
+          "3": "Multiload 375",
+          "4": "CuT"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-604f5f8f93",
+        "sourceYear": 2021,
+        "sourceNumber": 161,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Which one of the following organisms bears hollow and pneumatic long bones?",
+        "options": {
+          "1": "Hemidactylus",
+          "2": "Macropus",
+          "3": "Ornithorhynchus",
+          "4": "Neophron"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-5e44b85e44",
+        "sourceYear": 2021,
+        "sourceNumber": 175,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Chronic auto immune disorder affecting neur muscular junction leading to fatigue, weakenin and paralysis of skeletal muscle is called as :",
+        "options": {
+          "1": "Muscular dystrophy",
+          "2": "Myasthenia gravis",
+          "3": "Gout",
+          "4": "Arthritis"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-09e3b4e966",
+        "sourceYear": 2021,
+        "sourceNumber": 183,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Which of the following statements wrongly represents the nature of smooth muscle?",
+        "options": {
+          "1": "They are involuntary muscles",
+          "2": "Communication among the cells is performed by intercalated discs",
+          "3": "These muscles are present in the wall of blood vessels",
+          "4": "These muscle have no striations"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-248b31089a",
+        "sourceYear": 2021,
+        "sourceNumber": 185,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Erythropoietin hormone which stimulates R.B.C. formation is produced by :",
+        "options": {
+          "1": "The cells of rostral adenohypophysis",
+          "2": "The cells of bone marrow",
+          "3": "Juxtaglomerular cells of the kidney",
+          "4": "Alpha cells of pancreas"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-bc08590b9e",
+        "sourceYear": 2021,
+        "sourceNumber": 193,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Which of the following secretes the hormone, relaxin, during the later phase of pregnancy?",
+        "options": {
+          "1": "Corpus luteum",
+          "2": "Foetus",
+          "3": "Uterus",
+          "4": "Graafian follicle"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-c85159f95e",
+        "sourceYear": 2023,
+        "sourceNumber": 1,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Which of the following represents the total lung capacity?",
+        "options": {
+          "1": "$ \\mathrm{IRV} + \\mathrm{ERV} + \\mathrm{TV} $",
+          "2": "IRV + ERV",
+          "3": "$ \\mathrm{IRV} + \\mathrm{ERV} + \\mathrm{TV} + \\mathrm{RV} $",
+          "4": "$ \\mathrm{IRV} + \\mathrm{ERV} + \\mathrm{TV} - \\mathrm{RV} $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-5fb2b57671",
+        "sourceYear": 2023,
+        "sourceNumber": 190,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Which of the following are NOT under the control of thyroid hormone?",
+        "options": {
+          "1": "D and E only",
+          "2": "A and D only",
+          "3": "B and C only",
+          "4": "C and D only"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-701448c247",
+        "sourceYear": 2023,
+        "sourceNumber": 191,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "In cockroach, excretion is brought about by-",
+        "options": {
+          "1": "B and D only",
+          "2": "A and E only",
+          "3": "A, B and E only",
+          "4": "B, C and D only"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-dc246ecdb8",
+        "sourceYear": 2024,
+        "sourceNumber": 102,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Which of the following simple tissues are commonly found in the fruit walls of nuts and pulp of pear?",
+        "options": {
+          "1": "Sclereids",
+          "2": "Fibres",
+          "3": "Parenchyma",
+          "4": "Collenchyma"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-a4fba1fe76",
+        "sourceYear": 2024,
+        "sourceNumber": 176,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Open Circulatory system is present in:",
+        "options": {
+          "1": "Palaemon, Nereis, Balanoglossus",
+          "2": "Hirudinaria, Bombyx, Salpa",
+          "3": "Anopheles, Limax, Limulus",
+          "4": "Pheretima, Musca, Pila"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-d1887940d0",
+        "sourceYear": 2024,
+        "sourceNumber": 185,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Lub' sound of Heart is caused by the $ \\qquad $",
+        "options": {
+          "1": "closure of the semilunar valves",
+          "2": "opening of tricuspid and bicuspid valves",
+          "3": "opening of the semilunar valves",
+          "4": "closure of the tricuspid and bicuspid valves"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-ce7742dd65",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "[NEET 2019 | Biology] Megasporangium is equivalent to:",
+        "options": {
+          "1": "Fruit",
+          "2": "Ovule",
+          "3": "Seed",
+          "4": "Leaf"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-b53d76b1d0",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "[NEET 2021 | Biology] Which is NOT a natural method of contraception?",
+        "options": {
+          "1": "Lactational amenorrhoea",
+          "2": "Coitus interruptus",
+          "3": "Periodic abstinence",
+          "4": "Cu-T"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-993e7c25ca",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "[NEET 2022 | Biology] Ovulation in a typical 28-day menstrual cycle occurs on day:",
+        "options": {
+          "1": "7",
+          "2": "14",
+          "3": "21",
+          "4": "28"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-257d33cff1",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "[NEET 2020 | Biology] Which plant hormone promotes cell division and delays senescence?",
+        "options": {
+          "1": "Auxin",
+          "2": "Gibberellin",
+          "3": "Cytokinin",
+          "4": "Abscisic acid"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-062f8d3bf0",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "[NEET 2016 | Biology] Sertoli cells are found in:",
+        "options": {
+          "1": "Ovary",
+          "2": "Seminiferous tubules of testis",
+          "3": "Epididymis",
+          "4": "Prostate gland"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-b026a4dfc1",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "[NEET 2022 | Biology] A person with blood group AB can donate blood to:",
+        "options": {
+          "1": "All blood groups (universal donor)",
+          "2": "Only AB group",
+          "3": "A and AB groups",
+          "4": "B and AB groups"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-5c1662819b",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "[NEET 2017 | Biology] Hormones secreted by testis are:",
+        "options": {
+          "1": "Progesterone and testosterone",
+          "2": "Testosterone and inhibin",
+          "3": "LH and testosterone",
+          "4": "Oestrogen and inhibin"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-3cac76ba89",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "[NEET 2022 | Biology] Which have an open circulatory system?",
+        "options": {
+          "1": "Earthworm",
+          "2": "Cockroach only",
+          "3": "Prawn only",
+          "4": "Cockroach and prawn"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-8a8d1ab3cd",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "[NEET 2022 | Biology] Excretory units of flatworms (Platyhelminthes) are:",
+        "options": {
+          "1": "Nephridia",
+          "2": "Malpighian tubules",
+          "3": "Flame cells",
+          "4": "Green glands"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-057ed2addf",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "[NEET 2020 | Biology] Which hormone is known as the 'emergency hormone' or 'fight or flight hormone'?",
+        "options": {
+          "1": "Insulin",
+          "2": "Cortisol",
+          "3": "Adrenaline (Epinephrine)",
+          "4": "Thyroxine"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-132af28641",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "[NEET 2019 | Biology] Which is NOT a steroid hormone?",
+        "options": {
+          "1": "Oestrogen",
+          "2": "Progesterone",
+          "3": "Testosterone",
+          "4": "Insulin"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-74fec8137c",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "[NEET 2023 | Biology] In double fertilisation, triple fusion involves fusion of one male gamete with:",
+        "options": {
+          "1": "Egg cell",
+          "2": "Two polar nuclei",
+          "3": "One polar nucleus and egg",
+          "4": "Two synergids"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-881975674b",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "[NEET 2018 | Biology] Correct statement about pepsin:",
+        "options": {
+          "1": "Secreted in active form",
+          "2": "Is a proteolytic enzyme",
+          "3": "Secreted by pancreas",
+          "4": "Works at alkaline pH"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-55d22a1845",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "[NEET 2018 | Biology] Cockroach excretes:",
+        "options": {
+          "1": "Uric acid",
+          "2": "Urea",
+          "3": "Ammonia",
+          "4": "Guanine"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       }
     ],
     "Medium": [
@@ -583,31 +1753,6 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q23",
-        "sourceYear": 2019,
-        "sourceNumber": 113,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "difficulty": "Medium",
-        "stem": "In a marriage between male with blood group A and female with blood group B, the progeny had either blood group AB or B. What could be the possible genotype of parents? A B B A A B B",
-        "options": {
-          "1": "I i (Male) ; I I (Female)",
-          "2": "I I (Male) ; I I (Female) A A B A B",
-          "3": "I I (Male) ; I i (Female)",
-          "4": "I i (Male) ; I i(Female)"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
       },
@@ -1060,6 +2205,1024 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
+      },
+      {
+        "id": "hf2019-ba128238b8",
+        "sourceYear": 2019,
+        "sourceNumber": 120,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Due to increasing air-borne allergens and pollutants, many people in urban areas are suffering from respiratory disorder causing wheezing due to:",
+        "options": {
+          "1": "benign growth on mucous lining of nasal cavity.",
+          "2": "inflammation of bronchi and bronchioles.",
+          "3": "proliferation of fibrous tissues and damage of the alveolar walls.",
+          "4": "reduction in the secretion of surfactants by pneumocytes."
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-cc897ae232",
+        "sourceYear": 2019,
+        "sourceNumber": 130,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "What would be the heart rate of a person if the cardiac output is 5 L , blood volume in the ventricles at the end of diastole is 100 mL and at the end of ventricular systole is 50 mL ?",
+        "options": {
+          "1": "50 beats per minute",
+          "2": "75 beats per minute",
+          "3": "100 beats per minute",
+          "4": "125 beats per minute"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-842e817d0e",
+        "sourceYear": 2019,
+        "sourceNumber": 8,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Use of an artificial kidney during hemodialysis $ { } ^ { \\text {a } } $ may result in : (a) Nitrogenous waste build-up in the body (b) Non-elimination of excess potassium ions (c) Reduced absorption of calcium ions from gastro-intestinal tract (d) Reduced RBC production Which of the following options is the most appropriate?",
+        "options": {
+          "1": "(a) and (b) are correct",
+          "2": "(b) and (c) are correct",
+          "3": "(c) and (d) are correct",
+          "4": "(a) and (d) are correct"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-af208ad14f",
+        "sourceYear": 2019,
+        "sourceNumber": 39,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "It takes very long time for pineapple plants to produce flowers. Which combination of hormones can be applied to artificially induce flowering in pineapple plants throughout the year to increase yield?",
+        "options": {
+          "1": "Auxin and Ethylene",
+          "2": "Gibberellin and Cytokinin",
+          "3": "Gibberellin and Abscisic acid",
+          "4": "Cytokinin and Abscisic acid"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-d9d6d9a8c2",
+        "sourceYear": 2023,
+        "sourceNumber": 117,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Spraying of which of the following phytohormone on juvenile conifers helps in hastening the maturity period, that leads to early seed production?",
+        "options": {
+          "1": "Abscisic Acid",
+          "2": "Indole-3-butyric Acid",
+          "3": "Gibberellic Acid",
+          "4": "Zeatin"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-4a28ec3335",
+        "sourceYear": 2023,
+        "sourceNumber": 179,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Match List I with List II. List I A. CCK B. GIP C. ANF D. ADH List II I. Kidney II. Heart III. Gastric gland IV. Pancreas Choose the correct answer from the options given below:",
+        "options": {
+          "1": "A-IV, B-II, C-III, D-I",
+          "2": "A-IV, B-III, C-II, D-I",
+          "3": "A-III, B-II, C-IV, D-I",
+          "4": "A-II, B-IV, C-I, D-III"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-52c1bbb4d1",
+        "sourceYear": 2023,
+        "sourceNumber": 192,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Match List I with List II. List I A. Mast cells B. Inner surface of bronchiole C. Blood D. Tubular parts of nephron List II I. Ciliated epithelium II. Areolar connective tissue III. Cuboidal epithelium IV. specialised connective tissue",
+        "options": {
+          "1": "A-III, B-IV, C-II, D-I",
+          "2": "A-I, B-II, C-IV, D-III",
+          "3": "A-II, B-III, C-I, D-IV",
+          "4": "A-II, B-I, C-IV, D-III"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-7dbca06fb5",
+        "sourceYear": 2024,
+        "sourceNumber": 107,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Match List-I with List-II: List-I Type of Inheritance A. Incomplete dominance B. Co-dominance C. Pleiotropy D. Polygenic inheritance List-II Example I. Blood groups in human II. Flower colour in Antirrhinum III. Skin colour in human IV. Phenylketonuria",
+        "options": {
+          "1": "A-III, B-IV, C-II, D-I",
+          "2": "A-II, B-I, C-IV, D-III",
+          "3": "A-II, B-III, C-I, D-IV",
+          "4": "A-IV, B-I, C-III, D-II"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-66ee6136cb",
+        "sourceYear": 2024,
+        "sourceNumber": 111,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Given below are two statements: Statement I : The Indian Government has set up GEAC, which will make GM research. Statement II: Biopiracy is the term used to refer to the use of bio-reso In the light of the above statements, choose the correct answer from th",
+        "options": {
+          "1": "Statement I is true but Statement II is false",
+          "2": "Statement I is false but Statement II is true",
+          "3": "Both Statement I and Statement II are true",
+          "4": "Both Statement I and Statement II are false"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-ee37291a13",
+        "sourceYear": 2024,
+        "sourceNumber": 156,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "A person with blood group $ \\mathrm { ARh } ^ { - } $ can receive the blood transfusion from which of the following type A. BRh- B. $ \\mathrm { ABRh } ^ { - } $ C. $ \\mathrm { ORh } ^ { - } $ D. $ \\mathrm { ARh } ^ { - } $ E. $ \\mathrm { ARh } ^ { + } $ Choose the correct answer from the options given below :",
+        "options": {
+          "1": "D and E only",
+          "2": "D only",
+          "3": "A and B only",
+          "4": "C and D only"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-86bb044b03",
+        "sourceYear": 2024,
+        "sourceNumber": 160,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Match List-I with List-II. \\begin{tabular} { | l | l | l | l | } \\hline & List-I & & List-II \\ \\hline A. & Epinephrine & I. & Hyperglycemia \\ \\hline B. & Thyroxine & II. & Smooth muscle contraction \\ \\hline C. & Oxytocin & III. & Basal metabolic rate \\ \\hline D. & Glucagon & IV. & Emergency hormone \\ \\hline \\end{tabular}",
+        "options": {
+          "1": "A-II, B-I, C-IV, D-III",
+          "2": "A-III, B-II, C-I, D-IV",
+          "3": "A-IV, B-III, C-II, D-I",
+          "4": "A-I, B-IV, C-III, D-II"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-1180eb24b7",
+        "sourceYear": 2024,
+        "sourceNumber": 177,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "In which of the following connective tissues, the cells secrete fibres of collagen or elastin? A. Cartilage B. Bone C. Adipose tissue D. Blood E. Areolar tissue",
+        "options": {
+          "1": "B, C, D and E only",
+          "2": "A, B, C and E only",
+          "3": "B, C and D only",
+          "4": "A, C and D only"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-964d06aa6e",
+        "sourceYear": 2024,
+        "sourceNumber": 179,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Match List-I with List-II: \\begin{tabular} { | l | l | l | l | } \\hline & List-I & & List-II \\ \\hline A. & Residual Volume & I. & \\begin{tabular} { l } Maximum volume of air that can be breathed in after forced \\ expiration \\end{tabular} \\ \\hline B. & Vital Capacity & II. & Volume of air inspired or expired during normal respiration \\ \\hline C. & Expiratory Capacity & III. & Volume of air remaining in lungs after forcible expiration \\ \\hline D. & Tidal Volume & IV. & Total volume of air expired after normal inspiration \\ \\hline \\end{tabular}",
+        "options": {
+          "1": "A-IV, B-III, C-II, D-I",
+          "2": "A-II, B-IV, C-I, D-III",
+          "3": "A-III, B-I, C-IV, D-II",
+          "4": "A-I, B-II, C-III, D-IV"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-7159a424fa",
+        "sourceYear": 2024,
+        "sourceNumber": 189,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Identify the wrong statements : A. Erythropoietin is produced by juxtaglomerular cells of the kidney B. Leydig cells produce Androgens C. Atrial Natriuretic factor, a peptide hormone is secreted by the seminiferous tubules of the testes D. Cholecystokinin is produced by gastrointestinal tract E. Gastrin acts on intestinal wall and helps in the production of pepsinogen Choose the most appropriate answer from the options given below : (1) D and E only (2) A and B only (3) C and E only (4) A and C only Answer (3)",
+        "options": {
+          "1": "D and E only",
+          "2": "A and B only",
+          "3": "C and E only",
+          "4": "A and C only"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-065bd33546",
+        "sourceYear": 2024,
+        "sourceNumber": 193,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Match List-I with List-II: \\begin{tabular} { | l | l | l | l | } \\hline & List I & & List II \\ \\hline A. & Parturition & I. & Several antibodies for new-born babies \\ \\hline B. & Placenta & II. & Collection of ovum after ovulation \\ \\hline C. & Colostrum & III. & Foetal ejection reflex \\ \\hline D. & Fimbriae & IV. & Secretion of the hormone hCG \\ \\hline \\end{tabular}",
+        "options": {
+          "1": "A-III, B-IV, C-I, D-II",
+          "2": "A-I, B-IV, C-II, D-III",
+          "3": "A-II, B-III, C-IV, D-I",
+          "4": "A-III, B-IV, C-II, D-I"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-561fed3acc",
+        "sourceYear": 2024,
+        "sourceNumber": 195,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "The mother has $ A + $ blood group the father has $ B + $ and the child is $ A + $. What can be the possibility of genotypes of all three, respectively? A. $ \\quad \\left| A I ^ { A } \\right| I ^ { B } i \\mid I ^ { B } i $ B. $ \\quad I I ^ { A } \\left| I ^ { B } \\right| \\mid I ^ { A } i $ C. $ \\left. \\left. \\quad | B i | \\right| ^ { A } \\right| ^ { A } \\left| I ^ { A } \\right| ^ { B } $ D. $ I ^ { A } I ^ { A } \\left| I ^ { B / B } \\right| I ^ { A } i $ E. $ \\left. \\quad \\left| A _ { i } \\right| \\left| I ^ { B } \\right| \\right| ^ { A } i $ Choose the correct answer from the option given below:",
+        "options": {
+          "1": "C and D",
+          "2": "D and A",
+          "3": "A and B",
+          "4": "B and E"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-60c7865377",
+        "sourceYear": 2024,
+        "sourceNumber": 198,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Match List I with List II : \\begin{tabular} { | l | l | l | l | } \\hline & List - I & & List - II \\ \\hline A. & Squamous Epithelium & I. & Goblet cells of alimentary canal \\ \\hline B. & Ciliated Epithelium & II. & Inner lining of pancreatic ducts \\ \\hline C. & Glandular Epithelium & III. & Walls of blood vessels \\ \\hline D. & Compound Epithelium & IV. & Inner surface of Fallopian tubes \\ \\hline \\end{tabular}",
+        "options": {
+          "1": "A-II, B-III, C-I, D-IV",
+          "2": "A-II, B-IV, C-III, D-I",
+          "3": "A-III, B-I, C-II, D-IV",
+          "4": "A-III, B-IV, C-I, D-II"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-b4a72952a2",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Are amphibians cold-blooded or warm-blooded animals?",
+        "options": {
+          "1": "A Warm-blooded B Cold-blooded C Both",
+          "2": "and",
+          "3": "D Neither",
+          "4": "nor"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-d3af17e69c",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Activated sludge is A. formed after sequential filtration and sedimentation in primary setting tank. B. bacterial flocs settling after secondary treatment. C. passed into anaerobic sludge digester.",
+        "options": {
+          "1": "A Only (",
+          "2": "is incorrect B Only (",
+          "3": "and (",
+          "4": "are incorrect C Only ("
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-324a12fe3a",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "[NEET 2019 | Biology] Which type of epithelium is found lining the kidney tubules and ducts of salivary glands?",
+        "options": {
+          "1": "Squamous epithelium",
+          "2": "Columnar epithelium",
+          "3": "Cuboidal epithelium",
+          "4": "Ciliated epithelium"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-592dd95e5f",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "In the given equation below, identify the compound which is being oxidized and calculate the R.Q. of the same. 2 C 51 H 98 O 6 + 145 O 2 â 102 C O 2 + 98 H 2 O + e n e r g y",
+        "options": {
+          "1": "A Palmitin, R.Q. =",
+          "2": "9 B Tripalmitin, R.Q. =",
+          "3": "7 C Palmitin, R.Q. = 1 D âTripalmitin, R.Q. =",
+          "4": "2"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-d9544520a6",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "What is the optimal pH for pepsins?",
+        "options": {
+          "1": "A pH",
+          "2": "2 B pH",
+          "3": "5 C pH",
+          "4": "8 D pH"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-7c73e17c1a",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "What type of circulatory system is present in annelids and chordates?",
+        "options": {
+          "1": "A Open circulatory system B Closed circulatory system C Neither",
+          "2": "nor",
+          "3": "D Both",
+          "4": "and"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-11b08a9d8c",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "[NEET 2019 | Biology] Which is NOT correctly matched?",
+        "options": {
+          "1": "Glycolysis - cytoplasm",
+          "2": "Krebs cycle - mitochondrial matrix",
+          "3": "ETC - inner mitochondrial membrane",
+          "4": "Pyruvate oxidation - cytoplasm"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-721a551500",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "What is the average number of red blood cells in a healthy adult man?",
+        "options": {
+          "1": "A 5 millions to",
+          "2": "5 millions mmâ»Â³ of blood B 6 millions to",
+          "3": "5 millions mmâ»Â³ of blood C 4 millions to",
+          "4": "5 millions mmâ»Â³ of blood D 7 millions to"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-777ace9aeb",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "The scrotum helps in maintaining the low temperature of the testes",
+        "options": {
+          "1": "A 4-",
+          "2": "5 o C temperature higher than body temperature to facilitate spermatogenesis. B 3-",
+          "3": "5 o C temperature higher than body temperature to facilitate spermiogenesis. C 2-",
+          "4": "5 o C temperature lower than body temperature to facilitate spermatogenesis. D 5-"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-23acd11f72",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Listed below are four respiratory capacities (1 - 4) and four jumbled respiratory volumes of a normal human adult (1) Residual volume $2500 \\mathrm{~mL}$ (2) Vital capacity $3500 \\mathrm{~mL}$ (3) Inspiratory reserve $1200 \\mathrm{~mL}$ volume (4) Inspiratory capacity $4500 \\mathrm{~mL}$ Which one of the following is the correct matching of two capacities and volumes?",
+        "options": {
+          "1": "A (",
+          "2": "2500 \\mathrm{~mL}, (",
+          "3": "4500 \\mathrm{~mL} B (",
+          "4": "1200 \\mathrm{~mL} ("
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-6249ece70f",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "A person works in a silicon manufacturing industry for the past 20 years. Since a few years he has started feeling quite breathless and has cough all the time. His doctor says that this is because of his occupation as he is exposed constantly to silica dust. What must have been the size of the particles to cause such an issue?",
+        "options": {
+          "1": "A PM",
+          "2": "5 B PM",
+          "3": "75 C PM 5 D PM",
+          "4": "5"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-ae42844bb2",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Which type of circulatory system is more advantageous?",
+        "options": {
+          "1": "A Open circulatory system B Closed circulatory system C Neither",
+          "2": "nor",
+          "3": "D Both",
+          "4": "and"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-2dc4e71e81",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "What type of circulatory system is present in arthropods and molluscs?",
+        "options": {
+          "1": "A Open circulatory system B Closed circulatory system C Neither",
+          "2": "nor",
+          "3": "D Both",
+          "4": "and"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-5712db7734",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Consider the following statements (I)-(IV) each with one or two blanks. I. Bears go into (1) during winter to ......(2) ...... cold weather. II. A conical age pyramid with a broad base represents......(3)..... human population. III. A wasp pollinating a fig flower is an example of (4) ...... IV. An area with high levels of species richness is known as ......(5)...... Which one of the following options give the correct fill up the respective blanks numbers from (1) to (5) in the statements.",
+        "options": {
+          "1": "A (",
+          "2": "stable, (",
+          "3": "commensalism, (",
+          "4": "marsh B ("
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-4efe4151a1",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Which of the following are correctly matched? (A) Ethylene - Thinning of cotton, cherry and walnut (B) ABA - Antagonist to Gibberellic acids (C) Cytokinin - Speed up the malting process in brewing industry (D) Auxins - Prevent fruit and leaf drop at early stages Choose the correct option:",
+        "options": {
+          "1": "A (",
+          "2": ", (",
+          "3": "and (",
+          "4": "B ("
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-d9dd9c7d0c",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Tropical rain forests once covered more than ____a____ percent of the Earth surface, now covers not more than ___b___percent.",
+        "options": {
+          "1": "A a-30, b-1",
+          "2": "8 B a-",
+          "3": "l, b-",
+          "4": "4 C a-l4,b-6 D a-1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-1c5d4817a4",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "[NEET 2021 | Biology] Glomerular filtration rate (GFR) in a healthy adult is approximately:",
+        "options": {
+          "1": "12 mL/min",
+          "2": "125 mL/min",
+          "3": "1250 mL/min",
+          "4": "1.25 mL/min"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-e74aed462d",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "[NEET 2023 | Biology] During muscle contraction, which band does NOT change its length?",
+        "options": {
+          "1": "I band",
+          "2": "H zone",
+          "3": "A band",
+          "4": "Both I band and H zone"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-d3622011d5",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Mycoplasmas, the smallest cells, are only (i) Î¼m in length while bacteria could be (ii) Î¼m. Among multicellular organisms, human red blood cells are about (iii) Î¼m in diameter. Identify (i), (ii), and (iii).",
+        "options": {
+          "1": "A (i) (ii) (iii)",
+          "2": "5 5-7 7 B (i) (ii) (iii)",
+          "3": "3 3-7 9 C (i) (ii) (iii)",
+          "4": "3 3-5 4 D (i) (ii) (iii)"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-348d716c8a",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Select the correct statement regarding Lactobacillus acidophilus . A. They produce acids the coagulate and partially digest milk fat. B. They require a suitable temperature and medium for their multiplication. C. They play a beneficial role by checking disease-causing microbes in our stomach. D. They improve nutritional quality by increasing the amount of thiamine.",
+        "options": {
+          "1": "A (",
+          "2": ", (",
+          "3": "and (",
+          "4": "B ("
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-f9efb23d7a",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "If a person is running on a treadmill, the duration of his cardiac cycle will be",
+        "options": {
+          "1": "A greater than",
+          "2": "8 sec B less than",
+          "3": "8 sec C equal to",
+          "4": "8 sec D close to"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-77edf77b37",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "The antibodies present in the plasma of a person with blood group A will be",
+        "options": {
+          "1": "A anti-A B anti-",
+          "2": "C both (",
+          "3": "and (",
+          "4": ". D none of these."
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-ed879fbe35",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "[NEET 2020 | Biology] How many ATP molecules are directly produced in one turn of the Krebs (TCA) cycle?",
+        "options": {
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4": "38"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-1e1d8cbcb6",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "[NEET 2023 | Biology] In IVF (In Vitro Fertilisation), the embryo is transferred to the uterus at what stage?",
+        "options": {
+          "1": "Zygote stage",
+          "2": "8-cell stage",
+          "3": "Blastocyst stage",
+          "4": "Morula stage"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
       }
     ],
     "Hard": [
@@ -1562,6 +3725,762 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
+      },
+      {
+        "id": "hf2018-5f310a6e34",
+        "sourceYear": 2018,
+        "sourceNumber": 163,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Match the items given in Column I with those in Column II and select the correct option given below : \\n\\n\\begin{tabular}{|c|c|c|c|} \\hline & Column I & & Column II \\ \\hline a. & Glycosuria & i. & Accumulation of uric acid in joints \\ \\hline b. & Gout & ii. & Mass of crystallised salts within the kidney \\ \\hline c. & Renal calculi & iii. & Inflammation in glomeruli \\ \\hline d. & Glomerular nephritis & iv. & Presence of glucose in urine \\ \\hline & a b & c & d \\ \\hline (1) & ii iii & i & iv \\ \\hline (2) & ii & iii & iv \\ \\hline (3) & iii ii & iv & i \\ \\hline (4) & iv i & ii & iii \\ \\hline \\end{tabular} \\n\\n",
+        "options": {
+          "1": "ii iii i iv",
+          "2": "ii iii iv",
+          "3": "iii ii iv i",
+          "4": "iv i ii iii"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-9402b35027",
+        "sourceYear": 2018,
+        "sourceNumber": 164,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I (Function) a. Ultrafiltration b. Concentration of urine c. Transport of urine d. Storage of urine Column II (Part of Excretory System) i. Henle's loop ii. Ureter iii. Urinary bladder iv. Malpighian corpuscle v. Proximal convoluted tubule",
+        "options": {
+          "1": "a iv b i c ii d iii",
+          "2": "a iv b v c ii d iii",
+          "3": "a iv b i c iii d ii",
+          "4": "d ii iii iii iii"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-5c805baf9c",
+        "sourceYear": 2018,
+        "sourceNumber": 166,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Match the items given in Column I with those in Column II and select the correct option given below : \\begin{tabular} { l l l l l } & \\multicolumn{2}{l} { Column I } & & \\multicolumn{1}{c} { Column II } \\ a. & Fibrinogen & i. & Osmotic balance \\ b. & Globulin & ii. & Blood clotting \\ c. & Albumin & iii. & Defence mechanism \\ & a & b & c & \\ (1) & i & iii & ii & \\ ( 2 ) & i & ii & iii & \\ ( 3 ) & iii & ii & i & \\ ( 4 ) & ii & iii & i & \\end{tabular}",
+        "options": {
+          "1": "i iii ii",
+          "2": "i ii iii",
+          "3": "iii ii i",
+          "4": "ii iii i"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-ab2bcf18dc",
+        "sourceYear": 2019,
+        "sourceNumber": 97,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Match the following structures with their respective location in organs : (a) Crypts of Lieberkühn (i) Pancreas (b) Glisson's Capsule (ii) Duodenum (c) Islets of Langerhans (iii) Small intestine (d) Brunner's Glands (iv) Liver Select the correct option from the following : \\begin{tabular} { l l l l l } & (a) & (b) & (c) & (d) \\ (1) & (iii) & (i) & (ii) & (iv) \\ (2) & (ii) & (iv) & (i) & (iii) \\ (3) & (iii) & (iv) & (i) & (ii) \\ (4) & (iii) & (ii) & (i) & (iv) \\end{tabular}",
+        "options": {
+          "1": "(iii) (i) (ii) (iv)",
+          "2": "(ii) (iv) (i) (iii)",
+          "3": "(iii) (iv) (i) (ii)",
+          "4": "(iii) (ii) (i) (iv)"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-bc2cf78a2b",
+        "sourceYear": 2019,
+        "sourceNumber": 117,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Match the hominids with their correct brain size : (a) Homohabilis (i) 900 cc (b) Homo neanderthalensis (ii) 1350 cc (c) Homo erectus (iii) $ 650 - 800 \\mathrm { cc } $ (d) Homo sapiens (iv) 1400 cc Select the correct option. \\begin{tabular} { l l l l l } & (a) & (b) & (c) & (d) \\ (1) & (iii) & (i) & (iv) & (ii) \\ (2) & (iii) & (ii) & (i) & (iv) \\ (3) & (iii) & (iv) & (i) & (ii) \\ (4) & (iv) & (iii) & (i) & (ii) \\end{tabular}",
+        "options": {
+          "1": "(iii) (i) (iv) (ii)",
+          "2": "(iii) (ii) (i) (iv)",
+          "3": "(iii) (iv) (i) (ii)",
+          "4": "(iv) (iii) (i) (ii)"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-2240a3b24b",
+        "sourceYear": 2019,
+        "sourceNumber": 179,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Match the following hormones with the respective disease: (a) Insulin (i) Addison's disease (b) Thyroxin (ii) Diabetes insipidus (c) Corticoids (iii) Acromegaly (d) Growth Hormone (iv) Goitre (v) Diabetes mellitus",
+        "options": {
+          "1": "(a) (v) (b) (i) (c) (ii) (d) (iii)",
+          "2": "(a) (ii) (b) (iv) (c) (iii) (d) (i)",
+          "3": "(a) (v) (b) (iv) (c) (i) (d) (iii)",
+          "4": "(a) (ii) (b) (iv) (c) (i) (d) (iii)"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-5e88738f15",
+        "sourceYear": 2020,
+        "sourceNumber": 2,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Match the following columns and select the correct option. Column - I (a) Clostridium butylicum (b) Trichoderma polysporum (c) Monascus purpureus (d) Aspergillus niger Column - II (i) Production of citric acid (ii) Production of blood cholesterol lowering agents (iii) Production of antibiotics (iv) Production of statins",
+        "options": {
+          "1": "(iii) (iv) (ii) (i)",
+          "2": "(ii) (i) (iv) (iii)",
+          "3": "(i) (ii) (iv) (iii)",
+          "4": "(iv) (iii) (ii) (i)"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-a416becfc0",
+        "sourceYear": 2020,
+        "sourceNumber": 62,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Match the following columns and select the correct option. \\begin{tabular}{|c|c|c|c|} \\hline & \\multicolumn{2}{|l|}{Column - I} & Column - II \\ \\hline (a) & Organ of Corti & (i) & Connects middle ear and pharynx \\ \\hline (b) & Cochlea & (ii) & Coiled part of the labyrinth \\ \\hline (c) & Eustachian tube & (iii) & Attached to the oval window \\ \\hline (d) & Stapes & (iv) & Located on the basilar membrane \\ \\hline & (a) (b) (c) & (d) & \\ \\hline (1) & (ii) (iii) (i) & (iv) & \\ \\hline (2) & (iii) (i) (iv) & (ii) & \\ \\hline (3) & (iv) (ii) (i) & (iii) & \\ \\hline (4) & (i) (ii) (iv) & (iii) & \\ \\hline \\end{tabular}",
+        "options": {
+          "1": "(ii) (iii) (i) (iv)",
+          "2": "(iii) (i) (iv) (ii)",
+          "3": "(iv) (ii) (i) (iii)",
+          "4": "(i) (ii) (iv) (iii)"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-179c9d8235",
+        "sourceYear": 2020,
+        "sourceNumber": 76,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Match the following columns and select the correct option. \\begin{tabular} { l l l l } & Column - I & & Column - II \\ (a) & Eosinophils & (i) & Immune response \\ (b) & Basophils & (ii) & Phagocytosis \\ (c) & Neutrophils & (iii) & \\begin{tabular} { l } Release \\ histaminase, \\ destructive \\end{tabular} \\ & & & \\ (d) & Lymphocytes & (iv) & \\begin{tabular} { l } Release granules \\ containing \\end{tabular} \\ & & & \\ & & & \\ (a) & (b) & (c) & (d) \\ (1) & (iii) & (iv) & (ii) \\ (i) \\ (2) & (iv) & (i) & (ii) \\ (iii) \\ (3) & (iii) & (i) & (ii) & (iv) \\ (4) & (ii) & (i) & (iii) \\ (iv) \\end{tabular}",
+        "options": {
+          "1": "(iii), (iv), (ii), (i)",
+          "2": "(iv), (i), (ii), (iii)",
+          "3": "(iii), (i), (ii), (iv)",
+          "4": "(ii), (i), (iii), (iv)"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-695a26aa7f",
+        "sourceYear": 2021,
+        "sourceNumber": 172,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Match the following : \\begin{tabular} { | l | l | c | l | } \\hline \\multicolumn{2}{|c|} { List - I } & \\multicolumn{2}{c|} { List - II } \\ \\hline (a) & Physalia & (i) & Pearl oyster \\ \\hline (b) & Limulus & (ii) & Portuguese Man of War \\ \\hline (c) & Ancylostoma & (iii) & Living fossil \\ \\hline (d) & Pinctada & (iv) & Hookworm \\ \\hline \\end{tabular} Choose the correct answer from the options given below. \\begin{tabular} { l l l l l } & (a) & (b) & (c) & (d) \\ (1) & (iv) & (i) & (iii) & (ii) \\ $ ( 2 ) $ & (ii) & (iii) & (iv) & (i) \\ $ ( 3 ) $ & (i) & (iv) & (iii) & (ii) \\ $ ( 4 ) $ & (ii) & (iii) & (i) & (iv) \\end{tabular}",
+        "options": {
+          "1": "(iv) (i) (iii) (ii)",
+          "2": "(ii) (iii) (iv) (i)",
+          "3": "(i) (iv) (iii) (ii)",
+          "4": "(ii) (iii) (i) (iv)"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-044bdb13d7",
+        "sourceYear": 2021,
+        "sourceNumber": 194,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Assertion (A) : A person goes to high altitude and experiences 'altitude sickness' with symptoms like breathing difficulty and heart palpitations. Reason (R) : Due to low atmospheric pressure at high altitude, the body does not get sufficient oxygen. In the light of the above statements, choose the correct answer from the options given below.",
+        "options": {
+          "1": "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+          "2": "(A) is true but ( $ R $ ) is false",
+          "3": "(A) is false but (R) is true",
+          "4": "Both (A) and (R) are true and (R) is the correct explanation of (A)"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-2bf20c8240",
+        "sourceYear": 2021,
+        "sourceNumber": 196,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Match List - I with List - II. \\begin{tabular} { | l | l | c | l | } \\hline \\multicolumn{2}{|c|} { List - I } & \\multicolumn{2}{c|} { List - II } \\ \\hline (a) & Scapula & (i) & Cartilaginous joints \\ \\hline (b) & Cranium & (ii) & Flat bone \\ \\hline (c) & Sternum & (iii) & Fibrous joints \\ \\hline (d) & Vertebral column & (iv) & Triangular flat bone \\ \\hline \\end{tabular} Choose the correct answer from the options given below. \\begin{tabular} { l l l l l } & (a) & (b) & (c) & (d) \\ (1) & (ii) & (iii) & (iv) & (i) \\ $ ( 2 ) $ & (iv) & (ii) & (iii) & (i) \\ $ ( 3 ) $ & (iv) & (iii) & (ii) & (i) \\ (4) & (i) & (iii) & (ii) & (iv) \\end{tabular}",
+        "options": {
+          "1": "(ii) (iii) (iv) (i)",
+          "2": "(iv) (ii) (iii) (i)",
+          "3": "(iv) (iii) (ii) (i)",
+          "4": "(i) (iii) (ii) (iv)"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-e742f77231",
+        "sourceYear": 2023,
+        "sourceNumber": 161,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Given below are two statements: one is labelled as Assertion $ \\mathbf { A } $ and the other is labelled as Reason R. Assertion A: Amniocentesis for sex determination is one of the strategies of Reproductive and Child Health Care Programme. Reason R: Ban on amniocentesis checks increasing menace of female foeticide.",
+        "options": {
+          "1": "$ \\mathbf { A } $ is false but $ \\mathbf { R } $ is true.",
+          "2": "Both $ \\mathbf { A } $ and $ \\mathbf { R } $ are true and $ \\mathbf { R } $ is the correct explanation of $ \\mathbf { A } $.",
+          "3": "Both $ \\mathbf { A } $ and $ \\mathbf { R } $ are true and $ \\mathbf { R } $ is NOT the correct explanation of $ \\mathbf { A } $.",
+          "4": "$ \\mathbf { A } $ is true but $ \\mathbf { R } $ is false."
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-7093613be1",
+        "sourceYear": 2023,
+        "sourceNumber": 181,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Match List I with List II. List I (Type of Joint) A. Cartilaginous Joint B. Ball and Socket Joint C. Fibrous Joint D. Saddle Joint List II (Found between) I. Between flat skull bones II. Between adjacent vertebrae in vertebral column III. Between carpal and metacarpal of thumb IV. Between Humerus and Pectoral girdle Choose the correct answer from the options given below:",
+        "options": {
+          "1": "A-II, B-IV, C-III, D-I",
+          "2": "A-III, B-I, C-II, D-IV",
+          "3": "A-II, B-IV, C-I, D-III",
+          "4": "A-I, B-IV, C-III, D-II"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-4578dd73e8",
+        "sourceYear": 2024,
+        "sourceNumber": 152,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Match List-I with List-II: \\n\\n\\begin{tabular}{|l|l|l|l|}\\n\\hline\\n&\\begin{tabular}{l}List I \\ Location of Joint\\end{tabular}&\\multicolumn{2}{l|}{\\begin{tabular}{l}List II \\ Type of Joint\\end{tabular}}\\n\\hline\\nA.&\\begin{tabular}{l}Joint between humerus and \\ pectoral girdle\\end{tabular}&I.&Gliding joint\\n\\hline\\nB.&Knee joint&II.&Ball and Socket joint\\n\\hline\\nC.&Joint between atlas and axis&III.&Hinge joint\\n\\hline\\nD&Joint between carpals&IV.&Pivot joint\\n\\hline\\n\\end{tabular}\\n\\n",
+        "options": {
+          "1": "A-II, B-III, C-IV, D-I",
+          "2": "A-III, B-II, C-I, D-IV",
+          "3": "A-I, B-IV, C-III, D-II",
+          "4": "A-II, B-I, C-III, D-IV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-348c9f03d6",
+        "sourceYear": 2024,
+        "sourceNumber": 164,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Given below are two statements: One is labelled as Assertion A and the other is labelled as Reason $ \\mathbf { R } $. Assertion A: During menstrual cycle, the ovulation takes place approximately on $ 14 ^ { \\text {th } } $ day. Reason R: Rapid secretion of LH in the middle of menstrual cycle induces rupture of Graafian follicle and thereby the release of ovum. In the light of the above statements, choose the most appropriate answer from the options given below.",
+        "options": {
+          "1": "$ \\mathbf { A } $ is correct but $ \\mathbf { R } $ is not correct.",
+          "2": "$ \\mathbf { A } $ is not correct but $ \\mathbf { R } $ is correct.",
+          "3": "Both $ \\mathbf { A } $ and $ \\mathbf { R } $ are correct and $ \\mathbf { R } $ is the correct explanation of $ \\mathbf { A } $.",
+          "4": "Both $ \\mathbf { A } $ and $ \\mathbf { R } $ are correct but $ \\mathbf { R } $ is NOT the correct explanation of $ \\mathbf { A } $."
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-c96c4f7f78",
+        "sourceYear": 2024,
+        "sourceNumber": 170,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Match List-I with List-II relating to examples of various kind of IUDs and barrier: \\n\\n\\begin{tabular}{|l|l|l|l|}\\n\\hline\\n & List-I & & List-II \\n\\hline\\nA. & Copper releasing IUD & I. & Vaults \\n\\hline\\nB. & Non-medicated IUD & II. & Multiload 375 \\n\\hline\\nC. & Contraceptive barrier & III. & LNG-20 \\n\\hline\\nD. & Hormone releasing IUD & IV. & Lippes loop \\n\\hline\\n\\end{tabular}\\n\\n",
+        "options": {
+          "1": "A-II, B-IV, C-III, D-I",
+          "2": "A-IV, B-III, C-I, D-II",
+          "3": "A-II, B-I, C-III, D-IV",
+          "4": "A-II, B-IV, C-I, D-III"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-2009c32594",
+        "sourceYear": 2024,
+        "sourceNumber": 181,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Match List-I with List -II \\begin{tabular} { | l | l | l | l | } \\hline & List-I & & List-II \\ \\hline A. & Schwann cells & I. & Neurotransmitter \\ \\hline B. & Synaptic knob & II. & Cerebral cortex \\ \\hline C. & Bipolar neurons & III. & Myelin sheath \\ \\hline D. & Multipolar neurons & IV. & Retina \\ \\hline \\end{tabular}",
+        "options": {
+          "1": "A-III, B-I, C-IV, D-II",
+          "2": "A-I, B-IV, C-II, D-III",
+          "3": "A-IV, B-III, C-II, D-I",
+          "4": "A-II, B-III, C-I, D-IV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-8d1798be10",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Pacemaker of the heart is",
+        "options": {
+          "1": "SA node",
+          "2": "AV node",
+          "3": "Bundle of His",
+          "4": "Purkinje fibres"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-61ea8f9f49",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "ADH is secreted by",
+        "options": {
+          "1": "Posterior pituitary",
+          "2": "Anterior pituitary",
+          "3": "Thyroid",
+          "4": "Adrenal cortex"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-422c24f147",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Bowman’s capsule is part of",
+        "options": {
+          "1": "Nephron",
+          "2": "Neuron",
+          "3": "Alveolus",
+          "4": "Villus"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-d2f2878b52",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Insulin is secreted by",
+        "options": {
+          "1": "β-cells of pancreas",
+          "2": "α-cells of pancreas",
+          "3": "Thyroid",
+          "4": "Adrenal medulla"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-2c2148dc92",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Pacemaker of the heart is (drill 29)",
+        "options": {
+          "1": "SA node",
+          "2": "AV node",
+          "3": "Bundle of His",
+          "4": "Purkinje fibres"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-00aaef2d32",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "ADH is secreted by (drill 30)",
+        "options": {
+          "1": "Posterior pituitary",
+          "2": "Anterior pituitary",
+          "3": "Thyroid",
+          "4": "Adrenal cortex"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-81b6a79f77",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Bowman’s capsule is part of (drill 31)",
+        "options": {
+          "1": "Nephron",
+          "2": "Neuron",
+          "3": "Alveolus",
+          "4": "Villus"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-a3f7a2e32d",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Insulin is secreted by (drill 32)",
+        "options": {
+          "1": "β-cells of pancreas",
+          "2": "α-cells of pancreas",
+          "3": "Thyroid",
+          "4": "Adrenal medulla"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-f63b1606d1",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Pacemaker of the heart is (drill 49)",
+        "options": {
+          "1": "SA node",
+          "2": "AV node",
+          "3": "Bundle of His",
+          "4": "Purkinje fibres"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-e26ef0de1b",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "ADH is secreted by (drill 50)",
+        "options": {
+          "1": "Posterior pituitary",
+          "2": "Anterior pituitary",
+          "3": "Thyroid",
+          "4": "Adrenal cortex"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-2a2ef7f333",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Bowman’s capsule is part of (drill 51)",
+        "options": {
+          "1": "Nephron",
+          "2": "Neuron",
+          "3": "Alveolus",
+          "4": "Villus"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "auth-fe6ac24b8e",
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "stem": "Insulin is secreted by (drill 52)",
+        "options": {
+          "1": "β-cells of pancreas",
+          "2": "α-cells of pancreas",
+          "3": "Thyroid",
+          "4": "Adrenal medulla"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (NCERT biology)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
       }
     ]
   },

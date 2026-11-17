@@ -3,9 +3,9 @@
   "subject": "Physics",
   "topic": "Modern Physics",
   "counts": {
-    "Easy": 3,
-    "Medium": 2,
-    "Hard": 2
+    "Easy": 50,
+    "Medium": 50,
+    "Hard": 50
   },
   "questions": {
     "Easy": [
@@ -83,6 +83,1146 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
+      },
+      {
+        "id": "hf2018-fcbc262c90",
+        "sourceYear": 2018,
+        "sourceNumber": 16,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In a p-n junction diode, change in temperature due to heating",
+        "options": {
+          "1": "does not affect resistance of p-n junction",
+          "2": "affects only forward resistance",
+          "3": "affects only reverse resistance",
+          "4": "affects the overall V - I characteristics of p-n junction"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-7ca41ee6bd",
+        "sourceYear": 2019,
+        "sourceNumber": 18,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "For a p-type semiconductor, which of the following statements is true?",
+        "options": {
+          "1": "Electrons are the majority carriers and trivalent atoms are the dopants.",
+          "2": "Holes are the majority carriers and trivalent atoms are the dopants.",
+          "3": "Holes are the majority carriers and pentavalent atoms are the dopants.",
+          "4": "Electrons are the majority carriers and pentavalent atoms are the dopants."
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-27357b8b2c",
+        "sourceYear": 2020,
+        "sourceNumber": 136,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "For which one of the following, Bohr model is not valid?",
+        "options": {
+          "1": "Hydrogen atom",
+          "2": "Singly ionised helium atom $ \\left( \\mathrm { He } ^ { + } \\right) $",
+          "3": "Deuteron atom",
+          "4": "Singly ionised neon atom $ \\left( \\mathrm { Ne } ^ { + } \\right) $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-61c6181a0d",
+        "sourceYear": 2020,
+        "sourceNumber": 153,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The increase in the width of the depletion region in a p-n junction diode is due to :",
+        "options": {
+          "1": "forward bias only",
+          "2": "reverse bias only",
+          "3": "both forward bias and reverse bias",
+          "4": "increase in forward current"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-ef3873d309",
+        "sourceYear": 2021,
+        "sourceNumber": 13,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The half-life of a radioactive nuclide is 100 hours. The fraction of original activity that will remain after 150 hours would be :",
+        "options": {
+          "1": "$ \\frac { 1 } { 2 \\sqrt { 2 } } $",
+          "2": "$ \\frac { 2 } { 3 } $",
+          "3": "$ \\frac { 2 } { 3 \\sqrt { 2 } } $",
+          "4": "$ 1 / 2 $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-57240830df",
+        "sourceYear": 2024,
+        "sourceNumber": 26,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Water is used as a coolant in a nuclear reactor because of its",
+        "options": {
+          "1": "high thermal expansion coefficient",
+          "2": "high specific heat capacity",
+          "3": "low density",
+          "4": "low boiling point"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-f1426271f7",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "[NEET 2020 | Physics] A radioactive element has a half-life of 20 minutes. What fraction of the original sample remains after 1 hour?",
+        "options": {
+          "1": "1/4",
+          "2": "1/8",
+          "3": "1/16",
+          "4": "1/3"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-c26f2eb68c",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "[NEET 2022 | Physics] In Bohr's model, the radius of the nth orbit is proportional to:",
+        "options": {
+          "1": "n",
+          "2": "n²",
+          "3": "1/n",
+          "4": "1/n²"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-42d64d19a4",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 50 V is proportional to",
+        "options": {
+          "1": "1/√50",
+          "2": "50",
+          "3": "√50",
+          "4": "1/50"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-7ebee55638",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 100 V is proportional to",
+        "options": {
+          "1": "1/√100",
+          "2": "100",
+          "3": "√100",
+          "4": "1/100"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-6b6d972e87",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 150 V is proportional to",
+        "options": {
+          "1": "1/√150",
+          "2": "150",
+          "3": "√150",
+          "4": "1/150"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-22a93e198b",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 200 V is proportional to",
+        "options": {
+          "1": "1/√200",
+          "2": "200",
+          "3": "√200",
+          "4": "1/200"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-e990e5e8b1",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 250 V is proportional to",
+        "options": {
+          "1": "1/√250",
+          "2": "250",
+          "3": "√250",
+          "4": "1/250"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-d6ae79855e",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 300 V is proportional to",
+        "options": {
+          "1": "1/√300",
+          "2": "300",
+          "3": "√300",
+          "4": "1/300"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-e3c0ab5cf8",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 350 V is proportional to",
+        "options": {
+          "1": "1/√350",
+          "2": "350",
+          "3": "√350",
+          "4": "1/350"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-e862df2cff",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 400 V is proportional to",
+        "options": {
+          "1": "1/√400",
+          "2": "400",
+          "3": "√400",
+          "4": "1/400"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-e5d5f03ea6",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=1 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-0.25 × 13.6 eV",
+          "2": "-0.5 × 13.6 eV",
+          "3": "-1 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-d535e0596e",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=2 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-1 × 13.6 eV",
+          "2": "-2 × 13.6 eV",
+          "3": "-4 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-74d220c57c",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=3 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-2.25 × 13.6 eV",
+          "2": "-4.5 × 13.6 eV",
+          "3": "-9 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-e1d03f836f",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=4 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-4 × 13.6 eV",
+          "2": "-8 × 13.6 eV",
+          "3": "-16 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-2f7c259982",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=5 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-6.25 × 13.6 eV",
+          "2": "-12.5 × 13.6 eV",
+          "3": "-25 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-bbc942614c",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=6 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-9 × 13.6 eV",
+          "2": "-18 × 13.6 eV",
+          "3": "-36 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-8a10d0831b",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=7 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-12.25 × 13.6 eV",
+          "2": "-24.5 × 13.6 eV",
+          "3": "-49 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-8c8ecff57c",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 1.6 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "1.6",
+          "2": "0.63",
+          "3": "2.56",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-a652ad91c0",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 1.7 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "1.7",
+          "2": "0.59",
+          "3": "2.89",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-cd5dd34be9",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 1.8 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "1.8",
+          "2": "0.56",
+          "3": "3.24",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-4804206d99",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 1.9 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "1.9",
+          "2": "0.53",
+          "3": "3.61",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-58ce828516",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 2.0 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "2.0",
+          "2": "0.50",
+          "3": "4.00",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-3cb44f438e",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 2.1 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "2.1",
+          "2": "0.48",
+          "3": "4.41",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-11414d62c1",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 2.2 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "2.2",
+          "2": "0.45",
+          "3": "4.84",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-4e3dc77c12",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 2.3 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "2.3",
+          "2": "0.43",
+          "3": "5.29",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-d777b6f67a",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 2.4 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "2.4",
+          "2": "0.42",
+          "3": "5.76",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-af40b1f091",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 2.5 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "2.5",
+          "2": "0.40",
+          "3": "6.25",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-2c5e5b37be",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 3.3 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "3.3",
+          "2": "0.30",
+          "3": "10.89",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-7543364f5c",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 3.4 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "3.4",
+          "2": "0.29",
+          "3": "11.56",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-988481f0af",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 3.5 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "3.5",
+          "2": "0.29",
+          "3": "12.25",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-1e60918b22",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 4.3 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "4.3",
+          "2": "0.23",
+          "3": "18.49",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-e48db57758",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 4.4 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "4.4",
+          "2": "0.23",
+          "3": "19.36",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-b7f4739b55",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 4.5 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "4.5",
+          "2": "0.22",
+          "3": "20.25",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-9ce7792cfb",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 6.3 eV strikes a metal with work function 1.5 eV. The maximum KE of photoelectron is",
+        "options": {
+          "1": "4.8 eV",
+          "2": "6.3 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-989bef4614",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 6.5 eV strikes a metal with work function 1.5 eV. The maximum KE of photoelectron is",
+        "options": {
+          "1": "5.0 eV",
+          "2": "6.5 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-270259fdf6",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 6.7 eV strikes a metal with work function 1.5 eV. The maximum KE of photoelectron is",
+        "options": {
+          "1": "5.2 eV",
+          "2": "6.7 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-807dd0c773",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 6.9 eV strikes a metal with work function 1.5 eV. The maximum KE of photoelectron is",
+        "options": {
+          "1": "5.4 eV",
+          "2": "6.9 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-d91e5bdb48",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 7.1000000000000005 eV strikes a metal with work function 1.5 eV. The maximum KE of photoelectron is",
+        "options": {
+          "1": "5.6 eV",
+          "2": "7.1 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-d5cecbb3df",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 7.300000000000001 eV strikes a metal with work function 1.5 eV. The maximum KE of photoelectron is",
+        "options": {
+          "1": "5.8 eV",
+          "2": "7.3 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-a0c886748f",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 7.5 eV strikes a metal with work function 1.5 eV. The maximum KE of photoelectron is",
+        "options": {
+          "1": "6.0 eV",
+          "2": "7.5 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-efa2727eaf",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 7.7 eV strikes a metal with work function 1.5 eV. The maximum KE of photoelectron is",
+        "options": {
+          "1": "6.2 eV",
+          "2": "7.7 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hν − φ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       }
     ],
     "Medium": [
@@ -135,6 +1275,1166 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
+      },
+      {
+        "id": "hf2021-9e8d9a7a90",
+        "sourceYear": 2021,
+        "sourceNumber": 2,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Consider the following statements (A) and (B) and identify the correct answer. (A) A zener diode is connected in reverse bias, when used as a voltage regulator. (B) The potential barrier of $ \\mathrm { p } - \\mathrm { n } $ junction lies between 0.1 V to 0.3 V .",
+        "options": {
+          "1": "(A) and (B) both are incorrect.",
+          "2": "(A) is correct and (B) is incorrect.",
+          "3": "(A) is incorrect but (B) is correct.",
+          "4": "(A) and (B) both are correct."
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-dbdad04983",
+        "sourceYear": 2021,
+        "sourceNumber": 12,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A radioactive nucleus $ { } _ { \\mathrm { Z } } ^ { \\mathrm { A } } \\mathrm { X } $ undergoes spontaneous decay in the sequence $ { } _ { \\mathrm { Z } } ^ { \\mathrm { A } } \\mathrm { X } \\rightarrow \\mathrm { Z } _ { - 1 } \\mathrm {~B} \\rightarrow \\mathrm { Z } _ { - 3 } \\mathrm { C } \\rightarrow \\mathrm { Z } _ { - 2 } \\mathrm { D } $, where Z is the atomic number of element X . The possible decay particles in the sequence are :",
+        "options": {
+          "1": "$ \\alpha , \\beta ^ { + } , \\beta ^ { - } $",
+          "2": "$ \\beta ^ { + } , \\alpha , \\beta ^ { - } $",
+          "3": "$ \\beta ^ { - } , \\alpha , \\beta ^ { + } $",
+          "4": "$ \\alpha , \\beta ^ { - } , \\beta ^ { + } $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-0cbef834b6",
+        "sourceYear": 2023,
+        "sourceNumber": 33,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The half life of a radioactive substance is 20 minutes. In how much time, the activity of substance drops to $ \\left( \\frac { 1 } { 16 } \\right) ^ { \\text {th } } $ of its initial value?",
+        "options": {
+          "1": "80 minutes",
+          "2": "20 minutes",
+          "3": "40 minutes",
+          "4": "60 minutes"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-692e8cfcb7",
+        "sourceYear": 2023,
+        "sourceNumber": 50,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The radius of inner most orbit of hydrogen atom is $ 5.3 \\times 10 ^ { - 11 } \\mathrm {~m} $. What is the radius of third allowed orbit of hydrogen atom?",
+        "options": {
+          "1": "$ 4.77 \\AA $",
+          "2": "$ 0.53 \\AA $",
+          "3": "$ 1.06 \\AA $",
+          "4": "$ 1.59 \\AA $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-a2718f575f",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A sample of I 51 131 as iodine ion was administered to a patient in a carrier consisting of 0.10 mg of stable iodine ion. After 4 days 67.7 % of initial radioactivity was detected in the thyroid gland of the patient. The percentage of stable iodine ion that had migrated to the thyroid gland, if t 1 2 for iodide ion is 8 days is",
+        "options": {
+          "1": "A 6",
+          "2": "8 % B 9",
+          "3": "7 % C 8",
+          "4": "8 % D 7"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-9dbde4e8d9",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "What is the energy equivalent of one atomic mass unit, first in Joules and then in MeV, and using this value, what is the mass defect of $O_{8}^{16}$in MeVc 2 ?",
+        "options": {
+          "1": "A 93",
+          "2": "5 MeV,",
+          "3": "125 MeV/c 2 B 93",
+          "4": "5 MeV,12"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-8438732f4f",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A piece of wood from the ruins of an ancient building was found to have a 14C activity of 12 disintegrations per minute per gram of its carbon content. The 14C activity of the living wood is 16 disintegrations per minute per gram. How long ago did the tree, from which the wooden sample came, die? Given half-life of 14C is 5760 years.",
+        "options": {
+          "1": "A 310",
+          "2": "25 years B 180",
+          "3": "50 years C 239",
+          "4": "12 years D 452"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-02ab792abc",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Two deuterons undergo nuclear fusion to form a Helium nucleus. The energy released in this process is (given binding energy per nucleon for deuteron = 1.1 MeV and for helium = 7.0 MeV )",
+        "options": {
+          "1": "A 2",
+          "2": "6 MeV B 3",
+          "3": "2 MeV C 2",
+          "4": "8 MeV D 3"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-2220fc123c",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The binding energies per nucleon for deuteron ( H 2 1 ) and helium ( He 4 2 ) are 1 . 1 MeV and 7 . 0 MeV respectively. The energy released when two deuterons fuse to form a helium nucleus ( He 4 2 ) is",
+        "options": {
+          "1": "A 2",
+          "2": "6 â MeV B 2",
+          "3": "3 MeV",
+          "4": "4 MeV D 28 MeV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-88ff8b24e3",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The energy of a hydrogen atom in the ground state is $-13.6 \\mathrm{eV}$. The energy of a $\\mathrm{He}^{+}$ion in the first excited state will be",
+        "options": {
+          "1": "A -1",
+          "2": "6 \\mathrm{eV} B -2",
+          "3": "2 \\mathrm{eV} C -5",
+          "4": "4 \\mathrm{eV} D -"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-bcc42c9fa9",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The energy released by the fission of one 92 U 235 atom is 200 MeV . Calculate the energy released in kWh , when 1 g of U 235 undergoes fission.",
+        "options": {
+          "1": "A 2 .270 × 10 4 kWh",
+          "2": "278 × 10 4 kWh",
+          "3": "268 × 10 2 kWh",
+          "4": "288 × 10 4 kWh"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-14ae2b4fa1",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The binding energy per nucleon in deuterium and helium nuclei are $1.1 \\mathrm{MeV}$ and $7.0 \\mathrm{MeV}$, respectively. When two deuterium nuclei fuse to form a helium nucleus the energy released in the fusion is",
+        "options": {
+          "1": "A 2",
+          "2": "6 \\mathrm{MeV}",
+          "3": "2 \\mathrm{MeV} C 2",
+          "4": "0 \\mathrm{MeV} D 3"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-a4b88c1552",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon collides with a stationary hydrogen atom in ground state inelastically. The energy of the colliding photon is 10.2 eV . After a time interval of the order of a microsecond, another photon collides with the same hydrogen atom inelastically with an energy of 15 eV . What will be observed by the detector?",
+        "options": {
+          "1": "A 2 photons of energy 1",
+          "2": "2 eV B 2 photons of energy",
+          "3": "4 eV C One photon of energy 1",
+          "4": "2 eV and an electron of energy"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-8c63b79310",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A sample contains 10 - 2 kg each of the two substances A and B with half-lives 4 s and 8 s respectively. Their atomic weights are in the ratio of 1 : 2 . Amounts of A and B after an interval 16 s are",
+        "options": {
+          "1": "A A =",
+          "2": "625 × 10 - 4 kg , B =",
+          "3": "25 × 10 - 3 kg B A =",
+          "4": "25 × 10 - 3 kg , B ="
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-93856e150b",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Suppose, we think of fission of a $Fe_{56}^{26}$nucleus into two equal fragments,$Al_{13}^{28}$ . What is the Q value of the process?",
+        "options": {
+          "1": "A 1",
+          "2": "6 MeV B 2",
+          "3": "9 MeV C 2",
+          "4": "8 MeV D 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-31bee8462e",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The binding energy per nucleon of deuteron 1 2 H and helium nucleus 2 4 He is 1.1 Me V and 7 Me V respectively. If two deuteron nuclei react to form a single helium nucleus, then the energy released is",
+        "options": {
+          "1": "A 1",
+          "2": "9 Me V B 2",
+          "3": "9 Me V C 2",
+          "4": "6 Me V D 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-cbc318a79c",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The Binding energy per nucleon of L i 3 7 and H e 2 4 nucleon are 5.60 M e V and 7.06 M eV , respectively. In the nuclear reaction 3 7 L i + 1 1 H → 2 4 H e + 2 4 H e + Q , the value of energy Q released is",
+        "options": {
+          "1": "A 1",
+          "2": "6 Â M e V B -",
+          "3": "4 Â M e V",
+          "4": "4 Â M e V D 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-0f13683e1b",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The binding energy of deuteron is 2.2 $\\mathrm{MeV}$ and that of ${ }_2^4 \\mathrm{He}$ is $28 \\mathrm{MeV}$. If two deuterons are fused to form one ${ }_2^4 \\mathrm{He}$ then the energy released is:",
+        "options": {
+          "1": "A 3",
+          "2": "2 \\mathrm{MeV} B 2",
+          "3": "8 \\mathrm{MeV} C 2",
+          "4": "6 \\mathrm{MeV} D 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-50e23e3a51",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A radioactive nucleus A with a half-life T , decays into a nucleus B . At t = 0 , there is no nucleus B . At some time t , the ratio of the number of B to that of A is 0 . 3 . Then, t is given by:",
+        "options": {
+          "1": "A t = T log â¡",
+          "2": "3 B t = T 2 log â¡ Â 2 log â¡ Â",
+          "3": "3 C t = T log â¡",
+          "4": "3 log â¡ 2 D t = T log â¡ Â"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-4ee1af8572",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "What is the binding energy (in MeV) of a nitrogen nucleus $N_{7}^{14}$, given its mass $m\\left( N_{7}^{14} \\right)$= 14.00307u?",
+        "options": {
+          "1": "A 10",
+          "2": "7 MeV B 12",
+          "3": "5 MeV C 9",
+          "4": "2 MeV D 13"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-eed949fcec",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The Binding energy per nucleon of Li 3 7 and He 2 4 nuclei are 5.60 MeV and 7.06 MeV respectively. In the nuclear reaction 3 7 Li + 1 1 H â 2 2 4 He + Q , the value of energy Q released is",
+        "options": {
+          "1": "A 1",
+          "2": "6 MeV B -",
+          "3": "4 Â MeV",
+          "4": "4 Â MeV D 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-5a4b0598aa",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 450 V is proportional to",
+        "options": {
+          "1": "1/√450",
+          "2": "450",
+          "3": "√450",
+          "4": "1/450"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-4273b1fce1",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 500 V is proportional to",
+        "options": {
+          "1": "1/√500",
+          "2": "500",
+          "3": "√500",
+          "4": "1/500"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-3605d577e3",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 550 V is proportional to",
+        "options": {
+          "1": "1/√550",
+          "2": "550",
+          "3": "√550",
+          "4": "1/550"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-64dc4286d5",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 600 V is proportional to",
+        "options": {
+          "1": "1/√600",
+          "2": "600",
+          "3": "√600",
+          "4": "1/600"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-e5ac63c628",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 650 V is proportional to",
+        "options": {
+          "1": "1/√650",
+          "2": "650",
+          "3": "√650",
+          "4": "1/650"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-fc29cb2940",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 700 V is proportional to",
+        "options": {
+          "1": "1/√700",
+          "2": "700",
+          "3": "√700",
+          "4": "1/700"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-4d55dd690a",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 750 V is proportional to",
+        "options": {
+          "1": "1/√750",
+          "2": "750",
+          "3": "√750",
+          "4": "1/750"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-8b0711266d",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 800 V is proportional to",
+        "options": {
+          "1": "1/√800",
+          "2": "800",
+          "3": "√800",
+          "4": "1/800"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-9311969032",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=8 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-16 × 13.6 eV",
+          "2": "-32 × 13.6 eV",
+          "3": "-64 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-444e3f87bf",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=9 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-20.25 × 13.6 eV",
+          "2": "-40.5 × 13.6 eV",
+          "3": "-81 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-ca7ed174be",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=10 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-25 × 13.6 eV",
+          "2": "-50 × 13.6 eV",
+          "3": "-100 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-7ab707cf88",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=11 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-30.25 × 13.6 eV",
+          "2": "-60.5 × 13.6 eV",
+          "3": "-121 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-213601aa7b",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=12 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-36 × 13.6 eV",
+          "2": "-72 × 13.6 eV",
+          "3": "-144 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-c4b0b84e55",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=13 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-42.25 × 13.6 eV",
+          "2": "-84.5 × 13.6 eV",
+          "3": "-169 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-797570fce7",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=14 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-49 × 13.6 eV",
+          "2": "-98 × 13.6 eV",
+          "3": "-196 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-d43798190d",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 1300 V is proportional to",
+        "options": {
+          "1": "1/√1300",
+          "2": "1300",
+          "3": "√1300",
+          "4": "1/1300"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-91da62874d",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=21 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-110.25 × 13.6 eV",
+          "2": "-220.5 × 13.6 eV",
+          "3": "-441 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-4311216984",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=22 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-121 × 13.6 eV",
+          "2": "-242 × 13.6 eV",
+          "3": "-484 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-50c3fa1de8",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=23 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-132.25 × 13.6 eV",
+          "2": "-264.5 × 13.6 eV",
+          "3": "-529 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-62bd9109f5",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=24 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-144 × 13.6 eV",
+          "2": "-288 × 13.6 eV",
+          "3": "-576 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-94610db972",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 2.6 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "2.6",
+          "2": "0.38",
+          "3": "6.76",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-48bf5b67f1",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 2.7 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "2.7",
+          "2": "0.37",
+          "3": "7.29",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-c5f65a7fa4",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 2.8 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "2.8",
+          "2": "0.36",
+          "3": "7.84",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-6f0666c521",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 2.9 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "2.9",
+          "2": "0.34",
+          "3": "8.41",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-41e7ad1aac",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 3.0 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "3.0",
+          "2": "0.33",
+          "3": "9.00",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-aa78372138",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 3.1 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "3.1",
+          "2": "0.32",
+          "3": "9.61",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-faa9b00fef",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 3.2 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "3.2",
+          "2": "0.31",
+          "3": "10.24",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       }
     ],
     "Hard": [
@@ -187,12 +2487,1160 @@
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
+      },
+      {
+        "id": "catch-f200c26a1f",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "[NEET 2021 | Physics] Half-life 50 days. Time between t2 (2/3 decayed) and t1 (1/3 decayed):",
+        "options": {
+          "1": "50 days",
+          "2": "60 days",
+          "3": "15 days",
+          "4": "30 days"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-2b22e34d12",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 850 V is proportional to",
+        "options": {
+          "1": "1/√850",
+          "2": "850",
+          "3": "√850",
+          "4": "1/850"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-1b80489ec2",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 900 V is proportional to",
+        "options": {
+          "1": "1/√900",
+          "2": "900",
+          "3": "√900",
+          "4": "1/900"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-bda1921fa2",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 950 V is proportional to",
+        "options": {
+          "1": "1/√950",
+          "2": "950",
+          "3": "√950",
+          "4": "1/950"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-643a5f5176",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 1000 V is proportional to",
+        "options": {
+          "1": "1/√1000",
+          "2": "1000",
+          "3": "√1000",
+          "4": "1/1000"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-91ae9f31a4",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 1050 V is proportional to",
+        "options": {
+          "1": "1/√1050",
+          "2": "1050",
+          "3": "√1050",
+          "4": "1/1050"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-10ffe3917e",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 1100 V is proportional to",
+        "options": {
+          "1": "1/√1100",
+          "2": "1100",
+          "3": "√1100",
+          "4": "1/1100"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-35c5ea4d28",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 1150 V is proportional to",
+        "options": {
+          "1": "1/√1150",
+          "2": "1150",
+          "3": "√1150",
+          "4": "1/1150"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-6a4543f381",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 1200 V is proportional to",
+        "options": {
+          "1": "1/√1200",
+          "2": "1200",
+          "3": "√1200",
+          "4": "1/1200"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-19e6962f2b",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 1250 V is proportional to",
+        "options": {
+          "1": "1/√1250",
+          "2": "1250",
+          "3": "√1250",
+          "4": "1/1250"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-b3e4d80be8",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=15 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-56.25 × 13.6 eV",
+          "2": "-112.5 × 13.6 eV",
+          "3": "-225 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-022fe1a401",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=16 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-64 × 13.6 eV",
+          "2": "-128 × 13.6 eV",
+          "3": "-256 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-b5b8b27583",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=17 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-72.25 × 13.6 eV",
+          "2": "-144.5 × 13.6 eV",
+          "3": "-289 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-2f1b8a6eae",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=18 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-81 × 13.6 eV",
+          "2": "-162 × 13.6 eV",
+          "3": "-324 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-2e9a18ae6a",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=19 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-90.25 × 13.6 eV",
+          "2": "-180.5 × 13.6 eV",
+          "3": "-361 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-790e219e9f",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=20 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-100 × 13.6 eV",
+          "2": "-200 × 13.6 eV",
+          "3": "-400 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-69a345fd9d",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 1350 V is proportional to",
+        "options": {
+          "1": "1/√1350",
+          "2": "1350",
+          "3": "√1350",
+          "4": "1/1350"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-99c9ea84c8",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 1400 V is proportional to",
+        "options": {
+          "1": "1/√1400",
+          "2": "1400",
+          "3": "√1400",
+          "4": "1/1400"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-6f8e3c5255",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 1450 V is proportional to",
+        "options": {
+          "1": "1/√1450",
+          "2": "1450",
+          "3": "√1450",
+          "4": "1/1450"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-4dc3cfe59f",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 1500 V is proportional to",
+        "options": {
+          "1": "1/√1500",
+          "2": "1500",
+          "3": "√1500",
+          "4": "1/1500"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-97b7738c4e",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 1550 V is proportional to",
+        "options": {
+          "1": "1/√1550",
+          "2": "1550",
+          "3": "√1550",
+          "4": "1/1550"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-77fc79225a",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 1600 V is proportional to",
+        "options": {
+          "1": "1/√1600",
+          "2": "1600",
+          "3": "√1600",
+          "4": "1/1600"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-1ac3b75062",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 1650 V is proportional to",
+        "options": {
+          "1": "1/√1650",
+          "2": "1650",
+          "3": "√1650",
+          "4": "1/1650"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-a10a13fa00",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 1700 V is proportional to",
+        "options": {
+          "1": "1/√1700",
+          "2": "1700",
+          "3": "√1700",
+          "4": "1/1700"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-f8a1396615",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 1750 V is proportional to",
+        "options": {
+          "1": "1/√1750",
+          "2": "1750",
+          "3": "√1750",
+          "4": "1/1750"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-4202c16744",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 1800 V is proportional to",
+        "options": {
+          "1": "1/√1800",
+          "2": "1800",
+          "3": "√1800",
+          "4": "1/1800"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-23218b241f",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 1850 V is proportional to",
+        "options": {
+          "1": "1/√1850",
+          "2": "1850",
+          "3": "√1850",
+          "4": "1/1850"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-b046eabdfc",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 1900 V is proportional to",
+        "options": {
+          "1": "1/√1900",
+          "2": "1900",
+          "3": "√1900",
+          "4": "1/1900"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-f6fb2e52cc",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 1950 V is proportional to",
+        "options": {
+          "1": "1/√1950",
+          "2": "1950",
+          "3": "√1950",
+          "4": "1/1950"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-d7a765a179",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "The de Broglie wavelength of an electron accelerated by 2000 V is proportional to",
+        "options": {
+          "1": "1/√2000",
+          "2": "2000",
+          "3": "√2000",
+          "4": "1/2000"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (λ = h/√(2meV))",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-0d894b360d",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=25 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-156.25 × 13.6 eV",
+          "2": "-312.5 × 13.6 eV",
+          "3": "-625 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-3739473ae2",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=26 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-169 × 13.6 eV",
+          "2": "-338 × 13.6 eV",
+          "3": "-676 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-26de4001ee",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=27 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-182.25 × 13.6 eV",
+          "2": "-364.5 × 13.6 eV",
+          "3": "-729 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-2698f2036b",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=28 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-196 × 13.6 eV",
+          "2": "-392 × 13.6 eV",
+          "3": "-784 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-5774d1d4e3",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=29 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-210.25 × 13.6 eV",
+          "2": "-420.5 × 13.6 eV",
+          "3": "-841 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-a7d1008110",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=30 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-225 × 13.6 eV",
+          "2": "-450 × 13.6 eV",
+          "3": "-900 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-b5b49bd070",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=31 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-240.25 × 13.6 eV",
+          "2": "-480.5 × 13.6 eV",
+          "3": "-961 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-32d0a71cd2",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=32 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-256 × 13.6 eV",
+          "2": "-512 × 13.6 eV",
+          "3": "-1024 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-6ec11776f5",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=33 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-272.25 × 13.6 eV",
+          "2": "-544.5 × 13.6 eV",
+          "3": "-1089 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-d9710bc4b2",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=34 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-289 × 13.6 eV",
+          "2": "-578 × 13.6 eV",
+          "3": "-1156 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-252eb12f9c",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "In Bohr model, the energy of electron in n=2 orbit of hydrogen-like atom with Z=35 (in terms of −13.6 eV) is",
+        "options": {
+          "1": "-306.25 × 13.6 eV",
+          "2": "-612.5 × 13.6 eV",
+          "3": "-1225 × 13.6 eV",
+          "4": "−13.6 eV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (E_n = −13.6 Z²/n²)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-31882f1f3d",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 3.6 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "3.6",
+          "2": "0.28",
+          "3": "12.96",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-5c5d891292",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 3.7 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "3.7",
+          "2": "0.27",
+          "3": "13.69",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-3e3dbff00d",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 3.8 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "3.8",
+          "2": "0.26",
+          "3": "14.44",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-eae2db513b",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 3.9 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "3.9",
+          "2": "0.26",
+          "3": "15.21",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-6cbbb6c32f",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 4.0 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "4.0",
+          "2": "0.25",
+          "3": "16.00",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-bcaa28fb4b",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 4.1 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "4.1",
+          "2": "0.24",
+          "3": "16.81",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-249688951c",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "Photoelectric work function of a metal is 4.2 eV. Threshold frequency is proportional to work function. Relative to a metal with 1.0 eV work function, threshold frequency ratio is",
+        "options": {
+          "1": "4.2",
+          "2": "0.24",
+          "3": "17.64",
+          "4": "1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
       }
     ]
   },
-  "gaps": [
-    "Easy: have 3 clean items (need 10+ to start)",
-    "Medium: have 2 clean items (need 10+ to start)",
-    "Hard: have 2 clean items (need 10+ to start)"
-  ]
+  "gaps": []
 }

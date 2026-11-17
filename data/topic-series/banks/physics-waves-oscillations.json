@@ -3,9 +3,9 @@
   "subject": "Physics",
   "topic": "Waves & Oscillations",
   "counts": {
-    "Easy": 10,
-    "Medium": 10,
-    "Hard": 9
+    "Easy": 50,
+    "Medium": 51,
+    "Hard": 50
   },
   "questions": {
     "Easy": [
@@ -235,18 +235,43 @@
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q18",
-        "sourceYear": 2025,
-        "sourceNumber": 15,
+        "id": "hf2019-074177ce29",
+        "sourceYear": 2019,
+        "sourceNumber": 8,
         "subject": "Physics",
         "topic": "Waves & Oscillations",
-        "difficulty": "Easy",
-        "stem": "⎛ 1 ⎞ The graph which shows the variation of ⎜ ⎟ and its kinetic energy, E is (where λ is de Broglie wavelength ⎝ λ2 ⎠ of a free particle):",
+        "stem": "Which colour of the light has the longest wavelength?",
         "options": {
-          "1": "Option 1",
-          "2": "Option 2",
-          "3": "Option 3",
-          "4": "Option 4"
+          "1": "red",
+          "2": "blue",
+          "3": "green",
+          "4": "violet"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-9332563f4f",
+        "sourceYear": 2023,
+        "sourceNumber": 20,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "The minimum wavelength of $ X $-rays produced by an electron accelerated through a potential difference of $ V $ volts is proportional to:",
+        "options": {
+          "1": "$ V ^ { 2 } $",
+          "2": "$ \\sqrt { V } $",
+          "3": "$ \\frac { 1 } { V } $",
+          "4": "$ \\frac { 1 } { \\sqrt { V } } $"
         },
         "correctOption": "3",
         "correctOptions": [
@@ -256,8 +281,946 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-f88d19debc",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "[NEET 2019 | Physics] Which electromagnetic wave has the highest frequency?",
+        "options": {
+          "1": "X-rays",
+          "2": "UV rays",
+          "3": "Gamma rays",
+          "4": "Microwaves"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-ffa1906e8c",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 100 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "3.400 m",
+          "2": "0.294 m",
+          "3": "34000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-cc7fc5c1fe",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 200 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "1.700 m",
+          "2": "0.588 m",
+          "3": "68000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-12ea2977b0",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 300 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "1.133 m",
+          "2": "0.882 m",
+          "3": "102000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-fcda1e6a9d",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 400 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.850 m",
+          "2": "1.176 m",
+          "3": "136000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-a94bed990c",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 500 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.680 m",
+          "2": "1.471 m",
+          "3": "170000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-0883aa610a",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 600 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.567 m",
+          "2": "1.765 m",
+          "3": "204000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-36ef6741a8",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 700 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.486 m",
+          "2": "2.059 m",
+          "3": "238000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-4ef01cf70d",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 800 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.425 m",
+          "2": "2.353 m",
+          "3": "272000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-5e9244fd18",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 900 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.378 m",
+          "2": "2.647 m",
+          "3": "306000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-5be076f808",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 1000 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.340 m",
+          "2": "2.941 m",
+          "3": "340000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-c1ffbbe1ee",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 1100 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.309 m",
+          "2": "3.235 m",
+          "3": "374000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-668887360b",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 1200 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.283 m",
+          "2": "3.529 m",
+          "3": "408000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-96eb85a2c0",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 1300 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.262 m",
+          "2": "3.824 m",
+          "3": "442000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-53497d3ded",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 1400 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.243 m",
+          "2": "4.118 m",
+          "3": "476000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-d54f7fc7c4",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 1500 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.227 m",
+          "2": "4.412 m",
+          "3": "510000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-a726414656",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 1600 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.212 m",
+          "2": "4.706 m",
+          "3": "544000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-4b3bad2254",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 2600 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.131 m",
+          "2": "7.647 m",
+          "3": "884000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-8a917fb828",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 257 Hz and 255 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "2 Hz",
+          "2": "1 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-bfd24def82",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 258 Hz and 254 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "4 Hz",
+          "2": "2 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-9526b4cb19",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 259 Hz and 253 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "6 Hz",
+          "2": "3 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-f859f01636",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 260 Hz and 252 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "8 Hz",
+          "2": "4 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-182582c64f",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 261 Hz and 251 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "10 Hz",
+          "2": "5 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-f76a158b74",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 262 Hz and 250 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "12 Hz",
+          "2": "6 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-e65c6380e1",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 263 Hz and 249 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "14 Hz",
+          "2": "7 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-55eb7a0fa2",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 264 Hz and 248 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "16 Hz",
+          "2": "8 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-801ae3bbbd",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 265 Hz and 247 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "18 Hz",
+          "2": "9 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-8794e21558",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 266 Hz and 246 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "20 Hz",
+          "2": "10 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-6819c59a51",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 267 Hz and 245 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "22 Hz",
+          "2": "11 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-01197cffdd",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 268 Hz and 244 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "24 Hz",
+          "2": "12 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-b906803e95",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 269 Hz and 243 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "26 Hz",
+          "2": "13 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-45b144c679",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 270 Hz and 242 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "28 Hz",
+          "2": "14 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-a67799b169",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 271 Hz and 241 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "30 Hz",
+          "2": "15 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-9cc416db1e",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 272 Hz and 240 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "32 Hz",
+          "2": "16 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-9ea8ce30b8",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 273 Hz and 239 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "34 Hz",
+          "2": "17 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-9ae832af40",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 274 Hz and 238 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "36 Hz",
+          "2": "18 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-8036eded31",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 275 Hz and 237 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "38 Hz",
+          "2": "19 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-4c771bd5dc",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 276 Hz and 236 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "40 Hz",
+          "2": "20 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-303825a796",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "The electric field portion of an electromagnetic wave is given by (all variables in SI units) E = 10 - 4 sin â¡ 6 Ã 10 5 t - 0.01 x . The frequency f and the speed v of electromagnetic wave are",
+        "options": {
+          "1": "A f = 30 π kHz and v =",
+          "2": "5 × 10 7 m s - 1 B f = 90 π kHz and v =",
+          "3": "0 × 10 7 m s - 1 C f = 300 π kHz and v =",
+          "4": "0 × 10 7 m s - 1 D f = 600 π kHz and v ="
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       }
     ],
     "Medium": [
@@ -278,31 +1241,6 @@
         "correctOption": "4",
         "correctOptions": [
           "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2018-AA-Q141",
-        "sourceYear": 2018,
-        "sourceNumber": 38,
-        "subject": "Physics",
-        "topic": "Waves & Oscillations",
-        "difficulty": "Medium",
-        "stem": "In Young’s double slit experiment the separation d between the slits is 2 mm, the wavelength λ of the light used is 5896 Å and distance D between the screen and slits is 100 cm. It is found that the angular width of the fringes is 0·20°. To increase the fringe angular width to 0·21° (with same λ and D) the separation between the slits needs to be changed to",
-        "options": {
-          "1": "1·8 mm",
-          "2": "1·7 mm",
-          "3": "2·1 mm",
-          "4": "1·9 mm"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -487,18 +1425,199 @@
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q50",
-        "sourceYear": 2025,
-        "sourceNumber": 47,
+        "id": "hf2016-8a6c857702",
+        "sourceYear": 2016,
+        "sourceNumber": 41,
         "subject": "Physics",
         "topic": "Waves & Oscillations",
-        "difficulty": "Medium",
-        "stem": "If the mass of the bob in a simple pendulum is increased to thrice its original mass and its length is made half x its original length, then the new time period of oscillation is times its original time period. Then the value of 2 x is:",
+        "stem": "If an electron in a hydrogen atom jumps from the 3rd orbit to the 2nd orbit, it emits a photon of wavelength $ \\lambda $. When it jumps from the 4th orbit to the 3rd orbit, the corresponding wavelength of the photon will be :-",
         "options": {
-          "1": "2",
-          "2": "2 3",
-          "3": "4",
-          "4": "3"
+          "1": "$ \\frac { 16 } { 25 } \\lambda $",
+          "2": "$ 16 \\quad \\lambda $",
+          "3": "$ { } ^ { 20 } / _ { 7 } \\lambda $",
+          "4": "20 (4) 13"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-a01330e728",
+        "sourceYear": 2018,
+        "sourceNumber": 12,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "An electron of mass $m$ with an initial velocity $\\overrightarrow{\\mathrm{V}} = \\mathrm{V}_{0} \\hat{\\mathrm{i}}$ ($\\mathrm{V}_{0} > 0$) enters an electric field $\\overrightarrow{\\mathrm{E}} = -\\mathrm{E}_{0} \\hat{\\mathrm{i}}$ ($\\mathrm{E}_{0} =$ constant $> 0$) at $\\mathrm{t} = 0$. If $\\lambda_{0}$ is its de-Broglie wavelength initially, then its de-Broglie wavelength at time $t$ is",
+        "options": {
+          "1": "$\\lambda_{0} t$",
+          "2": "$\\lambda_{0} \\left(1 + \\frac{\\mathrm{eE}_{0}}{\\mathrm{mV}_{0}} \\mathrm{t}\\right)$",
+          "3": "$\\frac{\\lambda_{0}}{\\left(1 + \\frac{e E_{0}}{\\mathrm{mV}_{0}} \\mathrm{t}\\right)}$",
+          "4": "$\\lambda_{0}$"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-b524d1ce88",
+        "sourceYear": 2018,
+        "sourceNumber": 18,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "An em wave is propagating in a medium with a velocity $ \\overrightarrow { \\mathrm { V } } = \\mathrm { V } \\hat { \\mathrm { i } } $. The instantaneous oscillating electric field of this em wave is along + y axis. Then the direction of oscillating magnetic field of the em wave will be along",
+        "options": {
+          "1": "- y direction",
+          "2": "+ z direction",
+          "3": "- z direction",
+          "4": "- x direction"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2019-99909c2633",
+        "sourceYear": 2019,
+        "sourceNumber": 10,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "An electron is accelerated through a potential difference of $ 10,000 \\mathrm{~V} $. Its de Broglie wavelength is, (nearly) : $ \\left( \\mathrm{m}_{\\mathrm{e}} = 9 \\times 10^{-31} \\mathrm{~kg} \\right) $",
+        "options": {
+          "1": "$ 12.2 \\times 10^{-13} \\mathrm{~m} $",
+          "2": "$ 12.2 \\times 10^{-12} \\mathrm{~m} $",
+          "3": "$ 12.2 \\times 10^{-14} \\mathrm{~m} $",
+          "4": "12.2 nm"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-0bbc77e32d",
+        "sourceYear": 2020,
+        "sourceNumber": 147,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "In a guitar, two strings $ A $ and $ B $ made of same material are slightly out of tune and produce beats of frequency 6 Hz . When tension in B is slightly decreased, the beat frequency increases to 7 Hz . If the frequency of A is 530 Hz , the original frequency of B will be :",
+        "options": {
+          "1": "523 Hz",
+          "2": "524 Hz",
+          "3": "536 Hz",
+          "4": "537 Hz"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-cbe216e85c",
+        "sourceYear": 2020,
+        "sourceNumber": 157,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Light of frequency 1.5 times the threshold frequency is incident on a photosensitive material. What will be the photoelectric current if the frequency is halved and intensity is doubled?",
+        "options": {
+          "1": "doubled",
+          "2": "four times",
+          "3": "one-fourth",
+          "4": "zero"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-65553ddb9b",
+        "sourceYear": 2020,
+        "sourceNumber": 175,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "An electron is accelerated from rest through a potential difference of V volt. If the de Broglie wavelength of the electron is $ 1.227 \\times 10 ^ { - 2 } \\mathrm {~nm} $, the potential difference is :",
+        "options": {
+          "1": "10 V",
+          "2": "$ 10 ^ { 2 } \\mathrm {~V} $",
+          "3": "$ 10 ^ { 3 } \\mathrm {~V} $",
+          "4": "$ 10 ^ { 4 } \\mathrm {~V} $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-8aa28789a7",
+        "sourceYear": 2021,
+        "sourceNumber": 5,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "For a plane electromagnetic wave propagating in $x$-direction, which one of the following combination gives the correct possible directions for electric field (E) and magnetic field (B) respectively?",
+        "options": {
+          "1": "$- \\hat{j} + \\hat{k}, - \\hat{j} - \\hat{k}$",
+          "2": "$\\hat{j} + \\hat{k}, - \\hat{j} - \\hat{k}$",
+          "3": "$- \\hat{j} + \\hat{k}, - \\hat{j} + \\hat{k}$",
+          "4": "$\\hat{j} + \\hat{k}, \\hat{j} + \\hat{k}$"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -508,8 +1627,880 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-c39bfe825d",
+        "sourceYear": 2021,
+        "sourceNumber": 27,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "An inductor of inductance $ L $, a capacitor of capacitance $ C $ and a resistor of resistance ' $ R $ ' are connected in series to an ac source of potential difference ' V ' volts as shown in figure. Potential difference across $ \\mathrm { L } , \\mathrm { C } $ and R is 40 V , 10 V and 40 V , respectively. The amplitude of current flowing through LCR series circuit is $ 10 \\sqrt { 2 } \\mathrm {~A} $. The impedance of the circuit is :",
+        "options": {
+          "1": "$ 5 / \\sqrt { 2 } \\Omega $",
+          "2": "$ 4 \\Omega $",
+          "3": "$ 5 \\Omega $",
+          "4": "$ 4 \\sqrt { 2 } \\Omega $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-52bf5ca6b5",
+        "sourceYear": 2021,
+        "sourceNumber": 31,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "An electromagnetic wave of wavelength ' $ \\lambda $ ' is incident on a photosensitive surface of negligible work function. If ' $ m $ ' mass is of photoelectror emitted from the surface has de-Broglie wavelength $ \\lambda _ { \\mathrm { d } } $, then :",
+        "options": {
+          "1": "$ \\lambda _ { d } = \\left( \\frac { 2 m c } { h } \\right) \\lambda ^ { 2 } $",
+          "2": "$ \\lambda = \\left( \\frac { 2 \\mathrm { mc } } { \\mathrm { h } } \\right) \\lambda _ { \\mathrm { d } } { } ^ { 2 } $",
+          "3": "$ \\lambda = \\left( \\frac { 2 \\mathrm {~h} } { \\mathrm { mc } } \\right) \\lambda _ { \\mathrm { d } } { } ^ { 2 } $",
+          "4": "$ \\lambda = \\left( \\frac { 2 \\mathrm {~m} } { \\mathrm { hc } } \\right) \\lambda _ { \\mathrm { d } } { } ^ { 2 } $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2022-edce2db510",
+        "sourceYear": 2022,
+        "sourceNumber": 29,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "In a Young's double slit experiment, a student observes 8 fringes in a certain segment of screen when a monochromatic light of 600 nm wavelength is used. If the wavelength of light is changed to 400 nm, then the number of fringes he would observe in the same region of the screen is",
+        "options": {
+          "1": "12",
+          "2": "6",
+          "3": "8",
+          "4": "9"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2022-39ff6c92b8",
+        "sourceYear": 2022,
+        "sourceNumber": 5,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A series LCR circuit with inductance 10 H, capacitance $ 10 \\mu \\mathrm{F} $, resistance $ 50 \\Omega $ is connected to an ac source of voltage, $ V = 200 \\sin ( \\mathbf { 100t } ) $ volt. If resonant frequency of the LCR circuit is $ \\mathrm{v}_{0} $ and the frequency of the ac source is v, then:",
+        "options": {
+          "1": "$ \\mathrm{v} = 100 \\mathrm{Hz}; \\mathrm{v}_{0} = \\frac{100}{\\pi} \\mathrm{Hz} $",
+          "2": "$ v_{0} = v = 50 \\mathrm{Hz} $",
+          "3": "$ \\mathrm{v}_{0} = \\mathrm{v} = \\frac{50}{\\pi} \\mathrm{Hz} $",
+          "4": "$ \\mathrm{v}_{0} = \\frac{50}{\\pi} \\mathrm{Hz}, \\mathrm{v} = 50 \\mathrm{Hz} $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-a5822dcbb3",
+        "sourceYear": 2023,
+        "sourceNumber": 9,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "In a series $ L C R $ circuit, the inductance $ L $ is 10 mH , capacitance $ C $ is $ 1 \\mu \\mathrm{F} $ and resistance $ R $ is $ 100 \\Omega $. The frequency at which resonance occurs is :",
+        "options": {
+          "1": "1.59 kHz",
+          "2": "$ 15.9 \\mathrm { rad } / \\mathrm { s } $",
+          "3": "15.9 kHz",
+          "4": "$ 1.59 \\mathrm { rad } / \\mathrm { s } $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-7ea1cf15ef",
+        "sourceYear": 2023,
+        "sourceNumber": 25,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "In a plane electromagnetic wave travelling in free space, the electric field component oscillates sinusoidally at a frequency of $ 2.0 \\times 10 ^ { 10 } \\mathrm {~Hz} $ and amplitude $ 48 \\mathrm { Vm } ^ { - 1 } $. Then the amplitude of oscillating magnetic field is : $ \\left( \\right. $ Speed of light in free space $ \\left. = 3 \\times 10 ^ { 8 } \\mathrm {~m} \\mathrm {~s} ^ { - 1 } \\right) $",
+        "options": {
+          "1": "$ 1.6 \\times 10 ^ { - 6 } \\mathrm {~T} $",
+          "2": "$ 1.6 \\times 10 ^ { - 9 } \\mathrm {~T} $",
+          "3": "$ 1.6 \\times 10 ^ { - 8 } \\mathrm {~T} $",
+          "4": "$ 1.6 \\times 10 ^ { - 7 } \\mathrm {~T} $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-068da3999e",
+        "sourceYear": 2024,
+        "sourceNumber": 2,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A bob is whirled in a horizontal circle by means of a string at an initial speed of 10 rpm . If the tension in the string is quadrupled while keeping the radius constant, the new speed is:",
+        "options": {
+          "1": "20 rpm",
+          "2": "40 rpm",
+          "3": "5 rpm",
+          "4": "10 rpm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-853b855b61",
+        "sourceYear": 2024,
+        "sourceNumber": 7,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "An electron and an alpha particle are accelerated by the same potential difference. Let $ \\lambda _ { e } $ and $ \\lambda _ { \\alpha } $ denote the de-Broglie wavelengths of the electron and the alpha particle, respectively, then:",
+        "options": {
+          "1": "$ \\lambda _ { e } > \\lambda _ { \\alpha } $",
+          "2": "$ \\lambda _ { e } = 4 \\lambda _ { \\alpha } $",
+          "3": "$ \\lambda _ { e } = \\lambda _ { \\alpha } $",
+          "4": "$ \\lambda _ { e } < \\lambda _ { \\alpha } $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-cb69201fc9",
+        "sourceYear": 2024,
+        "sourceNumber": 25,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two slits in Young's double slit experiment are 1.5 mm apart and the screen is placed at a distance of 1 m from the slits. If the wavelength of light used is $ 600 \\times 10 ^ { - 9 } \\mathrm {~m} $ then the fringe separation is",
+        "options": {
+          "1": "$ 4 \\times 10 ^ { - 5 } \\mathrm {~m} $",
+          "2": "$ 9 \\times 10 ^ { - 8 } \\mathrm {~m} $",
+          "3": "$ 4 \\times 10 ^ { - 7 } \\mathrm {~m} $",
+          "4": "$ 4 \\times 10 ^ { - 4 } \\mathrm {~m} $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-de592c4c54",
+        "sourceYear": 2024,
+        "sourceNumber": 30,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Interference pattern can be observed due to superposition of the following waves: A. $ y = a \\sin \\omega t $ B. $ y = a \\sin 2 \\omega t $ C. $ y = a \\sin ( \\omega t - \\phi ) $ D. $ y = a \\sin 3 \\omega t $ Choose the correct answer from the options given below.",
+        "options": {
+          "1": "B and C",
+          "2": "B and D",
+          "3": "A and C",
+          "4": "A and B"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-f43ec1ff89",
+        "sourceYear": 2024,
+        "sourceNumber": 31,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "If $ \\phi $ is the work function of photosensitive material in eV and light of wavelength of numerical value $ \\lambda = \\frac { h c } { e } $ metre, is incident on it with energy above its threshold value at an instant then the maximum kinetic energy of the photo-electron ejected by it at that instant (Take h-Plank's constant, $ c $-velocity of light in free space) is (in SI units):",
+        "options": {
+          "1": "$ e + 2 \\phi $",
+          "2": "$ 2 e - \\phi $",
+          "3": "$ e - \\phi $",
+          "4": "$ e + \\phi $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-93bef091ae",
+        "sourceYear": 2024,
+        "sourceNumber": 34,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Some energy levels of a molecule are shown in the figure with their wavelengths of transitions. Then:",
+        "options": {
+          "1": "$ \\lambda _ { 3 } > \\lambda _ { 2 } , \\lambda _ { 1 } = 2 \\lambda _ { 2 } $",
+          "2": "$ \\lambda _ { 3 } > \\lambda _ { 2 } , \\lambda _ { 1 } = 4 \\lambda _ { 2 } $",
+          "3": "$ \\lambda _ { 1 } > \\lambda _ { 2 } , \\lambda _ { 2 } = 2 \\lambda _ { 3 } $",
+          "4": "$ \\lambda _ { 2 } > \\lambda _ { 1 } , \\lambda _ { 2 } = 2 \\lambda _ { 3 } $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-16f51487b0",
+        "sourceYear": 2024,
+        "sourceNumber": 36,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "If the ratio of relative permeability and relative permittivity of a uniform medium is $ 1 : 4 $. The ratio of the magnitudes of electric field intensity $ ( E ) $ to the magnetic field intensity $ ( H ) $ of an EM wave propagating in that medium is $ \\left( \\right. $ Given that $ \\left. \\sqrt { \\frac { \\mu _ { 0 } } { \\varepsilon _ { 0 } } } = 120 \\pi \\right) $",
+        "options": {
+          "1": "$ 30 \\pi : 1 $",
+          "2": "$ 1 : 120 \\pi $",
+          "3": "$ 60 \\pi : 1 $",
+          "4": "$ 120 \\pi : 1 $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-06174e0948",
+        "sourceYear": 2024,
+        "sourceNumber": 38,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "The displacement of a travelling wave $ y = C \\sin \\frac { 2 \\pi } { \\lambda } $ (at $ - x $ ) where $ t $ is time, $ x $ is distance and $ \\lambda $ is the wavelength, all in S.I. units. Then the frequency of the wave is",
+        "options": {
+          "1": "$ \\frac { 2 \\pi \\lambda } { a } $",
+          "2": "$ \\frac { 2 \\pi a } { \\lambda } $",
+          "3": "$ \\frac { \\lambda } { a } $",
+          "4": "$ \\frac { a } { \\lambda } $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2024-41db024bac",
+        "sourceYear": 2024,
+        "sourceNumber": 49,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "The amplitude of the charge oscillating in a circuit decreases exponentially as $ Q = Q _ { 0 } e ^ { - R t 2 L } $, where $ Q _ { 0 } $ is the charge at $ t = 0 \\mathrm {~s} $. The time at which charge amplitude decreases to $ 0.50 Q _ { 0 } $ is nearly: [Given that $ R = 1.5 \\Omega , L = 12 \\mathrm { mH } , \\ln ( 2 ) = 0.693 $ ]",
+        "options": {
+          "1": "19.01 ms",
+          "2": "11.09 ms",
+          "3": "19.01 s",
+          "4": "11.09 s"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-c5e374c00c",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "An open organ pipe has a fundamental frequency of 300 â Hz . The first overtone of a closed organ pipe has the same frequency as the first overtone of an open organ pipe. How long is closed organ pipe? speed of sound = 300 m s - 1",
+        "options": {
+          "1": "A 4",
+          "2": "25 cm B 4",
+          "3": "3 cm C 4",
+          "4": "5 cm D 4"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-99cb257382",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A wave of frequency 500 Hz has a velocity of 350 m s - 1 . The distance between two nearest points on the wave which are 60 Â° out of phase with each other will be around",
+        "options": {
+          "1": "A 70 cm",
+          "2": "7 m C 1",
+          "3": "0 cm D 12",
+          "4": "0 cm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-8732c52e98",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A slit of width a is illuminated by white light. The first minimum for red light Î» = 6500 â â« will fall at Î¸ = 30 o , when a is",
+        "options": {
+          "1": "A 3250 â â«",
+          "2": "5 Ã 1 0 - 4 Â c m",
+          "3": "3 Î¼ m",
+          "4": "6 Ã 1 0 - 4 Â c m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-d84dcb53bf",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Light of wavelength 500 nm is incident on a metal with work function 2 . 28 eV . The de Broglie wavelength of the emitted electron is:",
+        "options": {
+          "1": "A <",
+          "2": "8 Ã 10 - 9 Â m B â¥",
+          "3": "8 Ã 10 - 9 Â m C â¤",
+          "4": "8 Ã 10 - 12 Â m D <"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-54717f6faa",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "The de-Broglie wavelength of an electron accelerated through a potential difference of 100 V is",
+        "options": {
+          "1": "A 1",
+          "2": "27 â«",
+          "3": "227 â«",
+          "4": "1227 â«"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-eeba44e6eb",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "The wave described by $y=0.25 \\sin (10 \\pi x-2 \\pi t)$, where $x$ and $y$ are in metre and $t$ in second, is a wave travelling along the",
+        "options": {
+          "1": "A - ve x direction with frequency 1 \\mathrm{~Hz} B +ve x direction with frequency \\pi \\mathrm{Hz} and wavelength \\lambda=",
+          "2": "2 \\mathrm{~m} C + ve x direction with frequency 1 \\mathrm{~Hz} and wavelength \\lambda=",
+          "3": "2 \\mathrm{~m} D -ve x direction with amplitude",
+          "4": "25 \\mathrm{~m} and wavelength \\lambda="
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-d46d02c899",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "An open organ pipe has a fundamental frequency 100 Hz . What frequency will be produced if it's one end is closed?",
+        "options": {
+          "1": "A 100,200,30",
+          "2": "..... B 50,150,25",
+          "3": "..... C 50,100, 200,30",
+          "4": "... D 50,100,150,20"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-5a32c1df76",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A wave in a string has an amplitude of $2 \\mathrm{~cm}$. The wave travels in the +ve direction of $\\mathrm{x}$-axis with a speed of $128 \\mathrm{~m} / \\mathrm{s}$ and it is noted that 5 complete waves fit in $4 \\mathrm{~m}$ length of the string. The equation describing the wave is",
+        "options": {
+          "1": "A y=(",
+          "2": "0",
+          "3": "m \\sin (",
+          "4": "58 x-1005 t) B y=("
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-ff9bec18fa",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "The amplitude and time period in S H M are 0.8 c m and 0.2 sec â¡ respectively. If the initial phase is Ï / 2 radian, then the equation representing S H M is -",
+        "options": {
+          "1": "A y =",
+          "2": "8 cos â¡ 10 Ï t B y =",
+          "3": "8 sin â¡ Ï t C y = 3 Ã",
+          "4": "8 sin â¡ Ï t D y ="
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-ff6a75cbe0",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "[NEET 2022 | Physics] A source of sound of frequency 600 Hz is moving towards an observer at 30 m/s. Speed of sound is 330 m/s. Frequency heard by observer is:",
+        "options": {
+          "1": "660 Hz",
+          "2": "600 Hz",
+          "3": "540 Hz",
+          "4": "720 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-22853899ac",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A wave travelling in the positive $x$-direction with amplitude $\\mathrm{A}=0.2 \\mathrm{~m}$, velocity $v=360 \\mathrm{~ms}^{-1}$ and wavelength $\\lambda$ $=60 \\mathrm{~m}$, then the correct expression for the wave is:",
+        "options": {
+          "1": "A y=",
+          "2": "2 \\sin \\left[2 \\pi\\left(6 t+\\frac{x}{60}\\right)\\right] B y=",
+          "3": "2 \\sin \\left[\\pi\\left(6 t+\\frac{x}{60}\\right)\\right] C y=",
+          "4": "2 \\sin \\left[2 \\pi\\left(6 t-\\frac{x}{60}\\right)\\right] D y="
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-2fa72cc2bc",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "[NEET 2020 | Physics] Ratio of contributions of electric field to magnetic field to intensity of EM wave:",
+        "options": {
+          "1": "c:1",
+          "2": "c2:1",
+          "3": "1:1",
+          "4": "rootc:1"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-a814a982a2",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A silicon diode has a threshold voltage of 0.7 V . If an input voltage given by 2 sin ( Ït ) is supplied to a half-wave rectifier circuit using this diode, the rectified output has a peak value of",
+        "options": {
+          "1": "A 2 V",
+          "2": "4 V",
+          "3": "3 V",
+          "4": "7 V"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-15ae4a9a36",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "The de-Broglie wavelength of neutrons in thermal equilibrium at temperature $T$ is:",
+        "options": {
+          "1": "A \\frac{",
+          "2": "08}{\\sqrt{T}} Ã B \\frac{",
+          "3": "308}{\\sqrt{T}} Ã C \\frac{",
+          "4": "0308}{\\sqrt{T}} Ã D \\frac{3"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-538bb812d1",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A particle of mass 100 g tied to a string is rotated along the circle of radius 0 . 5 m . The breaking tension of the string is 10 N . The maximum speed with which particle can be rotated without breaking the string is",
+        "options": {
+          "1": "A 10 m s - 1",
+          "2": "8 m s - 1",
+          "3": "7 m s - 1",
+          "4": "07 m s - 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-33205f5491",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "When the hydrogen spectral lines in the Lyman series are shifted to the Deuterium spectrum, what is the change in the wavelengths of the first four lines, given that the original wavelengths are 1218 Ã , 1028 Ã , 974.3 Ã , and 951.4 Ã ?",
+        "options": {
+          "1": "A 121",
+          "2": "3 Ã , 102",
+          "3": "3 Ã , 97",
+          "4": "4 Ã , 95"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-1bb1fc9fa9",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A tunnel is dug along the diameter of the earth. A mass m is dropped into it. How much time does it take to cross the earth?",
+        "options": {
+          "1": "A 16",
+          "2": "2 Â m i n B 8",
+          "3": "6 Â m i n C 2",
+          "4": "2 Â m i n D 4"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-69fe3d32b8",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "When a train is at a distance of 2 km, its engine sounds a whistle. A man near the railway track hears the whistle directly and by placing his ear against the track of the train. If the two sounds are heard at an interval of 5.2 s, the speed of the sound in iron (material of the rail track) is: (Given that velocity of sound in air is 330 m s -1 .)",
+        "options": {
+          "1": "A 2,32",
+          "2": "6 m s -1 B 1,93",
+          "3": "4 m s -1 C 2,13",
+          "4": "5 m s -1 D 3,21"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-d4345d6f87",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A pendulum clock which ticks 60 times in one minute on earth is placed on the moon where the acceleration due to gravity is only one-sixth of that on the earth. How many times the clock will tick over there in one minute?",
+        "options": {
+          "1": "A 1",
+          "2": "25 B 2",
+          "3": "5",
+          "4": "45"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-54bedef58d",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "If the wavelength of light coming from a distant galaxy is found to be 0.5 % more than that coming from a source on earth. Then the velocity of the galaxy will be",
+        "options": {
+          "1": "A 3 Ã 10 10 Â m Â s - 1",
+          "2": "5 Ã 10 10 Â m Â s - 1",
+          "3": "5 Ã 10 8 Â m Â s - 1",
+          "4": "5 Ã 10 6 Â m Â s - 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       }
     ],
     "Hard": [
@@ -614,31 +2605,6 @@
         "placeholder": false
       },
       {
-        "id": "2020-E1-Q175",
-        "sourceYear": 2020,
-        "sourceNumber": 44,
-        "subject": "Physics",
-        "topic": "Waves & Oscillations",
-        "difficulty": "Hard",
-        "stem": "An electron is accelerated from rest through a potential difference of V volt. If the de Broglie wavelength of the electron is 1.227×20^{-2}$ nm, the potential difference is :$",
-        "options": {
-          "1": "10 V",
-          "2": "102 V",
-          "3": "103 V",
-          "4": "104 V"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2022-RECON-Q158",
         "sourceYear": 2022,
         "sourceNumber": 15,
@@ -714,18 +2680,41 @@
         "placeholder": false
       },
       {
-        "id": "2025-INTERIM-Q2",
-        "sourceYear": 2025,
-        "sourceNumber": 2,
+        "id": "hf2018-682a6cdd01",
+        "sourceYear": 2018,
+        "sourceNumber": 24,
         "subject": "Physics",
         "topic": "Waves & Oscillations",
-        "difficulty": "Hard",
-        "stem": "Match List I with List II. List I List II (Spectral Lines of (Wavelengths (nm)) Hydrogen for transitions from) A. n2 = 3 to n1 = 2 I. 410.2 B. n2 = 4 to n1 = 2 II. 434.1 C. n2 = 5 to n1 = 2 III. 656.3 D. n2 = 6 to n1 = 2 IV. 486.1 Choose the correct answer from the options given below:",
+        "stem": "A tuning fork is used to produce resonance in a glass tube. The length of the air column in this tube can be adjusted by a variable piston. A room temperature of $ 27 ^ { \\circ } \\mathrm { C } $ two successive resonances are produced at 20 cm and 73 cm o column length. If the frequency of the tuning fork is 320 Hz , the velocity of sound in air at $ 27 ^ { \\circ } \\mathrm { C } $ is",
         "options": {
-          "1": "A-III, B-IV, C-II, D-I",
-          "2": "A-IV, B-III, C-I, D-II",
-          "3": "A-I, B-II, C-III, D-IV",
-          "4": "A-II, B-I, C-IV, D-III"
+          "1": "$ 350 \\mathrm {~m} / \\mathrm { s } $",
+          "2": "$ 339 \\mathrm {~m} / \\mathrm { s } $",
+          "3": "$ 330 \\mathrm {~m} / \\mathrm { s } $",
+          "4": "$ 300 \\mathrm {~m} / \\mathrm { s } $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-8622974b4b",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 1700 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.200 m",
+          "2": "5.000 m",
+          "3": "578000.0 m",
+          "4": "340 m"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -735,12 +2724,996 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-95da9a1822",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 1800 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.189 m",
+          "2": "5.294 m",
+          "3": "612000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-d5a1947e4a",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 1900 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.179 m",
+          "2": "5.588 m",
+          "3": "646000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-8246d108d5",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 2000 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.170 m",
+          "2": "5.882 m",
+          "3": "680000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-7c1691ba71",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 2100 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.162 m",
+          "2": "6.176 m",
+          "3": "714000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-44d6f2baab",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 2200 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.155 m",
+          "2": "6.471 m",
+          "3": "748000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-14fe9ad21e",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 2300 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.148 m",
+          "2": "6.765 m",
+          "3": "782000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-3cff3fee7f",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 2400 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.142 m",
+          "2": "7.059 m",
+          "3": "816000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-df7d3efba3",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 2500 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.136 m",
+          "2": "7.353 m",
+          "3": "850000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-0d0aa9c450",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 2700 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.126 m",
+          "2": "7.941 m",
+          "3": "918000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-ad2eb4d84b",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 2800 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.121 m",
+          "2": "8.235 m",
+          "3": "952000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-f15246103f",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 2900 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.117 m",
+          "2": "8.529 m",
+          "3": "986000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-3432afac23",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 3000 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.113 m",
+          "2": "8.824 m",
+          "3": "1020000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-76c1b4de9f",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 3100 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.110 m",
+          "2": "9.118 m",
+          "3": "1054000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-5e87b6e2a8",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 3200 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.106 m",
+          "2": "9.412 m",
+          "3": "1088000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-8bbcbf9f93",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 3300 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.103 m",
+          "2": "9.706 m",
+          "3": "1122000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-e4dcfd95af",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 3400 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.100 m",
+          "2": "10.000 m",
+          "3": "1156000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-940d0a188e",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 3500 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.097 m",
+          "2": "10.294 m",
+          "3": "1190000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-f7ef5d2ed3",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 3600 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.094 m",
+          "2": "10.588 m",
+          "3": "1224000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-6023e039d8",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 3700 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.092 m",
+          "2": "10.882 m",
+          "3": "1258000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-941b2620af",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 3800 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.089 m",
+          "2": "11.176 m",
+          "3": "1292000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-2130d77c88",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 3900 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.087 m",
+          "2": "11.471 m",
+          "3": "1326000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-47c9c6976b",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A sound wave of frequency 4000 Hz travels in air with speed 340 m/s. Its wavelength is",
+        "options": {
+          "1": "0.085 m",
+          "2": "11.765 m",
+          "3": "1360000.0 m",
+          "4": "340 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (v = fλ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-954244fac4",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 277 Hz and 235 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "42 Hz",
+          "2": "21 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-33f2d92a88",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 278 Hz and 234 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "44 Hz",
+          "2": "22 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-89f011608d",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 279 Hz and 233 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "46 Hz",
+          "2": "23 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-1b8b33688d",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 280 Hz and 232 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "48 Hz",
+          "2": "24 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-3980eb2450",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 281 Hz and 231 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "50 Hz",
+          "2": "25 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-7b89aeb829",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 282 Hz and 230 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "52 Hz",
+          "2": "26 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-1f310f16f0",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 283 Hz and 229 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "54 Hz",
+          "2": "27 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-b05267c508",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 284 Hz and 228 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "56 Hz",
+          "2": "28 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-a17cb70af1",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 285 Hz and 227 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "58 Hz",
+          "2": "29 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-0bf85ebb80",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Two sound waves of frequencies 286 Hz and 226 Hz interfere. Beat frequency is",
+        "options": {
+          "1": "60 Hz",
+          "2": "30 Hz",
+          "3": "256 Hz",
+          "4": "512 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (beats = |f1−f2|)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-4098dfd7fb",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "An electromagnetic wave of frequency 1 × 10 14 Hz is propagating along z -axis. The amplitude of the electric field is 4 V/m . If ε 0 = 8 . 8 × 1 0 - 1 2 C 2 / N-m 2 , then the average energy density of electric field will be",
+        "options": {
+          "1": "A 3",
+          "2": "2 Ã 10 â 12 â J/m 3 B 3",
+          "3": "2 × 10 − 10 J/m 3 C 3",
+          "4": "2 × 10 − 11 J/m 3 D 3"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-db70aa9a79",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "An electron is accelerated through a potential difference of 10,000 V . Its de Broglie wavelength is (nearly): m e = 9 × 1 0 - 31 k g",
+        "options": {
+          "1": "A 1",
+          "2": "2 Ã 10 - 13 Â m B 1",
+          "3": "2 Ã 10 - 12 Â m C 1",
+          "4": "2 Ã 10 - 14 Â m D 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-f5f39e644c",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "The magnetic field of a plane electromagnetic wave is given by $\\overrightarrow{\\mathrm{B}}=3 \\times 10^{-8} \\cos \\left(1.6 \\times 10^3 x+\\right.$ $48 \\times 10^{10}$ t) $\\hat{j}$, then the associated electric field will be:",
+        "options": {
+          "1": "A 3 \\times 10^{-8} \\cos \\left(",
+          "2": "6 \\times 10^3 x+48 \\times 10^{10} t\\right) \\hat{i} / \\mathrm{m} B 3 \\times 10^{-8} \\sin \\left(",
+          "3": "6 \\times 10^3 x+48 \\times 10^{10} t\\right) \\hat{i} / \\mathrm{m} C 9 \\sin \\left(",
+          "4": "6 \\times 10^3 x-48 \\times 10^{10} t\\right) \\hat{k} \\mathrm{~V} / \\mathrm{m} D 9 \\cos \\left("
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-4acaeb4e64",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "The de-Broglie wavelength of a ball of mass 120 g moving at a speed of 20 m / s is",
+        "options": {
+          "1": "A 3 . 5 Ã 10 - 34 m",
+          "2": "8 Ã 10 - 34 m",
+          "3": "2 Ã 10 - 34 m",
+          "4": "1 Ã 10 - 34 m"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-88cf944f4b",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "The wave described by $y=0.25 \\sin (10 \\pi x-2 \\pi t)$, where $\\mathrm{x}$ and $\\mathrm{y}$ are in meters and $\\mathrm{t}$ in seconds, is a wave travelling along the",
+        "options": {
+          "1": "A -ve \\mathrm{x} direction with amplitude",
+          "2": "25 \\mathrm{~m} and wavelength \\lambda=",
+          "3": "2 \\mathrm{~m} B -ve x direction with frequency 1 \\mathrm{~Hz} C +ve \\mathrm{x} direction with frequency \\pi \\mathrm{Hz} and wavelength \\lambda=",
+          "4": "2 \\mathrm{~m} D +ve \\mathrm{x} direction with frequency 1 \\mathrm{~Hz} and wavelength \\lambda="
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-85fbb475db",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "An electron is in an excited state in a hydrogen like atom. It has a total energy of -3 .4 eV . The kinetic energy is E and its de Broglie wavelength is Î» . Then",
+        "options": {
+          "1": "A E =",
+          "2": "8 eV, λ =",
+          "3": "6 × 1 0 - 1 0 m B E =",
+          "4": "4 eV, Î» ="
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-1d11969b3d",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "[NEET 2018 | Physics] Displacement y = A0 + A*sin(wt) + B*cos(wt). Amplitude of oscillation:",
+        "options": {
+          "1": "A+B",
+          "2": "A0+root(A2+B2)",
+          "3": "root(A2+B2)",
+          "4": "root(A02+(A+B)2)"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; manual_pyq)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-a4ca06eb03",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "K max ( in â e V ) = 3 , and frequency of light (in H z ) = 1 Ã 10 15 for a metal used as a cathode in a photoelectric experiment. The threshold frequency of light for the photoelectric emission from the metal is -",
+        "options": {
+          "1": "A 1 × 10 14 Hz",
+          "2": "5 × 10 14 Hz",
+          "3": "1 × 10 14 Hz",
+          "4": "7 × 10 14 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-e8e9eecb94",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A particle suspended from a vertical spring oscillates 10 times per second. At the highest point of oscillation, the spring becomes unstretched. Find the speed when the spring is stretched by 0.20 c m . T a k e , g = Ï 2 m / s 2",
+        "options": {
+          "1": "A 11",
+          "2": "25 c m s - 1 B 1",
+          "3": "14 c m s - 1 C 1",
+          "4": "4 c m s - 1 D 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
       }
     ]
   },
-  "gaps": [
-    "Hard: have 9 clean items (need 10+ to start)"
-  ]
+  "gaps": []
 }

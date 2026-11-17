@@ -325,6 +325,40 @@ async function mapPool<T, R>(
   return out;
 }
 
+/** Frontmatter-only meta — O(files) small reads; avoids parsing full paper JSON on dashboard cold start. */
+async function metaFromFrontmatter(year: number): Promise<MdPaperMeta | null> {
+  let raw: string;
+  try {
+    raw = await readFile(path.join(ROOT, `neet-${year}.paper.md`), "utf8");
+  } catch {
+    return null;
+  }
+  // Only need the YAML header (~1–2 KB), not the full fence.
+  const head = raw.slice(0, 4000);
+  const { meta: fm } = parseFrontmatter(head.startsWith("---") ? head : raw);
+  const totalQuestions = Number(fm.totalQuestions ?? 0);
+  const fmReady =
+    fm.studentReady === true ||
+    fm.studentReady === "true" ||
+    (fm.studentReady === undefined && totalQuestions >= MIN_STUDENT_PAPER_QUESTIONS);
+  const studentReady =
+    Boolean(fmReady) && totalQuestions >= MIN_STUDENT_PAPER_QUESTIONS;
+  const gaps = Array.isArray(fm.gaps) ? [...(fm.gaps as string[])] : [];
+  return {
+    year: Number(fm.year ?? year),
+    code: String(fm.code ?? ""),
+    title: String(fm.title ?? `NEET ${year}`),
+    candidateCount: Number(fm.candidateCount ?? 2_000_000),
+    durationMinutes: Number(fm.durationMinutes ?? 180),
+    totalQuestions,
+    attemptLimit: Number(fm.attemptLimit ?? totalQuestions),
+    structure: String(fm.structure ?? ""),
+    source: String(fm.source ?? ""),
+    gaps,
+    studentReady,
+  };
+}
+
 export async function listMdPapers(): Promise<MdPaperMeta[]> {
   bustIfNeeded();
   if (listCache) return listCache;
@@ -333,9 +367,10 @@ export async function listMdPapers(): Promise<MdPaperMeta[]> {
     .map((f) => Number(f.match(/neet-(\d{4})\.paper\.md/)?.[1]))
     .filter((y) => Number.isFinite(y))
     .sort((a, b) => b - a);
-  // Cap concurrency: full parallel of ~10 large MD files can tip hobby into 10s timeout.
-  const packs = await mapPool(years, 3, (y) => loadYear(y, false));
-  const metas = packs.filter(Boolean).map((p) => p!.meta);
+  // Dashboard only needs meta — do not parse every paper JSON on cold start.
+  const metas = (
+    await mapPool(years, 6, (y) => metaFromFrontmatter(y))
+  ).filter(Boolean) as MdPaperMeta[];
   listCache = metas;
   return metas;
 }
