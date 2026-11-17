@@ -306,7 +306,25 @@ async function loadYear(year: number, withKeys: boolean): Promise<CachedPaper | 
   return packed;
 }
 
-/** Parallel year loads — O(n) wall time ≈ slowest file, not sum. */
+/** Bounded-parallel year loads — avoid cold-start I/O thrash on Vercel hobby. */
+async function mapPool<T, R>(
+  items: T[],
+  concurrency: number,
+  fn: (item: T) => Promise<R>,
+): Promise<R[]> {
+  const out: R[] = new Array(items.length);
+  let next = 0;
+  async function worker() {
+    while (next < items.length) {
+      const i = next++;
+      out[i] = await fn(items[i]);
+    }
+  }
+  const n = Math.min(Math.max(1, concurrency), Math.max(1, items.length));
+  await Promise.all(Array.from({ length: n }, () => worker()));
+  return out;
+}
+
 export async function listMdPapers(): Promise<MdPaperMeta[]> {
   bustIfNeeded();
   if (listCache) return listCache;
@@ -315,7 +333,8 @@ export async function listMdPapers(): Promise<MdPaperMeta[]> {
     .map((f) => Number(f.match(/neet-(\d{4})\.paper\.md/)?.[1]))
     .filter((y) => Number.isFinite(y))
     .sort((a, b) => b - a);
-  const packs = await Promise.all(years.map((y) => loadYear(y, false)));
+  // Cap concurrency: full parallel of ~10 large MD files can tip hobby into 10s timeout.
+  const packs = await mapPool(years, 3, (y) => loadYear(y, false));
   const metas = packs.filter(Boolean).map((p) => p!.meta);
   listCache = metas;
   return metas;
