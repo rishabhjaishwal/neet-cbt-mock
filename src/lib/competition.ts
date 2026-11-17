@@ -47,7 +47,7 @@ async function loadAllBanks(): Promise<BankFile[]> {
 
 function shuffle<T>(arr: T[], seed: string): T[] {
   const out = [...arr];
-  let h = createHash("sha1").update(seed).digest();
+  const h = createHash("sha1").update(seed).digest();
   let s = h.readUInt32BE(0) || 1;
   for (let i = out.length - 1; i > 0; i--) {
     s = (Math.imul(s, 1664525) + 1013904223) >>> 0;
