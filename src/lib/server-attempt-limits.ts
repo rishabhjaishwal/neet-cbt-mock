@@ -8,6 +8,9 @@ import { getPaper } from "@/lib/papers";
 export type AnswerRow = {
   questionId: unknown;
   questionKey?: string;
+  number?: number;
+  subject?: string;
+  section?: string;
   selectedOption?: string | null;
   selectedOptions?: string[];
   status: string;
@@ -104,18 +107,51 @@ export async function filterAllowedAnswerUpdates(opts: {
     };
   }
 
-  const qids = opts.existingAnswers.map((a) => a.questionId);
-  const questions = await Question.find({ _id: { $in: qids } })
-    .select("_id number subject section questionKey")
-    .lean();
-  const qById = Object.fromEntries(questions.map((q) => [String(q._id), q]));
+  // Prefer denormalized meta on attempt.answers (new attempts). Fall back to Question.find
+  // only when older attempts lack number/subject/section.
+  const missingMeta = opts.existingAnswers.some(
+    (a) => a.number == null || !a.subject || !a.section,
+  );
+  let qById: Record<
+    string,
+    { number: number; subject: string; section: string; questionKey?: string }
+  > = {};
+  if (missingMeta) {
+    const qids = opts.existingAnswers.map((a) => a.questionId);
+    const questions = await Question.find({ _id: { $in: qids } })
+      .select("_id number subject section questionKey")
+      .lean();
+    qById = Object.fromEntries(
+      questions.map((q) => [
+        String(q._id),
+        {
+          number: q.number,
+          subject: q.subject,
+          section: q.section,
+          questionKey: q.questionKey,
+        },
+      ]),
+    );
+  } else {
+    qById = Object.fromEntries(
+      opts.existingAnswers.map((a) => [
+        String(a.questionId),
+        {
+          number: a.number as number,
+          subject: a.subject as string,
+          section: a.section as string,
+          questionKey: a.questionKey,
+        },
+      ]),
+    );
+  }
 
   const idByKey = new Map<string, string>();
   for (const a of opts.existingAnswers) {
     if (a.questionKey) idByKey.set(a.questionKey, String(a.questionId));
   }
-  for (const q of questions) {
-    if (q.questionKey) idByKey.set(q.questionKey, String(q._id));
+  for (const [id, q] of Object.entries(qById)) {
+    if (q.questionKey) idByKey.set(q.questionKey, id);
   }
 
   const state = new Map<

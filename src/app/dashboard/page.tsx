@@ -1,7 +1,6 @@
 import { redirect } from "next/navigation";
 import { Types } from "mongoose";
 import { getSession } from "@/lib/auth";
-import { ensureSeeded } from "@/lib/seed";
 import { Attempt } from "@/lib/models";
 import { listPapers } from "@/lib/papers";
 import { LogoutButton } from "@/components/LogoutButton";
@@ -16,15 +15,14 @@ export default async function DashboardPage({
   const user = await getSession();
   if (!user) redirect("/login");
   if (user.role === "examiner") redirect("/examiner");
-  await ensureSeeded();
   const params = await searchParams;
-
-  const papers = await listPapers();
-  const attempts = await Attempt.find({
-    userId: new Types.ObjectId(user.id),
-  })
-    .sort({ year: -1, attemptNumber: -1 })
-    .lean();
+  // Parallelize seed+papers with attempts once session is known.
+  const [papers, attempts] = await Promise.all([
+    listPapers(),
+    Attempt.find({ userId: new Types.ObjectId(user.id) })
+      .sort({ year: -1, attemptNumber: -1 })
+      .lean(),
+  ]);
 
   const latestByYear: Record<
     number,

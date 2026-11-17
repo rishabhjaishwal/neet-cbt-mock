@@ -87,6 +87,9 @@ export async function POST(req: Request) {
       answers: questions.map((q) => ({
         questionId: new Types.ObjectId(q.id),
         questionKey: q.questionKey,
+        number: q.number,
+        subject: q.subject,
+        section: q.section,
         selectedOption: null,
         selectedOptions: [],
         status: "not_attempted",

@@ -65,6 +65,10 @@ const AttemptAnswerSchema = new Schema(
   {
     questionId: { type: Schema.Types.ObjectId, required: true },
     questionKey: { type: String, required: true },
+    /** Denormalized for fast checkpoint limits (avoids Question.find per save). */
+    number: { type: Number },
+    subject: { type: String },
+    section: { type: String },
     selectedOption: { type: String, default: null },
     selectedOptions: { type: [String], default: [] },
     status: {
