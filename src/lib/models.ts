@@ -176,6 +176,12 @@ const TopicAttemptSchema = new Schema(
     subject: { type: String, required: true },
     topic: { type: String, required: true },
     difficulty: { type: String, enum: ["Easy", "Medium", "Hard"], required: true },
+    /** 1-based sequential mock index within topic×difficulty (Q1–30, 31–60, …). */
+    sequence: { type: Number },
+    /** e.g. mechanics_easy_2 */
+    sequenceLabel: { type: String },
+    sequenceFrom: { type: Number },
+    sequenceTo: { type: Number },
     status: {
       type: String,
       enum: ["in_progress", "submitted", "approved"],

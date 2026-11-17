@@ -11,6 +11,6 @@ export async function GET() {
   return NextResponse.json({
     ok: true,
     topics,
-    note: "Each mock is 30 questions (~36 min). Banks target ≥50 clean items per difficulty; gaps list shortfalls.",
+    note: "Each mock is 30 questions (~36 min). Sequences are sequential slices: _1=Q1–30, _2=Q31–60, … Full 30-Q mocks only.",
   });
 }

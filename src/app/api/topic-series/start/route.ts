@@ -6,15 +6,18 @@ import { connectDb } from "@/lib/db";
 import { TopicAttempt } from "@/lib/models";
 import {
   TOPIC_MOCK_QUESTION_COUNT,
+  listTopicSequences,
   loadTopicBank,
-  pickTopicQuestions,
+  pickTopicSequence,
   topicMockDurationMinutes,
 } from "@/lib/topic-series";
 
 const schema = z.object({
   topicId: z.string().min(1),
   difficulty: z.enum(["Easy", "Medium", "Hard"]),
-  /** Optional override; defaults to TOPIC_MOCK_QUESTION_COUNT (30). Max 50. */
+  /** 1-based sequential mock: 1 = Q1–30, 2 = Q31–60, … */
+  sequence: z.number().int().min(1).max(200).optional(),
+  /** Legacy alias — ignored when sequence is set. */
   limit: z.number().int().min(10).max(50).optional(),
 });
 
@@ -36,14 +39,21 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "Topic not found" }, { status: 404 });
   }
 
-  const limit = body.limit ?? TOPIC_MOCK_QUESTION_COUNT;
-  const picked = pickTopicQuestions(bank, body.difficulty, limit);
-  if (picked.length < limit) {
+  const poolSize = bank.counts[body.difficulty] ?? 0;
+  const available = listTopicSequences(bank.id, body.difficulty, poolSize);
+  const sequence = body.sequence ?? 1;
+  const picked = pickTopicSequence(
+    bank,
+    body.difficulty,
+    sequence,
+    TOPIC_MOCK_QUESTION_COUNT,
+  );
+  if (!picked) {
     return NextResponse.json(
       {
-        error: `Need ${limit} ${body.difficulty} questions (have ${picked.length}). See topic gaps.`,
-        available: picked.length,
-        required: limit,
+        error: `Mock ${sequence} is not available for ${body.difficulty} (have ${available.length} sequential mocks of ${TOPIC_MOCK_QUESTION_COUNT}).`,
+        availableSequences: available,
+        poolSize,
       },
       { status: 409 },
     );
@@ -51,10 +61,10 @@ export async function POST(req: Request) {
 
   await connectDb();
   const userId = new Types.ObjectId(user.id);
-  const durationMin = topicMockDurationMinutes(picked.length);
+  const durationMin = topicMockDurationMinutes(picked.questions.length);
   const endsAt = new Date(Date.now() + durationMin * 60_000);
 
-  const questions = picked.map((q, i) => ({
+  const questions = picked.questions.map((q, i) => ({
     questionKey: q.id,
     number: i + 1,
     subject: q.subject,
@@ -77,6 +87,10 @@ export async function POST(req: Request) {
     subject: bank.subject,
     topic: bank.topic,
     difficulty: body.difficulty,
+    sequence: picked.meta.sequence,
+    sequenceLabel: picked.meta.label,
+    sequenceFrom: picked.meta.from,
+    sequenceTo: picked.meta.to,
     status: "in_progress",
     endsAt,
     questions,
@@ -94,6 +108,10 @@ export async function POST(req: Request) {
     count: questions.length,
     endsAt: endsAt.toISOString(),
     durationMin,
+    sequence: picked.meta.sequence,
+    sequenceLabel: picked.meta.label,
+    range: { from: picked.meta.from, to: picked.meta.to },
+    availableSequences: available.length,
     gaps: bank.gaps,
   });
 }

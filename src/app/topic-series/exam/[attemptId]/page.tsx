@@ -67,10 +67,29 @@ export default async function TopicExamPage({
     };
   });
 
+  const seqLabel =
+    typeof attempt.sequenceLabel === "string" && attempt.sequenceLabel
+      ? attempt.sequenceLabel
+      : null;
+  const seqRange =
+    typeof attempt.sequenceFrom === "number" &&
+    typeof attempt.sequenceTo === "number"
+      ? `Q${attempt.sequenceFrom}–${attempt.sequenceTo}`
+      : null;
+  const title = [
+    attempt.subject,
+    attempt.topic,
+    attempt.difficulty,
+    seqLabel,
+    seqRange,
+  ]
+    .filter(Boolean)
+    .join(" · ");
+
   return (
     <TopicQuizCbt
       attemptId={attemptId}
-      title={`${attempt.subject} · ${attempt.topic} · ${attempt.difficulty}`}
+      title={title}
       endsAt={new Date(attempt.endsAt).toISOString()}
       questions={questions}
     />
