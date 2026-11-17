@@ -80,8 +80,21 @@ export default async function ResultsPage({
       : [];
 
   const qids = attempt.answers.map((a: { questionId: unknown }) => a.questionId);
-  const questions = await Question.find({ _id: { $in: qids } }).lean();
+  const keys = attempt.answers
+    .map((a: { questionKey?: string }) => a.questionKey)
+    .filter(Boolean) as string[];
+  const questions = await Question.find({
+    $or: [
+      { _id: { $in: qids } },
+      ...(keys.length ? [{ questionKey: { $in: keys } }] : []),
+    ],
+  }).lean();
   const byId = Object.fromEntries(questions.map((q) => [String(q._id), q]));
+  const byKey = Object.fromEntries(
+    questions
+      .filter((q: { questionKey?: string }) => q.questionKey)
+      .map((q: { questionKey?: string }) => [q.questionKey!, q]),
+  );
   const paperByKey = await getPaperQuestionMap(attempt.year).catch(
     () => new Map(),
   );
@@ -98,7 +111,8 @@ export default async function ResultsPage({
         },
         answerIndex: number,
       ) => {
-        const q = byId[String(a.questionId)] as
+        const q = (byId[String(a.questionId)] ||
+          (a.questionKey ? byKey[a.questionKey] : undefined)) as
           | {
               questionKey?: string;
               number: number;
@@ -134,14 +148,14 @@ export default async function ResultsPage({
           correctOptions: correct,
           correctOption: paperQ?.correctOption ?? q.correctOption,
         });
+        const picked =
+          a.selectedOptions?.length
+            ? a.selectedOptions
+            : a.selectedOption
+              ? [a.selectedOption]
+              : [];
         const selected =
-          a.status === "not_attempted"
-            ? []
-            : a.selectedOptions?.length
-              ? a.selectedOptions
-              : a.selectedOption
-                ? [a.selectedOption]
-                : [];
+          a.status === "not_attempted" && picked.length === 0 ? [] : picked;
         const { marks, outcome } = scoreSelection(selected, correct, multi);
         const needsFigure =
           /see figure|as shown in (the )?figure|shown in (the )?figure|following diagram|given figure|in the figure|as shown in figure|shown in figure|given figures/i.test(

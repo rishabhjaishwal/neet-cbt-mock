@@ -14,6 +14,7 @@ import { t, type Lang } from "@/lib/i18n";
 
 type Q = {
   id: string;
+  questionKey?: string;
   number: number;
   subject: string;
   section: string;
@@ -35,6 +36,7 @@ type MarkFilter = "ALL" | "MARKED";
 
 type PendingAnswer = {
   questionId: string;
+  questionKey?: string;
   selectedOption: string | null;
   selectedOptions: string[];
   status: Q["status"];
@@ -274,62 +276,120 @@ export function ExamCbt({
   );
 
   const flushCheckpoint = useCallback(
-    async (opts?: { force?: boolean }) => {
+    async (opts?: { force?: boolean; retries?: number }) => {
+      const retries = opts?.retries ?? (opts?.force ? 3 : 1);
       if (syncingRef.current && !opts?.force) return false;
+      // Wait out an in-flight sync before a forced flush (submit path).
+      if (syncingRef.current && opts?.force) {
+        const started = Date.now();
+        while (syncingRef.current && Date.now() - started < 8000) {
+          await new Promise((r) => setTimeout(r, 100));
+        }
+      }
       if (typeof navigator !== "undefined" && !navigator.onLine) {
         setOnline(false);
         setSyncState("error");
         return false;
       }
 
-      syncingRef.current = true;
-      setSyncState("syncing");
-      try {
-        const pending = Object.values(pendingRef.current);
-        const res = await fetch(`/api/attempts/${attemptId}/checkpoint`, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            answers: pending.length ? pending : undefined,
-            currentQuestionIndex: indexRef.current,
-            subjectFilter: subjectRef.current,
-            sectionFilter: sectionRef.current,
-          }),
-        });
-        const data = await res.json();
-        if (!res.ok) {
+      let lastOk = false;
+      for (let attempt = 0; attempt < retries; attempt++) {
+        if (attempt > 0) {
+          await new Promise((r) => setTimeout(r, 400 * attempt));
+          if (typeof navigator !== "undefined" && !navigator.onLine) {
+            setOnline(false);
+            setSyncState("error");
+            return false;
+          }
+        }
+
+        syncingRef.current = true;
+        setSyncState("syncing");
+        try {
+          const snapshot = { ...pendingRef.current };
+          const pending = Object.values(snapshot);
+          const res = await fetch(`/api/attempts/${attemptId}/checkpoint`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              answers: pending.length ? pending : undefined,
+              currentQuestionIndex: indexRef.current,
+              subjectFilter: subjectRef.current,
+              sectionFilter: sectionRef.current,
+            }),
+          });
+          const data = await res.json().catch(() => ({}));
+          if (!res.ok) {
+            setSyncState("error");
+            setOnline(typeof navigator !== "undefined" ? navigator.onLine : true);
+            continue;
+          }
+
+          // Apply server clock — never trust client to extend time
+          if (typeof data.endsAt === "string") {
+            setEndsAt(data.endsAt);
+            setRemain(Math.max(0, new Date(data.endsAt).getTime() - Date.now()));
+          } else if (typeof data.remainingMs === "number") {
+            setRemain(Math.max(0, data.remainingMs));
+          }
+          if (typeof data.screenSwitchCount === "number") {
+            setSwitchCount(data.screenSwitchCount);
+          }
+          if (typeof data.checkpointAt === "string") {
+            setCheckpointAt(data.checkpointAt);
+          }
+
+          // Only drop answers the server confirmed applied (keep newer edits).
+          const appliedIds = new Set<string>(
+            Array.isArray(data.appliedIds) ? data.appliedIds.map(String) : [],
+          );
+          const appliedKeys = new Set<string>(
+            Array.isArray(data.appliedKeys) ? data.appliedKeys.map(String) : [],
+          );
+          const samePending = (a?: PendingAnswer, b?: PendingAnswer) =>
+            !!a &&
+            !!b &&
+            a.status === b.status &&
+            a.selectedOption === b.selectedOption &&
+            (a.selectedOptions || []).join(",") === (b.selectedOptions || []).join(",");
+          const nextPending: Record<string, PendingAnswer> = { ...pendingRef.current };
+          if (appliedIds.size || appliedKeys.size) {
+            for (const [qid, row] of Object.entries(snapshot)) {
+              const cleared =
+                appliedIds.has(row.questionId) ||
+                (row.questionKey != null && appliedKeys.has(row.questionKey));
+              if (cleared && samePending(nextPending[qid], row)) {
+                delete nextPending[qid];
+              }
+            }
+          } else if (!pending.length || data.applied === 0) {
+            // Navigation-only checkpoint or nothing to apply
+          } else if (typeof data.applied !== "number") {
+            // Legacy server: treat full success as clearing the snapshot we sent
+            for (const [qid, row] of Object.entries(snapshot)) {
+              if (samePending(nextPending[qid], row)) delete nextPending[qid];
+            }
+          }
+
+          pendingRef.current = nextPending;
+          savePending(attemptId, nextPending);
+          setPendingCount(Object.keys(nextPending).length);
+          setOnline(true);
+          setSyncState(Object.keys(nextPending).length ? "error" : "saved");
+          lastOk = Object.keys(nextPending).length === 0 || pending.length === 0;
+          if (lastOk || Object.keys(nextPending).length < pending.length) {
+            // Progress made — stop retrying unless force and still pending
+            if (!opts?.force || Object.keys(nextPending).length === 0) break;
+          }
+        } catch {
+          setOnline(false);
           setSyncState("error");
-          setOnline(navigator.onLine);
-          return false;
+          lastOk = false;
+        } finally {
+          syncingRef.current = false;
         }
-
-        // Apply server clock — never trust client to extend time
-        if (typeof data.endsAt === "string") {
-          setEndsAt(data.endsAt);
-          setRemain(Math.max(0, new Date(data.endsAt).getTime() - Date.now()));
-        } else if (typeof data.remainingMs === "number") {
-          setRemain(Math.max(0, data.remainingMs));
-        }
-        if (typeof data.screenSwitchCount === "number") {
-          setSwitchCount(data.screenSwitchCount);
-        }
-        if (typeof data.checkpointAt === "string") {
-          setCheckpointAt(data.checkpointAt);
-        }
-
-        pendingRef.current = {};
-        savePending(attemptId, {});
-        setPendingCount(0);
-        setOnline(true);
-        setSyncState("saved");
-        return true;
-      } catch {
-        setOnline(false);
-        setSyncState("error");
-        return false;
-      } finally {
-        syncingRef.current = false;
       }
+      return lastOk;
     },
     [attemptId],
   );
@@ -366,8 +426,10 @@ export function ExamCbt({
 
       if (Array.isArray(data.answers)) {
         const byId = new Map<string, PendingAnswer>();
+        const byKey = new Map<string, PendingAnswer>();
         for (const a of data.answers as PendingAnswer[]) {
           if (a?.questionId) byId.set(a.questionId, a);
+          if (a?.questionKey) byKey.set(a.questionKey, a);
         }
         setQuestions((prev) =>
           prev.map((q) => {
@@ -386,7 +448,9 @@ export function ExamCbt({
                 status: local.status,
               };
             }
-            const s = byId.get(q.id);
+            const s =
+              byId.get(q.id) ||
+              (q.questionKey ? byKey.get(q.questionKey) : undefined);
             if (!s) return q;
             const selectedOptions =
               s.selectedOptions?.length
@@ -679,6 +743,7 @@ export function ExamCbt({
       copy[at] = normalized;
       queuePending({
         questionId: normalized.id,
+        questionKey: normalized.questionKey,
         selectedOption: normalized.selectedOption,
         selectedOptions: normalized.selectedOptions ?? [],
         status: normalized.status,
@@ -702,7 +767,9 @@ export function ExamCbt({
     }
     setShowSubmitSummary(false);
     setBusy(true);
-    await flushCheckpoint({ force: true });
+    // Retry checkpoint, then always ship remaining pending with submit body.
+    await flushCheckpoint({ force: true, retries: 3 });
+    const leftover = Object.values(pendingRef.current);
     if (document.fullscreenElement) {
       try {
         await document.exitFullscreen();
@@ -711,15 +778,23 @@ export function ExamCbt({
       }
     }
     try {
-      const res = await fetch(`/api/attempts/${attemptId}/submit`, { method: "POST" });
-      const data = await res.json();
+      const res = await fetch(`/api/attempts/${attemptId}/submit`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          answers: leftover.length ? leftover : undefined,
+        }),
+      });
+      const data = await res.json().catch(() => ({}));
       setBusy(false);
       if (!res.ok) {
         setMsg(data.error || "Submit failed — check network and retry");
         setSyncState("error");
         return;
       }
+      pendingRef.current = {};
       savePending(attemptId, {});
+      setPendingCount(0);
       setMsg(data.message || "Submitted");
       const resultsUrl =
         typeof data.resultsUrl === "string" && data.resultsUrl.startsWith("/")

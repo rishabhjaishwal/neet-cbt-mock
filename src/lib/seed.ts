@@ -34,8 +34,8 @@ type PaperFile = {
   }>;
 };
 
-/** Bump to force serverless cold-start reseed (fixes parked Q numbers like 30096). */
-const CONTENT_VERSION = 10;
+/** Bump to force serverless cold-start reseed (answer-key rematch after reseed). */
+const CONTENT_VERSION = 11;
 let syncedVersion = 0;
 
 async function hashPassword(password: string) {
@@ -124,7 +124,29 @@ export async function seedDatabase() {
       .map((row) => row.questionKey)
       .filter((k) => k && !keepKeys.has(k));
     if (orphanKeys.length) {
-      await Question.deleteMany({ year: paper.year, questionKey: { $in: orphanKeys } });
+      // Never delete keys still referenced by an in-progress attempt.
+      const liveRefs = await Attempt.find({
+        year: paper.year,
+        status: "in_progress",
+        "answers.questionKey": { $in: orphanKeys },
+      })
+        .select("answers.questionKey")
+        .lean();
+      const protectedKeys = new Set<string>();
+      for (const att of liveRefs) {
+        for (const a of att.answers as Array<{ questionKey?: string }>) {
+          if (a.questionKey && orphanKeys.includes(a.questionKey)) {
+            protectedKeys.add(a.questionKey);
+          }
+        }
+      }
+      const deletable = orphanKeys.filter((k) => !protectedKeys.has(k));
+      if (deletable.length) {
+        await Question.deleteMany({
+          year: paper.year,
+          questionKey: { $in: deletable },
+        });
+      }
     }
 
     await Question.bulkWrite(
@@ -191,6 +213,10 @@ export async function seedDatabase() {
         { ordered: false },
       );
     }
+
+    // Keep in-progress attempts pointed at live Question _ids via questionKey
+    // so a reseed/upsert cannot orphan selections as Unattempted.
+    await rematchInProgressAttemptQuestionIds(paper.year);
   }
 
   try {
@@ -199,4 +225,31 @@ export async function seedDatabase() {
     /* old unique index may already be gone */
   }
   await Attempt.createIndexes();
+}
+
+async function rematchInProgressAttemptQuestionIds(year: number) {
+  const live = await Question.find({ year }).select("_id questionKey").lean();
+  const idByKey = new Map(live.map((q) => [q.questionKey, q._id]));
+  if (!idByKey.size) return;
+
+  const attempts = await Attempt.find({ year, status: "in_progress" });
+  for (const attempt of attempts) {
+    let changed = 0;
+    for (const row of attempt.answers as Array<{
+      questionId: { equals?: (v: unknown) => boolean };
+      questionKey?: string;
+    }>) {
+      if (!row.questionKey) continue;
+      const liveId = idByKey.get(row.questionKey);
+      if (!liveId) continue;
+      if (String(row.questionId) !== String(liveId)) {
+        row.questionId = liveId as never;
+        changed += 1;
+      }
+    }
+    if (changed) {
+      attempt.markModified("answers");
+      await attempt.save();
+    }
+  }
 }

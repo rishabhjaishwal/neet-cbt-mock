@@ -5,13 +5,19 @@ import { getSession } from "@/lib/auth";
 import { ensureSeeded } from "@/lib/seed";
 import { Attempt } from "@/lib/models";
 import { parseOptionList } from "@/lib/multi-correct";
-import { validateAttemptAnswerUpdates } from "@/lib/server-attempt-limits";
+import {
+  applyAnswersToAttempt,
+  filterAllowedAnswerUpdates,
+} from "@/lib/server-attempt-limits";
 
 const answerSchema = z.object({
-  questionId: z.string().min(1),
+  questionId: z.string().min(1).optional(),
+  questionKey: z.string().min(1).optional(),
   selectedOption: z.enum(["1", "2", "3", "4"]).nullable().optional(),
   selectedOptions: z.array(z.enum(["1", "2", "3", "4"])).optional(),
   status: z.enum(["not_attempted", "attempted", "marked"]),
+}).refine((v) => Boolean(v.questionId || v.questionKey), {
+  message: "questionId or questionKey required",
 });
 
 const schema = z.object({
@@ -26,6 +32,7 @@ type Params = { params: Promise<{ id: string }> };
 /**
  * Server-side exam checkpoint. Persists answers + navigation.
  * Never accepts or mutates remaining time / endsAt (anti-cheat).
+ * Illegal Section B / budget items are rejected individually — the rest still save.
  */
 export async function POST(req: Request, { params }: Params) {
   await ensureSeeded();
@@ -53,63 +60,66 @@ export async function POST(req: Request, { params }: Params) {
     return NextResponse.json({ error: "Attempt locked" }, { status: 409 });
   }
 
+  let applied = 0;
+  let rejected: Array<{ questionId?: string; questionKey?: string; reason: string }> =
+    [];
+  const appliedIds: string[] = [];
+  const appliedKeys: string[] = [];
+
   if (body.answers?.length) {
-    const byId = new Map<string, number>();
-    attempt.answers.forEach((a: { questionId: unknown }, i: number) => {
-      byId.set(String(a.questionId), i);
+    const normalizedIncoming = body.answers.map((item) => {
+      let status = item.status;
+      let selectedOptions = parseOptionList(
+        item.selectedOptions?.length
+          ? item.selectedOptions
+          : item.selectedOption
+            ? [item.selectedOption]
+            : [],
+      );
+      if (status === "not_attempted") {
+        selectedOptions = [];
+      } else if (selectedOptions.length) {
+        if (status !== "marked") status = "attempted";
+      } else if (status === "marked") {
+        selectedOptions = [];
+      }
+      return {
+        questionId: item.questionId,
+        questionKey: item.questionKey,
+        selectedOption: selectedOptions[0] ?? null,
+        selectedOptions,
+        status,
+      };
     });
 
-    const normalizedIncoming = body.answers
-      .filter((item) => byId.has(item.questionId))
-      .map((item) => {
-        let status = item.status;
-        let selectedOptions = parseOptionList(
-          item.selectedOptions?.length
-            ? item.selectedOptions
-            : item.selectedOption
-              ? [item.selectedOption]
-              : [],
-        );
-        if (status === "not_attempted") {
-          selectedOptions = [];
-        } else if (selectedOptions.length) {
-          if (status !== "marked") status = "attempted";
-        } else if (status === "marked") {
-          selectedOptions = [];
-        }
-        return {
-          questionId: item.questionId,
-          selectedOption: selectedOptions[0] ?? null,
-          selectedOptions,
-          status,
-        };
-      });
-
-    const gate = await validateAttemptAnswerUpdates({
+    const result = await filterAllowedAnswerUpdates({
       year: attempt.year,
       existingAnswers: attempt.answers as Array<{
         questionId: unknown;
+        questionKey?: string;
         selectedOption?: string | null;
         selectedOptions?: string[];
         status: string;
       }>,
       incoming: normalizedIncoming,
     });
-    if (!gate.ok) {
-      return NextResponse.json({ error: gate.error }, { status: 409 });
-    }
-
-    for (const item of normalizedIncoming) {
-      const idx = byId.get(item.questionId);
-      if (idx === undefined) continue;
-      const row = attempt.answers[idx] as {
-        selectedOption: string | null;
+    rejected = result.rejected;
+    applied = applyAnswersToAttempt(
+      attempt.answers as Array<{
+        questionId: unknown;
+        questionKey?: string;
+        selectedOption?: string | null;
         selectedOptions?: string[];
         status: string;
-      };
-      row.selectedOptions = item.selectedOptions;
-      row.selectedOption = item.selectedOption;
-      row.status = item.status;
+      }>,
+      result.allowed,
+    );
+    for (const a of result.allowed) {
+      appliedIds.push(a.questionId);
+      if (a.questionKey) appliedKeys.push(a.questionKey);
+    }
+    if (applied > 0) {
+      attempt.markModified("answers");
     }
   }
 
@@ -128,6 +138,11 @@ export async function POST(req: Request, { params }: Params) {
 
   return NextResponse.json({
     ok: true,
+    applied,
+    appliedIds,
+    appliedKeys,
+    rejected,
+    rejectedCount: rejected.length,
     checkpointAt: attempt.checkpointAt.toISOString(),
     endsAt: endsAt.toISOString(),
     remainingMs,
@@ -170,13 +185,16 @@ export async function GET(_req: Request, { params }: Params) {
     answers: attempt.answers.map(
       (a: {
         questionId: unknown;
+        questionKey?: string;
         selectedOption?: string | null;
         selectedOptions?: string[];
         status: string;
       }) => ({
         questionId: String(a.questionId),
+        questionKey: a.questionKey ?? undefined,
         selectedOption: a.selectedOption ?? null,
-        selectedOptions: a.selectedOptions ?? (a.selectedOption ? [a.selectedOption] : []),
+        selectedOptions:
+          a.selectedOptions ?? (a.selectedOption ? [a.selectedOption] : []),
         status: a.status,
       }),
     ),

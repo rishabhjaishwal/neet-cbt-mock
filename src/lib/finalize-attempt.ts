@@ -114,11 +114,55 @@ export async function finalizeInProgressAttempt(attemptId: string) {
   }
 
   const qids = attempt.answers.map((a: { questionId: unknown }) => a.questionId);
-  const questions = await Question.find({ _id: { $in: qids } }).lean();
-  const byId = Object.fromEntries(questions.map((q) => [String(q._id), q]));
+  const keys = attempt.answers
+    .map((a: { questionKey?: string }) => a.questionKey)
+    .filter(Boolean) as string[];
+  const questions = await Question.find({
+    $or: [
+      { _id: { $in: qids } },
+      ...(keys.length ? [{ questionKey: { $in: keys } }] : []),
+    ],
+  }).lean();
+  type QLean = {
+    _id: unknown;
+    questionKey?: string;
+    number?: number;
+    subject?: string;
+    topic?: string;
+    correctOption?: string;
+    correctOptions?: string[];
+    multiCorrect?: boolean;
+  };
+  const qList = questions as QLean[];
+  const byId = Object.fromEntries(qList.map((q) => [String(q._id), q]));
+  const byKey = Object.fromEntries(
+    qList.filter((q) => q.questionKey).map((q) => [q.questionKey!, q]),
+  );
+
+  // Remap stale ObjectIds onto live docs via questionKey before scoring.
+  for (const a of attempt.answers as Array<{
+    questionId: unknown;
+    questionKey?: string;
+  }>) {
+    if (byId[String(a.questionId)]) continue;
+    const live = a.questionKey ? byKey[a.questionKey] : undefined;
+    if (live) a.questionId = live._id;
+  }
+  attempt.markModified("answers");
+
+  const scoreById: Record<string, QLean> = {};
+  for (const a of attempt.answers as Array<{
+    questionId: unknown;
+    questionKey?: string;
+  }>) {
+    const q =
+      byId[String(a.questionId)] ||
+      (a.questionKey ? byKey[a.questionKey] : undefined);
+    if (q) scoreById[String(a.questionId)] = q;
+  }
 
   const result = scoreAttempt(
-    buildScoreInput(attempt.answers as AnswerLike[], byId),
+    buildScoreInput(attempt.answers as AnswerLike[], scoreById),
     paper.candidate_count,
   );
   applyScoreResult(attempt, result);

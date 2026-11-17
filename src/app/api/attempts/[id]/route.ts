@@ -37,6 +37,7 @@ export async function GET(_req: Request, { params }: Params) {
     .map(
       (a: {
         questionId: unknown;
+        questionKey?: string;
         selectedOption?: string | null;
         selectedOptions?: string[];
         status: string;
@@ -44,6 +45,7 @@ export async function GET(_req: Request, { params }: Params) {
       const q = byId[String(a.questionId)] as
         | {
             _id: unknown;
+            questionKey?: string;
             number: number;
             subject: string;
             section: string;
@@ -66,6 +68,7 @@ export async function GET(_req: Request, { params }: Params) {
             : [];
       return {
         id: String(q._id),
+        questionKey: a.questionKey || q.questionKey,
         number: q.number,
         subject: q.subject,
         section: q.section,

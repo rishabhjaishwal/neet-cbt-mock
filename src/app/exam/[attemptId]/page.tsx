@@ -36,6 +36,7 @@ export default async function ExamPage({
   const merged = attempt.answers
     .map((a: {
       questionId: unknown;
+      questionKey?: string;
       selectedOption?: string | null;
       selectedOptions?: string[];
       status: string;
@@ -50,6 +51,7 @@ export default async function ExamPage({
             : [];
       return {
         id: String(q._id),
+        questionKey: a.questionKey || q.questionKey,
         number: q.number,
         subject: q.subject,
         section: q.section,
@@ -77,6 +79,7 @@ export default async function ExamPage({
       return a!.number - b!.number;
     }) as Array<{
     id: string;
+    questionKey: string;
     number: number;
     subject: string;
     section: string;

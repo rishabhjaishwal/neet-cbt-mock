@@ -8,10 +8,13 @@ import { parseOptionList } from "@/lib/multi-correct";
 import { validateAttemptAnswerUpdates } from "@/lib/server-attempt-limits";
 
 const schema = z.object({
-  questionId: z.string().min(1),
+  questionId: z.string().min(1).optional(),
+  questionKey: z.string().min(1).optional(),
   selectedOption: z.enum(["1", "2", "3", "4"]).nullable().optional(),
   selectedOptions: z.array(z.enum(["1", "2", "3", "4"])).optional(),
   status: z.enum(["not_attempted", "attempted", "marked"]),
+}).refine((v) => Boolean(v.questionId || v.questionKey), {
+  message: "questionId or questionKey required",
 });
 
 type Params = { params: Promise<{ id: string }> };
@@ -57,23 +60,28 @@ export async function POST(req: Request, { params }: Params) {
   }
 
   const ans = attempt.answers.find(
-    (a: { questionId: unknown }) => String(a.questionId) === body.questionId,
+    (a: { questionId: unknown; questionKey?: string }) =>
+      (body.questionId && String(a.questionId) === body.questionId) ||
+      (body.questionKey && a.questionKey === body.questionKey),
   );
   if (!ans) {
     return NextResponse.json({ error: "Question not in attempt" }, { status: 404 });
   }
 
+  const resolvedId = String(ans.questionId);
   const gate = await validateAttemptAnswerUpdates({
     year: attempt.year,
     existingAnswers: attempt.answers as Array<{
       questionId: unknown;
+      questionKey?: string;
       selectedOption?: string | null;
       selectedOptions?: string[];
       status: string;
     }>,
     incoming: [
       {
-        questionId: body.questionId,
+        questionId: resolvedId,
+        questionKey: ans.questionKey || body.questionKey,
         selectedOption: selectedOptions[0] ?? null,
         selectedOptions,
         status,
@@ -87,6 +95,7 @@ export async function POST(req: Request, { params }: Params) {
   ans.selectedOptions = selectedOptions;
   ans.selectedOption = selectedOptions[0] ?? null;
   ans.status = status;
+  attempt.markModified("answers");
   attempt.checkpointAt = new Date();
   await attempt.save();
   const endsAt = new Date(attempt.endsAt);

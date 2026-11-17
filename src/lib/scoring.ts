@@ -104,8 +104,11 @@ export function scoreAttempt(
     const t = topicMap.get(key)!;
     const multi = isMultiCorrectQuestion(a);
     const correct = resolveCorrectOptions(a);
+    // Prefer concrete selections over a stale not_attempted status so a
+    // checkpoint/status race cannot zero out answered questions.
+    const picked = selectedFor(a);
     const selected =
-      a.status === "not_attempted" ? [] : selectedFor(a);
+      a.status === "not_attempted" && picked.length === 0 ? [] : picked;
 
     const { marks, outcome } = scoreSelection(selected, correct, multi);
     score += marks;

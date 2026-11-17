@@ -88,6 +88,7 @@ export async function POST(req: Request) {
         questionId: new Types.ObjectId(q.id),
         questionKey: q.questionKey,
         selectedOption: null,
+        selectedOptions: [],
         status: "not_attempted",
       })),
     });
