@@ -5,6 +5,7 @@ import { getSession } from "@/lib/auth";
 import { ensureSeeded } from "@/lib/seed";
 import { Attempt } from "@/lib/models";
 import { getPaper, getQuestionsForStudent } from "@/lib/papers";
+import { finalizeInProgressAttempt } from "@/lib/finalize-attempt";
 
 const schema = z.object({
   year: z.number().int().min(2016).max(2025),
@@ -26,18 +27,24 @@ export async function POST(req: Request) {
     }
 
     const userId = new Types.ObjectId(user.id);
-    const inProgress = await Attempt.findOne({ userId, year, status: "in_progress" }).lean();
+    const inProgress = await Attempt.findOne({ userId, year, status: "in_progress" });
     if (inProgress) {
       const endsAt = new Date(inProgress.endsAt);
-      return NextResponse.json({
-        attemptId: String(inProgress._id),
-        resumed: true,
-        endsAt: endsAt.toISOString(),
-        remainingMs: Math.max(0, endsAt.getTime() - Date.now()),
-        currentQuestionIndex: inProgress.currentQuestionIndex ?? 0,
-        screenSwitchCount: inProgress.screenSwitchCount ?? 0,
-        attemptNumber: inProgress.attemptNumber ?? 1,
-      });
+      const remainingMs = endsAt.getTime() - Date.now();
+      if (remainingMs <= 0) {
+        // Timer already elapsed — lock + score so the student is not stuck forever.
+        await finalizeInProgressAttempt(String(inProgress._id));
+      } else {
+        return NextResponse.json({
+          attemptId: String(inProgress._id),
+          resumed: true,
+          endsAt: endsAt.toISOString(),
+          remainingMs: Math.max(0, remainingMs),
+          currentQuestionIndex: inProgress.currentQuestionIndex ?? 0,
+          screenSwitchCount: inProgress.screenSwitchCount ?? 0,
+          attemptNumber: inProgress.attemptNumber ?? 1,
+        });
+      }
     }
 
     const prior = await Attempt.find({ userId, year }).sort({ attemptNumber: -1 }).limit(1).lean();

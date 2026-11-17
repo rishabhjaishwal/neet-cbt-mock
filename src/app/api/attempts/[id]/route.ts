@@ -31,9 +31,36 @@ export async function GET(_req: Request, { params }: Params) {
   const revealKeys = user.role === "examiner" || attempt.status === "approved";
 
   const merged = attempt.answers
-    .map((a: { questionId: unknown; selectedOption?: string | null; status: string }) => {
-      const q = byId[String(a.questionId)];
+    .map(
+      (a: {
+        questionId: unknown;
+        selectedOption?: string | null;
+        selectedOptions?: string[];
+        status: string;
+      }) => {
+      const q = byId[String(a.questionId)] as
+        | {
+            _id: unknown;
+            number: number;
+            subject: string;
+            section: string;
+            topic: string;
+            stem: string;
+            options: Record<string, string>;
+            correctOption?: string;
+            correctOptions?: string[];
+            multiCorrect?: boolean;
+            figureSrc?: string | null;
+            figureKind?: string | null;
+          }
+        | undefined;
       if (!q) return null;
+      const selectedOptions =
+        Array.isArray(a.selectedOptions) && a.selectedOptions.length > 0
+          ? [...a.selectedOptions]
+          : a.selectedOption
+            ? [a.selectedOption]
+            : [];
       return {
         id: String(q._id),
         number: q.number,
@@ -42,10 +69,12 @@ export async function GET(_req: Request, { params }: Params) {
         topic: q.topic,
         stem: q.stem,
         options: q.options as Record<string, string>,
-        selectedOption: a.selectedOption,
+        selectedOption: selectedOptions[0] ?? null,
+        selectedOptions,
         status: a.status,
-        figureSrc: (q as { figureSrc?: string | null }).figureSrc ?? null,
-        figureKind: (q as { figureKind?: string | null }).figureKind ?? null,
+        multiCorrect: Boolean(q.multiCorrect),
+        figureSrc: q.figureSrc ?? null,
+        figureKind: q.figureKind ?? null,
         needsFigure:
           /see figure|as shown in (the )?figure|shown in (the )?figure|following diagram|given figure|in the figure|as shown in figure|shown in figure|given figures|above diagram|following circuit|circuit (diagram )?shown/i.test(
             q.stem,
@@ -53,14 +82,22 @@ export async function GET(_req: Request, { params }: Params) {
         ...(revealKeys
           ? {
               correctOption: q.correctOption,
+              correctOptions: q.correctOptions ?? undefined,
               isCorrect:
-                a.selectedOption != null &&
-                a.selectedOption !== "" &&
-                a.selectedOption === q.correctOption,
+                selectedOptions.length > 0 &&
+                [...selectedOptions].sort().join(",") ===
+                  (Array.isArray(q.correctOptions) && q.correctOptions.length
+                    ? [...q.correctOptions].sort().join(",")
+                    : String(q.correctOption || "")
+                        .split(/[,/\s]+/)
+                        .filter(Boolean)
+                        .sort()
+                        .join(",")),
             }
           : {}),
       };
-    })
+    },
+    )
     .filter(Boolean)
     .sort((a: { number?: number } | null, b: { number?: number } | null) => (a!.number as number) - (b!.number as number));
 

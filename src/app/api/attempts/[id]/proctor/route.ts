@@ -26,7 +26,15 @@ export async function POST(req: Request, { params }: Params) {
   if (!Types.ObjectId.isValid(id)) {
     return NextResponse.json({ error: "Not found" }, { status: 404 });
   }
-  const body = schema.parse(await req.json());
+  let body: z.infer<typeof schema>;
+  try {
+    body = schema.parse(await req.json());
+  } catch {
+    return NextResponse.json(
+      { error: "Invalid proctor payload; expected { reason }" },
+      { status: 400 },
+    );
+  }
 
   const attempt = await Attempt.findById(id);
   if (!attempt || String(attempt.userId) !== user.id) {
