@@ -240,7 +240,15 @@ export default async function TopicResultsPage({
         {attempt.subject} · {attempt.topic}
       </h1>
       <p className="mt-1 text-sm text-slate-600">
-        {attempt.difficulty} mock
+        {attempt.difficulty}
+        {typeof attempt.sequenceLabel === "string" && attempt.sequenceLabel
+          ? ` · ${attempt.sequenceLabel}`
+          : " mock"}
+        {typeof attempt.sequenceFrom === "number" &&
+        typeof attempt.sequenceTo === "number"
+          ? ` · bank Q${attempt.sequenceFrom}–${attempt.sequenceTo}`
+          : ""}
+        {" · "}30 Q · ~36 min
       </p>
 
       <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
