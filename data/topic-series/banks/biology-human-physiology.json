@@ -42,7 +42,7 @@
         "subject": "Biology",
         "topic": "Human Physiology",
         "difficulty": "Easy",
-        "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Glycosuria i. Accumulation of uric acid in joints b. Gout ii. Mass of crystallised salts within the kidney c. Renal calculi iii. Inflammation in glomeruli d. Glomerular iv. Presence of glucose in nephritis urine a b c d",
+        "stem": "Match the items given in Column I with those in Column II and select the correct option given below: Column I Column II a. Glycosuria i. Accumulation of uric acid in joints b. Gout ii. Mass of crystallised salts within the kidney c. Renal calculi iii. Inflammation in glomeruli d. Glomerular nephritis iv. Presence of glucose in urine",
         "options": {
           "1": "iii ii iv i",
           "2": "i ii iii iv",
@@ -59,7 +59,7 @@
         "answerEstimated": true,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Glycosuria i. Accumulation of uric acid in joints b. Gout ii. Mass of crystallised salts within the kidney c. Renal calculi iii. Inflammation in glomeruli d. Glomerular iv. Presence of glucose …\n\n**Concept.** Stay faithful to NCERT wording for “Human Physiology”.\n\n**Work.** State the governing fact for “Human Physiology” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(4) iv i ii iii** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) iii ii iv i · (2) i ii iii iv · (3) ii iii i iv — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** Match Column I disorders with Column II descriptions.\n\n**Concept.** NCERT Class XI *Excretory Products and their Elimination*: glycosuria = glucose in urine; gout = uric acid in joints; renal calculi = crystallised salts in kidney; glomerular nephritis = inflammation of glomeruli.\n\n**Work.** Map each left item to its defining description, then read the a–b–c–d code.\n\n**Lock.** Correct matching is **a → iv, b → i, c → ii, d → iii** — option **(4) iv i ii iii**.\n\n**Eliminate.** Any code that sends Glycosuria to uric-acid/joints or Gout to glucose-in-urine conflicts with NCERT definitions."
       },
       {
         "id": "2019-G1-Q10",
@@ -8881,24 +8881,24 @@
         "subject": "Biology",
         "topic": "Human Physiology",
         "difficulty": "Hard",
-        "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Glycosuria i. Accumulation of uric acid in joints b. Gout ii. Mass of crystallised salts within the kidney c. Renal calculi iii. Inflammation in glomeruli d. Glomerular iv. Presence of glucose in nephritis urine a b c d",
+        "stem": "Match the items given in Column I with those in Column II and select the correct option given below: Column I Column II a. Glycosuria i. Accumulation of uric acid in joints b. Gout ii. Mass of crystallised salts within the kidney c. Renal calculi iii. Inflammation in glomeruli d. Glomerular nephritis iv. Presence of glucose in urine",
         "options": {
           "1": "iv i ii iii",
           "2": "ii iii i iv",
           "3": "i ii iii iv",
           "4": "iii ii iv i"
         },
-        "correctOption": "3",
+        "correctOption": "1",
         "correctOptions": [
-          "3"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
-        "answerEstimated": true,
+        "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Glycosuria i. Accumulation of uric acid in joints b. Gout ii. Mass of crystallised salts within the kidney c. Renal calculi iii. Inflammation in glomeruli d. Glomerular iv. Presence of glucose …\n\n**Concept.** Stay faithful to NCERT wording for “Human Physiology”.\n\n**Work.** State the governing fact for “Human Physiology” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(3) i ii iii iv** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) iv i ii iii · (2) ii iii i iv · (4) iii ii iv i — each conflicts with the governing idea (wrong definition, process, or algebra).\n\n_Key confidence: not yet multi-source locked — verify against official NTA / coaching solutions._"
+        "solution": "**Identify.** Match Column I disorders with Column II descriptions.\n\n**Concept.** NCERT Class XI *Excretory Products and their Elimination*: glycosuria = glucose in urine; gout = uric acid in joints; renal calculi = crystallised salts in kidney; glomerular nephritis = inflammation of glomeruli.\n\n**Work.** Map each left item to its defining description, then read the a–b–c–d code.\n\n**Lock.** Correct matching is **a → iv, b → i, c → ii, d → iii** — option **(1) iv i ii iii**.\n\n**Eliminate.** Any code that sends Glycosuria to uric-acid/joints or Gout to glucose-in-urine conflicts with NCERT definitions."
       },
       {
         "id": "2020-E1-Q70",

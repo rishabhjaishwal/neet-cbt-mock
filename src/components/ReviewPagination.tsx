@@ -61,8 +61,8 @@ export function ReviewPagination({
   ];
 
   return (
-    <div className="space-y-3">
-      <div className="flex flex-wrap gap-2" aria-label="Filter by subject">
+    <div className="desk-card space-y-3 rounded-xl p-4">
+      <div className="desk-nav" aria-label="Filter by subject">
         {subjects.map((s) => {
           const n = subjectCounts[s] ?? 0;
           if (s !== "ALL" && n === 0) return null;
@@ -71,19 +71,19 @@ export function ReviewPagination({
             <InstantLink
               key={s}
               href={hrefFor(basePath, query, { subject: s })}
-              className={`cbt-btn cbt-btn-sm ${
-                active ? "cbt-btn-primary" : "cbt-btn-secondary"
+              className={`desk-nav-link ${
+                active ? "desk-nav-link--active" : ""
               }`}
               showPending={false}
             >
               {s === "ALL" ? "All subjects" : s}
-              <span className="ml-1 opacity-70">({n})</span>
+              <span className="opacity-70">({n})</span>
             </InstantLink>
           );
         })}
       </div>
 
-      <div className="flex flex-wrap gap-2" aria-label="Filter by outcome">
+      <div className="desk-nav" aria-label="Filter by outcome">
         {outcomes.map((o) => {
           const n = outcomeCounts[o] ?? 0;
           if (o !== "ALL" && n === 0) return null;
@@ -98,13 +98,13 @@ export function ReviewPagination({
             <InstantLink
               key={o}
               href={hrefFor(basePath, query, { outcome: o })}
-              className={`cbt-btn cbt-btn-sm ${
-                active ? "cbt-btn-primary" : "cbt-btn-muted"
+              className={`desk-nav-link ${
+                active ? "desk-nav-link--active" : ""
               }`}
               showPending={false}
             >
               {label}
-              <span className="ml-1 opacity-70">({n})</span>
+              <span className="opacity-70">({n})</span>
             </InstantLink>
           );
         })}
@@ -117,12 +117,12 @@ export function ReviewPagination({
           {totalPages > 1 ? ` · page ${query.page}/${totalPages}` : ""}
         </p>
         {totalPages > 1 ? (
-          <div className="flex flex-wrap items-center gap-2">
+          <div className="desk-nav">
             <InstantLink
               href={hrefFor(basePath, query, {
                 page: Math.max(1, query.page - 1),
               })}
-              className={`cbt-btn cbt-btn-sm cbt-btn-secondary ${
+              className={`desk-nav-link ${
                 query.page <= 1 ? "pointer-events-none opacity-40" : ""
               }`}
               aria-disabled={query.page <= 1}
@@ -150,8 +150,8 @@ export function ReviewPagination({
                   <InstantLink
                     key={p}
                     href={hrefFor(basePath, query, { page: p })}
-                    className={`cbt-btn cbt-btn-sm ${
-                      p === query.page ? "cbt-btn-primary" : "cbt-btn-secondary"
+                    className={`desk-nav-link ${
+                      p === query.page ? "desk-nav-link--active" : ""
                     }`}
                     showPending={false}
                   >
@@ -163,7 +163,7 @@ export function ReviewPagination({
               href={hrefFor(basePath, query, {
                 page: Math.min(totalPages, query.page + 1),
               })}
-              className={`cbt-btn cbt-btn-sm cbt-btn-secondary ${
+              className={`desk-nav-link ${
                 query.page >= totalPages ? "pointer-events-none opacity-40" : ""
               }`}
               aria-disabled={query.page >= totalPages}

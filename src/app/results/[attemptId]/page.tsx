@@ -12,6 +12,7 @@ import { ReviewPagination } from "@/components/ReviewPagination";
 import { getPaperQuestionMap } from "@/lib/paper-content";
 import { getMdQuestionsByKeys } from "@/lib/md-paper-store";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { DeskShell } from "@/components/DeskShell";
 import { SectionBCapSummary } from "@/components/SectionBCapSummary";
 import { buildAttemptLimitInfo, type RuleQuestion } from "@/lib/attempt-rules";
 import {
@@ -212,20 +213,18 @@ export default async function ResultsPage({
   );
 
   return (
-    <main className="mx-auto max-w-4xl px-3 py-6 sm:px-4 sm:py-8">
+    <DeskShell innerClassName="max-w-4xl">
       <div className="flex flex-wrap items-center justify-between gap-2">
         <InstantLink
           href={user.role === "examiner" ? "/examiner" : "/dashboard"}
-          className="text-sm font-semibold text-[var(--cbt-accent)]"
+          className="text-sm font-semibold text-[var(--ink-blue,#1e4d7b)]"
         >
           ← Back
         </InstantLink>
         <ThemeToggle />
       </div>
-      <h1 className="mt-3 font-[family-name:var(--font-display)] text-3xl font-bold text-[var(--header)]">
-        Results — NEET {attempt.year}
-      </h1>
-      <p className="text-slate-600">
+      <h1 className="desk-title mt-3">Results — NEET {attempt.year}</h1>
+      <p className="desk-kicker">
         {paper?.title}
         {attempt.attemptNumber ? ` · Attempt #${attempt.attemptNumber}` : ""}
       </p>
@@ -241,9 +240,11 @@ export default async function ResultsPage({
           ["Candidates", paper?.candidate_count.toLocaleString() ?? "—"],
           ["Marking", "+4 / −1 / 0 (+partial multi)"],
         ].map(([k, v]) => (
-          <div key={k} className="rounded-xl border border-slate-200 bg-white p-4">
+          <div key={k} className="desk-card desk-card--pad rounded-xl">
             <div className="text-xs uppercase tracking-wide text-slate-500">{k}</div>
-            <div className="mt-1 text-2xl font-semibold">{v}</div>
+            <div className="mt-1 text-2xl font-semibold text-[var(--graphite,#243041)]">
+              {v}
+            </div>
           </div>
         ))}
       </div>
@@ -259,8 +260,8 @@ export default async function ResultsPage({
 
       <SectionBCapSummary caps={sectionBCaps} />
 
-      <section className="mt-8 rounded-xl border border-slate-200 bg-white p-5">
-        <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold">
+      <section className="desk-card mt-8 rounded-xl p-5">
+        <h2 className="desk-section-title">
           Rank realism vs {attempt.year} candidature
         </h2>
         <p className="mt-1 text-sm text-slate-600">
@@ -297,10 +298,8 @@ export default async function ResultsPage({
       </section>
 
       {peerHistory.length > 1 && (
-        <section className="mt-6 rounded-xl border border-slate-200 bg-white p-5">
-          <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold">
-            Your attempt history
-          </h2>
+        <section className="desk-card mt-6 rounded-xl p-5">
+          <h2 className="desk-section-title">Your attempt history</h2>
           <ul className="mt-2 space-y-1 text-sm">
             {peerHistory.map((a) => (
               <li key={String(a._id)}>
@@ -315,10 +314,8 @@ export default async function ResultsPage({
         </section>
       )}
 
-      <section className="mt-6 rounded-xl border border-slate-200 bg-white p-5">
-        <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold">
-          What to improve
-        </h2>
+      <section className="desk-card mt-6 rounded-xl p-5">
+        <h2 className="desk-section-title">What to improve</h2>
         <ul className="mt-2 list-disc space-y-1 pl-5 text-sm">
           {(topicBundle.improvements ?? []).map((t) => (
             <li key={t}>{t}</li>
@@ -332,12 +329,12 @@ export default async function ResultsPage({
         <p className="mt-6 text-sm">
           <InstantLink
             href={`/examiner/attempts/${String(attempt._id)}`}
-            className="font-semibold text-[var(--cbt-accent)]"
+            className="font-semibold text-[var(--ink-blue,#1e4d7b)]"
           >
             Open examiner review (per-question)
           </InstantLink>
         </p>
       )}
-    </main>
+    </DeskShell>
   );
 }

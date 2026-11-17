@@ -14,6 +14,7 @@ import { QuestionReviewList, type ReviewItem } from "@/components/QuestionReview
 import { ResultsMetrics } from "@/components/ResultsMetrics";
 import { InstantLink } from "@/components/InstantLink";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { DeskShell } from "@/components/DeskShell";
 import { ReviewPagination } from "@/components/ReviewPagination";
 import {
   parseReviewQuery,
@@ -231,19 +232,19 @@ export default async function TopicResultsPage({
   );
 
   return (
-    <main className="mx-auto max-w-5xl px-3 py-6 sm:px-4 sm:py-8">
+    <DeskShell innerClassName="max-w-5xl">
       <div className="flex flex-wrap items-center justify-between gap-2">
-        <p className="text-sm font-semibold text-[var(--cbt-accent)]">
+        <p className="text-sm font-semibold text-[var(--ink-blue,#1e4d7b)]">
           <InstantLink href="/topic-series" className="hover:underline">
             ← Topic series
           </InstantLink>
         </p>
         <ThemeToggle />
       </div>
-      <h1 className="mt-2 font-[family-name:var(--font-display)] text-3xl font-semibold">
+      <h1 className="desk-title mt-2">
         {attempt.subject} · {attempt.topic}
       </h1>
-      <p className="mt-1 text-sm text-slate-600">
+      <p className="desk-kicker">
         {attempt.difficulty}
         {typeof attempt.sequenceLabel === "string" && attempt.sequenceLabel
           ? ` · ${attempt.sequenceLabel}`
@@ -262,18 +263,18 @@ export default async function TopicResultsPage({
           ["Wrong", String(attempt.wrongCount ?? "—")],
           ["Unattempted", String(attempt.unattemptedCount ?? "—")],
         ].map(([k, v]) => (
-          <div key={k} className="rounded-xl border border-slate-200 bg-white p-4">
+          <div key={k} className="desk-card desk-card--pad rounded-xl">
             <div className="text-xs uppercase tracking-wide text-slate-500">{k}</div>
-            <div className="mt-1 text-2xl font-semibold">{v}</div>
+            <div className="mt-1 text-2xl font-semibold text-[var(--graphite,#243041)]">
+              {v}
+            </div>
           </div>
         ))}
       </div>
 
       {(topicBundle.improvements?.length || 0) > 0 && (
-        <section className="mt-6 rounded-xl border border-slate-200 bg-white p-5">
-          <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold">
-            Improvements
-          </h2>
+        <section className="desk-card mt-6 rounded-xl p-5">
+          <h2 className="desk-section-title">Improvements</h2>
           <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-slate-700">
             {topicBundle.improvements!.map((line) => (
               <li key={line}>{line}</li>
@@ -292,6 +293,6 @@ export default async function TopicResultsPage({
       </div>
 
       <QuestionReviewList items={reviewItems} toolbar={pager} footer={pager} />
-    </main>
+    </DeskShell>
   );
 }

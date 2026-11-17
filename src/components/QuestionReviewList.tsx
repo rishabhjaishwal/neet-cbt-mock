@@ -26,10 +26,10 @@ export type ReviewItem = {
 };
 
 const outcomeStyle: Record<Outcome, string> = {
-  correct: "border-emerald-300 bg-emerald-50/50",
-  partial: "border-amber-300 bg-amber-50/50",
-  wrong: "border-rose-300 bg-rose-50/40",
-  unattempted: "border-slate-200 bg-slate-50",
+  correct: "review-card--correct",
+  partial: "review-card--partial",
+  wrong: "review-card--wrong",
+  unattempted: "review-card--unattempted",
 };
 
 const linkKindLabel: Record<string, string> = {
@@ -57,12 +57,14 @@ function renderMarkdownish(text: string) {
 }
 
 const ReviewCard = memo(function ReviewCard({ q }: { q: ReviewItem }) {
+  const openSolution = q.outcome === "wrong" || q.outcome === "partial";
+
   return (
     <article
-      className={`review-card rounded-xl border p-4 ${outcomeStyle[q.outcome]}`}
+      className={`desk-card review-card rounded-xl border p-4 ${outcomeStyle[q.outcome]}`}
     >
       <div className="flex flex-wrap items-baseline justify-between gap-2">
-        <h3 className="font-semibold">
+        <h3 className="font-semibold text-[var(--graphite,#243041)]">
           Q{q.number}.{" "}
           <span className="text-sm font-medium text-slate-500">
             {q.subject} · Sec {q.section} · {q.topic}
@@ -89,11 +91,11 @@ const ReviewCard = memo(function ReviewCard({ q }: { q: ReviewItem }) {
 
       <div className="mt-3 grid gap-2 text-sm sm:grid-cols-2">
         <div>
-          <div className="text-xs uppercase text-slate-500">Your answer</div>
+          <div className="text-xs uppercase tracking-wide text-slate-500">Your answer</div>
           <div className="font-medium">{formatOptions(q.selected)}</div>
         </div>
         <div>
-          <div className="text-xs uppercase text-slate-500">Correct answer</div>
+          <div className="text-xs uppercase tracking-wide text-slate-500">Correct answer</div>
           <div className="font-medium text-emerald-800">{formatOptions(q.correct)}</div>
         </div>
       </div>
@@ -105,12 +107,12 @@ const ReviewCard = memo(function ReviewCard({ q }: { q: ReviewItem }) {
           return (
             <div
               key={opt}
-              className={`rounded border px-3 py-2 text-sm ${
+              className={`rounded-lg border px-3 py-2 text-sm ${
                 isCorrect
                   ? "border-emerald-400 bg-emerald-50"
                   : isSelected
                     ? "border-rose-300 bg-rose-50"
-                    : "border-slate-200 bg-white"
+                    : "border-slate-200 bg-white/90"
               }`}
             >
               <strong className="mr-2">({opt})</strong>
@@ -125,10 +127,13 @@ const ReviewCard = memo(function ReviewCard({ q }: { q: ReviewItem }) {
         })}
       </div>
 
-      <details className="mt-4 rounded-lg border border-slate-200 bg-white/80 open:border-sky-200">
+      <details
+        className="mt-4 rounded-lg border border-slate-200 bg-white/80 open:border-[rgba(30,77,123,0.28)]"
+        open={openSolution}
+      >
         <summary className="cursor-pointer list-none px-3 py-2 text-sm font-semibold text-slate-800">
           {q.learning.title}
-          <span className="ml-2 rounded-full bg-slate-100 px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-slate-600">
+          <span className="ml-2 rounded-full bg-[rgba(30,77,123,0.08)] px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-[var(--ink-blue,#1e4d7b)]">
             {q.learning.concept}
           </span>
         </summary>
@@ -150,8 +155,8 @@ const ReviewCard = memo(function ReviewCard({ q }: { q: ReviewItem }) {
             </div>
           ) : null}
 
-          <div className="mt-3 rounded-md border border-sky-200 bg-sky-50/40 px-3 py-2">
-            <div className="text-[11px] font-bold uppercase tracking-wide text-sky-900">
+          <div className="mt-3 rounded-md border border-[rgba(30,77,123,0.2)] bg-[rgba(30,77,123,0.04)] px-3 py-2">
+            <div className="text-[11px] font-bold uppercase tracking-wide text-[var(--ink-blue,#1e4d7b)]">
               AI NEET-style solution
             </div>
             <div className="mt-1 space-y-2">
@@ -204,19 +209,17 @@ export function QuestionReviewList({
   return (
     <section id="review" className="mt-8 scroll-mt-6 space-y-4">
       <div>
-        <h2 className="font-[family-name:var(--font-display)] text-xl font-semibold">
-          Question review & solutions
-        </h2>
-        <p className="text-sm text-slate-600">
-          Paginated on the server — only this page of AI / curated solutions is loaded.
-          Open a card&apos;s solution when you need it (keeps first paint light).
+        <h2 className="desk-section-title text-xl">Question review & solutions</h2>
+        <p className="desk-kicker">
+          Wrong answers open the solution immediately. Match-list stems render as
+          clear Column I / Column II tables so you can map options without re-reading.
         </p>
       </div>
 
       {toolbar}
 
       {items.length === 0 ? (
-        <p className="rounded-xl border border-dashed border-slate-200 bg-white px-4 py-8 text-center text-sm text-slate-600">
+        <p className="desk-card rounded-xl border border-dashed px-4 py-8 text-center text-sm text-slate-600">
           No questions match this filter.
         </p>
       ) : (
