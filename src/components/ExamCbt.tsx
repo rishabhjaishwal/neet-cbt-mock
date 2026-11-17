@@ -59,8 +59,10 @@ type Props = {
   questions: Q[];
   attemptLimit?: number;
   totalQuestions?: number;
-  /** Public URL for year booklet PDF (`/papers/neet-YYYY.pdf`). */
+  /** Public CDN URL for year booklet PDF (not hosted here). */
   paperPdfUrl?: string | null;
+  /** PDF.js (or similar) embed URL for the iframe. */
+  paperPdfEmbedUrl?: string | null;
   durationMinutes?: number;
   initialScreenSwitchCount?: number;
   initialQuestionIndex?: number;
@@ -136,6 +138,7 @@ export function ExamCbt({
   attemptLimit = 180,
   totalQuestions = 180,
   paperPdfUrl = null,
+  paperPdfEmbedUrl = null,
   durationMinutes: durationMinutesProp,
   initialScreenSwitchCount = 0,
   initialQuestionIndex = 0,
@@ -1075,6 +1078,7 @@ export function ExamCbt({
         <ExamPdfPaperPanel
           year={year}
           pdfUrl={paperPdfUrl}
+          embedUrl={paperPdfEmbedUrl}
           title={title}
           closeLabel={i18n.viewPaperClose}
           onClose={() => setShowPdfPaper(false)}

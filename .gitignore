@@ -57,3 +57,6 @@ __pycache__/
 # large external extracts
 data/raw/external/
 data/raw/pdfs/external/
+
+# never host year booklets on Vercel
+public/papers/
