@@ -166,11 +166,11 @@ function buildAiSolution(input: LearningInput): { concept: string; aiSolution: s
   if (correctCodes.length) {
     if (input.multiCorrect) {
       lines.push(
-        `**Step 5 — Lock the set.** Required correct option(s): ${correctText || correctCodes.map((c) => `(${c})`).join(", ")}. For multi-correct NEET items, the full correct set must match; an extra wrong choice typically costs −1.`,
+        `**Step 5 — Lock the set.** Required correct option(s): ${correctText || correctCodes.map((c) => `(${c})`).join(", ")}. Match by option wording (not a remembered letter) — booklet option order can differ across codes.`,
       );
     } else {
       lines.push(
-        `**Step 5 — Lock the answer.** Correct choice: ${correctText || `(${correctCodes[0]})`}. Re-read the stem once to confirm the option matches the concept — not just a familiar letter.`,
+        `**Step 5 — Lock the answer.** Correct choice by content: ${correctText || `(${correctCodes[0]})`}. Confirm the option text matches the governing fact/calculation — never lock a letter from a different booklet’s order.`,
       );
     }
   } else {
