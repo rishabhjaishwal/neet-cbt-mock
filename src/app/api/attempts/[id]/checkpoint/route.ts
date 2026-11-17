@@ -5,6 +5,7 @@ import { getSession } from "@/lib/auth";
 import { ensureSeeded } from "@/lib/seed";
 import { Attempt } from "@/lib/models";
 import { parseOptionList } from "@/lib/multi-correct";
+import { validateAttemptAnswerUpdates } from "@/lib/server-attempt-limits";
 
 const answerSchema = z.object({
   questionId: z.string().min(1),
@@ -57,32 +58,58 @@ export async function POST(req: Request, { params }: Params) {
     attempt.answers.forEach((a: { questionId: unknown }, i: number) => {
       byId.set(String(a.questionId), i);
     });
-    for (const item of body.answers) {
+
+    const normalizedIncoming = body.answers
+      .filter((item) => byId.has(item.questionId))
+      .map((item) => {
+        let status = item.status;
+        let selectedOptions = parseOptionList(
+          item.selectedOptions?.length
+            ? item.selectedOptions
+            : item.selectedOption
+              ? [item.selectedOption]
+              : [],
+        );
+        if (status === "not_attempted") {
+          selectedOptions = [];
+        } else if (selectedOptions.length) {
+          if (status !== "marked") status = "attempted";
+        } else if (status === "marked") {
+          selectedOptions = [];
+        }
+        return {
+          questionId: item.questionId,
+          selectedOption: selectedOptions[0] ?? null,
+          selectedOptions,
+          status,
+        };
+      });
+
+    const gate = await validateAttemptAnswerUpdates({
+      year: attempt.year,
+      existingAnswers: attempt.answers as Array<{
+        questionId: unknown;
+        selectedOption?: string | null;
+        selectedOptions?: string[];
+        status: string;
+      }>,
+      incoming: normalizedIncoming,
+    });
+    if (!gate.ok) {
+      return NextResponse.json({ error: gate.error }, { status: 409 });
+    }
+
+    for (const item of normalizedIncoming) {
       const idx = byId.get(item.questionId);
       if (idx === undefined) continue;
-      let status = item.status;
-      let selectedOptions = parseOptionList(
-        item.selectedOptions?.length
-          ? item.selectedOptions
-          : item.selectedOption
-            ? [item.selectedOption]
-            : [],
-      );
-      if (status === "not_attempted") {
-        selectedOptions = [];
-      } else if (selectedOptions.length) {
-        if (status !== "marked") status = "attempted";
-      } else if (status === "marked") {
-        selectedOptions = [];
-      }
       const row = attempt.answers[idx] as {
         selectedOption: string | null;
         selectedOptions?: string[];
         status: string;
       };
-      row.selectedOptions = selectedOptions;
-      row.selectedOption = selectedOptions[0] ?? null;
-      row.status = status;
+      row.selectedOptions = item.selectedOptions;
+      row.selectedOption = item.selectedOption;
+      row.status = item.status;
     }
   }
 

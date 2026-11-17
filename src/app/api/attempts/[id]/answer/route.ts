@@ -5,6 +5,7 @@ import { getSession } from "@/lib/auth";
 import { ensureSeeded } from "@/lib/seed";
 import { Attempt } from "@/lib/models";
 import { parseOptionList } from "@/lib/multi-correct";
+import { validateAttemptAnswerUpdates } from "@/lib/server-attempt-limits";
 
 const schema = z.object({
   questionId: z.string().min(1),
@@ -61,6 +62,28 @@ export async function POST(req: Request, { params }: Params) {
   if (!ans) {
     return NextResponse.json({ error: "Question not in attempt" }, { status: 404 });
   }
+
+  const gate = await validateAttemptAnswerUpdates({
+    year: attempt.year,
+    existingAnswers: attempt.answers as Array<{
+      questionId: unknown;
+      selectedOption?: string | null;
+      selectedOptions?: string[];
+      status: string;
+    }>,
+    incoming: [
+      {
+        questionId: body.questionId,
+        selectedOption: selectedOptions[0] ?? null,
+        selectedOptions,
+        status,
+      },
+    ],
+  });
+  if (!gate.ok) {
+    return NextResponse.json({ error: gate.error }, { status: 409 });
+  }
+
   ans.selectedOptions = selectedOptions;
   ans.selectedOption = selectedOptions[0] ?? null;
   ans.status = status;

@@ -4,6 +4,11 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { QuestionOptionMarkdown, QuestionStemMarkdown } from "@/components/QuestionMarkdown";
 import { QuestionFigure } from "@/components/QuestionFigure";
+import {
+  ExamInstructionsPanel,
+  ExamQuestionPaperPanel,
+  ExamSubmitSummaryPanel,
+} from "@/components/ExamParityPanels";
 import { buildAttemptLimitInfo, paletteStatus } from "@/lib/attempt-rules";
 import { t, type Lang } from "@/lib/i18n";
 
@@ -169,6 +174,14 @@ export function ExamCbt({
   const [markFilter, setMarkFilter] = useState<MarkFilter>("ALL");
   const [msg, setMsg] = useState("");
   const [examStarted, setExamStarted] = useState(false);
+  const [instructionsOpen, setInstructionsOpen] = useState(false);
+  const [instructionsAck, setInstructionsAck] = useState(false);
+  const [instructionsRequired, setInstructionsRequired] = useState(true);
+  const [showQuestionPaper, setShowQuestionPaper] = useState(false);
+  const [showSubmitSummary, setShowSubmitSummary] = useState(false);
+  const [paletteCollapsed, setPaletteCollapsed] = useState(false);
+  const [fontScale, setFontScale] = useState(1);
+  const [timerWarn, setTimerWarn] = useState<null | "15" | "5" | "1">(null);
   const [showLockPopup, setShowLockPopup] = useState(false);
   const [popupReason, setPopupReason] = useState("");
   const [switchCount, setSwitchCount] = useState(initialScreenSwitchCount);
@@ -176,6 +189,12 @@ export function ExamCbt({
   const [syncState, setSyncState] = useState<"idle" | "syncing" | "saved" | "error">("idle");
   const [checkpointAt, setCheckpointAt] = useState<string | null>(initialCheckpointAt);
   const [pendingCount, setPendingCount] = useState(0);
+  const timerWarnSeen = useRef<Set<string>>(new Set());
+  const updateCurrentRef = useRef<(patch: Partial<Q>) => void>(() => {});
+  const goToIndexRef = useRef<(i: number) => void>(() => {});
+  const paletteIndexesRef = useRef<number[]>([]);
+  const indexForKeysRef = useRef(index);
+  const modalOpenRef = useRef(false);
 
   const cooldownRef = useRef(0);
   const recordingRef = useRef(false);
@@ -453,6 +472,9 @@ export function ExamCbt({
       if (shellRef.current) await enterFullscreen(shellRef.current);
       setExamStarted(true);
       setShowLockPopup(false);
+      setInstructionsRequired(true);
+      setInstructionsAck(false);
+      setInstructionsOpen(true);
       void flushCheckpoint({ force: true });
     } catch {
       setMsg("Could not enter full screen. Allow full screen and try again.");
@@ -470,15 +492,23 @@ export function ExamCbt({
 
   // Timer from server endsAt only
   useEffect(() => {
-    const t = setInterval(() => {
+    const tick = setInterval(() => {
       const left = new Date(endsAt).getTime() - Date.now();
       setRemain(left);
       if (left <= 0) {
-        clearInterval(t);
+        clearInterval(tick);
         void submit(true);
+        return;
+      }
+      const mins = left / 60000;
+      const level: null | "15" | "5" | "1" =
+        mins <= 1 ? "1" : mins <= 5 ? "5" : mins <= 15 ? "15" : null;
+      if (level && !timerWarnSeen.current.has(level)) {
+        timerWarnSeen.current.add(level);
+        setTimerWarn(level);
       }
     }, 500);
-    return () => clearInterval(t);
+    return () => clearInterval(tick);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [endsAt]);
 
@@ -501,10 +531,32 @@ export function ExamCbt({
       if (e.key === "Escape" || e.key === "Esc") {
         e.preventDefault();
         void recordSwitch("escape");
+        return;
       }
       if (e.key === "F11") {
         e.preventDefault();
         void recordSwitch("fullscreen_exit");
+        return;
+      }
+      if (modalOpenRef.current) return;
+      const tag = (e.target as HTMLElement | null)?.tagName;
+      if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT") return;
+
+      if (["1", "2", "3", "4"].includes(e.key)) {
+        e.preventDefault();
+        updateCurrentRef.current({
+          selectedOption: e.key,
+          status: "attempted",
+        });
+        return;
+      }
+      if (e.key === "ArrowLeft" || e.key === "ArrowRight") {
+        e.preventDefault();
+        const list = paletteIndexesRef.current;
+        const at = list.indexOf(indexForKeysRef.current);
+        if (at < 0) return;
+        const next = e.key === "ArrowLeft" ? list[at - 1] : list[at + 1];
+        if (next !== undefined) goToIndexRef.current(next);
       }
     };
 
@@ -633,9 +685,11 @@ export function ExamCbt({
 
   async function submit(auto = false) {
     if (busy) return;
-    if (!auto && !confirm("Submit the test? You cannot change answers after submit.")) {
+    if (!auto) {
+      setShowSubmitSummary(true);
       return;
     }
+    setShowSubmitSummary(false);
     setBusy(true);
     await flushCheckpoint({ force: true });
     if (document.fullscreenElement) {
@@ -667,12 +721,61 @@ export function ExamCbt({
   }
 
   const counts = useMemo(() => {
-    const c = { attempted: 0, not_attempted: 0, marked: 0 };
-    for (const q of questions) c[q.status] += 1;
+    const c = { attempted: 0, not_attempted: 0, marked: 0, marked_answered: 0 };
+    for (const q of questions) {
+      const st = paletteStatus(
+        q.status,
+        (q.selectedOptions && q.selectedOptions[0]) || q.selectedOption,
+      );
+      if (st === "marked_answered") c.marked_answered += 1;
+      else if (st === "marked") c.marked += 1;
+      else if (st === "attempted") c.attempted += 1;
+      else c.not_attempted += 1;
+    }
     return c;
   }, [questions]);
 
+  const subjectSummary = useMemo(() => {
+    const map = new Map<
+      string,
+      { subject: string; attempted: number; not_attempted: number; marked: number }
+    >();
+    for (const subject of ["Physics", "Chemistry", "Biology"]) {
+      map.set(subject, { subject, attempted: 0, not_attempted: 0, marked: 0 });
+    }
+    for (const q of questions) {
+      const row = map.get(q.subject) || {
+        subject: q.subject,
+        attempted: 0,
+        not_attempted: 0,
+        marked: 0,
+      };
+      const st = paletteStatus(
+        q.status,
+        (q.selectedOptions && q.selectedOptions[0]) || q.selectedOption,
+      );
+      if (st === "attempted" || st === "marked_answered") row.attempted += 1;
+      else if (st === "marked") row.marked += 1;
+      else row.not_attempted += 1;
+      map.set(q.subject, row);
+    }
+    return [...map.values()];
+  }, [questions]);
+
   const paletteIndexes = filteredIndexes.length > 0 ? filteredIndexes : questions.map((_, i) => i);
+
+  updateCurrentRef.current = updateCurrent;
+  goToIndexRef.current = goToIndex;
+  paletteIndexesRef.current = paletteIndexes;
+  indexForKeysRef.current = index;
+  modalOpenRef.current =
+    !examStarted ||
+    instructionsOpen ||
+    showLockPopup ||
+    showQuestionPaper ||
+    showSubmitSummary;
+
+  const durationMinutes = totalQuestions >= 200 ? 200 : 180;
 
   if (!current) return null;
 
@@ -695,6 +798,7 @@ export function ExamCbt({
     <div
       ref={shellRef}
       className="cbt-shell flex h-dvh max-h-dvh min-h-0 flex-col overflow-hidden bg-[var(--cbt-bg)]"
+      style={{ ["--exam-font-scale" as string]: String(fontScale) }}
     >
       {(!online || syncState === "error") && (
         <div className="z-[70] bg-amber-600 px-4 py-2 text-center text-sm font-medium text-white">
@@ -712,6 +816,25 @@ export function ExamCbt({
       {online && syncState !== "error" && (
         <div className="bg-slate-800/90 px-4 py-1 text-center text-xs text-slate-100">
           {syncLabel}
+        </div>
+      )}
+
+      {timerWarn && examStarted && (
+        <div className="z-[55] flex items-center justify-center gap-3 bg-amber-500 px-4 py-2 text-sm font-semibold text-amber-950">
+          <span>
+            {timerWarn === "1"
+              ? i18n.timerWarn1
+              : timerWarn === "5"
+                ? i18n.timerWarn5
+                : i18n.timerWarn15}
+          </span>
+          <button
+            type="button"
+            className="rounded bg-amber-950/20 px-2 py-0.5 text-xs underline"
+            onClick={() => setTimerWarn(null)}
+          >
+            OK
+          </button>
         </div>
       )}
 
@@ -759,6 +882,54 @@ export function ExamCbt({
         </div>
       )}
 
+      {instructionsOpen && (
+        <ExamInstructionsPanel
+          i18n={i18n}
+          year={year}
+          title={title}
+          durationMinutes={durationMinutes}
+          attemptLimit={attemptLimit}
+          totalQuestions={totalQuestions}
+          ack={instructionsAck}
+          onAckChange={setInstructionsAck}
+          requireAck={instructionsRequired}
+          onContinue={() => {
+            setInstructionsOpen(false);
+            setInstructionsRequired(false);
+          }}
+          onClose={
+            instructionsRequired
+              ? undefined
+              : () => {
+                  setInstructionsOpen(false);
+                }
+          }
+        />
+      )}
+
+      {showQuestionPaper && (
+        <ExamQuestionPaperPanel
+          i18n={i18n}
+          questions={questions}
+          onJump={(i) => {
+            goToIndex(i);
+            setShowQuestionPaper(false);
+          }}
+          onClose={() => setShowQuestionPaper(false)}
+        />
+      )}
+
+      {showSubmitSummary && (
+        <ExamSubmitSummaryPanel
+          i18n={i18n}
+          counts={counts}
+          bySubject={subjectSummary}
+          busy={busy}
+          onCancel={() => setShowSubmitSummary(false)}
+          onConfirm={() => void submit(true)}
+        />
+      )}
+
       <header className="flex shrink-0 flex-wrap items-center justify-between gap-3 bg-[var(--header)] px-4 py-3 text-white">
         <div>
           <div className="font-[family-name:var(--font-display)] text-lg font-semibold">
@@ -766,7 +937,47 @@ export function ExamCbt({
           </div>
           <div className="text-sm text-blue-100">{title}</div>
         </div>
-        <div className="flex flex-wrap items-center gap-3">
+        <div className="flex flex-wrap items-center gap-2">
+          <button
+            type="button"
+            className="rounded bg-black/25 px-2.5 py-1.5 text-sm hover:bg-black/40"
+            onClick={() => {
+              setInstructionsRequired(false);
+              setInstructionsOpen(true);
+            }}
+          >
+            {i18n.instructionsReopen}
+          </button>
+          <button
+            type="button"
+            className="rounded bg-black/25 px-2.5 py-1.5 text-sm hover:bg-black/40"
+            onClick={() => setShowQuestionPaper(true)}
+          >
+            {i18n.questionPaper}
+          </button>
+          <div className="flex rounded bg-black/25 p-1 text-sm" title={i18n.keyboardHint}>
+            <button
+              type="button"
+              className="rounded px-2 py-1 hover:bg-white/20"
+              onClick={() => setFontScale((s) => Math.max(0.85, Math.round((s - 0.1) * 10) / 10))}
+            >
+              {i18n.fontSmaller}
+            </button>
+            <button
+              type="button"
+              className="rounded px-2 py-1 hover:bg-white/20"
+              onClick={() => setFontScale(1)}
+            >
+              {i18n.fontReset}
+            </button>
+            <button
+              type="button"
+              className="rounded px-2 py-1 hover:bg-white/20"
+              onClick={() => setFontScale((s) => Math.min(1.35, Math.round((s + 0.1) * 10) / 10))}
+            >
+              {i18n.fontLarger}
+            </button>
+          </div>
           <div className="flex rounded bg-black/25 p-1 text-sm">
             <button
               type="button"
@@ -784,7 +995,7 @@ export function ExamCbt({
             </button>
           </div>
           <div className="rounded bg-black/25 px-3 py-1.5 text-sm">
-            {i18n.attemptSlots}: {limitInfo.attemptedCount}/{limitInfo.attemptLimit}
+            {i18n.progressAnswered}: {limitInfo.attemptedCount}/{limitInfo.attemptLimit}
           </div>
           <div className="rounded bg-black/25 px-3 py-1.5 text-sm">
             {i18n.screenSwitches}: {switchCount}
@@ -795,8 +1006,25 @@ export function ExamCbt({
         </div>
       </header>
 
-      <div className="grid min-h-0 flex-1 gap-0 overflow-y-auto lg:grid-cols-[1fr_320px] lg:grid-rows-[minmax(0,1fr)] lg:overflow-hidden">
-        <main className="min-h-0 overflow-y-auto overscroll-contain bg-white p-4 md:p-6">
+      <div
+        className={`grid min-h-0 flex-1 gap-0 overflow-y-auto lg:grid-rows-[minmax(0,1fr)] lg:overflow-hidden ${
+          paletteCollapsed ? "lg:grid-cols-1" : "lg:grid-cols-[1fr_320px]"
+        }`}
+      >
+        <main
+          className="exam-question-pane min-h-0 overflow-y-auto overscroll-contain bg-white p-4 md:p-6"
+          style={{ fontSize: `calc(1rem * var(--exam-font-scale, 1))` }}
+        >
+          <div className="mb-2 flex flex-wrap items-center gap-2">
+            <button
+              type="button"
+              className="rounded border border-slate-200 bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-700 hover:bg-slate-100 lg:inline-flex"
+              onClick={() => setPaletteCollapsed((v) => !v)}
+            >
+              {paletteCollapsed ? i18n.expandPalette : i18n.collapsePalette}
+            </button>
+            <span className="text-[11px] text-slate-400">{i18n.keyboardHint}</span>
+          </div>
           <div className="mb-3 flex flex-wrap items-center gap-2 text-sm">
             {(["ALL", "Physics", "Chemistry", "Biology"] as const).map((s) => (
               <button
@@ -831,12 +1059,14 @@ export function ExamCbt({
               }`}
             >
               {markFilter === "MARKED" ? i18n.markedFilterOff : i18n.markedFilter} (
-              {counts.marked})
+              {counts.marked + counts.marked_answered})
             </button>
           </div>
           {markFilter === "MARKED" && (
             <p className="mb-3 rounded border border-amber-200 bg-amber-50 px-3 py-2 text-xs text-amber-950">
-              {counts.marked === 0 ? i18n.markedEmpty : i18n.markedHint}
+              {counts.marked + counts.marked_answered === 0
+                ? i18n.markedEmpty
+                : i18n.markedHint}
             </p>
           )}
           <p className="mb-3 text-xs text-slate-500">{i18n.paperLangNote}</p>
@@ -1035,7 +1265,11 @@ export function ExamCbt({
           {msg && <p className="mt-3 text-sm text-[var(--danger)]">{msg}</p>}
         </main>
 
-        <aside className="flex min-h-0 flex-col overflow-hidden border-l border-slate-200 bg-[#f7fafc] p-4">
+        <aside
+          className={`flex min-h-0 flex-col overflow-hidden border-l border-slate-200 bg-[#f7fafc] p-4 ${
+            paletteCollapsed ? "hidden" : ""
+          }`}
+        >
           <div className="shrink-0">
             <h3 className="mb-3 font-[family-name:var(--font-display)] font-semibold">
               {i18n.palette}
@@ -1059,7 +1293,7 @@ export function ExamCbt({
               </div>
               <div className="flex items-center gap-2">
                 <span className="palette-btn" data-status="marked_answered" aria-hidden />
-                {i18n.markedAnswered}
+                {i18n.markedAnswered} ({counts.marked_answered})
               </div>
             </div>
           </div>
