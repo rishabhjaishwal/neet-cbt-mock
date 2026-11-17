@@ -222,6 +222,7 @@ export function ExamCbt({
   const updateCurrentRef = useRef<(patch: Partial<Q>) => void>(() => {});
   const goToIndexRef = useRef<(i: number) => void>(() => {});
   const paletteIndexesRef = useRef<number[]>([]);
+  const questionsRef = useRef(questions);
   const indexForKeysRef = useRef(index);
   const modalOpenRef = useRef(false);
   const fsActiveRef = useRef(false);
@@ -667,14 +668,19 @@ export function ExamCbt({
       if (!document.hidden) void recordSwitch("window_blur");
     };
     const onKeyDown = (e: KeyboardEvent) => {
+      // Only treat Esc/F11 as proctor events during an active fullscreen session.
       if (e.key === "Escape" || e.key === "Esc") {
-        e.preventDefault();
-        void recordSwitch("escape");
+        if (fsActiveRef.current) {
+          e.preventDefault();
+          void recordSwitch("escape");
+        }
         return;
       }
       if (e.key === "F11") {
-        e.preventDefault();
-        void recordSwitch("fullscreen_exit");
+        if (fsActiveRef.current) {
+          e.preventDefault();
+          void recordSwitch("fullscreen_exit");
+        }
         return;
       }
       if (modalOpenRef.current) return;
@@ -694,9 +700,12 @@ export function ExamCbt({
 
       if (["1", "2", "3", "4"].includes(e.key)) {
         e.preventDefault();
+        // Mirror click: keep Mark status so marked-for-review is not silently cleared.
+        const q = questionsRef.current[indexForKeysRef.current];
+        const keepMarked = q?.status === "marked";
         updateCurrentRef.current({
           selectedOption: e.key,
-          status: "attempted",
+          status: keepMarked ? "marked" : "attempted",
         });
         return;
       }
@@ -935,6 +944,7 @@ export function ExamCbt({
   updateCurrentRef.current = updateCurrent;
   goToIndexRef.current = goToIndex;
   paletteIndexesRef.current = paletteIndexes;
+  questionsRef.current = questions;
   indexForKeysRef.current = index;
   modalOpenRef.current =
     !examStarted ||
@@ -1336,15 +1346,49 @@ export function ExamCbt({
             </h2>
             <span className="text-xs text-slate-500">{current.topic}</span>
           </div>
+          {current.section === "B" && (
+            <p className="mb-2 text-xs font-medium text-amber-900">
+              Section B — attempt any 10 in this subject block
+              {(() => {
+                const cap = limitInfo.sectionBCaps.find((c) =>
+                  c.questionIds.includes(current.id),
+                );
+                if (!cap) return null;
+                return (
+                  <span className={cap.over ? " text-[var(--danger)]" : ""}>
+                    {" "}
+                    · this block {cap.attempted}/{cap.cap}
+                    {cap.over ? " (cap full)" : ""}
+                  </span>
+                );
+              })()}
+            </p>
+          )}
 
-          {(current.needsFigure || current.figureSrc) && (
+          {current.figureSrc ? (
             <QuestionFigure
               figureSrc={current.figureSrc}
               figureKind={current.figureKind}
               missingLabel={i18n.figureMissing}
               schematicLabel={i18n.figureSchematic}
             />
-          )}
+          ) : current.needsFigure ? (
+            <p className="q-figure-hint mb-3 text-xs text-slate-600">
+              Figure referenced in stem — open{" "}
+              <button
+                type="button"
+                className="font-semibold text-[var(--cbt-accent)] underline-offset-2 hover:underline"
+                onClick={() =>
+                  paperPdfUrl
+                    ? setShowPdfPaper(true)
+                    : setShowQuestionPaper(true)
+                }
+              >
+                Question paper / PDF
+              </button>{" "}
+              if the extract has no digital figure.
+            </p>
+          ) : null}
 
           <QuestionStemMarkdown stem={current.stem} className="mb-5" />
           {current.multiCorrect && (
@@ -1452,20 +1496,32 @@ export function ExamCbt({
                 const pos = paletteIndexes.indexOf(index);
                 const next = paletteIndexes[pos + 1];
                 if (next !== undefined) goToIndex(next);
-                else void flushCheckpoint({ force: true });
+                else {
+                  void flushCheckpoint({ force: true });
+                  setShowSubmitSummary(true);
+                }
               }}
             >
-              <span className="max-lg:hidden">{i18n.saveNext}</span>
-              <span className="lg:hidden">{i18n.saveNextShort}</span>
+              {paletteIndexes.indexOf(index) >= paletteIndexes.length - 1 ? (
+                <>
+                  <span className="max-lg:hidden">Review &amp; Submit</span>
+                  <span className="lg:hidden">Review</span>
+                </>
+              ) : (
+                <>
+                  <span className="max-lg:hidden">{i18n.saveNext}</span>
+                  <span className="lg:hidden">{i18n.saveNextShort}</span>
+                </>
+              )}
             </button>
             <button
               type="button"
-              className={`cbt-btn cbt-btn-danger ml-auto ${busy ? "cbt-btn-loading" : ""}`}
+              className={`cbt-btn cbt-btn-danger exam-submit-btn ml-auto ${busy ? "cbt-btn-loading" : ""}`}
               onClick={() => void submit(false)}
               disabled={busy}
             >
               {busy ? (
-                "…"
+                "Saving…"
               ) : (
                 <>
                   <span className="max-lg:hidden">{i18n.submit}</span>
@@ -1490,6 +1546,25 @@ export function ExamCbt({
               {subjectFilter === "ALL" ? i18n.allSubjects : subjectFilter}
               {sectionFilter !== "ALL" ? ` · ${i18n.section} ${sectionFilter}` : ""}
             </p>
+            {limitInfo.sectionBCaps.length > 0 && (
+              <p className="mb-3 text-[11px] leading-snug text-slate-600">
+                Sec B caps:{" "}
+                {limitInfo.sectionBCaps.map((c, i) => (
+                  <span
+                    key={c.id}
+                    className={c.over || c.attempted >= c.cap ? "font-semibold text-amber-800" : ""}
+                  >
+                    {i > 0 ? " · " : ""}
+                    {c.subject === "Physics"
+                      ? "Phy"
+                      : c.subject === "Chemistry"
+                        ? "Chem"
+                        : `Bio${c.blockIndex}`}{" "}
+                    {c.attempted}/{c.cap}
+                  </span>
+                ))}
+              </p>
+            )}
             <div className="mb-4 grid grid-cols-1 gap-2 text-xs">
               <div className="flex items-center gap-2">
                 <span className="palette-btn" data-status="attempted" aria-hidden />
@@ -1595,6 +1670,25 @@ export function ExamCbt({
           Q{current.number} · {limitInfo.attemptedCount}/{limitInfo.attemptLimit} answered
           {sectionFilter !== "ALL" ? ` · ${i18n.section} ${sectionFilter}` : ""}
         </p>
+        {limitInfo.sectionBCaps.length > 0 && (
+          <p className="px-3 pb-2 text-[11px] leading-snug text-slate-600">
+            Sec B:{" "}
+            {limitInfo.sectionBCaps.map((c, i) => (
+              <span
+                key={c.id}
+                className={c.attempted >= c.cap ? "font-semibold text-amber-800" : ""}
+              >
+                {i > 0 ? " · " : ""}
+                {c.subject === "Physics"
+                  ? "Phy"
+                  : c.subject === "Chemistry"
+                    ? "Chem"
+                    : `Bio${c.blockIndex}`}{" "}
+                {c.attempted}/{c.cap}
+              </span>
+            ))}
+          </p>
+        )}
         <div className="exam-mobile-sidenav__scroll">
           <div className="mb-3 flex flex-wrap gap-2 text-[0.7rem] text-slate-600">
             <span>{i18n.attempted} ({counts.attempted})</span>
@@ -1605,8 +1699,8 @@ export function ExamCbt({
             type="button"
             className={`mb-3 w-full rounded-md px-3 py-2 text-left text-xs font-semibold ${
               markFilter === "MARKED"
-                ? "bg-[var(--status-marked)] text-white"
-                : "border border-amber-300 bg-amber-50 text-amber-950"
+                ? "bg-[#6d28d9] text-white"
+                : "border border-violet-300 bg-violet-50 text-violet-950"
             }`}
             onClick={() => {
               setMarkFilter((prev) => {

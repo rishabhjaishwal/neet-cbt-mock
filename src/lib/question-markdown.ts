@@ -194,8 +194,9 @@ function isColumnMatchStem(stem: string): boolean {
     lower.includes("match the organisms") ||
     lower.includes("column - i") ||
     lower.includes("column-i") ||
-    /column\s*[-–]?\s*i\b/i.test(stem) ||
-    /list\s*[-–]?\s*i\b/i.test(stem) ||
+    // Negative lookahead: do not treat "column in" / "column length" as Column I.
+    /column\s*[-–]?\s*i(?![a-z])/i.test(stem) ||
+    /list\s*[-–]?\s*i(?![a-z])/i.test(stem) ||
     /match\s+list/i.test(stem)
   );
 }
