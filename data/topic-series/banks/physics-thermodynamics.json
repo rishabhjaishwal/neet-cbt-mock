@@ -3,8 +3,8 @@
   "subject": "Physics",
   "topic": "Thermodynamics",
   "counts": {
-    "Easy": 58,
-    "Medium": 50,
+    "Easy": 56,
+    "Medium": 54,
     "Hard": 50
   },
   "questions": {
@@ -1362,82 +1362,9 @@
         "placeholder": false,
         "difficulty": "Easy",
         "aiVerified": "strict"
-      },
-      {
-        "id": "rem-Easy-a2a028aa78",
-        "subject": "Physics",
-        "topic": "Thermodynamics",
-        "stem": "An ideal gas is taken through a cyclic process. In one step it absorbs 5415 J heat and does 1103 J work. The change in internal energy for that step is",
-        "options": {
-          "1": "4312 J",
-          "2": "6518 J",
-          "3": "1103 J",
-          "4": "0"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "authored-ncert (ΔU = Q − W)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "rem-Easy-5117a9aa94",
-        "subject": "Physics",
-        "topic": "Thermodynamics",
-        "stem": "An ideal gas is taken through a cyclic process. In one step it absorbs 5425 J heat and does 1105 J work. The change in internal energy for that step is",
-        "options": {
-          "1": "4320 J",
-          "2": "6530 J",
-          "3": "1105 J",
-          "4": "0"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "authored-ncert (ΔU = Q − W)",
-        "placeholder": false,
-        "difficulty": "Easy",
-        "aiVerified": "strict"
       }
     ],
     "Medium": [
-      {
-        "id": "2019-G1-Q135",
-        "sourceYear": 2019,
-        "sourceNumber": 2,
-        "subject": "Physics",
-        "topic": "Thermodynamics",
-        "difficulty": "Medium",
-        "stem": "Reversible expansion of an ideal gas under isothermal and adiabatic conditions are as shown in the figure. AB → Isothermal expansion. AC → Adiabatic expansion. Which of the following options is not correct?",
-        "options": {
-          "1": "ΔS_isothermal > ΔS_adiabatic",
-          "2": "T_A = T_B",
-          "3": "W_isothermal > W_adiabatic",
-          "4": "T_C > T_A"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2019-G1-Q135.svg",
-        "figureKind": "diagram",
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
       {
         "id": "2020-E1-Q104",
         "sourceYear": 2020,
@@ -1480,81 +1407,6 @@
         "correctOption": "1",
         "correctOptions": [
           "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q187",
-        "sourceYear": 2022,
-        "sourceNumber": 42,
-        "subject": "Physics",
-        "topic": "Thermodynamics",
-        "difficulty": "Medium",
-        "stem": "1 g of water, of volume 1 cm at 100ºC, is converted into steam at same temperature under normal 5 3 atmospheric pressure ~ − 1× 10 Pa . The volume of steam formed equals 1671 cm . If the specific latent heat of vaporization of water is 2256 J/g, the change in internal energy is :",
-        "options": {
-          "1": "2423 J",
-          "2": "2089 J",
-          "3": "167 J",
-          "4": "2256 J"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q39",
-        "sourceYear": 2024,
-        "sourceNumber": 36,
-        "subject": "Physics",
-        "topic": "Thermodynamics",
-        "difficulty": "Medium",
-        "stem": "Two heaters A and B have power rating of 1 kW and 2 kW, respectively. Those two are first connected in series and then in parallel to a fixed power source. The ratio of power outputs for these two cases is:",
-        "options": {
-          "1": "2:9",
-          "2": "1:2",
-          "3": "2:3",
-          "4": "1:1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q57",
-        "sourceYear": 2024,
-        "sourceNumber": 49,
-        "subject": "Physics",
-        "topic": "Thermodynamics",
-        "difficulty": "Medium",
-        "stem": "In which of the following processes entropy increases? A. A liquid evaporates to vapour. B. Temperature of a crystalline solid lowered from 130 K to 0 K. C. 2NaHCO3(s) → Na2CO3(s) + CO2(g) + H2O(g) D. Cl2(g) → 2Cl(g) Choose the correct answer from the options given below:",
-        "options": {
-          "1": "A, B and D",
-          "2": "A, C and D",
-          "3": "C and D",
-          "4": "A and C"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -2635,6 +2487,204 @@
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"
+      },
+      {
+        "id": "hf2016-9feafd5170",
+        "sourceYear": 2016,
+        "sourceNumber": 19,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "A given sample of an ideal gas occupies a volume $ V $ at a pressure $ P $ and absolute temperature T . The mass of each molecule of the gas is m . Which of the following gives the density of the gas?",
+        "options": {
+          "1": "\\frac{P}{kT",
+          "2": "\\frac{Pm}{kT",
+          "3": "\\frac{P}{kTV",
+          "4": "mkT"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-247a6001db",
+        "sourceYear": 2023,
+        "sourceNumber": 16,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "Given below are two statements: Statement I : Photovoltaic devices can convert optical radiation into electricity. Statement II : Zener diode is designed to operate under reverse bias in breakdown region. In the light of the above statements, choose the most appropriate answer from the options given below :",
+        "options": {
+          "1": "Statement I is incorrect but Statement II is correct.",
+          "2": "Both Statement I and Statement II are correct.",
+          "3": "Both Statement I and Statement II are incorrect.",
+          "4": "Statement I is correct but Statement II is incorrect."
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-d550f5bcd6",
+        "sourceYear": 2023,
+        "sourceNumber": 21,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "The work functions of Caesium (Cs), Potassium (K) and Sodium (Na) are 2.14 eV , 2.30 eV and 2.75 eV respectively. If incident electromagnetic radiation has an incident energy of 2.20 eV , which of these photosensitive surfaces may emit photoelectrons?",
+        "options": {
+          "1": "Na only",
+          "2": "Cs only",
+          "3": "Both Na and K",
+          "4": "K only"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Medium-9406353000",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas is taken through a cyclic process. In one step it absorbs 5370 J heat and does 1094 J work. The change in internal energy for that step is",
+        "options": {
+          "1": "4276 J",
+          "2": "6464 J",
+          "3": "1094 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q − W)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Medium-f6e43d31d1",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas is taken through a cyclic process. In one step it absorbs 5380 J heat and does 1096 J work. The change in internal energy for that step is",
+        "options": {
+          "1": "4284 J",
+          "2": "6476 J",
+          "3": "1096 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q − W)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Medium-59d4a070ed",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas is taken through a cyclic process. In one step it absorbs 5390 J heat and does 1098 J work. The change in internal energy for that step is",
+        "options": {
+          "1": "4292 J",
+          "2": "6488 J",
+          "3": "1098 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q − W)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Medium-0e22a1b31a",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas is taken through a cyclic process. In one step it absorbs 5400 J heat and does 1100 J work. The change in internal energy for that step is",
+        "options": {
+          "1": "4300 J",
+          "2": "6500 J",
+          "3": "1100 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q − W)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Medium-f0a52cf9c8",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas is taken through a cyclic process. In one step it absorbs 5410 J heat and does 1102 J work. The change in internal energy for that step is",
+        "options": {
+          "1": "4308 J",
+          "2": "6512 J",
+          "3": "1102 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q − W)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       }
     ],
     "Hard": [
@@ -2705,81 +2755,6 @@
         "correctOption": "1",
         "correctOptions": [
           "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q42",
-        "sourceYear": 2024,
-        "sourceNumber": 39,
-        "subject": "Physics",
-        "topic": "Thermodynamics",
-        "difficulty": "Hard",
-        "stem": "A metallic bar of Young’s modulus, 0.5 × 1011 N m–2 and coefficient of linear thermal expansion 10–5 °C–1, length 1 m and area of cross-section 10–3 m2 is heated from 0°C to 100°C without expansion or bending. The compressive force developed in it is :",
-        "options": {
-          "1": "50 × 103 N",
-          "2": "100 × 103 N",
-          "3": "2 × 103 N",
-          "4": "5 × 103 N"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q3",
-        "sourceYear": 2025,
-        "sourceNumber": 3,
-        "subject": "Physics",
-        "topic": "Thermodynamics",
-        "difficulty": "Hard",
-        "stem": "A thermodynamic system is taken through the cycle abcda. The work done by the gas along the path bc is:",
-        "options": {
-          "1": "30 J",
-          "2": "90 J",
-          "3": "60 J",
-          "4": "Zero"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q54",
-        "sourceYear": 2025,
-        "sourceNumber": 48,
-        "subject": "Physics",
-        "topic": "Thermodynamics",
-        "difficulty": "Hard",
-        "stem": "Match List I with List II. List-I List-II (Process) (Conditions) A. Isothermal process I. No heat exchange B. Isochoric process II. Carried out at constant temperature C. Isobaric process III. Carried out at constant volume D. Adiabatic process IV. Carried out at constant pressure Choose the correct answer from the options given below:",
-        "options": {
-          "1": "A-IV, B-II, C-III, D-I",
-          "2": "A-I, B-II, C-III, D-IV",
-          "3": "A-II, B-III, C-IV, D-I",
-          "4": "A-IV, B-III, C-II, D-I"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -3844,6 +3819,80 @@
         "answerEstimated": false,
         "solutionSource": "authored-ncert (TV^(γ-1)=const; γ-1=2/3)",
         "placeholder": false,
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-1a35bc5722",
+        "sourceYear": 2018,
+        "sourceNumber": 4,
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "The efficiency of an ideal heat engine working between the freezing point and boiling point of water, is",
+        "options": {
+          "1": "$ 6 \\cdot 25 \\% $",
+          "2": "$ 20 \\% $",
+          "3": "$ 26 \\cdot 8 \\% $",
+          "4": "$ 12 \\cdot 5 \\% $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-5117a9aa94",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas is taken through a cyclic process. In one step it absorbs 5425 J heat and does 1105 J work. The change in internal energy for that step is",
+        "options": {
+          "1": "4320 J",
+          "2": "6530 J",
+          "3": "1105 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q − W)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Easy-a2a028aa78",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "stem": "An ideal gas is taken through a cyclic process. In one step it absorbs 5415 J heat and does 1103 J work. The change in internal energy for that step is",
+        "options": {
+          "1": "4312 J",
+          "2": "6518 J",
+          "3": "1103 J",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (ΔU = Q − W)",
+        "placeholder": false,
+        "difficulty": "Hard",
         "aiVerified": "strict"
       }
     ]

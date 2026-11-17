@@ -3,9 +3,9 @@
   "subject": "Biology",
   "topic": "Genetics & Biotech",
   "counts": {
-    "Easy": 76,
+    "Easy": 114,
     "Medium": 87,
-    "Hard": 56
+    "Hard": 50
   },
   "questions": {
     "Easy": [
@@ -1933,6 +1933,948 @@
         "placeholder": false,
         "difficulty": "Easy",
         "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-f58ca34035",
+        "sourceYear": 2018,
+        "sourceNumber": 100,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In India, the organisation responsible for assessing the safety of introducing genetically modified organisms for public use is",
+        "options": {
+          "1": "Research Committee on Genetic Manipulation (RCGM)",
+          "2": "Council for Scientific and Industrial Research (CSIR)",
+          "3": "Indian Council of Medical Research (ICMR)",
+          "4": "Genetic Engineering Appraisal Committee (GEAC)"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-367b394db4",
+        "sourceYear": 2018,
+        "sourceNumber": 159,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "A woman has an X-linked condition on one of her X chromosomes. This chromosome can be inherited by",
+        "options": {
+          "1": "Only grandchildren",
+          "2": "Only sons",
+          "3": "Only daughters",
+          "4": "Both sons and daughters"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-0fd92a0583",
+        "sourceYear": 2018,
+        "sourceNumber": 161,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "AGGTATCGCAT is a sequence from the coding strand of a gene. What will be the corresponding sequence of the transcribed mRNA?",
+        "options": {
+          "1": "ACCUAUGCGAU",
+          "2": "UGGTUTCGCAT",
+          "3": "AGGUAUCGCAU",
+          "4": "UCCAUAGCGUA"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-322621e9fe",
+        "sourceYear": 2020,
+        "sourceNumber": 6,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Identify the wrong statement with reference to the gene 'I' that controls ABO blood groups.",
+        "options": {
+          "1": "The gene (I) has three alleles.",
+          "2": "A person will have only two of the three alleles.",
+          "3": "When $I^{A}$ and $I^{B}$ are present together, they express same type of sugar.",
+          "4": "Allele 'i' does not produce any sugar."
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-c4321202d0",
+        "sourceYear": 2020,
+        "sourceNumber": 43,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Bt cotton variety that was developed by the introduction of toxin gene of Bacillus thuringiensis ( Bt ) is resistant to :",
+        "options": {
+          "1": "Insect pests",
+          "2": "Fungal diseases",
+          "3": "Plant nematodes",
+          "4": "Insect predators"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-eb63883e7a",
+        "sourceYear": 2021,
+        "sourceNumber": 110,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "During the purification process for recombinant DNA technology, addition of chilled ethanol precipitates out:",
+        "options": {
+          "1": "DNA",
+          "2": "Histones",
+          "3": "Polysaccharides",
+          "4": "RNA"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-6c63a32cbb",
+        "sourceYear": 2021,
+        "sourceNumber": 116,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "When the centromere is situated in the middle of two equal arms of chromosomes, the chromosome is referred as :",
+        "options": {
+          "1": "Telocentric",
+          "2": "Sub-metacentric",
+          "3": "Acrocentric",
+          "4": "Metacentric"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-f71ec43a2e",
+        "sourceYear": 2021,
+        "sourceNumber": 124,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Genera like Selaginella and Salvinia produce two kinds of spores. Such plants are known as :",
+        "options": {
+          "1": "Heterosorus",
+          "2": "Homosporous",
+          "3": "Heterosporous",
+          "4": "Homosorus"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-517cc1591d",
+        "sourceYear": 2021,
+        "sourceNumber": 162,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Which of the following RNAs is not required for the synthesis of protein?",
+        "options": {
+          "1": "tRNA",
+          "2": "rRNA",
+          "3": "siRNA",
+          "4": "mRNA"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-784b2f9727",
+        "sourceYear": 2021,
+        "sourceNumber": 173,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In a cross between a male and female, both heterozygous for sickle cell anaemia gene, what percentage of the progeny will be diseased?",
+        "options": {
+          "1": "$ 75 \\% $",
+          "2": "$ 25 \\% $",
+          "3": "$ 100 \\% $",
+          "4": "$ 50 \\% $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-98a7450b96",
+        "sourceYear": 2023,
+        "sourceNumber": 109,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Upon exposure to UV radiation, DNA stained with ethidium bromide will show",
+        "options": {
+          "1": "Bright orange colour",
+          "2": "Bright red colour",
+          "3": "Bright blue colour",
+          "4": "Bright yellow colour"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-e53fa20706",
+        "sourceYear": 2023,
+        "sourceNumber": 116,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "During the purification process for recombinant DNA technology, addition of chilled ethanol precipitates out",
+        "options": {
+          "1": "Polysaccharides",
+          "2": "RNA",
+          "3": "DNA",
+          "4": "Histones"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-e84d3cbae7",
+        "sourceYear": 2023,
+        "sourceNumber": 120,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Unequivocal proof that DNA is the genetic material was first proposed by",
+        "options": {
+          "1": "Wilkins and Franklin",
+          "2": "Frederick Griffith",
+          "3": "Alfred Hershey and Martha Chase",
+          "4": "Avery, Macleoid and McCarthy"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-dc08a96c90",
+        "sourceYear": 2023,
+        "sourceNumber": 125,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In gene gun method used to introduce alien DNA into host cells, microparticles of $ \\qquad $ metal are used.",
+        "options": {
+          "1": "Silver",
+          "2": "Copper",
+          "3": "Zinc",
+          "4": "Tungsten or gold"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-336e4b3bc5",
+        "sourceYear": 2023,
+        "sourceNumber": 184,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In which blood corpuscles, the HIV undergoes replication and produces progeny viruses?",
+        "options": {
+          "1": "Eosinophils",
+          "2": "$ \\mathrm { T } _ { \\mathrm { H } } $ cells",
+          "3": "B-lymphocytes",
+          "4": "Basophils"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-b8b78cad90",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Which of the following animals exhibits external fertilization?",
+        "options": {
+          "1": "Frog",
+          "2": "Dog",
+          "3": "Cow",
+          "4": "Hen"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-f556eca794",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Which one of the following animals exhibits external fertilization?",
+        "options": {
+          "1": "Frog",
+          "2": "Dog",
+          "3": "Cow",
+          "4": "Parrot"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-36a8c777eb",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Which animal exhibits external fertilization?",
+        "options": {
+          "1": "Frog",
+          "2": "Dog",
+          "3": "Pigeon",
+          "4": "Cow"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-3b3c707fd5",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In cockroaches, the respiratory system opens externally through",
+        "options": {
+          "1": "Malpighian tubules",
+          "2": "Anal cerci",
+          "3": "Spiracles",
+          "4": "Nephridia"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-d5e6ff1492",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Which of the following plants exhibits phyllotaxy of alternate type?",
+        "options": {
+          "1": "Mustard",
+          "2": "Calotropis",
+          "3": "Guava",
+          "4": "Alstonia"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-a4bc700a76",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In cockroach, the respiratory system opens externally through",
+        "options": {
+          "1": "Book lungs",
+          "2": "Malpighian tubules",
+          "3": "Spiracles",
+          "4": "Tracheal gills"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-3d60790387",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In which of the following animals does external fertilization occur?",
+        "options": {
+          "1": "Frog",
+          "2": "Dog",
+          "3": "Rabbit",
+          "4": "Human"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-ffdea27fea",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Which of the following is an example of an organism exhibiting external fertilization?",
+        "options": {
+          "1": "Frog",
+          "2": "Human",
+          "3": "Dog",
+          "4": "Cow"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-a36c53bf30",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In cockroach, the respiratory system opens externally through:",
+        "options": {
+          "1": "Malpighian tubules",
+          "2": "Spiracles",
+          "3": "Tracheoles",
+          "4": "Book lungs"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-26e3d9e94b",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In which animal does fertilization occur externally?",
+        "options": {
+          "1": "Frog",
+          "2": "Cow",
+          "3": "Dog",
+          "4": "Pigeon"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-28a5d9144e",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Which of the following organisms exhibits external fertilization?",
+        "options": {
+          "1": "Earthworm",
+          "2": "Frog",
+          "3": "Pigeon",
+          "4": "Rabbit"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-e76daa37e7",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In cockroach, the respiratory system opens externally through small holes called:",
+        "options": {
+          "1": "Malpighian tubules",
+          "2": "Tracheoles",
+          "3": "Nephridia",
+          "4": "Spiracles"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-183b45ff5a",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In mammals, the structure that directly connects the developing embryo to the maternal tissues for nutrient exchange is called:",
+        "options": {
+          "1": "Placenta",
+          "2": "Umbilical cord",
+          "3": "Amniotic sac",
+          "4": "Yolk sac"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-f3b3a79a43",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In cockroach, the respiratory system opens externally through which of the following structures?",
+        "options": {
+          "1": "Malpighian tubules",
+          "2": "Spiracles",
+          "3": "Nephridia",
+          "4": "Tracheoles"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-3e430f9bdc",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In cockroaches, the respiratory system opens externally through:",
+        "options": {
+          "1": "Malpighian tubules",
+          "2": "Tracheae",
+          "3": "Spiracles",
+          "4": "Book lungs"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-62fc4ba42c",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In which phase of the cell cycle does the replication of DNA take place in animal cells?",
+        "options": {
+          "1": "G1 phase",
+          "2": "S phase",
+          "3": "G2 phase",
+          "4": "M phase"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-6c45c85ac5",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In cockroach, the respiratory system opens externally through small holes called",
+        "options": {
+          "1": "Malpighian tubules",
+          "2": "Tracheae",
+          "3": "Spiracles",
+          "4": "Nephridia"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-57b27a1cd4",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In which animal does internal fertilization occur?",
+        "options": {
+          "1": "Frog",
+          "2": "Earthworm",
+          "3": "Pigeon",
+          "4": "Fish"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-18224697f1",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In which phase of meiosis do homologous chromosomes undergo crossing over?",
+        "options": {
+          "1": "Metaphase I",
+          "2": "Prophase I",
+          "3": "Anaphase II",
+          "4": "Telophase I"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-51852dd2dc",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In which of the following animal groups does external fertilization commonly occur?",
+        "options": {
+          "1": "Reptiles",
+          "2": "Amphibians",
+          "3": "Mammals",
+          "4": "Birds"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-7bac91137e",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In which animal does fertilization occur externally in water, and the development is indirect?",
+        "options": {
+          "1": "Frog",
+          "2": "Earthworm",
+          "3": "Pigeon",
+          "4": "Rabbit"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-4a4b5fae4a",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In which phase of mitosis do the centromeres of chromosomes split and sister chromatids move toward opposite poles?",
+        "options": {
+          "1": "Prophase",
+          "2": "Anaphase",
+          "3": "Metaphase",
+          "4": "Telophase"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-2492043af0",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Which of the following plants exhibits phyllotaxy of alternate leaves?",
+        "options": {
+          "1": "China rose",
+          "2": "Alstonia",
+          "3": "Calotropis",
+          "4": "Guava"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       }
     ],
     "Medium": [
@@ -2387,31 +3329,6 @@
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q196",
-        "sourceYear": 2022,
-        "sourceNumber": 198,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Medium",
-        "stem": "The term used for transfer of pollen grains from anthers of one plant to stigma of a different plant which, during pollination, brings genetically different types of pollen grains to stigma, is :",
-        "options": {
-          "1": "Cleistogamy",
-          "2": "Xenogamy",
-          "3": "Geitonogamy",
-          "4": "Chasmogamy"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2023-F1-Q109",
         "sourceYear": 2023,
         "sourceNumber": 112,
@@ -2553,106 +3470,6 @@
         "correctOption": "2",
         "correctOptions": [
           "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q109",
-        "sourceYear": 2024,
-        "sourceNumber": 113,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Medium",
-        "stem": "Given below are two statements: Statement I : Bt toxins are insect group specific and coded by a gene cry IAc. Statement II : Bt toxin exists as inactive protoxin in B. thuringiensis. However, after ingestion by the insect the inactive protoxin gets converted into active form due to acidic pH of the insect gut. In the light of the above statements, choose the correct answer from the options given below:",
-        "options": {
-          "1": "Both Statement I and Statement II are false",
-          "2": "Statement I is true but Statement II is false",
-          "3": "Statement I is false but Statement II is true",
-          "4": "Both Statement I and Statement II are true"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q117",
-        "sourceYear": 2024,
-        "sourceNumber": 121,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Medium",
-        "stem": "Which one of the following can be explained on the basis of Mendel's Law of Dominance? A. Out of one pair of factors one is dominant and the other is recessive. B. Alleles do not show any expression and both the characters appear as such in F2 generation. C. Factors occur in pairs in normal diploid plants. D. The discrete unit controlling a particular character is called factor. E. The expression of only one of the parental characters is found in a monohybrid cross. Choose the correct answer from the options given below:",
-        "options": {
-          "1": "A, C, D and E only",
-          "2": "B, C and D only",
-          "3": "A, B, C, D and E",
-          "4": "A, B and C only"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q139",
-        "sourceYear": 2024,
-        "sourceNumber": 142,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Medium",
-        "stem": "The DNA present in chloroplast is:",
-        "options": {
-          "1": "Circular, double stranded",
-          "2": "Linear, single stranded",
-          "3": "Circular, single stranded",
-          "4": "Linear, double stranded"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q178",
-        "sourceYear": 2024,
-        "sourceNumber": 180,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Medium",
-        "stem": "Which one is the correct product of DNA dependent RNA polymerase to the given template? 3’TACATGGCAAATATCCATTCA5’",
-        "options": {
-          "1": "5’AUGUAAAGUUUAUAGGUAAGU3’",
-          "2": "5’AUGUACCGUUUAUAGGGAAGU3’",
-          "3": "5’ATGTACCGTTTATAGGTAAGT3’",
-          "4": "5’AUGUACCGUUUAUAGGUAAGU3’"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -4119,6 +4936,136 @@
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-fe98e859bf",
+        "sourceYear": 2021,
+        "sourceNumber": 157,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Read the following statements. (a) Metagenesis is observed in Helminths. (b) Echinoderms are triploblastic and coelomate animals. (c) Round worms have organ-system level of body organization. (d) Comb plates present in ctenophores help in digestion. (e) Water vascular system is characteristic of Echinoderms. Choose the correct answer from the options given below.",
+        "options": {
+          "1": "(a), (b) and (c) are correct",
+          "2": "(a), (d) and (e) are correct",
+          "3": "(b), (c) and (e) are correct",
+          "4": "(c), (d) and (e) are correct"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-555d8004f5",
+        "sourceYear": 2021,
+        "sourceNumber": 1,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "With regard to insulin choose correct options. (a) C-peptide is not present in mature insulin. (b) The insulin produced by rDNA technology has C-peptide. (c) The pro-insulin has C-peptide. (d) A-peptide and B-peptide of insulin are interconnected by disulphide bridges.",
+        "options": {
+          "1": "(b) and (c) only",
+          "2": "(a), (c) and (d) only",
+          "3": "(a) and (d) only",
+          "4": "(b) and (d) only"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-5cdd5a58f6",
+        "sourceYear": 2023,
+        "sourceNumber": 127,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Frequency of recombination between gene pairs on same chromosome as a measure of the distance between genes to map their position on chromosome, was used for the first time by",
+        "options": {
+          "1": "Henking",
+          "2": "Thomas Hunt Morgan",
+          "3": "Sutton and Boveri",
+          "4": "Alfred Sturtevant"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-bfb214a2d8",
+        "sourceYear": 2023,
+        "sourceNumber": 143,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Given below are two statements : Statement I : Gause's 'Competitive Exclusion Principle' states that two closely related species competing for the same resources cannot co-exist indefinitely and competitively inferior one will be eliminated eventually. Statement II : In general, carnivores are more adversely affected by competition than herbivores. In the light of the above statements, choose the correct answer from the options given below :",
+        "options": {
+          "1": "Statement I is incorrect but Statement II is true.",
+          "2": "Both Statement I and Statement II are true.",
+          "3": "Both Statement I and Statement II are false.",
+          "4": "Statement I is correct but Statement II is false."
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-ea4126571a",
+        "sourceYear": 2023,
+        "sourceNumber": 162,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Given below are two statements: Statement I: RNA mutates at a faster rate. Statement II: Viruses having RNA genome and shorter life span mutate and evolve faster. In the light of the above statements, choose the correct answer from the options given below:",
+        "options": {
+          "1": "Statement I false but Statement II is true.",
+          "2": "Both Statement I and Statement II are true.",
+          "3": "Both Statement I and Statement II are false.",
+          "4": "Statement I is true but Statement II is false."
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       }
     ],
     "Hard": [
@@ -4448,31 +5395,6 @@
         "placeholder": false
       },
       {
-        "id": "2021-M1-Q103",
-        "sourceYear": 2021,
-        "sourceNumber": 106,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Which of the following is a correct sequence of steps in a PCR (Polymerase Chain Reaction) ?",
-        "options": {
-          "1": "Denaturation, Extension, Annealing",
-          "2": "Extension, Denaturation, Annealing",
-          "3": "Annealing, Denaturation, Extension",
-          "4": "Denaturation, Annealing, Extension"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2021-M1-Q113",
         "sourceYear": 2021,
         "sourceNumber": 116,
@@ -4598,31 +5520,6 @@
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q197",
-        "sourceYear": 2022,
-        "sourceNumber": 199,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "DNA strands on a gel stained with ethidium bromide when viewed under UV radiation, appear as :",
-        "options": {
-          "1": "Bright orange bands",
-          "2": "Dark red bands",
-          "3": "Bright blue bands",
-          "4": "Yellow bands"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2023-F1-Q112",
         "sourceYear": 2023,
         "sourceNumber": 115,
@@ -4739,256 +5636,6 @@
         "correctOption": "1",
         "correctOptions": [
           "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q103",
-        "sourceYear": 2024,
-        "sourceNumber": 107,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Match List I with List II List I List II A. Two or more alternative forms of a gene I. Back cross B. Cross of F1 progeny with homozygous II. Ploidy recessive parent C. Cross of F1 progeny with any of the parents III. Allele D. Number of chromosome sets in plant IV. Test cross Choose the correct answer from the options given below:",
-        "options": {
-          "1": "A-II, B-I, C-III, D-IV",
-          "2": "A-III, B-IV, C-I, D-II",
-          "3": "A-IV, B-III, C-II, D-I",
-          "4": "A-I, B-II, C-III, D-IV"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q110",
-        "sourceYear": 2024,
-        "sourceNumber": 114,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "A transcription unit in DNA is defined primarily by the three regions in DNA and these are with respect to upstream and down stream end;",
-        "options": {
-          "1": "Structural gene, Transposons, Operator gene",
-          "2": "Inducer, Repressor, Structural gene",
-          "3": "Promotor, Structural gene, Terminator",
-          "4": "Repressor, Operator gene, Structural gene"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q125",
-        "sourceYear": 2024,
-        "sourceNumber": 129,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "The capacity to generate a whole plant from any cell of the plant is called:",
-        "options": {
-          "1": "Micropropagation",
-          "2": "Differentiation",
-          "3": "Somatic hybridization",
-          "4": "Totipotency"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q143",
-        "sourceYear": 2024,
-        "sourceNumber": 146,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Match List I with List II List I List II A. Frederick Griffith I. Genetic code B. Francois Jacob & Jacque Monod II. Semi-conservative mode of DNA replication C. Har Gobind Khorana III. Transformation D. Meselson & Stahl IV. Lac operon Choose the correct answer from the options given below:",
-        "options": {
-          "1": "A-III, B-IV, C-I, D-II",
-          "2": "A-II, B-III, C-IV, D-I",
-          "3": "A-IV, B-I, C-II, D-III",
-          "4": "A-III, B-II, C-I, D-IV"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q188",
-        "sourceYear": 2024,
-        "sourceNumber": 190,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Identify the correct option (A), (B), (C), (D) with respect to spermatogenesis.",
-        "options": {
-          "1": "ICSH, Interstitial cells, Leydig cells, spermiogenesis.",
-          "2": "FSH, Sertoli cells, Leydig cells, spermatogenesis.",
-          "3": "ICSH, Leydig cells, Sertoli cells, spermatogenesis.",
-          "4": "FSH, Leydig cells, Sertoli cells, spermiogenesis."
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q106",
-        "sourceYear": 2025,
-        "sourceNumber": 110,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "What is the fate of a piece of DNA carrying only gene of interest which is transferred into an alien organism? A. The piece of DNA would be able to multiply itself independently in the progeny cells of the organism. B. It may get integrated into the genome of the recipient. C. It may multiply and be inherited along with the host DNA. D. The alien piece of DNA is not an integral part of chromosome. E. It shows ability to replicate. Choose the correct answer from the options given below:",
-        "options": {
-          "1": "D and E only",
-          "2": "B and C only",
-          "3": "A and E only",
-          "4": "A and B only"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q112",
-        "sourceYear": 2025,
-        "sourceNumber": 116,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Hind II always cuts DNA molecules at a particular point called recognition sequence and it consists of:",
-        "options": {
-          "1": "6 bp",
-          "2": "4 bp",
-          "3": "10 bp",
-          "4": "8 bp"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q127",
-        "sourceYear": 2025,
-        "sourceNumber": 131,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Match List I with List II List-I List-II A. Nucleolus I. Site of formation of glycolipid B. Centriole II. Organization like the cartwheel C. Leucoplasts III. Site for active ribosomal RNA synthesis D. Golgi apparatus IV. For storing nutrients Choose the correct answer from the options given below:",
-        "options": {
-          "1": "A-II, B-III, C-I, D-IV",
-          "2": "A-III, B-IV, C-II, D-I",
-          "3": "A-I, B-II, C-III, D-IV",
-          "4": "A-III, B-II, C-IV, D-I"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q167",
-        "sourceYear": 2025,
-        "sourceNumber": 169,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "The following diagram showing restriction sites in E. coli cloning vector pBR322. Find the role of ‘X’ and ‘Y’ genes :",
-        "options": {
-          "1": "The gene ‘X’ is responsible for controlling the copy number of the linked DNA and ‘Y’ for protein involved in the replication of Plasmid.",
-          "2": "The gene ‘X’ is for protein involved in replication of Plasmid and ‘Y’ for resistance to antibiotics.",
-          "3": "Gene ’X’ is responsible for recognitions sites and ‘Y’ is responsible for antibiotic resistance.",
-          "4": "The gene ‘X’ is responsible for resistance to antibiotics and ‘Y’ for protein involved in the replication of Plasmid."
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2025-INTERIM-Q167.png",
-        "figureKind": "pdf-crop+from-2024-stem-match",
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q195",
-        "sourceYear": 2025,
-        "sourceNumber": 196,
-        "subject": "Biology",
-        "topic": "Genetics & Biotech",
-        "difficulty": "Hard",
-        "stem": "Match List I with List II: List I List II A. RNA polymerase III I. snRNPs B. Termination of II. Promotor transcription C. Splicing of Exons III. Rho factor D. TATA box IV. SnRNAs, tRNA Choose the correct answer from the options given below :",
-        "options": {
-          "1": "A-III, B-II, C-IV, D-I",
-          "2": "A-III, B-IV, C-I, D-II",
-          "3": "A-IV, B-III, C-I, D-II",
-          "4": "A-II, B-IV, C-I, D-III"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -5507,6 +6154,154 @@
         "figureKind": null,
         "answerEstimated": false,
         "solutionSource": "authored-ncert (restriction enzymes)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-c4896e5d3f",
+        "sourceYear": 2018,
+        "sourceNumber": 180,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Which of the following characteristics represent 'Inheritance of blood groups' in humans ? a. Dominance b. Co-dominance c. Multiple allele d. Incomplete dominance e. Polygenic inheritance",
+        "options": {
+          "1": "b, d and e",
+          "2": "a, b and c",
+          "3": "b, c and e",
+          "4": "a, c and e"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-57fc8fa3d1",
+        "sourceYear": 2020,
+        "sourceNumber": 3,
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Match the following with respect to meiosis : (a) Zygotene (i) Terminalization (b) Pachytene (ii) Chiasmata (c) Diplotene (iii) Crossing over (d) Diakinesis (iv) Synapsis Select the correct option from the following : \\begin{tabular} { l l l l l } & (a) & (b) & (c) & (d) \\ (1) & (iii) & (iv) & (i) & (ii) \\ $ ( 2 ) $ & (iv) & (iii) & (ii) & (i) \\ $ ( 3 ) $ & (i) & (ii) & (iv) & (iii) \\ $ ( 4 ) $ & (ii) & (iv) & (iii) & (i) \\end{tabular}",
+        "options": {
+          "1": "(iii) (iv) (i) (ii)",
+          "2": "(iv) (iii) (ii) (i)",
+          "3": "(i) (ii) (iv) (iii)",
+          "4": "(ii) (iv) (iii) (i)"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-e766a45544",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Which of the following animals exhibits external fertilisation?",
+        "options": {
+          "1": "Frog",
+          "2": "Dog",
+          "3": "Pigeon",
+          "4": "Elephant"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-2cba27e1e6",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "Which one of the following organisms exhibits external fertilization?",
+        "options": {
+          "1": "Frog",
+          "2": "Hen",
+          "3": "Rabbit",
+          "4": "Dog"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-6c4033180d",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In which phase of meiosis does crossing over between homologous chromosomes occur?",
+        "options": {
+          "1": "Anaphase I",
+          "2": "Metaphase II",
+          "3": "Pachytene",
+          "4": "Telophase I"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-31106a8dcd",
+        "subject": "Biology",
+        "topic": "Genetics & Biotech",
+        "stem": "In which animal does external fertilization typically occur?",
+        "options": {
+          "1": "Frog",
+          "2": "Dog",
+          "3": "Cow",
+          "4": "Human"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
         "placeholder": false,
         "difficulty": "Hard",
         "aiVerified": "strict"

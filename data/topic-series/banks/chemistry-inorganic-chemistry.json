@@ -3,8 +3,8 @@
   "subject": "Chemistry",
   "topic": "Inorganic Chemistry",
   "counts": {
-    "Easy": 58,
-    "Medium": 90,
+    "Easy": 63,
+    "Medium": 81,
     "Hard": 50
   },
   "questions": {
@@ -1430,6 +1430,136 @@
         "placeholder": false,
         "difficulty": "Easy",
         "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-222d860f8b",
+        "sourceYear": 2018,
+        "sourceNumber": 50,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which of the following statements is not true for halogens?",
+        "options": {
+          "1": "All but fluorine show positive oxidation states.",
+          "2": "All are oxidizing agents.",
+          "3": "All form monobasic oxyacids.",
+          "4": "Chlorine has the highest electron-gain enthalpy."
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-cdeda98367",
+        "sourceYear": 2018,
+        "sourceNumber": 59,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which oxide of nitrogen is not a common pollutant introduced into the atmosphere both due to natural and human activity?",
+        "options": {
+          "1": "$ \\mathrm { N } _ { 2 } \\mathrm { O } $",
+          "2": "$ \\mathrm { NO } _ { 2 } $",
+          "3": "$ \\mathrm { N } _ { 2 } \\mathrm { O } _ { 5 } $",
+          "4": "NO"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-010dff2bca",
+        "sourceYear": 2020,
+        "sourceNumber": 116,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which of the following is the correct order of increasing field strength of ligands to form coordination compounds?",
+        "options": {
+          "1": "$ \\mathrm { SCN } ^ { - } < \\mathrm { F } ^ { - } < \\mathrm { C } _ { 2 } \\mathrm { O } _ { 4 } ^ { 2 - } < \\mathrm { CN } ^ { - } $",
+          "2": "$ \\mathrm { SCN } ^ { - } < \\mathrm { F } ^ { - } < \\mathrm { CN } ^ { - } < \\mathrm { C } _ { 2 } \\mathrm { O } _ { 4 } ^ { 2 - } $",
+          "3": "$ \\mathrm { F } ^ { - } < \\mathrm { SCN } ^ { - } < \\mathrm { C } _ { 2 } \\mathrm { O } _ { 4 } ^ { 2 - } < \\mathrm { CN } ^ { - } $",
+          "4": "$ \\mathrm { CN } ^ { - } < \\mathrm { C } _ { 2 } \\mathrm { O } _ { 4 } ^ { 2 - } < \\mathrm { SCN } ^ { - } < \\mathrm { F } ^ { - } $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-41ae24de05",
+        "sourceYear": 2023,
+        "sourceNumber": 67,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The element expected to form largest ion to achieve the nearest noble gas configuration is :",
+        "options": {
+          "1": "Na",
+          "2": "O",
+          "3": "F",
+          "4": "N"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-cfa76239e4",
+        "sourceYear": 2023,
+        "sourceNumber": 89,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The reaction that does NOT take place in a blast furnace between 900 K to 1500 K temperature range during extraction of iron is :",
+        "options": {
+          "1": "$ \\mathrm { CaO } + \\mathrm { SiO } _ { 2 } \\rightarrow \\mathrm { CaSiO } _ { 3 } $",
+          "2": "$ \\mathrm { Fe } _ { 2 } \\mathrm { O } _ { 3 } + \\mathrm { CO } \\rightarrow 2 \\mathrm { FeO } + \\mathrm { CO } _ { 2 } $",
+          "3": "$ \\mathrm { FeO } + \\mathrm { CO } \\rightarrow \\mathrm { Fe } + \\mathrm { CO } _ { 2 } $",
+          "4": "$ \\mathrm { C } + \\mathrm { CO } _ { 2 } \\rightarrow 2 \\mathrm { CO } $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       }
     ],
     "Medium": [
@@ -1575,56 +1705,6 @@
         "correctOption": "1",
         "correctOptions": [
           "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q90",
-        "sourceYear": 2024,
-        "sourceNumber": 86,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Medium",
-        "stem": "A compound X contains 32% of A, 20% of B and remaining percentage of C. Then, the empirical formula of X is : (Given atomic masses of A = 64; B = 40; C = 32 u)",
-        "options": {
-          "1": "ABC3",
-          "2": "AB2C2",
-          "3": "ABC4",
-          "4": "A2BC2"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q163",
-        "sourceYear": 2024,
-        "sourceNumber": 98,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Medium",
-        "stem": "Match List I with List II : List I List II (Sub Phases of Prophase I) (Specific Characters) A. Diakinesis I. Synaptonemal complex formation B. Pachytene II. Completion of terminalisation of chiasmata C. Zygotene III. Chromosomes look like thin threads D. Leptotene IV. Appearance of recombination nodules Choose the correct answer from the options given below",
-        "options": {
-          "1": "A-I, B-II, C-IV, D-III",
-          "2": "A-II, B-IV, C-I, D-III",
-          "3": "A-IV, B-III, C-II, D-I",
-          "4": "A-IV, B-II, C-III, D-I"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -3451,174 +3531,6 @@
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"
-      },
-      {
-        "id": "catch-55d6873e28",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "0.73 g of organic compound on oxidation gave 1.32 g of carbon dioxide. The percentage of carbon in the given compound will be",
-        "options": {
-          "1": "A 4",
-          "2": "32 B 5",
-          "3": "32 C 2",
-          "4": "32 D 9"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-8f96b67995",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "In the Kjeldahl's method for estimation of nitrogen present in a soil sample, ammonia evolved from 0.75 g of sample neutralized 10 mL of 1M H 2 S O 4 . The percentage of nitrogen in the soil is",
-        "options": {
-          "1": "A 3",
-          "2": "33 B 4",
-          "3": "33 C 4",
-          "4": "33 D 3"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-37fa2d168a",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "What is the general outer electronic configuration of s and f block elements?",
-        "options": {
-          "1": "A ns 1-4 and (n-",
-          "2": "f 1-16 (n-",
-          "3": "d 3-10 ns 2 B ns 1-2 and (n-",
-          "4": "f 1-14 (n-"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-ca41ac1b2c",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "The shortest wavelength in hydrogen spectrum of Lyman series when R H = 109678 c m - 1 is",
-        "options": {
-          "1": "A 121",
-          "2": "67 Ã B 100",
-          "3": "7 Ã C 91",
-          "4": "7 Ã D 123"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-3f71a999d6",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "Predict the atomic weight of P , S and Cl",
-        "options": {
-          "1": "A 32,33,3",
-          "2": "5 B 33,34,3",
-          "3": "5 C 31,32,3",
-          "4": "5 D 32,34,3"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "soft"
-      },
-      {
-        "id": "catch-7a5c81e1ae",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "Crystal field stabilization energy for high spin $\\mathrm{d}^4$ octahedral complex is",
-        "options": {
-          "1": "A -",
-          "2": "8 \\Delta_0 B -",
-          "3": "6 \\Delta_0+P C -",
-          "4": "2 \\Delta_{\\circ} D -"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
-      },
-      {
-        "id": "catch-c75b1fd823",
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "stem": "Analysis shows that nickel oxide consists of nickel ion with 96% ions having d 8 configuration and 4% having d 7 configuration. Which amongst the following best represents the formula of the oxide?",
-        "options": {
-          "1": "A N i",
-          "2": "02 O",
-          "3": "00 B N i",
-          "4": "96 O"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
-        "placeholder": false,
-        "difficulty": "Medium",
-        "aiVerified": "strict"
       }
     ],
     "Hard": [
@@ -3648,31 +3560,6 @@
         "placeholder": false
       },
       {
-        "id": "2019-G1-Q105",
-        "sourceYear": 2019,
-        "sourceNumber": 60,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Hard",
-        "stem": "Aluminium chloride in acidified aqueous solution forms a complex ‘A’, in which hybridisation state of Al is ‘B’. What are ‘A’ and ‘B’ respectively ? 3+ 3 2 3+ 3",
-        "options": {
-          "1": "[Al(H 2 O) 6 ] , sp d",
-          "2": "[Al(H 2 O) 4 ] , sp 3+ 2 3+ 2 3",
-          "3": "[Al(H 2 O) 4 ] , dsp",
-          "4": "[Al(H 2 O) 6 ] , d sp"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2020-E1-Q145",
         "sourceYear": 2020,
         "sourceNumber": 69,
@@ -3694,31 +3581,6 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q111",
-        "sourceYear": 2022,
-        "sourceNumber": 61,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Hard",
-        "stem": "Match the catalyst with the pocess : Catalys Process (i) V2O5 (a) The oxidation of ethyne to ethanal (ii) TiCl4 + Al(CH3)3 (b) Polymerisation (iii) PdCl2 (c) Oxidation of SO2 in the manufacture of H2SO4 (iv) Nickel complexes (d) Polymerisation of ethylene",
-        "options": {
-          "1": "(i)– (c), (ii)– (d), (iii)– (a), (iv)– (b)",
-          "2": "(i)– (a), (ii)– (b), (iii)– (c), (iv)– (d)",
-          "3": "(i)– (a), (ii)– (c), (iii)– (b), (iv)– (d)",
-          "4": "(i)– (c), (ii)– (a), (iii)– (d), (iv)– (b)"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
       },
@@ -3764,156 +3626,6 @@
         "correctOption": "2",
         "correctOptions": [
           "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q56",
-        "sourceYear": 2024,
-        "sourceNumber": 55,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Hard",
-        "stem": "Match List I with List II. List I (Complex) List II (Type of isomerism) A. [Co(NH3)5(NO2)]Cl2 I. Solvate isomerism B. [Co(NH3)5(SO4)]Br II. Linkage isomerism C. [Co(NH3)6][Cr(CN)6] III. Ionization isomerism D. [Co(H2O)6]Cl3 IV. Coordination isomerism Choose the correct answer from the options given below:",
-        "options": {
-          "1": "A-I, B-III, C-IV, D-II",
-          "2": "A-I, B-IV, C-III, D-II",
-          "3": "A-II, B-IV, C-III, D-I",
-          "4": "A-II, B-III, C-IV, D-I"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q98",
-        "sourceYear": 2024,
-        "sourceNumber": 94,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Hard",
-        "stem": "Given below are two statements : Statement I : [Co(NH3)6]3+ is a homoleptic complex whereas [Co(NH3)4Cl2]+ is a heteroleptic complex. Statement II : Complex [Co(NH3)6]3+ has only one kind of ligands but [Co(NH3)4Cl2]+ has more than one kind of ligands. In the light of the above statements, choose the correct answer from the options given below.",
-        "options": {
-          "1": "Both Statement I and Statement II are false",
-          "2": "Statement I is true but Statement II is false",
-          "3": "Statement I is false but Statement II is true",
-          "4": "Both Statement I and Statement II are true"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q189",
-        "sourceYear": 2024,
-        "sourceNumber": 99,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Hard",
-        "stem": "Match List I with List II : List I List II A. P wave I. Heart muscles are electrically silent. B. QRS complex II. Depolarisation of ventricles. C. T wave III. Depolarisation of atria. D. T-P gap IV. Repolarisation of ventricles. Choose the correct answer from the options given below :",
-        "options": {
-          "1": "A-III, B-II, C-IV, D-I",
-          "2": "A-II, B-III, C-I, D-IV",
-          "3": "A-IV, B-II, C-I, D-III",
-          "4": "A-I, B-III, C-IV, D-II"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q77",
-        "sourceYear": 2025,
-        "sourceNumber": 74,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Hard",
-        "stem": "Given below are two statements : Statement I: Both [Co(NH3)6]3+ and [CoF6]3– complexes are octahedral but differ in their magnetic behaviour. Statement II: [Co(NH3)6]3+ is diamagnetic whereas [CoF6]3– is paramagnetic. In the light of the above statements, choose the correct answer from the options given below:",
-        "options": {
-          "1": "Both Statement I and Statement II are false",
-          "2": "Statement I is true but Statement II is false",
-          "3": "Statement I is false but Statement II is true",
-          "4": "Both Statement I and Statement II are true - 36 - NEET (UG)-2024 (Code-R1)"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q130",
-        "sourceYear": 2025,
-        "sourceNumber": 97,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Hard",
-        "stem": "Given below are two statements: Statement I : Chromosomes become gradually visible under light microscope during leptotene stage. Statement II : The beginning of diplotene stage is recognized by dissolution of synaptonemal complex. In the light of the above statements, choose the correct answer from the options given below:",
-        "options": {
-          "1": "Both Statement I and Statement II are false",
-          "2": "Statement I is true but Statement II is false",
-          "3": "Statement I is false but Statement II is true",
-          "4": "Both Statement I and Statement II are true"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q198",
-        "sourceYear": 2025,
-        "sourceNumber": 100,
-        "subject": "Chemistry",
-        "topic": "Inorganic Chemistry",
-        "difficulty": "Hard",
-        "stem": "Regarding catalytic cycle of an enzyme action, select the correct sequential steps : A. Substrate enzyme complex formation. B. Free enzyme ready to bind with another substrate. C. Release of products. D. Chemical bonds of the substrate broken. E. Substrate binding to active site. Choose the correct answer from the options given below :",
-        "options": {
-          "1": "A, E, B, D, C",
-          "2": "B, A, C, D, E",
-          "3": "E, D, C, B, A",
-          "4": "E, A, D, C, B"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -4822,6 +4534,200 @@
           "2": "60 g B 1",
           "3": "00 g C 1",
           "4": "00 g D 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-ac80fce02f",
+        "sourceYear": 2023,
+        "sourceNumber": 70,
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Which of the following statements are NOT correct? A. Hydrogen is used to reduce heavy metal oxides to metals. B. Heavy water is used to study reaction mechanism. C. Hydrogen is used to make saturated fats from oils. D. The $ \\mathrm { H } - \\mathrm { H } $ bond dissociation enthalpy is lowest as compared to a single bond between two atoms of any element. E. Hydrogen reduces oxides of metals that are more active than iron. Choose the most appropriate answer from the options given below :",
+        "options": {
+          "1": "A, B, C only",
+          "2": "B, C, D, E only",
+          "3": "B, D only",
+          "4": "D, E only"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-c75b1fd823",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Analysis shows that nickel oxide consists of nickel ion with 96% ions having d 8 configuration and 4% having d 7 configuration. Which amongst the following best represents the formula of the oxide?",
+        "options": {
+          "1": "A N i",
+          "2": "02 O",
+          "3": "00 B N i",
+          "4": "96 O"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-7a5c81e1ae",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Crystal field stabilization energy for high spin $\\mathrm{d}^4$ octahedral complex is",
+        "options": {
+          "1": "A -",
+          "2": "8 \\Delta_0 B -",
+          "3": "6 \\Delta_0+P C -",
+          "4": "2 \\Delta_{\\circ} D -"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-3f71a999d6",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "Predict the atomic weight of P , S and Cl",
+        "options": {
+          "1": "A 32,33,3",
+          "2": "5 B 33,34,3",
+          "3": "5 C 31,32,3",
+          "4": "5 D 32,34,3"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "catch-ca41ac1b2c",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "The shortest wavelength in hydrogen spectrum of Lyman series when R H = 109678 c m - 1 is",
+        "options": {
+          "1": "A 121",
+          "2": "67 Ã B 100",
+          "3": "7 Ã C 91",
+          "4": "7 Ã D 123"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-37fa2d168a",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "What is the general outer electronic configuration of s and f block elements?",
+        "options": {
+          "1": "A ns 1-4 and (n-",
+          "2": "f 1-16 (n-",
+          "3": "d 3-10 ns 2 B ns 1-2 and (n-",
+          "4": "f 1-14 (n-"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-8f96b67995",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "In the Kjeldahl's method for estimation of nitrogen present in a soil sample, ammonia evolved from 0.75 g of sample neutralized 10 mL of 1M H 2 S O 4 . The percentage of nitrogen in the soil is",
+        "options": {
+          "1": "A 3",
+          "2": "33 B 4",
+          "3": "33 C 4",
+          "4": "33 D 3"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-55d6873e28",
+        "subject": "Chemistry",
+        "topic": "Inorganic Chemistry",
+        "stem": "0.73 g of organic compound on oxidation gave 1.32 g of carbon dioxide. The percentage of carbon in the given compound will be",
+        "options": {
+          "1": "A 4",
+          "2": "32 B 5",
+          "3": "32 C 2",
+          "4": "32 D 9"
         },
         "correctOption": "1",
         "correctOptions": [

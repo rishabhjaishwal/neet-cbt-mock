@@ -4,7 +4,7 @@
   "topic": "Modern Physics",
   "counts": {
     "Easy": 57,
-    "Medium": 50,
+    "Medium": 57,
     "Hard": 50
   },
   "questions": {
@@ -2601,47 +2601,43 @@
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"
-      }
-    ],
-    "Hard": [
+      },
       {
-        "id": "2019-G1-Q179",
-        "sourceYear": 2019,
-        "sourceNumber": 44,
+        "id": "hf2021-23eb82274f",
+        "sourceYear": 2021,
+        "sourceNumber": 11,
         "subject": "Physics",
         "topic": "Modern Physics",
-        "difficulty": "Hard",
-        "stem": "The work function of a photosensitive material is 4.0 eV. The longest wavelength of light that can cause photon emission from the substance is (approximately)",
+        "stem": "A nucleus with mass number 240 breaks into two fragments each of mass number 120, the binding energy per nucleon of unfragmented nuclei is 7.6 MeV while that of fragments is 8.5 MeV . The total gain in the Binding Energy in the process is :",
         "options": {
-          "1": "3100 nm",
-          "2": "966 nm",
-          "3": "31 nm",
-          "4": "310 nm"
+          "1": "9.4 MeV",
+          "2": "804 MeV",
+          "3": "216 MeV",
+          "4": "$ \\quad 0.9 \\mathrm { MeV } $"
         },
-        "correctOption": "4",
+        "correctOption": "3",
         "correctOptions": [
-          "4"
+          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       },
       {
-        "id": "2024-R1-Q16",
-        "sourceYear": 2024,
-        "sourceNumber": 13,
+        "id": "rem-Medium-ade8ebb7fc",
         "subject": "Physics",
         "topic": "Modern Physics",
-        "difficulty": "Hard",
-        "stem": "If c is the velocity of light in free space, the correct statements about photon among the following are: A. The energy of a photon is E = hν. B. The velocity of a photon is c. hν C. The momentum of a photon, p = . c D. In a photon-electron collision, both total energy and total momentum are conserved. E. Photon possesses positive charge. Choose the correct answer from the options given below:",
+        "stem": "A photon of energy 107.2 eV strikes a metal with work function 1.5 eV. The maximum KE of photoelectron is",
         "options": {
-          "1": "A, B, C and D only",
-          "2": "A, C and D only",
-          "3": "A, B, D and E only",
-          "4": "A and B only"
+          "1": "105.7 eV",
+          "2": "107.2 eV",
+          "3": "1.5 eV",
+          "4": "0"
         },
         "correctOption": "1",
         "correctOptions": [
@@ -2651,9 +2647,133 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "authored-ncert (KEmax = hv - phi)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       },
+      {
+        "id": "rem-Medium-ed15bc3130",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 107.4 eV strikes a metal with work function 1.5 eV. The maximum KE of photoelectron is",
+        "options": {
+          "1": "105.9 eV",
+          "2": "107.4 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hv - phi)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Medium-2e63b1b518",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 107.60000000000001 eV strikes a metal with work function 1.5 eV. The maximum KE of photoelectron is",
+        "options": {
+          "1": "106.1 eV",
+          "2": "107.6 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hv - phi)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Medium-ed530d7046",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 107.80000000000001 eV strikes a metal with work function 1.5 eV. The maximum KE of photoelectron is",
+        "options": {
+          "1": "106.3 eV",
+          "2": "107.8 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hv - phi)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Medium-2b7ef0c5f2",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 108 eV strikes a metal with work function 1.5 eV. The maximum KE of photoelectron is",
+        "options": {
+          "1": "106.5 eV",
+          "2": "108.0 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hv - phi)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Medium-8982147057",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 108.2 eV strikes a metal with work function 1.5 eV. The maximum KE of photoelectron is",
+        "options": {
+          "1": "106.7 eV",
+          "2": "108.2 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hv - phi)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      }
+    ],
+    "Hard": [
       {
         "id": "catch-f200c26a1f",
         "subject": "Physics",
@@ -3802,6 +3922,56 @@
         "figureKind": null,
         "answerEstimated": false,
         "solutionSource": "authored-ncert (φ = hν₀)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Medium-9805bd11f9",
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "A photon of energy 108.4 eV strikes a metal with work function 1.5 eV. The maximum KE of photoelectron is",
+        "options": {
+          "1": "106.9 eV",
+          "2": "108.4 eV",
+          "3": "1.5 eV",
+          "4": "0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (KEmax = hv - phi)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-8c87abc509",
+        "sourceYear": 2020,
+        "sourceNumber": 156,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "stem": "For transistor action, which of the following statements is correct?",
+        "options": {
+          "1": "Base, emitter and collector regions should have same doping concentrations.",
+          "2": "Base, emitter and collector regions should have same size.",
+          "3": "Both emitter junction as well as the collector junction are forward biased.",
+          "4": "The base region must be very thin and lightly doped."
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
         "placeholder": false,
         "difficulty": "Hard",
         "aiVerified": "strict"

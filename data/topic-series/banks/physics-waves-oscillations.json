@@ -4,7 +4,7 @@
   "topic": "Waves & Oscillations",
   "counts": {
     "Easy": 54,
-    "Medium": 50,
+    "Medium": 53,
     "Hard": 50
   },
   "questions": {
@@ -1421,56 +1421,6 @@
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q147",
-        "sourceYear": 2022,
-        "sourceNumber": 9,
-        "subject": "Physics",
-        "topic": "Waves & Oscillations",
-        "difficulty": "Medium",
-        "stem": "The distance covered by a particle undergoing SHM in one time period is (amplitude = A),",
-        "options": {
-          "1": "zero",
-          "2": "A",
-          "3": "2 A",
-          "4": "4 A"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q190",
-        "sourceYear": 2022,
-        "sourceNumber": 45,
-        "subject": "Physics",
-        "topic": "Waves & Oscillations",
-        "difficulty": "Medium",
-        "stem": "A proton and an α-particle are accelerated from rest to the same energy. The de Broglie wavelength λp and λα are in the ratio :",
-        "options": {
-          "1": "2 : 1",
-          "2": "1 : 1",
-          "3": "2 :1",
-          "4": "4 : 1"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2023-F1-Q33",
         "sourceYear": 2023,
         "sourceNumber": 32,
@@ -2569,6 +2519,134 @@
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-dd5c0bf6a2",
+        "sourceYear": 2018,
+        "sourceNumber": 2,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "The fundamental frequency in an open organ pipe is equal to the third harmonic of a closed organ pipe. If the length of the closed organ pipe is 20 cm , the length of the open organ pipe is",
+        "options": {
+          "1": "12.5 cm",
+          "2": "8 cm",
+          "3": "$ 13 \\cdot 2 \\mathrm{~cm} $",
+          "4": "16 cm"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-f9ab52acc7",
+        "sourceYear": 2020,
+        "sourceNumber": 137,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "The ratio of contributions made by the electric field and magnetic field components to the intensity of an electromagnetic wave is : (c=speed of electromagnetic waves)",
+        "options": {
+          "1": "$ \\mathrm { c } : 1 $",
+          "2": "$ 1 : 1 $",
+          "3": "$ 1 : \\mathrm { c } $",
+          "4": "$ 1 : c ^ { 2 } $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-156035dd0a",
+        "sourceYear": 2020,
+        "sourceNumber": 168,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Assume that light of wavelength 600 nm is coming from a star. The limit of resolution of telescope whose objective has a diameter of 2 m is :",
+        "options": {
+          "1": "$ 3.66 \\times 10 ^ { - 7 } \\mathrm { rad } $",
+          "2": "$ 1.83 \\times 10 ^ { - 7 } \\mathrm { rad } $",
+          "3": "$ 7.32 \\times 10 ^ { - 7 } \\mathrm { rad } $",
+          "4": "$ 6.00 \\times 10 ^ { - 7 } \\mathrm { rad } $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-8ecedbb28b",
+        "sourceYear": 2023,
+        "sourceNumber": 23,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "A full wave rectifier circuit consists of two p-n junction diodes, a centre-tapped transformer, capacitor and a load resistance. Which of these components remove the ac ripple from the rectified output?",
+        "options": {
+          "1": "Load resistance",
+          "2": "A centre-tapped transformer",
+          "3": "p-n junction diodes",
+          "4": "Capacitor"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-262d3090e6",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "Assume that light of wavelength 600 nm is coming from a star. The limit of resolution of telescope whose objective has a diameter of 2 m is:",
+        "options": {
+          "1": "A 1 .83 × 10 − 7 rad",
+          "2": "32 × 10 − 7 rad",
+          "3": "00 × 10 − 7 rad",
+          "4": "66 × 10 − 7 rad"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       }
     ],
     "Hard": [
@@ -2598,56 +2676,6 @@
         "placeholder": false
       },
       {
-        "id": "2019-G1-Q132",
-        "sourceYear": 2019,
-        "sourceNumber": 1,
-        "subject": "Physics",
-        "topic": "Waves & Oscillations",
-        "difficulty": "Hard",
-        "stem": "In hydrogen atom, the de Broglie wavelength of an electron in the second Bohr orbit is: [Given that Bohr radius, a0 = 52.9 pm]",
-        "options": {
-          "1": "211.6 pm",
-          "2": "211.6 π pm",
-          "3": "52.9 π pm",
-          "4": "105.8 pm"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q178",
-        "sourceYear": 2019,
-        "sourceNumber": 43,
-        "subject": "Physics",
-        "topic": "Waves & Oscillations",
-        "difficulty": "Hard",
-        "stem": "Angular width of the central maximum in the Fraunhofer diffraction for λ = 6000 Å is θ0. When the same slit is illuminated by another monochromatic light, the angular width decreases by 30%. The wavelength of this light is :",
-        "options": {
-          "1": "1800 Å",
-          "2": "4200 Å",
-          "3": "6000 Å",
-          "4": "420 Å"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2020-E1-Q95",
         "sourceYear": 2020,
         "sourceNumber": 11,
@@ -2669,31 +2697,6 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q158",
-        "sourceYear": 2022,
-        "sourceNumber": 15,
-        "subject": "Physics",
-        "topic": "Waves & Oscillations",
-        "difficulty": "Hard",
-        "stem": "An LED is constructed from a p-n junction diode using GaAsP. The energy gap is 1.9 eV. The wavelength of the light emitted will be equal to –26 –11",
-        "options": {
-          "1": "10.4 × 10 m",
-          "2": "654 nm",
-          "3": "654 Å",
-          "4": "654 × 10 m"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
       },
@@ -3777,6 +3780,82 @@
         "figureKind": null,
         "answerEstimated": false,
         "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-f1a27a97c3",
+        "sourceYear": 2023,
+        "sourceNumber": 29,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "In hydrogen spectrum, the shortest wavelength in the Balmer series is $ \\lambda $. The shortest wavelength in the Bracket series is :",
+        "options": {
+          "1": "$ 16 \\lambda $",
+          "2": "$ 2 \\lambda $",
+          "3": "$ 4 \\lambda $",
+          "4": "$ 9 \\lambda $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-0cd27bf40f",
+        "sourceYear": 2023,
+        "sourceNumber": 24,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "An ac source is connected to a capacitor C. Due to decrease in its operating frequency:",
+        "options": {
+          "1": "capacitive reactance remains constant",
+          "2": "capacitive reactance decreases",
+          "3": "displacement current increases",
+          "4": "displacement current decreases"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-c750820c89",
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "stem": "The amplitude of the charge oscillating in a circuit decreases exponentially as $Q=Q_0 e^{-R t 2 L}$, where $Q_0$ is the charge at $t=0 \\mathrm{~s}$. The time at which charge amplitude decreases to $0.50 Q_0$ is nearly: [Given that $R=1.5 \\Omega, L=12 \\mathrm{mH}, \\ln (2)=0.693$ ]",
+        "options": {
+          "1": "A 1",
+          "2": "01 ms B 1",
+          "3": "09 ms C 1",
+          "4": "01 s D 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace/datavorous)",
         "placeholder": false,
         "difficulty": "Hard",
         "aiVerified": "strict"

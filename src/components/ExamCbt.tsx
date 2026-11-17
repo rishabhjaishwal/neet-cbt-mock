@@ -17,6 +17,7 @@ import {
   ExamQuestionPaperPanel,
   ExamSubmitSummaryPanel,
 } from "@/components/ExamParityPanels";
+import { ExamPdfPaperPanel } from "@/components/ExamPdfPaperPanel";
 import { buildAttemptLimitInfo, paletteStatus } from "@/lib/attempt-rules";
 import { t, type Lang } from "@/lib/i18n";
 
@@ -58,6 +59,9 @@ type Props = {
   questions: Q[];
   attemptLimit?: number;
   totalQuestions?: number;
+  /** Public URL for year booklet PDF (`/papers/neet-YYYY.pdf`). */
+  paperPdfUrl?: string | null;
+  durationMinutes?: number;
   initialScreenSwitchCount?: number;
   initialQuestionIndex?: number;
   initialSubjectFilter?: SubjectFilter;
@@ -131,6 +135,8 @@ export function ExamCbt({
   questions: initial,
   attemptLimit = 180,
   totalQuestions = 180,
+  paperPdfUrl = null,
+  durationMinutes: durationMinutesProp,
   initialScreenSwitchCount = 0,
   initialQuestionIndex = 0,
   initialSubjectFilter = "ALL",
@@ -192,6 +198,7 @@ export function ExamCbt({
   const [instructionsAck, setInstructionsAck] = useState(false);
   const [instructionsRequired, setInstructionsRequired] = useState(true);
   const [showQuestionPaper, setShowQuestionPaper] = useState(false);
+  const [showPdfPaper, setShowPdfPaper] = useState(false);
   const [showSubmitSummary, setShowSubmitSummary] = useState(false);
   const [paletteCollapsed, setPaletteCollapsed] = useState(false);
   const [mobilePaletteOpen, setMobilePaletteOpen] = useState(false);
@@ -920,10 +927,12 @@ export function ExamCbt({
     instructionsOpen ||
     showLockPopup ||
     showQuestionPaper ||
+    showPdfPaper ||
     showSubmitSummary ||
     mobilePaletteOpen;
 
-  const durationMinutes = totalQuestions >= 200 ? 200 : 180;
+  const durationMinutes =
+    durationMinutesProp ?? (totalQuestions >= 200 ? 200 : 180);
 
   if (!current) return null;
 
@@ -1062,6 +1071,16 @@ export function ExamCbt({
         />
       )}
 
+      {showPdfPaper && paperPdfUrl && (
+        <ExamPdfPaperPanel
+          year={year}
+          pdfUrl={paperPdfUrl}
+          title={title}
+          closeLabel={i18n.viewPaperClose}
+          onClose={() => setShowPdfPaper(false)}
+        />
+      )}
+
       {showQuestionPaper && (
         <ExamQuestionPaperPanel
           i18n={i18n}
@@ -1103,6 +1122,15 @@ export function ExamCbt({
           >
             {i18n.instructionsReopen}
           </button>
+          {paperPdfUrl ? (
+            <button
+              type="button"
+              className="cbt-btn cbt-btn-sm cbt-btn-ghost-toolbar"
+              onClick={() => setShowPdfPaper(true)}
+            >
+              {i18n.viewPaper}
+            </button>
+          ) : null}
           <button
             type="button"
             className="cbt-btn cbt-btn-sm cbt-btn-ghost-toolbar cbt-hide-sm"
@@ -1180,7 +1208,16 @@ export function ExamCbt({
             </button>
             <span className="text-[11px] text-slate-400">{i18n.keyboardHint}</span>
           </div>
-          <div className="mb-2 flex lg:hidden">
+          <div className="mb-2 flex flex-wrap gap-2 lg:hidden">
+            {paperPdfUrl ? (
+              <button
+                type="button"
+                className="cbt-btn cbt-btn-sm cbt-btn-primary"
+                onClick={() => setShowPdfPaper(true)}
+              >
+                {i18n.viewPaper}
+              </button>
+            ) : null}
             <button
               type="button"
               className="cbt-btn cbt-btn-sm cbt-btn-secondary"

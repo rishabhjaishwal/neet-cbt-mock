@@ -3,9 +3,9 @@
   "subject": "Chemistry",
   "topic": "Physical Chemistry",
   "counts": {
-    "Easy": 58,
+    "Easy": 60,
     "Medium": 333,
-    "Hard": 58
+    "Hard": 54
   },
   "questions": {
     "Easy": [
@@ -1461,6 +1461,58 @@
         "placeholder": false,
         "difficulty": "Easy",
         "aiVerified": "soft"
+      },
+      {
+        "id": "hf2023-762bdbe2c5",
+        "sourceYear": 2023,
+        "sourceNumber": 65,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "stem": "Amongst the given options which of the following molecules / ion acts as a Lewis acid?",
+        "options": {
+          "1": "$ \\mathrm { OH } ^ { - } $",
+          "2": "$ \\mathrm { NH } _ { 3 } $",
+          "3": "$ \\mathrm { H } _ { 2 } \\mathrm { O } $",
+          "4": "$ \\mathrm { BF } _ { 3 } $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-c5da667943",
+        "sourceYear": 2023,
+        "sourceNumber": 76,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "stem": "Homoleptic complex from the following complexes is :",
+        "options": {
+          "1": "Triamminetriaquachromium (III) chloride",
+          "2": "Potassium trioxalatoaluminate (III)",
+          "3": "Diamminechloridonitrito - N platinum (II)",
+          "4": "Pentaamminecarbonatocobalt (III) chloride"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       }
     ],
     "Medium": [
@@ -1956,106 +2008,6 @@
         "correctOption": "3",
         "correctOptions": [
           "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q53",
-        "sourceYear": 2025,
-        "sourceNumber": 53,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Medium",
-        "stem": "Which reaction is NOT a redox reaction?",
-        "options": {
-          "1": "2KClO3 + I2 → 2KIO3 + Cl2",
-          "2": "H2 + Cl2 → 2HCl",
-          "3": "BaCl2 + Na2SO4 → BaSO4 + 2NaCl",
-          "4": "Zn + CuSO4 → ZnSO4 + Cu"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q78",
-        "sourceYear": 2025,
-        "sourceNumber": 75,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Medium",
-        "stem": "1 gram of sodium hydroxide was treated with 25 mL of 0.75 M HCl solution, the mass of sodium hydroxide left unreacted is equal to",
-        "options": {
-          "1": "250 mg",
-          "2": "Zero mg",
-          "3": "200 mg",
-          "4": "750 mg"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q83",
-        "sourceYear": 2025,
-        "sourceNumber": 80,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Medium",
-        "stem": "Match List I with List II List I List II (Quantum Number) (Information provided) A. ml I. Shape of orbital B. ms II. Size of orbital C. l III. Orientation of orbital D. n IV. Orientation of spin of electron Choose the correct answer from the options given below :",
-        "options": {
-          "1": "A-III, B-IV, C-I, D-II",
-          "2": "A-III, B-IV, C-II, D-I",
-          "3": "A-II, B-I, C-IV, D-III",
-          "4": "A-I, B-III, C-II, D-IV"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q99",
-        "sourceYear": 2025,
-        "sourceNumber": 95,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Medium",
-        "stem": "The plot of osmotic pressure (Π) vs concentration (mol L–1) for a solution gives a straight line with slope 25.73 L bar mol–1. The temperature at which the osmotic pressure measurement is done is (Use R = 0.083 L bar mol–1 K–1)",
-        "options": {
-          "1": "310°C",
-          "2": "25.73°C",
-          "3": "12.05°C",
-          "4": "37°C"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -9503,6 +9455,108 @@
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-01b4f08286",
+        "sourceYear": 2021,
+        "sourceNumber": 51,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "stem": "Choose the correct option for graphical representation of Boyle's law, which shows a graph of pressure vs. volume of a gas at different temperatures:",
+        "options": {
+          "1": "image_600.png",
+          "2": "image_601.png",
+          "3": "image_602.png",
+          "4": "image_603.png"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-c5cff977b9",
+        "sourceYear": 2023,
+        "sourceNumber": 77,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "stem": "Intermolecular forces are forces of attraction and repulsion between interacting particles that will include : A. dipole - dipole forces. B. dipole - induced dipole forces. C. hydrogen bonding. D. covalent bonding. E. dispersion forces. Choose the most appropriate answer from the options given below :",
+        "options": {
+          "1": "A, C, D, E are correct.",
+          "2": "B, C, D, E are correct.",
+          "3": "A, B , C, D are correct.",
+          "4": "A, B, C, E are correct."
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-fe3dd67b09",
+        "sourceYear": 2023,
+        "sourceNumber": 83,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "stem": "Weight (g) of two moles of the organic compound, which is obtained by heating sodium ethanoate with sodium hydroxide in presence of calcium oxide is :",
+        "options": {
+          "1": "18",
+          "2": "16",
+          "3": "32",
+          "4": "30"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-b13be2fe8a",
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "stem": "Which will make basic buffer?",
+        "options": {
+          "1": "A 50 Â m L Â o f Â",
+          "2": "1 Â M Â N a O H + 25 Â m L Â o f Â",
+          "3": "1 Â M Â C H 3 C O O H B 100 m L o f",
+          "4": "1 M C H 3 C O O H + 100 m L o f"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       }
     ],
     "Hard": [
@@ -9948,156 +10002,6 @@
         "correctOption": "1",
         "correctOptions": [
           "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q66",
-        "sourceYear": 2024,
-        "sourceNumber": 64,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Hard",
-        "stem": "Fehling’s solution ‘A’ is",
-        "options": {
-          "1": "alkaline copper sulphate",
-          "2": "alkaline solution of sodium potassium tartrate (Rochelle’s salt)",
-          "3": "aqueous sodium citrate",
-          "4": "aqueous copper sulphate"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q82",
-        "sourceYear": 2024,
-        "sourceNumber": 79,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Hard",
-        "stem": "Arrange the following elements in increasing order of electronegativity: N, O, F, C, Si Choose the correct answer from the options given below:",
-        "options": {
-          "1": "Si < C < O < N < F",
-          "2": "O < F < N < C < Si",
-          "3": "F < O < N < C < Si",
-          "4": "Si < C < N < O < F"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q96",
-        "sourceYear": 2024,
-        "sourceNumber": 92,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Hard",
-        "stem": "Mass in grams of copper deposited by passing 9.6487 A current through a voltmeter containing copper sulphate solution for 100 seconds is (Given : Molar mass of Cu : 63 g mol–1, 1 F = 96487 C)",
-        "options": {
-          "1": "0.315 g",
-          "2": "31.5 g",
-          "3": "0.0315 g",
-          "4": "3.15 g"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q62",
-        "sourceYear": 2025,
-        "sourceNumber": 60,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Hard",
-        "stem": "Given below are two statements: Statement I : The boiling point of three isomeric pentanes follows the order n-pentane > isopentane > neopentane Statement II : When branching increases, the molecule attains a shape of sphere. This results in smaller surface area for contact, due to which the intermolecular forces between the spherical molecules are weak, thereby lowering the boiling point. In the light of the above statements, choose the most appropriate answer from the options given below:",
-        "options": {
-          "1": "Both Statement I and Statement II are incorrect",
-          "2": "Statement I is correct but Statement II is incorrect",
-          "3": "Statement I is incorrect but Statement II is correct",
-          "4": "Both Statement I and Statement II are correct"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q80",
-        "sourceYear": 2025,
-        "sourceNumber": 77,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Hard",
-        "stem": "Arrange the following elements in increasing order of first ionization enthalpy: Li, Be, B, C, N Choose the correct answer from the options given below:",
-        "options": {
-          "1": "Li < B < Be < C < N",
-          "2": "Li < Be < C < B < N",
-          "3": "Li < Be < N < B < C",
-          "4": "Li < Be < B < C < N"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q94",
-        "sourceYear": 2025,
-        "sourceNumber": 90,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Hard",
-        "stem": "During the preparation of Mohr’s salt solution (Ferrous ammonium sulphate), which of the following acid is added to prevent hydrolysis of Fe2+ ion?",
-        "options": {
-          "1": "concentrated sulphuric acid",
-          "2": "dilute nitric acid",
-          "3": "dilute sulphuric acid",
-          "4": "dilute hydrochloric acid"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -10909,6 +10813,56 @@
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
         "stem": "NEET-style Physical Chemistry concept check number 1065: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Physical Chemistry holds",
+          "2": "Physical Chemistry is outside the NEET syllabus",
+          "3": "Physical Chemistry has no defined terms",
+          "4": "All options above deny Chemistry"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Physical Chemistry NCERT)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "soft"
+      },
+      {
+        "id": "hf2023-7e24609e61",
+        "sourceYear": 2023,
+        "sourceNumber": 52,
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "stem": "Given below are two statements : one is labelled as Assertion A and the other is labelled as Reason R : Assertion A : Metallic sodium dissolves in liquid ammonia giving a deep blue solution, which is paramagnetic. Reasons $ \\mathbf { R } $ : The deep blue solution is due to the formation of amide.",
+        "options": {
+          "1": "$ \\mathbf { A } $ is false but $ \\mathbf { R } $ is true.",
+          "2": "Both $ \\mathbf { A } $ and $ \\mathbf { R } $ are true and $ \\mathbf { R } $ is the correct explanation of $ \\mathbf { A } $.",
+          "3": "Both $ \\mathbf { A } $ and $ \\mathbf { R } $ are true but $ \\mathbf { R } $ is NOT the correct explanation of $ \\mathbf { A } $.",
+          "4": "$ \\mathbf { A } $ is true but $ \\mathbf { R } $ is false."
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-46c92b8ec1",
+        "subject": "Chemistry",
+        "topic": "Physical Chemistry",
+        "stem": "NEET-style Physical Chemistry concept check number 1054: which statement is correct?",
         "options": {
           "1": "Standard NCERT statement for Physical Chemistry holds",
           "2": "Physical Chemistry is outside the NEET syllabus",

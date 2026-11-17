@@ -5,7 +5,7 @@
   "counts": {
     "Easy": 84,
     "Medium": 116,
-    "Hard": 67
+    "Hard": 61
   },
   "questions": {
     "Easy": [
@@ -810,56 +810,6 @@
         "placeholder": false
       },
       {
-        "id": "2019-G1-Q141",
-        "sourceYear": 2019,
-        "sourceNumber": 6,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "An object kept in a large room having air temperature of 25ºC takes 12 minutes to cool from 80ºC to 70ºC. The time taken to cool for the same object from 70º to 60ºC would be nearly,",
-        "options": {
-          "1": "10 min",
-          "2": "12 min",
-          "3": "20 min",
-          "4": "15 min"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q144",
-        "sourceYear": 2019,
-        "sourceNumber": 9,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "A person standing on the floor of an elevator drops a coin. The coin reaches the floor in time t1 if the elevator is moving uniformly. Then",
-        "options": {
-          "1": "t1 < t2 or t1 > t2 depending upon whether the lift is going up or down",
-          "2": "t1 < t2",
-          "3": "t1 > t2",
-          "4": "t1 = t2"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2019-G1-Q152",
         "sourceYear": 2019,
         "sourceNumber": 17,
@@ -1201,56 +1151,6 @@
         "correctOption": "2",
         "correctOptions": [
           "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q191",
-        "sourceYear": 2022,
-        "sourceNumber": 46,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "The production of gametes by the parents, formation of zygotes, the F1 and F2 plants, can be understood from a diagram called :",
-        "options": {
-          "1": "Net square",
-          "2": "Bullet square",
-          "3": "Punch square",
-          "4": "Punnett square"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q198",
-        "sourceYear": 2022,
-        "sourceNumber": 49,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "Match List - I with List - II. List - I List - II (a) Lenticels (i) Phellogen (b) Cork cambium (ii) Suberin deposition (c) Secondary cortex (iii) Exchange of gases (d) Cork (iv) Phelloderm Choose the correct answer from the options given below. (a) (b) (c) (d)",
-        "options": {
-          "1": "(iv) (ii) (i) (iii)",
-          "2": "(iv) (i) (iii) (ii)",
-          "3": "(iii) (i) (iv) (ii)",
-          "4": "(ii) (iii) (iv) (i)"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -2129,6 +2029,110 @@
         "placeholder": false,
         "difficulty": "Easy",
         "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-e3fed449a4",
+        "sourceYear": 2018,
+        "sourceNumber": 33,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "Which one of the following statements is incorrect?",
+        "options": {
+          "1": "Frictional force opposes the relative motion.",
+          "2": "Limiting value of static friction is directly proportional to normal reaction.",
+          "3": "Rolling friction is smaller than sliding friction.",
+          "4": "Coefficient of sliding friction has dimensions of length."
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-2ccd9a39e3",
+        "sourceYear": 2023,
+        "sourceNumber": 11,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The errors in the measurement which arise due to unpredictable fluctuations in temperature and voltage supply are :",
+        "options": {
+          "1": "Random errors",
+          "2": "Instrumental errors",
+          "3": "Personal errors",
+          "4": "Least count errors"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-878d212f8f",
+        "sourceYear": 2023,
+        "sourceNumber": 18,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The ratio of frequencies of fundamental harmonic produced by an open pipe to that of closed pipe having the same length is :",
+        "options": {
+          "1": "$ 3 : 1 $",
+          "2": "$ 1 : 2 $",
+          "3": "$ 2 : 1 $",
+          "4": "$ 1 : 3 $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-4e59b4e29a",
+        "sourceYear": 2023,
+        "sourceNumber": 32,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The venturi-meter works on :",
+        "options": {
+          "1": "The principle of perpendicular axes",
+          "2": "Huygen's principle",
+          "3": "Bernoulli's principle",
+          "4": "The principle of parallel axes"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       }
     ],
     "Medium": [
@@ -2958,31 +2962,6 @@
         "placeholder": false
       },
       {
-        "id": "2019-G1-Q146",
-        "sourceYear": 2019,
-        "sourceNumber": 11,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "In a u-tube as shown in the figure water and oil are in the left side and right side of the tube respectively. The heights from the bottom for water and oil columns are 15 cm and 20 cm respectively. The density of the oil is: 3 [take ρwater = 1000 kg/m ] 3 3 3 3",
-        "options": {
-          "1": "1200 kg/m",
-          "2": "750 kg/m",
-          "3": "1000 kg/m",
-          "4": "1333 kg/m"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2019-G1-Q146.png",
-        "figureKind": "pdf-crop",
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2019-G1-Q154",
         "sourceYear": 2019,
         "sourceNumber": 19,
@@ -2999,56 +2978,6 @@
         "correctOption": "1",
         "correctOptions": [
           "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q159",
-        "sourceYear": 2019,
-        "sourceNumber": 24,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "A solid cylinder of mass 2 kg and radius 50 cm rolls up an inclined plane of angle of inclination 30º. The centre of mass of the cylinder has speed of 4 m/s. The distance travelled by the cylinder on the inclined 2 surface will be, [take g = 10 m/s ]",
-        "options": {
-          "1": "2.2 m",
-          "2": "1.6 m",
-          "3": "1.2 m",
-          "4": "2.4 m"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q172",
-        "sourceYear": 2019,
-        "sourceNumber": 37,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "A sphere encloses an electric dipole with charges ± 3 × 10 C. What is the total electric flux across the sphere? –6 –6 2 –6 2",
-        "options": {
-          "1": "3 × 10",
-          "2": "Zero",
-          "3": "3 × 10 Nm /C",
-          "4": "6 × 10 Nm /C"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -3299,56 +3228,6 @@
         "correctOption": "3",
         "correctOptions": [
           "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q194",
-        "sourceYear": 2022,
-        "sourceNumber": 47,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "Match List - I with List - II. List - I List - II (a) Lenticels (i) Phellogen (b) Cork cambium (ii) Suberin deposition (c) Secondary cortex (iii) Exchange of gases (d) Cork (iv) Phelloderm Choose the correct answer from the options given below. (a) (b) (c) (d)",
-        "options": {
-          "1": "(iii) (i) (iv) (ii)",
-          "2": "(ii) (iii) (iv) (i)",
-          "3": "(iv) (ii) (i) (iii)",
-          "4": "(iv) (i) (iii) (ii)"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q200",
-        "sourceYear": 2022,
-        "sourceNumber": 50,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "The amount of nutrients, such as carbon, nitrogen, phosphorus and calcium present in the soil at any given time, is referred as :",
-        "options": {
-          "1": "Climax",
-          "2": "Climax community",
-          "3": "Standing state",
-          "4": "Standing crop"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -5060,6 +4939,136 @@
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-0c5a2d6c01",
+        "sourceYear": 2018,
+        "sourceNumber": 8,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "Unpolarised light is incident from air on a plane surface of a material of refractive index ' $ \\mu $ '. At a particular angle of incidence ' i ', it is found that the reflected and refracted rays are perpendicular to each other. Which of the following options is correct for this situation?",
+        "options": {
+          "1": "$ \\quad \\mathrm { i } = \\sin ^ { - 1 } \\left( \\frac { 1 } { \\mu } \\right) $",
+          "2": "Reflected light is polarised with its electric vector perpendicular to the plane of incidence",
+          "3": "Reflected light is polarised with its electric vector parallel to the plane of incidence",
+          "4": "$ \\quad \\mathrm { i } = \\tan ^ { - 1 } \\left( \\frac { 1 } { \\mu } \\right) $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-0fcaa6de2b",
+        "sourceYear": 2018,
+        "sourceNumber": 37,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "A student measured the diameter of a small steel ball using a screw gauge of least count 0.001 cm . The main scale reading is 5 mm and zero of circular scale division coincides with 25 divisions above the reference level. If screw gauge has a zero error of - 0.004 cm , the correct diameter of the ball is",
+        "options": {
+          "1": "0.053 cm",
+          "2": "0.525 cm",
+          "3": "0.521 cm",
+          "4": "0.529 cm"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-468ededa17",
+        "sourceYear": 2018,
+        "sourceNumber": 38,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "A solid sphere is rotating freely about its symmetry axis in free space. The radius of the sphere is increased keeping its mass same. Which of the following physical quantities would remain constant for the sphere?",
+        "options": {
+          "1": "Rotational kinetic energy",
+          "2": "Moment of inertia",
+          "3": "Angular velocity",
+          "4": "Angular momentum"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-050f00d346",
+        "sourceYear": 2023,
+        "sourceNumber": 28,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The potential energy of a long spring when stretched by 2 cm is U . If the spring is stretched by 8 cm , potential energy stored in it will be :",
+        "options": {
+          "1": "16 U",
+          "2": "2 U",
+          "3": "4 U",
+          "4": "8 U"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-ffda862c72",
+        "sourceYear": 2023,
+        "sourceNumber": 30,
+        "subject": "Physics",
+        "topic": "Physics General",
+        "stem": "The equivalent capacitance of the system shown in the following circuit is :",
+        "options": {
+          "1": "$ 9 \\mu \\mathrm{~F} $",
+          "2": "$ 2 \\mu \\mathrm{~F} $",
+          "3": "$ 3 \\mu \\mathrm{~F} $",
+          "4": "$ 6 \\mu \\mathrm{~F} $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       }
     ],
     "Hard": [
@@ -5839,106 +5848,6 @@
         "placeholder": false
       },
       {
-        "id": "2019-G1-Q140",
-        "sourceYear": 2019,
-        "sourceNumber": 5,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "( ) An object flying in air with velocity 20 î + 25 ĵ – 12k̂ suddenly breaks into two pieces whose masses ( ) are in the ratio 1 : 5. The smaller mass flies off with a velocity 100 î + 35 ĵ + 8k̂ . The velocity of the larger piece will be.",
-        "options": {
-          "1": "4 î + 23 ĵ – 16k̂",
-          "2": "100 î – 35 ĵ – 8k̂",
-          "3": "20 î + 15 ĵ – 80k̂",
-          "4": "20 î – 15 ĵ – 80k̂"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q155",
-        "sourceYear": 2019,
-        "sourceNumber": 20,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "The stress-strain curves are drawn for two different materials X and Y. It is observed that the ultimate strength point and the fracture point are close to each other for material X but are far apart for material Y. We can say the materials X and Y are likely to be (respectivley),",
-        "options": {
-          "1": "ductile and brittle",
-          "2": "brittle and ductile",
-          "3": "brittle and plastic",
-          "4": "plastic and ductile"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q163",
-        "sourceYear": 2019,
-        "sourceNumber": 28,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "The radius of the first permitted Bohr orbit, for the electron, in a hydrogen atom equals 0.51Å and its – ground state energy equals –13.6 eV. If the electron in the hydrogen atom is replaced by muon (μ ) [charge same as electron and mass 207 me], the first Bohr radius and ground state energy will be –13 –13",
-        "options": {
-          "1": "0.53 × 10 m, – 3.6 eV",
-          "2": "25.6 × 10 m, – 2.8 eV –13 –13",
-          "3": "2.56 × 10 m, – 2.8 keV",
-          "4": "2.56 × 10 m, – 13.6 eV"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q174",
-        "sourceYear": 2019,
-        "sourceNumber": 39,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "The main scale of a vermier calipers has n divisions/cm. n division of the vermier scale coincide with (n – 1) divisions of main scale. The least count of the vernier calipers is : 1 1 1 1 cm cm",
-        "options": {
-          "1": "(n + 1)(n − 1)",
-          "2": "n cm",
-          "3": "n2 cm",
-          "4": "n(n + 1)"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2020-E1-Q2",
         "sourceYear": 2020,
         "sourceNumber": 2,
@@ -6210,56 +6119,6 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q181",
-        "sourceYear": 2022,
-        "sourceNumber": 36,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "For a transparent medium, relative permeability and permittivity, μr and ∈r are 1.0 and 1.44 respectively. The velocity of light in this medium would be : 8 8 8 8",
-        "options": {
-          "1": "2.5 × 10",
-          "2": "3 × 10",
-          "3": "2.08 × 10 m/s",
-          "4": "4.32 × 10 m/s"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q195",
-        "sourceYear": 2022,
-        "sourceNumber": 48,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "Match List - I with List - II. List - I List - II Cells with active cell Vascular (a) (i) division capacity tissues Tissue having all cells Meristematic (b) similar in structure (ii) tissue and function Tissue having (c) (iii) Sclereids different types of cells Dead cells with highly (d) thickened walls and (iv) Simple tissue narrow lumen Select the correct answer from the options given below. (a) (b) (c) (d)",
-        "options": {
-          "1": "(i) (ii) (iii) (iv)",
-          "2": "(iii) (ii) (iv) (i)",
-          "3": "(ii) (iv) (i) (iii)",
-          "4": "(iv) (iii) (ii) (i)"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
       },

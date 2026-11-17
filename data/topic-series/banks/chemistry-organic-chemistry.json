@@ -1260,31 +1260,6 @@
     ],
     "Medium": [
       {
-        "id": "2019-G1-Q92",
-        "sourceYear": 2019,
-        "sourceNumber": 47,
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "difficulty": "Medium",
-        "stem": "The amine that reacts with Hinsberg's reagent to give an alkali insoluble product is - CH3–CH–NH–CH–CH3 CH2CH3",
-        "options": {
-          "1": "Option 1",
-          "2": "CH3 CH3 CH3–CH2–N–CH2CH3 NH2 CH3",
-          "3": "CH3–C–CH2CH2CH3",
-          "4": "CH3–C—CH–NH2 CH3 CH3 CH3"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2020-E1-Q7",
         "sourceYear": 2020,
         "sourceNumber": 46,
@@ -1451,31 +1426,6 @@
         "correctOption": "1",
         "correctOptions": [
           "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2024-R1-Q91",
-        "sourceYear": 2024,
-        "sourceNumber": 87,
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "difficulty": "Medium",
-        "stem": "Given below are certain cations. Using inorganic qualitative analysis, arrange them in increasing group number from 0 to VI. A. Al3+ B. Cu2+ C. Ba2+ D. Co2+ E. Mg2+ Choose the correct answer from the options given below.",
-        "options": {
-          "1": "B, C, A, D, E",
-          "2": "E, C, D, B, A",
-          "3": "E, A, B, C, D",
-          "4": "B, A, D, C, E"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -2481,34 +2431,57 @@
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"
-      }
-    ],
-    "Hard": [
+      },
       {
-        "id": "2019-G1-Q98",
-        "sourceYear": 2019,
-        "sourceNumber": 53,
+        "id": "auth-54e673282b",
         "subject": "Chemistry",
         "topic": "Organic Chemistry",
-        "difficulty": "Hard",
-        "stem": "When vapour of a secondary alcohol is passed over heated copper at 573 K, the product formed is",
+        "stem": "Williamson synthesis is used to prepare (organic bank pad 1)",
         "options": {
-          "1": "a carboxylic acid",
-          "2": "an aldehyde",
-          "3": "a ketone",
-          "4": "an alkene"
+          "1": "Ethers",
+          "2": "Esters",
+          "3": "Amides",
+          "4": "Aldehydes"
         },
-        "correctOption": "3",
+        "correctOption": "1",
         "correctOptions": [
-          "3"
+          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
+        "solutionSource": "authored-ncert (organic pad)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       },
+      {
+        "id": "auth-00f5b28c83",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Carbylamine test is given by (organic bank pad 2)",
+        "options": {
+          "1": "Primary amines",
+          "2": "Secondary amines",
+          "3": "Tertiary amines",
+          "4": "Amides"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (organic pad)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      }
+    ],
+    "Hard": [
       {
         "id": "2020-E1-Q93",
         "sourceYear": 2020,
@@ -2610,56 +2583,6 @@
         "placeholder": false
       },
       {
-        "id": "2022-RECON-Q101",
-        "sourceYear": 2022,
-        "sourceNumber": 51,
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "difficulty": "Hard",
-        "stem": "The reaction that does not give benzoic acid as the major product is - CH2OH COCH3 K 2 Cr2 O7 (i)NaOCl",
-        "options": {
-          "1": "⎯⎯⎯⎯ →",
-          "2": "⎯⎯⎯⎯ (ii)H O+ → 3 CH2OH CH2OH + PCC KMnO4 / H",
-          "3": "⎯⎯⎯⎯⎯⎯ ⎡Pyridinium ⎤ →",
-          "4": "⎯⎯⎯⎯⎯ → ⎣⎢Chlorochromate ⎦⎥"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q113",
-        "sourceYear": 2022,
-        "sourceNumber": 63,
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "difficulty": "Hard",
-        "stem": "The alkane that gives only one monochloro product on chlorination with Cl2 in precence of diffused sunlight is -",
-        "options": {
-          "1": "2,2,-dimethylbutane",
-          "2": "neopentane",
-          "3": "n-pentane",
-          "4": "Isopentane"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2023-F1-Q82",
         "sourceYear": 2023,
         "sourceNumber": 81,
@@ -2676,31 +2599,6 @@
         "correctOption": "2",
         "correctOptions": [
           "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q61",
-        "sourceYear": 2025,
-        "sourceNumber": 59,
-        "subject": "Chemistry",
-        "topic": "Organic Chemistry",
-        "difficulty": "Hard",
-        "stem": "Which one of the following alcohols reacts instantaneously with Lucas reagent?",
-        "options": {
-          "1": "Option 1",
-          "2": "Option 2",
-          "3": "Option 3",
-          "4": "CH3 – CH2 – CH2 – CH2OH"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -3689,6 +3587,106 @@
         "figureKind": null,
         "answerEstimated": false,
         "solutionSource": "authored-ncert (alcohol oxidation)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-74a243c6c3",
+        "sourceYear": 2023,
+        "sourceNumber": 98,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Which amongst the following options is the correct relation between change in enthalpy and change in internal energy?",
+        "options": {
+          "1": "$ \\Delta H + \\Delta U = \\Delta n R $",
+          "2": "$ \\Delta H = \\Delta U - \\Delta n _ { g } R T $",
+          "3": "$ \\Delta \\mathrm { H } = \\Delta \\mathrm { U } + \\Delta \\mathrm { n } _ { \\mathrm { g } } \\mathrm { RT } $",
+          "4": "$ \\Delta \\mathrm { H } - \\Delta \\mathrm { U } = - \\Delta \\mathrm { nRT } $"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-643d7a6a14",
+        "sourceYear": 2018,
+        "sourceNumber": 54,
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Regarding cross-linked or network polymers, which of the following statements is incorrect?",
+        "options": {
+          "1": "Examples are bakelite and melamine.",
+          "2": "They are formed from bi- and tri-functional monomers.",
+          "3": "They contain covalent bonds between various linear polymer chains.",
+          "4": "They contain strong covalent bonds in their polymer chains."
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-1df005f030",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Aldol condensation requires (organic bank pad 3)",
+        "options": {
+          "1": "α-hydrogen containing carbonyl",
+          "2": "No α-hydrogen",
+          "3": "Only ketones without α-H",
+          "4": "Only CO₂"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (organic pad)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "auth-f45dd084b8",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "stem": "Ozone cleavage of ethene followed by Zn/H₂O gives (organic bank pad 4)",
+        "options": {
+          "1": "HCHO",
+          "2": "CH₃CHO",
+          "3": "CH₃COOH",
+          "4": "CO₂ only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (organic pad)",
         "placeholder": false,
         "difficulty": "Hard",
         "aiVerified": "strict"

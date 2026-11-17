@@ -107,6 +107,11 @@ export function ExamInstructionsPanel({
             <kbd className="rounded bg-slate-100 px-1">←</kbd>/
             <kbd className="rounded bg-slate-100 px-1">→</kbd> for previous/next.
           </p>
+          <p>
+            If a stem, option, or figure looks unclear or incomplete in this digital
+            extract, open <strong>View paper</strong> to read the original year PDF
+            booklet in a popup, then close it and continue — the timer does not pause.
+          </p>
         </div>
         <div className="space-y-3 border-t border-slate-200 px-5 py-4">
           {requireAck && (

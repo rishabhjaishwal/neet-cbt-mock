@@ -3,9 +3,9 @@
   "subject": "Biology",
   "topic": "Cell Biology",
   "counts": {
-    "Easy": 57,
-    "Medium": 50,
-    "Hard": 50
+    "Easy": 72,
+    "Medium": 54,
+    "Hard": 52
   },
   "questions": {
     "Easy": [
@@ -1405,6 +1405,380 @@
         "placeholder": false,
         "difficulty": "Easy",
         "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-9b23b72a63",
+        "sourceYear": 2018,
+        "sourceNumber": 173,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which of the following events does not occur in rough endoplasmic reticulum ?",
+        "options": {
+          "1": "Cleavage of signal peptide",
+          "2": "Protein glycosylation",
+          "3": "Protein folding",
+          "4": "Phospholipid synthesis"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-bd0a57869c",
+        "sourceYear": 2020,
+        "sourceNumber": 17,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which is the important site of formation of glycoproteins and glycolipids in eukaryotic cells?",
+        "options": {
+          "1": "Endoplasmic reticulum",
+          "2": "Peroxisomes",
+          "3": "Golgi bodies",
+          "4": "Polysomes"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-d2c3b208b2",
+        "sourceYear": 2021,
+        "sourceNumber": 139,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "What is the role of RNA polymerase III in the process of transcription in eukaryotes?",
+        "options": {
+          "1": "Transcribes tRNA, 5s rRNA and snRNA",
+          "2": "Transcribes precursor of mRNA",
+          "3": "Transcribes only snRNAs",
+          "4": "Transcribes rRNAs (28S, 18 S and $ 5.8 \\mathrm{~S} ) $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-1f6057a9ae",
+        "sourceYear": 2023,
+        "sourceNumber": 124,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Among eukaryotes, replication of DNA takes place in -",
+        "options": {
+          "1": "$ \\mathrm { G } _ { 2 } $ phase",
+          "2": "M phase",
+          "3": "S phase",
+          "4": "$ \\mathrm { G } _ { 1 } $ phase"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-c983ef64b6",
+        "sourceYear": 2023,
+        "sourceNumber": 132,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "What is the role of RNA polymerase III in the process of transcription in Eukaryotes?",
+        "options": {
+          "1": "Transcription of only snRNAs",
+          "2": "Transcription of rRNAs (28S, 18S and 5.8S)",
+          "3": "Transcription of tRNA, 5 srRNA and snRNA",
+          "4": "Transcription of precursor of mRNA"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-c7134d3816",
+        "sourceYear": 2023,
+        "sourceNumber": 138,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "How many different proteins does the ribosome consist of?",
+        "options": {
+          "1": "20",
+          "2": "80",
+          "3": "60",
+          "4": "40"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-329cf8da36",
+        "sourceYear": 2023,
+        "sourceNumber": 153,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which of the following functions is carried out by cytoskeleton in a cell?",
+        "options": {
+          "1": "Transportation",
+          "2": "Nuclear division",
+          "3": "Protein synthesis",
+          "4": "Motility"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-5fa4e668e2",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "In which organelle of animal cells does the beta-oxidation of fatty acids primarily occur?",
+        "options": {
+          "1": "Mitochondria",
+          "2": "Nucleus",
+          "3": "Golgi apparatus",
+          "4": "Lysosome"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-f3e692b204",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle in animal cells is primarily responsible for the synthesis of steroid hormones?",
+        "options": {
+          "1": "Smooth endoplasmic reticulum",
+          "2": "Golgi apparatus",
+          "3": "Lysosome",
+          "4": "Rough endoplasmic reticulum"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-e71d9b0ec8",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which of the following cells in human blood lack a nucleus at maturity?",
+        "options": {
+          "1": "Neutrophils",
+          "2": "Eosinophils",
+          "3": "Erythrocytes",
+          "4": "Basophils"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-6c114cac02",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "The cork cells in plants are impervious to water and gases due to the presence of which substance in their cell walls?",
+        "options": {
+          "1": "Lignin",
+          "2": "Suberin",
+          "3": "Cutin",
+          "4": "Pectin"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-4eda1a776f",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which organelle is responsible for the synthesis of ribosomal RNA in a eukaryotic animal cell?",
+        "options": {
+          "1": "Nucleolus",
+          "2": "Endoplasmic reticulum",
+          "3": "Golgi apparatus",
+          "4": "Mitochondria"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-fd2566b5c4",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "The Casparian strip is chemically composed of which substance in the endodermal cell walls of roots?",
+        "options": {
+          "1": "Suberin",
+          "2": "Chitin",
+          "3": "Cellulose",
+          "4": "Lignin"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-6a20b4f054",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which of the following cell organelles is responsible for photorespiration in plants?",
+        "options": {
+          "1": "Peroxisome",
+          "2": "Golgi apparatus",
+          "3": "Mitochondria",
+          "4": "Ribosome"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "sweatbio-5dcf0e03da",
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which of the following cell organelles is absent in mature sieve tube elements of angiosperms?",
+        "options": {
+          "1": "Nucleus",
+          "2": "Mitochondria",
+          "3": "Endoplasmic reticulum",
+          "4": "Plasma membrane"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:sweatSmile/neet-biology-qa (MIT; Arihant/Pearson-style Bio MCQ)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       }
     ],
     "Medium": [
@@ -2639,6 +3013,110 @@
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-821e1494f9",
+        "sourceYear": 2023,
+        "sourceNumber": 157,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which of the following are NOT considered as the part of endomembrane system? A. Mitochondria B. Endoplasmic Reticulum C. Chloroplasts D. Golgi complex E. Peroxisomes Choose the most appropriate answer from the options given below:",
+        "options": {
+          "1": "A, D and E only",
+          "2": "B and D only",
+          "3": "A, C and E only",
+          "4": "A and D only"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-15dfc81d4d",
+        "sourceYear": 2023,
+        "sourceNumber": 163,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Given below are two statements: Statement I: In prokaryotes, the positively charged DNA is held with some negatively charged proteins in a region called nucleoid. Statement II: In eukaryotes, the negatively charged DNA is wrapped around the positively charged histone octamer to form nucleosome. In the light of the above statements, choose the correct answer from the options given below:",
+        "options": {
+          "1": "Statement I incorrect but Statement II is true.",
+          "2": "Both Statement I and Statement II are true.",
+          "3": "Both Statement I and Statement II are false.",
+          "4": "Statement I is correct but Statement II is false."
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-27f6c67baa",
+        "sourceYear": 2023,
+        "sourceNumber": 194,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Select the correct statements. A. Tetrad formation is seen during Leptotene. B. During Anaphase, the centromeres split and chromatids separate. C. Terminalization takes place during Pachytene. D. Nucleolus, Golgi complex and ER are reformed during Telophase. E. Crossing over takes place between sister chromatids of homologous chromosome. Choose the correct answer from the options given below:",
+        "options": {
+          "1": "B and E only",
+          "2": "A and C only",
+          "3": "B and D only",
+          "4": "A, C and E only"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-f28c6f8b13",
+        "sourceYear": 2023,
+        "sourceNumber": 199,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Which of the following statements are correct? A. Basophils are most abundant cells of the total WBCs B. Basophils secrete histamine, serotonin and heparin C. Basophils are involved in inflammatory response D. Basophils have kidney shaped nucleus E. Basophils are agranulocytes",
+        "options": {
+          "1": "A and B only",
+          "2": "D and E only",
+          "3": "C and E only",
+          "4": "B and C only"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       }
     ],
     "Hard": [
@@ -3852,6 +4330,58 @@
         "figureKind": null,
         "answerEstimated": false,
         "solutionSource": "authored-ncert (organelle functions)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-c75c510072",
+        "sourceYear": 2018,
+        "sourceNumber": 174,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Many ribosomes may associate with a single mRNA to form multiple copies of a polypeptide simultaneously. Such strings of ribosomes are termed as",
+        "options": {
+          "1": "Plastidome",
+          "2": "Polyhedral bodies",
+          "3": "Polysome",
+          "4": "Nucleosome"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-8c4e660652",
+        "sourceYear": 2020,
+        "sourceNumber": 30,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "stem": "Match the following : (a) Inhibitor of catalytic (i) Ricin activity (b) Possess peptide bonds (ii) Malonate (c) Cell wall material in (iii) Chitin fungi (d) Secondary metabolite (iv) Collagen Choose the correct option from the following : \\begin{tabular} { l l l l l } & (a) & (b) & (c) & (d) \\ (1) & (ii) & (iv) & (iii) & (i) \\ (2) & (iii) & (i) & (iv) & (ii) \\ ( 3 ) & (iii) & (iv) & (i) & (ii) \\ (4) & (ii) & (iii) & (i) & (iv) \\end{tabular}",
+        "options": {
+          "1": "(ii) & (iv) & (iii) & (i)",
+          "2": "(iii) & (i) & (iv) & (ii)",
+          "3": "(iii) & (iv) & (i) & (ii)",
+          "4": "(ii) & (iii) & (i) & (iv)"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
         "placeholder": false,
         "difficulty": "Hard",
         "aiVerified": "strict"

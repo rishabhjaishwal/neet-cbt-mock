@@ -3,9 +3,9 @@
   "subject": "Chemistry",
   "topic": "Chemistry General",
   "counts": {
-    "Easy": 160,
-    "Medium": 252,
-    "Hard": 87
+    "Easy": 179,
+    "Medium": 248,
+    "Hard": 66
   },
   "questions": {
     "Easy": [
@@ -1281,31 +1281,6 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2021-M1-Q55",
-        "sourceYear": 2021,
-        "sourceNumber": 59,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "Noble gases are named because of their inertness towards reactivity. Identify an incorrect statement about them.",
-        "options": {
-          "1": "Noble gases have very high melting and boiling points.",
-          "2": "Noble gases have weak dispersion forces.",
-          "3": "Noble gases have large positive values of electron gain enthalpy.",
-          "4": "Noble gases are sparingly soluble in water."
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
       },
@@ -4077,6 +4052,526 @@
         "placeholder": false,
         "difficulty": "Easy",
         "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-bd831f5110",
+        "sourceYear": 2018,
+        "sourceNumber": 49,
+        "subject": "Chemistry",
+        "topic": "Chemistry General",
+        "stem": "The correct order of atomic radii in group 13 elements is",
+        "options": {
+          "1": "$ \\mathrm { B } < \\mathrm { Ga } < \\mathrm { Al } < \\mathrm { Tl } < $ In",
+          "2": "$ \\mathrm { B } < \\mathrm { Al } < \\mathrm { Ga } < \\mathrm { In } < \\mathrm { Tl } $",
+          "3": "$ \\mathrm { B } < \\mathrm { Al } < \\mathrm { In } < \\mathrm { Ga } < \\mathrm { Tl } $",
+          "4": "$ \\mathrm { B } < \\mathrm { Ga } < \\mathrm { Al } < \\mathrm { In } < \\mathrm { Tl } $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-fb4c853fe1",
+        "sourceYear": 2018,
+        "sourceNumber": 53,
+        "subject": "Chemistry",
+        "topic": "Chemistry General",
+        "stem": "Which of the following compounds can form a zwitterion?",
+        "options": {
+          "1": "Benzoic acid",
+          "2": "Acetanilide",
+          "3": "Aniline",
+          "4": "Glycine"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-a157316646",
+        "sourceYear": 2018,
+        "sourceNumber": 56,
+        "subject": "Chemistry",
+        "topic": "Chemistry General",
+        "stem": "The difference between amylose and amylopectin is",
+        "options": {
+          "1": "Amylopectin have $ 1 \\rightarrow 4 \\alpha $-linkage and $ 1 \\rightarrow 6 \\beta $-linkage",
+          "2": "Amylose have $ 1 \\rightarrow 4 \\quad \\alpha $-linkage and $ 1 \\rightarrow 6 \\beta $-linkage",
+          "3": "Amylopectin have $ 1 \\rightarrow 4 \\quad \\alpha $-linkage and $ 1 \\rightarrow 6 \\alpha $-linkage",
+          "4": "Amylose is made up of glucose and galactose"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-fa9f3e1f23",
+        "sourceYear": 2018,
+        "sourceNumber": 79,
+        "subject": "Chemistry",
+        "topic": "Chemistry General",
+        "stem": "The correct difference between first- and second-order reactions is that",
+        "options": {
+          "1": "a first-order reaction can be catalyzed; a second-order reaction cannot be catalyzed",
+          "2": "the half-life of a first-order reaction does not depend on $ [ \\mathrm { A } ] _ { 0 } $; the half-life of $ a $ second-order reaction does depend on $ [ \\mathrm { A } ] _ { 0 } $",
+          "3": "the rate of a first-order reaction does not depend on reactant concentrations; the rate of a second-order reaction does depend on reactant concentrations",
+          "4": "the rate of a first-order reaction does depend on reactant concentrations; the rate of a second-order reaction does not depend on reactant concentrations"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-1ed6bf7699",
+        "sourceYear": 2018,
+        "sourceNumber": 86,
+        "subject": "Chemistry",
+        "topic": "Chemistry General",
+        "stem": "The correction factor 'a' to the ideal gas equation corresponds to",
+        "options": {
+          "1": "electric field present between the gas molecules",
+          "2": "volume of the gas molecules",
+          "3": "density of the gas molecules",
+          "4": "forces of attraction between the gas molecules"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-66d4e7693b",
+        "sourceYear": 2020,
+        "sourceNumber": 104,
+        "subject": "Chemistry",
+        "topic": "Chemistry General",
+        "stem": "The correct option for free expansion of an ideal gas under adiabatic condition is :",
+        "options": {
+          "1": "$ \\mathrm{q} = 0, \\Delta \\mathrm{T} = 0 $ and $ \\mathrm{w} = 0 $",
+          "2": "$ \\mathrm{q} = 0, \\Delta \\mathrm{T} < 0 $ and $ \\mathrm{w} > 0 $",
+          "3": "$ \\mathrm{q} < 0, \\Delta \\mathrm{T} = 0 $ and $ \\mathrm{w} = 0 $",
+          "4": "$ \\quad $ q $ > 0, \\Delta $ T $ > 0 $ and $ w > 0 $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-785b3dcc9e",
+        "sourceYear": 2020,
+        "sourceNumber": 112,
+        "subject": "Chemistry",
+        "topic": "Chemistry General",
+        "stem": "A tertiary butyl carbocation is more stable than a secondary butyl carbocation because of which of the following?",
+        "options": {
+          "1": "$ \\quad $ I effect of $ - \\mathrm { CH } _ { 3 } $ groups",
+          "2": "$ \\quad + \\mathrm { R } $ effect of $ - \\mathrm { CH } _ { 3 } $ groups",
+          "3": "$ \\quad - \\mathrm { R } $ effect of $ - \\mathrm { CH } _ { 3 } $ groups",
+          "4": "Hyperconjugation"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-40a53767e1",
+        "sourceYear": 2020,
+        "sourceNumber": 126,
+        "subject": "Chemistry",
+        "topic": "Chemistry General",
+        "stem": "Identify the incorrect statement.",
+        "options": {
+          "1": "$ \\mathrm{Cr}^{2+}\\left(\\mathrm{d}^{4}\\right) $ is a stronger reducing agent than $ \\mathrm{Fe}^{2+}\\left(\\mathrm{d}^{6}\\right) $ in water.",
+          "2": "The transition metals and their compounds are known for their catalytic activity due to their ability to adopt multiple oxidation states and to form complexes.",
+          "3": "Interstitial compounds are those that are formed when small atoms like H , C or N are trapped inside the crystal lattices of metals.",
+          "4": "The oxidation states of chromium in $ \\mathrm{CrO}_{4}^{2-} $ and $ \\mathrm{Cr}_{2}\\mathrm{O}_{7}^{2-} $ are not the same."
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-82b3fc6568",
+        "sourceYear": 2021,
+        "sourceNumber": 70,
+        "subject": "Chemistry",
+        "topic": "Chemistry General",
+        "stem": "The correct option for the number of body centred unit cells in all 14 types of Bravais lattice unit cells is :",
+        "options": {
+          "1": "5",
+          "2": "2",
+          "3": "3",
+          "4": "7"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-52f5bfa6be",
+        "sourceYear": 2021,
+        "sourceNumber": 92,
+        "subject": "Chemistry",
+        "topic": "Chemistry General",
+        "stem": "For irreversible expansion of an ideal gas under isothermal condition, the correct option is :",
+        "options": {
+          "1": "$ \\Delta \\mathrm{U} \\neq 0, \\Delta \\mathrm{S}_{\\text{total}} \\neq 0 $",
+          "2": "$ \\Delta \\mathrm{U} = 0, \\Delta \\mathrm{S}_{\\text{total}} \\neq 0 $",
+          "3": "$ \\Delta \\mathrm{U} \\neq 0, \\Delta \\mathrm{S}_{\\text{total}} = 0 $",
+          "4": "$ \\Delta \\mathrm{U} = 0, \\Delta \\mathrm{S}_{\\text{total}} = 0 $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-600466eb7a",
+        "sourceYear": 2023,
+        "sourceNumber": 53,
+        "subject": "Chemistry",
+        "topic": "Chemistry General",
+        "stem": "The given compound is an example of $ \\qquad $ .",
+        "options": {
+          "1": "vinylic halide",
+          "2": "benzylic halide",
+          "3": "aryl halide",
+          "4": "allylic halide"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-2a85c4cbb3",
+        "sourceYear": 2023,
+        "sourceNumber": 54,
+        "subject": "Chemistry",
+        "topic": "Chemistry General",
+        "stem": "Some tranquilizers are listed below. Which one from the following belongs to barbiturates?",
+        "options": {
+          "1": "Veronal",
+          "2": "Chlordiazepoxide",
+          "3": "Meprobamate",
+          "4": "Valium"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-c89f3aa9e6",
+        "sourceYear": 2023,
+        "sourceNumber": 55,
+        "subject": "Chemistry",
+        "topic": "Chemistry General",
+        "stem": "Identify the product in the following reaction:",
+        "options": {
+          "1": "image_728.png",
+          "2": "image_729.png",
+          "3": "image_730.png",
+          "4": "image_731.png"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-c73d4470cf",
+        "sourceYear": 2023,
+        "sourceNumber": 64,
+        "subject": "Chemistry",
+        "topic": "Chemistry General",
+        "stem": "Which one is an example of heterogenous catalysis?",
+        "options": {
+          "1": "Combination between dinitrogen and dihydrogen to form ammonia in the presence of finely divided iron.",
+          "2": "Oxidation of sulphur dioxide into sulphur trioxide in the presence of oxides of nitrogen.",
+          "3": "Hydrolysis of sugar catalysed by $ \\mathrm { H } ^ { + } $ ions.",
+          "4": "Decomposition of ozone in presence of nitrogen monoxide."
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-3bc630e7bc",
+        "sourceYear": 2023,
+        "sourceNumber": 71,
+        "subject": "Chemistry",
+        "topic": "Chemistry General",
+        "stem": "Which one of the following statements is correct?",
+        "options": {
+          "1": "Mg plays roles in neuromuscular function and interneuronal transmission.",
+          "2": "The daily requirement of Mg and Ca in the human body is estimated to be $ 0.2 - 0.3 \\mathrm{~g} $.",
+          "3": "All enzymes that utilise ATP in phosphate transfer require Ca as the cofactor.",
+          "4": "The bone in human body is an inert and unchanging substance."
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-4e515dc8c9",
+        "sourceYear": 2023,
+        "sourceNumber": 81,
+        "subject": "Chemistry",
+        "topic": "Chemistry General",
+        "stem": "Taking stability as the factor, which one of the following represents correct relationship?",
+        "options": {
+          "1": "$ \\mathrm { TlI } > \\mathrm { TlI } _ { 3 } $",
+          "2": "$ \\mathrm { TlCl } _ { 3 } > \\mathrm { TlCl } $",
+          "3": "$ \\mathrm { InI } _ { 3 } > \\mathrm { InI } $",
+          "4": "$ \\mathrm { AlCl } > \\mathrm { AlCl } _ { 3 } $"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-9b9e5e806b",
+        "sourceYear": 2023,
+        "sourceNumber": 85,
+        "subject": "Chemistry",
+        "topic": "Chemistry General",
+        "stem": "The number of $ \\sigma $ bonds, $ \\pi $ bonds and lone pair of electrons in pyridine, respectively are:",
+        "options": {
+          "1": "$ 12,2,1 $",
+          "2": "$ 11,2,0 $",
+          "3": "$ 12,3,0 $",
+          "4": "$ 11,3,1 $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-6bbbbccb80",
+        "sourceYear": 2023,
+        "sourceNumber": 87,
+        "subject": "Chemistry",
+        "topic": "Chemistry General",
+        "stem": "Pumice stone is an example of -",
+        "options": {
+          "1": "foam",
+          "2": "sol",
+          "3": "gel",
+          "4": "solid sol"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-f0ab787fe5",
+        "sourceYear": 2023,
+        "sourceNumber": 88,
+        "subject": "Chemistry",
+        "topic": "Chemistry General",
+        "stem": "Consider the following reaction : Identify products A and B .",
+        "options": {
+          "1": "image_761.png",
+          "2": "image_762.png",
+          "3": "image_763.png",
+          "4": "image_764.png"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-fa736f81c6",
+        "sourceYear": 2023,
+        "sourceNumber": 91,
+        "subject": "Chemistry",
+        "topic": "Chemistry General",
+        "stem": "Which complex compound is most stable?",
+        "options": {
+          "1": "$ \\left[ \\mathrm { Co } \\left( \\mathrm { NH } _ { 3 } \\right) _ { 6 } \\right] _ { 2 } \\left( \\mathrm { SO } _ { 4 } \\right) _ { 3 } $",
+          "2": "$ \\left[ \\mathrm { Co } \\left( \\mathrm { NH } _ { 3 } \\right) _ { 4 } \\left( \\mathrm { H } _ { 2 } \\mathrm { O } \\right) \\mathrm { Br } \\right] \\left( \\mathrm { NO } _ { 3 } \\right) _ { 2 } $",
+          "3": "$ \\left[ \\mathrm { Co } \\left( \\mathrm { NH } _ { 3 } \\right) _ { 3 } \\left( \\mathrm { NO } _ { 3 } \\right) _ { 3 } \\right] $",
+          "4": "$ \\left[ \\mathrm { CoCl } _ { 2 } ( \\mathrm { en } ) _ { 2 } \\right] \\mathrm { NO } _ { 3 } $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       }
     ],
     "Medium": [
@@ -5331,31 +5826,6 @@
         "placeholder": false
       },
       {
-        "id": "2021-M1-Q51",
-        "sourceYear": 2021,
-        "sourceNumber": 56,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Medium",
-        "stem": "The molar conductance of NaCl, HCl and CH3COONa at infinite dilution are 126.45, 426.16 and 91.0 S cm2 mol−1 respectively. The molar conductance of CH3COOH at infinite dilution is. Choose the right option for your answer.",
-        "options": {
-          "1": "540.48 S cm2 mol−1",
-          "2": "201.28 S cm2 mol−1",
-          "3": "390.71 S cm2 mol−1",
-          "4": "698.28 S cm2 mol−1"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2021-M1-Q56",
         "sourceYear": 2021,
         "sourceNumber": 60,
@@ -5502,231 +5972,6 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q103",
-        "sourceYear": 2022,
-        "sourceNumber": 53,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Medium",
-        "stem": "Which structure(s) of proteins remains(s) intact during denaturation process ?",
-        "options": {
-          "1": "Both secondary and tertiary structures",
-          "2": "Primary structure only",
-          "3": "Secondary structure only",
-          "4": "Tertiary structure only"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q106",
-        "sourceYear": 2022,
-        "sourceNumber": 56,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Medium",
-        "stem": "The liquefied gas that is used in dry cleaning along with a suitable detergent is -",
-        "options": {
-          "1": "Water gas",
-          "2": "Petroleum gas",
-          "3": "NO2",
-          "4": "CO2"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q112",
-        "sourceYear": 2022,
-        "sourceNumber": 62,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Medium",
-        "stem": "The most stable carbocation among the following is + +",
-        "options": {
-          "1": "(CH3)3C–CH –CH3",
-          "2": "CH3–CH2–CH –CH2–CH3 + +",
-          "3": "CH3–CH –CH2–CH2–CH3",
-          "4": "CH3–CH2–CH"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q117",
-        "sourceYear": 2022,
-        "sourceNumber": 67,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Medium",
-        "stem": "Identify the incorrect statement",
-        "options": {
-          "1": "The scientific and technological process used for isolation of the metal from its ore is known as metallurgy",
-          "2": "Minerals are naturally occurring chemical substances in the earth’s crust",
-          "3": "Ores are minerals that may contain a metal",
-          "4": "Gangue is an ore contaminated with undesired materials"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q122",
-        "sourceYear": 2022,
-        "sourceNumber": 72,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Medium",
-        "stem": "The crystal field stabilization energy (CFSE) for [CoCl6] is 18000 cm , the CFSE for [CoCl4] will be –1 –1 –1 –1",
-        "options": {
-          "1": "6000 cm",
-          "2": "16000 cm",
-          "3": "18000 cm",
-          "4": "8000 cm"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q128",
-        "sourceYear": 2022,
-        "sourceNumber": 78,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Medium",
-        "stem": "Which of the following is the correct order of dipole moment ?",
-        "options": {
-          "1": "NH3 < BF3 < NF3 < H2O",
-          "2": "BF3 < NF3 < NH3 < H2O",
-          "3": "BF3 < NH3 < NF3 < H2O",
-          "4": "H2O < NF3 < NH3 < BF3"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q134",
-        "sourceYear": 2022,
-        "sourceNumber": 84,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Medium",
-        "stem": "The oxidation sate of Cr in CrO6 is -",
-        "options": {
-          "1": "6",
-          "2": "+12",
-          "3": "+6",
-          "4": "+4"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q138",
-        "sourceYear": 2022,
-        "sourceNumber": 88,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Medium",
-        "stem": "In water saturated air, the mole fraction of water vapour is 0.02. If the total pressure of the saturated air is 1.2 atm, the partial pressure of dry air is -",
-        "options": {
-          "1": "1.18 atm",
-          "2": "1.76 atm",
-          "3": "1.176 atm",
-          "4": "0.98 atm"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q144",
-        "sourceYear": 2022,
-        "sourceNumber": 93,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Medium",
-        "stem": "An ideal gas expands isothermally from 10 m to 10 m at 300 K against a constant pressure of 10 –2 Nm . The work done on the gas is :",
-        "options": {
-          "1": "+ 270 kJ",
-          "2": "900 J",
-          "3": "+ 900 kJ",
-          "4": "900 kJ"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
       },
@@ -10289,6 +10534,162 @@
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-77ba934b99",
+        "sourceYear": 2018,
+        "sourceNumber": 48,
+        "subject": "Chemistry",
+        "topic": "Chemistry General",
+        "stem": "Considering Ellingham diagram, which of the following metals can be used to reduce alumina?",
+        "options": {
+          "1": "Mg",
+          "2": "Zn",
+          "3": "Fe",
+          "4": "Cu"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-2b42be1fb8",
+        "sourceYear": 2018,
+        "sourceNumber": 62,
+        "subject": "Chemistry",
+        "topic": "Chemistry General",
+        "stem": "Hydrocarbon (A) reacts with bromine by substitution to form an alkyl bromide which by Wurtz reaction is converted to gaseous hydrocarbon containing less than four carbon atoms. (A) is",
+        "options": {
+          "1": "$ \\mathrm { CH } _ { 3 } - \\mathrm { CH } _ { 3 } $",
+          "2": "$ \\mathrm { CH } _ { 2 } = \\mathrm { CH } _ { 2 } $",
+          "3": "$ \\mathrm { CH } \\equiv \\mathrm { CH } $",
+          "4": "$ \\mathrm { CH } _ { 4 } $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-16ac18f8bc",
+        "sourceYear": 2018,
+        "sourceNumber": 81,
+        "subject": "Chemistry",
+        "topic": "Chemistry General",
+        "stem": "Consider the change in oxidation state of Bromine corresponding to different emf values as shown in the diagram below : Then the species undergoing disproportionation is",
+        "options": {
+          "1": "$ \\mathrm { Br } _ { 2 } $",
+          "2": "$ \\mathrm { BrO } _ { 4 } ^ { - } $",
+          "3": "$ \\mathrm { BrO } _ { 3 } ^ { - } $",
+          "4": "HBrO"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-95517bded5",
+        "sourceYear": 2020,
+        "sourceNumber": 122,
+        "subject": "Chemistry",
+        "topic": "Chemistry General",
+        "stem": "The following metal ion activates many enzymes, participates in the oxidation of glucose to produce ATP and with Na , is responsible for the transmission of nerve signals.",
+        "options": {
+          "1": "Iron",
+          "2": "Copper",
+          "3": "Calcium",
+          "4": "Potassium"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-1893f5d099",
+        "sourceYear": 2023,
+        "sourceNumber": 82,
+        "subject": "Chemistry",
+        "topic": "Chemistry General",
+        "stem": "Given below are two statements : Statement I : A unit formed by the attachment of a base to 1 ' position of sugar is known as nucleoside Statement II : When nucleoside is linked to phosphorous acid at $ 5 ^ { \\prime } $-position of sugar moiety, we get nucleotide. In the light of the above statements, choose the correct answer from the options given below :",
+        "options": {
+          "1": "Statement I is false but Statement II is true.",
+          "2": "Both Statement I and Statement II are true.",
+          "3": "Both Statement I and Statement II are false.",
+          "4": "Statement I is true but Statement II is false."
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-78afa36673",
+        "sourceYear": 2023,
+        "sourceNumber": 96,
+        "subject": "Chemistry",
+        "topic": "Chemistry General",
+        "stem": "Given below are two statements : Statement I : The nutrient deficient water bodies lead to eutrophication. Statement II : Eutrophication leads to decrease in the level of oxygen in the water bodies. In the light of the above statements, choose the correct answer from the options given below :",
+        "options": {
+          "1": "Statement I is incorrect but Statement II is true.",
+          "2": "Both Statement I and Statement II are true.",
+          "3": "Both Statement I and Statement II are false.",
+          "4": "Statement I is correct but Statement II is false."
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       }
     ],
     "Hard": [
@@ -11118,231 +11519,6 @@
         "placeholder": false
       },
       {
-        "id": "2019-G1-Q95",
-        "sourceYear": 2019,
-        "sourceNumber": 50,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "The artificial sweetner stable at cooking temperature and does not provide calories is -",
-        "options": {
-          "1": "Saccharin",
-          "2": "Aspartame",
-          "3": "Sucralose",
-          "4": "Alitame"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q99",
-        "sourceYear": 2019,
-        "sourceNumber": 54,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "The major product C and D formed in the following reaction respectively are : excess HI H3C–CH2–CH2–OC(CH3)2 ⎯⎯⎯⎯ →C + D Δ",
-        "options": {
-          "1": "H3C–CH2–CH2–I and I–C(CH3)3",
-          "2": "H3C–CH2–CH2–OH and I–C(CH3)3",
-          "3": "H3C–CH2–CH2–I and HO–C(CH3)3",
-          "4": "H3C–CH2–CH2–OH and HO–C(CH3)3"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q106",
-        "sourceYear": 2019,
-        "sourceNumber": 61,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "Which of the following compounds is used in cosmetic surgery ?",
-        "options": {
-          "1": "Silica",
-          "2": "Silicates",
-          "3": "Silicones",
-          "4": "Zeolites"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q111",
-        "sourceYear": 2019,
-        "sourceNumber": 66,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "When neutral or faintly alkaline KMnO4 is treated with potassium iodide, iodide ion is converted into ‘X’, ‘X’ is - – –",
-        "options": {
-          "1": "I2",
-          "2": "IO 4",
-          "3": "IO 3",
-          "4": "IO"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q114",
-        "sourceYear": 2019,
-        "sourceNumber": 69,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "A first order reaction has a rate constant of 2.303 × 10 s . The time required for 40 g of this reactant to reduce to 10 g will be – [Given that log10 2 = 0.3010]",
-        "options": {
-          "1": "230.3 s",
-          "2": "301 s",
-          "3": "2000 s",
-          "4": "602 s"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q117",
-        "sourceYear": 2019,
-        "sourceNumber": 72,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "Which of the following is paramagnetic ?",
-        "options": {
-          "1": "N2",
-          "2": "H2",
-          "3": "Li2",
-          "4": "O2"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q122",
-        "sourceYear": 2019,
-        "sourceNumber": 77,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "Which of the following cannot act both as Bronsted acid and as Bronsted base ?",
-        "options": {
-          "1": "HCO3",
-          "2": "NH3",
-          "3": "HCl",
-          "4": "HSO –4"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q126",
-        "sourceYear": 2019,
-        "sourceNumber": 81,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "Formula of nickel oxide with metal deficiency defect in its crystal is Ni0.98O. The crystal contains Ni 3+ 2+ and Ni ions. The fraction of nickel existing as Ni ions in the crystal is -",
-        "options": {
-          "1": "0.96",
-          "2": "0.04",
-          "3": "0.50",
-          "4": "0.31"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q133",
-        "sourceYear": 2019,
-        "sourceNumber": 87,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "The volume occupied by 1.8 g of water vapour at 374ºC and 1 bar pressure will be – –1 –1 [Use R = 0.083 bar LK mol ]",
-        "options": {
-          "1": "96.66 L",
-          "2": "55.87 L",
-          "3": "3.10 L",
-          "4": "5.37 L"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2020-E1-Q94",
         "sourceYear": 2020,
         "sourceNumber": 48,
@@ -11568,31 +11744,6 @@
         "placeholder": false
       },
       {
-        "id": "2021-M1-Q52",
-        "sourceYear": 2021,
-        "sourceNumber": 57,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "Statement I : Acid strength increases in the order given as HF << HCl << HBr << HI. Statement II : As the size of the elements F, Cl, Br, I increases down the group, the bond strength of HF, HCl, HBr and HI decreases and so the acid strength increases. In the light of the above statements, choose the correct answer from the options given below.",
-        "options": {
-          "1": "Both Statement I and Statement II are false.",
-          "2": "Statement I is correct but Statement II is false.",
-          "3": "Statement I is incorrect but Statement II is true.",
-          "4": "Both Statement I and Statement II are true."
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
         "id": "2021-M1-Q67",
         "sourceYear": 2021,
         "sourceNumber": 69,
@@ -11714,281 +11865,6 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q104",
-        "sourceYear": 2022,
-        "sourceNumber": 54,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "The polymer that is used as a substitute for wool in making commercial fibers is -",
-        "options": {
-          "1": "melamine",
-          "2": "nylon-6, 6",
-          "3": "Polyacrylonitrile",
-          "4": "Buna - N"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q107",
-        "sourceYear": 2022,
-        "sourceNumber": 57,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "The hydrolysis reaction that takes palce at the slowest rate. among the following is – + aq.NaOH",
-        "options": {
-          "1": "Cl ⎯⎯⎯⎯ → ONa CH3 CH3 aq.NaOH",
-          "2": "H3C–CH2–Cl ⎯⎯⎯⎯ → H3C–CH2–OH aq.NaOH",
-          "3": "H2C=CH–CH2Cl ⎯⎯⎯⎯ → H2C=CH–CH2OH aq.NaOH",
-          "4": "CH2Cl ⎯⎯⎯⎯ → CH2OH"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q114",
-        "sourceYear": 2022,
-        "sourceNumber": 64,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "In the following reaction Red Hot Iron Tube H3C–C≡CH ⎯⎯⎯⎯⎯⎯ 873K →A number of (σ) bond present in product (A) is -",
-        "options": {
-          "1": "21",
-          "2": "9",
-          "3": "24",
-          "4": "18"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q120",
-        "sourceYear": 2022,
-        "sourceNumber": 70,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "Identify the correct formula of ‘oleum’ from the following",
-        "options": {
-          "1": "H2S2O7",
-          "2": "H2SO3",
-          "3": "H2SO4",
-          "4": "H2S2O8"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q123",
-        "sourceYear": 2022,
-        "sourceNumber": 73,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "following limiting molar conductivities are given as λ m0 (H2 SO4 ) = x S cm2 mol–1 λ m0 (K 2SO 4 ) = y S cm2 mol–1 λ m0 ( CH3 COOK ) = z Scm2 mol–1 λ m0 inScm2 mol–1 for CH3COOH will be - ( ) (x − y)",
-        "options": {
-          "1": "x – y + 2z",
-          "2": "x + y + z",
-          "3": "x – y + z",
-          "4": "+z 2"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q126",
-        "sourceYear": 2022,
-        "sourceNumber": 76,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "The correct option representing a Freundlich adsorption isotherm is - x x",
-        "options": {
-          "1": "= kp0.3",
-          "2": "= kp2.5 m m x x",
-          "3": "= kp –0.5",
-          "4": "= kp –1 m m"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q130",
-        "sourceYear": 2022,
-        "sourceNumber": 80,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "Which of the alkali metal chloride (MCl) forms its dehydrate salt (MCl.2H2O) easily ?",
-        "options": {
-          "1": "LiCl",
-          "2": "CsCl",
-          "3": "RbCl",
-          "4": "KCl"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q135",
-        "sourceYear": 2022,
-        "sourceNumber": 85,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "The number of hydrogen bonded water molecule(s) associated with CuSO4. 5H2O is -",
-        "options": {
-          "1": "3",
-          "2": "1",
-          "3": "2",
-          "4": "5"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q141",
-        "sourceYear": 2022,
-        "sourceNumber": 91,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "Orbital having 3 angular nodes and 3 total nodes is :",
-        "options": {
-          "1": "5 p",
-          "2": "3 d",
-          "3": "4 f",
-          "4": "6 d"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q149",
-        "sourceYear": 2022,
-        "sourceNumber": 95,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "A tuning fork with frequency 800 Hz produces resonance in a resonance column tube with upper end open and lower end closed by water surface. Successive resonances are observed at lengths 9.75 cm, 31.25 cm and 52.75 cm. The speed of sound in air is,",
-        "options": {
-          "1": "500 m/s",
-          "2": "156 m/s",
-          "3": "344 m/s",
-          "4": "172 m/s"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q157",
-        "sourceYear": 2022,
-        "sourceNumber": 98,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "A deep rectangular pond of surface area A, containing water (density = ρ, specific heat capacity = s), is located in a region where the outside air temperature is at a steady value of –26ºC. The thickness of the frozen ice layer in this pond, at a certain instant is x. Taking the thermal conductivity of ice as K, and its specific latent heat of fusion as L, the rate of increase of the thickness of ice layer, at this instant, would be given by 2",
-        "options": {
-          "1": "26K/ρx(L-4s)",
-          "2": "26K/(ρx L)",
-          "3": "26K/(ρxL)",
-          "4": "26K/ρx(L+4s)"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
       },

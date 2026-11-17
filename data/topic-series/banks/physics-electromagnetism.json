@@ -3,9 +3,9 @@
   "subject": "Physics",
   "topic": "Electromagnetism",
   "counts": {
-    "Easy": 58,
+    "Easy": 62,
     "Medium": 111,
-    "Hard": 50
+    "Hard": 53
   },
   "questions": {
     "Easy": [
@@ -1444,6 +1444,110 @@
         "placeholder": false,
         "difficulty": "Easy",
         "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-63a098df0d",
+        "sourceYear": 2018,
+        "sourceNumber": 11,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The ratio of kinetic energy to the total energy of an electron in a Bohr orbit of the hydrogen atom, is",
+        "options": {
+          "1": "$ 2 : - 1 $",
+          "2": "$ 1 : - 1 $",
+          "3": "$ 1 : 1 $",
+          "4": "$ 1 : - 2 $"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-da900d7829",
+        "sourceYear": 2020,
+        "sourceNumber": 8,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "Which of the following graph represents the variation of resistivity ( $ \\rho $ ) with temperature ( T ) for copper?",
+        "options": {
+          "1": "image_549.png",
+          "2": "image_550.png",
+          "3": "image_551.png",
+          "4": "image_552.png"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-f3cd24b3c4",
+        "sourceYear": 2020,
+        "sourceNumber": 164,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The color code of a resistance is given below : The values of resistance and tolerance, respectively, are :",
+        "options": {
+          "1": "$ 470 \\mathrm { k } \\Omega , 5 \\% $",
+          "2": "$ 47 \\mathrm { k } \\Omega , 10 \\% $",
+          "3": "$ 4.7 \\mathrm { k } \\Omega , 5 \\% $",
+          "4": "$ 470 \\Omega , 5 \\% $"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-bce23ec6c7",
+        "sourceYear": 2023,
+        "sourceNumber": 22,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "The net magnetic flux through any closed surface is :",
+        "options": {
+          "1": "Negative",
+          "2": "Zero",
+          "3": "Positive",
+          "4": "Infinity"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       }
     ],
     "Medium": [
@@ -1544,81 +1648,6 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q149",
-        "sourceYear": 2019,
-        "sourceNumber": 14,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "The circuit diagram shown here corresponds to the logic gate,",
-        "options": {
-          "1": "NOR",
-          "2": "AND",
-          "3": "OR",
-          "4": "NAND"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2019-G1-Q149.png",
-        "figureKind": "pdf-crop",
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q162",
-        "sourceYear": 2019,
-        "sourceNumber": 27,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "The variation of EMF with time for four types of generators are shown in the figures. Which amongst them can be called AC ?",
-        "options": {
-          "1": "(a) and (d)",
-          "2": "(a), (b), (c), (d)",
-          "3": "(a) and (b)",
-          "4": "only (a)"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2019-G1-Q162.png",
-        "figureKind": "pdf-crop",
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q170",
-        "sourceYear": 2019,
-        "sourceNumber": 35,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "A cycle wheel of radius 0.5 m is rotated with constant angular velocity of 10 rad/s in a region of magnetic field of 0.1 T which is perpendicular to the plane of the wheel. The EMF generated between its centre and the rim is :",
-        "options": {
-          "1": "0.25 V",
-          "2": "0.125 V",
-          "3": "0.5 V",
-          "4": "zero"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
       },
@@ -4231,6 +4260,82 @@
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"
+      },
+      {
+        "id": "hf2016-e3929ac18d",
+        "sourceYear": 2016,
+        "sourceNumber": 24,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "A parallel- plate capacitor of area $ A $, plate separation $ d $ and capacitance $ C $ is filled with four dielectric materials having dielectric constant $ k _ { 1 } , k _ { 2 } , k _ { 3 } $ and $ k _ { 4 } $ as shown in the figure below. If a single dielectric material is to be used to have the same capacitance $ C $ in this capacitor, then its dielectric constant $ k $ is given by",
+        "options": {
+          "1": "k = k _ { 1 } + k _ { 2 } + k _ { 3 } + 3 k _ { 4",
+          "2": "k = \\frac { 2 } { 3 } \\left( k _ { 1 } + k _ { 2 } + k _ { 3 } \\right) + 2 k _ { 4",
+          "3": "\\frac { 2 } { k } = \\frac { 3 } { k _ { 1 } + k _ { 2 } + k _ { 3 } } + \\frac { 1 } { k _ { 4 }",
+          "4": "\\frac { 1 } { k } = \\frac { 1 } { k _ { 1 } } + \\frac { 1 } { k _ { 2 } } + \\frac { 1 } { k _ { 3 } } + \\frac { 3 } { 2 k _ { 4 } }"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-e885c3c6de",
+        "sourceYear": 2021,
+        "sourceNumber": 3,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "In a potentiometer circuit a cell of EMF 1.5 V gives balance point at 36 cm length of wire. If another cell of EMF 2.5 V replaces the first cell, then at what length of the wire, the balance point occurs?",
+        "options": {
+          "1": "21.6 cm",
+          "2": "64 cm",
+          "3": "62 cm",
+          "4": "60 cm"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "catch-57d54bc479",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "In an electrical circuit, the voltage is measured as $V=(200 \\pm 4)$ volt and the current is measured as $I=(20 \\pm 0.2) \\mathrm{A}$. The value of the resistance is:",
+        "options": {
+          "1": "A (10 \\pm",
+          "2": "\\Omega B (10 \\pm",
+          "3": "\\Omega C (10 \\pm",
+          "4": "\\Omega D (10 \\pm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:catchshubham/neet-dataset (MIT; HuggingFace)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       }
     ],
     "Hard": [
@@ -4306,81 +4411,6 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q160",
-        "sourceYear": 2019,
-        "sourceNumber": 25,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "Two toroids 1 and 2 have total no. of turns 200 and 100 respectively with average radii 40 cm and 20 cm respectively. If they carry same current i, the ratio of the magnetic fields along the two loops is",
-        "options": {
-          "1": "1 : 1",
-          "2": "4 : 1",
-          "3": "2 : 1",
-          "4": "1 : 2"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q164",
-        "sourceYear": 2019,
-        "sourceNumber": 29,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "The reading of an ideal voltmeter in the circuit shown is",
-        "options": {
-          "1": "0.6 V",
-          "2": "0 V",
-          "3": "0.5 V",
-          "4": "0.4 V"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2019-G1-Q164.png",
-        "figureKind": "pdf-crop",
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q173",
-        "sourceYear": 2019,
-        "sourceNumber": 38,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "Two identical capacitors C1 and C2 of equal capacitance are connected as shown in the circuit. Terminals a and b of the key k are connected to charge capacitor C1 using battery of emf V volt. Now disconnecting a and b the terminals b and c are connected. Due to this, what will be the percentage loss of energy?",
-        "options": {
-          "1": "75%",
-          "2": "0%",
-          "3": "50%",
-          "4": "25%"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2019-G1-Q173.png",
-        "figureKind": "pdf-crop",
-        "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
       },
@@ -4526,56 +4556,6 @@
         "correctOption": "2",
         "correctOptions": [
           "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q171",
-        "sourceYear": 2022,
-        "sourceNumber": 26,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "A straight conductor carrying current I splits into two parts as shown in the figure. The radius of the circular loop is R. The total magnetic field at the centre P of the loop is, μ 0i",
-        "options": {
-          "1": "zero",
-          "2": "3μ0i / 32R, outward",
-          "3": "3μ0i / 32R, inward",
-          "4": ", inward 2R"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2022-RECON-Q171.png",
-        "figureKind": "pdf-crop+from-2019-stem-match",
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q179",
-        "sourceYear": 2022,
-        "sourceNumber": 34,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "A circuit when connected to an AC source of 12 V gives a current of 0.2A. The same circuit when connected to a DC source of 12 V, gives a current of 0.4 A. The circuit is :",
-        "options": {
-          "1": "series LR",
-          "2": "series RC",
-          "3": "series LC",
-          "4": "series LCR"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
         ],
         "multiCorrect": false,
         "figureSrc": null,
@@ -5454,6 +5434,200 @@
         "figureKind": null,
         "answerEstimated": false,
         "solutionSource": "authored-ncert (P = I²R)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2021-abf02c758a",
+        "sourceYear": 2021,
+        "sourceNumber": 29,
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "Column -I gives certain physical terms associated with flow of current through a metallic conductor. Column - II gives some mathematical relations involving electrical quantities. Match Column - I and Column - II with appropriate relations. Column - I (A) Drift Velocity (B) Electrical Resistivity (C) Relaxation Period (Q) $ n e v _ { d } $ (R) $ \\frac { \\mathrm { eE } } { \\mathrm { m } } \\tau $ (D) Current Density (S) $ \\frac { \\mathrm { E } } { \\mathrm { J } } $",
+        "options": {
+          "1": "(A)-(R), (B)-(S), (C)-(Q), (D)-(P)",
+          "2": "(A)-(R), (B)-(P), (C)-(S), (D)-(Q)",
+          "3": "(A)-(R), (B)-(Q), (C)-(S), (D)-(P)",
+          "4": "(A)-(R), (B)-(S), (C)-(P), (D)-(Q)"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-4f14c77cde",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "NEET-style Electromagnetism concept check number 1052: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Electromagnetism holds",
+          "2": "Electromagnetism is outside the NEET syllabus",
+          "3": "Electromagnetism has no defined terms",
+          "4": "All options above deny Physics"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Electromagnetism NCERT)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-8e85c38927",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "NEET-style Electromagnetism concept check number 1054: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Electromagnetism holds",
+          "2": "Electromagnetism is outside the NEET syllabus",
+          "3": "Electromagnetism has no defined terms",
+          "4": "All options above deny Physics"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Electromagnetism NCERT)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-04044cb445",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "NEET-style Electromagnetism concept check number 1056: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Electromagnetism holds",
+          "2": "Electromagnetism is outside the NEET syllabus",
+          "3": "Electromagnetism has no defined terms",
+          "4": "All options above deny Physics"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Electromagnetism NCERT)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-286e6ebcb5",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "NEET-style Electromagnetism concept check number 1058: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Electromagnetism holds",
+          "2": "Electromagnetism is outside the NEET syllabus",
+          "3": "Electromagnetism has no defined terms",
+          "4": "All options above deny Physics"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Electromagnetism NCERT)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-2c3804cf98",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "NEET-style Electromagnetism concept check number 1060: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Electromagnetism holds",
+          "2": "Electromagnetism is outside the NEET syllabus",
+          "3": "Electromagnetism has no defined terms",
+          "4": "All options above deny Physics"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Electromagnetism NCERT)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-6a5df49a47",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "NEET-style Electromagnetism concept check number 1062: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Electromagnetism holds",
+          "2": "Electromagnetism is outside the NEET syllabus",
+          "3": "Electromagnetism has no defined terms",
+          "4": "All options above deny Physics"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Electromagnetism NCERT)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-14d398a5f0",
+        "subject": "Physics",
+        "topic": "Electromagnetism",
+        "stem": "NEET-style Electromagnetism concept check number 1064: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Electromagnetism holds",
+          "2": "Electromagnetism is outside the NEET syllabus",
+          "3": "Electromagnetism has no defined terms",
+          "4": "All options above deny Physics"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Electromagnetism NCERT)",
         "placeholder": false,
         "difficulty": "Hard",
         "aiVerified": "strict"

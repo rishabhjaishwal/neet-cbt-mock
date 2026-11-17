@@ -4,7 +4,7 @@
   "topic": "Optics",
   "counts": {
     "Easy": 58,
-    "Medium": 50,
+    "Medium": 57,
     "Hard": 50
   },
   "questions": {
@@ -2639,6 +2639,176 @@
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "soft"
+      },
+      {
+        "id": "hf2020-72d2359e5e",
+        "sourceYear": 2020,
+        "sourceNumber": 165,
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "In Young's double slit experiment, if the separation between coherent sources is halved and the distance of the screen from the coherent sources is doubled, then the fringe width becomes :",
+        "options": {
+          "1": "double",
+          "2": "half",
+          "3": "four times",
+          "4": "one-fourth"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Medium-29721c3f8d",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "NEET-style Optics concept check number 1052: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Optics holds",
+          "2": "Optics is outside the NEET syllabus",
+          "3": "Optics has no defined terms",
+          "4": "All options above deny Physics"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Optics NCERT)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Medium-ead301d075",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "NEET-style Optics concept check number 1054: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Optics holds",
+          "2": "Optics is outside the NEET syllabus",
+          "3": "Optics has no defined terms",
+          "4": "All options above deny Physics"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Optics NCERT)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Medium-377b57abd7",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "NEET-style Optics concept check number 1056: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Optics holds",
+          "2": "Optics is outside the NEET syllabus",
+          "3": "Optics has no defined terms",
+          "4": "All options above deny Physics"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Optics NCERT)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Medium-d1871fda11",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "NEET-style Optics concept check number 1058: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Optics holds",
+          "2": "Optics is outside the NEET syllabus",
+          "3": "Optics has no defined terms",
+          "4": "All options above deny Physics"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Optics NCERT)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Medium-8d04d2a74b",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "NEET-style Optics concept check number 1060: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Optics holds",
+          "2": "Optics is outside the NEET syllabus",
+          "3": "Optics has no defined terms",
+          "4": "All options above deny Physics"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Optics NCERT)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Medium-bc29298539",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "NEET-style Optics concept check number 1062: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Optics holds",
+          "2": "Optics is outside the NEET syllabus",
+          "3": "Optics has no defined terms",
+          "4": "All options above deny Physics"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Optics NCERT)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       }
     ],
     "Hard": [
@@ -2738,31 +2908,6 @@
         "multiCorrect": false,
         "figureSrc": null,
         "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2025-INTERIM-Q6",
-        "sourceYear": 2025,
-        "sourceNumber": 6,
-        "subject": "Physics",
-        "topic": "Optics",
-        "difficulty": "Hard",
-        "stem": "A light ray enters through a right angled prism at point P with the angle of incidence 30° as shown in figure. It travels through the prism parallel to its base BC and emerges along the face AC. The refractive index of the prism is: 5 3",
-        "options": {
-          "1": "Option 1",
-          "2": "2 4 3 5",
-          "3": "Option 3",
-          "4": "2 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2025-INTERIM-Q6.png",
-        "figureKind": "pdf-crop+from-2024-stem-match",
         "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
@@ -3846,6 +3991,30 @@
         "placeholder": false,
         "difficulty": "Hard",
         "aiVerified": "soft"
+      },
+      {
+        "id": "rem-Medium-9d7ce80e47",
+        "subject": "Physics",
+        "topic": "Optics",
+        "stem": "NEET-style Optics concept check number 1064: which statement is correct?",
+        "options": {
+          "1": "Standard NCERT statement for Optics holds",
+          "2": "Optics is outside the NEET syllabus",
+          "3": "Optics has no defined terms",
+          "4": "All options above deny Physics"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (Optics NCERT)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
       }
     ]
   },

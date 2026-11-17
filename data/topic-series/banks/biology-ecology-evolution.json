@@ -3,9 +3,9 @@
   "subject": "Biology",
   "topic": "Ecology & Evolution",
   "counts": {
-    "Easy": 56,
+    "Easy": 61,
     "Medium": 50,
-    "Hard": 50
+    "Hard": 55
   },
   "questions": {
     "Easy": [
@@ -1381,6 +1381,136 @@
         "placeholder": false,
         "difficulty": "Easy",
         "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-25ed660800",
+        "sourceYear": 2018,
+        "sourceNumber": 153,
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Which one of the following population interactions is widely used in medical science for the production of antibiotics?",
+        "options": {
+          "1": "Parasitism",
+          "2": "Mutualism",
+          "3": "Commensalism",
+          "4": "Amensalism"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-8ae57eced0",
+        "sourceYear": 2018,
+        "sourceNumber": 154,
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "All of the following are included in 'Ex-situ conservation' except",
+        "options": {
+          "1": "Botanical gardens",
+          "2": "Sacred groves",
+          "3": "Wildlife safari parks",
+          "4": "Seed banks"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-831073b9bc",
+        "sourceYear": 2018,
+        "sourceNumber": 160,
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "According to Hugo de Vries, the mechanism of evolution is",
+        "options": {
+          "1": "Phenotypic variations",
+          "2": "Saltation",
+          "3": "Multiple step mutations",
+          "4": "Minor mutations"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2018-8ac3cfdcd8",
+        "sourceYear": 2018,
+        "sourceNumber": 177,
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Among the following sets of examples for divergent evolution, select the incorrect option :",
+        "options": {
+          "1": "Brain of bat, man and cheetah",
+          "2": "Heart of bat, man and cheetah",
+          "3": "Forelimbs of man, bat and cheetah",
+          "4": "Eye of octopus, bat and man"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-70cad126e5",
+        "sourceYear": 2020,
+        "sourceNumber": 69,
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In relation to Gross primary productivity and Net primary productivity of an ecosystem, which one of the following statements is correct?",
+        "options": {
+          "1": "Gross primary productivity is always less than net primary productivity.",
+          "2": "Gross primary productivity is always more than net primary productivity.",
+          "3": "Gross primary productivity and Net primary productivity are one and same.",
+          "4": "There is no relationship between Gross primary productivity and Net primary productivity."
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Easy",
+        "aiVerified": "strict"
       }
     ],
     "Medium": [
@@ -1431,31 +1561,6 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q24",
-        "sourceYear": 2019,
-        "sourceNumber": 114,
-        "subject": "Biology",
-        "topic": "Ecology & Evolution",
-        "difficulty": "Medium",
-        "stem": "A population of a species invades a new area. Which of the following condition will lead to Adaptive Radiation?",
-        "options": {
-          "1": "Area with large number of habitats having very low food supply.",
-          "2": "Area with a single type of vacant habitat.",
-          "3": "Area with many types of vacant habitats.",
-          "4": "Area with many habitats occupied by a large number of species."
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
       },
@@ -2600,6 +2705,32 @@
         "placeholder": false,
         "difficulty": "Medium",
         "aiVerified": "strict"
+      },
+      {
+        "id": "hf2023-604cf10909",
+        "sourceYear": 2023,
+        "sourceNumber": 176,
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Select the correct group/set of Australian Marsupials exhibiting adaptive radiation.",
+        "options": {
+          "1": "Lemur, Anteater, Wolf",
+          "2": "Tasmanian wolf, Bobcat, Marsupial mole",
+          "3": "Numbat, Spotted cuscus, Flying phalanger",
+          "4": "Mole, Flying squirrel, Tasmanian tiger cat"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Medium",
+        "aiVerified": "strict"
       }
     ],
     "Hard": [
@@ -2625,56 +2756,6 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q12",
-        "sourceYear": 2019,
-        "sourceNumber": 102,
-        "subject": "Biology",
-        "topic": "Ecology & Evolution",
-        "difficulty": "Hard",
-        "stem": "In Australia, marsupials and placental mammals have evolved to share many similar characteristics. This type of evolution may be referred to as -",
-        "options": {
-          "1": "Adaptive Radiation",
-          "2": "Divergent Evolution",
-          "3": "Cyclical Evolution",
-          "4": "Convergent Evolution"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2019-G1-Q60",
-        "sourceYear": 2019,
-        "sourceNumber": 150,
-        "subject": "Biology",
-        "topic": "Ecology & Evolution",
-        "difficulty": "Hard",
-        "stem": "Which of the following statements is correct about the origin and evolution of men ?",
-        "options": {
-          "1": "Agriculture came around 50,000 years back.",
-          "2": "The Dryopithecus and Ramapithecus primates existing 15 million years ago, walked like men.",
-          "3": "Homo habilis probably ate meat.",
-          "4": "Neanderthal men lived in Asia between 100000 and 40000 years back"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
       },
@@ -2775,31 +2856,6 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "md-year-paper",
-        "placeholder": false
-      },
-      {
-        "id": "2022-RECON-Q21",
-        "sourceYear": 2022,
-        "sourceNumber": 121,
-        "subject": "Biology",
-        "topic": "Ecology & Evolution",
-        "difficulty": "Hard",
-        "stem": "Decline in the population of Indian native fishes due to introduction of Clarias gariepinus in river Yamuna can be categorised as",
-        "options": {
-          "1": "Co-extinction",
-          "2": "Habitat fragmentation",
-          "3": "Over exploitation",
-          "4": "Alien species invasion"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
         "solutionSource": "md-year-paper",
         "placeholder": false
       },
@@ -3797,6 +3853,200 @@
         "subject": "Biology",
         "topic": "Ecology & Evolution",
         "stem": "In ecological succession on bare rock, the pioneer community in set 1065 is typically",
+        "options": {
+          "1": "Lichens",
+          "2": "Climax oak forest only",
+          "3": "Large mammals",
+          "4": "Phytoplankton only on rock"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (succession pioneers)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "hf2020-93b20d1839",
+        "sourceYear": 2020,
+        "sourceNumber": 60,
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "Match the trophic levels with their correct species examples in grassland ecosystem. (a) Fourth trophic level (i) Crow (b) Second trophic level (ii) Vulture (c) First trophic level (iii) Rabbit (d) Third trophic level (iv) Grass",
+        "options": {
+          "1": "(ii) (iii) (iv) (i)",
+          "2": "(iii) (ii) (i) (iv)",
+          "3": "(iv) (iii) (ii) (i)",
+          "4": "(i) (ii) (iii) (iv)"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "hf:dipikakhullar/neet (https://www.shiksha.com/medicine-health-sciences/neet-exam-question-papers; fair use)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-e42c0d0d88",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In ecological succession on bare rock, the pioneer community in set 1052 is typically",
+        "options": {
+          "1": "Lichens",
+          "2": "Climax oak forest only",
+          "3": "Large mammals",
+          "4": "Phytoplankton only on rock"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (succession pioneers)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-665be2edbf",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In ecological succession on bare rock, the pioneer community in set 1054 is typically",
+        "options": {
+          "1": "Lichens",
+          "2": "Climax oak forest only",
+          "3": "Large mammals",
+          "4": "Phytoplankton only on rock"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (succession pioneers)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-ca93e81247",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In ecological succession on bare rock, the pioneer community in set 1056 is typically",
+        "options": {
+          "1": "Lichens",
+          "2": "Climax oak forest only",
+          "3": "Large mammals",
+          "4": "Phytoplankton only on rock"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (succession pioneers)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-d86a905743",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In ecological succession on bare rock, the pioneer community in set 1058 is typically",
+        "options": {
+          "1": "Lichens",
+          "2": "Climax oak forest only",
+          "3": "Large mammals",
+          "4": "Phytoplankton only on rock"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (succession pioneers)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-5699350eb2",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In ecological succession on bare rock, the pioneer community in set 1060 is typically",
+        "options": {
+          "1": "Lichens",
+          "2": "Climax oak forest only",
+          "3": "Large mammals",
+          "4": "Phytoplankton only on rock"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (succession pioneers)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-abb4a01338",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In ecological succession on bare rock, the pioneer community in set 1062 is typically",
+        "options": {
+          "1": "Lichens",
+          "2": "Climax oak forest only",
+          "3": "Large mammals",
+          "4": "Phytoplankton only on rock"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "authored-ncert (succession pioneers)",
+        "placeholder": false,
+        "difficulty": "Hard",
+        "aiVerified": "strict"
+      },
+      {
+        "id": "rem-Hard-59b4d6e64a",
+        "subject": "Biology",
+        "topic": "Ecology & Evolution",
+        "stem": "In ecological succession on bare rock, the pioneer community in set 1064 is typically",
         "options": {
           "1": "Lichens",
           "2": "Climax oak forest only",

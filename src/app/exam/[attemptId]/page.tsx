@@ -4,6 +4,7 @@ import { getSession } from "@/lib/auth";
 import { ensureSeeded } from "@/lib/seed";
 import { Attempt } from "@/lib/models";
 import { getPaper, getQuestionsForStudent } from "@/lib/papers";
+import { yearPaperPdfUrl } from "@/lib/year-pdfs";
 import { ExamCbt } from "@/components/ExamCbt";
 
 export default async function ExamPage({
@@ -117,6 +118,8 @@ export default async function ExamPage({
       questions={merged}
       attemptLimit={paper.attempt_limit}
       totalQuestions={paper.total_questions}
+      durationMinutes={paper.duration_minutes}
+      paperPdfUrl={yearPaperPdfUrl(attempt.year)}
       initialScreenSwitchCount={attempt.screenSwitchCount ?? 0}
       initialQuestionIndex={attempt.currentQuestionIndex ?? 0}
       initialSubjectFilter={
