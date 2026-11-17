@@ -233,6 +233,7 @@ button.palette-btn[data-status="marked_answered"],
     0 1px 0 rgba(255, 255, 255, 0.5) inset,
     0 10px 24px rgba(36, 48, 65, 0.12);
   transform: rotate(-4deg);
+  opacity: 1;
   animation: sticky-drop 0.9s cubic-bezier(0.2, 0.8, 0.2, 1.15) both;
 }
 
@@ -260,6 +261,7 @@ button.palette-btn[data-status="marked_answered"],
   left: clamp(0.5rem, 3vw, 2rem);
   background: #b8e0d2;
   transform: rotate(5deg);
+  animation-name: sticky-drop-mint;
   animation-delay: 0.35s;
 }
 
@@ -268,6 +270,7 @@ button.palette-btn[data-status="marked_answered"],
   right: clamp(1rem, 8vw, 5rem);
   background: #ffe8a3;
   transform: rotate(-2.5deg);
+  animation-name: sticky-drop-butter;
   animation-delay: 0.55s;
 }
 
@@ -437,15 +440,21 @@ button.palette-btn[data-status="marked_answered"],
 }
 
 .ink-write {
-  animation: brand-ink 1s ease both;
+  opacity: 1;
+  animation: brand-ink 0.9s ease both;
+}
+
+.fade-up,
+.fade-up-late {
+  opacity: 1;
 }
 
 .fade-up {
-  animation: fade-up 0.7s 0.45s ease both;
+  animation: fade-up 0.65s 0.2s ease both;
 }
 
 .fade-up-late {
-  animation: fade-up 0.7s 0.7s ease both;
+  animation: fade-up 0.65s 0.35s ease both;
 }
 
 @keyframes paper-settle {
@@ -461,22 +470,37 @@ button.palette-btn[data-status="marked_answered"],
 
 @keyframes sticky-drop {
   from {
-    opacity: 0;
-    transform: translateY(-18px) rotate(-8deg) scale(0.94);
+    transform: translateY(-14px) rotate(-8deg) scale(0.96);
   }
   to {
-    opacity: 1;
+    transform: rotate(-4deg) scale(1);
+  }
+}
+
+@keyframes sticky-drop-mint {
+  from {
+    transform: translateY(-14px) rotate(1deg) scale(0.96);
+  }
+  to {
+    transform: rotate(5deg) scale(1);
+  }
+}
+
+@keyframes sticky-drop-butter {
+  from {
+    transform: translateY(-14px) rotate(-6deg) scale(0.96);
+  }
+  to {
+    transform: rotate(-2.5deg) scale(1);
   }
 }
 
 @keyframes brand-ink {
   from {
-    opacity: 0;
-    filter: blur(2px);
-    letter-spacing: 0.08em;
+    filter: blur(1.5px);
+    letter-spacing: 0.04em;
   }
   to {
-    opacity: 1;
     filter: none;
     letter-spacing: -0.02em;
   }
@@ -484,9 +508,9 @@ button.palette-btn[data-status="marked_answered"],
 
 @keyframes stroke-write {
   from {
-    opacity: 0;
-    clip-path: inset(0 100% 0 0);
-    transform: translateY(0.15em);
+    opacity: 0.15;
+    clip-path: inset(0 85% 0 0);
+    transform: translateY(0.12em);
   }
   to {
     opacity: 1;
@@ -504,11 +528,9 @@ button.palette-btn[data-status="marked_answered"],
 
 @keyframes fade-up {
   from {
-    opacity: 0;
-    transform: translateY(12px);
+    transform: translateY(10px);
   }
   to {
-    opacity: 1;
     transform: none;
   }
 }
