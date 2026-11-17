@@ -8,19 +8,108 @@ import {
   isMultiCorrectQuestion,
   resolveCorrectOptions,
   scoreSelection,
+  type Outcome,
 } from "@/lib/multi-correct";
 import { QuestionReviewList, type ReviewItem } from "@/components/QuestionReviewList";
 import { ResultsMetrics } from "@/components/ResultsMetrics";
 import { InstantLink } from "@/components/InstantLink";
+import { ReviewPagination } from "@/components/ReviewPagination";
+import {
+  parseReviewQuery,
+  REVIEW_PAGE_SIZE,
+  type ReviewFilterOutcome,
+  type ReviewFilterSubject,
+  type ReviewQuery,
+} from "@/lib/review-page";
+
+type EmbeddedQ = {
+  questionKey: string;
+  number: number;
+  subject: string;
+  section?: string;
+  topic: string;
+  stem: string;
+  options: Record<string, string>;
+  correctOption?: string;
+  correctOptions?: string[];
+  multiCorrect?: boolean;
+  figureSrc?: string | null;
+  figureKind?: string | null;
+  answerEstimated?: boolean;
+};
+
+function outcomeFor(
+  q: EmbeddedQ,
+  a:
+    | {
+        selectedOption?: string | null;
+        selectedOptions?: string[];
+        status: string;
+      }
+    | undefined,
+): { item: ReviewItem; outcome: Outcome } {
+  const correct = resolveCorrectOptions({
+    correctOption: q.correctOption,
+    correctOptions: q.correctOptions,
+  });
+  const multi = isMultiCorrectQuestion({
+    multiCorrect: q.multiCorrect,
+    correctOptions: correct,
+    correctOption: q.correctOption,
+  });
+  const picked =
+    a?.selectedOptions?.length
+      ? a.selectedOptions
+      : a?.selectedOption
+        ? [a.selectedOption]
+        : [];
+  const selected =
+    a?.status === "not_attempted" && picked.length === 0 ? [] : picked;
+  const { marks, outcome } = scoreSelection(selected, correct, multi);
+  const learning = buildLearningAid({
+    number: q.number,
+    subject: q.subject,
+    section: q.section || "A",
+    topic: q.topic,
+    stem: q.stem,
+    options: q.options || {},
+    correct,
+    multiCorrect: multi,
+    answerEstimated: Boolean(q.answerEstimated),
+  });
+  return {
+    outcome,
+    item: {
+      id: q.questionKey,
+      number: q.number,
+      subject: q.subject,
+      section: q.section || "A",
+      topic: q.topic,
+      stem: q.stem,
+      options: q.options || {},
+      selected,
+      correct,
+      outcome,
+      marks,
+      multiCorrect: multi,
+      figureSrc: q.figureSrc ?? null,
+      figureKind: q.figureKind ?? null,
+      needsFigure: /figure|diagram|as shown/i.test(q.stem),
+      learning,
+    },
+  };
+}
 
 export default async function TopicResultsPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ attemptId: string }>;
+  searchParams: Promise<{ page?: string; subject?: string; outcome?: string }>;
 }) {
   const user = await getSession();
   if (!user || user.role !== "student") redirect("/login");
-  const { attemptId } = await params;
+  const [{ attemptId }, rawQuery] = await Promise.all([params, searchParams]);
   if (!Types.ObjectId.isValid(attemptId)) redirect("/topic-series");
 
   await connectDb();
@@ -28,32 +117,26 @@ export default async function TopicResultsPage({
   if (!attempt || String(attempt.userId) !== user.id) redirect("/topic-series");
   if (attempt.status === "in_progress") redirect(`/topic-series/exam/${attemptId}`);
 
+  const query = parseReviewQuery(rawQuery);
+  const basePath = `/topic-series/results/${attemptId}`;
+
   const ansByKey = Object.fromEntries(
-    (attempt.answers as Array<{
-      questionKey: string;
-      selectedOption?: string | null;
-      selectedOptions?: string[];
-      status: string;
-    }>).map((a) => [a.questionKey, a]),
+    (
+      attempt.answers as Array<{
+        questionKey: string;
+        selectedOption?: string | null;
+        selectedOptions?: string[];
+        status: string;
+      }>
+    ).map((a) => [a.questionKey, a]),
   );
 
-  const reviewItems: ReviewItem[] = (
-    attempt.questions as Array<{
-      questionKey: string;
-      number: number;
-      subject: string;
-      section?: string;
-      topic: string;
-      stem: string;
-      options: Record<string, string>;
-      correctOption?: string;
-      correctOptions?: string[];
-      multiCorrect?: boolean;
-      figureSrc?: string | null;
-      figureKind?: string | null;
-      answerEstimated?: boolean;
-    }>
-  ).map((q) => {
+  const questions = (attempt.questions as EmbeddedQ[])
+    .slice()
+    .sort((a, b) => a.number - b.number);
+
+  // Light index for filters/counts without building AI solutions yet.
+  const index = questions.map((q) => {
     const a = ansByKey[q.questionKey];
     const correct = resolveCorrectOptions({
       correctOption: q.correctOption,
@@ -72,37 +155,42 @@ export default async function TopicResultsPage({
           : [];
     const selected =
       a?.status === "not_attempted" && picked.length === 0 ? [] : picked;
-    const { marks, outcome } = scoreSelection(selected, correct, multi);
-    const learning = buildLearningAid({
-      number: q.number,
-      subject: q.subject,
-      section: q.section || "A",
-      topic: q.topic,
-      stem: q.stem,
-      options: q.options || {},
-      correct,
-      multiCorrect: multi,
-      answerEstimated: Boolean(q.answerEstimated),
-    });
-    return {
-      id: q.questionKey,
-      number: q.number,
-      subject: q.subject,
-      section: q.section || "A",
-      topic: q.topic,
-      stem: q.stem,
-      options: q.options || {},
-      selected,
-      correct,
-      outcome,
-      marks,
-      multiCorrect: multi,
-      figureSrc: q.figureSrc ?? null,
-      figureKind: q.figureKind ?? null,
-      needsFigure: /figure|diagram|as shown/i.test(q.stem),
-      learning,
-    } satisfies ReviewItem;
+    const { outcome } = scoreSelection(selected, correct, multi);
+    return { q, outcome, subject: q.subject };
   });
+
+  const subjectCounts = {
+    ALL: index.length,
+    Physics: index.filter((r) => r.subject === "Physics").length,
+    Chemistry: index.filter((r) => r.subject === "Chemistry").length,
+    Biology: index.filter((r) => r.subject === "Biology").length,
+  } satisfies Record<ReviewFilterSubject, number>;
+  const outcomeCounts = {
+    ALL: index.length,
+    correct: index.filter((r) => r.outcome === "correct").length,
+    partial: index.filter((r) => r.outcome === "partial").length,
+    wrong: index.filter((r) => r.outcome === "wrong").length,
+    unattempted: index.filter((r) => r.outcome === "unattempted").length,
+  } satisfies Record<ReviewFilterOutcome, number>;
+
+  const filtered = index.filter((r) => {
+    if (query.subject !== "ALL" && r.subject !== query.subject) return false;
+    if (query.outcome !== "ALL" && r.outcome !== query.outcome) return false;
+    return true;
+  });
+  const total = filtered.length;
+  const totalPages = Math.max(1, Math.ceil(total / REVIEW_PAGE_SIZE));
+  const page = Math.min(Math.max(1, query.page), totalPages);
+  const safeQuery: ReviewQuery = { ...query, page };
+  const slice = filtered.slice(
+    (page - 1) * REVIEW_PAGE_SIZE,
+    page * REVIEW_PAGE_SIZE,
+  );
+
+  // Hydrate solutions only for the visible page.
+  const reviewItems = slice.map(({ q }) =>
+    outcomeFor(q, ansByKey[q.questionKey]).item,
+  );
 
   const topicBundle = (attempt.topicStats || {}) as {
     topics?: Array<{
@@ -128,6 +216,18 @@ export default async function TopicResultsPage({
       accuracy: number;
     }
   >;
+
+  const pager = (
+    <ReviewPagination
+      basePath={basePath}
+      query={safeQuery}
+      total={total}
+      totalPages={totalPages}
+      pageSize={REVIEW_PAGE_SIZE}
+      subjectCounts={subjectCounts}
+      outcomeCounts={outcomeCounts}
+    />
+  );
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-8">
@@ -179,7 +279,7 @@ export default async function TopicResultsPage({
         />
       </div>
 
-      <QuestionReviewList items={reviewItems} />
+      <QuestionReviewList items={reviewItems} toolbar={pager} footer={pager} />
     </main>
   );
 }

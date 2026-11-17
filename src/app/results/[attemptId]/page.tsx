@@ -6,34 +6,43 @@ import { ensureSeeded } from "@/lib/seed";
 import { Attempt, Question } from "@/lib/models";
 import { getPaper } from "@/lib/papers";
 import { scoreBands } from "@/lib/rank";
-import {
-  isMultiCorrectQuestion,
-  resolveCorrectOptions,
-  scoreSelection,
-} from "@/lib/multi-correct";
 import { ResultsMetrics } from "@/components/ResultsMetrics";
-import { QuestionReviewList, type ReviewItem } from "@/components/QuestionReviewList";
-import { displayQuestionNumber, getPaperQuestionMap } from "@/lib/paper-content";
-import { buildLearningAid } from "@/lib/learning-aid";
+import { QuestionReviewList } from "@/components/QuestionReviewList";
+import { ReviewPagination } from "@/components/ReviewPagination";
+import { getPaperQuestionMap } from "@/lib/paper-content";
+import {
+  buildReviewIndex,
+  filterReviewIndex,
+  hydrateReviewPage,
+  paginateReviewIndex,
+  parseReviewQuery,
+  REVIEW_PAGE_SIZE,
+  type AttemptAnswerLite,
+  type DbQuestionLite,
+  type ReviewFilterOutcome,
+  type ReviewFilterSubject,
+} from "@/lib/review-page";
 
 export default async function ResultsPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ attemptId: string }>;
+  searchParams: Promise<{ page?: string; subject?: string; outcome?: string }>;
 }) {
   const user = await getSession();
   if (!user) redirect("/login");
-  await ensureSeeded();
-  const { attemptId } = await params;
+  const [{ attemptId }, rawQuery] = await Promise.all([params, searchParams]);
   if (!Types.ObjectId.isValid(attemptId)) redirect("/dashboard");
+
+  await ensureSeeded();
+  const query = parseReviewQuery(rawQuery);
 
   const attempt = await Attempt.findById(attemptId).lean();
   if (!attempt) redirect("/dashboard");
   if (user.role === "student" && String(attempt.userId) !== user.id) {
     redirect("/dashboard");
   }
-  // Instant results: scored attempts are released on submit (status approved).
-  // Legacy "submitted" rows (pre-change) also unlock if already scored.
   if (
     user.role === "student" &&
     attempt.status !== "approved" &&
@@ -42,7 +51,24 @@ export default async function ResultsPage({
     redirect("/dashboard");
   }
 
-  const paper = await getPaper(attempt.year);
+  const answers = attempt.answers as AttemptAnswerLite[];
+  const basePath = `/results/${attemptId}`;
+
+  const [paper, peerHistory, paperByKey] = await Promise.all([
+    getPaper(attempt.year),
+    user.role === "student"
+      ? Attempt.find({
+          userId: attempt.userId,
+          status: { $in: ["approved", "submitted"] },
+          score: { $ne: null },
+        })
+          .sort({ year: 1, attemptNumber: 1 })
+          .select("_id year attemptNumber score percentile estimatedRank")
+          .lean()
+      : Promise.resolve([]),
+    getPaperQuestionMap(attempt.year).catch(() => new Map()),
+  ]);
+
   const subjectStats = (attempt.subjectStats ?? {}) as Record<
     string,
     {
@@ -68,134 +94,76 @@ export default async function ResultsPage({
     improvements?: string[];
   };
   const bands = scoreBands(paper?.candidate_count ?? 2_000_000);
-  const peerHistory =
-    user.role === "student"
-      ? await Attempt.find({
-          userId: attempt.userId,
-          status: { $in: ["approved", "submitted"] },
-          score: { $ne: null },
+
+  // Index from paper JSON + denorm answer meta — no 200-doc Mongo stem load.
+  const indexAll = buildReviewIndex(answers, paperByKey);
+  const subjectCounts = {
+    ALL: indexAll.length,
+    Physics: indexAll.filter((r) => r.subject === "Physics").length,
+    Chemistry: indexAll.filter((r) => r.subject === "Chemistry").length,
+    Biology: indexAll.filter((r) => r.subject === "Biology").length,
+  } satisfies Record<ReviewFilterSubject, number>;
+  const outcomeCounts = {
+    ALL: indexAll.length,
+    correct: indexAll.filter((r) => r.outcome === "correct").length,
+    partial: indexAll.filter((r) => r.outcome === "partial").length,
+    wrong: indexAll.filter((r) => r.outcome === "wrong").length,
+    unattempted: indexAll.filter((r) => r.outcome === "unattempted").length,
+  } satisfies Record<ReviewFilterOutcome, number>;
+
+  const filtered = filterReviewIndex(indexAll, query);
+  const pageInfo = paginateReviewIndex(filtered, query.page, REVIEW_PAGE_SIZE);
+  const safeQuery = { ...query, page: pageInfo.page };
+
+  // Full stems / figures / solutions only for this page.
+  const pageQids = pageInfo.slice.map((r) => r.questionId);
+  const pageKeys = pageInfo.slice
+    .map((r) => r.questionKey)
+    .filter(Boolean) as string[];
+  const pageQuestions =
+    pageQids.length > 0
+      ? await Question.find({
+          $or: [
+            { _id: { $in: pageQids } },
+            ...(pageKeys.length ? [{ questionKey: { $in: pageKeys } }] : []),
+          ],
         })
-          .sort({ year: 1, attemptNumber: 1 })
+          .select(
+            "_id questionKey number subject section topic stem options correctOption correctOptions multiCorrect answerEstimated figureSrc figureKind",
+          )
           .lean()
       : [];
-
-  const qids = attempt.answers.map((a: { questionId: unknown }) => a.questionId);
-  const keys = attempt.answers
-    .map((a: { questionKey?: string }) => a.questionKey)
-    .filter(Boolean) as string[];
-  const questions = await Question.find({
-    $or: [
-      { _id: { $in: qids } },
-      ...(keys.length ? [{ questionKey: { $in: keys } }] : []),
-    ],
-  }).lean();
-  const byId = Object.fromEntries(questions.map((q) => [String(q._id), q]));
+  const byId = Object.fromEntries(
+    pageQuestions.map((q) => [String(q._id), q as DbQuestionLite]),
+  );
   const byKey = Object.fromEntries(
-    questions
+    pageQuestions
       .filter((q: { questionKey?: string }) => q.questionKey)
-      .map((q: { questionKey?: string }) => [q.questionKey!, q]),
-  );
-  const paperByKey = await getPaperQuestionMap(attempt.year).catch(
-    () => new Map(),
+      .map((q: { questionKey?: string }) => [
+        q.questionKey!,
+        q as DbQuestionLite,
+      ]),
   );
 
-  const reviewItems: ReviewItem[] = attempt.answers
-    .map(
-      (
-        a: {
-          questionId: unknown;
-          questionKey?: string;
-          selectedOption?: string | null;
-          selectedOptions?: string[];
-          status: string;
-        },
-        answerIndex: number,
-      ) => {
-        const q = (byId[String(a.questionId)] ||
-          (a.questionKey ? byKey[a.questionKey] : undefined)) as
-          | {
-              questionKey?: string;
-              number: number;
-              subject: string;
-              section: string;
-              topic: string;
-              stem: string;
-              options: Record<string, string>;
-              correctOption?: string;
-              correctOptions?: string[];
-              multiCorrect?: boolean;
-              answerEstimated?: boolean;
-              figureSrc?: string;
-              figureKind?: string;
-            }
-          | undefined;
-        if (!q) return null;
-        const key = a.questionKey || q.questionKey || "";
-        const paperQ = key ? paperByKey.get(key) : undefined;
-        // Paper JSON is authoritative for exam Q# (avoids parked seed numbers like 30096).
-        const number = displayQuestionNumber(paperQ, q.number, answerIndex);
-        const subject = paperQ?.subject ?? q.subject;
-        const section = paperQ?.section ?? q.section;
-        const topic = paperQ?.topic ?? q.topic;
-        const stem = paperQ?.stem ?? q.stem;
-        const options = (paperQ?.options ?? q.options ?? {}) as Record<string, string>;
-        const correct = resolveCorrectOptions({
-          correctOption: paperQ?.correctOption ?? q.correctOption,
-          correctOptions: paperQ?.correctOptions ?? q.correctOptions,
-        });
-        const multi = isMultiCorrectQuestion({
-          multiCorrect: paperQ?.multiCorrect ?? q.multiCorrect,
-          correctOptions: correct,
-          correctOption: paperQ?.correctOption ?? q.correctOption,
-        });
-        const picked =
-          a.selectedOptions?.length
-            ? a.selectedOptions
-            : a.selectedOption
-              ? [a.selectedOption]
-              : [];
-        const selected =
-          a.status === "not_attempted" && picked.length === 0 ? [] : picked;
-        const { marks, outcome } = scoreSelection(selected, correct, multi);
-        const needsFigure =
-          /see figure|as shown in (the )?figure|shown in (the )?figure|following diagram|given figure|in the figure|as shown in figure|shown in figure|given figures/i.test(
-            stem,
-          );
-        const learning = buildLearningAid({
-          number,
-          subject,
-          section,
-          topic,
-          stem,
-          options,
-          correct,
-          multiCorrect: multi,
-          answerEstimated: Boolean(paperQ?.answerEstimated ?? q.answerEstimated),
-          curatedSolution: paperQ?.solution ?? null,
-          curatedLinks: paperQ?.studyLinks ?? null,
-        });
-        return {
-          id: String(a.questionId),
-          number,
-          subject,
-          section,
-          topic,
-          stem,
-          options,
-          selected,
-          correct,
-          outcome,
-          marks,
-          multiCorrect: multi,
-          figureSrc: (paperQ?.figureSrc ?? q.figureSrc) ?? null,
-          figureKind: (paperQ?.figureKind ?? q.figureKind) ?? null,
-          needsFigure,
-          learning,
-        } satisfies ReviewItem;
-      },
-    )
-    .filter((x: ReviewItem | null): x is ReviewItem => x != null)
-    .sort((a: ReviewItem, b: ReviewItem) => a.number - b.number);
+  const reviewItems = hydrateReviewPage({
+    answers,
+    slice: pageInfo.slice,
+    paperByKey,
+    byId,
+    byKey,
+  });
+
+  const pager = (
+    <ReviewPagination
+      basePath={basePath}
+      query={safeQuery}
+      total={pageInfo.total}
+      totalPages={pageInfo.totalPages}
+      pageSize={pageInfo.pageSize}
+      subjectCounts={subjectCounts}
+      outcomeCounts={outcomeCounts}
+    />
+  );
 
   return (
     <main className="mx-auto max-w-4xl px-4 py-8">
@@ -307,7 +275,7 @@ export default async function ResultsPage({
         </ul>
       </section>
 
-      <QuestionReviewList items={reviewItems} />
+      <QuestionReviewList items={reviewItems} toolbar={pager} footer={pager} />
 
       {user.role === "examiner" && (
         <p className="mt-6 text-sm">

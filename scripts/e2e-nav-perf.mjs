@@ -177,11 +177,39 @@ async function main() {
     const r = await req("GET", `/results/${attemptId}`);
     if (r.status !== 200) throw new Error(`results ${r.status}`);
     const hasCharts =
-      /Outcome mix|Pros & cons|Subject stacked|Solution & learning|AI NEET/i.test(
+      /Outcome mix|Pros & cons|Subject stacked|AI NEET|Question review/i.test(
         r.text,
       );
     if (!hasCharts) throw new Error("results charts/solution markers missing");
-    return { detail: `score=${s.json.score} charts=yes` };
+    if (!/Showing\s+\d+[–-]\d+\s+of\s+\d+\s+solutions/i.test(r.text)) {
+      throw new Error("results pagination marker missing");
+    }
+    if (!/page 1\//i.test(r.text) && !/\(200\)/.test(r.text)) {
+      // 200-Q paper should show pager or full count chip
+      throw new Error("expected multi-page review or 200 count");
+    }
+    return { detail: `score=${s.json.score} charts=yes paginated=yes` };
+  });
+
+  await timed("results page 2 HTML", async () => {
+    const r = await req("GET", `/results/${attemptId}?page=2#review`);
+    if (r.status !== 200) throw new Error(`results p2 ${r.status}`);
+    if (!/Showing\s+11[–-]20\s+of/i.test(r.text)) {
+      throw new Error("page 2 range missing");
+    }
+    if (!/AI NEET-style solution/i.test(r.text)) {
+      throw new Error("page 2 solutions missing");
+    }
+    return { detail: "page2=ok" };
+  });
+
+  await timed("results wrong filter", async () => {
+    const r = await req("GET", `/results/${attemptId}?outcome=wrong`);
+    if (r.status !== 200) throw new Error(`results filter ${r.status}`);
+    if (!/Showing\s+\d+[–-]\d+\s+of\s+\d+\s+solutions/i.test(r.text)) {
+      throw new Error("filtered pagination missing");
+    }
+    return { detail: "filter=wrong ok" };
   });
 
   // second dashboard hit (warm path)
