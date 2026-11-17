@@ -43,11 +43,38 @@ export type MdQuestion = {
   studyLinks?: Array<{ label: string; url: string }> | null;
 };
 
+export type StudentQuestionDto = {
+  id: string;
+  questionKey: string;
+  number: number;
+  subject: string;
+  section: string;
+  topic: string;
+  stem: string;
+  options: Record<string, string>;
+  options_json: string;
+  multiCorrect: boolean;
+  figureSrc: string | null;
+  figureKind: string | null;
+};
+
+export type KeyedQuestionDto = StudentQuestionDto & {
+  correctOption: string;
+  correctOptions?: string[];
+  answerEstimated: boolean;
+  solution: string | null;
+  studyLinks: Array<{ label: string; url: string }> | null;
+};
+
 type CachedPaper = {
   meta: MdPaperMeta;
   questions: MdQuestion[];
   byKey: Map<string, MdQuestion>;
   etag: string;
+  hasKeys: boolean;
+  /** Precomputed student DTOs — avoid remapping on every request. */
+  studentDtos: StudentQuestionDto[];
+  keyedDtos: KeyedQuestionDto[] | null;
 };
 
 const ROOT = path.join(process.cwd(), "content", "papers");
@@ -120,11 +147,107 @@ async function readKeyMap(year: number): Promise<Record<string, Partial<MdQuesti
   return parsed.keys || {};
 }
 
+function toStudentDto(q: MdQuestion): StudentQuestionDto {
+  return {
+    id: String(objectIdFromQuestionKey(q.id)),
+    questionKey: q.id,
+    number: q.number,
+    subject: q.subject,
+    section: q.section,
+    topic: q.topic,
+    stem: q.stem,
+    options: q.options,
+    options_json: JSON.stringify(q.options ?? {}),
+    multiCorrect: Boolean(q.multiCorrect),
+    figureSrc: q.figureSrc ?? null,
+    figureKind: q.figureKind ?? null,
+  };
+}
+
+function toKeyedDto(q: MdQuestion): KeyedQuestionDto {
+  return {
+    ...toStudentDto(q),
+    correctOption: q.correctOption || "1",
+    correctOptions: q.correctOptions,
+    answerEstimated: Boolean(q.answerEstimated),
+    solution: q.solution ?? null,
+    studyLinks: q.studyLinks ?? null,
+  };
+}
+
+function buildMeta(
+  year: number,
+  fm: Record<string, unknown>,
+  questions: MdQuestion[],
+  normalizedCount: number,
+): MdPaperMeta {
+  const fmReady =
+    fm.studentReady === true ||
+    fm.studentReady === "true" ||
+    fm.studentReady === undefined;
+  const studentReady =
+    questions.length >= MIN_STUDENT_PAPER_QUESTIONS && fmReady !== false;
+  const gaps = Array.isArray(fm.gaps) ? [...(fm.gaps as string[])] : [];
+  if (!studentReady) {
+    gaps.push(
+      `Only ${questions.length} clean English questions (need ${MIN_STUDENT_PAPER_QUESTIONS}).`,
+    );
+  }
+  const rawTotal = Number(fm.totalQuestions ?? normalizedCount);
+  const rawLimit = Number(fm.attemptLimit ?? rawTotal);
+  const rawDuration = Number(fm.durationMinutes ?? 180);
+  const durationMinutes = Math.max(
+    60,
+    Math.round(rawDuration * (questions.length / Math.max(rawTotal, 1))),
+  );
+  return {
+    year: Number(fm.year ?? year),
+    code: String(fm.code ?? ""),
+    title: String(fm.title ?? `NEET ${year}`),
+    candidateCount: Number(fm.candidateCount ?? 2_000_000),
+    durationMinutes,
+    totalQuestions: questions.length,
+    attemptLimit: Math.min(rawLimit, questions.length),
+    structure: String(fm.structure ?? ""),
+    source: String(fm.source ?? ""),
+    gaps,
+    studentReady,
+  };
+}
+
 async function loadYear(year: number, withKeys: boolean): Promise<CachedPaper | null> {
   bustIfNeeded();
   const hit = cache.get(year);
-  if (hit && (!withKeys || hit.questions.some((q) => q.correctOption != null))) {
+  if (hit && (!withKeys || hit.hasKeys)) {
     return hit;
+  }
+
+  // Upgrade path: student pack cached, now need keys — merge without re-reading paper.
+  if (hit && withKeys && !hit.hasKeys) {
+    const keys = await readKeyMap(year).catch(
+      () => ({}) as Record<string, Partial<MdQuestion>>,
+    );
+    const questions = hit.questions.map((q) => {
+      const k = keys[q.id] || {};
+      return {
+        ...q,
+        correctOption: k.correctOption ?? q.correctOption,
+        correctOptions: k.correctOptions ?? q.correctOptions,
+        multiCorrect: Boolean(k.multiCorrect ?? q.multiCorrect),
+        answerEstimated: Boolean(k.answerEstimated ?? q.answerEstimated),
+        solution: k.solution ?? null,
+        studyLinks: k.studyLinks ?? null,
+      };
+    });
+    const packed: CachedPaper = {
+      ...hit,
+      questions,
+      byKey: new Map(questions.map((q) => [q.id, q])),
+      hasKeys: true,
+      keyedDtos: questions.map(toKeyedDto),
+    };
+    cache.set(year, packed);
+    return packed;
   }
 
   let paperRaw: string;
@@ -137,11 +260,11 @@ async function loadYear(year: number, withKeys: boolean): Promise<CachedPaper | 
   const json = extractFence(body, "neet-paper-json");
   if (!json) return null;
   const parsed = JSON.parse(json) as { questions: MdQuestion[] };
-  const emptyKeys: Record<string, Partial<MdQuestion>> = {};
-  const keys =
-    withKeys || !hit
-      ? await readKeyMap(year).catch(() => emptyKeys)
-      : emptyKeys;
+
+  // Best practice: student path never touches key.md (keys stay server-side until needed).
+  const keys = withKeys
+    ? await readKeyMap(year).catch(() => ({} as Record<string, Partial<MdQuestion>>))
+    : ({} as Record<string, Partial<MdQuestion>>);
 
   const normalized = (parsed.questions || []).map((q) => {
     const k = keys[q.id] || {};
@@ -163,43 +286,8 @@ async function loadYear(year: number, withKeys: boolean): Promise<CachedPaper | 
     };
   });
 
-  // Never serve placeholders / OCR garbage / incomplete options to students.
   const questions = filterStudentQuestions(normalized);
-  const fmReady =
-    fm.studentReady === true ||
-    fm.studentReady === "true" ||
-    fm.studentReady === undefined;
-  const studentReady =
-    questions.length >= MIN_STUDENT_PAPER_QUESTIONS && fmReady !== false;
-  const gaps = Array.isArray(fm.gaps) ? [...(fm.gaps as string[])] : [];
-  if (!studentReady) {
-    gaps.push(
-      `Only ${questions.length} clean English questions (need ${MIN_STUDENT_PAPER_QUESTIONS}).`,
-    );
-  }
-
-  const rawTotal = Number(fm.totalQuestions ?? normalized.length);
-  const rawLimit = Number(fm.attemptLimit ?? rawTotal);
-  const rawDuration = Number(fm.durationMinutes ?? 180);
-  const durationMinutes = Math.max(
-    60,
-    Math.round(rawDuration * (questions.length / Math.max(rawTotal, 1))),
-  );
-
-  const meta: MdPaperMeta = {
-    year: Number(fm.year ?? year),
-    code: String(fm.code ?? ""),
-    title: String(fm.title ?? `NEET ${year}`),
-    candidateCount: Number(fm.candidateCount ?? 2_000_000),
-    durationMinutes,
-    totalQuestions: questions.length,
-    attemptLimit: Math.min(rawLimit, questions.length),
-    structure: String(fm.structure ?? ""),
-    source: String(fm.source ?? ""),
-    gaps,
-    studentReady,
-  };
-
+  const meta = buildMeta(year, fm, questions, normalized.length);
   const etag = `"cv${CONTENT_VERSION}-y${year}-n${questions.length}-${createHash("sha1")
     .update(json.slice(0, 2000) + String(questions.length))
     .digest("hex")
@@ -210,11 +298,15 @@ async function loadYear(year: number, withKeys: boolean): Promise<CachedPaper | 
     questions,
     byKey: new Map(questions.map((q) => [q.id, q])),
     etag,
+    hasKeys: withKeys,
+    studentDtos: questions.map(toStudentDto),
+    keyedDtos: withKeys ? questions.map(toKeyedDto) : null,
   };
   cache.set(year, packed);
   return packed;
 }
 
+/** Parallel year loads — O(n) wall time ≈ slowest file, not sum. */
 export async function listMdPapers(): Promise<MdPaperMeta[]> {
   bustIfNeeded();
   if (listCache) return listCache;
@@ -223,11 +315,8 @@ export async function listMdPapers(): Promise<MdPaperMeta[]> {
     .map((f) => Number(f.match(/neet-(\d{4})\.paper\.md/)?.[1]))
     .filter((y) => Number.isFinite(y))
     .sort((a, b) => b - a);
-  const metas: MdPaperMeta[] = [];
-  for (const y of years) {
-    const p = await loadYear(y, false);
-    if (p) metas.push(p.meta);
-  }
+  const packs = await Promise.all(years.map((y) => loadYear(y, false)));
+  const metas = packs.filter(Boolean).map((p) => p!.meta);
   listCache = metas;
   return metas;
 }
@@ -240,44 +329,36 @@ export async function getMdPaper(year: number) {
 export async function getMdQuestionsForStudent(year: number) {
   const p = await loadYear(year, false);
   if (!p) return [];
-  return p.questions.map((q) => ({
-    id: String(objectIdFromQuestionKey(q.id)),
-    questionKey: q.id,
-    number: q.number,
-    subject: q.subject,
-    section: q.section,
-    topic: q.topic,
-    stem: q.stem,
-    options: q.options,
-    options_json: JSON.stringify(q.options ?? {}),
-    multiCorrect: Boolean(q.multiCorrect),
-    figureSrc: q.figureSrc ?? null,
-    figureKind: q.figureKind ?? null,
-  }));
+  return p.studentDtos;
 }
 
 export async function getMdQuestionsWithKeys(year: number) {
   const p = await loadYear(year, true);
   if (!p) return [];
-  return p.questions.map((q) => ({
-    id: String(objectIdFromQuestionKey(q.id)),
-    questionKey: q.id,
-    number: q.number,
-    subject: q.subject,
-    section: q.section,
-    topic: q.topic,
-    stem: q.stem,
-    options: q.options,
-    options_json: JSON.stringify(q.options ?? {}),
-    correctOption: q.correctOption || "1",
-    correctOptions: q.correctOptions,
-    multiCorrect: Boolean(q.multiCorrect),
-    answerEstimated: Boolean(q.answerEstimated),
-    figureSrc: q.figureSrc ?? null,
-    figureKind: q.figureKind ?? null,
-    solution: q.solution ?? null,
-    studyLinks: q.studyLinks ?? null,
-  }));
+  if (!p.keyedDtos) {
+    p.keyedDtos = p.questions.map(toKeyedDto);
+  }
+  return p.keyedDtos;
+}
+
+/** O(k) hydrate for results pagination — avoid mapping the full year. */
+export async function getMdQuestionsByKeys(
+  year: number,
+  keys: string[],
+  withKeys = true,
+) {
+  const p = await loadYear(year, withKeys);
+  if (!p || !keys.length) return [];
+  const out: KeyedQuestionDto[] = [];
+  const seen = new Set<string>();
+  for (const key of keys) {
+    if (!key || seen.has(key)) continue;
+    seen.add(key);
+    const q = p.byKey.get(key);
+    if (!q) continue;
+    out.push(toKeyedDto(q));
+  }
+  return out;
 }
 
 export async function getMdQuestionMap(year: number) {
@@ -310,4 +391,11 @@ export async function resolveMdQuestionsForAnswers(
       null;
     return q;
   });
+}
+
+/** Test helper — clear in-process caches. */
+export function __resetMdPaperCacheForTests() {
+  cache.clear();
+  listCache = null;
+  cacheVersion = -1;
 }

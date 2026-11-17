@@ -3,6 +3,7 @@
 import {
   startTransition,
   useCallback,
+  useDeferredValue,
   useEffect,
   useMemo,
   useRef,
@@ -239,28 +240,33 @@ export function ExamCbt({
     setOnline(typeof navigator !== "undefined" ? navigator.onLine : true);
   }, [attemptId]);
 
+  // Defer palette filter work so option taps stay responsive while the grid recomputes.
+  const deferredSubject = useDeferredValue(subjectFilter);
+  const deferredSection = useDeferredValue(sectionFilter);
+  const deferredMark = useDeferredValue(markFilter);
+
   const availableSections = useMemo(() => {
     const set = new Set<string>();
     for (const q of questions) {
-      if (subjectFilter !== "ALL" && q.subject !== subjectFilter) continue;
+      if (deferredSubject !== "ALL" && q.subject !== deferredSubject) continue;
       if (q.section) set.add(String(q.section).toUpperCase());
     }
     return [...set].sort();
-  }, [questions, subjectFilter]);
+  }, [questions, deferredSubject]);
 
   const filteredIndexes = useMemo(() => {
     return questions
       .map((q, i) => ({ q, i }))
       .filter(({ q }) => {
-        if (subjectFilter !== "ALL" && q.subject !== subjectFilter) return false;
-        if (sectionFilter !== "ALL" && String(q.section).toUpperCase() !== sectionFilter) {
+        if (deferredSubject !== "ALL" && q.subject !== deferredSubject) return false;
+        if (deferredSection !== "ALL" && String(q.section).toUpperCase() !== deferredSection) {
           return false;
         }
-        if (markFilter === "MARKED" && q.status !== "marked") return false;
+        if (deferredMark === "MARKED" && q.status !== "marked") return false;
         return true;
       })
       .map(({ i }) => i);
-  }, [questions, subjectFilter, sectionFilter, markFilter]);
+  }, [questions, deferredSubject, deferredSection, deferredMark]);
 
   const current = questions[index] ?? questions[filteredIndexes[0]];
 

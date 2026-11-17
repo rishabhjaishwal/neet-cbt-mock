@@ -1,6 +1,6 @@
 "use client";
 
-import type { ReactNode } from "react";
+import { memo, type ReactNode } from "react";
 import { QuestionOptionMarkdown, QuestionStemMarkdown } from "@/components/QuestionMarkdown";
 import { QuestionFigure } from "@/components/QuestionFigure";
 import { formatOptions, type Outcome } from "@/lib/multi-correct";
@@ -56,6 +56,140 @@ function renderMarkdownish(text: string) {
   });
 }
 
+const ReviewCard = memo(function ReviewCard({ q }: { q: ReviewItem }) {
+  return (
+    <article
+      className={`review-card rounded-xl border p-4 ${outcomeStyle[q.outcome]}`}
+    >
+      <div className="flex flex-wrap items-baseline justify-between gap-2">
+        <h3 className="font-semibold">
+          Q{q.number}.{" "}
+          <span className="text-sm font-medium text-slate-500">
+            {q.subject} · Sec {q.section} · {q.topic}
+          </span>
+        </h3>
+        <span className="text-sm font-semibold capitalize">
+          {q.outcome}
+          {q.multiCorrect ? " · multi" : ""} · {q.marks > 0 ? `+${q.marks}` : q.marks}
+        </span>
+      </div>
+
+      {(q.needsFigure || q.figureSrc) && (
+        <div className="mt-3">
+          <QuestionFigure
+            figureSrc={q.figureSrc}
+            figureKind={q.figureKind}
+            missingLabel="Figure not available in this digital extract"
+            schematicLabel="Schematic figure (restored for clarity)"
+          />
+        </div>
+      )}
+
+      <QuestionStemMarkdown stem={q.stem} className="mt-3" />
+
+      <div className="mt-3 grid gap-2 text-sm sm:grid-cols-2">
+        <div>
+          <div className="text-xs uppercase text-slate-500">Your answer</div>
+          <div className="font-medium">{formatOptions(q.selected)}</div>
+        </div>
+        <div>
+          <div className="text-xs uppercase text-slate-500">Correct answer</div>
+          <div className="font-medium text-emerald-800">{formatOptions(q.correct)}</div>
+        </div>
+      </div>
+
+      <div className="mt-3 space-y-2">
+        {(["1", "2", "3", "4"] as const).map((opt) => {
+          const isCorrect = q.correct.includes(opt);
+          const isSelected = q.selected.includes(opt);
+          return (
+            <div
+              key={opt}
+              className={`rounded border px-3 py-2 text-sm ${
+                isCorrect
+                  ? "border-emerald-400 bg-emerald-50"
+                  : isSelected
+                    ? "border-rose-300 bg-rose-50"
+                    : "border-slate-200 bg-white"
+              }`}
+            >
+              <strong className="mr-2">({opt})</strong>
+              <QuestionOptionMarkdown option={q.options[opt] ?? ""} />
+              <span className="ml-2 text-xs text-slate-500">
+                {isCorrect ? "✓ correct" : ""}
+                {isSelected && !isCorrect ? " · your pick" : ""}
+                {isSelected && isCorrect ? " · your pick" : ""}
+              </span>
+            </div>
+          );
+        })}
+      </div>
+
+      <details className="mt-4 rounded-lg border border-slate-200 bg-white/80 open:border-sky-200">
+        <summary className="cursor-pointer list-none px-3 py-2 text-sm font-semibold text-slate-800">
+          {q.learning.title}
+          <span className="ml-2 rounded-full bg-slate-100 px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-slate-600">
+            {q.learning.concept}
+          </span>
+        </summary>
+        <div
+          className={`border-t px-3 py-3 ${
+            q.learning.placeholder
+              ? "border-dashed border-amber-200 bg-amber-50/40"
+              : "border-slate-100"
+          }`}
+        >
+          {q.learning.curatedSolution ? (
+            <div className="rounded-md border border-emerald-200 bg-emerald-50/50 px-3 py-2">
+              <div className="text-[11px] font-bold uppercase tracking-wide text-emerald-800">
+                Curated solution
+              </div>
+              <div className="mt-1 space-y-2">
+                {renderMarkdownish(q.learning.curatedSolution)}
+              </div>
+            </div>
+          ) : null}
+
+          <div className="mt-3 rounded-md border border-sky-200 bg-sky-50/40 px-3 py-2">
+            <div className="text-[11px] font-bold uppercase tracking-wide text-sky-900">
+              AI NEET-style solution
+            </div>
+            <div className="mt-1 space-y-2">
+              {renderMarkdownish(q.learning.aiSolution)}
+            </div>
+          </div>
+
+          {q.learning.links.length > 0 && (
+            <div className="mt-3">
+              <div className="text-[11px] font-bold uppercase tracking-wide text-slate-500">
+                Study stack
+              </div>
+              <ul className="mt-2 flex flex-wrap gap-2">
+                {q.learning.links.map((link) => (
+                  <li key={link.url}>
+                    <a
+                      href={link.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cbt-btn cbt-btn-secondary cbt-btn-sm inline-flex items-center gap-1.5"
+                    >
+                      <span className="rounded bg-slate-200 px-1.5 py-0.5 text-[10px] font-bold uppercase text-slate-700">
+                        {linkKindLabel[link.kind] || "Link"}
+                      </span>
+                      <span>{link.label}</span>
+                      <span aria-hidden>↗</span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </div>
+      </details>
+    </article>
+  );
+});
+
 export function QuestionReviewList({
   items,
   toolbar,
@@ -75,6 +209,7 @@ export function QuestionReviewList({
         </h2>
         <p className="text-sm text-slate-600">
           Paginated on the server — only this page of AI / curated solutions is loaded.
+          Open a card&apos;s solution when you need it (keeps first paint light).
         </p>
       </div>
 
@@ -85,133 +220,7 @@ export function QuestionReviewList({
           No questions match this filter.
         </p>
       ) : (
-        items.map((q) => (
-          <article
-            key={q.id}
-            className={`rounded-xl border p-4 ${outcomeStyle[q.outcome]}`}
-          >
-            <div className="flex flex-wrap items-baseline justify-between gap-2">
-              <h3 className="font-semibold">
-                Q{q.number}.{" "}
-                <span className="text-sm font-medium text-slate-500">
-                  {q.subject} · Sec {q.section} · {q.topic}
-                </span>
-              </h3>
-              <span className="text-sm font-semibold capitalize">
-                {q.outcome}
-                {q.multiCorrect ? " · multi" : ""} · {q.marks > 0 ? `+${q.marks}` : q.marks}
-              </span>
-            </div>
-
-            {(q.needsFigure || q.figureSrc) && (
-              <div className="mt-3">
-                <QuestionFigure
-                  figureSrc={q.figureSrc}
-                  figureKind={q.figureKind}
-                  missingLabel="Figure not available in this digital extract"
-                  schematicLabel="Schematic figure (restored for clarity)"
-                />
-              </div>
-            )}
-
-            <QuestionStemMarkdown stem={q.stem} className="mt-3" />
-
-            <div className="mt-3 grid gap-2 text-sm sm:grid-cols-2">
-              <div>
-                <div className="text-xs uppercase text-slate-500">Your answer</div>
-                <div className="font-medium">{formatOptions(q.selected)}</div>
-              </div>
-              <div>
-                <div className="text-xs uppercase text-slate-500">Correct answer</div>
-                <div className="font-medium text-emerald-800">{formatOptions(q.correct)}</div>
-              </div>
-            </div>
-
-            <div className="mt-3 space-y-2">
-              {(["1", "2", "3", "4"] as const).map((opt) => {
-                const isCorrect = q.correct.includes(opt);
-                const isSelected = q.selected.includes(opt);
-                return (
-                  <div
-                    key={opt}
-                    className={`rounded border px-3 py-2 text-sm ${
-                      isCorrect
-                        ? "border-emerald-400 bg-emerald-50"
-                        : isSelected
-                          ? "border-rose-300 bg-rose-50"
-                          : "border-slate-200 bg-white"
-                    }`}
-                  >
-                    <strong className="mr-2">({opt})</strong>
-                    <QuestionOptionMarkdown option={q.options[opt] ?? ""} />
-                    <span className="ml-2 text-xs text-slate-500">
-                      {isCorrect ? "✓ correct" : ""}
-                      {isSelected && !isCorrect ? " · your pick" : ""}
-                      {isSelected && isCorrect ? " · your pick" : ""}
-                    </span>
-                  </div>
-                );
-              })}
-            </div>
-
-            <div
-              className={`mt-4 rounded-lg border px-3 py-3 ${
-                q.learning.placeholder
-                  ? "border-dashed border-amber-300 bg-amber-50/60"
-                  : "border-slate-200 bg-white/80"
-              }`}
-            >
-              <div className="flex flex-wrap items-center justify-between gap-2">
-                <h4 className="text-sm font-semibold text-slate-800">{q.learning.title}</h4>
-                <span className="rounded-full bg-slate-100 px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-slate-600">
-                  {q.learning.concept}
-                </span>
-              </div>
-
-              {q.learning.curatedSolution ? (
-                <div className="mt-3 rounded-md border border-emerald-200 bg-emerald-50/50 px-3 py-2">
-                  <div className="text-[11px] font-bold uppercase tracking-wide text-emerald-800">
-                    Curated solution
-                  </div>
-                  <div className="mt-1 space-y-2">{renderMarkdownish(q.learning.curatedSolution)}</div>
-                </div>
-              ) : null}
-
-              <div className="mt-3 rounded-md border border-sky-200 bg-sky-50/40 px-3 py-2">
-                <div className="text-[11px] font-bold uppercase tracking-wide text-sky-900">
-                  AI NEET-style solution
-                </div>
-                <div className="mt-1 space-y-2">{renderMarkdownish(q.learning.aiSolution)}</div>
-              </div>
-
-              {q.learning.links.length > 0 && (
-                <div className="mt-3">
-                  <div className="text-[11px] font-bold uppercase tracking-wide text-slate-500">
-                    Study stack
-                  </div>
-                  <ul className="mt-2 flex flex-wrap gap-2">
-                    {q.learning.links.map((link) => (
-                      <li key={link.url}>
-                        <a
-                          href={link.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="cbt-btn cbt-btn-secondary cbt-btn-sm inline-flex items-center gap-1.5"
-                        >
-                          <span className="rounded bg-slate-200 px-1.5 py-0.5 text-[10px] font-bold uppercase text-slate-700">
-                            {linkKindLabel[link.kind] || "Link"}
-                          </span>
-                          <span>{link.label}</span>
-                          <span aria-hidden>↗</span>
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-            </div>
-          </article>
-        ))
+        items.map((q) => <ReviewCard key={q.id} q={q} />)
       )}
 
       {footer}

@@ -10,7 +10,7 @@ import { ResultsMetrics } from "@/components/ResultsMetrics";
 import { QuestionReviewList } from "@/components/QuestionReviewList";
 import { ReviewPagination } from "@/components/ReviewPagination";
 import { getPaperQuestionMap } from "@/lib/paper-content";
-import { getMdQuestionsWithKeys } from "@/lib/md-paper-store";
+import { getMdQuestionsByKeys } from "@/lib/md-paper-store";
 import {
   buildReviewIndex,
   filterReviewIndex,
@@ -116,15 +116,11 @@ export default async function ResultsPage({
   const pageInfo = paginateReviewIndex(filtered, query.page, REVIEW_PAGE_SIZE);
   const safeQuery = { ...query, page: pageInfo.page };
 
-  // Full stems / figures / solutions from MD store (page slice only via hydrate).
-  const mdAll = await getMdQuestionsWithKeys(attempt.year);
-  const pageKeySet = new Set(
-    pageInfo.slice.map((r) => r.questionKey).filter(Boolean) as string[],
-  );
-  const pageIdSet = new Set(pageInfo.slice.map((r) => r.questionId));
-  const pageQuestions = mdAll.filter(
-    (q) => pageKeySet.has(q.questionKey) || pageIdSet.has(q.id),
-  );
+  // O(k) hydrate — only the current results page keys, not the full year map.
+  const pageKeys = pageInfo.slice
+    .map((r) => r.questionKey)
+    .filter((k): k is string => Boolean(k));
+  const pageQuestions = await getMdQuestionsByKeys(attempt.year, pageKeys, true);
   const byId = Object.fromEntries(
     pageQuestions.map((q) => [
       q.id,

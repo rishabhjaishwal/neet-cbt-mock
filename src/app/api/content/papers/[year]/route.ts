@@ -32,11 +32,12 @@ export async function GET(req: Request, { params }: Params) {
       headers: {
         ETag: etag,
         "X-Content-Version": String(CONTENT_VERSION),
-        "Cache-Control": "private, max-age=0, must-revalidate",
+        "Cache-Control": "private, max-age=300, must-revalidate",
       },
     });
   }
 
+  // Single cache hit serves both meta + student DTOs (no double loadYear).
   const [meta, questions] = await Promise.all([
     getMdPaper(year),
     getMdQuestionsForStudent(year),
@@ -55,25 +56,41 @@ export async function GET(req: Request, { params }: Params) {
     );
   }
 
+  const lite = req.headers.get("x-content-lite") === "1" ||
+    new URL(req.url).searchParams.get("lite") === "1";
+
   const res = NextResponse.json({
     contentVersion: CONTENT_VERSION,
     paper: meta,
-    questions: questions.map((q) => ({
-      id: q.id,
-      questionKey: q.questionKey,
-      number: q.number,
-      subject: q.subject,
-      section: q.section,
-      topic: q.topic,
-      stem: q.stem,
-      options: q.options,
-      multiCorrect: q.multiCorrect,
-      figureSrc: q.figureSrc,
-      figureKind: q.figureKind,
-    })),
+    questions: lite
+      ? questions.map((q) => ({
+          id: q.id,
+          questionKey: q.questionKey,
+          number: q.number,
+          subject: q.subject,
+          section: q.section,
+          topic: q.topic,
+          multiCorrect: q.multiCorrect,
+          figureSrc: q.figureSrc,
+          figureKind: q.figureKind,
+        }))
+      : questions.map((q) => ({
+          id: q.id,
+          questionKey: q.questionKey,
+          number: q.number,
+          subject: q.subject,
+          section: q.section,
+          topic: q.topic,
+          stem: q.stem,
+          options: q.options,
+          multiCorrect: q.multiCorrect,
+          figureSrc: q.figureSrc,
+          figureKind: q.figureKind,
+        })),
   });
   if (etag) res.headers.set("ETag", etag);
   res.headers.set("X-Content-Version", String(CONTENT_VERSION));
-  res.headers.set("Cache-Control", "private, max-age=0, must-revalidate");
+  // Private browser cache + ETag revalidation — FE prefetch uses If-None-Match.
+  res.headers.set("Cache-Control", "private, max-age=300, must-revalidate");
   return res;
 }

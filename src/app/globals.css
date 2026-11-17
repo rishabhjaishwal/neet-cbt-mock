@@ -68,6 +68,16 @@ input {
   overflow: hidden;
 }
 
+/* Skip offscreen paint for dense CBT chrome (palette + review cards). */
+.palette-btn {
+  content-visibility: auto;
+  contain-intrinsic-size: 40px 40px;
+}
+.review-card {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 420px;
+}
+
 .palette-btn {
   display: inline-flex;
   align-items: center;
