@@ -788,8 +788,14 @@ button.palette-btn[data-status="marked_answered"],
 }
 
 /* ——— Exam CBT phone layout ——— */
-.exam-mobile-palette-bar {
+.exam-mobile-palette-bar,
+.exam-mobile-sidenav-tab,
+.exam-mobile-sidenav {
   display: none;
+}
+
+.exam-status-strip {
+  line-height: 1.25;
 }
 
 @media (max-width: 1023px) {
@@ -803,26 +809,31 @@ button.palette-btn[data-status="marked_answered"],
     min-height: 0;
   }
 
+  .exam-status-strip {
+    padding-top: 0.2rem !important;
+    padding-bottom: 0.2rem !important;
+  }
+
+  .exam-status-strip__timer {
+    font-size: 0.78rem;
+    letter-spacing: 0.04em;
+  }
+
   .cbt-exam-header {
-    gap: 0.3rem !important;
-    padding: 0.35rem 0.6rem !important;
+    gap: 0.25rem !important;
+    padding: 0.3rem 0.55rem !important;
   }
 
   .cbt-exam-header__title {
-    flex: 1 1 100%;
+    flex: 1 1 auto;
     min-width: 0;
-  }
-
-  .cbt-exam-header__title .font-\[family-name\:var\(--font-display\)\],
-  .cbt-exam-header__title .text-base {
-    font-size: 0.92rem !important;
-    line-height: 1.2;
+    max-width: 42%;
   }
 
   .cbt-exam-header__meta {
-    width: 100%;
-    justify-content: flex-start;
-    gap: 0.3rem !important;
+    flex: 1 1 auto;
+    justify-content: flex-end;
+    gap: 0.25rem !important;
   }
 
   .cbt-exam-header .cbt-hide-sm {
@@ -830,21 +841,9 @@ button.palette-btn[data-status="marked_answered"],
   }
 
   .cbt-exam-header .cbt-btn-sm {
-    min-height: 1.85rem;
-    padding: 0.2rem 0.45rem;
-    font-size: 0.7rem;
-  }
-
-  .cbt-exam-header .min-h-9 {
-    min-height: 1.85rem;
-    padding-top: 0.15rem;
-    padding-bottom: 0.15rem;
-  }
-
-  .cbt-exam-timer {
-    font-size: 0.9rem !important;
-    padding: 0.25rem 0.5rem !important;
-    letter-spacing: 0.02em;
+    min-height: 1.75rem;
+    padding: 0.15rem 0.4rem;
+    font-size: 0.68rem;
   }
 
   .cbt-shell .exam-question-pane {
@@ -854,9 +853,10 @@ button.palette-btn[data-status="marked_answered"],
     -webkit-overflow-scrolling: touch;
     overscroll-behavior: contain;
     padding: 0.65rem 0.75rem !important;
-    /* Compact 2-row action grid (~5.1rem) + palette bar (~2.9rem). */
-    padding-bottom: calc(8.2rem + env(safe-area-inset-bottom, 0px)) !important;
-    scroll-padding-bottom: calc(8.2rem + env(safe-area-inset-bottom, 0px));
+    /* Compact 2-row action grid only (palette is a side drawer now). */
+    padding-bottom: calc(5.6rem + env(safe-area-inset-bottom, 0px)) !important;
+    padding-right: calc(0.75rem + 1.65rem) !important; /* room for edge tab */
+    scroll-padding-bottom: calc(5.6rem + env(safe-area-inset-bottom, 0px));
     scroll-padding-top: 0.25rem;
   }
 
@@ -890,19 +890,19 @@ button.palette-btn[data-status="marked_answered"],
 
   /*
    * Sticky-inside-scroll was floating mid-question on iOS (covering figures).
-   * Pin a compact 2-row action grid above the palette bar.
+   * Pin a compact 2-row action grid at the bottom (no palette footer bar).
    */
   .cbt-shell .exam-actions-sticky {
     position: fixed !important;
     left: 0;
     right: 0;
-    bottom: calc(2.85rem + env(safe-area-inset-bottom, 0px));
+    bottom: env(safe-area-inset-bottom, 0px);
     z-index: 40;
     margin: 0 !important;
-    padding: 0.4rem 0.55rem;
+    padding: 0.35rem 0.5rem;
     display: grid !important;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 0.35rem;
+    gap: 0.3rem;
     align-items: stretch;
     background: #fff;
     border-top: 1px solid #e2e8f0;
@@ -913,10 +913,10 @@ button.palette-btn[data-status="marked_answered"],
   .cbt-shell .exam-actions-sticky .cbt-btn {
     flex: unset !important;
     width: 100%;
-    min-height: 2.25rem;
+    min-height: 2.15rem;
     justify-content: center;
-    font-size: 0.75rem;
-    padding: 0.3rem 0.35rem;
+    font-size: 0.72rem;
+    padding: 0.25rem 0.3rem;
     white-space: nowrap;
   }
 
@@ -939,38 +939,111 @@ button.palette-btn[data-status="marked_answered"],
     display: none !important;
   }
 
-  .exam-mobile-palette-bar {
+  /* Collapsed edge handle — opens the scrollable sidenav */
+  .exam-mobile-sidenav-tab {
     display: flex;
     position: fixed;
-    left: 0;
+    top: 42%;
     right: 0;
-    bottom: 0;
-    z-index: 45;
+    z-index: 42;
+    transform: translateY(-50%);
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    gap: 0.5rem;
-    min-height: 2.85rem;
-    padding: 0.4rem 0.65rem calc(0.4rem + env(safe-area-inset-bottom, 0px));
+    gap: 0.15rem;
+    width: 1.55rem;
+    padding: 0.55rem 0.15rem;
+    border: 0;
+    border-radius: 0.55rem 0 0 0.55rem;
     background: #0a3d6b;
     color: #fff;
-    box-shadow: 0 -8px 24px rgba(15, 23, 42, 0.25);
+    box-shadow: -4px 0 14px rgba(15, 23, 42, 0.22);
+    writing-mode: horizontal-tb;
   }
 
-  .exam-mobile-palette-sheet {
+  .exam-mobile-sidenav-tab[hidden] {
+    display: none !important;
+  }
+
+  .exam-mobile-sidenav-tab__q {
+    font-size: 0.62rem;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+
+  .exam-mobile-sidenav-tab__label {
+    font-size: 0.55rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+  }
+
+  .exam-mobile-sidenav {
     position: fixed;
-    inset: auto 0 0 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
     z-index: 50;
     display: flex;
-    max-height: min(58dvh, 420px);
+    width: min(82vw, 20.5rem);
     flex-direction: column;
-    border-radius: 1rem 1rem 0 0;
     background: #f7fafc;
-    box-shadow: 0 -12px 40px rgba(15, 23, 42, 0.28);
+    box-shadow: -12px 0 36px rgba(15, 23, 42, 0.28);
     padding-bottom: env(safe-area-inset-bottom, 0px);
   }
 
-  .exam-mobile-palette-sheet[hidden] {
+  .exam-mobile-sidenav[hidden] {
     display: none !important;
+  }
+
+  .exam-mobile-sidenav__head {
+    display: flex;
+    shrink: 0;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.5rem;
+    border-bottom: 1px solid #e2e8f0;
+    padding: 0.65rem 0.75rem;
+  }
+
+  .exam-mobile-sidenav__crumbs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.72rem;
+    color: #64748b;
+  }
+
+  .exam-mobile-sidenav__crumbs button {
+    border: 0;
+    border-radius: 0.35rem;
+    background: transparent;
+    padding: 0.2rem 0.35rem;
+    font-weight: 600;
+    color: #334155;
+  }
+
+  .exam-mobile-sidenav__crumbs button.is-active {
+    background: #0b5cab;
+    color: #fff;
+  }
+
+  .exam-mobile-sidenav__meta {
+    margin: 0;
+    padding: 0.35rem 0.75rem 0;
+    font-size: 0.7rem;
+    color: #64748b;
+  }
+
+  .exam-mobile-sidenav__scroll {
+    min-height: 0;
+    flex: 1;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+    padding: 0.65rem 0.75rem 1rem;
   }
 
   .exam-mobile-palette-backdrop {
@@ -984,17 +1057,8 @@ button.palette-btn[data-status="marked_answered"],
     display: none !important;
   }
 
-  /* When palette sheet open, hide fixed actions and leave room for the sheet */
-  .cbt-shell[data-mobile-palette="open"] .exam-question-pane {
-    padding-bottom: min(62dvh, 460px) !important;
-  }
-
-  .cbt-shell[data-mobile-palette="open"] .exam-actions-sticky {
+  .cbt-shell[data-mobile-palette="open"] .exam-mobile-sidenav-tab {
     display: none !important;
-  }
-
-  .cbt-shell[data-mobile-palette="open"] .exam-mobile-palette-bar {
-    display: none;
   }
 
   .desk-shell__inner {
@@ -1045,7 +1109,9 @@ button.palette-btn[data-status="marked_answered"],
   }
   .exam-mobile-palette-bar,
   .exam-mobile-palette-sheet,
-  .exam-mobile-palette-backdrop {
+  .exam-mobile-palette-backdrop,
+  .exam-mobile-sidenav-tab,
+  .exam-mobile-sidenav {
     display: none !important;
   }
 }
@@ -1460,6 +1526,19 @@ html.dark .cbt-shell .exam-actions-sticky {
   background: #152033 !important;
   border-color: var(--border) !important;
   box-shadow: 0 -6px 18px rgba(0, 0, 0, 0.35);
+}
+html.dark .exam-mobile-sidenav {
+  background: #152033;
+  color: var(--cbt-ink);
+}
+html.dark .exam-mobile-sidenav__head {
+  border-color: var(--border);
+}
+html.dark .exam-mobile-sidenav__crumbs button {
+  color: #c5d0dc;
+}
+html.dark .exam-status-strip {
+  background: rgba(8, 14, 24, 0.95) !important;
 }
 html.dark .q-figure img {
   background: #0f1828;

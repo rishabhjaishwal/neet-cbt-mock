@@ -985,11 +985,17 @@ export function ExamCbt({
           </button>
         </div>
       )}
-      {online && syncState !== "error" && (
-        <div className="bg-slate-800/90 px-4 py-1 text-center text-xs text-slate-100">
+      <div className="exam-status-strip flex shrink-0 items-center justify-between gap-3 bg-slate-800/90 px-3 py-1 text-xs text-slate-100">
+        <span className="exam-status-strip__sync min-w-0 flex-1 truncate">
           {syncLabel}
-        </div>
-      )}
+        </span>
+        <span
+          className="exam-status-strip__timer shrink-0 font-mono font-semibold tracking-wide text-white lg:hidden"
+          aria-label={i18n.timeLeft}
+        >
+          {formatRemain(remain)}
+        </span>
+      </div>
 
       {timerWarn && examStarted && (
         <div className="z-[55] flex items-center justify-center gap-3 bg-amber-500 px-4 py-2 text-sm font-semibold text-amber-950">
@@ -1119,21 +1125,14 @@ export function ExamCbt({
         />
       )}
 
-      <header className="cbt-exam-header flex shrink-0 flex-wrap items-center justify-between gap-3 bg-[var(--header)] px-4 py-3 text-white">
+      <header className="cbt-exam-header flex shrink-0 flex-wrap items-center justify-between gap-2 bg-[var(--header)] px-3 py-2 text-white sm:gap-3 sm:px-4 sm:py-3">
         <div className="cbt-exam-header__title min-w-0 flex-1">
-          <div className="flex items-start justify-between gap-2">
-            <div className="min-w-0">
-              <div className="font-[family-name:var(--font-display)] text-base font-semibold sm:text-lg">
-                NEET UG CBT — {year}
-              </div>
-              <div className="truncate text-xs text-blue-100 sm:text-sm">{title}</div>
-            </div>
-            <div className="cbt-exam-timer shrink-0 rounded bg-black/25 px-3 py-1.5 font-mono text-lg tracking-wide sm:hidden">
-              {formatRemain(remain)}
-            </div>
+          <div className="font-[family-name:var(--font-display)] text-sm font-semibold leading-tight sm:text-lg">
+            NEET UG CBT — {year}
           </div>
+          <div className="truncate text-[0.7rem] text-blue-100 sm:text-sm">{title}</div>
         </div>
-        <div className="cbt-exam-header__meta flex flex-wrap items-center gap-2">
+        <div className="cbt-exam-header__meta flex flex-wrap items-center gap-1.5 sm:gap-2">
           <ThemeToggle compact className="cbt-btn cbt-btn-sm cbt-btn-ghost-toolbar" />
           <button
             type="button"
@@ -1184,17 +1183,17 @@ export function ExamCbt({
               {i18n.fontLarger}
             </button>
           </div>
-          <div className="flex rounded bg-black/25 p-1 text-sm">
+          <div className="flex rounded bg-black/25 p-0.5 text-xs sm:p-1 sm:text-sm">
             <button
               type="button"
-              className={`min-h-9 rounded px-2.5 py-1 ${lang === "en" ? "bg-white text-slate-900" : ""}`}
+              className={`min-h-8 rounded px-2 py-0.5 sm:min-h-9 sm:px-2.5 sm:py-1 ${lang === "en" ? "bg-white text-slate-900" : ""}`}
               onClick={() => setLang("en")}
             >
               EN
             </button>
             <button
               type="button"
-              className={`min-h-9 rounded px-2.5 py-1 ${lang === "hi" ? "bg-white text-slate-900" : ""}`}
+              className={`min-h-8 rounded px-2 py-0.5 sm:min-h-9 sm:px-2.5 sm:py-1 ${lang === "hi" ? "bg-white text-slate-900" : ""}`}
               onClick={() => setLang("hi")}
             >
               हिं
@@ -1206,7 +1205,8 @@ export function ExamCbt({
           <div className="cbt-hide-sm rounded bg-black/25 px-3 py-1.5 text-sm">
             {i18n.screenSwitches}: {switchCount}
           </div>
-          <div className="cbt-exam-timer cbt-exam-timer--desk hidden rounded bg-black/25 px-3 py-1.5 font-mono text-lg tracking-wide sm:block sm:px-4 sm:py-2 sm:text-xl">
+          {/* Desktop keeps a larger timer chip; phones use the status strip. */}
+          <div className="cbt-exam-timer cbt-exam-timer--desk cbt-hide-sm rounded bg-black/25 px-3 py-1.5 font-mono text-lg tracking-wide sm:px-4 sm:py-2 sm:text-xl">
             {formatRemain(remain)}
           </div>
         </div>
@@ -1554,17 +1554,17 @@ export function ExamCbt({
         </aside>
       </div>
 
+      {/* Mobile: edge tab + collapsible right sidenav (not a bottom sheet). */}
       <button
         type="button"
-        className="exam-mobile-palette-bar"
+        className="exam-mobile-sidenav-tab"
         onClick={() => setMobilePaletteOpen(true)}
         aria-expanded={mobilePaletteOpen}
+        aria-controls="exam-mobile-sidenav"
+        hidden={mobilePaletteOpen}
       >
-        <span className="font-semibold">{i18n.palette}</span>
-        <span className="text-sm text-blue-100">
-          Q{current.number} · {limitInfo.attemptedCount}/{limitInfo.attemptLimit} answered
-        </span>
-        <span className="rounded bg-white/15 px-2 py-1 text-xs font-bold">Open</span>
+        <span className="exam-mobile-sidenav-tab__q">Q{current.number}</span>
+        <span className="exam-mobile-sidenav-tab__label">{i18n.palette}</span>
       </button>
 
       <div
@@ -1573,22 +1573,34 @@ export function ExamCbt({
         onClick={() => setMobilePaletteOpen(false)}
         aria-hidden
       />
-      <div
-        className="exam-mobile-palette-sheet"
+      <aside
+        id="exam-mobile-sidenav"
+        className="exam-mobile-sidenav"
         hidden={!mobilePaletteOpen}
         role="dialog"
         aria-label={i18n.palette}
       >
-        <div className="flex shrink-0 items-center justify-between gap-2 border-b border-slate-200 px-4 py-3">
-          <div>
-            <h3 className="font-[family-name:var(--font-display)] font-semibold text-slate-800">
-              {i18n.palette}
-            </h3>
-            <p className="text-xs text-slate-500">
-              {subjectFilter === "ALL" ? i18n.allSubjects : subjectFilter}
-              {sectionFilter !== "ALL" ? ` · ${i18n.section} ${sectionFilter}` : ""}
-            </p>
-          </div>
+        <div className="exam-mobile-sidenav__head">
+          <nav className="exam-mobile-sidenav__crumbs" aria-label="Palette filters">
+            <button
+              type="button"
+              className={subjectFilter === "ALL" ? "is-active" : undefined}
+              onClick={() => selectSubject("ALL")}
+            >
+              All
+            </button>
+            <span aria-hidden>/</span>
+            {(["Physics", "Chemistry", "Biology"] as const).map((s) => (
+              <button
+                key={s}
+                type="button"
+                className={subjectFilter === s ? "is-active" : undefined}
+                onClick={() => selectSubject(s)}
+              >
+                {s === "Physics" ? "Phy" : s === "Chemistry" ? "Chem" : "Bio"}
+              </button>
+            ))}
+          </nav>
           <button
             type="button"
             className="cbt-btn cbt-btn-sm cbt-btn-secondary"
@@ -1597,13 +1609,46 @@ export function ExamCbt({
             Close
           </button>
         </div>
-        <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain px-4 py-3">
-          <div className="mb-3 flex flex-wrap gap-3 text-xs text-slate-600">
+        <p className="exam-mobile-sidenav__meta">
+          Q{current.number} · {limitInfo.attemptedCount}/{limitInfo.attemptLimit} answered
+          {sectionFilter !== "ALL" ? ` · ${i18n.section} ${sectionFilter}` : ""}
+        </p>
+        <div className="exam-mobile-sidenav__scroll">
+          <div className="mb-3 flex flex-wrap gap-2 text-[0.7rem] text-slate-600">
             <span>{i18n.attempted} ({counts.attempted})</span>
             <span>{i18n.notAttempted} ({counts.not_attempted})</span>
             <span>{i18n.marked} ({counts.marked + counts.marked_answered})</span>
           </div>
-          <div className="grid grid-cols-6 gap-2 xs:grid-cols-7 sm:grid-cols-8">
+          {availableSections.length > 1 && (
+            <div className="mb-3 flex flex-wrap gap-1.5">
+              <button
+                type="button"
+                className={`rounded px-2 py-1 text-xs font-medium ${
+                  sectionFilter === "ALL"
+                    ? "bg-[var(--cbt-accent)] text-white"
+                    : "bg-slate-100 text-slate-700"
+                }`}
+                onClick={() => selectSection("ALL")}
+              >
+                {i18n.all}
+              </button>
+              {availableSections.map((sec) => (
+                <button
+                  key={sec}
+                  type="button"
+                  className={`rounded px-2 py-1 text-xs font-medium ${
+                    sectionFilter === sec
+                      ? "bg-[var(--cbt-accent)] text-white"
+                      : "bg-slate-100 text-slate-700"
+                  }`}
+                  onClick={() => selectSection(sec as SectionFilter)}
+                >
+                  {i18n.section} {sec}
+                </button>
+              ))}
+            </div>
+          )}
+          <div className="grid grid-cols-5 gap-1.5 sm:grid-cols-6">
             {paletteIndexes.map((i) => {
               const q = questions[i];
               const status = paletteStatus(
@@ -1628,7 +1673,7 @@ export function ExamCbt({
             })}
           </div>
         </div>
-      </div>
+      </aside>
     </div>
   );
 }
