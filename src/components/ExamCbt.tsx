@@ -1120,11 +1120,18 @@ export function ExamCbt({
       )}
 
       <header className="cbt-exam-header flex shrink-0 flex-wrap items-center justify-between gap-3 bg-[var(--header)] px-4 py-3 text-white">
-        <div className="min-w-0">
-          <div className="font-[family-name:var(--font-display)] text-base font-semibold sm:text-lg">
-            NEET UG CBT — {year}
+        <div className="cbt-exam-header__title min-w-0 flex-1">
+          <div className="flex items-start justify-between gap-2">
+            <div className="min-w-0">
+              <div className="font-[family-name:var(--font-display)] text-base font-semibold sm:text-lg">
+                NEET UG CBT — {year}
+              </div>
+              <div className="truncate text-xs text-blue-100 sm:text-sm">{title}</div>
+            </div>
+            <div className="cbt-exam-timer shrink-0 rounded bg-black/25 px-3 py-1.5 font-mono text-lg tracking-wide sm:hidden">
+              {formatRemain(remain)}
+            </div>
           </div>
-          <div className="truncate text-xs text-blue-100 sm:text-sm">{title}</div>
         </div>
         <div className="cbt-exam-header__meta flex flex-wrap items-center gap-2">
           <ThemeToggle compact className="cbt-btn cbt-btn-sm cbt-btn-ghost-toolbar" />
@@ -1199,7 +1206,7 @@ export function ExamCbt({
           <div className="cbt-hide-sm rounded bg-black/25 px-3 py-1.5 text-sm">
             {i18n.screenSwitches}: {switchCount}
           </div>
-          <div className="cbt-exam-timer rounded bg-black/25 px-3 py-1.5 font-mono text-lg tracking-wide sm:px-4 sm:py-2 sm:text-xl">
+          <div className="cbt-exam-timer cbt-exam-timer--desk hidden rounded bg-black/25 px-3 py-1.5 font-mono text-lg tracking-wide sm:block sm:px-4 sm:py-2 sm:text-xl">
             {formatRemain(remain)}
           </div>
         </div>
