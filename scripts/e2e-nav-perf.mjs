@@ -100,7 +100,7 @@ async function main() {
   await timed("topic-series HTML", async () => {
     const r = await req("GET", "/topic-series");
     if (r.status !== 200) throw new Error(`status ${r.status}`);
-    if (!/Topic-wise mock series/i.test(r.text)) throw new Error("missing heading");
+    if (!/Topic-wise mocks/i.test(r.text)) throw new Error("missing heading");
     return { detail: `len=${r.text.length}` };
   });
 
