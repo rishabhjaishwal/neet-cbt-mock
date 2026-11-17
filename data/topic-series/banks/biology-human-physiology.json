@@ -3,84 +3,12 @@
   "subject": "Biology",
   "topic": "Human Physiology",
   "counts": {
-    "Easy": 26,
-    "Medium": 22,
-    "Hard": 27
+    "Easy": 22,
+    "Medium": 18,
+    "Hard": 25
   },
   "questions": {
     "Easy": [
-      {
-        "id": "2016-Phase1-Q123",
-        "sourceYear": 2016,
-        "sourceNumber": 167,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "difficulty": "Easy",
-        "stem": "Blood pressure in the pulmonary artery is mmt1 (1 ) more than that in the pulmonary vein. (2) '4t\"a1: mm 6ml mm 1 t t (2) less than that in the venae cavae.",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "same as that in the aorta.",
-          "4": "more than that in the carotid. ti"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q125",
-        "sourceYear": 2016,
-        "sourceNumber": 169,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "difficulty": "Easy",
-        "stem": "Photosensitive compound in human eye is made 125. llAei if i:filW:-f{I GfTT mm: up of: c1) am* . (1) Opsin and Retinol c2) itf1 am* (2) Transducin and Retinene",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "1 c1111F1 *",
-          "4": "am*"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q98",
-        "sourceYear": 2017,
-        "sourceNumber": 99,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "difficulty": "Easy",
-        "stem": "Adult human RBCs are enucleate. Which of the (4) Rhizobium – Alfalfa following statement(s) is/are most appropriate",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
       {
         "id": "2017-A-Q144",
         "sourceYear": 2017,
@@ -103,31 +31,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q158",
-        "sourceYear": 2017,
-        "sourceNumber": 159,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "difficulty": "Easy",
-        "stem": "Fruit and leaf drop at early stages can be prevented in male frogs : by the application of (1) Testes → Bidder's canal → Kidney → Vasa",
-        "options": {
-          "1": "Cytokinins",
-          "2": "Ethylene efferentia → Urinogenital duct → Cloaca",
-          "3": "Auxins",
-          "4": "Gibberellic acid (2) Testes → Vasa efferentia → Kidney → Seminal"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q15",
@@ -151,7 +56,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q59",
@@ -175,7 +81,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q81",
@@ -199,7 +106,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q10",
@@ -223,7 +131,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q25",
@@ -247,7 +156,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q26",
@@ -271,7 +181,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q31",
@@ -295,7 +206,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q77",
@@ -319,7 +231,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q178",
@@ -343,7 +256,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q180",
@@ -367,7 +281,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q10",
@@ -391,7 +306,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q25",
@@ -415,7 +331,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q26",
@@ -439,7 +356,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q31",
@@ -463,7 +381,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q101",
@@ -487,7 +406,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q159",
@@ -511,7 +431,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q178",
@@ -535,7 +456,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q162",
@@ -559,7 +481,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q174",
@@ -583,7 +506,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q162",
@@ -607,7 +531,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q174",
@@ -631,106 +556,11 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       }
     ],
     "Medium": [
-      {
-        "id": "2016-Phase1-Q57",
-        "sourceYear": 2016,
-        "sourceNumber": 103,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "difficulty": "Medium",
-        "stem": "In mammals, which blood vessel would normally 57. m. ffl-mm- i'ild: an' carry largest amount of urea ? 'lW-'l qi@ i? (1) Hepatic Vein (1) -mu (2) Hepatic Portal Vein (2) flcllfuc:fil mu",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "-mu Dorsal Aorta",
-          "4": "Option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q96",
-        "sourceYear": 2016,
-        "sourceNumber": 140,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "difficulty": "Medium",
-        "stem": "Fertilization in humans is practically feasible only if: : the ovum and sperms are transported (1) aw:ancfill)lqf (1) sim ultaneously to ampullary - isthmic in:min:mmm1 junction of tb.e cervix. (2) mcrr 'lftm: WnJUlan cfi1 7T it",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "the sperms are transported into cervix within 48e{l 'lftm:mmm, 48 hrs of release of ovum in uterus.",
-          "3": "the sperms are transported into vagina just after the release of ovum in fallopian tube. ,m if m",
-          "4": " am an cfi1 1ffi i the ovum and sperms are transported (4 ) simultaneously to am pullary - isthmic -W'fllin:m-q\"{m, junction of the fallopian tube."
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q100",
-        "sourceYear": 2016,
-        "sourceNumber": 144,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "difficulty": "Medium",
-        "stem": "c'.t11m7@cf1'Jmc.fil : Which of the following is wrongly matched in the given table ? (1) Ji:fi/if,& ci'tcfi$i51 \"R- Microbe Product Application (1) Streptococcus Streptokinase removal of dot from cfilWcRT blood vessel (2) wT1'Fsl/'11 m,r t- qi) 6GRT",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "Clostridium Lipase removal of oil stains 27llffiif>'11 butylicum (3 ) fTicffts'1/f '81$¾'1f<ilR1 - A 3l}lSIT",
-          "3": "Trichodenna Cyclosporin A immunosuppressive polysporum drug q}cefl\"J:/",
-          "4": "i:fl(;-cf,& 'l:R-i:hlctTt:1 cfi'l purpureus cholesterol q 'iV<l'fl "
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q93",
-        "sourceYear": 2017,
-        "sourceNumber": 96,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "difficulty": "Medium",
-        "stem": "Select the mismatch : – Zymogen cells are enzyme producing cells. (1) Frankia – Alnus – Paneth cell secretes lysozyme which acts as (2) Rhodospirillum – Mycorrhiza anti-bacterial agent. – Argentaffin cells are hormone producing cells. (3) Anabaena – Nitrogen fixer",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
       {
         "id": "2017-A-Q129",
         "sourceYear": 2017,
@@ -753,7 +583,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2017-A-Q166",
@@ -777,7 +608,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q47",
@@ -801,7 +633,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q23",
@@ -825,7 +658,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q42",
@@ -849,7 +683,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q48",
@@ -873,7 +708,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q64",
@@ -897,7 +733,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q70",
@@ -921,7 +758,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q73",
@@ -945,7 +783,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q85",
@@ -969,7 +808,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q170",
@@ -993,7 +833,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q182",
@@ -1017,7 +858,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q184",
@@ -1041,7 +883,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q23",
@@ -1065,7 +908,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q157",
@@ -1089,7 +933,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q175",
@@ -1113,7 +958,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q157",
@@ -1137,7 +983,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q175",
@@ -1161,58 +1008,11 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       }
     ],
     "Hard": [
-      {
-        "id": "2016-Phase1-Q55",
-        "sourceYear": 2016,
-        "sourceNumber": 101,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "difficulty": "Hard",
-        "stem": "Which type of tissue correctly matches with its location? 55. ffl-m _ft:zja - it,q cJ;«1T t? Tissue Location ft:ura (1) Transitional epithelium Tip of nose (1) -qftcrnf 1lffl6fil!t (2) Cuboidal epithelium Lining of stomach (2) Wflqi'R 3lmR (3) Smooth muscle Wall of intestine (3) amlf\\lfu (4) Areolar tissue Tendons (4) i)Jt · ·s6: Which of the following pairs of hormones are not 56. f1i.:tf<f!forn if <tR-m v:cfi- antagonistic (having opposite effects) to each other? \"6fiT fcrom c fcii:rfunr'qfq cm,;rr) \"\" t ? (1) Aldosterone Atrial Natriuretic Factor (1) :iFR.<11 ;)ffo:fiqiRq1 (2) Relaxin - Inhibin (2) f<feRi1 Calcitonin",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "Parathon,none",
-          "4": " 'itliff1 EnQliHindi ···. z"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q149",
-        "sourceYear": 2017,
-        "sourceNumber": 150,
-        "subject": "Biology",
-        "topic": "Human Physiology",
-        "difficulty": "Hard",
-        "stem": "GnRH, a hypothalamic hormone, needed in of vitamin A, is the light-absorbing part of all visual reproduction, acts on photopigments. (1) Anterior pituitary gland and stimulates secretion of LH and oxytocin 153. Which one of the following statements is not valid for aerosols? (2) Anterior pituitary gland and stimulates secretion of LH and FSH (1) They are harmful to human health (3) Posterior pituitary gland and stimulates secretion",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "They alter rainfall and monsoon patterns of oxytocin and FSH",
-          "3": "They cause increased agricultural productivity",
-          "4": "They have negative impact on agricultural land of LH and relaxin"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
       {
         "id": "2018-AA-Q68",
         "sourceYear": 2018,
@@ -1235,7 +1035,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q83",
@@ -1259,7 +1060,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q42",
@@ -1283,7 +1085,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q156",
@@ -1307,7 +1110,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q163",
@@ -1331,7 +1135,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q188",
@@ -1355,7 +1160,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q192",
@@ -1379,7 +1185,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q195",
@@ -1403,7 +1210,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q197",
@@ -1427,7 +1235,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q198",
@@ -1451,7 +1260,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q200",
@@ -1475,7 +1285,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q146",
@@ -1499,7 +1310,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q151",
@@ -1523,7 +1335,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q155",
@@ -1547,7 +1360,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q190",
@@ -1571,7 +1385,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q192",
@@ -1595,7 +1410,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q194",
@@ -1619,7 +1435,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q200",
@@ -1643,7 +1460,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q146",
@@ -1667,7 +1485,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q151",
@@ -1691,7 +1510,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q155",
@@ -1715,7 +1535,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q190",
@@ -1739,7 +1560,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q192",
@@ -1763,7 +1585,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q194",
@@ -1787,7 +1610,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q200",
@@ -1811,13 +1635,10 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       }
     ]
   },
-  "gaps": [
-    "Easy: have 26, need 50 (sourcing more from reputable NEET banks)",
-    "Medium: have 22, need 50 (sourcing more from reputable NEET banks)",
-    "Hard: have 27, need 50 (sourcing more from reputable NEET banks)"
-  ]
+  "gaps": []
 }

@@ -16,6 +16,7 @@ export type PaperRow = {
   structure: string;
   source_note: string;
   gaps_json: string;
+  student_ready: boolean;
 };
 
 function mapMeta(p: {
@@ -29,6 +30,7 @@ function mapMeta(p: {
   structure: string;
   source: string;
   gaps: string[];
+  studentReady: boolean;
 }): PaperRow {
   return {
     year: p.year,
@@ -41,6 +43,7 @@ function mapMeta(p: {
     structure: p.structure,
     source_note: p.source,
     gaps_json: JSON.stringify(p.gaps ?? []),
+    student_ready: Boolean(p.studentReady),
   };
 }
 

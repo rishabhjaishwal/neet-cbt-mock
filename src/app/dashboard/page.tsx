@@ -116,7 +116,9 @@ export default async function DashboardPage({
   return (
     <div className="desk-shell">
       <div className="desk-shell__paper" aria-hidden />
-      <PaperContentPrefetch years={papers.map((p) => p.year)} />
+      <PaperContentPrefetch
+        years={papers.filter((p) => p.student_ready).map((p) => p.year)}
+      />
       <div className="desk-shell__inner">
         <header className="mb-6 flex flex-wrap items-start justify-between gap-4">
           <div>
@@ -222,19 +224,25 @@ export default async function DashboardPage({
                         <td className="px-4 py-3">
                           <div className="font-medium">{p.title}</div>
                           <div className="text-xs text-slate-500">
-                            {p.total_questions} Q · attempt {p.attempt_limit} ·{" "}
-                            {p.candidate_count.toLocaleString()} candidates
+                            {p.student_ready
+                              ? `${p.total_questions} Q · attempt ${p.attempt_limit} · ${p.candidate_count.toLocaleString()} candidates`
+                              : "Curating clean English items — start locked"}
                           </div>
                         </td>
-                        <td className="px-4 py-3">{p.duration_minutes} min</td>
+                        <td className="px-4 py-3">
+                          {p.student_ready ? `${p.duration_minutes} min` : "—"}
+                        </td>
                         <td className="px-4 py-3 capitalize">
-                          {a?.status?.replace("_", " ") ?? "Not started"}
-                          {a?.attemptNumber ? (
+                          {!p.student_ready
+                            ? "Unavailable"
+                            : (a?.status?.replace("_", " ") ?? "Not started")}
+                          {p.student_ready && a?.attemptNumber ? (
                             <div className="text-xs text-slate-500">
                               Attempt #{a.attemptNumber}
                             </div>
                           ) : null}
-                          {(a?.status === "approved" || a?.status === "submitted") &&
+                          {p.student_ready &&
+                            (a?.status === "approved" || a?.status === "submitted") &&
                             a.score != null && (
                               <div className="text-xs text-emerald-700">
                                 Score {a.score} · ~%ile {a.percentile} · rank ~
@@ -244,7 +252,11 @@ export default async function DashboardPage({
                         </td>
                         <td className="px-4 py-3">
                           <div className="flex flex-col gap-2">
-                            {!a || a.status === "in_progress" ? (
+                            {!p.student_ready ? (
+                              <span className="text-xs text-amber-700">
+                                Hidden until OCR/placeholders are replaced
+                              </span>
+                            ) : !a || a.status === "in_progress" ? (
                               <StartAttemptButton year={p.year} />
                             ) : (
                               <>

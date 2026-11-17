@@ -3,84 +3,12 @@
   "subject": "Biology",
   "topic": "Cell Biology",
   "counts": {
-    "Easy": 34,
-    "Medium": 18,
+    "Easy": 29,
+    "Medium": 12,
     "Hard": 22
   },
   "questions": {
     "Easy": [
-      {
-        "id": "2016-Phase1-Q117",
-        "sourceYear": 2016,
-        "sourceNumber": 161,
-        "subject": "Biology",
-        "topic": "Cell Biology",
-        "difficulty": "Easy",
-        "stem": "Which one of the following cell organelles is NUt? enclosed by a single membrane? (1) 41q,(q (1) Lysosomes (2) (2) Nuclei",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "Mitochondria",
-          "4": "Chloroplasts"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q118",
-        "sourceYear": 2016,
-        "sourceNumber": 162,
-        "subject": "Biology",
-        "topic": "Cell Biology",
-        "difficulty": "Easy",
-        "stem": "Which of the following is not a characteristic feature ch\"R-m '8a_:rU\"[WU? during misis in somatic cells ? (1) llrn (1) Chromosome movement (2) g1'l1 (2) Synllpsis",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "Spindle fibres",
-          "4": "Disappearance of nucleolus '@glish+HindiI z .'­"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q131",
-        "sourceYear": 2016,
-        "sourceNumber": 175,
-        "subject": "Biology",
-        "topic": "Cell Biology",
-        "difficulty": "Easy",
-        "stem": "In the stomach, gastric acid is secreted by the : 131. ifqj'flRTcfmm't: (1) peptic cells c1> an (2) acidic cells (2) an",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": ". qi'f lRTcf ffl :m ",
-          "4": "f'lTTTI'l! <fillefil"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
       {
         "id": "2017-A-Q135",
         "sourceYear": 2017,
@@ -103,55 +31,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q136",
-        "sourceYear": 2017,
-        "sourceNumber": 137,
-        "subject": "Biology",
-        "topic": "Cell Biology",
-        "difficulty": "Easy",
-        "stem": "Which of the following is correctly matched for the (3) Choanocytes product produced by them? (4) Mesenchymal cells (1) Acetobacter aceti : Antibiotics",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q179",
-        "sourceYear": 2017,
-        "sourceNumber": 179,
-        "subject": "Biology",
-        "topic": "Cell Biology",
-        "difficulty": "Easy",
-        "stem": "Thalassemia and sickle cell anemia are caused due (4) Just before transcription to a problem in globin molecule synthesis. Select",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q24",
@@ -175,7 +56,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q38",
@@ -199,7 +81,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q46",
@@ -223,7 +106,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q95",
@@ -247,7 +131,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q96",
@@ -271,7 +156,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q126",
@@ -295,7 +181,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q132",
@@ -319,7 +206,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q165",
@@ -343,7 +231,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q1",
@@ -367,7 +256,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q4",
@@ -391,7 +281,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q6",
@@ -415,7 +306,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q41",
@@ -439,7 +331,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q64",
@@ -463,7 +356,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q57",
@@ -487,7 +381,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q72",
@@ -511,7 +406,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q81",
@@ -535,7 +431,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q1",
@@ -559,7 +456,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q4",
@@ -583,7 +481,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q6",
@@ -607,7 +506,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q69",
@@ -631,7 +531,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q104",
@@ -655,7 +556,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q130",
@@ -679,7 +581,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q131",
@@ -703,7 +606,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q172",
@@ -727,7 +631,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q102",
@@ -751,7 +656,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q120",
@@ -775,7 +681,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q102",
@@ -799,7 +706,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q120",
@@ -823,154 +731,11 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       }
     ],
     "Medium": [
-      {
-        "id": "2016-Phase1-Q97",
-        "sourceYear": 2016,
-        "sourceNumber": 141,
-        "subject": "Biology",
-        "topic": "Cell Biology",
-        "difficulty": "Medium",
-        "stem": "Which of the following statements is not true for if \"it ffl--m -mt? cancer cells in relation to mutations ? (1) dNfo:td1 -Rffl cfi1' f I (1) Mutations inactivate the cell control. (2) dNfo:td1 ?.lcil'-l{iil cfi1' ",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "Mutations inhibit production of telomerase. i,",
-          "3": "l,llcf!<lifHsill1l\"if dNRc!d1 fflm-q;)cqfu cell cycle. i, ( 4) Mutations destroy telomerase inhibitor.",
-          "4": "dNRc!d1 ?.Jtlll4{iil q;) cf){ f I"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q110",
-        "sourceYear": 2016,
-        "sourceNumber": 154,
-        "subject": "Biology",
-        "topic": "Cell Biology",
-        "difficulty": "Medium",
-        "stem": "Specialised epidermal cells surrounding the guard cells are called 110. ;R i:f>'11cfi1&if cf>l qwf\\ fctf:w.lqia q\\&Jttj..,i} (1) Bulliform cells aTicf>lq<:JTt? (2) Lenticels (1) tqffilcfil",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "",
-          "3": "1l<cfi qillcfil",
-          "4": "Subsidiary cells (4 ) qillcfii"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q126",
-        "sourceYear": 2016,
-        "sourceNumber": 170,
-        "subject": "Biology",
-        "topic": "Cell Biology",
-        "difficulty": "Medium",
-        "stem": "One of the major components of cell wall of most 126. 3'.lf' cf,c{cfil if f'l-lfu cfiT lfll& 3fcflfcf fungi is: cfi'Rm %? (1) Cellulose (1) ftfl{clls:il (2) Hemicellulose (2) lfl(rl{c:.'lls:ii",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "",
-          "4": "qi)i11<.11$cf>1"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q132",
-        "sourceYear": 2016,
-        "sourceNumber": 176,
-        "subject": "Biology",
-        "topic": "Cell Biology",
-        "difficulty": "Medium",
-        "stem": "Identify the correct statement on' inhibin' : (1) Is produced by granulose cells in ovary and 132. ••if q- 4{i\"cllf.tQ,: inhibits the secretion of LH. <1> clft c:fifo1i:fi14 an r:iu (2) Is produced by nurse cells in testes and ·· mm%LH-<tit cfiUff % I inhibits the secretion of LH. (2) chl () ail r:I\"U ",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "LH,FSH SllSifcR;:icfilt.1 inhibits the secretion of FSH.",
-          "4": " .tt c:fiful<til4 <;fi)f1',<f>,-m m%FSHcfi1cfi«ff%1"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q102",
-        "sourceYear": 2017,
-        "sourceNumber": 103,
-        "subject": "Biology",
-        "topic": "Cell Biology",
-        "difficulty": "Medium",
-        "stem": "Which of the following options gives the correct sequence of events during mitosis? (4) The lagging strand away from the replication fork (1) Condensation → nuclear membrane disassembly",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q114",
-        "sourceYear": 2017,
-        "sourceNumber": 115,
-        "subject": "Biology",
-        "topic": "Cell Biology",
-        "difficulty": "Medium",
-        "stem": "Which of the following cell organelles is responsible (a) (b) (c) (d) for extracting energy from carbohydrates to form (1) (ii) (iii) (iv) (i) ATP? (2) (iii) (iv) (i) (ii) (1) Lysosome (2) Ribosome",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "Chloroplast",
-          "4": "(iv) (iii) (ii) (i)"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
       {
         "id": "2019-G1-Q7",
         "sourceYear": 2019,
@@ -993,7 +758,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q30",
@@ -1017,7 +783,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q47",
@@ -1041,7 +808,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q52",
@@ -1065,7 +833,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q135",
@@ -1089,7 +858,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q162",
@@ -1113,7 +883,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q7",
@@ -1137,7 +908,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q161",
@@ -1161,7 +933,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q131",
@@ -1185,7 +958,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q171",
@@ -1209,7 +983,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q131",
@@ -1233,7 +1008,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q171",
@@ -1257,7 +1033,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       }
     ],
     "Hard": [
@@ -1283,7 +1060,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q105",
@@ -1307,7 +1085,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q117",
@@ -1331,7 +1110,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q134",
@@ -1355,7 +1135,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q37",
@@ -1379,7 +1160,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q41",
@@ -1403,7 +1185,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q135",
@@ -1427,7 +1210,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q144",
@@ -1451,7 +1235,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q166",
@@ -1475,7 +1260,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q170",
@@ -1499,7 +1285,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q189",
@@ -1523,7 +1310,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q194",
@@ -1547,7 +1335,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q133",
@@ -1571,7 +1360,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q134",
@@ -1595,7 +1385,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q136",
@@ -1619,7 +1410,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q186",
@@ -1643,7 +1435,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q199",
@@ -1667,7 +1460,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q133",
@@ -1691,7 +1485,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q134",
@@ -1715,7 +1510,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q136",
@@ -1739,7 +1535,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q186",
@@ -1763,7 +1560,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q199",
@@ -1787,13 +1585,10 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       }
     ]
   },
-  "gaps": [
-    "Easy: have 34, need 50 (sourcing more from reputable NEET banks)",
-    "Medium: have 18, need 50 (sourcing more from reputable NEET banks)",
-    "Hard: have 22, need 50 (sourcing more from reputable NEET banks)"
-  ]
+  "gaps": []
 }

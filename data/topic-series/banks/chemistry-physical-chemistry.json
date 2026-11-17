@@ -3,36 +3,12 @@
   "subject": "Chemistry",
   "topic": "Physical Chemistry",
   "counts": {
-    "Easy": 50,
-    "Medium": 31,
-    "Hard": 34
+    "Easy": 41,
+    "Medium": 26,
+    "Hard": 26
   },
   "questions": {
     "Easy": [
-      {
-        "id": "2016-Phase1-Q143",
-        "sourceYear": 2016,
-        "sourceNumber": 54,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Easy",
-        "stem": "Which one of the following statements is correct (3) AH< 0 cfPTT AS= 0 when SO2 is passed through acidified K2Cr 2O7 (4) AH> 0o?.TTAS< 0 solution?",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
       {
         "id": "2016-Phase1-Q158",
         "sourceYear": 2016,
@@ -40,10 +16,10 @@
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
         "difficulty": "Easy",
-        "stem": "Two electrons occupying the same orbital are distinished by (4) dG, dH\"Q.ci dS ') :iti01k'icf> im i I (1) Azimuthal quantum number 158. '3j)fcnmifi1 (2) Spin quantum number -il'Tt?",
+        "stem": "Two electrons occupying the same orbital are distinished by (4) dG, dH\"Q.ci dS ') :iti01k'icf> im i I",
         "options": {
           "1": "qq'RA",
-          "2": " qq'RA",
+          "2": "qq'RA",
           "3": "Principal quantum number",
           "4": "Magnetic quantum number \"\\"
         },
@@ -55,7 +31,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2016-Phase1-Q160",
@@ -64,7 +41,7 @@
         "subject": "Chemistry",
         "topic": "Physical Chemistry",
         "difficulty": "Easy",
-        "stem": "The pair of electron in the given carbanion, (3) 154pm CH3C= c , is present in which of the following 8 (4) 352pm orbitals? 8 (1) sp 2 160. -, CH3C=C f.p (2) sp iffcn'frift? (3) 2p",
+        "stem": "The pair of electron in the given carbanion, (3) 154pm CH3C= c , is present in which of the following 8 (4) 352pm orbitals? 8",
         "options": {
           "1": "sp 2",
           "2": "sp",
@@ -79,79 +56,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q166",
-        "sourceYear": 2016,
-        "sourceNumber": 76,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Easy",
-        "stem": "The addition of a catalyst during a chemical reaction (1) alters which of the following quantities ? (2) ,(-lfsfi401 (1) Enthalpy (2) Activation energy",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "Entropy",
-          "4": "Internal energy 167. f.:ri.:r Tf * sf'ii:r m1TT :"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q169",
-        "sourceYear": 2016,
-        "sourceNumber": 79,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Easy",
-        "stem": "Which of the following biphenyls is optically active? I (1) (1) I CH3 (2) CH3 (2) 02N",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "Br Br Br Br",
-          "4": "I I 110. f1x;.if(-lf@1 if <tA' m 1$?!'111 t?"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q54",
-        "sourceYear": 2017,
-        "sourceNumber": 56,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Easy",
-        "stem": "If molality of the dilute solution is doubled, the value (2) A : H3C C CH2 B : H3C C CH2 of molal depression constant (Kf) will be",
-        "options": {
-          "1": "Doubled",
-          "2": "Halved OH SO4",
-          "3": "Tripled",
-          "4": "Unchanged (3) A : H3C C CH3 B : H3C C CH"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2017-A-Q56",
@@ -175,55 +81,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q63",
-        "sourceYear": 2017,
-        "sourceNumber": 63,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Easy",
-        "stem": "In the electrochemical cell :",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q70",
-        "sourceYear": 2017,
-        "sourceNumber": 68,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Easy",
-        "stem": "The correct statement regarding electrophile is in the order",
-        "options": {
-          "1": "Insulin maintains sugar level in the blood of a separation of 1 : 1 mixture of ortho and para human body nitrophenols as there is intramolecular H-bonds in ortho nitrophenol.",
-          "2": "Ovalbumin is a simple food reserve in egg-white",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2017-A-Q78",
@@ -247,79 +106,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q85",
-        "sourceYear": 2017,
-        "sourceNumber": 82,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Easy",
-        "stem": "Ionic mobility of which of the following alkali metal KMnO4 solution: ions is lowest when aqueous solution of their salts",
-        "options": {
-          "1": "CO2",
-          "2": "SO2 are put under an electric field?",
-          "3": "NO2",
-          "4": "P2O5 (1) Na (2) K"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q86",
-        "sourceYear": 2017,
-        "sourceNumber": 83,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Easy",
-        "stem": "The equilibrium constants of the following are.",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q95",
-        "sourceYear": 2017,
-        "sourceNumber": 89,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Easy",
-        "stem": "Attractants and rewards are required for (1) Heart (1) Anemophily (2) Stomach (2) Entomophily",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "Hydrophily",
-          "4": "Cleistogamy"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q82",
@@ -343,7 +131,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q138",
@@ -367,7 +156,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q143",
@@ -391,7 +181,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q160",
@@ -415,7 +206,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q168",
@@ -439,7 +231,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q175",
@@ -463,7 +256,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q176",
@@ -487,7 +281,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q109",
@@ -511,7 +306,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q119",
@@ -535,7 +331,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q121",
@@ -559,7 +356,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q123",
@@ -583,7 +381,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q127",
@@ -607,7 +406,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q130",
@@ -631,7 +431,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q107",
@@ -655,7 +456,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q127",
@@ -679,7 +481,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q164",
@@ -703,7 +506,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q80",
@@ -727,7 +531,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q82",
@@ -751,7 +556,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q119",
@@ -775,7 +581,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q129",
@@ -799,7 +606,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q131",
@@ -823,7 +631,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q133",
@@ -847,7 +656,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q51",
@@ -871,7 +681,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q53",
@@ -895,7 +706,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q69",
@@ -919,7 +731,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q85",
@@ -943,7 +756,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q86",
@@ -967,7 +781,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q53",
@@ -991,7 +806,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q66",
@@ -1015,7 +831,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q78",
@@ -1039,7 +856,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q80",
@@ -1063,7 +881,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q82",
@@ -1087,7 +906,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q53",
@@ -1111,7 +931,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q66",
@@ -1135,7 +956,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q78",
@@ -1159,7 +981,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q80",
@@ -1183,7 +1006,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q82",
@@ -1207,106 +1031,11 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       }
     ],
     "Medium": [
-      {
-        "id": "2016-Phase1-Q141",
-        "sourceYear": 2016,
-        "sourceNumber": 53,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Medium",
-        "stem": "Which is the correct statement for the given acids? 141.. f.ii.:tfclf©a if t- ffl m -rm ffl (1) Phosphinic acid is a monoprotic acid while ? phosphonic acid is a diprotic acid. (1) q;l'fftfif•P:fi i q,fMRcfi (2) Phosphinic acid is a diprotic acid while phosphonic acid is a monoprotic acid. \\Jcfifu'Sflitt,",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "q;lfw;f1cfi -mnit t 4>TMf.1cfi",
-          "3": "cFTT'fumitt,",
-          "4": "Both are triprotic acids. t,"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q149",
-        "sourceYear": 2016,
-        "sourceNumber": 59,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Medium",
-        "stem": "The pressure of H2 required to make the potential of H2 - electrode zero in pure water at 298 K is 149. 298 K 1l\\ if H2 - $c.?lct?ls 'cfiT '4cf \"cfi\"{'. (1) 100^{-10}$ atm t\" fuit 6tlqllcfi H2 (1) 100^{-10}$ atm",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "40^{-4}$ atm",
-          "3": "140^{-14}$ atm ( 4) 120^{-12}$ atm ( 4) 120^{-12}$ atm [§_nglish+Hindi I z",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q154",
-        "sourceYear": 2016,
-        "sourceNumber": 64,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Medium",
-        "stem": "Which one of the following orders is correct for the (4 ) Ca2+ cnlfu'il 9ci51T1T%1 bond dissociation enthalpy of halogen molecules? 154. f.ii.=tf(,\"(f@ct if aifctt (1) Br2 > 12 > F2 > Cl2 %? (2) F 2 > C l2 > Br2 > 12",
-        "options": {
-          "1": "B r2 > 12 > F2 > Cl2",
-          "2": "F 2 > Cl2 > B r2 > 12 3 ( ) 12 > Br2 > Cl2 > F2",
-          "3": "12 > Br 2 > Cl2 > F2",
-          "4": "Cl2 > Br2 > F 2 > 12 4 Cl2 > Br2 > F 2 > 12 ( ) z I EnglishHindi I"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q170",
-        "sourceYear": 2016,
-        "sourceNumber": 80,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Medium",
-        "stem": "Which of the following statements about hydrogen (1) l$,?lf1ll4 , H3O + cfiT if is incorrect ? lfffi if mcTT l I (1) Hydronium ion, H 3 O + exists freely in solution. (2) -sll$l'111 9-i:llllcfi ifi\"ifffl-rITTll (2) Dihydrogen does not act as a reducing agent.",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "is the most common.",
-          "4": "Hydrogen never acts as cation in ionic salts. -rITTt-1 IEng1ish+Hindil z"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
       {
         "id": "2018-AA-Q29",
         "sourceYear": 2018,
@@ -1329,7 +1058,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q74",
@@ -1353,7 +1083,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q146",
@@ -1377,7 +1108,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q149",
@@ -1401,31 +1133,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2018-AA-Q155",
-        "sourceYear": 2018,
-        "sourceNumber": 72,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Medium",
-        "stem": "A battery consists of a variable number ‘n’ of identical cells (having internal resistance ‘r’ each) which are connected in series. The terminals of the battery are short-circuited and the current I is measured. Which of the graphs shows the correct relationship between I and n ?",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q162",
@@ -1449,7 +1158,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q177",
@@ -1473,7 +1183,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q100",
@@ -1497,7 +1208,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q108",
@@ -1521,7 +1233,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q129",
@@ -1545,7 +1258,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q136",
@@ -1569,7 +1283,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q111",
@@ -1593,7 +1308,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q113",
@@ -1617,7 +1333,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q126",
@@ -1641,7 +1358,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q130",
@@ -1665,7 +1383,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q137",
@@ -1689,7 +1408,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q155",
@@ -1713,7 +1433,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q173",
@@ -1737,7 +1458,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q53",
@@ -1761,7 +1483,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q59",
@@ -1785,7 +1508,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q64",
@@ -1809,7 +1533,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q68",
@@ -1833,7 +1558,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q74",
@@ -1857,7 +1583,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q77",
@@ -1881,7 +1608,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q83",
@@ -1905,7 +1633,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q110",
@@ -1929,7 +1658,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q118",
@@ -1953,154 +1683,11 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       }
     ],
     "Hard": [
-      {
-        "id": "2016-Phase1-Q52",
-        "sourceYear": 2016,
-        "sourceNumber": 47,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Hard",
-        "stem": "The two polypeptides of human insulin are linked together by: 52. 1:JAq 4Tct1Cl'<!.t$-s if 6.Rt (1) Covalent bond e'lflf-J1a ? (2) Disulphide bridges (1) i,H{lf!'311 (3) Hydrogen bonds (2) :Sl$flt-<fiI$s (4) Phosphodieste]'. bond (3) l?1$'11-l (4) CfilM:S1$l{&.< 53•. Reduction in pH of blood will: (1) decrease the affinity of hemoglobin with 53. m'pHif'i:hlITcfiROT: oxygen. ., (1) -3iTi:R-11-i11 m 1,-?l'fllil1 ;trwn 1 (2) release bicarbopate ions by the liver. (2) '!ITTf af1$cfiliill2 \"6fiT f.1ti:fmi-l1 'WITll I",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "-'cfilqi'tfm,",
-          "4": "Option 4"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q140",
-        "sourceYear": 2016,
-        "sourceNumber": 52,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Hard",
-        "stem": "Match items of Column I with the items of 140. I cfi1 II I Column II and assign the correct code : l : Column I Column II I II (a) Cyanide process (i ) Ultrapure Ge (a) (i ) Ge (b) Froth floatation ii ( ) Dressing of ZnS process (b) -q;;ffcn'\"-1 (ii) ZnScf;f (c) Electrolytic reduction (iii ) Extraction of Al (c) fcr@ (iii) Alq;r (d) Zone refining (iv) Extraction of Au (d) qn_6:fr(Oj (iv) Au q;r (v) Purification of Ni . (v) Ni\"q;'J\"WR Code: (a) (b) (c) (d) (a) (b) (c) (d) (1) (i) (ii) ( iii) (iv ) (1) (i) (ii) (iii) (iv)",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "(iii) (iv) (v) (i) (2 ) (iii) (iv ) (v) (i)",
-          "3": "(iv) (ii) (iii) (i) ( 4) (ii) (iii) (i) ( v)",
-          "4": "(ii) (iii) (i) ( v)"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q146",
-        "sourceYear": 2016,
-        "sourceNumber": 56,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Hard",
-        "stem": "The correct statement regarding a carbonyl 146. cfil<i!TR(1 o: -\"c!iT$i \"9\"{ t\\l$i!'ll1 t, compound with a hydrogen atom on its alpha­ t-ft;mwi: carbon, is: i:fil<i!lf.M o:-\"c!iT$i 1$1'3!1 (1) (1) a carbonyl compound with a hydrogen atom t,ifam:!RT on its alpha-carbon rapidly equilibrates with flll-lllqfttT ifmit afu:m cfil<illf•kilcfi{UI its corresponding enol and this process is known as carbonylation. t i:fit\\t11dl I (2) a carbonyl compound with a hydrogen atom (2) cfilii(ff1t1 o:-\"lR t\\l$,:i1 on its alpha-carbon rapidly equilibrates with tifam:!RT its corresponding enol and this process is flll-lllq if mit i afu: m fcnir- known as keto-enol tautomerism. 'i:lt'\\lqllqdl cfit\\t1le1l I (3) a carbonyl compound with a hydrogen atom - -­ on its alpha-carbon never equilibrates with (3) cfil<i!TRt'I o:--q{ t\\1$i'l1 its corresponding enol. twtjl (4) a carbonyl compound with a hydrogen atom flll-lllq if1\"@ ma I on its alpha-carbon rapidly equilibrates with (4) cfilii(ff1t'I o:- 1l\\ t\\1$'3!1 its corresponding enol and this process is tif3lTBRt known as aldehyde-ketone equilibration. flll-lllqf\\!IT ifma am: i)fst\\1$-s cfiliR flll-lllqI cfit\\cildl I .147. At 100°C the vapour pressure of a solution of 6.5 g of a solute in 100 g water is 732 mm. If Kb= 0.52, the boiling point of this solution will be: 14i 6.5 g fcJw:J 'cfiT 100 g if 'cfiT 100°c ,r, (1) 102°c t qfliq 732 mm I Kb= 0.52, cTT fcl'w::R cfi cfcJmrrT: (2) to3°C (1) 102°c",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "103°c ( 4) 100°c",
-          "3": "101°c",
-          "4": "100°c"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q163",
-        "sourceYear": 2016,
-        "sourceNumber": 73,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Hard",
-        "stem": "MY and NY 3, two nearly insoluble salts, have the 163. MYNY3 q;r%fflll\"tl\\ same Ksp values of 6.2 x10-13 at room temperature. Ksp \"q;'f l=IR, 6.2 x 130^{-13}$ Q,cfi<(-1+-IM l I f.:ri.:J Tf 'ffl Which statement would be true in regard toMYand NY3? MY NY 3 T/l? (1) The salts MY and NY3 are more soluble in (1) MY'Q,cl NY 3 % c1ft \"wAT Tf 0.5 MKYthan in pure water. 0.5MKYTfl1 (2) The addition of the salt of KYto solution of KY cfi1 MYv;cl NY3 Tf 1:1\\ .,,",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "MY and NY3 will have no effect on their solubilities. fc:l(qlldl \"5r'Ticr I t MYv;cl NY3 ch1 Tf llTffi i I",
-          "3": "Option 3",
-          "4": "* t MYch1 Tf llTffi fc:ldlldl .NY 3 cfill I"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q167",
-        "sourceYear": 2016,
-        "sourceNumber": 77,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Hard",
-        "stem": "Predict the correct order among the following: (1) 3TI$fi->- (1) bond pair -bond pair > lone pair - bond pair > - >lone pair - lone pair (2) -> - (2) lone pair - bond pair> bond pair - bond pair > - > lone pair - lone pair (3) - > \"Q,cfiRft - (3) lone pair - lone pair>lone pair - bond pair> bond pair - bond pair >%ft -%ft (4) lone pair - lone pair>bond pair - bond pair> (4) ->-%ft lone pair - bond pair > - ami1:ft :Z I English+Mind .168. Consider the following liquid-vapour equilibrium. 168. Liquid Vapour Which of the following relations is correct ? dlnP -AHv dlnP -:-AHv (1) 2 dT = T2 - (1) dT 2 T2 dlnP AHv (2) (2) a°T = RT2 dlnG AHv",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "dT = RT2 2 dlnP -AHv dlnP -AHv",
-          "4": "dT = RT dT RT"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q174",
-        "sourceYear": 2016,
-        "sourceNumber": 84,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Hard",
-        "stem": "In which of the following options the order of (c) ti arrangement does not agree with the variation of property indicated against it? 174. f1\"1faforn if \"B cfit.f m '1fq tfRffl (1) I < Br < Cl < F (increasing electron gain .:itfl? enthalpy) (1) I<Br<Cl<F(t.9-l) (2) Li<Na<K<Rb (increasing metallic radius) (2 ) Li<Na<K<Rb ( ) (3) AI3 + < Mg2+ <Na + <p- (increasing ionic (3) AI3+<Mg2+ <Na + <F- ( size) alli:fiR) (4) B < C < N < 0 (increasing first ionisation enthalpy) (4) B<C<N<O(s31f) IEnglih+Hmdlj Equal moles of hydrogen and oxygen gases are 175. 61$4\\\"11 1\"11 ii-mt- cffi\"Q:-Fi-qr;Jif placed in a container with a pin-hole through which both can escape. What fraction of the oxygen escapes Wf rrff t, ':ii Ffi\" \"Q:-Fia;:q fue: t° GRT cfi1: m in the time required for one-hal f of the hydrogen to I 61$,fl\"11 t° if C111 WF-l if ¢ll¾l-iH cl,f escape? arn\"l@m? (1) 3/8 (1) 3/8\" (2) 1/2",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "1/2",
-          "3": "1/8 ( 3) 1/8",
-          "4": "1/4"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
       {
         "id": "2021-M1-Q85",
         "sourceYear": 2021,
@@ -2123,7 +1710,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q86",
@@ -2147,7 +1735,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q87",
@@ -2171,7 +1760,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q99",
@@ -2195,7 +1785,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q137",
@@ -2219,7 +1810,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q139",
@@ -2243,7 +1835,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q140",
@@ -2267,7 +1860,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q146",
@@ -2291,7 +1885,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q58",
@@ -2315,7 +1910,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q66",
@@ -2339,7 +1935,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q71",
@@ -2363,7 +1960,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q75",
@@ -2387,7 +1985,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q88",
@@ -2411,7 +2010,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q96",
@@ -2435,7 +2035,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q97",
@@ -2459,7 +2060,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q100",
@@ -2483,7 +2085,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q62",
@@ -2507,7 +2110,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q83",
@@ -2531,31 +2135,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2024-R1-Q92",
-        "sourceYear": 2024,
-        "sourceNumber": 88,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Hard",
-        "stem": "Consider the following reaction in a sealed vessel at equilibrium with concentrations of N2 = 3.0 × 10–3 M, O2 = 4.2 × 10–3 M and NO = 2.8 × 10–3 M. 2NO(g)  N2(g) + O2(g) If 0.1 mol L–1 of NO(g) is taken in a closed vessel, what will be degree of dissociation (α) of NO(g) at equilibrium?",
-        "options": {
-          "1": "0.0889",
-          "2": "0.8889",
-          "3": "0.717",
-          "4": "0.00889"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q94",
@@ -2579,7 +2160,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q96",
@@ -2603,7 +2185,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q99",
@@ -2627,7 +2210,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q62",
@@ -2651,7 +2235,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q83",
@@ -2675,31 +2260,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2025-INTERIM-Q92",
-        "sourceYear": 2025,
-        "sourceNumber": 88,
-        "subject": "Chemistry",
-        "topic": "Physical Chemistry",
-        "difficulty": "Hard",
-        "stem": "Consider the following reaction in a sealed vessel at equilibrium with concentrations of N2 = 3.0 × 10–3 M, O2 = 4.2 × 10–3 M and NO = 2.8 × 10–3 M. 2NO(g)  N2(g) + O2(g) If 0.1 mol L–1 of NO(g) is taken in a closed vessel, what will be degree of dissociation (α) of NO(g) at equilibrium?",
-        "options": {
-          "1": "0.0889",
-          "2": "0.8889",
-          "3": "0.717",
-          "4": "0.00889"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q94",
@@ -2723,7 +2285,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q96",
@@ -2747,7 +2310,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q99",
@@ -2771,12 +2335,10 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       }
     ]
   },
-  "gaps": [
-    "Medium: have 31, need 50 (sourcing more from reputable NEET banks)",
-    "Hard: have 34, need 50 (sourcing more from reputable NEET banks)"
-  ]
+  "gaps": []
 }

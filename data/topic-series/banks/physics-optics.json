@@ -3,60 +3,12 @@
   "subject": "Physics",
   "topic": "Optics",
   "counts": {
-    "Easy": 6,
-    "Medium": 12,
-    "Hard": 6
+    "Easy": 4,
+    "Medium": 11,
+    "Hard": 3
   },
   "questions": {
     "Easy": [
-      {
-        "id": "2017-A-Q42",
-        "sourceYear": 2017,
-        "sourceNumber": 39,
-        "subject": "Physics",
-        "topic": "Optics",
-        "difficulty": "Easy",
-        "stem": "A beam of light from a source L is incident normally So fundamental frequency is 20 Hz. on a plane mirror fixed at a certain distance x from",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q61",
-        "sourceYear": 2017,
-        "sourceNumber": 44,
-        "subject": "Physics",
-        "topic": "Optics",
-        "difficulty": "Easy",
-        "stem": "Consider the reactions : (4) CH3 – CH3 > CH2 = CH2 > CH3 – C ≡ CH > + CH ≡ CH Cu / [Ag(NH3)2] X A Silver mirror observed 573 K –OH, Δ (C2H6O)",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
       {
         "id": "2018-AA-Q116",
         "sourceYear": 2018,
@@ -79,7 +31,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q142",
@@ -103,7 +56,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q151",
@@ -127,7 +81,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q161",
@@ -151,34 +106,11 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       }
     ],
     "Medium": [
-      {
-        "id": "2016-Phase1-Q29",
-        "sourceYear": 2016,
-        "sourceNumber": 26,
-        "subject": "Physics",
-        "topic": "Optics",
-        "difficulty": "Medium",
-        "stem": " cfiTUT 45° I cfiTUT 60° I t t If the ray suffers minimum deviation through the prism, the angle of minimum deviation and refractive fq:qfclamci\\\"t m index of the material of the prism respectively, are fc:RR;Rfflaw2f 61qqtf1ith : i: 45°; ✓ 45°; ✓ 2 2 (1) (1) (2) 30° ,· _2_ (2) 30° ,· _2_ ✓ ✓ 2 2",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "45° ,· _2_ ✓ ✓ 2 2",
-          "4": "30°; ✓ 2 2 A particle moves so that its position vector is given cnUr WR \"t1lR cfi(ffi fcfi' t ➔ \" \""
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
       {
         "id": "2019-G1-Q153",
         "sourceYear": 2019,
@@ -201,7 +133,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q10",
@@ -225,7 +158,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q105",
@@ -249,7 +183,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q140",
@@ -273,7 +208,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q142",
@@ -297,7 +233,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q11",
@@ -321,7 +258,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q17",
@@ -345,7 +283,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q22",
@@ -369,7 +308,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q163",
@@ -393,7 +333,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q6",
@@ -417,7 +358,8 @@
         "figureSrc": "/figures/2024-R1-Q6.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q6",
@@ -441,82 +383,11 @@
         "figureSrc": "/figures/2025-INTERIM-Q6.png",
         "figureKind": "pdf-crop+from-2024-stem-match",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       }
     ],
     "Hard": [
-      {
-        "id": "2016-Phase1-Q4",
-        "sourceYear": 2016,
-        "sourceNumber": 3,
-        "subject": "Physics",
-        "topic": "Optics",
-        "difficulty": "Hard",
-        "stem": "Match the corresponding entries of column 1 with !,lfeffl I 'm' column2. [Where m is the magnification produced by the mirror] Columnl Column2 -1 -2 (A) m = -2 (a) Convex mirror (A) m = -2 (a) 1 1 m=-- (B) m = -- (b) (B) 2 (b) Concave mirror 2 (Q m = +2 (c) cft«tfeli:6 !,l@fk( (Q m = +2 (c) Real image 1 1 (D) m=+ (d) 3TI\\llm 5l@fq (D) m = +- {d) Virtual image 2 2 (1) A➔ a cf d; B➔ b q c; C➔ b q d; (1) A➔ a and d; B➔ band c; C➔ band d; D➔b-------------- and c - .. D➔bqc (2) A➔ C q d; B➔ bcf d; C➔ b q c;",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "A➔ c and d; B➔ band d; C➔ band c; D➔a and d D➔acfd A➔ band c; B➔ band c; C➔ band d; {3) A➔ b q c; B➔ b q c; C➔ b q d;",
-          "3": "D➔a and d D➔acfd",
-          "4": "A➔ a q c; B➔ a q d; C➔ ·a q b; D➔c and d D➔c qd I !:nglish+HindiI z"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q22",
-        "sourceYear": 2016,
-        "sourceNumber": 19,
-        "subject": "Physics",
-        "topic": "Optics",
-        "difficulty": "Hard",
-        "stem": "Aastronomical telescope has objective and eyepiece 22. °Fcfimea•n<?i1 a:rfam:q;lffl\"B · of focal lengths 40 cm and 4 cm respectively. To view an object 200cm away from the objective, the T: 40 \"B.'tTT. 3m: 4 \"B.'tTT. f I a:rf \"B lenses must be separated by a distance 200\"B.lft. fcfim cITT zy:rt (1) 50.0cm \"ffincf,l: (2) 54.0cm ,(1) so.o \"B.lft.",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "54.o \"B.lft.",
-          "3": "37.3 \"B.lft.",
-          "4": "46.0cm"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q44",
-        "sourceYear": 2017,
-        "sourceNumber": 41,
-        "subject": "Physics",
-        "topic": "Optics",
-        "difficulty": "Hard",
-        "stem": "A thin prism having refracting angle 10° is made of the source. The beam is reflected back as a spot on glass of refractive index 1.42. This prism is combined a scale placed just above the source L. When the with another thin prism of glass of refractive index mirror is rotated through a small angle θ, the spot of 1.7. This combination produces dispersion without the light is found to move through a distance y on deviation. The refracting angle of second prism the scale. The angle θ is given by should be y y (1) (2)",
-        "options": {
-          "1": "4°",
-          "2": "6° 2x x x x",
-          "3": "8°",
-          "4": "10° (3) (4) 2y y"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
       {
         "id": "2018-AA-Q19",
         "sourceYear": 2018,
@@ -539,7 +410,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q43",
@@ -563,7 +435,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q48",
@@ -587,13 +460,13 @@
         "figureSrc": "/figures/2023-F1-Q48.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       }
     ]
   },
   "gaps": [
-    "Easy: have 6, need 50 (sourcing more from reputable NEET banks)",
-    "Medium: have 12, need 50 (sourcing more from reputable NEET banks)",
-    "Hard: have 6, need 50 (sourcing more from reputable NEET banks)"
+    "Easy: have 4 clean items (need 10+ to start)",
+    "Hard: have 3 clean items (need 10+ to start)"
   ]
 }

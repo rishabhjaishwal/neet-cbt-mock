@@ -44,6 +44,16 @@ export async function GET(req: Request, { params }: Params) {
   if (!meta || !questions.length) {
     return NextResponse.json({ error: "Paper not found" }, { status: 404 });
   }
+  if (!meta.studentReady) {
+    return NextResponse.json(
+      {
+        error:
+          "This year paper is still being curated for clean English content.",
+        contentVersion: CONTENT_VERSION,
+      },
+      { status: 503 },
+    );
+  }
 
   const res = NextResponse.json({
     contentVersion: CONTENT_VERSION,

@@ -3,60 +3,12 @@
   "subject": "Physics",
   "topic": "Mechanics",
   "counts": {
-    "Easy": 15,
-    "Medium": 23,
-    "Hard": 19
+    "Easy": 13,
+    "Medium": 19,
+    "Hard": 13
   },
   "questions": {
     "Easy": [
-      {
-        "id": "2017-A-Q30",
-        "sourceYear": 2017,
-        "sourceNumber": 27,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Easy",
-        "stem": "Two astronauts are floating in gravitational free space",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q33",
-        "sourceYear": 2017,
-        "sourceNumber": 30,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Easy",
-        "stem": "The ratio of resolving powers of an optical weightness. Gravitational force between them pulls λ2 = 6000 Å is towards each other. (1) 8 : 27",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
       {
         "id": "2018-AA-Q130",
         "sourceYear": 2018,
@@ -79,7 +31,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q38",
@@ -103,7 +56,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q45",
@@ -127,7 +81,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q100",
@@ -151,7 +106,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q116",
@@ -175,7 +131,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q143",
@@ -199,7 +156,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q20",
@@ -223,7 +181,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q20",
@@ -247,7 +206,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q29",
@@ -271,7 +231,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q38",
@@ -295,7 +256,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q20",
@@ -319,7 +281,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q29",
@@ -343,7 +306,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q38",
@@ -367,34 +331,11 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       }
     ],
     "Medium": [
-      {
-        "id": "2017-A-Q15",
-        "sourceYear": 2017,
-        "sourceNumber": 12,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Medium",
-        "stem": "A particle executes linear simple harmonic motion (3) P → c, Q → d, R → b, S → a with an amplitude of 3 cm. When the particle is at (4) P → d, Q → b, R → a, S → c 2 cm from the mean position, the magnitude of its",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
       {
         "id": "2017-A-Q19",
         "sourceYear": 2017,
@@ -417,7 +358,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q129",
@@ -441,7 +383,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q178",
@@ -465,7 +408,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q145",
@@ -489,7 +433,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q156",
@@ -513,7 +458,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q158",
@@ -537,7 +483,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q176",
@@ -561,79 +508,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2020-E1-Q108",
-        "sourceYear": 2020,
-        "sourceNumber": 17,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Medium",
-        "stem": "Two bodies of mass 4 kg and 6 kg are tied to the ends of a massless string. The string passes over a pulley which is frictionless (see figure). The acceleration of the system in terms of acceleration due to gravity (g) is :",
-        "options": {
-          "1": "g/5",
-          "2": "g/10",
-          "3": "g",
-          "4": "g/2"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2020-E1-Q108.svg",
-        "figureKind": "missing-placeholder",
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2020-E1-Q138",
-        "sourceYear": 2020,
-        "sourceNumber": 26,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Medium",
-        "stem": "Two bodies of mass 4 kg and 6 kg are tied to the ends of a massless string. The string passes over a pulley which is frictionless (see figure). The acceleration of the system in terms of acceleration due to gravity (g) is :",
-        "options": {
-          "1": "g/10",
-          "2": "g",
-          "3": "g/2",
-          "4": "g/5 3 H1"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2020-E1-Q138.svg",
-        "figureKind": "missing-placeholder",
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2020-E1-Q160",
-        "sourceYear": 2020,
-        "sourceNumber": 38,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Medium",
-        "stem": "Two bodies of mass 4 kg and 6 kg are tied to the ends of a massless string. The string passes over a pulley which is frictionless (see figure). The acceleration of the system in terms of acceleration due to gravity (g) is :",
-        "options": {
-          "1": "g",
-          "2": "g/2",
-          "3": "g/5",
-          "4": "g/10"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2020-E1-Q160.svg",
-        "figureKind": "missing-placeholder",
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q15",
@@ -657,7 +533,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q155",
@@ -681,7 +558,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q166",
@@ -705,7 +583,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q168",
@@ -729,7 +608,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q32",
@@ -753,7 +633,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q35",
@@ -777,7 +658,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q1",
@@ -801,7 +683,8 @@
         "figureSrc": "/figures/2024-R1-Q1.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q8",
@@ -825,7 +708,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q26",
@@ -849,7 +733,8 @@
         "figureSrc": "/figures/2024-R1-Q26.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q1",
@@ -873,7 +758,8 @@
         "figureSrc": "/figures/2025-INTERIM-Q1.png",
         "figureKind": "pdf-crop+from-2024-stem-match",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q8",
@@ -897,7 +783,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q26",
@@ -921,106 +808,11 @@
         "figureSrc": "/figures/2025-INTERIM-Q26.png",
         "figureKind": "pdf-crop+from-2024-stem-match",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       }
     ],
     "Hard": [
-      {
-        "id": "2016-Phase1-Q10",
-        "sourceYear": 2016,
-        "sourceNumber": 7,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Hard",
-        "stem": "10g cfiT cn01 6.4.lfi. t- m- 6.4cm with a constant tangential acceleration . What is the magnitude of this acceleration if the kinetic 'fcfim RlRf Tffii t° I energy of the particle becomes equal to 8 x 40^{-4}$ Jby TITTr cfiB t\" \"ey 9Ksh'-111 l{U cfi\"B the end of the second revolution after the beginning of the motion? mt m cn01clil \"3,aj s x 40^{-4}$ 1 ccRUT 'l:Jfti:JTur cfl1T % ? (1 ) 0.18 m/s2 (1) 0.18 m/s 2 (2) 0.2 m/s2 (2) 0.2m/s 2",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "0.1m/s 2",
-          "4": "0.15m/s 2"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q15",
-        "sourceYear": 2016,
-        "sourceNumber": 12,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Hard",
-        "stem": "A car is negotiating a curved road of radius R. The road is banked at an angle 6. The coefficient of friction ffl61Rt1 between the tyres of the car and the road is μ5• The cf'ful- μ5 t' I 1R cfiR cfiT 'W!¼Jl maximum safe velocity on this road is WTt: .[ ·μ5 + tanO (1 ) R 1- μ5 tan6 .[ μ5 + tan6 (1) R 1- μ5 tan6 g μ5 + tan6 g μ5 + tan6 (2) R2 1- μ5 tan6 (2) R2 1 - μ8 tan6 gR2 μ5 + tan6 gR2 μ5 + tan6",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "1 - μ5 tan6 μ5 + tan6 μ5 + tan6 gR",
-          "4": "1- μ5 tan6 1 - μ5 tan6 z feng[ish+Hi"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q28",
-        "sourceYear": 2016,
-        "sourceNumber": 25,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Hard",
-        "stem": "A body of mass 1 kg begins to move under the action 2\" 28. 1 kg cfiT fqvg 1:fil'l'ffif of a time dependent force F = (2t i + 3t j )N , ➔ \" - -- F ==-(2t1+3tj)N-, ia3'R.j-,x-afu:y a:Jl8\"% where i·and1-are unit vectors-alongx-an:dyaxis. What power will be developed by the force at the t a:rt:ft;I 7ITTf am:Pl'.f cfi«rl t, m time t? t \"IR Ii@ &TU fq<ihf-l-lct ft m<ft? (1) (2t3+3t4)W (1) (2t3+3t4)W (2) {2t 3+3t5)W (2) (2t3+ 3t:5)W",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "(2t2+ 3t-')W",
-          "4": "(2t2+4t:4)W . [English+Hindi/ z"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q45",
-        "sourceYear": 2016,
-        "sourceNumber": 42,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Hard",
-        "stem": "A uniform circular disc of radius 50 cm at rest is free to turn about an axis which is perpendicular to its fu:cfifflcm%il'F _plane. and passes through its centre... Itis subje1;:ted ... qffi-a:f-q1m: ft;r-Q:t,-···-q- to a torque which produces a constant angular acceleration of 2.0 rad s- 2. Its net acceleration in 'i:fiW 3TITT'cfi'r:f cfi{cffl '5TT 2.0 rad s-2 cfi ms- 2 at the end of 2.0 s is approximately f.r:rcrt-1 2.0 s% (1) 6.0 ms-2 if mrilffi'ql'[: (1) 6.0 (2) 3.0 (2) 3.0 (3) 8.0 (3) . 8.0 (4) 7.0 (4) 7.0 1 . @oglish+Hindi I z 46 . Which of the following would appear as the pioneer 46. -q\"{3lWTTlTI'\\fflqij f.ti--lfotf@<I organisms on bare rocks ? \"qffl? (1) Mosses ( 1) (2) Green algae (3 ) Lichens",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "mto",
-          "3": "",
-          "4": "f(1ct<ctl"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
       {
         "id": "2017-A-Q7",
         "sourceYear": 2017,
@@ -1028,7 +820,7 @@
         "subject": "Physics",
         "topic": "Mechanics",
         "difficulty": "Hard",
-        "stem": "One end of string of length l is connected to a R2 particle of mass ‘m’ and the other end is connected to a small peg on a smooth horizontal table. If the 18 = particle moves in circle with speed ‘v’, the net force 9 on the particle (directed towards center) will be =2A (T represents the tension in the string) Note : Not correctly framed but the best option out (1) T of given is (3). m v2 9. The x and y coordinates of the particle at any time (2) T + l are x = 5t – 2t2 and y = 10t respectively, where x and y are in meters and t in seconds. The m v2 acceleration of the particle at t = 2 s is",
+        "stem": "One end of string of length l is connected to a R2 particle of mass ‘m’ and the other end is connected to a small peg on a smooth horizontal table. If the 18 = particle moves in circle with speed ‘v’, the net force 9 on the particle (directed towards center) will be =2A (T represents the tension in the string) Note : Not correctly framed but the best option out",
         "options": {
           "1": "0",
           "2": "5 m/s2",
@@ -1043,7 +835,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2017-A-Q10",
@@ -1067,55 +860,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q26",
-        "sourceYear": 2017,
-        "sourceNumber": 23,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Hard",
-        "stem": "Which of the following statements are correct? ‘B’ is given by (a) Centre of mass of a body always coincides with B d C the centre of gravity of the body. 90° (b) Centre of mass of a body is the point at which the total gravitational torque on the body is zero d (c) A couple on a body produce both translational and rotational motion in a body. A (d) Mechanical advantage greater than one means μ0 I 2 2μ0I 2 (1) (2) that small effort can be used to lift a large load. 2πd πd",
-        "options": {
-          "1": "(b) and (d)",
-          "2": "(a) and (b) 2μ0I 2 μ0I 2",
-          "3": "Option 3",
-          "4": "(3) (b) and (c) (4) (c) and (d) πd 2πd"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q39",
-        "sourceYear": 2017,
-        "sourceNumber": 36,
-        "subject": "Physics",
-        "topic": "Mechanics",
-        "difficulty": "Hard",
-        "stem": "Two discs of same moment of inertia rotating about t t1 t2 their regular axis passing through centre and t1t2 perpendicular to the plane of disc with angular t= velocities ω1 and ω2. They are brought into contact (t1 + t2 ) face to face coinciding the axis of rotation. The 41. A rope is wound around a hollow cylinder of mass expression for loss of energy during this process is 3 kg and radius 40 cm. What is the angular acceleration of the cylinder if the rope is pulled with 1 1 (1) I (ω1 + ω2 )2 (2) I (ω1 − ω2 )2 a force of 30 N? 2 4",
-        "options": {
-          "1": "25 m/s2",
-          "2": "0.25 rad/s2 I",
-          "3": "I(ω1 – ω2)2",
-          "4": "(ω1 − ω2 )2 (3) 25 rad/s2 (4) 5 m/s2 8"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q20",
@@ -1139,7 +885,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q34",
@@ -1163,7 +910,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q100",
@@ -1187,7 +935,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q138",
@@ -1211,7 +960,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q148",
@@ -1235,7 +985,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q186",
@@ -1259,7 +1010,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q38",
@@ -1283,7 +1035,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q42",
@@ -1307,7 +1060,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q50",
@@ -1331,7 +1085,8 @@
         "figureSrc": "/figures/2023-F1-Q50.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q40",
@@ -1355,7 +1110,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q40",
@@ -1379,13 +1135,10 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       }
     ]
   },
-  "gaps": [
-    "Easy: have 15, need 50 (sourcing more from reputable NEET banks)",
-    "Medium: have 23, need 50 (sourcing more from reputable NEET banks)",
-    "Hard: have 19, need 50 (sourcing more from reputable NEET banks)"
-  ]
+  "gaps": []
 }

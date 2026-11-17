@@ -4,73 +4,74 @@
   "papers": [
     {
       "year": 2016,
-      "paper": "neet-2016.paper.md",
-      "key": "neet-2016.key.md",
-      "questions": 180,
-      "keys": 180
+      "before": 7,
+      "after": 3,
+      "ready": false,
+      "keyDropped": 4
     },
     {
       "year": 2017,
-      "paper": "neet-2017.paper.md",
-      "key": "neet-2017.key.md",
-      "questions": 180,
-      "keys": 180
+      "before": 180,
+      "after": 43,
+      "ready": false,
+      "keyDropped": 13
     },
     {
       "year": 2018,
-      "paper": "neet-2018.paper.md",
-      "key": "neet-2018.key.md",
-      "questions": 180,
-      "keys": 180
+      "before": 180,
+      "after": 164,
+      "ready": true,
+      "keyDropped": 5
     },
     {
       "year": 2019,
-      "paper": "neet-2019.paper.md",
-      "key": "neet-2019.key.md",
-      "questions": 180,
-      "keys": 180
+      "before": 177,
+      "after": 177,
+      "ready": true,
+      "keyDropped": 0
     },
     {
       "year": 2020,
-      "paper": "neet-2020.paper.md",
-      "key": "neet-2020.key.md",
-      "questions": 180,
-      "keys": 180
+      "before": 180,
+      "after": 176,
+      "ready": true,
+      "keyDropped": 4
     },
     {
       "year": 2021,
-      "paper": "neet-2021.paper.md",
-      "key": "neet-2021.key.md",
-      "questions": 200,
-      "keys": 200
+      "before": 200,
+      "after": 192,
+      "ready": true,
+      "keyDropped": 8
     },
     {
       "year": 2022,
-      "paper": "neet-2022.paper.md",
-      "key": "neet-2022.key.md",
-      "questions": 200,
-      "keys": 200
+      "before": 200,
+      "after": 197,
+      "ready": true,
+      "keyDropped": 0
     },
     {
       "year": 2023,
-      "paper": "neet-2023.paper.md",
-      "key": "neet-2023.key.md",
-      "questions": 200,
-      "keys": 200
+      "before": 200,
+      "after": 199,
+      "ready": true,
+      "keyDropped": 1
     },
     {
       "year": 2024,
-      "paper": "neet-2024.paper.md",
-      "key": "neet-2024.key.md",
-      "questions": 200,
-      "keys": 200
+      "before": 200,
+      "after": 197,
+      "ready": true,
+      "keyDropped": 0
     },
     {
       "year": 2025,
-      "paper": "neet-2025.paper.md",
-      "key": "neet-2025.key.md",
-      "questions": 200,
-      "keys": 200
+      "before": 200,
+      "after": 197,
+      "ready": true,
+      "keyDropped": 0
     }
-  ]
+  ],
+  "curatedAt": "2026-11-17T09:50:44.766Z"
 }

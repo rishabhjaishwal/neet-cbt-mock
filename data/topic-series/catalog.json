@@ -1,15 +1,15 @@
 {
-  "version": 1,
-  "note": "v1 banks reuse licensed/our PYQ extracts by topic. Gaps flagged until ≥50/difficulty harvested from NCERT-aligned open sources.",
+  "version": 4,
+  "note": "Student-curated banks: placeholders/OCR/Hindi-garbage/incomplete options removed. Counts are clean English items only.",
   "topics": [
     {
       "id": "biology-biology-general",
       "subject": "Biology",
       "topic": "Biology General",
       "counts": {
-        "Easy": 282,
-        "Medium": 84,
-        "Hard": 146
+        "Easy": 193,
+        "Medium": 62,
+        "Hard": 143
       },
       "gaps": [],
       "ready": true
@@ -19,9 +19,9 @@
       "subject": "Chemistry",
       "topic": "Chemistry General",
       "counts": {
-        "Easy": 169,
-        "Medium": 55,
-        "Hard": 62
+        "Easy": 126,
+        "Medium": 44,
+        "Hard": 56
       },
       "gaps": [],
       "ready": true
@@ -31,13 +31,11 @@
       "subject": "Physics",
       "topic": "Physics General",
       "counts": {
-        "Easy": 68,
-        "Medium": 70,
-        "Hard": 44
+        "Easy": 47,
+        "Medium": 62,
+        "Hard": 36
       },
-      "gaps": [
-        "Hard: have 44, need 50 (sourcing more from reputable NEET banks)"
-      ],
+      "gaps": [],
       "ready": true
     },
     {
@@ -45,13 +43,11 @@
       "subject": "Biology",
       "topic": "Genetics & Biotech",
       "counts": {
-        "Easy": 62,
-        "Medium": 33,
-        "Hard": 62
+        "Easy": 53,
+        "Medium": 25,
+        "Hard": 57
       },
-      "gaps": [
-        "Medium: have 33, need 50 (sourcing more from reputable NEET banks)"
-      ],
+      "gaps": [],
       "ready": true
     },
     {
@@ -59,14 +55,11 @@
       "subject": "Physics",
       "topic": "Electromagnetism",
       "counts": {
-        "Easy": 17,
-        "Medium": 66,
-        "Hard": 47
+        "Easy": 14,
+        "Medium": 60,
+        "Hard": 36
       },
-      "gaps": [
-        "Easy: have 17, need 50 (sourcing more from reputable NEET banks)",
-        "Hard: have 47, need 50 (sourcing more from reputable NEET banks)"
-      ],
+      "gaps": [],
       "ready": true
     },
     {
@@ -74,14 +67,11 @@
       "subject": "Chemistry",
       "topic": "Physical Chemistry",
       "counts": {
-        "Easy": 50,
-        "Medium": 31,
-        "Hard": 34
+        "Easy": 41,
+        "Medium": 26,
+        "Hard": 26
       },
-      "gaps": [
-        "Medium: have 31, need 50 (sourcing more from reputable NEET banks)",
-        "Hard: have 34, need 50 (sourcing more from reputable NEET banks)"
-      ],
+      "gaps": [],
       "ready": true
     },
     {
@@ -89,15 +79,11 @@
       "subject": "Biology",
       "topic": "Botany",
       "counts": {
-        "Easy": 43,
-        "Medium": 19,
-        "Hard": 21
+        "Easy": 39,
+        "Medium": 17,
+        "Hard": 15
       },
-      "gaps": [
-        "Easy: have 43, need 50 (sourcing more from reputable NEET banks)",
-        "Medium: have 19, need 50 (sourcing more from reputable NEET banks)",
-        "Hard: have 21, need 50 (sourcing more from reputable NEET banks)"
-      ],
+      "gaps": [],
       "ready": true
     },
     {
@@ -105,15 +91,11 @@
       "subject": "Biology",
       "topic": "Human Physiology",
       "counts": {
-        "Easy": 26,
-        "Medium": 22,
-        "Hard": 27
+        "Easy": 22,
+        "Medium": 18,
+        "Hard": 25
       },
-      "gaps": [
-        "Easy: have 26, need 50 (sourcing more from reputable NEET banks)",
-        "Medium: have 22, need 50 (sourcing more from reputable NEET banks)",
-        "Hard: have 27, need 50 (sourcing more from reputable NEET banks)"
-      ],
+      "gaps": [],
       "ready": true
     },
     {
@@ -121,15 +103,11 @@
       "subject": "Biology",
       "topic": "Cell Biology",
       "counts": {
-        "Easy": 34,
-        "Medium": 18,
+        "Easy": 29,
+        "Medium": 12,
         "Hard": 22
       },
-      "gaps": [
-        "Easy: have 34, need 50 (sourcing more from reputable NEET banks)",
-        "Medium: have 18, need 50 (sourcing more from reputable NEET banks)",
-        "Hard: have 22, need 50 (sourcing more from reputable NEET banks)"
-      ],
+      "gaps": [],
       "ready": true
     },
     {
@@ -137,15 +115,11 @@
       "subject": "Physics",
       "topic": "Mechanics",
       "counts": {
-        "Easy": 15,
-        "Medium": 23,
-        "Hard": 19
+        "Easy": 13,
+        "Medium": 19,
+        "Hard": 13
       },
-      "gaps": [
-        "Easy: have 15, need 50 (sourcing more from reputable NEET banks)",
-        "Medium: have 23, need 50 (sourcing more from reputable NEET banks)",
-        "Hard: have 19, need 50 (sourcing more from reputable NEET banks)"
-      ],
+      "gaps": [],
       "ready": true
     },
     {
@@ -153,14 +127,12 @@
       "subject": "Biology",
       "topic": "Ecology & Evolution",
       "counts": {
-        "Easy": 27,
-        "Medium": 7,
-        "Hard": 15
+        "Easy": 25,
+        "Medium": 6,
+        "Hard": 14
       },
       "gaps": [
-        "Easy: have 27, need 50 (sourcing more from reputable NEET banks)",
-        "Medium: have 7, need 50 (sourcing more from reputable NEET banks)",
-        "Hard: have 15, need 50 (sourcing more from reputable NEET banks)"
+        "Medium: have 6 clean items (need 10+ to start)"
       ],
       "ready": true
     },
@@ -170,15 +142,14 @@
       "topic": "Inorganic Chemistry",
       "counts": {
         "Easy": 8,
-        "Medium": 11,
-        "Hard": 20
+        "Medium": 9,
+        "Hard": 19
       },
       "gaps": [
-        "Easy: have 8, need 50 (sourcing more from reputable NEET banks)",
-        "Medium: have 11, need 50 (sourcing more from reputable NEET banks)",
-        "Hard: have 20, need 50 (sourcing more from reputable NEET banks)"
+        "Easy: have 8 clean items (need 10+ to start)",
+        "Medium: have 9 clean items (need 10+ to start)"
       ],
-      "ready": false
+      "ready": true
     },
     {
       "id": "physics-waves-oscillations",
@@ -186,31 +157,28 @@
       "topic": "Waves & Oscillations",
       "counts": {
         "Easy": 16,
-        "Medium": 3,
-        "Hard": 17
+        "Medium": 2,
+        "Hard": 11
       },
       "gaps": [
-        "Easy: have 16, need 50 (sourcing more from reputable NEET banks)",
-        "Medium: have 3, need 50 (sourcing more from reputable NEET banks)",
-        "Hard: have 17, need 50 (sourcing more from reputable NEET banks)"
+        "Medium: have 2 clean items (need 10+ to start)"
       ],
-      "ready": false
+      "ready": true
     },
     {
       "id": "chemistry-organic-chemistry",
       "subject": "Chemistry",
       "topic": "Organic Chemistry",
       "counts": {
-        "Easy": 18,
-        "Medium": 11,
-        "Hard": 6
+        "Easy": 16,
+        "Medium": 7,
+        "Hard": 5
       },
       "gaps": [
-        "Easy: have 18, need 50 (sourcing more from reputable NEET banks)",
-        "Medium: have 11, need 50 (sourcing more from reputable NEET banks)",
-        "Hard: have 6, need 50 (sourcing more from reputable NEET banks)"
+        "Medium: have 7 clean items (need 10+ to start)",
+        "Hard: have 5 clean items (need 10+ to start)"
       ],
-      "ready": false
+      "ready": true
     },
     {
       "id": "physics-thermodynamics",
@@ -218,31 +186,28 @@
       "topic": "Thermodynamics",
       "counts": {
         "Easy": 4,
-        "Medium": 12,
-        "Hard": 12
+        "Medium": 10,
+        "Hard": 10
       },
       "gaps": [
-        "Easy: have 4, need 50 (sourcing more from reputable NEET banks)",
-        "Medium: have 12, need 50 (sourcing more from reputable NEET banks)",
-        "Hard: have 12, need 50 (sourcing more from reputable NEET banks)"
+        "Easy: have 4 clean items (need 10+ to start)"
       ],
-      "ready": false
+      "ready": true
     },
     {
       "id": "physics-optics",
       "subject": "Physics",
       "topic": "Optics",
       "counts": {
-        "Easy": 6,
-        "Medium": 12,
-        "Hard": 6
+        "Easy": 4,
+        "Medium": 11,
+        "Hard": 3
       },
       "gaps": [
-        "Easy: have 6, need 50 (sourcing more from reputable NEET banks)",
-        "Medium: have 12, need 50 (sourcing more from reputable NEET banks)",
-        "Hard: have 6, need 50 (sourcing more from reputable NEET banks)"
+        "Easy: have 4 clean items (need 10+ to start)",
+        "Hard: have 3 clean items (need 10+ to start)"
       ],
-      "ready": false
+      "ready": true
     },
     {
       "id": "physics-modern-physics",
@@ -250,13 +215,13 @@
       "topic": "Modern Physics",
       "counts": {
         "Easy": 2,
-        "Medium": 5,
+        "Medium": 3,
         "Hard": 4
       },
       "gaps": [
-        "Easy: have 2, need 50 (sourcing more from reputable NEET banks)",
-        "Medium: have 5, need 50 (sourcing more from reputable NEET banks)",
-        "Hard: have 4, need 50 (sourcing more from reputable NEET banks)"
+        "Easy: have 2 clean items (need 10+ to start)",
+        "Medium: have 3 clean items (need 10+ to start)",
+        "Hard: have 4 clean items (need 10+ to start)"
       ],
       "ready": false
     }

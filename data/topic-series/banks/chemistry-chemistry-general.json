@@ -3,372 +3,12 @@
   "subject": "Chemistry",
   "topic": "Chemistry General",
   "counts": {
-    "Easy": 169,
-    "Medium": 55,
-    "Hard": 62
+    "Easy": 126,
+    "Medium": 44,
+    "Hard": 56
   },
   "questions": {
     "Easy": [
-      {
-        "id": "2016-Phase1-Q139",
-        "sourceYear": 2016,
-        "sourceNumber": 51,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "1'1-.lt: (1) Solid in gas (1) if im cfiT (2) Gas in gas (2) ifcfil",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "-ifW:fcfil",
-          "4": "W:fif cfiT IFnglish+Hindil Z"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q145",
-        "sourceYear": 2016,
-        "sourceNumber": 55,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "Which of the following reagents would distinguish cis-cyclopenta-1, 2-diol from the trans-isomer?",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q147",
-        "sourceYear": 2016,
-        "sourceNumber": 57,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2016 Question 147 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q151",
-        "sourceYear": 2016,
-        "sourceNumber": 61,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "mif;;iff: (1) peptide bond (2 ) dative bond ·--Ol 'e!GRJ (2 ) alfait:T GRT",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "et- 1c.11{i:fi\"1f.gf,gi:fi t:T GRT",
-          "4": "13- 1c.1t{rilfofacfi t:T"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q156",
-        "sourceYear": 2016,
-        "sourceNumber": 66,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "f.p:;r if TR-614-.:llllcf> WR°%? (1) Glucose (2) Sucrose (1) ",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "",
-          "3": "",
-          "4": "Lactose"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q161",
-        "sourceYear": 2016,
-        "sourceNumber": 71,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "The product obtained as a result of a reaction of (4) sp 3 nitrogen with CaC2 is:",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q164",
-        "sourceYear": 2016,
-        "sourceNumber": 74,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "cfi'rtR cfi1 HN0 3 % Tfif \"CR: l: .(4) The molar solubility of MY in water is less than that of NY3. (1) Cu(NO3)i,N03lRN02",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q168",
-        "sourceYear": 2016,
-        "sourceNumber": 78,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2016 Question 168 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q175",
-        "sourceYear": 2016,
-        "sourceNumber": 85,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2016 Question 175 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q177",
-        "sourceYear": 2016,
-        "sourceNumber": 87,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "f.;i:.;; if Gc1T 41110 i? (1) .f?cii&11$f1",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q178",
-        "sourceYear": 2016,
-        "sourceNumber": 88,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "Natural rubber has: (1) --fr.8m:f t f14fqa - -fcr,::qra t I (1) Alternate cis - and tram.-confi guration . . (3)(2) !\\",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "Random cis - and trans-configuration All cis-configuration \\ -t,",
-          "3": "Option 3",
-          "4": "-t,"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q3",
-        "sourceYear": 2017,
-        "sourceNumber": 47,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "Radioactive material 'A' has decay constant '8λ' and material 'B' has decay constant 'λ'. Initially they have",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q5",
-        "sourceYear": 2017,
-        "sourceNumber": 48,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2017 Question 5 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q47",
-        "sourceYear": 2017,
-        "sourceNumber": 50,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2017 Question 47 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q48",
-        "sourceYear": 2017,
-        "sourceNumber": 51,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "HgCl2 and I2 both when dissolved in water containing",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
       {
         "id": "2017-A-Q49",
         "sourceYear": 2017,
@@ -391,223 +31,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q50",
-        "sourceYear": 2017,
-        "sourceNumber": 53,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2017 Question 50 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q51",
-        "sourceYear": 2017,
-        "sourceNumber": 54,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2017 Question 51 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q52",
-        "sourceYear": 2017,
-        "sourceNumber": 55,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2017 Question 52 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q55",
-        "sourceYear": 2017,
-        "sourceNumber": 57,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "Which one is the most acidic compound?",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q57",
-        "sourceYear": 2017,
-        "sourceNumber": 59,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "Predict the correct intermediate and product in the (3) NCl3 (4) BCl3 following reaction",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q58",
-        "sourceYear": 2017,
-        "sourceNumber": 60,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "Which one of the following statements is not (3) (4) correct? NO2 NO2 (1) Catalyst does not initiate any reaction",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q62",
-        "sourceYear": 2017,
-        "sourceNumber": 62,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2017 Question 62 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q66",
-        "sourceYear": 2017,
-        "sourceNumber": 65,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2017 Question 66 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q67",
-        "sourceYear": 2017,
-        "sourceNumber": 66,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "Match the interhalogen compounds of column I with i.e., E1 > E2 the geometry in column II and assign the correct code",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2017-A-Q69",
@@ -631,103 +56,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q71",
-        "sourceYear": 2017,
-        "sourceNumber": 69,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2017 Question 71 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q72",
-        "sourceYear": 2017,
-        "sourceNumber": 70,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2017 Question 72 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q73",
-        "sourceYear": 2017,
-        "sourceNumber": 71,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2017 Question 73 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q74",
-        "sourceYear": 2017,
-        "sourceNumber": 72,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2017 Question 74 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2017-A-Q75",
@@ -751,55 +81,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q76",
-        "sourceYear": 2017,
-        "sourceNumber": 74,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "Which of the following is dependent on temperature? NH2",
-        "options": {
-          "1": "Molality",
-          "2": "Molarity OCH3",
-          "3": "Mole fraction",
-          "4": "Weight percentage NH2 (2) and elimination addition reaction"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q80",
-        "sourceYear": 2017,
-        "sourceNumber": 77,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "Identify A and predict the type of reaction",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2017-A-Q81",
@@ -823,127 +106,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q82",
-        "sourceYear": 2017,
-        "sourceNumber": 79,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "Name the gas that can readily decolourises acidified",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q83",
-        "sourceYear": 2017,
-        "sourceNumber": 80,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2017 Question 83 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q89",
-        "sourceYear": 2017,
-        "sourceNumber": 86,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "The IUPAC name of the compound (II + 3 × III – II) will give 5 K O O 2NH3 + \u0002\u0002\u0002 O2 \u0004\u0002\u0002\u0003 \u0002 2NO + 3H2O; 2 C H is ________. ∴ K = K 2 × K33 / K1",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q92",
-        "sourceYear": 2017,
-        "sourceNumber": 88,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "Which of the following are found in extreme saline conditions?",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q96",
-        "sourceYear": 2017,
-        "sourceNumber": 90,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2017 Question 96 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q31",
@@ -967,7 +131,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q76",
@@ -991,7 +156,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q104",
@@ -1015,7 +181,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q105",
@@ -1039,7 +206,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q109",
@@ -1063,7 +231,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q112",
@@ -1087,7 +256,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q117",
@@ -1111,7 +281,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q144",
@@ -1135,7 +306,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q145",
@@ -1159,7 +331,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q150",
@@ -1183,7 +356,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q151",
@@ -1207,7 +381,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q152",
@@ -1231,7 +406,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q154",
@@ -1255,7 +431,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q158",
@@ -1279,7 +456,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q163",
@@ -1303,7 +481,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q167",
@@ -1327,7 +506,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q172",
@@ -1351,55 +531,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2018-AA-Q173",
-        "sourceYear": 2018,
-        "sourceNumber": 85,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2018 Question 173 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2018-AA-Q174",
-        "sourceYear": 2018,
-        "sourceNumber": 86,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2018 Question 174 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q93",
@@ -1423,7 +556,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q94",
@@ -1447,7 +581,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q95",
@@ -1471,7 +606,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q96",
@@ -1495,7 +631,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q97",
@@ -1519,7 +656,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q99",
@@ -1543,7 +681,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q102",
@@ -1567,7 +706,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q104",
@@ -1591,7 +731,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q106",
@@ -1615,7 +756,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q107",
@@ -1639,7 +781,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q110",
@@ -1663,7 +806,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q111",
@@ -1687,7 +831,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q112",
@@ -1711,7 +856,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q114",
@@ -1735,7 +881,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q116",
@@ -1759,7 +906,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q117",
@@ -1783,7 +931,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q118",
@@ -1807,7 +956,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q120",
@@ -1831,7 +981,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q122",
@@ -1855,7 +1006,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q124",
@@ -1879,7 +1031,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q125",
@@ -1903,7 +1056,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q128",
@@ -1927,7 +1081,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q131",
@@ -1951,7 +1106,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q133",
@@ -1975,7 +1131,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q134",
@@ -1999,7 +1156,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q98",
@@ -2023,7 +1181,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q103",
@@ -2047,7 +1206,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q112",
@@ -2071,7 +1231,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q117",
@@ -2095,7 +1256,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q121",
@@ -2119,7 +1281,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q144",
@@ -2143,7 +1306,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q153",
@@ -2167,7 +1331,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q162",
@@ -2191,31 +1356,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2020-E1-Q180",
-        "sourceYear": 2020,
-        "sourceNumber": 90,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "A cylinder contains hydrogen gas at pressure of 249 kPa and temperature 278C. Its density is : (R=8.3 J mol−1 K−1)",
-        "options": {
-          "1": "0.02 kg/m3",
-          "2": "0.5 kg/m3",
-          "3": "0.2 kg/m3",
-          "4": "0.1 kg/m3 -o0o- Hindi+English 2 pace For Rough Work 3 H1 pace For Rough Work Hindi+English 4 Read carefully the following instructions :"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q55",
@@ -2239,7 +1381,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q56",
@@ -2263,7 +1406,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q72",
@@ -2287,7 +1431,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q75",
@@ -2311,7 +1456,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q79",
@@ -2335,7 +1481,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q103",
@@ -2359,7 +1506,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q104",
@@ -2383,7 +1531,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q105",
@@ -2407,7 +1556,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q106",
@@ -2431,7 +1581,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q107",
@@ -2455,7 +1606,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q109",
@@ -2479,7 +1631,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q112",
@@ -2503,7 +1656,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q114",
@@ -2527,7 +1681,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q116",
@@ -2551,7 +1706,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q117",
@@ -2575,7 +1731,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q120",
@@ -2599,7 +1756,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q121",
@@ -2623,7 +1781,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q122",
@@ -2647,7 +1806,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q124",
@@ -2671,7 +1831,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q126",
@@ -2695,7 +1856,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q127",
@@ -2719,7 +1881,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q128",
@@ -2743,7 +1906,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q130",
@@ -2767,7 +1931,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q132",
@@ -2791,7 +1956,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q134",
@@ -2815,7 +1981,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q135",
@@ -2839,7 +2006,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q52",
@@ -2863,7 +2031,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q56",
@@ -2887,7 +2056,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q57",
@@ -2911,31 +2081,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2023-F1-Q59",
-        "sourceYear": 2023,
-        "sourceNumber": 59,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "Identify the product in the following reaction:",
-        "options": {
-          "1": "Option (1) — see figure",
-          "2": "Option (2) — see figure",
-          "3": "Option (3) — see figure",
-          "4": "Option (4) — see figure"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q62",
@@ -2959,7 +2106,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q63",
@@ -2983,7 +2131,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q67",
@@ -3007,7 +2156,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q68",
@@ -3031,7 +2181,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q70",
@@ -3055,7 +2206,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q72",
@@ -3079,7 +2231,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q76",
@@ -3103,7 +2256,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q77",
@@ -3127,7 +2281,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q79",
@@ -3151,7 +2306,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q80",
@@ -3175,7 +2331,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q84",
@@ -3199,7 +2356,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q15",
@@ -3223,31 +2381,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2024-R1-Q55",
-        "sourceYear": 2024,
-        "sourceNumber": 54,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "For the reaction 2A  B + C, KC = 4 × 10–3. At a given time, the composition of reaction mixture is: [A] = [B] = [C] = 2 × 10–3 M. Then, which of the following is correct?",
-        "options": {
-          "1": "Reaction has a tendency to go in forward direction.",
-          "2": "Reaction has a tendency to go in backward direction.",
-          "3": "Reaction has gone to completion in forward direction.",
-          "4": "Reaction is at equilibrium."
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q58",
@@ -3271,31 +2406,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2024-R1-Q60",
-        "sourceYear": 2024,
-        "sourceNumber": 58,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "In which of the following equilibria, Kp and Kc are NOT equal?",
-        "options": {
-          "1": "H2(g) + I2(g)  2HI(g)",
-          "2": "CO(g) + H2O(g)  CO2(g) + H2(g)",
-          "3": "2BrCl(g)  Br2(g) + Cl2(g)",
-          "4": "PCl5(g)  PCl3(g) + Cl2(g)"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q64",
@@ -3319,7 +2431,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q68",
@@ -3343,7 +2456,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q69",
@@ -3367,7 +2481,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q71",
@@ -3391,7 +2506,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q72",
@@ -3415,7 +2531,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q73",
@@ -3439,7 +2556,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q74",
@@ -3463,7 +2581,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q75",
@@ -3487,7 +2606,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q76",
@@ -3511,7 +2631,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q81",
@@ -3535,7 +2656,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q85",
@@ -3559,7 +2681,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q87",
@@ -3583,7 +2706,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q88",
@@ -3607,7 +2731,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q89",
@@ -3631,7 +2756,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q15",
@@ -3655,31 +2781,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2025-INTERIM-Q55",
-        "sourceYear": 2025,
-        "sourceNumber": 54,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "For the reaction 2A  B + C, KC = 4 × 10–3. At a given time, the composition of reaction mixture is: [A] = [B] = [C] = 2 × 10–3 M. Then, which of the following is correct?",
-        "options": {
-          "1": "Reaction has a tendency to go in forward direction.",
-          "2": "Reaction has a tendency to go in backward direction.",
-          "3": "Reaction has gone to completion in forward direction.",
-          "4": "Reaction is at equilibrium."
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q58",
@@ -3703,31 +2806,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2025-INTERIM-Q60",
-        "sourceYear": 2025,
-        "sourceNumber": 58,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Easy",
-        "stem": "In which of the following equilibria, Kp and Kc are NOT equal?",
-        "options": {
-          "1": "H2(g) + I2(g)  2HI(g)",
-          "2": "CO(g) + H2O(g)  CO2(g) + H2(g)",
-          "3": "2BrCl(g)  Br2(g) + Cl2(g)",
-          "4": "PCl5(g)  PCl3(g) + Cl2(g)"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q64",
@@ -3751,7 +2831,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q68",
@@ -3775,7 +2856,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q69",
@@ -3799,7 +2881,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q71",
@@ -3823,7 +2906,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q72",
@@ -3847,7 +2931,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q73",
@@ -3871,7 +2956,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q74",
@@ -3895,7 +2981,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q75",
@@ -3919,7 +3006,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q76",
@@ -3943,7 +3031,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q81",
@@ -3967,7 +3056,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q85",
@@ -3991,7 +3081,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q87",
@@ -4015,7 +3106,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q88",
@@ -4039,7 +3131,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q89",
@@ -4063,154 +3156,11 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       }
     ],
     "Medium": [
-      {
-        "id": "2016-Phase1-Q6",
-        "sourceYear": 2016,
-        "sourceNumber": 46,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Medium",
-        "stem": "At what height from the surface of earth the 6. 1!?:cTT°tJ\\fcri:lq gravitation potential and the value of g are g-qi;:r: -5.4x 107 J kg-26.oms-2 -5.4x 107J kg-2and 6.0u:u,- 2respectively? Take the radius of earth as 6400km ma i? , cffl' 6400 fcfi.m. : (1) 1400km <1> 1400 fcfi.m. (2) 2000km <2> 2000 fcfi.m.",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "2600 fcfi.m.",
-          "4": "1600 fcfi.m."
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q153",
-        "sourceYear": 2016,
-        "sourceNumber": 63,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Medium",
-        "stem": "Which of the following statements is false? Ca2+ ions are not important in maintaining 153. H'-if(.'lf<sea if 'itm t? (1) the regular beating of the heart. (1) Ca2+ l1rn cnT f.:rffim UsA if 'HR'cl '1_0f (2) Mg2+ ions are important in the green parts t, of plants.",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "Mg 2+mtf 'IWTI' q('cl'l\"l",
-          "3": "Mg2 + .it:tjr. m*i1",
-          "4": "Ca2 + ions are important in blood clotting."
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q157",
-        "sourceYear": 2016,
-        "sourceNumber": 67,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Medium",
-        "stem": "Which one 'of the following characteristics is (4) associated with adsorption? 157. f1'-'lf(-tf@a (18;TUTI if cfi\"R 'BT an (1) dG and dHare negative but dS is positive t? (2) dG and dS are negative but dH is positive (1) mm t dG \"Q,ci dH 5fillllc\"lcf> dS ",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "mm t dG cf?.11.dS 5fillllc\"lcf> dH m",
-          "3": "dG 3tiOllf'lcf> dH\"Q.ci dS ",
-          "4": "dG, dHand dS all are negative"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q162",
-        "sourceYear": 2016,
-        "sourceNumber": 72,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Medium",
-        "stem": "In the reaction 162. Ti _ (1) NaNH2/liq.NH3 X (1) NaNHifliq.NH3 _ (1) NaNH2/liq.NH3 X (1) NaNH2/liq.NH 3 H- C = CH Y, H - C = CH Y, (2) CH 3 CH2 Br (2) CH3 CH2 Br (2) CH3 CH 2 Br (2) CH3 CH2 Br Xand Yare: xam:Yl: (1) X=2-Butyne; Y=2-Hexyne (1) X=2-;Y=2- (2) X=1-Butyne;Y=2-Hexyne",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "X=1-;Y=2- ( 4) X=2-Butyne;Y =3-Hexyne",
-          "3": "X=1-;Y=3-",
-          "4": "X=2-;Y=3-"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q176",
-        "sourceYear": 2016,
-        "sourceNumber": 86,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Medium",
-        "stem": "Among the following, the correct order of acidit y 176. f.;r.;py cnr still t: lS: (1) HCl02 <HOO< HC103 < H004 (1) HC10 2 <HClO< HC10 3 <HCI0 4 (2) HC104 <H002<HOO<HCl03 (2) HCI04< HCI02<HOO< HCI03",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "HCI0 3 <H00 4< H002 <HOO",
-          "4": "HOO<HCI0 2 <HCI0 3< HC10 4 m"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q180",
-        "sourceYear": 2016,
-        "sourceNumber": 90,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Medium",
-        "stem": "Which of the following has longest C-0 bond 180. f1l-rlfclf@a if C-0 3Tiii length? (Free C-0 bond length inCO is 1.128 A .) t? (1-fRf c-o 3Tiii coif 1.128 A to (1) [Fe(CO)J2- (1) [Fe{CO)J2- (2) [Mn(CO)J+",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Mn(CO)J+ (3 ) Ni(C0)4",
-          "3": "Ni(C0)4",
-          "4": "[Co{C0)4] 8 - oOo- - oOo- NATIONAL ELIGIBILITY CUM ENTRANCE TEST NEET (UG), 2016 BOOKLET (CODE:D-S-Z) PHYSICS BIOLOGY CHEMISTRY Q1 1 Q 46 3 Q 91 2 Q1 3 Q2 2 Q 47 4 Q 92 3 Q2 3 Q3 3 Q 48 1 Q 93 1 Q3 2 Q4 3 Q 49 4 Q 94 1 Q4 3 Q5 2 Q 50 3 Q 95 2 Q5 3 Q6 3 Q 51 4 Q 96 4 Q6 1 Q7 1 Q 52 2 Q 97 2 Q7 1 Q8 2 Q 53 1 Q 98 2 Q8 2 Q9 2 Q 54 4 Q 99 4 Q9 4 Q 10 3 Q 55 3 Q 100 2 Q 10 3 Q 11 1 Q 56 2 Q 101 1 Q 11"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
       {
         "id": "2017-A-Q2",
         "sourceYear": 2017,
@@ -4233,7 +3183,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2017-A-Q64",
@@ -4257,79 +3208,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q77",
-        "sourceYear": 2017,
-        "sourceNumber": 75,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Medium",
-        "stem": "For a given reaction, ΔH = 35.5 kJ mol –1 and (3) and cine substitution reaction ΔS = 83.6 JK–1 mol–1. The reaction is spontaneous at : (Assume that ΔH and ΔS do not vary with temperature) OCH3 (1) T < 425 K",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "T > 425 K",
-          "3": "All temperatures",
-          "4": "T > 298 K"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q84",
-        "sourceYear": 2017,
-        "sourceNumber": 81,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Medium",
-        "stem": "Pick out the correct statement with respect [Mn(CN)6]3– : 5 K \u0002\u0002\u0002\u0003 2NH3 + O2 \u0004\u0002\u0002\u0002 2NO + 3H2O, will be 2 (1) It is sp3d2 hybridised and octahedral (1) K1K33 / K2 (2) K2K33 / K1 (2) It is sp3d2 hybridised and tetrahedral",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "K2K3 / K1",
-          "4": "It is dsp2 hybridised and square planar"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q90",
-        "sourceYear": 2017,
-        "sourceNumber": 87,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Medium",
-        "stem": "Extraction of gold and silver involves leaching with (iii) X + Y → XY (fast) CN– ion. Silver is later recovered by The overall order of the reaction will be (1) Liquation (2) Distillation",
-        "options": {
-          "1": "1",
-          "2": "2",
-          "3": "Zone refining",
-          "4": "Displacement with Zn (3) 0 (4) 1.5"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q114",
@@ -4353,7 +3233,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q137",
@@ -4377,7 +3258,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q140",
@@ -4401,31 +3283,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2018-AA-Q148",
-        "sourceYear": 2018,
-        "sourceNumber": 66,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Medium",
-        "stem": "A body initially at rest and sliding along a frictionless track from a height h (as shown in the figure) just completes a vertical circle of diameter AB = D. The height h is equal to 3",
-        "options": {
-          "1": "D 2 5",
-          "2": "D 4 7",
-          "3": "D 5",
-          "4": "D"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2018-AA-Q148.svg",
-        "figureKind": "missing-placeholder",
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q159",
@@ -4449,7 +3308,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q166",
@@ -4473,7 +3333,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q170",
@@ -4497,31 +3358,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2018-AA-Q179",
-        "sourceYear": 2018,
-        "sourceNumber": 90,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Medium",
-        "stem": "The kinetic energies of a planet in an elliptical orbit about the Sun, at positions A, B and C are KA, KB and KC, respectively. AC is the major axis and SB is perpendicular to AC at the position of the Sun S as shown in the figure. Then",
-        "options": {
-          "1": "KA < KB < K C",
-          "2": "KB > KA > K C",
-          "3": "KB < KA < K C",
-          "4": "KA > KB > K C"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2018-AA-Q179.svg",
-        "figureKind": "missing-placeholder",
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q113",
@@ -4545,7 +3383,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q115",
@@ -4569,7 +3408,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q126",
@@ -4593,7 +3433,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q139",
@@ -4617,7 +3458,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q94",
@@ -4641,7 +3483,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q99",
@@ -4665,7 +3508,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q106",
@@ -4689,7 +3533,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q122",
@@ -4713,7 +3558,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q128",
@@ -4737,7 +3583,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q129",
@@ -4761,7 +3608,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q147",
@@ -4785,7 +3633,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q148",
@@ -4809,7 +3658,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q149",
@@ -4833,7 +3683,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q156",
@@ -4857,7 +3708,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q168",
@@ -4881,7 +3733,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q170",
@@ -4905,7 +3758,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q171",
@@ -4929,7 +3783,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q177",
@@ -4953,7 +3808,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q178",
@@ -4977,7 +3833,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q179",
@@ -5001,7 +3858,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q19",
@@ -5025,7 +3883,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q25",
@@ -5049,7 +3908,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q28",
@@ -5073,7 +3933,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q33",
@@ -5097,7 +3958,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q38",
@@ -5121,7 +3983,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q51",
@@ -5145,7 +4008,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q62",
@@ -5169,7 +4033,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q70",
@@ -5193,7 +4058,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q123",
@@ -5217,7 +4083,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q125",
@@ -5241,7 +4108,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q60",
@@ -5265,7 +4133,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q74",
@@ -5289,7 +4158,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q63",
@@ -5313,7 +4183,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q65",
@@ -5337,7 +4208,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q63",
@@ -5361,7 +4233,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q65",
@@ -5385,154 +4258,11 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       }
     ],
     "Hard": [
-      {
-        "id": "2016-Phase1-Q137",
-        "sourceYear": 2016,
-        "sourceNumber": 49,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "Match the compounds given in column I with the 137. 1ifM<fft hybridisation and shape given in column U and mark the correct option. fcfinifMt<fftqcm I Column I Columnll I II (a) XeF6 (i ) distorted octahedral (a) XeF6 (i) telfi('lcf>lll (b ) XeO3 (ii) square planar (b) XeO 3 (ii) qrf (c) XeOF4 (iii) pyramidal (c) XeOF4 (iii) N(I f14 -sl (d) XeF4 (iv) square pyramidal Co de: (d) XeF4 (iv) qrf f•Hlf14-sl (a) (b) (c) (d) qiT-g: (1) (iv) (iii) (i ) (ii) (a) (b) (c) (d ) (1) (iv) (iii) (i) (ii) (2) (iv) ( i) (ii) (iii) (2) (iv) (i ) (ii) (iii)",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "( i) (iii) (iv) (ii)",
-          "4": "(i) (ii) (iv) (iii)"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q138",
-        "sourceYear": 2016,
-        "sourceNumber": 50,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "The correct statement regarding the comparison of staggered and eclipsed conformations of ethane, is 138. cfft cfi?.Rt°: (1) The eclipsed conformation of ethane is more stable than staggered conformation even . ' (1) cfiT 11\" . \"B though the eclipsed conformation has torsional strain. i#t-1 (2) The staggered conformation of ethane is more (2) cfiT . \"B an stable than eclipsed conformation, because tif fcr¥n staggered conformation has no torsional strain. t,",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "The staggered conformation of ethane is less tift, stable than eclipsed conformation, because staggered conformation has torsional strain.",
-          "4": "The eclipsed conformation of ethane is more iiffcr¥ft-.:rm stable than staggered conformation, because eclipsed conformation has no torsional strain. ti"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q152",
-        "sourceYear": 2016,
-        "sourceNumber": 62,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "Consider the molecules CH-41 NH3 and H20. Which 152. CH-41 NH3 3m:H20 aff re<) of the given statements is false? ifmt? (1) The H - 0 - H bond angle in H20 is smaller than the H-N - H bond angle in NH3. (1 ) H 20 if H-0-H alfait:T-ffl, NH3 if (2) The H -C - H bond angle in CH4 is larger ,H - N - H t:T-ffl cn'i:r i I than the H - N-H bond angle in NH3 .",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "CH4 if H-C-H t:T-ffl, NH3 if",
-          "3": "The H - C - 1-t bond angle in CH4, the H-N-H anai'e!-\"cfiT1JT an t I H - N -H bond angle in NH 3, and the ( 3) CH4 if H-C-H t:T-ffl, NH3 if H - 0-H bond angle in H20 are all greater than 90° . H-N -H 'e!-\"cfiT1JT om H20if H-0-H 'e!-\"cfiTUT, if 90° an t I",
-          "4": "H2 0 if H - 0-H t:T-ffl, CH4 if H-C-H 'e!-\"cfiT1JTant1"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q155",
-        "sourceYear": 2016,
-        "sourceNumber": 65,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "The rate of a first-order reaction is 0.04mo1z-1s - l 155. -srqq cfilRcf,1 an cfi1 WT an atlO seconds and 0.03 mol z-l s-1 at 20 seconds 10 sec 0.04 mo1 z-1 s-1 cf2fl' 20 sec after initiation of the reaction . The half-life period of the reaction is 0.03 mo1z-1s-1 ti ancf,1 3WJ;cliR1' (1) 44.1 s t: (2) 54.1 s (1) 44.1 s (3) 24.1 s",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "54.1 s",
-          "3": "24.1 s",
-          "4": "34.1 s"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q173",
-        "sourceYear": 2016,
-        "sourceNumber": 83,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "For the following reactions: (4) QffilR1 fcmFr an (a) CH3CH2CBiBr +KOH➔ CH3CH = CH2 +KBr+ H20 (a) CH3CH2CH 2Br +KOH➔ H3C ' H3C Y Y CH 3 CH3 CH3CH= CH2+KBr+ H2O (b) + KOH - + KBr H 3C H3C Y Y 3 +KBr CH3 CH ex:: Br OH +KOH- 0 ex:: ) Br OH 0 (c) + Br2 -+ .\\ (c). + Br2 -+ Which of the following statements is correct ? (1) (a) is elimination, (b) and (c) are substitution f.fl:., -ij \"B cfit.f m cfii.R t? reactions. (1) (a) fctt1'14-l an. (b) (c) (2) (a) is substitution, (b) and (c) are addition alffl reactions. (2) (a), (b)3m:(c)ani,",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "(a) am: (b) an f (c) ",
-          "4": "(a)·. (b) am:"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q46",
-        "sourceYear": 2017,
-        "sourceNumber": 49,
-        "subject": "Chemistry",
-        "topic": "Chemistry General",
-        "difficulty": "Hard",
-        "stem": "With respect to the conformers of ethane, which of 50. Which is the incorrect statement? the following statements is true? (1) FeO0.98 has non stoichiometric metal deficiency (1) Bond angle remains same but bond length defect changes (2) Density decreases in case of crystals with (2) Bond angle changes but bond length remains Schottky's defect same",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "NaCl(s) is insulator, silicon is semiconductor, silver is conductor, quartz is piezo electric",
-          "4": "Frenkel defect is favoured in those ionic"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
       {
         "id": "2017-A-Q60",
         "sourceYear": 2017,
@@ -5555,7 +4285,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q52",
@@ -5579,7 +4310,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q61",
@@ -5603,7 +4335,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q63",
@@ -5627,7 +4360,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q67",
@@ -5651,7 +4385,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q69",
@@ -5675,7 +4410,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q73",
@@ -5699,7 +4435,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q76",
@@ -5723,7 +4460,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q78",
@@ -5747,7 +4485,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q88",
@@ -5771,7 +4510,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q89",
@@ -5795,7 +4535,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q90",
@@ -5819,7 +4560,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q94",
@@ -5843,7 +4585,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q95",
@@ -5867,7 +4610,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q96",
@@ -5891,7 +4635,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q98",
@@ -5915,7 +4660,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q100",
@@ -5939,7 +4685,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q136",
@@ -5963,7 +4710,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q138",
@@ -5987,7 +4735,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q141",
@@ -6011,7 +4760,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q143",
@@ -6035,7 +4785,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q144",
@@ -6059,7 +4810,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q149",
@@ -6083,7 +4835,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q154",
@@ -6107,7 +4860,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q156",
@@ -6131,7 +4885,8 @@
         "figureSrc": "/figures/2022-RECON-Q156.png",
         "figureKind": "pdf-crop+from-2019-stem-match",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q157",
@@ -6155,7 +4910,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q165",
@@ -6179,7 +4935,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q54",
@@ -6203,7 +4960,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q64",
@@ -6227,7 +4985,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q78",
@@ -6251,7 +5010,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q87",
@@ -6275,7 +5035,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q89",
@@ -6299,7 +5060,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q90",
@@ -6323,7 +5085,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q91",
@@ -6347,7 +5110,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q92",
@@ -6371,7 +5135,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q94",
@@ -6395,7 +5160,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q98",
@@ -6419,7 +5185,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q99",
@@ -6443,7 +5210,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q12",
@@ -6467,7 +5235,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q59",
@@ -6491,7 +5260,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q67",
@@ -6515,7 +5285,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q79",
@@ -6539,7 +5310,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q84",
@@ -6563,7 +5335,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q93",
@@ -6587,7 +5360,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q95",
@@ -6611,7 +5385,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q97",
@@ -6635,7 +5410,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q100",
@@ -6659,7 +5435,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q12",
@@ -6683,7 +5460,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q59",
@@ -6707,7 +5485,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q67",
@@ -6731,7 +5510,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q79",
@@ -6755,7 +5535,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q84",
@@ -6779,7 +5560,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q93",
@@ -6803,7 +5585,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q95",
@@ -6827,7 +5610,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q97",
@@ -6851,7 +5635,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q100",
@@ -6875,7 +5660,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       }
     ]
   },

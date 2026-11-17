@@ -4,8 +4,8 @@
   "topic": "Thermodynamics",
   "counts": {
     "Easy": 4,
-    "Medium": 12,
-    "Hard": 12
+    "Medium": 10,
+    "Hard": 10
   },
   "questions": {
     "Easy": [
@@ -31,7 +31,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q28",
@@ -55,7 +56,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q3",
@@ -79,7 +81,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q3",
@@ -103,58 +106,11 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       }
     ],
     "Medium": [
-      {
-        "id": "2016-Phase1-Q43",
-        "sourceYear": 2016,
-        "sourceNumber": 40,
-        "subject": "Physics",
-        "topic": "Thermodynamics",
-        "difficulty": "Medium",
-        "stem": "· The charge flowing through a resistance R varies with time t as Q = at- bt2, where a and b are positive fcr.RuT Q= at- bt2%if mt a (fb constants. The total heat produced in R is : f14aicfiI Rift: - 3 a3R a R (1) - (1) 2b 2b a3R (2) - a3R (2) - b b a3 R -",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "6b 6b a3 R - a3R",
-          "4": "3b 3b"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q142",
-        "sourceYear": 2016,
-        "sourceNumber": 45,
-        "subject": "Physics",
-        "topic": "Thermodynamics",
-        "difficulty": "Medium",
-        "stem": "The correct thermodynamic conditions for the (4) fsrn1iT t I ctjt.mr:ff 'I:{\\ m : w spontaneous reaction at all temperahrres is: AH< 0 and AS> 0 142. (1) AH < 0 and AS < 0 3,llli)lifdi:.hlll :",
-        "options": {
-          "1": "AH< 0 cf?.TTAS > 0",
-          "2": "Option 2",
-          "3": "AH< 0 and AS==0",
-          "4": "AH> 0 and AS< 0 (2 ) AH< 0 cfPTT AS< 0"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
       {
         "id": "2017-A-Q16",
         "sourceYear": 2017,
@@ -177,7 +133,8 @@
         "figureSrc": "/figures/2017-A-Q16.png",
         "figureKind": "page-diagram-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2017-A-Q27",
@@ -201,7 +158,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q42",
@@ -225,7 +183,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q135",
@@ -234,12 +193,12 @@
         "subject": "Physics",
         "topic": "Thermodynamics",
         "difficulty": "Medium",
-        "stem": "Reversible expansion of an ideal gas under isothermal and adiabatic conditions are as shown in the figure : A (PA, VA, TA) B (PB, VB, TB) P C (PC, VC, TC) V AB ⎯⎯→ Isothermal expansion AC ⎯⎯→ Adiabatic expansion Which of the following options is not correct?",
+        "stem": "Reversible expansion of an ideal gas under isothermal and adiabatic conditions are as shown in the figure. AB → Isothermal expansion. AC → Adiabatic expansion. Which of the following options is not correct?",
         "options": {
-          "1": "ΔSisothermal > ΔSadiabatic",
-          "2": "TA = TB",
-          "3": "W isothermal > W adiabatic",
-          "4": "TC > TA"
+          "1": "ΔS_isothermal > ΔS_adiabatic",
+          "2": "T_A = T_B",
+          "3": "W_isothermal > W_adiabatic",
+          "4": "T_C > T_A"
         },
         "correctOption": "4",
         "correctOptions": [
@@ -247,9 +206,10 @@
         ],
         "multiCorrect": false,
         "figureSrc": "/figures/2019-G1-Q135.svg",
-        "figureKind": "missing-placeholder",
+        "figureKind": "diagram",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q177",
@@ -273,7 +233,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q5",
@@ -297,7 +258,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q8",
@@ -321,7 +283,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q10",
@@ -345,7 +308,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q50",
@@ -369,7 +333,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q145",
@@ -378,73 +343,26 @@
         "subject": "Physics",
         "topic": "Thermodynamics",
         "difficulty": "Medium",
-        "stem": "Reversible expansion of an ideal gas under isothermal and adiabatic conditions are as shown in the figure : A (PA, VA, TA) B (PB, VB, TB) P C (PC, VC, TC) V AB ⎯⎯→ Isothermal expansion AC ⎯⎯→ Adiabatic expansion Which of the following options is not correct?",
+        "stem": "Reversible expansion of an ideal gas under isothermal and adiabatic conditions are as shown in the figure. AB → Isothermal expansion. AC → Adiabatic expansion. Which of the following options is not correct?",
         "options": {
-          "1": "ΔSisothermal > ΔSadiabatic",
-          "2": "TA = TB",
-          "3": "W isothermal > W adiabatic",
-          "4": "TC > TA"
+          "1": "ΔS_isothermal > ΔS_adiabatic",
+          "2": "T_A = T_B",
+          "3": "W_isothermal > W_adiabatic",
+          "4": "T_C > T_A"
         },
         "correctOption": "4",
         "correctOptions": [
           "4"
         ],
         "multiCorrect": false,
-        "figureSrc": "/figures/2022-RECON-Q145.svg",
-        "figureKind": "missing-placeholder",
+        "figureSrc": "/figures/2019-G1-Q135.svg",
+        "figureKind": "diagram",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       }
     ],
     "Hard": [
-      {
-        "id": "2016-Phase1-Q7",
-        "sourceYear": 2016,
-        "sourceNumber": 4,
-        "subject": "Physics",
-        "topic": "Thermodynamics",
-        "difficulty": "Hard",
-        "stem": "A piece of ice falls from a height h so that it melts completely. Onlyone-quarter of the heat produced ftrcR;r ti cJR-ft 1l°ffi: is absorbed by the ice and all energy of ice gets -.:ft '1WT m GJU a.ic1nftla '-1f@T a?.TT t converted into heat during its fall . The value of h is: qft-ftrm-q {c\\9H!Rct [Latent heat of ice is 3.4x 105 J/kg and g == 10N/kg] ,;rm l I .:tre; cffl' 3.4X 105 J/kg cf?.fl",
-        "options": {
-          "1": "136km g;,,10 N/kg i, m h -qi;:rt:",
-          "2": "68km <1> 136 fcfi.m.",
-          "3": "34km <2> 6s fcfi.m. :-.,. :.:",
-          "4": "544_km (3) 34 fcfi.m. 544 fcfi.m."
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q44",
-        "sourceYear": 2016,
-        "sourceNumber": 41,
-        "subject": "Physics",
-        "topic": "Thermodynamics",
-        "difficulty": "Hard",
-        "stem": "A refrigerator works between 4 C and 30 C. It is ° ° required to remove 600 calories of heat every second qffi cnr oll:Jf.r:rn m % 600 in order to keep the temperature of the refrigerated 'c:fiT W-fiUs f1cfil(-HI 311<:W-lcfi ffl t space constant. The power required is : 3llq4cfi ft (Take 1 cal=4.2Joules) ( 1 cal= 4.2 Jmtles ) (1) 236.5 W (1) 236.5 W (2) 2365 W (2) 2365 W",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "2.365 W",
-          "4": "23.65 W"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
       {
         "id": "2019-G1-Q147",
         "sourceYear": 2019,
@@ -467,7 +385,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q187",
@@ -491,7 +410,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q39",
@@ -515,7 +435,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q42",
@@ -539,7 +460,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q54",
@@ -563,7 +485,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q57",
@@ -587,7 +510,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q39",
@@ -611,7 +535,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q42",
@@ -635,7 +560,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q54",
@@ -659,7 +585,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q57",
@@ -683,13 +610,12 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       }
     ]
   },
   "gaps": [
-    "Easy: have 4, need 50 (sourcing more from reputable NEET banks)",
-    "Medium: have 12, need 50 (sourcing more from reputable NEET banks)",
-    "Hard: have 12, need 50 (sourcing more from reputable NEET banks)"
+    "Easy: have 4 clean items (need 10+ to start)"
   ]
 }

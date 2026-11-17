@@ -27,6 +27,15 @@ export async function POST(req: Request) {
     if (!paper) {
       return NextResponse.json({ error: "Paper not found" }, { status: 404 });
     }
+    if (!paper.student_ready || paper.total_questions < 80) {
+      return NextResponse.json(
+        {
+          error:
+            "This year paper is being curated for clean English items and is not available yet.",
+        },
+        { status: 503 },
+      );
+    }
 
     const userId = new Types.ObjectId(user.id);
     const inProgress = await Attempt.findOne({ userId, year, status: "in_progress" });

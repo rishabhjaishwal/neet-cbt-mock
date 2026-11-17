@@ -3,516 +3,12 @@
   "subject": "Physics",
   "topic": "Physics General",
   "counts": {
-    "Easy": 68,
-    "Medium": 70,
-    "Hard": 44
+    "Easy": 47,
+    "Medium": 62,
+    "Hard": 36
   },
   "questions": {
     "Easy": [
-      {
-        "id": "2016-Phase1-Q13",
-        "sourceYear": 2016,
-        "sourceNumber": 10,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2016 Question 13 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q20",
-        "sourceYear": 2016,
-        "sourceNumber": 17,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2016 Question 20 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q23",
-        "sourceYear": 2016,
-        "sourceNumber": 20,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "\"9:\"QtWf (ve) tf\"Qt\"l@r:RWJ (vp) wrr, density are twice as that of earth is: if cJlTT am: am 1JS!cfl (1) (2) 1:4 1: .J2 cfil gyRT if m t' ? (1) 1: 4",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "1: .J2 1 : 2-J'i.",
-          "3": "1: 2",
-          "4": "Option 4"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q37",
-        "sourceYear": 2016,
-        "sourceNumber": 34,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2016 Question 37 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q8",
-        "sourceYear": 2017,
-        "sourceNumber": 5,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2017 Question 8 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q9",
-        "sourceYear": 2017,
-        "sourceNumber": 6,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "Each candidate must show on demand his / her Admit Card to the Invigilator.",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q12",
-        "sourceYear": 2017,
-        "sourceNumber": 9,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "Use of Electronic / Manual Calculator is prohibited.",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q14",
-        "sourceYear": 2017,
-        "sourceNumber": 11,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "Young’s double slit experiment is first performed in 4π T = air and then in a medium other than air. It is found 5 that 8th bright fringe in the medium lies where 5th",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q17",
-        "sourceYear": 2017,
-        "sourceNumber": 14,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2017 Question 17 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q20",
-        "sourceYear": 2017,
-        "sourceNumber": 17,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "Two cars moving in opposite directions approach",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q22",
-        "sourceYear": 2017,
-        "sourceNumber": 19,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "Which one of the following represents forward bias B diode? (1) AND gate 0V R –2 V (1) (2) OR gate –4 V R –3 V",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "Option 2",
-          "3": "Option 3",
-          "4": "NOT gate –2 V R +2 V"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q23",
-        "sourceYear": 2017,
-        "sourceNumber": 20,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2017 Question 23 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q24",
-        "sourceYear": 2017,
-        "sourceNumber": 21,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "The given electrical network is equivalent to = 150 (100) = 15000 A Y",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q25",
-        "sourceYear": 2017,
-        "sourceNumber": 22,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "The acceleration due to gravity at a height 1 km β=9 above the earth is the same as at a depth d below Q2 the surface of earth. Then β= W 1 Q2 = 9 × 10 = 90 J",
-        "options": {
-          "1": "d = km",
-          "2": "d = 1 km 2 28. If θ1 and θ2 be the apparent angles of dip observed 3 in two vertical planes at right angles to each other,",
-          "3": "d = km",
-          "4": "d = 2 km then the true angle of dip θ is given by 2"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q28",
-        "sourceYear": 2017,
-        "sourceNumber": 25,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2017 Question 28 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q29",
-        "sourceYear": 2017,
-        "sourceNumber": 26,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2017 Question 29 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q34",
-        "sourceYear": 2017,
-        "sourceNumber": 31,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2017 Question 34 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q37",
-        "sourceYear": 2017,
-        "sourceNumber": 34,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "Two Polaroids P1 and P2 are placed with their axis",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q40",
-        "sourceYear": 2017,
-        "sourceNumber": 37,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2017 Question 40 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q41",
-        "sourceYear": 2017,
-        "sourceNumber": 38,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "[PLACEHOLDER] NEET 2017 Question 41 could not be recovered from the public PDF text extract. Replace after manual transcription.",
-        "options": {
-          "1": "Placeholder option 1",
-          "2": "Placeholder option 2",
-          "3": "Placeholder option 3",
-          "4": "Placeholder option 4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q43",
-        "sourceYear": 2017,
-        "sourceNumber": 40,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Easy",
-        "stem": "The two nearest harmonics of a tube closed at one",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
       {
         "id": "2017-A-Q45",
         "sourceYear": 2017,
@@ -535,7 +31,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q11",
@@ -559,7 +56,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q91",
@@ -583,7 +81,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q106",
@@ -607,7 +106,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q156",
@@ -631,7 +131,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q143",
@@ -655,7 +156,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q144",
@@ -679,7 +181,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q171",
@@ -703,7 +206,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q172",
@@ -727,7 +231,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q2",
@@ -751,7 +256,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q19",
@@ -775,7 +281,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q109",
@@ -799,7 +306,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q120",
@@ -823,7 +331,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q133",
@@ -847,7 +356,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q146",
@@ -871,7 +381,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q152",
@@ -895,7 +406,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q153",
@@ -919,7 +431,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q3",
@@ -943,7 +456,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q4",
@@ -967,7 +481,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q9",
@@ -991,7 +506,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q13",
@@ -1015,7 +531,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q15",
@@ -1039,7 +556,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q17",
@@ -1063,7 +581,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q18",
@@ -1087,7 +606,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q22",
@@ -1111,7 +631,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q23",
@@ -1135,7 +656,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q26",
@@ -1159,7 +681,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q29",
@@ -1183,7 +706,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q34",
@@ -1207,7 +731,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q5",
@@ -1231,7 +756,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q7",
@@ -1255,7 +781,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q11",
@@ -1279,7 +806,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q13",
@@ -1303,7 +831,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q22",
@@ -1327,7 +856,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q28",
@@ -1351,7 +881,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q33",
@@ -1375,7 +906,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q35",
@@ -1399,7 +931,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q37",
@@ -1423,7 +956,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q5",
@@ -1447,7 +981,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q7",
@@ -1471,7 +1006,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q11",
@@ -1495,7 +1031,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q13",
@@ -1519,7 +1056,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q22",
@@ -1543,7 +1081,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q28",
@@ -1567,7 +1106,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q33",
@@ -1591,7 +1131,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q35",
@@ -1615,7 +1156,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q37",
@@ -1639,154 +1181,11 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       }
     ],
     "Medium": [
-      {
-        "id": "2016-Phase1-Q21",
-        "sourceYear": 2016,
-        "sourceNumber": 18,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "If the velocity of a particle is v =At+Bt2, where A and B are constants, then the distance travelled 21. M cfi1JT cfil WT v = At+Bt2 l A am: B ·· by it between ls and 2s is : l mcfiUT&JU 1s am:2s \"'q\"ffiTr:ft 3 7 t: (1) -A+ -B 2 3 (1) A+ z_B A B 2 3 (2) -+- 2 3 A B (2) -+- 2 3",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "A +4B",
-          "4": "3A+7B"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q27",
-        "sourceYear": 2016,
-        "sourceNumber": 24,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "If the magnitude of sum of two vectors is equal to the magnitude of difference of the two vectors, the angle between these vectors is 27.· ,m::qilor-m% (1) 45° %.;roil(t, mfflt (1) 45 ° (2) 180° (2) 180°",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "0°",
-          "4": "90°"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q41",
-        "sourceYear": 2016,
-        "sourceNumber": 38,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "What is the minimum velocity with which a body of mass m must enter a vertical loop of radius Rso that 41. Rfcnm'eRimT () m .. .. itca.n rnm12le!the loop ? ... . . . -1lm i6'r f.fim'cfilWTfflcfivllfcn (1) .J3gR ¥f' 7 (1) .J3gR (2) .J5gR (2) .,f5gR",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": ".Jg[",
-          "4": ".J2gR z"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q4",
-        "sourceYear": 2017,
-        "sourceNumber": 2,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "A U tube with both ends open to the atmosphere, is galvanometer partially filled with water. Oil, which is immiscible with (4) A combination of cells, galvanometer and water, is poured into one side until it stands at a resistances distance of 10 mm above the water level on the other",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q11",
-        "sourceYear": 2017,
-        "sourceNumber": 8,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "Two rods A and B of different materials are welded series and the last line of Lyman series is together as shown in figure. Their thermal",
-        "options": {
-          "1": "2",
-          "2": "1 conductivities are K 1 and K 2 . The thermal",
-          "3": "4",
-          "4": "0.5 conductivity of the composite rod will be"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2017-A-Q11.svg",
-        "figureKind": "missing-placeholder",
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q13",
-        "sourceYear": 2017,
-        "sourceNumber": 10,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "The candidates are governed by all Rules and Regulations of the examination with regard to their conduct in the Examination Hall. All cases of unfair means will be dealt with as per Rules and Regulations of this examination.",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
       {
         "id": "2017-A-Q32",
         "sourceYear": 2017,
@@ -1809,7 +1208,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2017-A-Q35",
@@ -1833,7 +1233,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q14",
@@ -1857,7 +1258,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q21",
@@ -1881,7 +1283,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q99",
@@ -1905,31 +1308,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2018-AA-Q101",
-        "sourceYear": 2018,
-        "sourceNumber": 24,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "A block of mass m is placed on a smooth inclined wedge ABC of inclination θ as shown in the figure. The wedge is given an acceleration ‘a’ towards the right. The relation between a and θ for the block to remain stationary on the wedge is",
-        "options": {
-          "1": "a = g tan θ",
-          "2": "a = g cos θ g",
-          "3": "a= sin θ g",
-          "4": "a= cosec θ OUGH WORK English"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2018-AA-Q101.svg",
-        "figureKind": "missing-placeholder",
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q108",
@@ -1953,31 +1333,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2018-AA-Q128",
-        "sourceYear": 2018,
-        "sourceNumber": 34,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Medium",
-        "stem": "The kinetic energies of a planet in an elliptical orbit about the Sun, at positions A, B and C are KA, KB and KC, respectively. AC is the major axis and SB is perpendicular to AC at the position of the Sun S as shown in the figure. Then",
-        "options": {
-          "1": "KB > KA > K C",
-          "2": "KB < KA < K C",
-          "3": "KA > KB > K C",
-          "4": "KA < KB < K C"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2018-AA-Q128.svg",
-        "figureKind": "missing-placeholder",
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q131",
@@ -2001,7 +1358,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q147",
@@ -2025,7 +1383,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q164",
@@ -2049,7 +1408,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q171",
@@ -2073,7 +1433,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q140",
@@ -2097,7 +1458,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q141",
@@ -2121,7 +1483,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q146",
@@ -2145,7 +1508,8 @@
         "figureSrc": "/figures/2019-G1-Q146.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q150",
@@ -2169,7 +1533,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q152",
@@ -2193,7 +1558,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q154",
@@ -2217,7 +1583,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q155",
@@ -2241,7 +1608,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q157",
@@ -2265,7 +1633,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q159",
@@ -2289,7 +1658,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q163",
@@ -2313,7 +1683,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q165",
@@ -2337,7 +1708,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q168",
@@ -2361,7 +1733,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q174",
@@ -2385,7 +1758,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q175",
@@ -2409,7 +1783,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q1",
@@ -2433,7 +1808,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q3",
@@ -2457,7 +1833,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q102",
@@ -2481,7 +1858,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q114",
@@ -2505,7 +1883,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q118",
@@ -2529,7 +1908,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q125",
@@ -2553,7 +1933,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q150",
@@ -2577,7 +1958,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q154",
@@ -2601,7 +1983,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q157",
@@ -2625,7 +2008,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q161",
@@ -2649,7 +2033,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q6",
@@ -2673,7 +2058,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q9",
@@ -2697,7 +2083,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q14",
@@ -2721,7 +2108,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q20",
@@ -2745,7 +2133,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q36",
@@ -2769,7 +2158,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q41",
@@ -2793,7 +2183,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q42",
@@ -2817,7 +2208,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q150",
@@ -2841,7 +2233,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q162",
@@ -2865,7 +2258,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q164",
@@ -2889,7 +2283,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q167",
@@ -2913,7 +2308,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q169",
@@ -2937,7 +2333,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q173",
@@ -2961,7 +2358,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q175",
@@ -2985,7 +2383,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q178",
@@ -3009,7 +2408,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q1",
@@ -3033,7 +2433,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q7",
@@ -3057,7 +2458,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q31",
@@ -3081,7 +2483,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q17",
@@ -3105,7 +2508,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q23",
@@ -3129,7 +2533,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q32",
@@ -3153,7 +2558,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q34",
@@ -3177,7 +2583,8 @@
         "figureSrc": "/figures/2024-R1-Q34.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q36",
@@ -3201,7 +2608,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q17",
@@ -3225,7 +2633,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q23",
@@ -3249,7 +2658,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q32",
@@ -3273,7 +2683,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q34",
@@ -3297,7 +2708,8 @@
         "figureSrc": "/figures/2025-INTERIM-Q34.png",
         "figureKind": "pdf-crop+from-2024-stem-match",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q36",
@@ -3321,106 +2733,11 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       }
     ],
     "Hard": [
-      {
-        "id": "2016-Phase1-Q11",
-        "sourceYear": 2016,
-        "sourceNumber": 8,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "An air column , closed at one end and open at the 11.• M(l°M other , resonates with a tuning fork when the smallest fcfim t-m i length of the column is 50cm. The next larger length clilcn11--cn11 50.lfi. mm i 1 of the column resonating with the same tuning fork is: t- m cfi\"Bqwftefit 3¥Tihl t\" (1) · 150cm (1) 150 .lfi. (2) 200cm (2) 200 .lfi.",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "66.7.lfi.",
-          "4": "100 .lfi."
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q30",
-        "sourceYear": 2016,
-        "sourceNumber": 27,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "30. ➔ \" \" by r = cos wt x + sin wt y . Where w is a r = cos wt x + sin wt y G)U 1'1<-<'l'iO fcfi?:rr 7r:IT Q, constant. w tI Which of the following is true ? ➔ f1¥-1fclf@a if mm qiiR t? Velocity is perpendicular to r and WT -; t \"d' ('cRUT qft am: (1) acceleration is directed towards the origin. (1) ➔ ti (2) Veloc ity is perpendicular to r and acceleration is directed away from the origin. (2) WT -; ta ('cRUT cn1",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "am: ('cRUT m -; i1 WT",
-          "4": "wr am: ('cRUT m -; i 1 to r ."
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q32",
-        "sourceYear": 2016,
-        "sourceNumber": 29,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "Two identical charged spheres suspended from a f.R;ffa@, GT ffll{ . SlfclcfiOI common point by two massless strings of lengths l, are initially at a distance d (d < < l) apart because of cfiR1ll, -q - d (d < < l)\" 1l\\ i I their mutual repulsion. The charges begin to leak ·mB«<fa.RUTmmt from both the spheres at a constant rate. As a result, the spheres approach each other with a velocity v. am: qflo111H4(c-q ctT am: WT v awi1 \"d'G'fcnl,x'tfiWf-q Then v varies as a function of the distance x between the spheres, as \"WT v\"cnr-fcRRuf- ll-mmt? ------- -- -- V <X X 2 1 1 (1) V CX: X 2 (1) (2) V <X x-l (2) Vex: x-l 1 V CX: x2 -1",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "Option 3",
-          "4": "V <X X z IEnglisti+Hindi I"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q38",
-        "sourceYear": 2016,
-        "sourceNumber": 35,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "A disk and a sphere of same radius but different 38. amll@l,mcm masses roll off on two inclined planes of the same f,fflt w:IF[ am altitude and length. Which one of the two objects gets to the bottom of the plane first? 1R f I fquif offl ocfi -? (1) (2) Both reach at the same time Depends on their masses <1> m (3) Disk . -.",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": " s::o1.1i:i111 f.i'lti: qj«rf t",
-          "3": "",
-          "4": "l'T@l"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
       {
         "id": "2016-Phase1-Q39",
         "sourceYear": 2016,
@@ -3428,7 +2745,7 @@
         "subject": "Physics",
         "topic": "Physics General",
         "difficulty": "Hard",
-        "stem": "From a disc of radius R and mass M, a circular hole of diameter R, whose rim passes through the centre 39. M'ijRcfil'MR<5Zfracf;T is cut. What is the moment of inertia of the remaining part of the disc about a perpendicular axis, passing cfdTcfiRWcfil2.ltfcn through the centre? , 'lWfcf;T, (1) 11 MR2/32 er@ a:{a_:[ i:ifut: (2) 9 MR2/32 -t? (3) 15 MR2/32",
+        "stem": "From a disc of radius R and mass M, a circular hole of diameter R, whose rim passes through the centre 39. M'ijRcfil'MR<5Zfracf;T is cut. What is the moment of inertia of the remaining part of the disc about a perpendicular axis, passing cfdTcfiRWcfil2.ltfcn through the centre? , 'lWfcf;T,",
         "options": {
           "1": "11 MR2/32",
           "2": "9 MR2/32",
@@ -3443,55 +2760,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q42",
-        "sourceYear": 2016,
-        "sourceNumber": 39,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "The molecules of a given mass of a gas have r.m.s. 42. 'ffil:f 27°C 1.ox105 Nm-2 1R fe:Q: velocity of 200 ms-1 at 27°C and 1.0x105 Nm - 2 pressure. When the temperature and pressure of cITT %an cnr wt m (r.m.s.) wi the gas are respectively, 127 °C and 0.05 200 ms-1 t I% 'ffil:J : 127°C x105 Nm-2, the r.m.s. velocity of its molecules 0.05 X 105 Nm - 2 l 'ffi ms-1 if -fyf!% a:flljari in ms-1 is: cnf Wl lTTlFf Wit: 100.J2 100.J2 (1) (1) 3 3 100 100 (2) (2) 3 3",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "100.J2 400 400",
-          "4": "J3 ./3"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q36",
-        "sourceYear": 2017,
-        "sourceNumber": 33,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "Two blocks A and B of masses 3m and m perpendicular to each other. Unpolarised light I0 is respectively are connected by a massless and incident on P1. A third polaroid P3 is kept in between inextensible string. The whole system is suspended P1 and P2 such that its axis makes an angle 45º by a massless spring as shown in figure. The with that of P1. The intensity of transmitted light magnitudes of acceleration of A and B immediately through P2 is after the string is cut, are respectively I0",
-        "options": {
-          "1": "2 I0",
-          "2": "4 3m I0 A",
-          "3": "8 B m I0",
-          "4": "g g 16 (1) g, (2) ,g 3 3"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2017-A-Q36.svg",
-        "figureKind": "missing-placeholder",
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q4",
@@ -3515,7 +2785,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q142",
@@ -3539,7 +2810,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q23",
@@ -3563,7 +2835,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q26",
@@ -3587,7 +2860,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q27",
@@ -3611,31 +2885,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2021-M1-Q44",
-        "sourceYear": 2021,
-        "sourceNumber": 36,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "A uniform rod of length 200 cm and mass 500 g is balanced on a wedge placed at 40 cm mark. A mass of 2 kg is suspended from the rod at 20 cm and another unknown mass ‘m’ is suspended from the rod at 160 cm mark as shown in the figure. Find the value of ‘m’ such that the rod is in equilibrium. (g=10 m/s2) 1",
-        "options": {
-          "1": "kg 3 1",
-          "2": "kg 6 1",
-          "3": "kg 12 1",
-          "4": "kg 2"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2021-M1-Q44.svg",
-        "figureKind": "missing-placeholder",
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q45",
@@ -3659,7 +2910,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q47",
@@ -3683,31 +2935,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2021-M1-Q48",
-        "sourceYear": 2021,
-        "sourceNumber": 40,
-        "subject": "Physics",
-        "topic": "Physics General",
-        "difficulty": "Hard",
-        "stem": "A uniform rod of length 200 cm and mass 500 g is balanced on a wedge placed at 40 cm mark. A mass of 2 kg is suspended from the rod at 20 cm and another unknown mass ‘m’ is suspended from the rod at 160 cm mark as shown in the figure. Find the value of ‘m’ such that the rod is in equilibrium. (g=10 m/s2) 1",
-        "options": {
-          "1": "kg 2 1",
-          "2": "kg 3 1",
-          "3": "kg 6 1",
-          "4": "kg 12 Hindi+English 6"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2021-M1-Q48.svg",
-        "figureKind": "missing-placeholder",
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q49",
@@ -3731,7 +2960,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q50",
@@ -3755,7 +2985,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q92",
@@ -3779,7 +3010,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q124",
@@ -3803,7 +3035,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q128",
@@ -3827,7 +3060,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q135",
@@ -3851,7 +3085,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q152",
@@ -3875,7 +3110,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q181",
@@ -3899,7 +3135,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q182",
@@ -3923,7 +3160,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q184",
@@ -3947,7 +3185,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q185",
@@ -3971,7 +3210,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q191",
@@ -3995,7 +3235,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q194",
@@ -4019,7 +3260,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q195",
@@ -4043,7 +3285,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q198",
@@ -4067,7 +3310,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q200",
@@ -4091,7 +3335,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q36",
@@ -4115,7 +3360,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q37",
@@ -4139,7 +3385,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q40",
@@ -4163,7 +3410,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q46",
@@ -4187,7 +3435,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q47",
@@ -4211,7 +3460,8 @@
         "figureSrc": "/figures/2023-F1-Q47.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q147",
@@ -4235,7 +3485,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q19",
@@ -4260,7 +3511,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q47",
@@ -4284,7 +3536,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q70",
@@ -4308,7 +3561,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q19",
@@ -4333,7 +3587,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q47",
@@ -4357,7 +3612,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q70",
@@ -4381,11 +3637,10 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       }
     ]
   },
-  "gaps": [
-    "Hard: have 44, need 50 (sourcing more from reputable NEET banks)"
-  ]
+  "gaps": []
 }

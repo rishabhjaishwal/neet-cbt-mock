@@ -1,5 +1,6 @@
 import { readFile, readdir } from "node:fs/promises";
 import path from "node:path";
+import { filterStudentQuestions } from "./content-quality";
 
 export type TopicDifficulty = "Easy" | "Medium" | "Hard";
 
@@ -41,16 +42,58 @@ type TopicBankFile = {
 
 const ROOT = path.join(process.cwd(), "data", "topic-series");
 
+function curateBank(bank: TopicBankFile): TopicBankFile {
+  const questions = {
+    Easy: filterStudentQuestions(bank.questions?.Easy || []),
+    Medium: filterStudentQuestions(bank.questions?.Medium || []),
+    Hard: filterStudentQuestions(bank.questions?.Hard || []),
+  } as Record<TopicDifficulty, TopicBankQuestion[]>;
+  const counts = {
+    Easy: questions.Easy.length,
+    Medium: questions.Medium.length,
+    Hard: questions.Hard.length,
+  };
+  const gaps = [...(bank.gaps || [])];
+  for (const d of ["Easy", "Medium", "Hard"] as const) {
+    if (counts[d] < 10) {
+      gaps.push(`${d}: have ${counts[d]} clean items (need 10+ to start)`);
+    }
+  }
+  return {
+    ...bank,
+    questions,
+    counts,
+    gaps: [...new Set(gaps)],
+  };
+}
+
 export async function listTopicCatalog(): Promise<TopicCatalogEntry[]> {
   const raw = await readFile(path.join(ROOT, "catalog.json"), "utf8");
   const data = JSON.parse(raw) as { topics: TopicCatalogEntry[] };
-  return data.topics || [];
+  // Recompute counts from curated banks so UI never advertises garbage pools.
+  const topics: TopicCatalogEntry[] = [];
+  for (const t of data.topics || []) {
+    const bank = await loadTopicBank(t.id);
+    if (!bank) {
+      topics.push({ ...t, ready: false });
+      continue;
+    }
+    topics.push({
+      id: bank.id,
+      subject: bank.subject,
+      topic: bank.topic,
+      counts: bank.counts,
+      gaps: bank.gaps,
+      ready: bank.counts.Easy + bank.counts.Medium + bank.counts.Hard >= 10,
+    });
+  }
+  return topics;
 }
 
 export async function loadTopicBank(topicId: string): Promise<TopicBankFile | null> {
   try {
     const raw = await readFile(path.join(ROOT, "banks", `${topicId}.json`), "utf8");
-    return JSON.parse(raw) as TopicBankFile;
+    return curateBank(JSON.parse(raw) as TopicBankFile);
   } catch {
     return null;
   }

@@ -3,6 +3,10 @@ import { readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 import { Types } from "mongoose";
 import { CONTENT_VERSION } from "./content-version";
+import {
+  MIN_STUDENT_PAPER_QUESTIONS,
+  filterStudentQuestions,
+} from "./content-quality";
 import { normalizeScientificText } from "./symbol-normalize";
 
 export type MdPaperMeta = {
@@ -16,6 +20,8 @@ export type MdPaperMeta = {
   structure: string;
   source: string;
   gaps: string[];
+  /** False when curated clean English set is below MIN_STUDENT_PAPER_QUESTIONS. */
+  studentReady: boolean;
 };
 
 export type MdQuestion = {
@@ -137,7 +143,7 @@ async function loadYear(year: number, withKeys: boolean): Promise<CachedPaper | 
       ? await readKeyMap(year).catch(() => emptyKeys)
       : emptyKeys;
 
-  const questions = (parsed.questions || []).map((q) => {
+  const normalized = (parsed.questions || []).map((q) => {
     const k = keys[q.id] || {};
     return {
       ...q,
@@ -157,21 +163,45 @@ async function loadYear(year: number, withKeys: boolean): Promise<CachedPaper | 
     };
   });
 
+  // Never serve placeholders / OCR garbage / incomplete options to students.
+  const questions = filterStudentQuestions(normalized);
+  const fmReady =
+    fm.studentReady === true ||
+    fm.studentReady === "true" ||
+    fm.studentReady === undefined;
+  const studentReady =
+    questions.length >= MIN_STUDENT_PAPER_QUESTIONS && fmReady !== false;
+  const gaps = Array.isArray(fm.gaps) ? [...(fm.gaps as string[])] : [];
+  if (!studentReady) {
+    gaps.push(
+      `Only ${questions.length} clean English questions (need ${MIN_STUDENT_PAPER_QUESTIONS}).`,
+    );
+  }
+
+  const rawTotal = Number(fm.totalQuestions ?? normalized.length);
+  const rawLimit = Number(fm.attemptLimit ?? rawTotal);
+  const rawDuration = Number(fm.durationMinutes ?? 180);
+  const durationMinutes = Math.max(
+    60,
+    Math.round(rawDuration * (questions.length / Math.max(rawTotal, 1))),
+  );
+
   const meta: MdPaperMeta = {
     year: Number(fm.year ?? year),
     code: String(fm.code ?? ""),
     title: String(fm.title ?? `NEET ${year}`),
     candidateCount: Number(fm.candidateCount ?? 2_000_000),
-    durationMinutes: Number(fm.durationMinutes ?? 180),
-    totalQuestions: Number(fm.totalQuestions ?? questions.length),
-    attemptLimit: Number(fm.attemptLimit ?? questions.length),
+    durationMinutes,
+    totalQuestions: questions.length,
+    attemptLimit: Math.min(rawLimit, questions.length),
     structure: String(fm.structure ?? ""),
     source: String(fm.source ?? ""),
-    gaps: Array.isArray(fm.gaps) ? (fm.gaps as string[]) : [],
+    gaps,
+    studentReady,
   };
 
   const etag = `"cv${CONTENT_VERSION}-y${year}-n${questions.length}-${createHash("sha1")
-    .update(json.slice(0, 2000))
+    .update(json.slice(0, 2000) + String(questions.length))
     .digest("hex")
     .slice(0, 12)}"`;
 

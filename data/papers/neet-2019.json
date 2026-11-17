@@ -86,12 +86,12 @@
       "subject": "Physics",
       "section": "A",
       "topic": "Thermodynamics",
-      "stem": "Reversible expansion of an ideal gas under isothermal and adiabatic conditions are as shown in the figure : A (PA, VA, TA) B (PB, VB, TB) P C (PC, VC, TC) V AB ⎯⎯→ Isothermal expansion AC ⎯⎯→ Adiabatic expansion Which of the following options is not correct?",
+      "stem": "Reversible expansion of an ideal gas under isothermal and adiabatic conditions are as shown in the figure. AB → Isothermal expansion. AC → Adiabatic expansion. Which of the following options is not correct?",
       "options": {
-        "1": "ΔSisothermal > ΔSadiabatic",
-        "2": "TA = TB",
-        "3": "W isothermal > W adiabatic",
-        "4": "TC > TA"
+        "1": "ΔS_isothermal > ΔS_adiabatic",
+        "2": "T_A = T_B",
+        "3": "W_isothermal > W_adiabatic",
+        "4": "T_C > T_A"
       },
       "correctOption": "4",
       "placeholder": false,
@@ -101,7 +101,7 @@
       ],
       "multiCorrect": false,
       "figureSrc": "/figures/2019-G1-Q135.svg",
-      "figureKind": "missing-placeholder"
+      "figureKind": "diagram"
     },
     {
       "id": "2019-G1-Q137",
@@ -291,8 +291,8 @@
         "2"
       ],
       "multiCorrect": false,
-      "figureSrc": "/figures/2019-G1-Q146.png",
-      "figureKind": "pdf-crop"
+      "figureSrc": "/figures/2019-G1-Q146.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2019-G1-Q147",
@@ -356,8 +356,8 @@
         "1"
       ],
       "multiCorrect": false,
-      "figureSrc": "/figures/2019-G1-Q149.png",
-      "figureKind": "pdf-crop"
+      "figureSrc": "/figures/2019-G1-Q149.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2019-G1-Q150",
@@ -610,8 +610,8 @@
         "1"
       ],
       "multiCorrect": false,
-      "figureSrc": "/figures/2019-G1-Q161.png",
-      "figureKind": "pdf-crop"
+      "figureSrc": "/figures/2019-G1-Q161.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2019-G1-Q162",
@@ -633,8 +633,8 @@
         "2"
       ],
       "multiCorrect": false,
-      "figureSrc": "/figures/2019-G1-Q162.png",
-      "figureKind": "pdf-crop"
+      "figureSrc": "/figures/2019-G1-Q162.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2019-G1-Q163",
@@ -677,8 +677,8 @@
         "4"
       ],
       "multiCorrect": false,
-      "figureSrc": "/figures/2019-G1-Q164.png",
-      "figureKind": "pdf-crop"
+      "figureSrc": "/figures/2019-G1-Q164.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2019-G1-Q165",
@@ -868,8 +868,8 @@
         "3"
       ],
       "multiCorrect": false,
-      "figureSrc": "/figures/2019-G1-Q173.png",
-      "figureKind": "pdf-crop"
+      "figureSrc": "/figures/2019-G1-Q173.svg",
+      "figureKind": "missing-placeholder"
     },
     {
       "id": "2019-G1-Q174",

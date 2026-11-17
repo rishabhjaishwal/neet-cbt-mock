@@ -1,5 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 200" role="img">
-  <rect width="480" height="200" fill="#fff8e6" stroke="#d97706" stroke-dasharray="6 4"/>
-  <text x="240" y="88" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#92400e">Figure not matched to a cropped diagram</text>
-  <text x="240" y="118" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#a16207">2022 Q145</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320" role="img" aria-label="P-V diagram: isothermal AB and adiabatic AC">
+  <rect width="520" height="320" fill="#ffffff"/>
+  <line x1="70" y1="260" x2="470" y2="260" stroke="#0f172a" stroke-width="2"/>
+  <line x1="70" y1="260" x2="70" y2="40" stroke="#0f172a" stroke-width="2"/>
+  <polygon points="470,260 458,254 458,266" fill="#0f172a"/>
+  <polygon points="70,40 64,52 76,52" fill="#0f172a"/>
+  <text x="482" y="266" font-family="Georgia, serif" font-size="18" fill="#0f172a">V</text>
+  <text x="58" y="34" font-family="Georgia, serif" font-size="18" fill="#0f172a">P</text>
+  <path d="M 110 90 C 180 95, 280 130, 390 175" fill="none" stroke="#0f172a" stroke-width="2.5"/>
+  <path d="M 110 90 C 160 110, 240 175, 330 230" fill="none" stroke="#0f172a" stroke-width="2.5"/>
+  <circle cx="110" cy="90" r="4.5" fill="#0f172a"/>
+  <circle cx="390" cy="175" r="4.5" fill="#0f172a"/>
+  <circle cx="330" cy="230" r="4.5" fill="#0f172a"/>
+  <text x="118" y="78" font-family="Georgia, serif" font-size="15" fill="#0f172a">A (P_A, V_A, T_A)</text>
+  <text x="398" y="172" font-family="Georgia, serif" font-size="15" fill="#0f172a">B (P_B, V_B, T_B)</text>
+  <text x="338" y="248" font-family="Georgia, serif" font-size="15" fill="#0f172a">C (P_C, V_C, T_C)</text>
+  <text x="70" y="292" font-family="Georgia, serif" font-size="14" fill="#334155">AB → Isothermal expansion</text>
+  <text x="70" y="312" font-family="Georgia, serif" font-size="14" fill="#334155">AC → Adiabatic expansion</text>
 </svg>

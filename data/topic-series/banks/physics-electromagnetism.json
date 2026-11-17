@@ -3,36 +3,12 @@
   "subject": "Physics",
   "topic": "Electromagnetism",
   "counts": {
-    "Easy": 17,
-    "Medium": 66,
-    "Hard": 47
+    "Easy": 14,
+    "Medium": 60,
+    "Hard": 36
   },
   "questions": {
     "Easy": [
-      {
-        "id": "2016-Phase1-Q34",
-        "sourceYear": 2016,
-        "sourceNumber": 31,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Easy",
-        "stem": "(1) ferromagnetic material only (1) -\"3f4c:til4 \"tfGJ?.T (2) paramagnetic and ferromagnetic materials",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "3ij\"5klc:fil4 am:-\"5klc:filll qey$!TT",
-          "3": "diamagnetic material only • ( 3) WI Slfocfillj ",
-          "4": "j\"5kli:fill!W"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
       {
         "id": "2017-A-Q31",
         "sourceYear": 2017,
@@ -55,7 +31,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q36",
@@ -79,7 +56,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q121",
@@ -103,31 +81,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2019-G1-Q166",
-        "sourceYear": 2019,
-        "sourceNumber": 31,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Easy",
-        "stem": "The relations amongst the three elements of earth's magnetic field, namely horizontal component H, vertical component V and dip δ are, (BE = total magnetic field)",
-        "options": {
-          "1": "V = BE tan δ, H = BE",
-          "2": "V = BE sin δ, H = BE cosδ",
-          "3": "V = BE cos δ, H = BE sinδ",
-          "4": "V = BE, H = BE tan δ"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q169",
@@ -151,7 +106,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q139",
@@ -175,7 +131,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q172",
@@ -199,7 +156,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q176",
@@ -223,31 +181,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2022-RECON-Q176",
-        "sourceYear": 2022,
-        "sourceNumber": 31,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Easy",
-        "stem": "The relations amongst the three elements of earth's magnetic field, namely horizontal component H, vertical component V and dip δ are, (BE = total magnetic field)",
-        "options": {
-          "1": "V = BE tan δ, H = BE",
-          "2": "V = BE sin δ, H = BE cosδ",
-          "3": "V = BE cos δ, H = BE sinδ",
-          "4": "V = BE, H = BE tan δ"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q179",
@@ -271,7 +206,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q5",
@@ -295,7 +231,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q11",
@@ -319,7 +256,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q24",
@@ -343,7 +281,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q30",
@@ -367,7 +306,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q31",
@@ -391,7 +331,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q31",
@@ -415,154 +356,11 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       }
     ],
     "Medium": [
-      {
-        "id": "2016-Phase1-Q3",
-        "sourceYear": 2016,
-        "sourceNumber": 2,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "An inductor 20 mH, a capacitor 50 μ,F and a resistor 3. Wd emf, V = l0 sin 340 tt\", 40 .0, are connected in series across a source of emf 20mH cfilffi, 50 μ,Fcfil 400cfil V = 10 sin 340 t. The power loss in AC. circuit is : t tj4lf,sfd I !,l('llfqffl lffl:tl'2I R t: (1) 0.76W (1) 0.76W (2) 0.89W (2) 0.89W",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "0.51W",
-          "4": "0.67W"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q25",
-        "sourceYear": 2016,
-        "sourceNumber": 22,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "25. A capacitor of 2 μF is charged as shown in the if 2 μF mfurr fc6m \"fimfu{ ctiT diagram. When the switchSis turned to position 2, 311fflfcw:TTTFTTtl SWmf2\"1R the percentage of its stored energy dil!i;ipated is (1) 75% ':5f@T t. m qiT \"SITTTffif 8_iq m {1) 75% (2) 80% (2) 80%",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "0%",
-          "4": "20%"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q31",
-        "sourceYear": 2016,
-        "sourceNumber": 28,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "Consider the junction diode as ideal. The value of \"IRf.i: current flowing through ABis 1 kfi A B A • 1 kfi B C>-1 -./VVV\\/V • C>I ./VVV\\/V--• +:v -6V +4V -6V (1) 10^{-1}$ A (1) 10^{-1}$ A (2) 30^{-3}$ A (2) 30^{-3}$ A",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "0A",
-          "4": "20^{-2}$ A"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q33",
-        "sourceYear": 2016,
-        "sourceNumber": 30,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "A small signal voltage V(t)_=V0 sin wt is applied 33. fur.@ V(t)=V0 sinwt fcnm across an ideal capacitor C \"tj C fuu jSl1,ckl cil1 'FU i : (1) Currentl(t) is in phase with voltage V(t). (1) mu I(t), V(t) ctr ifi I (2) Current I(t) leads voltage V(t) by 180°. (2) mu I(t), V(t) ti 180° w.-T I t",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "mu I(t), V(t) 90° i I",
-          "4": "l;cfi\"1rl'qsfi\"if\"tj'ITifurcmcr consume any energy from the voltage source. otf'ljcRl .:rITT I The magnetic susceptibility is negative for -,'ci'lcfilll flWtt?tll :4i0ll'lcfi m\"fft i :"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q75",
-        "sourceYear": 2016,
-        "sourceNumber": 44,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "Which of the following is required as inducer(s) for \"Efi\" if cnFf ffl \"Efi\" l•Hllc:fi mrTI? the expression of Lac operon ? (1) (1) lactose (2) aitt Z'lcR.1'11 (2) lactose and galactose",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "glucose",
-          "4": "galactose 76. 1.1121cfi'fflll am #11-0l(,IFR. ( Qfo'k'li:l<h) ; (a) al am I"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q1",
-        "sourceYear": 2017,
-        "sourceNumber": 1,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Medium",
-        "stem": "A potentiometer is an accurate and versatile device 1 to make electrical measurements of E.M.F, because = e −7 λt e the method involves : –1 = –7λt (1) Cells 1 (2) Potential gradients t= 7λ (3) A condition of no current flow through the",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "[Option 3 incomplete in source PDF]",
-          "4": "[Option 4 incomplete in source PDF]"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
       {
         "id": "2017-A-Q21",
         "sourceYear": 2017,
@@ -585,7 +383,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q6",
@@ -609,7 +408,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q18",
@@ -633,7 +433,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q27",
@@ -657,7 +458,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q37",
@@ -681,7 +483,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q92",
@@ -705,7 +508,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q122",
@@ -729,7 +533,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q123",
@@ -753,7 +558,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q157",
@@ -777,7 +583,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q149",
@@ -801,7 +608,8 @@
         "figureSrc": "/figures/2019-G1-Q149.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q160",
@@ -825,7 +633,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q161",
@@ -849,7 +658,8 @@
         "figureSrc": "/figures/2019-G1-Q161.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q162",
@@ -873,7 +683,8 @@
         "figureSrc": "/figures/2019-G1-Q162.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q164",
@@ -897,7 +708,8 @@
         "figureSrc": "/figures/2019-G1-Q164.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q170",
@@ -921,7 +733,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2019-G1-Q173",
@@ -945,7 +758,8 @@
         "figureSrc": "/figures/2019-G1-Q173.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q22",
@@ -969,7 +783,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q92",
@@ -993,7 +808,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q96",
@@ -1017,7 +833,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q141",
@@ -1041,7 +858,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q163",
@@ -1065,7 +883,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q166",
@@ -1089,7 +908,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2020-E1-Q169",
@@ -1113,7 +933,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q1",
@@ -1137,7 +958,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q3",
@@ -1161,7 +983,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q13",
@@ -1185,7 +1008,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q16",
@@ -1209,7 +1033,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q21",
@@ -1233,7 +1058,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q29",
@@ -1257,7 +1083,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q30",
@@ -1281,7 +1108,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q32",
@@ -1305,7 +1133,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q37",
@@ -1329,7 +1158,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q46",
@@ -1353,7 +1183,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q48",
@@ -1377,7 +1208,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q99",
@@ -1401,7 +1233,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q159",
@@ -1425,7 +1258,8 @@
         "figureSrc": "/figures/2022-RECON-Q159.png",
         "figureKind": "pdf-crop+from-2019-stem-match",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q170",
@@ -1449,7 +1283,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q171",
@@ -1473,7 +1308,8 @@
         "figureSrc": "/figures/2022-RECON-Q171.png",
         "figureKind": "pdf-crop+from-2019-stem-match",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q172",
@@ -1497,7 +1333,8 @@
         "figureSrc": "/figures/2022-RECON-Q172.png",
         "figureKind": "pdf-crop+from-2019-stem-match",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q174",
@@ -1521,7 +1358,8 @@
         "figureSrc": "/figures/2022-RECON-Q174.png",
         "figureKind": "pdf-crop+from-2019-stem-match",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q180",
@@ -1545,7 +1383,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q2",
@@ -1569,7 +1408,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q6",
@@ -1593,7 +1433,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q10",
@@ -1617,7 +1458,8 @@
         "figureSrc": "/figures/2023-F1-Q10.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q14",
@@ -1641,7 +1483,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q19",
@@ -1665,7 +1508,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q21",
@@ -1689,7 +1533,8 @@
         "figureSrc": "/figures/2023-F1-Q21.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q25",
@@ -1713,7 +1558,8 @@
         "figureSrc": "/figures/2023-F1-Q25.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q4",
@@ -1737,7 +1583,8 @@
         "figureSrc": "/figures/2024-R1-Q4.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q10",
@@ -1761,7 +1608,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q14",
@@ -1785,7 +1633,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q21",
@@ -1809,7 +1658,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q25",
@@ -1833,7 +1683,8 @@
         "figureSrc": "/figures/2024-R1-Q25.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q30",
@@ -1857,7 +1708,8 @@
         "figureSrc": "/figures/2024-R1-Q30.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q4",
@@ -1881,7 +1733,8 @@
         "figureSrc": "/figures/2025-INTERIM-Q4.png",
         "figureKind": "pdf-crop+from-2024-stem-match",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q10",
@@ -1905,7 +1758,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q14",
@@ -1929,7 +1783,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q21",
@@ -1953,7 +1808,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q25",
@@ -1977,7 +1833,8 @@
         "figureSrc": "/figures/2025-INTERIM-Q25.png",
         "figureKind": "pdf-crop+from-2024-stem-match",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q30",
@@ -2001,178 +1858,11 @@
         "figureSrc": "/figures/2025-INTERIM-Q30.png",
         "figureKind": "pdf-crop+from-2024-stem-match",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       }
     ],
     "Hard": [
-      {
-        "id": "2016-Phase1-Q9",
-        "sourceYear": 2016,
-        "sourceNumber": 6,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "A potentiometer wire is 100cm long and a constant 9. fcfimfcrt\"cm:clil l0O.lTT. t\"(l\" potential difference is maintained across it. Two ftm t\" . RlRf fcl' lFIT t\" I \"ey cells are connected in series first to support one another and then in opposite direction. The balance cp) if clil points are obtained at 50 cm and 10 cm from the positive end of the wire in the two cases . The ratio m - clil tcrRrn an if fi41f\\lja fcn<:rr 1T<TT t\" I \"5lcfi\"{UTI if -fcl' Wtfu cm: of emf's is: M 50.lfi. 10.lfi. mm (1) 3:4 t\"1 clilemfcfiT3WRft\": (2) 3: 2 (1 ) 3: 4 (3) 5:1",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "3:2",
-          "3": "5:1",
-          "4": "5:4"
-        },
-        "correctOption": "1",
-        "correctOptions": [
-          "1"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q12",
-        "sourceYear": 2016,
-        "sourceNumber": 9,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "To get output 1for the following circuit , the correct choice for the input is 12. -qftq if, FfJlcl· 1 fflt- %: A B C B C (1 ) A=l,B=l,C=0 (1) A=l,B=l,C=0 (2) A=l,B=0,C=l (2) A=l,B=0,C=l (3) A=0,B=l,C=0 A=0,B=l,C=0 (3) (4) A=l,B=0,C=0 (4) A=l,B=0,C=0 ' ng sl:t+HindiI U z 13 ... A gas is compressed isothermally to half its initial 13. fcnm ih:J (44dl91ll aw:RR ocfi volume. The same gas is compressed separately '3fRfrtl ih:J\"9: through an adiabatic process until its volume is again reduced to half. Then : &JUa:rTa:rr«<R(fcfii, : (1 ) Compressing the gas isothermally or adiabatically will require the same amount (1 ) ih:t (44dl9lll >ITTfi7.TT 31>ffifi7.TTGFIT of work. ff m \"f!1=IR m <ti\" lcll.lcfidl m'lt I (2) Which of the case (whether compression (2) (44dl9ill &RHf 31 through isothermal or through adiabatic process) requires more work will depend &JU ,ffm upon the atomicity of the gas. cfif4cfl8'ctt -:Hlcll!cfidl WTT, Tfficfif 9(41'!.lcfidl",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "Option 3",
-          "4": "ih:t$sq &JUff ffl cfi1 -:Hlcll<l!cfidl m'TT I"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2016-Phase1-Q12.svg",
-        "figureKind": "missing-placeholder",
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q19",
-        "sourceYear": 2016,
-        "sourceNumber": 16,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "A npn transistor is connected in common emitter 19. fctrm \"-lcn -q npn ?if'lltc.< configuration in a given amplifier. A load resistance t dffisifcfi -q ell1f'lla I 800 !1 cfiT of 800 !1 is connected in the collector circuit and the voltage drop across it is 0.8 V. If the current am m \"5ITTRT'tf -qftq?.J -q e4'lf-:i!a i amplification factoris 0.96 and the input resistance .0.8V.t°I \"ffil-0.961 of the circuit is 192 !1, the voltage gain and the power gain of the amplifier will respectively be: -qftq?.J cfiT 192 n t m (f?.11 sfilffl: mlft : (1) 4, 4 (1) 4, 4 (2) 4, 3.69 (2) 4, 3.69 (3) 4, 3.84 (3) 4, 3.84 (4) 3.69, 3.84 (4) 3.69, 3.84 :·;;:;;i : {English+Hindi I z ·' ·20. Two non-mixing liquids of densities p and 20. if M-srn 1' q@ Gl . np (n> 1) are put in a container. The height of each ptf np(n> 1) t', °Fcfim\"t!'f51\"if fl qft liquid is h. A solid cylinder of length L and density dis put in this container. The cylinder floats h t I L am: d M ffi cfiT with its axis vertical and length pL (p < 1) in the \"t!'f51\"ifi1 \"t!'f51\"if\"51chRmrrl fcn\" denser liquid. The density d is equal to: 3lWoTttfpL(p<1) (1) (2) {2+(n-l)p}p {1+(n-l)p}p t if mcft I d cfil ll\"R t: (1) {2+(n-l)p}p (3) {1 +(n+l)p}p",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "{1+(n -1)p}p",
-          "3": "{1 +(n+1)p}p",
-          "4": "{2+(n+1)p}p"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q24",
-        "sourceYear": 2016,
-        "sourceNumber": 21,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "A long straight wire of radius a carries a steady (4) 1: 2-J'i. current I. The current is uniformly distributed over 24. a fcfim m cfR \"B mu I its cross - section. The ratio of the magnetic fields a m @ t I cfR cfil qiR; \"Qt mu 13 and B', at radial distances and 2a respectively, 2 t Q.cfi4l1 \"B fcla\"ful\" I cfR 3l \"B from the axis of the wire is - - --- -,------- - - 2am::'¥iii:filAa)-;i'fBatkB•aeymri: t1) 1 (1) 1 (2) 4 (2) 4 1 1",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "4 4 1",
-          "4": "1 2 z I English+Hindil"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q35",
-        "sourceYear": 2016,
-        "sourceNumber": 32,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "A square loop ABCD carrying a current i, is placed 35. cflTTcfiR -qm () ABCD 'l:lRT i \"ITT near and coplanar with a long straight conductor t, fcfim 't, mit \"q@\"cfi\" XY I XY carrying a current I, the net force on the loop will be: m i Ff1:fic 1;cfi\" m if WI i 1 -rm \"q\"{ WR :1 GJ qfffim: X ILA D l+-----+1+----- L/2 L 2μ,0IiL (1) 2μ0 IiL 3'!T (1) 1-LoliL 3'!T (2 ) μ0 IiL 2'1T (2) 2'1T 2μ0Ii 2μ0Ii",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "[Option 2 incomplete in source PDF]",
-          "3": "3'!T 3'!T I-Loli μoli",
-          "4": "2'1T"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2016-Phase1-Q40",
-        "sourceYear": 2016,
-        "sourceNumber": 37,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "(4) 13 MR2/32 A long solenoid has 1000 turns. When a current of 4A flows through it, the magnetic flux linked with 40. fcnm 4RY1rf(1cfil q-qm cfi1' 1000 I W t° each turn of the solenoid is 4 x 30^{-3}$ Wb. The self-inductance of the solenoid is qn:1,rchl 4A 'tTIU mm t, w 'ijG{ 4R1lf<-1cfi1 ijklcf>lll 4X10-3Wbffl (1) 2H (2) 1H t1 lfl qfl11fc:fil cf;T - t: (1) 2H (3) 4H",
-        "options": {
-          "1": "[Option 1 incomplete in source PDF]",
-          "2": "1H",
-          "3": "4H",
-          "4": "3H"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2017-A-Q38",
-        "sourceYear": 2017,
-        "sourceNumber": 35,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "A long solenoid of diameter 0.1 m has 2 × 104 turns per meter. At the centre of the solenoid, a coil of 100 1 turns and radius 0.01 m is placed with its axis = I (ω1 − ω 2 )2 4 coinciding with the solenoid axis. The current in the solenoid reduces at a constant rate to 0 A from 4 A 40. Preeti reached the metro station and found that the in 0.05 s. If the resistance of the coil is 10π2 Ω, the escalator was not working. She walked up the total charge flowing through the coil during this time stationary escalator in time t1. On other days, if she is remains stationary on the moving escalator, then the",
-        "options": {
-          "1": "32πμC",
-          "2": "16 μC escalator takes her up in time t2. The time taken by her to walk up on the moving escalator will be",
-          "3": "32 μC",
-          "4": "16πμC"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": null,
-        "figureKind": null,
-        "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
       {
         "id": "2018-AA-Q26",
         "sourceYear": 2018,
@@ -2195,7 +1885,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q35",
@@ -2219,7 +1910,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2018-AA-Q120",
@@ -2243,7 +1935,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q2",
@@ -2267,7 +1960,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q4",
@@ -2291,31 +1985,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2021-M1-Q7",
-        "sourceYear": 2021,
-        "sourceNumber": 7,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "An inductor of inductance L, a capacitor of capacitance C and a resistor of resistance ‘R’ are connected in series to an ac source of potential difference ‘V’ volts as shown in figure. Potential difference across L, C and R is 40 V, 10 V and 40 V, respectively. The amplitude of current flowing through LCR series circuit is 10 2 A. The impedance of the circuit is :",
-        "options": {
-          "1": "5 2 Ω",
-          "2": "4Ω",
-          "3": "5Ω",
-          "4": "4 2 Ω Hindi+English 4"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2021-M1-Q7.svg",
-        "figureKind": "missing-placeholder",
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q12",
@@ -2339,7 +2010,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q18",
@@ -2363,79 +2035,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2021-M1-Q24",
-        "sourceYear": 2021,
-        "sourceNumber": 23,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "An inductor of inductance L, a capacitor of capacitance C and a resistor of resistance ‘R’ are connected in series to an ac source of potential difference ‘V’ volts as shown in figure. Potential difference across L, C and R is 40 V, 10 V and 40 V, respectively. The amplitude of current flowing through LCR series circuit is 10 2 A. The impedance of the circuit is :",
-        "options": {
-          "1": "5Ω",
-          "2": "4 2 Ω",
-          "3": "5 2 Ω",
-          "4": "4Ω Hindi+English 8"
-        },
-        "correctOption": "4",
-        "correctOptions": [
-          "4"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2021-M1-Q24.svg",
-        "figureKind": "missing-placeholder",
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2021-M1-Q31",
-        "sourceYear": 2021,
-        "sourceNumber": 28,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "An inductor of inductance L, a capacitor of capacitance C and a resistor of resistance ‘R’ are connected in series to an ac source of potential difference ‘V’ volts as shown in figure. Potential difference across L, C and R is 40 V, 10 V and 40 V, respectively. The amplitude of current flowing through LCR series circuit is 10 2 A. The impedance of the circuit is :",
-        "options": {
-          "1": "4 2 Ω",
-          "2": "5 2 Ω",
-          "3": "4Ω",
-          "4": "5Ω Hindi+English 0"
-        },
-        "correctOption": "3",
-        "correctOptions": [
-          "3"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2021-M1-Q31.svg",
-        "figureKind": "missing-placeholder",
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
-      },
-      {
-        "id": "2021-M1-Q34",
-        "sourceYear": 2021,
-        "sourceNumber": 30,
-        "subject": "Physics",
-        "topic": "Electromagnetism",
-        "difficulty": "Hard",
-        "stem": "An inductor of inductance L, a capacitor of capacitance C and a resistor of resistance ‘R’ are connected in series to an ac source of potential difference ‘V’ volts as shown in figure. Potential difference across L, C and R is 40 V, 10 V and 40 V, respectively. The amplitude of current flowing through LCR series circuit is 10 2 A. The impedance of the circuit is :",
-        "options": {
-          "1": "4Ω",
-          "2": "5Ω",
-          "3": "4 2 Ω",
-          "4": "5 2 Ω"
-        },
-        "correctOption": "2",
-        "correctOptions": [
-          "2"
-        ],
-        "multiCorrect": false,
-        "figureSrc": "/figures/2021-M1-Q34.svg",
-        "figureKind": "missing-placeholder",
-        "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q46",
@@ -2459,7 +2060,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": true,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q54",
@@ -2483,7 +2085,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q57",
@@ -2507,7 +2110,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q66",
@@ -2531,7 +2135,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2021-M1-Q71",
@@ -2555,7 +2160,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q47",
@@ -2579,7 +2185,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q49",
@@ -2603,7 +2210,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2022-RECON-Q183",
@@ -2627,7 +2235,8 @@
         "figureSrc": "/figures/2022-RECON-Q183.png",
         "figureKind": "pdf-crop+from-2019-stem-match",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q39",
@@ -2651,7 +2260,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q41",
@@ -2675,7 +2285,8 @@
         "figureSrc": "/figures/2023-F1-Q41.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q44",
@@ -2699,7 +2310,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q45",
@@ -2723,7 +2335,8 @@
         "figureSrc": "/figures/2023-F1-Q45.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2023-F1-Q49",
@@ -2747,7 +2360,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q24",
@@ -2771,7 +2385,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q41",
@@ -2795,7 +2410,8 @@
         "figureSrc": "/figures/2024-R1-Q41.png",
         "figureKind": "pdf-crop",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q43",
@@ -2819,7 +2435,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q44",
@@ -2843,7 +2460,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q45",
@@ -2867,7 +2485,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q46",
@@ -2891,7 +2510,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q48",
@@ -2915,7 +2535,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2024-R1-Q49",
@@ -2939,7 +2560,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q24",
@@ -2963,7 +2585,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q41",
@@ -2987,7 +2610,8 @@
         "figureSrc": "/figures/2025-INTERIM-Q41.png",
         "figureKind": "pdf-crop+from-2024-stem-match",
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q43",
@@ -3011,7 +2635,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q44",
@@ -3035,7 +2660,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q45",
@@ -3059,7 +2685,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q46",
@@ -3083,7 +2710,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q48",
@@ -3107,7 +2735,8 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       },
       {
         "id": "2025-INTERIM-Q49",
@@ -3131,12 +2760,10 @@
         "figureSrc": null,
         "figureKind": null,
         "answerEstimated": false,
-        "solutionSource": "pyq-reuse"
+        "solutionSource": "pyq-reuse",
+        "placeholder": false
       }
     ]
   },
-  "gaps": [
-    "Easy: have 17, need 50 (sourcing more from reputable NEET banks)",
-    "Hard: have 47, need 50 (sourcing more from reputable NEET banks)"
-  ]
+  "gaps": []
 }
