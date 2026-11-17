@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 420" role="img" aria-label="Wind-pollinated plant inflorescence with well-exposed stamens">
+  <rect width="280" height="420" fill="#ffffff"/>
+  <!-- central rachis -->
+  <line x1="140" y1="30" x2="140" y2="390" stroke="#1e293b" stroke-width="3"/>
+  <!-- compact spikelets with dangling stamens -->
+  <g stroke="#1e293b" stroke-width="1.6" fill="none">
+    <!-- upper spikelets -->
+    <path d="M140 50 c-18 6 -28 18 -30 34"/>
+    <path d="M140 50 c18 6 28 18 30 34"/>
+    <path d="M110 78 c-6 16 -4 28 2 40"/>
+    <path d="M170 78 c6 16 4 28 -2 40"/>
+    <circle cx="108" cy="122" r="4.5" fill="#1e293b"/>
+    <circle cx="172" cy="122" r="4.5" fill="#1e293b"/>
+    <circle cx="100" cy="138" r="4" fill="#1e293b"/>
+    <circle cx="180" cy="138" r="4" fill="#1e293b"/>
+
+    <path d="M140 95 c-22 8 -34 22 -36 42"/>
+    <path d="M140 95 c22 8 34 22 36 42"/>
+    <path d="M104 132 c-8 18 -6 34 0 48"/>
+    <path d="M176 132 c8 18 6 34 0 48"/>
+    <circle cx="100" cy="184" r="5" fill="#1e293b"/>
+    <circle cx="180" cy="184" r="5" fill="#1e293b"/>
+    <circle cx="90" cy="200" r="4.5" fill="#1e293b"/>
+    <circle cx="190" cy="200" r="4.5" fill="#1e293b"/>
+
+    <path d="M140 150 c-26 10 -40 26 -42 50"/>
+    <path d="M140 150 c26 10 40 26 42 50"/>
+    <path d="M98 195 c-10 22 -8 40 -2 56"/>
+    <path d="M182 195 c10 22 8 40 2 56"/>
+    <circle cx="92" cy="255" r="5.5" fill="#1e293b"/>
+    <circle cx="188" cy="255" r="5.5" fill="#1e293b"/>
+    <circle cx="82" cy="274" r="4.5" fill="#1e293b"/>
+    <circle cx="198" cy="274" r="4.5" fill="#1e293b"/>
+
+    <path d="M140 210 c-28 12 -44 30 -46 56"/>
+    <path d="M140 210 c28 12 44 30 46 56"/>
+    <path d="M94 260 c-12 24 -10 44 -2 62"/>
+    <path d="M186 260 c12 24 10 44 2 62"/>
+    <circle cx="88" cy="326" r="5.5" fill="#1e293b"/>
+    <circle cx="192" cy="326" r="5.5" fill="#1e293b"/>
+    <circle cx="78" cy="346" r="4.5" fill="#1e293b"/>
+    <circle cx="202" cy="346" r="4.5" fill="#1e293b"/>
+
+    <!-- mid florets along rachis -->
+    <ellipse cx="140" cy="120" rx="10" ry="16" fill="#f8fafc" stroke="#1e293b"/>
+    <ellipse cx="140" cy="175" rx="11" ry="18" fill="#f8fafc" stroke="#1e293b"/>
+    <ellipse cx="140" cy="235" rx="12" ry="20" fill="#f8fafc" stroke="#1e293b"/>
+    <ellipse cx="140" cy="295" rx="11" ry="18" fill="#f8fafc" stroke="#1e293b"/>
+    <ellipse cx="140" cy="350" rx="10" ry="16" fill="#f8fafc" stroke="#1e293b"/>
+  </g>
+  <text x="140" y="408" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#475569">
+    Wind-pollinated inflorescence (exposed stamens)
+  </text>
+</svg>

@@ -31,6 +31,30 @@ const outcomeStyle: Record<Outcome, string> = {
   unattempted: "border-slate-200 bg-slate-50",
 };
 
+const linkKindLabel: Record<string, string> = {
+  youtube: "YouTube",
+  web: "Web",
+  pdf: "PDF",
+  other: "Link",
+};
+
+function renderMarkdownish(text: string) {
+  return text.split("\n\n").map((para, idx) => {
+    const parts = para.split(/(\*\*[^*]+\*\*)/g).filter(Boolean);
+    return (
+      <p key={`${idx}-${para.slice(0, 24)}`} className="text-sm leading-relaxed text-slate-700">
+        {parts.map((part, i) =>
+          part.startsWith("**") && part.endsWith("**") ? (
+            <strong key={i}>{part.slice(2, -2)}</strong>
+          ) : (
+            <span key={i}>{part}</span>
+          ),
+        )}
+      </p>
+    );
+  });
+}
+
 export function QuestionReviewList({ items }: { items: ReviewItem[] }) {
   return (
     <section className="mt-8 space-y-4">
@@ -39,7 +63,8 @@ export function QuestionReviewList({ items }: { items: ReviewItem[] }) {
           Question review
         </h2>
         <p className="text-sm text-slate-600">
-          Your choices vs correct answers, plus a short learning path to relearn each idea.
+          Your choices vs correct answers, plus an AI NEET-style solution and study links
+          (YouTube / web / PDF).
         </p>
       </div>
       {items.map((q) => (
@@ -66,7 +91,7 @@ export function QuestionReviewList({ items }: { items: ReviewItem[] }) {
                 figureSrc={q.figureSrc}
                 figureKind={q.figureKind}
                 missingLabel="Figure not available in this digital extract"
-                schematicLabel="Schematic figure (PDF crop unavailable)"
+                schematicLabel="Schematic figure (restored for clarity)"
               />
             </div>
           )}
@@ -118,27 +143,53 @@ export function QuestionReviewList({ items }: { items: ReviewItem[] }) {
                 : "border-slate-200 bg-white/80"
             }`}
           >
-            <h4 className="text-sm font-semibold text-slate-800">{q.learning.title}</h4>
-            <div className="mt-2 space-y-2 text-sm leading-relaxed text-slate-700">
-              {q.learning.solution.split("\n\n").map((para) => (
-                <p key={para.slice(0, 48)}>{para}</p>
-              ))}
+            <div className="flex flex-wrap items-center justify-between gap-2">
+              <h4 className="text-sm font-semibold text-slate-800">{q.learning.title}</h4>
+              <span className="rounded-full bg-slate-100 px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-slate-600">
+                {q.learning.concept}
+              </span>
             </div>
+
+            {q.learning.curatedSolution ? (
+              <div className="mt-3 rounded-md border border-emerald-200 bg-emerald-50/50 px-3 py-2">
+                <div className="text-[11px] font-bold uppercase tracking-wide text-emerald-800">
+                  Curated solution
+                </div>
+                <div className="mt-1 space-y-2">{renderMarkdownish(q.learning.curatedSolution)}</div>
+              </div>
+            ) : null}
+
+            <div className="mt-3 rounded-md border border-sky-200 bg-sky-50/40 px-3 py-2">
+              <div className="text-[11px] font-bold uppercase tracking-wide text-sky-900">
+                AI NEET-style solution
+              </div>
+              <div className="mt-1 space-y-2">{renderMarkdownish(q.learning.aiSolution)}</div>
+            </div>
+
             {q.learning.links.length > 0 && (
-              <ul className="mt-3 space-y-1 text-sm">
-                {q.learning.links.map((link) => (
-                  <li key={link.url}>
-                    <a
-                      href={link.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="font-medium text-[var(--cbt-accent)] underline-offset-2 hover:underline"
-                    >
-                      {link.label} ↗
-                    </a>
-                  </li>
-                ))}
-              </ul>
+              <div className="mt-3">
+                <div className="text-[11px] font-bold uppercase tracking-wide text-slate-500">
+                  Study stack
+                </div>
+                <ul className="mt-2 flex flex-wrap gap-2">
+                  {q.learning.links.map((link) => (
+                    <li key={link.url}>
+                      <a
+                        href={link.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="cbt-btn cbt-btn-secondary cbt-btn-sm inline-flex items-center gap-1.5"
+                      >
+                        <span className="rounded bg-slate-200 px-1.5 py-0.5 text-[10px] font-bold uppercase text-slate-700">
+                          {linkKindLabel[link.kind] || "Link"}
+                        </span>
+                        <span>{link.label}</span>
+                        <span aria-hidden>↗</span>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             )}
           </div>
         </article>

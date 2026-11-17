@@ -1,6 +1,13 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import {
+  startTransition,
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import { useRouter } from "next/navigation";
 import { QuestionOptionMarkdown, QuestionStemMarkdown } from "@/components/QuestionMarkdown";
 import { QuestionFigure } from "@/components/QuestionFigure";
@@ -474,21 +481,25 @@ export function ExamCbt({
   }, [attemptId]);
 
   function selectSubject(s: SubjectFilter) {
-    setSubjectFilter(s);
-    setSectionFilter("ALL");
-    jumpToFilter(s, "ALL");
+    startTransition(() => {
+      setSubjectFilter(s);
+      setSectionFilter("ALL");
+      jumpToFilter(s, "ALL");
+    });
     scheduleCheckpoint();
   }
 
   function selectSection(sec: SectionFilter) {
-    setSectionFilter(sec);
-    jumpToFilter(subjectFilter, sec);
+    startTransition(() => {
+      setSectionFilter(sec);
+      jumpToFilter(subjectFilter, sec);
+    });
     scheduleCheckpoint();
   }
 
   const goToIndex = useCallback(
     (i: number) => {
-      setIndex(i);
+      startTransition(() => setIndex(i));
       scheduleCheckpoint();
     },
     [scheduleCheckpoint],
@@ -689,6 +700,8 @@ export function ExamCbt({
 
   function updateCurrent(patch: Partial<Q>) {
     const at = index;
+    // Optimistic local state first — network flush is debounced / non-blocking.
+    startTransition(() => {
     setQuestions((prev) => {
       const base = prev[at];
       if (!base) return prev;
@@ -751,6 +764,7 @@ export function ExamCbt({
       scheduleCheckpoint();
       setMsg("");
       return copy;
+    });
     });
   }
 
@@ -1030,7 +1044,7 @@ export function ExamCbt({
         <div className="flex flex-wrap items-center gap-2">
           <button
             type="button"
-            className="rounded bg-black/25 px-2.5 py-1.5 text-sm hover:bg-black/40"
+            className="cbt-btn cbt-btn-sm cbt-btn-ghost-toolbar"
             onClick={() => {
               setInstructionsRequired(false);
               setInstructionsOpen(true);
@@ -1040,7 +1054,7 @@ export function ExamCbt({
           </button>
           <button
             type="button"
-            className="rounded bg-black/25 px-2.5 py-1.5 text-sm hover:bg-black/40"
+            className="cbt-btn cbt-btn-sm cbt-btn-ghost-toolbar"
             onClick={() => setShowQuestionPaper(true)}
           >
             {i18n.questionPaper}
@@ -1282,7 +1296,7 @@ export function ExamCbt({
           <div className="mt-6 flex flex-wrap gap-2">
             <button
               type="button"
-              className="rounded bg-slate-200 px-4 py-2 font-medium"
+              className="cbt-btn cbt-btn-muted"
               onClick={() => {
                 const pos = paletteIndexes.indexOf(index);
                 const prev = paletteIndexes[pos - 1];
@@ -1294,11 +1308,8 @@ export function ExamCbt({
             </button>
             <button
               type="button"
-              className={`rounded px-4 py-2 font-medium text-white ${
-                current.status === "marked"
-                  ? "bg-amber-700 ring-2 ring-amber-300"
-                  : "bg-[var(--status-marked)]"
-              }`}
+              className="cbt-btn cbt-btn-mark"
+              data-active={current.status === "marked" ? "true" : "false"}
               onClick={() => {
                 const isMarked = current.status === "marked";
                 const hasAnswer =
@@ -1320,7 +1331,7 @@ export function ExamCbt({
             </button>
             <button
               type="button"
-              className="rounded bg-slate-700 px-4 py-2 font-medium text-white"
+              className="cbt-btn cbt-btn-secondary"
               onClick={() =>
                 updateCurrent({
                   selectedOption: null,
@@ -1333,7 +1344,7 @@ export function ExamCbt({
             </button>
             <button
               type="button"
-              className="rounded bg-[var(--cbt-accent)] px-4 py-2 font-medium text-white"
+              className="cbt-btn cbt-btn-primary"
               onClick={() => {
                 const pos = paletteIndexes.indexOf(index);
                 const next = paletteIndexes[pos + 1];
@@ -1345,11 +1356,11 @@ export function ExamCbt({
             </button>
             <button
               type="button"
-              className="ml-auto rounded bg-[var(--danger)] px-4 py-2 font-semibold text-white"
+              className={`cbt-btn cbt-btn-danger ml-auto ${busy ? "cbt-btn-loading" : ""}`}
               onClick={() => void submit(false)}
               disabled={busy}
             >
-              {i18n.submit}
+              {busy ? "Submitting…" : i18n.submit}
             </button>
           </div>
           {msg && <p className="mt-3 text-sm text-[var(--danger)]">{msg}</p>}

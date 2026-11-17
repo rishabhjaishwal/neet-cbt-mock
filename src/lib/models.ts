@@ -122,7 +122,78 @@ export type AttemptDoc = InferSchemaType<typeof AttemptSchema> & {
   _id: Types.ObjectId;
 };
 
+const TopicAnswerSchema = new Schema(
+  {
+    questionKey: { type: String, required: true },
+    selectedOption: { type: String, default: null },
+    selectedOptions: { type: [String], default: [] },
+    status: {
+      type: String,
+      enum: ["not_attempted", "attempted", "marked"],
+      default: "not_attempted",
+    },
+  },
+  { _id: false },
+);
+
+const TopicQuestionSnapSchema = new Schema(
+  {
+    questionKey: { type: String, required: true },
+    number: { type: Number, required: true },
+    subject: { type: String, required: true },
+    section: { type: String, default: "A" },
+    topic: { type: String, required: true },
+    difficulty: { type: String, enum: ["Easy", "Medium", "Hard"], required: true },
+    stem: { type: String, required: true },
+    options: { type: Schema.Types.Mixed, required: true },
+    correctOption: { type: String },
+    correctOptions: { type: [String], default: undefined },
+    multiCorrect: { type: Boolean, default: false },
+    figureSrc: { type: String },
+    figureKind: { type: String },
+    answerEstimated: { type: Boolean, default: false },
+  },
+  { _id: false },
+);
+
+const TopicAttemptSchema = new Schema(
+  {
+    userId: { type: Schema.Types.ObjectId, ref: "User", required: true, index: true },
+    topicId: { type: String, required: true, index: true },
+    subject: { type: String, required: true },
+    topic: { type: String, required: true },
+    difficulty: { type: String, enum: ["Easy", "Medium", "Hard"], required: true },
+    status: {
+      type: String,
+      enum: ["in_progress", "submitted", "approved"],
+      required: true,
+      index: true,
+    },
+    startedAt: { type: Date, default: Date.now },
+    endsAt: { type: Date, required: true },
+    submittedAt: { type: Date },
+    score: { type: Number },
+    correctCount: { type: Number },
+    wrongCount: { type: Number },
+    unattemptedCount: { type: Number },
+    subjectStats: { type: Schema.Types.Mixed },
+    topicStats: { type: Schema.Types.Mixed },
+    currentQuestionIndex: { type: Number, default: 0 },
+    checkpointAt: { type: Date },
+    questions: { type: [TopicQuestionSnapSchema], default: [] },
+    answers: { type: [TopicAnswerSchema], default: [] },
+  },
+  { timestamps: false },
+);
+TopicAttemptSchema.index({ userId: 1, topicId: 1, difficulty: 1, startedAt: -1 });
+
 export const User = models.User || model("User", UserSchema);
 export const Paper = models.Paper || model("Paper", PaperSchema);
 export const Question = models.Question || model("Question", QuestionSchema);
 export const Attempt = models.Attempt || model("Attempt", AttemptSchema);
+export const TopicAttempt =
+  models.TopicAttempt || model("TopicAttempt", TopicAttemptSchema);
+
+export type TopicAttemptDoc = InferSchemaType<typeof TopicAttemptSchema> & {
+  _id: Types.ObjectId;
+};

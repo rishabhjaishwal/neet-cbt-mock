@@ -142,6 +142,19 @@ export default async function DashboardPage({
         </section>
       )}
 
+      <section className="mb-8 rounded-xl border border-sky-200 bg-sky-50/60 p-5">
+        <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold">
+          Topic-wise mock series
+        </h2>
+        <p className="mt-1 text-sm text-slate-600">
+          Drill Easy / Medium / Hard by subject topic — same analysis + AI solution stack as
+          full papers.
+        </p>
+        <Link href="/topic-series" className="cbt-btn cbt-btn-primary mt-3 inline-flex">
+          Open topic series
+        </Link>
+      </section>
+
       <h2 className="mb-3 font-[family-name:var(--font-display)] text-xl font-semibold">
         Choose a year (last 10 years)
       </h2>

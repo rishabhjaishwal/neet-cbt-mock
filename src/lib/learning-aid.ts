@@ -1,8 +1,17 @@
-export type LearningLink = { label: string; url: string };
+export type LearningLink = {
+  label: string;
+  url: string;
+  kind: "youtube" | "web" | "pdf" | "other";
+};
 
 export type LearningAid = {
   title: string;
-  solution: string;
+  /** Short concept headline */
+  concept: string;
+  /** AI-generated NEET-style worked solution */
+  aiSolution: string;
+  /** Optional curated editorial solution */
+  curatedSolution?: string | null;
   links: LearningLink[];
   placeholder: boolean;
 };
@@ -38,95 +47,161 @@ function searchQuery(topic: string, stem: string) {
 
 function defaultLinks(topic: string, stem: string): LearningLink[] {
   const q = encodeURIComponent(searchQuery(topic, stem));
+  const pdfQ = encodeURIComponent(`NEET ${topic} PDF notes NCERT`);
   return [
     {
+      kind: "youtube",
       label: "YouTube — NEET topic videos",
       url: `https://www.youtube.com/results?search_query=${q}`,
     },
     {
-      label: "Web study results (NCERT / coaching explainers)",
+      kind: "web",
+      label: "Web explainers (NCERT / coaching)",
       url: `https://www.google.com/search?q=${q}+site%3Ancert.nic.in+OR+site%3Abyjus.com+OR+site%3Avedantu.com+OR+site%3Aphysicswallah.live`,
+    },
+    {
+      kind: "pdf",
+      label: "PDF notes / PYQ sheets",
+      url: `https://www.google.com/search?q=${pdfQ}+filetype%3Apdf`,
     },
   ];
 }
 
-function buildApproach(input: LearningInput): string {
+function detectPattern(stem: string): string {
+  const s = stem.toLowerCase();
+  if (/match list|match the following|column\s*-?\s*i/.test(s)) return "match_list";
+  if (/assertion|reason\s*r\b|statement\s*i\b/.test(s)) return "assertion";
+  if (/see figure|given figure|as shown|following diagram|circuit/.test(s)) return "figure";
+  if (/correct\s+statements?|incorrect\s+statement|which of the following/.test(s))
+    return "multi_statement";
+  return "mcq";
+}
+
+/** Deterministic “AI tutor” write-up — exam-style steps, no invented facts beyond stem/key. */
+function buildAiSolution(input: LearningInput): { concept: string; aiSolution: string } {
   const correctCodes = input.correct.length ? input.correct : [];
   const correctText = correctCodes
     .map((c) => `(${c}) ${input.options[c] ?? ""}`.trim())
     .join("; ");
+  const pattern = detectPattern(input.stem);
+  const concept = `${input.subject} · ${input.topic}`;
 
   const lines: string[] = [];
-  lines.push(
-    `Topic focus: ${input.subject} · Section ${input.section} · ${input.topic}.`,
-  );
-  lines.push(
-    `NEET approach: read the stem carefully, identify the tested concept under “${input.topic}”, then eliminate options that contradict a definition, law, or standard exception.`,
-  );
+  lines.push(`**Step 1 — Spot the ask.** ${clip(input.stem, 260)}`);
+
+  if (pattern === "match_list") {
+    lines.push(
+      `**Step 2 — Method.** Treat List I rows independently. Recall the defining property for each left item, then map to the unique List II entry. Cross-check that no two left items claim the same right entry unless the key allows it.`,
+    );
+  } else if (pattern === "assertion") {
+    lines.push(
+      `**Step 2 — Method.** Decide Assertion true/false using the core definition under “${input.topic}”. Then decide Reason true/false. Only if both are true, test whether Reason actually explains Assertion (causation, not mere correlation).`,
+    );
+  } else if (pattern === "figure") {
+    lines.push(
+      `**Step 2 — Method.** Read labels/axes on the figure first. Translate the diagram into the governing law or definition for “${input.topic}”, then test each option against that reading — do not reverse-engineer from options alone.`,
+    );
+  } else if (pattern === "multi_statement") {
+    lines.push(
+      `**Step 2 — Method.** Score each statement A/B/C… as T/F using NCERT wording for “${input.topic}”. Build the option set from those truth values; one flipped statement usually kills three options.`,
+    );
+  } else {
+    lines.push(
+      `**Step 2 — Method.** Identify the tested concept under “${input.topic}”. Write the governing definition/formula/exception in one line, then evaluate options against it.`,
+    );
+  }
 
   if (correctCodes.length) {
     if (input.multiCorrect) {
       lines.push(
-        `Correct set: ${correctText || correctCodes.map((c) => `(${c})`).join(", ")}. For multi-correct items, every required option must match; any extra wrong choice usually scores −1.`,
+        `**Step 3 — Lock the set.** Required correct option(s): ${correctText || correctCodes.map((c) => `(${c})`).join(", ")}. For multi-correct NEET items, the full correct set must match; an extra wrong choice typically costs −1.`,
       );
     } else {
       lines.push(
-        `Correct choice: ${correctText || `(${correctCodes[0]})`}. Match this option back to the core idea in the stem rather than memorising the letter alone.`,
+        `**Step 3 — Lock the answer.** Correct choice: ${correctText || `(${correctCodes[0]})`}. Re-read the stem once to confirm the option matches the concept — not just a familiar letter.`,
       );
     }
+  } else {
+    lines.push(
+      `**Step 3 — Key pending.** A locked official option is not available yet for Q${input.number}; practise the topic from NCERT and compare with parallel PYQs.`,
+    );
   }
 
   const wrong = (["1", "2", "3", "4"] as const).filter((c) => !correctCodes.includes(c));
-  if (wrong.length) {
+  if (wrong.length && correctCodes.length) {
     const sample = wrong
       .slice(0, 2)
-      .map((c) => `(${c}) ${clip(input.options[c] ?? "", 90)}`)
+      .map((c) => `(${c}) ${clip(input.options[c] ?? "", 80)}`)
       .join(" · ");
     lines.push(
-      `Elimination cue: options such as ${sample} conflict with the governing concept — strike them before you lock the answer.`,
+      `**Step 4 — Eliminate traps.** Options such as ${sample} conflict with the governing idea — strike them early to reduce negative marking risk.`,
+    );
+  } else {
+    lines.push(
+      `**Step 4 — Exam habit.** If two options look close, prefer the one that matches NCERT language for “${input.topic}” over a stretched interpretation.`,
     );
   }
 
   lines.push(
-    `Relearn loop: rewrite the concept in one line, solve 2–3 similar ${input.topic} MCQs, then re-attempt this stem without looking at the key.`,
+    `**Step 5 — Relearn loop.** Rewrite the concept in one line → solve 2–3 similar ${input.topic} MCQs → re-attempt this stem without the key.`,
   );
 
-  return lines.join("\n\n");
+  if (input.answerEstimated) {
+    lines.push(
+      `_Note: answer key for this extract is estimated — verify against the official NTA key when available._`,
+    );
+  }
+
+  return { concept, aiSolution: lines.join("\n\n") };
 }
 
 /** Build a NEET-style learning block for results review. */
 export function buildLearningAid(input: LearningInput): LearningAid {
   const hasKey = input.correct.length > 0;
   const curated = input.curatedSolution?.trim();
+  const { concept, aiSolution } = buildAiSolution(input);
+  const links =
+    input.curatedLinks && input.curatedLinks.length
+      ? input.curatedLinks.map((l) => ({
+          ...l,
+          kind: l.kind ?? ("other" as const),
+        }))
+      : defaultLinks(input.topic, input.stem);
 
   if (curated) {
     return {
-      title: "Learn this idea",
-      solution: curated,
-      links:
-        input.curatedLinks && input.curatedLinks.length
-          ? input.curatedLinks
-          : defaultLinks(input.topic, input.stem),
+      title: "Solution & learning stack",
+      concept,
+      aiSolution,
+      curatedSolution: curated,
+      links,
       placeholder: false,
     };
   }
 
   if (!hasKey || input.answerEstimated) {
     return {
-      title: "Learning notes (limited key confidence)",
-      solution:
-        `A full worked solution is not locked for Q${input.number} yet` +
-        (input.answerEstimated ? " (answer key is estimated for this extract)." : ".") +
-        ` Study the topic “${input.topic}” from NCERT and coaching explainers, then practise similar stems. Use the links below to relearn the concept and attempt parallel questions.`,
-      links: defaultLinks(input.topic, input.stem),
+      title: "Solution & learning stack",
+      concept,
+      aiSolution,
+      curatedSolution: null,
+      links,
       placeholder: true,
     };
   }
 
   return {
-    title: "Learn this idea",
-    solution: buildApproach(input),
-    links: defaultLinks(input.topic, input.stem),
+    title: "Solution & learning stack",
+    concept,
+    aiSolution,
+    curatedSolution: null,
+    links,
     placeholder: false,
   };
+}
+
+/** Back-compat helper used by older call sites expecting `solution` string. */
+export function learningAidPlainSolution(aid: LearningAid): string {
+  if (aid.curatedSolution) return aid.curatedSolution;
+  return aid.aiSolution;
 }

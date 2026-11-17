@@ -65,7 +65,7 @@ export function QuestionFigure({
       <img
         src={src}
         alt="Question figure"
-        className="mx-auto max-h-[360px] w-auto max-w-full object-contain p-3"
+        className="mx-auto max-h-[420px] w-auto max-w-full object-contain bg-white p-3"
         loading="eager"
         decoding="async"
         onError={() => {

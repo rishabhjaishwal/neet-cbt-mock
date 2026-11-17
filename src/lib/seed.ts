@@ -34,8 +34,8 @@ type PaperFile = {
   }>;
 };
 
-/** Bump to force serverless cold-start reseed (answer-key rematch after reseed). */
-const CONTENT_VERSION = 11;
+/** Bump to force serverless cold-start reseed (figure invert + stem display). */
+const CONTENT_VERSION = 12;
 let syncedVersion = 0;
 
 async function hashPassword(password: string) {

@@ -21,24 +21,30 @@ export function StartAttemptButton({
         disabled={loading}
         className={
           mode === "retake"
-            ? "rounded-md border border-slate-300 bg-white px-3 py-2 text-sm font-semibold text-slate-800 hover:bg-slate-50 disabled:opacity-60"
-            : "rounded-md bg-[var(--cbt-accent)] px-3 py-2 text-sm font-semibold text-white hover:bg-[var(--cbt-accent-dark)] disabled:opacity-60"
+            ? `cbt-btn cbt-btn-secondary ${loading ? "cbt-btn-loading" : ""}`
+            : `cbt-btn cbt-btn-primary ${loading ? "cbt-btn-loading" : ""}`
         }
         onClick={async () => {
           setLoading(true);
           setError("");
-          const res = await fetch("/api/attempts/start", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ year, retake: mode === "retake" }),
-          });
-          const data = await res.json();
-          setLoading(false);
-          if (!res.ok) {
-            setError(data.error || "Could not start");
-            return;
+          try {
+            const res = await fetch("/api/attempts/start", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ year, retake: mode === "retake" }),
+            });
+            const data = await res.json();
+            if (!res.ok) {
+              setLoading(false);
+              setError(data.error || "Could not start");
+              return;
+            }
+            // Keep loading state through navigation for clear feedback.
+            router.push(`/exam/${data.attemptId}`);
+          } catch {
+            setLoading(false);
+            setError("Network error — retry");
           }
-          router.push(`/exam/${data.attemptId}`);
         }}
       >
         {loading ? "Starting…" : mode === "retake" ? "Retake year" : "Start / Resume"}

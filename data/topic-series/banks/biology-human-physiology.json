@@ -1,0 +1,1823 @@
+{
+  "id": "biology-human-physiology",
+  "subject": "Biology",
+  "topic": "Human Physiology",
+  "counts": {
+    "Easy": 26,
+    "Medium": 22,
+    "Hard": 27
+  },
+  "questions": {
+    "Easy": [
+      {
+        "id": "2016-Phase1-Q123",
+        "sourceYear": 2016,
+        "sourceNumber": 167,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Easy",
+        "stem": "Blood pressure in the pulmonary artery is mmt1 (1 ) more than that in the pulmonary vein. (2) '4t\"a1: mm 6ml mm 1 t t (2) less than that in the venae cavae.",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "[Option 2 incomplete in source PDF]",
+          "3": "same as that in the aorta.",
+          "4": "more than that in the carotid. ti"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2016-Phase1-Q125",
+        "sourceYear": 2016,
+        "sourceNumber": 169,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Easy",
+        "stem": "Photosensitive compound in human eye is made 125. llAei if i:filW:-f{I GfTT mm: up of: c1) am* . (1) Opsin and Retinol c2) itf1 am* (2) Transducin and Retinene",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "[Option 2 incomplete in source PDF]",
+          "3": "1 c1111F1 *",
+          "4": "am*"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2017-A-Q98",
+        "sourceYear": 2017,
+        "sourceNumber": 99,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Easy",
+        "stem": "Adult human RBCs are enucleate. Which of the (4) Rhizobium – Alfalfa following statement(s) is/are most appropriate",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "[Option 2 incomplete in source PDF]",
+          "3": "[Option 3 incomplete in source PDF]",
+          "4": "[Option 4 incomplete in source PDF]"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2017-A-Q144",
+        "sourceYear": 2017,
+        "sourceNumber": 145,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Easy",
+        "stem": "Out of 'X' pairs of ribs in humans only 'Y' pairs are (1) Stem – Tall or Dwarf true ribs. Select the option that correctly represents",
+        "options": {
+          "1": "X = 12, Y = 7 True ribs are attached dorsally to vertebral",
+          "2": "Trichomes – Glandular or non-glandular values of X and Y and provides their explanation :",
+          "3": "Seed – Green or Yellow",
+          "4": "Pod – Inflated or Constricted column and ventrally to the"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2017-A-Q158",
+        "sourceYear": 2017,
+        "sourceNumber": 159,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Easy",
+        "stem": "Fruit and leaf drop at early stages can be prevented in male frogs : by the application of (1) Testes → Bidder's canal → Kidney → Vasa",
+        "options": {
+          "1": "Cytokinins",
+          "2": "Ethylene efferentia → Urinogenital duct → Cloaca",
+          "3": "Auxins",
+          "4": "Gibberellic acid (2) Testes → Vasa efferentia → Kidney → Seminal"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2018-AA-Q15",
+        "sourceYear": 2018,
+        "sourceNumber": 99,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Easy",
+        "stem": "Which oxide of nitrogen is not a common pollutant introduced into the atmosphere both due to natural and human activity ?",
+        "options": {
+          "1": "N2O5",
+          "2": "NO",
+          "3": "N2O",
+          "4": "NO2"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2018-AA-Q59",
+        "sourceYear": 2018,
+        "sourceNumber": 128,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Easy",
+        "stem": "Which oxide of nitrogen is not a common pollutant introduced into the atmosphere both due to natural and human activity ?",
+        "options": {
+          "1": "N2O",
+          "2": "NO2",
+          "3": "N2O5",
+          "4": "NO"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2018-AA-Q81",
+        "sourceYear": 2018,
+        "sourceNumber": 148,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Easy",
+        "stem": "Which of the following terms describe human dentition ?",
+        "options": {
+          "1": "Thecodont, Diphyodont, Homodont",
+          "2": "Pleurodont, Diphyodont, Heterodont",
+          "3": "Pleurodont, Monophyodont, Homodont",
+          "4": "Thecodont, Diphyodont, Heterodont"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2019-G1-Q10",
+        "sourceYear": 2019,
+        "sourceNumber": 100,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Easy",
+        "stem": "Which of the following hormones is responsible for both the milk ejection reflex and the foetal ejection reflex?",
+        "options": {
+          "1": "Estrogen",
+          "2": "Prolactin",
+          "3": "Oxytocin",
+          "4": "Relaxin"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2019-G1-Q25",
+        "sourceYear": 2019,
+        "sourceNumber": 115,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Easy",
+        "stem": "Identify A, B and C in the diagrammatic representation of the mechanism of hormone action. Select the correct option from the following:",
+        "options": {
+          "1": "A = Steroid Hormone; B = Hormone receptor Complex; C = Protein",
+          "2": "A = Protein Hormone; B = Receptor; C = Cyclic AMP",
+          "3": "A = Steroid Hormone; B = Receptor; C = Second Messenger",
+          "4": "A = Protein Hormone; B = Cyclic AMP; C = Hormone-receptor Complex"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2019-G1-Q26",
+        "sourceYear": 2019,
+        "sourceNumber": 116,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Easy",
+        "stem": "Humans have acquired immune system that produces antibodies to neutralize pathogens. Still innate immune system is present at the time of birth because it",
+        "options": {
+          "1": "is very specific and uses different macrophages,",
+          "2": "produces memory cells for mounting fast secondary response.",
+          "3": "has natural killer cells which can phagocytose and destroy microbes",
+          "4": "provides passive immunity."
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2019-G1-Q31",
+        "sourceYear": 2019,
+        "sourceNumber": 121,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Easy",
+        "stem": "Which of the following conditions will stimulate parathyroid gland to release parathyroid hormone ?",
+        "options": {
+          "1": "Fall in active Vitamin D levels +2",
+          "2": "Fall in blood Ca levels +2",
+          "3": "Fall in bone Ca levels +2",
+          "4": "Rise in blood Ca levels"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2020-E1-Q77",
+        "sourceYear": 2020,
+        "sourceNumber": 157,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Easy",
+        "stem": "Which of the following hormone levels will cause release of ovum (ovulation) from the graffian follicle ?",
+        "options": {
+          "1": "Low concentration of LH",
+          "2": "Low concentration of FSH",
+          "3": "High concentration of Estrogen",
+          "4": "High concentration of Progesterone Hindi+English 8"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2021-M1-Q178",
+        "sourceYear": 2021,
+        "sourceNumber": 178,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Easy",
+        "stem": "Persons with ‘AB’ blood group are called as “Universal recipients”. This is due to :",
+        "options": {
+          "1": "Absence of antibodies, anti-A and anti-B, in plasma",
+          "2": "Absence of antigens A and B on the surface of RBCs",
+          "3": "Absence of antigens A and B in plasma",
+          "4": "Presence of antibodies, anti-A and anti-B, on RBCs"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2021-M1-Q180",
+        "sourceYear": 2021,
+        "sourceNumber": 180,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Easy",
+        "stem": "Persons with ‘AB’ blood group are called as “Universal recipients”. This is due to :",
+        "options": {
+          "1": "Presence of antibodies, anti-A and anti-B, on RBCs",
+          "2": "Absence of antibodies, anti-A and anti-B, in plasma",
+          "3": "Absence of antigens A and B on the surface of RBCs",
+          "4": "Absence of antigens A and B in plasma Hindi+English 2"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2022-RECON-Q10",
+        "sourceYear": 2022,
+        "sourceNumber": 110,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Easy",
+        "stem": "Which of the following hormones is responsible for both the milk ejection reflex and the foetal ejection reflex?",
+        "options": {
+          "1": "Estrogen",
+          "2": "Prolactin",
+          "3": "Oxytocin",
+          "4": "Relaxin"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2022-RECON-Q25",
+        "sourceYear": 2022,
+        "sourceNumber": 125,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Easy",
+        "stem": "Identify A, B and C in the diagrammatic representation of the mechanism of hormone action. Select the correct option from the following:",
+        "options": {
+          "1": "A = Steroid Hormone; B = Hormone receptor Complex; C = Protein",
+          "2": "A = Protein Hormone; B = Receptor; C = Cyclic AMP",
+          "3": "A = Steroid Hormone; B = Receptor; C = Second Messenger",
+          "4": "A = Protein Hormone; B = Cyclic AMP; C = Hormone-receptor Complex"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2022-RECON-Q26",
+        "sourceYear": 2022,
+        "sourceNumber": 126,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Easy",
+        "stem": "Humans have acquired immune system that produces antibodies to neutralize pathogens. Still innate immune system is present at the time of birth because it",
+        "options": {
+          "1": "is very specific and uses different macrophages,",
+          "2": "produces memory cells for mounting fast secondary response.",
+          "3": "has natural killer cells which can phagocytose and destroy microbes",
+          "4": "provides passive immunity."
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2022-RECON-Q31",
+        "sourceYear": 2022,
+        "sourceNumber": 131,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Easy",
+        "stem": "Which of the following conditions will stimulate parathyroid gland to release parathyroid hormone ?",
+        "options": {
+          "1": "Fall in active Vitamin D levels +2",
+          "2": "Fall in blood Ca levels +2",
+          "3": "Fall in bone Ca levels +2",
+          "4": "Rise in blood Ca levels"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2023-F1-Q101",
+        "sourceYear": 2023,
+        "sourceNumber": 104,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Easy",
+        "stem": "Which hormone promotes internode/petiole elongation in deep water rice?",
+        "options": {
+          "1": "Kinetin",
+          "2": "Ethylene",
+          "3": "2, 4-D",
+          "4": "GA3"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2023-F1-Q159",
+        "sourceYear": 2023,
+        "sourceNumber": 160,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Easy",
+        "stem": "In which blood corpuscles, the HIV undergoes replication and produces progeny viruses?",
+        "options": {
+          "1": "B-lymphocytes",
+          "2": "Basophils",
+          "3": "Eosinophils",
+          "4": "TH cells"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2023-F1-Q178",
+        "sourceYear": 2023,
+        "sourceNumber": 178,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Easy",
+        "stem": "Which one of the following symbols represents mating between relatives in human pedigree analysis?",
+        "options": {
+          "1": "Option 1",
+          "2": "Option 2",
+          "3": "Option 3",
+          "4": "Option 4"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2024-R1-Q162",
+        "sourceYear": 2024,
+        "sourceNumber": 165,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Easy",
+        "stem": "Three types of muscles are given as a, b and c. Identify the correct matching pair along with their location in human body: Name of muscle/location",
+        "options": {
+          "1": "(a) Skeletal – Triceps (b) Smooth – Stomach (c) Cardiac – Heart",
+          "2": "(a) Skeletal – Biceps (b) Involuntary – Intestine (c) Smooth – Heart",
+          "3": "(a) Involuntary – Nose tip (b) Skeletal – Bone (c) Cardiac – Heart",
+          "4": "(a) Smooth – Toes (b) Skeletal – Legs (c) Cardiac – Heart"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2024-R1-Q174",
+        "sourceYear": 2024,
+        "sourceNumber": 176,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Easy",
+        "stem": "Which of the following is not a steroid hormone?",
+        "options": {
+          "1": "Testosterone",
+          "2": "Progesterone",
+          "3": "Glucagon",
+          "4": "Cortisol"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2025-INTERIM-Q162",
+        "sourceYear": 2025,
+        "sourceNumber": 165,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Easy",
+        "stem": "Three types of muscles are given as a, b and c. Identify the correct matching pair along with their location in human body: Name of muscle/location",
+        "options": {
+          "1": "(a) Skeletal – Triceps (b) Smooth – Stomach (c) Cardiac – Heart",
+          "2": "(a) Skeletal – Biceps (b) Involuntary – Intestine (c) Smooth – Heart",
+          "3": "(a) Involuntary – Nose tip (b) Skeletal – Bone (c) Cardiac – Heart",
+          "4": "(a) Smooth – Toes (b) Skeletal – Legs (c) Cardiac – Heart"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2025-INTERIM-Q174",
+        "sourceYear": 2025,
+        "sourceNumber": 176,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Easy",
+        "stem": "Which of the following is not a steroid hormone?",
+        "options": {
+          "1": "Testosterone",
+          "2": "Progesterone",
+          "3": "Glucagon",
+          "4": "Cortisol"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      }
+    ],
+    "Medium": [
+      {
+        "id": "2016-Phase1-Q57",
+        "sourceYear": 2016,
+        "sourceNumber": 103,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Medium",
+        "stem": "In mammals, which blood vessel would normally 57. m. ffl-mm- i'ild: an' carry largest amount of urea ? 'lW-'l qi@ i? (1) Hepatic Vein (1) -mu (2) Hepatic Portal Vein (2) flcllfuc:fil mu",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "[Option 2 incomplete in source PDF]",
+          "3": "-mu Dorsal Aorta",
+          "4": "Option 4"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2016-Phase1-Q96",
+        "sourceYear": 2016,
+        "sourceNumber": 140,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Medium",
+        "stem": "Fertilization in humans is practically feasible only if: : the ovum and sperms are transported (1) aw:ancfill)lqf (1) sim ultaneously to ampullary - isthmic in:min:mmm1 junction of tb.e cervix. (2) mcrr 'lftm: WnJUlan cfi1 7T it",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "the sperms are transported into cervix within 48e{l 'lftm:mmm, 48 hrs of release of ovum in uterus.",
+          "3": "the sperms are transported into vagina just after the release of ovum in fallopian tube. ,m if m",
+          "4": " am an cfi1 1ffi i the ovum and sperms are transported (4 ) simultaneously to am pullary - isthmic -W'fllin:m-q\"{m, junction of the fallopian tube."
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2016-Phase1-Q100",
+        "sourceYear": 2016,
+        "sourceNumber": 144,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Medium",
+        "stem": "c'.t11m7@cf1'Jmc.fil : Which of the following is wrongly matched in the given table ? (1) Ji:fi/if,& ci'tcfi$i51 \"R- Microbe Product Application (1) Streptococcus Streptokinase removal of dot from cfilWcRT blood vessel (2) wT1'Fsl/'11 m,r t- qi) 6GRT",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "Clostridium Lipase removal of oil stains 27llffiif>'11 butylicum (3 ) fTicffts'1/f '81$¾'1f<ilR1 - A 3l}lSIT",
+          "3": "Trichodenna Cyclosporin A immunosuppressive polysporum drug q}cefl\"J:/",
+          "4": "i:fl(;-cf,& 'l:R-i:hlctTt:1 cfi'l purpureus cholesterol q 'iV<l'fl "
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2017-A-Q93",
+        "sourceYear": 2017,
+        "sourceNumber": 96,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Medium",
+        "stem": "Select the mismatch : – Zymogen cells are enzyme producing cells. (1) Frankia – Alnus – Paneth cell secretes lysozyme which acts as (2) Rhodospirillum – Mycorrhiza anti-bacterial agent. – Argentaffin cells are hormone producing cells. (3) Anabaena – Nitrogen fixer",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "[Option 2 incomplete in source PDF]",
+          "3": "[Option 3 incomplete in source PDF]",
+          "4": "[Option 4 incomplete in source PDF]"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2017-A-Q129",
+        "sourceYear": 2017,
+        "sourceNumber": 130,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Medium",
+        "stem": "Life cycle of Ectocarpus and Fucus respectively are 134. The genotypes of a Husband and Wife are IAIB and IAi. (1) Haplontic, Diplontic Among the blood types of their children, how many (2) Diplontic, Haplodiplontic different genotypes and phenotypes are possible?",
+        "options": {
+          "1": "3 genotypes ; 3 phenotypes",
+          "2": "3 genotypes ; 4 phenotypes",
+          "3": "Haplodiplontic, Diplontic",
+          "4": "Haplodiplontic, Haplontic"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2017-A-Q166",
+        "sourceYear": 2017,
+        "sourceNumber": 167,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Medium",
+        "stem": "Anaphase promoting complex (APC) is a protein (1) Ecological Biodiversity degradation machinery necessary for proper mitosis of animal cells. If APC is defective in a human cell, (2) Laws of limiting factor which of the following is expected to occur?",
+        "options": {
+          "1": "Chromosomes will not condense",
+          "2": "Chromosomes will be fragmented",
+          "3": "Species area relationships",
+          "4": "Population Growth equation"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2018-AA-Q47",
+        "sourceYear": 2018,
+        "sourceNumber": 116,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Medium",
+        "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Fibrinogen i. Osmotic balance b. Globulin ii. Blood clotting c. Albumin iii. Defence mechanism a b c",
+        "options": {
+          "1": "iii ii i",
+          "2": "ii iii i",
+          "3": "i iii ii",
+          "4": "i ii iii"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2019-G1-Q23",
+        "sourceYear": 2019,
+        "sourceNumber": 113,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Medium",
+        "stem": "In a marriage between male with blood group A and female with blood group B, the progeny had either blood group AB or B. What could be the possible genotype of parents? A B B A A B B",
+        "options": {
+          "1": "I i (Male) ; I I (Female)",
+          "2": "I I (Male) ; I I (Female) A A B A B",
+          "3": "I I (Male) ; I i (Female)",
+          "4": "I i (Male) ; I i(Female)"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2019-G1-Q42",
+        "sourceYear": 2019,
+        "sourceNumber": 132,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Medium",
+        "stem": "A specialised nodal tissue embedded in the lower corner of the right atrium, close to Atrio-ventricular septum, delays the spreading of impulses to heart apex for about 0.1 sec. This delay allows -",
+        "options": {
+          "1": "blood to enter aorta.",
+          "2": "the ventricles to empty completely.",
+          "3": "blood to enter pulmonary arteries.",
+          "4": "the atria to empty completely."
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2020-E1-Q48",
+        "sourceYear": 2020,
+        "sourceNumber": 128,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Medium",
+        "stem": "Match the following columns and select the correct option. Column - I Column - II (a) Clostridium (i) Cyclosporin-A butylicum (b) Trichoderma (ii) Butyric Acid polysporum (c) Monascus (iii) Citric Acid purpureus (d) Aspergillus niger (iv) Blood cholesterol lowering agent (a) (b) (c) (d)",
+        "options": {
+          "1": "(iii) (iv) (ii) (i)",
+          "2": "(ii) (i) (iv) (iii)",
+          "3": "(i) (ii) (iv) (iii)",
+          "4": "(iv) (iii) (ii) (i)"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2020-E1-Q64",
+        "sourceYear": 2020,
+        "sourceNumber": 144,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Medium",
+        "stem": "Match the following columns and select the correct option. Column - I Column - II (a) Placenta (i) Androgens (b) Zona pellucida (ii) Human Chorionic Gonadotropin (hCG) (c) Bulbo-urethral (iii) Layer of the ovum glands (d) Leydig cells (iv) Lubrication of the Penis (a) (b) (c) (d)",
+        "options": {
+          "1": "(ii) (iii) (iv) (i)",
+          "2": "(iv) (iii) (i) (ii)",
+          "3": "(i) (iv) (ii) (iii)",
+          "4": "(iii) (ii) (iv) (i)"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2020-E1-Q70",
+        "sourceYear": 2020,
+        "sourceNumber": 150,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Medium",
+        "stem": "Match the following columns and select the correct option. Column - I Column - II (a) Placenta (i) Androgens (b) Zona pellucida (ii) Human Chorionic Gonadotropin (hCG) (c) Bulbo-urethral (iii) Layer of the ovum glands (d) Leydig cells (iv) Lubrication of the Penis (a) (b) (c) (d)",
+        "options": {
+          "1": "(iv) (iii) (i) (ii)",
+          "2": "(i) (iv) (ii) (iii)",
+          "3": "(iii) (ii) (iv) (i)",
+          "4": "(ii) (iii) (iv) (i)"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2020-E1-Q73",
+        "sourceYear": 2020,
+        "sourceNumber": 153,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Medium",
+        "stem": "Match the following columns and select the correct option. Column - I Column - II (a) Placenta (i) Androgens (b) Zona pellucida (ii) Human Chorionic Gonadotropin (hCG) (c) Bulbo-urethral (iii) Layer of the ovum glands (d) Leydig cells (iv) Lubrication of the Penis (a) (b) (c) (d)",
+        "options": {
+          "1": "(iii) (ii) (iv) (i)",
+          "2": "(ii) (iii) (iv) (i)",
+          "3": "(iv) (iii) (i) (ii)",
+          "4": "(i) (iv) (ii) (iii)"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2020-E1-Q85",
+        "sourceYear": 2020,
+        "sourceNumber": 165,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Medium",
+        "stem": "Match the following columns and select the correct option. Column - I Column - II (a) Clostridium (i) Cyclosporin-A butylicum (b) Trichoderma (ii) Butyric Acid polysporum (c) Monascus (iii) Citric Acid purpureus (d) Aspergillus niger (iv) Blood cholesterol lowering agent (a) (b) (c) (d)",
+        "options": {
+          "1": "(i) (ii) (iv) (iii)",
+          "2": "(iv) (iii) (ii) (i)",
+          "3": "(iii) (iv) (ii) (i)",
+          "4": "(ii) (i) (iv) (iii) Hindi+English 0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2021-M1-Q170",
+        "sourceYear": 2021,
+        "sourceNumber": 170,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Medium",
+        "stem": "Veneral diseases can spread through : (a) Using sterile needles (b) Transfusion of blood from infected person (c) Infected mother to foetus (d) Kissing (e) Inheritance Choose the correct answer from the options given below.",
+        "options": {
+          "1": "(b) and (c) only",
+          "2": "(a) and (c) only",
+          "3": "(a), (b) and (c) only",
+          "4": "(b), (c) and (d) only"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2021-M1-Q182",
+        "sourceYear": 2021,
+        "sourceNumber": 182,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Medium",
+        "stem": "Veneral diseases can spread through : (a) Using sterile needles (b) Transfusion of blood from infected person (c) Infected mother to foetus (d) Kissing (e) Inheritance Choose the correct answer from the options given below.",
+        "options": {
+          "1": "(a) and (c) only",
+          "2": "(a), (b) and (c) only",
+          "3": "(b), (c) and (d) only",
+          "4": "(b) and (c) only"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2021-M1-Q184",
+        "sourceYear": 2021,
+        "sourceNumber": 184,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Medium",
+        "stem": "Veneral diseases can spread through : (a) Using sterile needles (b) Transfusion of blood from infected person (c) Infected mother to foetus (d) Kissing (e) Inheritance Choose the correct answer from the options given below.",
+        "options": {
+          "1": "(a), (b) and (c) only",
+          "2": "(b), (c) and (d) only",
+          "3": "(b) and (c) only",
+          "4": "(a) and (c) only"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2022-RECON-Q23",
+        "sourceYear": 2022,
+        "sourceNumber": 123,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Medium",
+        "stem": "In a marriage between male with blood group A and female with blood group B, the progeny had either blood group AB or B. What could be the possible genotype of parents? A B B A A B B",
+        "options": {
+          "1": "I i (Male) ; I I (Female)",
+          "2": "I I (Male) ; I I (Female) A A B A B",
+          "3": "I I (Male) ; I i (Female)",
+          "4": "I i (Male) ; I i(Female)"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2024-R1-Q157",
+        "sourceYear": 2024,
+        "sourceNumber": 160,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Medium",
+        "stem": "Given below are some stages of human evolution. Arrange them in correct sequence. (Past to Recent) A. Homo habilis B. Homo sapiens C. Homo neanderthalensis D. Homo erectus Choose the correct sequence of human evolution from the options given below:",
+        "options": {
+          "1": "B-A-D-C",
+          "2": "C-B-D-A",
+          "3": "A-D-C-B",
+          "4": "D-A-C-B"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2024-R1-Q175",
+        "sourceYear": 2024,
+        "sourceNumber": 177,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Medium",
+        "stem": "Following are the stages of pathway for conduction of an action potential through the heart A. AV bundle B. Purkinje fibres C. AV node D. Bundle branches E. SA node Choose the correct sequence of pathway from the options given below",
+        "options": {
+          "1": "A-E-C-B-D",
+          "2": "B-D-E-C-A",
+          "3": "E-A-D-B-C",
+          "4": "E-C-A-D-B"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2025-INTERIM-Q157",
+        "sourceYear": 2025,
+        "sourceNumber": 160,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Medium",
+        "stem": "Given below are some stages of human evolution. Arrange them in correct sequence. (Past to Recent) A. Homo habilis B. Homo sapiens C. Homo neanderthalensis D. Homo erectus Choose the correct sequence of human evolution from the options given below:",
+        "options": {
+          "1": "B-A-D-C",
+          "2": "C-B-D-A",
+          "3": "A-D-C-B",
+          "4": "D-A-C-B"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2025-INTERIM-Q175",
+        "sourceYear": 2025,
+        "sourceNumber": 177,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Medium",
+        "stem": "Following are the stages of pathway for conduction of an action potential through the heart A. AV bundle B. Purkinje fibres C. AV node D. Bundle branches E. SA node Choose the correct sequence of pathway from the options given below",
+        "options": {
+          "1": "A-E-C-B-D",
+          "2": "B-D-E-C-A",
+          "3": "E-A-D-B-C",
+          "4": "E-C-A-D-B"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      }
+    ],
+    "Hard": [
+      {
+        "id": "2016-Phase1-Q55",
+        "sourceYear": 2016,
+        "sourceNumber": 101,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Hard",
+        "stem": "Which type of tissue correctly matches with its location? 55. ffl-m _ft:zja - it,q cJ;«1T t? Tissue Location ft:ura (1) Transitional epithelium Tip of nose (1) -qftcrnf 1lffl6fil!t (2) Cuboidal epithelium Lining of stomach (2) Wflqi'R 3lmR (3) Smooth muscle Wall of intestine (3) amlf\\lfu (4) Areolar tissue Tendons (4) i)Jt · ·s6: Which of the following pairs of hormones are not 56. f1i.:tf<f!forn if <tR-m v:cfi- antagonistic (having opposite effects) to each other? \"6fiT fcrom c fcii:rfunr'qfq cm,;rr) \"\" t ? (1) Aldosterone Atrial Natriuretic Factor (1) :iFR.<11 ;)ffo:fiqiRq1 (2) Relaxin - Inhibin (2) f<feRi1 Calcitonin",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "[Option 2 incomplete in source PDF]",
+          "3": "Parathon,none",
+          "4": " 'itliff1 EnQliHindi ···. z"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2017-A-Q149",
+        "sourceYear": 2017,
+        "sourceNumber": 150,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Hard",
+        "stem": "GnRH, a hypothalamic hormone, needed in of vitamin A, is the light-absorbing part of all visual reproduction, acts on photopigments. (1) Anterior pituitary gland and stimulates secretion of LH and oxytocin 153. Which one of the following statements is not valid for aerosols? (2) Anterior pituitary gland and stimulates secretion of LH and FSH (1) They are harmful to human health (3) Posterior pituitary gland and stimulates secretion",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "They alter rainfall and monsoon patterns of oxytocin and FSH",
+          "3": "They cause increased agricultural productivity",
+          "4": "They have negative impact on agricultural land of LH and relaxin"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2018-AA-Q68",
+        "sourceYear": 2018,
+        "sourceNumber": 137,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Hard",
+        "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Glycosuria i. Accumulation of uric acid in joints b. Gout ii. Mass of crystallised salts within the kidney c. Renal calculi iii. Inflammation in glomeruli d. Glomerular iv. Presence of glucose in nephritis urine a b c d",
+        "options": {
+          "1": "iii ii iv i",
+          "2": "i ii iii iv",
+          "3": "ii iii i iv",
+          "4": "iv i ii iii"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2018-AA-Q83",
+        "sourceYear": 2018,
+        "sourceNumber": 149,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Hard",
+        "stem": "Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Glycosuria i. Accumulation of uric acid in joints b. Gout ii. Mass of crystallised salts within the kidney c. Renal calculi iii. Inflammation in glomeruli d. Glomerular iv. Presence of glucose in nephritis urine a b c d",
+        "options": {
+          "1": "iv i ii iii",
+          "2": "ii iii i iv",
+          "3": "i ii iii iv",
+          "4": "iii ii iv i"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2022-RECON-Q42",
+        "sourceYear": 2022,
+        "sourceNumber": 142,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Hard",
+        "stem": "A specialised nodal tissue embedded in the lower corner of the right atrium, close to Atrio-ventricular septum, delays the spreading of impulses to heart apex for about 0.1 sec. This delay allows -",
+        "options": {
+          "1": "blood to enter aorta.",
+          "2": "the ventricles to empty completely.",
+          "3": "blood to enter pulmonary arteries.",
+          "4": "the atria to empty completely."
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2023-F1-Q156",
+        "sourceYear": 2023,
+        "sourceNumber": 158,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Hard",
+        "stem": "Match List I with List II. List I List II A. CCK I. Kidney B. GIP II. Heart C. ANF III. Gastric gland D. ADH IV. Pancreas Choose the correct answer from the options given below :",
+        "options": {
+          "1": "A-III, B-II, C-IV, D-I",
+          "2": "A-II, B-IV, C-I, D-III",
+          "3": "A-IV, B-II, C-III, D-I",
+          "4": "A-IV, B-III, C-II, D-I"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2023-F1-Q163",
+        "sourceYear": 2023,
+        "sourceNumber": 163,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Hard",
+        "stem": "Given below are two statements: Statement I: A protein is imagined as a line, the left end represented by first amino acid (C-terminal) and the right end represented by last amino acid (N-terminal). Statement II: Adult human haemoglobin, consists of 4 subunits (two subunits of α type and two subunits of β type.) In the light of the above statements, choose the correct answer from the options given below:",
+        "options": {
+          "1": "Both Statement I and Statement II are false.",
+          "2": "Statement I is true but Statement II is false.",
+          "3": "Statement I is false but Statement II is true.",
+          "4": "Both Statement I and Statement II are true"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2023-F1-Q188",
+        "sourceYear": 2023,
+        "sourceNumber": 188,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Hard",
+        "stem": "Which of the following statements are correct? A. An excessive loss of body fluid from the body switches off osmoreceptors. B. ADH facilitates water reabsorption to prevent diuresis. C. ANF causes vasodilation. D. ADH causes increase in blood pressure. E. ADH is responsible for decrease in GFR. Choose the correct answer from the options given below:",
+        "options": {
+          "1": "B, C and D only",
+          "2": "A, B and E only",
+          "3": "C, D and E only",
+          "4": "A and B only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2023-F1-Q192",
+        "sourceYear": 2023,
+        "sourceNumber": 192,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Hard",
+        "stem": "Which of the following are NOT under the control of thyroid hormone? A. Maintenance of water and electrolyte balance B. Regulation of basal metabolic rate C. Normal rhythm of sleep-wake cycle D. Development of immune system E. Support the process of RBCs formation Choose the correct answer from the options given below:",
+        "options": {
+          "1": "B and C only",
+          "2": "C and D only",
+          "3": "D and E only",
+          "4": "A and D only"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2023-F1-Q195",
+        "sourceYear": 2023,
+        "sourceNumber": 195,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Hard",
+        "stem": "Which of the following statements are correct? A. Basophils are most abundant cells of the total WBCs B. Basophils secrete histamine, serotonin and heparin C. Basophils are involved in inflammatory response D. Basophils have kidney shaped nucleus E. Basophils are agranulocytes Choose the correct answer from the options given below:",
+        "options": {
+          "1": "C and E only",
+          "2": "B and C only",
+          "3": "A and B only",
+          "4": "D and E only"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2023-F1-Q197",
+        "sourceYear": 2023,
+        "sourceNumber": 197,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Hard",
+        "stem": "The parts of human brain that helps in regulation of sexual behaviour, expression of excitement, pleasure, rage, fear etc. are:",
+        "options": {
+          "1": "Corpora quadrigemina and hippocampus",
+          "2": "Brain stem and epithalamus",
+          "3": "Corpus callosum and thalamus",
+          "4": "Limbic system and hypothalamus"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2023-F1-Q198",
+        "sourceYear": 2023,
+        "sourceNumber": 198,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Hard",
+        "stem": "Match List I with List II. List I List II A. Mast cells I. Ciliated epithelium B. Inner surface Of bronchiole II. Areolar connective tissue C. Blood III. Cuboidal epithelium D. Tubular parts of nephron IV. Specialised connective tissue Choose the correct answer from the options give below:",
+        "options": {
+          "1": "A-II, B-III, C-I, D-IV",
+          "2": "A-II, B-I, C-IV, D-III",
+          "3": "A-III, B-IV, C-II, D-I",
+          "4": "A-I, B-II, C-IV, D-III"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2023-F1-Q200",
+        "sourceYear": 2023,
+        "sourceNumber": 200,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Hard",
+        "stem": "Select the correct statements with reference to chordates. A. Presence of a mid-dorsal, solid and double nerve cord. B. Presence of closed circulatory system. C. Presence of paired pharyngeal gill slits. D. Presence of dorsal heart E. Triploblastic pseudocoelomate animals. Choose the correct answer from the options given below:",
+        "options": {
+          "1": "B and C only",
+          "2": "B, D and E only",
+          "3": "C, D and E only",
+          "4": "A, C and D only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2024-R1-Q146",
+        "sourceYear": 2024,
+        "sourceNumber": 149,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Hard",
+        "stem": "Match List-I with List-II List-I List-II A. GLUT-4 I. Hormone B. Insulin II. Enzyme C. Trypsin III. Intercellular ground substance D. Collagen IV. Enables glucose transport into cells Choose the correct answer from the options given below.",
+        "options": {
+          "1": "A-I, B-II, C-III, D-IV",
+          "2": "A-II, B-III, C-IV, D-I",
+          "3": "A-III, B-IV, C-I, D-II",
+          "4": "A-IV, B-I, C-II, D-III"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2024-R1-Q151",
+        "sourceYear": 2024,
+        "sourceNumber": 154,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Hard",
+        "stem": "Match List I with List II : List I List II A. Pons I. Provides additional space for Neurons, regulates posture and balance. B. Hypothalamus II. Controls respiration and gastric secretions. C. Medulla III. Connects different regions of the brain. D. Cerebellum IV. Neuro secretory cells Choose the correct answer from the options given below :",
+        "options": {
+          "1": "A-III, B-IV, C-II, D-I",
+          "2": "A-I, B-III, C-II, D-IV",
+          "3": "A-II, B-I, C-III, D-IV",
+          "4": "A-II, B-III, C-I, D-IV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2024-R1-Q155",
+        "sourceYear": 2024,
+        "sourceNumber": 158,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Hard",
+        "stem": "Given below are two statements : one is labelled as Assertion A and the other is labelled as Reason R : Assertion A : FSH acts upon ovarian follicles in female and Leydig cells in male. Reason R : Growing ovarian follicles secrete estrogen in female while interstitial cells secrete androgen in male human being. In the light of the above statements, choose the correct answer from the options given below :",
+        "options": {
+          "1": "Both A and R are true but R is NOT the correct explanation of A",
+          "2": "A is true but R is false",
+          "3": "A is false but R is true",
+          "4": "Both A and R are true and R is the correct explanation of A"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2024-R1-Q190",
+        "sourceYear": 2024,
+        "sourceNumber": 191,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Hard",
+        "stem": "Given below are two statements : Statement I : Bone marrow is the main lymphoid organ where all blood cells including lymphocytes are produced. Statement II : Both bone marrow and thymus provide micro environments for the development and maturation of T-lymphocytes. In the light of above statements, choose the most appropriate answer from the options given below :",
+        "options": {
+          "1": "Both Statement I and Statement II are incorrect.",
+          "2": "Statement I is correct but Statement II is incorrect.",
+          "3": "Statement I is incorrect but Statement II is correct.",
+          "4": "Both Statement I and Statement II are correct."
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2024-R1-Q192",
+        "sourceYear": 2024,
+        "sourceNumber": 193,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Hard",
+        "stem": "Match List I with List II : - 79 - NEET (UG)-2024 (Code-R1) List I List II A. Exophthalmic goiter I. Excess secretion of cortisol, moon face & hypergylcemia. B. Acromegaly II. Hypo-secretion of thyroid hormone and stunted growth. C. Cushing’s syndrome III. Hyper secretion of thyroid hormone & protruding eye balls. D. Cretinism IV. Excessive secretion of growth hormone. Choose the correct answer from the options given below :",
+        "options": {
+          "1": "A-IV, B-II, C-I, D-III",
+          "2": "A-III, B-IV, C-II, D-I",
+          "3": "A-III, B-IV, C-I, D-II",
+          "4": "A-I, B-III, C-II, D-IV"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2024-R1-Q194",
+        "sourceYear": 2024,
+        "sourceNumber": 195,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Hard",
+        "stem": "As per ABO blood grouping system, the blood group of father is B+, mother is A+ and child is O+. Their respective genotype can be A. IBi/IAi/ii B. IBIB/IAIA/ii C. IAIB/iIA/IBi D. IAi/IBi/IAi E. iIB/iIA/IAIB Choose the most appropriate answer from the options given below :",
+        "options": {
+          "1": "B only",
+          "2": "C & B only",
+          "3": "D & E only",
+          "4": "A only"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2024-R1-Q200",
+        "sourceYear": 2024,
+        "sourceNumber": 200,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Hard",
+        "stem": "The following are the statements about non-chordates: A. Pharynx is perforated by gill slits. B. Notochord is absent. C. Central nervous system is dorsal. D. Heart is dorsal if present. E. Post anal tail is absent. Choose the most appropriate answer from the options given below:",
+        "options": {
+          "1": "A, B & D only",
+          "2": "B, D & E only",
+          "3": "B, C & D only",
+          "4": "A & C only"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2025-INTERIM-Q146",
+        "sourceYear": 2025,
+        "sourceNumber": 149,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Hard",
+        "stem": "Match List-I with List-II List-I List-II A. GLUT-4 I. Hormone B. Insulin II. Enzyme C. Trypsin III. Intercellular ground substance D. Collagen IV. Enables glucose transport into cells Choose the correct answer from the options given below.",
+        "options": {
+          "1": "A-I, B-II, C-III, D-IV",
+          "2": "A-II, B-III, C-IV, D-I",
+          "3": "A-III, B-IV, C-I, D-II",
+          "4": "A-IV, B-I, C-II, D-III"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2025-INTERIM-Q151",
+        "sourceYear": 2025,
+        "sourceNumber": 154,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Hard",
+        "stem": "Match List I with List II : List I List II A. Pons I. Provides additional space for Neurons, regulates posture and balance. B. Hypothalamus II. Controls respiration and gastric secretions. C. Medulla III. Connects different regions of the brain. D. Cerebellum IV. Neuro secretory cells Choose the correct answer from the options given below :",
+        "options": {
+          "1": "A-III, B-IV, C-II, D-I",
+          "2": "A-I, B-III, C-II, D-IV",
+          "3": "A-II, B-I, C-III, D-IV",
+          "4": "A-II, B-III, C-I, D-IV"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2025-INTERIM-Q155",
+        "sourceYear": 2025,
+        "sourceNumber": 158,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Hard",
+        "stem": "Given below are two statements : one is labelled as Assertion A and the other is labelled as Reason R : Assertion A : FSH acts upon ovarian follicles in female and Leydig cells in male. Reason R : Growing ovarian follicles secrete estrogen in female while interstitial cells secrete androgen in male human being. In the light of the above statements, choose the correct answer from the options given below :",
+        "options": {
+          "1": "Both A and R are true but R is NOT the correct explanation of A",
+          "2": "A is true but R is false",
+          "3": "A is false but R is true",
+          "4": "Both A and R are true and R is the correct explanation of A"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2025-INTERIM-Q190",
+        "sourceYear": 2025,
+        "sourceNumber": 191,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Hard",
+        "stem": "Given below are two statements : Statement I : Bone marrow is the main lymphoid organ where all blood cells including lymphocytes are produced. Statement II : Both bone marrow and thymus provide micro environments for the development and maturation of T-lymphocytes. In the light of above statements, choose the most appropriate answer from the options given below :",
+        "options": {
+          "1": "Both Statement I and Statement II are incorrect.",
+          "2": "Statement I is correct but Statement II is incorrect.",
+          "3": "Statement I is incorrect but Statement II is correct.",
+          "4": "Both Statement I and Statement II are correct."
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2025-INTERIM-Q192",
+        "sourceYear": 2025,
+        "sourceNumber": 193,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Hard",
+        "stem": "Match List I with List II : - 79 - NEET (UG)-2024 (Code-R1) List I List II A. Exophthalmic goiter I. Excess secretion of cortisol, moon face & hypergylcemia. B. Acromegaly II. Hypo-secretion of thyroid hormone and stunted growth. C. Cushing’s syndrome III. Hyper secretion of thyroid hormone & protruding eye balls. D. Cretinism IV. Excessive secretion of growth hormone. Choose the correct answer from the options given below :",
+        "options": {
+          "1": "A-IV, B-II, C-I, D-III",
+          "2": "A-III, B-IV, C-II, D-I",
+          "3": "A-III, B-IV, C-I, D-II",
+          "4": "A-I, B-III, C-II, D-IV"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2025-INTERIM-Q194",
+        "sourceYear": 2025,
+        "sourceNumber": 195,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Hard",
+        "stem": "As per ABO blood grouping system, the blood group of father is B+, mother is A+ and child is O+. Their respective genotype can be A. IBi/IAi/ii B. IBIB/IAIA/ii C. IAIB/iIA/IBi D. IAi/IBi/IAi E. iIB/iIA/IAIB Choose the most appropriate answer from the options given below :",
+        "options": {
+          "1": "B only",
+          "2": "C & B only",
+          "3": "D & E only",
+          "4": "A only"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2025-INTERIM-Q200",
+        "sourceYear": 2025,
+        "sourceNumber": 200,
+        "subject": "Biology",
+        "topic": "Human Physiology",
+        "difficulty": "Hard",
+        "stem": "The following are the statements about non-chordates: A. Pharynx is perforated by gill slits. B. Notochord is absent. C. Central nervous system is dorsal. D. Heart is dorsal if present. E. Post anal tail is absent. Choose the most appropriate answer from the options given below:",
+        "options": {
+          "1": "A, B & D only",
+          "2": "B, D & E only",
+          "3": "B, C & D only",
+          "4": "A & C only"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      }
+    ]
+  },
+  "gaps": [
+    "Easy: have 26, need 50 (sourcing more from reputable NEET banks)",
+    "Medium: have 22, need 50 (sourcing more from reputable NEET banks)",
+    "Hard: have 27, need 50 (sourcing more from reputable NEET banks)"
+  ]
+}

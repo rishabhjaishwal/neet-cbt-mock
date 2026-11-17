@@ -1,10 +1,186 @@
 /**
  * Presentation-only helpers: turn stored question text into Markdown for display.
- * Never invents or rewrites wording — only adds structure (breaks, tables, escapes).
+ * Never invents scientific content — only adds structure (breaks, tables, math wraps).
  */
 
 function escapeMdCell(s: string): string {
   return s.replace(/\|/g, "\\|").replace(/\n+/g, " ").trim();
+}
+
+/** Wrap common physics/chem subscripts for KaTeX without changing meaning. */
+export function applyInlineMathHints(text: string): string {
+  let t = text;
+  // Avoid double-wrapping inside existing $...$
+  const parts = t.split(/(\$[^$]+\$)/);
+  return parts
+    .map((part) => {
+      if (part.startsWith("$") && part.endsWith("$")) return part;
+      let s = part;
+      // n1 / n2 / ml / ms / l / quantum-style: n_2 = 3
+      s = s.replace(/\bn([12])\b(?!\s*[=])/g, "n_$1");
+      s = s.replace(/\bn_([12])\s*=\s*(\d+)/g, "$n_$1 = $2$");
+      s = s.replace(/\bn([12])\s*=\s*(\d+)/g, "$n_$1 = $2$");
+      // leftover bare n1/n2 as math
+      s = s.replace(/(?<!\$)\bn_([12])\b(?!\$)/g, "$n_$1$");
+      s = s.replace(/(?<!\$)\bm_([lsl])\b(?!\$)/g, "$m_$1$");
+      // Common molecular formulas (avoid wrapping inside [complex] brackets)
+      s = s.replace(
+        /(?<!\$)\b(H2O|CO2|O2|N2|H2|NH3|CH4|CaCl2|Fe2O3|SO2|SO3|NO2|H2SO4)\b(?!\$)/g,
+        (m) => `$${m.replace(/(\d+)/g, "_{$1}")}$`,
+      );
+      // charged ions like Mn2+ / Fe3+
+      s = s.replace(
+        /(?<!\$)\b([A-Z][a-z]?)(\d+)([+\-−])\b(?!\$)/g,
+        "$$1^{$2$3}$",
+      );
+      return s;
+    })
+    .join("");
+}
+
+function normalizeListHeaders(beforeItems: string): {
+  intro: string;
+  leftHeader: string;
+  rightHeader: string;
+} {
+  let chunk = beforeItems
+    .replace(/\s+/g, " ")
+    .replace(/^Match\s+List\s*[-–]?\s*I\s+with\s+List\s*[-–]?\s*II\s*[:.]?\s*/i, "")
+    .replace(/^List\s*[-–]?\s*I\s+List\s*[-–]?\s*II\s*/i, "")
+    .replace(/^List\s*[-–]?\s*I\s*/i, "")
+    .trim();
+
+  const intro = "Match List I with List II.";
+
+  // Clean sequential headers: (Process) (Conditions)
+  const sequential = chunk.match(
+    /^\(([^()]{2,80})\)\s*\(([^()]{2,80})\)\s*$/,
+  );
+  if (sequential) {
+    return {
+      intro,
+      leftHeader: sequential[1].trim(),
+      rightHeader: sequential[2].trim(),
+    };
+  }
+
+  // Nested smash: (Spectral Lines of (Wavelengths (nm)) Hydrogen for transitions from)
+  const nested = chunk.match(/^\((.+)\)\s*$/);
+  if (nested) {
+    const inner = nested[1];
+    // Prefer full "(Wavelengths (nm))" group over bare "(nm)"
+    const nestHit =
+      inner.match(/\((Wavelengths?\s*\([^)]+\))\)/i) ||
+      inner.match(
+        /\(([^()]*(?:wavelength|condition|reagent|shape|geometry|isomer|bond|faraday|information|character|example|type)[^()]*)\)/i,
+      );
+    if (nestHit && nestHit.index != null) {
+      const right = nestHit[1].trim();
+      const left = `${inner.slice(0, nestHit.index)} ${inner.slice(nestHit.index + nestHit[0].length)}`
+        .replace(/\s+/g, " ")
+        .trim();
+      if (left.length > 3 && right.length > 1) {
+        return { intro, leftHeader: left, rightHeader: right };
+      }
+    }
+  }
+
+  // "List I (X) List II (Y)" leftovers
+  const labeled = beforeItems.match(
+    /List\s*[-–]?\s*I\s*\(([^)]+)\)\s*List\s*[-–]?\s*II\s*\(([^)]+)\)/i,
+  );
+  if (labeled) {
+    return {
+      intro,
+      leftHeader: labeled[1].trim(),
+      rightHeader: labeled[2].trim(),
+    };
+  }
+
+  // Bare "(Complex) List II (Type of isomerism)" mid-forms
+  const mid = chunk.match(
+    /^(?:List\s*I\s*)?\(([^)]+)\)\s*(?:List\s*II\s*)?\(([^)]+)\)/i,
+  );
+  if (mid) {
+    return { intro, leftHeader: mid[1].trim(), rightHeader: mid[2].trim() };
+  }
+
+  return { intro, leftHeader: "List I", rightHeader: "List II" };
+}
+
+/**
+ * NEET "Match List I / List II" with A./B./C./D. and I./II./III./IV. markers
+ * (often OCR-interleaved as A. … I. … B. … II. …).
+ */
+function matchListAIToMarkdown(stem: string): string | null {
+  if (!/Match\s+List/i.test(stem)) return null;
+  // Items always start at A. — ignore "List I." / "List II." periods in the intro.
+  const firstA = stem.search(/\bA\.\s/);
+  if (firstA < 0) return null;
+  if (!/\bI\.\s/.test(stem.slice(firstA))) return null;
+
+  const headerChunk = stem.slice(0, firstA);
+  const body = stem.slice(firstA);
+  const { intro, leftHeader, rightHeader } = normalizeListHeaders(headerChunk);
+
+  const markerRe = /\b([A-D]|IV|III|II|I)\.\s*/g;
+  const marks = [...body.matchAll(markerRe)];
+  const letters = marks.filter((m) => /^[A-D]$/.test(m[1]));
+  const romans = marks.filter((m) => /^(IV|III|II|I)$/.test(m[1]));
+  if (letters.length < 2 || romans.length < 2) return null;
+
+  type Item = { key: string; text: string };
+  const leftItems: Item[] = [];
+  const rightItems: Item[] = [];
+
+  for (let i = 0; i < marks.length; i++) {
+    const m = marks[i];
+    const key = m[1];
+    const start = (m.index ?? 0) + m[0].length;
+    const end =
+      i + 1 < marks.length ? (marks[i + 1].index ?? body.length) : body.length;
+    let text = body.slice(start, end);
+    text = text.replace(
+      /\s*Choose the correct answer from the options given below\s*:?\s*$/i,
+      "",
+    );
+    text = text.replace(/\s*Select the correct answer from the options given below\s*:?\s*$/i, "");
+    text = text.replace(/\s*Choose the correct answer from the option given below\s*:?\s*$/i, "");
+    text = text.trim();
+    // Keep empty left cells (OCR often drops structural diagrams between A. and I.)
+    if (/^[A-D]$/.test(key)) leftItems.push({ key, text: text || "*(structure)*" });
+    else if (text) rightItems.push({ key, text });
+  }
+
+  if (leftItems.length < 2 || rightItems.length < 2) return null;
+
+  // Preserve official order of romans as they appear
+  const rows = Math.max(leftItems.length, rightItems.length);
+  const lines: string[] = [];
+  lines.push(intro, "");
+  const lh = leftHeader === "List I" ? "List I" : `List I (${leftHeader})`;
+  const rh = rightHeader === "List II" ? "List II" : `List II (${rightHeader})`;
+  lines.push(`| ${escapeMdCell(lh)} | ${escapeMdCell(rh)} |`);
+  lines.push("| --- | --- |");
+  for (let i = 0; i < rows; i++) {
+    const L = leftItems[i];
+    const R = rightItems[i];
+    const left = L
+      ? `**${L.key}.** ${escapeMdCell(applyInlineMathHints(L.text))}`
+      : "";
+    const right = R
+      ? `**${R.key}.** ${escapeMdCell(applyInlineMathHints(R.text))}`
+      : "";
+    lines.push(`| ${left} | ${right} |`);
+  }
+
+  if (/Choose the correct answer from the options? given below/i.test(stem)) {
+    lines.push("", "Choose the correct answer from the options given below:");
+  } else if (/Select the correct answer from the options given below/i.test(stem)) {
+    lines.push("", "Select the correct answer from the options given below:");
+  }
+
+  return lines.join("\n");
 }
 
 /** Pair Column-I style (a)/(b) items with Column-II (i)/(ii) items when present. */
@@ -14,92 +190,158 @@ function matchColumnsToMarkdown(stem: string): string | null {
     !lower.includes("match the following") &&
     !lower.includes("column - i") &&
     !lower.includes("column-i") &&
-    !/list\s*[-–]?\s*i\b/i.test(stem)
+    !/list\s*[-–]?\s*i\b/i.test(stem) &&
+    !/match\s+list/i.test(stem)
   ) {
     return null;
   }
 
-  const leftRe = /\(([a-d])\)\s*/gi;
-  const rightRe = /\(((?:iv|iii|ii|i))\)\s*/gi;
-  const leftMarks = [...stem.matchAll(leftRe)];
-  const rightMarks = [...stem.matchAll(rightRe)];
+  const firstLeftIdx = stem.search(/\([a-d]\)\s*/i);
+  if (firstLeftIdx < 0) return null;
+  const headerChunk = stem.slice(0, firstLeftIdx);
+  const body = stem.slice(firstLeftIdx);
+  const intro =
+    headerChunk.replace(/\s+/g, " ").trim() ||
+    "Match List - I with List - II.";
+
+  // Drop trailing choice prompt so "(a) (b) (c) (d)" is not re-tokenized.
+  const bodyCore = body
+    .replace(/\s*Choose the correct answer from the options given below[\s\S]*$/i, "")
+    .replace(/\s*Select the correct option\s*:?[\s\S]*$/i, "")
+    .trim();
+
+  // Interleaved (a)…(i)…(b)…(ii)… — tokenize from first (a)
+  const markerRe = /\(((?:[a-d]|iv|iii|ii|i))\)\s*/gi;
+  const marks = [...bodyCore.matchAll(markerRe)];
+  const leftMarks = marks.filter((m) => /^[a-d]$/i.test(m[1]));
+  const rightMarks = marks.filter((m) => /^(iv|iii|ii|i)$/i.test(m[1]));
   if (leftMarks.length < 2 || rightMarks.length < 2) return null;
 
-  // Intro: text before first (a) or "Column"
-  const firstLeft = leftMarks[0].index ?? 0;
-  const colIdx = stem.search(/Column\s*[-–]?\s*I\b/i);
-  const introEnd = colIdx >= 0 && colIdx < firstLeft ? colIdx : firstLeft;
-  const intro = stem.slice(0, introEnd).trim();
-
-  const leftItems: { key: string; text: string }[] = [];
-  for (let i = 0; i < leftMarks.length; i++) {
-    const m = leftMarks[i];
-    const start = (m.index ?? 0) + m[0].length;
-    const end = i + 1 < leftMarks.length ? (leftMarks[i + 1].index ?? stem.length) : stem.length;
-    let text = stem.slice(start, end);
-    // Stop before Column-II / right column markers if they appear in leftover
-    text = text.replace(/\s*Column\s*[-–]?\s*II[\s\S]*$/i, "");
-    text = text.replace(/\s*\(((?:iv|iii|ii|i))\)[\s\S]*$/i, "");
-    text = text.replace(/\s*\(([a-d])\)\s*$/i, "");
-    // Trailing selection prompt like "(a) (b) (c) (d)"
-    text = text.replace(/\s*\(a\)\s*\(b\)\s*\(c\)\s*\(d\)\s*$/i, "");
-    text = text.replace(/\s*Select the correct option\s*:?\s*$/i, "");
-    text = text.replace(/\s*Which of the following is correct option\s*\??\s*$/i, "");
-    text = text.trim();
-    if (text) leftItems.push({ key: m[1].toLowerCase(), text });
-  }
-
-  // Right column: prefer marks that appear after Column II or after left block started mixing
-  const col2 = stem.search(/Column\s*[-–]?\s*II\b/i);
-  const rightStart = col2 >= 0 ? col2 : (rightMarks[0].index ?? 0);
-  const rightSlice = stem.slice(rightStart);
-  const rightInSlice = [...rightSlice.matchAll(rightRe)];
-  const rightItems: { key: string; text: string }[] = [];
-  for (let i = 0; i < rightInSlice.length; i++) {
-    const m = rightInSlice[i];
+  type Item = { key: string; text: string };
+  const leftItems: Item[] = [];
+  const rightItems: Item[] = [];
+  for (let i = 0; i < marks.length; i++) {
+    const m = marks[i];
+    const key = m[1].toLowerCase();
     const start = (m.index ?? 0) + m[0].length;
     const end =
-      i + 1 < rightInSlice.length ? (rightInSlice[i + 1].index ?? rightSlice.length) : rightSlice.length;
-    let text = rightSlice.slice(start, end);
-    text = text.replace(/\s*\(([a-d])\)[\s\S]*$/i, "");
-    text = text.replace(/\s*\(a\)\s*\(b\)\s*\(c\)\s*\(d\)\s*$/i, "");
-    text = text.replace(/\s*Select the correct option\s*:?\s*$/i, "");
-    text = text.replace(/\s*Which of the following is correct option\s*\??\s*$/i, "");
-    text = text.trim();
-    if (text) rightItems.push({ key: m[1].toLowerCase(), text });
+      i + 1 < marks.length ? (marks[i + 1].index ?? bodyCore.length) : bodyCore.length;
+    let text = bodyCore.slice(start, end).trim();
+    if (/^[a-d]$/.test(key)) {
+      leftItems.push({ key, text: text || "*(see paper)*" });
+    } else if (text) {
+      rightItems.push({ key, text });
+    }
   }
 
   if (leftItems.length < 2 || rightItems.length < 2) return null;
 
+  // Recover headers from intro when present as sequential (X) (Y) after List labels
+  let leftHeader = "List - I";
+  let rightHeader = "List - II";
+  const hdr = headerChunk.match(/\(([^)]{2,60})\)\s*\(([^)]{2,60})\)/);
+  if (hdr) {
+    leftHeader = `List - I (${hdr[1].trim()})`;
+    rightHeader = `List - II (${hdr[2].trim()})`;
+  }
+
   const rows = Math.max(leftItems.length, rightItems.length);
   const lines: string[] = [];
-  if (intro) lines.push(intro, "");
-  lines.push("| Column I | Column II |", "| --- | --- |");
+  lines.push(intro.replace(/\s*List\s*[-–]?\s*I\s+List\s*[-–]?\s*II.*$/i, "").trim() || intro);
+  // If intro still has smashed descriptive words before (a), keep a short lead-in
+  lines.push("");
+  lines.push(`| ${escapeMdCell(leftHeader)} | ${escapeMdCell(rightHeader)} |`);
+  lines.push("| --- | --- |");
   for (let i = 0; i < rows; i++) {
     const L = leftItems[i];
     const R = rightItems[i];
-    const left = L ? `(${L.key}) ${escapeMdCell(L.text)}` : "";
-    const right = R ? `(${R.key}) ${escapeMdCell(R.text)}` : "";
+    const left = L
+      ? `(${L.key}) ${escapeMdCell(applyInlineMathHints(L.text))}`
+      : "";
+    const right = R
+      ? `(${R.key}) ${escapeMdCell(applyInlineMathHints(R.text))}`
+      : "";
     lines.push(`| ${left} | ${right} |`);
   }
 
-  // Keep a trailing prompt if present in original
   if (/\(a\)\s*\(b\)\s*\(c\)\s*\(d\)/i.test(stem)) {
     lines.push("", "**(a) (b) (c) (d)**");
   } else if (/select the correct option/i.test(stem)) {
     lines.push("", "Select the correct option:");
+  } else if (/Choose the correct answer/i.test(stem)) {
+    lines.push("", "Choose the correct answer from the options given below:");
   }
 
   return lines.join("\n");
 }
 
-/** Soft-wrap “see figure / diagram” stems with a clear callout line — same words. */
+/** Assertion–Reason / Statement I–II stems → clear stacked blocks. */
+function assertionReasonMarkdown(stem: string): string | null {
+  const hasAssert = /Assertion\s*A\b|Assertion\s*\(A\)/i.test(stem);
+  const hasReason = /Reason\s*R\b|Reasons?\s*R\b|Reason\s*\(R\)/i.test(stem);
+  const hasStmt =
+    /Statement\s*I\b/i.test(stem) && /Statement\s*II\b/i.test(stem);
+  if (!hasAssert && !hasReason && !hasStmt) return null;
+
+  let t = stem.replace(/\s+/g, " ").trim();
+  const lines: string[] = [];
+
+  const given = t.match(
+    /^(Given below are two statements[^:]*:\s*)/i,
+  );
+  if (given) {
+    lines.push(given[1].trim());
+    t = t.slice(given[0].length).trim();
+  }
+
+  if (hasAssert || hasReason) {
+    const aMatch = t.match(
+      /Assertion\s*A\s*:\s*([\s\S]*?)(?=\s*Reasons?\s*R\s*:)/i,
+    );
+    const rMatch = t.match(
+      /Reasons?\s*R\s*:\s*([\s\S]*?)(?=\s*In the light of the above|\s*Choose the correct|$)/i,
+    );
+    if (aMatch) {
+      lines.push(`**Assertion (A):** ${applyInlineMathHints(aMatch[1].trim())}`);
+      lines.push("");
+    }
+    if (rMatch) {
+      lines.push(`**Reason (R):** ${applyInlineMathHints(rMatch[1].trim())}`);
+      lines.push("");
+    }
+    if (!aMatch && !rMatch) return null;
+  } else if (hasStmt) {
+    const s1 = t.match(
+      /Statement\s*I\s*:\s*([\s\S]*?)(?=\s*Statement\s*II\s*:)/i,
+    );
+    const s2 = t.match(
+      /Statement\s*II\s*:\s*([\s\S]*?)(?=\s*In the light of the above|\s*Choose the correct|$)/i,
+    );
+    if (!s1 || !s2) return null;
+    lines.push(`**Statement I:** ${applyInlineMathHints(s1[1].trim())}`);
+    lines.push("");
+    lines.push(`**Statement II:** ${applyInlineMathHints(s2[1].trim())}`);
+    lines.push("");
+  }
+
+  const tail = stem.match(
+    /(In the light of the above statements[\s\S]*)$/i,
+  );
+  if (tail) {
+    lines.push(tail[1].replace(/\s+/g, " ").trim());
+  } else if (/Choose the correct answer/i.test(stem)) {
+    lines.push("Choose the correct answer from the options given below:");
+  }
+
+  return lines.join("\n").trim() || null;
+}
+
+/** Soft-wrap “see figure / diagram” stems with readable spacing — same words. */
 function diagramHintMarkdown(stem: string): string | null {
-  if (!/\b(see figure|following diagram|shown in the figure|as shown)\b/i.test(stem)) {
+  if (!/\b(see figure|following diagram|shown in the figure|as shown|given figure)\b/i.test(stem)) {
     return null;
   }
-  // Keep full stem; only ensure readable paragraphs (no content change).
-  return stem.replace(/\s+/g, " ").trim();
+  return applyInlineMathHints(stem.replace(/\s+/g, " ").trim());
 }
 
 /**
@@ -110,26 +352,36 @@ export function stemToDisplayMarkdown(stem: string): string {
   const raw = stem ?? "";
   if (!raw.trim()) return "";
 
+  const asListAI = matchListAIToMarkdown(raw);
+  if (asListAI) return asListAI;
+
   const asMatch = matchColumnsToMarkdown(raw);
   if (asMatch) return asMatch;
+
+  const asAssert = assertionReasonMarkdown(raw);
+  if (asAssert) return asAssert;
 
   const diagram = diagramHintMarkdown(raw);
   if (diagram) return diagram;
 
-  // Preserve intentional newlines; collapse messy single-line spacing lightly for readability
   if (raw.includes("\n")) {
-    return raw.replace(/\r\n/g, "\n").trim();
+    return applyInlineMathHints(raw.replace(/\r\n/g, "\n").trim());
   }
-  return raw.replace(/\s+/g, " ").trim();
+  return applyInlineMathHints(raw.replace(/\s+/g, " ").trim());
 }
 
-/** Options: keep wording; keep multi-token answers on one visual line via non-breaking spaces between tokens when match-style. */
+/** Options: keep wording; keep multi-token answers on one visual line. */
 export function optionToDisplayMarkdown(option: string): string {
   const t = (option ?? "").trim();
   if (!t) return "";
-  // Match-style keys like "(i) (iii) (ii) (iv)" — keep on one line
   if (/^\([ivx]+\)(\s+\([ivx]+\))+$/i.test(t) || /^\([a-d]\)(\s+\([a-d]\))+$/i.test(t)) {
     return t.replace(/ /g, "\u00a0");
   }
-  return t;
+  // Match-style A-III, B-IV → readable em-dashes
+  if (/^[A-D]\s*[-–—]\s*(IV|III|II|I)\b/i.test(t) || /[A-D]\s*-\s*(IV|III|II|I)/i.test(t)) {
+    return applyInlineMathHints(
+      t.replace(/([A-D])\s*[-–—]\s*/gi, "$1 — ").replace(/,\s*/g, ", "),
+    );
+  }
+  return applyInlineMathHints(t);
 }

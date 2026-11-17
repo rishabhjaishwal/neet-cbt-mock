@@ -244,6 +244,9 @@ function lightMathHints(text: string): string {
   // Wrap simple superscripts like 10^-6 or x^2 when not already in $...$
   t = t.replace(/(?<!\$)\b(\d+)\s*\^\s*([+\-]?\d+)\b(?!\$)/g, "$$1^{$2}$");
   t = t.replace(/(?<!\$)\b10\s*[−\-]\s*(\d+)\b(?!\$)/g, "$10^{-$1}$");
+  // Quantum numbers commonly written as n2 / n1 in OCR
+  t = t.replace(/(?<!\$)\bn([12])\s*=\s*(\d+)\b(?!\$)/g, "$n_$1 = $2$");
+  t = t.replace(/(?<!\$)\bn([12])\b(?!\$)/g, "$n_$1$");
   // μm already unicode; ensure micro sign forms
   t = t.replace(/µ/g, "μ");
   return t;

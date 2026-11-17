@@ -1,0 +1,887 @@
+{
+  "id": "physics-waves-oscillations",
+  "subject": "Physics",
+  "topic": "Waves & Oscillations",
+  "counts": {
+    "Easy": 16,
+    "Medium": 3,
+    "Hard": 17
+  },
+  "questions": {
+    "Easy": [
+      {
+        "id": "2019-G1-Q132",
+        "sourceYear": 2019,
+        "sourceNumber": 1,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Easy",
+        "stem": "In hydrogen atom, the de Broglie wavelength of an electron in the second Bohr orbit is: [Given that Bohr radius, a0 = 52.9 pm]",
+        "options": {
+          "1": "211.6 pm",
+          "2": "211.6 π pm",
+          "3": "52.9 π pm",
+          "4": "105.8 pm"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2019-G1-Q137",
+        "sourceYear": 2019,
+        "sourceNumber": 3,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Easy",
+        "stem": "The distance covered by a particle undergoing SHM in one time period is (amplitude = A),",
+        "options": {
+          "1": "zero",
+          "2": "A",
+          "3": "2 A",
+          "4": "4 A"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2019-G1-Q148",
+        "sourceYear": 2019,
+        "sourceNumber": 13,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Easy",
+        "stem": "An LED is constructed from a p-n junction diode using GaAsP. The energy gap is 1.9 eV. The wavelength of the light emitted will be equal to –26 –11",
+        "options": {
+          "1": "10.4 × 10 m",
+          "2": "654 nm",
+          "3": "654 Å",
+          "4": "654 × 10 m"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2019-G1-Q180",
+        "sourceYear": 2019,
+        "sourceNumber": 45,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Easy",
+        "stem": "A proton and an α-particle are accelerated from rest to the same energy. The de Broglie wavelength λp and λα are in the ratio :",
+        "options": {
+          "1": "2 : 1",
+          "2": "1 : 1",
+          "3": "2 :1",
+          "4": "4 : 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2020-E1-Q42",
+        "sourceYear": 2020,
+        "sourceNumber": 8,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Easy",
+        "stem": "An electron is accelerated from rest through a potential difference of V volt. If the de Broglie wavelength of the electron is 1.227×20^{-2}$ nm, the potential difference is :",
+        "options": {
+          "1": "102 V",
+          "2": "103 V",
+          "3": "104 V",
+          "4": "10 V"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2020-E1-Q95",
+        "sourceYear": 2020,
+        "sourceNumber": 11,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Easy",
+        "stem": "An electron is accelerated from rest through a potential difference of V volt. If the de Broglie wavelength of the electron is 1.227×20^{-2}$ nm, the potential difference is :",
+        "options": {
+          "1": "103 V",
+          "2": "104 V",
+          "3": "10 V",
+          "4": "102 V Hindi+English 2"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2020-E1-Q136",
+        "sourceYear": 2020,
+        "sourceNumber": 25,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Easy",
+        "stem": "An electron is accelerated from rest through a potential difference of V volt. If the de Broglie wavelength of the electron is 1.227×20^{-2}$ nm, the potential difference is :",
+        "options": {
+          "1": "104 V",
+          "2": "10 V",
+          "3": "102 V",
+          "4": "103 V"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2020-E1-Q159",
+        "sourceYear": 2020,
+        "sourceNumber": 37,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Easy",
+        "stem": "Assume that light of wavelength 600 nm is coming from a star. The limit of resolution of telescope whose objective has a diameter of 2 m is :",
+        "options": {
+          "1": "6.00×70^{-7}$ rad",
+          "2": "3.66×70^{-7}$ rad",
+          "3": "1.83×70^{-7}$ rad",
+          "4": "7.32×70^{-7}$ rad"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2020-E1-Q175",
+        "sourceYear": 2020,
+        "sourceNumber": 44,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Easy",
+        "stem": "An electron is accelerated from rest through a potential difference of V volt. If the de Broglie wavelength of the electron is 1.227×20^{-2}$ nm, the potential difference is :",
+        "options": {
+          "1": "10 V",
+          "2": "102 V",
+          "3": "103 V",
+          "4": "104 V"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2022-RECON-Q142",
+        "sourceYear": 2022,
+        "sourceNumber": 7,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Easy",
+        "stem": "In hydrogen atom, the de Broglie wavelength of an electron in the second Bohr orbit is: [Given that Bohr radius, a0 = 52.9 pm]",
+        "options": {
+          "1": "211.6 pm",
+          "2": "211.6 π pm",
+          "3": "52.9 π pm",
+          "4": "105.8 pm"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2022-RECON-Q147",
+        "sourceYear": 2022,
+        "sourceNumber": 9,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Easy",
+        "stem": "The distance covered by a particle undergoing SHM in one time period is (amplitude = A),",
+        "options": {
+          "1": "zero",
+          "2": "A",
+          "3": "2 A",
+          "4": "4 A"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2022-RECON-Q158",
+        "sourceYear": 2022,
+        "sourceNumber": 15,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Easy",
+        "stem": "An LED is constructed from a p-n junction diode using GaAsP. The energy gap is 1.9 eV. The wavelength of the light emitted will be equal to –26 –11",
+        "options": {
+          "1": "10.4 × 10 m",
+          "2": "654 nm",
+          "3": "654 Å",
+          "4": "654 × 10 m"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2023-F1-Q12",
+        "sourceYear": 2023,
+        "sourceNumber": 11,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Easy",
+        "stem": "The minimum wavelength of X-rays produced by an electron accelerated through a potential difference of V volts is proportional to 1 1",
+        "options": {
+          "1": "Option 1",
+          "2": "V V",
+          "3": "V2",
+          "4": "V"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2023-F1-Q33",
+        "sourceYear": 2023,
+        "sourceNumber": 32,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Easy",
+        "stem": "In hydrogen spectrum, the shortest wavelength in the Balmer series is λ. The shortest wavelength in the Bracket series is",
+        "options": {
+          "1": "4λ",
+          "2": "9λ",
+          "3": "16λ",
+          "4": "2λ"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2024-R1-Q18",
+        "sourceYear": 2024,
+        "sourceNumber": 15,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Easy",
+        "stem": "⎛ 1 ⎞ The graph which shows the variation of ⎜ ⎟ and its kinetic energy, E is (where λ is de Broglie wavelength ⎝ λ2 ⎠ of a free particle):",
+        "options": {
+          "1": "Option 1",
+          "2": "Option 2",
+          "3": "Option 3",
+          "4": "Option 4"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2025-INTERIM-Q18",
+        "sourceYear": 2025,
+        "sourceNumber": 15,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Easy",
+        "stem": "⎛ 1 ⎞ The graph which shows the variation of ⎜ ⎟ and its kinetic energy, E is (where λ is de Broglie wavelength ⎝ λ2 ⎠ of a free particle):",
+        "options": {
+          "1": "Option 1",
+          "2": "Option 2",
+          "3": "Option 3",
+          "4": "Option 4"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      }
+    ],
+    "Medium": [
+      {
+        "id": "2016-Phase1-Q18",
+        "sourceYear": 2016,
+        "sourceNumber": 15,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Medium",
+        "stem": "Given the value of Rydberg constant is 107 m-1, the 18. I f1llclicfi cfiT \"il'Ff 107 m-l lfqT t\", wave number of the last line of the Balmer series in cf,1 cf,1 zjfcn:r cf,1 o{TI hydrogen spectrum will be: zyft: (1) 0.25 X 107 m-1 (1) 0.25x107 m-1 (2) 2.5 X 107 m-1 (2) 2.5 X 107 m -l",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "[Option 2 incomplete in source PDF]",
+          "3": "0.025 X 104 m -1",
+          "4": "0.5 X 107 m-1"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2018-AA-Q43",
+        "sourceYear": 2018,
+        "sourceNumber": 19,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Medium",
+        "stem": "The power radiated by a black body is P and it radiates maximum energy at wavelength, λ0. If the temperature of the black body is now changed so that it radiates maximum energy at 3 wavelength λ , the power radiated by it 4 0 becomes nP. The value of n is 256",
+        "options": {
+          "1": "81 4",
+          "2": "3 3",
+          "3": "4 81",
+          "4": "256"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2019-G1-Q178",
+        "sourceYear": 2019,
+        "sourceNumber": 43,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Medium",
+        "stem": "Angular width of the central maximum in the Fraunhofer diffraction for λ = 6000 Å is θ0. When the same slit is illuminated by another monochromatic light, the angular width decreases by 30%. The wavelength of this light is :",
+        "options": {
+          "1": "1800 Å",
+          "2": "4200 Å",
+          "3": "6000 Å",
+          "4": "420 Å"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      }
+    ],
+    "Hard": [
+      {
+        "id": "2016-Phase1-Q1",
+        "sourceYear": 2016,
+        "sourceNumber": 1,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Hard",
+        "stem": "A siren emitting a sound of frequency 800 Hz moves . l.. away from an observer towards a cliff at a speed of 800 Hzcbl'.· 15 ms-l. . Then, the frequency of sound that the cbl' 3fR 15 ms-1 tfft obseer hears in the echo reflected from the cliff is 'JJftri:tR t° I <fii;f m:t cbl' ' f-m:i· (Take velocity of sound in air = 330 ms-1) quc1fcia t cf<lll\\1U? (1) 838 Hz (cJf9; c.ITT 330 ms- = 1) (1) 838 Hz (2) 885 Hz",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "885 Hz {3) 765 Hz",
+          "3": "765 Hz",
+          "4": "800 Hz"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2016-Phase1-Q8",
+        "sourceYear": 2016,
+        "sourceNumber": 5,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Hard",
+        "stem": "In a diffraction pattern due to a single slit of width (4) 'a', the first minimum is observed at an angle 30° when light of wavelength 5000 A is incident on the 8. 'a' cffl' °tJ\\ 5000 A a;(,,gf slit. The first secondarymaximum is observed at an cii«fli. mcfiRUT angle of: ll30°cb1ur°tJ\\l1 ft;rnqcfi \"cfi)ur °tJ\\ . l : sm-1 - (1) . . sm-1 - (1) (1) (12) - sin 1 . - {2) (¾ ) sm-1(1",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "[Option 2 incomplete in source PDF]",
+          "3": ". 1 sm-1(- 4) sm (-2) . . 2 sm-1(- -1",
+          "4": "3) z I English+Hilidi I"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2016-Phase1-Q14",
+        "sourceYear": 2016,
+        "sourceNumber": 11,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Hard",
+        "stem": "The intensity at the maximum in a Young's double slit experiment is I0. Distance between two slits is d=5X., where X. is the wavelength of light used in 14.. <i-rf fcnm fu \"'WWT ff cfi1 I0 t1 the experiment. What will be the intensity in front of one of the slits on the screen placed at a distance $TT <tt d=sx. x. ff t m 6fflcfi1 d{ 1\"4t1 fcnmT 1 D=10d? D=10d 1R1Rm'TT? 3 (1 ) - Io 3 4 (1) - 4 Io (2) Io (2)' 2",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "[Option 2 incomplete in source PDF]",
+          "3": "Io ",
+          "4": "4"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2016-Phase1-Q17",
+        "sourceYear": 2016,
+        "sourceNumber": 14,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Hard",
+        "stem": "A black body is at a temperature of 5760 K. The 17. qifwlcfil 5760 K all:f \"Cf\\ t\" 1 energy of radiation emitted by the body at fqfcfi<0ri cfIT . cl{•lblf 250 nm \"Cf\\ U , cf{1T wavelength 250 nm is U1, at wavelength 500 nm is 1 500 nm \"Cf\\ U 2 (f?.11 cl{•lElf 1000 nm \"Cf\\ U 3 U2 and that at 1000 nm is U3. Wien' s constant, b = 2.88 x106 nmK. Which of the following is cfi;r-f1llclicfi, b = 2.88 X 106 nmK i I correct? ·ct,\");n:rn:i'tf t? (1) U1 > U2 (1) U1 > U2 (2) U2 > U1 (2) U2 > U1",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "[Option 2 incomplete in source PDF]",
+          "3": "U1 = 0",
+          "4": "U3 = 0"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2016-Phase1-Q26",
+        "sourceYear": 2016,
+        "sourceNumber": 23,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Hard",
+        "stem": "When a metallic surface is illuminated with radiation of wavelength>.., the stopping potential is. 26. fcfiffl 1fioqil t1{'1bll ;\\ fqfcfi(Off\"B\" V. lithe same surface is illuminated with radiation m fcw:rr ':5f@T t, 'f.rot:ft fclcqq V t I <ffe:: 1fio of wavelength 2>.., the stopping potential is 4 . The V 2>- fqfq,(on 'B\" f<:w:rr '1lnt m 'f.rom threshold wavelength for the metallic surface is fcicqq V m\"':5f@Ttl 1fio<ti' d('lbll 4 (1) t: - (2) (3) 4 >.. (1)",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "3 >..",
+          "3": "4 >..",
+          "4": "511."
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2016-Phase1-Q36",
+        "sourceYear": 2016,
+        "sourceNumber": 33,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Hard",
+        "stem": "A uniform rope of length L and mass m1 hangs vertically from a rigid support. A block of mass m2 · i1 OO ljcRJAA is attached to the free end of the rope. A transverse m2'cfilt1 OOljcRJAA pulse of wavelength ;>..1 is produced at the lower end d:C•le4 \"i 'cfiT \\if@T I t of the rope. The wavelength of the pulse when it reaches the top of the rope is Ai· The ratio ;>..2/;>..1 is : '4'fu: oo cJcn \"q\"{ <f.l a,,ezf ;>..2 \"ITTtt qq ;>..2/;>.. 1 'cfillIT-lt: (1 ) 1 (1) 1 · - m1 m2 ; (2 ) (2) 1 1 (3) (3) 2 2 (4) f¥ 2 (4) 2 •@tglish+Hindij z · ·37. When an a-particle of mass 'm' moving with 37. 'm' WT 'v' a-\"q;UJ 'Ze' velocity 'v' bombards on a heavy nucleus of charge 'Ze', its distance of closest approach from the fciim 11f1Rqj«rfl m nucleus depends on m as \";ffl''qqi'\"il Rcfi2.d'i cfi1' . m 1R '5rcfiR R'lR 1 t\": (1) 1 m2 (1) m2 (2) m (2) m 1 1",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "[Option 2 incomplete in source PDF]",
+          "3": "m m 1 1",
+          "4": "✓m"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2018-AA-Q5",
+        "sourceYear": 2018,
+        "sourceNumber": 2,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Hard",
+        "stem": "A tuning fork is used to produce resonance in a glass tube. The length of the air column in this tube can be adjusted by a variable piston. At room temperature of 27°C two successive resonances are produced at 20 cm and 73 cm of column length. If the frequency of the tuning fork is 320 Hz, the velocity of sound in air at 27°C is",
+        "options": {
+          "1": "330 m/s",
+          "2": "339 m/s",
+          "3": "350 m/s",
+          "4": "300 m/s"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2018-AA-Q28",
+        "sourceYear": 2018,
+        "sourceNumber": 13,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Hard",
+        "stem": "In Young’s double slit experiment the separation d between the slits is 2 mm, the wavelength λ of the light used is 5896 Å and distance D between the screen and slits is 100 cm. It is found that the angular width of the fringes is 0·20°. To increase the fringe angular width to 0·21° (with same λ and D) the separation between the slits needs to be changed to",
+        "options": {
+          "1": "1·8 mm",
+          "2": "1·9 mm",
+          "3": "2·1 mm",
+          "4": "1·7 mm"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2018-AA-Q115",
+        "sourceYear": 2018,
+        "sourceNumber": 28,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Hard",
+        "stem": "In Young’s double slit experiment the separation d between the slits is 2 mm, the wavelength λ of the light used is 5896 Å and distance D between the screen and slits is 100 cm. It is found that the angular width of the fringes is 0·20°. To increase the fringe angular width to 0·21° (with same λ and D) the separation between the slits needs to be changed to",
+        "options": {
+          "1": "1·7 mm",
+          "2": "2·1 mm",
+          "3": "1·9 mm",
+          "4": "1·8 mm"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2018-AA-Q141",
+        "sourceYear": 2018,
+        "sourceNumber": 38,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Hard",
+        "stem": "In Young’s double slit experiment the separation d between the slits is 2 mm, the wavelength λ of the light used is 5896 Å and distance D between the screen and slits is 100 cm. It is found that the angular width of the fringes is 0·20°. To increase the fringe angular width to 0·21° (with same λ and D) the separation between the slits needs to be changed to",
+        "options": {
+          "1": "1·8 mm",
+          "2": "1·7 mm",
+          "3": "2·1 mm",
+          "4": "1·9 mm"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2022-RECON-Q188",
+        "sourceYear": 2022,
+        "sourceNumber": 43,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Hard",
+        "stem": "Angular width of the central maximum in the Fraunhofer diffraction for λ = 6000 Å is θ0. When the same slit is illuminated by another monochromatic light, the angular width decreases by 30%. The wavelength of this light is :",
+        "options": {
+          "1": "1800 Å",
+          "2": "4200 Å",
+          "3": "6000 Å",
+          "4": "420 Å"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2022-RECON-Q190",
+        "sourceYear": 2022,
+        "sourceNumber": 45,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Hard",
+        "stem": "A proton and an α-particle are accelerated from rest to the same energy. The de Broglie wavelength λp and λα are in the ratio :",
+        "options": {
+          "1": "2 : 1",
+          "2": "1 : 1",
+          "3": "2 :1",
+          "4": "4 : 1"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2023-F1-Q16",
+        "sourceYear": 2023,
+        "sourceNumber": 15,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Hard",
+        "stem": "For Young’s double slit experiment, two statements are given below: Statement I : If screen is moved away from the plane of slits, angular separation of the fringes remains constant. Statement II : If the monochromatic source is replaced by another monochromatic source of larger wavelength, the angular separation of fringes decreases. In the light of the above statements, choose the correct answer from the options given below:",
+        "options": {
+          "1": "Both Statement I and Statement II are false.",
+          "2": "Statement I is true but Statement II is false.",
+          "3": "Statement I is false but Statement II is true.",
+          "4": "Both Statement I and Statement II are true."
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2024-R1-Q2",
+        "sourceYear": 2024,
+        "sourceNumber": 2,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Hard",
+        "stem": "Match List I with List II. List I List II (Spectral Lines of (Wavelengths (nm)) Hydrogen for transitions from) A. n2 = 3 to n1 = 2 I. 410.2 B. n2 = 4 to n1 = 2 II. 434.1 C. n2 = 5 to n1 = 2 III. 656.3 D. n2 = 6 to n1 = 2 IV. 486.1 Choose the correct answer from the options given below:",
+        "options": {
+          "1": "A-III, B-IV, C-II, D-I",
+          "2": "A-IV, B-III, C-I, D-II",
+          "3": "A-I, B-II, C-III, D-IV",
+          "4": "A-II, B-I, C-IV, D-III"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2024-R1-Q50",
+        "sourceYear": 2024,
+        "sourceNumber": 47,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Hard",
+        "stem": "If the mass of the bob in a simple pendulum is increased to thrice its original mass and its length is made half x its original length, then the new time period of oscillation is times its original time period. Then the value of 2 x is:",
+        "options": {
+          "1": "2",
+          "2": "2 3",
+          "3": "4",
+          "4": "3"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2025-INTERIM-Q2",
+        "sourceYear": 2025,
+        "sourceNumber": 2,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Hard",
+        "stem": "Match List I with List II. List I List II (Spectral Lines of (Wavelengths (nm)) Hydrogen for transitions from) A. n2 = 3 to n1 = 2 I. 410.2 B. n2 = 4 to n1 = 2 II. 434.1 C. n2 = 5 to n1 = 2 III. 656.3 D. n2 = 6 to n1 = 2 IV. 486.1 Choose the correct answer from the options given below:",
+        "options": {
+          "1": "A-III, B-IV, C-II, D-I",
+          "2": "A-IV, B-III, C-I, D-II",
+          "3": "A-I, B-II, C-III, D-IV",
+          "4": "A-II, B-I, C-IV, D-III"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2025-INTERIM-Q50",
+        "sourceYear": 2025,
+        "sourceNumber": 47,
+        "subject": "Physics",
+        "topic": "Waves & Oscillations",
+        "difficulty": "Hard",
+        "stem": "If the mass of the bob in a simple pendulum is increased to thrice its original mass and its length is made half x its original length, then the new time period of oscillation is times its original time period. Then the value of 2 x is:",
+        "options": {
+          "1": "2",
+          "2": "2 3",
+          "3": "4",
+          "4": "3"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      }
+    ]
+  },
+  "gaps": [
+    "Easy: have 16, need 50 (sourcing more from reputable NEET banks)",
+    "Medium: have 3, need 50 (sourcing more from reputable NEET banks)",
+    "Hard: have 17, need 50 (sourcing more from reputable NEET banks)"
+  ]
+}

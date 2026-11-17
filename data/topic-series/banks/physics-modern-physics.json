@@ -1,0 +1,287 @@
+{
+  "id": "physics-modern-physics",
+  "subject": "Physics",
+  "topic": "Modern Physics",
+  "counts": {
+    "Easy": 2,
+    "Medium": 5,
+    "Hard": 4
+  },
+  "questions": {
+    "Easy": [
+      {
+        "id": "2017-A-Q6",
+        "sourceYear": 2017,
+        "sourceNumber": 3,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "difficulty": "Easy",
+        "stem": "The de-Broglie wavelength of a neutron in thermal (1) 2 mA equilibrium with heavy water at a temperature T (Kelvin) and mass m, is (2) 0.2 A h h",
+        "options": {
+          "1": "Option 1",
+          "2": "mkT 3mkT",
+          "3": "2 A",
+          "4": "0 ampere 2h 2h"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2019-G1-Q179",
+        "sourceYear": 2019,
+        "sourceNumber": 44,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "difficulty": "Easy",
+        "stem": "The work function of a photosensitive material is 4.0 eV. The longest wavelength of light that can cause photon emission from the substance is (approximately)",
+        "options": {
+          "1": "3100 nm",
+          "2": "966 nm",
+          "3": "31 nm",
+          "4": "310 nm"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      }
+    ],
+    "Medium": [
+      {
+        "id": "2016-Phase1-Q16",
+        "sourceYear": 2016,
+        "sourceNumber": 13,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "difficulty": "Medium",
+        "stem": "An electron of mass m and a photon have same 16. m t- *€lcti;T1 (f?.11 fctrm 1:ffi'iR cfft energy E. The ratio of de-Broglie wavelengths Q.clifll-111 I - cF(•lbl.!lcfiT · associated with them is 1 1) 1 (l) < c(2mEl c(2mEl (3) ! C ()2 2m 1 (3) ! C ()2 2m 1 CY 1 1 (4) < 4) ( 2Y (c being velocity of light) ( c cfiT t\" I)",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "[Option 2 incomplete in source PDF]",
+          "3": "[Option 3 incomplete in source PDF]",
+          "4": "[Option 4 incomplete in source PDF]"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2017-A-Q59",
+        "sourceYear": 2017,
+        "sourceNumber": 43,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "difficulty": "Medium",
+        "stem": "Which one is the wrong statement? (1) A-Methoxymethane, X-Ethanoic acid, Y-Acetate ion, Z-hydrazine h (1) de-Broglie's wavelength is given by λ = , (2) A-Methoxymethane, X-Ethanol, Y-Ethanoic acid, mv where m = mass of the particle, v = group Z-Semicarbazide velocity of the particle",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "The uncertainty principle is ΔE × Δt ≥ 4π",
+          "3": "Half-filled and fully filled orbitals have greater Z-Hydrazone stability due to greater exchange energy, greater symmetry and more balanced arrangement",
+          "4": "A-Ethanol, X-Acetaldehyde, Y-Butanone,"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2018-AA-Q12",
+        "sourceYear": 2018,
+        "sourceNumber": 5,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "difficulty": "Medium",
+        "stem": "An electron of mass m with an initial velocity → ^ V = V0 i (V0 > 0) enters an electric field → ^ E = – E0 i (E0 = constant > 0) at t = 0. If λ0 is its de-Broglie wavelength initially, then its de-Broglie wavelength at time t is",
+        "options": {
+          "1": "λ0 t ⎛ eE0 ⎞",
+          "2": "λ0 ⎜⎜ 1 + t ⎟⎟ ⎝ mV0 ⎠ λ0",
+          "3": "⎛ eE0 ⎞ ⎜1 + t⎟ ⎜ mV0 ⎟⎠ ⎝",
+          "4": "λ0"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2018-AA-Q107",
+        "sourceYear": 2018,
+        "sourceNumber": 26,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "difficulty": "Medium",
+        "stem": "An electron of mass m with an initial velocity → ^ V = V0 i (V0 > 0) enters an electric field → ^ E = – E0 i (E0 = constant > 0) at t = 0. If λ0 is its de-Broglie wavelength initially, then its de-Broglie wavelength at time t is",
+        "options": {
+          "1": "λ0",
+          "2": "λ0 t ⎛ eE0 ⎞",
+          "3": "λ0 ⎜⎜ 1 + t ⎟⎟ ⎝ mV0 ⎠ λ0",
+          "4": "⎛ eE0 ⎞ ⎜1 + t⎟ ⎜ mV0 ⎟⎠ ⎝"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2021-M1-Q35",
+        "sourceYear": 2021,
+        "sourceNumber": 31,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "difficulty": "Medium",
+        "stem": "An electromagnetic wave of wavelength ‘λ’ is incident on a photosensitive surface of negligible work function. If ‘m’ mass is of photoelectron emitted from the surface has de-Broglie wavelength λd, then : { 2h ( 2",
+        "options": {
+          "1": "λ={ )λd } mc [ { 2m ( 2",
+          "2": "λ={ )λd } hc [ { 2mc ( 2",
+          "3": "λd={ )λ } h [ { 2mc ( 2",
+          "4": "λ={ )λd } h [ Section - B (Physics)"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      }
+    ],
+    "Hard": [
+      {
+        "id": "2017-A-Q18",
+        "sourceYear": 2017,
+        "sourceNumber": 15,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "difficulty": "Hard",
+        "stem": "The photoelectric threshold wavelength of silver is l = CxGy(A)z 3250 × 10–10 m. The velocity of the electron ejected L = [LT–1]x [M–1L3T–2]y [ML3T–2]z from a silver surface by ultraviolet light of wavelength 2536 × 10–10 m is –y + z = 0 ⇒ y = z ...(i) (Given h = 4.14 × 10–15 eVs and c = 3 × 108 ms–1) x + 3y + 3z = 1 ...(ii)",
+        "options": {
+          "1": "≈ 6 × 105 ms–1 –x – 4z = 0 ...(iii)",
+          "2": "≈ 0.6 × 106 ms–1 From (i), (ii) & (iii)",
+          "3": "≈ 61 × 103 ms–1 1 z=y= , x = –2",
+          "4": "≈ 0.3 × 106 ms–1 2"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2022-RECON-Q189",
+        "sourceYear": 2022,
+        "sourceNumber": 44,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "difficulty": "Hard",
+        "stem": "The work function of a photosensitive material is 4.0 eV. The longest wavelength of light that can cause photon emission from the substance is (approximately)",
+        "options": {
+          "1": "3100 nm",
+          "2": "966 nm",
+          "3": "31 nm",
+          "4": "310 nm"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2024-R1-Q16",
+        "sourceYear": 2024,
+        "sourceNumber": 13,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "difficulty": "Hard",
+        "stem": "If c is the velocity of light in free space, the correct statements about photon among the following are: A. The energy of a photon is E = hν. B. The velocity of a photon is c. hν C. The momentum of a photon, p = . c D. In a photon-electron collision, both total energy and total momentum are conserved. E. Photon possesses positive charge. Choose the correct answer from the options given below:",
+        "options": {
+          "1": "A, B, C and D only",
+          "2": "A, C and D only",
+          "3": "A, B, D and E only",
+          "4": "A and B only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2025-INTERIM-Q16",
+        "sourceYear": 2025,
+        "sourceNumber": 13,
+        "subject": "Physics",
+        "topic": "Modern Physics",
+        "difficulty": "Hard",
+        "stem": "If c is the velocity of light in free space, the correct statements about photon among the following are: A. The energy of a photon is E = hν. B. The velocity of a photon is c. hν C. The momentum of a photon, p = . c D. In a photon-electron collision, both total energy and total momentum are conserved. E. Photon possesses positive charge. Choose the correct answer from the options given below:",
+        "options": {
+          "1": "A, B, C and D only",
+          "2": "A, C and D only",
+          "3": "A, B, D and E only",
+          "4": "A and B only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      }
+    ]
+  },
+  "gaps": [
+    "Easy: have 2, need 50 (sourcing more from reputable NEET banks)",
+    "Medium: have 5, need 50 (sourcing more from reputable NEET banks)",
+    "Hard: have 4, need 50 (sourcing more from reputable NEET banks)"
+  ]
+}

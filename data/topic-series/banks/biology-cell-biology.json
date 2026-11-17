@@ -1,0 +1,1799 @@
+{
+  "id": "biology-cell-biology",
+  "subject": "Biology",
+  "topic": "Cell Biology",
+  "counts": {
+    "Easy": 34,
+    "Medium": 18,
+    "Hard": 22
+  },
+  "questions": {
+    "Easy": [
+      {
+        "id": "2016-Phase1-Q117",
+        "sourceYear": 2016,
+        "sourceNumber": 161,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "Which one of the following cell organelles is NUt? enclosed by a single membrane? (1) 41q,(q (1) Lysosomes (2) (2) Nuclei",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "[Option 2 incomplete in source PDF]",
+          "3": "Mitochondria",
+          "4": "Chloroplasts"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2016-Phase1-Q118",
+        "sourceYear": 2016,
+        "sourceNumber": 162,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "Which of the following is not a characteristic feature ch\"R-m '8a_:rU\"[WU? during misis in somatic cells ? (1) llrn (1) Chromosome movement (2) g1'l1 (2) Synllpsis",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "[Option 2 incomplete in source PDF]",
+          "3": "Spindle fibres",
+          "4": "Disappearance of nucleolus '@glish+HindiI z .'­"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2016-Phase1-Q131",
+        "sourceYear": 2016,
+        "sourceNumber": 175,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "In the stomach, gastric acid is secreted by the : 131. ifqj'flRTcfmm't: (1) peptic cells c1> an (2) acidic cells (2) an",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "[Option 2 incomplete in source PDF]",
+          "3": ". qi'f lRTcf ffl :m ",
+          "4": "f'lTTTI'l! <fillefil"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2017-A-Q135",
+        "sourceYear": 2017,
+        "sourceNumber": 136,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "Zygotic meiosis is characteristic of (2C) with oxaloacetic acid (4C) to form citric acid",
+        "options": {
+          "1": "Marchantia",
+          "2": "Fucus (6C).",
+          "3": "Funaria",
+          "4": "Chlamydomonas 139. In case of poriferans the spongocoel is lined with flagellated cells called :"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2017-A-Q136",
+        "sourceYear": 2017,
+        "sourceNumber": 137,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "Which of the following is correctly matched for the (3) Choanocytes product produced by them? (4) Mesenchymal cells (1) Acetobacter aceti : Antibiotics",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "[Option 2 incomplete in source PDF]",
+          "3": "[Option 3 incomplete in source PDF]",
+          "4": "[Option 4 incomplete in source PDF]"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2017-A-Q179",
+        "sourceYear": 2017,
+        "sourceNumber": 179,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "Thalassemia and sickle cell anemia are caused due (4) Just before transcription to a problem in globin molecule synthesis. Select",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "[Option 2 incomplete in source PDF]",
+          "3": "[Option 3 incomplete in source PDF]",
+          "4": "[Option 4 incomplete in source PDF]"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2018-AA-Q24",
+        "sourceYear": 2018,
+        "sourceNumber": 104,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "After karyogamy followed by meiosis, spores are produced exogenously in",
+        "options": {
+          "1": "Saccharomyces",
+          "2": "Agaricus",
+          "3": "Alternaria",
+          "4": "Neurospora"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2018-AA-Q38",
+        "sourceYear": 2018,
+        "sourceNumber": 109,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "Which of the following elements is responsible for maintaining turgor in cells ?",
+        "options": {
+          "1": "Calcium",
+          "2": "Potassium",
+          "3": "Sodium",
+          "4": "Magnesium OUGH WORK English"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2018-AA-Q46",
+        "sourceYear": 2018,
+        "sourceNumber": 115,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "Which of the following gastric cells indirectly help in erythropoiesis ?",
+        "options": {
+          "1": "Chief cells",
+          "2": "Parietal cells",
+          "3": "Goblet cells",
+          "4": "Mucous cells"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2018-AA-Q95",
+        "sourceYear": 2018,
+        "sourceNumber": 159,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "Which of the following elements is responsible for maintaining turgor in cells ?",
+        "options": {
+          "1": "Potassium",
+          "2": "Sodium",
+          "3": "Magnesium",
+          "4": "Calcium +"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2018-AA-Q96",
+        "sourceYear": 2018,
+        "sourceNumber": 160,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "What is the role of NAD in cellular respiration ?",
+        "options": {
+          "1": "It is a nucleotide source for ATP synthesis.",
+          "2": "It functions as an electron carrier.",
+          "3": "It functions as an enzyme.",
+          "4": "It is the final electron acceptor for anaerobic respiration."
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2018-AA-Q126",
+        "sourceYear": 2018,
+        "sourceNumber": 171,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "After karyogamy followed by meiosis, spores are produced exogenously in",
+        "options": {
+          "1": "Neurospora",
+          "2": "Alternaria",
+          "3": "Agaricus",
+          "4": "Saccharomyces"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2018-AA-Q132",
+        "sourceYear": 2018,
+        "sourceNumber": 173,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "After karyogamy followed by meiosis, spores are produced exogenously in",
+        "options": {
+          "1": "Agaricus",
+          "2": "Alternaria",
+          "3": "Neurospora",
+          "4": "Saccharomyces"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2018-AA-Q165",
+        "sourceYear": 2018,
+        "sourceNumber": 179,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "Which of the following gastric cells indirectly help in erythropoiesis ?",
+        "options": {
+          "1": "Goblet cells",
+          "2": "Mucous cells",
+          "3": "Chief cells",
+          "4": "Parietal cells"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2019-G1-Q1",
+        "sourceYear": 2019,
+        "sourceNumber": 91,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "Which of the following cell organelles is present in the highest number in secretory cells?",
+        "options": {
+          "1": "Mitochondria",
+          "2": "Golgi complex",
+          "3": "Endoplasmic reticulum",
+          "4": "Lysosomes"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2019-G1-Q4",
+        "sourceYear": 2019,
+        "sourceNumber": 94,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "After meiosis I, the resultant daughter cells have",
+        "options": {
+          "1": "same amount of DNA as in the parent cell in S phase.",
+          "2": "twice the amount of DNA in comparison to haploid gamete.",
+          "3": "same amount of DNA in comparison to haploid gamete",
+          "4": "four times the amount of DNA in comparison to haploid gamete"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2019-G1-Q6",
+        "sourceYear": 2019,
+        "sourceNumber": 96,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "The main difference between active and passive transport across cell membrane is :",
+        "options": {
+          "1": "passive transport is non-selective whereas active transport is selective.",
+          "2": "passive transport requires a concentration gradient across a biological membrane whereas active transport requires energy to move solutes.",
+          "3": "passive transport is confined to anionic carrier proteins whereas active transport is confined to cationic channel proteins.",
+          "4": "active transport occurs more rapidly than passive transport."
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2019-G1-Q41",
+        "sourceYear": 2019,
+        "sourceNumber": 131,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "All the components of the nodal tissue are autoexcitable. Why does the SA node act as the normal pacemaker ?",
+        "options": {
+          "1": "SA node has the lowest rate of depolarisation.",
+          "2": "SA node is the only component to generate the threshold potential.",
+          "3": "Only SA node can convey the action potential to the other components.",
+          "4": "SA node has the highest rate of depolarisation."
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2019-G1-Q64",
+        "sourceYear": 2019,
+        "sourceNumber": 154,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "Crossing over takes place between which chromatids and in which stage of the cell cycle?",
+        "options": {
+          "1": "Non-sister chromatids of non-homologous chromosomes at Zygotene stage of prophase I.",
+          "2": "Non-sister chromatids of homologous chromosomes at Pachytene stage of prophase I.",
+          "3": "Non-sister chromatids of homologous chromosomes at Zygotene stage of prophase I.",
+          "4": "Non-sister chromatids of non-homologous chromosomes at Pachytene stage of prophase I."
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2020-E1-Q57",
+        "sourceYear": 2020,
+        "sourceNumber": 137,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "Some dividing cells exit the cell cycle and enter vegetative inactive stage. This is called quiescent stage (G0). This process occurs at the end of :",
+        "options": {
+          "1": "S phase",
+          "2": "G2 phase",
+          "3": "M phase",
+          "4": "G1 phase Hindi+English 4"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2020-E1-Q72",
+        "sourceYear": 2020,
+        "sourceNumber": 152,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "Some dividing cells exit the cell cycle and enter vegetative inactive stage. This is called quiescent stage (G0). This process occurs at the end of :",
+        "options": {
+          "1": "M phase",
+          "2": "G1 phase",
+          "3": "S phase",
+          "4": "G2 phase"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2020-E1-Q81",
+        "sourceYear": 2020,
+        "sourceNumber": 161,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "Some dividing cells exit the cell cycle and enter vegetative inactive stage. This is called quiescent stage (G0). This process occurs at the end of :",
+        "options": {
+          "1": "G2 phase",
+          "2": "M phase",
+          "3": "G1 phase",
+          "4": "S phase"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2022-RECON-Q1",
+        "sourceYear": 2022,
+        "sourceNumber": 101,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "Which of the following cell organelles is present in the highest number in secretory cells?",
+        "options": {
+          "1": "Mitochondria",
+          "2": "Golgi complex",
+          "3": "Endoplasmic reticulum",
+          "4": "Lysosomes"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2022-RECON-Q4",
+        "sourceYear": 2022,
+        "sourceNumber": 104,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "After meiosis I, the resultant daughter cells have",
+        "options": {
+          "1": "same amount of DNA as in the parent cell in S phase.",
+          "2": "twice the amount of DNA in comparison to haploid gamete.",
+          "3": "same amount of DNA in comparison to haploid gamete",
+          "4": "four times the amount of DNA in comparison to haploid gamete"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2022-RECON-Q6",
+        "sourceYear": 2022,
+        "sourceNumber": 106,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "The main difference between active and passive transport across cell membrane is :",
+        "options": {
+          "1": "passive transport is non-selective whereas active transport is selective.",
+          "2": "passive transport requires a concentration gradient across a biological membrane whereas active transport requires energy to move solutes.",
+          "3": "passive transport is confined to anionic carrier proteins whereas active transport is confined to cationic channel proteins.",
+          "4": "active transport occurs more rapidly than passive transport."
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2022-RECON-Q69",
+        "sourceYear": 2022,
+        "sourceNumber": 164,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "Crossing over takes place between which chromatids and in which stage of the cell cycle?",
+        "options": {
+          "1": "Non-sister chromatids of non-homologous chromosomes at Zygotene stage of prophase I.",
+          "2": "Non-sister chromatids of homologous chromosomes at Pachytene stage of prophase I.",
+          "3": "Non-sister chromatids of homologous chromosomes at Zygotene stage of prophase I.",
+          "4": "Non-sister chromatids of non-homologous chromosomes at Pachytene stage of prophase I."
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2023-F1-Q104",
+        "sourceYear": 2023,
+        "sourceNumber": 107,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "In tissue culture experiments, leaf mesophyll cells are put in a culture medium to form callus. This phenomenon may be called as",
+        "options": {
+          "1": "Dedifferentiation",
+          "2": "Development",
+          "3": "Senescence",
+          "4": "Differentiation"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2023-F1-Q130",
+        "sourceYear": 2023,
+        "sourceNumber": 133,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "Which of the following stages of meiosis involves division of centromere?",
+        "options": {
+          "1": "Metaphase II",
+          "2": "Anaphase II",
+          "3": "Telophase",
+          "4": "Metaphase I"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2023-F1-Q131",
+        "sourceYear": 2023,
+        "sourceNumber": 134,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "Cellulose does not form blue colour with Iodine because",
+        "options": {
+          "1": "It is a helical molecule",
+          "2": "It does not contain complex helices and hence cannot hold iodine molecules",
+          "3": "It breakes down when iodine reacts with it",
+          "4": "It is a disaccharide"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2023-F1-Q172",
+        "sourceYear": 2023,
+        "sourceNumber": 172,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "Which of the following functions is carried out by cytoskeleton in a cell?",
+        "options": {
+          "1": "Protein synthesis",
+          "2": "Motility",
+          "3": "Transportation",
+          "4": "Nuclear division"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2024-R1-Q102",
+        "sourceYear": 2024,
+        "sourceNumber": 106,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "Lecithin, a small molecular weight organic compound found in living tissues, is an example of:",
+        "options": {
+          "1": "Phospholipids",
+          "2": "Glycerides",
+          "3": "Carbohydrates",
+          "4": "Amino acids"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2024-R1-Q120",
+        "sourceYear": 2024,
+        "sourceNumber": 124,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "Formation of interfascicular cambium from fully developed parenchyma cells is an example for",
+        "options": {
+          "1": "Redifferentiation",
+          "2": "Dedifferentiation",
+          "3": "Maturation",
+          "4": "Differentiation"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2025-INTERIM-Q102",
+        "sourceYear": 2025,
+        "sourceNumber": 106,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "Lecithin, a small molecular weight organic compound found in living tissues, is an example of:",
+        "options": {
+          "1": "Phospholipids",
+          "2": "Glycerides",
+          "3": "Carbohydrates",
+          "4": "Amino acids"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2025-INTERIM-Q120",
+        "sourceYear": 2025,
+        "sourceNumber": 124,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Easy",
+        "stem": "Formation of interfascicular cambium from fully developed parenchyma cells is an example for",
+        "options": {
+          "1": "Redifferentiation",
+          "2": "Dedifferentiation",
+          "3": "Maturation",
+          "4": "Differentiation"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      }
+    ],
+    "Medium": [
+      {
+        "id": "2016-Phase1-Q97",
+        "sourceYear": 2016,
+        "sourceNumber": 141,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Medium",
+        "stem": "Which of the following statements is not true for if \"it ffl--m -mt? cancer cells in relation to mutations ? (1) dNfo:td1 -Rffl cfi1' f I (1) Mutations inactivate the cell control. (2) dNfo:td1 ?.lcil'-l{iil cfi1' ",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "Mutations inhibit production of telomerase. i,",
+          "3": "l,llcf!<lifHsill1l\"if dNRc!d1 fflm-q;)cqfu cell cycle. i, ( 4) Mutations destroy telomerase inhibitor.",
+          "4": "dNRc!d1 ?.Jtlll4{iil q;) cf){ f I"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2016-Phase1-Q110",
+        "sourceYear": 2016,
+        "sourceNumber": 154,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Medium",
+        "stem": "Specialised epidermal cells surrounding the guard cells are called 110. ;R i:f>'11cfi1&if cf>l qwf\\ fctf:w.lqia q\\&Jttj..,i} (1) Bulliform cells aTicf>lq<:JTt? (2) Lenticels (1) tqffilcfil",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "",
+          "3": "1l<cfi qillcfil",
+          "4": "Subsidiary cells (4 ) qillcfii"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2016-Phase1-Q126",
+        "sourceYear": 2016,
+        "sourceNumber": 170,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Medium",
+        "stem": "One of the major components of cell wall of most 126. 3'.lf' cf,c{cfil if f'l-lfu cfiT lfll& 3fcflfcf fungi is: cfi'Rm %? (1) Cellulose (1) ftfl{clls:il (2) Hemicellulose (2) lfl(rl{c:.'lls:ii",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "[Option 2 incomplete in source PDF]",
+          "3": "",
+          "4": "qi)i11<.11$cf>1"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2016-Phase1-Q132",
+        "sourceYear": 2016,
+        "sourceNumber": 176,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Medium",
+        "stem": "Identify the correct statement on' inhibin' : (1) Is produced by granulose cells in ovary and 132. ••if q- 4{i\"cllf.tQ,: inhibits the secretion of LH. <1> clft c:fifo1i:fi14 an r:iu (2) Is produced by nurse cells in testes and ·· mm%LH-<tit cfiUff % I inhibits the secretion of LH. (2) chl () ail r:I\"U ",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "[Option 2 incomplete in source PDF]",
+          "3": "LH,FSH SllSifcR;:icfilt.1 inhibits the secretion of FSH.",
+          "4": " .tt c:fiful<til4 <;fi)f1',<f>,-m m%FSHcfi1cfi«ff%1"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2017-A-Q102",
+        "sourceYear": 2017,
+        "sourceNumber": 103,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Medium",
+        "stem": "Which of the following options gives the correct sequence of events during mitosis? (4) The lagging strand away from the replication fork (1) Condensation → nuclear membrane disassembly",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "[Option 2 incomplete in source PDF]",
+          "3": "[Option 3 incomplete in source PDF]",
+          "4": "[Option 4 incomplete in source PDF]"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2017-A-Q114",
+        "sourceYear": 2017,
+        "sourceNumber": 115,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Medium",
+        "stem": "Which of the following cell organelles is responsible (a) (b) (c) (d) for extracting energy from carbohydrates to form (1) (ii) (iii) (iv) (i) ATP? (2) (iii) (iv) (i) (ii) (1) Lysosome (2) Ribosome",
+        "options": {
+          "1": "[Option 1 incomplete in source PDF]",
+          "2": "[Option 2 incomplete in source PDF]",
+          "3": "Chloroplast",
+          "4": "(iv) (iii) (ii) (i)"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2019-G1-Q7",
+        "sourceYear": 2019,
+        "sourceNumber": 97,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Medium",
+        "stem": "Match the items given in Column - I with those in Column - II and choose the correct option. Column-I Column-II (a) Rennin (i) Vitamin B12 (b) Enterokinase (ii) Facilitated transport (c) Oxyntic cells (iii) Milk proteins (d) Fructose (iv) Trypsinogen",
+        "options": {
+          "1": "(a) - (iii), (b)- (iv), (c)- (ii), (d)-(i)",
+          "2": "(a) - (iv), (b)- (iii), (c)- (i), (d)-(ii)",
+          "3": "(a) - (iv), (b)- (iii), (c)- (ii), (d)-(i)",
+          "4": "(a) - (iii), (b)- (iv), (c)- (i), (d)-(ii)"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2020-E1-Q30",
+        "sourceYear": 2020,
+        "sourceNumber": 113,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Medium",
+        "stem": "Match the following : (a) Inhibitor of catalytic (i) Ricin activity (b) Possess peptide bonds (ii) Malonate (c) Cell wall material in (iii) Chitin fungi (d) Secondary metabolite (iv) Collagen Choose the correct option from the following : (a) (b) (c) (d)",
+        "options": {
+          "1": "(ii) (iv) (iii) (i)",
+          "2": "(iii) (i) (iv) (ii)",
+          "3": "(iii) (iv) (i) (ii)",
+          "4": "(ii) (iii) (i) (iv)"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2020-E1-Q47",
+        "sourceYear": 2020,
+        "sourceNumber": 127,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Medium",
+        "stem": "Match the following : (a) Inhibitor of catalytic (i) Ricin activity (b) Possess peptide bonds (ii) Malonate (c) Cell wall material in (iii) Chitin fungi (d) Secondary metabolite (iv) Collagen Choose the correct option from the following : (a) (b) (c) (d)",
+        "options": {
+          "1": "(iii) (i) (iv) (ii)",
+          "2": "(iii) (iv) (i) (ii)",
+          "3": "(ii) (iii) (i) (iv)",
+          "4": "(ii) (iv) (iii) (i)"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2020-E1-Q52",
+        "sourceYear": 2020,
+        "sourceNumber": 132,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Medium",
+        "stem": "Match the following with respect to meiosis : (a) Zygotene (i) Terminalization (b) Pachytene (ii) Chiasmata (c) Diplotene (iii) Crossing over (d) Diakinesis (iv) Synapsis Select the correct option from the following : (a) (b) (c) (d)",
+        "options": {
+          "1": "(iii) (iv) (i) (ii)",
+          "2": "(iv) (iii) (ii) (i)",
+          "3": "(i) (ii) (iv) (iii)",
+          "4": "(ii) (iv) (iii) (i)"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2020-E1-Q135",
+        "sourceYear": 2020,
+        "sourceNumber": 180,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Medium",
+        "stem": "Match the following with respect to meiosis : (a) Zygotene (i) Terminalization (b) Pachytene (ii) Chiasmata (c) Diplotene (iii) Crossing over (d) Diakinesis (iv) Synapsis Select the correct option from the following : (a) (b) (c) (d)",
+        "options": {
+          "1": "(ii) (iv) (iii) (i)",
+          "2": "(iii) (iv) (i) (ii)",
+          "3": "(iv) (iii) (ii) (i)",
+          "4": "(i) (ii) (iv) (iii)"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2021-M1-Q162",
+        "sourceYear": 2021,
+        "sourceNumber": 162,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Medium",
+        "stem": "The fruit fly has 8 chromosomes (2n) in each cell. During interphase of Mitosis if the number of chromosomes at G1 phase is 8, what would be the number of chromosomes after S phase ?",
+        "options": {
+          "1": "32",
+          "2": "8",
+          "3": "16",
+          "4": "4"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": true,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2022-RECON-Q7",
+        "sourceYear": 2022,
+        "sourceNumber": 107,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Medium",
+        "stem": "Match the items given in Column - I with those in Column - II and choose the correct option. Column-I Column-II (a) Rennin (i) Vitamin B12 (b) Enterokinase (ii) Facilitated transport (c) Oxyntic cells (iii) Milk proteins (d) Fructose (iv) Trypsinogen",
+        "options": {
+          "1": "(a) - (iii), (b)- (iv), (c)- (ii), (d)-(i)",
+          "2": "(a) - (iv), (b)- (iii), (c)- (i), (d)-(ii)",
+          "3": "(a) - (iv), (b)- (iii), (c)- (ii), (d)-(i)",
+          "4": "(a) - (iii), (b)- (iv), (c)- (i), (d)-(ii)"
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2023-F1-Q161",
+        "sourceYear": 2023,
+        "sourceNumber": 162,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Medium",
+        "stem": "Given below are two statements: Statement I: Ligaments are dense irregular tissue. Statement II: Cartilage is dense regular tissue. In the light of the above statements, choose the correct answer from the options given below:",
+        "options": {
+          "1": "Both Statement I and Statement II are false",
+          "2": "Statement I is true but Statement II is false",
+          "3": "Statement I is false but Statement II is true",
+          "4": "Both Statement I and Statement II are true"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2024-R1-Q131",
+        "sourceYear": 2024,
+        "sourceNumber": 134,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Medium",
+        "stem": "Given below are two statements: Statement I : Parenchyma is living but collenchyma is dead tissue. Statement II : Gymnosperms lack xylem vessels but presence of xylem vessels is the characteristic of angiosperms. In the light of the above statements, choose the correct answer from the options given below:",
+        "options": {
+          "1": "Both Statement I and Statement II are false",
+          "2": "Statement I is true but Statement II is false",
+          "3": "Statement I is false but Statement II is true",
+          "4": "Both Statement I and Statement II are true"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2024-R1-Q171",
+        "sourceYear": 2024,
+        "sourceNumber": 173,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Medium",
+        "stem": "Following are the stages of cell division : A. Gap 2 phase B. Cytokinesis C. Synthesis phase D. Karyokinesis E. Gap 1 phase Choose the correct sequence of stages from the options given below :",
+        "options": {
+          "1": "E-B-D-A-C",
+          "2": "B-D-E-A-C",
+          "3": "E-C-A-D-B",
+          "4": "C-E-D-A-B"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2025-INTERIM-Q131",
+        "sourceYear": 2025,
+        "sourceNumber": 134,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Medium",
+        "stem": "Given below are two statements: Statement I : Parenchyma is living but collenchyma is dead tissue. Statement II : Gymnosperms lack xylem vessels but presence of xylem vessels is the characteristic of angiosperms. In the light of the above statements, choose the correct answer from the options given below:",
+        "options": {
+          "1": "Both Statement I and Statement II are false",
+          "2": "Statement I is true but Statement II is false",
+          "3": "Statement I is false but Statement II is true",
+          "4": "Both Statement I and Statement II are true"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2025-INTERIM-Q171",
+        "sourceYear": 2025,
+        "sourceNumber": 173,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Medium",
+        "stem": "Following are the stages of cell division : A. Gap 2 phase B. Cytokinesis C. Synthesis phase D. Karyokinesis E. Gap 1 phase Choose the correct sequence of stages from the options given below :",
+        "options": {
+          "1": "E-B-D-A-C",
+          "2": "B-D-E-A-C",
+          "3": "E-C-A-D-B",
+          "4": "C-E-D-A-B"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      }
+    ],
+    "Hard": [
+      {
+        "id": "2019-G1-Q37",
+        "sourceYear": 2019,
+        "sourceNumber": 127,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Hard",
+        "stem": "Match the following cell structure with its characteristic feature : (a) Tight junctions (i) Cement neighbouring cells together to form sheet (b) Adhering junctions (ii) Transmit information through chemical to another cells (c) Gap junctions (iii) Establish a barrier to prevent leakage of fluid across epithelial cells (d)Synaptic junctions (iv) Cytoplasmic channels to facilitate communication between adjacent cells Select correct option from the following :",
+        "options": {
+          "1": "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)",
+          "2": "(a)-(iv), (b )-(ii), (c)-(i), (d)-(iii)",
+          "3": "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
+          "4": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2021-M1-Q105",
+        "sourceYear": 2021,
+        "sourceNumber": 108,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Hard",
+        "stem": "Match List - I with List - II. List - I List - II Cells with active cell Vascular (a) (i) division capacity tissues Tissue having all cells Meristematic (b) similar in structure (ii) tissue and function Tissue having (c) (iii) Sclereids different types of cells Dead cells with highly (d) thickened walls and (iv) Simple tissue narrow lumen Select the correct answer from the options given below. (a) (b) (c) (d)",
+        "options": {
+          "1": "(i) (ii) (iii) (iv)",
+          "2": "(iii) (ii) (iv) (i)",
+          "3": "(ii) (iv) (i) (iii)",
+          "4": "(iv) (iii) (ii) (i)"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2021-M1-Q117",
+        "sourceYear": 2021,
+        "sourceNumber": 120,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Hard",
+        "stem": "Match List - I with List - II. List - I List - II Cells with active cell Vascular (a) (i) division capacity tissues Tissue having all cells Meristematic (b) similar in structure (ii) tissue and function Tissue having (c) (iii) Sclereids different types of cells Dead cells with highly (d) thickened walls and (iv) Simple tissue narrow lumen Select the correct answer from the options given below. (a) (b) (c) (d)",
+        "options": {
+          "1": "(iv) (iii) (ii) (i)",
+          "2": "(i) (ii) (iii) (iv)",
+          "3": "(iii) (ii) (iv) (i)",
+          "4": "(ii) (iv) (i) (iii)"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2021-M1-Q134",
+        "sourceYear": 2021,
+        "sourceNumber": 135,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Hard",
+        "stem": "Match List - I with List - II. List - I List - II Cells with active cell Vascular (a) (i) division capacity tissues Tissue having all cells Meristematic (b) similar in structure (ii) tissue and function Tissue having (c) (iii) Sclereids different types of cells Dead cells with highly (d) thickened walls and (iv) Simple tissue narrow lumen Select the correct answer from the options given below. (a) (b) (c) (d)",
+        "options": {
+          "1": "(ii) (iv) (i) (iii)",
+          "2": "(iv) (iii) (ii) (i)",
+          "3": "(i) (ii) (iii) (iv)",
+          "4": "(iii) (ii) (iv) (i) Hindi+English 4"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2022-RECON-Q37",
+        "sourceYear": 2022,
+        "sourceNumber": 137,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Hard",
+        "stem": "Match the following cell structure with its characteristic feature : (a) Tight junctions (i) Cement neighbouring cells together to form sheet (b) Adhering junctions (ii) Transmit information through chemical to another cells (c) Gap junctions (iii) Establish a barrier to prevent leakage of fluid across epithelial cells (d)Synaptic junctions (iv) Cytoplasmic channels to facilitate communication between adjacent cells Select correct option from the following :",
+        "options": {
+          "1": "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)",
+          "2": "(a)-(iv), (b )-(ii), (c)-(i), (d)-(iii)",
+          "3": "(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)",
+          "4": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2022-RECON-Q41",
+        "sourceYear": 2022,
+        "sourceNumber": 141,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Hard",
+        "stem": "All the components of the nodal tissue are autoexcitable. Why does the SA node act as the normal pacemaker ?",
+        "options": {
+          "1": "SA node has the lowest rate of depolarisation.",
+          "2": "SA node is the only component to generate the threshold potential.",
+          "3": "Only SA node can convey the action potential to the other components.",
+          "4": "SA node has the highest rate of depolarisation."
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2023-F1-Q135",
+        "sourceYear": 2023,
+        "sourceNumber": 138,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Hard",
+        "stem": "The process of appearance of recombination nodules occurs at which sub stage of prophase I in meiosis?",
+        "options": {
+          "1": "Pachytene",
+          "2": "Diplotene",
+          "3": "Diakinesis",
+          "4": "Zygotene"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2023-F1-Q144",
+        "sourceYear": 2023,
+        "sourceNumber": 147,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Hard",
+        "stem": "Identify the correct statements: A. Lenticels are the lens-shaped openings permitting the exchange of gases. B. Bark formed early in the season is called hard bark. C. Bark is a technical term that refers to all tissues exterior to vascular cambium. D. Bark refers to periderm and secondary phloem. E. Phellogen is single-layered in thickness. Choose the correct answer from the options given below:",
+        "options": {
+          "1": "A and D only",
+          "2": "A, B and D only",
+          "3": "B and C only",
+          "4": "B, C and E only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2023-F1-Q166",
+        "sourceYear": 2023,
+        "sourceNumber": 166,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Hard",
+        "stem": "Match List I with List II. List I List II A. Taenia I. Nephridia B. Paramoecium II. Contractile vacuole C. Periplaneta III. Flame cells D. Pheretima IV. Urecose gland Choose the correct answer from the options given below:",
+        "options": {
+          "1": "A-I, B-II, C-IV, D-III",
+          "2": "A-III, B-II, C-IV, D-I",
+          "3": "A-II, B-I, C-IV, D-III",
+          "4": "A-I, B-II, C-III, D-IV"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2023-F1-Q170",
+        "sourceYear": 2023,
+        "sourceNumber": 170,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Hard",
+        "stem": "Match List I.with List II List I List II (Cells) (Secretion) A. Peptic cells I. Mucus B. Goblet cells II. Bile juice C. Oxyntic cells III. Proenzyme pepsinogen D. Hepatic cells IV. HCl and intrinsic factor for absorption of vitamin B12 Choose the correct answer from the options given below:",
+        "options": {
+          "1": "A-II, B-I, C-III, D-IV",
+          "2": "A-III, B-I, C-IV, D-II",
+          "3": "A-II, B-IV, C-I, D-III",
+          "4": "A-IV, B-III, C-II, D-I"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2023-F1-Q189",
+        "sourceYear": 2023,
+        "sourceNumber": 189,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Hard",
+        "stem": "Given below are two statements: Statement I : During G0 phase of cell cycle, the cell is metabolically inactive. Statement II : The centrosome undergoes duplication during S phase of interphase. In the light of the above statements, choose the most appropriate answer from the options given below: - 45- NEET (UG)-2023 (Code-F1)",
+        "options": {
+          "1": "Both Statement I and Statement II are incorrect.",
+          "2": "Statement I is correct but Statement II is incorrect.",
+          "3": "Statement I is incorrect but Statement II is correct.",
+          "4": "Both Statement I and Statement II are correct"
+        },
+        "correctOption": "3",
+        "correctOptions": [
+          "3"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2023-F1-Q194",
+        "sourceYear": 2023,
+        "sourceNumber": 194,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Hard",
+        "stem": "Which of the following statements are correct regarding skeletal muscle? A. Muscle bundles are held together by collagenous connective tissue layer called fascicle. B. Sarcoplasmic reticulum of muscle fibre is a store house of calcium ions. C. Striated appearance of skeletal muscle fibre is due to distribution pattern of actin and myosin proteins. D. M line is considered as functional unit of contraction called sarcomere. Choose the most appropriate answer from the options given below:",
+        "options": {
+          "1": "B and C only",
+          "2": "A, C and D only",
+          "3": "C and D only",
+          "4": "A, B and C only"
+        },
+        "correctOption": "1",
+        "correctOptions": [
+          "1"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2024-R1-Q133",
+        "sourceYear": 2024,
+        "sourceNumber": 136,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Hard",
+        "stem": "The lactose present in the growth medium of bacteria is transported to the cell by the action of",
+        "options": {
+          "1": "Acetylase",
+          "2": "Permease",
+          "3": "Polymerase",
+          "4": "Beta-galactosidase"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2024-R1-Q134",
+        "sourceYear": 2024,
+        "sourceNumber": 137,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Hard",
+        "stem": "Bulliform cells are responsible for",
+        "options": {
+          "1": "Protecting the plant from salt stress.",
+          "2": "Increased photosynthesis in monocots.",
+          "3": "Providing large spaces for storage of sugars.",
+          "4": "Inward curling of leaves in monocots."
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2024-R1-Q136",
+        "sourceYear": 2024,
+        "sourceNumber": 139,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Hard",
+        "stem": "Read the following statements and choose the set of correct statements: In the members of Phaeophyceae, A. Asexual reproduction occurs usually by biflagellate zoospores. B. Sexual reproduction is by oogamous method only. C. Stored food is in the form of carbohydrates which is either mannitol or laminarin. D. The major pigments found are chlorophyll a, c and carotenoids and xanthophyll. E. Vegetative cells have a cellulosic wall, usually covered on the outside by gelatinous coating of algin. Choose the correct answer from the options given below:",
+        "options": {
+          "1": "B, C, D and E only",
+          "2": "A, C, D and E only",
+          "3": "A, B, C and E only",
+          "4": "A, B, C and D only"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2024-R1-Q186",
+        "sourceYear": 2024,
+        "sourceNumber": 188,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Hard",
+        "stem": "Match List I with List II: List I List II A. Unicellular glandular I. Salivary glands epithelium B. Compound epithelium II. Pancreas C. Multicellular glandular III. Goblet cells of alimentary canal epithelium D. Endocrine glandular IV. Moist surface of buccal cavity epithelium Choose the correct answer from the options given below:",
+        "options": {
+          "1": "A-IV, B-III, C-I, D-II",
+          "2": "A-III, B-IV, C-I, D-II",
+          "3": "A-II, B-I, C-IV, D-III",
+          "4": "A-II, B-I, C-III, D-IV"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2024-R1-Q199",
+        "sourceYear": 2024,
+        "sourceNumber": 199,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Hard",
+        "stem": "Given below are two statements: Statement I: Mitochondria and chloroplasts both double membranes bound organelles. Statement II: Inner membrane of mitochondria is relatively less permeable, as compared chloroplast. In the light of the above statements, choose the mis appropriate answer from the options given below:",
+        "options": {
+          "1": "Both Statement I and Statement II are incorrect.",
+          "2": "Statement I is correct but Statement Il is incorrect.",
+          "3": "Statement I is incorrect but Statement Il is correct.",
+          "4": "Both Statement I and Statement II are correct."
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2025-INTERIM-Q133",
+        "sourceYear": 2025,
+        "sourceNumber": 136,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Hard",
+        "stem": "The lactose present in the growth medium of bacteria is transported to the cell by the action of",
+        "options": {
+          "1": "Acetylase",
+          "2": "Permease",
+          "3": "Polymerase",
+          "4": "Beta-galactosidase"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2025-INTERIM-Q134",
+        "sourceYear": 2025,
+        "sourceNumber": 137,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Hard",
+        "stem": "Bulliform cells are responsible for",
+        "options": {
+          "1": "Protecting the plant from salt stress.",
+          "2": "Increased photosynthesis in monocots.",
+          "3": "Providing large spaces for storage of sugars.",
+          "4": "Inward curling of leaves in monocots."
+        },
+        "correctOption": "4",
+        "correctOptions": [
+          "4"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2025-INTERIM-Q136",
+        "sourceYear": 2025,
+        "sourceNumber": 139,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Hard",
+        "stem": "Read the following statements and choose the set of correct statements: In the members of Phaeophyceae, A. Asexual reproduction occurs usually by biflagellate zoospores. B. Sexual reproduction is by oogamous method only. C. Stored food is in the form of carbohydrates which is either mannitol or laminarin. D. The major pigments found are chlorophyll a, c and carotenoids and xanthophyll. E. Vegetative cells have a cellulosic wall, usually covered on the outside by gelatinous coating of algin. Choose the correct answer from the options given below:",
+        "options": {
+          "1": "B, C, D and E only",
+          "2": "A, C, D and E only",
+          "3": "A, B, C and E only",
+          "4": "A, B, C and D only"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2025-INTERIM-Q186",
+        "sourceYear": 2025,
+        "sourceNumber": 188,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Hard",
+        "stem": "Match List I with List II: List I List II A. Unicellular glandular I. Salivary glands epithelium B. Compound epithelium II. Pancreas C. Multicellular glandular III. Goblet cells of alimentary canal epithelium D. Endocrine glandular IV. Moist surface of buccal cavity epithelium Choose the correct answer from the options given below:",
+        "options": {
+          "1": "A-IV, B-III, C-I, D-II",
+          "2": "A-III, B-IV, C-I, D-II",
+          "3": "A-II, B-I, C-IV, D-III",
+          "4": "A-II, B-I, C-III, D-IV"
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      },
+      {
+        "id": "2025-INTERIM-Q199",
+        "sourceYear": 2025,
+        "sourceNumber": 199,
+        "subject": "Biology",
+        "topic": "Cell Biology",
+        "difficulty": "Hard",
+        "stem": "Given below are two statements: Statement I: Mitochondria and chloroplasts both double membranes bound organelles. Statement II: Inner membrane of mitochondria is relatively less permeable, as compared chloroplast. In the light of the above statements, choose the mis appropriate answer from the options given below:",
+        "options": {
+          "1": "Both Statement I and Statement II are incorrect.",
+          "2": "Statement I is correct but Statement Il is incorrect.",
+          "3": "Statement I is incorrect but Statement Il is correct.",
+          "4": "Both Statement I and Statement II are correct."
+        },
+        "correctOption": "2",
+        "correctOptions": [
+          "2"
+        ],
+        "multiCorrect": false,
+        "figureSrc": null,
+        "figureKind": null,
+        "answerEstimated": false,
+        "solutionSource": "pyq-reuse"
+      }
+    ]
+  },
+  "gaps": [
+    "Easy: have 34, need 50 (sourcing more from reputable NEET banks)",
+    "Medium: have 18, need 50 (sourcing more from reputable NEET banks)",
+    "Hard: have 22, need 50 (sourcing more from reputable NEET banks)"
+  ]
+}
