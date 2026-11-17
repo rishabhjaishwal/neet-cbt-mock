@@ -6,6 +6,9 @@ import { Attempt, Question } from "@/lib/models";
 import { getPaper } from "@/lib/papers";
 import { ExamCbt } from "@/components/ExamCbt";
 
+const QUESTION_SELECT =
+  "_id questionKey number subject section topic stem options multiCorrect figureSrc figureKind";
+
 export default async function ExamPage({
   params,
 }: {
@@ -13,11 +16,14 @@ export default async function ExamPage({
 }) {
   const user = await getSession();
   if (!user || user.role !== "student") redirect("/login");
-  await ensureSeeded();
   const { attemptId } = await params;
   if (!Types.ObjectId.isValid(attemptId)) redirect("/dashboard");
 
-  const attempt = await Attempt.findById(attemptId).lean();
+  // Seed + attempt in parallel; paper uses in-memory cache after first hit.
+  const [, attempt] = await Promise.all([
+    ensureSeeded(),
+    Attempt.findById(attemptId).lean(),
+  ]);
   if (!attempt || String(attempt.userId) !== user.id) redirect("/dashboard");
   if (attempt.status !== "in_progress") {
     if (attempt.score != null || attempt.status === "approved" || attempt.status === "submitted") {
@@ -26,11 +32,13 @@ export default async function ExamPage({
     redirect("/dashboard");
   }
 
-  const paper = await getPaper(attempt.year);
+  const qids = attempt.answers.map((a: { questionId: unknown }) => a.questionId);
+  const [paper, questions] = await Promise.all([
+    getPaper(attempt.year),
+    Question.find({ _id: { $in: qids } }).select(QUESTION_SELECT).lean(),
+  ]);
   if (!paper) redirect("/dashboard");
 
-  const qids = attempt.answers.map((a: { questionId: unknown }) => a.questionId);
-  const questions = await Question.find({ _id: { $in: qids } }).lean();
   const byId = Object.fromEntries(questions.map((q) => [String(q._id), q]));
 
   const merged = attempt.answers

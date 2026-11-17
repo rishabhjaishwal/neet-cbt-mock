@@ -129,11 +129,15 @@ async function main() {
     return { detail: `len=${r.text.length}` };
   });
 
-  await timed("checkpoint round-trip", async () => {
+  let q0 = null;
+  await timed("GET attempt (questions)", async () => {
     const g = await req("GET", `/api/attempts/${attemptId}`);
-    const q0 = g.json?.questions?.[0];
+    q0 = g.json?.questions?.[0];
     if (!q0) throw new Error("no questions");
-    const t0 = Date.now();
+    return { detail: `questions=${g.json.questions.length}` };
+  });
+
+  await timed("checkpoint POST", async () => {
     const c = await req("POST", `/api/attempts/${attemptId}/checkpoint`, {
       answers: [
         {
@@ -146,9 +150,25 @@ async function main() {
       ],
       currentQuestionIndex: 0,
     });
-    const ms = Date.now() - t0;
     if (c.status !== 200 || !c.json?.ok) throw new Error(JSON.stringify(c.json));
-    return { detail: `checkpoint=${ms}ms applied=${c.json.applied}` };
+    return { detail: `applied=${c.json.applied}` };
+  });
+
+  await timed("checkpoint POST warm", async () => {
+    const c = await req("POST", `/api/attempts/${attemptId}/checkpoint`, {
+      answers: [
+        {
+          questionId: q0.id,
+          questionKey: q0.questionKey,
+          selectedOption: "2",
+          selectedOptions: ["2"],
+          status: "attempted",
+        },
+      ],
+      currentQuestionIndex: 0,
+    });
+    if (c.status !== 200 || !c.json?.ok) throw new Error(JSON.stringify(c.json));
+    return { detail: `applied=${c.json.applied}` };
   });
 
   await timed("submit + results HTML", async () => {

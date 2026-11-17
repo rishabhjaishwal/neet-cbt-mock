@@ -26,7 +26,11 @@ export async function GET(_req: Request, { params }: Params) {
   }
 
   const qids = attempt.answers.map((a: { questionId: unknown }) => a.questionId);
-  const questions = await Question.find({ _id: { $in: qids } }).lean();
+  const questions = await Question.find({ _id: { $in: qids } })
+    .select(
+      "_id questionKey number subject section topic stem options correctOption correctOptions multiCorrect figureSrc figureKind",
+    )
+    .lean();
   const byId = Object.fromEntries(questions.map((q) => [String(q._id), q]));
   const revealKeys =
     user.role === "examiner" ||

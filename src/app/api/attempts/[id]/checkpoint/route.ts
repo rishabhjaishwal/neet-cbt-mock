@@ -97,6 +97,9 @@ export async function POST(req: Request, { params }: Params) {
       existingAnswers: attempt.answers as Array<{
         questionId: unknown;
         questionKey?: string;
+        number?: number;
+        subject?: string;
+        section?: string;
         selectedOption?: string | null;
         selectedOptions?: string[];
         status: string;

@@ -2,7 +2,12 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useTransition, type ComponentProps, type MouseEvent } from "react";
+import {
+  useEffect,
+  useTransition,
+  type ComponentProps,
+  type MouseEvent,
+} from "react";
 
 type Props = ComponentProps<typeof Link> & {
   /** Show a tiny pending cue on the link itself */
@@ -10,8 +15,8 @@ type Props = ComponentProps<typeof Link> & {
 };
 
 /**
- * Feels instant: marks navigation pending immediately, keeps UI responsive.
- * Use for dashboard / results / topic-series back-links.
+ * Feels instant: prefetch + pending cue + startTransition navigation.
+ * Use for dashboard / results / topic-series open/back links.
  */
 export function InstantLink({
   href,
@@ -23,12 +28,16 @@ export function InstantLink({
 }: Props) {
   const router = useRouter();
   const [pending, startTransition] = useTransition();
+  const url = typeof href === "string" ? href : href.pathname || "";
+
+  useEffect(() => {
+    if (url.startsWith("/")) router.prefetch(url);
+  }, [router, url]);
 
   function handleClick(e: MouseEvent<HTMLAnchorElement>) {
     onClick?.(e);
     if (e.defaultPrevented) return;
     if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return;
-    const url = typeof href === "string" ? href : href.pathname || "";
     if (!url.startsWith("/")) return;
     e.preventDefault();
     startTransition(() => {
@@ -39,8 +48,12 @@ export function InstantLink({
   return (
     <Link
       href={href}
+      prefetch
       {...rest}
       onClick={handleClick}
+      onMouseEnter={() => {
+        if (url.startsWith("/")) router.prefetch(url);
+      }}
       className={`${className} ${pending ? "opacity-70" : ""}`.trim()}
       aria-busy={pending || undefined}
     >
