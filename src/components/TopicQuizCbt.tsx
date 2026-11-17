@@ -212,19 +212,23 @@ export function TopicQuizCbt({ attemptId, title, endsAt: endsAtProp, questions: 
   if (!current) return null;
 
   return (
-    <div className="mx-auto flex min-h-[100dvh] max-w-6xl flex-col px-3 py-4">
-      <header className="mb-4 flex flex-wrap items-center justify-between gap-3 rounded-xl bg-[var(--header)] px-4 py-3 text-white">
-        <div>
-          <h1 className="font-[family-name:var(--font-display)] text-lg font-semibold">{title}</h1>
+    <div className="mx-auto flex min-h-[100dvh] max-w-6xl flex-col px-3 py-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
+      <header className="mb-4 flex flex-wrap items-center justify-between gap-3 rounded-xl bg-[var(--header)] px-3 py-3 text-white sm:px-4">
+        <div className="min-w-0">
+          <h1 className="truncate font-[family-name:var(--font-display)] text-base font-semibold sm:text-lg">
+            {title}
+          </h1>
           <p className="text-xs text-blue-100">
             Attempted {attempted}/{questions.length} · Sync {syncState}
           </p>
         </div>
-        <div className="rounded bg-black/25 px-3 py-1.5 font-mono text-lg">{formatRemain(remain)}</div>
+        <div className="rounded bg-black/25 px-3 py-1.5 font-mono text-lg">
+          {formatRemain(remain)}
+        </div>
       </header>
 
       <div className="grid flex-1 gap-4 lg:grid-cols-[1fr_220px]">
-        <main className="rounded-xl border border-slate-200 bg-white p-5">
+        <main className="rounded-xl border border-slate-200 bg-white p-4 sm:p-5">
           <div className="mb-3 text-sm font-semibold text-slate-500">
             Q{current.number} · {current.topic}
           </div>
@@ -265,7 +269,7 @@ export function TopicQuizCbt({ attemptId, title, endsAt: endsAtProp, questions: 
             })}
           </div>
 
-          <div className="mt-6 flex flex-wrap gap-2">
+          <div className="exam-actions-sticky mt-6 flex flex-wrap gap-2 lg:!static lg:!mb-0 lg:!border-0 lg:!bg-transparent lg:!p-0 lg:!backdrop-filter-none">
             <button
               type="button"
               className="cbt-btn cbt-btn-muted"
@@ -323,7 +327,7 @@ export function TopicQuizCbt({ attemptId, title, endsAt: endsAtProp, questions: 
 
         <aside className="rounded-xl border border-slate-200 bg-[#f7fafc] p-3">
           <h3 className="mb-2 text-sm font-semibold">Palette</h3>
-          <div className="flex flex-wrap gap-1.5">
+          <div className="grid grid-cols-6 gap-2 sm:flex sm:flex-wrap sm:gap-1.5">
             {questions.map((q, i) => (
               <button
                 key={q.id}

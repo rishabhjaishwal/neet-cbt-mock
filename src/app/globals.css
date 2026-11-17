@@ -32,12 +32,16 @@ html,
 body {
   margin: 0;
   min-height: 100%;
+  max-width: 100%;
+  overflow-x: clip;
   color: var(--cbt-ink);
   background:
     radial-gradient(1200px 600px at 10% -10%, #d7e6f7 0%, transparent 55%),
     radial-gradient(900px 500px at 100% 0%, #cfe0f2 0%, transparent 50%),
     linear-gradient(180deg, #f4f7fb 0%, var(--cbt-bg) 100%);
   font-family: var(--font-source-sans), "Source Sans 3", "Segoe UI", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 a {
@@ -70,6 +74,8 @@ input {
   justify-content: center;
   width: 2.1rem;
   height: 2.1rem;
+  min-width: 2.1rem;
+  min-height: 2.1rem;
   border-radius: 0.35rem;
   border: 1px solid #8aa0b5;
   font-size: 0.75rem;
@@ -77,6 +83,7 @@ input {
   cursor: pointer;
   background-color: var(--status-not);
   color: #334155;
+  touch-action: manipulation;
 }
 
 button.palette-btn[data-status="attempted"],
@@ -200,13 +207,36 @@ button.palette-btn[data-status="marked_answered"],
 /* Mobile: keep action rows usable */
 @media (max-width: 640px) {
   .cbt-btn {
-    min-height: 2.5rem;
-    padding: 0.6rem 0.9rem;
+    min-height: 2.75rem;
+    padding: 0.65rem 0.95rem;
   }
-  .q-md-stem table {
+  .cbt-btn-sm {
+    min-height: 2.4rem;
+    padding: 0.45rem 0.75rem;
+  }
+  .palette-btn {
+    width: 2.65rem;
+    height: 2.65rem;
+    min-width: 2.65rem;
+    min-height: 2.65rem;
+    font-size: 0.82rem;
+  }
+  .q-md-stem,
+  .q-md-option {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+  .q-md-stem table,
+  .q-md-option table {
     display: block;
+    max-width: 100%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+  }
+  .q-figure img,
+  .q-figure svg {
+    max-width: 100%;
+    height: auto;
   }
 }
 
@@ -654,7 +684,7 @@ button.palette-btn[data-status="marked_answered"],
   }
 
   .landing-sticky--butter {
-    bottom: 4.5rem;
+    bottom: max(4.5rem, env(safe-area-inset-bottom, 0px) + 3.5rem);
     right: 0.75rem;
     width: 7.5rem;
     font-size: 1rem;
@@ -669,6 +699,21 @@ button.palette-btn[data-status="marked_answered"],
     padding-top: 6.5rem;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+    padding-bottom: max(5rem, env(safe-area-inset-bottom, 0px) + 3rem);
+  }
+
+  .landing-cta {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .landing-cta .btn-pencil {
+    width: 100%;
+  }
+
+  .landing-cta .btn-pencil__lead {
+    flex: 1;
+    justify-content: center;
   }
 
   .landing-paper {
@@ -683,6 +728,178 @@ button.palette-btn[data-status="marked_answered"],
       radial-gradient(ellipse 120% 80% at 70% 20%, rgba(255, 255, 255, 0.55), transparent 55%);
     background-size: 100% 100%, 100% 1.85rem, 100% 100%;
     background-position: 0 0, 0 0.95rem, 0 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .landing-sticky--butter {
+    display: none;
+  }
+  .landing-sticky--pink {
+    top: 0.75rem;
+    right: 0.5rem;
+    width: 6.4rem;
+    font-size: 0.95rem;
+  }
+}
+
+/* ——— Exam CBT phone layout ——— */
+.exam-mobile-palette-bar {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .cbt-shell {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  .cbt-exam-header {
+    gap: 0.5rem !important;
+    padding: 0.55rem 0.75rem !important;
+  }
+
+  .cbt-exam-header__meta {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .cbt-exam-header .cbt-hide-sm {
+    display: none !important;
+  }
+
+  .cbt-exam-timer {
+    font-size: 1.05rem !important;
+    padding: 0.4rem 0.7rem !important;
+  }
+
+  .cbt-shell .exam-question-pane {
+    padding-bottom: 7.75rem !important;
+  }
+
+  .cbt-shell .exam-actions-sticky {
+    position: sticky;
+    bottom: calc(3.4rem + env(safe-area-inset-bottom, 0px));
+    z-index: 20;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    padding: 0.65rem 1rem;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.72), #fff 35%);
+    border-top: 1px solid #e2e8f0;
+    border-bottom: 1px solid #e2e8f0;
+    backdrop-filter: blur(8px);
+  }
+
+  .exam-option-label {
+    min-height: 3rem;
+  }
+
+  .exam-desktop-aside {
+    display: none !important;
+  }
+
+  .exam-mobile-palette-bar {
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 45;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding: 0.55rem 0.75rem calc(0.55rem + env(safe-area-inset-bottom, 0px));
+    background: #0a3d6b;
+    color: #fff;
+    box-shadow: 0 -8px 24px rgba(15, 23, 42, 0.25);
+  }
+
+  .exam-mobile-palette-sheet {
+    position: fixed;
+    inset: auto 0 0 0;
+    z-index: 50;
+    display: flex;
+    max-height: min(58dvh, 420px);
+    flex-direction: column;
+    border-radius: 1rem 1rem 0 0;
+    background: #f7fafc;
+    box-shadow: 0 -12px 40px rgba(15, 23, 42, 0.28);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  .exam-mobile-palette-sheet[hidden] {
+    display: none !important;
+  }
+
+  .exam-mobile-palette-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 48;
+    background: rgba(15, 23, 42, 0.45);
+  }
+
+  .exam-mobile-palette-backdrop[hidden] {
+    display: none !important;
+  }
+
+  /* When palette sheet open, lift sticky actions above it via padding on pane */
+  .cbt-shell[data-mobile-palette="open"] .exam-question-pane {
+    padding-bottom: min(62dvh, 460px) !important;
+  }
+
+  .cbt-shell[data-mobile-palette="open"] .exam-mobile-palette-bar {
+    display: none;
+  }
+
+  .desk-shell__inner {
+    padding-left: max(0.75rem, env(safe-area-inset-left, 0px));
+    padding-right: max(0.75rem, env(safe-area-inset-right, 0px));
+  }
+
+  .desk-shell__paper {
+    background-image:
+      linear-gradient(
+        90deg,
+        transparent 0 1.35rem,
+        var(--margin-red) 1.35rem,
+        var(--margin-red) calc(1.35rem + 1.5px),
+        transparent calc(1.35rem + 1.5px)
+      ),
+      repeating-linear-gradient(
+        transparent,
+        transparent calc(1.85rem - 1px),
+        var(--rule) calc(1.85rem - 1px),
+        var(--rule) 1.85rem
+      ),
+      radial-gradient(ellipse 100% 70% at 85% 0%, rgba(255, 255, 255, 0.65), transparent 55%);
+  }
+
+  .desk-auth-card {
+    padding: 1.35rem 1.1rem;
+  }
+
+  .desk-nav a,
+  .desk-nav-link {
+    min-height: 2.4rem;
+  }
+
+  .topic-card-grid {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .topic-desktop-table {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .topic-card-grid {
+    display: none;
+  }
+  .exam-mobile-palette-bar,
+  .exam-mobile-palette-sheet,
+  .exam-mobile-palette-backdrop {
+    display: none !important;
   }
 }
 

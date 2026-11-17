@@ -88,7 +88,7 @@ async function main() {
     const r = await req("GET", "/dashboard");
     if (r.status !== 200) throw new Error(`status ${r.status}`);
     if (
-      !/Topic-wise|Last 10-year|Performance|Score over time|Open topic series|Start/i.test(
+      !/Topic-wise|Last 10-year|Performance|Score over time|Open topic series|Your performance|Start/i.test(
         r.text,
       )
     ) {

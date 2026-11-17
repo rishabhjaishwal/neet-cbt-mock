@@ -77,6 +77,10 @@ function isFullscreen() {
   return Boolean(document.fullscreenElement);
 }
 
+function fullscreenSupported() {
+  return typeof document !== "undefined" && typeof document.documentElement.requestFullscreen === "function";
+}
+
 async function enterFullscreen(el: HTMLElement) {
   if (!document.fullscreenElement && el.requestFullscreen) {
     await el.requestFullscreen();
@@ -189,6 +193,10 @@ export function ExamCbt({
   const [showQuestionPaper, setShowQuestionPaper] = useState(false);
   const [showSubmitSummary, setShowSubmitSummary] = useState(false);
   const [paletteCollapsed, setPaletteCollapsed] = useState(false);
+  const [mobilePaletteOpen, setMobilePaletteOpen] = useState(false);
+  const [isNarrow, setIsNarrow] = useState(false);
+  const [fsCapable, setFsCapable] = useState(true);
+  const [fsActiveSession, setFsActiveSession] = useState(false);
   const [fontScale, setFontScale] = useState(1);
   const [timerWarn, setTimerWarn] = useState<null | "15" | "5" | "1">(null);
   const [showLockPopup, setShowLockPopup] = useState(false);
@@ -204,6 +212,7 @@ export function ExamCbt({
   const paletteIndexesRef = useRef<number[]>([]);
   const indexForKeysRef = useRef(index);
   const modalOpenRef = useRef(false);
+  const fsActiveRef = useRef(false);
 
   const cooldownRef = useRef(0);
   const recordingRef = useRef(false);
@@ -543,25 +552,42 @@ export function ExamCbt({
   );
 
   async function startFullscreenExam() {
-    try {
-      if (shellRef.current) await enterFullscreen(shellRef.current);
-      setExamStarted(true);
-      setShowLockPopup(false);
-      setInstructionsRequired(true);
-      setInstructionsAck(false);
-      setInstructionsOpen(true);
-      void flushCheckpoint({ force: true });
-    } catch {
-      setMsg("Could not enter full screen. Allow full screen and try again.");
+    setMsg("");
+    let entered = false;
+    if (shellRef.current && fullscreenSupported()) {
+      try {
+        await enterFullscreen(shellRef.current);
+        entered = isFullscreen();
+      } catch {
+        entered = false;
+      }
     }
+    fsActiveRef.current = entered;
+    setFsActiveSession(entered);
+    setExamStarted(true);
+    setShowLockPopup(false);
+    setInstructionsRequired(true);
+    setInstructionsAck(false);
+    setInstructionsOpen(true);
+    void flushCheckpoint({ force: true });
   }
 
   async function returnToFullscreen() {
+    if (!fullscreenSupported()) {
+      setShowLockPopup(false);
+      return;
+    }
     try {
       if (shellRef.current) await enterFullscreen(shellRef.current);
+      fsActiveRef.current = true;
+      setFsActiveSession(true);
       setShowLockPopup(false);
     } catch {
-      setPopupReason("Full screen is required. Click the button again and allow permission.");
+      setPopupReason(
+        isNarrow
+          ? "Stay in this tab to continue. Full screen is optional on phones."
+          : "Full screen is required. Click the button again and allow permission.",
+      );
     }
   }
 
@@ -588,10 +614,21 @@ export function ExamCbt({
   }, [endsAt]);
 
   useEffect(() => {
+    const mq = window.matchMedia("(max-width: 1023px)");
+    const sync = () => setIsNarrow(mq.matches);
+    sync();
+    setFsCapable(fullscreenSupported());
+    mq.addEventListener("change", sync);
+    return () => mq.removeEventListener("change", sync);
+  }, []);
+
+  useEffect(() => {
     if (!examStarted) return;
 
     const onFullscreen = () => {
-      if (!isFullscreen()) void recordSwitch("fullscreen_exit");
+      if (!isFullscreen() && fsActiveRef.current) {
+        void recordSwitch("fullscreen_exit");
+      }
     };
     const onVisibility = () => {
       if (document.hidden) void recordSwitch("tab_switch");
@@ -877,7 +914,8 @@ export function ExamCbt({
     instructionsOpen ||
     showLockPopup ||
     showQuestionPaper ||
-    showSubmitSummary;
+    showSubmitSummary ||
+    mobilePaletteOpen;
 
   const durationMinutes = totalQuestions >= 200 ? 200 : 180;
 
@@ -902,6 +940,7 @@ export function ExamCbt({
     <div
       ref={shellRef}
       className="cbt-shell flex h-dvh max-h-dvh min-h-0 flex-col overflow-hidden bg-[var(--cbt-bg)]"
+      data-mobile-palette={mobilePaletteOpen ? "open" : "closed"}
       style={{ ["--exam-font-scale" as string]: String(fontScale) }}
     >
       {(!online || syncState === "error") && (
@@ -943,18 +982,23 @@ export function ExamCbt({
       )}
 
       {!examStarted && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/80 p-6">
-          <div className="max-w-lg rounded-xl bg-white p-6 shadow-xl">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/80 p-4 sm:p-6">
+          <div className="max-h-[90dvh] w-full max-w-lg overflow-y-auto rounded-xl bg-white p-5 shadow-xl sm:p-6">
             <h2 className="font-[family-name:var(--font-display)] text-2xl font-bold text-[var(--header)]">
               {i18n.fullscreenTitle}
             </h2>
             <p className="mt-3 text-sm leading-relaxed text-slate-700">{i18n.fullscreenBody}</p>
+            {!fsCapable || isNarrow ? (
+              <p className="mt-2 text-xs text-slate-500">
+                Phone tip: keep brightness up and stay in this tab. Full screen is optional here.
+              </p>
+            ) : null}
             <button
               type="button"
-              className="mt-5 w-full rounded-md bg-[var(--cbt-accent)] px-4 py-3 font-semibold text-white hover:bg-[var(--cbt-accent-dark)]"
+              className="cbt-btn cbt-btn-primary mt-5 w-full"
               onClick={() => void startFullscreenExam()}
             >
-              {i18n.startFullscreen}
+              {fsCapable && !isNarrow ? i18n.startFullscreenDesktop : i18n.startFullscreen}
             </button>
             {msg && <p className="mt-3 text-sm text-[var(--danger)]">{msg}</p>}
           </div>
@@ -962,25 +1006,26 @@ export function ExamCbt({
       )}
 
       {showLockPopup && (
-        <div className="fixed inset-0 z-[60] flex items-center justify-center bg-black/70 p-6">
-          <div className="max-w-md rounded-xl border-2 border-amber-500 bg-white p-6 shadow-2xl">
+        <div className="fixed inset-0 z-[60] flex items-center justify-center bg-black/70 p-4 sm:p-6">
+          <div className="max-h-[90dvh] w-full max-w-md overflow-y-auto rounded-xl border-2 border-amber-500 bg-white p-5 shadow-2xl sm:p-6">
             <h2 className="font-[family-name:var(--font-display)] text-xl font-bold text-[var(--danger)]">
               Screen change recorded
             </h2>
             <p className="mt-3 text-sm text-slate-700">
-              You cannot change the screen during the exam. {popupReason} This event has been
-              logged. Screen switches so far: <strong>{switchCount}</strong>.
+              Stay focused on the exam. {popupReason} This event has been logged. Screen
+              switches so far: <strong>{switchCount}</strong>.
             </p>
             <p className="mt-2 text-sm text-slate-600">
-              Return to full screen to continue. The examiner can see how many times the
-              screen was switched.
+              {fsActiveSession
+                ? "Return to full screen to continue. The examiner can see switch counts."
+                : "Return to this tab to continue. The examiner can see switch counts."}
             </p>
             <button
               type="button"
-              className="mt-5 w-full rounded-md bg-[var(--cbt-accent)] px-4 py-3 font-semibold text-white"
+              className="cbt-btn cbt-btn-primary mt-5 w-full"
               onClick={() => void returnToFullscreen()}
             >
-              Return to full screen
+              {fsActiveSession || fsCapable ? "Return to exam" : "Continue exam"}
             </button>
           </div>
         </div>
@@ -1034,14 +1079,14 @@ export function ExamCbt({
         />
       )}
 
-      <header className="flex shrink-0 flex-wrap items-center justify-between gap-3 bg-[var(--header)] px-4 py-3 text-white">
-        <div>
-          <div className="font-[family-name:var(--font-display)] text-lg font-semibold">
+      <header className="cbt-exam-header flex shrink-0 flex-wrap items-center justify-between gap-3 bg-[var(--header)] px-4 py-3 text-white">
+        <div className="min-w-0">
+          <div className="font-[family-name:var(--font-display)] text-base font-semibold sm:text-lg">
             NEET UG CBT — {year}
           </div>
-          <div className="text-sm text-blue-100">{title}</div>
+          <div className="truncate text-xs text-blue-100 sm:text-sm">{title}</div>
         </div>
-        <div className="flex flex-wrap items-center gap-2">
+        <div className="cbt-exam-header__meta flex flex-wrap items-center gap-2">
           <button
             type="button"
             className="cbt-btn cbt-btn-sm cbt-btn-ghost-toolbar"
@@ -1054,12 +1099,12 @@ export function ExamCbt({
           </button>
           <button
             type="button"
-            className="cbt-btn cbt-btn-sm cbt-btn-ghost-toolbar"
+            className="cbt-btn cbt-btn-sm cbt-btn-ghost-toolbar cbt-hide-sm"
             onClick={() => setShowQuestionPaper(true)}
           >
             {i18n.questionPaper}
           </button>
-          <div className="flex rounded bg-black/25 p-1 text-sm" title={i18n.keyboardHint}>
+          <div className="cbt-hide-sm flex rounded bg-black/25 p-1 text-sm" title={i18n.keyboardHint}>
             <button
               type="button"
               className="rounded px-2 py-1 hover:bg-white/20"
@@ -1085,27 +1130,27 @@ export function ExamCbt({
           <div className="flex rounded bg-black/25 p-1 text-sm">
             <button
               type="button"
-              className={`rounded px-2 py-1 ${lang === "en" ? "bg-white text-slate-900" : ""}`}
+              className={`min-h-9 rounded px-2.5 py-1 ${lang === "en" ? "bg-white text-slate-900" : ""}`}
               onClick={() => setLang("en")}
             >
               EN
             </button>
             <button
               type="button"
-              className={`rounded px-2 py-1 ${lang === "hi" ? "bg-white text-slate-900" : ""}`}
+              className={`min-h-9 rounded px-2.5 py-1 ${lang === "hi" ? "bg-white text-slate-900" : ""}`}
               onClick={() => setLang("hi")}
             >
               हिं
             </button>
           </div>
-          <div className="rounded bg-black/25 px-3 py-1.5 text-sm">
+          <div className="cbt-hide-sm rounded bg-black/25 px-3 py-1.5 text-sm">
             {i18n.progressAnswered}: {limitInfo.attemptedCount}/{limitInfo.attemptLimit}
           </div>
-          <div className="rounded bg-black/25 px-3 py-1.5 text-sm">
+          <div className="cbt-hide-sm rounded bg-black/25 px-3 py-1.5 text-sm">
             {i18n.screenSwitches}: {switchCount}
           </div>
-          <div className="rounded bg-black/25 px-4 py-2 font-mono text-xl tracking-wide">
-            {i18n.timeLeft}: {formatRemain(remain)}
+          <div className="cbt-exam-timer rounded bg-black/25 px-3 py-1.5 font-mono text-lg tracking-wide sm:px-4 sm:py-2 sm:text-xl">
+            {formatRemain(remain)}
           </div>
         </div>
       </header>
@@ -1119,15 +1164,24 @@ export function ExamCbt({
           className="exam-question-pane min-h-0 overflow-y-auto overscroll-contain bg-white p-4 md:p-6"
           style={{ fontSize: `calc(1rem * var(--exam-font-scale, 1))` }}
         >
-          <div className="mb-2 flex flex-wrap items-center gap-2">
+          <div className="mb-2 hidden flex-wrap items-center gap-2 lg:flex">
             <button
               type="button"
-              className="rounded border border-slate-200 bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-700 hover:bg-slate-100 lg:inline-flex"
+              className="rounded border border-slate-200 bg-slate-50 px-2.5 py-1 text-xs font-medium text-slate-700 hover:bg-slate-100"
               onClick={() => setPaletteCollapsed((v) => !v)}
             >
               {paletteCollapsed ? i18n.expandPalette : i18n.collapsePalette}
             </button>
             <span className="text-[11px] text-slate-400">{i18n.keyboardHint}</span>
+          </div>
+          <div className="mb-2 flex lg:hidden">
+            <button
+              type="button"
+              className="cbt-btn cbt-btn-sm cbt-btn-secondary"
+              onClick={() => setShowQuestionPaper(true)}
+            >
+              {i18n.questionPaper}
+            </button>
           </div>
           <div className="mb-3 flex flex-wrap items-center gap-2 text-sm">
             {(["ALL", "Physics", "Chemistry", "Biology"] as const).map((s) => (
@@ -1266,7 +1320,7 @@ export function ExamCbt({
               return (
                 <label
                   key={opt}
-                  className={`flex cursor-pointer items-start gap-3 rounded-md border px-3 py-3 ${
+                  className={`exam-option-label flex cursor-pointer items-start gap-3 rounded-md border px-3 py-3 ${
                     selected
                       ? "border-[var(--cbt-accent)] bg-blue-50"
                       : "border-slate-200 hover:bg-slate-50"
@@ -1293,7 +1347,7 @@ export function ExamCbt({
             })}
           </div>
 
-          <div className="mt-6 flex flex-wrap gap-2">
+          <div className="exam-actions-sticky mt-6 flex flex-wrap gap-2">
             <button
               type="button"
               className="cbt-btn cbt-btn-muted"
@@ -1367,7 +1421,7 @@ export function ExamCbt({
         </main>
 
         <aside
-          className={`flex min-h-0 flex-col overflow-hidden border-l border-slate-200 bg-[#f7fafc] p-4 ${
+          className={`exam-desktop-aside flex min-h-0 flex-col overflow-hidden border-l border-slate-200 bg-[#f7fafc] p-4 ${
             paletteCollapsed ? "hidden" : ""
           }`}
         >
@@ -1423,6 +1477,82 @@ export function ExamCbt({
             </div>
           </div>
         </aside>
+      </div>
+
+      <button
+        type="button"
+        className="exam-mobile-palette-bar"
+        onClick={() => setMobilePaletteOpen(true)}
+        aria-expanded={mobilePaletteOpen}
+      >
+        <span className="font-semibold">{i18n.palette}</span>
+        <span className="text-sm text-blue-100">
+          Q{current.number} · {limitInfo.attemptedCount}/{limitInfo.attemptLimit} answered
+        </span>
+        <span className="rounded bg-white/15 px-2 py-1 text-xs font-bold">Open</span>
+      </button>
+
+      <div
+        className="exam-mobile-palette-backdrop"
+        hidden={!mobilePaletteOpen}
+        onClick={() => setMobilePaletteOpen(false)}
+        aria-hidden
+      />
+      <div
+        className="exam-mobile-palette-sheet"
+        hidden={!mobilePaletteOpen}
+        role="dialog"
+        aria-label={i18n.palette}
+      >
+        <div className="flex shrink-0 items-center justify-between gap-2 border-b border-slate-200 px-4 py-3">
+          <div>
+            <h3 className="font-[family-name:var(--font-display)] font-semibold text-slate-800">
+              {i18n.palette}
+            </h3>
+            <p className="text-xs text-slate-500">
+              {subjectFilter === "ALL" ? i18n.allSubjects : subjectFilter}
+              {sectionFilter !== "ALL" ? ` · ${i18n.section} ${sectionFilter}` : ""}
+            </p>
+          </div>
+          <button
+            type="button"
+            className="cbt-btn cbt-btn-sm cbt-btn-secondary"
+            onClick={() => setMobilePaletteOpen(false)}
+          >
+            Close
+          </button>
+        </div>
+        <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain px-4 py-3">
+          <div className="mb-3 flex flex-wrap gap-3 text-xs text-slate-600">
+            <span>{i18n.attempted} ({counts.attempted})</span>
+            <span>{i18n.notAttempted} ({counts.not_attempted})</span>
+            <span>{i18n.marked} ({counts.marked + counts.marked_answered})</span>
+          </div>
+          <div className="grid grid-cols-6 gap-2 xs:grid-cols-7 sm:grid-cols-8">
+            {paletteIndexes.map((i) => {
+              const q = questions[i];
+              const status = paletteStatus(
+                q.status,
+                (q.selectedOptions && q.selectedOptions[0]) || q.selectedOption,
+              );
+              return (
+                <button
+                  key={`m-${q.id}`}
+                  type="button"
+                  className="palette-btn"
+                  data-status={status}
+                  data-current={i === index ? "true" : "false"}
+                  onClick={() => {
+                    goToIndex(i);
+                    setMobilePaletteOpen(false);
+                  }}
+                >
+                  {q.number}
+                </button>
+              );
+            })}
+          </div>
+        </div>
       </div>
     </div>
   );

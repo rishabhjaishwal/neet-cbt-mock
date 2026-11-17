@@ -21,10 +21,11 @@ const en = {
   markedEmpty: "No questions marked to visit later.",
   timeLeft: "Time Left",
   screenSwitches: "Screen switches",
-  fullscreenTitle: "Full screen required",
+  fullscreenTitle: "Start the timed CBT",
   fullscreenBody:
-    "This NEET CBT must run in full screen. Leaving full screen, switching tabs/windows, or pressing Esc is tracked. Progress is checkpointed on the server.",
-  startFullscreen: "Start exam in full screen",
+    "On desktop we open full screen when the browser allows it. On phones, stay in this tab with the screen awake — leaving the exam or switching apps is still tracked. Progress checkpoints to the server.",
+  startFullscreen: "Start exam",
+  startFullscreenDesktop: "Start exam in full screen",
   attemptSlots: "Attempt slots",
   language: "Language",
   paperLangNote:
@@ -78,10 +79,11 @@ const hi: typeof en = {
   markedEmpty: "बाद में देखने के लिए कोई प्रश्न चिह्नित नहीं।",
   timeLeft: "शेष समय",
   screenSwitches: "स्क्रीन स्विच",
-  fullscreenTitle: "पूर्ण स्क्रीन आवश्यक",
+  fullscreenTitle: "समयबद्ध CBT शुरू करें",
   fullscreenBody:
-    "यह NEET CBT पूर्ण स्क्रीन में चलना चाहिए। स्क्रीन छोड़ना / टैब बदलना / Esc ट्रैक होता है। प्रगति सर्वर पर सेव होती है।",
-  startFullscreen: "पूर्ण स्क्रीन में परीक्षा शुरू करें",
+    "डेस्कटॉप पर ब्राउज़र अनुमति से पूर्ण स्क्रीन खुलती है। फ़ोन पर इसी टैब में रहें — ऐप छोड़ना ट्रैक होता है। प्रगति सर्वर पर सेव होती है।",
+  startFullscreen: "परीक्षा शुरू करें",
+  startFullscreenDesktop: "पूर्ण स्क्रीन में परीक्षा शुरू करें",
   attemptSlots: "प्रयास सीमा",
   language: "भाषा",
   paperLangNote:

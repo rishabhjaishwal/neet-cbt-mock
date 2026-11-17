@@ -1,10 +1,17 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "katex/dist/katex.min.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
   title: "NEET CBT Mock",
   description: "Laptop CBT mock platform for NEET UG previous-year papers",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+  themeColor: "#1e4d7b",
 };
 
 export default function RootLayout({
