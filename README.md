@@ -1,6 +1,6 @@
 # NEET CBT Mock
 
-Laptop-style NEET UG CBT mock: student signup/login, year selection, timed palette UI, instant scored results on submit (marks, chosen vs correct, modelled rank/stats). Examiners can still review attempts; approval is not required.
+Laptop-style NEET UG CBT mock: **student-only** signup/login, year papers, topic drills, friend competitions (invite code), and instant scored results on submit.
 
 ## Stack
 
@@ -20,8 +20,9 @@ npm run dev                  # http://127.0.0.1:3000
 
 | Role | Email | Password |
 |------|-------|----------|
-| Examiner | examiner@neet.local | Examiner@123 |
 | Demo student | student@neet.local | Student@123 |
+
+Public `/login` rejects examiner accounts. Seed examiner exists for local audit only.
 
 ## Docs
 
