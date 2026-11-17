@@ -50,6 +50,16 @@ input {
 
 .cbt-shell {
   min-height: 100vh;
+  min-height: 100dvh;
+}
+
+/* Fullscreen CBT: keep exam chrome fixed; scroll question + palette panes */
+.cbt-shell:fullscreen,
+.cbt-shell:-webkit-full-screen {
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  overflow: hidden;
 }
 
 .palette-btn {

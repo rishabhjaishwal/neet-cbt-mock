@@ -692,7 +692,10 @@ export function ExamCbt({
             : "Synced";
 
   return (
-    <div ref={shellRef} className="cbt-shell flex min-h-screen flex-col bg-[var(--cbt-bg)]">
+    <div
+      ref={shellRef}
+      className="cbt-shell flex h-dvh max-h-dvh min-h-0 flex-col overflow-hidden bg-[var(--cbt-bg)]"
+    >
       {(!online || syncState === "error") && (
         <div className="z-[70] bg-amber-600 px-4 py-2 text-center text-sm font-medium text-white">
           Network issue detected. Your answers stay on this device and will sync to the server
@@ -756,7 +759,7 @@ export function ExamCbt({
         </div>
       )}
 
-      <header className="flex flex-wrap items-center justify-between gap-3 bg-[var(--header)] px-4 py-3 text-white">
+      <header className="flex shrink-0 flex-wrap items-center justify-between gap-3 bg-[var(--header)] px-4 py-3 text-white">
         <div>
           <div className="font-[family-name:var(--font-display)] text-lg font-semibold">
             NEET UG CBT — {year}
@@ -792,8 +795,8 @@ export function ExamCbt({
         </div>
       </header>
 
-      <div className="grid flex-1 gap-0 lg:grid-cols-[1fr_320px]">
-        <main className="bg-white p-4 md:p-6">
+      <div className="grid min-h-0 flex-1 gap-0 overflow-y-auto lg:grid-cols-[1fr_320px] lg:grid-rows-[minmax(0,1fr)] lg:overflow-hidden">
+        <main className="min-h-0 overflow-y-auto overscroll-contain bg-white p-4 md:p-6">
           <div className="mb-3 flex flex-wrap items-center gap-2 text-sm">
             {(["ALL", "Physics", "Chemistry", "Biology"] as const).map((s) => (
               <button
@@ -1018,53 +1021,57 @@ export function ExamCbt({
           {msg && <p className="mt-3 text-sm text-[var(--danger)]">{msg}</p>}
         </main>
 
-        <aside className="border-l border-slate-200 bg-[#f7fafc] p-4">
-          <h3 className="mb-3 font-[family-name:var(--font-display)] font-semibold">
-            {i18n.palette}
-          </h3>
-          <p className="mb-2 text-xs text-slate-500">
-            {subjectFilter === "ALL" ? i18n.allSubjects : subjectFilter}
-            {sectionFilter !== "ALL" ? ` · ${i18n.section} ${sectionFilter}` : ""}
-          </p>
-          <div className="mb-4 grid grid-cols-1 gap-2 text-xs">
-            <div className="flex items-center gap-2">
-              <span className="palette-btn" data-status="attempted" aria-hidden />
-              {i18n.attempted} ({counts.attempted})
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="palette-btn" data-status="not_attempted" aria-hidden />
-              {i18n.notAttempted} ({counts.not_attempted})
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="palette-btn" data-status="marked" aria-hidden />
-              {i18n.marked} ({counts.marked})
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="palette-btn" data-status="marked_answered" aria-hidden />
-              {i18n.markedAnswered}
+        <aside className="flex min-h-0 flex-col overflow-hidden border-l border-slate-200 bg-[#f7fafc] p-4">
+          <div className="shrink-0">
+            <h3 className="mb-3 font-[family-name:var(--font-display)] font-semibold">
+              {i18n.palette}
+            </h3>
+            <p className="mb-2 text-xs text-slate-500">
+              {subjectFilter === "ALL" ? i18n.allSubjects : subjectFilter}
+              {sectionFilter !== "ALL" ? ` · ${i18n.section} ${sectionFilter}` : ""}
+            </p>
+            <div className="mb-4 grid grid-cols-1 gap-2 text-xs">
+              <div className="flex items-center gap-2">
+                <span className="palette-btn" data-status="attempted" aria-hidden />
+                {i18n.attempted} ({counts.attempted})
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="palette-btn" data-status="not_attempted" aria-hidden />
+                {i18n.notAttempted} ({counts.not_attempted})
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="palette-btn" data-status="marked" aria-hidden />
+                {i18n.marked} ({counts.marked})
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="palette-btn" data-status="marked_answered" aria-hidden />
+                {i18n.markedAnswered}
+              </div>
             </div>
           </div>
-          <div className="grid grid-cols-5 gap-2 sm:grid-cols-6 lg:grid-cols-5">
-            {paletteIndexes.map((i) => {
-              const q = questions[i];
-              const status = paletteStatus(
-                q.status,
-                (q.selectedOptions && q.selectedOptions[0]) || q.selectedOption,
-              );
-              return (
-                <button
-                  key={q.id}
-                  type="button"
-                  className="palette-btn"
-                  data-status={status}
-                  data-current={i === index ? "true" : "false"}
-                  onClick={() => goToIndex(i)}
-                  title={`Q${q.number} ${q.subject} · ${status.replaceAll("_", " ")}`}
-                >
-                  {q.number}
-                </button>
-              );
-            })}
+          <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain pr-1">
+            <div className="grid grid-cols-5 gap-2 sm:grid-cols-6 lg:grid-cols-5">
+              {paletteIndexes.map((i) => {
+                const q = questions[i];
+                const status = paletteStatus(
+                  q.status,
+                  (q.selectedOptions && q.selectedOptions[0]) || q.selectedOption,
+                );
+                return (
+                  <button
+                    key={q.id}
+                    type="button"
+                    className="palette-btn"
+                    data-status={status}
+                    data-current={i === index ? "true" : "false"}
+                    onClick={() => goToIndex(i)}
+                    title={`Q${q.number} ${q.subject} · ${status.replaceAll("_", " ")}`}
+                  >
+                    {q.number}
+                  </button>
+                );
+              })}
+            </div>
           </div>
         </aside>
       </div>
