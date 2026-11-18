@@ -165,6 +165,9 @@ const TopicQuestionSnapSchema = new Schema(
     figureSrc: { type: String },
     figureKind: { type: String },
     answerEstimated: { type: Boolean, default: false },
+    /** Optional curated solution snapshotted for NEET AI / topic packs. */
+    solution: { type: String },
+    studyLinks: { type: Schema.Types.Mixed },
   },
   { _id: false },
 );

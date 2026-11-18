@@ -26,7 +26,7 @@ function formatWhen(iso: string) {
   }
 }
 
-/** Stock-like performance line: marks obtained vs time. */
+/** Stock-like performance line: % of available marks vs time (fair across paper/topic). */
 function PerformanceLineChart({ points }: { points: DashAttemptPoint[] }) {
   if (points.length === 0) return null;
   const W = 640;
@@ -34,14 +34,14 @@ function PerformanceLineChart({ points }: { points: DashAttemptPoint[] }) {
   const pad = { t: 24, r: 16, b: 36, l: 44 };
   const innerW = W - pad.l - pad.r;
   const innerH = H - pad.t - pad.b;
-  const maxY = Math.max(720, ...points.map((p) => Math.max(p.totalMarks, p.score)));
-  const minY = Math.min(0, ...points.map((p) => p.score));
-  const spanY = Math.max(1, maxY - minY);
+  const maxY = 100;
+  const minY = 0;
+  const spanY = 100;
   const n = points.length;
 
   const xy = points.map((p, i) => {
     const x = pad.l + (n === 1 ? innerW / 2 : (i / (n - 1)) * innerW);
-    const y = pad.t + innerH - ((p.score - minY) / spanY) * innerH;
+    const y = pad.t + innerH - ((p.scorePct - minY) / spanY) * innerH;
     return { x, y, p };
   });
 
@@ -53,7 +53,7 @@ function PerformanceLineChart({ points }: { points: DashAttemptPoint[] }) {
 
   const last = points[points.length - 1];
   const prev = points[points.length - 2];
-  const up = !prev || last.score >= prev.score;
+  const up = !prev || last.scorePct >= prev.scorePct;
   const stroke = up ? "#0f9f6e" : "#c2410c";
 
   return (
@@ -89,30 +89,30 @@ function PerformanceLineChart({ points }: { points: DashAttemptPoint[] }) {
             </g>
           );
         })}
-        {/* Total marks reference */}
+        {/* 50% reference */}
         <line
           x1={pad.l}
           x2={W - pad.r}
-          y1={pad.t + innerH - ((720 - minY) / spanY) * innerH}
-          y2={pad.t + innerH - ((720 - minY) / spanY) * innerH}
+          y1={pad.t + innerH - ((50 - minY) / spanY) * innerH}
+          y2={pad.t + innerH - ((50 - minY) / spanY) * innerH}
           stroke="rgba(30,77,123,0.35)"
           strokeDasharray="5 5"
         />
         <text
           x={W - pad.r}
-          y={pad.t + innerH - ((720 - minY) / spanY) * innerH - 6}
+          y={pad.t + innerH - ((50 - minY) / spanY) * innerH - 6}
           textAnchor="end"
           fontSize="10"
           fill="#1e4d7b"
         >
-          720 total
+          50%
         </text>
         <path d={area} fill="url(#perfFill)" />
         <path d={line} fill="none" stroke={stroke} strokeWidth="2.5" strokeLinejoin="round" />
         {xy.map(({ x, y, p }) => (
           <g key={p.id}>
             <circle cx={x} cy={y} r="4.5" fill="#fff" stroke={stroke} strokeWidth="2" />
-            <title>{`${p.label}: ${p.score}/${p.totalMarks} · ${formatWhen(p.at)}`}</title>
+            <title>{`${p.label}: ${p.score}/${p.totalMarks} (${p.scorePct}%) · ${formatWhen(p.at)}`}</title>
           </g>
         ))}
         {xy.map(({ x, p }, i) =>
@@ -125,7 +125,7 @@ function PerformanceLineChart({ points }: { points: DashAttemptPoint[] }) {
               fontSize="9"
               fill="#64748b"
             >
-              {p.kind === "paper" ? String(p.year ?? "") : "T"}
+              {p.kind === "paper" ? String(p.year ?? "") : p.kind === "neet-ai" ? "AI" : "T"}
             </text>
           ) : null,
         )}
@@ -134,15 +134,15 @@ function PerformanceLineChart({ points }: { points: DashAttemptPoint[] }) {
         <span>
           Latest{" "}
           <strong className="text-slate-800">
-            {last.score}/{last.totalMarks}
+            {last.scorePct}% ({last.score}/{last.totalMarks})
           </strong>{" "}
           · {formatWhen(last.at)}
         </span>
         <span className={up ? "font-semibold text-emerald-700" : "font-semibold text-orange-700"}>
           {prev
             ? up
-              ? `▲ +${last.score - prev.score} vs prior`
-              : `▼ ${last.score - prev.score} vs prior`
+              ? `▲ +${(last.scorePct - prev.scorePct).toFixed(1)} pp vs prior`
+              : `▼ ${(last.scorePct - prev.scorePct).toFixed(1)} pp vs prior`
             : "First scored attempt"}
         </span>
       </div>
@@ -522,7 +522,9 @@ function SubmittedTestsTable({ points }: { points: DashAttemptPoint[] }) {
                   href={
                     p.kind === "paper"
                       ? `/results/${p.id}`
-                      : `/topic-series/results/${p.id}`
+                      : p.kind === "neet-ai"
+                        ? `/neet-ai/results/${p.id}`
+                        : `/topic-series/results/${p.id}`
                   }
                   className="cbt-btn cbt-btn-sm cbt-btn-secondary"
                 >

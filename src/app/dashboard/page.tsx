@@ -10,7 +10,7 @@ import { InstantLink } from "@/components/InstantLink";
 import { DashboardCharts } from "@/components/DashboardCharts";
 import { PaperContentPrefetch } from "@/components/PaperContentPrefetch";
 import { ThemeToggle } from "@/components/ThemeToggle";
-import { toDashPoints } from "@/lib/dashboard-points";
+import { isMeaningfulAttempt, toDashPoints } from "@/lib/dashboard-points";
 import { buildTopicDashboardAnalytics } from "@/lib/topic-dashboard";
 
 export default async function DashboardPage({
@@ -42,9 +42,9 @@ export default async function DashboardPage({
     })
       .sort({ submittedAt: -1 })
       .select(
-        "subject topic difficulty score wrongCount unattemptedCount correctCount subjectStats topicStats submittedAt startedAt",
+        "topicId subject topic difficulty score wrongCount unattemptedCount correctCount subjectStats topicStats submittedAt startedAt sequenceLabel",
       )
-      .limit(80)
+      .limit(120)
       .lean(),
   ]);
 
@@ -76,7 +76,13 @@ export default async function DashboardPage({
 
   const scoredPapers = attempts.filter(
     (a) =>
-      (a.status === "approved" || a.status === "submitted") && a.score != null,
+      (a.status === "approved" || a.status === "submitted") &&
+      a.score != null &&
+      isMeaningfulAttempt({
+        correctCount: a.correctCount,
+        wrongCount: a.wrongCount,
+        subjectStats: a.subjectStats as Record<string, { partial?: number }> | null,
+      }),
   );
 
   const chartPoints = toDashPoints([
@@ -97,26 +103,31 @@ export default async function DashboardPage({
         { correct?: number; wrong?: number; partial?: number }
       > | null,
     })),
-    ...topicAttempts.map((a) => ({
-      id: String(a._id),
-      label: `${a.subject} · ${a.topic} (${a.difficulty})`,
-      kind: "topic" as const,
-      score: a.score as number,
-      totalMarks: Math.max(
-        40,
-        ((a.correctCount || 0) + (a.wrongCount || 0) + (a.unattemptedCount || 0)) *
-          4,
-      ),
-      wrongCount: a.wrongCount,
-      unattemptedCount: a.unattemptedCount,
-      correctCount: a.correctCount,
-      submittedAt: a.submittedAt,
-      startedAt: a.startedAt,
-      subjectStats: a.subjectStats as Record<
-        string,
-        { correct?: number; wrong?: number; partial?: number }
-      > | null,
-    })),
+    ...topicAttempts.map((a) => {
+      const isNeetAi = String(a.topicId || "").startsWith("neet-ai");
+      return {
+        id: String(a._id),
+        label: isNeetAi
+          ? `NEET AI · ${a.difficulty}${a.sequenceLabel ? ` · ${a.sequenceLabel}` : ""}`
+          : `${a.subject} · ${a.topic} (${a.difficulty})`,
+        kind: (isNeetAi ? "neet-ai" : "topic") as "neet-ai" | "topic",
+        score: a.score as number,
+        totalMarks: Math.max(
+          40,
+          ((a.correctCount || 0) + (a.wrongCount || 0) + (a.unattemptedCount || 0)) *
+            4,
+        ),
+        wrongCount: a.wrongCount,
+        unattemptedCount: a.unattemptedCount,
+        correctCount: a.correctCount,
+        submittedAt: a.submittedAt,
+        startedAt: a.startedAt,
+        subjectStats: a.subjectStats as Record<
+          string,
+          { correct?: number; wrong?: number; partial?: number }
+        > | null,
+      };
+    }),
   ]);
 
   const topicAnalytics = buildTopicDashboardAnalytics(
@@ -146,6 +157,16 @@ export default async function DashboardPage({
         string,
         { correct?: number; wrong?: number; unattempted?: number; partial?: number }
       > | null,
+      topicStats: a.topicStats as {
+        topics?: Array<{
+          topic: string;
+          subject: string;
+          correct?: number;
+          wrong?: number;
+          unattempted?: number;
+          partial?: number;
+        }>;
+      } | null,
     })),
   );
 
@@ -163,8 +184,9 @@ export default async function DashboardPage({
             </p>
             <h1 className="desk-title">Hey, {user.name.split(" ")[0]}</h1>
             <p className="desk-kicker max-w-xl">
-              Your student desk — charts, topic drills, year papers, friend
-              competitions, and a suggestions notebook. Everything scores instantly.
+              Your student desk — charts, NEET AI mocks, topic drills, year papers,
+              friend competitions, and a suggestions notebook. Everything scores
+              instantly.
             </p>
           </div>
           <div className="flex flex-col items-end gap-2">
@@ -179,6 +201,7 @@ export default async function DashboardPage({
         <nav className="desk-nav mb-6" aria-label="Dashboard sections">
           <a href="#performance">Performance</a>
           <a href="#topic-performance">Topic strengths</a>
+          <a href="#neet-ai">NEET AI</a>
           <a href="#topic-mocks">Topic-wise mocks</a>
           <a href="#competitions">Competitions</a>
           <a href="#year-papers">Last 10-year papers</a>
@@ -197,6 +220,40 @@ export default async function DashboardPage({
 
         <section id="performance" className="mb-10 scroll-mt-6">
           <DashboardCharts points={chartPoints} topicAnalytics={topicAnalytics} />
+        </section>
+
+        <section id="neet-ai" className="mb-10 scroll-mt-6">
+          <div className="desk-card desk-card--pad relative overflow-hidden">
+            <span
+              className="desk-sticky-chip desk-sticky-chip--butter absolute right-4 top-4 hidden sm:inline-flex"
+              aria-hidden
+            >
+              AI verified keys
+            </span>
+            <h2 className="desk-section-title">NEET AI</h2>
+            <p className="desk-kicker max-w-2xl">
+              Easy / Medium / Hard mixed Physics–Chemistry–Biology mocks from
+              Hugging Face NEET banks with multi-source answer-key checks. 30 Q ·
+              ~36 min · instant solutions.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-3">
+              <InstantLink
+                href="/neet-ai"
+                className="btn-pencil"
+                showPending={false}
+              >
+                <span className="btn-pencil__lead">Open NEET AI</span>
+                <span className="btn-pencil__tip" aria-hidden />
+              </InstantLink>
+              <InstantLink
+                href="/neet-ai"
+                className="btn-ink-link"
+                showPending={false}
+              >
+                Easy · Medium · Hard packs →
+              </InstantLink>
+            </div>
+          </div>
         </section>
 
         <section id="competitions" className="mb-10 scroll-mt-6">

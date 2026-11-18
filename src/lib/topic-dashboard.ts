@@ -71,6 +71,9 @@ type TopicAttemptLike = {
     string,
     { correct?: number; wrong?: number; unattempted?: number; partial?: number }
   > | null;
+  topicStats?: {
+    topics?: TopicRow[];
+  } | null;
 };
 
 function bumpTopic(
@@ -156,8 +159,23 @@ function subjectsFromTopics(topics: TopicAgg[]): SubjectAgg[] {
     .sort((a, b) => a.accuracy - b.accuracy || b.unattempted - a.unattempted);
 }
 
+function attemptHadAnswers(row: {
+  correct?: number;
+  wrong?: number;
+  unattempted?: number;
+  partial?: number;
+  correctCount?: number | null;
+  wrongCount?: number | null;
+}): boolean {
+  const c = row.correct ?? row.correctCount ?? 0;
+  const w = row.wrong ?? row.wrongCount ?? 0;
+  const p = row.partial ?? 0;
+  return c + w + p > 0;
+}
+
 /**
  * Aggregate paper topicStats + topic-mock attempts into dashboard analytics.
+ * Skips empty submits (0 answered) so strength charts match real practice.
  */
 export function buildTopicDashboardAnalytics(
   papers: PaperLike[],
@@ -168,6 +186,11 @@ export function buildTopicDashboardAnalytics(
   for (const p of papers) {
     const topics = p.topicStats?.topics;
     if (Array.isArray(topics) && topics.length) {
+      const answered = topics.reduce(
+        (s, t) => s + (t.correct || 0) + (t.wrong || 0) + (t.partial || 0),
+        0,
+      );
+      if (!answered) continue;
       for (const t of topics) {
         bumpTopic(map, {
           subject: t.subject,
@@ -181,7 +204,13 @@ export function buildTopicDashboardAnalytics(
       continue;
     }
     // Fallback: subject-only rolls when topicStats missing
-    for (const [subject, s] of Object.entries(p.subjectStats || {})) {
+    const ss = p.subjectStats || {};
+    const answered = Object.values(ss).reduce(
+      (s, v) => s + (v.correct || 0) + (v.wrong || 0) + (v.partial || 0),
+      0,
+    );
+    if (!answered) continue;
+    for (const [subject, s] of Object.entries(ss)) {
       bumpTopic(map, {
         subject,
         topic: `${subject} General`,
@@ -194,7 +223,50 @@ export function buildTopicDashboardAnalytics(
   }
 
   for (const a of topicAttempts) {
-    const stats = a.subjectStats?.[a.subject];
+    if (
+      !attemptHadAnswers({
+        correctCount: a.correctCount,
+        wrongCount: a.wrongCount,
+        partial: Object.values(a.subjectStats || {}).reduce(
+          (s, v) => s + (v.partial || 0),
+          0,
+        ),
+      })
+    ) {
+      continue;
+    }
+    // Prefer per-question topic rolls (needed for mixed NEET AI packs).
+    const topics = a.topicStats?.topics;
+    if (Array.isArray(topics) && topics.length) {
+      for (const t of topics) {
+        bumpTopic(map, {
+          subject: t.subject,
+          topic: t.topic,
+          correct: t.correct || 0,
+          wrong: t.wrong || 0,
+          unattempted: t.unattempted || 0,
+          partial: t.partial || 0,
+        });
+      }
+      continue;
+    }
+    // Multi-subject snap (NEET AI): roll each subjectStats key.
+    const ss = a.subjectStats || {};
+    const ssKeys = Object.keys(ss);
+    if (ssKeys.length > 1 || (ssKeys.length === 1 && ssKeys[0] !== a.subject)) {
+      for (const [subject, s] of Object.entries(ss)) {
+        bumpTopic(map, {
+          subject,
+          topic: `${subject} General`,
+          correct: s.correct || 0,
+          wrong: s.wrong || 0,
+          unattempted: s.unattempted || 0,
+          partial: s.partial || 0,
+        });
+      }
+      continue;
+    }
+    const stats = ss?.[a.subject];
     bumpTopic(map, {
       subject: a.subject,
       topic: a.topic,
