@@ -42,12 +42,20 @@ function cleanText(s) {
   return t;
 }
 
-function parseAnswer(ans, optionsLen) {
+function parseAnswer(ans, optionsLen, { zeroIndexed = false } = {}) {
   if (ans == null || ans === "") return null;
+  if (typeof ans === "number" && Number.isFinite(ans)) {
+    if (zeroIndexed && ans >= 0 && ans <= 3) return String(ans + 1);
+    if (ans >= 1 && ans <= 4) return String(ans);
+    if (ans >= 0 && ans <= 3) return String(ans + 1);
+    return null;
+  }
   const s = String(ans).trim();
-  if (/^[0-3]$/.test(s)) return String(Number(s) + 1); // 0-indexed
-  if (/^[1-4]$/.test(s)) return s;
   if (/^[A-Da-d]$/.test(s)) return String(s.toUpperCase().charCodeAt(0) - 64);
+  // Already 1-based must win over 0–3 (avoids shifting "1"→"2").
+  if (/^[1-4]$/.test(s)) return s;
+  if (zeroIndexed && /^[0-3]$/.test(s)) return String(Number(s) + 1);
+  if (s === "0") return "1";
   // answer is full option text — match
   return null;
 }

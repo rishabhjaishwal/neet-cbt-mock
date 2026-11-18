@@ -1,6 +1,6 @@
 {
-  "version": 1794959951231,
-  "note": "NEET AI Easy/Medium/Hard mixed PCB mocks. Keys require \u22652 independent sources (option-text) or authored NCERT drills. 30Q \u00b7 ~36 min per pack. Hard usable 420 after noisy-stem filter.",
+  "version": 1794975092257,
+  "note": "NEET AI Easy/Medium/Hard. Keys remapped by option TEXT after parseAnswer bug fix; \u22652 sources or authored/NCERT-web.",
   "packSize": 30,
   "durationMin": 36,
   "difficulties": {
@@ -14,13 +14,15 @@
       },
       "sources": {
         "authored-ncert": 145,
-        "md-year": 133,
-        "topic-bank": 302,
-        "hf-dipika": 76,
-        "hf-sweat": 121,
-        "hf-catch": 16,
-        "solution-text": 1,
-        "assistant-text": 1
+        "md-year": 135,
+        "md-year-solution": 104,
+        "topic-bank": 275,
+        "solution-text": 3,
+        "hf-dipika": 35,
+        "ncert-knowledge": 3,
+        "web-multi": 3,
+        "hf-catch": 5,
+        "hf-sweat": 14
       }
     },
     "Medium": {
@@ -32,32 +34,36 @@
         "Biology": 250
       },
       "sources": {
-        "hf-dipika": 44,
-        "topic-bank": 316,
-        "md-year": 125,
-        "hf-sweat": 141,
-        "hf-catch": 27,
-        "authored-ncert": 130,
-        "solution-text": 1,
-        "assistant-text": 2
+        "ncert-knowledge": 4,
+        "web-multi": 4,
+        "md-year": 127,
+        "md-year-solution": 98,
+        "topic-bank": 288,
+        "hf-catch": 8,
+        "hf-dipika": 21,
+        "solution-text": 3,
+        "hf-sweat": 12,
+        "authored-ncert": 130
       }
     },
     "Hard": {
-      "count": 420,
-      "packs": 14,
+      "count": 450,
+      "packs": 15,
       "subjects": {
         "Physics": 201,
         "Chemistry": 109,
         "Biology": 140
       },
       "sources": {
-        "authored-ncert": 157,
-        "topic-bank": 286,
-        "hf-catch": 18,
-        "md-year": 242,
-        "hf-sweat": 6,
-        "hf-dipika": 62,
-        "solution-text": 4
+        "authored-ncert": 155,
+        "topic-bank": 227,
+        "hf-catch": 3,
+        "md-year": 246,
+        "md-year-solution": 180,
+        "hf-dipika": 26,
+        "solution-text": 39,
+        "ncert-knowledge": 2,
+        "web-multi": 2
       }
     }
   }

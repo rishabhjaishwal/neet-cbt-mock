@@ -85,11 +85,24 @@ function cleanText(s) {
 function normOpt(s) {
   return String(s || "")
     .toLowerCase()
-    .replace(/\$[^$]+\$/g, " ")
-    .replace(/[^a-z0-9.+%\-]+/g, " ")
+    // Unwrap math mode; do not delete contents (\$...\$ wipe corrupted votes).
+    .replace(/\$\$/g, " ")
+    .replace(/\$/g, " ")
+    .replace(/∆|Δ|δ/g, "delta")
+    .replace(/\\mathrm\{([^}]*)\}/g, "$1")
+    .replace(/\\mathbf\{([^}]*)\}/g, "$1")
+    .replace(/\\text\{([^}]*)\}/g, "$1")
+    .replace(/\\delta\b/gi, "delta")
+    .replace(/\\Delta\b/gi, "delta")
+    .replace(/\\[a-z]+\b/gi, " ")
+    .replace(/[{}]/g, " ")
+    .replace(/≤/g, "<=")
+    .replace(/≥/g, ">=")
+    .replace(/≠/g, "!=")
+    .replace(/[^a-z0-9.+%\-<=>!]+/g, " ")
     .replace(/\s+/g, " ")
     .trim()
-    .slice(0, 80);
+    .slice(0, 120);
 }
 
 function stemFp(stem) {
@@ -107,14 +120,34 @@ function contentFp(stem, options) {
   return `${stemFp(stem)}::${opts}`;
 }
 
-function parseAnswer(ans) {
+/**
+ * Normalize an answer token to a 1-based option code "1"…"4".
+ *
+ * IMPORTANT: check 1–4 BEFORE 0–3. The old order treated already-1-based
+ * "1","2","3" as 0-indexed and shifted them (+1), then remapKeyByOptionText
+ * shifted again — systematically corrupting NEET AI keys.
+ *
+ * Pass { zeroIndexed: true } only for datasets whose numeric answers are
+ * unambiguously 0..3 (e.g. some HF rows).
+ */
+function parseAnswer(ans, opts = {}) {
   if (ans == null || ans === "") return null;
+  const zeroIndexed = Boolean(opts.zeroIndexed);
+  if (typeof ans === "number" && Number.isFinite(ans)) {
+    if (zeroIndexed && ans >= 0 && ans <= 3) return String(ans + 1);
+    if (ans >= 1 && ans <= 4) return String(ans);
+    if (ans >= 0 && ans <= 3) return String(ans + 1);
+    return null;
+  }
   const s = String(ans).trim();
-  if (/^[0-3]$/.test(s)) return String(Number(s) + 1);
-  if (/^[1-4]$/.test(s)) return s;
   if (/^[A-Da-d]$/.test(s)) return String(s.toUpperCase().charCodeAt(0) - 64);
+  // Already 1-based — must win over the 0–3 branch.
+  if (/^[1-4]$/.test(s)) return s;
+  if (zeroIndexed && /^[0-3]$/.test(s)) return String(Number(s) + 1);
+  // Bare "0" is unambiguously 0-indexed option A.
+  if (s === "0") return "1";
   const m = s.match(/\(([1-4A-Da-d])\)/);
-  if (m) return parseAnswer(m[1]);
+  if (m) return parseAnswer(m[1], opts);
   return null;
 }
 
@@ -305,7 +338,10 @@ function buildLinks(q) {
 
 /** Map a letter/index key from source A onto destination options by option TEXT. */
 function remapKeyByOptionText(srcOptions, srcKey, destOptions) {
-  const srcCode = parseAnswer(srcKey);
+  // Keys on in-memory records are already 1-based "1"…"4". Do NOT run them
+  // through zero-index shifting again.
+  const raw = String(srcKey ?? "").trim();
+  const srcCode = /^[1-4]$/.test(raw) ? raw : parseAnswer(srcKey);
   if (!srcCode) return null;
   const wanted = normOpt(srcOptions?.[srcCode]);
   if (!wanted) return null;
@@ -459,7 +495,8 @@ function collectCandidates() {
         options[String(i + 1)] = t;
       }
       if (bad) continue;
-      const correctOption = parseAnswer(r.answer);
+      // dipikakhullar/neet answers are 0-indexed integers 0..3 (or letters).
+      const correctOption = parseAnswer(r.answer, { zeroIndexed: true });
       if (!correctOption) continue;
       const topicMeta = classifyTopic(r.category_en || "Biology", stem, r.file_name || "");
       const year = String(r.file_name || "").match(/(\d{4})/)?.[1];
@@ -558,7 +595,8 @@ function collectCandidates() {
         options[String(i + 1)] = t;
       }
       if (bad) continue;
-      const correctOption = parseAnswer(r.answer);
+      // sweatSmile choices are arrays; answer may be 0-index or letter/text.
+      const correctOption = parseAnswer(r.answer, { zeroIndexed: true });
       if (!correctOption) continue;
       const topicMeta = classifyTopic("Biology", stem, "");
       push({
