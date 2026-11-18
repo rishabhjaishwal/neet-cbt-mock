@@ -46,6 +46,7 @@ export function CreateCompetitionForm() {
         setError(data.error || "Could not create");
         return;
       }
+      // Lobby shows the copyable shareable join link immediately.
       router.push(`/competitions/${data.id}`);
     } catch {
       setBusy(false);

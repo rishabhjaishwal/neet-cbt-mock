@@ -26,8 +26,8 @@ export default async function JoinCompetitionPage() {
         <h1 className="desk-title mt-2">Join a friend&apos;s race</h1>
         <p className="desk-kicker mb-6">
           {isStudent
-            ? "Enter the invite code. If a friend shared a link, it may already be filled in."
-            : "Friends must create a student account first. Enter the invite code — we will send you to signup, then bring you back."}
+            ? "Shareable links auto-join when you are logged in. You can also paste the invite code."
+            : "Open the shareable join link, create a student account (or login), and you land back here to join."}
         </p>
         <Suspense fallback={<p className="text-sm text-slate-600">Loading…</p>}>
           <JoinCompetitionForm />

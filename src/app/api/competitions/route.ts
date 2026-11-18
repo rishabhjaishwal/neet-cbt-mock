@@ -101,10 +101,12 @@ export async function POST(req: Request) {
     ],
   });
 
+  const joinPath = `/competitions/join?code=${doc.inviteCode}`;
   return NextResponse.json({
     ok: true,
     id: String(doc._id),
     inviteCode: doc.inviteCode,
+    joinPath,
     durationMin,
   });
 }

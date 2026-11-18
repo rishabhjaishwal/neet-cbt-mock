@@ -107,8 +107,9 @@ export function ExamPdfPaperPanel({
         )}
 
         <p className="shrink-0 border-t border-slate-200 px-4 py-2 text-xs text-slate-600">
-          Booklet loads from a public mirror (not this server). If a stem or figure looks unclear,
-          use this PDF, then close and continue — the timer keeps running.
+          Question booklet only (no answer key). Loads from a public mirror — not this server. If a
+          stem or figure looks unclear, use this PDF, then close and continue — the timer keeps
+          running. Keys and solutions appear on your results page after submit.
         </p>
       </div>
     </div>

@@ -227,6 +227,9 @@ export default async function ResultsPage({
       <p className="desk-kicker">
         {paper?.title}
         {attempt.attemptNumber ? ` · Attempt #${attempt.attemptNumber}` : ""}
+        {" · "}
+        Answer keys and solutions are available below (exam View paper stayed
+        question-only).
       </p>
 
       <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">

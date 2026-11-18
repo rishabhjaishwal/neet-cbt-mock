@@ -34,7 +34,7 @@ export function CompetitionLobby({ competitionId }: { competitionId: string }) {
   const [comp, setComp] = useState<Comp | null>(null);
   const [error, setError] = useState("");
   const [busy, setBusy] = useState(false);
-  const [copied, setCopied] = useState(false);
+  const [copied, setCopied] = useState<"link" | "code" | null>(null);
 
   const load = useCallback(async () => {
     const res = await fetch(`/api/competitions/${competitionId}`);
@@ -86,11 +86,11 @@ export function CompetitionLobby({ competitionId }: { competitionId: string }) {
     return `${origin}/competitions/join?code=${comp.inviteCode}`;
   }
 
-  async function copyInvite() {
+  async function copyText(text: string, kind: "link" | "code") {
     try {
-      await navigator.clipboard.writeText(inviteUrl());
-      setCopied(true);
-      window.setTimeout(() => setCopied(false), 2000);
+      await navigator.clipboard.writeText(text);
+      setCopied(kind);
+      window.setTimeout(() => setCopied(null), 2000);
     } catch {
       setError("Could not copy — share the code manually.");
     }
@@ -105,6 +105,7 @@ export function CompetitionLobby({ competitionId }: { competitionId: string }) {
 
   const live = comp.status === "live";
   const closed = comp.status === "closed";
+  const shareUrl = inviteUrl();
 
   return (
     <div className="space-y-4">
@@ -119,19 +120,52 @@ export function CompetitionLobby({ competitionId }: { competitionId: string }) {
         {comp.status === "open" && (
           <div className="mt-4 rounded-xl border border-dashed border-slate-300 bg-white/90 p-3">
             <div className="text-xs font-semibold uppercase tracking-wide text-slate-500">
-              Invite friends (they must signup)
+              Shareable join link
             </div>
             <p className="mt-1 font-mono text-lg font-bold tracking-wider text-slate-900">
               {comp.inviteCode}
             </p>
-            <p className="mt-1 break-all text-xs text-slate-600">{inviteUrl()}</p>
-            <button
-              type="button"
-              className="cbt-btn cbt-btn-secondary cbt-btn-sm mt-2"
-              onClick={() => void copyInvite()}
-            >
-              {copied ? "Copied!" : "Copy invite link"}
-            </button>
+            <label className="mt-2 block text-xs font-semibold text-slate-500">
+              Copy this URL — friends open it after student login
+            </label>
+            <input
+              readOnly
+              className="mt-1 w-full rounded-lg border border-slate-200 bg-slate-50 px-3 py-2 font-mono text-xs text-slate-800"
+              value={shareUrl}
+              onFocus={(e) => e.currentTarget.select()}
+              aria-label="Shareable competition join link"
+            />
+            <div className="mt-2 flex flex-wrap gap-2">
+              <button
+                type="button"
+                className="cbt-btn cbt-btn-primary cbt-btn-sm"
+                onClick={() => void copyText(shareUrl, "link")}
+              >
+                {copied === "link" ? "Link copied!" : "Copy join link"}
+              </button>
+              <button
+                type="button"
+                className="cbt-btn cbt-btn-secondary cbt-btn-sm"
+                onClick={() => void copyText(comp.inviteCode, "code")}
+              >
+                {copied === "code" ? "Code copied!" : "Copy code"}
+              </button>
+              {"share" in navigator && (
+                <button
+                  type="button"
+                  className="cbt-btn cbt-btn-secondary cbt-btn-sm"
+                  onClick={() => {
+                    void navigator.share?.({
+                      title: comp.title,
+                      text: `Join my NEET competition (${comp.inviteCode})`,
+                      url: shareUrl,
+                    });
+                  }}
+                >
+                  Share…
+                </button>
+              )}
+            </div>
           </div>
         )}
 
