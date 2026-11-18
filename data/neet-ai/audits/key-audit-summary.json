@@ -1,0 +1,29 @@
+{
+  "reviewed": 1350,
+  "corrected": 1141,
+  "purged": 0,
+  "conflictsLogged": 0,
+  "lowConfidence": 11,
+  "fromTo": {
+    "2->1": 404,
+    "3->2": 43,
+    "4->3": 442,
+    "4->2": 123,
+    "3->1": 119,
+    "4->1": 1,
+    "1->2": 2,
+    "1->4": 5,
+    "2->4": 2
+  },
+  "knowledgeOverrides": [
+    "2019-G1-Q8",
+    "2020-E1-Q104",
+    "2016-Phase1-Q45",
+    "catch-5982ed3a76",
+    "2019-G1-Q180",
+    "catch-de34e242e4",
+    "catch-169939c180",
+    "hf2020-4edd26ebdc",
+    "catch-21d59a2c56"
+  ]
+}

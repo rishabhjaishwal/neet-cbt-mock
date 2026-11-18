@@ -1,0 +1,81 @@
+{
+  "dryRun": false,
+  "attemptsScanned": 7,
+  "attemptsUpdated": 7,
+  "attemptsUnchanged": 0,
+  "questionsKeyFlipped": 178,
+  "scoreDeltas": [
+    {
+      "id": "6afd1cab38cf5833c4562919",
+      "topicId": "neet-ai",
+      "oldScore": -12,
+      "newScore": 18,
+      "keyFlips": 24,
+      "oldCorrect": 1,
+      "newCorrect": 7
+    },
+    {
+      "id": "6afcf02e974365a36a0f1c74",
+      "topicId": "neet-ai",
+      "oldScore": 3,
+      "newScore": 13,
+      "keyFlips": 24,
+      "oldCorrect": 3,
+      "newCorrect": 5
+    },
+    {
+      "id": "6afcf02a974365a36a0f1c73",
+      "topicId": "neet-ai",
+      "oldScore": 8,
+      "newScore": -2,
+      "keyFlips": 24,
+      "oldCorrect": 4,
+      "newCorrect": 2
+    },
+    {
+      "id": "6afcf025974365a36a0f1c72",
+      "topicId": "neet-ai",
+      "oldScore": 3,
+      "newScore": 8,
+      "keyFlips": 29,
+      "oldCorrect": 3,
+      "newCorrect": 4
+    },
+    {
+      "id": "6afcebc027116c93c8a61455",
+      "topicId": "neet-ai",
+      "oldScore": 3,
+      "newScore": 13,
+      "keyFlips": 24,
+      "oldCorrect": 3,
+      "newCorrect": 5
+    },
+    {
+      "id": "6afcebbd27116c93c8a61454",
+      "topicId": "neet-ai",
+      "oldScore": 8,
+      "newScore": -2,
+      "keyFlips": 24,
+      "oldCorrect": 4,
+      "newCorrect": 2
+    },
+    {
+      "id": "6afcebb527116c93c8a61453",
+      "topicId": "neet-ai",
+      "oldScore": 3,
+      "newScore": 8,
+      "keyFlips": 29,
+      "oldCorrect": 3,
+      "newCorrect": 4
+    }
+  ],
+  "attemptIdsUpdated": [
+    "6afd1cab38cf5833c4562919",
+    "6afcf02e974365a36a0f1c74",
+    "6afcf02a974365a36a0f1c73",
+    "6afcf025974365a36a0f1c72",
+    "6afcebc027116c93c8a61455",
+    "6afcebbd27116c93c8a61454",
+    "6afcebb527116c93c8a61453"
+  ]
+}
