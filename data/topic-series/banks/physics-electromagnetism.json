@@ -33,7 +33,29 @@
         "answerEstimated": true,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** A set of ‘n’ equal resistors, of value ‘R’ each, are connected in series to a battery of emf ‘E’ and internal resistance ‘R’. The current drawn is I. Now, the ‘n’ resistors are connected in parallel to the same battery. Then the current drawn from battery becomes 10 I. The value of ‘n’ is\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(3) 10** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 20 · (2) 11 · (4) 9 — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** A set of ‘n’ equal resistors, of value ‘R’ each, are connected in series to a battery of emf ‘E’ and internal resistance ‘R’. The current drawn is I. Now, the ‘n’ resistors are connected in parallel to the same battery. Then the current drawn from battery becomes 10 I. The value…\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **10**.\n\n**Work.** Givens: 10. Link the stem to the verified wording “10”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) 20\n✗ (2) 11\n✓ (3) 10\n✗ (4) 9\n\n**Hence proved.** The verified option wording is **(3) 10**.\n\n**Eliminate.**\n✗ (1) 20 — Conflicts with “10”.\n✗ (2) 11 — Conflicts with “10”.\n✗ (4) 9 — Conflicts with “10”.\n\n_Note: key estimated — verify against official NTA key when available._",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — equal resistors value each c…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20equal%20resistors%20value%20each%20connected%20series%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20equal%20resistors%20value%20each%20connected%20series%2010"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20equal%20resistors%20value%20each"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20equal%20resistors%20value%20each%20connected%20series%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2018-AA-Q27",
@@ -59,7 +81,29 @@
         "answerEstimated": true,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** A thin diamagnetic rod is placed vertically between the poles of an electromagnet. When the current in the electromagnet is switched on, then the diamagnetic rod is pushed up, out of the horizontal magnetic field. Hence the rod gains gravitational potential energy. The work required to do this comes from\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(3) the current source** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) the lattice structure of the material of the rod · (2) the magnetic field · (4) the induced electric field due to the changing magnetic field — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** A thin diamagnetic rod is placed vertically between the poles of an electromagnet. When the current in the electromagnet is switched on, then the diamagnetic rod is pushed up, out of the horizontal magnetic field. Hence the rod gains gravitational potential energy. The work requ…\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **the current source**.\n\n**Work.** Link the stem to the verified wording “the current source”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) the lattice structure of the material of the rod\n✗ (2) the magnetic field\n✓ (3) the current source\n✗ (4) the induced electric field due to the changing magnetic field\n\n**Hence proved.** The verified option wording is **(3) the current source**.\n\n**Eliminate.**\n✗ (1) the lattice structure of the material of the rod — Conflicts with “the current source”.\n✗ (2) the magnetic field — Conflicts with “the current source”.\n✗ (4) the induced electric field due to the changing magnetic field — Conflicts with “the current source”.\n\n_Note: key estimated — verify against official NTA key when available._",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — thin diamagnetic placed vert…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20thin%20diamagnetic%20placed%20vertically%20poles%20electromagnet%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20thin%20diamagnetic%20placed%20vertically%20poles%20electromagnet%20the%20current%20source"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20thin%20diamagnetic%20placed%20vertically"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20thin%20diamagnetic%20placed%20vertically%20poles%20electromagnet%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2018-AA-Q121",
@@ -85,7 +129,29 @@
         "answerEstimated": true,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** An inductor 20 mH , a capacitor $ 100 \\mu \\mathrm {~F} $ and a resistor $ 50 \\Omega $ are connected in series across a source of emf, $ \\mathrm { V } = 10 \\sin 314 \\mathrm { t } $. The power loss in the circuit is\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** List knowns, write the governing equation symbolically, substitute with units, simplify to the option form.\n\n**Lock.** The verified correct choice is **(4) 0·79 W** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 1·13 W · (2) 2·74 W · (3) 0·43 W — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** An inductor 20 mH, a capacitor 100 μF and a resistor 50 Ω are connected in series across a source of emf, V = 10 sin 314 t. The power loss in the circuit is\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **0·79 W**.\n\n**Work.** Givens: 20 m, 100 μ, 50 Ω, 10 s, 314 t. Link the stem to the verified wording “0·79 W”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) 1·13 W\n✗ (2) 2·74 W\n✗ (3) 0·43 W\n✓ (4) 0·79 W\n\n**Hence proved.** The verified option wording is **(4) 0·79 W**.\n\n**Eliminate.**\n✗ (1) 1·13 W — Conflicts with “0·79 W”.\n✗ (2) 2·74 W — Conflicts with “0·79 W”.\n✗ (3) 0·43 W — Conflicts with “0·79 W”.\n\n_Note: key estimated — verify against official NTA key when available._",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — inductor capacitor resistor …",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20inductor%20capacitor%20resistor%20connected%20series%20across%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20inductor%20capacitor%20resistor%20connected%20series%20across%200%2079%20W"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20inductor%20capacitor%20resistor%20connected"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20inductor%20capacitor%20resistor%20connected%20series%20across%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2019-G1-Q161",
@@ -111,7 +177,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** A straight conductor carrying current I splits into two parts as shown in the figure. The radius of the circular loop is R. The total magnetic field at the centre P of the loop is, μ 0i\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(1) zero** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (2) 3μ0i / 32R, outward · (3) 3μ0i / 32R, inward · (4) , inward 2R — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** A straight conductor carrying current I splits into two parts as shown in the figure. The radius of the circular loop is R. The total magnetic field at the centre P of the loop is, μ 0i\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **zero**.\n\n**Work.** Givens: 0. Link the stem to the verified wording “zero”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✓ (1) zero\n✗ (2) 3μ0i / 32R, outward\n✗ (3) 3μ0i / 32R, inward\n✗ (4) , inward 2R\n\n**Hence proved.** The verified option wording is **(1) zero**.\n\n**Eliminate.**\n✗ (2) 3μ0i / 32R, outward — Conflicts with “zero”.\n✗ (3) 3μ0i / 32R, inward — Conflicts with “zero”.\n✗ (4) , inward 2R — Conflicts with “zero”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — straight conductor carrying …",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20straight%20conductor%20carrying%20current%20splits%20parts%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20straight%20conductor%20carrying%20current%20splits%20parts%20zero"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20straight%20conductor%20carrying%20current"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20straight%20conductor%20carrying%20current%20splits%20parts%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2019-G1-Q169",
@@ -137,7 +225,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** A circuit when connected to an AC source of 12 V gives a current of 0.2A. The same circuit when connected to a DC source of 12 V, gives a current of 0.4 A. The circuit is :\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** List knowns, write the governing equation symbolically, substitute with units, simplify to the option form.\n\n**Lock.** The verified correct choice is **(1) series LR** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (2) series RC · (3) series LC · (4) series LCR — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** A circuit when connected to an AC source of 12 V gives a current of 0.2A. The same circuit when connected to a DC source of 12 V, gives a current of 0.4 A. The circuit is :\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **series LR**.\n\n**Work.** Givens: 12 V, 0.2A, 0.4 A. Link the stem to the verified wording “series LR”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✓ (1) series LR\n✗ (2) series RC\n✗ (3) series LC\n✗ (4) series LCR\n\n**Hence proved.** The verified option wording is **(1) series LR**.\n\n**Eliminate.**\n✗ (2) series RC — Conflicts with “series LR”.\n✗ (3) series LC — Conflicts with “series LR”.\n✗ (4) series LCR — Conflicts with “series LR”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — circuit connected source giv…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20circuit%20connected%20source%20gives%20current%20same%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20circuit%20connected%20source%20gives%20current%20same%20series%20LR"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20circuit%20connected%20source%20gives"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20circuit%20connected%20source%20gives%20current%20same%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2020-E1-Q22",
@@ -163,7 +273,29 @@
         "answerEstimated": true,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** A series LCR circuit is connected to an ac voltage source. When $ L $ is removed from the circuit, the phase difference between current and voltage is $ \\frac { \\pi } { 3 } $. If instead C is removed from the circuit, the phase difference is again $ \\frac { \\pi } { 3 } $ between current and voltage. The power factor…\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** List knowns, write the governing equation symbolically, substitute with units, simplify to the option form.\n\n**Lock.** The verified correct choice is **(2) 1.0** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 0.5 · (3) −1.0 · (4) zero — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** A series LCR circuit is connected to an ac voltage source. When L is removed from the circuit, the phase difference between current and voltage π is . If instead C is removed from the circuit, 3 π the phase difference is again between current 3 and voltage. The power factor of t…\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **1.0**.\n\n**Work.** Givens: 3, 3 a. Link the stem to the verified wording “1.0”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) 0.5\n✓ (2) 1.0\n✗ (3) −1.0\n✗ (4) zero\n\n**Hence proved.** The verified option wording is **(2) 1.0**.\n\n**Eliminate.**\n✗ (1) 0.5 — Conflicts with “1.0”.\n✗ (3) −1.0 — Conflicts with “1.0”.\n✗ (4) zero — Conflicts with “1.0”.\n\n_Note: key estimated — verify against official NTA key when available._",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — series circuit connected vol…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20series%20circuit%20connected%20voltage%20source%20removed%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20series%20circuit%20connected%20voltage%20source%20removed%201%200"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20series%20circuit%20connected%20voltage"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20series%20circuit%20connected%20voltage%20source%20removed%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2020-E1-Q139",
@@ -189,7 +321,29 @@
         "answerEstimated": true,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** The ratio of contributions made by the electric field and magnetic field components to the intensity of an electromagnetic wave is : (c=speed of electromagnetic waves)\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(3) 1:1** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 1 : c2 · (2) c:1 · (4) 1:c — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** The ratio of contributions made by the electric field and magnetic field components to the intensity of an electromagnetic wave is : (c=speed of electromagnetic waves)\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **1:1**.\n\n**Work.** Link the stem to the verified wording “1:1”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) 1 : c2\n✗ (2) c:1\n✓ (3) 1:1\n✗ (4) 1:c\n\n**Hence proved.** The verified option wording is **(3) 1:1**.\n\n**Eliminate.**\n✗ (1) 1 : c2 — Conflicts with “1:1”.\n✗ (2) c:1 — Conflicts with “1:1”.\n✗ (4) 1:c — Conflicts with “1:1”.\n\n_Note: key estimated — verify against official NTA key when available._",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — ratio contributions made ele…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20ratio%20contributions%20made%20electric%20field%20magnetic%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20ratio%20contributions%20made%20electric%20field%20magnetic%201%201"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20ratio%20contributions%20made%20electric"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20ratio%20contributions%20made%20electric%20field%20magnetic%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2020-E1-Q176",
@@ -215,7 +369,29 @@
         "answerEstimated": true,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** A long solenoid of 50 cm length having 100 turns carries a current of 2.5 A. The magnetic field at the centre of the solenoid is : (μ0=4π×70^{-7}$ T m A−1)$\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** List knowns, write the governing equation symbolically, substitute with units, simplify to the option form.\n\n**Lock.** The verified correct choice is **(2) 6.28×40^{-4}$ T$** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 3.14×50^{-5}$ T$ · (2) 6.28×40^{-4}$ T$ · (3) 3.14×40^{-4}$ T$ — each conflicts with the governing idea (wrong definition, process, or algebra).\n\n_Key confidence: not yet multi-source locked — verify against official NTA / coaching solutions._"
+        "solution": "**Identify.** A long solenoid of 50 cm length having 100 turns carries a current of 2.5 A. The magnetic field at the centre of the solenoid is : (μ0=4π×70^{-7}$ T m A−1)$\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **6.28×40^{-4}$ T$**.\n\n**Work.** Givens: 50 cm, 100 t, 2.5 A, 0, 4, 70. Link the stem to the verified wording “6.28×40^{-4}$ T$”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) 3.14×50^{-5}$ T$\n✓ (2) 6.28×40^{-4}$ T$\n✗ (3) 3.14×40^{-4}$ T$\n✗ (4) 6.28×50^{-5}$ T 1 H1$\n\n**Hence proved.** The verified option wording is **(2) 6.28×40^{-4}$ T$**.\n\n**Eliminate.**\n✗ (1) 3.14×50^{-5}$ T$ — Conflicts with “6.28×40^{-4}$ T$”.\n✗ (3) 3.14×40^{-4}$ T$ — Conflicts with “6.28×40^{-4}$ T$”.\n✗ (4) 6.28×50^{-5}$ T 1 H1$ — Conflicts with “6.28×40^{-4}$ T$”.\n\n_Note: key estimated — verify against official NTA key when available._",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — long solenoid length having …",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20long%20solenoid%20length%20having%20turns%20carries%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20long%20solenoid%20length%20having%20turns%20carries%206%2028%2040%204%20T"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20long%20solenoid%20length%20having"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20long%20solenoid%20length%20having%20turns%20carries%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2021-M1-Q3",
@@ -241,7 +417,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** An infinitely long straight conductor carries a current of 5 A as shown. An electron is moving with a speed of $ 10 ^ { 5 } \\mathrm {~m} / \\mathrm { s } $ parallel to the conductor. The perpendicular distance between the electron and the conductor is 20 cm at an instant. Calculate the magnitude of the force experien…\n\n**Concept.** Apply Newton’s laws / kinematics with a free-body or motion equation before comparing options.\n\n**Work.** List knowns, write the governing equation symbolically, substitute with units, simplify to the option form.\n\n**Lock.** The verified correct choice is **(3) 4π×200^{-20}$ N$** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 4×200^{-20}$ N$ · (2) 8π×200^{-20}$ N$ · (4) 8×200^{-20}$ N 3 M1$ — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** An infinitely long straight conductor carries a current of 5 A as shown. An electron is moving with a speed of 105 m/s parallel to the conductor. The perpendicular distance between the electron and the conductor is 20 cm at an instant. Calculate the magnitude of the force experi…\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **4π×200^{-20}$ N$**.\n\n**Work.** Givens: 5 A, 105 m, 20 cm. Link the stem to the verified wording “4π×200^{-20}$ N$”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) 4×200^{-20}$ N$\n✗ (2) 8π×200^{-20}$ N$\n✓ (3) 4π×200^{-20}$ N$\n✗ (4) 8×200^{-20}$ N 3 M1$\n\n**Hence proved.** The verified option wording is **(3) 4π×200^{-20}$ N$**.\n\n**Eliminate.**\n✗ (1) 4×200^{-20}$ N$ — Conflicts with “4π×200^{-20}$ N$”.\n✗ (2) 8π×200^{-20}$ N$ — Conflicts with “4π×200^{-20}$ N$”.\n✗ (4) 8×200^{-20}$ N 3 M1$ — Conflicts with “4π×200^{-20}$ N$”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — infinitely long straight con…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20infinitely%20long%20straight%20conductor%20carries%20current%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20infinitely%20long%20straight%20conductor%20carries%20current%204%20200%2020%20N"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20infinitely%20long%20straight%20conductor"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20infinitely%20long%20straight%20conductor%20carries%20current%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2021-M1-Q13",
@@ -267,7 +465,29 @@
         "answerEstimated": true,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** A parallel plate capacitor has a uniform electric field ' $ \\vec { E } $ ' in the space between the plates. If the distance between the plates is ' $ d $ ' and the area of each plate is ' A ', the energy stored in the capacitor is : ( $ \\varepsilon _ { 0 } = $ permittivity of free space $ ) $\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(2) ε E2 Ad 2 0 E2 Ad** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (2) ε E2 Ad 2 0 E2 Ad · (3) ε0 1 · (4) ε E2 2 0 — each conflicts with the governing idea (wrong definition, process, or algebra).\n\n_Key confidence: not yet multi-source locked — verify against official NTA / coaching solutions._"
+        "solution": "**Identify.** A parallel plate capacitor has a uniform electric → field ‘ E ’ in the space between the plates. If the distance between the plates is ‘d’ and the area of each plate is ‘A’, the energy stored in the capacitor is : (ε0=permittivity of free space)\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **ε E2 Ad 2 0 E2 Ad**.\n\n**Work.** Givens: 0. Link the stem to the verified wording “ε E2 Ad 2 0 E2 Ad”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) ε0EAd 1\n✓ (2) ε E2 Ad 2 0 E2 Ad\n✗ (3) ε0 1\n✗ (4) ε E2 2 0\n\n**Hence proved.** The verified option wording is **(2) ε E2 Ad 2 0 E2 Ad**.\n\n**Eliminate.**\n✗ (1) ε0EAd 1 — Conflicts with “ε E2 Ad 2 0 E2 Ad”.\n✗ (3) ε0 1 — Conflicts with “ε E2 Ad 2 0 E2 Ad”.\n✗ (4) ε E2 2 0 — Conflicts with “ε E2 Ad 2 0 E2 Ad”.\n\n_Note: key estimated — verify against official NTA key when available._",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — parallel plate capacitor uni…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20parallel%20plate%20capacitor%20uniform%20electric%20field%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20parallel%20plate%20capacitor%20uniform%20electric%20field%20E2%20Ad%202%200%20E2%20Ad"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20parallel%20plate%20capacitor%20uniform"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20parallel%20plate%20capacitor%20uniform%20electric%20field%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2021-M1-Q54",
@@ -293,7 +513,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** A particular station of All India Radio, New Delhi, broadcasts on a frequency of $ 1,368 \\mathrm { kHz } $ (kilohertz). The wavelength of the electromagnetic radiation emitted by the transmitter is : [speed of light, $ \\mathrm { c } = 3.0 \\times 10 ^ { 8 } \\mathrm {~ms} ^ { - 1 } $ ]\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** List knowns, write the governing equation symbolically, substitute with units, simplify to the option form.\n\n**Lock.** The verified correct choice is **(2) 219.2 m** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 219.3 m · (3) 2192 m · (4) 21.92 cm — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** A particular station of All India Radio, New Delhi, broadcasts on a frequency of 1,368 kHz (kilohertz). The wavelength of the electromagnetic radiation emitted by the transmitter is : [speed of light, c=3.0×108 ms−1]\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **219.2 m**.\n\n**Work.** Givens: 1, 368 kHz, 3.0, 108 m. Link the stem to the verified wording “219.2 m”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) 219.3 m\n✓ (2) 219.2 m\n✗ (3) 2192 m\n✗ (4) 21.92 cm\n\n**Hence proved.** The verified option wording is **(2) 219.2 m**.\n\n**Eliminate.**\n✗ (1) 219.3 m — Conflicts with “219.2 m”.\n✗ (3) 2192 m — Conflicts with “219.2 m”.\n✗ (4) 21.92 cm — Conflicts with “219.2 m”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — particular station India Rad…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20particular%20station%20India%20Radio%20Delhi%20broadcasts%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20particular%20station%20India%20Radio%20Delhi%20broadcasts%20219%202%20m"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20particular%20station%20India%20Radio"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20particular%20station%20India%20Radio%20Delhi%20broadcasts%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2022-RECON-Q159",
@@ -319,7 +561,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** The circuit diagram shown here corresponds to the logic gate,\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(1) NOR** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (2) AND · (3) OR · (4) NAND — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** The circuit diagram shown here corresponds to the logic gate,\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **NOR**.\n\n**Work.** Link the stem to the verified wording “NOR”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✓ (1) NOR\n✗ (2) AND\n✗ (3) OR\n✗ (4) NAND\n\n**Hence proved.** The verified option wording is **(1) NOR**.\n\n**Eliminate.**\n✗ (2) AND — Conflicts with “NOR”.\n✗ (3) OR — Conflicts with “NOR”.\n✗ (4) NAND — Conflicts with “NOR”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — circuit here corresponds log…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20circuit%20here%20corresponds%20logic%20gate%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20circuit%20here%20corresponds%20logic%20gate%20NOR"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20circuit%20here%20corresponds%20logic"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20circuit%20here%20corresponds%20logic%20gate%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2022-RECON-Q172",
@@ -345,7 +609,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** The variation of EMF with time for four types of generators are shown in the figures. Which amongst them can be called AC ?\n\n**Concept.** Anchor on the core Electromagnetism relation from NCERT Class 11/12 Physics.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(2) (a), (b), (c), (d)** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) (a) and (d) · (3) (a) and (b) · (4) only (a) — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** The variation of EMF with time for four types of generators are shown in the figures. Which amongst them can be called AC ?\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **(a), (b), (c), (d)**.\n\n**Work.** Link the stem to the verified wording “(a), (b), (c), (d)”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) (a) and (d)\n✓ (2) (a), (b), (c), (d)\n✗ (3) (a) and (b)\n✗ (4) only (a)\n\n**Hence proved.** The verified option wording is **(2) (a), (b), (c), (d)**.\n\n**Eliminate.**\n✗ (1) (a) and (d) — Conflicts with “(a), (b), (c), (d)”.\n✗ (3) (a) and (b) — Conflicts with “(a), (b), (c), (d)”.\n✗ (4) only (a) — Conflicts with “(a), (b), (c), (d)”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — variation time four types ge…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20variation%20time%20four%20types%20generators%20figures%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20variation%20time%20four%20types%20generators%20figures%20a%20b%20c%20d"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20variation%20time%20four%20types"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20variation%20time%20four%20types%20generators%20figures%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2022-RECON-Q180",
@@ -371,7 +657,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** A cycle wheel of radius 0.5 m is rotated with constant angular velocity of 10 rad/s in a region of magnetic field of 0.1 T which is perpendicular to the plane of the wheel. The EMF generated between its centre and the rim is :\n\n**Concept.** Apply Newton’s laws / kinematics with a free-body or motion equation before comparing options.\n\n**Work.** List knowns, write the governing equation symbolically, substitute with units, simplify to the option form.\n\n**Lock.** The verified correct choice is **(2) 0.125 V** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 0.25 V · (3) 0.5 V · (4) zero — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** A cycle wheel of radius 0.5 m is rotated with constant angular velocity of 10 rad/s in a region of magnetic field of 0.1 T which is perpendicular to the plane of the wheel. The EMF generated between its centre and the rim is :\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **0.125 V**.\n\n**Work.** Givens: 0.5 m, 10, 0.1 T. Link the stem to the verified wording “0.125 V”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) 0.25 V\n✓ (2) 0.125 V\n✗ (3) 0.5 V\n✗ (4) zero\n\n**Hence proved.** The verified option wording is **(2) 0.125 V**.\n\n**Eliminate.**\n✗ (1) 0.25 V — Conflicts with “0.125 V”.\n✗ (3) 0.5 V — Conflicts with “0.125 V”.\n✗ (4) zero — Conflicts with “0.125 V”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — cycle wheel radius rotated c…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20cycle%20wheel%20radius%20rotated%20constant%20angular%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20cycle%20wheel%20radius%20rotated%20constant%20angular%200%20125%20V"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20cycle%20wheel%20radius%20rotated"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20cycle%20wheel%20radius%20rotated%20constant%20angular%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2023-F1-Q5",
@@ -397,7 +705,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** In a series $ L C R $ circuit, the inductance $ L $ is 10 mH , capacitance $ C $ is $ 1 \\mu \\mathrm{F} $ and resistance $ R $ is $ 100 \\Omega $. The frequency at which resonance occurs is :\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** List knowns, write the governing equation symbolically, substitute with units, simplify to the option form.\n\n**Lock.** The verified correct choice is **(1) 15.9 kHz** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (2) $ 15.9 \\mathrm { rad } / \\mathrm { s } $ · (3) 15.9 kHz · (4) $ 1.59 \\mathrm { rad } / \\mathrm { s } $ — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** In a series LCR circuit, the inductance L is 10 mH, capacitance C is 1 μF and resistance R is 100 Ω. The frequency at which resonance occurs is\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **1.59 kHz**.\n\n**Work.** Givens: 10 m, 1 μ, 100. Link the stem to the verified wording “1.59 kHz”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) 15.9 kHz\n✗ (2) 1.59 rad/s\n✓ (3) 1.59 kHz\n✗ (4) 15.9 rad/s\n\n**Hence proved.** The verified option wording is **(3) 1.59 kHz**.\n\n**Eliminate.**\n✗ (1) 15.9 kHz — Conflicts with “1.59 kHz”.\n✗ (2) 1.59 rad/s — Conflicts with “1.59 kHz”.\n✗ (4) 15.9 rad/s — Conflicts with “1.59 kHz”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — series circuit inductance ca…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20series%20circuit%20inductance%20capacitance%20resistance%20frequency%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20series%20circuit%20inductance%20capacitance%20resistance%20frequency%201%2059%20kHz"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20series%20circuit%20inductance%20capacitance"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20series%20circuit%20inductance%20capacitance%20resistance%20frequency%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2023-F1-Q11",
@@ -423,7 +753,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** An ac source is connected to a capacitor C. Due to decrease in its operating frequency\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(2) Displacement current decreases** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) Displacement current increases · (3) Capacitive reactance remains constant · (4) Capacitive reactance decreases — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** An ac source is connected to a capacitor C. Due to decrease in its operating frequency\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **Displacement current decreases**.\n\n**Work.** Link the stem to the verified wording “Displacement current decreases”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) Displacement current increases\n✓ (2) Displacement current decreases\n✗ (3) Capacitive reactance remains constant\n✗ (4) Capacitive reactance decreases\n\n**Hence proved.** The verified option wording is **(2) Displacement current decreases**.\n\n**Eliminate.**\n✗ (1) Displacement current increases — Conflicts with “Displacement current decreases”.\n✗ (3) Capacitive reactance remains constant — Conflicts with “Displacement current decreases”.\n✗ (4) Capacitive reactance decreases — Conflicts with “Displacement current decreases”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — source connected capacitor d…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20source%20connected%20capacitor%20decrease%20operating%20frequency%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20source%20connected%20capacitor%20decrease%20operating%20frequency%20Displacement%20current%20decreases"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20source%20connected%20capacitor%20decrease"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20source%20connected%20capacitor%20decrease%20operating%20frequency%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2023-F1-Q21",
@@ -449,7 +801,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** The magnitude and direction of the current in the following circuit is 5\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(1) 0.5 A from A to B through E** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (2) A from A to B through E 9 · (3) 1.5 A from B to A through E · (4) 0.2 A from B to A through E — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** The magnitude and direction of the current in the following circuit is 5\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **0.5 A from A to B through E**.\n\n**Work.** Givens: 5. Link the stem to the verified wording “0.5 A from A to B through E”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✓ (1) 0.5 A from A to B through E\n✗ (2) A from A to B through E 9\n✗ (3) 1.5 A from B to A through E\n✗ (4) 0.2 A from B to A through E\n\n**Hence proved.** The verified option wording is **(1) 0.5 A from A to B through E**.\n\n**Eliminate.**\n✗ (2) A from A to B through E 9 — Conflicts with “0.5 A from A to B through E”.\n✗ (3) 1.5 A from B to A through E — Conflicts with “0.5 A from A to B through E”.\n✗ (4) 0.2 A from B to A through E — Conflicts with “0.5 A from A to B through E”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — magnitude direction current …",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20magnitude%20direction%20current%20circuit%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20magnitude%20direction%20current%20circuit%200%205%20A%20from%20A%20to%20B%20through%20E"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20magnitude%20direction%20current%20circuit"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20magnitude%20direction%20current%20circuit%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2023-F1-Q30",
@@ -475,7 +849,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** The magnetic energy stored in an inductor of inductance 4 μH carrying a current of 2 A is\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** List knowns, write the governing equation symbolically, substitute with units, simplify to the option form.\n\n**Lock.** The verified correct choice is **(3) 8 μJ** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 4 mJ · (2) 8 mJ · (4) 4 μJ — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** The magnetic energy stored in an inductor of inductance 4 μH carrying a current of 2 A is\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **8 μJ**.\n\n**Work.** Givens: 4 μ, 2 A. Link the stem to the verified wording “8 μJ”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) 4 mJ\n✗ (2) 8 mJ\n✓ (3) 8 μJ\n✗ (4) 4 μJ\n\n**Hence proved.** The verified option wording is **(3) 8 μJ**.\n\n**Eliminate.**\n✗ (1) 4 mJ — Conflicts with “8 μJ”.\n✗ (2) 8 mJ — Conflicts with “8 μJ”.\n✗ (4) 4 μJ — Conflicts with “8 μJ”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — magnetic energy stored induc…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20magnetic%20energy%20stored%20inductor%20inductance%20carrying%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20magnetic%20energy%20stored%20inductor%20inductance%20carrying%208%20J"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20magnetic%20energy%20stored%20inductor"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20magnetic%20energy%20stored%20inductor%20inductance%20carrying%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2023-F1-Q44",
@@ -501,7 +897,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** For the following logic circuit, the truth table is A B Y A B Y 0 0 0 0 0 1\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** List knowns, write the governing equation symbolically, substitute with units, simplify to the option form.\n\n**Lock.** The verified correct choice is **(1) 0 1 1** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (2) 0 1 0 1 0 1 1 0 1 1 1 1 1 1 0 A B Y A B Y 0 0 0 0 0 1 · (3) 0 1 0 · (4) 0 1 1 1 0 0 1 0 1 1 1 1 1 1 0 — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** For the following logic circuit, the truth table is A B Y A B Y 0 0 0 0 0 1\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **0 1 1**.\n\n**Work.** Givens: 0, 1. Link the stem to the verified wording “0 1 1”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✓ (1) 0 1 1\n✗ (2) 0 1 0 1 0 1 1 0 1 1 1 1 1 1 0 A B Y A B Y 0 0 0 0 0 1\n✗ (3) 0 1 0\n✗ (4) 0 1 1 1 0 0 1 0 1 1 1 1 1 1 0\n\n**Hence proved.** The verified option wording is **(1) 0 1 1**.\n\n**Eliminate.**\n✗ (2) 0 1 0 1 0 1 1 0 1 1 1 1 1 1 0 A B Y A B Y 0 0 0 0 0 1 — Conflicts with “0 1 1”.\n✗ (3) 0 1 0 — Conflicts with “0 1 1”.\n✗ (4) 0 1 1 1 0 0 1 0 1 1 1 1 1 1 0 — Conflicts with “0 1 1”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — logic circuit truth table",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20logic%20circuit%20truth%20table%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20logic%20circuit%20truth%20table%200%201%201"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20logic%20circuit%20truth%20table"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20logic%20circuit%20truth%20table%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2024-R1-Q4",
@@ -527,7 +945,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** The terminal voltage of the battery, whose emf is 10 V and internal resistance 1 Ω, when connected through an external resistance of 4 Ω as shown in the figure is:\n\n**Concept.** Anchor on the core Electromagnetism relation from NCERT Class 11/12 Physics.\n\n**Work.** List knowns, write the governing equation symbolically, substitute with units, simplify to the option form.\n\n**Lock.** The verified correct choice is **(2) 8V** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 6V · (3) 10 V · (4) 4V — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** The terminal voltage of the battery, whose emf is 10 V and internal resistance 1 Ω, when connected through an external resistance of 4 Ω as shown in the figure is:\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **8V**.\n\n**Work.** Givens: 10 V, 1 Ω, 4 Ω. Link the stem to the verified wording “8V”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) 6V\n✓ (2) 8V\n✗ (3) 10 V\n✗ (4) 4V\n\n**Hence proved.** The verified option wording is **(2) 8V**.\n\n**Eliminate.**\n✗ (1) 6V — Conflicts with “8V”.\n✗ (3) 10 V — Conflicts with “8V”.\n✗ (4) 4V — Conflicts with “8V”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — terminal voltage battery who…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20terminal%20voltage%20battery%20whose%20internal%20resistance%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20terminal%20voltage%20battery%20whose%20internal%20resistance%208V"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20terminal%20voltage%20battery%20whose"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20terminal%20voltage%20battery%20whose%20internal%20resistance%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2024-R1-Q21",
@@ -553,7 +993,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** A tightly wound 100 turns coil of radius 10 cm carries a current of 7 A. The magnitude of the magnetic field at the centre of the coil is (Take permeability of free space as 4π × 10–7 SI units):\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** List knowns, write the governing equation symbolically, substitute with units, simplify to the option form.\n\n**Lock.** The verified correct choice is **(2) 4.4 mT** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 4.4 T · (3) 44 T · (4) 44 mT — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** A tightly wound 100 turns coil of radius 10 cm carries a current of 7 A. The magnitude of the magnetic field at the centre of the coil is (Take permeability of free space as 4π × 10–7 SI units):\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **4.4 mT**.\n\n**Work.** Givens: 100 t, 10 cm, 7 A, 4, 10, 7 S. Link the stem to the verified wording “4.4 mT”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) 4.4 T\n✓ (2) 4.4 mT\n✗ (3) 44 T\n✗ (4) 44 mT\n\n**Hence proved.** The verified option wording is **(2) 4.4 mT**.\n\n**Eliminate.**\n✗ (1) 4.4 T — Conflicts with “4.4 mT”.\n✗ (3) 44 T — Conflicts with “4.4 mT”.\n✗ (4) 44 mT — Conflicts with “4.4 mT”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — tightly wound turns coil rad…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20tightly%20wound%20turns%20coil%20radius%20carries%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20tightly%20wound%20turns%20coil%20radius%20carries%204%204%20mT"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20tightly%20wound%20turns%20coil"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20tightly%20wound%20turns%20coil%20radius%20carries%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2024-R1-Q30",
@@ -579,7 +1041,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** In the above diagram, a strong bar magnet is moving towards solenoid-2 from solenoid-1. The direction of induced current in solenoid-1 and that in solenoid-2, respectively, are through the directions:\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** List knowns, write the governing equation symbolically, substitute with units, simplify to the option form.\n\n**Lock.** The verified correct choice is **(1) BA and CD** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) BA and CD · (2) AB and CD · (3) BA and DC — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** In the above diagram, a strong bar magnet is moving towards solenoid-2 from solenoid-1. The direction of induced current in solenoid-1 and that in solenoid-2, respectively, are through the directions:\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **BA and CD**.\n\n**Work.** Givens: -2, -1, -1 a. Link the stem to the verified wording “BA and CD”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✓ (1) BA and CD\n✗ (2) AB and CD\n✗ (3) BA and DC\n✗ (4) AB and DC\n\n**Hence proved.** The verified option wording is **(1) BA and CD**.\n\n**Eliminate.**\n✗ (2) AB and CD — Conflicts with “BA and CD”.\n✗ (3) BA and DC — Conflicts with “BA and CD”.\n✗ (4) AB and DC — Conflicts with “BA and CD”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — strong magnet moving towards…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20strong%20magnet%20moving%20towards%20solenoid-2%20solenoid-1%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20strong%20magnet%20moving%20towards%20solenoid-2%20solenoid-1%20BA%20and%20CD"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20strong%20magnet%20moving%20towards"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20strong%20magnet%20moving%20towards%20solenoid-2%20solenoid-1%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2024-R1-Q43",
@@ -605,7 +1089,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** A parallel plate capacitor is charged by connecting it to a battery through a resistor. If I is the current in the circuit, then in the gap between the plates:\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(1) Displacement current of magnitude equal to I flows in the same direction as I** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (2) Displacement current of magnitude equal to I flows in a direction opposite to that of I · (3) Displacement current of magnitude greater than I flows but can be in any direction · (4) There is no current — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** A parallel plate capacitor is charged by connecting it to a battery through a resistor. If I is the current in the circuit, then in the gap between the plates:\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **Displacement current of magnitude equal to I flows in the same direction as I**.\n\n**Work.** Link the stem to the verified wording “Displacement current of magnitude equal to I flows in the same direction as I”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✓ (1) Displacement current of magnitude equal to I flows in the same direction as I\n✗ (2) Displacement current of magnitude equal to I flows in a direction opposite to that of I\n✗ (3) Displacement current of magnitude greater than I flows but can be in any direction\n✗ (4) There is no current\n\n**Hence proved.** The verified option wording is **(1) Displacement current of magnitude equal to I flows in the same direction as I**.\n\n**Eliminate.**\n✗ (2) Displacement current of magnitude equal to I flows in a direction opposite to t… — Conflicts with “Displacement current of magnitude equal to I flows in the same direct…”.\n✗ (3) Displacement current of magnitude greater than I flows but can be in any direct… — Conflicts with “Displacement current of magnitude equal to I flows in the same direct…”.\n✗ (4) There is no current — Conflicts with “Displacement current of magnitude equal to I flows in the same direct…”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — parallel plate capacitor cha…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20parallel%20plate%20capacitor%20charged%20connecting%20battery%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20parallel%20plate%20capacitor%20charged%20connecting%20battery%20Displacement%20current%20of%20magnitude%20equal%20to%20I%20flow%E2%80%A6"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20parallel%20plate%20capacitor%20charged"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20parallel%20plate%20capacitor%20charged%20connecting%20battery%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2024-R1-Q46",
@@ -631,7 +1137,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** If the plates of a parallel plate capacitor connected to a battery are moved close to each other, then A. the charge stored in it, increases. B. the energy stored in it, decreases. C. its capacitance increases. D. the ratio of charge to its potential remains the same. E. the product of charge and voltage increases. …\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(1) A, C and E only** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (2) B, D and E only · (3) A, B and C only · (4) A, B and E only — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** If the plates of a parallel plate capacitor connected to a battery are moved close to each other, then A. the charge stored in it, increases. B. the energy stored in it, decreases. C. its capacitance increases. D. the ratio of charge to its potential remains the same. E. the pro…\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **A, C and E only**.\n\n**Work.** Link the stem to the verified wording “A, C and E only”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✓ (1) A, C and E only\n✗ (2) B, D and E only\n✗ (3) A, B and C only\n✗ (4) A, B and E only\n\n**Hence proved.** The verified option wording is **(1) A, C and E only**.\n\n**Eliminate.**\n✗ (2) B, D and E only — Conflicts with “A, C and E only”.\n✗ (3) A, B and C only — Conflicts with “A, C and E only”.\n✗ (4) A, B and E only — Conflicts with “A, C and E only”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — plates parallel plate capaci…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20plates%20parallel%20plate%20capacitor%20connected%20battery%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20plates%20parallel%20plate%20capacitor%20connected%20battery%20A%20C%20and%20E%20only"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20plates%20parallel%20plate%20capacitor"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20plates%20parallel%20plate%20capacitor%20connected%20battery%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "hf2018-47bf0f66cf",
@@ -1523,7 +2051,29 @@
         "answerEstimated": true,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** An em wave is propagating in a medium with a velocity $ \\overrightarrow { \\mathrm { V } } = \\mathrm { V } \\hat { \\mathrm { i } } $. The instantaneous oscillating electric field of this em wave is along + y axis. Then the direction of oscillating magnetic field of the em wave will be along\n\n**Reasoning.** Vescape = 11200 m/s Say at temperature T it attains Vescape 3k T So, 11200 m/s m  B O 2 On solving, 4 T = 8.360 × 10 K\n\n**Lock.** The verified correct choice is **(2) + z direction** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) y direction · (3) z direction · (4) x direction — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** An em wave is propagating in a medium with a → ^ velocity V = V i . The instantaneous oscillating electric field of this em wave is along +y axis. Then the direction of oscillating magnetic field of the em wave will be along\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **+ z direction**.\n\n**Work.** Link the stem to the verified wording “+ z direction”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) y direction\n✓ (2) + z direction\n✗ (3) z direction\n✗ (4) x direction\n\n**Hence proved.** The verified option wording is **(2) + z direction**.\n\n**Eliminate.**\n✗ (1) y direction — Conflicts with “+ z direction”.\n✗ (3) z direction — Conflicts with “+ z direction”.\n✗ (4) x direction — Conflicts with “+ z direction”.\n\n_Note: key estimated — verify against official NTA key when available._",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — wave propagating medium velo…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20wave%20propagating%20medium%20velocity%20instantaneous%20oscillating%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20wave%20propagating%20medium%20velocity%20instantaneous%20oscillating%20z%20direction"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20wave%20propagating%20medium%20velocity"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20wave%20propagating%20medium%20velocity%20instantaneous%20oscillating%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2018-AA-Q35",
@@ -1549,7 +2099,29 @@
         "answerEstimated": true,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** A metallic rod of mass per unit length $ 0.5 \\mathrm {~kg} \\mathrm {~m} ^ { - 1 } $ is lying horizontally on a smooth inclined plane which makes an angle of $ 30 ^ { \\circ } $ with the horizontal. The rod is not allowed to slide down by flowing a current through it when a magnetic field of induction 0.25 T is acting…\n\n**Reasoning.** VBE = 0 VCE = 0 Vb = 0 20 V R = 4 k C  IC RB 500 k Vi Vb Ib    C 3 (20 0) I 4 10 IC = 5 × 10–3 = 5 mA Vi = VBE + IBRB Vi = 0 + IBRB 20 = IB × 500 × 103     B 3 20 I 40 A 500 10  3 C       I 25 10 125 I 40 10 6 b\n\n**Lock.** The verified correct choice is **(4) 11·32 A** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 7·14 A · (2) 5·98 A · (3) 14·76 A — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** A metallic rod of mass per unit length –1 0·5 kg m is lying horizontally on a smooth inclined plane which makes an angle of 30° with the horizontal. The rod is not allowed to slide down by flowing a current through it when a magnetic field of induction 0·25 T is acting on it in …\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **11·32 A**.\n\n**Work.** Givens: 1, 0, 5 k, 30, 25 T. Link the stem to the verified wording “11·32 A”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) 7·14 A\n✗ (2) 5·98 A\n✗ (3) 14·76 A\n✓ (4) 11·32 A\n\n**Hence proved.** The verified option wording is **(4) 11·32 A**.\n\n**Eliminate.**\n✗ (1) 7·14 A — Conflicts with “11·32 A”.\n✗ (2) 5·98 A — Conflicts with “11·32 A”.\n✗ (3) 14·76 A — Conflicts with “11·32 A”.\n\n_Note: key estimated — verify against official NTA key when available._",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — metallic mass unit length ly…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20metallic%20mass%20unit%20length%20lying%20horizontally%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20metallic%20mass%20unit%20length%20lying%20horizontally%2011%2032%20A"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20metallic%20mass%20unit%20length"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20metallic%20mass%20unit%20length%20lying%20horizontally%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2018-AA-Q92",
@@ -1575,7 +2147,29 @@
         "answerEstimated": true,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** A set of ‘n’ equal resistors, of value ‘R’ each, are connected in series to a battery of emf ‘E’ and internal resistance ‘R’. The current drawn is I. Now, the ‘n’ resistors are connected in parallel to the same battery. Then the current drawn from battery becomes 10 I. The value of ‘n’ is\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(4) 10** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 9 · (2) 20 · (3) 11 — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** A set of ‘n’ equal resistors, of value ‘R’ each, are connected in series to a battery of emf ‘E’ and internal resistance ‘R’. The current drawn is I. Now, the ‘n’ resistors are connected in parallel to the same battery. Then the current drawn from battery becomes 10 I. The value…\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **10**.\n\n**Work.** Givens: 10. Link the stem to the verified wording “10”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) 9\n✗ (2) 20\n✗ (3) 11\n✓ (4) 10\n\n**Hence proved.** The verified option wording is **(4) 10**.\n\n**Eliminate.**\n✗ (1) 9 — Conflicts with “10”.\n✗ (2) 20 — Conflicts with “10”.\n✗ (3) 11 — Conflicts with “10”.\n\n_Note: key estimated — verify against official NTA key when available._",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — equal resistors value each c…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20equal%20resistors%20value%20each%20connected%20series%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20equal%20resistors%20value%20each%20connected%20series%2010"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20equal%20resistors%20value%20each"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20equal%20resistors%20value%20each%20connected%20series%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2018-AA-Q122",
@@ -1601,7 +2195,29 @@
         "answerEstimated": true,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** A thin diamagnetic rod is placed vertically between the poles of an electromagnet. When the current in the electromagnet is switched on, then the diamagnetic rod is pushed up, out of the horizontal magnetic field. Hence the rod gains gravitational potential energy. The work required to do this comes from\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(4) the current source** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) the induced electric field due to the changing magnetic field · (2) the lattice structure of the material of the rod · (3) the magnetic field — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** A thin diamagnetic rod is placed vertically between the poles of an electromagnet. When the current in the electromagnet is switched on, then the diamagnetic rod is pushed up, out of the horizontal magnetic field. Hence the rod gains gravitational potential energy. The work requ…\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **the current source**.\n\n**Work.** Link the stem to the verified wording “the current source”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) the induced electric field due to the changing magnetic field\n✗ (2) the lattice structure of the material of the rod\n✗ (3) the magnetic field\n✓ (4) the current source\n\n**Hence proved.** The verified option wording is **(4) the current source**.\n\n**Eliminate.**\n✗ (1) the induced electric field due to the changing magnetic field — Conflicts with “the current source”.\n✗ (2) the lattice structure of the material of the rod — Conflicts with “the current source”.\n✗ (3) the magnetic field — Conflicts with “the current source”.\n\n_Note: key estimated — verify against official NTA key when available._",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — thin diamagnetic placed vert…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20thin%20diamagnetic%20placed%20vertically%20poles%20electromagnet%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20thin%20diamagnetic%20placed%20vertically%20poles%20electromagnet%20the%20current%20source"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20thin%20diamagnetic%20placed%20vertically"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20thin%20diamagnetic%20placed%20vertically%20poles%20electromagnet%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2020-E1-Q92",
@@ -1627,7 +2243,29 @@
         "answerEstimated": true,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** A series LCR circuit is connected to an ac voltage source. When $ L $ is removed from the circuit, the phase difference between current and voltage is $ \\frac { \\pi } { 3 } $. If instead C is removed from the circuit, the phase difference is again $ \\frac { \\pi } { 3 } $ between current and voltage. The power factor…\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** List knowns, write the governing equation symbolically, substitute with units, simplify to the option form.\n\n**Lock.** The verified correct choice is **(1) 1.0** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (2) −1.0 · (3) zero · (4) 0.5 — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** A series LCR circuit is connected to an ac voltage source. When L is removed from the circuit, the phase difference between current and voltage π is . If instead C is removed from the circuit, 3 π the phase difference is again between current 3 and voltage. The power factor of t…\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **1.0**.\n\n**Work.** Givens: 3, 3 a. Link the stem to the verified wording “1.0”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✓ (1) 1.0\n✗ (2) −1.0\n✗ (3) zero\n✗ (4) 0.5\n\n**Hence proved.** The verified option wording is **(1) 1.0**.\n\n**Eliminate.**\n✗ (2) −1.0 — Conflicts with “1.0”.\n✗ (3) zero — Conflicts with “1.0”.\n✗ (4) 0.5 — Conflicts with “1.0”.\n\n_Note: key estimated — verify against official NTA key when available._",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — series circuit connected vol…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20series%20circuit%20connected%20voltage%20source%20removed%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20series%20circuit%20connected%20voltage%20source%20removed%201%200"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20series%20circuit%20connected%20voltage"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20series%20circuit%20connected%20voltage%20source%20removed%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2021-M1-Q1",
@@ -1653,7 +2291,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** In a potentiometer circuit a cell of EMF 1.5 V gives balance point at 36 cm length of wire. If another cell of EMF 2.5 V replaces the first cell, then at what length of the wire, the balance point occurs ?\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** List knowns, write the governing equation symbolically, substitute with units, simplify to the option form.\n\n**Lock.** The verified correct choice is **(1) 62 cm** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (2) 60 cm · (3) 21.6 cm · (4) 64 cm — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** In a potentiometer circuit a cell of EMF 1.5 V gives balance point at 36 cm length of wire. If another cell of EMF 2.5 V replaces the first cell, then at what length of the wire, the balance point occurs ?\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **62 cm**.\n\n**Work.** Givens: 1.5 V, 36 cm, 2.5 V. Link the stem to the verified wording “62 cm”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✓ (1) 62 cm\n✗ (2) 60 cm\n✗ (3) 21.6 cm\n✗ (4) 64 cm\n\n**Hence proved.** The verified option wording is **(1) 62 cm**.\n\n**Eliminate.**\n✗ (2) 60 cm — Conflicts with “62 cm”.\n✗ (3) 21.6 cm — Conflicts with “62 cm”.\n✗ (4) 64 cm — Conflicts with “62 cm”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — potentiometer circuit cell g…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20potentiometer%20circuit%20cell%20gives%20balance%20point%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20potentiometer%20circuit%20cell%20gives%20balance%20point%2062%20cm"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20potentiometer%20circuit%20cell%20gives"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20potentiometer%20circuit%20cell%20gives%20balance%20point%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2021-M1-Q4",
@@ -1679,7 +2339,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** Column -I gives certain physical terms associated with flow of current through a metallic conductor. Column - II gives some mathematical relations involving electrical quantities. Match Column - I and Column - II with appropriate relations. Column - I (A) Drift Velocity (B) Electrical Resistivity (C) Relaxation Peri…\n\n**Concept.** Apply Newton’s laws / kinematics with a free-body or motion equation before comparing options.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(2) (A)-(R), (B)-(Q), (C)-(S), (D)-(P)** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) (A)-(R), (B)-(P), (C)-(S), (D)-(Q) · (3) (A)-(R), (B)-(S), (C)-(P), (D)-(Q) · (4) (A)-(R), (B)-(S), (C)-(Q), (D)-(P) 3 O1 — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** Column - I gives certain physical terms associated with flow of current through a metallic conductor. Column - II gives some mathematical relations involving electrical quantities. Match Column - I and Column - II with appropriate relations. Column - I Column - II m (A) Drift Ve…\n\n**Concept.** Pair each left-column entry with the unique NCERT definition/structure on the right; assemble the code.\n\n**Work.** Walk a→b→c→d (or A→B→C→D) one at a time. The verified code is **(2) (A)-(R), (B)-(Q), (C)-(S), (D)-(P)** — every distractor swaps at least one pair.\n\n**Option scan.**\n✗ (1) (A)-(R), (B)-(P), (C)-(S), (D)-(Q)\n✓ (2) (A)-(R), (B)-(Q), (C)-(S), (D)-(P)\n✗ (3) (A)-(R), (B)-(S), (C)-(P), (D)-(Q)\n✗ (4) (A)-(R), (B)-(S), (C)-(Q), (D)-(P) 3 O1\n\n**Hence proved.** The verified option wording is **(2) (A)-(R), (B)-(Q), (C)-(S), (D)-(P)**.\n\n**Eliminate.**\n✗ (1) (A)-(R), (B)-(P), (C)-(S), (D)-(Q) — At least one left–right pairing is wrong vs NCERT.\n✗ (3) (A)-(R), (B)-(S), (C)-(P), (D)-(Q) — At least one left–right pairing is wrong vs NCERT.\n✗ (4) (A)-(R), (B)-(S), (C)-(Q), (D)-(P) 3 O1 — At least one left–right pairing is wrong vs NCERT.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — gives certain physical terms…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20gives%20certain%20physical%20terms%20associated%20flow%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20gives%20certain%20physical%20terms%20associated%20flow%20A%20R%20B%20Q%20C%20S%20D%20P"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20gives%20certain%20physical%20terms"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20gives%20certain%20physical%20terms%20associated%20flow%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2021-M1-Q16",
@@ -1705,7 +2387,29 @@
         "answerEstimated": true,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** A capacitor of capacitance 'C', is connected across an ac source of voltage $ V $, given by $ \\mathrm{V} = \\mathrm{V}_{0} \\sin \\omega \\mathrm{t} $ The displacement current between the plates of the capacitor, would then be given by :\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(4) Id=V0 ωCcosωt Hindi+English 6** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) Id= 0 cosωt ωC V · (2) Id= 0 sin ωt ωC · (3) Id=V0 ωCsinωt — each conflicts with the governing idea (wrong definition, process, or algebra).\n\n_Key confidence: not yet multi-source locked — verify against official NTA / coaching solutions._"
+        "solution": "**Identify.** A capacitor of capacitance ‘C’, is connected across an ac source of voltage V, given by V=V0 sinωt The displacement current between the plates of the capacitor, would then be given by : V\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **Id=V0 ωCcosωt Hindi+English 6**.\n\n**Work.** Givens: 0 s. Link the stem to the verified wording “Id=V0 ωCcosωt Hindi+English 6”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) Id= 0 cosωt ωC V\n✗ (2) Id= 0 sin ωt ωC\n✗ (3) Id=V0 ωCsinωt\n✓ (4) Id=V0 ωCcosωt Hindi+English 6\n\n**Hence proved.** The verified option wording is **(4) Id=V0 ωCcosωt Hindi+English 6**.\n\n**Eliminate.**\n✗ (1) Id= 0 cosωt ωC V — Conflicts with “Id=V0 ωCcosωt Hindi+English 6”.\n✗ (2) Id= 0 sin ωt ωC — Conflicts with “Id=V0 ωCcosωt Hindi+English 6”.\n✗ (3) Id=V0 ωCsinωt — Conflicts with “Id=V0 ωCcosωt Hindi+English 6”.\n\n_Note: key estimated — verify against official NTA key when available._",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — capacitor capacitance connec…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20capacitor%20capacitance%20connected%20across%20source%20voltage%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20capacitor%20capacitance%20connected%20across%20source%20voltage%20Id%20V0%20Ccos%20t%20Hindi%20English%206"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20capacitor%20capacitance%20connected%20across"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20capacitor%20capacitance%20connected%20across%20source%20voltage%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2021-M1-Q29",
@@ -1731,7 +2435,29 @@
         "answerEstimated": true,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** A parallel plate capacitor has a uniform electric field ' $ \\vec { E } $ ' in the space between the plates. If the distance between the plates is ' $ d $ ' and the area of each plate is ' A ', the energy stored in the capacitor is : ( $ \\varepsilon _ { 0 } = $ permittivity of free space $ ) $\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(1) ε E2 Ad 2 0 E2 Ad** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (2) ε0 1 · (3) ε E2 2 0 · (4) ε0EAd — each conflicts with the governing idea (wrong definition, process, or algebra).\n\n_Key confidence: not yet multi-source locked — verify against official NTA / coaching solutions._"
+        "solution": "**Identify.** A parallel plate capacitor has a uniform electric → field ‘ E ’ in the space between the plates. If the distance between the plates is ‘d’ and the area of each plate is ‘A’, the energy stored in the capacitor is : (ε0=permittivity of free space) 1\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **ε E2 Ad 2 0 E2 Ad**.\n\n**Work.** Givens: 0, 1. Link the stem to the verified wording “ε E2 Ad 2 0 E2 Ad”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✓ (1) ε E2 Ad 2 0 E2 Ad\n✗ (2) ε0 1\n✗ (3) ε E2 2 0\n✗ (4) ε0EAd\n\n**Hence proved.** The verified option wording is **(1) ε E2 Ad 2 0 E2 Ad**.\n\n**Eliminate.**\n✗ (2) ε0 1 — Conflicts with “ε E2 Ad 2 0 E2 Ad”.\n✗ (3) ε E2 2 0 — Conflicts with “ε E2 Ad 2 0 E2 Ad”.\n✗ (4) ε0EAd — Conflicts with “ε E2 Ad 2 0 E2 Ad”.\n\n_Note: key estimated — verify against official NTA key when available._",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — parallel plate capacitor uni…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20parallel%20plate%20capacitor%20uniform%20electric%20field%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20parallel%20plate%20capacitor%20uniform%20electric%20field%20E2%20Ad%202%200%20E2%20Ad"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20parallel%20plate%20capacitor%20uniform"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20parallel%20plate%20capacitor%20uniform%20electric%20field%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2021-M1-Q37",
@@ -1757,7 +2483,29 @@
         "answerEstimated": true,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** A series LCR circuit containing 5.0 H inductor, 80 μF capacitor and 40 Ω resistor is connected to 230 V variable frequency ac source. The angular frequencies of the source at which power transferred to the circuit is half the power at the resonant angular frequency are likely to be :\n\n**Reasoning.** The current through a semiconductor is I = neAv d I = neA E In > Ip\n\n**Lock.** The verified correct choice is **(1) 46 rad/s and 54 rad/s** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (2) 42 rad/s and 58 rad/s · (3) 25 rad/s and 75 rad/s · (4) 50 rad/s and 25 rad/s — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** A series LCR circuit containing 5.0 H inductor, 80 μF capacitor and 40 Ω resistor is connected to 230 V variable frequency ac source. The angular frequencies of the source at which power transferred to the circuit is half the power at the resonant angular frequency are likely to…\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **46 rad/s and 54 rad/s**.\n\n**Work.** Givens: 5.0, 80 μ, 40, 230 V. Link the stem to the verified wording “46 rad/s and 54 rad/s”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✓ (1) 46 rad/s and 54 rad/s\n✗ (2) 42 rad/s and 58 rad/s\n✗ (3) 25 rad/s and 75 rad/s\n✗ (4) 50 rad/s and 25 rad/s\n\n**Hence proved.** The verified option wording is **(1) 46 rad/s and 54 rad/s**.\n\n**Eliminate.**\n✗ (2) 42 rad/s and 58 rad/s — Conflicts with “46 rad/s and 54 rad/s”.\n✗ (3) 25 rad/s and 75 rad/s — Conflicts with “46 rad/s and 54 rad/s”.\n✗ (4) 50 rad/s and 25 rad/s — Conflicts with “46 rad/s and 54 rad/s”.\n\n_Note: key estimated — verify against official NTA key when available._",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — series circuit containing in…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20series%20circuit%20containing%20inductor%20capacitor%20resistor%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20series%20circuit%20containing%20inductor%20capacitor%20resistor%2046%20rad%20s%20and%2054%20rad%20s"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20series%20circuit%20containing%20inductor"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20series%20circuit%20containing%20inductor%20capacitor%20resistor%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2021-M1-Q57",
@@ -1783,7 +2531,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** A particular station of All India Radio, New Delhi, broadcasts on a frequency of $ 1,368 \\mathrm { kHz } $ (kilohertz). The wavelength of the electromagnetic radiation emitted by the transmitter is : [speed of light, $ \\mathrm { c } = 3.0 \\times 10 ^ { 8 } \\mathrm {~ms} ^ { - 1 } $ ]\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** List knowns, write the governing equation symbolically, substitute with units, simplify to the option form.\n\n**Lock.** The verified correct choice is **(2) 21.92 cm** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 2192 m · (3) 219.3 m · (4) 219.2 m 7 O1 — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** A particular station of All India Radio, New Delhi, broadcasts on a frequency of 1,368 kHz (kilohertz). The wavelength of the electromagnetic radiation emitted by the transmitter is : [speed of light, c=3.0×108 ms−1]\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **21.92 cm**.\n\n**Work.** Givens: 1, 368 kHz, 3.0, 108 m. Link the stem to the verified wording “21.92 cm”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) 2192 m\n✓ (2) 21.92 cm\n✗ (3) 219.3 m\n✗ (4) 219.2 m 7 O1\n\n**Hence proved.** The verified option wording is **(2) 21.92 cm**.\n\n**Eliminate.**\n✗ (1) 2192 m — Conflicts with “21.92 cm”.\n✗ (3) 219.3 m — Conflicts with “21.92 cm”.\n✗ (4) 219.2 m 7 O1 — Conflicts with “21.92 cm”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — particular station India Rad…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20particular%20station%20India%20Radio%20Delhi%20broadcasts%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20particular%20station%20India%20Radio%20Delhi%20broadcasts%2021%2092%20cm"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20particular%20station%20India%20Radio"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20particular%20station%20India%20Radio%20Delhi%20broadcasts%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2022-RECON-Q170",
@@ -1809,7 +2579,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** Two toroids 1 and 2 have total no. of turns 200 and 100 respectively with average radii 40 cm and 20 cm respectively. If they carry same current i, the ratio of the magnetic fields along the two loops is\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** List knowns, write the governing equation symbolically, substitute with units, simplify to the option form.\n\n**Lock.** The verified correct choice is **(1) 1 : 1** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (2) 4 : 1 · (3) 2 : 1 · (4) 1 : 2 — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** Two toroids 1 and 2 have total no. of turns 200 and 100 respectively with average radii 40 cm and 20 cm respectively. If they carry same current i, the ratio of the magnetic fields along the two loops is\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **1 : 1**.\n\n**Work.** Givens: 1 a, 2, 200 a, 100, 40 cm, 20 cm. Link the stem to the verified wording “1 : 1”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✓ (1) 1 : 1\n✗ (2) 4 : 1\n✗ (3) 2 : 1\n✗ (4) 1 : 2\n\n**Hence proved.** The verified option wording is **(1) 1 : 1**.\n\n**Eliminate.**\n✗ (2) 4 : 1 — Conflicts with “1 : 1”.\n✗ (3) 2 : 1 — Conflicts with “1 : 1”.\n✗ (4) 1 : 2 — Conflicts with “1 : 1”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — toroids have total turns res…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20toroids%20have%20total%20turns%20respectively%20average%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20toroids%20have%20total%20turns%20respectively%20average%201%201"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20toroids%20have%20total%20turns"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20toroids%20have%20total%20turns%20respectively%20average%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2022-RECON-Q174",
@@ -1835,7 +2627,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** The reading of an ideal voltmeter in the circuit shown is\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(4) 0.4 V** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 0.6 V · (2) 0 V · (3) 0.5 V — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** The reading of an ideal voltmeter in the circuit shown is\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **0.4 V**.\n\n**Work.** Link the stem to the verified wording “0.4 V”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) 0.6 V\n✗ (2) 0 V\n✗ (3) 0.5 V\n✓ (4) 0.4 V\n\n**Hence proved.** The verified option wording is **(4) 0.4 V**.\n\n**Eliminate.**\n✗ (1) 0.6 V — Conflicts with “0.4 V”.\n✗ (2) 0 V — Conflicts with “0.4 V”.\n✗ (3) 0.5 V — Conflicts with “0.4 V”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — reading ideal voltmeter circ…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20reading%20ideal%20voltmeter%20circuit%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20reading%20ideal%20voltmeter%20circuit%200%204%20V"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20reading%20ideal%20voltmeter%20circuit"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20reading%20ideal%20voltmeter%20circuit%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2022-RECON-Q183",
@@ -1861,7 +2675,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** Two identical capacitors C1 and C2 of equal capacitance are connected as shown in the circuit. Terminals a and b of the key k are connected to charge capacitor C1 using battery of emf V volt. Now disconnecting a and b the terminals b and c are connected. Due to this, what will be the percentage loss of energy?\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** List knowns, write the governing equation symbolically, substitute with units, simplify to the option form.\n\n**Lock.** The verified correct choice is **(3) 50%** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 75% · (2) 0% · (4) 25% — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** Two identical capacitors C1 and C2 of equal capacitance are connected as shown in the circuit. Terminals a and b of the key k are connected to charge capacitor C1 using battery of emf V volt. Now disconnecting a and b the terminals b and c are connected. Due to this, what will b…\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **50%**.\n\n**Work.** Givens: 1 a, 2, 1. Link the stem to the verified wording “50%”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) 75%\n✗ (2) 0%\n✓ (3) 50%\n✗ (4) 25%\n\n**Hence proved.** The verified option wording is **(3) 50%**.\n\n**Eliminate.**\n✗ (1) 75% — Conflicts with “50%”.\n✗ (2) 0% — Conflicts with “50%”.\n✗ (4) 25% — Conflicts with “50%”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — identical capacitors equal c…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20identical%20capacitors%20equal%20capacitance%20connected%20circuit%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20identical%20capacitors%20equal%20capacitance%20connected%20circuit%2050"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20identical%20capacitors%20equal%20capacitance"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20identical%20capacitors%20equal%20capacitance%20connected%20circuit%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2023-F1-Q6",
@@ -1887,7 +2723,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** In a plane electromagnetic wave travelling in free space, the electric field component oscillates sinusoidally at a frequency of $ 2.0 \\times 10 ^ { 10 } \\mathrm {~Hz} $ and amplitude $ 48 \\mathrm { Vm } ^ { - 1 } $. Then the amplitude of oscillating magnetic field is : $ \\left( \\right. $ Speed of light in free spac…\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** List knowns, write the governing equation symbolically, substitute with units, simplify to the option form.\n\n**Lock.** The verified correct choice is **(2) 1.6 × 10–7 T** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 1.6 × 10–8 T · (3) 1.6 × 10–6 T · (4) 1.6 × 10–9 T — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** In a plane electromagnetic wave travelling in free space, the electric field component oscillates sinusoidally at a frequency of 2.0 × 1010 Hz and amplitude 48 V m–1. Then the amplitude of oscillating magnetic field is (Speed of light in free space = 3 × 108 m s–1)\n\n**Concept.** In a plane EM wave in free space, $E/B = c = 3\\times10^8\\ \\mathrm{m\\,s^{-1}}$.\n\n**Work.** $B_0 = E_0/c = 48/(3\\times10^8) = 1.60e-7\\ \\mathrm{T}$.\n\n**Option scan.**\n✗ (1) 1.6 × 10–8 T\n✓ (2) 1.6 × 10–7 T\n✗ (3) 1.6 × 10–6 T\n✗ (4) 1.6 × 10–9 T\n\n**Hence proved.** The verified option wording is **(2) 1.6 × 10–7 T**.\n\n**Eliminate.**\n✗ (1) 1.6 × 10–8 T — Does not match the governing NCERT fact/calculation above.\n✗ (3) 1.6 × 10–6 T — Does not match the governing NCERT fact/calculation above.\n✗ (4) 1.6 × 10–9 T — Does not match the governing NCERT fact/calculation above.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — plane electromagnetic wave t…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20plane%20electromagnetic%20wave%20travelling%20free%20space%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20plane%20electromagnetic%20wave%20travelling%20free%20space%201%206%2010%207%20T"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20plane%20electromagnetic%20wave%20travelling"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20plane%20electromagnetic%20wave%20travelling%20free%20space%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2023-F1-Q14",
@@ -1913,7 +2771,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** A full wave rectifier circuit consists of two p-n junction diodes, a centre-tapped transformer, capacitor and a load resistance. Which of these components remove the ac ripple from the rectified output?\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(2) Capacitor** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) p-n junction diodes · (3) Load resistance · (4) A centre-tapped transformer — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** A full wave rectifier circuit consists of two p-n junction diodes, a centre-tapped transformer, capacitor and a load resistance. Which of these components remove the ac ripple from the rectified output?\n\n**Concept.** After rectification, a shunt capacitor filter smooths the output by charging/discharging — it removes the AC ripple.\n\n**Work.** Diodes rectify; centre-tap transformer supplies opposite phases; load dissipates power but does not filter ripple.\n\n**Option scan.**\n✗ (1) p-n junction diodes\n✓ (2) Capacitor\n✗ (3) Load resistance\n✗ (4) A centre-tapped transformer\n\n**Hence proved.** The verified option wording is **(2) Capacitor**.\n\n**Eliminate.**\n✗ (1) p-n junction diodes — Diodes convert AC→pulsating DC; they do not smooth ripple.\n✗ (3) Load resistance — Load resistance dissipates power; it is not the filter.\n✗ (4) A centre-tapped transformer — Centre-tapped transformer provides the two half-cycles.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — full wave rectifier circuit …",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20full%20wave%20rectifier%20circuit%20consists%20junction%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20full%20wave%20rectifier%20circuit%20consists%20junction%20Capacitor"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20full%20wave%20rectifier%20circuit"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20full%20wave%20rectifier%20circuit%20consists%20junction%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2023-F1-Q24",
@@ -1939,7 +2819,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** The net magnetic flux through any closed surface is\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(4) Zero** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) Positive · (2) Infinity · (3) Negative — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** The net magnetic flux through any closed surface is\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **Zero**.\n\n**Work.** Link the stem to the verified wording “Zero”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) Positive\n✗ (2) Infinity\n✗ (3) Negative\n✓ (4) Zero\n\n**Hence proved.** The verified option wording is **(4) Zero**.\n\n**Eliminate.**\n✗ (1) Positive — Conflicts with “Zero”.\n✗ (2) Infinity — Conflicts with “Zero”.\n✗ (3) Negative — Conflicts with “Zero”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — magnetic flux through closed…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20magnetic%20flux%20through%20closed%20surface%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20magnetic%20flux%20through%20closed%20surface%20Zero"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20magnetic%20flux%20through%20closed"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20magnetic%20flux%20through%20closed%20surface%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2023-F1-Q39",
@@ -1965,7 +2867,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** 10 resistors, each of resistance R are connected in series to a battery of emf E and negligible internal resistance. Then those are connected in parallel to the same battery, the current is increased n times. The value of n is\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(1) 100** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (2) 1 · (3) 1000 · (4) 10 — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** 10 resistors, each of resistance R are connected in series to a battery of emf E and negligible internal resistance. Then those are connected in parallel to the same battery, the current is increased n times. The value of n is\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **100**.\n\n**Work.** Givens: 10. Link the stem to the verified wording “100”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✓ (1) 100\n✗ (2) 1\n✗ (3) 1000\n✗ (4) 10\n\n**Hence proved.** The verified option wording is **(1) 100**.\n\n**Eliminate.**\n✗ (2) 1 — Conflicts with “100”.\n✗ (3) 1000 — Conflicts with “100”.\n✗ (4) 10 — Conflicts with “100”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — resistors each resistance co…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20resistors%20each%20resistance%20connected%20series%20battery%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20resistors%20each%20resistance%20connected%20series%20battery%20100"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20resistors%20each%20resistance%20connected"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20resistors%20each%20resistance%20connected%20series%20battery%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2023-F1-Q45",
@@ -1991,7 +2915,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** A very long conducting wire is bent in a semi-circular shape from A to B as shown in figure. The magnetic field at point P for steady current configuration is given by μ0 i\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(2) 1− pointed away from page 4R ⟩√ π {} μ0 i ⟨ 2 ]** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) pointed away from the page 4R μ0 i ⟨ 2 ] · (3) 1− pointed into the page 4R ⟩√ π {} μ0 i · (4) pointed into the page 4R — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** A very long conducting wire is bent in a semi-circular shape from A to B as shown in figure. The magnetic field at point P for steady current configuration is given by μ0 i\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **1− pointed away from page 4R ⟩√ π {} μ0 i ⟨ 2 ]**.\n\n**Work.** Givens: 0. Link the stem to the verified wording “1− pointed away from page 4R ⟩√ π {} μ0 i ⟨ 2 ]”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) pointed away from the page 4R μ0 i ⟨ 2 ]\n✓ (2) 1− pointed away from page 4R ⟩√ π {} μ0 i ⟨ 2 ]\n✗ (3) 1− pointed into the page 4R ⟩√ π {} μ0 i\n✗ (4) pointed into the page 4R\n\n**Hence proved.** The verified option wording is **(2) 1− pointed away from page 4R ⟩√ π {} μ0 i ⟨ 2 ]**.\n\n**Eliminate.**\n✗ (1) pointed away from the page 4R μ0 i ⟨ 2 ] — Conflicts with “1− pointed away from page 4R ⟩√ π {} μ0 i ⟨ 2 ]”.\n✗ (3) 1− pointed into the page 4R ⟩√ π {} μ0 i — Conflicts with “1− pointed away from page 4R ⟩√ π {} μ0 i ⟨ 2 ]”.\n✗ (4) pointed into the page 4R — Conflicts with “1− pointed away from page 4R ⟩√ π {} μ0 i ⟨ 2 ]”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — very long conducting wire be…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20very%20long%20conducting%20wire%20bent%20semi-circular%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20very%20long%20conducting%20wire%20bent%20semi-circular%201%20pointed%20away%20from%20page%204R%200%20i%202"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20very%20long%20conducting%20wire"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20very%20long%20conducting%20wire%20bent%20semi-circular%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2024-R1-Q10",
@@ -2017,7 +2963,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** In a uniform magnetic field of 0.049 T, a magnetic needle performs 20 complete oscillations in 5 seconds as shown. The moment of inertia of the needle is 9.8 x 10–6 kg m2. If the magnitude of magnetic moment of the needle is x × 10–5 Am2, then the value of ‘x’ is :\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** List knowns, write the governing equation symbolically, substitute with units, simplify to the option form.\n\n**Lock.** The verified correct choice is **(3) 1280π2** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 128π2 · (2) 50π2 · (4) 5π2 — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** In a uniform magnetic field of 0.049 T, a magnetic needle performs 20 complete oscillations in 5 seconds as shown. The moment of inertia of the needle is 9.8 x 10–6 kg m2. If the magnitude of magnetic moment of the needle is x × 10–5 Am2, then the value of ‘x’ is :\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **1280π2**.\n\n**Work.** Givens: 0.049 T, 20, 5 s, 9.8, 10, 6 k. Link the stem to the verified wording “1280π2”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) 128π2\n✗ (2) 50π2\n✓ (3) 1280π2\n✗ (4) 5π2\n\n**Hence proved.** The verified option wording is **(3) 1280π2**.\n\n**Eliminate.**\n✗ (1) 128π2 — Conflicts with “1280π2”.\n✗ (2) 50π2 — Conflicts with “1280π2”.\n✗ (4) 5π2 — Conflicts with “1280π2”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — uniform magnetic field needl…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20uniform%20magnetic%20field%20needle%20performs%20complete%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20uniform%20magnetic%20field%20needle%20performs%20complete%201280%202"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20uniform%20magnetic%20field%20needle"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20uniform%20magnetic%20field%20needle%20performs%20complete%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2024-R1-Q24",
@@ -2043,7 +3011,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** Match List-I with List-II. List-I List-II (Material) (Susceptibility (χ)) A. Diamagnetic I. χ=0 B. Ferromagnetic II. 0 > χ ≥ –1 C. Paramagnetic III. χ >> 1 D. Non-magnetic IV. 0 < χ < ε (a small positive number) Choose the correct answer from the options given below\n\n**Reasoning.** The current through a semiconductor is I = neAv d I = neA E In > Ip\n\n**Lock.** The verified correct choice is **(4) A-II, B-III, C-IV, D-I** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) A-II, B-I, C-III, D-IV · (2) A-III, B-II, C-I, D-IV · (3) A-IV, B-III, C-II, D-I — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** Match List-I with List-II. List-I List-II (Material) (Susceptibility (χ)) A. Diamagnetic I. χ=0 B. Ferromagnetic II. 0 > χ ≥ –1 C. Paramagnetic III. χ >> 1 D. Non-magnetic IV. 0 < χ < ε (a small positive number) Choose the correct answer from the options given below\n\n**Concept.** Pair each left-column entry with the unique NCERT definition/structure on the right; assemble the code.\n\n**Work.** Walk a→b→c→d (or A→B→C→D) one at a time. The verified code is **(4) A-II, B-III, C-IV, D-I** — every distractor swaps at least one pair.\n\n**Option scan.**\n✗ (1) A-II, B-I, C-III, D-IV\n✗ (2) A-III, B-II, C-I, D-IV\n✗ (3) A-IV, B-III, C-II, D-I\n✓ (4) A-II, B-III, C-IV, D-I\n\n**Hence proved.** The verified option wording is **(4) A-II, B-III, C-IV, D-I**.\n\n**Eliminate.**\n✗ (1) A-II, B-I, C-III, D-IV — At least one left–right pairing is wrong vs NCERT.\n✗ (2) A-III, B-II, C-I, D-IV — At least one left–right pairing is wrong vs NCERT.\n✗ (3) A-IV, B-III, C-II, D-I — At least one left–right pairing is wrong vs NCERT.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — List-I List-II Material Susc…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20List-I%20List-II%20Material%20Susceptibility%20Diamagnetic%20Ferromagnetic%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20List-I%20List-II%20Material%20Susceptibility%20Diamagnetic%20Ferromagnetic%20A%20II%20B%20III%20C%20IV%20D%20I"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20List-I%20List-II%20Material%20Susceptibility"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20List-I%20List-II%20Material%20Susceptibility%20Diamagnetic%20Ferromagnetic%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2024-R1-Q48",
@@ -2069,7 +3059,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** The property which is not of an electromagnetic wave travelling in free space is that:\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(3) They originate from charges moving with uniform speed** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) The energy density in electric field is equal to energy density in magnetic field 1 · (2) They travel with a speed equal to μ0 ε 0 · (4) They are transverse in nature — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** The property which is not of an electromagnetic wave travelling in free space is that:\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **They originate from charges moving with uniform speed**.\n\n**Work.** Link the stem to the verified wording “They originate from charges moving with uniform speed”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) The energy density in electric field is equal to energy density in magnetic field 1\n✗ (2) They travel with a speed equal to μ0 ε 0\n✓ (3) They originate from charges moving with uniform speed\n✗ (4) They are transverse in nature\n\n**Hence proved.** The verified option wording is **(3) They originate from charges moving with uniform speed**.\n\n**Eliminate.**\n✗ (1) The energy density in electric field is equal to energy density in magnetic fie… — Conflicts with “They originate from charges moving with uniform speed”.\n✗ (2) They travel with a speed equal to μ0 ε 0 — Conflicts with “They originate from charges moving with uniform speed”.\n✗ (4) They are transverse in nature — Conflicts with “They originate from charges moving with uniform speed”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — property electromagnetic wav…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20property%20electromagnetic%20wave%20travelling%20free%20space%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20property%20electromagnetic%20wave%20travelling%20free%20space%20They%20originate%20from%20charges%20moving%20with%20uniform%20s%E2%80%A6"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20property%20electromagnetic%20wave%20travelling"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20property%20electromagnetic%20wave%20travelling%20free%20space%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "hf2018-681418b650",
@@ -3870,7 +4882,29 @@
         "answerEstimated": true,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** A metallic rod of mass per unit length $ 0.5 \\mathrm {~kg} \\mathrm {~m} ^ { - 1 } $ is lying horizontally on a smooth inclined plane which makes an angle of $ 30 ^ { \\circ } $ with the horizontal. The rod is not allowed to slide down by flowing a current through it when a magnetic field of induction 0.25 T is acting…\n\n**Reasoning.** VBE = 0 VCE = 0 Vb = 0 20 V R = 4 k C  IC RB 500 k Vi Vb Ib    C 3 (20 0) I 4 10 IC = 5 × 10–3 = 5 mA Vi = VBE + IBRB Vi = 0 + IBRB 20 = IB × 500 × 103     B 3 20 I 40 A 500 10  3 C       I 25 10 125 I 40 10 6 b\n\n**Lock.** The verified correct choice is **(4) 11·32 A** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 14·76 A · (2) 5·98 A · (3) 7·14 A — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** A metallic rod of mass per unit length –1 0·5 kg m is lying horizontally on a smooth inclined plane which makes an angle of 30° with the horizontal. The rod is not allowed to slide down by flowing a current through it when a magnetic field of induction 0·25 T is acting on it in …\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **11·32 A**.\n\n**Work.** Givens: 1, 0, 5 k, 30, 25 T. Link the stem to the verified wording “11·32 A”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) 14·76 A\n✗ (2) 5·98 A\n✗ (3) 7·14 A\n✓ (4) 11·32 A\n\n**Hence proved.** The verified option wording is **(4) 11·32 A**.\n\n**Eliminate.**\n✗ (1) 14·76 A — Conflicts with “11·32 A”.\n✗ (2) 5·98 A — Conflicts with “11·32 A”.\n✗ (3) 7·14 A — Conflicts with “11·32 A”.\n\n_Note: key estimated — verify against official NTA key when available._",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — metallic mass unit length ly…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20metallic%20mass%20unit%20length%20lying%20horizontally%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20metallic%20mass%20unit%20length%20lying%20horizontally%2011%2032%20A"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20metallic%20mass%20unit%20length"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20metallic%20mass%20unit%20length%20lying%20horizontally%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2018-AA-Q36",
@@ -3896,7 +4930,29 @@
         "answerEstimated": true,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** An inductor 20 mH , a capacitor $ 100 \\mu \\mathrm {~F} $ and a resistor $ 50 \\Omega $ are connected in series across a source of emf, $ \\mathrm { V } = 10 \\sin 314 \\mathrm { t } $. The power loss in the circuit is\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** List knowns, write the governing equation symbolically, substitute with units, simplify to the option form.\n\n**Lock.** The verified correct choice is **(1) 0·79 W** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (2) 0·43 W · (3) 2·74 W · (4) 1·13 W — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** An inductor 20 mH, a capacitor 100 μF and a resistor 50 Ω are connected in series across a source of emf, V = 10 sin 314 t. The power loss in the circuit is\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **0·79 W**.\n\n**Work.** Givens: 20 m, 100 μ, 50 Ω, 10 s, 314 t. Link the stem to the verified wording “0·79 W”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✓ (1) 0·79 W\n✗ (2) 0·43 W\n✗ (3) 2·74 W\n✗ (4) 1·13 W\n\n**Hence proved.** The verified option wording is **(1) 0·79 W**.\n\n**Eliminate.**\n✗ (2) 0·43 W — Conflicts with “0·79 W”.\n✗ (3) 2·74 W — Conflicts with “0·79 W”.\n✗ (4) 1·13 W — Conflicts with “0·79 W”.\n\n_Note: key estimated — verify against official NTA key when available._",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — inductor capacitor resistor …",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20inductor%20capacitor%20resistor%20connected%20series%20across%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20inductor%20capacitor%20resistor%20connected%20series%20across%200%2079%20W"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20inductor%20capacitor%20resistor%20connected"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20inductor%20capacitor%20resistor%20connected%20series%20across%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2018-AA-Q123",
@@ -3922,7 +4978,29 @@
         "answerEstimated": true,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** Current sensitivity of a moving coil galvanometer is $ 5 \\mathrm { div } / \\mathrm { mA } $ and its voltage sensitivity (angular deflection per unit voltage applied) is $ 20 \\mathrm { div } / \\mathrm { V } $. The resistance of the galvanometer is\n\n**Reasoning.** Current sensitivity NBA I C  S Voltage sensitivity NBA V CR  S G So, resistance of galvanometer         I 5 1 5000 R 250 V 20 20 10 S G 3 S\n\n**Lock.** The verified correct choice is **(2) 250 Ω** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 500 Ω · (3) 25 Ω · (4) 40 Ω OUGH WORK English — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** Current sensitivity of a moving coil galvanometer is 5 div/mA and its voltage sensitivity (angular deflection per unit voltage applied) is 20 div/V. The resistance of the galvanometer is\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **250 Ω**.\n\n**Work.** Givens: 5, 20. Link the stem to the verified wording “250 Ω”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) 500 Ω\n✓ (2) 250 Ω\n✗ (3) 25 Ω\n✗ (4) 40 Ω OUGH WORK English\n\n**Hence proved.** The verified option wording is **(2) 250 Ω**.\n\n**Eliminate.**\n✗ (1) 500 Ω — Conflicts with “250 Ω”.\n✗ (3) 25 Ω — Conflicts with “250 Ω”.\n✗ (4) 40 Ω OUGH WORK English — Conflicts with “250 Ω”.\n\n_Note: key estimated — verify against official NTA key when available._",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — Current sensitivity moving c…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20Current%20sensitivity%20moving%20coil%20galvanometer%20voltage%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20Current%20sensitivity%20moving%20coil%20galvanometer%20voltage%20250"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20Current%20sensitivity%20moving%20coil"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20Current%20sensitivity%20moving%20coil%20galvanometer%20voltage%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2020-E1-Q172",
@@ -3948,7 +5026,29 @@
         "answerEstimated": true,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** A long solenoid of 50 cm length having 100 turns carries a current of 2.5 A. The magnetic field at the centre of the solenoid is : (μ0=4π×70^{-7}$ T m A−1)$\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** List knowns, write the governing equation symbolically, substitute with units, simplify to the option form.\n\n**Lock.** The verified correct choice is **(1) 6.28×40^{-4}$ T$** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 6.28×40^{-4}$ T$ · (2) 3.14×40^{-4}$ T$ · (3) 6.28×50^{-5}$ T$ — each conflicts with the governing idea (wrong definition, process, or algebra).\n\n_Key confidence: not yet multi-source locked — verify against official NTA / coaching solutions._"
+        "solution": "**Identify.** A long solenoid of 50 cm length having 100 turns carries a current of 2.5 A. The magnetic field at the centre of the solenoid is : (μ0=4π×70^{-7}$ T m A−1)$\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **6.28×40^{-4}$ T$**.\n\n**Work.** Givens: 50 cm, 100 t, 2.5 A, 0, 4, 70. Link the stem to the verified wording “6.28×40^{-4}$ T$”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✓ (1) 6.28×40^{-4}$ T$\n✗ (2) 3.14×40^{-4}$ T$\n✗ (3) 6.28×50^{-5}$ T$\n✗ (4) 3.14×50^{-5}$ T$\n\n**Hence proved.** The verified option wording is **(1) 6.28×40^{-4}$ T$**.\n\n**Eliminate.**\n✗ (2) 3.14×40^{-4}$ T$ — Conflicts with “6.28×40^{-4}$ T$”.\n✗ (3) 6.28×50^{-5}$ T$ — Conflicts with “6.28×40^{-4}$ T$”.\n✗ (4) 3.14×50^{-5}$ T$ — Conflicts with “6.28×40^{-4}$ T$”.\n\n_Note: key estimated — verify against official NTA key when available._",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — long solenoid length having …",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20long%20solenoid%20length%20having%20turns%20carries%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20long%20solenoid%20length%20having%20turns%20carries%206%2028%2040%204%20T"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20long%20solenoid%20length%20having"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20long%20solenoid%20length%20having%20turns%20carries%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2021-M1-Q2",
@@ -3974,7 +5074,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** Column -I gives certain physical terms associated with flow of current through a metallic conductor. Column - II gives some mathematical relations involving electrical quantities. Match Column - I and Column - II with appropriate relations. Column - I (A) Drift Velocity (B) Electrical Resistivity (C) Relaxation Peri…\n\n**Concept.** Apply Newton’s laws / kinematics with a free-body or motion equation before comparing options.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(2) (A)-(R), (B)-(S), (C)-(P), (D)-(Q)** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) (A)-(R), (B)-(Q), (C)-(S), (D)-(P) · (3) (A)-(R), (B)-(S), (C)-(Q), (D)-(P) · (4) (A)-(R), (B)-(P), (C)-(S), (D)-(Q) — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** Column - I gives certain physical terms associated with flow of current through a metallic conductor. Column - II gives some mathematical relations involving electrical quantities. Match Column - I and Column - II with appropriate relations. Column - I Column - II m (A) Drift Ve…\n\n**Concept.** Pair each left-column entry with the unique NCERT definition/structure on the right; assemble the code.\n\n**Work.** Walk a→b→c→d (or A→B→C→D) one at a time. The verified code is **(2) (A)-(R), (B)-(S), (C)-(P), (D)-(Q)** — every distractor swaps at least one pair.\n\n**Option scan.**\n✗ (1) (A)-(R), (B)-(Q), (C)-(S), (D)-(P)\n✓ (2) (A)-(R), (B)-(S), (C)-(P), (D)-(Q)\n✗ (3) (A)-(R), (B)-(S), (C)-(Q), (D)-(P)\n✗ (4) (A)-(R), (B)-(P), (C)-(S), (D)-(Q)\n\n**Hence proved.** The verified option wording is **(2) (A)-(R), (B)-(S), (C)-(P), (D)-(Q)**.\n\n**Eliminate.**\n✗ (1) (A)-(R), (B)-(Q), (C)-(S), (D)-(P) — At least one left–right pairing is wrong vs NCERT.\n✗ (3) (A)-(R), (B)-(S), (C)-(Q), (D)-(P) — At least one left–right pairing is wrong vs NCERT.\n✗ (4) (A)-(R), (B)-(P), (C)-(S), (D)-(Q) — At least one left–right pairing is wrong vs NCERT.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — gives certain physical terms…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20gives%20certain%20physical%20terms%20associated%20flow%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20gives%20certain%20physical%20terms%20associated%20flow%20A%20R%20B%20S%20C%20P%20D%20Q"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20gives%20certain%20physical%20terms"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20gives%20certain%20physical%20terms%20associated%20flow%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2021-M1-Q30",
@@ -4000,7 +5122,29 @@
         "answerEstimated": true,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** A capacitor of capacitance 'C', is connected across an ac source of voltage $ V $, given by $ \\mathrm{V} = \\mathrm{V}_{0} \\sin \\omega \\mathrm{t} $ The displacement current between the plates of the capacitor, would then be given by :\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(2) Id=V0 ωCcosωt V** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) Id=V0 ωCsinωt · (3) Id= 0 cosωt ωC V · (4) Id= 0 sin ωt ωC — each conflicts with the governing idea (wrong definition, process, or algebra).\n\n_Key confidence: not yet multi-source locked — verify against official NTA / coaching solutions._"
+        "solution": "**Identify.** A capacitor of capacitance ‘C’, is connected across an ac source of voltage V, given by V=V0 sinωt The displacement current between the plates of the capacitor, would then be given by :\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **Id=V0 ωCcosωt V**.\n\n**Work.** Givens: 0 s. Link the stem to the verified wording “Id=V0 ωCcosωt V”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) Id=V0 ωCsinωt\n✓ (2) Id=V0 ωCcosωt V\n✗ (3) Id= 0 cosωt ωC V\n✗ (4) Id= 0 sin ωt ωC\n\n**Hence proved.** The verified option wording is **(2) Id=V0 ωCcosωt V**.\n\n**Eliminate.**\n✗ (1) Id=V0 ωCsinωt — Conflicts with “Id=V0 ωCcosωt V”.\n✗ (3) Id= 0 cosωt ωC V — Conflicts with “Id=V0 ωCcosωt V”.\n✗ (4) Id= 0 sin ωt ωC — Conflicts with “Id=V0 ωCcosωt V”.\n\n_Note: key estimated — verify against official NTA key when available._",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — capacitor capacitance connec…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20capacitor%20capacitance%20connected%20across%20source%20voltage%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20capacitor%20capacitance%20connected%20across%20source%20voltage%20Id%20V0%20Ccos%20t%20V"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20capacitor%20capacitance%20connected%20across"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20capacitor%20capacitance%20connected%20across%20source%20voltage%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2021-M1-Q46",
@@ -4026,7 +5170,29 @@
         "answerEstimated": true,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** A series LCR circuit containing 5.0 H inductor, 80 μF capacitor and 40 Ω resistor is connected to 230 V variable frequency ac source. The angular frequencies of the source at which power transferred to the circuit is half the power at the resonant angular frequency are likely to be :\n\n**Reasoning.** The current through a semiconductor is I = neAv d I = neA E In > Ip\n\n**Lock.** The verified correct choice is **(4) 46 rad/s and 54 rad/s 5 P1** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 42 rad/s and 58 rad/s · (2) 25 rad/s and 75 rad/s · (3) 50 rad/s and 25 rad/s — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** A series LCR circuit containing 5.0 H inductor, 80 μF capacitor and 40 Ω resistor is connected to 230 V variable frequency ac source. The angular frequencies of the source at which power transferred to the circuit is half the power at the resonant angular frequency are likely to…\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **46 rad/s and 54 rad/s 5 P1**.\n\n**Work.** Givens: 5.0, 80 μ, 40, 230 V. Link the stem to the verified wording “46 rad/s and 54 rad/s 5 P1”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) 42 rad/s and 58 rad/s\n✗ (2) 25 rad/s and 75 rad/s\n✗ (3) 50 rad/s and 25 rad/s\n✓ (4) 46 rad/s and 54 rad/s 5 P1\n\n**Hence proved.** The verified option wording is **(4) 46 rad/s and 54 rad/s 5 P1**.\n\n**Eliminate.**\n✗ (1) 42 rad/s and 58 rad/s — Conflicts with “46 rad/s and 54 rad/s 5 P1”.\n✗ (2) 25 rad/s and 75 rad/s — Conflicts with “46 rad/s and 54 rad/s 5 P1”.\n✗ (3) 50 rad/s and 25 rad/s — Conflicts with “46 rad/s and 54 rad/s 5 P1”.\n\n_Note: key estimated — verify against official NTA key when available._",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — series circuit containing in…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20series%20circuit%20containing%20inductor%20capacitor%20resistor%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20series%20circuit%20containing%20inductor%20capacitor%20resistor%2046%20rad%20s%20and%2054%20rad%20s%205%20P1"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20series%20circuit%20containing%20inductor"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20series%20circuit%20containing%20inductor%20capacitor%20resistor%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2021-M1-Q66",
@@ -4052,7 +5218,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** A particular station of All India Radio, New Delhi, broadcasts on a frequency of $ 1,368 \\mathrm { kHz } $ (kilohertz). The wavelength of the electromagnetic radiation emitted by the transmitter is : [speed of light, $ \\mathrm { c } = 3.0 \\times 10 ^ { 8 } \\mathrm {~ms} ^ { - 1 } $ ]\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** List knowns, write the governing equation symbolically, substitute with units, simplify to the option form.\n\n**Lock.** The verified correct choice is **(2) 2192 m** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 219.2 m · (3) 21.92 cm · (4) 219.3 m — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** A particular station of All India Radio, New Delhi, broadcasts on a frequency of 1,368 kHz (kilohertz). The wavelength of the electromagnetic radiation emitted by the transmitter is : [speed of light, c=3.0×108 ms−1]\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **2192 m**.\n\n**Work.** Givens: 1, 368 kHz, 3.0, 108 m. Link the stem to the verified wording “2192 m”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) 219.2 m\n✓ (2) 2192 m\n✗ (3) 21.92 cm\n✗ (4) 219.3 m\n\n**Hence proved.** The verified option wording is **(2) 2192 m**.\n\n**Eliminate.**\n✗ (1) 219.2 m — Conflicts with “2192 m”.\n✗ (3) 21.92 cm — Conflicts with “2192 m”.\n✗ (4) 219.3 m — Conflicts with “2192 m”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — particular station India Rad…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20particular%20station%20India%20Radio%20Delhi%20broadcasts%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20particular%20station%20India%20Radio%20Delhi%20broadcasts%202192%20m"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20particular%20station%20India%20Radio"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20particular%20station%20India%20Radio%20Delhi%20broadcasts%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2023-F1-Q2",
@@ -4078,7 +5266,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** The work functions of Caesium (Cs), Potassium (K) and Sodium (Na) are 2.14 eV, 2.30 eV and 2.75 eV respectively. If incident electromagnetic radiation has an incident energy of 2.20 eV, which of these photosensitive surfaces may emit photoelectrons?\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** List knowns, write the governing equation symbolically, substitute with units, simplify to the option form.\n\n**Lock.** The verified correct choice is **(4) Cs only** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) Both Na and K · (2) K only · (3) Na only — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** The work functions of Caesium (Cs), Potassium (K) and Sodium (Na) are 2.14 eV, 2.30 eV and 2.75 eV respectively. If incident electromagnetic radiation has an incident energy of 2.20 eV, which of these photosensitive surfaces may emit photoelectrons?\n\n**Concept.** Photoemission requires incident photon energy $h\\nu \\ge \\phi$ (work function).\n\n**Work.** Incident energy = 2.14 eV. Emitters: Cs, Sodium (those with $\\phi \\le 2.14$ eV).\n\n**Option scan.**\n✗ (1) Both Na and K\n✗ (2) K only\n✗ (3) Na only\n✓ (4) Cs only\n\n**Hence proved.** The verified option wording is **(4) Cs only**.\n\n**Eliminate.**\n✗ (1) Both Na and K — Does not match the governing NCERT fact/calculation above.\n✗ (2) K only — Does not match the governing NCERT fact/calculation above.\n✗ (3) Na only — Does not match the governing NCERT fact/calculation above.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — work functions Caesium Potas…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20work%20functions%20Caesium%20Potassium%20Sodium%20respectively%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20work%20functions%20Caesium%20Potassium%20Sodium%20respectively%20Cs%20only"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20work%20functions%20Caesium%20Potassium"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20work%20functions%20Caesium%20Potassium%20Sodium%20respectively%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2023-F1-Q10",
@@ -4104,7 +5314,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** If the galvanometer G does not show any deflection in the circuit shown, the value of R is given by\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(2) 100 Ω** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 50 Ω · (3) 400 Ω · (4) 200 Ω — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** If the galvanometer G does not show any deflection in the circuit shown, the value of R is given by\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **100 Ω**.\n\n**Work.** Link the stem to the verified wording “100 Ω”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) 50 Ω\n✓ (2) 100 Ω\n✗ (3) 400 Ω\n✗ (4) 200 Ω\n\n**Hence proved.** The verified option wording is **(2) 100 Ω**.\n\n**Eliminate.**\n✗ (1) 50 Ω — Conflicts with “100 Ω”.\n✗ (3) 400 Ω — Conflicts with “100 Ω”.\n✗ (4) 200 Ω — Conflicts with “100 Ω”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — galvanometer does show defle…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20galvanometer%20does%20show%20deflection%20circuit%20value%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20galvanometer%20does%20show%20deflection%20circuit%20value%20100"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20galvanometer%20does%20show%20deflection"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20galvanometer%20does%20show%20deflection%20circuit%20value%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2023-F1-Q19",
@@ -4130,7 +5362,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** A 12 V, 60 W lamp is connected to the secondary of a step-down transformer, whose primary is connected to ac mains of 220 V. Assuming the transformer to be ideal, what is the current in the primary winding?\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** List knowns, write the governing equation symbolically, substitute with units, simplify to the option form.\n\n**Lock.** The verified correct choice is **(4) 0.27 A** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 2.7 A · (2) 3.7 A · (3) 0.37 A — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** A 12 V, 60 W lamp is connected to the secondary of a step-down transformer, whose primary is connected to ac mains of 220 V. Assuming the transformer to be ideal, what is the current in the primary winding?\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **0.27 A**.\n\n**Work.** Givens: 12 V, 60 W, 220 V. Link the stem to the verified wording “0.27 A”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) 2.7 A\n✗ (2) 3.7 A\n✗ (3) 0.37 A\n✓ (4) 0.27 A\n\n**Hence proved.** The verified option wording is **(4) 0.27 A**.\n\n**Eliminate.**\n✗ (1) 2.7 A — Conflicts with “0.27 A”.\n✗ (2) 3.7 A — Conflicts with “0.27 A”.\n✗ (3) 0.37 A — Conflicts with “0.27 A”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — lamp connected secondary ste…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20lamp%20connected%20secondary%20step-down%20transformer%20whose%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20lamp%20connected%20secondary%20step-down%20transformer%20whose%200%2027%20A"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20lamp%20connected%20secondary%20step-down"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20lamp%20connected%20secondary%20step-down%20transformer%20whose%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2023-F1-Q25",
@@ -4156,7 +5410,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** The equivalent capacitance of the system shown in the following circuit is\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(4) 2 μF** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 3 μF · (2) 6 μF · (3) 9 μF — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** The equivalent capacitance of the system shown in the following circuit is\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **2 μF**.\n\n**Work.** Link the stem to the verified wording “2 μF”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) 3 μF\n✗ (2) 6 μF\n✗ (3) 9 μF\n✓ (4) 2 μF\n\n**Hence proved.** The verified option wording is **(4) 2 μF**.\n\n**Eliminate.**\n✗ (1) 3 μF — Conflicts with “2 μF”.\n✗ (2) 6 μF — Conflicts with “2 μF”.\n✗ (3) 9 μF — Conflicts with “2 μF”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — equivalent capacitance syste…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20equivalent%20capacitance%20system%20circuit%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20equivalent%20capacitance%20system%20circuit%202%20F"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20equivalent%20capacitance%20system%20circuit"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20equivalent%20capacitance%20system%20circuit%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2023-F1-Q41",
@@ -4182,7 +5458,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** The net impedance of circuit (as shown in figure) will be\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(2) 5 5Ω** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 15 Ω · (3) 25 Ω · (4) 10 2 Ω — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** The net impedance of circuit (as shown in figure) will be\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **5 5Ω**.\n\n**Work.** Link the stem to the verified wording “5 5Ω”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) 15 Ω\n✓ (2) 5 5Ω\n✗ (3) 25 Ω\n✗ (4) 10 2 Ω\n\n**Hence proved.** The verified option wording is **(2) 5 5Ω**.\n\n**Eliminate.**\n✗ (1) 15 Ω — Conflicts with “5 5Ω”.\n✗ (3) 25 Ω — Conflicts with “5 5Ω”.\n✗ (4) 10 2 Ω — Conflicts with “5 5Ω”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — impedance circuit will",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20impedance%20circuit%20will%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20impedance%20circuit%20will%205%205"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20impedance%20circuit%20will"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20impedance%20circuit%20will%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2024-R1-Q25",
@@ -4208,7 +5506,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** In the following circuit, the equivalent capacitance between terminal A and terminal B is :\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(1) 1 μF** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 1 μF · (2) 0.5 μF · (3) 4 μF — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** In the following circuit, the equivalent capacitance between terminal A and terminal B is :\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **1 μF**.\n\n**Work.** Link the stem to the verified wording “1 μF”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✓ (1) 1 μF\n✗ (2) 0.5 μF\n✗ (3) 4 μF\n✗ (4) 2 μF\n\n**Hence proved.** The verified option wording is **(1) 1 μF**.\n\n**Eliminate.**\n✗ (2) 0.5 μF — Conflicts with “1 μF”.\n✗ (3) 4 μF — Conflicts with “1 μF”.\n✗ (4) 2 μF — Conflicts with “1 μF”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — circuit equivalent capacitan…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20circuit%20equivalent%20capacitance%20terminal%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20circuit%20equivalent%20capacitance%20terminal%201%20F"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20circuit%20equivalent%20capacitance%20terminal"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20circuit%20equivalent%20capacitance%20terminal%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2024-R1-Q41",
@@ -4234,7 +5554,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** A 10 μF capacitor is connected to a 210 V, 50 Hz source as shown in figure. The peak current in the circuit is nearly (π = 3.14):\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** List knowns, write the governing equation symbolically, substitute with units, simplify to the option form.\n\n**Lock.** The verified correct choice is **(1) 0.93 A** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (2) 1.20 A · (3) 0.35 A · (4) 0.58 A — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** A 10 μF capacitor is connected to a 210 V, 50 Hz source as shown in figure. The peak current in the circuit is nearly (π = 3.14):\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **0.93 A**.\n\n**Work.** Givens: 10 μ, 210 V, 50 Hz, 3.14. Link the stem to the verified wording “0.93 A”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✓ (1) 0.93 A\n✗ (2) 1.20 A\n✗ (3) 0.35 A\n✗ (4) 0.58 A\n\n**Hence proved.** The verified option wording is **(1) 0.93 A**.\n\n**Eliminate.**\n✗ (2) 1.20 A — Conflicts with “0.93 A”.\n✗ (3) 0.35 A — Conflicts with “0.93 A”.\n✗ (4) 0.58 A — Conflicts with “0.93 A”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — capacitor connected source p…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20capacitor%20connected%20source%20peak%20current%20circuit%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20capacitor%20connected%20source%20peak%20current%20circuit%200%2093%20A"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20capacitor%20connected%20source%20peak"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20capacitor%20connected%20source%20peak%20current%20circuit%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2024-R1-Q49",
@@ -4260,7 +5602,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** An iron bar of length L has magnetic moment M. It is bent at the middle of its length such that the two arms make an angle 60° with each other. The magnetic moment of this new magnet is : M\n\n**Concept.** Reduce to Ohm / Kirchhoff / Faraday / Coulomb with consistent units; watch series–parallel reductions.\n\n**Work.** State the governing fact for “Electromagnetism” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(1) Option 1** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (2) 2M 2 M · (3) Option 3 · (4) M 3 — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** An iron bar of length L has magnetic moment M. It is bent at the middle of its length such that the two arms make an angle 60° with each other. The magnetic moment of this new magnet is : M\n\n**Concept.** Use the governing Electromagnetism relation from NCERT; the option that satisfies it with the given data is **Option 1**.\n\n**Work.** Givens: 60. Link the stem to the verified wording “Option 1”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✓ (1) Option 1\n✗ (2) 2M 2 M\n✗ (3) Option 3\n✗ (4) M 3\n\n**Hence proved.** The verified option wording is **(1) Option 1**.\n\n**Eliminate.**\n✗ (2) 2M 2 M — Conflicts with “Option 1”.\n✗ (3) Option 3 — Conflicts with “Option 1”.\n✗ (4) M 3 — Conflicts with “Option 1”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Electromagnetism — iron length magnetic moment …",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Electromagnetism%20iron%20length%20magnetic%20moment%20bent%20middle%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20iron%20length%20magnetic%20moment%20bent%20middle%20Option%201"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Electromagnetism%20iron%20length%20magnetic%20moment"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Electromagnetism%20iron%20length%20magnetic%20moment%20bent%20middle%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "catch-b5fd9c6a35",

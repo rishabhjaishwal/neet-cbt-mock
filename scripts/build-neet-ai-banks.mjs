@@ -20,6 +20,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 
 import path from "node:path";
 import { createHash } from "node:crypto";
 import { fileURLToPath } from "node:url";
+import { buildRealSolution, buildStudyLinks } from "./lib/real-solution.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, "..");
@@ -241,99 +242,12 @@ function keywords(stem, max = 8) {
   return out;
 }
 
-function subjectCue(subject, topic, stem) {
-  const s = String(stem).toLowerCase();
-  if (subject === "Physics") {
-    if (/wave|optics|resonance|tuning|interference|lens|mirror|sound/.test(s))
-      return "Use the matching wave/optics relation before numbers.";
-    if (/current|circuit|capacitor|magnetic|electric field|potential|resistor/.test(s))
-      return "Apply Kirchhoff / Coulomb / Faraday with consistent units.";
-    if (/thermo|heat|entropy|adiabatic|isothermal/.test(s))
-      return "Name the process, then use the matching first-law / PV relation.";
-    if (/force|newton|friction|motion|velocity|acceleration/.test(s))
-      return "Start from Newton’s laws / kinematics; write knowns before substituting.";
-    return `Use the core NCERT relation for “${topic}”.`;
-  }
-  if (subject === "Chemistry") {
-    if (/equilibrium|ka|kb|ph|buffer/.test(s))
-      return "Write K / ICE carefully; watch logs and approximations.";
-    if (/organic|isomer|reagent|reaction/.test(s))
-      return "Map functional group → NCERT reagent/product; eliminate by selectivity.";
-    return `Use NCERT definitions for “${topic}”.`;
-  }
-  if (/genetics|mendel|dna|rna/.test(s))
-    return "Translate into genotype / central-dogma terms, then test options.";
-  if (/physiology|kidney|gout|glycosuria|hormone|neuron|heart/.test(s))
-    return "Locate the organ/system, then apply the NCERT process/definition exactly.";
-  return `Stay faithful to NCERT wording for “${topic}”.`;
-}
-
 function buildSolution(q) {
-  const code = String(q.correctOption);
-  const correctText = `(${code}) ${q.options?.[code] ?? ""}`.trim();
-  const cue = subjectCue(q.subject, q.topic, q.stem);
-  const lines = [];
-  lines.push(`**Identify.** ${clip(q.stem, 280)}`);
-  lines.push(`**Concept.** ${cue}`);
-  if (q.conceptHint) lines.push(`**Relation.** ${q.conceptHint}`);
-  lines.push(
-    `**Work.** Write the governing fact/formula for “${q.topic}” in one line, substitute carefully, and score every option against it.`,
-  );
-  const scan = ["1", "2", "3", "4"]
-    .map((c) => {
-      const mark = c === code ? "✓" : "✗";
-      return `${mark} (${c}) ${clip(q.options?.[c] ?? "", 90) || "—"}`;
-    })
-    .join("\n");
-  lines.push(`**Option scan.**\n${scan}`);
-  lines.push(
-    `**Hence proved.** The verified option wording is **${correctText}**. Lock by text (not a remembered letter across booklets).`,
-  );
-  const wrong = ["1", "2", "3", "4"].filter((c) => c !== code);
-  lines.push(
-    `**Eliminate.** ${wrong
-      .map((c) => `(${c}) ${clip(q.options?.[c] ?? "", 60)}`)
-      .join(" · ")} — each conflicts with the governing idea above.`,
-  );
-  return lines.join("\n\n");
+  return buildRealSolution(q);
 }
 
 function buildLinks(q) {
-  const code = String(q.correctOption);
-  const correctOpt = q.options?.[code] ?? "";
-  const keys = keywords(q.stem, 6).join(" ");
-  const yt = encodeURIComponent(`NEET ${q.topic} ${keys} explanation`.trim());
-  const web = encodeURIComponent(
-    `NEET ${q.topic} ${keys} ${clip(correctOpt.replace(/[^a-zA-Z0-9\s]/g, " "), 50)}`.trim(),
-  );
-  const ncert = encodeURIComponent(
-    `site:ncert.nic.in ${q.subject} ${q.topic} ${keywords(q.stem, 4).join(" ")}`,
-  );
-  const side = encodeURIComponent(
-    `NEET ${q.subject} ${q.topic} ${keys} NCERT exemplar OR HC Verma OR Pradeep notes`,
-  );
-  return [
-    {
-      kind: "youtube",
-      label: `YouTube: ${clip(`${q.topic} — ${keys}`, 48) || q.topic}`,
-      url: `https://www.youtube.com/results?search_query=${yt}`,
-    },
-    {
-      kind: "web",
-      label: "Web: this stem + answer wording",
-      url: `https://www.google.com/search?q=${web}`,
-    },
-    {
-      kind: "web",
-      label: "NCERT chapter search",
-      url: `https://www.google.com/search?q=${ncert}`,
-    },
-    {
-      kind: "web",
-      label: "Side-book / exemplar notes",
-      url: `https://www.google.com/search?q=${side}`,
-    },
-  ];
+  return buildStudyLinks(q);
 }
 
 /** Map a letter/index key from source A onto destination options by option TEXT. */

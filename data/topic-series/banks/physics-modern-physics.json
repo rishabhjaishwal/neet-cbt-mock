@@ -33,7 +33,29 @@
         "answerEstimated": true,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** An electron of mass $m$ with an initial velocity $\\overrightarrow{\\mathrm{V}} = \\mathrm{V}_{0} \\hat{\\mathrm{i}}$ ($\\mathrm{V}_{0} > 0$) enters an electric field $\\overrightarrow{\\mathrm{E}} = -\\mathrm{E}_{0} \\hat{\\mathrm{i}}$ ($\\mathrm{E}_{0} =$ constant $> 0$) at $\\mathrm{t} = 0$. If $\\lambda_{0}$ is its de-Broglie…\n\n**Concept.** Apply Newton’s laws / kinematics with a free-body or motion equation before comparing options.\n\n**Work.** List knowns, write the governing equation symbolically, substitute with units, simplify to the option form.\n\n**Lock.** The verified correct choice is **(2) λ0 ⎜⎜ 1 + t ⎟⎟ ⎝ mV0 ⎠ λ0** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) λ0 t ⎛ eE0 ⎞ · (2) λ0 ⎜⎜ 1 + t ⎟⎟ ⎝ mV0 ⎠ λ0 · (3) ⎛ eE0 ⎞ ⎜1 + t⎟ ⎜ mV0 ⎟⎠ ⎝ — each conflicts with the governing idea (wrong definition, process, or algebra).\n\n_Key confidence: not yet multi-source locked — verify against official NTA / coaching solutions._"
+        "solution": "**Identify.** An electron of mass m with an initial velocity → ^ V = V0 i (V0 > 0) enters an electric field → ^ E = – E0 i (E0 = constant > 0) at t = 0. If λ0 is its de-Broglie wavelength initially, then its de-Broglie wavelength at time t is\n\n**Concept.** Use the governing Modern Physics relation from NCERT; the option that satisfies it with the given data is **λ0 ⎜⎜ 1 + t ⎟⎟ ⎝ mV0 ⎠ λ0**.\n\n**Work.** Givens: 0. Link the stem to the verified wording “λ0 ⎜⎜ 1 + t ⎟⎟ ⎝ mV0 ⎠ λ0”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) λ0 t ⎛ eE0 ⎞\n✓ (2) λ0 ⎜⎜ 1 + t ⎟⎟ ⎝ mV0 ⎠ λ0\n✗ (3) ⎛ eE0 ⎞ ⎜1 + t⎟ ⎜ mV0 ⎟⎠ ⎝\n✗ (4) λ0\n\n**Hence proved.** The verified option wording is **(2) λ0 ⎜⎜ 1 + t ⎟⎟ ⎝ mV0 ⎠ λ0**.\n\n**Eliminate.**\n✗ (1) λ0 t ⎛ eE0 ⎞ — Conflicts with “λ0 ⎜⎜ 1 + t ⎟⎟ ⎝ mV0 ⎠ λ0”.\n✗ (3) ⎛ eE0 ⎞ ⎜1 + t⎟ ⎜ mV0 ⎟⎠ ⎝ — Conflicts with “λ0 ⎜⎜ 1 + t ⎟⎟ ⎝ mV0 ⎠ λ0”.\n✗ (4) λ0 — Conflicts with “λ0 ⎜⎜ 1 + t ⎟⎟ ⎝ mV0 ⎠ λ0”.\n\n_Note: key estimated — verify against official NTA key when available._",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Modern Physics — electron mass initial velocity…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Modern%20Physics%20electron%20mass%20initial%20velocity%20enters%20electric%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Modern%20Physics%20electron%20mass%20initial%20velocity%20enters%20electric%200%201%20t%20mV0%200"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Modern%20Physics%20electron%20mass%20initial%20velocity"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Modern%20Physics%20electron%20mass%20initial%20velocity%20enters%20electric%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2025-INTERIM-Q16",
@@ -59,7 +81,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** If c is the velocity of light in free space, the correct statements about photon among the following are: A. The energy of a photon is E = hν. B. The velocity of a photon is c. hν C. The momentum of a photon, p = . c D. In a photon-electron collision, both total energy and total momentum are conserved. E. Photon pos…\n\n**Concept.** Apply Newton’s laws / kinematics with a free-body or motion equation before comparing options.\n\n**Work.** State the governing fact for “Modern Physics” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(1) A, B, C and D only** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (2) A, C and D only · (3) A, B, D and E only · (4) A and B only — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** If c is the velocity of light in free space, the correct statements about photon among the following are: A. The energy of a photon is E = hν. B. The velocity of a photon is c. hν C. The momentum of a photon, p = . c D. In a photon-electron collision, both total energy and total…\n\n**Concept.** Use the governing Modern Physics relation from NCERT; the option that satisfies it with the given data is **A, B, C and D only**.\n\n**Work.** Link the stem to the verified wording “A, B, C and D only”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✓ (1) A, B, C and D only\n✗ (2) A, C and D only\n✗ (3) A, B, D and E only\n✗ (4) A and B only\n\n**Hence proved.** The verified option wording is **(1) A, B, C and D only**.\n\n**Eliminate.**\n✗ (2) A, C and D only — Conflicts with “A, B, C and D only”.\n✗ (3) A, B, D and E only — Conflicts with “A, B, C and D only”.\n✗ (4) A and B only — Conflicts with “A, B, C and D only”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Modern Physics — velocity light free space phot…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Modern%20Physics%20velocity%20light%20free%20space%20photon%20energy%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Modern%20Physics%20velocity%20light%20free%20space%20photon%20energy%20A%20B%20C%20and%20D%20only"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Modern%20Physics%20velocity%20light%20free%20space"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Modern%20Physics%20velocity%20light%20free%20space%20photon%20energy%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "hf2018-fcbc262c90",
@@ -1441,7 +1485,29 @@
         "answerEstimated": true,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** An electron of mass $m$ with an initial velocity $\\overrightarrow{\\mathrm{V}} = \\mathrm{V}_{0} \\hat{\\mathrm{i}}$ ($\\mathrm{V}_{0} > 0$) enters an electric field $\\overrightarrow{\\mathrm{E}} = -\\mathrm{E}_{0} \\hat{\\mathrm{i}}$ ($\\mathrm{E}_{0} =$ constant $> 0$) at $\\mathrm{t} = 0$. If $\\lambda_{0}$ is its de-Broglie…\n\n**Concept.** Apply Newton’s laws / kinematics with a free-body or motion equation before comparing options.\n\n**Work.** List knowns, write the governing equation symbolically, substitute with units, simplify to the option form.\n\n**Lock.** The verified correct choice is **(3) λ0 ⎜⎜ 1 + t ⎟⎟ ⎝ mV0 ⎠ λ0** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) λ0 · (2) λ0 t ⎛ eE0 ⎞ · (4) ⎛ eE0 ⎞ ⎜1 + t⎟ ⎜ mV0 ⎟⎠ ⎝ — each conflicts with the governing idea (wrong definition, process, or algebra).\n\n_Key confidence: not yet multi-source locked — verify against official NTA / coaching solutions._"
+        "solution": "**Identify.** An electron of mass m with an initial velocity → ^ V = V0 i (V0 > 0) enters an electric field → ^ E = – E0 i (E0 = constant > 0) at t = 0. If λ0 is its de-Broglie wavelength initially, then its de-Broglie wavelength at time t is\n\n**Concept.** Use the governing Modern Physics relation from NCERT; the option that satisfies it with the given data is **λ0 ⎜⎜ 1 + t ⎟⎟ ⎝ mV0 ⎠ λ0**.\n\n**Work.** Givens: 0. Link the stem to the verified wording “λ0 ⎜⎜ 1 + t ⎟⎟ ⎝ mV0 ⎠ λ0”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) λ0\n✗ (2) λ0 t ⎛ eE0 ⎞\n✓ (3) λ0 ⎜⎜ 1 + t ⎟⎟ ⎝ mV0 ⎠ λ0\n✗ (4) ⎛ eE0 ⎞ ⎜1 + t⎟ ⎜ mV0 ⎟⎠ ⎝\n\n**Hence proved.** The verified option wording is **(3) λ0 ⎜⎜ 1 + t ⎟⎟ ⎝ mV0 ⎠ λ0**.\n\n**Eliminate.**\n✗ (1) λ0 — Conflicts with “λ0 ⎜⎜ 1 + t ⎟⎟ ⎝ mV0 ⎠ λ0”.\n✗ (2) λ0 t ⎛ eE0 ⎞ — Conflicts with “λ0 ⎜⎜ 1 + t ⎟⎟ ⎝ mV0 ⎠ λ0”.\n✗ (4) ⎛ eE0 ⎞ ⎜1 + t⎟ ⎜ mV0 ⎟⎠ ⎝ — Conflicts with “λ0 ⎜⎜ 1 + t ⎟⎟ ⎝ mV0 ⎠ λ0”.\n\n_Note: key estimated — verify against official NTA key when available._",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Modern Physics — electron mass initial velocity…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Modern%20Physics%20electron%20mass%20initial%20velocity%20enters%20electric%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Modern%20Physics%20electron%20mass%20initial%20velocity%20enters%20electric%200%201%20t%20mV0%200"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Modern%20Physics%20electron%20mass%20initial%20velocity"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Modern%20Physics%20electron%20mass%20initial%20velocity%20enters%20electric%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "2022-RECON-Q189",
@@ -1467,7 +1533,29 @@
         "answerEstimated": false,
         "solutionSource": "year-paper-quality-pass",
         "placeholder": false,
-        "solution": "**Identify.** The work function of a photosensitive material is 4.0 eV. The longest wavelength of light that can cause photon emission from the substance is (approximately)\n\n**Concept.** Write the wave/optics formula, substitute, then match the algebraic form of the options.\n\n**Work.** State the governing fact for “Modern Physics” in one line, then evaluate every option against it.\n\n**Lock.** The verified correct choice is **(4) 310 nm** — it is the option whose wording matches the governing fact/calculation above.\n\n**Eliminate.** (1) 3100 nm · (2) 966 nm · (3) 31 nm — each conflicts with the governing idea (wrong definition, process, or algebra)."
+        "solution": "**Identify.** The work function of a photosensitive material is 4.0 eV. The longest wavelength of light that can cause photon emission from the substance is (approximately)\n\n**Concept.** Use the governing Modern Physics relation from NCERT; the option that satisfies it with the given data is **310 nm**.\n\n**Work.** Givens: 4.0 eV. Link the stem to the verified wording “310 nm”, then reject each distractor that violates that fact or the matching formula.\n\n**Option scan.**\n✗ (1) 3100 nm\n✗ (2) 966 nm\n✗ (3) 31 nm\n✓ (4) 310 nm\n\n**Hence proved.** The verified option wording is **(4) 310 nm**.\n\n**Eliminate.**\n✗ (1) 3100 nm — Conflicts with “310 nm”.\n✗ (2) 966 nm — Conflicts with “310 nm”.\n✗ (3) 31 nm — Conflicts with “310 nm”.",
+        "studyLinks": [
+          {
+            "kind": "youtube",
+            "label": "YouTube: Modern Physics — work function photosensitive m…",
+            "url": "https://www.youtube.com/results?search_query=NEET%20Modern%20Physics%20work%20function%20photosensitive%20material%20longest%20wavelength%20explanation"
+          },
+          {
+            "kind": "web",
+            "label": "Web: this stem + answer wording",
+            "url": "https://www.google.com/search?q=NEET%20Modern%20Physics%20work%20function%20photosensitive%20material%20longest%20wavelength%20310%20nm"
+          },
+          {
+            "kind": "web",
+            "label": "NCERT search (this concept)",
+            "url": "https://www.google.com/search?q=site%3Ancert.nic.in%20Physics%20Modern%20Physics%20work%20function%20photosensitive%20material"
+          },
+          {
+            "kind": "pdf",
+            "label": "PDF notes for this topic",
+            "url": "https://www.google.com/search?q=NEET%20Modern%20Physics%20work%20function%20photosensitive%20material%20longest%20wavelength%20NCERT%20notes%20filetype%3Apdf"
+          }
+        ]
       },
       {
         "id": "hf2021-9e8d9a7a90",
