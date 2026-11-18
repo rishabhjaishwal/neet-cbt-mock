@@ -82,6 +82,12 @@ const YEAR_PDFS: Record<number, YearPdfRef> = {
     source: RAW,
     url: `${RAW}/NEET/2025/46/NEET-2025-46-question.pdf`,
   },
+  2026: {
+    year: 2026,
+    label: "RE",
+    source: "https://brilliantpala.org",
+    url: "https://brilliantpala.org/wp-content/uploads/2026/06/RE-NEET-QUESTIONS-COMPRESSED.pdf",
+  },
 };
 
 /** Direct public **question** PDF URL for a year (not served from this host). */

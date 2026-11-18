@@ -48,7 +48,7 @@ export function ExamPdfPaperPanel({
               id="exam-pdf-title"
               className="font-[family-name:var(--font-display)] text-base font-bold text-[var(--header)] sm:text-lg"
             >
-              View paper — NEET {year}
+              View paper — {year === 2026 ? "RE-NEET 2026" : `NEET ${year}`}
             </h2>
             <p className="truncate text-xs text-slate-500">{title}</p>
           </div>
@@ -79,13 +79,13 @@ export function ExamPdfPaperPanel({
               rel="noopener noreferrer"
               className="cbt-btn cbt-btn-primary"
             >
-              Open NEET {year} PDF
+              Open {year === 2026 ? "RE-NEET 2026" : `NEET ${year}`} PDF
             </a>
           </div>
         ) : (
           <div className="relative min-h-0 flex-1 bg-slate-100">
             <iframe
-              title={`NEET ${year} question paper PDF`}
+              title={`${year === 2026 ? "RE-NEET 2026" : `NEET ${year}`} question paper PDF`}
               src={iframeSrc}
               className="h-full w-full border-0"
               referrerPolicy="no-referrer"

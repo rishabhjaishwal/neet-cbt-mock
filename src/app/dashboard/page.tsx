@@ -233,7 +233,7 @@ export default async function DashboardPage({
               </p>
             </div>
             <span className="desk-sticky-chip desk-sticky-chip--butter" aria-hidden>
-              2016 → 2025
+              2016 → RE'26
             </span>
           </div>
 
@@ -255,7 +255,7 @@ export default async function DashboardPage({
                     return (
                       <tr key={p.year} className="border-t border-slate-100/80">
                         <td className="px-4 py-3 font-semibold text-[var(--ink-blue,#1e4d7b)]">
-                          {p.year}
+                          {p.code === "RE" ? "RE'26" : p.year}
                         </td>
                         <td className="px-4 py-3">
                           <div className="font-medium">{p.title}</div>

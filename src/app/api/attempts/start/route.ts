@@ -9,7 +9,7 @@ import { finalizeInProgressAttempt } from "@/lib/finalize-attempt";
 import { objectIdFromQuestionKey } from "@/lib/md-paper-store";
 
 const schema = z.object({
-  year: z.number().int().min(2016).max(2025),
+  year: z.number().int().min(2016).max(2026),
   /** Start a fresh attempt even if an older approved/submitted one exists. */
   retake: z.boolean().optional(),
 });

@@ -223,7 +223,9 @@ export default async function ResultsPage({
         </InstantLink>
         <ThemeToggle />
       </div>
-      <h1 className="desk-title mt-3">Results — NEET {attempt.year}</h1>
+      <h1 className="desk-title mt-3">
+        Results — {attempt.year === 2026 ? "RE-NEET 2026" : `NEET ${attempt.year}`}
+      </h1>
       <p className="desk-kicker">
         {paper?.title}
         {attempt.attemptNumber ? ` · Attempt #${attempt.attemptNumber}` : ""}
