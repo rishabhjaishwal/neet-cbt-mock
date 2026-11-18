@@ -1,0 +1,33 @@
+{
+  "year": 2026,
+  "code": "RE",
+  "totalQuestions": 179,
+  "figures": 32,
+  "keyConfidenceGe2": 179,
+  "keyConfidenceLt2": 0,
+  "dropped": [
+    {
+      "q": 43,
+      "issue": "NTA Drop",
+      "brilliantMarked": "2",
+      "action": "include-as-bonus-all-options"
+    }
+  ],
+  "residuals": [
+    {
+      "q": 43,
+      "issue": "NTA Drop",
+      "brilliantMarked": "2",
+      "action": "omitted-from-mock"
+    }
+  ],
+  "sources": [
+    "nta-final-code-60",
+    "brilliant-key-pdf-code-60",
+    "brilliant-marked-pdf"
+  ],
+  "builtAt": "2026-11-18T10:48:52.962778+00:00",
+  "omitted": [
+    43
+  ]
+}

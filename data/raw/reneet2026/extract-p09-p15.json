@@ -1,0 +1,680 @@
+{
+  "pages": [9, 10, 11, 12, 13, 14, 15],
+  "questions": [
+    {
+      "number": 37,
+      "stem": "Consider a particle moving along a straight line, whose position as a function of time is given by $s(t) = \\alpha t^2 - \\beta t + \\gamma$, where $\\alpha = 1\\,\\mathrm{ms}^{-2}$, $\\beta = 6\\,\\mathrm{ms}^{-1}$ and $\\gamma = 5\\,\\mathrm{m}$. The average speed of the particle, in $\\mathrm{ms}^{-1}$, from $t = 0$ to $t = 6\\,\\mathrm{s}$ is:",
+      "options": {
+        "1": "3",
+        "2": "0",
+        "3": "12",
+        "4": "6"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "1",
+      "page": 9,
+      "column": "left"
+    },
+    {
+      "number": 38,
+      "stem": "In Geiger-Marsden experiment, the number of scattered $\\alpha$-particles $N(\\theta)$ is plotted as a function of scattering angle $\\theta$. Which of the following options represents the correct plot?",
+      "options": {
+        "1": "Option 1 (see figure)",
+        "2": "Option 2 (see figure)",
+        "3": "Option 3 (see figure)",
+        "4": "Option 4 (see figure)"
+      },
+      "hasFigure": true,
+      "figureNote": "Four graphs of $N(\\theta)$ (log scale) vs $\\theta$ in degrees (0–180).",
+      "markedAnswer": "1",
+      "page": 9,
+      "column": "left"
+    },
+    {
+      "number": 39,
+      "stem": "For sound waves, if the number of nodes for the 5th harmonic of an open-ended pipe is $n$ and that for the 9th harmonic of the same pipe with one of its ends closed is $m$, the ratio $\\dfrac{n}{m}$ is:",
+      "options": {
+        "1": "1",
+        "2": "$\\dfrac{3}{5}$",
+        "3": "$\\dfrac{5}{9}$",
+        "4": "$\\dfrac{9}{5}$"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "1",
+      "page": 9,
+      "column": "left"
+    },
+    {
+      "number": 40,
+      "stem": "Consider a long solenoid of length $l$ and radius $r$. If $n$ is the number of turns per unit length and $\\mu_0$ is the permeability of free space, the inductance of the solenoid is:",
+      "options": {
+        "1": "$(\\mu_0/2\\pi)n^2 r^2 l$",
+        "2": "$2\\mu_0\\pi n^2 r^2 l$",
+        "3": "$\\mu_0\\pi n^2 r^2 l$",
+        "4": "$\\mu_0 n^2 r^2 l$"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "3",
+      "page": 9,
+      "column": "right"
+    },
+    {
+      "number": 41,
+      "stem": "A current $I_0$ flows through a metallic circular loop of radius $r$ as shown in the figure. Resistance of the segment ABC is half that of ADC. Magnitude of magnetic field at the center O of the loop is:",
+      "options": {
+        "1": "$\\dfrac{\\mu_0 I_0}{2r}$",
+        "2": "$\\dfrac{\\mu_0 I_0}{2\\pi r}$",
+        "3": "$\\dfrac{\\mu_0 I_0}{12r}$",
+        "4": "$\\dfrac{\\mu_0 I_0}{4r}$"
+      },
+      "hasFigure": true,
+      "figureNote": "Circular loop; current $I_0$ enters at A and exits at C, splitting into paths ABC and ADC through centre O.",
+      "markedAnswer": "3",
+      "page": 9,
+      "column": "right"
+    },
+    {
+      "number": 42,
+      "stem": "The temperature of a metallic sphere of radius $R$ is increased by a small amount $\\Delta T$. If the linear coefficient of thermal expansion of the metal is $\\alpha$, the approximate increase in the volume of the sphere is:",
+      "options": {
+        "1": "$4\\pi R^3 \\alpha \\Delta T$",
+        "2": "$6\\pi R^3 \\alpha \\Delta T$",
+        "3": "$2\\pi R^3 \\alpha \\Delta T$",
+        "4": "$3\\pi R^3 \\alpha \\Delta T$"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "1",
+      "page": 9,
+      "column": "right"
+    },
+    {
+      "number": 43,
+      "stem": "One main scale division of a Vernier calliper is equal to $1\\,\\mathrm{mm}$ and the number of divisions on the Vernier scale is 10. When both the jaws touch each other, the Vernier scale shifts to the left of zero of the main scale in such a way that 4th Vernier division coincides with a division of the main scale. If this Vernier calliper measures the length of a wire to be $1\\,\\mathrm{cm}$, the actual length of the wire is:",
+      "options": {
+        "1": "$1.00\\,\\mathrm{cm}$",
+        "2": "$1.04\\,\\mathrm{cm}$",
+        "3": "$0.60\\,\\mathrm{cm}$",
+        "4": "$0.96\\,\\mathrm{cm}$"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "2",
+      "page": 9,
+      "column": "right"
+    },
+    {
+      "number": 44,
+      "stem": "Consider three media P, Q and R with refractive indices 1, 1.25, and 1.5, respectively. The medium Q having a thickness of $5\\,\\mathrm{cm}$ is placed between extended media P and R as shown in the figure. An object O is placed at the center of medium Q. If viewed from medium P near the normal direction, the apparent depth of O is $h_1$. For similar observation from medium R, the apparent depth is $h_2$. The value of $|h_1 - h_2|$, in cm, is:",
+      "options": {
+        "1": "2",
+        "2": "3",
+        "3": "0",
+        "4": "1"
+      },
+      "hasFigure": true,
+      "figureNote": "Three layers: $n_P=1$ (top), $n_Q=1.25$ (middle, 5 cm thick) with object O at centre, $n_R=1.5$ (bottom).",
+      "markedAnswer": "4",
+      "page": 10,
+      "column": "left"
+    },
+    {
+      "number": 45,
+      "stem": "A point charge $Q$ is placed inside a cavity within a solid isolated conducting sphere. Consider points A, B and C as shown in the figure, where the magnitudes of the electric fields are $E_A$, $E_B$ and $E_C$, respectively. The points B and C are at the same distance from the center of the solid sphere. The correct option is:",
+      "options": {
+        "1": "$E_A = 0,\\; E_B > E_C$",
+        "2": "$E_A \\neq 0,\\; E_B < E_C$",
+        "3": "$E_A = 0,\\; E_B = E_C$",
+        "4": "$E_A \\neq 0,\\; E_B = E_C$"
+      },
+      "hasFigure": true,
+      "figureNote": "Conducting sphere with off-centre cavity containing charge $Q$; point A inside cavity; points B and C outside sphere at equal distance from centre.",
+      "markedAnswer": "4",
+      "page": 10,
+      "column": "left"
+    },
+    {
+      "number": 46,
+      "stem": "The lanthanide ion having four unpaired electrons is (Given: Atomic numbers of $\\mathrm{Ce}=58$, $\\mathrm{Nd}=60$, $\\mathrm{Tb}=65$ and $\\mathrm{Ho}=67$)",
+      "options": {
+        "1": "$\\mathrm{Tb}^{3+}$",
+        "2": "$\\mathrm{Ho}^{3+}$",
+        "3": "$\\mathrm{Nd}^{3+}$",
+        "4": "$\\mathrm{Ce}^{3+}$"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "2",
+      "page": 10,
+      "column": "left"
+    },
+    {
+      "number": 47,
+      "stem": "The standard electrode potential ($E^\\circ$) for the half-cell reaction $\\mathrm{Fe}^{3+} + e^- \\to \\mathrm{Fe}^{2+}$ at $298\\,\\mathrm{K}$ is (Given: $E^\\circ(\\mathrm{Fe}^{3+}/\\mathrm{Fe}) = -0.04\\,\\mathrm{V}$ and $E^\\circ(\\mathrm{Fe}^{2+}/\\mathrm{Fe}) = -0.44\\,\\mathrm{V}$ at $298\\,\\mathrm{K}$)",
+      "options": {
+        "1": "$-0.48\\,\\mathrm{V}$",
+        "2": "$+0.92\\,\\mathrm{V}$",
+        "3": "$+0.40\\,\\mathrm{V}$",
+        "4": "$+0.76\\,\\mathrm{V}$"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "4",
+      "page": 10,
+      "column": "right"
+    },
+    {
+      "number": 48,
+      "stem": "Given below are two statements:\nStatement-I: Heating NaCl with concentrated $\\mathrm{H_2SO_4}$ and $\\mathrm{MnO_2}$ results in oxidation of Mn.\nStatement-II: Heating NaI with concentrated $\\mathrm{H_2SO_4}$ and $\\mathrm{MnO_2}$ results in reduction of Mn.\nIn light of the above statements, choose the most appropriate answer from the options given below:",
+      "options": {
+        "1": "Statement-I is correct but Statement-II is incorrect.",
+        "2": "Statement-I is incorrect but Statement-II is correct.",
+        "3": "Both Statement-I and Statement-II are correct.",
+        "4": "Both Statement-I and Statement-II are incorrect."
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "2",
+      "page": 10,
+      "column": "right"
+    },
+    {
+      "number": 49,
+      "stem": "The complex which has facial and meridional isomers is (Given: py = pyridine and en = $\\mathrm{H_2N{-}CH_2{-}CH_2{-}NH_2}$)",
+      "options": {
+        "1": "$[\\mathrm{Co(NH_3)_4(H_2O)_2}]^{3+}$",
+        "2": "$[\\mathrm{Ni(en)_2(H_2O)_2}]^{2+}$",
+        "3": "$[\\mathrm{Cr(py)_3(Cl)_3}]$",
+        "4": "$[\\mathrm{Cr(H_2O)_6}]^{3+}$"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "3",
+      "page": 10,
+      "column": "right"
+    },
+    {
+      "number": 50,
+      "stem": "Among the following, the compound having conjugated double bonds is",
+      "options": {
+        "1": "hepta-1,5-diene",
+        "2": "hepta-1,6-diene",
+        "3": "hepta-1,3-diene",
+        "4": "hepta-1,4-diene"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "3",
+      "page": 10,
+      "column": "right"
+    },
+    {
+      "number": 51,
+      "stem": "Match the species in List I with their geometry in List II\nList I: A. $\\mathrm{PCl_5}$  B. $\\mathrm{BrF_5}$  C. $\\mathrm{BF_4^-}$  D. $[\\mathrm{Ni(CN)_4}]^{2-}$\nList II: I. Tetrahedral  II. Square Planar  III. Trigonal bipyramidal  IV. Square pyramidal\nChoose the correct answer from the options given below:",
+      "options": {
+        "1": "A-III, B-I, C-II, D-IV",
+        "2": "A-III, B-II, C-I, D-IV",
+        "3": "A-IV, B-III, C-I, D-II",
+        "4": "A-III, B-IV, C-I, D-II"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "4",
+      "page": 11,
+      "column": "left"
+    },
+    {
+      "number": 52,
+      "stem": "The amino acid that gives a red-blood colour on treating its sodium fusion extract with sodium nitroprusside is",
+      "options": {
+        "1": "methionine",
+        "2": "serine",
+        "3": "leucine",
+        "4": "threonine"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "1",
+      "page": 11,
+      "column": "left"
+    },
+    {
+      "number": 53,
+      "stem": "A protein undergoes reversible thermal denaturation from its initial state N to denatured state D according to $\\mathrm{N} \\rightleftharpoons \\mathrm{D}$. At $60^\\circ\\mathrm{C}$, the concentrations of both N and D are equal at equilibrium, and the standard enthalpy change of denaturation is $666\\,\\mathrm{kJ\\,mol^{-1}}$. The standard entropy change ($\\Delta S^\\circ$ in $\\mathrm{kJ\\,K^{-1}\\,mol^{-1}}$) of the protein upon denaturation at $60^\\circ\\mathrm{C}$ is closest to:",
+      "options": {
+        "1": "333.0",
+        "2": "11.1",
+        "3": "2.0",
+        "4": "2000.0"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "3",
+      "page": 11,
+      "column": "left"
+    },
+    {
+      "number": 54,
+      "stem": "$2\\mathrm{A} \\xrightarrow{k} \\mathrm{B}$ is a zero-order reaction, where $k = 1.0\\,\\mathrm{mol\\,L^{-1}\\,min^{-1}}$. If the initial concentration of A is $2\\,\\mathrm{M}$, then the time taken to complete 75% of the reaction will be",
+      "options": {
+        "1": "$1.0\\,\\mathrm{min}$",
+        "2": "$2.0\\,\\mathrm{min}$",
+        "3": "$1.5\\,\\mathrm{min}$",
+        "4": "$0.75\\,\\mathrm{min}$"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "4",
+      "page": 11,
+      "column": "left"
+    },
+    {
+      "number": 55,
+      "stem": "Given below are two statements:\nStatement-I: $[\\mathrm{Fe(ox)_3}]^{3-}$ is chiral.\nStatement-II: $trans$-$[\\mathrm{Cr(H_2O)_2(ox)_2}]^{-}$ is chiral.\n(Given: $\\mathrm{oxH_2 = HOOC{-}COOH}$)\nIn light of the above statements, choose the most appropriate answer from the options given below:",
+      "options": {
+        "1": "Statement-I is correct but Statement-II is incorrect.",
+        "2": "Statement-I is incorrect but Statement-II is correct.",
+        "3": "Both Statement-I and Statement-II are correct.",
+        "4": "Both Statement-I and Statement-II are incorrect."
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "1",
+      "page": 11,
+      "column": "right"
+    },
+    {
+      "number": 56,
+      "stem": "Given below are two statements: One is labelled as Assertion A and the other is labelled as Reason R.\nAssertion A: Generally, $3d$ transition metals have high melting points.\nReason R: Involvement of $3d$-electrons in addition to $4s$-electrons in the interatomic metallic bonding.\nIn light of the above statements, choose the most appropriate answer from the options given below:",
+      "options": {
+        "1": "A is correct but R is not correct.",
+        "2": "A is not correct but R is correct.",
+        "3": "Both A and R are correct and R is the correct explanation of A.",
+        "4": "Both A and R are correct and R is NOT the correct explanation of A."
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "3",
+      "page": 11,
+      "column": "right"
+    },
+    {
+      "number": 57,
+      "stem": "Among the species given below, the spin-only magnetic moment is highest for (Given: Atomic number of $\\mathrm{Ti}=22$, $\\mathrm{Mn}=25$, $\\mathrm{Fe}=26$ and $\\mathrm{Co}=27$)",
+      "options": {
+        "1": "$[\\mathrm{Co(NH_3)_6}]^{3+}$",
+        "2": "$[\\mathrm{Ti(H_2O)_6}]^{3+}$",
+        "3": "$[\\mathrm{Mn(CN)_6}]^{3-}$",
+        "4": "$[\\mathrm{Fe(CN)_6}]^{3-}$"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "3",
+      "page": 11,
+      "column": "right"
+    },
+    {
+      "number": 58,
+      "stem": "According to crystal field theory, the correct order of ligands with respect to their decreasing order of field strength is",
+      "options": {
+        "1": "$\\mathrm{Cl^-} > \\mathrm{H_2O} > \\mathrm{NH_3} > \\mathrm{CO}$",
+        "2": "$\\mathrm{Cl^-} > \\mathrm{NH_3} > \\mathrm{H_2O} > \\mathrm{CO}$",
+        "3": "$\\mathrm{CO} > \\mathrm{NH_3} > \\mathrm{H_2O} > \\mathrm{Cl^-}$",
+        "4": "$\\mathrm{CO} > \\mathrm{H_2O} > \\mathrm{NH_3} > \\mathrm{Cl^-}$"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "3",
+      "page": 12,
+      "column": "left"
+    },
+    {
+      "number": 59,
+      "stem": "In potash alum, the ratio of $\\mathrm{K^+}$ and $\\mathrm{SO_4^{2-}}$ ions is",
+      "options": {
+        "1": "2:3",
+        "2": "3:2",
+        "3": "1:2",
+        "4": "2:1"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "3",
+      "page": 12,
+      "column": "left"
+    },
+    {
+      "number": 60,
+      "stem": "Given below are two statements: One is labelled as Assertion A and the other is labelled as Reason R.\nAssertion A: The first ionization enthalpy of O is lower than that of N and F.\nReason R: The loss of an electron from O leads to stable half-filled $p$ orbital.\nIn light of the above statements, choose the most appropriate answer from the options given below:",
+      "options": {
+        "1": "A is correct but R is not correct.",
+        "2": "A is not correct but R is correct.",
+        "3": "Both A and R are correct and R is the correct explanation of A.",
+        "4": "Both A and R are correct and R is NOT the correct explanation of A."
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "3",
+      "page": 12,
+      "column": "left"
+    },
+    {
+      "number": 61,
+      "stem": "Given below are two statements:\nStatement-I: Oxidation of $p$-nitrotoluene with acidic $\\mathrm{KMnO_4}$ gives an acid that is stronger than benzoic acid.\nStatement-II: Reduction of $p$-nitrotoluene with $\\mathrm{Sn/HCl}$ followed by neutralization gives an amine that is more basic than aniline.\nIn light of the above statements, choose the most appropriate answer from the options given below:",
+      "options": {
+        "1": "Statement-I is correct but Statement-II is incorrect.",
+        "2": "Statement-I is incorrect but Statement-II is correct.",
+        "3": "Both Statement-I and Statement-II are correct.",
+        "4": "Both Statement-I and Statement-II are incorrect."
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "3",
+      "page": 12,
+      "column": "left"
+    },
+    {
+      "number": 62,
+      "stem": "The following carbocation is stabilized by the interaction of the empty $p$ orbital with",
+      "options": {
+        "1": "empty $\\sigma^*$ and filled $\\pi$ orbitals",
+        "2": "empty $\\sigma^*$ and empty $\\pi^*$ orbitals",
+        "3": "filled $\\sigma$ and filled $\\pi$ orbitals",
+        "4": "empty $\\sigma$ and empty $\\pi^*$ orbitals"
+      },
+      "hasFigure": true,
+      "figureNote": "1-Phenylethyl carbocation: benzene–CH(+)–CH₃ with empty $p$ orbital shown on the cationic carbon.",
+      "markedAnswer": "3",
+      "page": 12,
+      "column": "right"
+    },
+    {
+      "number": 63,
+      "stem": "Consider the following schematic plots of orbital wavefunction ($\\psi_r$) against distance ($r$) from the nucleus. The figure representing two radial nodes in the orbital is",
+      "options": {
+        "1": "C",
+        "2": "D",
+        "3": "A",
+        "4": "B"
+      },
+      "hasFigure": true,
+      "figureNote": "Four plots A–D of $\\psi_r$ vs $r$; C shows two radial nodes.",
+      "markedAnswer": "1",
+      "page": 12,
+      "column": "right"
+    },
+    {
+      "number": 64,
+      "stem": "The correct order of solubility of the given salts in water at 298 K is\nSalt | $K_{sp}$ at 298 K\nAgBr | $5.0 \\times 10^{-13}$\nZn(OH)₂ | $1.0 \\times 10^{-15}$\nHg₂Cl₂ | $1.3 \\times 10^{-18}$",
+      "options": {
+        "1": "$\\mathrm{Hg_2Cl_2} > \\mathrm{AgBr} > \\mathrm{Zn(OH)_2}$",
+        "2": "$\\mathrm{Zn(OH)_2} > \\mathrm{AgBr} > \\mathrm{Hg_2Cl_2}$",
+        "3": "$\\mathrm{Hg_2Cl_2} > \\mathrm{Zn(OH)_2} > \\mathrm{AgBr}$",
+        "4": "$\\mathrm{AgBr} > \\mathrm{Zn(OH)_2} > \\mathrm{Hg_2Cl_2}$"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "2",
+      "page": 12,
+      "column": "right"
+    },
+    {
+      "number": 65,
+      "stem": "A 1:3 electrolyte in an aqueous solution is",
+      "options": {
+        "1": "$[\\mathrm{Co(NH_3)_6}]\\mathrm{Cl_3}$",
+        "2": "$[\\mathrm{Co(NH_3)_3(NO_2)_3}]$",
+        "3": "$[\\mathrm{CoCl_2(NH_3)_4}]\\mathrm{Cl}$",
+        "4": "$[\\mathrm{CoCl(NH_3)_5}]\\mathrm{Cl_2}$"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "1",
+      "page": 13,
+      "column": "left"
+    },
+    {
+      "number": 66,
+      "stem": "The correct statement about peptides and proteins is",
+      "options": {
+        "1": "In $\\beta$-pleated sheet structures, peptide chains are held together by intermolecular hydrogen bonds.",
+        "2": "In $\\alpha$-helices, the polypeptide chain is twisted into a left-handed screw (helix) through intramolecular hydrogen bonds.",
+        "3": "Tertiary structure of proteins has two or more polypeptide subunits.",
+        "4": "Only the proteins having a quaternary structure are biologically active."
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "1",
+      "page": 13,
+      "column": "left"
+    },
+    {
+      "number": 67,
+      "stem": "One of the products formed in the following reaction is",
+      "options": {
+        "1": "Option 1 (see figure)",
+        "2": "Option 2 (see figure)",
+        "3": "Option 3 (see figure)",
+        "4": "Option 4 (see figure)"
+      },
+      "hasFigure": true,
+      "figureNote": "Stem: cyclohexylmagnesium bromide + cyclohexylamine. Options are structural formulas (bicyclohexyl; cyclohexane; dicyclohexylamine; aminated bicyclohexyl).",
+      "markedAnswer": "2",
+      "page": 13,
+      "column": "left"
+    },
+    {
+      "number": 68,
+      "stem": "In an acidic medium, $10\\,\\mathrm{mL}$ of $0.25\\,\\mathrm{M}$ oxalic acid is titrated with $\\mathrm{KMnO_4}$ solution. If the volume of $\\mathrm{KMnO_4}$ solution required to reach end point is $10\\,\\mathrm{mL}$, the strength of the $\\mathrm{KMnO_4}$ solution is",
+      "options": {
+        "1": "$0.25\\,\\mathrm{M}$",
+        "2": "$0.15\\,\\mathrm{M}$",
+        "3": "$0.10\\,\\mathrm{M}$",
+        "4": "$0.20\\,\\mathrm{M}$"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "3",
+      "page": 13,
+      "column": "right"
+    },
+    {
+      "number": 69,
+      "stem": "Consider the following reaction sequences and choose the correct option.",
+      "options": {
+        "1": "M and N are geometrical isomers",
+        "2": "M and N are stereoisomers",
+        "3": "K and L are geometrical isomers",
+        "4": "K and L are enantiomers"
+      },
+      "hasFigure": true,
+      "figureNote": "Central $\\mathrm{Ph{-}C{\\equiv}C{-}Me}$: Na/liq. NH₃ → L → (HBr, benzoyl peroxide) N; H₂, Pd/C (Lindlar) → K → (HBr) M.",
+      "markedAnswer": "3",
+      "page": 13,
+      "column": "right"
+    },
+    {
+      "number": 70,
+      "stem": "Arrange the following compounds in the increasing order of polarity\nA. $\\mathrm{CH_3CH_2OCH_2CH_3}$\nB. $\\mathrm{CH_3CH_2OH}$\nC. $\\mathrm{CH_3COCH_3}$\nD. $\\mathrm{CH_3COOH}$\nChoose the correct answer from the options given below:",
+      "options": {
+        "1": "C < A < B < D",
+        "2": "A < C < B < D",
+        "3": "A < B < C < D",
+        "4": "C < A < D < B"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "2",
+      "page": 13,
+      "column": "right"
+    },
+    {
+      "number": 71,
+      "stem": "Consider the reversible processes for $1.0\\,\\mathrm{mol}$ of an ideal gas as shown in the figure. Processes 2 and 4 are adiabatic. $w_1$, $w_2$, $w_3$ and $w_4$ represent work done (in calories) in the processes 1, 2, 3 and 4, respectively; $\\Delta U_2$ and $\\Delta U_4$ are changes in the internal energy for the processes 2 and 4, respectively. [use $R = 2\\,\\mathrm{cal\\,K^{-1}\\,mol^{-1}}$] The correct option is",
+      "options": {
+        "1": "$w_1 + w_2 = 2T_1\\ln\\dfrac{V_2}{V_1}$",
+        "2": "$w_1 + w_2 + w_3 + w_4 = 0$",
+        "3": "$w_1 + w_3 = -2T_1\\ln\\dfrac{V_2}{V_1} - 2T_2\\ln\\dfrac{V_4}{V_3}$",
+        "4": "$w_2 + w_4 = \\Delta U_2 - \\Delta U_4$"
+      },
+      "hasFigure": true,
+      "figureNote": "P–V cycle: isothermal expansion 1 $(p_1,V_1,T_1)\\to(p_2,V_2,T_1)$; adiabatic expansion 2 to $(p_3,V_3,T_2)$; isothermal compression 3 to $(p_4,V_4,T_2)$; adiabatic compression 4 back to start.",
+      "markedAnswer": "3",
+      "page": 14,
+      "column": "left"
+    },
+    {
+      "number": 72,
+      "stem": "The green paramagnetic species formed by heating $\\mathrm{KMnO_4}$ at $513\\,\\mathrm{K}$ is",
+      "options": {
+        "1": "$\\mathrm{MnO}$",
+        "2": "$\\mathrm{KO_2}$",
+        "3": "$\\mathrm{K_2MnO_4}$",
+        "4": "$\\mathrm{Mn_3O_4}$"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "3",
+      "page": 14,
+      "column": "left"
+    },
+    {
+      "number": 73,
+      "stem": "The numbers 17.0145 and 21.0235 were rounded to three figures after the decimal point. The resulting numbers, respectively, are",
+      "options": {
+        "1": "17.014 and 21.024",
+        "2": "17.015 and 21.024",
+        "3": "17.014 and 21.023",
+        "4": "17.015 and 21.023"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "1",
+      "page": 14,
+      "column": "left"
+    },
+    {
+      "number": 74,
+      "stem": "Given below are two statements:\nStatement I: trans-But-2-ene upon treatment with $\\mathrm{Br_2}$ in $\\mathrm{CCl_4}$ gives the following product [Newman projection].\nStatement II: cis-But-2-ene upon treatment with alkaline $\\mathrm{KMnO_4}$ gives the following product [Newman projection].\nIn the light of the above statements, choose the most appropriate answer from the options given below:",
+      "options": {
+        "1": "Statement I is correct but Statement II is incorrect",
+        "2": "Statement I is incorrect but Statement II is correct",
+        "3": "Both Statement I and Statement II are correct",
+        "4": "Both Statement I and Statement II are incorrect"
+      },
+      "hasFigure": true,
+      "figureNote": "Two Newman projections of the stated products accompany Statement I and Statement II.",
+      "markedAnswer": "2",
+      "page": 14,
+      "column": "right"
+    },
+    {
+      "number": 75,
+      "stem": "Consider the following reaction, and choose the correct option.",
+      "options": {
+        "1": "On treatment with bromine water, compound $P$ gives a white precipitate.",
+        "2": "Compound $P$ is obtained by the hydrogenation of benzoyl chloride with Pd on $\\mathrm{BaSO_4}$.",
+        "3": "On treating compound $P$ with saturated $\\mathrm{NaHCO_3}$ solution, brisk effervescence is observed.",
+        "4": "Compound $P$ can be prepared by treating benzene with anhydrous $\\mathrm{AlCl_3}$ and $\\mathrm{CH_3COCl}$."
+      },
+      "hasFigure": true,
+      "figureNote": "Toluene $\\xrightarrow{\\mathrm{i.\\,CrO_2Cl_2,\\,CS_2;\\,ii.\\,H_3O^+}} P$ (Etard reaction).",
+      "markedAnswer": "2",
+      "page": 14,
+      "column": "right"
+    },
+    {
+      "number": 76,
+      "stem": "Match the vitamins in List I with their sources in List II\nList I: A. vitamin A  B. vitamin B₁₂  C. vitamin E  D. vitamin K\nList II: I. meat  II. sunflower oil  III. green leafy vegetables  IV. carrots\nChoose the correct answer from the options given below:",
+      "options": {
+        "1": "A-IV, B-II, C-I, D-III",
+        "2": "A-III, B-I, C-IV, D-II",
+        "3": "A-II, B-III, C-IV, D-I",
+        "4": "A-IV, B-I, C-II, D-III"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "4",
+      "page": 15,
+      "column": "left"
+    },
+    {
+      "number": 77,
+      "stem": "The amount of carbon dioxide evolved upon complete combustion of $116\\,\\mathrm{g}$ of $n$-butane is (Given: atomic mass in amu H = 1, C = 12 and O = 16)",
+      "options": {
+        "1": "176 g",
+        "2": "362 g",
+        "3": "352 g",
+        "4": "322 g"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "3",
+      "page": 15,
+      "column": "left"
+    },
+    {
+      "number": 78,
+      "stem": "The compound that CANNOT be obtained from the aldol condensation reaction shown below, is",
+      "options": {
+        "1": "Option 1 (see figure)",
+        "2": "Option 2 (see figure)",
+        "3": "Option 3 (see figure)",
+        "4": "Option 4 (see figure)"
+      },
+      "hasFigure": true,
+      "figureNote": "Stem: 2,2-dimethylcyclopentanone + PhCHO with NaOH, Δ. Options are structural formulas of possible condensation products.",
+      "markedAnswer": "3",
+      "page": 15,
+      "column": "left"
+    },
+    {
+      "number": 79,
+      "stem": "The correct statement is",
+      "options": {
+        "1": "Magnesium has a maximum covalency of four.",
+        "2": "Aluminium has five valence orbitals.",
+        "3": "Boron has a maximum covalency of four.",
+        "4": "Beryllium has three valence orbitals."
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "3",
+      "page": 15,
+      "column": "right"
+    },
+    {
+      "number": 80,
+      "stem": "The formula of tetraammineaquachloridocobalt(III) chloride is",
+      "options": {
+        "1": "$[\\mathrm{Co(NH_3)_4(H_2O)Cl}]\\mathrm{Cl}$",
+        "2": "$[\\mathrm{Co(NH_3)_4(H_2O)Cl}]\\mathrm{Cl_2}$",
+        "3": "$[\\mathrm{Co(NH_3)_4Cl_2}]\\cdot\\mathrm{H_2O}$",
+        "4": "$[\\mathrm{Co(NH_3)_4}]\\mathrm{Cl_3}\\cdot\\mathrm{H_2O}$"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "2",
+      "page": 15,
+      "column": "right"
+    },
+    {
+      "number": 81,
+      "stem": "Assertion A: For an ideal solution formed by mixing liquids P and Q, $\\Delta_{\\mathrm{mix}}H = 0$ and $\\Delta_{\\mathrm{mix}}V = 0$.\nReason R: No interactions occur between P and Q.\nIn the light of the above statements, choose the most appropriate answer from the options given below:",
+      "options": {
+        "1": "A is correct but R is not correct",
+        "2": "A is not correct but R is correct",
+        "3": "Both A and R are correct and R is the correct explanation of A",
+        "4": "Both A and R are correct but R is NOT the correct explanation of A"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "1",
+      "page": 15,
+      "column": "right"
+    }
+  ]
+}

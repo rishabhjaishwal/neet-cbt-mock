@@ -1,0 +1,545 @@
+{
+  "pages": [2, 3, 4, 5, 6, 7, 8],
+  "questions": [
+    {
+      "number": 1,
+      "stem": "An ac voltage $V = 220\\sqrt{2} \\sin(2 \\times 10^3 t)$ Volt is applied to a series LCR circuit. Then the current amplitude in this circuit is : (Given : $L = 10$ mH, $C = 25$ $\\mu$F, $R = 100$ $\\Omega$)",
+      "options": {
+        "1": "11.0 A",
+        "2": "22.0 A",
+        "3": "2.2 A",
+        "4": "5.5 A"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "3",
+      "page": 2,
+      "column": "left"
+    },
+    {
+      "number": 2,
+      "stem": "The mean free path of molecules in an ideal gas A is half that of another ideal gas B. The diameter of the spherical molecules of gas A is twice the diameter of the molecules of B. If number densities of the gases A and B are $n_A$ and $n_B$, respectively, then the correct option is :",
+      "options": {
+        "1": "$n_A = \\frac{1}{4} n_B$",
+        "2": "$n_A = \\frac{1}{2} n_B$",
+        "3": "$n_A = n_B$",
+        "4": "$n_A = 2 n_B$"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "2",
+      "page": 2,
+      "column": "left"
+    },
+    {
+      "number": 3,
+      "stem": "A cylindrical cork of uniform density floats in a liquid of density $\\rho_1$. If the cork is depressed slightly and released, it oscillates harmonically with time period $T$. If the same cork floats in another liquid of density $\\rho_2$, then the similar oscillation has time period $2T$. The value of $\\rho_2/\\rho_1$ is :",
+      "options": {
+        "1": "1/2",
+        "2": "1/4",
+        "3": "4",
+        "4": "2"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "2",
+      "page": 2,
+      "column": "left"
+    },
+    {
+      "number": 4,
+      "stem": "Consider a spring-mass simple harmonic oscillator in one dimension. The mass of the particle is $m$ kg and the spring constant is $k$ Nm$^{-1}$. At a given instant, the extension of the spring is $x$ meter and the speed of the particle is $v$ ms$^{-1}$. On the $x$-$v$ plane, if the graph of $v$ as a function of $x$ is a circle, then the correct option is :",
+      "options": {
+        "1": "$k = m^2$",
+        "2": "$k = \\sqrt{m}$",
+        "3": "$k = 1/m$",
+        "4": "$k = m$"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "4",
+      "page": 2,
+      "column": "left"
+    },
+    {
+      "number": 5,
+      "stem": "In an adiabatic expansion, the temperature of one mole of an ideal monatomic gas ($\\gamma = 5/3$) decreases from 60 K to 50 K. The work done by the gas in the process is : (Take the universal gas constant as $R = 8.3$ J mol$^{-1}$ K$^{-1}$)",
+      "options": {
+        "1": "124.5 J",
+        "2": "166 J",
+        "3": "41.5 J",
+        "4": "83 J"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "1",
+      "page": 2,
+      "column": "left"
+    },
+    {
+      "number": 6,
+      "stem": "The following table presents the part of the electromagnetic spectrum and their corresponding major applications.\n\n| Part of the electromagnetic spectrum | Applications |\n| --- | --- |\n| P. Microwave | I. For purifying the water |\n| Q. UV rays | II. For warming the food |\n| R. Gamma rays | III. For AM and FM communication systems |\n| S. Radio wave | IV. For treating the Cancer cells |\n\nThe correct option is :",
+      "options": {
+        "1": "P-II, Q-I, R-IV, S-III",
+        "2": "P-II, Q-IV, R-III, S-I",
+        "3": "P-I, Q-II, R-III, S-IV",
+        "4": "P-I, Q-IV, R-II, S-III"
+      },
+      "hasFigure": true,
+      "figureNote": "Match-list table of EM spectrum parts (P–S) vs applications (I–IV).",
+      "markedAnswer": "1",
+      "page": 2,
+      "column": "right"
+    },
+    {
+      "number": 7,
+      "stem": "A unit positive point charge is taken slowly through an infinitesimally thin tube that is inside a charged dielectric sphere of radius $R$, having uniform positive charge density $\\rho$, as shown in the figure. The initial and final positions of the charge are marked by $A$ and $B$ at distances $2R$ and $3R$ respectively, from the centre of the sphere. In this process, the magnitude of the total work done on the point charge is $\\frac{\\rho R^2}{n \\epsilon_0}$. The value of $n$ is : ($\\epsilon_0$ is the permittivity of vacuum)",
+      "options": {
+        "1": "9",
+        "2": "18",
+        "3": "2",
+        "4": "6"
+      },
+      "hasFigure": true,
+      "figureNote": "Dielectric sphere of radius $R$ and density $\\rho$ with a thin tube; point A at $2R$ to the right of centre, point B at $3R$ to the left; path A→B through the tube.",
+      "markedAnswer": "2",
+      "page": 2,
+      "column": "right"
+    },
+    {
+      "number": 8,
+      "stem": "A beam of light falls on a metal surface such that photo-electrons are generated. If power of the light source starts to decrease linearly with time $t$, then variation of the photocurrent $I$ and magnitude of the stopping potential $|V|$ with time is best represented by :",
+      "options": {
+        "1": "Option 1 (see figure)",
+        "2": "Option 2 (see figure)",
+        "3": "Option 3 (see figure)",
+        "4": "Option 4 (see figure)"
+      },
+      "hasFigure": true,
+      "figureNote": "Four option pairs of graphs: $I$ vs $t$ and $|V|$ vs $t$. (1) $I$ constant, $|V|$ decreasing; (2) both constant; (3) $I$ decreasing, $|V|$ constant; (4) both decreasing.",
+      "markedAnswer": "3",
+      "page": 3,
+      "column": "left"
+    },
+    {
+      "number": 9,
+      "stem": "Bob $B$ of mass $m$ at rest is hanging vertically from the ceiling via a massless string of length 10 m, as shown in the figure. Point mass $A$ of mass $m$ travelling horizontally with speed 10 ms$^{-1}$ hits bob $B$ elastically. The bob $B$ rises $h$ meter after the collision. Taking the acceleration due to gravity $g = 10$ ms$^{-2}$ and neglecting the size of the bob, the value of $h$ is :",
+      "options": {
+        "1": "5",
+        "2": "2.5",
+        "3": "8",
+        "4": "7"
+      },
+      "hasFigure": true,
+      "figureNote": "Ceiling with hanging bob $B$ (mass $m$); point mass $A$ (mass $m$) approaching horizontally at $10$ ms$^{-1}$.",
+      "markedAnswer": "1",
+      "page": 3,
+      "column": "left"
+    },
+    {
+      "number": 10,
+      "stem": "An ideal gas is made of polyatomic molecules. Each of the molecules has three translational, three rotational and $f$ number of vibrational modes. If the ratio of heat capacities $C_P/C_V$ of the gas is $8/7$, then the value of $f$ is :",
+      "options": {
+        "1": "2",
+        "2": "1",
+        "3": "4",
+        "4": "3"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "3",
+      "page": 3,
+      "column": "right"
+    },
+    {
+      "number": 11,
+      "stem": "In the measurement of viscosity of liquids using terminal velocity experiment, spherical balls of same radius but having different densities are used. The variation of the terminal velocity ($v$) with the ratio of density of spherical ball ($\\sigma$) to density of the liquid ($\\rho$), is best represented by :",
+      "options": {
+        "1": "Option 1 (see figure)",
+        "2": "Option 2 (see figure)",
+        "3": "Option 3 (see figure)",
+        "4": "Option 4 (see figure)"
+      },
+      "hasFigure": true,
+      "figureNote": "Four graphs of $v$ vs $\\sigma/\\rho$ with $\\sigma/\\rho=1$ marked. (1) line dashed for $\\sigma/\\rho<1$ then solid; (2) horizontal line from $\\sigma/\\rho=1$; (3) solid line from $(1,0)$ with positive slope; (4) solid line with positive $v$-intercept.",
+      "markedAnswer": "3",
+      "page": 3,
+      "column": "right"
+    },
+    {
+      "number": 12,
+      "stem": "In a solar system, the time-period of revolution of a planet tracing a circular orbit of radius $R$ is proportional to :",
+      "options": {
+        "1": "$R^2$",
+        "2": "$R^3$",
+        "3": "$R^{1/2}$",
+        "4": "$R^{3/2}$"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "4",
+      "page": 3,
+      "column": "right"
+    },
+    {
+      "number": 13,
+      "stem": "A solid sphere $A$ of radius $R$ and mass $M$ is attached at a point to a smaller solid sphere $B$ of radius $r < R$ and mass $m < M$. Assume that the line joining their centres lies along the horizontal. The moment of inertia of the system calculated about a vertical axis passing through the centre of $A$ is $I_A$ and that calculated about a vertical axis passing through the centre of $B$ is $I_B$. The difference $I_A - I_B$ is :",
+      "options": {
+        "1": "$(m-M)(R-r)^2$",
+        "2": "0",
+        "3": "$(M-m)(R+r)^2$",
+        "4": "$(m-M)(R+r)^2$"
+      },
+      "hasFigure": true,
+      "figureNote": "Two diagrams of touching spheres $A$ (radius $R$, mass $M$) and $B$ (radius $r$, mass $m$) with vertical axes through centre of $A$ ($I_A$) and centre of $B$ ($I_B$).",
+      "markedAnswer": "4",
+      "page": 4,
+      "column": "left"
+    },
+    {
+      "number": 14,
+      "stem": "Consider the following nuclear reaction :\n$^{238}\\mathrm{U} \\rightarrow ^{234}\\mathrm{Th} + ^{4}\\mathrm{He}$\nTake masses of $^{238}\\mathrm{U}$, $^{234}\\mathrm{Th}$ and $^{4}\\mathrm{He}$ as $238.050$ u, $234.043$ u and $4.003$ u, respectively. The $Q$ value for the reaction, in keV, is :\n[Given : $1$ u $= 931.5$ MeV c$^{-2}$]",
+      "options": {
+        "1": "3736",
+        "2": "3740",
+        "3": "3726",
+        "4": "3730"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "3",
+      "page": 4,
+      "column": "left"
+    },
+    {
+      "number": 15,
+      "stem": "Consider a fixed uniformly charged insulating sphere with radius $R$ and total charge $+Q$. A point charge $-q$ ($q \\ll Q$) with mass $m$ is released from rest at a distance of $3R$ from the centre of the charged sphere. When the point charge reaches the surface of the sphere, its speed is :\n($\\epsilon_0$ is the permittivity of vacuum, neglect gravitational forces).",
+      "options": {
+        "1": "$\\sqrt{\\dfrac{Qq}{3\\pi\\epsilon_0 mR}}$",
+        "2": "$\\sqrt{\\dfrac{Qq}{4\\pi\\epsilon_0 mR}}$",
+        "3": "$\\sqrt{\\dfrac{3Qq}{4\\pi\\epsilon_0 mR}}$",
+        "4": "$\\sqrt{\\dfrac{2Qq}{3\\pi\\epsilon_0 mR}}$"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "1",
+      "page": 4,
+      "column": "right"
+    },
+    {
+      "number": 16,
+      "stem": "Consider two circuits, (A) and (B), each having two resistors. One of them has a positive temperature coefficient of resistance, $+\\alpha$, while the other one has a negative temperature coefficient, $-\\alpha$, as shown in the figure. The current through these circuits are denoted by $I_A$ and $I_B$. At initial temperature, the resistance of the two resistors is $R_0$. As the temperature is increased, the correct option that describes the variation of current in these circuits is :",
+      "options": {
+        "1": "$I_A$ increases while $I_B$ decreases",
+        "2": "both $I_A$ and $I_B$ remain constant",
+        "3": "$I_A$ remains constant while $I_B$ increases",
+        "4": "$I_A$ decreases while $I_B$ increases"
+      },
+      "hasFigure": true,
+      "figureNote": "Circuit (A): series of $R_0(1-\\alpha\\Delta T)$ and $R_0(1+\\alpha\\Delta T)$ with source $V$, current $I_A$. Circuit (B): same two resistors in parallel with source $V$, current $I_B$.",
+      "markedAnswer": "3",
+      "page": 4,
+      "column": "right"
+    },
+    {
+      "number": 17,
+      "stem": "A conducting loop of finite resistance lies on the $x$-$y$ plane. There is a constant magnetic field in the $z$ direction. The area of the loop varies with time $t$, as $A = A_0(1 + \\sin t)$ in appropriate units. The figure that correctly indicates the qualitative behaviour of the power $P$ dissipated in the loop as a function of time is :",
+      "options": {
+        "1": "Option 1 (see figure)",
+        "2": "Option 2 (see figure)",
+        "3": "Option 3 (see figure)",
+        "4": "Option 4 (see figure)"
+      },
+      "hasFigure": true,
+      "figureNote": "Four $P$ vs $t$ graphs: (1) constant horizontal; (2) rising curve from origin; (3) periodic humps starting at zero; (4) periodic humps starting at a peak at $t=0$.",
+      "markedAnswer": "4",
+      "page": 5,
+      "column": "left"
+    },
+    {
+      "number": 18,
+      "stem": "A photon and an electron, each of $20$ eV energy, move in free space. The ratio of linear momentum of electron $p_e$ to that of photon $p_{Ph}$, $\\dfrac{p_e}{p_{Ph}}$ is : (Take speed of light $= 3 \\times 10^8$ ms$^{-1}$, charge of electron $= -1.6 \\times 10^{-19}$ C and mass of electron $= 9 \\times 10^{-31}$ kg)",
+      "options": {
+        "1": "225",
+        "2": "275",
+        "3": "$\\dfrac{2}{450}$",
+        "4": "$\\dfrac{1}{250}$"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "1",
+      "page": 5,
+      "column": "left"
+    },
+    {
+      "number": 19,
+      "stem": "Consider that $\\sigma_s$, $k_B$, $b$ represent Stefan-Boltzmann constant, Boltzmann constant and Wien's displacement law constant, respectively. The dimension of $\\sigma_s k_B^{-1} b$ is :",
+      "options": {
+        "1": "$[L^{-1} T^{-1} K^{-3}]$",
+        "2": "$[L^{-1} T^{-1} K^{-4}]$",
+        "3": "$[L^{-1} T^{-1} K^{-2}]$",
+        "4": "$[L^{-1} K^{-2}]$"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "3",
+      "page": 5,
+      "column": "right"
+    },
+    {
+      "number": 20,
+      "stem": "Two infinitely long parallel conducting wires A and B carry currents $I$ and $2I$, respectively, in the same direction. The wire A has uniform mass per unit length $\\lambda$ and lies on an insulated floor. The wire B is kept fixed at a height $h$ above the floor. The minimum magnitude of $h$ so that the wire A does not rise from the floor is : [$g$ is the acceleration due to gravity and $\\mu_0$ is the permeability of free space.]",
+      "options": {
+        "1": "$\\dfrac{2\\mu_0 I^2}{\\pi \\lambda g}$",
+        "2": "$\\dfrac{4\\mu_0 I^2}{\\pi \\lambda g}$",
+        "3": "$\\dfrac{\\mu_0 I^2}{2\\pi \\lambda g}$",
+        "4": "$\\dfrac{\\mu_0 I^2}{\\pi \\lambda g}$"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "4",
+      "page": 5,
+      "column": "right"
+    },
+    {
+      "number": 21,
+      "stem": "Which of the following measurements require 'index correction' ?",
+      "options": {
+        "1": "Measurement of focal length of lenses using optical bench",
+        "2": "Measurement of speed of sound using resonance tube",
+        "3": "Measurement of resistance of a wire using meter bridge",
+        "4": "Measurement of gravitational acceleration using simple pendulum"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "1",
+      "page": 5,
+      "column": "right"
+    },
+    {
+      "number": 22,
+      "stem": "Two identical inductors are connected in two different configurations $P$ and $Q$, where a time varying current $I(t)$ is flowing, as shown in the figure. The induced emf between points $a$ and $b$ for configuration $P$ is $E_P$ and that for configuration $Q$ is $E_Q$. The ratio $E_P/E_Q$ is : [Neglect the effect of mutual inductance.]",
+      "options": {
+        "1": "1",
+        "2": "2",
+        "3": "1/4",
+        "4": "1/2"
+      },
+      "hasFigure": true,
+      "figureNote": "Configuration (P): two identical inductors in series between points $a$ and $b$ with current $I(t)$. Configuration (Q): two identical inductors in parallel between $a$ and $b$ with current $I(t)$.",
+      "markedAnswer": "2",
+      "page": 6,
+      "column": "left"
+    },
+    {
+      "number": 23,
+      "stem": "Three identical p-n junction diodes $D_1$, $D_2$ and $D_3$ are connected across a battery as shown in the figure. If the width of the depletion regions of $D_1$, $D_2$ and $D_3$ are $W_1$, $W_2$ and $W_3$, respectively, then the correct option is :",
+      "options": {
+        "1": "$W_3 > W_2 > W_1$",
+        "2": "$W_2 > W_1 = W_3$",
+        "3": "$W_1 > W_2 > W_3$",
+        "4": "$W_3 = W_1 > W_2$"
+      },
+      "hasFigure": true,
+      "figureNote": "Battery (~5 V) with three parallel branches: top $1$ k$\\Omega$ then forward $D_1$; middle $1$ k$\\Omega$ then $D_2$ with an open gap to the return rail (unbiased); bottom reverse $D_3$ then $1$ k$\\Omega$.",
+      "markedAnswer": "1",
+      "page": 6,
+      "column": "left"
+    },
+    {
+      "number": 24,
+      "stem": "Three identical capacitors $P$, $Q$ and $S$, each of the capacitance $C$, are connected to a battery of voltage $V$, as shown in the figure. If the energy stored in the capacitor $P$ and total energy stored in the system are $U_P$ and $U_T$, respectively, then the ratio $\\dfrac{U_P}{U_T}$ is :",
+      "options": {
+        "1": "1/2",
+        "2": "1/6",
+        "3": "2/3",
+        "4": "1/3"
+      },
+      "hasFigure": true,
+      "figureNote": "Battery $V$ with two parallel branches: series capacitors $P$ and $Q$ (each $C$) on one branch; capacitor $S$ (capacitance $C$) alone on the other.",
+      "markedAnswer": "2",
+      "page": 6,
+      "column": "right"
+    },
+    {
+      "number": 25,
+      "stem": "A thin horizontal disc is rotating about a vertical axis passing through its fixed centre $O$. Its angular momentum is $L_A$ and $L_B$ computed about points $A$ and $B$, respectively, with $OB = 2 \\times OA$. The value of $\\dfrac{L_A}{L_B}$ is :",
+      "options": {
+        "1": "1",
+        "2": "2",
+        "3": "1/4",
+        "4": "1/2"
+      },
+      "hasFigure": true,
+      "figureNote": "Top view of rotating disc about centre $O$; points $A$ and $B$ on a radial line with $OB = 2\\,OA$.",
+      "markedAnswer": "1",
+      "page": 6,
+      "column": "right"
+    },
+    {
+      "number": 26,
+      "stem": "An ideal Zener diode with breakdown voltage of $-3$ V is reverse biased with a negative input voltage $V_i = -5$ V. The magnitude of voltage difference between points $B$ and $A$ is :",
+      "options": {
+        "1": "1 V",
+        "2": "0 V",
+        "3": "3 V",
+        "4": "2 V"
+      },
+      "hasFigure": true,
+      "figureNote": "Series circuit: Zener between $C$ and $B$ (breakdown $-3$ V), resistor $R$ between $B$ and $A$, source $V_i=-5$ V.",
+      "markedAnswer": "4",
+      "page": 6,
+      "column": "right"
+    },
+    {
+      "number": 27,
+      "stem": "Water flows in a streamline motion through a horizontal pipe of circular cross-section as shown in the figure. The pressure difference of water between $P$ and $Q$ is $15$ Nm$^{-2}$. The area of cross-section at $P$ and $Q$ are $40$ cm$^2$ and $20$ cm$^2$, respectively. The rate of flow of water through the pipe, in cm$^3$ s$^{-1}$, is : [Take density of water $= 1000$ kg m$^{-3}$]",
+      "options": {
+        "1": "300",
+        "2": "400",
+        "3": "100",
+        "4": "200"
+      },
+      "hasFigure": true,
+      "figureNote": "Horizontal pipe narrowing from section $P$ (wider) to section $Q$ (narrower).",
+      "markedAnswer": "2",
+      "page": 7,
+      "column": "left"
+    },
+    {
+      "number": 28,
+      "stem": "A particle of mass $M$ moves along a horizontal $x$ axis from $x=0$ to $x=L$. The coefficient of kinetic friction varies as a function of $x$ as $\\mu_k(x) = \\mu_0 - \\alpha x$, where $\\mu_0, \\alpha$ are constants of appropriate dimensions, so that $\\mu_k(L) = 0$. The total work done by the frictional force during the motion is $n \\mu_0 MgL$, where $g$ is the acceleration due to gravity. The value of $n$ is :",
+      "options": {
+        "1": "$\\dfrac{1}{3}$",
+        "2": "$\\dfrac{1}{2}$",
+        "3": "3",
+        "4": "1"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "2",
+      "page": 7,
+      "column": "left"
+    },
+    {
+      "number": 29,
+      "stem": "A ray of light with wavelength $\\lambda$ is incident on three different photoelectric cells namely 1, 2 and 3. The threshold wavelength of these photoelectric cells are $\\lambda_1$, $\\lambda_2$ and $\\lambda_3$ respectively and the magnitude of stopping potentials of these cells are $V_1$, $V_2$ and $V_3$ respectively. The relation between $\\lambda$ and threshold wavelengths are $\\lambda_1 < \\lambda$, $\\lambda_2 > \\lambda$ and $\\lambda_3 \\gg \\lambda$. The correct option is :",
+      "options": {
+        "1": "$V_1 > V_2$, $V_3 = 0$",
+        "2": "$V_1 < V_2$, $V_3 = 0$",
+        "3": "$V_1 = 0$, $V_2 < V_3$",
+        "4": "$V_1 = 0$, $V_2 > V_3$"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "3",
+      "page": 7,
+      "column": "left"
+    },
+    {
+      "number": 30,
+      "stem": "Consider that an electron is revolving in an excited state of Hydrogen atom with velocity $\\sqrt{25.6} \\times 10^5$ ms$^{-1}$. The radius of the orbit is $x \\times 10^{-9}$ m. The value of $x$ is : [Take the mass of electron to be $9 \\times 10^{-31}$ kg, charge of electron $= -1.6 \\times 10^{-19}$ C and $\\dfrac{1}{4\\pi\\epsilon_0} = 9 \\times 10^9$ N m$^2$ C$^{-2}$]",
+      "options": {
+        "1": "2",
+        "2": "1",
+        "3": "4",
+        "4": "3"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "2",
+      "page": 7,
+      "column": "right"
+    },
+    {
+      "number": 31,
+      "stem": "A car travels on a circular racetrack of radius $50$ m, which is banked at an angle $\\theta$. If the car travels at a speed $10$ ms$^{-1}$, then the wear and tear on its tyres is minimum. Taking the acceleration due to gravity to be $10$ ms$^{-2}$, the value of $\\theta$ is :",
+      "options": {
+        "1": "$\\tan^{-1}(\\sqrt{3}/2)$",
+        "2": "$\\tan^{-1}(2\\sqrt{3})$",
+        "3": "$\\tan^{-1}\\left(\\dfrac{1}{5}\\right)$",
+        "4": "$\\tan^{-1}\\left(\\dfrac{2}{5}\\right)$"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "3",
+      "page": 7,
+      "column": "right"
+    },
+    {
+      "number": 32,
+      "stem": "One mole of an ideal monatomic gas undergoes a cyclic process as shown in the figure. The total heat supplied to the gas is :",
+      "options": {
+        "1": "600 J",
+        "2": "800 J",
+        "3": "400 J",
+        "4": "500 J"
+      },
+      "hasFigure": true,
+      "figureNote": "Rectangular $P$-$V$ cycle: $a(2,300)\\to b(5,300)\\to c(5,100)\\to d(2,100)\\to a$, with $P$ in N/m$^2$ and $V$ in m$^3$.",
+      "markedAnswer": "1",
+      "page": 7,
+      "column": "right"
+    },
+    {
+      "number": 33,
+      "stem": "A frictionless circular wire of unit radius is fixed on the horizontal plane. Two point particles of unit mass start moving simultaneously from point $A$ ($\\theta = \\pi/2$) with identical uniform angular speeds in opposite directions, and meet again at point $B$ ($\\theta = -\\pi/2$). During this time, which of the following figures schematically represent the magnitude of the total linear momentum $P$ of the system, as a function of $\\theta$ ?",
+      "options": {
+        "1": "Option 1 (see figure)",
+        "2": "Option 2 (see figure)",
+        "3": "Option 3 (see figure)",
+        "4": "Option 4 (see figure)"
+      },
+      "hasFigure": true,
+      "figureNote": "Circular wire with points $A$ ($\\theta=\\pi/2$) and $B$ ($\\theta=-\\pi/2$); four schematic graphs of total momentum magnitude $P$ vs $\\theta$.",
+      "markedAnswer": "1",
+      "page": 8,
+      "column": "left"
+    },
+    {
+      "number": 34,
+      "stem": "The lens combination as shown in the figure, consists of two lenses, $L_1$ and $L_2$, of the focal lengths $+10$ cm and $-10$ cm, respectively. The position of the image formed is :",
+      "options": {
+        "1": "30 cm to the right of the concave lens",
+        "2": "60 cm to the right of the concave lens",
+        "3": "20 cm to the left of the concave lens",
+        "4": "60 cm to the left of the concave lens"
+      },
+      "hasFigure": true,
+      "figureNote": "Object $O$ 30 cm left of convex $L_1$ ($f=+10$ cm); concave $L_2$ ($f=-10$ cm) 3 cm to the right of $L_1$.",
+      "markedAnswer": "4",
+      "page": 8,
+      "column": "right"
+    },
+    {
+      "number": 35,
+      "stem": "Two planets $P_1$ and $P_2$ with equal mass have radii $R_1$ and $R_2$, respectively, where $R_2 = \\dfrac{R_1}{2}$. The escape speeds of $P_1$ and $P_2$ are $v_1$ and $v_2$, respectively. Then $\\dfrac{v_2}{v_1}$ is :",
+      "options": {
+        "1": "$\\sqrt{2}$",
+        "2": "2",
+        "3": "$\\dfrac{1}{\\sqrt{2}}$",
+        "4": "1"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "1",
+      "page": 8,
+      "column": "right"
+    },
+    {
+      "number": 36,
+      "stem": "An electromagnetic wave travelling in a lossless dielectric medium having a dielectric constant, $\\epsilon_r = 9$, has the electric field, $E_x = E_0 \\sin(kz - 2\\pi \\times 10^6 t)$ Vm$^{-1}$ where $E_0$ is the amplitude and $k$ is the wave vector. Among the following options, the incorrect choice is :",
+      "options": {
+        "1": "The magnetic field is given by the relation $B_y = \\dfrac{B_0}{v} \\sin(kz - 2\\pi \\times 10^6 t)$ where $v$ is the speed of the electromagnetic wave inside the medium",
+        "2": "The direction of propagation of the electromagnetic wave is along $+z$",
+        "3": "The speed of the electromagnetic wave inside the medium is $10^8$ ms$^{-1}$",
+        "4": "The wavelength of the electromagnetic wave inside the medium is 300 m"
+      },
+      "hasFigure": false,
+      "figureNote": null,
+      "markedAnswer": "4",
+      "page": 8,
+      "column": "right"
+    }
+  ]
+}
