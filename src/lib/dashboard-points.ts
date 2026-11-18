@@ -18,6 +18,20 @@ export type DashAttemptPoint = {
   };
 };
 
+/** Client-safe shape for `/api/dashboard/charts` (no mongoose imports). */
+export type DashboardChartsClientPayload = {
+  paperPoints: DashAttemptPoint[];
+  topicPoints: DashAttemptPoint[];
+  neetAiPoints: DashAttemptPoint[];
+  allPoints: DashAttemptPoint[];
+  topicAnalytics: import("./topic-dashboard").TopicDashboardAnalytics;
+  counts: {
+    papers: number;
+    topics: number;
+    neetAi: number;
+  };
+};
+
 /** Attempts with no answered items pollute strength charts — exclude them. */
 export function isMeaningfulAttempt(row: {
   correctCount?: number | null;

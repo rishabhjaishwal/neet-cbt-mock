@@ -125,6 +125,9 @@ const AttemptSchema = new Schema(
 );
 AttemptSchema.index({ userId: 1, year: 1, attemptNumber: 1 }, { unique: true });
 AttemptSchema.index({ userId: 1, status: 1 });
+/** Dashboard charts / latest-by-year listings. */
+AttemptSchema.index({ userId: 1, status: 1, submittedAt: -1 });
+AttemptSchema.index({ userId: 1, year: -1, attemptNumber: -1 });
 
 export type UserDoc = InferSchemaType<typeof UserSchema> & { _id: Types.ObjectId };
 export type PaperDoc = InferSchemaType<typeof PaperSchema> & { _id: Types.ObjectId };
@@ -208,6 +211,9 @@ const TopicAttemptSchema = new Schema(
   { timestamps: false },
 );
 TopicAttemptSchema.index({ userId: 1, topicId: 1, difficulty: 1, startedAt: -1 });
+/** Dashboard topic / NEET AI chart aggregations. */
+TopicAttemptSchema.index({ userId: 1, status: 1, submittedAt: -1 });
+TopicAttemptSchema.index({ userId: 1, topicId: 1, status: 1, submittedAt: -1 });
 
 const SuggestionSchema = new Schema(
   {
@@ -309,6 +315,7 @@ const CompetitionAttemptSchema = new Schema(
   { timestamps: false },
 );
 CompetitionAttemptSchema.index({ competitionId: 1, userId: 1 }, { unique: true });
+CompetitionAttemptSchema.index({ userId: 1, status: 1, startedAt: -1 });
 
 export const AppMeta = models.AppMeta || model("AppMeta", AppMetaSchema);
 export const User = models.User || model("User", UserSchema);

@@ -3,10 +3,11 @@ import { Types } from "mongoose";
 import { getSession } from "@/lib/auth";
 import { connectDb } from "@/lib/db";
 import { TopicAttempt } from "@/lib/models";
+import { mapQuestionsForExamView } from "@/lib/exam-secrets";
 
 type Params = { params: Promise<{ id: string }> };
 
-/** Student attempt payload (no answer keys while in progress). */
+/** Student attempt payload (no answer keys / solutions while in progress). */
 export async function GET(_req: Request, { params }: Params) {
   const user = await getSession();
   if (!user || user.role !== "student") {
@@ -22,19 +23,13 @@ export async function GET(_req: Request, { params }: Params) {
     return NextResponse.json({ error: "Not found" }, { status: 404 });
   }
 
-  const inProgress = attempt.status === "in_progress";
-  const questions = (
-    (attempt.questions || []) as Array<Record<string, unknown>>
-  ).map((q) => {
-    if (!inProgress) return q;
-    const { correctOption: _c, correctOptions: _cs, ...rest } = q as {
-      correctOption?: string;
-      correctOptions?: string[];
-    } & Record<string, unknown>;
-    return rest;
-  });
+  const revealKeys = attempt.status !== "in_progress";
+  const questions = mapQuestionsForExamView(
+    (attempt.questions || []) as Array<Record<string, unknown>>,
+    revealKeys,
+  );
 
-  return NextResponse.json({
+  const res = NextResponse.json({
     ok: true,
     attempt: {
       id: String(attempt._id),
@@ -49,4 +44,6 @@ export async function GET(_req: Request, { params }: Params) {
     questions,
     answers: attempt.answers,
   });
+  res.headers.set("Cache-Control", "private, no-store");
+  return res;
 }

@@ -2,9 +2,14 @@
  * Year booklet PDFs are **not** hosted on this app / Vercel.
  * Public GitHub raw URLs → View paper (Google Docs viewer embed + open-in-tab).
  *
+ * Exam "View paper" must only open **question** booklets — never answer keys /
+ * solutions. Keys and worked solutions live on the results page (markdown review).
+ *
  * PDF.js on mozilla.github.io cannot load many CDNs (CORS / timeouts → "0 of 0").
  * Google Docs gview fetches server-side and works inside our iframe.
  */
+
+import { assertQuestionPaperPdfUrl } from "@/lib/exam-secrets";
 
 export type YearPdfRef = {
   year: number;
@@ -79,13 +84,18 @@ const YEAR_PDFS: Record<number, YearPdfRef> = {
   },
 };
 
-/** Direct public PDF URL for a year (not served from this host). */
+/** Direct public **question** PDF URL for a year (not served from this host). */
 export function yearPaperPdfUrl(year: number): string | null {
-  return YEAR_PDFS[year]?.url ?? null;
+  const url = YEAR_PDFS[year]?.url ?? null;
+  if (!url) return null;
+  return assertQuestionPaperPdfUrl(url);
 }
 
 export function yearPaperPdfRef(year: number): YearPdfRef | null {
-  return YEAR_PDFS[year] ?? null;
+  const ref = YEAR_PDFS[year] ?? null;
+  if (!ref) return null;
+  assertQuestionPaperPdfUrl(ref.url);
+  return ref;
 }
 
 /** Iframe-friendly viewer URL (Google fetches the PDF; no CORS/X-Frame on raw GitHub). */

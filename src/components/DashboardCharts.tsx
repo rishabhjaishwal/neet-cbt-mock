@@ -1,7 +1,10 @@
 "use client";
 
-import { useMemo, useState } from "react";
-import type { DashAttemptPoint } from "@/lib/dashboard-points";
+import { useEffect, useMemo, useState } from "react";
+import type {
+  DashAttemptPoint,
+  DashboardChartsClientPayload,
+} from "@/lib/dashboard-points";
 import type { TopicDashboardAnalytics } from "@/lib/topic-dashboard";
 
 export type { DashAttemptPoint };
@@ -124,7 +127,11 @@ function PerformanceLineChart({ points }: { points: DashAttemptPoint[] }) {
               fontSize="9"
               fill="#64748b"
             >
-              {p.kind === "paper" ? String(p.year ?? "") : p.kind === "neet-ai" ? "AI" : "T"}
+              {p.kind === "paper"
+                ? String(p.year ?? "")
+                : p.kind === "neet-ai"
+                  ? "AI"
+                  : p.label.split("·")[0]?.trim().slice(0, 8) || "T"}
             </text>
           ) : null,
         )}
@@ -538,21 +545,87 @@ function SubmittedTestsTable({ points }: { points: DashAttemptPoint[] }) {
   );
 }
 
+/** Lazy-loads `/api/dashboard/charts` so SSR dashboard stays light. */
 export function DashboardCharts({
-  points,
-  topicAnalytics,
+  points: legacyPoints,
+  topicAnalytics: legacyAnalytics,
+  lazy = true,
 }: {
-  points: DashAttemptPoint[];
+  /** @deprecated Prefer lazy fetch — kept for optional SSR hydrate. */
+  points?: DashAttemptPoint[];
   topicAnalytics?: TopicDashboardAnalytics | null;
+  lazy?: boolean;
 }) {
   const [tab, setTab] = useState<"overview" | "tests">("overview");
+  const [payload, setPayload] = useState<DashboardChartsClientPayload | null>(null);
+  const [loadError, setLoadError] = useState("");
+  const [loading, setLoading] = useState(lazy);
+
+  useEffect(() => {
+    if (!lazy) {
+      setLoading(false);
+      return;
+    }
+    let cancelled = false;
+    setLoading(true);
+    setLoadError("");
+    void (async () => {
+      try {
+        const res = await fetch("/api/dashboard/charts");
+        const data = await res.json();
+        if (cancelled) return;
+        if (!res.ok) {
+          setLoadError(data.error || "Could not load charts");
+          setLoading(false);
+          return;
+        }
+        setPayload(data.charts as DashboardChartsClientPayload);
+        setLoading(false);
+      } catch {
+        if (!cancelled) {
+          setLoadError("Network error loading charts");
+          setLoading(false);
+        }
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [lazy]);
+
+  const paperPoints = payload?.paperPoints ?? [];
+  const topicPoints = payload?.topicPoints ?? [];
+  const neetAiPoints = payload?.neetAiPoints ?? [];
+  const points =
+    payload?.allPoints ??
+    legacyPoints ??
+    [];
+  const topicAnalytics = payload?.topicAnalytics ?? legacyAnalytics ?? null;
+
+  if (loading) {
+    return (
+      <div className="desk-card desk-card--pad" aria-busy="true">
+        <h2 className="desk-section-title">Your performance</h2>
+        <p className="desk-kicker">Loading charts from your attempts…</p>
+      </div>
+    );
+  }
+
+  if (loadError && !points.length) {
+    return (
+      <div className="desk-card desk-card--pad">
+        <h2 className="desk-section-title">Your performance</h2>
+        <p className="text-sm text-[var(--danger)]">{loadError}</p>
+      </div>
+    );
+  }
 
   if (!points.length) {
     return (
       <div className="desk-card desk-card--pad">
         <h2 className="desk-section-title">Your performance</h2>
         <p className="desk-kicker">
-          Submit a year paper or topic mock — stock-style score trend, wrong /
+          Submit a year paper or topic mock — separate year vs topic trends, wrong /
           skipped counts, subject bars, and topic rankings show up here.
         </p>
       </div>
@@ -569,8 +642,10 @@ export function DashboardCharts({
     },
     { wrong: 0, unattempted: 0, correct: 0, scoreSum: 0 },
   );
-  const avg = Math.round(totals.scoreSum / points.length);
-  const best = points.reduce((a, b) => (a.score >= b.score ? a : b));
+  const avgPct =
+    Math.round(
+      (10 * points.reduce((s, p) => s + p.scorePct, 0)) / Math.max(1, points.length),
+    ) / 10;
 
   return (
     <div className="space-y-4">
@@ -611,11 +686,11 @@ export function DashboardCharts({
         <div className="space-y-4" role="tabpanel">
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
             {[
-              ["Attempts", String(points.length), "desk-sticky-chip--mint"],
-              ["Avg score", `${avg}`, "desk-sticky-chip--butter"],
-              ["Wrong picks", String(totals.wrong), "desk-sticky-chip--pink"],
-              ["Unattempted", String(totals.unattempted), "desk-sticky-chip--mint"],
-            ].map(([label, value, chip]) => (
+              ["Attempts", String(points.length), "desk-sticky-chip--mint", "Σ"],
+              ["Avg %", `${avgPct}%`, "desk-sticky-chip--butter", "fair"],
+              ["Wrong picks", String(totals.wrong), "desk-sticky-chip--pink", "Σ"],
+              ["Unattempted", String(totals.unattempted), "desk-sticky-chip--mint", "Σ"],
+            ].map(([label, value, chip, badge]) => (
               <div
                 key={label}
                 className="desk-card desk-card--pad flex items-center justify-between gap-3"
@@ -626,34 +701,69 @@ export function DashboardCharts({
                   </div>
                   <div className="mt-1 text-2xl font-bold text-slate-800">{value}</div>
                 </div>
-                <span className={`desk-sticky-chip ${chip}`}>
-                  {label === "Avg score" ? "/720" : "Σ"}
-                </span>
+                <span className={`desk-sticky-chip ${chip}`}>{badge}</span>
               </div>
             ))}
           </div>
 
           <div className="desk-card desk-card--pad">
-            <div className="mb-3 flex flex-wrap items-end justify-between gap-2">
-              <div>
-                <h2 className="desk-section-title">Score over time</h2>
-                <p className="desk-kicker">
-                  Marks obtained vs attempt time · best {best.score}/{best.totalMarks} (
-                  {best.label})
-                </p>
-              </div>
+            <div className="mb-3">
+              <h2 className="desk-section-title">Year papers — score over time</h2>
+              <p className="desk-kicker">
+                Full NEET mocks only (out of 720). Topic / NEET AI charts stay separate
+                below — series are never mixed.
+              </p>
             </div>
-            <PerformanceLineChart points={points} />
+            {paperPoints.length ? (
+              <PerformanceLineChart points={paperPoints} />
+            ) : (
+              <p className="text-sm text-slate-600">
+                Submit a year paper to see this trend.
+              </p>
+            )}
           </div>
 
           <div className="desk-card desk-card--pad">
             <div className="mb-3">
-              <h2 className="desk-section-title">Subject scores — last attempts</h2>
+              <h2 className="desk-section-title">Topic-wise mocks — score %</h2>
+              <p className="desk-kicker">
+                Subject topic drills only (score % of that mock). Separate from year
+                papers.
+              </p>
+            </div>
+            {topicPoints.length ? (
+              <PerformanceLineChart points={topicPoints} />
+            ) : (
+              <p className="text-sm text-slate-600">
+                Submit a topic-wise mock to see this trend.
+              </p>
+            )}
+          </div>
+
+          <div className="desk-card desk-card--pad">
+            <div className="mb-3">
+              <h2 className="desk-section-title">NEET AI packs — score %</h2>
+              <p className="desk-kicker">
+                Easy / Medium / Hard AI packs only — not mixed with year or topic lines.
+              </p>
+            </div>
+            {neetAiPoints.length ? (
+              <PerformanceLineChart points={neetAiPoints} />
+            ) : (
+              <p className="text-sm text-slate-600">
+                Submit a NEET AI pack to see this trend.
+              </p>
+            )}
+          </div>
+
+          <div className="desk-card desk-card--pad">
+            <div className="mb-3">
+              <h2 className="desk-section-title">Subject scores — year papers</h2>
               <p className="desk-kicker">
                 Estimated subject marks (+4/−1) for your last 5–10 year papers.
               </p>
             </div>
-            <SubjectBarChart points={points} />
+            <SubjectBarChart points={paperPoints.length ? paperPoints : points} />
           </div>
 
           {topicAnalytics &&

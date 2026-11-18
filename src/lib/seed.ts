@@ -1,12 +1,21 @@
 import bcrypt from "bcryptjs";
 import { connectDb } from "./db";
-import { AppMeta, Attempt, User } from "./models";
+import {
+  AppMeta,
+  Attempt,
+  Competition,
+  CompetitionAttempt,
+  Suggestion,
+  TopicAttempt,
+  User,
+} from "./models";
 import { CONTENT_VERSION } from "./content-version";
 
 export { CONTENT_VERSION } from "./content-version";
 
 let syncedVersion = 0;
 let seedInflight: Promise<void> | null = null;
+let indexesReady = false;
 
 async function hashPassword(password: string) {
   return bcrypt.hash(password, 10);
@@ -76,5 +85,20 @@ export async function seedDatabase() {
   } catch {
     /* old unique index may already be gone */
   }
-  await Attempt.createIndexes();
+  await ensureMongoIndexes();
+}
+
+/** Create/sync query indexes used by attempts, competitions, dashboard aggs. */
+export async function ensureMongoIndexes() {
+  if (indexesReady) return;
+  await connectDb();
+  await Promise.all([
+    User.createIndexes(),
+    Attempt.createIndexes(),
+    TopicAttempt.createIndexes(),
+    Competition.createIndexes(),
+    CompetitionAttempt.createIndexes(),
+    Suggestion.createIndexes(),
+  ]);
+  indexesReady = true;
 }

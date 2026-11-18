@@ -2,7 +2,7 @@ import { redirect } from "next/navigation";
 import { Types } from "mongoose";
 import { getSession } from "@/lib/auth";
 import { connectDb } from "@/lib/db";
-import { Attempt, TopicAttempt } from "@/lib/models";
+import { Attempt } from "@/lib/models";
 import { listPapers } from "@/lib/papers";
 import { LogoutButton } from "@/components/LogoutButton";
 import { StartAttemptButton } from "@/components/StartAttemptButton";
@@ -10,8 +10,7 @@ import { InstantLink } from "@/components/InstantLink";
 import { DashboardCharts } from "@/components/DashboardCharts";
 import { PaperContentPrefetch } from "@/components/PaperContentPrefetch";
 import { ThemeToggle } from "@/components/ThemeToggle";
-import { isMeaningfulAttempt, toDashPoints } from "@/lib/dashboard-points";
-import { buildTopicDashboardAnalytics } from "@/lib/topic-dashboard";
+import { ensureMongoIndexes } from "@/lib/seed";
 
 export default async function DashboardPage({
   searchParams,
@@ -26,25 +25,17 @@ export default async function DashboardPage({
 
   // JWT session does not open Mongo — connect before any Model.find (avoids 10s buffer timeout).
   await connectDb();
+  // Fire-and-forget index sync — do not block desk render on createIndexes.
+  void ensureMongoIndexes().catch(() => {});
 
-  const [papers, attempts, topicAttempts] = await Promise.all([
+  // Slim SSR: papers + latest attempt status only. Charts lazy-load via aggregation API.
+  const [papers, attempts] = await Promise.all([
     listPapers(),
     Attempt.find({ userId: userOid })
       .sort({ year: -1, attemptNumber: -1 })
       .select(
-        "year status score percentile estimatedRank attemptNumber wrongCount unattemptedCount correctCount subjectStats topicStats submittedAt startedAt",
+        "year status score percentile estimatedRank attemptNumber submittedAt",
       )
-      .lean(),
-    TopicAttempt.find({
-      userId: userOid,
-      status: { $in: ["submitted", "approved"] },
-      score: { $ne: null },
-    })
-      .sort({ submittedAt: -1 })
-      .select(
-        "topicId subject topic difficulty score wrongCount unattemptedCount correctCount subjectStats topicStats submittedAt startedAt sequenceLabel",
-      )
-      .limit(120)
       .lean(),
   ]);
 
@@ -73,102 +64,6 @@ export default async function DashboardPage({
       attemptNumber: a.attemptNumber ?? 1,
     };
   }
-
-  const scoredPapers = attempts.filter(
-    (a) =>
-      (a.status === "approved" || a.status === "submitted") &&
-      a.score != null &&
-      isMeaningfulAttempt({
-        correctCount: a.correctCount,
-        wrongCount: a.wrongCount,
-        subjectStats: a.subjectStats as Record<string, { partial?: number }> | null,
-      }),
-  );
-
-  const chartPoints = toDashPoints([
-    ...scoredPapers.map((a) => ({
-      id: String(a._id),
-      label: `NEET ${a.year} #${a.attemptNumber ?? 1}`,
-      kind: "paper" as const,
-      year: a.year,
-      score: a.score as number,
-      totalMarks: 720,
-      wrongCount: a.wrongCount,
-      unattemptedCount: a.unattemptedCount,
-      correctCount: a.correctCount,
-      submittedAt: a.submittedAt,
-      startedAt: a.startedAt,
-      subjectStats: a.subjectStats as Record<
-        string,
-        { correct?: number; wrong?: number; partial?: number }
-      > | null,
-    })),
-    ...topicAttempts.map((a) => {
-      const isNeetAi = String(a.topicId || "").startsWith("neet-ai");
-      return {
-        id: String(a._id),
-        label: isNeetAi
-          ? `NEET AI · ${a.difficulty}${a.sequenceLabel ? ` · ${a.sequenceLabel}` : ""}`
-          : `${a.subject} · ${a.topic} (${a.difficulty})`,
-        kind: (isNeetAi ? "neet-ai" : "topic") as "neet-ai" | "topic",
-        score: a.score as number,
-        totalMarks: Math.max(
-          40,
-          ((a.correctCount || 0) + (a.wrongCount || 0) + (a.unattemptedCount || 0)) *
-            4,
-        ),
-        wrongCount: a.wrongCount,
-        unattemptedCount: a.unattemptedCount,
-        correctCount: a.correctCount,
-        submittedAt: a.submittedAt,
-        startedAt: a.startedAt,
-        subjectStats: a.subjectStats as Record<
-          string,
-          { correct?: number; wrong?: number; partial?: number }
-        > | null,
-      };
-    }),
-  ]);
-
-  const topicAnalytics = buildTopicDashboardAnalytics(
-    scoredPapers.map((a) => ({
-      subjectStats: a.subjectStats as Record<
-        string,
-        { correct?: number; wrong?: number; unattempted?: number; partial?: number }
-      > | null,
-      topicStats: a.topicStats as {
-        topics?: Array<{
-          topic: string;
-          subject: string;
-          correct?: number;
-          wrong?: number;
-          unattempted?: number;
-          partial?: number;
-        }>;
-      } | null,
-    })),
-    topicAttempts.map((a) => ({
-      subject: a.subject,
-      topic: a.topic,
-      correctCount: a.correctCount,
-      wrongCount: a.wrongCount,
-      unattemptedCount: a.unattemptedCount,
-      subjectStats: a.subjectStats as Record<
-        string,
-        { correct?: number; wrong?: number; unattempted?: number; partial?: number }
-      > | null,
-      topicStats: a.topicStats as {
-        topics?: Array<{
-          topic: string;
-          subject: string;
-          correct?: number;
-          wrong?: number;
-          unattempted?: number;
-          partial?: number;
-        }>;
-      } | null,
-    })),
-  );
 
   return (
     <div className="desk-shell">
@@ -219,7 +114,7 @@ export default async function DashboardPage({
         )}
 
         <section id="performance" className="mb-10 scroll-mt-6">
-          <DashboardCharts points={chartPoints} topicAnalytics={topicAnalytics} />
+          <DashboardCharts lazy />
         </section>
 
         <section id="neet-ai" className="mb-10 scroll-mt-6">
@@ -266,8 +161,8 @@ export default async function DashboardPage({
             </span>
             <h2 className="desk-section-title">Competitions</h2>
             <p className="desk-kicker max-w-2xl">
-              Create a race, invite friends (they must signup), choose all-subjects or
-              one subject, difficulty, and 20 / 30 / 50 questions with matching time.
+              Create a race, copy a shareable join link, invite friends (they must
+              signup), choose scope, difficulty, and 20 / 30 / 50 questions.
             </p>
             <div className="mt-4 flex flex-wrap gap-3">
               <InstantLink
@@ -277,6 +172,13 @@ export default async function DashboardPage({
               >
                 <span className="btn-pencil__lead">Create competition</span>
                 <span className="btn-pencil__tip" aria-hidden />
+              </InstantLink>
+              <InstantLink
+                href="/competitions/join"
+                className="btn-ink-link"
+                showPending={false}
+              >
+                Join with link / code →
               </InstantLink>
               <InstantLink
                 href="/competitions"
