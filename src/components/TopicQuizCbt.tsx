@@ -211,7 +211,9 @@ export function TopicQuizCbt({
         data.resultsUrl ||
           (apiBase.includes("competitions")
             ? `/competitions/results/${attemptId}`
-            : `/topic-series/results/${attemptId}`),
+            : apiBase.includes("neet-ai")
+              ? `/neet-ai/results/${attemptId}`
+              : `/topic-series/results/${attemptId}`),
       );
       router.refresh();
     } catch {

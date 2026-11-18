@@ -1,0 +1,338 @@
+{
+  "dryRun": false,
+  "at": "2026-11-18T00:03:34.075Z",
+  "report": [
+    {
+      "email": "arnav@gmail.com",
+      "name": "Arnav",
+      "papers": [
+        {
+          "id": "6afb32462d650756180672b3",
+          "year": 2025,
+          "before": {
+            "score": 142,
+            "correctCount": 51,
+            "wrongCount": 62,
+            "unattemptedCount": 87
+          },
+          "after": {
+            "score": 355,
+            "correctCount": 93,
+            "wrongCount": 18,
+            "unattemptedCount": 88
+          },
+          "changed": true,
+          "missingKey": 3,
+          "meaningful": true
+        },
+        {
+          "id": "6afbc185f0780da824a6dad0",
+          "year": 2024,
+          "before": {
+            "score": 58,
+            "correctCount": 28,
+            "wrongCount": 54,
+            "unattemptedCount": 118
+          },
+          "after": {
+            "score": 243,
+            "correctCount": 65,
+            "wrongCount": 17,
+            "unattemptedCount": 118
+          },
+          "changed": true,
+          "missingKey": 3,
+          "meaningful": true
+        }
+      ],
+      "topics": [
+        {
+          "id": "6afc8998e63d2fb841a43ba4",
+          "topicId": "biology-human-physiology",
+          "difficulty": "Hard",
+          "before": {
+            "score": 78,
+            "correctCount": 21,
+            "wrongCount": 6,
+            "unattemptedCount": 3
+          },
+          "after": {
+            "score": 78,
+            "correctCount": 21,
+            "wrongCount": 6,
+            "unattemptedCount": 3
+          },
+          "changed": false
+        },
+        {
+          "id": "6afc93a78f9cb358aee821e4",
+          "topicId": "physics-electromagnetism",
+          "difficulty": "Medium",
+          "before": {
+            "score": 31,
+            "correctCount": 9,
+            "wrongCount": 5,
+            "unattemptedCount": 16
+          },
+          "after": {
+            "score": 31,
+            "correctCount": 9,
+            "wrongCount": 5,
+            "unattemptedCount": 16
+          },
+          "changed": false
+        },
+        {
+          "id": "6afc99e68f9cb358aee821e5",
+          "topicId": "physics-modern-physics",
+          "difficulty": "Medium",
+          "before": {
+            "score": 42,
+            "correctCount": 11,
+            "wrongCount": 2,
+            "unattemptedCount": 17
+          },
+          "after": {
+            "score": 42,
+            "correctCount": 11,
+            "wrongCount": 2,
+            "unattemptedCount": 17
+          },
+          "changed": false
+        }
+      ]
+    },
+    {
+      "email": "student@neet.local",
+      "name": "Demo Student",
+      "papers": [
+        {
+          "id": "6afae9e59f8b611392314695",
+          "year": 2023,
+          "before": {
+            "score": 4,
+            "correctCount": 1,
+            "wrongCount": 0,
+            "unattemptedCount": 199
+          },
+          "after": {
+            "score": 4,
+            "correctCount": 1,
+            "wrongCount": 0,
+            "unattemptedCount": 199
+          },
+          "changed": false,
+          "missingKey": 1,
+          "meaningful": true
+        },
+        {
+          "id": "6afaea009f8b611392314696",
+          "year": 2019,
+          "before": {
+            "score": -2,
+            "correctCount": 0,
+            "wrongCount": 2,
+            "unattemptedCount": 178
+          },
+          "after": {
+            "score": 3,
+            "correctCount": 1,
+            "wrongCount": 1,
+            "unattemptedCount": 178
+          },
+          "changed": true,
+          "missingKey": 3,
+          "meaningful": true
+        },
+        {
+          "id": "6afb37e52274016a688249e6",
+          "year": 2024,
+          "before": {
+            "score": -1,
+            "correctCount": 0,
+            "wrongCount": 1,
+            "unattemptedCount": 199
+          },
+          "after": {
+            "score": -1,
+            "correctCount": 0,
+            "wrongCount": 1,
+            "unattemptedCount": 199
+          },
+          "changed": false,
+          "missingKey": 3,
+          "meaningful": true
+        },
+        {
+          "id": "6afb55d520648666ebfabf84",
+          "year": 2023,
+          "before": {
+            "score": 0,
+            "correctCount": 0,
+            "wrongCount": 0,
+            "unattemptedCount": 200
+          },
+          "after": {
+            "score": 0,
+            "correctCount": 0,
+            "wrongCount": 0,
+            "unattemptedCount": 200
+          },
+          "changed": false,
+          "missingKey": 1,
+          "meaningful": false
+        },
+        {
+          "id": "6afb55d920648666ebfabf85",
+          "year": 2025,
+          "before": {
+            "score": 0,
+            "correctCount": 0,
+            "wrongCount": 0,
+            "unattemptedCount": 200
+          },
+          "after": {
+            "score": 0,
+            "correctCount": 0,
+            "wrongCount": 0,
+            "unattemptedCount": 200
+          },
+          "changed": false,
+          "missingKey": 3,
+          "meaningful": false
+        },
+        {
+          "id": "6afbbda9f3c48b86772525e2",
+          "year": 2019,
+          "before": {
+            "score": -1,
+            "correctCount": 0,
+            "wrongCount": 1,
+            "unattemptedCount": 179
+          },
+          "after": {
+            "score": -1,
+            "correctCount": 0,
+            "wrongCount": 1,
+            "unattemptedCount": 179
+          },
+          "changed": false,
+          "missingKey": 3,
+          "meaningful": true
+        },
+        {
+          "id": "6afbbdf48a9e30605729aec3",
+          "year": 2024,
+          "before": {
+            "score": 4,
+            "correctCount": 1,
+            "wrongCount": 0,
+            "unattemptedCount": 199
+          },
+          "after": {
+            "score": 4,
+            "correctCount": 1,
+            "wrongCount": 0,
+            "unattemptedCount": 199
+          },
+          "changed": false,
+          "missingKey": 3,
+          "meaningful": true
+        },
+        {
+          "id": "6afbbe018a9e30605729aec4",
+          "year": 2019,
+          "before": {
+            "score": 0,
+            "correctCount": 0,
+            "wrongCount": 0,
+            "unattemptedCount": 180
+          },
+          "after": {
+            "score": 0,
+            "correctCount": 0,
+            "wrongCount": 0,
+            "unattemptedCount": 180
+          },
+          "changed": false,
+          "missingKey": 3,
+          "meaningful": false
+        }
+      ],
+      "topics": [
+        {
+          "id": "6afc065f9c2bc217c3e9b1fc",
+          "topicId": "biology-biology-general",
+          "difficulty": "Easy",
+          "before": {
+            "score": -1,
+            "correctCount": 1,
+            "wrongCount": 5,
+            "unattemptedCount": 44
+          },
+          "after": {
+            "score": -1,
+            "correctCount": 1,
+            "wrongCount": 5,
+            "unattemptedCount": 44
+          },
+          "changed": false
+        },
+        {
+          "id": "6afc46744c1416644abb3f70",
+          "topicId": "chemistry-inorganic-chemistry",
+          "difficulty": "Easy",
+          "before": {
+            "score": 0,
+            "correctCount": 6,
+            "wrongCount": 24,
+            "unattemptedCount": 0
+          },
+          "after": {
+            "score": 0,
+            "correctCount": 6,
+            "wrongCount": 24,
+            "unattemptedCount": 0
+          },
+          "changed": false
+        },
+        {
+          "id": "6afc52c2850b7e858418e69f",
+          "topicId": "biology-biology-general",
+          "difficulty": "Easy",
+          "before": {
+            "score": 5,
+            "correctCount": 2,
+            "wrongCount": 3,
+            "unattemptedCount": 25
+          },
+          "after": {
+            "score": 5,
+            "correctCount": 2,
+            "wrongCount": 3,
+            "unattemptedCount": 25
+          },
+          "changed": false
+        },
+        {
+          "id": "6afc538cbc82275b6b9b2229",
+          "topicId": "physics-electromagnetism",
+          "difficulty": "Easy",
+          "before": {
+            "score": 10,
+            "correctCount": 8,
+            "wrongCount": 22,
+            "unattemptedCount": 0
+          },
+          "after": {
+            "score": 10,
+            "correctCount": 8,
+            "wrongCount": 22,
+            "unattemptedCount": 0
+          },
+          "changed": false
+        }
+      ]
+    }
+  ]
+}

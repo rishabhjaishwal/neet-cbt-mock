@@ -1,0 +1,64 @@
+{
+  "clusters": 3869,
+  "accepted": 1372,
+  "conflicts": 801,
+  "lowConfidence": 1696,
+  "shipped": {
+    "Easy": {
+      "count": 450,
+      "packs": 15,
+      "subjects": {
+        "Physics": 96,
+        "Chemistry": 97,
+        "Biology": 257
+      },
+      "sources": {
+        "authored-ncert": 145,
+        "md-year": 133,
+        "topic-bank": 302,
+        "hf-dipika": 76,
+        "hf-sweat": 121,
+        "hf-catch": 16,
+        "solution-text": 1,
+        "assistant-text": 1
+      }
+    },
+    "Medium": {
+      "count": 450,
+      "packs": 15,
+      "subjects": {
+        "Physics": 96,
+        "Chemistry": 104,
+        "Biology": 250
+      },
+      "sources": {
+        "hf-dipika": 44,
+        "topic-bank": 316,
+        "md-year": 125,
+        "hf-sweat": 141,
+        "hf-catch": 27,
+        "authored-ncert": 130,
+        "solution-text": 1,
+        "assistant-text": 2
+      }
+    },
+    "Hard": {
+      "count": 450,
+      "packs": 15,
+      "subjects": {
+        "Physics": 201,
+        "Chemistry": 109,
+        "Biology": 140
+      },
+      "sources": {
+        "authored-ncert": 157,
+        "topic-bank": 286,
+        "hf-catch": 18,
+        "md-year": 242,
+        "hf-sweat": 6,
+        "hf-dipika": 62,
+        "solution-text": 4
+      }
+    }
+  }
+}
