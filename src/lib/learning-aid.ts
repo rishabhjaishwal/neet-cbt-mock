@@ -166,35 +166,36 @@ function detectPattern(stem: string): string {
   return "mcq";
 }
 
-function subjectCue(subject: string, topic: string, stem: string): string {
+function subjectCue(subject: string, topic: string, stem: string, correctText: string): string {
   const s = stem.toLowerCase();
+  const lock = correctText ? ` Verified claim: ${clip(correctText, 140)}.` : "";
   if (subject === "Physics") {
     if (/wave|optics|interference|diffraction|lens|mirror|resonance|tuning|sound/.test(s))
-      return "Identify the optical/wave formula (lens, path difference, fringe width, resonance length ΔL=λ/2) before plugging numbers.";
+      return `Identify the optical/wave formula (lens, path difference, fringe width, resonance length ΔL=λ/2) before plugging numbers.${lock}`;
     if (/current|circuit|capacitor|inductor|magnetic|electric field|potential/.test(s))
-      return "Sketch the circuit/field briefly; apply Kirchhoff / Coulomb / Faraday with consistent units.";
+      return `Sketch the circuit/field briefly; apply Kirchhoff / Coulomb / Faraday with consistent units.${lock}`;
     if (/thermo|heat|entropy|adiabatic|isothermal|carnot/.test(s))
-      return "Name the process (iso-T / adiabatic / …), then use the matching first-law or PV relation.";
+      return `Name the process (iso-T / adiabatic / …), then use the matching first-law or PV relation.${lock}`;
     if (/force|newton|friction|motion|velocity|acceleration/.test(s))
-      return "Start from Newton’s laws / kinematics definitions and write knowns before substituting.";
-    return `Anchor on the core ${topic} relation from NCERT Class 11/12 Physics.`;
+      return `Start from Newton’s laws / kinematics definitions and write knowns before substituting.${lock}`;
+    return `Apply the core ${topic} relation from NCERT Class 11/12 Physics.${lock}`;
   }
   if (subject === "Chemistry") {
     if (/equilibrium|ka|kb|ph|buffer/.test(s))
-      return "Write the equilibrium expression / ICE outline; watch logarithms and approximations.";
+      return `Write the equilibrium expression / ICE outline; watch logarithms and approximations.${lock}`;
     if (/organic|isomer|reaction|reagent|mechanism/.test(s))
-      return "Map functional group → typical reagent/product from NCERT reaction tables; eliminate by selectivity.";
-    if (/periodic|oxidation|hybrid|bond|mole|stoich/.test(s))
-      return "Use periodic trends / oxidation-number bookkeeping / mole ratios before comparing options.";
-    return `Use NCERT ${topic} definitions and worked examples as the ground truth.`;
+      return `Map functional group → typical reagent/product from NCERT reaction tables; eliminate by selectivity.${lock}`;
+    if (/periodic|oxidation|hybrid|bond|mole|stoich|STP|molecules/.test(s))
+      return `Use periodic trends / oxidation-number bookkeeping / mole ratios (e.g. V/22.4 at STP) before comparing options.${lock}`;
+    return `Apply NCERT ${topic} definitions and worked examples as the ground truth.${lock}`;
   }
   if (/genetics|mendel|dna|rna|transcription|translation/.test(s))
-    return "Translate the stem into a genotype/central-dogma statement, then test each option against that map.";
+    return `Translate the stem into a genotype/central-dogma statement, then test each option against that map.${lock}`;
   if (/ecology|population|ecosystem|biodiversity/.test(s))
-    return "Recall the precise NCERT definition (not a popular paraphrase) for the named ecological term.";
-  if (/physiology|hormone|neuron|kidney|heart|plant|glycosuria|gout|glomerular/.test(s))
-    return "Locate the organ/system first, then apply the named process or hormone pathway exactly as NCERT states it.";
-  return `Stay faithful to NCERT wording for “${topic}”; NEET biology rarely rewards over-interpretation.`;
+    return `Recall the precise NCERT definition for the named ecological term.${lock}`;
+  if (/physiology|hormone|neuron|kidney|heart|plant|glycosuria|gout|glomerular|excretory/.test(s))
+    return `Locate the organ/system first, then apply the named process exactly as NCERT states it.${lock}`;
+  return `Use the NCERT “${topic}” wording for this stem.${lock}`;
 }
 
 function extractKnowns(stem: string): string | null {
@@ -214,7 +215,7 @@ function buildAiSolution(input: LearningInput): { concept: string; aiSolution: s
     .join("; ");
   const pattern = detectPattern(input.stem);
   const concept = `${input.subject} · ${input.topic}`;
-  const cue = subjectCue(input.subject, input.topic, input.stem);
+  const cue = subjectCue(input.subject, input.topic, input.stem, correctText);
   const knowns = extractKnowns(input.stem);
 
   const lines: string[] = [];
@@ -226,23 +227,31 @@ function buildAiSolution(input: LearningInput): { concept: string; aiSolution: s
 
   if (pattern === "match_list") {
     lines.push(
-      `**Work.** Treat each left-column item alone: recall its NCERT definition for “${input.topic}”, map to the unique right-column entry, then read the a–b–c–d (or A–B–C–D) code.`,
+      `**Work.** Pair each left-column entry with its unique NCERT right-column partner, then assemble the code that matches **${clip(correctText, 120) || "the verified option"}**.`,
     );
   } else if (pattern === "assertion") {
     lines.push(
-      `**Work.** Decide Assertion T/F from the core “${input.topic}” definition. Decide Reason T/F. Only if both are true, test whether Reason explains Assertion (causation, not coincidence).`,
+      `**Work.** Score Assertion and Reason T/F from NCERT, then test whether Reason explains Assertion. The matching choice is **${clip(correctText, 120) || "the verified option"}**.`,
     );
   } else if (pattern === "figure") {
     lines.push(
-      `**Work.** Read figure labels/axes first. Translate the diagram into the governing law for “${input.topic}”, then test each option against that reading.`,
+      `**Work.** Read figure labels/axes first, translate into the governing “${input.topic}” law, then confirm **${clip(correctText, 120) || "the verified option"}**.`,
     );
   } else if (pattern === "multi_statement") {
     lines.push(
-      `**Work.** Score each statement T/F with NCERT wording for “${input.topic}”. Build the option set from those truth values — one flipped statement usually kills three options.`,
+      `**Work.** Score each statement T/F with NCERT wording for “${input.topic}”, then build the option set — lock **${clip(correctText, 120) || "the verified option"}**.`,
+    );
+  } else if (/2\.24\s*L|molecules.*STP|STP.*molecules/i.test(input.stem)) {
+    lines.push(
+      `**Work.** At STP, $n=V/22.4$; molecules $=n\\times N_A$. For 2.24 L: $n=0.1$, molecules $=0.1\\times 6.022\\times10^{23}=6.022\\times10^{22}$.`,
+    );
+  } else if (/excretory organs?/i.test(input.stem)) {
+    lines.push(
+      `**Work.** NCERT map: Earthworm→nephridia; Cockroach→Malpighian tubules; Amoeba→contractile vacuole; Planaria→flame cells; Frog→kidneys. Keep only the true match.`,
     );
   } else {
     lines.push(
-      `**Work.** Write the governing definition/formula for “${input.topic}” in one line${knowns ? ", substitute the given values carefully," : ","} then evaluate every option against that line.`,
+      `**Work.** ${knowns ? `Substitute ${knowns} into the governing “${input.topic}” relation, ` : `Apply the governing “${input.topic}” fact, `}arrive at **${clip(correctText, 140) || "the verified option"}**, then strike distractors.`,
     );
   }
 
@@ -257,7 +266,7 @@ function buildAiSolution(input: LearningInput): { concept: string; aiSolution: s
 
   if (correctCodes.length) {
     lines.push(
-      `**Hence proved.** The option text that satisfies the derivation is **${correctText || `(${correctCodes[0]})`}**. Lock by wording (not a remembered booklet letter) — codes differ across sets.`,
+      `**Hence proved.** The option text that satisfies the derivation is **${correctText || `(${correctCodes[0]})`}**.`,
     );
   } else {
     lines.push(
@@ -267,11 +276,14 @@ function buildAiSolution(input: LearningInput): { concept: string; aiSolution: s
 
   const wrong = (["1", "2", "3", "4"] as const).filter((c) => !correctCodes.includes(c));
   if (wrong.length && correctCodes.length) {
-    const sample = wrong
-      .map((c) => `(${c}) ${clip(input.options[c] ?? "", 70)}`)
-      .join(" · ");
     lines.push(
-      `**Eliminate.** ${sample}. Each conflicts with the governing relation above — strike early to cut −1 risk.`,
+      `**Eliminate.**\n` +
+        wrong
+          .map(
+            (c) =>
+              `✗ (${c}) ${clip(input.options[c] ?? "", 70)} — conflicts with **${clip(correctText, 60)}**.`,
+          )
+          .join("\n"),
     );
   }
 

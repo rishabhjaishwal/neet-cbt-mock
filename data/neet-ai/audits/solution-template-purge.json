@@ -1,0 +1,145 @@
+{
+  "dryRun": false,
+  "neetAiRewrites": 1,
+  "topicRewrites": 0,
+  "yearRewrites": 0,
+  "totalRewrites": 1,
+  "keyFixes": 0,
+  "stillWeak": 0,
+  "sampleRewrites": [
+    {
+      "id": "catch-43013efae5",
+      "bucket": "neet-ai:medium.json",
+      "stem": "[NEET 2021 | Chemistry] The number of molecules in 2.24 L of any gas at STP is:",
+      "correctOption": "2",
+      "weakBefore": true,
+      "keyChanged": false,
+      "preview": "**Identify.** [NEET 2021 | Chemistry] The number of molecules in 2.24 L of any gas at STP is: **Concept.** At STP, 1 mol of any ideal gas occupies 22.4 L and contains Avogadro’s n…"
+    },
+    {
+      "id": "2020-E1-Q79",
+      "bucket": "topic:biology-biology-general.json",
+      "stem": "Match the following columns and select the correct option. Column - I Column - II (a) Eosinophils (…",
+      "correctOption": "1",
+      "weakBefore": false,
+      "keyChanged": false,
+      "preview": "**Identify.** Match the following columns and select the correct option. Column - I Column - II (a) Eosinophils (i) Immune response (b) Basophils (ii) Phagocytosis (c) Neutrophils…"
+    },
+    {
+      "id": "2021-M1-Q199",
+      "bucket": "topic:biology-biology-general.json",
+      "stem": "Match List - I with List - II. List - I List - II (a) Allen's Rule (i) Kangaroo rat Physiological (…",
+      "correctOption": "1",
+      "weakBefore": false,
+      "keyChanged": false,
+      "preview": "**Identify.** Match List - I with List - II. List - I List - II (a) Allen's Rule (i) Kangaroo rat Physiological (b) (ii) Desert lizard adaptation Behavioural (c) (iii) Marine fish…"
+    },
+    {
+      "id": "2021-M1-Q125",
+      "bucket": "topic:biology-biology-general.json",
+      "stem": "Match List - I with List - II. List - I List - II (a) Lenticels (i) Phellogen (b) Cork cambium (ii)…",
+      "correctOption": "1",
+      "weakBefore": false,
+      "keyChanged": false,
+      "preview": "**Identify.** Match List - I with List - II. List - I List - II (a) Lenticels (i) Phellogen (b) Cork cambium (ii) Suberin deposition (c) Secondary cortex (iii) Exchange of gases (…"
+    },
+    {
+      "id": "2021-M1-Q152",
+      "bucket": "topic:biology-biology-general.json",
+      "stem": "Match List - I with List - II. List - I List - II (a) Metamerism (i) Coelenterata (b) Canal system …",
+      "correctOption": "1",
+      "weakBefore": false,
+      "keyChanged": false,
+      "preview": "**Identify.** Match List - I with List - II. List - I List - II (a) Metamerism (i) Coelenterata (b) Canal system (ii) Ctenophora (c) Comb plates (iii) Annelida (d) Cnidoblasts (iv…"
+    },
+    {
+      "id": "2018-AA-Q57",
+      "bucket": "topic:biology-biology-general.json",
+      "stem": "Match the items given in Column I with those in Column II and select the correct option given below…",
+      "correctOption": "1",
+      "weakBefore": false,
+      "keyChanged": false,
+      "preview": "**Identify.** Match the items given in Column I with those in Column II and select the correct option given below : Column I Column II a. Eutrophication i. UV-B radiation b. Sanit…"
+    },
+    {
+      "id": "2018-AA-Q136",
+      "bucket": "topic:biology-biology-general.json",
+      "stem": "Which of the following statements is not true for halogens ?",
+      "correctOption": "3",
+      "weakBefore": false,
+      "keyChanged": false,
+      "preview": "**Identify.** Which of the following statements is not true for halogens ? **Concept.** NCERT “Biology General” fact for this stem: **Chlorine has the highest electron-gain enthal…"
+    },
+    {
+      "id": "2021-M1-Q104",
+      "bucket": "topic:biology-biology-general.json",
+      "stem": "Match List - I with List - II. List - I List - II (a) Lenticels (i) Phellogen (b) Cork cambium (ii)…",
+      "correctOption": "1",
+      "weakBefore": false,
+      "keyChanged": false,
+      "preview": "**Identify.** Match List - I with List - II. List - I List - II (a) Lenticels (i) Phellogen (b) Cork cambium (ii) Suberin deposition (c) Secondary cortex (iii) Exchange of gases (…"
+    }
+  ],
+  "keyFixSample": [],
+  "stillWeakSample": [],
+  "files": [
+    {
+      "file": "data/neet-ai/banks/easy.json",
+      "rewrites": 0,
+      "total": 450
+    },
+    {
+      "file": "data/neet-ai/banks/medium.json",
+      "rewrites": 1,
+      "total": 450
+    },
+    {
+      "file": "data/neet-ai/banks/hard.json",
+      "rewrites": 0,
+      "total": 450
+    },
+    {
+      "file": "content/papers/neet-2016.key.md",
+      "rewrites": 0
+    },
+    {
+      "file": "content/papers/neet-2017.key.md",
+      "rewrites": 0
+    },
+    {
+      "file": "content/papers/neet-2018.key.md",
+      "rewrites": 0
+    },
+    {
+      "file": "content/papers/neet-2019.key.md",
+      "rewrites": 0
+    },
+    {
+      "file": "content/papers/neet-2020.key.md",
+      "rewrites": 0
+    },
+    {
+      "file": "content/papers/neet-2021.key.md",
+      "rewrites": 0
+    },
+    {
+      "file": "content/papers/neet-2022.key.md",
+      "rewrites": 0
+    },
+    {
+      "file": "content/papers/neet-2023.key.md",
+      "rewrites": 0
+    },
+    {
+      "file": "content/papers/neet-2024.key.md",
+      "rewrites": 0
+    },
+    {
+      "file": "content/papers/neet-2025.key.md",
+      "rewrites": 0
+    }
+  ],
+  "allKeyFixes": [],
+  "stillWeakIds": [],
+  "rewriteCount": 36
+}
