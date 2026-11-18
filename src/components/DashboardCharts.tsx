@@ -34,7 +34,6 @@ function PerformanceLineChart({ points }: { points: DashAttemptPoint[] }) {
   const pad = { t: 24, r: 16, b: 36, l: 44 };
   const innerW = W - pad.l - pad.r;
   const innerH = H - pad.t - pad.b;
-  const maxY = 100;
   const minY = 0;
   const spanY = 100;
   const n = points.length;

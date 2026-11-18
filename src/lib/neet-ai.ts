@@ -75,7 +75,7 @@ export async function loadNeetAiBank(
 export async function listNeetAiCatalog(): Promise<NeetAiCatalogEntry[]> {
   const diffs: TopicDifficulty[] = ["Easy", "Medium", "Hard"];
   const out: NeetAiCatalogEntry[] = [];
-  let catalogSubjects: Record<string, Record<string, number>> = {};
+  const catalogSubjects: Record<string, Record<string, number>> = {};
   try {
     const raw = await readFile(path.join(ROOT, "catalog.json"), "utf8");
     const cat = JSON.parse(raw) as {
