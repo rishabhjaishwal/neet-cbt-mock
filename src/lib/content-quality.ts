@@ -96,9 +96,16 @@ export function listQualityIssues(q: QualitySubject): QualityIssue[] {
     issues.push("option-mash");
   }
 
-  const noise = (stem.match(/[^A-Za-z0-9\s.,;:?'"()\-+/=%°μµΔδθαβγλσω_]/g) || [])
+  // Strip KaTeX/TeX before noise ratio — RE-NEET / PYQ stems are math-heavy and
+  // must not be false-flagged as OCR junk ($, \, {, }, ^, _).
+  const stemForNoise = stem
+    .replace(/\$\$[\s\S]*?\$\$/g, " ")
+    .replace(/\$[^$]*\$/g, " ")
+    .replace(/\\[a-zA-Z]+\*?/g, " ")
+    .replace(/[{}^_]/g, " ");
+  const noise = (stemForNoise.match(/[^A-Za-z0-9\s.,;:?'"()\-+/=%°μµΔδθαβγλσω_]/g) || [])
     .length;
-  if (stem.length > 50 && noise / stem.length > 0.14) {
+  if (stemForNoise.replace(/\s+/g, "").length > 50 && noise / Math.max(stemForNoise.length, 1) > 0.14) {
     issues.push("noisy-stem");
   }
 

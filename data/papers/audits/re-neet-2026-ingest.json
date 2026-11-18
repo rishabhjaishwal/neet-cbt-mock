@@ -29,5 +29,8 @@
   "builtAt": "2026-11-18T10:48:52.962778+00:00",
   "omitted": [
     43
-  ]
+  ],
+  "contentVersion": 28,
+  "studentServedAfterQualityGate": 179,
+  "qualityGateNote": "CV28: strip KaTeX before noisy-stem ratio so LaTeX-heavy stems (Q14/30/37/47/59/64) are not false-dropped"
 }
